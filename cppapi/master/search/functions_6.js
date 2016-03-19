@@ -110,6 +110,7 @@ var searchData=
   ['focuswindowcondition',['FocusWindowCondition',['../d9/d2a/classFocusWindowCondition.html#a29fd384a4e744601176f417add488af7',1,'FocusWindowCondition']]],
   ['focuswindowisa',['FocusWindowIsA',['../da/dd9/classFocusWindowIsA.html#a56fa1a49cf26c5abef4fc86fcfd9af89',1,'FocusWindowIsA']]],
   ['followreference',['FollowReference',['../d7/d17/namespaceanonymous__namespace_02ValueRef_8cpp_03.html#a882b304fb7e263c5ab2b159660c08c84',1,'anonymous_namespace{ValueRef.cpp}']]],
+  ['fontbasedupscale',['FontBasedUpscale',['../d4/db1/ClientUI_8cpp.html#a6db105d587d80191cbfce8c642646f23',1,'FontBasedUpscale(int x):&#160;ClientUI.cpp'],['../df/dce/ClientUI_8h.html#a6db105d587d80191cbfce8c642646f23',1,'FontBasedUpscale(int x):&#160;ClientUI.cpp']]],
   ['fontoption',['FontOption',['../dc/df2/classOptionsWnd.html#a6b38d6f80c22488222e216e6f34566f1',1,'OptionsWnd']]],
   ['fontsize',['FontSize',['../d2/d58/classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a9c9d1cb8b7d4a77076732f43fd60ea36',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['fonttexturewnd',['FontTextureWnd',['../d0/de2/classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a005106caf2556503dde137901f842339',1,'anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd']]],

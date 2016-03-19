@@ -14,6 +14,7 @@ var searchData=
   ['defaultlinkcolor',['DefaultLinkColor',['../d9/d79/classClientUI.html#a7598ede279fab4960b5b65a041028faf',1,'ClientUI']]],
   ['defaultlocationforempire',['DefaultLocationForEmpire',['../d5/db2/namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ae69d6acf1cd951783cc2a181829c62a3',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['defaultvaluetostring',['DefaultValueToString',['../de/d2c/structOptionsDB_1_1Option.html#a6c0367ed1c506b778bf24b6a273e1967',1,'OptionsDB::Option']]],
+  ['defaultwidth',['DefaultWidth',['../d4/d0c/classGalaxySetupPanel.html#a8bfd476a7c15cfc8e37e140a1e202dc6',1,'GalaxySetupPanel']]],
   ['defense',['Defense',['../db/dd4/classShipDesign.html#a6416a963c8afc838a575846a372406a0',1,'ShipDesign']]],
   ['definedhotkeys',['DefinedHotkeys',['../d6/d28/classHotkey.html#a75d9e3b71a6da85897020c8841b30899',1,'Hotkey']]],
   ['degree',['Degree',['../df/da9/classDegree.html#a682448dac9d2292ea0ff765373eac216',1,'Degree::Degree()'],['../df/da9/classDegree.html#a6c99ccd1007e9dd7c14c9a3a8ccaf443',1,'Degree::Degree(float f)']]],
