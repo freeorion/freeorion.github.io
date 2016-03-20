@@ -36,6 +36,7 @@ var searchData=
   ['vartext',['VarText',['../d6/d1e/classVarText.html',1,'']]],
   ['vertex',['Vertex',['../da/d78/structMapWnd_1_1MovementLineData_1_1Vertex.html',1,'MapWnd::MovementLineData']]],
   ['vertex_5fsystem_5fid_5ft',['vertex_system_id_t',['../da/d01/structSystemPathing_1_1vertex__system__id__t.html',1,'SystemPathing']]],
+  ['victory',['Victory',['../d3/d4d/classEffect_1_1Victory.html',1,'Effect']]],
   ['visibletoempire',['VisibleToEmpire',['../d0/d82/structCondition_1_1VisibleToEmpire.html',1,'Condition']]],
   ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../d5/db1/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1VisibleToEmpireSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['visiblewindowcondition',['VisibleWindowCondition',['../da/dc2/classVisibleWindowCondition.html',1,'']]]

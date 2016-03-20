@@ -2,8 +2,8 @@ var searchData=
 [
   ['tags_5frule',['tags_rule',['../de/d60/namespaceparse_1_1detail.html#a954d61afa5ec0ebb285bf21ac0c0eeef',1,'parse::detail']]],
   ['tagstring',['TagString',['../dc/d52/namespaceanonymous__namespace_02VarText_8cpp_03.html#aa996124c2308d39f38076e4cb0db3d51',1,'anonymous_namespace{VarText.cpp}']]],
-  ['targetscauses',['TargetsCauses',['../d3/df0/classEffect.html#a89b261779c91af90e9b5a3dc8f006b5b',1,'Effect::TargetsCauses()'],['../d3/df0/classEffect.html#a89b261779c91af90e9b5a3dc8f006b5b',1,'Effect::TargetsCauses()']]],
-  ['targetset',['TargetSet',['../d3/df0/classEffect.html#ac3d3a76bc9997e47b0dd463eaea330d8',1,'Effect::TargetSet()'],['../d3/df0/classEffect.html#ac3d3a76bc9997e47b0dd463eaea330d8',1,'Effect::TargetSet()']]],
+  ['targetscauses',['TargetsCauses',['../d7/d24/namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641',1,'Effect']]],
+  ['targetset',['TargetSet',['../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832',1,'Effect']]],
   ['tech_5finfo_5fname_5fdesc_5frule',['tech_info_name_desc_rule',['../d1/de5/structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a0fffbb609d4b8d77d1cdae379abfa1fa',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
   ['tech_5finfo_5frule',['tech_info_rule',['../d1/de5/structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a7b141d668475e3213207c23b1d665ac0',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
   ['tech_5frule',['tech_rule',['../d1/de5/structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a755a7a74ddcb9278de0db92b9c767d27',1,'anonymous_namespace{TechsParser.cpp}::rules']]],

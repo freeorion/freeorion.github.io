@@ -48,7 +48,7 @@ var searchData=
   ['vertical_5fsection_5fgap',['VERTICAL_SECTION_GAP',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a899f691b1e11f2d777a4a374930ae4de',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['verts',['Verts',['../d1/d86/classDelauney_1_1DTTriangle.html#a8916366f2d2b7da2cd0833d530d2ac64',1,'Delauney::DTTriangle']]],
   ['very_5ffar_5fdown_5flayout_5fsurface',['VERY_FAR_DOWN_LAYOUT_SURFACE',['../d8/d77/namespaceanonymous__namespace_02MarkupBox_8cpp_03.html#ab001466163967b478f1d09b14dfe4677',1,'anonymous_namespace{MarkupBox.cpp}']]],
-  ['victory',['Victory',['../d3/df0/classEffect.html#af0d2b2b749f5382488ec8a89203f8b3d',1,'Effect']]],
+  ['victory',['Victory',['../d3/d4d/classEffect_1_1Victory.html#aa9650ecce822ba564eeaa10628f20fd9',1,'Effect::Victory']]],
   ['visibilities',['Visibilities',['../d4/d87/classObjectListBox.html#af68f1b68dabaa26034d3e0eb8cab690f',1,'ObjectListBox']]],
   ['visiblecontainedobjectids',['VisibleContainedObjectIDs',['../d4/d76/classUniverseObject.html#a47bab128ba57d639bd19eaaf16a025b9',1,'UniverseObject']]],
   ['visiblestarlanes',['VisibleStarlanes',['../d2/d2e/classEmpire.html#a65b69e4ce51a70f3d91395f963d1f770',1,'Empire']]],

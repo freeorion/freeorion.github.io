@@ -212,7 +212,7 @@ var searchData=
   ['print_5fhelp',['print_help',['../df/dac/test_8cpp.html#a853216ac51aa181669ff4d3de74058a7',1,'print_help():&#160;test.cpp'],['../d2/ddc/test_8h.html#a853216ac51aa181669ff4d3de74058a7',1,'print_help():&#160;test.cpp']]],
   ['print_5fprefix',['print_prefix',['../d6/dc4/structgcc__log__formatter.html#a1c96c377397f69464fe57ae9cefec203',1,'gcc_log_formatter']]],
   ['printtree',['printTree',['../d8/d72/structValueRefDoubleFixture.html#a0f3a443392312028336352fe018ec10c',1,'ValueRefDoubleFixture::printTree()'],['../d0/d48/structValueRefIntFixture.html#a74b2b037e6062bbfcd2bda114f317460',1,'ValueRefIntFixture::printTree()']]],
-  ['priority',['Priority',['../d3/df0/classEffect.html#a7ced27a9996cde47970c8fdd134a9280',1,'Effect']]],
+  ['priority',['Priority',['../d1/dfd/classEffect_1_1EffectsGroup.html#a98865d2e49fa8f71c2e2b98144ba1b57',1,'Effect::EffectsGroup']]],
   ['priorityvalue',['PriorityValue',['../d9/df5/Logger_8cpp.html#a2812abf2807d4388b3dc77622b779afa',1,'PriorityValue(const std::string &amp;name):&#160;Logger.cpp'],['../dd/da4/Logger_8h.html#a4716a84084b01c8a79bd101894e5a6c0',1,'PriorityValue(const std::string &amp;name):&#160;Logger.cpp']]],
   ['privatenamedhotkey',['PrivateNamedHotkey',['../d6/d28/classHotkey.html#a5ee2d151753a15848c1a229fa75cbcd2',1,'Hotkey']]],
   ['process',['Process',['../df/d30/classProcess.html#a9f4553eac74c657bb451f390c17d6bea',1,'Process::Process()'],['../df/d30/classProcess.html#adb6940c595796616a5fc11025714c8b0',1,'Process::Process(const std::string &amp;cmd, const std::vector&lt; std::string &gt; &amp;argv)']]],

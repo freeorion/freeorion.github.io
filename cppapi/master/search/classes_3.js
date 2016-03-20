@@ -11,6 +11,7 @@ var searchData=
   ['designhaspartclasssimplematch',['DesignHasPartClassSimpleMatch',['../d1/d4d/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1DesignHasPartClassSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['designhaspartsimplematch',['DesignHasPartSimpleMatch',['../d6/d06/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1DesignHasPartSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['designwnd',['DesignWnd',['../d3/d10/classDesignWnd.html',1,'']]],
+  ['destroy',['Destroy',['../d9/d5e/classEffect_1_1Destroy.html',1,'Effect']]],
   ['destroyuniverseobject',['DestroyUniverseObject',['../d5/dbf/classModerator_1_1DestroyUniverseObject.html',1,'Moderator']]],
   ['diplomaticmessage',['DiplomaticMessage',['../d2/dad/classDiplomaticMessage.html',1,'']]],
   ['diplomaticstatusupdateinfo',['DiplomaticStatusUpdateInfo',['../d1/d25/structDiplomaticStatusUpdateInfo.html',1,'']]],
