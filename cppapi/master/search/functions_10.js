@@ -260,7 +260,7 @@ var searchData=
   ['propegatedsupplyranges',['PropegatedSupplyRanges',['../dc/db3/classSupplyManager.html#a34b8400c727f149a2683e9f5a7254602',1,'SupplyManager']]],
   ['propegatevisibilitytocontainerobjects',['PropegateVisibilityToContainerObjects',['../da/d3e/namespaceanonymous__namespace_02Universe_8cpp_03.html#a18da0219cf3683ef5ea44816bf51a408',1,'anonymous_namespace{Universe.cpp}']]],
   ['propegatevisibilitytosystemsalongstarlanes',['PropegateVisibilityToSystemsAlongStarlanes',['../da/d3e/namespaceanonymous__namespace_02Universe_8cpp_03.html#a5453578be06495598e30ba39c2e037af',1,'anonymous_namespace{Universe.cpp}']]],
-  ['propertyname',['PropertyName',['../d4/d85/structValueRef.html#a38979e0aeab0761a15fe27b13068d25d',1,'ValueRef']]],
+  ['propertyname',['PropertyName',['../dc/d3d/structValueRef_1_1Variable.html#ad16a071af836567a5356dbaa1a7d5198',1,'ValueRef::Variable']]],
   ['pts',['Pts',['../d9/d79/classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b',1,'ClientUI']]],
   ['publicname',['PublicName',['../d7/d24/classField.html#a50d1013afdea91023c2307cdb77f15b1',1,'Field::PublicName()'],['../d8/d16/classFleet.html#a6330143ada061fc97aded7aa5428b9ff',1,'Fleet::PublicName()'],['../d2/d32/classShip.html#ac3e4ff2987572847e40234a11adb3cf0',1,'Ship::PublicName()'],['../d4/d76/classUniverseObject.html#a2b123db572348334117ba66d78165abd',1,'UniverseObject::PublicName()']]],
   ['publicnamelink',['PublicNameLink',['../d4/db9/namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a2bb7bc6d65f5abdf6a49129a2c3b270d',1,'anonymous_namespace{CombatLogWnd.cpp}']]],

@@ -6,7 +6,7 @@ var searchData=
   ['namedsignal',['NamedSignal',['../d2/d66/classHotkeyManager.html#ae740b29742b8ab56116511b8403a5f5d',1,'HotkeyManager']]],
   ['nameedited',['NameEdited',['../da/d9c/classServerConnectWnd.html#a27fe892ffece098f9d9e8af0cb08503b',1,'ServerConnectWnd']]],
   ['namefromproductionqueueelement',['NameFromProductionQueueElement',['../d1/df2/namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#ad9b19c6a5a7f069907081b13ebb9d1d4',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['namelookup',['NameLookup',['../d4/d85/structValueRef.html#af96f5b7dcbcf23512553fcd5e7487672',1,'ValueRef']]],
+  ['namelookup',['NameLookup',['../da/d89/structValueRef_1_1NameLookup.html#a0529136ac2158c47197f8846eb1565ef',1,'ValueRef::NameLookup']]],
   ['nameok',['NameOK',['../d6/ddf/namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a0d86db5f3344993023d376e7d544c048',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
   ['names',['Names',['../d8/ded/structCondition_1_1Homeworld.html#a84947315d9047bc94409d0c4f95304ba',1,'Condition::Homeworld::Names()'],['../de/dc5/structCondition_1_1Building.html#a43625304d9ea5a685f65b04bdd9d5ebc',1,'Condition::Building::Names()'],['../d9/d1f/structCondition_1_1Species.html#af0090bf39bf2aaebd6d76493effdd8e5',1,'Condition::Species::Names()'],['../d5/de2/structCondition_1_1FocusType.html#af5ad86a3010d513786a186300239bd46',1,'Condition::FocusType::Names()']]],
   ['namestring',['NameString',['../dc/d52/namespaceanonymous__namespace_02VarText_8cpp_03.html#a1ed1e84bfb2cc8bd28a0c1a1b85e41fa',1,'anonymous_namespace{VarText.cpp}']]],

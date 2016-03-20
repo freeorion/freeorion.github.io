@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['times',['TIMES',['../d4/d85/structValueRef.html#a87c87b841bc6ac2ef83082eedf74e407acbb25e278ce42512e8a73b8a24a90b70',1,'ValueRef']]]
+  ['times',['TIMES',['../d1/d55/namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ae2e5fc10f76f7ae7baa6932f05203e4d',1,'ValueRef']]]
 ];

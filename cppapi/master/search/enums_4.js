@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lookuptype',['LookupType',['../d4/d85/structValueRef.html#a3f8e5c7a6bce353fad2be8be995f186b',1,'ValueRef']]]
+  ['lookuptype',['LookupType',['../da/d89/structValueRef_1_1NameLookup.html#a2758d4e4d0d04064e883741367c0df2f',1,'ValueRef::NameLookup']]]
 ];
