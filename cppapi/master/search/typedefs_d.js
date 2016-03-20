@@ -1,7 +1,7 @@
 var searchData=
 [
   ['objectknowledgemap',['ObjectKnowledgeMap',['../dc/dce/classUniverse.html#a55d6a322dec14b64417909bccb826193',1,'Universe']]],
-  ['objectset',['ObjectSet',['../d6/d9f/structCondition.html#affb2b4a08ce42ba35710d7c48b4c37be',1,'Condition::ObjectSet()'],['../d6/d9f/structCondition.html#affb2b4a08ce42ba35710d7c48b4c37be',1,'Condition::ObjectSet()'],['../d6/d9f/structCondition.html#affb2b4a08ce42ba35710d7c48b4c37be',1,'Condition::ObjectSet()']]],
+  ['objectset',['ObjectSet',['../d4/dc3/namespaceCondition.html#a2ec72fe1978ed81a6063168ca546e155',1,'Condition']]],
   ['objectspecialsmap',['ObjectSpecialsMap',['../dc/dce/classUniverse.html#a1b646011c48ad5f1c6faec3ce4935aa8',1,'Universe']]],
   ['objectvisibilitymap',['ObjectVisibilityMap',['../dc/dce/classUniverse.html#a3322480b6001c43b6dbcf84d2336900e',1,'Universe']]],
   ['objectvisibilityturnmap',['ObjectVisibilityTurnMap',['../dc/dce/classUniverse.html#ac323c3df181bfaa3de9cc08b1354497d',1,'Universe']]],

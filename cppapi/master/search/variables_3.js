@@ -69,7 +69,7 @@ var searchData=
   ['created_5fon_5fturn',['created_on_turn',['../da/dff/structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#acd115887033e78d05d378afbd6925acd',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['createplanetactionselectedsignal',['CreatePlanetActionSelectedSignal',['../df/d93/classModeratorActionsWnd.html#abcbee852c9114f9765fe836a7376caae',1,'ModeratorActionsWnd']]],
   ['createsystemactionselectedsignal',['CreateSystemActionSelectedSignal',['../df/d93/classModeratorActionsWnd.html#a9d9fb05deec879d27e1e217c4bddf478',1,'ModeratorActionsWnd']]],
-  ['cri',['CRI',['../d4/da2/namespaceanonymous__namespace_02Condition_8cpp_03.html#a7fdcc360029cce5c9d4cba79c2415342',1,'anonymous_namespace{Condition.cpp}']]],
+  ['cri',['CRI',['../de/dd0/namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#add773a51be1b0db11f048e4bbc92eede',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['cuibutton_5fangle_5foffset',['CUIBUTTON_ANGLE_OFFSET',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a42e39e1aebb0f3f1c2b7539358fbc64d',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['cuidropdownlist_5fangle_5foffset',['CUIDROPDOWNLIST_ANGLE_OFFSET',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a1fe03b30d2b8b8e672a0e44c4af55a43',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['current_5fhealth',['current_health',['../df/de8/structCombatParticipantState.html#ad659e128e585b66a5b0cb6a93a585017',1,'CombatParticipantState::current_health()'],['../dc/dad/structParticipantSummary.html#a2a00a4665208406ee8fa78ea01e2d61f',1,'ParticipantSummary::current_health()']]],

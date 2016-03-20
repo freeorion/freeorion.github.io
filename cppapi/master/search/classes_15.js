@@ -25,6 +25,7 @@ var searchData=
   ['valuerefintfixture',['ValueRefIntFixture',['../d0/d48/structValueRefIntFixture.html',1,'']]],
   ['valuerefstringfixture',['ValueRefStringFixture',['../dd/db1/structValueRefStringFixture.html',1,'']]],
   ['valuerefuniverseobjecttypefixture',['ValueRefUniverseObjectTypeFixture',['../d0/d34/structValueRefUniverseObjectTypeFixture.html',1,'']]],
+  ['valuetest',['ValueTest',['../d5/da6/structCondition_1_1ValueTest.html',1,'Condition']]],
   ['variable',['Variable',['../dc/d3d/structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20double_20_3e',['Variable&lt; double &gt;',['../dc/d3d/structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20int_20_3e',['Variable&lt; int &gt;',['../dc/d3d/structValueRef_1_1Variable.html',1,'ValueRef']]],
@@ -35,6 +36,7 @@ var searchData=
   ['vartext',['VarText',['../d6/d1e/classVarText.html',1,'']]],
   ['vertex',['Vertex',['../da/d78/structMapWnd_1_1MovementLineData_1_1Vertex.html',1,'MapWnd::MovementLineData']]],
   ['vertex_5fsystem_5fid_5ft',['vertex_system_id_t',['../da/d01/structSystemPathing_1_1vertex__system__id__t.html',1,'SystemPathing']]],
-  ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../db/daa/structanonymous__namespace_02Condition_8cpp_03_1_1VisibleToEmpireSimpleMatch.html',1,'anonymous_namespace{Condition.cpp}']]],
+  ['visibletoempire',['VisibleToEmpire',['../d0/d82/structCondition_1_1VisibleToEmpire.html',1,'Condition']]],
+  ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../d5/db1/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1VisibleToEmpireSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['visiblewindowcondition',['VisibleWindowCondition',['../da/dc2/classVisibleWindowCondition.html',1,'']]]
 ];

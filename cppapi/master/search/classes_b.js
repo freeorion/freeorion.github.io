@@ -10,5 +10,6 @@ var searchData=
   ['linkdecorator',['LinkDecorator',['../d2/d2a/classLinkDecorator.html',1,'']]],
   ['linktext',['LinkText',['../dc/db2/classLinkText.html',1,'']]],
   ['loadgameplayerrow',['LoadGamePlayerRow',['../dd/d93/structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['loadsavefilefailed',['LoadSaveFileFailed',['../d8/d52/structLoadSaveFileFailed.html',1,'']]]
+  ['loadsavefilefailed',['LoadSaveFileFailed',['../d8/d52/structLoadSaveFileFailed.html',1,'']]],
+  ['location',['Location',['../dc/d55/structCondition_1_1Location.html',1,'Condition']]]
 ];

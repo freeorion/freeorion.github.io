@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tags_5frules',['tags_rules',['../d3/d92/structanonymous__namespace_02Parse_8cpp_03_1_1tags__rules.html',1,'anonymous_namespace{Parse.cpp}']]],
+  ['target',['Target',['../dd/dbf/structCondition_1_1Target.html',1,'Condition']]],
   ['targetsandcause',['TargetsAndCause',['../d8/d54/structEffect_1_1TargetsAndCause.html',1,'Effect']]],
   ['tech',['Tech',['../d4/dd3/classTech.html',1,'']]],
   ['techcategory',['TechCategory',['../da/df3/structTechCategory.html',1,'']]],
@@ -28,9 +29,11 @@ var searchData=
   ['togglecategoryfunctor',['ToggleCategoryFunctor',['../d8/d3c/structanonymous__namespace_02TechTreeWnd_8cpp_03_1_1ToggleCategoryFunctor.html',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['toggledata',['ToggleData',['../d2/d3c/structOptionsBar_1_1ToggleData.html',1,'OptionsBar']]],
   ['toggletechstatusfunctor',['ToggleTechStatusFunctor',['../d3/d5b/structanonymous__namespace_02TechTreeWnd_8cpp_03_1_1ToggleTechStatusFunctor.html',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
+  ['turn',['Turn',['../da/df4/structCondition_1_1Turn.html',1,'Condition']]],
   ['turnended',['TurnEnded',['../d5/db4/structTurnEnded.html',1,'']]],
+  ['type',['Type',['../d8/d05/structCondition_1_1Type.html',1,'Condition']]],
   ['typerow',['TypeRow',['../d3/d58/classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector_1_1TypeRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::TypeSelector']]],
   ['typesafefloat',['TypesafeFloat',['../d1/ddd/classTypesafeFloat.html',1,'']]],
   ['typeselector',['TypeSelector',['../dd/dac/classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['typesimplematch',['TypeSimpleMatch',['../df/d87/structanonymous__namespace_02Condition_8cpp_03_1_1TypeSimpleMatch.html',1,'anonymous_namespace{Condition.cpp}']]]
+  ['typesimplematch',['TypeSimpleMatch',['../d9/d66/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1TypeSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]]
 ];

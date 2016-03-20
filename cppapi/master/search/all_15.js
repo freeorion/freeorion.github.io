@@ -39,7 +39,7 @@ var searchData=
   ['universewidth',['UniverseWidth',['../dc/dce/classUniverse.html#a14013dc4937e98eb20617c4349951cb5',1,'Universe']]],
   ['universewrapper_2ecpp',['UniverseWrapper.cpp',['../dd/da7/UniverseWrapper_8cpp.html',1,'']]],
   ['unknown',['unknown',['../d2/ddc/test_8h.html#aac4452a7487c189982bfeaca04a1326fa5b9f6d065e6e98483b3d3ed01f4f6cbe',1,'test.h']]],
-  ['unknown_5finvariance',['UNKNOWN_INVARIANCE',['../d6/d9f/structCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315',1,'Condition']]],
+  ['unknown_5finvariance',['UNKNOWN_INVARIANCE',['../d4/dc3/namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315',1,'Condition']]],
   ['unknown_5fui_5fdisplay_5fvalue',['UNKNOWN_UI_DISPLAY_VALUE',['../da/d35/namespaceanonymous__namespace_02i18n_8cpp_03.html#adde16ad9e6de1e4a1e174ac806e8e118',1,'anonymous_namespace{i18n.cpp}']]],
   ['unknownicon',['UnknownIcon',['../d4/d62/namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aeae1bc7ed9069d87b5186a1b9d767c79',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['unknownroute',['UnknownRoute',['../d8/d16/classFleet.html#a28a359c5d2b51a656a68acbce54ba3b5',1,'Fleet']]],
@@ -114,7 +114,7 @@ var searchData=
   ['userstringlist',['UserStringList',['../d8/d9a/i18n_8cpp.html#a57973570104cfcae84c67ed620b6d4e4',1,'UserStringList(const std::string &amp;str_list, std::list&lt; std::string &gt; &amp;strings):&#160;i18n.cpp'],['../dd/d5d/i18n_8h.html#a785f6d8ab3ef4c18ba9c6959d10dab19',1,'UserStringList(const std::string &amp;str_list, std::list&lt; std::string &gt; &amp;strings):&#160;i18n.cpp']]],
   ['userstringlookup',['UserStringLookup',['../d4/d85/structValueRef.html#a0e89ee2049731bdb1221316168cbe2bd',1,'ValueRef::UserStringLookup(ValueRef::Variable&lt; std::string &gt; *value_ref)'],['../d4/d85/structValueRef.html#a05989154db6c3ec32ec0af8c897879e0',1,'ValueRef::UserStringLookup(ValueRef::ValueRefBase&lt; std::string &gt; *value_ref)']]],
   ['userstringnop',['UserStringNop',['../dd/d5d/i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77',1,'i18n.h']]],
-  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../d4/d55/structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../d4/d55/structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#a816ff0fe328c904529644b5d953cf28a',1,'anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend']]],
+  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../d4/d55/structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringvalueref',['UserStringValueRef',['../d7/d31/namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aa5f6b939a86592175974e31f3aa41e00',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
 ];

@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../dd/d89/structanonymous__namespace_02Condition_8cpp_03_1_1HasSpecialSimpleMatch.html',1,'anonymous_namespace{Condition.cpp}']]],
-  ['hastagsimplematch',['HasTagSimpleMatch',['../d6/ded/structanonymous__namespace_02Condition_8cpp_03_1_1HasTagSimpleMatch.html',1,'anonymous_namespace{Condition.cpp}']]],
-  ['homeworldsimplematch',['HomeworldSimpleMatch',['../dd/ded/structanonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'anonymous_namespace{Condition.cpp}']]],
+  ['hasspecial',['HasSpecial',['../d3/dd2/structCondition_1_1HasSpecial.html',1,'Condition']]],
+  ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../d7/d6e/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasSpecialSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['hastag',['HasTag',['../d1/d44/structCondition_1_1HasTag.html',1,'Condition']]],
+  ['hastagsimplematch',['HasTagSimpleMatch',['../d0/db5/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasTagSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['homeworld',['Homeworld',['../d8/ded/structCondition_1_1Homeworld.html',1,'Condition']]],
+  ['homeworldsimplematch',['HomeworldSimpleMatch',['../d7/d09/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['hostmpgamerequested',['HostMPGameRequested',['../d2/d5d/structHostMPGameRequested.html',1,'']]],
   ['hostspgamerequested',['HostSPGameRequested',['../da/de1/structHostSPGameRequested.html',1,'']]],
   ['hotkey',['Hotkey',['../d6/d28/classHotkey.html',1,'']]],
