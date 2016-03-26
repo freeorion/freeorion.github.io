@@ -216,6 +216,7 @@ var searchData=
   ['priorityvalue',['PriorityValue',['../d9/df5/Logger_8cpp.html#a2812abf2807d4388b3dc77622b779afa',1,'PriorityValue(const std::string &amp;name):&#160;Logger.cpp'],['../dd/da4/Logger_8h.html#a4716a84084b01c8a79bd101894e5a6c0',1,'PriorityValue(const std::string &amp;name):&#160;Logger.cpp']]],
   ['privatenamedhotkey',['PrivateNamedHotkey',['../d6/d28/classHotkey.html#a5ee2d151753a15848c1a229fa75cbcd2',1,'Hotkey']]],
   ['process',['Process',['../df/d30/classProcess.html#a9f4553eac74c657bb451f390c17d6bea',1,'Process::Process()'],['../df/d30/classProcess.html#adb6940c595796616a5fc11025714c8b0',1,'Process::Process(const std::string &amp;cmd, const std::vector&lt; std::string &gt; &amp;argv)']]],
+  ['process_5finclude_5fsubstitutions',['process_include_substitutions',['../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d',1,'parse']]],
   ['processcombats',['ProcessCombats',['../d7/d63/classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2',1,'ServerApp']]],
   ['processingturn',['ProcessingTurn',['../df/d91/structProcessingTurn.html#aa81d5e8c584d05fb1cd5d91885707b59',1,'ProcessingTurn']]],
   ['processnamedshortcut',['ProcessNamedShortcut',['../d2/d66/classHotkeyManager.html#ace0cd86a0ddc8660cba7b9838a853100',1,'HotkeyManager']]],

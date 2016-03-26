@@ -235,6 +235,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c624e59174eb6d3a487b91d029929bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#a5c624e59174eb6d3a487b91d029929bb">fields</a> (std::map&lt; std::string, <a class="el" href="../../dd/d90/classFieldType.html">FieldType</a> * &gt; &amp;field_types)</td></tr>
 <tr class="separator:a5c624e59174eb6d3a487b91d029929bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0a605c00b8565bc9916cd1f430e527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution</a> (std::string &amp;text, const boost::filesystem::path &amp;file_search_path)</td></tr>
+<tr class="memdesc:a5f0a605c00b8565bc9916cd1f430e527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve script directives.  <a href="#a5f0a605c00b8565bc9916cd1f430e527">More...</a><br/></td></tr>
 <tr class="separator:a5f0a605c00b8565bc9916cd1f430e527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef3a9d7fc62c54b370602a9baeeed08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#a6ef3a9d7fc62c54b370602a9baeeed08">fleet_plans</a> (std::vector&lt; <a class="el" href="../../d2/d60/classFleetPlan.html">FleetPlan</a> * &gt; &amp;fleet_plans_)</td></tr>
 <tr class="separator:a6ef3a9d7fc62c54b370602a9baeeed08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +268,9 @@ Functions</h2></td></tr>
 <tr class="separator:af11cdf900c53212e37712421fc96eace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed4543ed5e77a95880fd60b875836530"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#aed4543ed5e77a95880fd60b875836530">parse_and_erase_macro_definitions</a> (std::string &amp;text, std::map&lt; std::string, std::string &gt; &amp;macros)</td></tr>
 <tr class="separator:aed4543ed5e77a95880fd60b875836530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc73d9f554002fd5cfbb2309ba7933d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">process_include_substitutions</a> (std::string &amp;text, const boost::filesystem::path &amp;file_search_path, std::set&lt; boost::filesystem::path &gt; &amp;files_included)</td></tr>
+<tr class="memdesc:aabc73d9f554002fd5cfbb2309ba7933d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all include statements with contents of file.  <a href="#aabc73d9f554002fd5cfbb2309ba7933d">More...</a><br/></td></tr>
+<tr class="separator:aabc73d9f554002fd5cfbb2309ba7933d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83fe60f28029027e0861cf36ce8e631c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">read_file</a> (const boost::filesystem::path &amp;path, std::string &amp;file_contents)</td></tr>
 <tr class="separator:a83fe60f28029027e0861cf36ce8e631c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e40a250deaabd85972d0d6857d93207"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6c/namespaceparse.html#a4e40a250deaabd85972d0d6857d93207">replace_macro_references</a> (std::string &amp;text, const std::map&lt; std::string, std::string &gt; &amp;macros)</td></tr>
@@ -920,7 +924,16 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../df/d99/namespacepermute__labels.html#aab11f7d846bf8b8f486bd975bfbf5e52">permute_labels::filename</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a4a6a44218a2c703a9a044c7c2c009dc6">FILENAME_INSERTION</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a2a51dd19342ba8695a0052de0fa3dc3e">missing_include_files</a>, and <a class="el" href="../../df/d6c/namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">read_file()</a>.</p>
+<p>Resolve script directives. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">text</td><td>contents to search through </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_search_path</td><td>base path of content </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, and <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">process_include_substitutions()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/da1/classStringTable__.html#a2483bffa84675b1ab912d073983e597c">StringTable_::Load()</a>, and <a class="el" href="../../de/d60/namespaceparse_1_1detail.html#a6801d67c7238ceac58d2c9d7e94c18a7">parse::detail::parse_file_common()</a>.</p>
 
@@ -1235,6 +1248,53 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aabc73d9f554002fd5cfbb2309ba7933d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d71/Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> void parse::process_include_substitutions </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file_search_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::set&lt; boost::filesystem::path &gt; &amp;&#160;</td>
+          <td class="paramname"><em>files_included</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replace all include statements with contents of file. </p>
+<p>Search for any include statements in <em>text</em> and replace them with the contents of the file given. File lookup is relative to <em>file_search_path</em> and will not be included if found in <em>files_included</em>. Each included file is added to <em>files_included</em>. This is a recursive function, processing the contents of any included files.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">text</td><td>content to search through </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_search_path</td><td>base path of content </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">files_included</td><td>canonical path of any files previously included </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a4a6a44218a2c703a9a044c7c2c009dc6">FILENAME_INSERTION</a>, <a class="el" href="../../db/d54/Directories_8cpp.html#a324ee818119bd608831a91a7fe6dcd29">GetResourceDir()</a>, <a class="el" href="../../db/d54/Directories_8cpp.html#aa838f609aa3195049176b20da13217b6">ListDir()</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a2a51dd19342ba8695a0052de0fa3dc3e">missing_include_files</a>, <a class="el" href="../../db/d54/Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, and <a class="el" href="../../df/d6c/namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">read_file()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a83fe60f28029027e0861cf36ce8e631c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1259,7 +1319,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution()</a>, <a class="el" href="../../d7/da1/classStringTable__.html#a2483bffa84675b1ab912d073983e597c">StringTable_::Load()</a>, and <a class="el" href="../../de/d60/namespaceparse_1_1detail.html#a6801d67c7238ceac58d2c9d7e94c18a7">parse::detail::parse_file_common()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/da1/classStringTable__.html#a2483bffa84675b1ab912d073983e597c">StringTable_::Load()</a>, <a class="el" href="../../de/d60/namespaceparse_1_1detail.html#a6801d67c7238ceac58d2c9d7e94c18a7">parse::detail::parse_file_common()</a>, and <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">process_include_substitutions()</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1808,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">process_include_substitutions()</a>.</p>
 
 </div>
 </div>
@@ -1840,7 +1900,7 @@ template&lt;&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">process_include_substitutions()</a>.</p>
 
 </div>
 </div>
