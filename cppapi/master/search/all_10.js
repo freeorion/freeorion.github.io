@@ -329,7 +329,7 @@ var searchData=
   ['prevblocksize',['prevBlocksize',['../df/d5b/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#afdb6fde212827e04ea0f2b7333b15bf8',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['prevbuttonclicked',['PrevButtonClicked',['../d1/d51/classSidePanel.html#afbe5661e3971be0e2a70f3fa68d4469f',1,'SidePanel']]],
   ['prevclicked',['PrevClicked',['../d6/d69/classSitRepPanel.html#a946bcdcf856bfa5618cfb024b61d63ab',1,'SitRepPanel']]],
-  ['preview',['PREVIEW',['../d7/d8c/classSaveFileRow.html#a71482a3924ac8674c146805c04662a41a1094bdcfba8a3f16e6ba20a5caed309e',1,'SaveFileRow::PREVIEW()'],['../d9/d70/structFullPreview.html#a3207a5a063315733ba8f535d1ccb81eb',1,'FullPreview::preview()']]],
+  ['preview',['preview',['../d9/d70/structFullPreview.html#a3207a5a063315733ba8f535d1ccb81eb',1,'FullPreview::preview()'],['../d7/d8c/classSaveFileRow.html#a71482a3924ac8674c146805c04662a41a1094bdcfba8a3f16e6ba20a5caed309e',1,'SaveFileRow::PREVIEW()']]],
   ['preview_5fmargin',['PREVIEW_MARGIN',['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a3ca8a6ced1f4b2632b029c0a83f7ff1c',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['preview_5fpresent_5fmarker',['PREVIEW_PRESENT_MARKER',['../de/dff/structSaveGamePreviewData.html#a5e68d762c73aab82bfb2eb63b0ef61bc',1,'SaveGamePreviewData']]],
   ['preview_5fsz',['PREVIEW_SZ',['../da/d03/namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a96514f4f5a55f0e536fa2c7a7aacd6dc',1,'anonymous_namespace{GalaxySetupWnd.cpp}::PREVIEW_SZ()'],['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#aa2baac3bc81273aded24861b5c627264',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PREVIEW_SZ()']]],
