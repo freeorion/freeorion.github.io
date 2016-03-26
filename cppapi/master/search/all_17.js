@@ -46,7 +46,7 @@ var searchData=
   ['wndselected',['WndSelected',['../de/d7b/classDesignWnd_1_1BaseSelector.html#a1deebda0ee0b3a305be2c3dff2e524ca',1,'DesignWnd::BaseSelector']]],
   ['wndtop',['WndTop',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0b19dab916ea0f79284b18b821d4ba36',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wobble',['Wobble',['../d4/d68/classTechTreeLayout_1_1Node.html#aedab8a7467d51c65ec0438671752908f',1,'TechTreeLayout::Node']]],
-  ['won',['WON',['../d9/d30/classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a4e2c0838e11e6b15bd93227556e6704cac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../d2/d2e/classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()']]],
+  ['won',['Won',['../d2/d2e/classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()'],['../d9/d30/classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a4e2c0838e11e6b15bd93227556e6704cac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()']]],
   ['wonicon',['WonIcon',['../d4/d62/namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#abd9c6d7fbadd02f1c18da5249f3e8672',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['work_5fqueue_5f1',['work_queue_1',['../d4/d0d/structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
   ['work_5fqueue_5f2',['work_queue_2',['../d4/d0d/structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],

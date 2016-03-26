@@ -121,12 +121,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28273b4d9d239e3e1c5062322789167f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eca8e9dc5a4fbcc129cb87822e2e501"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a9eca8e9dc5a4fbcc129cb87822e2e501">GetDescription</a> () const </td></tr>
 <tr class="separator:a9eca8e9dc5a4fbcc129cb87822e2e501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7bc0ab121b1001c6bfe6e8b0bfc744e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ae7bc0ab121b1001c6bfe6e8b0bfc744e">GetTargetSet</a> (int source_id, <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;targets) const </td></tr>
-<tr class="separator:ae7bc0ab121b1001c6bfe6e8b0bfc744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87d5876da70454c0681079e8e6632db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac87d5876da70454c0681079e8e6632db">GetTargetSet</a> (int source_id, <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;targets, const <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;potential_targets) const </td></tr>
-<tr class="separator:ac87d5876da70454c0681079e8e6632db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade6b63f00b70ca77d2dfab8646a5adf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ade6b63f00b70ca77d2dfab8646a5adf2">GetTargetSet</a> (int source_id, <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;targets, <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;potential_targets) const </td></tr>
-<tr class="separator:ade6b63f00b70ca77d2dfab8646a5adf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98865d2e49fa8f71c2e2b98144ba1b57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a98865d2e49fa8f71c2e2b98144ba1b57">Priority</a> () const </td></tr>
 <tr class="separator:a98865d2e49fa8f71c2e2b98144ba1b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60dbd28f3ec2f8517cc89da9da331a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d86/structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a60dbd28f3ec2f8517cc89da9da331a7b">Scope</a> () const </td></tr>
@@ -409,7 +403,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>execute all effects in group </p>
+<p>WARNING: this GetTargetSet version will modify potential_targets. in particular, it will move detected targets from potential_targets to targets. Cast the second parameter to <code>const</code> <code>TargetSet&amp;</code> in order to leave potential_targets unchanged. execute all effects in group </p>
 
 <p>References <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a38a9517b5f935cb91e18b9b78076ccd9">m_effects</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#af76600759c3b0b3d4d31fc973e37d372">m_stacking_group</a>.</p>
 
@@ -431,105 +425,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a6b927981169cf22b5f58427d72933f2e">m_description</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae7bc0ab121b1001c6bfe6e8b0bfc744e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Effect::EffectsGroup::GetTargetSet </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>source_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>targets</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="../../d9/d86/structCondition_1_1ConditionBase.html#a11f4b18b2263fd5cfd5db949d6fc5ef8">Condition::ConditionBase::GetDefaultInitialCandidateObjects()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#aaf8eb892a5c2d8f3ae6abe3e47101244">m_scope</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac87d5876da70454c0681079e8e6632db">GetTargetSet()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac87d5876da70454c0681079e8e6632db"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Effect::EffectsGroup::GetTargetSet </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>source_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>targets</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>potential_targets</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ae7bc0ab121b1001c6bfe6e8b0bfc744e">GetTargetSet()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ade6b63f00b70ca77d2dfab8646a5adf2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Effect::EffectsGroup::GetTargetSet </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>source_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>targets</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d24/namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">TargetSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>potential_targets</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>WARNING: this GetTargetSet version will modify potential_targets. in particular, it will move detected targets from potential_targets to targets. Cast the second parameter to <code>const</code> <code>TargetSet&amp;</code> in order to leave potential_targets unchanged. </p>
-
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d9/d86/structCondition_1_1ConditionBase.html#ae6ec5873c31f495d7c1ac1cb7c75381e">Condition::ConditionBase::Eval()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a82c27dff764b9c6af3bc03e105904b1a">m_activation</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#aaf8eb892a5c2d8f3ae6abe3e47101244">m_scope</a>.</p>
 
 </div>
 </div>
@@ -722,7 +617,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a64c1963c82761742b326347a85b59cc5">AutoGeneratedDescription()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#af2b06d3b03dff67ab3ffcdcf00821a5d">Dump()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ade6b63f00b70ca77d2dfab8646a5adf2">GetTargetSet()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac2d79ca9bcdae9a51677439f40710489">serialize()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127">~EffectsGroup()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a64c1963c82761742b326347a85b59cc5">AutoGeneratedDescription()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#af2b06d3b03dff67ab3ffcdcf00821a5d">Dump()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac2d79ca9bcdae9a51677439f40710489">serialize()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127">~EffectsGroup()</a>.</p>
 
 </div>
 </div>
@@ -808,7 +703,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a64c1963c82761742b326347a85b59cc5">AutoGeneratedDescription()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#af2b06d3b03dff67ab3ffcdcf00821a5d">Dump()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ade6b63f00b70ca77d2dfab8646a5adf2">GetTargetSet()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac2d79ca9bcdae9a51677439f40710489">serialize()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127">~EffectsGroup()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a64c1963c82761742b326347a85b59cc5">AutoGeneratedDescription()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#af2b06d3b03dff67ab3ffcdcf00821a5d">Dump()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#ac2d79ca9bcdae9a51677439f40710489">serialize()</a>, <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>, and <a class="el" href="../../d1/dfd/classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127">~EffectsGroup()</a>.</p>
 
 </div>
 </div>
