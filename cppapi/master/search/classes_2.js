@@ -71,8 +71,8 @@ var searchData=
   ['createdonturn',['CreatedOnTurn',['../dd/d5c/structCondition_1_1CreatedOnTurn.html',1,'Condition']]],
   ['createdonturnsimplematch',['CreatedOnTurnSimpleMatch',['../d7/da1/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1CreatedOnTurnSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['createfield',['CreateField',['../d2/ddf/classEffect_1_1CreateField.html',1,'Effect']]],
-  ['createplanet',['CreatePlanet',['../dd/d94/classModerator_1_1CreatePlanet.html',1,'Moderator']]],
   ['createplanet',['CreatePlanet',['../d0/d20/classEffect_1_1CreatePlanet.html',1,'Effect']]],
+  ['createplanet',['CreatePlanet',['../dd/d94/classModerator_1_1CreatePlanet.html',1,'Moderator']]],
   ['createship',['CreateShip',['../d0/d52/classEffect_1_1CreateShip.html',1,'Effect']]],
   ['createsystem',['CreateSystem',['../d2/d69/classModerator_1_1CreateSystem.html',1,'Moderator']]],
   ['createsystem',['CreateSystem',['../d8/d26/classEffect_1_1CreateSystem.html',1,'Effect']]],
@@ -99,6 +99,7 @@ var searchData=
   ['cuistyle',['CUIStyle',['../df/d1f/classCUIStyle.html',1,'']]],
   ['cuitabbar',['CUITabBar',['../d5/d3b/classCUITabBar.html',1,'']]],
   ['cuitabrepresenter',['CUITabRepresenter',['../d0/d78/classCUITabRepresenter.html',1,'']]],
+  ['cuitogglerepresenter',['CUIToggleRepresenter',['../d9/de1/classCUIToggleRepresenter.html',1,'']]],
   ['cuitoolbar',['CUIToolBar',['../d8/df5/classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../d2/d69/classCUIWnd.html',1,'']]],
   ['customrowcmp',['CustomRowCmp',['../dc/de9/structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]]

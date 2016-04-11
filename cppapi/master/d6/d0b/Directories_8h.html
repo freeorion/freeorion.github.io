@@ -126,6 +126,8 @@ boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a cl
 <tr class="separator:a609156949c159cda74c4febb0aa21aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7023c9206873a0c9c066a9beb6de7b3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8f/Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0b/Directories_8h.html#a7023c9206873a0c9c066a9beb6de7b3c">InitDirs</a> (const std::string &amp;argv0)</td></tr>
 <tr class="separator:a7023c9206873a0c9c066a9beb6de7b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8f/Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0b/Directories_8h.html#a97c5c7ede44ff1f3b4c0c90e56a26baa">IsValidUTF8</a> (const std::string &amp;in)</td></tr>
+<tr class="separator:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adca65662bde86375b3da3b61e33184ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8f/Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector<br class="typebreak"/>
 &lt; boost::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0b/Directories_8h.html#adca65662bde86375b3da3b61e33184ca">ListDir</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:adca65662bde86375b3da3b61e33184ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +169,7 @@ boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a cl
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Converts UTF-8 string into a path, doing any required wide-character conversions as determined by the operating system / filesystem. </p>
 
 <p>Referenced by <a class="el" href="../../dc/dd9/classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">SaveFileDialog::CheckChoiceValidity()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="../../d6/d0b/Directories_8h.html#a7ef6893515ec8d151ba5bceb7001f937">GetResourceDir()</a>, <a class="el" href="../../d6/d0b/Directories_8h.html#a387c99073cf96552aa829fd3fb1a31b8">GetSaveDir()</a>, <a class="el" href="../../d7/da1/classStringTable__.html#a2483bffa84675b1ab912d073983e597c">StringTable_::Load()</a>, <a class="el" href="../../d9/d90/SaveLoad_8h.html#a5add7044a7a5c91d524bd03eda229d66">LoadEmpireSaveGameData()</a>, <a class="el" href="../../d8/dd6/SaveLoad_8cpp.html#a59d8128b92c1e53fbef029c412aeaf1b">LoadGalaxySetupData()</a>, <a class="el" href="../../d9/d90/SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="../../d9/d90/SaveLoad_8h.html#aaba4b1346670935124b584969fd6aaf1">LoadPlayerSaveHeaderData()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">HumanClientApp::LoadSinglePlayerGame()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">SaveFileDialog::Result()</a>, <a class="el" href="../../d9/d90/SaveLoad_8h.html#a05e12b50c7e2ccf63da2f3ef03f9b08e">SaveGame()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">SaveFileDialog::UpdatePreviewList()</a>, <a class="el" href="../../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae">anonymous_namespace{OptionsWnd.cpp}::ValidDirectory()</a>, <a class="el" href="../../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c">anonymous_namespace{OptionsWnd.cpp}::ValidFontFile()</a>, <a class="el" href="../../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a20271029667765e3fadce5fa66d0293c">anonymous_namespace{OptionsWnd.cpp}::ValidMusicFile()</a>, <a class="el" href="../../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969">anonymous_namespace{OptionsWnd.cpp}::ValidSoundFile()</a>, and <a class="el" href="../../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359">anonymous_namespace{OptionsWnd.cpp}::ValidStringtableFile()</a>.</p>
 
@@ -331,6 +334,25 @@ This directory is the only one that can be considered writable!</li>
 <p>This function must be called before any Get*Dir function is called. It stores the current working directory as well as creating local directories if they do not yet exist. </p>
 
 <p>Referenced by <a class="el" href="../../d3/d40/camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97c5c7ede44ff1f3b4c0c90e56a26baa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d8f/Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool IsValidUTF8 </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true iff the string <em>in</em> is valid UTF-8. </p>
+
+<p>Referenced by <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, and <a class="el" href="../../d7/d31/classSaveFileListBox.html#a22b735bc6bef61a845c87cc0a727e948">SaveFileListBox::LoadDirectories()</a>.</p>
 
 </div>
 </div>

@@ -15,7 +15,6 @@ var searchData=
   ['host',['host',['../d3/d50/structPlayerInfo.html#ab43cfc02255c503231835827dee05eac',1,'PlayerInfo']]],
   ['hull',['hull',['../d7/d0d/structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1rules.html#a668dbacfd323479794d4e57aeccb576c',1,'anonymous_namespace{ShipHullsParser.cpp}::rules']]],
   ['hull_5fparts_5frow_5fdrop_5ftype_5fstring',['HULL_PARTS_ROW_DROP_TYPE_STRING',['../d1/d26/namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a43f29423b1631b2291e2c4fcc279a706',1,'anonymous_namespace{DesignWnd.cpp}']]],
-  ['hull_5fprefix',['hull_prefix',['../d7/d0d/structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1rules.html#aebaa370193f71137124de315e898f854',1,'anonymous_namespace{ShipHullsParser.cpp}::rules']]],
   ['hull_5fstats',['hull_stats',['../d7/d0d/structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1rules.html#a8d5780638df694841e72045c295a3b45',1,'anonymous_namespace{ShipHullsParser.cpp}::rules']]],
   ['hullclickedsignal',['HullClickedSignal',['../de/db1/classBasesListBox.html#a54fb580ca942a604ae5e0783c6c35298',1,'BasesListBox::HullClickedSignal()'],['../de/d7b/classDesignWnd_1_1BaseSelector.html#a166e4a87e726467f50d4d9c95b5c11cf',1,'DesignWnd::BaseSelector::HullClickedSignal()']]],
   ['hullslotsfunc',['HullSlotsFunc',['../d7/d08/namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a9b0e96b37e2f30cf5af6e0874e261947',1,'anonymous_namespace{UniverseWrapper.cpp}']]],

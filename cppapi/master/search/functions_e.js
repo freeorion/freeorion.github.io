@@ -15,7 +15,7 @@ var searchData=
   ['native_5fbegin',['native_begin',['../d5/de8/classSpeciesManager.html#af902df67e81eb9ad821bdf9e4b2ac6a0',1,'SpeciesManager']]],
   ['native_5fend',['native_end',['../d5/de8/classSpeciesManager.html#aaea4e97e497c524cde835999a0171973',1,'SpeciesManager']]],
   ['nearestsystemto',['NearestSystemTo',['../dc/dce/classUniverse.html#ac640c7999f86fcf8080db18337c61a68',1,'Universe']]],
-  ['networking',['Networking',['../dc/d24/classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659',1,'ClientApp::Networking() const '],['../dc/d24/classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa',1,'ClientApp::Networking()'],['../d7/d63/classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2',1,'ServerApp::Networking()']]],
+  ['networking',['Networking',['../dc/d24/classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa',1,'ClientApp::Networking()'],['../dc/d24/classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659',1,'ClientApp::Networking() const '],['../d7/d63/classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2',1,'ServerApp::Networking()']]],
   ['networkingthread',['NetworkingThread',['../dc/d34/classClientNetworking.html#a1d16f7af2c9c90b0b39bb18e47e95560',1,'ClientNetworking']]],
   ['newconnection',['NewConnection',['../de/da9/classPlayerConnection.html#a97b118389ea07da19428c54350e77c87',1,'PlayerConnection']]],
   ['newdropdownlist',['NewDropDownList',['../df/d1f/classCUIStyle.html#ad61537bcf5d39bf4cfca538868e1ddd2',1,'CUIStyle']]],

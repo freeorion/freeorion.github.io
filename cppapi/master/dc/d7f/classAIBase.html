@@ -93,6 +93,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Base class allowing AI to recieve basic game events.  
+ <a href="../../dc/d7f/classAIBase.html#details">More...</a></p>
+
 <p><code>#include &lt;AIInterface.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for AIBase:</div>
@@ -111,35 +114,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a33435214a37175f0e59d4b7ba2b58b06"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#a33435214a37175f0e59d4b7ba2b58b06">~AIBase</a> ()</td></tr>
 <tr class="separator:a33435214a37175f0e59d4b7ba2b58b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a253e1443719b4246cd59a803d8c883d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#a253e1443719b4246cd59a803d8c883d4">GenerateOrders</a> ()</td></tr>
-<tr class="memdesc:a253e1443719b4246cd59a803d8c883d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the server has sent a new turn update. AI should review the new gamestate and send orders for this turn.  <a href="#a253e1443719b4246cd59a803d8c883d4">More...</a><br/></td></tr>
+<tr class="memdesc:a253e1443719b4246cd59a803d8c883d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call when the server has sent a new turn update.  <a href="#a253e1443719b4246cd59a803d8c883d4">More...</a><br/></td></tr>
 <tr class="separator:a253e1443719b4246cd59a803d8c883d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c63bbb41c99653d894e8c93c529dbbf"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#a2c63bbb41c99653d894e8c93c529dbbf">GetSaveStateString</a> ()</td></tr>
-<tr class="memdesc:a2c63bbb41c99653d894e8c93c529dbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the server is saving the game. AI should store any state information it will need to resume at a later time, and return this information in the save_state_string.  <a href="#a2c63bbb41c99653d894e8c93c529dbbf">More...</a><br/></td></tr>
+<tr class="memdesc:a2c63bbb41c99653d894e8c93c529dbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the server is saving the game.  <a href="#a2c63bbb41c99653d894e8c93c529dbbf">More...</a><br/></td></tr>
 <tr class="separator:a2c63bbb41c99653d894e8c93c529dbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ce75a215bfaf4f833f9aa353027c43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#ae8ce75a215bfaf4f833f9aa353027c43">HandleChatMessage</a> (int sender_id, const std::string &amp;msg)</td></tr>
-<tr class="memdesc:ae8ce75a215bfaf4f833f9aa353027c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another player sends a chat message to this player. AI can respond or ignore.  <a href="#ae8ce75a215bfaf4f833f9aa353027c43">More...</a><br/></td></tr>
+<tr class="memdesc:ae8ce75a215bfaf4f833f9aa353027c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another player sends a chat message to this AI.  <a href="#ae8ce75a215bfaf4f833f9aa353027c43">More...</a><br/></td></tr>
 <tr class="separator:ae8ce75a215bfaf4f833f9aa353027c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c2ffeb1eaea5b688a013cd1d321ef7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#ad1c2ffeb1eaea5b688a013cd1d321ef7">HandleDiplomaticMessage</a> (const <a class="el" href="../../d2/dad/classDiplomaticMessage.html">DiplomaticMessage</a> &amp;msg)</td></tr>
-<tr class="memdesc:ad1c2ffeb1eaea5b688a013cd1d321ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another player sends a diplomatic message that affects this player. AI can respond or ignore.  <a href="#ad1c2ffeb1eaea5b688a013cd1d321ef7">More...</a><br/></td></tr>
+<tr class="memdesc:ad1c2ffeb1eaea5b688a013cd1d321ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another player sends a diplomatic message that affects this player.  <a href="#ad1c2ffeb1eaea5b688a013cd1d321ef7">More...</a><br/></td></tr>
 <tr class="separator:ad1c2ffeb1eaea5b688a013cd1d321ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f07f91407132d0daecc583e3edd72c2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#a2f07f91407132d0daecc583e3edd72c2">HandleDiplomaticStatusUpdate</a> (const <a class="el" href="../../d1/d25/structDiplomaticStatusUpdateInfo.html">DiplomaticStatusUpdateInfo</a> &amp;u)</td></tr>
-<tr class="memdesc:a2f07f91407132d0daecc583e3edd72c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when empires' diplomatic status changes.  <a href="#a2f07f91407132d0daecc583e3edd72c2">More...</a><br/></td></tr>
+<tr class="memdesc:a2f07f91407132d0daecc583e3edd72c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when two empires diplomatic status changes.  <a href="#a2f07f91407132d0daecc583e3edd72c2">More...</a><br/></td></tr>
 <tr class="separator:a2f07f91407132d0daecc583e3edd72c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc98c0757449adee00078c2f35abcf4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#adbc98c0757449adee00078c2f35abcf4">ResumeLoadedGame</a> (const std::string &amp;save_state_string)</td></tr>
-<tr class="memdesc:adbc98c0757449adee00078c2f35abcf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a game is loaded from save. AI should extract any state information stored in <em>save_state_string</em> so as to be able to continue generating orders when asked to do so.  <a href="#adbc98c0757449adee00078c2f35abcf4">More...</a><br/></td></tr>
-<tr class="separator:adbc98c0757449adee00078c2f35abcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15bd8f5e2a8faa4f098906a5dff326c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#aa15bd8f5e2a8faa4f098906a5dff326c">ResumeLoadedGame</a> (const std::string &amp;save_state)</td></tr>
+<tr class="memdesc:aa15bd8f5e2a8faa4f098906a5dff326c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a game is loaded from a save.  <a href="#aa15bd8f5e2a8faa4f098906a5dff326c">More...</a><br/></td></tr>
+<tr class="separator:aa15bd8f5e2a8faa4f098906a5dff326c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47fb720bad981fe37cd02adf49a13061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#a47fb720bad981fe37cd02adf49a13061">SetAggression</a> (int aggr)</td></tr>
+<tr class="memdesc:a47fb720bad981fe37cd02adf49a13061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the aggressiveness of this AI.  <a href="#a47fb720bad981fe37cd02adf49a13061">More...</a><br/></td></tr>
 <tr class="separator:a47fb720bad981fe37cd02adf49a13061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb695eb60d06b89d0cea82d5fef96627"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#afb695eb60d06b89d0cea82d5fef96627">StartNewGame</a> ()</td></tr>
-<tr class="memdesc:afb695eb60d06b89d0cea82d5fef96627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new game (not loaded) is started. AI should clear its state and prepare to start a new game.  <a href="#afb695eb60d06b89d0cea82d5fef96627">More...</a><br/></td></tr>
+<tr class="memdesc:afb695eb60d06b89d0cea82d5fef96627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new game (not loaded) is started.  <a href="#afb695eb60d06b89d0cea82d5fef96627">More...</a><br/></td></tr>
 <tr class="separator:afb695eb60d06b89d0cea82d5fef96627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac9c791515d389f1f0bb70176fb75273b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classAIBase.html#ac9c791515d389f1f0bb70176fb75273b">m_aggression</a></td></tr>
+<tr class="memdesc:ac9c791515d389f1f0bb70176fb75273b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current aggressiveness of this AI.  <a href="#ac9c791515d389f1f0bb70176fb75273b">More...</a><br/></td></tr>
 <tr class="separator:ac9c791515d389f1f0bb70176fb75273b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class allowing AI to recieve basic game events. </p>
+<p>A subclass can overwrite any of the defined methods to implement a reaction behaviour whenever an game event occurs. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a33435214a37175f0e59d4b7ba2b58b06"></a>
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +193,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when the server has sent a new turn update. AI should review the new gamestate and send orders for this turn. </p>
+<p>Call when the server has sent a new turn update. </p>
+<p>The AI subclass should review the new gamestate and send orders for this turn. </p>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#a54ee3ebb40c2051653303ff40b116770">PythonAI</a>.</p>
 
@@ -216,7 +225,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when the server is saving the game. AI should store any state information it will need to resume at a later time, and return this information in the save_state_string. </p>
+<p>Called when the server is saving the game. </p>
+<p>The AI should store any state information it will need to resume at any later time, and return this information.</p>
+<dl class="section return"><dt>Returns</dt><dd>The serialized state information of the game running. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#ab30c46e514584bbc0e2095c8968c608a">PythonAI</a>.</p>
 
@@ -258,7 +269,15 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when another player sends a chat message to this player. AI can respond or ignore. </p>
+<p>Called when another player sends a chat message to this AI. </p>
+<p>The AI subclass should respond or react to the message in a meaningful way.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender_id</td><td>The player identifier representing the player, who sent the message. </td></tr>
+    <tr><td class="paramname">msg</td><td>The text body of the sent message. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#adf4920eb19168a9e61c63c53b092a6fd">PythonAI</a>.</p>
 
@@ -288,7 +307,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when another player sends a diplomatic message that affects this player. AI can respond or ignore. </p>
+<p>Called when another player sends a diplomatic message that affects this player. </p>
+<p>The AI subclass should respond or react to the message in a meaningful way.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>The diplomatic message sent. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#aa0b4bf54ef8fb8b09dc7332ce5cdc6b6">PythonAI</a>.</p>
 
@@ -318,7 +344,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when empires' diplomatic status changes. </p>
+<p>Called when two empires diplomatic status changes. </p>
+<p>The AI subclass should respond or react to the change in a meaningful way.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td>The diplomatic status changed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#aef933c165080afb3e2fa4d33f7803f0f">PythonAI</a>.</p>
 
@@ -326,7 +359,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adbc98c0757449adee00078c2f35abcf4"></a>
+<a class="anchor" id="aa15bd8f5e2a8faa4f098906a5dff326c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -337,7 +370,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void AIBase::ResumeLoadedGame </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>save_state_string</em></td><td>)</td>
+          <td class="paramname"><em>save_state</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -348,7 +381,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when a game is loaded from save. AI should extract any state information stored in <em>save_state_string</em> so as to be able to continue generating orders when asked to do so. </p>
+<p>Called when a game is loaded from a save. </p>
+<p>The AI subclass should extract any state information stored in <em>save_state</em> so it is able to continue generating orders when asked to do so.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">save_state</td><td>The serialized state information from a previous game run. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#a46e0180680ecefcb31240d520633b160">PythonAI</a>.</p>
 
@@ -369,6 +409,15 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the aggressiveness of this AI. </p>
+<p>The AI should change their behaviour when setting another aggression level.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aggr</td><td>The new aggression level. The value should be one of ::Aggression. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="../../dc/d7f/classAIBase.html#ac9c791515d389f1f0bb70176fb75273b">m_aggression</a>.</p>
 
@@ -397,7 +446,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Called when a new game (not loaded) is started. AI should clear its state and prepare to start a new game. </p>
+<p>Called when a new game (not loaded) is started. </p>
+<p>The AI subclass should clear its state and prepare to start for a new game. </p>
 
 <p>Reimplemented in <a class="el" href="../../d6/d1f/classPythonAI.html#aadab957d5402850a58698bb96479e5e0">PythonAI</a>.</p>
 
@@ -423,6 +473,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current aggressiveness of this AI. </p>
+<p>The value should be one of ::Aggression. </p>
 
 <p>Referenced by <a class="el" href="../../dc/d7f/classAIBase.html#a47fb720bad981fe37cd02adf49a13061">SetAggression()</a>, and <a class="el" href="../../d6/d1f/classPythonAI.html#aadab957d5402850a58698bb96479e5e0">PythonAI::StartNewGame()</a>.</p>
 

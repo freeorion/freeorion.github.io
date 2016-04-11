@@ -86,141 +86,173 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">AIInterface Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>List of functions for AIs to query the game state, interact with other players and issue game orders.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Game state accessors</div></td></tr>
 <tr class="memitem:af5452c241581e38099ccf1b377e0e4e9"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#af5452c241581e38099ccf1b377e0e4e9">PlayerName</a> ()</td></tr>
-<tr class="memdesc:af5452c241581e38099ccf1b377e0e4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the player name of this client  <a href="#af5452c241581e38099ccf1b377e0e4e9">More...</a><br/></td></tr>
+<tr class="memdesc:af5452c241581e38099ccf1b377e0e4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the player name of this client.  <a href="#af5452c241581e38099ccf1b377e0e4e9">More...</a><br/></td></tr>
 <tr class="separator:af5452c241581e38099ccf1b377e0e4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dd410a0f4f17176b18133711e84b750"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a0dd410a0f4f17176b18133711e84b750">PlayerName</a> (int player_id)</td></tr>
-<tr class="memdesc:a0dd410a0f4f17176b18133711e84b750"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of player with <em>player_id</em>  <a href="#a0dd410a0f4f17176b18133711e84b750">More...</a><br/></td></tr>
+<tr class="memdesc:a0dd410a0f4f17176b18133711e84b750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the player name of the client identified by <em>player_id</em>.  <a href="#a0dd410a0f4f17176b18133711e84b750">More...</a><br/></td></tr>
 <tr class="separator:a0dd410a0f4f17176b18133711e84b750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9dbb02392842fce5e24cebf3d810b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">PlayerID</a> ()</td></tr>
-<tr class="memdesc:aab9dbb02392842fce5e24cebf3d810b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the player ID of this client  <a href="#aab9dbb02392842fce5e24cebf3d810b1">More...</a><br/></td></tr>
+<tr class="memdesc:aab9dbb02392842fce5e24cebf3d810b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the player identifier of this client.  <a href="#aab9dbb02392842fce5e24cebf3d810b1">More...</a><br/></td></tr>
 <tr class="separator:aab9dbb02392842fce5e24cebf3d810b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac17b0216d3c9ce491897bee65c7ac8e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">EmpireID</a> ()</td></tr>
-<tr class="memdesc:ac17b0216d3c9ce491897bee65c7ac8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the empire ID of this client  <a href="#ac17b0216d3c9ce491897bee65c7ac8e0">More...</a><br/></td></tr>
+<tr class="memdesc:ac17b0216d3c9ce491897bee65c7ac8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire identifier of the empire this client controls.  <a href="#ac17b0216d3c9ce491897bee65c7ac8e0">More...</a><br/></td></tr>
 <tr class="separator:ac17b0216d3c9ce491897bee65c7ac8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd2a0aae2d0adda962d1072293c59ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#afbd2a0aae2d0adda962d1072293c59ed">PlayerEmpireID</a> (int player_id)</td></tr>
-<tr class="memdesc:afbd2a0aae2d0adda962d1072293c59ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns ID of empire controlled by player with id <em>player_id</em>  <a href="#afbd2a0aae2d0adda962d1072293c59ed">More...</a><br/></td></tr>
+<tr class="memdesc:afbd2a0aae2d0adda962d1072293c59ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire identifier of the empire <em>player_id</em> controls.  <a href="#afbd2a0aae2d0adda962d1072293c59ed">More...</a><br/></td></tr>
 <tr class="separator:afbd2a0aae2d0adda962d1072293c59ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64967815a20ee93e77ff9c3c5bf6a715"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a64967815a20ee93e77ff9c3c5bf6a715">AllEmpireIDs</a> ()</td></tr>
-<tr class="memdesc:a64967815a20ee93e77ff9c3c5bf6a715"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector containing IDs of all empires in game  <a href="#a64967815a20ee93e77ff9c3c5bf6a715">More...</a><br/></td></tr>
+<tr class="memdesc:a64967815a20ee93e77ff9c3c5bf6a715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all empire identifiers that are in game.  <a href="#a64967815a20ee93e77ff9c3c5bf6a715">More...</a><br/></td></tr>
 <tr class="separator:a64967815a20ee93e77ff9c3c5bf6a715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9385c0aa16f4bf7c751dba121e6a110c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a9385c0aa16f4bf7c751dba121e6a110c">GetEmpire</a> ()</td></tr>
-<tr class="memdesc:a9385c0aa16f4bf7c751dba121e6a110c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns empire of this client's player  <a href="#a9385c0aa16f4bf7c751dba121e6a110c">More...</a><br/></td></tr>
+<tr class="memdesc:a9385c0aa16f4bf7c751dba121e6a110c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> this client controls.  <a href="#a9385c0aa16f4bf7c751dba121e6a110c">More...</a><br/></td></tr>
 <tr class="separator:a9385c0aa16f4bf7c751dba121e6a110c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c5f4390d1d91c78eb1dca7f2a3cffa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#af7c5f4390d1d91c78eb1dca7f2a3cffa">GetEmpire</a> (int empire_id)</td></tr>
-<tr class="memdesc:af7c5f4390d1d91c78eb1dca7f2a3cffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns empire with id <em>empire_id</em>  <a href="#af7c5f4390d1d91c78eb1dca7f2a3cffa">More...</a><br/></td></tr>
+<tr class="memdesc:af7c5f4390d1d91c78eb1dca7f2a3cffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> identified by <em>empire_id</em>.  <a href="#af7c5f4390d1d91c78eb1dca7f2a3cffa">More...</a><br/></td></tr>
 <tr class="separator:af7c5f4390d1d91c78eb1dca7f2a3cffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefe5e46ff368b3b4e70ef5ed8da49eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#aaefe5e46ff368b3b4e70ef5ed8da49eb">EmpirePlayerID</a> (int empire_id)</td></tr>
-<tr class="memdesc:aaefe5e46ff368b3b4e70ef5ed8da49eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns ID of player controlling empire with id <em>empire_id</em>  <a href="#aaefe5e46ff368b3b4e70ef5ed8da49eb">More...</a><br/></td></tr>
+<tr class="memdesc:aaefe5e46ff368b3b4e70ef5ed8da49eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the player identfier of the player controlling the empire <em>empire_id</em>.  <a href="#aaefe5e46ff368b3b4e70ef5ed8da49eb">More...</a><br/></td></tr>
 <tr class="separator:aaefe5e46ff368b3b4e70ef5ed8da49eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5602c7f6bd1c6fe8d7d046fe1585fe37"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a5602c7f6bd1c6fe8d7d046fe1585fe37">AllPlayerIDs</a> ()</td></tr>
-<tr class="memdesc:a5602c7f6bd1c6fe8d7d046fe1585fe37"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector containing IDs of all players in game  <a href="#a5602c7f6bd1c6fe8d7d046fe1585fe37">More...</a><br/></td></tr>
+<tr class="memdesc:a5602c7f6bd1c6fe8d7d046fe1585fe37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all player identifiers that are in game.  <a href="#a5602c7f6bd1c6fe8d7d046fe1585fe37">More...</a><br/></td></tr>
 <tr class="separator:a5602c7f6bd1c6fe8d7d046fe1585fe37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49a55cddd1c0bf60864ac084c23205d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a49a55cddd1c0bf60864ac084c23205d5">PlayerIsAI</a> (int player_id)</td></tr>
-<tr class="memdesc:a49a55cddd1c0bf60864ac084c23205d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the player with id <em>player_id</em> is an AI  <a href="#a49a55cddd1c0bf60864ac084c23205d5">More...</a><br/></td></tr>
+<tr class="memdesc:a49a55cddd1c0bf60864ac084c23205d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the player identified by <em>player_id</em> is an AI.  <a href="#a49a55cddd1c0bf60864ac084c23205d5">More...</a><br/></td></tr>
 <tr class="separator:a49a55cddd1c0bf60864ac084c23205d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7645d93b4ce8f92c3b94e6f59fb6bb29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a7645d93b4ce8f92c3b94e6f59fb6bb29">PlayerIsHost</a> (int player_id)</td></tr>
-<tr class="memdesc:a7645d93b4ce8f92c3b94e6f59fb6bb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the player with id <em>player_id</em> is the game host  <a href="#a7645d93b4ce8f92c3b94e6f59fb6bb29">More...</a><br/></td></tr>
+<tr class="memdesc:a7645d93b4ce8f92c3b94e6f59fb6bb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the player identified by <em>player_id</em> is the game host.  <a href="#a7645d93b4ce8f92c3b94e6f59fb6bb29">More...</a><br/></td></tr>
 <tr class="separator:a7645d93b4ce8f92c3b94e6f59fb6bb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9708408513ec7c29c4ef857ee4103fff"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a9708408513ec7c29c4ef857ee4103fff">GetUniverse</a> ()</td></tr>
-<tr class="memdesc:a9708408513ec7c29c4ef857ee4103fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> known to this player  <a href="#a9708408513ec7c29c4ef857ee4103fff">More...</a><br/></td></tr>
+<tr class="memdesc:a9708408513ec7c29c4ef857ee4103fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> known to this client.  <a href="#a9708408513ec7c29c4ef857ee4103fff">More...</a><br/></td></tr>
 <tr class="separator:a9708408513ec7c29c4ef857ee4103fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03c739bbb883c2d26ca4926fa2d3f93c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dd3/classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a03c739bbb883c2d26ca4926fa2d3f93c">GetTech</a> (const std::string &amp;tech_name)</td></tr>
-<tr class="memdesc:a03c739bbb883c2d26ca4926fa2d3f93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="../../d4/dd3/classTech.html">Tech</a> with name <em>name</em>  <a href="#a03c739bbb883c2d26ca4926fa2d3f93c">More...</a><br/></td></tr>
-<tr class="separator:a03c739bbb883c2d26ca4926fa2d3f93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842c653e1381b87d038324173168a2c6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/dd3/classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a842c653e1381b87d038324173168a2c6">GetTech</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a842c653e1381b87d038324173168a2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../d4/dd3/classTech.html">Tech</a> identified by <em>name</em>.  <a href="#a842c653e1381b87d038324173168a2c6">More...</a><br/></td></tr>
+<tr class="separator:a842c653e1381b87d038324173168a2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfca3ff206991ec6bc0def65d323c0e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#acfca3ff206991ec6bc0def65d323c0e4">CurrentTurn</a> ()</td></tr>
-<tr class="memdesc:acfca3ff206991ec6bc0def65d323c0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current game turn  <a href="#acfca3ff206991ec6bc0def65d323c0e4">More...</a><br/></td></tr>
+<tr class="memdesc:acfca3ff206991ec6bc0def65d323c0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current game turn.  <a href="#acfca3ff206991ec6bc0def65d323c0e4">More...</a><br/></td></tr>
 <tr class="separator:acfca3ff206991ec6bc0def65d323c0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a1cde6deccdf8fde0796957f8d43ed4fd">GetAIConfigStr</a> ()</td></tr>
-<tr class="memdesc:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the <a class="el" href="../../dd/d5a/classOptionsDB.html">OptionsDB</a> ai-config value  <a href="#a1cde6deccdf8fde0796957f8d43ed4fd">More...</a><br/></td></tr>
+<tr class="memdesc:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the <a class="el" href="../../dd/d5a/classOptionsDB.html">OptionsDB</a> <code>ai-config</code> key.  <a href="#a1cde6deccdf8fde0796957f8d43ed4fd">More...</a><br/></td></tr>
 <tr class="separator:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#afd5f3ad404f35d72e9c96d13274b2be2">GetAIDir</a> ()</td></tr>
-<tr class="memdesc:afd5f3ad404f35d72e9c96d13274b2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the full AI directory path  <a href="#afd5f3ad404f35d72e9c96d13274b2be2">More...</a><br/></td></tr>
+<tr class="memdesc:afd5f3ad404f35d72e9c96d13274b2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the canonical AI directory path.  <a href="#afd5f3ad404f35d72e9c96d13274b2be2">More...</a><br/></td></tr>
 <tr class="separator:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c11b7a44862e8f387bf8c9795c0e5a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dd/d9e/structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a59c11b7a44862e8f387bf8c9795c0e5a">GetGalaxySetupData</a> ()</td></tr>
-<tr class="memdesc:a59c11b7a44862e8f387bf8c9795c0e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the setup data used to generate the game universe  <a href="#a59c11b7a44862e8f387bf8c9795c0e5a">More...</a><br/></td></tr>
+<tr class="memdesc:a59c11b7a44862e8f387bf8c9795c0e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../dd/d9e/structGalaxySetupData.html">GalaxySetupData</a> of this game.  <a href="#a59c11b7a44862e8f387bf8c9795c0e5a">More...</a><br/></td></tr>
 <tr class="separator:a59c11b7a44862e8f387bf8c9795c0e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Game state prediction</div></td></tr>
 <tr class="memitem:a52dc427085b23aecd88c60abf4848788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a52dc427085b23aecd88c60abf4848788">InitTurn</a> ()</td></tr>
-<tr class="memdesc:a52dc427085b23aecd88c60abf4848788"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes and calculates meters, resource pools and queues so info based on latest turn update  <a href="#a52dc427085b23aecd88c60abf4848788">More...</a><br/></td></tr>
+<tr class="memdesc:a52dc427085b23aecd88c60abf4848788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and update game state based last turn update.  <a href="#a52dc427085b23aecd88c60abf4848788">More...</a><br/></td></tr>
 <tr class="separator:a52dc427085b23aecd88c60abf4848788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93b8803eb5e625644a00b4ed43b22157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a93b8803eb5e625644a00b4ed43b22157">InitMeterEstimatesAndDiscrepancies</a> ()</td></tr>
+<tr class="memdesc:a93b8803eb5e625644a00b4ed43b22157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and update the <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> <a class="el" href="../../d8/d49/classMeter.html">Meter</a> s.  <a href="#a93b8803eb5e625644a00b4ed43b22157">More...</a><br/></td></tr>
 <tr class="separator:a93b8803eb5e625644a00b4ed43b22157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b7d7871551f6aa30f5eceab43da5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a43b7d7871551f6aa30f5eceab43da5c4">UpdateMeterEstimates</a> (bool pretend_unowned_planets_owned_by_this_ai_empire=false)</td></tr>
-<tr class="memdesc:a43b7d7871551f6aa30f5eceab43da5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets object meters to what they are expected to be during the next turn processing phase, after orders are submitted. if <em>pretend_unowned_planets_owned_by_this_ai_empire</em> is true, unowned planets known of by this player will have this player added as an owner before meter values are calculated, so that their max meter values will be what they would be if those planets were colonized by this empire  <a href="#a43b7d7871551f6aa30f5eceab43da5c4">More...</a><br/></td></tr>
-<tr class="separator:a43b7d7871551f6aa30f5eceab43da5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7cdb0c2bd05fe98edef9ffd5b14c53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#abe7cdb0c2bd05fe98edef9ffd5b14c53">UpdateMeterEstimates</a> (bool pretend_to_own_unowned_planets=false)</td></tr>
+<tr class="memdesc:abe7cdb0c2bd05fe98edef9ffd5b14c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> <a class="el" href="../../d8/d49/classMeter.html">Meter</a> instances to their estimated values as if the next turn processing phase were done.  <a href="#abe7cdb0c2bd05fe98edef9ffd5b14c53">More...</a><br/></td></tr>
+<tr class="separator:abe7cdb0c2bd05fe98edef9ffd5b14c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c78be44f6569c40142111676165756d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a3c78be44f6569c40142111676165756d">UpdateResourcePools</a> ()</td></tr>
-<tr class="memdesc:a3c78be44f6569c40142111676165756d"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how much of each resource is available at each object owned by this empire, and updates resource pool amounts and spending on queues accordingly  <a href="#a3c78be44f6569c40142111676165756d">More...</a><br/></td></tr>
+<tr class="memdesc:a3c78be44f6569c40142111676165756d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate resource generation, update <a class="el" href="../../d6/da4/classResourcePool.html">ResourcePool</a> s and change queue spending.  <a href="#a3c78be44f6569c40142111676165756d">More...</a><br/></td></tr>
 <tr class="separator:a3c78be44f6569c40142111676165756d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f8b2fd7d1297f628b5356f0b2a85127"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a9f8b2fd7d1297f628b5356f0b2a85127">UpdateResearchQueue</a> ()</td></tr>
+<tr class="memdesc:a9f8b2fd7d1297f628b5356f0b2a85127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and update game state based last turn update.  <a href="#a9f8b2fd7d1297f628b5356f0b2a85127">More...</a><br/></td></tr>
 <tr class="separator:a9f8b2fd7d1297f628b5356f0b2a85127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe73a221b3aa8a5c5aea2178c33e9358"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#afe73a221b3aa8a5c5aea2178c33e9358">UpdateProductionQueue</a> ()</td></tr>
+<tr class="memdesc:afe73a221b3aa8a5c5aea2178c33e9358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and update game state based last turn update.  <a href="#afe73a221b3aa8a5c5aea2178c33e9358">More...</a><br/></td></tr>
 <tr class="separator:afe73a221b3aa8a5c5aea2178c33e9358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Issuing orders</div></td></tr>
 <tr class="memitem:a3ef9aace0a5ca3e6fe70eb9d17cd898c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a3ef9aace0a5ca3e6fe70eb9d17cd898c">IssueFleetMoveOrder</a> (int fleet_id, int destination_id)</td></tr>
+<tr class="memdesc:a3ef9aace0a5ca3e6fe70eb9d17cd898c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a3ef9aace0a5ca3e6fe70eb9d17cd898c">More...</a><br/></td></tr>
 <tr class="separator:a3ef9aace0a5ca3e6fe70eb9d17cd898c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2340ecc07049e46b2980f96dc54d38c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a2340ecc07049e46b2980f96dc54d38c8">IssueRenameOrder</a> (int object_id, const std::string &amp;new_name)</td></tr>
+<tr class="memdesc:a2340ecc07049e46b2980f96dc54d38c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a2340ecc07049e46b2980f96dc54d38c8">More...</a><br/></td></tr>
 <tr class="separator:a2340ecc07049e46b2980f96dc54d38c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0afb83dd02988b6a55e0a3350b265720"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a0afb83dd02988b6a55e0a3350b265720">IssueScrapOrder</a> (const std::vector&lt; int &gt; &amp;object_ids)</td></tr>
+<tr class="memdesc:a0afb83dd02988b6a55e0a3350b265720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a0afb83dd02988b6a55e0a3350b265720">More...</a><br/></td></tr>
 <tr class="separator:a0afb83dd02988b6a55e0a3350b265720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab000f000221b04bd459b04ae73f4849e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ab000f000221b04bd459b04ae73f4849e">IssueScrapOrder</a> (int object_id)</td></tr>
+<tr class="memdesc:ab000f000221b04bd459b04ae73f4849e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#ab000f000221b04bd459b04ae73f4849e">More...</a><br/></td></tr>
 <tr class="separator:ab000f000221b04bd459b04ae73f4849e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a589633fa49634cd25525c3c38c83408a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a589633fa49634cd25525c3c38c83408a">IssueNewFleetOrder</a> (const std::string &amp;fleet_name, const std::vector&lt; int &gt; &amp;ship_ids)</td></tr>
+<tr class="memdesc:a589633fa49634cd25525c3c38c83408a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a589633fa49634cd25525c3c38c83408a">More...</a><br/></td></tr>
 <tr class="separator:a589633fa49634cd25525c3c38c83408a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad363a21b6a8f3dafedaedb5de8874a61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ad363a21b6a8f3dafedaedb5de8874a61">IssueNewFleetOrder</a> (const std::string &amp;fleet_name, int ship_id)</td></tr>
+<tr class="memdesc:ad363a21b6a8f3dafedaedb5de8874a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#ad363a21b6a8f3dafedaedb5de8874a61">More...</a><br/></td></tr>
 <tr class="separator:ad363a21b6a8f3dafedaedb5de8874a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00c9d3d70212c2578149aac9e7d640a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ac00c9d3d70212c2578149aac9e7d640a">IssueFleetTransferOrder</a> (int ship_id, int new_fleet_id)</td></tr>
+<tr class="memdesc:ac00c9d3d70212c2578149aac9e7d640a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#ac00c9d3d70212c2578149aac9e7d640a">More...</a><br/></td></tr>
 <tr class="separator:ac00c9d3d70212c2578149aac9e7d640a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19d423b5da5cec22e2b4437adaa1722"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ae19d423b5da5cec22e2b4437adaa1722">IssueColonizeOrder</a> (int ship_id, int planet_id)</td></tr>
+<tr class="memdesc:ae19d423b5da5cec22e2b4437adaa1722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#ae19d423b5da5cec22e2b4437adaa1722">More...</a><br/></td></tr>
 <tr class="separator:ae19d423b5da5cec22e2b4437adaa1722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a7d2628cb80ce13a5c1375a5b4e35c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a9a7d2628cb80ce13a5c1375a5b4e35c0">IssueInvadeOrder</a> (int ship_id, int planet_id)</td></tr>
+<tr class="memdesc:a9a7d2628cb80ce13a5c1375a5b4e35c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a9a7d2628cb80ce13a5c1375a5b4e35c0">More...</a><br/></td></tr>
 <tr class="separator:a9a7d2628cb80ce13a5c1375a5b4e35c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a796a02bbb615c8f350e3ed5c5dbda2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a1a796a02bbb615c8f350e3ed5c5dbda2">IssueBombardOrder</a> (int ship_id, int planet_id)</td></tr>
+<tr class="memdesc:a1a796a02bbb615c8f350e3ed5c5dbda2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a1a796a02bbb615c8f350e3ed5c5dbda2">More...</a><br/></td></tr>
 <tr class="separator:a1a796a02bbb615c8f350e3ed5c5dbda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abac0b0f244d63249a7ef5dffc4856985"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#abac0b0f244d63249a7ef5dffc4856985">IssueDeleteFleetOrder</a> ()</td></tr>
+<tr class="memdesc:abac0b0f244d63249a7ef5dffc4856985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#abac0b0f244d63249a7ef5dffc4856985">More...</a><br/></td></tr>
 <tr class="separator:abac0b0f244d63249a7ef5dffc4856985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6cbaf185606c192fdb9bb32ebbb9647"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#aa6cbaf185606c192fdb9bb32ebbb9647">IssueAggressionOrder</a> (int object_id, bool aggressive)</td></tr>
+<tr class="memdesc:aa6cbaf185606c192fdb9bb32ebbb9647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#aa6cbaf185606c192fdb9bb32ebbb9647">More...</a><br/></td></tr>
 <tr class="separator:aa6cbaf185606c192fdb9bb32ebbb9647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6574d509aaf90775930f92a376e9597a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a6574d509aaf90775930f92a376e9597a">IssueGiveObjectToEmpireOrder</a> (int object_id, int recipient_id)</td></tr>
+<tr class="memdesc:a6574d509aaf90775930f92a376e9597a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a6574d509aaf90775930f92a376e9597a">More...</a><br/></td></tr>
 <tr class="separator:a6574d509aaf90775930f92a376e9597a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf4b8fbac2b3f157554527ea908529f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#aaf4b8fbac2b3f157554527ea908529f5">IssueChangeFocusOrder</a> (int planet_id, const std::string &amp;focus)</td></tr>
+<tr class="memdesc:aaf4b8fbac2b3f157554527ea908529f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#aaf4b8fbac2b3f157554527ea908529f5">More...</a><br/></td></tr>
 <tr class="separator:aaf4b8fbac2b3f157554527ea908529f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371cdfab39fc1aca7f4248519498cda3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a371cdfab39fc1aca7f4248519498cda3">IssueEnqueueTechOrder</a> (const std::string &amp;tech_name, int position)</td></tr>
+<tr class="memdesc:a371cdfab39fc1aca7f4248519498cda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a371cdfab39fc1aca7f4248519498cda3">More...</a><br/></td></tr>
 <tr class="separator:a371cdfab39fc1aca7f4248519498cda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3388bc3271076787d1b430a1a40a1d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#ae3388bc3271076787d1b430a1a40a1d7">IssueDequeueTechOrder</a> (const std::string &amp;tech_name)</td></tr>
+<tr class="memdesc:ae3388bc3271076787d1b430a1a40a1d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#ae3388bc3271076787d1b430a1a40a1d7">More...</a><br/></td></tr>
 <tr class="separator:ae3388bc3271076787d1b430a1a40a1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02067e86681fe3200c1e4691e017b862"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862">IssueEnqueueBuildingProductionOrder</a> (const std::string &amp;item_name, int location_id)</td></tr>
+<tr class="memdesc:a02067e86681fe3200c1e4691e017b862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a02067e86681fe3200c1e4691e017b862">More...</a><br/></td></tr>
 <tr class="separator:a02067e86681fe3200c1e4691e017b862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dfb05db23c6ea8cecf4a52c3440fd5e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e">IssueEnqueueShipProductionOrder</a> (int design_id, int location_id)</td></tr>
+<tr class="memdesc:a1dfb05db23c6ea8cecf4a52c3440fd5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a1dfb05db23c6ea8cecf4a52c3440fd5e">More...</a><br/></td></tr>
 <tr class="separator:a1dfb05db23c6ea8cecf4a52c3440fd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b7a82943fe52870471e53eb15ecf5d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a46b7a82943fe52870471e53eb15ecf5d">IssueChangeProductionQuantityOrder</a> (int queue_index, int new_quantity, int new_blocksize)</td></tr>
+<tr class="memdesc:a46b7a82943fe52870471e53eb15ecf5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a46b7a82943fe52870471e53eb15ecf5d">More...</a><br/></td></tr>
 <tr class="separator:a46b7a82943fe52870471e53eb15ecf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12202f0ccff80e91ecf738d565e0f681"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a12202f0ccff80e91ecf738d565e0f681">IssueRequeueProductionOrder</a> (int old_queue_index, int new_queue_index)</td></tr>
+<tr class="memdesc:a12202f0ccff80e91ecf738d565e0f681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a12202f0ccff80e91ecf738d565e0f681">More...</a><br/></td></tr>
 <tr class="separator:a12202f0ccff80e91ecf738d565e0f681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a408ba18a1b140f987a44e82a002aad70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a408ba18a1b140f987a44e82a002aad70">IssueDequeueProductionOrder</a> (int queue_index)</td></tr>
+<tr class="memdesc:a408ba18a1b140f987a44e82a002aad70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a408ba18a1b140f987a44e82a002aad70">More...</a><br/></td></tr>
 <tr class="separator:a408ba18a1b140f987a44e82a002aad70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5d50a37601565f9a29cf39c2264d7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#adc5d50a37601565f9a29cf39c2264d7b">IssueCreateShipDesignOrder</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, const std::vector&lt; std::string &gt; parts, const std::string &amp;icon, const std::string &amp;model, bool nameDescInStringTable)</td></tr>
+<tr class="memdesc:adc5d50a37601565f9a29cf39c2264d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#adc5d50a37601565f9a29cf39c2264d7b">More...</a><br/></td></tr>
 <tr class="separator:adc5d50a37601565f9a29cf39c2264d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f00c22e4c760a3ab72008982851bc21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a2f00c22e4c760a3ab72008982851bc21">SendPlayerChatMessage</a> (int recipient_player_id, const std::string &amp;message_text)</td></tr>
+<tr class="memdesc:a2f00c22e4c760a3ab72008982851bc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a2f00c22e4c760a3ab72008982851bc21">More...</a><br/></td></tr>
 <tr class="separator:a2f00c22e4c760a3ab72008982851bc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4390026220b47f619ddc16da25671723"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a4390026220b47f619ddc16da25671723">SendDiplomaticMessage</a> (const <a class="el" href="../../d2/dad/classDiplomaticMessage.html">DiplomaticMessage</a> &amp;diplo_message)</td></tr>
+<tr class="memdesc:a4390026220b47f619ddc16da25671723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#a4390026220b47f619ddc16da25671723">More...</a><br/></td></tr>
 <tr class="separator:a4390026220b47f619ddc16da25671723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7dfb28c39dc077e360cfbe983129d1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#af7dfb28c39dc077e360cfbe983129d1b">DoneTurn</a> ()</td></tr>
-<tr class="memdesc:af7dfb28c39dc077e360cfbe983129d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI player is done submitting orders for this turn.  <a href="#af7dfb28c39dc077e360cfbe983129d1b">More...</a><br/></td></tr>
+<tr class="memdesc:af7dfb28c39dc077e360cfbe983129d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify server that all orders for this client are given.  <a href="#af7dfb28c39dc077e360cfbe983129d1b">More...</a><br/></td></tr>
 <tr class="separator:af7dfb28c39dc077e360cfbe983129d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a346c2c05ff06db0650aa07a4e0a8b2ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#a346c2c05ff06db0650aa07a4e0a8b2ed">LogOutput</a> (const std::string &amp;log_text)</td></tr>
-<tr class="memdesc:a346c2c05ff06db0650aa07a4e0a8b2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">output text to as DEBUG  <a href="#a346c2c05ff06db0650aa07a4e0a8b2ed">More...</a><br/></td></tr>
+<tr class="memdesc:a346c2c05ff06db0650aa07a4e0a8b2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log <em>log_text</em> with DEBUG level.  <a href="#a346c2c05ff06db0650aa07a4e0a8b2ed">More...</a><br/></td></tr>
 <tr class="separator:a346c2c05ff06db0650aa07a4e0a8b2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc01ef82e4ee71efb724f83e661a4c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/namespaceAIInterface.html#adbc01ef82e4ee71efb724f83e661a4c7">ErrorOutput</a> (const std::string &amp;log_text)</td></tr>
-<tr class="memdesc:adbc01ef82e4ee71efb724f83e661a4c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">output text to as ERROR  <a href="#adbc01ef82e4ee71efb724f83e661a4c7">More...</a><br/></td></tr>
+<tr class="memdesc:adbc01ef82e4ee71efb724f83e661a4c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log <em>log_text</em> with ERROR level.  <a href="#adbc01ef82e4ee71efb724f83e661a4c7">More...</a><br/></td></tr>
 <tr class="separator:adbc01ef82e4ee71efb724f83e661a4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>List of functions for AIs to query the game state, interact with other players and issue game orders. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a64967815a20ee93e77ff9c3c5bf6a715"></a>
 <div class="memitem">
 <div class="memproto">
@@ -234,9 +266,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns vector containing IDs of all empires in game </p>
+<p>Return all empire identifiers that are in game. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector containing the identifiers of all empires. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a0e0668636382e71e5d078f89fe0dc612">ClientApp::Players()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -255,9 +288,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns vector containing IDs of all players in game </p>
+<p>Return all player identifiers that are in game. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector containing the identifiers of all players. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a0e0668636382e71e5d078f89fe0dc612">ClientApp::Players()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -276,7 +310,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the current game turn </p>
+<p>Return the current game turn. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number representing the current game turn. </dd></dl>
 
 <p>References <a class="el" href="../../dc/d24/classClientApp.html#a55e3a833de8c3f5d14e52af31ce3ccbb">ClientApp::CurrentTurn()</a>, and <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>.</p>
 
@@ -297,7 +332,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>AI player is done submitting orders for this turn. </p>
+<p>Notify server that all orders for this client are given. </p>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a5b9a8d2f63278e4c9db3831fb728296d">ClientApp::StartTurn()</a>.</p>
 
@@ -318,7 +353,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the empire ID of this client </p>
+<p>Return the empire identifier of the empire this client controls. </p>
+<dl class="section return"><dt>Returns</dt><dd>An empire identifier. </dd></dl>
 
 <p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, and <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>.</p>
 
@@ -340,7 +376,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns ID of player controlling empire with id <em>empire_id</em> </p>
+<p>Return the player identfier of the player controlling the empire <em>empire_id</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">empire_id</td><td>An empire identifier representing an empire.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The player identifier of the client controlling the empire. </dd></dl>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac4c44fec479bd569908190eb88d16060">ClientApp::EmpirePlayerID()</a>, and <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>.</p>
 
@@ -356,13 +399,20 @@ Functions</h2></td></tr>
           <td class="memname">void AIInterface::ErrorOutput </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>error_text</em></td><td>)</td>
+          <td class="paramname"><em>log_text</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>output text to as ERROR </p>
+<p>Log <em>log_text</em> with ERROR level. </p>
+<p>Writes the given text and appends a new line</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">log_text</td><td>The text that should be written to the log system. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>.</p>
 
@@ -381,7 +431,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the <a class="el" href="../../dd/d5a/classOptionsDB.html">OptionsDB</a> ai-config value </p>
+<p>Return the value of the <a class="el" href="../../dd/d5a/classOptionsDB.html">OptionsDB</a> <code>ai-config</code> key. </p>
+<dl class="section return"><dt>Returns</dt><dd>An UTF-8 encoded and NUL terminated string containing the path to an optional ai configuration file or an empty string if not set. </dd></dl>
 
 <p>References <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, and <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
 
@@ -402,7 +453,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the full AI directory path </p>
+<p>Return the canonical AI directory path. </p>
+<p>The value depends on the <a class="el" href="../../dd/d5a/classOptionsDB.html">OptionsDB</a> <code>resource-dir</code> and <code>ai-path</code> keys.</p>
+<dl class="section return"><dt>Returns</dt><dd>The canonical path pointing to the directory containing all python AI scripts. </dd></dl>
 
 <p>References <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="../../db/d54/Directories_8cpp.html#a324ee818119bd608831a91a7fe6dcd29">GetResourceDir()</a>.</p>
 
@@ -423,9 +476,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns empire of this client's player </p>
+<p>Return the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> this client controls. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> instance this client has the control over. </dd></dl>
 
-<p>References <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">EmpireID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>.</p>
+<p>References <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">EmpireID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>.</p>
 
 </div>
 </div>
@@ -443,9 +497,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns empire with id <em>empire_id</em> </p>
+<p>Return the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> identified by <em>empire_id</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">empire_id</td><td>An empire identifier.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> instance identified by <em>empire_id</em>. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>.</p>
 
 </div>
 </div>
@@ -462,15 +523,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the setup data used to generate the game universe </p>
+<p>Return the <a class="el" href="../../dd/d9e/structGalaxySetupData.html">GalaxySetupData</a> of this game. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="../../dd/d9e/structGalaxySetupData.html">GalaxySetupData</a> used in this game session. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a18ede60feaaa31e0919a43eeaeac2062">ClientApp::GetGalaxySetupData()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#ad0f8a097ceadf19e1b19326a0b16882c">ClientApp::GetGalaxySetupData()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a03c739bbb883c2d26ca4926fa2d3f93c"></a>
+<a class="anchor" id="a842c653e1381b87d038324173168a2c6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -484,8 +546,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns <a class="el" href="../../d4/dd3/classTech.html">Tech</a> with name <em>name</em> </p>
-<p>returns a pointer to the tech with the name <em>name</em>, or 0 if no such tech exists </p>
+<p>Return the <a class="el" href="../../d4/dd3/classTech.html">Tech</a> identified by <em>name</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The identifying name of the requested <a class="el" href="../../d4/dd3/classTech.html">Tech</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="../../d4/dd3/classTech.html">Tech</a> matching <em>name</em> or NULL if no <a class="el" href="../../d4/dd3/classTech.html">Tech</a> with that name was found. </dd></dl>
 
 <p>Referenced by <a class="el" href="../../d4/d68/classTechTreeLayout_1_1Node.html#ad20ad162830f8f7b5c80fc29b5ed635e">TechTreeLayout::Node::AddChild()</a>, <a class="el" href="../../d9/dea/classTechTreeLayout.html#a759148ae3708aef043c2a23eb73b4157">TechTreeLayout::AddNode()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1c302cac63ca56f77fafcceea0328afe">Empire::AddTech()</a>, <a class="el" href="../../dd/d1b/classTechTreeWnd.html#af2d29d310b5b3784539d97df9b46ace7">TechTreeWnd::CenterOnTech()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="../../d4/d6b/classEffect_1_1SetEmpireTechProgress.html#a55b20cbab04fc39109b13ba59ecbf5db">Effect::SetEmpireTechProgress::Description()</a>, <a class="el" href="../../d9/dea/classTechTreeLayout.html#a4c5932e232309765f4d7f255fbba00a1">TechTreeLayout::DoLayout()</a>, <a class="el" href="../../d3/d24/classTechTreeLayout_1_1Edge.html#a2aa4f291742c15001ec05c949876d8f0">TechTreeLayout::Edge::Edge()</a>, <a class="el" href="../../df/da6/structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="../../d4/d6b/classEffect_1_1SetEmpireTechProgress.html#a7e8dbcb1f7803efa50fad081fa55db7b">Effect::SetEmpireTechProgress::Execute()</a>, <a class="el" href="../../de/d35/classEffect_1_1GiveEmpireTech.html#ab7837e6a02d2ce6a2172987dc963aaab">Effect::GiveEmpireTech::Execute()</a>, <a class="el" href="../../d7/d6a/classTechTreeArcsImplementation.html#a784de8d7afab82cd4deea8243bdc6a0f">TechTreeArcsImplementation::FillArcBuffer()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ab4e2a15f84b6011df0ff546e5689ebf7">Empire::HasResearchedPrereqAndUnresearchedPrereq()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#ae3388bc3271076787d1b430a1a40a1d7">IssueDequeueTechOrder()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a371cdfab39fc1aca7f4248519498cda3">IssueEnqueueTechOrder()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="../../d4/d68/classTechTreeLayout_1_1Node.html#a0b8daacc6fd638f929dead435e3e7415">TechTreeLayout::Node::operator&lt;()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="../../d4/daf/structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9">anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()</a>, <a class="el" href="../../d7/de0/classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a97ef146e3ef3b711dcce3a145b9e69c0">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()</a>, <a class="el" href="../../d5/db2/namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a3c2a29ce45b23d646d65a9681c316847">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ae00fa8e45b67334b3b7c3d4f6f823fb4">Empire::ResearchableTech()</a>, <a class="el" href="../../d0/ddd/namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="../../d0/ddd/namespaceanonymous__namespace_02Empire_8cpp_03.html#a2af41a291a142939db4eafbd38431e92">anonymous_namespace{Empire.cpp}::SetTechQueueElementSpending()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="../../dd/d1b/classTechTreeWnd.html#a6c9fa6758204b223516cb0cf4face496">TechTreeWnd::TechDoubleClickedSlot()</a>, <a class="el" href="../../d9/d56/TechTreeWnd_8h.html#a2b581e3f4e7fbf8503e4a4c89bd421dc">TechPanelRowBrowseWnd()</a>, <a class="el" href="../../d2/d2c/namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a932df8ff197ed6f51818e5edb110a167">anonymous_namespace{TechTreeWnd.cpp}::TechVisible()</a>, <a class="el" href="../../d4/dce/structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">ResearchQueue::UnderfundedProject()</a>, <a class="el" href="../../d4/dce/structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">ResearchQueue::Update()</a>, <a class="el" href="../../d2/d58/classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#af7a56e20cc4aa51462ef5491025f8b2a">TechTreeWnd::LayoutPanel::TechPanel::Update()</a>, <a class="el" href="../../df/d20/classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>, and <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -504,9 +572,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> known to this player </p>
+<p>Return the <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> known to this client. </p>
+<dl class="section return"><dt>Returns</dt><dd>A constant reference to the single <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> instance representing the known universe of this client. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#af83a0754eb86e26c95700611ba3bb8df">ClientApp::GetUniverse()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a61f1efa7e72a11944715627d5066a9c4">ClientApp::GetUniverse()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -525,7 +594,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#af83a0754eb86e26c95700611ba3bb8df">ClientApp::GetUniverse()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>.</p>
+<p>Initialize and update the <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> <a class="el" href="../../d8/d49/classMeter.html">Meter</a> s. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../dc/dce/classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies</a> </dd></dl>
+
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a61f1efa7e72a11944715627d5066a9c4">ClientApp::GetUniverse()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -544,8 +616,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>initializes and calculates meters, resource pools and queues so info based on latest turn update </p>
-<p>Gamestate Prediction Utilites </p>
+<p>Initialize and update game state based last turn update. </p>
+<p>Initialize and update game state by updating this client</p>
+<ul>
+<li>Global <a class="el" href="../../d8/d49/classMeter.html">Meter</a></li>
+<li><a class="el" href="../../d6/da4/classResourcePool.html">ResourcePool</a></li>
+<li><a class="el" href="../../d3/de8/structProductionQueue.html">ProductionQueue</a></li>
+<li><a class="el" href="../../d4/dce/structResearchQueue.html">ResearchQueue</a></li>
+</ul>
+<p>instances based on the latest turn update. </p>
 
 </div>
 </div>
@@ -573,7 +652,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -603,7 +684,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../d2/d32/classShip.html#ad6ce8c36e59cdb482b8aa4840e9a7529">Ship::TotalWeaponsDamage()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../d2/d32/classShip.html#ad6ce8c36e59cdb482b8aa4840e9a7529">Ship::TotalWeaponsDamage()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -633,7 +716,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -669,7 +754,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -699,7 +786,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d5/dec/classPlanet.html#ac18977eca4f7ad1244928f7371bff2d6">Planet::CurrentMeterValue()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d32/classShip.html#ad6e079218950831cd4f890f714275f3e">Ship::FleetID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d5/dec/classPlanet.html#ac18977eca4f7ad1244928f7371bff2d6">Planet::CurrentMeterValue()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d32/classShip.html#ad6e079218950831cd4f890f714275f3e">Ship::FleetID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -759,7 +848,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d2/d95/AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac90fdb9c592c4dc61856635efc9bc874">ClientApp::GetNewDesignID()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../db/dd4/classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d2/d95/AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac90fdb9c592c4dc61856635efc9bc874">ClientApp::GetNewDesignID()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../db/dd4/classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d9a/namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae0d244f5300c8029601415adf31cbab1">anonymous_namespace{AIWrapper.cpp}::IssueCreateShipDesignOrderWrapper()</a>.</p>
 
@@ -778,6 +869,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Notify server that all orders for this client are given. </p>
+
 </div>
 </div>
 <a class="anchor" id="a408ba18a1b140f987a44e82a002aad70"></a>
@@ -794,7 +887,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -814,7 +909,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a03c739bbb883c2d26ca4926fa2d3f93c">GetTech()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a842c653e1381b87d038324173168a2c6">GetTech()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -844,7 +941,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -874,7 +973,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -904,7 +1005,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a03c739bbb883c2d26ca4926fa2d3f93c">GetTech()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a842c653e1381b87d038324173168a2c6">GetTech()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -934,7 +1037,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d8/d16/classFleet.html#aad5605290c66e2e77949af350c4dd677">Fleet::NextSystemID()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d8/d16/classFleet.html#aad5605290c66e2e77949af350c4dd677">Fleet::NextSystemID()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -964,7 +1069,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -994,7 +1101,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a1b059593ad0852ac93d23753f401a2a8">System::ObjectIDs()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#ab5f93ca43643a2770429732547ebb907">UniverseObject::ObjectType()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a1b059593ad0852ac93d23753f401a2a8">System::ObjectIDs()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#ab5f93ca43643a2770429732547ebb907">UniverseObject::ObjectType()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1024,7 +1133,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d5/dec/classPlanet.html#ac18977eca4f7ad1244928f7371bff2d6">Planet::CurrentMeterValue()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d32/classShip.html#ad6e079218950831cd4f890f714275f3e">Ship::FleetID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="../../d5/d20/Enums_8h.html#a0556c7d8980f2c2e96a833e89afc7c6e">METER_SHIELD</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d8/d60/classPopCenter.html#abd4e4412d3f35193e9e7153ea82ea8a8">PopCenter::SpeciesName()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d5/dec/classPlanet.html#ac18977eca4f7ad1244928f7371bff2d6">Planet::CurrentMeterValue()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d32/classShip.html#ad6e079218950831cd4f890f714275f3e">Ship::FleetID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="../../d5/d20/Enums_8h.html#a0556c7d8980f2c2e96a833e89afc7c6e">METER_SHIELD</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="../../d8/d60/classPopCenter.html#abd4e4412d3f35193e9e7153ea82ea8a8">PopCenter::SpeciesName()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1054,7 +1165,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aa66a87f2f5e1a428d16c69cd2d881f43">ClientApp::GetNewObjectID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aa66a87f2f5e1a428d16c69cd2d881f43">ClientApp::GetNewObjectID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a87db7326c66e6b47d3fa4dc8548365ad">GetShip()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 </div>
 </div>
@@ -1082,6 +1195,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Notify server that all orders for this client are given. </p>
+
 </div>
 </div>
 <a class="anchor" id="a2340ecc07049e46b2980f96dc54d38c8"></a>
@@ -1107,9 +1222,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Order-Giving </p>
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1139,7 +1255,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a3ead94868b341c60c80acad2f524b35d">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#aea48d52052d88c071495ba1140ef7b24">ClientApp::GetEmpire()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d3/de8/structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1159,7 +1277,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a11c8b425466c4df6f5e07c0a3ba12c8c">GetUniverseObject()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a5e5dbead13192b8976f24b652e5804a9">OrderSet::IssueOrder()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>.</p>
 
 </div>
 </div>
@@ -1177,6 +1297,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Notify server that all orders for this client are given. </p>
+
 </div>
 </div>
 <a class="anchor" id="a346c2c05ff06db0650aa07a4e0a8b2ed"></a>
@@ -1193,8 +1315,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>output text to as DEBUG </p>
-<p>Logging </p>
+<p>Log <em>log_text</em> with DEBUG level. </p>
+<p>LoggingWrites the given text and appends a new line</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">log_text</td><td>The text that should be written to the log system. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>.</p>
 
@@ -1214,9 +1342,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns ID of empire controlled by player with id <em>player_id</em> </p>
+<p>Return the empire identifier of the empire <em>player_id</em> controls. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_id</td><td>An client identifier.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An empire identifier. </dd></dl>
 
-<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a0e0668636382e71e5d078f89fe0dc612">ClientApp::Players()</a>.</p>
+<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1235,11 +1370,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the player ID of this client </p>
+<p>Return the player identifier of this client. </p>
+<dl class="section return"><dt>Returns</dt><dd>The player identifier of this client as assigned by the server. </dd></dl>
 
 <p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/ddc/classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">ServerNetworking::GetPlayer()</a>, <a class="el" href="../../d3/d50/classMultiPlayerLobbyWnd.html#aed8710926e5015d166760e6d610b7542">MultiPlayerLobbyWnd::KeyPress()</a>, <a class="el" href="../../d6/d6b/structPlayingTurn.html#a97b63ae23f527ef5a8c4e573518e636e">PlayingTurn::PlayingTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a9d423dfe7e4a979f5cbe4788b39022ee">MapWnd::RClick()</a>, <a class="el" href="../../d9/d82/structMPLobby.html#a1fde1ac3be38d3097a57393e39f548c6">MPLobby::react()</a>, <a class="el" href="../../d3/de4/structWaitingForGameStart.html#a2f5d59f0259fe99c6eec37068b57a37e">WaitingForGameStart::react()</a>, <a class="el" href="../../d7/d14/structWaitingForTurnData.html#ac367b8df5a629f6c64e1147a9ccda38d">WaitingForTurnData::react()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a2f00c22e4c760a3ab72008982851bc21">SendPlayerChatMessage()</a>, <a class="el" href="../../d3/d50/classMultiPlayerLobbyWnd.html#a0b4a94a52a6740778760159df23b2ed2">MultiPlayerLobbyWnd::ThisClientIsHost()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a43b7d7871551f6aa30f5eceab43da5c4">UpdateMeterEstimates()</a>, and <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/ddc/classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">ServerNetworking::GetPlayer()</a>, <a class="el" href="../../d3/d50/classMultiPlayerLobbyWnd.html#aed8710926e5015d166760e6d610b7542">MultiPlayerLobbyWnd::KeyPress()</a>, <a class="el" href="../../d6/d6b/structPlayingTurn.html#a97b63ae23f527ef5a8c4e573518e636e">PlayingTurn::PlayingTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a9d423dfe7e4a979f5cbe4788b39022ee">MapWnd::RClick()</a>, <a class="el" href="../../d9/d82/structMPLobby.html#a1fde1ac3be38d3097a57393e39f548c6">MPLobby::react()</a>, <a class="el" href="../../d3/de4/structWaitingForGameStart.html#a2f5d59f0259fe99c6eec37068b57a37e">WaitingForGameStart::react()</a>, <a class="el" href="../../d7/d14/structWaitingForTurnData.html#ac367b8df5a629f6c64e1147a9ccda38d">WaitingForTurnData::react()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#a2f00c22e4c760a3ab72008982851bc21">SendPlayerChatMessage()</a>, <a class="el" href="../../d3/d50/classMultiPlayerLobbyWnd.html#a0b4a94a52a6740778760159df23b2ed2">MultiPlayerLobbyWnd::ThisClientIsHost()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#abe7cdb0c2bd05fe98edef9ffd5b14c53">UpdateMeterEstimates()</a>, and <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1393,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns true iff the player with id <em>player_id</em> is an AI </p>
+<p>Return if the player identified by <em>player_id</em> is an AI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_id</td><td>An client identifier.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the player is an AI, false if not. </dd></dl>
 
 <p>References <a class="el" href="../../d7/df6/namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#aa3843aef7cdc7d349b481cc00e4c5d80">ClientApp::GetPlayerClientType()</a>.</p>
 
@@ -1279,9 +1422,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns true iff the player with id <em>player_id</em> is the game host </p>
+<p>Return if the player identified by <em>player_id</em> is the game host. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_id</td><td>An client identifier.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the player is the game host, false if not. </dd></dl>
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a0e0668636382e71e5d078f89fe0dc612">ClientApp::Players()</a>.</p>
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/db9/classHumanClientApp.html#a6323adbd2cf6e36ca3948c8e2d86d3ae">HumanClientApp::CanSaveNow()</a>, <a class="el" href="../../d9/d82/structMPLobby.html#a1fde1ac3be38d3097a57393e39f548c6">MPLobby::react()</a>, <a class="el" href="../../d3/de4/structWaitingForGameStart.html#a2f5d59f0259fe99c6eec37068b57a37e">WaitingForGameStart::react()</a>, <a class="el" href="../../d7/d14/structWaitingForTurnData.html#ac367b8df5a629f6c64e1147a9ccda38d">WaitingForTurnData::react()</a>, and <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1300,8 +1450,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the player name of this client </p>
-<p>Gamestate Accessors </p>
+<p>Return the player name of this client. </p>
+<dl class="section return"><dt>Returns</dt><dd>An UTF-8 encoded and NUL terminated string containing the player name of this client. </dd></dl>
 
 <p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dd/db8/classAIClientApp.html#a33033d9f212b4fe5694ef0c81aa8154c">AIClientApp::PlayerName()</a>.</p>
 
@@ -1321,9 +1471,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the name of player with <em>player_id</em> </p>
+<p>Return the player name of the client identified by <em>player_id</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player_id</td><td>An client identifier.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An UTF-8 encoded and NUL terminated string containing the player name of this client or an empty string the player is not known or does not exist. </dd></dl>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a0e0668636382e71e5d078f89fe0dc612">ClientApp::Players()</a>.</p>
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="../../dc/d24/classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>.</p>
 
 </div>
 </div>
@@ -1341,7 +1498,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../d2/d31/Message_8cpp.html#a9333d72d238458c3a694ec862f9289fc">DiplomacyMessage()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac4c44fec479bd569908190eb88d16060">ClientApp::EmpirePlayerID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="../../dc/d24/classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659">ClientApp::Networking()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="../../d2/dad/classDiplomaticMessage.html#abda57c467e544b7ed4ee649bbc1a44d8">DiplomaticMessage::RecipientEmpireID()</a>, and <a class="el" href="../../dc/d34/classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">ClientNetworking::SendMessage()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../d2/d31/Message_8cpp.html#a9333d72d238458c3a694ec862f9289fc">DiplomacyMessage()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac4c44fec479bd569908190eb88d16060">ClientApp::EmpirePlayerID()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="../../dc/d24/classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa">ClientApp::Networking()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="../../d2/dad/classDiplomaticMessage.html#abda57c467e544b7ed4ee649bbc1a44d8">DiplomaticMessage::RecipientEmpireID()</a>, and <a class="el" href="../../dc/d34/classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">ClientNetworking::SendMessage()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1371,13 +1530,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d31/Message_8cpp.html#a7ea956ee05de29e1b618f063fb0274a0">GlobalChatMessage()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659">ClientApp::Networking()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">PlayerID()</a>, <a class="el" href="../../dc/d34/classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">ClientNetworking::SendMessage()</a>, and <a class="el" href="../../d2/d31/Message_8cpp.html#a7eb9684ba9925c097a60444e01dda9bb">SingleRecipientChatMessage()</a>.</p>
+<p>Notify server that all orders for this client are given. </p>
+
+<p>References <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d31/Message_8cpp.html#a7ea956ee05de29e1b618f063fb0274a0">GlobalChatMessage()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa">ClientApp::Networking()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">PlayerID()</a>, <a class="el" href="../../dc/d34/classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">ClientNetworking::SendMessage()</a>, and <a class="el" href="../../d2/d31/Message_8cpp.html#a7eb9684ba9925c097a60444e01dda9bb">SingleRecipientChatMessage()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a43b7d7871551f6aa30f5eceab43da5c4"></a>
+<a class="anchor" id="abe7cdb0c2bd05fe98edef9ffd5b14c53"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1385,15 +1546,21 @@ Functions</h2></td></tr>
           <td class="memname">void AIInterface::UpdateMeterEstimates </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>pretend_unowned_planets_owned_by_this_ai_empire</em></td><td>)</td>
+          <td class="paramname"><em>pretend_to_own_unowned_planets</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>sets object meters to what they are expected to be during the next turn processing phase, after orders are submitted. if <em>pretend_unowned_planets_owned_by_this_ai_empire</em> is true, unowned planets known of by this player will have this player added as an owner before meter values are calculated, so that their max meter values will be what they would be if those planets were colonized by this empire </p>
+<p>Set <a class="el" href="../../dc/dce/classUniverse.html">Universe</a> <a class="el" href="../../d8/d49/classMeter.html">Meter</a> instances to their estimated values as if the next turn processing phase were done. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pretend_to_own_unowned_planets</td><td>When set to true pretend during calculation that this clients <a class="el" href="../../d2/d2e/classEmpire.html">Empire</a> owns all known uncolonized planets. The unowned planets MAX <a class="el" href="../../d8/d49/classMeter.html">Meter</a> values will contain the estimated value for those planets. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#af83a0754eb86e26c95700611ba3bb8df">ClientApp::GetUniverse()</a>, <a class="el" href="../../dc/dce/classUniverse.html#aeb5b8bf6463d5e9e9b5d1317c0e105e2">Universe::InhibitUniverseObjectSignals()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">PlayerID()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a74f6412dac94ed34e42d253dbbcfa655">UniverseObject::SetOwner()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>.</p>
+<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a61f1efa7e72a11944715627d5066a9c4">ClientApp::GetUniverse()</a>, <a class="el" href="../../dc/dce/classUniverse.html#aeb5b8bf6463d5e9e9b5d1317c0e105e2">Universe::InhibitUniverseObjectSignals()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">PlayerID()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a74f6412dac94ed34e42d253dbbcfa655">UniverseObject::SetOwner()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 
@@ -1411,6 +1578,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize and update game state based last turn update. </p>
+<p>Initialize and update game state by updating this client</p>
+<ul>
+<li>Global <a class="el" href="../../d8/d49/classMeter.html">Meter</a></li>
+<li><a class="el" href="../../d6/da4/classResourcePool.html">ResourcePool</a></li>
+<li><a class="el" href="../../d3/de8/structProductionQueue.html">ProductionQueue</a></li>
+<li><a class="el" href="../../d4/dce/structResearchQueue.html">ResearchQueue</a></li>
+</ul>
+<p>instances based on the latest turn update. </p>
 
 <p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">Empire::UpdateProductionQueue()</a>.</p>
 
@@ -1431,6 +1608,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize and update game state based last turn update. </p>
+<p>Initialize and update game state by updating this client</p>
+<ul>
+<li>Global <a class="el" href="../../d8/d49/classMeter.html">Meter</a></li>
+<li><a class="el" href="../../d6/da4/classResourcePool.html">ResourcePool</a></li>
+<li><a class="el" href="../../d3/de8/structProductionQueue.html">ProductionQueue</a></li>
+<li><a class="el" href="../../d4/dce/structResearchQueue.html">ResearchQueue</a></li>
+</ul>
+<p>instances based on the latest turn update. </p>
+
 <p>References <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#a44dbf32de030f1902775745307feaad6">Empire::UpdateResearchQueue()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d20/namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
@@ -1450,7 +1637,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>determines how much of each resource is available at each object owned by this empire, and updates resource pool amounts and spending on queues accordingly </p>
+<p>Calculate resource generation, update <a class="el" href="../../d6/da4/classResourcePool.html">ResourcePool</a> s and change queue spending. </p>
 
 <p>References <a class="el" href="../../da/ddc/classEmpireManager.html#afc6699b57c14fe59f8a665d84f5e8715">EmpireManager::begin()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ae3aa1fa58c9c36b609b12c0d0b272918">ClientApp::Empires()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#ad4e9ede1b0c3129917a2daab10ab1d44">EmpireManager::end()</a>, and <a class="el" href="../../dd/db8/classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>.</p>
 
