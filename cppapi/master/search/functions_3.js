@@ -184,6 +184,7 @@ var searchData=
   ['compilesavegamepreviewdata',['CompileSaveGamePreviewData',['../d5/daa/namespaceanonymous__namespace_02SaveLoad_8cpp_03.html#af269282070d034ce70b79b820a29c243',1,'anonymous_namespace{SaveLoad.cpp}']]],
   ['completeddesignlistboxrow',['CompletedDesignListBoxRow',['../d7/d22/classBasesListBox_1_1CompletedDesignListBoxRow.html#a157ada7cddca3520c2d36367ef8a92e5',1,'BasesListBox::CompletedDesignListBoxRow']]],
   ['completeword',['CompleteWord',['../da/dbb/classMessageWndEdit.html#ade4d9d2b6a1a14a8b5d8e4510d7fcfe2',1,'MessageWndEdit']]],
+  ['completexdgmigration',['CompleteXDGMigration',['../db/d54/Directories_8cpp.html#a90f33cafd6b8c4887f2367885c5d1c04',1,'CompleteXDGMigration():&#160;Directories.cpp'],['../d6/d0b/Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9',1,'CompleteXDGMigration():&#160;Directories.cpp']]],
   ['completionmeterconsumption',['CompletionMeterConsumption',['../d3/d74/structProductionQueue_1_1ProductionItem.html#a45b624ec29bd1bad1b8d96ff50fdc069',1,'ProductionQueue::ProductionItem']]],
   ['completionspecialconsumption',['CompletionSpecialConsumption',['../d3/d74/structProductionQueue_1_1ProductionItem.html#ab6d3eb13892f1851a3eb5a9dc3566859',1,'ProductionQueue::ProductionItem']]],
   ['complexvariable',['ComplexVariable',['../df/da6/structValueRef_1_1ComplexVariable.html#acd11dbefeeda2f173d0ab61d88883e75',1,'ValueRef::ComplexVariable']]],

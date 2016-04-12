@@ -109,6 +109,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a90f33cafd6b8c4887f2367885c5d1c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d54/Directories_8cpp.html#a90f33cafd6b8c4887f2367885c5d1c04">CompleteXDGMigration</a> ()</td></tr>
+<tr class="separator:a90f33cafd6b8c4887f2367885c5d1c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878c6bb4d43be96570e86d3a6a2976bd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d54/Directories_8cpp.html#a878c6bb4d43be96570e86d3a6a2976bd">FilenameTimestamp</a> ()</td></tr>
 <tr class="separator:a878c6bb4d43be96570e86d3a6a2976bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7adbb0746f4e42467a0cc9bf88f36a49"><td class="memItemLeft" align="right" valign="top">const fs::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d54/Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath</a> (const std::string &amp;path_str)</td></tr>
@@ -139,6 +141,26 @@ Variables</h2></td></tr>
 <tr class="separator:acd691a4df632e48e851215f32c7ce429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a90f33cafd6b8c4887f2367885c5d1c04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CompleteXDGMigration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function must be called before any Get*Dir function is called. It stores the current working directory as well as creating local directories if they do not yet exist. </p>
+
+<p>References <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d6/d0b/Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f">GetUserDataDir()</a>, and <a class="el" href="../../dd/d5a/classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a878c6bb4d43be96570e86d3a6a2976bd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +212,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the full path to the configfile. </p>
 
-<p>References <a class="el" href="../../d6/d0b/Directories_8h.html#a609156949c159cda74c4febb0aa21aa1">GetUserDir()</a>.</p>
+<p>References <a class="el" href="../../d6/d0b/Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5a/classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">OptionsDB::Commit()</a>, <a class="el" href="../../d3/d40/camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
@@ -210,7 +232,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the full path to the configfile. </p>
 
-<p>References <a class="el" href="../../d6/d0b/Directories_8h.html#a609156949c159cda74c4febb0aa21aa1">GetUserDir()</a>.</p>
+<p>References <a class="el" href="../../d6/d0b/Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d40/camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
@@ -322,7 +344,7 @@ if relative directory: <a class="el" href="../../db/d54/Directories_8cpp.html#a3
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d2/dac/namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">HumanClientApp::Autosave()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">OptionsDB::Commit()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="../../df/d49/classSound.html#a4fa66c3790a00a39612682bc1dfe83e6">Sound::FreeSound()</a>, <a class="el" href="../../da/d35/namespaceanonymous__namespace_02i18n_8cpp_03.html#aa7d234535f6903a577e80e9c2b84ec93">anonymous_namespace{i18n.cpp}::GetDefaultStringTableFileName()</a>, <a class="el" href="../../d3/dc7/namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a439a7fe4152a235fab731c683167bbd5">anonymous_namespace{ServerWrapper.cpp}::GetResourceDirWrapper()</a>, <a class="el" href="../../d9/d9a/namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#adc9762a034e737774071a78bc668ed6d">anonymous_namespace{AIWrapper.cpp}::GetUserDirWrapper()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, <a class="el" href="../../db/d54/Directories_8cpp.html#aa838f609aa3195049176b20da13217b6">ListDir()</a>, <a class="el" href="../../d7/d31/classSaveFileListBox.html#a22b735bc6bef61a845c87cc0a727e948">SaveFileListBox::LoadDirectories()</a>, <a class="el" href="../../da/d2b/namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">anonymous_namespace{SaveGamePreviewUtils.cpp}::LoadSaveGamePreviewData()</a>, <a class="el" href="../../d8/dcf/SaveGamePreviewUtils_8cpp.html#acb79c5895f33a6557dd0561904a2ae2c">LoadSaveGamePreviews()</a>, <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="../../df/d49/classSound.html#a8e201a5cff0380c551d19f4ed83f8125">Sound::PlayMusic()</a>, <a class="el" href="../../df/d49/classSound.html#a927f8603fd8c91f83d5139f0919dcaac">Sound::PlaySound()</a>, <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">parse::process_include_substitutions()</a>, <a class="el" href="../../d5/d4a/classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#ac931089f97fea63169445dc102fdc447">anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager::RefreshDesigns()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">SaveFileDialog::Result()</a>, <a class="el" href="../../d8/d3f/namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae2382efc15d9775f6aacd62dbe716316">anonymous_namespace{HumanClientApp.cpp}::ServerClientExe()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SaveFileDialog::SetDirPath()</a>, and <a class="el" href="../../d1/d26/namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ae538d96994a924a9c6ca3f9c22c8fc54">anonymous_namespace{DesignWnd.cpp}::ShowSaveDesignDialog()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dac/namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">HumanClientApp::Autosave()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">OptionsDB::Commit()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="../../df/d49/classSound.html#a4fa66c3790a00a39612682bc1dfe83e6">Sound::FreeSound()</a>, <a class="el" href="../../da/d35/namespaceanonymous__namespace_02i18n_8cpp_03.html#aa7d234535f6903a577e80e9c2b84ec93">anonymous_namespace{i18n.cpp}::GetDefaultStringTableFileName()</a>, <a class="el" href="../../d3/dc7/namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a439a7fe4152a235fab731c683167bbd5">anonymous_namespace{ServerWrapper.cpp}::GetResourceDirWrapper()</a>, <a class="el" href="../../d9/d9a/namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4100a304c4e76a99b4a82df542ea8f86">anonymous_namespace{AIWrapper.cpp}::GetUserConfigDirWrapper()</a>, <a class="el" href="../../d9/d9a/namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae353386a830be81de5dd36c88dd3a15e">anonymous_namespace{AIWrapper.cpp}::GetUserDataDirWrapper()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, <a class="el" href="../../db/d54/Directories_8cpp.html#aa838f609aa3195049176b20da13217b6">ListDir()</a>, <a class="el" href="../../d7/d31/classSaveFileListBox.html#a22b735bc6bef61a845c87cc0a727e948">SaveFileListBox::LoadDirectories()</a>, <a class="el" href="../../da/d2b/namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">anonymous_namespace{SaveGamePreviewUtils.cpp}::LoadSaveGamePreviewData()</a>, <a class="el" href="../../d8/dcf/SaveGamePreviewUtils_8cpp.html#acb79c5895f33a6557dd0561904a2ae2c">LoadSaveGamePreviews()</a>, <a class="el" href="../../dd/d83/chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="../../df/d49/classSound.html#a8e201a5cff0380c551d19f4ed83f8125">Sound::PlayMusic()</a>, <a class="el" href="../../df/d49/classSound.html#a927f8603fd8c91f83d5139f0919dcaac">Sound::PlaySound()</a>, <a class="el" href="../../df/d6c/namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">parse::process_include_substitutions()</a>, <a class="el" href="../../d5/d4a/classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#ac931089f97fea63169445dc102fdc447">anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager::RefreshDesigns()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">SaveFileDialog::Result()</a>, <a class="el" href="../../d8/d3f/namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae2382efc15d9775f6aacd62dbe716316">anonymous_namespace{HumanClientApp.cpp}::ServerClientExe()</a>, <a class="el" href="../../dc/dd9/classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SaveFileDialog::SetDirPath()</a>, and <a class="el" href="../../d1/d26/namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ae538d96994a924a9c6ca3f9c22c8fc54">anonymous_namespace{DesignWnd.cpp}::ShowSaveDesignDialog()</a>.</p>
 
 </div>
 </div>
