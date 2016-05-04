@@ -36,6 +36,7 @@ var searchData=
   ['objecttypevisitor',['ObjectTypeVisitor',['../df/da6/structanonymous__namespace_02ValueRef_8cpp_03_1_1ObjectTypeVisitor.html#a2c075ab72691996603b659173b12849c',1,'anonymous_namespace{ValueRef.cpp}::ObjectTypeVisitor']]],
   ['observericon',['ObserverIcon',['../d4/d62/namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#ab4776ed0a5ffdd8a93155b512472b6a6',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['obstructedstarlanesp',['obstructedStarlanesP',['../d1/df2/namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a5ec27b13a6a800e17a3d49ec2bed0e7c',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['ofobjectscondition',['OfObjectsCondition',['../dd/daf/classEffect_1_1SetVisibility.html#a44552fce32dc02efad72c5233e9e5e93',1,'Effect::SetVisibility']]],
   ['okclicked',['OkClicked',['../d2/d03/classCUIEditWnd.html#acd4fc49b5c5b489b9a147da10bae2045',1,'CUIEditWnd::OkClicked()'],['../d6/d80/classGalaxySetupWnd.html#ae2d5951541e4c69a0889c805cebabe3a',1,'GalaxySetupWnd::OkClicked()'],['../da/d9c/classServerConnectWnd.html#a91982e2295a77d5611a85c751379f78e',1,'ServerConnectWnd::OkClicked()']]],
   ['onabout',['OnAbout',['../d4/daf/classIntroScreen.html#ad084eb1d86c7689febace113abf9b424',1,'IntroScreen']]],
   ['onback',['OnBack',['../d5/db0/classEncyclopediaDetailPanel.html#aeab2445fc3acaf91a3290d0913b11c9e',1,'EncyclopediaDetailPanel']]],

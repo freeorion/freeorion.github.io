@@ -3,7 +3,7 @@ var searchData=
   ['serverlist',['ServerList',['../d4/d0d/classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad5ab9cbf275508d65a603de7eaa60637',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::ServerList()'],['../dc/d34/classClientNetworking.html#a98060c80047a51397edaddbc65fa63d8',1,'ClientNetworking::ServerList()']]],
   ['set',['Set',['../d9/d19/classFreeOrionPython_1_1SetWrapper.html#a246fb1ca58bf3863129da2c142f094db',1,'FreeOrionPython::SetWrapper']]],
   ['set_5fmeter_5frule',['set_meter_rule',['../db/d98/structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#ade891bbbb4d3a5b15fd2993ce08f2502',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
-  ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../db/d98/structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#a53a2c7284847cf945b0c562b692502e4',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
+  ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../db/d98/structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#a225163805286ea54c3a851e2ff2fa1e4',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['setiterator',['SetIterator',['../d9/d19/classFreeOrionPython_1_1SetWrapper.html#a56ba736e31c8ca8f89951bdf643aa973',1,'FreeOrionPython::SetWrapper']]],
   ['setpartfuncptrtype',['SetPartFuncPtrType',['../dd/d5e/classDesignWnd_1_1MainPanel.html#ac9abcf4fb2a6b8e0c2d78331883f1454',1,'DesignWnd::MainPanel']]],
   ['ship_5fdesign_5fiterator',['ship_design_iterator',['../dc/dce/classUniverse.html#a36b94ff0880cca821a6249edcccc48a0',1,'Universe']]],
