@@ -192,6 +192,8 @@ var searchData=
   ['m_5fcontent_5ftype',['m_content_type',['../dc/d55/structCondition_1_1Location.html#a383150333c5f89b333270adaaf4abc1b',1,'Condition::Location']]],
   ['m_5fcontrols',['m_controls',['../d4/d71/classMarkupBox_1_1MarkupSurface.html#a2149f83d9db7f3e1f69f674249e115e5',1,'MarkupBox::MarkupSurface::m_controls()'],['../d8/dab/classObjectPanel.html#a0d291beb5cea4ec8e5a78c67d42daf94',1,'ObjectPanel::m_controls()'],['../d5/d45/classObjectHeaderPanel.html#a93b55a6e8cb8e7d804c6513f958b86b0',1,'ObjectHeaderPanel::m_controls()']]],
   ['m_5fcost',['m_cost',['../db/d8a/classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemPanel.html#a14393e3adea9f226aab150dc3cca6776',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemPanel']]],
+  ['m_5fcost_5fand_5fduration_5flabel',['m_cost_and_duration_label',['../d2/d58/classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#ac1f5e0ec65f4e7069d15221090b03db7',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
+  ['m_5fcost_5fand_5fduration_5ftext',['m_cost_and_duration_text',['../d2/d58/classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a85931fdd2af2bffa084040eaae8ad224',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['m_5fcost_5ftext',['m_cost_text',['../d5/db0/classEncyclopediaDetailPanel.html#ac641d6ca43df47f3f99a7261cbab6890',1,'EncyclopediaDetailPanel']]],
   ['m_5fcreate_5fnew_5fdesign',['m_create_new_design',['../df/d01/classShipDesignOrder.html#a5d822c5b86ad354ca3e60f03e10bc7c2',1,'ShipDesignOrder']]],
   ['m_5fcreate_5fplanet_5fbutton',['m_create_planet_button',['../df/d93/classModeratorActionsWnd.html#ac1e13a0f943d3c3ac5edf0584240d6b2',1,'ModeratorActionsWnd']]],
