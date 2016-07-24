@@ -10,6 +10,8 @@ var searchData=
   ['waitingforturndata',['WaitingForTurnData',['../d7/d14/structWaitingForTurnData.html',1,'']]],
   ['waitingforturnend',['WaitingForTurnEnd',['../d9/db1/structWaitingForTurnEnd.html',1,'']]],
   ['waitingforturnendidle',['WaitingForTurnEndIdle',['../d4/dff/structWaitingForTurnEndIdle.html',1,'']]],
+  ['weaponfireevent',['WeaponFireEvent',['../d9/de0/structWeaponFireEvent.html',1,'']]],
+  ['weaponsplatformevent',['WeaponsPlatformEvent',['../df/d42/structWeaponsPlatformEvent.html',1,'']]],
   ['withindistance',['WithinDistance',['../dc/d3d/structCondition_1_1WithinDistance.html',1,'Condition']]],
   ['withindistancesimplematch',['WithinDistanceSimpleMatch',['../d1/da0/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinDistanceSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['withinstarlanejumps',['WithinStarlaneJumps',['../d6/d56/structCondition_1_1WithinStarlaneJumps.html',1,'Condition']]],

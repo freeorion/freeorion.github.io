@@ -1,6 +1,10 @@
 var searchData=
 [
   ['field_5frule',['field_rule',['../dd/d9c/structanonymous__namespace_02FieldsParser_8cpp_03_1_1rules.html#afc00e71da7bd9b4392646999ecee886c',1,'anonymous_namespace{FieldsParser.cpp}::rules']]],
+  ['fighterattackedeventptr',['FighterAttackedEventPtr',['../da/d42/structFighterAttackedEvent.html#accfad4efaadee18aade384697a8c41b6',1,'FighterAttackedEvent']]],
+  ['fighterlaunchesevent',['FighterLaunchesEvent',['../dd/d33/CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d',1,'CombatEvents.h']]],
+  ['fighterlauncheseventptr',['FighterLaunchesEventPtr',['../dd/d33/CombatEvents_8h.html#a26630b3771945b139f25dd1be98949a8',1,'CombatEvents.h']]],
+  ['fighterlauncheventptr',['FighterLaunchEventPtr',['../db/d4c/structFighterLaunchEvent.html#a03515c9d8200ea5322e02bee28504b5e',1,'FighterLaunchEvent']]],
   ['fleet_5fplan_5frule',['fleet_plan_rule',['../d6/d3b/structanonymous__namespace_02FleetPlansParser_8cpp_03_1_1rules.html#af1a8b311ab58510d1472f67fdbcd700f',1,'anonymous_namespace{FleetPlansParser.cpp}::rules']]],
   ['floatintpair',['FloatIntPair',['../d1/df2/namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a9106d29c9767b87468bf3e57a398df85',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['floatintpairconverter',['FloatIntPairConverter',['../d1/df2/namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a60fc39de55148fff464d3f9e78da79a5',1,'anonymous_namespace{EmpireWrapper.cpp}']]],

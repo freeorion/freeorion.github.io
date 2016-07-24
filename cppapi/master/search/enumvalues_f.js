@@ -15,9 +15,7 @@ var searchData=
   ['sort_5frandom',['SORT_RANDOM',['../d4/dc3/namespaceCondition.html#a4673fbf090a5b7b97d09b514f06c8dadac3013670b979751fa2e24cd09c7d5501',1,'Condition']]],
   ['source_5freference',['SOURCE_REFERENCE',['../d1/d55/namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1a6aa7241715f37486d15d0014857da5e2',1,'ValueRef']]],
   ['spread',['SPREAD',['../d1/d55/namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a5bd412d8ce638b37337dd11523b11b6d',1,'ValueRef']]],
-  ['star_5ftype_5fvalue_5fref_5fparser',['star_type_value_ref_parser',['../d2/ddc/test_8h.html#aac4452a7487c189982bfeaca04a1326facd161784f9c2cfc8bb0d67edb30d6017',1,'test.h']]],
   ['stdev',['STDEV',['../d1/d55/namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3ae98ce8195a59964dbab82cd2c50478f8',1,'ValueRef']]],
-  ['string_5fvalue_5fref_5fparser',['string_value_ref_parser',['../d2/ddc/test_8h.html#aac4452a7487c189982bfeaca04a1326fa20ca88cbe4c441973dd30a55d252f409',1,'test.h']]],
   ['substitution',['SUBSTITUTION',['../d1/d55/namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a309b6378dae14d125aaacaf738673f6a',1,'ValueRef']]],
   ['sum',['SUM',['../d1/d55/namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a6ae30d0f750dc269683d2f05bea0f325',1,'ValueRef']]]
 ];

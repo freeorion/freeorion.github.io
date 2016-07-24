@@ -7,6 +7,7 @@ var searchData=
   ['incapacitationevent',['IncapacitationEvent',['../d6/de8/structIncapacitationEvent.html',1,'']]],
   ['info_5fvisitor',['info_visitor',['../d7/db4/structparse_1_1detail_1_1info__visitor.html',1,'parse::detail']]],
   ['ingamemenu',['InGameMenu',['../d7/d96/classInGameMenu.html',1,'']]],
+  ['initialstealthevent',['InitialStealthEvent',['../db/de0/structInitialStealthEvent.html',1,'']]],
   ['insert_5f',['insert_',['../d3/d72/structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1insert__.html',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['insert_5f',['insert_',['../de/d6d/structanonymous__namespace_02BuildingsParser_8cpp_03_1_1insert__.html',1,'anonymous_namespace{BuildingsParser.cpp}']]],
   ['insert_5f',['insert_',['../d5/dde/structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1insert__.html',1,'anonymous_namespace{EncyclopediaParser.cpp}']]],

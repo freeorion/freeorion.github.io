@@ -11,6 +11,7 @@ var searchData=
   ['anonymous_5fnamespace_7bchatwnd_2ecpp_7d',['anonymous_namespace{ChatWnd.cpp}',['../da/dbf/namespaceanonymous__namespace_02ChatWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bclientnetworking_2ecpp_7d',['anonymous_namespace{ClientNetworking.cpp}',['../d8/d4e/namespaceanonymous__namespace_02ClientNetworking_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bclientui_2ecpp_7d',['anonymous_namespace{ClientUI.cpp}',['../dd/dff/namespaceanonymous__namespace_02ClientUI_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bcombatevents_2ecpp_7d',['anonymous_namespace{CombatEvents.cpp}',['../d8/dde/namespaceanonymous__namespace_02CombatEvents_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatlogmanager_2ecpp_7d',['anonymous_namespace{CombatLogManager.cpp}',['../df/d4c/namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatlogwnd_2ecpp_7d',['anonymous_namespace{CombatLogWnd.cpp}',['../d4/db9/namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatreportdata_2ecpp_7d',['anonymous_namespace{CombatReportData.cpp}',['../d9/df5/namespaceanonymous__namespace_02CombatReportData_8cpp_03.html',1,'']]],

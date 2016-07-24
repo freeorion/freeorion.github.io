@@ -44,6 +44,7 @@ var searchData=
   ['getaffiliation',['GetAffiliation',['../de/d02/structCondition_1_1EmpireAffiliation.html#aa2c4158b2350e9f0d4a5f2f642fa5da3',1,'Condition::EmpireAffiliation']]],
   ['getage',['GetAge',['../d4/d0c/classGalaxySetupPanel.html#a8a885fbc221815ca462634fcb4e6a653',1,'GalaxySetupPanel::GetAge()'],['../dd/d9e/structGalaxySetupData.html#a01f7d0c355b183cfe031ecc705a26e61',1,'GalaxySetupData::GetAge()']]],
   ['getaggression',['GetAggression',['../dd/d9e/structGalaxySetupData.html#a08ce17ca85e6148db7eca8660dbbc524',1,'GalaxySetupData']]],
+  ['getaggressive',['GetAggressive',['../d7/dc8/structCondition_1_1Aggressive.html#a183b9f72f78ce8873a73b2e3433c7887',1,'Condition::Aggressive']]],
   ['getai',['GetAI',['../dd/db8/classAIClientApp.html#aa612c9b911e228215adc2caabfad868c',1,'AIClientApp']]],
   ['getaiaggression',['GetAIAggression',['../d4/d0c/classGalaxySetupPanel.html#aef8eab5cfd286a8313b8b4b09543a1b2',1,'GalaxySetupPanel']]],
   ['getaiconfigstr',['GetAIConfigStr',['../d1/dde/namespaceAIInterface.html#a1cde6deccdf8fde0796957f8d43ed4fd',1,'AIInterface']]],

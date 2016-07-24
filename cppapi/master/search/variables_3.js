@@ -11,7 +11,7 @@ var searchData=
   ['cdata',['CData',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#af3b2b2840b421da2cd1ea6f58269c57e',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['cdsect',['CDSect',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a70216d4a66b2a3336d023685db3e634e',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['centre',['centre',['../d1/d86/classDelauney_1_1DTTriangle.html#a81f849f8fc85b40a660e899d787f24ed',1,'Delauney::DTTriangle']]],
-  ['changedsignal',['ChangedSignal',['../d6/da4/classResourcePool.html#ab5a012d7ad712f56c44f5e9ed64f621d',1,'ResourcePool::ChangedSignal()'],['../d8/d17/classPopulationPool.html#af39f373b6cd89f6798f43cd4ed25a5a6',1,'PopulationPool::ChangedSignal()'],['../dc/d74/classOptionsBar.html#a42b8e576a94029d5c21d70055b2c2164',1,'OptionsBar::ChangedSignal()']]],
+  ['changedsignal',['ChangedSignal',['../d6/da4/classResourcePool.html#ab5a012d7ad712f56c44f5e9ed64f621d',1,'ResourcePool::ChangedSignal()'],['../d8/d17/classPopulationPool.html#af39f373b6cd89f6798f43cd4ed25a5a6',1,'PopulationPool::ChangedSignal()'],['../db/d28/classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html#a93c822a24e8da821d5fa713456d95d3d',1,'anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText::ChangedSignal()'],['../dc/d74/classOptionsBar.html#a42b8e576a94029d5c21d70055b2c2164',1,'OptionsBar::ChangedSignal()']]],
   ['channel',['channel',['../d1/d90/structanonymous__namespace_02Parse_8cpp_03_1_1color__parser__rules.html#aa63bf990a7b1ae44f6bd2c2df82ed0e4',1,'anonymous_namespace{Parse.cpp}::color_parser_rules']]],
   ['chardata',['CharData',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#aa9937ff64558a238334fc5f606e3924e',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['charref',['CharRef',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#aab53a0d6a224eee0e909e6e766cdf521',1,'anonymous_namespace{XMLDoc.cpp}']]],
@@ -35,6 +35,7 @@ var searchData=
   ['combat_5fid_5ftag',['COMBAT_ID_TAG',['../d6/d1e/classVarText.html#adce1a565236d5eb26f4ee7c9878048fd',1,'VarText']]],
   ['combat_5finfo',['combat_info',['../d2/de7/structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ac082ef74641f9d75b61a8c962e65a295',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['combat_5freport_5fwnd_5fname',['COMBAT_REPORT_WND_NAME',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9970c9df1f055cb340c98acd95985166',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['combatlogwndimpl',['CombatLogWndImpl',['../df/d7f/classCombatLogWnd.html#a26f432cc5d7bc1aae9bd15bb08e9b7a5',1,'CombatLogWnd']]],
   ['comment',['Comment',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad93fd3a1699dbf4e245aa05d9b0a0cec',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['comment1',['Comment1',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae73324a0b912b2ded35db0ce5df84451',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['common',['common',['../d4/dfc/structparse_1_1detail_1_1rules.html#a81cd0033dabe3f8dd57fc4b0338af82a',1,'parse::detail::rules']]],
@@ -52,7 +53,6 @@ var searchData=
   ['consumption',['consumption',['../d4/dfc/structparse_1_1detail_1_1rules.html#aaaeda661da59e7ff4e9b3c34673e6899',1,'parse::detail::rules']]],
   ['contained_5fby',['contained_by',['../d9/d58/structanonymous__namespace_02ConditionParser7_8cpp_03_1_1condition__parser__rules__7.html#a3ab0f1af328e1cb2fee0b945c7813d28',1,'anonymous_namespace{ConditionParser7.cpp}::condition_parser_rules_7']]],
   ['container_5ftype',['container_type',['../db/df5/structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#af59d4c4d4a04edc4df3ce755ee52a9a6',1,'anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules']]],
-  ['containertypes',['containerTypes',['../d8/d72/structValueRefDoubleFixture.html#a1952a888391f4b715abbb84b4f0a1882',1,'ValueRefDoubleFixture::containerTypes()'],['../d0/d48/structValueRefIntFixture.html#a26ab85677d0f40e15e2a50e9be2db6e1',1,'ValueRefIntFixture::containerTypes()'],['../dd/db1/structValueRefStringFixture.html#a5addf97bcd69aa0d0b996c50ee65d627',1,'ValueRefStringFixture::containerTypes()'],['../d0/d34/structValueRefUniverseObjectTypeFixture.html#a4fffbe03cc46b65d2f4f090f5915732b',1,'ValueRefUniverseObjectTypeFixture::containerTypes()']]],
   ['contains',['contains',['../d9/d58/structanonymous__namespace_02ConditionParser7_8cpp_03_1_1condition__parser__rules__7.html#a7f2347b4e8b6d9c56e157f68691cd6e0',1,'anonymous_namespace{ConditionParser7.cpp}::condition_parser_rules_7']]],
   ['content',['content',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a243cb5189e2068665b0f3d53912f0045',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['control_5fmargin',['CONTROL_MARGIN',['../d2/d03/classCUIEditWnd.html#a95404ab08b9aa8dda1ef395106316b9c',1,'CUIEditWnd::CONTROL_MARGIN()'],['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#af6808917a00a032b5f41f7e152bfa156',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::CONTROL_MARGIN()']]],
@@ -75,6 +75,5 @@ var searchData=
   ['current_5fhealth',['current_health',['../df/de8/structCombatParticipantState.html#ad659e128e585b66a5b0cb6a93a585017',1,'CombatParticipantState::current_health()'],['../dc/dad/structParticipantSummary.html#a2a00a4665208406ee8fa78ea01e2d61f',1,'ParticipantSummary::current_health()']]],
   ['current_5fturn',['current_turn',['../de/dff/structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d',1,'SaveGamePreviewData']]],
   ['current_5fvalue',['current_value',['../d8/d66/structScriptingContext.html#a32befe8da9ef0718c943db401b3b3021',1,'ScriptingContext']]],
-  ['custom_5flabel',['custom_label',['../dc/ddb/structEffect_1_1EffectCause.html#ac91418e4e9e07e06ae91d676db987942',1,'Effect::EffectCause']]],
-  ['cut_5franges',['cut_ranges',['../df/d99/namespacepermute__labels.html#ae3a453bf7c1e93a6d1a1cf34b225a44d',1,'permute_labels']]]
+  ['custom_5flabel',['custom_label',['../dc/ddb/structEffect_1_1EffectCause.html#ac91418e4e9e07e06ae91d676db987942',1,'Effect::EffectCause']]]
 ];

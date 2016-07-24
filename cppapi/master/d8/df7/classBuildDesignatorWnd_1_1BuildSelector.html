@@ -234,6 +234,8 @@ Public Attributes</h2></td></tr>
 <a class="el" href="../../d3/d74/structProductionQueue_1_1ProductionItem.html">ProductionQueue::ProductionItem</a> <br class="typebreak"/>
 &amp;, int, int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#a335e26a205d42fc3371898d9e5dde95d">RequestBuildItemSignal</a></td></tr>
 <tr class="separator:a335e26a205d42fc3371898d9e5dde95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ad984d7805a6296216e2264420d47b"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#a33ad984d7805a6296216e2264420d47b">ShowPediaSignal</a></td></tr>
+<tr class="separator:a33ad984d7805a6296216e2264420d47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -668,7 +670,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>respond to the user right-clicking a producible item in the build selector </p>
 
-<p>References <a class="el" href="../../d9/d79/classClientUI.html#ad5c0195c0f0d99773e615c5b3457ffce">ClientUI::EditHiliteColor()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a85accb578cc8ffef2c252246088a9f70">ClientUI::GetFont()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, and <a class="el" href="../../d9/d79/classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
+<p>References <a class="el" href="../../d5/d20/Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="../../d5/d20/Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="../../d3/d74/structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="../../d3/d74/structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="../../d9/d79/classClientUI.html#ad5c0195c0f0d99773e615c5b3457ffce">ClientUI::EditHiliteColor()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a85accb578cc8ffef2c252246088a9f70">ClientUI::GetFont()</a>, <a class="el" href="../../dc/d59/ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="../../d3/d74/structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, <a class="el" href="../../db/dd4/classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, <a class="el" href="../../dd/da2/Condition_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8">UserStringExists()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, and <a class="el" href="../../d9/d79/classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#a18babffc0a1e53a82db1198f1b2156b4">BuildSelector()</a>.</p>
 
@@ -1313,6 +1315,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="../../d3/d74/structProductionQueue_1_1ProductionItem.html">ProductionQueue::ProductionItem</a>&amp;, int, int)&gt; BuildDesignatorWnd::BuildSelector::RequestBuildItemSignal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="../../d1/de7/classBuildDesignatorWnd.html#a740c59835aeb20bd996a09c3eca406be">BuildDesignatorWnd::BuildDesignatorWnd()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a33ad984d7805a6296216e2264420d47b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::signals2::signal&lt;void ()&gt; BuildDesignatorWnd::BuildSelector::ShowPediaSignal</td>
         </tr>
       </table>
   </td>

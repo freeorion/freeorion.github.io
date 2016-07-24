@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['damage',['damage',['../d9/db6/structAttackEvent.html#a949cf9a28456843604d55abda98aa7e7',1,'AttackEvent']]],
+  ['damage',['damage',['../d9/de0/structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d',1,'WeaponFireEvent']]],
   ['damaged_5fobject_5fids',['damaged_object_ids',['../d0/d4e/structCombatLog.html#aeeb8fdbc31517a2db2087044d07a7bd1',1,'CombatLog::damaged_object_ids()'],['../de/de4/structCombatInfo.html#a8e1a7b73200fc5147321cd2128da30fe',1,'CombatInfo::damaged_object_ids()']]],
   ['data',['data',['../d0/df2/structTextLinker_1_1Link.html#a249551c48190603fc5cb9af9d893fcf7',1,'TextLinker::Link']]],
   ['data_5fpanel_5fborder',['DATA_PANEL_BORDER',['../dd/ded/namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a531a98b8cc530a34d08e656ebf6179f3',1,'anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER()'],['../d7/d31/namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae9cdd5155d2d6499892fb5b83d49e73a',1,'anonymous_namespace{ObjectListWnd.cpp}::DATA_PANEL_BORDER()'],['../d4/d62/namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a58d737422e793f1559583ccd59a6e9d1',1,'anonymous_namespace{PlayerListWnd.cpp}::DATA_PANEL_BORDER()']]],
@@ -44,6 +44,7 @@ var searchData=
   ['destroy',['destroy',['../da/d59/structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#ab01d88dd16e0b8d016893c860bf72468',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['destroyed_5fobject_5fids',['destroyed_object_ids',['../d0/d4e/structCombatLog.html#a17c4e6445d8e155d6ea4d32c7db26d1e',1,'CombatLog::destroyed_object_ids()'],['../de/de4/structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa',1,'CombatInfo::destroyed_object_ids()']]],
   ['destroyed_5fobject_5fknowers',['destroyed_object_knowers',['../de/de4/structCombatInfo.html#a664a8b629e2155c0d5a84dc6fcc38582',1,'CombatInfo']]],
+  ['details',['details',['../da/dc3/classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#abd1ca911dcdc9497543e16218dd86beb',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
   ['diplo_5fstatus',['diplo_status',['../d1/d25/structDiplomaticStatusUpdateInfo.html#afd06d278f1b3dd18dc2cdce8f8771c20',1,'DiplomaticStatusUpdateInfo']]],
   ['diplomaticmessagechangedsignal',['DiplomaticMessageChangedSignal',['../da/ddc/classEmpireManager.html#acefdd8a720608334f2a95e2c257f8096',1,'EmpireManager']]],
   ['diplomaticstatuschangedsignal',['DiplomaticStatusChangedSignal',['../da/ddc/classEmpireManager.html#ab1abd73a20ffdc95a0ae3869489796cb',1,'EmpireManager']]],
@@ -53,7 +54,6 @@ var searchData=
   ['discovery_5fquestion',['DISCOVERY_QUESTION',['../d7/df6/namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2',1,'Networking']]],
   ['displaybuildingtypesignal',['DisplayBuildingTypeSignal',['../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
-  ['do_5ferase',['do_erase',['../d0/dbf/lexer__test__rules_8cpp.html#aace715c17f19696f660ea1a233165dc8',1,'lexer_test_rules.cpp']]],
   ['doctypedecl',['doctypedecl',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a4418585c8c3ba2eca9ae574eac333016',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['document',['document',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2a453246d4337c7a71c85219b8973c65',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['donetypingsignal',['DoneTypingSignal',['../d4/d29/classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de',1,'MessageWnd']]],

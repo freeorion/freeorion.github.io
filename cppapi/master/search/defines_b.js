@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['phoenix_5flimit',['PHOENIX_LIMIT',['../d6/d64/CommonParamsParser_8cpp.html#abd4deaefcd3f37755724ca9aad4ec893',1,'PHOENIX_LIMIT():&#160;CommonParamsParser.cpp'],['../da/db2/ShipHullsParser_8cpp.html#abd4deaefcd3f37755724ca9aad4ec893',1,'PHOENIX_LIMIT():&#160;ShipHullsParser.cpp'],['../dc/d73/ShipPartsParser_8cpp.html#abd4deaefcd3f37755724ca9aad4ec893',1,'PHOENIX_LIMIT():&#160;ShipPartsParser.cpp']]]
+  ['register_5ftoken',['REGISTER_TOKEN',['../d2/d15/Lexer_8cpp.html#affc6306b8989d0420ae21f4dcbfd4a5b',1,'Lexer.cpp']]]
 ];

@@ -17,19 +17,17 @@ var searchData=
   ['queueitemmoved',['QueueItemMoved',['../de/db1/classBasesListBox.html#ad6a2ac3af537fa479f1dc03052313bf1',1,'BasesListBox::QueueItemMoved()'],['../d0/d4a/classProductionWnd.html#adaec48fc9ebfbfb08764d352d99f9097',1,'ProductionWnd::QueueItemMoved()'],['../d4/d3b/classResearchWnd.html#a232a94dd3d2dee2b35b1d5db566012b9',1,'ResearchWnd::QueueItemMoved()']]],
   ['queueitemmovedsignal',['QueueItemMovedSignal',['../d4/da0/classQueueListBox.html#a6b73bde6b3887fd3a26cbb8dfbc17104',1,'QueueListBox']]],
   ['queueitemrallied',['QueueItemRallied',['../d0/d4a/classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1',1,'ProductionWnd']]],
-  ['queueitemralliedtosignal',['QueueItemRalliedToSignal',['../de/d1c/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#a74df783813ca5e5b868a774d1747f713',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox']]],
+  ['queueitemralliedtosignal',['QueueItemRalliedToSignal',['../de/d1c/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#a74df783813ca5e5b868a774d1747f713',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::QueueItemRalliedToSignal()'],['../d2/da4/classResearchQueueListBox.html#a122bb4789f18a1cfbb3e724af6f2d501',1,'ResearchQueueListBox::QueueItemRalliedToSignal()']]],
   ['queuelistbox',['QueueListBox',['../d4/da0/classQueueListBox.html',1,'QueueListBox'],['../d4/da0/classQueueListBox.html#ad61d430e719ff098911c50a13a3a719b',1,'QueueListBox::QueueListBox()']]],
   ['queuelistbox_2ecpp',['QueueListBox.cpp',['../dc/ded/QueueListBox_8cpp.html',1,'']]],
   ['queuelistbox_2eh',['QueueListBox.h',['../de/d75/QueueListBox_8h.html',1,'']]],
   ['queueproductionitempanel',['QueueProductionItemPanel',['../d4/d7f/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['queueproductionitempanel',['QueueProductionItemPanel',['../d4/d7f/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#aa275b119f7712eab7d9d9340c691d8df',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
-  ['queuerow',['QueueRow',['../d8/db1/structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['queuerow',['QueueRow',['../d4/daf/structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
+  ['queuerow',['QueueRow',['../d8/db1/structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['queuerow',['QueueRow',['../d8/db1/structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a305bdc1dff0d35a53885444232df8939',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../d4/daf/structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
   ['queuetechpanel',['QueueTechPanel',['../d7/de0/classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a97ef146e3ef3b711dcce3a145b9e69c0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['queuetechpanel',['QueueTechPanel',['../d7/de0/classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
   ['queuetype',['QueueType',['../d4/dce/structResearchQueue.html#aee3a5747de917c41072562a2508c158a',1,'ResearchQueue::QueueType()'],['../d3/de8/structProductionQueue.html#ac81d9056d61895945b13081b4c83336e',1,'ProductionQueue::QueueType()']]],
-  ['quitgame',['QuitGame',['../d2/db9/classHumanClientApp.html#a6a9f3560e56a4758c27cc436c63c29d1',1,'HumanClientApp']]],
-  ['quote',['quote',['../d0/dbf/lexer__test__rules_8cpp.html#ae61daefcd0313ce74a33954639b6ff07',1,'lexer_test_rules.cpp']]],
-  ['quote_5f',['quote_',['../d3/d94/structquote__.html',1,'']]]
+  ['quitgame',['QuitGame',['../d2/db9/classHumanClientApp.html#a6a9f3560e56a4758c27cc436c63c29d1',1,'HumanClientApp']]]
 ];

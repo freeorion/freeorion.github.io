@@ -106,11 +106,17 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
  <div class="center">
   <img src="../../d3/d27/structCombatEvent.png" usemap="#CombatEvent_map" alt=""/>
   <map id="CombatEvent_map" name="CombatEvent_map">
-<area href="../../d9/db6/structAttackEvent.html" title="An event that describes a single attack by one object or fighter against another object or fighter..." alt="AttackEvent" shape="rect" coords="0,56,133,80"/>
-<area href="../../d8/dd3/structBoutBeginEvent.html" title="Generated when a new bout begins in the battle. " alt="BoutBeginEvent" shape="rect" coords="143,56,276,80"/>
-<area href="../../da/d42/structFighterAttackedEvent.html" title="Created when an fighter is destroyed. " alt="FighterAttackedEvent" shape="rect" coords="286,56,419,80"/>
-<area href="../../db/d4c/structFighterLaunchEvent.html" title="Created when an fighter is launched. " alt="FighterLaunchEvent" shape="rect" coords="429,56,562,80"/>
-<area href="../../d6/de8/structIncapacitationEvent.html" alt="IncapacitationEvent" shape="rect" coords="572,56,705,80"/>
+<area href="../../d8/dd3/structBoutBeginEvent.html" title="Generated when a new bout begins in the battle. " alt="BoutBeginEvent" shape="rect" coords="288,56,566,80"/>
+<area href="../../d5/d40/structBoutEvent.html" alt="BoutEvent" shape="rect" coords="288,112,566,136"/>
+<area href="../../da/d42/structFighterAttackedEvent.html" title="Created when an fighter is destroyed. " alt="FighterAttackedEvent" shape="rect" coords="288,168,566,192"/>
+<area href="../../db/d4c/structFighterLaunchEvent.html" title="Created when an fighter is launched. " alt="FighterLaunchEvent" shape="rect" coords="288,224,566,248"/>
+<area href="../../d6/de8/structIncapacitationEvent.html" alt="IncapacitationEvent" shape="rect" coords="288,280,566,304"/>
+<area href="../../db/de0/structInitialStealthEvent.html" alt="InitialStealthEvent" shape="rect" coords="288,336,566,360"/>
+<area href="../../dc/d2a/structSimultaneousEvents.html" alt="SimultaneousEvents" shape="rect" coords="288,392,566,416"/>
+<area href="../../d1/df9/structStealthChangeEvent.html" alt="StealthChangeEvent" shape="rect" coords="288,448,566,472"/>
+<area href="../../d2/d98/structStealthChangeEvent_1_1StealthChangeEventDetail.html" alt="StealthChangeEvent::StealthChangeEventDetail" shape="rect" coords="288,504,566,528"/>
+<area href="../../d9/de0/structWeaponFireEvent.html" title="An event that describes a single attack by one object or fighter against another object or fighter..." alt="WeaponFireEvent" shape="rect" coords="288,560,566,584"/>
+<area href="../../df/d42/structWeaponsPlatformEvent.html" alt="WeaponsPlatformEvent" shape="rect" coords="288,616,566,640"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -120,8 +126,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a21536bd67cbfb8626868a51f932d7345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a227587f1d7e1b64406acab8133a22b0e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a227587f1d7e1b64406acab8133a22b0e">~CombatEvent</a> ()</td></tr>
 <tr class="separator:a227587f1d7e1b64406acab8133a22b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534fbbb00d3b626e35028f184313c381"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a534fbbb00d3b626e35028f184313c381">AreDetailsEmpty</a> (int viewing_empire_id) const </td></tr>
+<tr class="separator:a534fbbb00d3b626e35028f184313c381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992fce1429e50e224b14a8b5ddd1181c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a992fce1429e50e224b14a8b5ddd1181c">AreSubEventsEmpty</a> (int viewing_empire_id) const </td></tr>
+<tr class="separator:a992fce1429e50e224b14a8b5ddd1181c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c03d49d527caf7afe0146f38445a60"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a79c03d49d527caf7afe0146f38445a60">CombatLogDescription</a> (int viewing_empire_id) const =0</td></tr>
+<tr class="separator:a79c03d49d527caf7afe0146f38445a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0823071cf4d12e42a6d73d12511a0b7a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a0823071cf4d12e42a6d73d12511a0b7a">CombatLogDetails</a> (int viewing_empire_id) const </td></tr>
+<tr class="separator:a0823071cf4d12e42a6d73d12511a0b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4996a6c6e365e472476e99f77ce7b52"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#af4996a6c6e365e472476e99f77ce7b52">DebugString</a> () const =0</td></tr>
 <tr class="separator:af4996a6c6e365e472476e99f77ce7b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7417dfdd6ec39e0904161eae10918dac"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#a7417dfdd6ec39e0904161eae10918dac">FlattenSubEvents</a> () const </td></tr>
+<tr class="separator:a7417dfdd6ec39e0904161eae10918dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b7fcb1d72a1aa9b86f0085dd0e3da6"><td class="memItemLeft" align="right" valign="top">virtual boost::optional&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#ab2b7fcb1d72a1aa9b86f0085dd0e3da6">PrincipalFaction</a> (int viewing_empire_id) const </td></tr>
+<tr class="separator:ab2b7fcb1d72a1aa9b86f0085dd0e3da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac141212fe050664ba8839560993d8108"><td class="memItemLeft" align="right" valign="top">virtual std::vector<br class="typebreak"/>
+&lt; <a class="el" href="../../d0/dd9/CombatEvent_8h.html#a926061598c07a3f9b0550e11f7657650">ConstCombatEventPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d27/structCombatEvent.html#ac141212fe050664ba8839560993d8108">SubEvents</a> (int viewing_empire_id) const </td></tr>
+<tr class="separator:ac141212fe050664ba8839560993d8108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -136,6 +157,8 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An abstract base class for combat events. </p>
+<p>Combat events are created during combat processing to act as a log of combat events.</p>
+<p>Many combat events are created, but few are examined by players. The constructors must be fast. They should not do any string processing in the contructor. The descriptions can be expanded on request. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a21536bd67cbfb8626868a51f932d7345"></a>
 <div class="memitem">
@@ -176,6 +199,114 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a534fbbb00d3b626e35028f184313c381"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool CombatEvent::AreDetailsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if there are no details; </p>
+
+<p>Reimplemented in <a class="el" href="../../d9/de0/structWeaponFireEvent.html#a90affdb4d14de57f52526797c32951b6">WeaponFireEvent</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a992fce1429e50e224b14a8b5ddd1181c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool CombatEvent::AreSubEventsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if there are no sub events; </p>
+
+<p>Reimplemented in <a class="el" href="../../df/d42/structWeaponsPlatformEvent.html#a19b9a0e5100d0603ef3ebbafa61d92ce">WeaponsPlatformEvent</a>, <a class="el" href="../../d1/df9/structStealthChangeEvent.html#a643e14fb8a70f50b8ef708c2672072b2">StealthChangeEvent</a>, <a class="el" href="../../dc/d2a/structSimultaneousEvents.html#acc69ad04be8a63710aa5f37156cd4866">SimultaneousEvents</a>, and <a class="el" href="../../d5/d40/structBoutEvent.html#aea9b888366923d3ccd0713a6942342e8">BoutEvent</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79c03d49d527caf7afe0146f38445a60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string CombatEvent::CombatLogDescription </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the combat log description. Describe the result of a combat event (i.e. what happened). </p>
+
+<p>Implemented in <a class="el" href="../../df/d42/structWeaponsPlatformEvent.html#a4fd22bcc0587ec03748fb3d9bb630cc9">WeaponsPlatformEvent</a>, <a class="el" href="../../db/d4c/structFighterLaunchEvent.html#a8ae8170c9b899dcd145c11505d2ed8a2">FighterLaunchEvent</a>, <a class="el" href="../../da/d42/structFighterAttackedEvent.html#a13e50fac746ba7bb0229f77a90e41506">FighterAttackedEvent</a>, <a class="el" href="../../d6/de8/structIncapacitationEvent.html#a089e06526aa0a1e8b096164e6b8cc106">IncapacitationEvent</a>, <a class="el" href="../../d9/de0/structWeaponFireEvent.html#a6858b9c856f47650441b883132c77b72">WeaponFireEvent</a>, <a class="el" href="../../d2/d98/structStealthChangeEvent_1_1StealthChangeEventDetail.html#ab1b8b332bb459031ecacb1793f4b30c2">StealthChangeEvent::StealthChangeEventDetail</a>, <a class="el" href="../../d1/df9/structStealthChangeEvent.html#a90a07e81644d15bb838a0a796365dccf">StealthChangeEvent</a>, <a class="el" href="../../db/de0/structInitialStealthEvent.html#a73bb2a2412eca89692b0c9e2773fcd83">InitialStealthEvent</a>, <a class="el" href="../../dc/d2a/structSimultaneousEvents.html#a93778d81e9f9aa6aa93323d2170c1ac0">SimultaneousEvents</a>, <a class="el" href="../../d5/d40/structBoutEvent.html#a02b6fb58dac866f8f081a00bdc1dae6a">BoutEvent</a>, and <a class="el" href="../../d8/dd3/structBoutBeginEvent.html#afb54f3bb6aab9254ae9b7d619aa4a872">BoutBeginEvent</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0823071cf4d12e42a6d73d12511a0b7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string CombatEvent::CombatLogDetails </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the combat log details. Describe how it happened in enough detail to avoid a trip to the Pedia. </p>
+
+<p>Reimplemented in <a class="el" href="../../d9/de0/structWeaponFireEvent.html#aa546b384147bb4981424bdb987d9481a">WeaponFireEvent</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af4996a6c6e365e472476e99f77ce7b52"></a>
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +328,65 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../db/d4c/structFighterLaunchEvent.html#ac84d668261a084387e7e4546784fc62a">FighterLaunchEvent</a>, <a class="el" href="../../da/d42/structFighterAttackedEvent.html#a4827204ecc2b8fa63bcd3b1a8b379c90">FighterAttackedEvent</a>, <a class="el" href="../../d6/de8/structIncapacitationEvent.html#af24f7fef55348a5adecedd51dbd00e39">IncapacitationEvent</a>, <a class="el" href="../../d9/db6/structAttackEvent.html#ac7a69452ab788d47cd4f23fb75de6773">AttackEvent</a>, and <a class="el" href="../../d8/dd3/structBoutBeginEvent.html#ac55e01421c311be0d1ddcd5b868f00ba">BoutBeginEvent</a>.</p>
+<p>Implemented in <a class="el" href="../../df/d42/structWeaponsPlatformEvent.html#a107f66595ad64a8cfd42c130bde552c5">WeaponsPlatformEvent</a>, <a class="el" href="../../db/d4c/structFighterLaunchEvent.html#ac84d668261a084387e7e4546784fc62a">FighterLaunchEvent</a>, <a class="el" href="../../da/d42/structFighterAttackedEvent.html#a4827204ecc2b8fa63bcd3b1a8b379c90">FighterAttackedEvent</a>, <a class="el" href="../../d6/de8/structIncapacitationEvent.html#af24f7fef55348a5adecedd51dbd00e39">IncapacitationEvent</a>, <a class="el" href="../../d9/de0/structWeaponFireEvent.html#a644fc3a0b9da08c54a1595a48b6821d3">WeaponFireEvent</a>, <a class="el" href="../../d2/d98/structStealthChangeEvent_1_1StealthChangeEventDetail.html#a8a57e767e6af7c0cd47b5e03a5df4379">StealthChangeEvent::StealthChangeEventDetail</a>, <a class="el" href="../../d1/df9/structStealthChangeEvent.html#abfd5c57977bd218b7975265620ffcc96">StealthChangeEvent</a>, <a class="el" href="../../db/de0/structInitialStealthEvent.html#a2586cab4d4ec190ec8168535fde10a34">InitialStealthEvent</a>, <a class="el" href="../../dc/d2a/structSimultaneousEvents.html#a69a3a236066333dff7a8006b9aff30d4">SimultaneousEvents</a>, <a class="el" href="../../d5/d40/structBoutEvent.html#a74a5c4f5da176d30a1476db6257a548c">BoutEvent</a>, and <a class="el" href="../../d8/dd3/structBoutBeginEvent.html#ac55e01421c311be0d1ddcd5b868f00ba">BoutBeginEvent</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d3/d27/structCombatEvent.html#ab2b7fcb1d72a1aa9b86f0085dd0e3da6">PrincipalFaction()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7417dfdd6ec39e0904161eae10918dac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool CombatEvent::FlattenSubEvents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if sub events are to be flattened on display; </p>
+
+<p>Reimplemented in <a class="el" href="../../dc/d2a/structSimultaneousEvents.html#a221395784967e9c91e19b8ff89de8158">SimultaneousEvents</a>, and <a class="el" href="../../d5/d40/structBoutEvent.html#afcd9d6a4efe9c67d165af63506434f10">BoutEvent</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2b7fcb1d72a1aa9b86f0085dd0e3da6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt; int &gt; CombatEvent::PrincipalFaction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return principal faction.</p>
+<p>PrincipalFaction is used by UnorderedEvents to sort the display of events by Facton. The principal faction should be the faction most active in the event (i.e. the attacker in a WeaponEvent). It is from the perspective of the <code>viewing_empire_id</code>. Some events like BoutBegin are not associated with any faction. </p>
+
+<p>Reimplemented in <a class="el" href="../../df/d42/structWeaponsPlatformEvent.html#a16c0daf1a1d8f4153f6bbcc1f5492013">WeaponsPlatformEvent</a>, <a class="el" href="../../db/d4c/structFighterLaunchEvent.html#aef7a3341c437e0b3bfac766282e832e2">FighterLaunchEvent</a>, <a class="el" href="../../da/d42/structFighterAttackedEvent.html#a15755b5a21316a3f480dad5efda967cc">FighterAttackedEvent</a>, <a class="el" href="../../d6/de8/structIncapacitationEvent.html#a9b40940d81b14bb8968dcdbcab306f48">IncapacitationEvent</a>, and <a class="el" href="../../d9/de0/structWeaponFireEvent.html#a2e39f9fb4a275eb57b140fbc500c69dd">WeaponFireEvent</a>.</p>
+
+<p>References <a class="el" href="../../d3/d27/structCombatEvent.html#af4996a6c6e365e472476e99f77ce7b52">DebugString()</a>, and <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>.</p>
 
 </div>
 </div>
@@ -234,6 +423,33 @@ template&lt;typename Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac141212fe050664ba8839560993d8108"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt;<a class="el" href="../../d0/dd9/CombatEvent_8h.html#a926061598c07a3f9b0550e11f7657650">ConstCombatEventPtr</a>&gt; CombatEvent::SubEvents </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>viewing_empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>If the combat event is composed of smaller events then return a vector of the sub events, otherwise returns an empty vector. </p>
+
+<p>Reimplemented in <a class="el" href="../../df/d42/structWeaponsPlatformEvent.html#a8a156a467a82d3d2c32b87306717d9ff">WeaponsPlatformEvent</a>, <a class="el" href="../../d1/df9/structStealthChangeEvent.html#a501b1b424a99130e542eae5c3d7aaaa8">StealthChangeEvent</a>, <a class="el" href="../../dc/d2a/structSimultaneousEvents.html#ad75876416d6b1a53e888963ff8e583e0">SimultaneousEvents</a>, and <a class="el" href="../../d5/d40/structBoutEvent.html#ac6750fa7ab83c860419ddcb67d629aa9">BoutEvent</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['incapacitationsevent',['IncapacitationsEvent',['../dd/d33/CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c',1,'CombatEvents.h']]],
+  ['incapacitationseventptr',['IncapacitationsEventPtr',['../dd/d33/CombatEvents_8h.html#a5110c093014ac583dd30fa370e884485',1,'CombatEvents.h']]],
   ['indexpropertymap',['IndexPropertyMap',['../da/da6/structUniverse_1_1GraphImpl.html#aa5b4e6d44dbfea5d673a75ab7afd5058',1,'Universe::GraphImpl']]],
   ['int_5fpair_5frule',['int_pair_rule',['../dd/d4a/structanonymous__namespace_02KeymapParser_8cpp_03_1_1rules.html#a90716d5883c138b1c8d079b5c35e8bbb',1,'anonymous_namespace{KeymapParser.cpp}::rules']]],
   ['int_5fparser_5frule',['int_parser_rule',['../df/d6c/namespaceparse.html#a0ac4e8b21245d44b0539b9fb56b1cf5c',1,'parse']]],

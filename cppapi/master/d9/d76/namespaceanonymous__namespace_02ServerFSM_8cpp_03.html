@@ -98,6 +98,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa50d89ed0a25e8193d72db2d4909bdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa25ddbf90e8ccdc04a2ab0ea1aae02ca"><td class="memItemLeft" align="right" valign="top">GG::Clr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#aa25ddbf90e8ccdc04a2ab0ea1aae02ca">GetUnusedEmpireColour</a> (const std::list&lt; std::pair&lt; int, <a class="el" href="../../df/df6/structPlayerSetupData.html">PlayerSetupData</a> &gt; &gt; &amp;psd)</td></tr>
 <tr class="separator:aa25ddbf90e8ccdc04a2ab0ea1aae02ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3901b7eba61bed632fc0efa2b40a8c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3901b7eba61bed632fc0efa2b40a8c39">HandleErrorMessage</a> (const Error &amp;msg, <a class="el" href="../../d7/d63/classServerApp.html">ServerApp</a> &amp;server)</td></tr>
+<tr class="separator:a3901b7eba61bed632fc0efa2b40a8c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a597cc4f2eba97b05799eae434eb9ffa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a597cc4f2eba97b05799eae434eb9ffa3">LogPlayerSetupData</a> (const std::list&lt; std::pair&lt; int, <a class="el" href="../../df/df6/structPlayerSetupData.html">PlayerSetupData</a> &gt; &gt; &amp;psd)</td></tr>
 <tr class="separator:a597cc4f2eba97b05799eae434eb9ffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a392bdd2357d81a5e6d3020fd1e5ecd1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">SendMessageToAllPlayers</a> (const <a class="el" href="../../d6/d28/classMessage.html">Message</a> &amp;message)</td></tr>
@@ -171,6 +173,37 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3901b7eba61bed632fc0efa2b40a8c39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage </td>
+          <td>(</td>
+          <td class="paramtype">const Error &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d63/classServerApp.html">ServerApp</a> &amp;&#160;</td>
+          <td class="paramname"><em>server</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Note: This Exits on fatal errors and does not return. </p>
+
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d7/d63/classServerApp.html#a09af3185efbf45da3be5ba18f14f1916">ServerApp::Exit()</a>, <a class="el" href="../../d2/d31/Message_8cpp.html#a4f7c0b7b905039065dada44a95470172">ExtractMessageData()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a69e59421bd5b9ccb9ba1c22ff59cc933">FatalLogger</a>, and <a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">SendMessageToAllPlayers()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/d70/structIdle.html#aa1f29db01ed5ed03e88f6ac7c0e9849f">Idle::react()</a>, <a class="el" href="../../df/d66/structWaitingForSPGameJoiners.html#a25a5c6a487a09b5ab7d615bf0c5c4ce8">WaitingForSPGameJoiners::react()</a>, and <a class="el" href="../../d1/df5/structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a597cc4f2eba97b05799eae434eb9ffa3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +238,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d1/ddc/classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="../../d1/ddc/classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="../../d7/d63/classServerApp.html#afa7c14663443d7ece719fea0dedd090f">ServerApp::GetApp()</a>, <a class="el" href="../../d7/d63/classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">ServerApp::Networking()</a>, and <a class="el" href="../../d1/ddc/classServerNetworking.html#ab87e5a08584033495904289af4a02bb1">ServerNetworking::SendMessage()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d82/structMPLobby.html#ab31ec4b2790b8af9d6c556e7c2e31e11">MPLobby::react()</a>, and <a class="el" href="../../d6/dd9/structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3901b7eba61bed632fc0efa2b40a8c39">HandleErrorMessage()</a>, <a class="el" href="../../d9/d82/structMPLobby.html#ab31ec4b2790b8af9d6c556e7c2e31e11">MPLobby::react()</a>, and <a class="el" href="../../d6/dd9/structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>.</p>
 
 </div>
 </div>

@@ -87,24 +87,26 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">CombatEvents.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
+<div class="textblock"><code>#include &lt;set&gt;</code><br/>
+<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
 <code>#include &lt;boost/serialization/access.hpp&gt;</code><br/>
 <code>#include &lt;boost/serialization/export.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="../../d5/d8f/Export_8h.html">../util/Export.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d5/d20/Enums_8h.html">../universe/Enums.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d0/dd9/CombatEvent_8h.html">CombatEvent.h</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db6/structAttackEvent.html">AttackEvent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An event that describes a single attack by one object or fighter against another object or fighter.  <a href="../../d9/db6/structAttackEvent.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/structBoutBeginEvent.html">BoutBeginEvent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated when a new bout begins in the battle.  <a href="../../d8/dd3/structBoutBeginEvent.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d40/structBoutEvent.html">BoutEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d42/structFighterAttackedEvent.html">FighterAttackedEvent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Created when an fighter is destroyed.  <a href="../../da/d42/structFighterAttackedEvent.html#details">More...</a><br/></td></tr>
@@ -114,10 +116,114 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/structIncapacitationEvent.html">IncapacitationEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de0/structInitialStealthEvent.html">InitialStealthEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df9/structStealthChangeEvent.html">StealthChangeEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d98/structStealthChangeEvent_1_1StealthChangeEventDetail.html">StealthChangeEvent::StealthChangeEventDetail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de0/structWeaponFireEvent.html">WeaponFireEvent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An event that describes a single attack by one object or fighter against another object or fighter.  <a href="../../d9/de0/structWeaponFireEvent.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d42/structWeaponsPlatformEvent.html">WeaponsPlatformEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ad50d9efee7cbb76514dc5af4d084ba99"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#ad50d9efee7cbb76514dc5af4d084ba99">AttacksEvent</a></td></tr>
+<tr class="separator:ad50d9efee7cbb76514dc5af4d084ba99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad3c83dac60f0834c58215dc6e1165c"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#ad50d9efee7cbb76514dc5af4d084ba99">AttacksEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#a2ad3c83dac60f0834c58215dc6e1165c">AttacksEventPtr</a></td></tr>
+<tr class="separator:a2ad3c83dac60f0834c58215dc6e1165c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6fe350acecb3dbb19bebaa57b3329d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d">FighterLaunchesEvent</a></td></tr>
+<tr class="separator:a6b6fe350acecb3dbb19bebaa57b3329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26630b3771945b139f25dd1be98949a8"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d">FighterLaunchesEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#a26630b3771945b139f25dd1be98949a8">FighterLaunchesEventPtr</a></td></tr>
+<tr class="separator:a26630b3771945b139f25dd1be98949a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2ab3f39353a69391df7094db38895c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c">IncapacitationsEvent</a></td></tr>
+<tr class="separator:a7f2ab3f39353a69391df7094db38895c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5110c093014ac583dd30fa370e884485"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c">IncapacitationsEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d33/CombatEvents_8h.html#a5110c093014ac583dd30fa370e884485">IncapacitationsEventPtr</a></td></tr>
+<tr class="separator:a5110c093014ac583dd30fa370e884485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains all combat event implementation declarations. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ad50d9efee7cbb76514dc5af4d084ba99"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a> <a class="el" href="../../dd/d33/CombatEvents_8h.html#ad50d9efee7cbb76514dc5af4d084ba99">AttacksEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ad3c83dac60f0834c58215dc6e1165c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="../../dd/d33/CombatEvents_8h.html#ad50d9efee7cbb76514dc5af4d084ba99">AttacksEvent</a>&gt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#a2ad3c83dac60f0834c58215dc6e1165c">AttacksEventPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6b6fe350acecb3dbb19bebaa57b3329d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a> <a class="el" href="../../dd/d33/CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d">FighterLaunchesEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a26630b3771945b139f25dd1be98949a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="../../dd/d33/CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d">FighterLaunchesEvent</a>&gt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#a26630b3771945b139f25dd1be98949a8">FighterLaunchesEventPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7f2ab3f39353a69391df7094db38895c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../dc/d2a/structSimultaneousEvents.html">SimultaneousEvents</a> <a class="el" href="../../dd/d33/CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c">IncapacitationsEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5110c093014ac583dd30fa370e884485"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="../../dd/d33/CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c">IncapacitationsEvent</a>&gt; <a class="el" href="../../dd/d33/CombatEvents_8h.html#a5110c093014ac583dd30fa370e884485">IncapacitationsEventPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">
