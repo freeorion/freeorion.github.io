@@ -28,7 +28,7 @@ var searchData=
   ['validsoundfile',['ValidSoundFile',['../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validstringtablefile',['ValidStringtableFile',['../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validtargetsforattackertype',['ValidTargetsForAttackerType',['../d6/d09/namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a44bebb313ec6a89bb9857655628a6766',1,'anonymous_namespace{CombatSystem.cpp}']]],
-  ['value',['Value',['../dd/dbc/structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()'],['../de/d2c/structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()']]],
+  ['value',['value',['../de/d2c/structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()'],['../dd/dbc/structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()']]],
   ['value_5fref_5fparser',['value_ref_parser',['../df/d6c/namespaceparse.html#a430eeb84b85f3b2f52aa38fac1188672',1,'parse']]],
   ['value_5fref_5fparser_3c_20double_20_3e',['value_ref_parser&lt; double &gt;',['../df/d6c/namespaceparse.html#aa1219051ebed43f1542c43e052b9b009',1,'parse']]],
   ['value_5fref_5fparser_3c_20int_20_3e',['value_ref_parser&lt; int &gt;',['../df/d6c/namespaceparse.html#a8a02ca8ce397dae44d4cddc5a725ad0c',1,'parse']]],

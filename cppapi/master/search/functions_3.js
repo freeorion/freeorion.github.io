@@ -22,6 +22,7 @@ var searchData=
   ['cancolonize',['CanColonize',['../d4/d9d/structCondition_1_1CanColonize.html#a92dce9618501773402e7dc82ca3a36f7',1,'Condition::CanColonize::CanColonize()'],['../d2/d32/classShip.html#a412d73b036eceace07955bba25defa82',1,'Ship::CanColonize()'],['../db/dd4/classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c',1,'ShipDesign::CanColonize()'],['../d9/d0c/classSpecies.html#adaf8e5b4fab4eca0f361e3310147f1f8',1,'Species::CanColonize()']]],
   ['cancolonize_5fcondition',['CANCOLONIZE_CONDITION',['../d7/d31/namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab93c366478df07ae2a4324f8c63fb482',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['cancolonizeplanettype',['CanColonizePlanetType',['../de/d24/namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac53d97e6819e55e0b7747c794a55e318',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['canhavetroops',['CanHaveTroops',['../d2/d32/classShip.html#a9157efbc592dca467a5cfbfc9624504a',1,'Ship']]],
   ['canmountinslottype',['CanMountInSlotType',['../d2/d6b/classPartType.html#a4429d3b8be9f4aac45ebb68200a3a66e',1,'PartType']]],
   ['canpartbeadded',['CanPartBeAdded',['../dd/d5e/classDesignWnd_1_1MainPanel.html#a3e7d316861a0886b25d8534318157ff4',1,'DesignWnd::MainPanel']]],
   ['canproduceships',['CanProduceShips',['../db/da2/structCondition_1_1CanProduceShips.html#a80be62c2342eef61480738c3a7b275ef',1,'Condition::CanProduceShips::CanProduceShips()'],['../d9/d0c/classSpecies.html#a15c8df7818b4bdbe6e7f3824b1f2ebd3',1,'Species::CanProduceShips()']]],
