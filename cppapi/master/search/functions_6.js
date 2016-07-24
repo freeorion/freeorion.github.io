@@ -126,11 +126,11 @@ var searchData=
   ['fractionaldistancebetweenpoints',['FractionalDistanceBetweenPoints',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aeb4e8aa449093304b8dca374cc001c17',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fragmentshaderinfolog',['FragmentShaderInfoLog',['../d0/d2d/classShaderProgram.html#af3de817c562e90ba30d8341fe8cd4569',1,'ShaderProgram']]],
   ['free',['Free',['../df/d46/classProcess_1_1Impl.html#a66e80965ab4b4eaadc0ce128883f5864',1,'Process::Impl::Free()'],['../df/d30/classProcess.html#add80a1596ceaa9ebc524514159dc9e98',1,'Process::Free()']]],
-  ['freeallsounds',['FreeAllSounds',['../df/d49/classSound.html#ac3c48a8974635c21e8f685e78e34fe45',1,'Sound']]],
+  ['freeallsounds',['FreeAllSounds',['../d2/d4f/classSound_1_1SoundImpl.html#a120c8a5bf777e3cfa14e824f08a12e0c',1,'Sound::SoundImpl::FreeAllSounds()'],['../df/d49/classSound.html#ac3c48a8974635c21e8f685e78e34fe45',1,'Sound::FreeAllSounds()']]],
   ['freeorbits',['FreeOrbits',['../dd/d2d/classSystem.html#a15130528b2222715e927d4507379d4e9',1,'System']]],
   ['freeorionversionstring',['FreeOrionVersionString',['../de/d3a/Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../d2/db9/classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
-  ['freesound',['FreeSound',['../df/d49/classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound']]],
+  ['freesound',['FreeSound',['../d2/d4f/classSound_1_1SoundImpl.html#a9ab9040ac2f35ecd7798f78d713a18f1',1,'Sound::SoundImpl::FreeSound()'],['../df/d49/classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
   ['freetypeversionstring',['FreeTypeVersionString',['../d1/dbd/namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a18c504e1c2b97f994337262da4bb13a2',1,'anonymous_namespace{DependencyVersions.cpp}']]],
   ['fuel',['Fuel',['../d8/d16/classFleet.html#a823c5432b6e0e4153963e442c8f30c58',1,'Fleet::Fuel()'],['../dc/d80/classHullType.html#a6867c8594b9436151764a805735044c0',1,'HullType::Fuel()'],['../db/dd4/classShipDesign.html#ac2551289de30054c4efa3e136d6c69d7',1,'ShipDesign::Fuel()']]]
 ];

@@ -76,6 +76,8 @@ var searchData=
   ['sortednumberof',['SortedNumberOf',['../d1/d3d/structCondition_1_1SortedNumberOf.html',1,'Condition']]],
   ['sortvalint',['SortValInt',['../db/d94/classDelauney_1_1SortValInt.html',1,'Delauney']]],
   ['sound',['Sound',['../df/d49/classSound.html',1,'']]],
+  ['soundimpl',['SoundImpl',['../d2/d4f/classSound_1_1SoundImpl.html',1,'Sound']]],
+  ['soundoptionsfeedback',['SoundOptionsFeedback',['../d0/dfd/classOptionsWnd_1_1SoundOptionsFeedback.html',1,'OptionsWnd']]],
   ['source',['Source',['../d6/d9c/structCondition_1_1Source.html',1,'Condition']]],
   ['sourcedeffectsgroup',['SourcedEffectsGroup',['../d0/d62/structEffect_1_1SourcedEffectsGroup.html',1,'Effect']]],
   ['special',['Special',['../d7/d16/classSpecial.html',1,'']]],

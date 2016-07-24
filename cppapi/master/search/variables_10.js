@@ -39,7 +39,7 @@ var searchData=
   ['pc_5ftroops',['PC_TROOPS',['../d5/d20/Enums_8h.html#ae6cae5817de03e395b7fa71786ca348b',1,'Enums.h']]],
   ['permanently_5fsnoozed_5fsitreps',['permanently_snoozed_sitreps',['../dd/dc8/namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#ad0127c915111d1d99632dec11c99e0ba',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['pi',['PI',['../d3/d17/namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#ad517059828ddf4b5d3db9bdf7bde5123',1,'anonymous_namespace{SystemIcon.cpp}::PI()'],['../d2/d2c/namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a863efa38a47105354521777e07b8baa1',1,'anonymous_namespace{TechTreeWnd.cpp}::PI()']]],
-  ['pimpl',['pimpl',['../df/d7f/classCombatLogWnd.html#a1f29d5baaa2a57e30361e40f79c728c1',1,'CombatLogWnd']]],
+  ['pimpl',['pimpl',['../df/d7f/classCombatLogWnd.html#a1f29d5baaa2a57e30361e40f79c728c1',1,'CombatLogWnd::pimpl()'],['../df/d49/classSound.html#a31d4aeae7826da7aa2fee9d7d152fdfa',1,'Sound::pimpl()']]],
   ['pinable',['PINABLE',['../d5/d1e/CUIWnd_8h.html#aea667fffdabf671aa4654cacf52a2123',1,'CUIWnd.h']]],
   ['planet_5fenvironment',['planet_environment',['../d1/d60/structanonymous__namespace_02ConditionParser6_8cpp_03_1_1condition__parser__rules__6.html#a7503fab7c3849a0783057d79a6b36a7c',1,'anonymous_namespace{ConditionParser6.cpp}::condition_parser_rules_6']]],
   ['planet_5ffilename',['planet_filename',['../de/de0/structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData.html#a7ec48ce54af41107e1c60d8bb1fda8aa',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData']]],

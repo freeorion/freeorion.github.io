@@ -126,7 +126,7 @@ var searchData=
   ['multiplayerlobbywnd',['MultiPlayerLobbyWnd',['../d3/d50/classMultiPlayerLobbyWnd.html#a40cd2eb8bc2b13e90f03ac4f903fcdab',1,'MultiPlayerLobbyWnd']]],
   ['multitexturestaticgraphic',['MultiTextureStaticGraphic',['../d8/d6e/classMultiTextureStaticGraphic.html#ab125b3235cef4e1b4ed1405c6350d2bb',1,'MultiTextureStaticGraphic::MultiTextureStaticGraphic(const std::vector&lt; boost::shared_ptr&lt; GG::Texture &gt; &gt; &amp;textures, const std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt; &amp;styles=std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt;())'],['../d8/d6e/classMultiTextureStaticGraphic.html#a831e718cd2336a2be8063ec2fadf8d85',1,'MultiTextureStaticGraphic::MultiTextureStaticGraphic(const std::vector&lt; GG::SubTexture &gt; &amp;subtextures, const std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt; &amp;styles=std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt;())'],['../d8/d6e/classMultiTextureStaticGraphic.html#aa0a487638c4592aac67192bd03dc4c56',1,'MultiTextureStaticGraphic::MultiTextureStaticGraphic()']]],
   ['multiturnprogressbar',['MultiTurnProgressBar',['../dd/dfb/classMultiTurnProgressBar.html#a640f93c0702114c5c77a41f9e79f8457',1,'MultiTurnProgressBar']]],
-  ['musicclicked',['MusicClicked',['../dc/df2/classOptionsWnd.html#ad752543b07caac02ce8b13cac9902924',1,'OptionsWnd']]],
-  ['musicvolumeoption',['MusicVolumeOption',['../dc/df2/classOptionsWnd.html#a22e45c1a397cd6601a3ffb57db30d690',1,'OptionsWnd']]],
-  ['musicvolumeslid',['MusicVolumeSlid',['../dc/df2/classOptionsWnd.html#aad412fb9037c0982db2385dce8e24a48',1,'OptionsWnd']]]
+  ['musicclicked',['MusicClicked',['../d0/dfd/classOptionsWnd_1_1SoundOptionsFeedback.html#a3f7cad7704a6dbd8c45733de9a3547d4',1,'OptionsWnd::SoundOptionsFeedback']]],
+  ['musicvolumeoption',['MusicVolumeOption',['../dc/df2/classOptionsWnd.html#a55f2888141fcd824a9196aff369ed130',1,'OptionsWnd']]],
+  ['musicvolumeslid',['MusicVolumeSlid',['../d0/dfd/classOptionsWnd_1_1SoundOptionsFeedback.html#a7fa0fb6335c2b21a3ea7731d9b9bd3d6',1,'OptionsWnd::SoundOptionsFeedback']]]
 ];

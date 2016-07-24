@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['uisoundstemporarilydisabled',['UISoundsTemporarilyDisabled',['../df/d49/classSound.html#acb40095a420682ebf9b70bb257d957ac',1,'Sound']]],
-  ['uisoundsvolumeslid',['UISoundsVolumeSlid',['../dc/df2/classOptionsWnd.html#a45c73ef1725858c1c048fb4064acf84d',1,'OptionsWnd']]],
+  ['uisoundstemporarilydisabled',['UISoundsTemporarilyDisabled',['../d2/d4f/classSound_1_1SoundImpl.html#afb06f75a996d1852b6ecf40159140d41',1,'Sound::SoundImpl']]],
+  ['uisoundsvolumeslid',['UISoundsVolumeSlid',['../d0/dfd/classOptionsWnd_1_1SoundOptionsFeedback.html#a09c8e30530106ccd085d98cf843a7281',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['uit_5fbuilding',['UIT_BUILDING',['../d5/d20/Enums_8h.html#a871dcef0162307b5f338887268d0e9e3',1,'Enums.h']]],
   ['uit_5fship_5fdesign',['UIT_SHIP_DESIGN',['../d5/d20/Enums_8h.html#ab8dcd758dffc1f670c4ad1b3d9c396c8',1,'Enums.h']]],
   ['uit_5fship_5fhull',['UIT_SHIP_HULL',['../d5/d20/Enums_8h.html#acd1167e2a39af44addfcc48919e29ff2',1,'Enums.h']]],
