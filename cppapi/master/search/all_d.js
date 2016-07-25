@@ -840,7 +840,7 @@ var searchData=
   ['m_5fprojects_5fin_5fprogress',['m_projects_in_progress',['../d4/dce/structResearchQueue.html#aca43c771c96dd999e230d250395c235a',1,'ResearchQueue::m_projects_in_progress()'],['../d3/de8/structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27',1,'ProductionQueue::m_projects_in_progress()']]],
   ['m_5fprompt',['m_prompt',['../d6/d15/structPromptRow.html#aa8f8b486aff5da772b2c55b73e3dac4c',1,'PromptRow']]],
   ['m_5fprompt_5fstr',['m_prompt_str',['../d4/da0/classQueueListBox.html#af544fcf0fd9846841ba796c584ee6f39',1,'QueueListBox']]],
-  ['m_5fpropegated_5fsupply_5franges',['m_propegated_supply_ranges',['../dc/db3/classSupplyManager.html#a7e4c49312240e66d1cfd8a6e79ce3ed1',1,'SupplyManager']]],
+  ['m_5fpropagated_5fsupply_5franges',['m_propagated_supply_ranges',['../dc/db3/classSupplyManager.html#a0fe0a962923adc3ea627347f6514ca78',1,'SupplyManager']]],
   ['m_5fproperty_5fname',['m_property_name',['../dc/d3d/structValueRef_1_1Variable.html#a3cdbb80d2761f836ea1c649fe71ef175',1,'ValueRef::Variable']]],
   ['m_5fptr',['m_ptr',['../dc/d6e/classTemporaryPtr.html#a3cc7aa4275c7665777cfdf9f725025f9',1,'TemporaryPtr']]],
   ['m_5fptr_5fmutex',['m_ptr_mutex',['../dc/dfc/classEnableTemporaryFromThis.html#a343b3631c9a98eabfa977060250a3353',1,'EnableTemporaryFromThis']]],
