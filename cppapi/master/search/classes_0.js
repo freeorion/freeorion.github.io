@@ -14,6 +14,7 @@ var searchData=
   ['alignment',['Alignment',['../dd/d16/classAlignment.html',1,'']]],
   ['alignmentmanager',['AlignmentManager',['../d0/dec/classanonymous__namespace_02Empire_8cpp_03_1_1AlignmentManager.html',1,'anonymous_namespace{Empire.cpp}']]],
   ['all',['All',['../db/d24/structCondition_1_1All.html',1,'Condition']]],
+  ['ancestorinfo',['AncestorInfo',['../d0/d63/structanonymous__namespace_02MapWnd_8cpp_03_1_1AncestorInfo.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['and',['And',['../d5/dc9/structCondition_1_1And.html',1,'Condition']]],
   ['andcondition',['AndCondition',['../de/d02/classAndCondition.html',1,'']]],
   ['armed',['Armed',['../de/d12/structCondition_1_1Armed.html',1,'Condition']]],

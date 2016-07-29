@@ -64,6 +64,7 @@ var searchData=
   ['predefined_5fdesign',['predefined_design',['../d0/d70/structanonymous__namespace_02ConditionParser5_8cpp_03_1_1condition__parser__rules__5.html#ae08a270563d54ab75e2dbddbf50e7f09',1,'anonymous_namespace{ConditionParser5.cpp}::condition_parser_rules_5']]],
   ['predefined_5fdesign_5ftag',['PREDEFINED_DESIGN_TAG',['../d6/d1e/classVarText.html#a564e5bd8fdecf2c2b968d1976f060feb',1,'VarText']]],
   ['prerequisites',['prerequisites',['../d1/de5/structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a733070d028687be4538246fd40e73404',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
+  ['prev',['prev',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html#a5ac5c93547db3a481086f8570c26816e',1,'anonymous_namespace{MapWnd.cpp}::PrevCurrInfo']]],
   ['prevblocksize',['prevBlocksize',['../df/d5b/classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#afdb6fde212827e04ea0f2b7333b15bf8',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['preview',['preview',['../d9/d70/structFullPreview.html#a3207a5a063315733ba8f535d1ccb81eb',1,'FullPreview']]],
   ['preview_5fmargin',['PREVIEW_MARGIN',['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a3ca8a6ced1f4b2632b029c0a83f7ff1c',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],

@@ -200,6 +200,7 @@ var searchData=
   ['prettyprint',['PrettyPrint',['../d6/d28/classHotkey.html#a6a7131412ebf9fa1465f9710604d7f05',1,'Hotkey::PrettyPrint(GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)'],['../d6/d28/classHotkey.html#a9391d6c0d7b73532a1690e38d3ea8672',1,'Hotkey::PrettyPrint() const ']]],
   ['prevbuttonclicked',['PrevButtonClicked',['../d1/d51/classSidePanel.html#afbe5661e3971be0e2a70f3fa68d4469f',1,'SidePanel']]],
   ['prevclicked',['PrevClicked',['../d6/d69/classSitRepPanel.html#a946bcdcf856bfa5618cfb024b61d63ab',1,'SitRepPanel']]],
+  ['prevcurrinfo',['PrevCurrInfo',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html#a5e2964ae5f5908cdbe9d2a270a8395bc',1,'anonymous_namespace{MapWnd.cpp}::PrevCurrInfo']]],
   ['preview_5fsz',['PREVIEW_SZ',['../da/d03/namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a96514f4f5a55f0e536fa2c7a7aacd6dc',1,'anonymous_namespace{GalaxySetupWnd.cpp}::PREVIEW_SZ()'],['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#aa2baac3bc81273aded24861b5c627264',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PREVIEW_SZ()']]],
   ['previewimage',['PreviewImage',['../d4/d0c/classGalaxySetupPanel.html#a38a1a8ba0808e87d2c459dc3561577c3',1,'GalaxySetupPanel']]],
   ['previewimagechanged',['PreviewImageChanged',['../d6/d80/classGalaxySetupWnd.html#ad721691f4543b833bc088446c89f4568',1,'GalaxySetupWnd::PreviewImageChanged()'],['../d3/d50/classMultiPlayerLobbyWnd.html#a25c489f1043855399c8e621d66f867ea',1,'MultiPlayerLobbyWnd::PreviewImageChanged()']]],

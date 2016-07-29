@@ -1,6 +1,7 @@
 var searchData=
 [
   ['icon',['icon',['../dd/d11/structEncyclopediaArticle.html#af5964a2997fe64ba230d3e8aed42ec90',1,'EncyclopediaArticle']]],
+  ['ids',['ids',['../d0/d63/structanonymous__namespace_02MapWnd_8cpp_03_1_1AncestorInfo.html#ad08ea389d7687b2bdedaacb2381401eb',1,'anonymous_namespace{MapWnd.cpp}::AncestorInfo']]],
   ['imagechangedsignal',['ImageChangedSignal',['../d4/d0c/classGalaxySetupPanel.html#a54f458d8b09731a0d97683310513d85a',1,'GalaxySetupPanel']]],
   ['immediateneighborsfunc',['ImmediateNeighborsFunc',['../d7/d08/namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a2e0e98b828d926824d028009c44b9aac',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['import_5fexport_5flabel_5ftop',['import_export_label_top',['../d5/d19/classSystemResourceSummaryBrowseWnd.html#afe47836f98ed8d3c4f8809b9867bcc70',1,'SystemResourceSummaryBrowseWnd']]],

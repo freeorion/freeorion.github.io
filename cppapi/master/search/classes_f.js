@@ -46,6 +46,7 @@ var searchData=
   ['predefinedshipdesign',['PredefinedShipDesign',['../d5/d5a/structCondition_1_1PredefinedShipDesign.html',1,'Condition']]],
   ['predefinedshipdesignmanager',['PredefinedShipDesignManager',['../d6/d0c/classPredefinedShipDesignManager.html',1,'']]],
   ['predefinedshipdesignsimplematch',['PredefinedShipDesignSimpleMatch',['../df/d13/structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1PredefinedShipDesignSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['prevcurrinfo',['PrevCurrInfo',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['previewinformation',['PreviewInformation',['../d6/d06/structPreviewInformation.html',1,'']]],
   ['process',['Process',['../df/d30/classProcess.html',1,'']]],
   ['processingturn',['ProcessingTurn',['../df/d91/structProcessingTurn.html',1,'']]],

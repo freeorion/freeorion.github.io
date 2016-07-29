@@ -110,6 +110,7 @@ var searchData=
   ['allvaluesbound',['AllValuesBound',['../d0/d2d/classShaderProgram.html#a4a418d0c945a99857e5cbbd0ecf532c7',1,'ShaderProgram']]],
   ['allweaponsdamage',['AllWeaponsDamage',['../d2/d32/classShip.html#a927b05522dbf2a7197a81e1b020622c3',1,'Ship']]],
   ['allweaponsmaxdamage',['AllWeaponsMaxDamage',['../d2/d32/classShip.html#a1801a9f41cdac29c47d1ae8b086431c0',1,'Ship']]],
+  ['ancestorinfo',['AncestorInfo',['../d0/d63/structanonymous__namespace_02MapWnd_8cpp_03_1_1AncestorInfo.html#a520b68aa01a3f769eee035355b366772',1,'anonymous_namespace{MapWnd.cpp}::AncestorInfo']]],
   ['and',['And',['../d5/dc9/structCondition_1_1And.html#a802de16e60ba770fe6532000be0d26e0',1,'Condition::And']]],
   ['andcondition',['AndCondition',['../de/d02/classAndCondition.html#a24e1afd627acd09cdc34c109d140bf22',1,'AndCondition']]],
   ['angledcornerrectangle',['AngledCornerRectangle',['../df/d3b/CUIDrawUtil_8cpp.html#ae859126d9754dcda5f11e3a7a8f05af8',1,'AngledCornerRectangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, GG::Clr color, GG::Clr border, int angle_offset, int thick, bool upper_left_angled, bool lower_right_angled, bool draw_bottom):&#160;CUIDrawUtil.cpp'],['../d9/d56/CUIDrawUtil_8h.html#a12ef98f4bb42e20bf81b4f58c4796335',1,'AngledCornerRectangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, GG::Clr color, GG::Clr border, int angle_offset, int thick, bool upper_left_angled=true, bool lower_right_angled=true, bool draw_bottom=true):&#160;CUIDrawUtil.cpp']]],

@@ -145,6 +145,7 @@ var searchData=
   ['logoutput',['LogOutput',['../d1/dde/namespaceAIInterface.html#a346c2c05ff06db0650aa07a4e0a8b2ed',1,'AIInterface']]],
   ['logplayersetupdata',['LogPlayerSetupData',['../d9/d76/namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a597cc4f2eba97b05799eae434eb9ffa3',1,'anonymous_namespace{ServerFSM.cpp}::LogPlayerSetupData()'],['../d9/dc7/namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a74fa4215c87376d797d9576b8bfd93df',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LogPlayerSetupData()']]],
   ['logtext',['LogText',['../dc/d74/namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a13686d65477412e683605b9cf5534beb',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['lookup_5for_5fmake_5fshared',['lookup_or_make_shared',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa46bace3c796e22bcf8a6681f2a7cca8',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['lookupinstringtable',['LookupInStringtable',['../d4/dfc/classBasesListBox_1_1SavedDesignListBoxRow.html#aa4f23c203637f29f6664599d90fd18c6',1,'BasesListBox::SavedDesignListBoxRow::LookupInStringtable()'],['../db/dd4/classShipDesign.html#aed37a41c0a554298e2e196da4bdd3732',1,'ShipDesign::LookupInStringtable()']]],
   ['lookuptype',['LookupType',['../da/d89/structValueRef_1_1NameLookup.html#a2758d4e4d0d04064e883741367c0df2f',1,'ValueRef::NameLookup']]],
   ['loopplanettypeincrement',['LoopPlanetTypeIncrement',['../d8/d73/namespaceanonymous__namespace_02Planet_8cpp_03.html#a815f8db2c52ae52bff1bbf0de946f238',1,'anonymous_namespace{Planet.cpp}']]],

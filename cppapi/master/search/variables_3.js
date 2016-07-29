@@ -72,6 +72,7 @@ var searchData=
   ['cri',['CRI',['../de/dd0/namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#add773a51be1b0db11f048e4bbc92eede',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['cuibutton_5fangle_5foffset',['CUIBUTTON_ANGLE_OFFSET',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a42e39e1aebb0f3f1c2b7539358fbc64d',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['cuidropdownlist_5fangle_5foffset',['CUIDROPDOWNLIST_ANGLE_OFFSET',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a1fe03b30d2b8b8e672a0e44c4af55a43',1,'anonymous_namespace{CUIControls.cpp}']]],
+  ['curr',['curr',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html#a159a2286e88c4d8418bb0beca44b5c6b',1,'anonymous_namespace{MapWnd.cpp}::PrevCurrInfo']]],
   ['current_5fhealth',['current_health',['../df/de8/structCombatParticipantState.html#ad659e128e585b66a5b0cb6a93a585017',1,'CombatParticipantState::current_health()'],['../dc/dad/structParticipantSummary.html#a2a00a4665208406ee8fa78ea01e2d61f',1,'ParticipantSummary::current_health()']]],
   ['current_5fturn',['current_turn',['../de/dff/structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d',1,'SaveGamePreviewData']]],
   ['current_5fvalue',['current_value',['../d8/d66/structScriptingContext.html#a32befe8da9ef0718c943db401b3b3021',1,'ScriptingContext']]],

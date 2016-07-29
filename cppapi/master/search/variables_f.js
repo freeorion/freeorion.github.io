@@ -23,6 +23,7 @@ var searchData=
   ['or_5f',['or_',['../dc/d75/structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#ab710821cbc0f0169784b7b96a627e237',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['ordered',['ordered',['../d8/d50/structProductionQueue_1_1Element.html#a4ad24f2ed87993d097dbc4c0c64cf3c7',1,'ProductionQueue::Element']]],
   ['ordered_5fbombarded_5fby',['ordered_bombarded_by',['../d9/d58/structanonymous__namespace_02ConditionParser7_8cpp_03_1_1condition__parser__rules__7.html#aac92eb82809aa24f89f20d573c812c44',1,'anonymous_namespace{ConditionParser7.cpp}::condition_parser_rules_7']]],
+  ['origin',['origin',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html#ae3d647d9de9ba58e2b1fe808123c6c54',1,'anonymous_namespace{MapWnd.cpp}::PrevCurrInfo']]],
   ['outer_5fedge_5fangle_5foffset',['OUTER_EDGE_ANGLE_OFFSET',['../d2/d69/classCUIWnd.html#a266942f29f9e767cbada15764a939708',1,'CUIWnd']]],
   ['outer_5fline_5fthickness',['OUTER_LINE_THICKNESS',['../d4/dfb/namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af9b6ac2136674dacbcaf74d3a3e7acfd',1,'anonymous_namespace{ProductionWnd.cpp}::OUTER_LINE_THICKNESS()'],['../db/d5b/namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#af12a4e35c9d202cd24a46e4c904c721a',1,'anonymous_namespace{ResearchWnd.cpp}::OUTER_LINE_THICKNESS()']]],
   ['outposts_5fowned',['outposts_owned',['../d1/dd7/structparse_1_1int__complex__parser__rules.html#aec1c8422b399c93b0a566b6be031b5b4',1,'parse::int_complex_parser_rules']]],
