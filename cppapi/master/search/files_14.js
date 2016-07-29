@@ -8,6 +8,5 @@ var searchData=
   ['valuerefparserimpl_2eh',['ValueRefParserImpl.h',['../df/d56/ValueRefParserImpl_8h.html',1,'']]],
   ['vartext_2ecpp',['VarText.cpp',['../da/d84/VarText_8cpp.html',1,'']]],
   ['vartext_2eh',['VarText.h',['../d0/ddb/VarText_8h.html',1,'']]],
-  ['version_2ecpp',['Version.cpp',['../d3/d7a/Version_8cpp.html',1,'']]],
   ['version_2eh',['Version.h',['../de/d3a/Version_8h.html',1,'']]]
 ];
