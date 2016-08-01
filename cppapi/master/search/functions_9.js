@@ -142,6 +142,7 @@ var searchData=
   ['isoscelestriangle',['IsoscelesTriangle',['../df/d3b/CUIDrawUtil_8cpp.html#afefb45f1aabac1f5c8302ed210223193',1,'IsoscelesTriangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, ShapeOrientation orientation, GG::Clr color, bool border):&#160;CUIDrawUtil.cpp'],['../d9/d56/CUIDrawUtil_8h.html#abecc42bbd842862dab267830a7f352e7',1,'IsoscelesTriangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, ShapeOrientation orientation, GG::Clr color, bool border=true):&#160;CUIDrawUtil.cpp']]],
   ['isplaceholder',['IsPlaceHolder',['../d4/d68/classTechTreeLayout_1_1Node.html#a6dcb1a18db4ddaffe92ecc9fbf7eb58e',1,'TechTreeLayout::Node']]],
   ['isproductionlocation',['IsProductionLocation',['../db/dd4/classShipDesign.html#a6396ccb269d3153e76a54ba275db2c31',1,'ShipDesign']]],
+  ['ispythonrunning',['IsPythonRunning',['../d8/da7/classPythonBase.html#ab9d722c3819abad7cae2e901f009730f',1,'PythonBase']]],
   ['isstartnode',['IsStartNode',['../d4/d68/classTechTreeLayout_1_1Node.html#a25c4a7b1e559e99afc74aba4bee39f69',1,'TechTreeLayout::Node']]],
   ['issueaggressionorder',['IssueAggressionOrder',['../d1/dde/namespaceAIInterface.html#aa6cbaf185606c192fdb9bb32ebbb9647',1,'AIInterface']]],
   ['issuebombardorder',['IssueBombardOrder',['../d1/dde/namespaceAIInterface.html#a1a796a02bbb615c8f350e3ed5c5dbda2',1,'AIInterface']]],

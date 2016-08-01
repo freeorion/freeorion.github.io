@@ -145,6 +145,7 @@ var searchData=
   ['_7eprocessingturn',['~ProcessingTurn',['../df/d91/structProcessingTurn.html#a470fbfcaae88a3e442046732aa0c6a26',1,'ProcessingTurn']]],
   ['_7eproducedbyempire',['~ProducedByEmpire',['../d3/d9f/structCondition_1_1ProducedByEmpire.html#ad776dd60079b0a8dec31f0a7ded97ce5',1,'Condition::ProducedByEmpire']]],
   ['_7eproductionwnd',['~ProductionWnd',['../d0/d4a/classProductionWnd.html#ade4603efae8ca2297f122a258d460bb4',1,'ProductionWnd']]],
+  ['_7epythonbase',['~PythonBase',['../d8/da7/classPythonBase.html#af1de30c16916b888e201a20f6c8c819e',1,'PythonBase']]],
   ['_7eremovespecial',['~RemoveSpecial',['../d2/d6b/classEffect_1_1RemoveSpecial.html#a5a585e72e0098b6f6cf18a3d44a6e5ae',1,'Effect::RemoveSpecial']]],
   ['_7eremovestarlane',['~RemoveStarlane',['../da/d0c/classModerator_1_1RemoveStarlane.html#af74275f4bffaad0d49785b359bc16668',1,'Moderator::RemoveStarlane']]],
   ['_7eremovestarlanes',['~RemoveStarlanes',['../df/db2/classEffect_1_1RemoveStarlanes.html#a7256be2f8b7894a3e80e5a49db8a1921',1,'Effect::RemoveStarlanes']]],
