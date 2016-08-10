@@ -588,7 +588,7 @@ var searchData=
   ['cullsuperfluousparts',['CullSuperfluousParts',['../d9/d17/classPartsListBox.html#a0ea201ae9bfdbc86a254b3f830de785f',1,'PartsListBox']]],
   ['cullthedead',['CullTheDead',['../d2/de7/structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['culltoolonglanes',['CullTooLongLanes',['../d5/d82/namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#aa48d6e8aa4e8e0d4c88ed37816d4a6e6',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
-  ['curr',['curr',['../dc/d9e/structanonymous__namespace_02MapWnd_8cpp_03_1_1PrevCurrInfo.html#a159a2286e88c4d8418bb0beca44b5c6b',1,'anonymous_namespace{MapWnd.cpp}::PrevCurrInfo']]],
+  ['curr',['curr',['../da/de7/structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#aecf1201d16ddb342f96317b8081f0d80',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['current',['Current',['../d8/d49/classMeter.html#adb74eb14910f668de4ba1413e159abd8',1,'Meter']]],
   ['current_5fhealth',['current_health',['../df/de8/structCombatParticipantState.html#ad659e128e585b66a5b0cb6a93a585017',1,'CombatParticipantState::current_health()'],['../dc/dad/structParticipantSummary.html#a2a00a4665208406ee8fa78ea01e2d61f',1,'ParticipantSummary::current_health()']]],
   ['current_5fturn',['current_turn',['../de/dff/structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d',1,'SaveGamePreviewData']]],

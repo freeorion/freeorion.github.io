@@ -41,7 +41,7 @@ var searchData=
   ['stringref_5fand_5fdoubleref_5frule',['stringref_and_doubleref_rule',['../d0/d6b/structanonymous__namespace_02EffectParser1_8cpp_03_1_1effect__parser__rules__1.html#a5cf20aac4bbe267bb33e902dffc61e02',1,'anonymous_namespace{EffectParser1.cpp}::effect_parser_rules_1']]],
   ['strings_5frule',['strings_rule',['../d2/db8/structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1rules.html#a23e86960dfd8eafc7ecdc7e2e8f34b2a',1,'anonymous_namespace{EncyclopediaParser.cpp}::rules']]],
   ['stringvalidator',['StringValidator',['../dc/df2/classOptionsWnd.html#a14064b0d1e0104286084ce3615e644b2',1,'OptionsWnd']]],
-  ['supplylanemmap',['SupplyLaneMMap',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8b734923472dab4c5c9102a925eac5fd',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['supplylanemmap',['SupplyLaneMMap',['../dc/d6c/namespaceGetPathsThroughSupplyLanes.html#a2480ddc06966cba3cc631a826fd2fd3e',1,'GetPathsThroughSupplyLanes']]],
   ['systemgraph',['SystemGraph',['../da/da6/structUniverse_1_1GraphImpl.html#aeaaec38dcfe5df7502f765e9685b11ea',1,'Universe::GraphImpl']]],
   ['systemiditr',['SystemIDItr',['../d2/d2e/classEmpire.html#a9f867ba7719e671cbe75c56608cfbfd0',1,'Empire']]],
   ['systemidpropertymap',['SystemIDPropertyMap',['../da/da6/structUniverse_1_1GraphImpl.html#a7ead0d3d1d780bc87877b2b477222a83',1,'Universe::GraphImpl']]]
