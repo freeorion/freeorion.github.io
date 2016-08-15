@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sectiontable',['SectionTable',['../d0/d91/structSectionedScopedTimer_1_1SectionedScopedTimerImpl_1_1Sections.html#a71ad72cba3c9a06fa4c62882d148a757',1,'SectionedScopedTimer::SectionedScopedTimerImpl::Sections']]],
   ['serverlist',['ServerList',['../d4/d0d/classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad5ab9cbf275508d65a603de7eaa60637',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::ServerList()'],['../dc/d34/classClientNetworking.html#a98060c80047a51397edaddbc65fa63d8',1,'ClientNetworking::ServerList()']]],
   ['set',['Set',['../d9/d19/classFreeOrionPython_1_1SetWrapper.html#a246fb1ca58bf3863129da2c142f094db',1,'FreeOrionPython::SetWrapper']]],
   ['set_5fmeter_5frule',['set_meter_rule',['../db/d98/structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#abae240983a77abb38daa986ad2904a26',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],

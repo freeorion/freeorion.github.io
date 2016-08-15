@@ -104,6 +104,7 @@ var searchData=
   ['enqueuelocation',['EnqueueLocation',['../d4/d32/classBuildingType.html#a15c5e7a5e93428b641072b05571e3739',1,'BuildingType::EnqueueLocation() const '],['../d4/d32/classBuildingType.html#ad91b11e15da1058c43fa21ceb01c0d35',1,'BuildingType::EnqueueLocation(int empire_id, int location_id) const ']]],
   ['enqueuelocationtest',['EnqueueLocationTest',['../d7/d08/namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a752427c9396052997aacbc9b60a85b26',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['ensureprompthiddenslot',['EnsurePromptHiddenSlot',['../d4/da0/classQueueListBox.html#a1f1eae008475c8a263bccf5c23d14057',1,'QueueListBox']]],
+  ['entersection',['EnterSection',['../d7/d52/classSectionedScopedTimer_1_1SectionedScopedTimerImpl.html#a022f5408d470d4e11097dfea70b9cd9c',1,'SectionedScopedTimer::SectionedScopedTimerImpl::EnterSection()'],['../dc/d38/classSectionedScopedTimer.html#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3',1,'SectionedScopedTimer::EnterSection()']]],
   ['enum_5fparser',['enum_parser',['../df/d6c/namespaceparse.html#a02259d2d38335e8e4dcc25bf0d7cc1ad',1,'parse']]],
   ['enum_5fparser_3c_20captureresult_20_3e',['enum_parser&lt; CaptureResult &gt;',['../df/d6c/namespaceparse.html#a18810762d391f50c978ec7d0504d9389',1,'parse']]],
   ['enum_5fparser_3c_20empireaffiliationtype_20_3e',['enum_parser&lt; EmpireAffiliationType &gt;',['../df/d6c/namespaceparse.html#a2ef5860fc52fd37725cfa929b4ebea9d',1,'parse']]],

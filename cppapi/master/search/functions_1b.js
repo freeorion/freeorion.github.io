@@ -158,6 +158,8 @@ var searchData=
   ['_7esavefiledialog',['~SaveFileDialog',['../dc/dd9/classSaveFileDialog.html#ac4552517f7227ca09caa32ab9d60ab3d',1,'SaveFileDialog']]],
   ['_7escopedtimer',['~ScopedTimer',['../d7/d12/classScopedTimer.html#a338ced0c8c39fe3d3e89e1b09d29f589',1,'ScopedTimer']]],
   ['_7escopedtimerimpl',['~ScopedTimerImpl',['../d1/d56/classScopedTimer_1_1ScopedTimerImpl.html#aeaf65982b77ff10de384a2bbb18df126',1,'ScopedTimer::ScopedTimerImpl']]],
+  ['_7esectionedscopedtimer',['~SectionedScopedTimer',['../dc/d38/classSectionedScopedTimer.html#a63bad1a11fc01af8a76f8cdaeb0570b0',1,'SectionedScopedTimer']]],
+  ['_7esectionedscopedtimerimpl',['~SectionedScopedTimerImpl',['../d7/d52/classSectionedScopedTimer_1_1SectionedScopedTimerImpl.html#a02936da62bccd19a5dc431a74fa07e7e',1,'SectionedScopedTimer::SectionedScopedTimerImpl']]],
   ['_7eserverapp',['~ServerApp',['../d7/d63/classServerApp.html#a5e3ac71fdd0950ab4aa14902707407cf',1,'ServerApp']]],
   ['_7eservernetworking',['~ServerNetworking',['../d1/ddc/classServerNetworking.html#a53194fa6a590effa53b8e6e2a11330cb',1,'ServerNetworking']]],
   ['_7esetdestination',['~SetDestination',['../de/d3a/classEffect_1_1SetDestination.html#abea5c15cad178d9400ce767c11449672',1,'Effect::SetDestination']]],

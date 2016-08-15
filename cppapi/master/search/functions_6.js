@@ -122,6 +122,7 @@ var searchData=
   ['forceatleastbasicvisibility',['ForceAtLeastBasicVisibility',['../de/de4/structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3',1,'CombatInfo']]],
   ['forgetknownobject',['ForgetKnownObject',['../dc/dce/classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
   ['forgetorder',['ForgetOrder',['../dd/dbf/classForgetOrder.html#acb2979db910936c954bd73d4e07adf81',1,'ForgetOrder::ForgetOrder()'],['../dd/dbf/classForgetOrder.html#a6cac205cf0dc6b6a8733fc58257c235c',1,'ForgetOrder::ForgetOrder(int empire, int object_id)']]],
+  ['formatduration',['FormatDuration',['../d1/d56/classScopedTimer_1_1ScopedTimerImpl.html#a60f88012fd4de2995e448ba3cb947759',1,'ScopedTimer::ScopedTimerImpl']]],
   ['formateddescriptionpropertynames',['FormatedDescriptionPropertyNames',['../d1/d55/namespaceValueRef.html#a4c672aa3b70b55b5b50a1752d12c282f',1,'ValueRef']]],
   ['fpsindicator',['FPSIndicator',['../d2/da9/classFPSIndicator.html#a358b3e72e1717b6a6ec0ec232a331721',1,'FPSIndicator']]],
   ['fractionaldistancebetweenpoints',['FractionalDistanceBetweenPoints',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aeb4e8aa449093304b8dca374cc001c17',1,'anonymous_namespace{MapWnd.cpp}']]],
