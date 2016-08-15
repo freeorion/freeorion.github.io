@@ -34,6 +34,7 @@ var searchData=
   ['addflag',['AddFlag',['../dd/d5a/classOptionsDB.html#a2b181314e3958abdcb4c14cd8ff770bc',1,'OptionsDB::AddFlag(const std::string &amp;name, const std::string &amp;description, bool storable=true)'],['../dd/d5a/classOptionsDB.html#a0b0febe7ed7250a8759fc10bf1de557a',1,'OptionsDB::AddFlag(char short_name, const std::string &amp;name, const std::string &amp;description, bool storable=true)']]],
   ['addfleet',['AddFleet',['../da/d21/classFleetWnd.html#aba742d82657ecb1185772315c2f67834',1,'FleetWnd']]],
   ['addfleetset',['AddFleetSet',['../d4/da2/namespaceanonymous__namespace_02Condition_8cpp_03.html#a6ef266a7f16a51d0907abd933f0574fa',1,'anonymous_namespace{Condition.cpp}']]],
+  ['addfleetsstatechangedsignal',['AddFleetsStateChangedSignal',['../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96',1,'MapWnd']]],
   ['addhomeworld',['AddHomeworld',['../d9/d0c/classSpecies.html#a77bd43ad5fe5a740ec99873a887877d0',1,'Species']]],
   ['addhotkey',['AddHotkey',['../d6/d28/classHotkey.html#ac488fc96ea4e4abbd90137f4f881ca5a',1,'Hotkey']]],
   ['addhulltype',['AddHullType',['../d2/d2e/classEmpire.html#a8294408b86641c5dc385a01460aee3a6',1,'Empire']]],

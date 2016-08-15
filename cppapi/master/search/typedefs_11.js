@@ -44,5 +44,6 @@ var searchData=
   ['supplylanemmap',['SupplyLaneMMap',['../dc/d6c/namespaceGetPathsThroughSupplyLanes.html#a2480ddc06966cba3cc631a826fd2fd3e',1,'GetPathsThroughSupplyLanes']]],
   ['systemgraph',['SystemGraph',['../da/da6/structUniverse_1_1GraphImpl.html#aeaaec38dcfe5df7502f765e9685b11ea',1,'Universe::GraphImpl']]],
   ['systemiditr',['SystemIDItr',['../d2/d2e/classEmpire.html#a9f867ba7719e671cbe75c56608cfbfd0',1,'Empire']]],
-  ['systemidpropertymap',['SystemIDPropertyMap',['../da/da6/structUniverse_1_1GraphImpl.html#a7ead0d3d1d780bc87877b2b477222a83',1,'Universe::GraphImpl']]]
+  ['systemidpropertymap',['SystemIDPropertyMap',['../da/da6/structUniverse_1_1GraphImpl.html#a7ead0d3d1d780bc87877b2b477222a83',1,'Universe::GraphImpl']]],
+  ['systemxempiretofleetsmap',['SystemXEmpireToFleetsMap',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6e4acb9075731f8c6c7fc02d2c7d63f2',1,'anonymous_namespace{MapWnd.cpp}']]]
 ];

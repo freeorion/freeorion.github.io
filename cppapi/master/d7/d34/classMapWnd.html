@@ -172,6 +172,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a28e9c3fa68ef08852d83473bf70bca96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96">AddFleetsStateChangedSignal</a> (const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;fleets)</td></tr>
+<tr class="separator:a28e9c3fa68ef08852d83473bf70bca96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14606e7346393a3fe7e39971ccc50ffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a14606e7346393a3fe7e39971ccc50ffb">BuildingRightClicked</a> (int building_id)</td></tr>
 <tr class="separator:a14606e7346393a3fe7e39971ccc50ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa14ded31210cc301a113a82807c53060"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#aa14ded31210cc301a113a82807c53060">ChatMessageSentSlot</a> ()</td></tr>
@@ -199,6 +201,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a412259f2a2abdd962f8b1dee4ef33a65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a412259f2a2abdd962f8b1dee4ef33a65">CorrectMapPosition</a> (GG::Pt &amp;move_to_pt)</td></tr>
 <tr class="memdesc:a412259f2a2abdd962f8b1dee4ef33a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">constrains <em>move_to_pt</em> so that if the map is repositioned to that location, it will not be problematically positioned, so that galaxy contents remain visible  <a href="#a412259f2a2abdd962f8b1dee4ef33a65">More...</a><br/></td></tr>
 <tr class="separator:a412259f2a2abdd962f8b1dee4ef33a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc712d2950ece4ea59d450d7d2f41ef"><td class="memTemplParams" colspan="2">template&lt;typename K &gt; </td></tr>
+<tr class="memitem:abfc712d2950ece4ea59d450d7d2f41ef"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#abfc712d2950ece4ea59d450d7d2f41ef">CreateFleetButtonsOfType</a> (boost::unordered_map&lt; K, boost::unordered_set&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt; &amp;type_fleet_buttons, const boost::unordered_map&lt; std::pair&lt; K, int &gt;, std::vector&lt; int &gt; &gt; &amp;fleets_map, const <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148">FleetButton::SizeType</a> &amp;fleet_button_size)</td></tr>
+<tr class="separator:abfc712d2950ece4ea59d450d7d2f41ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a90d6528ea6df32cce5c7e9ab26601b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons</a> ()</td></tr>
+<tr class="separator:a8a90d6528ea6df32cce5c7e9ab26601b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a6df0382bac4e9a57b58cdd77b7e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons</a> ()</td></tr>
+<tr class="separator:a32a6df0382bac4e9a57b58cdd77b7e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6abe1427bea2a6f60b6dabe6d19a3d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ae6abe1427bea2a6f60b6dabe6d19a3d1">DoFieldIconsLayout</a> ()</td></tr>
 <tr class="memdesc:ae6abe1427bea2a6f60b6dabe6d19a3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">does layout of field icons  <a href="#ae6abe1427bea2a6f60b6dabe6d19a3d1">More...</a><br/></td></tr>
 <tr class="separator:ae6abe1427bea2a6f60b6dabe6d19a3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,8 +227,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a82c5bc539fc027b3cc39b7590748c4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d08553f6b8e24f3e2e3d7bb7827ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a84d08553f6b8e24f3e2e3d7bb7827ead">FleetRightClicked</a> (int fleet_id)</td></tr>
 <tr class="separator:a84d08553f6b8e24f3e2e3d7bb7827ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc2e763d12345785b14db2c460a8585b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#abc2e763d12345785b14db2c460a8585b">FleetsAddedOrRemoved</a> (const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;fleets)</td></tr>
-<tr class="separator:abc2e763d12345785b14db2c460a8585b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfaff0b9481178a331e5f4cd65117fcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#adfaff0b9481178a331e5f4cd65117fcd">FleetsInsertedSignalHandler</a> (const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;fleets)</td></tr>
+<tr class="separator:adfaff0b9481178a331e5f4cd65117fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993ea0e92bae1bf14317d48bb4a67111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a993ea0e92bae1bf14317d48bb4a67111">FleetsRemovedSignalHandler</a> (const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;fleets)</td></tr>
+<tr class="separator:a993ea0e92bae1bf14317d48bb4a67111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea99e10734a00fbda5c68079bce5038c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#aea99e10734a00fbda5c68079bce5038c">FleetsRightClicked</a> (const std::vector&lt; int &gt; &amp;fleet_ids)</td></tr>
 <tr class="separator:aea99e10734a00fbda5c68079bce5038c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b18beb604feeba94be52bffbe541a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ac3b18beb604feeba94be52bffbe541a8">HideAllPopups</a> ()</td></tr>
@@ -291,7 +302,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6143ec2a5df022b6da9e8d8432b31dec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a6143ec2a5df022b6da9e8d8432b31dec">RefreshDetectionIndicator</a> ()</td></tr>
 <tr class="separator:a6143ec2a5df022b6da9e8d8432b31dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49cb6ec4be307478bf7a79c90d7d2fcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons</a> ()</td></tr>
-<tr class="memdesc:a49cb6ec4be307478bf7a79c90d7d2fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes old / existing and creates new fleet buttons  <a href="#a49cb6ec4be307478bf7a79c90d7d2fcc">More...</a><br/></td></tr>
 <tr class="separator:a49cb6ec4be307478bf7a79c90d7d2fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78879a001f9b60f65bbc3a07bf6aca91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators</a> ()</td></tr>
 <tr class="memdesc:a78879a001f9b60f65bbc3a07bf6aca91"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks (only) selected fleets' buttons as selected  <a href="#a78879a001f9b60f65bbc3a07bf6aca91">More...</a><br/></td></tr>
@@ -312,6 +322,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a5d59ec641376ba895371e6ffb28acbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1349fd626c63392254cb44780ffba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a7c1349fd626c63392254cb44780ffba8">RefreshTradeResourceIndicator</a> ()</td></tr>
 <tr class="separator:a7c1349fd626c63392254cb44780ffba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d61c3c4dfd8800ff11a9ff624660fbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a4d61c3c4dfd8800ff11a9ff624660fbd">RemoveFleetsStateChangedSignal</a> (const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;fleets)</td></tr>
+<tr class="separator:a4d61c3c4dfd8800ff11a9ff624660fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e27a873c72e7dfbca031f2ef2fa0875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">RenderFields</a> ()</td></tr>
 <tr class="memdesc:a2e27a873c72e7dfbca031f2ef2fa0875"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders field objects  <a href="#a2e27a873c72e7dfbca031f2ef2fa0875">More...</a><br/></td></tr>
 <tr class="separator:a2e27a873c72e7dfbca031f2ef2fa0875"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -488,10 +500,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a54f2c5584b9a411bd173ed459e6abf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b8513d373e2dd6f28d9a4f4f54bb06"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a78b8513d373e2dd6f28d9a4f4f54bb06">m_current_owned_system</a></td></tr>
 <tr class="separator:a78b8513d373e2dd6f28d9a4f4f54bb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2a12cfdbe80557ee559f4819ef16789"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set<br class="typebreak"/>
-&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#af2a12cfdbe80557ee559f4819ef16789">m_departing_fleet_buttons</a></td></tr>
-<tr class="memdesc:af2a12cfdbe80557ee559f4819ef16789"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets at a system that are departing, indexed by system  <a href="#af2a12cfdbe80557ee559f4819ef16789">More...</a><br/></td></tr>
-<tr class="separator:af2a12cfdbe80557ee559f4819ef16789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6774506379d928808d7fe1ee3c38f068"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a6774506379d928808d7fe1ee3c38f068">m_deferred_refresh_fleet_buttons</a></td></tr>
+<tr class="memdesc:a6774506379d928808d7fe1ee3c38f068"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates that refresh fleet button work should be done before rendering.  <a href="#a6774506379d928808d7fe1ee3c38f068">More...</a><br/></td></tr>
+<tr class="separator:a6774506379d928808d7fe1ee3c38f068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452a42b9fc3399a1003f8428c0ad471f"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+boost::unordered_set<br class="typebreak"/>
+&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a452a42b9fc3399a1003f8428c0ad471f">m_departing_fleet_buttons</a></td></tr>
+<tr class="memdesc:a452a42b9fc3399a1003f8428c0ad471f"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets at a system that are departing, indexed by system  <a href="#a452a42b9fc3399a1003f8428c0ad471f">More...</a><br/></td></tr>
+<tr class="separator:a452a42b9fc3399a1003f8428c0ad471f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a714410ab9ab654ccac539dfbcfa5bcdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d10/classDesignWnd.html">DesignWnd</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a></td></tr>
 <tr class="memdesc:a714410ab9ab654ccac539dfbcfa5bcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">design screen  <a href="#a714410ab9ab654ccac539dfbcfa5bcdd">More...</a><br/></td></tr>
 <tr class="separator:a714410ab9ab654ccac539dfbcfa5bcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -518,15 +534,16 @@ GG::GL2DVertexBuffer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom
 <tr class="separator:a8735e572f47967ff07dba28d2ac9fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a509d0a331a2c91b790518c10ed181433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d20/classStatisticIcon.html">StatisticIcon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a509d0a331a2c91b790518c10ed181433">m_fleet</a></td></tr>
 <tr class="separator:a509d0a331a2c91b790518c10ed181433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad095b6ad07131bf341170fff35ac5cfa"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ad095b6ad07131bf341170fff35ac5cfa">m_fleet_buttons</a></td></tr>
-<tr class="memdesc:ad095b6ad07131bf341170fff35ac5cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">fleet icons, index by fleet  <a href="#ad095b6ad07131bf341170fff35ac5cfa">More...</a><br/></td></tr>
-<tr class="separator:ad095b6ad07131bf341170fff35ac5cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132d9b5a8370d487102841b22e972f4b"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a></td></tr>
+<tr class="memdesc:a132d9b5a8370d487102841b22e972f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">fleet icons, index by fleet  <a href="#a132d9b5a8370d487102841b22e972f4b">More...</a><br/></td></tr>
+<tr class="separator:a132d9b5a8370d487102841b22e972f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7f05f77036389879bfe4dbba4c11f2"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="../../d2/d9c/structMapWnd_1_1MovementLineData.html">MovementLineData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a></td></tr>
 <tr class="memdesc:a5a7f05f77036389879bfe4dbba4c11f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">lines used for moving fleets in the main map  <a href="#a5a7f05f77036389879bfe4dbba4c11f2">More...</a><br/></td></tr>
 <tr class="separator:a5a7f05f77036389879bfe4dbba4c11f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab536ca52112ae9f55caeef4528ee1461"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <br class="typebreak"/>
-boost::signals2::connection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ab536ca52112ae9f55caeef4528ee1461">m_fleet_state_change_signals</a></td></tr>
-<tr class="separator:ab536ca52112ae9f55caeef4528ee1461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474f5906aae6f218533f770fc01b9a"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+boost::signals2::connection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#aff474f5906aae6f218533f770fc01b9a">m_fleet_state_change_signals</a></td></tr>
+<tr class="separator:aff474f5906aae6f218533f770fc01b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac52cce367d9bbf505516fe645dc74a2d"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ac52cce367d9bbf505516fe645dc74a2d">m_fleets_exploring</a></td></tr>
 <tr class="separator:ac52cce367d9bbf505516fe645dc74a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6bbba8cfda5c633338102930d67cb50"><td class="memItemLeft" align="right" valign="top">GG::Label *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ab6bbba8cfda5c633338102930d67cb50">m_FPS</a></td></tr>
@@ -550,9 +567,12 @@ boost::signals2::connection &gt;&#160;</td><td class="memItemRight" valign="bott
 <tr class="memitem:a7ab045c7ed0756dcb9f1742f1eaa1872"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d93/classModeratorActionsWnd.html">ModeratorActionsWnd</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a7ab045c7ed0756dcb9f1742f1eaa1872">m_moderator_wnd</a></td></tr>
 <tr class="memdesc:a7ab045c7ed0756dcb9f1742f1eaa1872"><td class="mdescLeft">&#160;</td><td class="mdescRight">buttons to select moderator actions  <a href="#a7ab045c7ed0756dcb9f1742f1eaa1872">More...</a><br/></td></tr>
 <tr class="separator:a7ab045c7ed0756dcb9f1742f1eaa1872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a476312eece62be8ba0d3949f0c510eac"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a476312eece62be8ba0d3949f0c510eac">m_moving_fleet_buttons</a></td></tr>
-<tr class="memdesc:a476312eece62be8ba0d3949f0c510eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets not at a system  <a href="#a476312eece62be8ba0d3949f0c510eac">More...</a><br/></td></tr>
-<tr class="separator:a476312eece62be8ba0d3949f0c510eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c1329ade3031a2ec0e4991a6598a29"><td class="memItemLeft" align="right" valign="top">boost::unordered_map<br class="typebreak"/>
+&lt; std::pair&lt; double, double &gt;<br class="typebreak"/>
+, boost::unordered_set<br class="typebreak"/>
+&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a82c1329ade3031a2ec0e4991a6598a29">m_moving_fleet_buttons</a></td></tr>
+<tr class="memdesc:a82c1329ade3031a2ec0e4991a6598a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets not at a system  <a href="#a82c1329ade3031a2ec0e4991a6598a29">More...</a><br/></td></tr>
+<tr class="separator:a82c1329ade3031a2ec0e4991a6598a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae419a65da8401aa254264762b19a58ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d8d/classObjectListWnd.html">ObjectListWnd</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ae419a65da8401aa254264762b19a58ff">m_object_list_wnd</a></td></tr>
 <tr class="memdesc:ae419a65da8401aa254264762b19a58ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">filterable list of objects in universe  <a href="#ae419a65da8401aa254264762b19a58ff">More...</a><br/></td></tr>
 <tr class="separator:ae419a65da8401aa254264762b19a58ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -630,16 +650,19 @@ std::size_t &gt;, std::pair<br class="typebreak"/>
 <tr class="separator:a15faf6f5f7b1e152cd2fabb9793c1fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a3af44ecdae10b6b33c3c1593d9111"><td class="memItemLeft" align="right" valign="top">GG::GL2DVertexBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ae6a3af44ecdae10b6b33c3c1593d9111">m_starlane_vertices</a></td></tr>
 <tr class="separator:ae6a3af44ecdae10b6b33c3c1593d9111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa21af9d4f4b2ea79ee782821c05cb34a"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set<br class="typebreak"/>
-&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#aa21af9d4f4b2ea79ee782821c05cb34a">m_stationary_fleet_buttons</a></td></tr>
-<tr class="memdesc:aa21af9d4f4b2ea79ee782821c05cb34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets at a system that are not departing, indexed by system  <a href="#aa21af9d4f4b2ea79ee782821c05cb34a">More...</a><br/></td></tr>
-<tr class="separator:aa21af9d4f4b2ea79ee782821c05cb34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad70d86220ff437f20b42e0a25bf1a624"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector<br class="typebreak"/>
-&lt; boost::signals2::connection &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ad70d86220ff437f20b42e0a25bf1a624">m_system_fleet_insert_remove_signals</a></td></tr>
-<tr class="separator:ad70d86220ff437f20b42e0a25bf1a624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8709aa27a9db72d59aa3cc64bf39725"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="../../d5/d5e/classSystemIcon.html">SystemIcon</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a></td></tr>
-<tr class="memdesc:ac8709aa27a9db72d59aa3cc64bf39725"><td class="mdescLeft">&#160;</td><td class="mdescRight">system icons in the main map, indexed by system id  <a href="#ac8709aa27a9db72d59aa3cc64bf39725">More...</a><br/></td></tr>
-<tr class="separator:ac8709aa27a9db72d59aa3cc64bf39725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2eebc63915f832537037af9665a606"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+boost::unordered_set<br class="typebreak"/>
+&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a5e2eebc63915f832537037af9665a606">m_stationary_fleet_buttons</a></td></tr>
+<tr class="memdesc:a5e2eebc63915f832537037af9665a606"><td class="mdescLeft">&#160;</td><td class="mdescRight">icons representing fleets at a system that are not departing, indexed by system  <a href="#a5e2eebc63915f832537037af9665a606">More...</a><br/></td></tr>
+<tr class="separator:a5e2eebc63915f832537037af9665a606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a95e7a917079e62adb56d5aa088f1a8"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+std::vector<br class="typebreak"/>
+&lt; boost::signals2::connection &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a4a95e7a917079e62adb56d5aa088f1a8">m_system_fleet_insert_remove_signals</a></td></tr>
+<tr class="separator:a4a95e7a917079e62adb56d5aa088f1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160cd76ddd46d0ca252a1683d46ee19b"><td class="memItemLeft" align="right" valign="top">boost::unordered_map&lt; int, <br class="typebreak"/>
+<a class="el" href="../../d5/d5e/classSystemIcon.html">SystemIcon</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a></td></tr>
+<tr class="memdesc:a160cd76ddd46d0ca252a1683d46ee19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">system icons in the main map, indexed by system id  <a href="#a160cd76ddd46d0ca252a1683d46ee19b">More...</a><br/></td></tr>
+<tr class="separator:a160cd76ddd46d0ca252a1683d46ee19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e954c0c2b553ceeecd14d7c8ff31a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df5/classCUIToolBar.html">CUIToolBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a63e954c0c2b553ceeecd14d7c8ff31a8">m_toolbar</a></td></tr>
 <tr class="separator:a63e954c0c2b553ceeecd14d7c8ff31a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72313d1ee9c4bac448c6c222874e94c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d20/classStatisticIcon.html">StatisticIcon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a72313d1ee9c4bac448c6c222874e94c5">m_trade</a></td></tr>
@@ -804,9 +827,6 @@ Mutators //!@{</h2></td></tr>
 <tr class="memitem:a28248fe989db66fe1e8568c92470037b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#a28248fe989db66fe1e8568c92470037b">RemoveFleet</a> (int fleet_id)</td></tr>
 <tr class="memdesc:a28248fe989db66fe1e8568c92470037b"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes specified fleet.  <a href="#a28248fe989db66fe1e8568c92470037b">More...</a><br/></td></tr>
 <tr class="separator:a28248fe989db66fe1e8568c92470037b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd67bc44b1d0860f841ec2206f53a8e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#abd67bc44b1d0860f841ec2206f53a8e4">SetFleetMovementLine</a> (const <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> *fleet_button)</td></tr>
-<tr class="memdesc:abd67bc44b1d0860f841ec2206f53a8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates fleet movement lines for all fleets in the given <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> to indicate where (and whether) they are moving. Move lines originate from the <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>.  <a href="#abd67bc44b1d0860f841ec2206f53a8e4">More...</a><br/></td></tr>
-<tr class="separator:abd67bc44b1d0860f841ec2206f53a8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacdc6aa12c125723ad72117a57180ca5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d34/classMapWnd.html#aacdc6aa12c125723ad72117a57180ca5">SetFleetMovementLine</a> (int fleet_id)</td></tr>
 <tr class="memdesc:aacdc6aa12c125723ad72117a57180ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates fleet movement line for a single fleet. Move lines originate from the fleet's button location.  <a href="#aacdc6aa12c125723ad72117a57180ca5">More...</a><br/></td></tr>
 <tr class="separator:aacdc6aa12c125723ad72117a57180ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -872,6 +892,35 @@ Mutators //!@{</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a28e9c3fa68ef08852d83473bf70bca96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::AddFleetsStateChangedSignal </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fleets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Connect all <code>fleets</code> StateChangedSignal to RefreshFleetButtons. </p>
+
+<p>References <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aff474f5906aae6f218533f770fc01b9a">m_fleet_state_change_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2c280579c7102c17005af3d28513f086">UniverseObject::StateChangedSignal</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#adfaff0b9481178a331e5f4cd65117fcd">FleetsInsertedSignalHandler()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a40464dc26298052550943bbc7d9195c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1339,6 +1388,109 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abfc712d2950ece4ea59d450d7d2f41ef"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::CreateFleetButtonsOfType </td>
+          <td>(</td>
+          <td class="paramtype">boost::unordered_map&lt; K, boost::unordered_set&lt; <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> * &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>type_fleet_buttons</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::unordered_map&lt; std::pair&lt; K, int &gt;, std::vector&lt; int &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fleets_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148">FleetButton::SizeType</a> &amp;&#160;</td>
+          <td class="paramname"><em>fleet_button_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Use the vectors of fleet ids from <code>fleets_map</code> to create fleet buttons in <code>type_fleet_buttons</code> and record the fleet buttons in <code>m_fleet_buttons</code>. </p>
+
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a6d3d6ad00d3feb7e410f67232bb342f7">FleetButtonLeftClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c5bc539fc027b3cc39b7590748c4f4">FleetButtonRightClicked()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a90d6528ea6df32cce5c7e9ab26601b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::DeferredRefreshFleetButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes old / existing and create new fleet buttons. Only called once per render interval. </p>
+
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#abfc712d2950ece4ea59d450d7d2f41ef">CreateFleetButtonsOfType()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../dc/dce/classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a0c0b0f7b727745e427077059e5dfb5e6">ObjectMap::ExistingFleetsEnd()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a23a1cc6b41ef7aa4b8c0a4c9f623c1ce">anonymous_namespace{MapWnd.cpp}::IsDepartingFromSystem()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8fa19f37f33adcb72377719d14631689">anonymous_namespace{MapWnd.cpp}::IsMoving()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1fa2ffb9a06f1705fbf834b0e101225d">anonymous_namespace{MapWnd.cpp}::IsQualifiedFleet()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6186f2198b40e2c0a0e46543f4832525">anonymous_namespace{MapWnd.cpp}::IsStationaryInSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6774506379d928808d7fe1ee3c38f068">m_deferred_refresh_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a452a42b9fc3399a1003f8428c0ad471f">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c1329ade3031a2ec0e4991a6598a29">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5e2eebc63915f832537037af9665a606">m_stationary_fleet_buttons</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aacdc6aa12c125723ad72117a57180ca5">SetFleetMovementLine()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a18852956cdccf48c664bf5f8e807c489">Render()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32a6df0382bac4e9a57b58cdd77b7e80"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::DeleteFleetButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delete all fleet buttons. </p>
+
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a452a42b9fc3399a1003f8428c0ad471f">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c1329ade3031a2ec0e4991a6598a29">m_moving_fleet_buttons</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a5e2eebc63915f832537037af9665a606">m_stationary_fleet_buttons</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ace97150b42c6e9193013d9f06339bac0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1412,9 +1564,9 @@ Mutators //!@{</h2></td></tr>
 
 <p>does layout of fleet buttons </p>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#af77313701ae4814fa2a103c9c6a665c1">UniverseObject::INVALID_POSITION</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af2a12cfdbe80557ee559f4819ef16789">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a476312eece62be8ba0d3949f0c510eac">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa21af9d4f4b2ea79ee782821c05cb34a">m_stationary_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a3ad00acbf952b552fcea032d7e255d32">MovingFleetMapPositionOnLane()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a91c426c784f14fc59733843088f75191">SystemIcon::NthFleetButtonUpperLeft()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#afe4040a195c4da328dc3aa548c4779e7">ObjectMap::Object()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#af77313701ae4814fa2a103c9c6a665c1">UniverseObject::INVALID_POSITION</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a452a42b9fc3399a1003f8428c0ad471f">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c1329ade3031a2ec0e4991a6598a29">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5e2eebc63915f832537037af9665a606">m_stationary_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a3ad00acbf952b552fcea032d7e255d32">MovingFleetMapPositionOnLane()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a91c426c784f14fc59733843088f75191">SystemIcon::NthFleetButtonUpperLeft()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#afe4040a195c4da328dc3aa548c4779e7">ObjectMap::Object()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
 </div>
 </div>
@@ -1462,7 +1614,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>does layout of system icons </p>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
@@ -1603,7 +1755,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af454290d31c1a8883558a185f76a1f0b">HideProduction()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4aa28dfcda043db4ca2f7bd607f72572">m_in_production_view_mode</a>, <a class="el" href="../../da/d21/classFleetWnd.html#a9317574bde48b64549057241ee9daf23">FleetWnd::SelectedFleetIDs()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a082a3f732109b78b9d319a1393562e43">SelectFleet()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abfc712d2950ece4ea59d450d7d2f41ef">CreateFleetButtonsOfType()</a>.</p>
 
 </div>
 </div>
@@ -1631,7 +1783,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#aea99e10734a00fbda5c68079bce5038c">FleetsRightClicked()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abfc712d2950ece4ea59d450d7d2f41ef">CreateFleetButtonsOfType()</a>.</p>
 
 </div>
 </div>
@@ -1651,7 +1803,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148a3c91084ce407b9ba3309e2ef42f06be2">FleetButton::FLEET_BUTTON_MEDIUM</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148a66619571e1812d95d5cbf9fa347bfe5b">FleetButton::FLEET_BUTTON_NONE</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ae2c82a5a5e597ad0351e991a52a423f2">FleetButton::FLEET_BUTTON_SMALL</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ab161470ee9f8678dea92ef604f96c0e1">FleetButton::FLEET_BUTTON_TINY</a>, <a class="el" href="../../d9/d79/classClientUI.html#a833c2485fb4da8e057ec65afc627051b">ClientUI::MediumFleetButtonZoomThreshold()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a32a0642c287afc27239379fd48c75d82">ClientUI::SmallFleetButtonZoomThreshold()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a33e8ea276caf1f1a3219e0d3239201fb">ClientUI::TinyFleetButtonZoomThreshold()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5e/classSystemIcon.html#a91c426c784f14fc59733843088f75191">SystemIcon::NthFleetButtonUpperLeft()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a91c426c784f14fc59733843088f75191">SystemIcon::NthFleetButtonUpperLeft()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
 </div>
 </div>
@@ -1683,7 +1835,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abc2e763d12345785b14db2c460a8585b"></a>
+<a class="anchor" id="adfaff0b9481178a331e5f4cd65117fcd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1691,7 +1843,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MapWnd::FleetsAddedOrRemoved </td>
+          <td class="memname">void MapWnd::FleetsInsertedSignalHandler </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>fleets</em></td><td>)</td>
@@ -1704,8 +1856,38 @@ Mutators //!@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Handle FleetsInsertedSignal by connecting signals and refreshing fleet buttons. </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96">AddFleetsStateChangedSignal()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a4d61c3c4dfd8800ff11a9ff624660fbd">RemoveFleetsStateChangedSignal()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a993ea0e92bae1bf14317d48bb4a67111"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::FleetsRemovedSignalHandler </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fleets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Handle FleetsRemovedSignal by disconnecting signals and refreshing fleet buttons. </p>
+
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a4d61c3c4dfd8800ff11a9ff624660fbd">RemoveFleetsStateChangedSignal()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>.</p>
 
@@ -2092,7 +2274,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>disables the system name text </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac882dd8d9cc5cbcd8f1e80f6bcda62b6">MidTurnUpdate()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
@@ -2220,7 +2402,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>initializes or refreshes buffers for rendering of starlanes </p>
 
-<p>References <a class="el" href="../../d3/de8/structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">ProductionQueue::AllocatedPP()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa620314bc3990cb76162e85b2740c125">ClearStarlaneRenderingBuffers()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ab4fa616ce4c3190e2164e517771667c2">Empire::Color()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#ad4e9ede1b0c3129917a2daab10ab1d44">EmpireManager::end()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../dc/d6c/namespaceGetPathsThroughSupplyLanes.html#a71c520893ee9b87b172fb0eddbcaea1d">GetPathsThroughSupplyLanes::GetPathsThroughSupplyLanes()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a788cd9eda9104031e6e6816da2cf1260">Empire::GetResourcePool()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa46bace3c796e22bcf8a6681f2a7cca8">anonymous_namespace{MapWnd.cpp}::lookup_or_make_shared()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0021d25551742f7541900a6e526aad9a">m_RC_starlane_colors</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2375f8048433b423e07da36ab8fe4c16">m_RC_starlane_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad50fa6cef0d36bf7b4c0bd3602b372dd">m_starlane_colors</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a15faf6f5f7b1e152cd2fabb9793c1fcf">m_starlane_endpoints</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae6a3af44ecdae10b6b33c3c1593d9111">m_starlane_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af1fcfcc985e4ada50dced124c4e81bf2">StarlaneEndPointsFromSystemPositions()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a3a5ebcaf96b64579704899a4cdbcec83">System::StarlanesWormholes()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#a9ddcfe6d4e1077a9cbe077e20b2efe60">SupplyManager::SupplyObstructedStarlaneTraversals()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#ad8eadf99262ffb3a09af0eff6511f67b">SupplyManager::SupplyStarlaneTraversals()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a2894aeac3b6b64128716172ac8da190e">anonymous_namespace{MapWnd.cpp}::UnorderedIntPair()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
+<p>References <a class="el" href="../../d3/de8/structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">ProductionQueue::AllocatedPP()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa620314bc3990cb76162e85b2740c125">ClearStarlaneRenderingBuffers()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ab4fa616ce4c3190e2164e517771667c2">Empire::Color()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#ad4e9ede1b0c3129917a2daab10ab1d44">EmpireManager::end()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../dc/d6c/namespaceGetPathsThroughSupplyLanes.html#a71c520893ee9b87b172fb0eddbcaea1d">GetPathsThroughSupplyLanes::GetPathsThroughSupplyLanes()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a788cd9eda9104031e6e6816da2cf1260">Empire::GetResourcePool()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa46bace3c796e22bcf8a6681f2a7cca8">anonymous_namespace{MapWnd.cpp}::lookup_or_make_shared()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0021d25551742f7541900a6e526aad9a">m_RC_starlane_colors</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2375f8048433b423e07da36ab8fe4c16">m_RC_starlane_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad50fa6cef0d36bf7b4c0bd3602b372dd">m_starlane_colors</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a15faf6f5f7b1e152cd2fabb9793c1fcf">m_starlane_endpoints</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae6a3af44ecdae10b6b33c3c1593d9111">m_starlane_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af1fcfcc985e4ada50dced124c4e81bf2">StarlaneEndPointsFromSystemPositions()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a3a5ebcaf96b64579704899a4cdbcec83">System::StarlanesWormholes()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#a9ddcfe6d4e1077a9cbe077e20b2efe60">SupplyManager::SupplyObstructedStarlaneTraversals()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#ad8eadf99262ffb3a09af0eff6511f67b">SupplyManager::SupplyStarlaneTraversals()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a2894aeac3b6b64128716172ac8da190e">anonymous_namespace{MapWnd.cpp}::UnorderedIntPair()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>.</p>
 
@@ -2249,7 +2431,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>initializes or refreshes buffers for rendering of system icons and galaxy gas </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a561cb09360aa2bd01b9ea92b8d10d9fb">ClearSystemRenderingBuffers()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a75e6d9a945697adbfb2ef0e26a14185a">SystemIcon::DiscTexture()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af71d0e274da7f5e0dee96fedb25bbbd0">anonymous_namespace{MapWnd.cpp}::GetGasTexture()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a2e7e464def3a1553ed666fe41d47b1c8">SystemIcon::HaloTexture()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a91f69a85e7097a70e5b0c5b98829a983">m_galaxy_gas_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aecba4eed4d58d027e8e33859736270ff">m_galaxy_gas_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac5a868345f4b018f9ae0e2edeaabaa35">m_star_core_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4d201d285bd2a3fcb5e56b58e1c08743">m_star_halo_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad7e2ddbb8b57c42e4686cd8cfda04b53">m_star_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d9/d79/classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a561cb09360aa2bd01b9ea92b8d10d9fb">ClearSystemRenderingBuffers()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a75e6d9a945697adbfb2ef0e26a14185a">SystemIcon::DiscTexture()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af71d0e274da7f5e0dee96fedb25bbbd0">anonymous_namespace{MapWnd.cpp}::GetGasTexture()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a2e7e464def3a1553ed666fe41d47b1c8">SystemIcon::HaloTexture()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a91f69a85e7097a70e5b0c5b98829a983">m_galaxy_gas_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aecba4eed4d58d027e8e33859736270ff">m_galaxy_gas_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac5a868345f4b018f9ae0e2edeaabaa35">m_star_core_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4d201d285bd2a3fcb5e56b58e1c08743">m_star_halo_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad7e2ddbb8b57c42e4686cd8cfda04b53">m_star_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d9/d79/classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>.</p>
 
@@ -2270,7 +2452,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>called at the start of each turn </p>
 
-<p>References <a class="el" href="../../dc/dce/classUniverse.html#a49e92c98d2ca3b0bd9be8559a076e4d6">Universe::ApplyAppearanceEffects()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a2d1f0140e2853bff3542b8196e2406b3">OrderSet::ApplyOrders()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ac1b44101f0bfe24ac69659cbba6e291d">Empire::CapitalID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#affc6426ee4d4091ff5d806c039caed69">CenterOnMapCoord()</a>, <a class="el" href="../../d8/d17/classPopulationPool.html#af39f373b6cd89f6798f43cd4ed25a5a6">PopulationPool::ChangedSignal</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">DispatchFleetsExploring()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#ad4e9ede1b0c3129917a2daab10ab1d44">EmpireManager::end()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abc2e763d12345785b14db2c460a8585b">FleetsAddedOrRemoved()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a63469917ded5ebbcb795243857926b69">System::FleetsInsertedSignal</a>, <a class="el" href="../../dd/d2d/classSystem.html#ae4343c39102a97abf9cda095cddadf81">System::FleetsRemovedSignal</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a2ee9123bef58d8cde975d725743c8b14">ClientApp::GetClientType()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a951932d81a80223a451a9e20c150151f">Empire::GetPopulationPool()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a7300e6089877b09c87175b83a532b1fb">Empire::GetResearchQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a788cd9eda9104031e6e6816da2cf1260">Empire::GetResourcePool()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#afb74237a21ab26c960388f80dc3f8ed5">HideModeratorActions()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad8fb854b6c6a43ab234b7e5a300d09c0">HideSystemNames()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c">Universe::InitializeSystemGraph()</a>, <a class="el" href="../../dc/dce/classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">InitStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7b2b070b57f7aac395dc15e13fb5f36a">m_btn_auto_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a594f85fc597bdeb6451b05783c9a9237">m_btn_moderator</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6205d42d169674b54a5402e76fe46aef">m_btn_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8dcc70de5f4c3d80fac187378b783d66">m_combat_report_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab6bbba8cfda5c633338102930d67cb50">m_FPS</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7ab045c7ed0756dcb9f1742f1eaa1872">m_moderator_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae419a65da8401aa254264762b19a58ff">m_object_list_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94">m_pedia_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac409f555b820d45557f850b237a4a7ab">m_scale_line</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a97bebb7c7cb24fedce53302875086ac6">m_sitrep_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad70d86220ff437f20b42e0a25bf1a624">m_system_fleet_insert_remove_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a63e954c0c2b553ceeecd14d7c8ff31a8">m_toolbar</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a89f84e2653925b2f920c1155b5643703">anonymous_namespace{MapWnd.cpp}::MIN_SYSTEM_NAME_SIZE</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#af4bd0e6ae24ed501d713e335fc74b77d">SitRepPanel::NumVisibleSitrepsThisTurn()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#afe4040a195c4da328dc3aa548c4779e7">ObjectMap::Object()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d3/de8/structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueue::ProductionQueueChangedSignal</a>, <a class="el" href="../../d9/d79/classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="../../d3/d8d/classObjectListWnd.html#a4752835ed2c61ec740a14fc79fa69b86">ObjectListWnd::Refresh()</a>, <a class="el" href="../../df/d93/classModeratorActionsWnd.html#a349413334a77c3bb29b1d4e1e6c28d49">ModeratorActionsWnd::Refresh()</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#afb63f97e8eaefedb43b8f98305189038">ResearchWnd::Refresh()</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">ProductionWnd::Refresh()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a0414e33135f1af217bd583b73392dc3f">SidePanel::Refresh()</a>, <a class="el" href="../../d5/db0/classEncyclopediaDetailPanel.html#a4bbd38ff2a5921779575748b686ff934">EncyclopediaDetailPanel::Refresh()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6143ec2a5df022b6da9e8d8432b31dec">RefreshDetectionIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac997c0d5cc132743195010088e8e7a9c">RefreshFleetResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a086cd1399fa67cc8d7cf5b52181ad832">RefreshIndustryResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#acabb897ee39015e8403df817784e2bcc">RefreshPopulationIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5c26847c4b9614d52347ae2600df7d4d">RefreshResearchResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5d59ec641376ba895371e6ffb28acbb7">RefreshSliders()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7c1349fd626c63392254cb44780ffba8">RefreshTradeResourceIndicator()</a>, <a class="el" href="../../d4/dce/structResearchQueue.html#abc47bd77fb7d6f890eaf6f487b32f368">ResearchQueue::ResearchQueueChangedSignal</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#ae51bbd51fd3e2bda41c97d545f0e2ae0">ResearchWnd::Reset()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa52b413b4909851a4684747345863119">SelectSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7fee63fcc119f16881b007b938e0452b">ShowSitRep()</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">SitRepPanel::ShowSitRepsForTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ada97beafdb127813f51ce1bd0b51cf1d">ShowSystemNames()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#abe7ad68c599fc8f780ed127f36608942">TYPICAL</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a019d6b2e0a25429683504064829ab6e7">SitRepPanel::Update()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../dc/dce/classUniverse.html#a49e92c98d2ca3b0bd9be8559a076e4d6">Universe::ApplyAppearanceEffects()</a>, <a class="el" href="../../d5/da8/classOrderSet.html#a2d1f0140e2853bff3542b8196e2406b3">OrderSet::ApplyOrders()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ac1b44101f0bfe24ac69659cbba6e291d">Empire::CapitalID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#affc6426ee4d4091ff5d806c039caed69">CenterOnMapCoord()</a>, <a class="el" href="../../d8/d17/classPopulationPool.html#af39f373b6cd89f6798f43cd4ed25a5a6">PopulationPool::ChangedSignal</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="../../d7/df6/namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">DispatchFleetsExploring()</a>, <a class="el" href="../../d1/dde/namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="../../da/ddc/classEmpireManager.html#ad4e9ede1b0c3129917a2daab10ab1d44">EmpireManager::end()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../dd/d2d/classSystem.html#a63469917ded5ebbcb795243857926b69">System::FleetsInsertedSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#adfaff0b9481178a331e5f4cd65117fcd">FleetsInsertedSignalHandler()</a>, <a class="el" href="../../dd/d2d/classSystem.html#ae4343c39102a97abf9cda095cddadf81">System::FleetsRemovedSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a993ea0e92bae1bf14317d48bb4a67111">FleetsRemovedSignalHandler()</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../dc/d24/classClientApp.html#a2ee9123bef58d8cde975d725743c8b14">ClientApp::GetClientType()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a951932d81a80223a451a9e20c150151f">Empire::GetPopulationPool()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a7300e6089877b09c87175b83a532b1fb">Empire::GetResearchQueue()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#a788cd9eda9104031e6e6816da2cf1260">Empire::GetResourcePool()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#afb74237a21ab26c960388f80dc3f8ed5">HideModeratorActions()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad8fb854b6c6a43ab234b7e5a300d09c0">HideSystemNames()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c">Universe::InitializeSystemGraph()</a>, <a class="el" href="../../dc/dce/classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">InitStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7b2b070b57f7aac395dc15e13fb5f36a">m_btn_auto_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a594f85fc597bdeb6451b05783c9a9237">m_btn_moderator</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6205d42d169674b54a5402e76fe46aef">m_btn_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8dcc70de5f4c3d80fac187378b783d66">m_combat_report_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab6bbba8cfda5c633338102930d67cb50">m_FPS</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7ab045c7ed0756dcb9f1742f1eaa1872">m_moderator_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae419a65da8401aa254264762b19a58ff">m_object_list_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94">m_pedia_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac409f555b820d45557f850b237a4a7ab">m_scale_line</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a97bebb7c7cb24fedce53302875086ac6">m_sitrep_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4a95e7a917079e62adb56d5aa088f1a8">m_system_fleet_insert_remove_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a63e954c0c2b553ceeecd14d7c8ff31a8">m_toolbar</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a89f84e2653925b2f920c1155b5643703">anonymous_namespace{MapWnd.cpp}::MIN_SYSTEM_NAME_SIZE</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#af4bd0e6ae24ed501d713e335fc74b77d">SitRepPanel::NumVisibleSitrepsThisTurn()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#afe4040a195c4da328dc3aa548c4779e7">ObjectMap::Object()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../dc/d24/classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="../../d3/de8/structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueue::ProductionQueueChangedSignal</a>, <a class="el" href="../../d9/d79/classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="../../d3/d8d/classObjectListWnd.html#a4752835ed2c61ec740a14fc79fa69b86">ObjectListWnd::Refresh()</a>, <a class="el" href="../../df/d93/classModeratorActionsWnd.html#a349413334a77c3bb29b1d4e1e6c28d49">ModeratorActionsWnd::Refresh()</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#afb63f97e8eaefedb43b8f98305189038">ResearchWnd::Refresh()</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">ProductionWnd::Refresh()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a0414e33135f1af217bd583b73392dc3f">SidePanel::Refresh()</a>, <a class="el" href="../../d5/db0/classEncyclopediaDetailPanel.html#a4bbd38ff2a5921779575748b686ff934">EncyclopediaDetailPanel::Refresh()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6143ec2a5df022b6da9e8d8432b31dec">RefreshDetectionIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac997c0d5cc132743195010088e8e7a9c">RefreshFleetResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a086cd1399fa67cc8d7cf5b52181ad832">RefreshIndustryResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#acabb897ee39015e8403df817784e2bcc">RefreshPopulationIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5c26847c4b9614d52347ae2600df7d4d">RefreshResearchResourceIndicator()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5d59ec641376ba895371e6ffb28acbb7">RefreshSliders()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7c1349fd626c63392254cb44780ffba8">RefreshTradeResourceIndicator()</a>, <a class="el" href="../../d4/dce/structResearchQueue.html#abc47bd77fb7d6f890eaf6f487b32f368">ResearchQueue::ResearchQueueChangedSignal</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#ae51bbd51fd3e2bda41c97d545f0e2ae0">ResearchWnd::Reset()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa52b413b4909851a4684747345863119">SelectSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7fee63fcc119f16881b007b938e0452b">ShowSitRep()</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">SitRepPanel::ShowSitRepsForTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ada97beafdb127813f51ce1bd0b51cf1d">ShowSystemNames()</a>, <a class="el" href="../../d5/d20/Enums_8h.html#abe7ad68c599fc8f780ed127f36608942">TYPICAL</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a019d6b2e0a25429683504064829ab6e7">SitRepPanel::Update()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>, <a class="el" href="../../d8/d9a/i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 </div>
 </div>
@@ -2297,7 +2479,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>sets up rendering of system icons, galaxy gas, starlanes at start of turn </p>
 
-<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8667d5ed6ac2648f52a5b6a4ad78c669">ClearProjectedFleetMovementLines()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae6abe1427bea2a6f60b6dabe6d19a3d1">DoFieldIconsLayout()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a">DoSystemIconsLayout()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../dc/dce/classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a950c8a0feb08fcae72a33433dafc0c67">FieldRightClicked()</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a5c624e59174eb6d3a487b91d029929bb">parse::fields()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d6/d0b/Directories_8h.html#aa957484f40aa4a5e48123f27b8e56a7d">GetRootDataDir()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a789bc7d479d7437b93aaa48c2b42d0fc">InitFieldRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">InitStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a494c76c47b0153e5d5164cbe9aba4815">InitSystemRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a4c01a49faf341362c1634c11624eb615">SystemIcon::LeftClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#ab2b425c778f5dd6d8c01567124f6396c">SystemIcon::LeftDoubleClickedSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a19bfb2ba2e0849716c7218c5df70f92c">m_field_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1f6c28bcc1e346147bdbf5defc0c7aaa">m_starfield_colours</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aeab2cb0613ee9edd7bd510978aa49f85">m_starfield_verts</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#af8580d87b65a50c8f3c43dd4d8cc5b28">SystemIcon::MouseEnteringSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78b7999dc1d44a27a2b1170ce7fadc9f">MouseEnteringSystem()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a03e719e2aea1cad1e5d8b7758caa616e">SystemIcon::MouseLeavingSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab36c4af687897ef656ed14d5bd983989">MouseLeavingSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../de/d34/ShaderProgram_8cpp.html#afa93dd8b30daae5d09f84582ce0d7f72">ReadFile()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d0/da9/classFieldIcon.html#ab0df420705d7dfd01a968387a6679574">FieldIcon::RightClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a3c2f502def243bec58aff255c2babd2f">SystemIcon::RightClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a7253c1e109ab6f6f067ef219f9f082c6">SystemIcon::SetSelected()</a>, <a class="el" href="../../d0/d2d/classShaderProgram.html#a2f3960b5c9b293ccaf89503432760349">ShaderProgram::shaderProgramFactory()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a01d3f90d2468e5dd5d3ec15bfe2f67ce">SystemDoubleClicked()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6ac02e879f1349a12d98b0ad194389eb">SystemLeftClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a269adf2a5bfabe20476c88fdbd49d092">SystemRightClicked()</a>, and <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acd6b8b38d3f5b72dccc0fcadd5cf6da3">anonymous_namespace{MapWnd.cpp}::ZOOM_MAX</a>.</p>
+<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8667d5ed6ac2648f52a5b6a4ad78c669">ClearProjectedFleetMovementLines()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ae6abe1427bea2a6f60b6dabe6d19a3d1">DoFieldIconsLayout()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a">DoSystemIconsLayout()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../dc/dce/classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a950c8a0feb08fcae72a33433dafc0c67">FieldRightClicked()</a>, <a class="el" href="../../df/d6c/namespaceparse.html#a5c624e59174eb6d3a487b91d029929bb">parse::fields()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d6/d0b/Directories_8h.html#aa957484f40aa4a5e48123f27b8e56a7d">GetRootDataDir()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a789bc7d479d7437b93aaa48c2b42d0fc">InitFieldRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">InitStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a494c76c47b0153e5d5164cbe9aba4815">InitSystemRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a4c01a49faf341362c1634c11624eb615">SystemIcon::LeftClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#ab2b425c778f5dd6d8c01567124f6396c">SystemIcon::LeftDoubleClickedSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a19bfb2ba2e0849716c7218c5df70f92c">m_field_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1f6c28bcc1e346147bdbf5defc0c7aaa">m_starfield_colours</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aeab2cb0613ee9edd7bd510978aa49f85">m_starfield_verts</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#af8580d87b65a50c8f3c43dd4d8cc5b28">SystemIcon::MouseEnteringSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78b7999dc1d44a27a2b1170ce7fadc9f">MouseEnteringSystem()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a03e719e2aea1cad1e5d8b7758caa616e">SystemIcon::MouseLeavingSignal</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab36c4af687897ef656ed14d5bd983989">MouseLeavingSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../de/d34/ShaderProgram_8cpp.html#afa93dd8b30daae5d09f84582ce0d7f72">ReadFile()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d0/da9/classFieldIcon.html#ab0df420705d7dfd01a968387a6679574">FieldIcon::RightClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a3c2f502def243bec58aff255c2babd2f">SystemIcon::RightClickedSignal</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#a7253c1e109ab6f6f067ef219f9f082c6">SystemIcon::SetSelected()</a>, <a class="el" href="../../d0/d2d/classShaderProgram.html#a2f3960b5c9b293ccaf89503432760349">ShaderProgram::shaderProgramFactory()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a01d3f90d2468e5dd5d3ec15bfe2f67ce">SystemDoubleClicked()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6ac02e879f1349a12d98b0ad194389eb">SystemLeftClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a269adf2a5bfabe20476c88fdbd49d092">SystemRightClicked()</a>, and <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acd6b8b38d3f5b72dccc0fcadd5cf6da3">anonymous_namespace{MapWnd.cpp}::ZOOM_MAX</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#ac882dd8d9cc5cbcd8f1e80f6bcda62b6">MidTurnUpdate()</a>.</p>
 
@@ -3147,12 +3329,11 @@ Mutators //!@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Mark all fleet buttons for a refresh. </p>
 
-<p>removes old / existing and creates new fleet buttons </p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a6774506379d928808d7fe1ee3c38f068">m_deferred_refresh_fleet_buttons</a>.</p>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="../../d4/da9/namespaceboost.html#a611bddfb2c9ac21e2f1fbf114101d289">boost::dynamic_pointer_cast()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="../../dc/dce/classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="../../d8/d16/classFleet.html#a3261dcd3f5085f3158b9d62b1c1ff86f">Fleet::Empty()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6d3d6ad00d3feb7e410f67232bb342f7">FleetButtonLeftClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c5bc539fc027b3cc39b7590748c4f4">FleetButtonRightClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af2a12cfdbe80557ee559f4819ef16789">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad095b6ad07131bf341170fff35ac5cfa">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a476312eece62be8ba0d3949f0c510eac">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa21af9d4f4b2ea79ee782821c05cb34a">m_stationary_fleet_buttons</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abd67bc44b1d0860f841ec2206f53a8e4">SetFleetMovementLine()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">UniverseObject::X()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a592f769e4c1979435801e7e306562d42">UniverseObject::Y()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abc2e763d12345785b14db2c460a8585b">FleetsAddedOrRemoved()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a28248fe989db66fe1e8568c92470037b">RemoveFleet()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96">AddFleetsStateChangedSignal()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#adfaff0b9481178a331e5f4cd65117fcd">FleetsInsertedSignalHandler()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a993ea0e92bae1bf14317d48bb4a67111">FleetsRemovedSignalHandler()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65">InitTurnRendering()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a28248fe989db66fe1e8568c92470037b">RemoveFleet()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
 </div>
 </div>
@@ -3179,9 +3360,9 @@ Mutators //!@{</h2></td></tr>
 
 <p>marks (only) selected fleets' buttons as selected </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#af2a12cfdbe80557ee559f4819ef16789">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad095b6ad07131bf341170fff35ac5cfa">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a476312eece62be8ba0d3949f0c510eac">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#aa21af9d4f4b2ea79ee782821c05cb34a">m_stationary_fleet_buttons</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a452a42b9fc3399a1003f8428c0ad471f">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a82c1329ade3031a2ec0e4991a6598a29">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a5e2eebc63915f832537037af9665a606">m_stationary_fleet_buttons</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#af997cdb4c6ee3011451837fa08b2c9b6">SelectedFleetsChanged()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#af997cdb4c6ee3011451837fa08b2c9b6">SelectedFleetsChanged()</a>.</p>
 
 </div>
 </div>
@@ -3235,9 +3416,9 @@ Mutators //!@{</h2></td></tr>
 
 <p>disconnects and reconnects all fleet change signals </p>
 
-<p>References <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab536ca52112ae9f55caeef4528ee1461">m_fleet_state_change_signals</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a2c280579c7102c17005af3d28513f086">UniverseObject::StateChangedSignal</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96">AddFleetsStateChangedSignal()</a>, <a class="el" href="../../d4/d8c/classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aff474f5906aae6f218533f770fc01b9a">m_fleet_state_change_signals</a>, and <a class="el" href="../../d2/d95/AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abc2e763d12345785b14db2c460a8585b">FleetsAddedOrRemoved()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>.</p>
 
 </div>
 </div>
@@ -3441,6 +3622,35 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4d61c3c4dfd8800ff11a9ff624660fbd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MapWnd::RemoveFleetsStateChangedSignal </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../dc/d6e/classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="../../d8/d16/classFleet.html">Fleet</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fleets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Disconnect all <code>fleets</code> StateChangedSignal from RefreshFleetButtons. </p>
+
+<p>References <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#aff474f5906aae6f218533f770fc01b9a">m_fleet_state_change_signals</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#adfaff0b9481178a331e5f4cd65117fcd">FleetsInsertedSignalHandler()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a993ea0e92bae1bf14317d48bb4a67111">FleetsRemovedSignalHandler()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab4f6331c9dfe6e7683869e14b4dae95c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3507,7 +3717,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>registers owned wnds with the GUI (also registers message &amp; player list wnds) </p>
 
-<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">RenderFields()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">RenderFleetMovementLines()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a230f68e70d6124887e97f3b28a3c55e5">RenderGalaxyGas()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">RenderStarfields()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">RenderStarlanes()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624">RenderSystemOverlays()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">RenderSystems()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a430599a7de3b07699ce373b7412a8f33">RenderVisibilityRadii()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">RenderFields()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">RenderFleetMovementLines()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a230f68e70d6124887e97f3b28a3c55e5">RenderGalaxyGas()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">RenderStarfields()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">RenderStarlanes()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624">RenderSystemOverlays()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">RenderSystems()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a430599a7de3b07699ce373b7412a8f33">RenderVisibilityRadii()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 </div>
 </div>
@@ -3852,7 +4062,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>renders textures "overlayed" on systems by effects </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a18852956cdccf48c664bf5f8e807c489">Render()</a>.</p>
 
@@ -3881,7 +4091,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>renders stars and halos </p>
 
-<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../df/d3b/CUIDrawUtil_8cpp.html#a8da8140eb1ac1308489ed0a43fed2de8">CircleArc()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#a53cb663175dca19a0a05c3e69fe46f0f">SupplyManager::EmpireThatCanSupplyAt()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#adfaa32b42ef257d57778c02bf9e1bc52">SystemIcon::EnclosingCircleDiameter()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac5a868345f4b018f9ae0e2edeaabaa35">m_star_core_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4d201d285bd2a3fcb5e56b58e1c08743">m_star_halo_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad7e2ddbb8b57c42e4686cd8cfda04b53">m_star_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa24ade1ae19998b67fc30c59899aa9bb">RenderScaleCircle()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1073602a03af8f8b02da47aa878de4a9">SystemHaloScaleFactor()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a2bedc5bc0a181c1723de8151feea76d3">ClientUI::SystemTinyIconSizeThreshold()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#adbefd47571ef1f9047dc326d3866150c">anonymous_namespace{MapWnd.cpp}::TWO_PI</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="../../da/def/Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="../../df/d3b/CUIDrawUtil_8cpp.html#a8da8140eb1ac1308489ed0a43fed2de8">CircleArc()</a>, <a class="el" href="../../dc/d24/classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="../../dc/db3/classSupplyManager.html#a53cb663175dca19a0a05c3e69fe46f0f">SupplyManager::EmpireThatCanSupplyAt()</a>, <a class="el" href="../../d5/d5e/classSystemIcon.html#adfaa32b42ef257d57778c02bf9e1bc52">SystemIcon::EnclosingCircleDiameter()</a>, <a class="el" href="../../dd/d5a/classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="../../d2/db9/classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../dc/dce/classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="../../da/db6/OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac5a868345f4b018f9ae0e2edeaabaa35">m_star_core_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4d201d285bd2a3fcb5e56b58e1c08743">m_star_halo_quad_vertices</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad7e2ddbb8b57c42e4686cd8cfda04b53">m_star_texture_coords</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa24ade1ae19998b67fc30c59899aa9bb">RenderScaleCircle()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1073602a03af8f8b02da47aa878de4a9">SystemHaloScaleFactor()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="../../d9/d79/classClientUI.html#a2bedc5bc0a181c1723de8151feea76d3">ClientUI::SystemTinyIconSizeThreshold()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#adbefd47571ef1f9047dc326d3866150c">anonymous_namespace{MapWnd.cpp}::TWO_PI</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a18852956cdccf48c664bf5f8e807c489">Render()</a>.</p>
 
@@ -4095,7 +4305,7 @@ Mutators //!@{</h2></td></tr>
 </div><div class="memdoc">
 <p>sanitizes the <a class="el" href="../../d7/d34/classMapWnd.html">MapWnd</a> after a game </p>
 
-<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8becbde6f64b797d1b85d549e5ec1a99">ClearFieldRenderingBuffers()</a>, <a class="el" href="../../d5/db0/classEncyclopediaDetailPanel.html#a912a3fb452c1f453994362fbefe54be9">EncyclopediaDetailPanel::ClearItems()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aebd849991f0a3c442916cd3f97a71487">ClearScaleCircleRenderingBuffer()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad82f8527b1e8a633c78e83b0fefc738e">ClearStarfieldRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa620314bc3990cb76162e85b2740c125">ClearStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a561cb09360aa2bd01b9ea92b8d10d9fb">ClearSystemRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#adf0643fec4fb90ef1e8a387ed82f2eef">ClearVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad783fc2b48c15d9cfd9fd47fe524ae67">CloseAllPopups()</a>, <a class="el" href="../../d9/d79/classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5cc189cbbafd200868226a2737be7e9c">HideDesign()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af454290d31c1a8883558a185f76a1f0b">HideProduction()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4cf18658fdbf91a72d2c61f4afd0efe5">HideResearch()</a>, <a class="el" href="../../df/d26/Empire_8h.html#adefc562abd1b58810087f50ca4dfb50b">INVALID_GAME_TURN</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a17246e69959e1b510d86c0f163e74e9a">m_auto_end_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8dcc70de5f4c3d80fac187378b783d66">m_combat_report_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af2a12cfdbe80557ee559f4819ef16789">m_departing_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad095b6ad07131bf341170fff35ac5cfa">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab536ca52112ae9f55caeef4528ee1461">m_fleet_state_change_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac52cce367d9bbf505516fe645dc74a2d">m_fleets_exploring</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab6bbba8cfda5c633338102930d67cb50">m_FPS</a>, <a class="el" href="../../d7/d34/classMapWnd.html#afee76c07bf68d55ee50bbe706c319940">m_line_between_systems</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a476312eece62be8ba0d3949f0c510eac">m_moving_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94">m_pedia_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a636b412d86d40438a99a1bcfa8fa6fee">m_projected_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac409f555b820d45557f850b237a4a7ab">m_scale_line</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4799220b0a8bec08c33466d7c77c8687">m_selected_ship_ids</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a97bebb7c7cb24fedce53302875086ac6">m_sitrep_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1f6c28bcc1e346147bdbf5defc0c7aaa">m_starfield_colours</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aeab2cb0613ee9edd7bd510978aa49f85">m_starfield_verts</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a15faf6f5f7b1e152cd2fabb9793c1fcf">m_starlane_endpoints</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa21af9d4f4b2ea79ee782821c05cb34a">m_stationary_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad70d86220ff437f20b42e0a25bf1a624">m_system_fleet_insert_remove_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a63e954c0c2b553ceeecd14d7c8ff31a8">m_toolbar</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6355215e7e0527227ca6af70106e43ec">m_zoom_slider</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a9390c694ee616bebf09a98a67441a144">m_zoom_steps_in</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af10857cdb532cfd36f4afb9e1d3ed92e">RemoveWindows()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa701ad40687e7ce87e883f58e23eb775">ResetEmpireShown()</a>, <a class="el" href="../../d3/d10/classDesignWnd.html#a59f2175bb3145f71560bc0fda573d117">DesignWnd::Sanitize()</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#a1168cc4ffd305c5a8f96608187dede3f">ResearchWnd::Sanitize()</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#a18c9ae0c2faf8764b7668669a13f67f4">ProductionWnd::Sanitize()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa52b413b4909851a4684747345863119">SelectSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a456f2f550cb0ae47697f471abe2fd549">ShowAllPopups()</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">SitRepPanel::ShowSitRepsForTurn()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a323ec193383da5ebec4219a45add16cc">ToggleAutoEndTurn()</a>.</p>
+<p>References <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2">anonymous_namespace{MapWnd.cpp}::AppHeight()</a>, <a class="el" href="../../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807">anonymous_namespace{MapWnd.cpp}::AppWidth()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8becbde6f64b797d1b85d549e5ec1a99">ClearFieldRenderingBuffers()</a>, <a class="el" href="../../d5/db0/classEncyclopediaDetailPanel.html#a912a3fb452c1f453994362fbefe54be9">EncyclopediaDetailPanel::ClearItems()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aebd849991f0a3c442916cd3f97a71487">ClearScaleCircleRenderingBuffer()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad82f8527b1e8a633c78e83b0fefc738e">ClearStarfieldRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa620314bc3990cb76162e85b2740c125">ClearStarlaneRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a561cb09360aa2bd01b9ea92b8d10d9fb">ClearSystemRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#adf0643fec4fb90ef1e8a387ed82f2eef">ClearVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad783fc2b48c15d9cfd9fd47fe524ae67">CloseAllPopups()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d9/d79/classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5cc189cbbafd200868226a2737be7e9c">HideDesign()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af454290d31c1a8883558a185f76a1f0b">HideProduction()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4cf18658fdbf91a72d2c61f4afd0efe5">HideResearch()</a>, <a class="el" href="../../df/d26/Empire_8h.html#adefc562abd1b58810087f50ca4dfb50b">INVALID_GAME_TURN</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a17246e69959e1b510d86c0f163e74e9a">m_auto_end_turn</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8dcc70de5f4c3d80fac187378b783d66">m_combat_report_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a714410ab9ab654ccac539dfbcfa5bcdd">m_design_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aff474f5906aae6f218533f770fc01b9a">m_fleet_state_change_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac52cce367d9bbf505516fe645dc74a2d">m_fleets_exploring</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab6bbba8cfda5c633338102930d67cb50">m_FPS</a>, <a class="el" href="../../d7/d34/classMapWnd.html#afee76c07bf68d55ee50bbe706c319940">m_line_between_systems</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94">m_pedia_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a636b412d86d40438a99a1bcfa8fa6fee">m_projected_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6bbeffb7068a8a7e29920990024848f2">m_research_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac409f555b820d45557f850b237a4a7ab">m_scale_line</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a0684a1d729efca85702f0759677ff11c">m_scanline_shader</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4799220b0a8bec08c33466d7c77c8687">m_selected_ship_ids</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a97bebb7c7cb24fedce53302875086ac6">m_sitrep_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a1f6c28bcc1e346147bdbf5defc0c7aaa">m_starfield_colours</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aeab2cb0613ee9edd7bd510978aa49f85">m_starfield_verts</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a15faf6f5f7b1e152cd2fabb9793c1fcf">m_starlane_endpoints</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4a95e7a917079e62adb56d5aa088f1a8">m_system_fleet_insert_remove_signals</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a63e954c0c2b553ceeecd14d7c8ff31a8">m_toolbar</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6355215e7e0527227ca6af70106e43ec">m_zoom_slider</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a9390c694ee616bebf09a98a67441a144">m_zoom_steps_in</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af10857cdb532cfd36f4afb9e1d3ed92e">RemoveWindows()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa701ad40687e7ce87e883f58e23eb775">ResetEmpireShown()</a>, <a class="el" href="../../d3/d10/classDesignWnd.html#a59f2175bb3145f71560bc0fda573d117">DesignWnd::Sanitize()</a>, <a class="el" href="../../d4/d3b/classResearchWnd.html#a1168cc4ffd305c5a8f96608187dede3f">ResearchWnd::Sanitize()</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#a18c9ae0c2faf8764b7668669a13f67f4">ProductionWnd::Sanitize()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aa52b413b4909851a4684747345863119">SelectSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a456f2f550cb0ae47697f471abe2fd549">ShowAllPopups()</a>, <a class="el" href="../../d6/d69/classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">SitRepPanel::ShowSitRepsForTurn()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a323ec193383da5ebec4219a45add16cc">ToggleAutoEndTurn()</a>.</p>
 
 </div>
 </div>
@@ -4242,7 +4452,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>programatically selects fleets </p>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ad095b6ad07131bf341170fff35ac5cfa">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#aeec04a5f4541a48316a3d07ee493bb8e">FleetButton::PlayFleetButtonOpenSound()</a>, <a class="el" href="../../da/d21/classFleetWnd.html#a232a929dc519b363237b15d75458f0b9">FleetWnd::SelectFleet()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a132d9b5a8370d487102841b22e972f4b">m_fleet_buttons</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../dc/d3d/classFleetButton.html#aeec04a5f4541a48316a3d07ee493bb8e">FleetButton::PlayFleetButtonOpenSound()</a>, <a class="el" href="../../da/d21/classFleetWnd.html#a232a929dc519b363237b15d75458f0b9">FleetWnd::SelectFleet()</a>, and <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 </div>
 </div>
@@ -4284,7 +4494,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>programatically selects systems on map, sidepanel, and production screen. catches signals from these when the user changes the selected system </p>
 
-<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aef8ba57f9c5a7121eb19210e84c9a3be">InitScaleCircleRenderingBuffer()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4aa28dfcda043db4ca2f7bd607f72572">m_in_production_view_mode</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5ca8c07b2e827893cce4185d2ded5879">m_side_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#ab09cc4ce286ef301572fb8342b98364b">ProductionWnd::SelectSystem()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a13bb159e7813db0e36cd939e91eae1ba">SidePanel::SetSystem()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a3087f41312269d3963114b1985307c7e">CUIWnd::Show()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>.</p>
+<p>References <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73">CUIWnd::Hide()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aef8ba57f9c5a7121eb19210e84c9a3be">InitScaleCircleRenderingBuffer()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4aa28dfcda043db4ca2f7bd607f72572">m_in_production_view_mode</a>, <a class="el" href="../../d7/d34/classMapWnd.html#af5122912df256d220d684a9c9062075f">m_production_wnd</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5ca8c07b2e827893cce4185d2ded5879">m_side_panel</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>, <a class="el" href="../../d0/d4a/classProductionWnd.html#ab09cc4ce286ef301572fb8342b98364b">ProductionWnd::SelectSystem()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a13bb159e7813db0e36cd939e91eae1ba">SidePanel::SetSystem()</a>, <a class="el" href="../../d2/d69/classCUIWnd.html#a3087f41312269d3963114b1985307c7e">CUIWnd::Show()</a>, <a class="el" href="../../d1/d51/classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>, and <a class="el" href="../../dc/dce/classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab6d13247f8a65979f1b084d10b074a01">CloseSystemView()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a9c22f506b0d0ae2afa3425714646b4cf">LClick()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac1f63cdf8f2a5aae9e6a24503487d7eb">MapWnd()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#add434fed10b925b09bfae28ecd4073b3">ReselectLastSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a51d061f54c252a588126f8b11f42181c">ReturnToMap()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a607486221bce7c71e4d93839fa450408">ShowProduction()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a6ac02e879f1349a12d98b0ad194389eb">SystemLeftClicked()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#adce2968d7f919cb470279a24fceac38f">ZoomToHomeSystem()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#aca19b01fd66b4312f787d619bcee2d3a">ZoomToNextOwnedSystem()</a>, <a class="el" href="../../d9/d79/classClientUI.html#aba4ff3108b27f1e21d5aac33d441584d">ClientUI::ZoomToPlanet()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#acdb8a44a7ddb7a23a633e6c5e17c61ac">ZoomToPrevOwnedSystem()</a>, <a class="el" href="../../d9/d79/classClientUI.html#af2b61eff1d59f2c567f9d8d53a55d5ef">ClientUI::ZoomToSystem()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#ada2311234207c46b4cbd17129da41da1">ZoomToSystemWithWastedPP()</a>.</p>
 
@@ -4310,28 +4520,6 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abd67bc44b1d0860f841ec2206f53a8e4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MapWnd::SetFleetMovementLine </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> *&#160;</td>
-          <td class="paramname"><em>fleet_button</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>creates fleet movement lines for all fleets in the given <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a> to indicate where (and whether) they are moving. Move lines originate from the <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>. </p>
-
-<p>References <a class="el" href="../../dc/d3d/classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aacdc6aa12c125723ad72117a57180ca5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4349,6 +4537,8 @@ Mutators //!@{</h2></td></tr>
 <p>creates fleet movement line for a single fleet. Move lines originate from the fleet's button location. </p>
 
 <p>References <a class="el" href="../../d8/d16/classFleet.html#a30c4d997cceb2354eecd286c0db86e9b">Fleet::ArrivalStarlane()</a>, <a class="el" href="../../d8/d16/classFleet.html#aa99103c87d1b08e42cb85f42629a8833">Fleet::BlockadedAtSystem()</a>, <a class="el" href="../../d2/d2e/classEmpire.html#ab4fa616ce4c3190e2164e517771667c2">Empire::Color()</a>, <a class="el" href="../../dd/da4/Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="../../d2/d95/AppInterface_8h.html#a43d389b5094aa1b50ec0deb353c90372">GetFleet()</a>, <a class="el" href="../../d8/d16/classFleet.html#ae7e8a661de362b880fbcb623cca3602e">Fleet::HasMonsters()</a>, <a class="el" href="../../df/d26/Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a5a7f05f77036389879bfe4dbba4c11f2">m_fleet_lines</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a15faf6f5f7b1e152cd2fabb9793c1fcf">m_starlane_endpoints</a>, <a class="el" href="../../d8/d16/classFleet.html#af49fd756ed8b0a62420100a3e884a419">Fleet::MovePath()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>, <a class="el" href="../../d8/d16/classFleet.html#af5880a9334019d8fee8bd286f2552e7d">Fleet::TravelRoute()</a>, <a class="el" href="../../d4/d76/classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>, and <a class="el" href="../../d2/d2e/classEmpire.html#ae72f199c01453f743aff403b2a4c81a7">Empire::UnrestrictedLaneTravel()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>.</p>
 
 </div>
 </div>
@@ -5135,7 +5325,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>enables the system name text </p>
 
-<p>References <a class="el" href="../../d7/d34/classMapWnd.html#ac8709aa27a9db72d59aa3cc64bf39725">m_system_icons</a>.</p>
+<p>References <a class="el" href="../../d7/d34/classMapWnd.html#a160cd76ddd46d0ca252a1683d46ee19b">m_system_icons</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#ac882dd8d9cc5cbcd8f1e80f6bcda62b6">MidTurnUpdate()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
@@ -6574,7 +6764,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af2a12cfdbe80557ee559f4819ef16789"></a>
+<a class="anchor" id="a6774506379d928808d7fe1ee3c38f068"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -6582,7 +6772,31 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, std::set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; &gt; MapWnd::m_departing_fleet_buttons</td>
+          <td class="memname">bool MapWnd::m_deferred_refresh_fleet_buttons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>indicates that refresh fleet button work should be done before rendering. </p>
+
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a452a42b9fc3399a1003f8428c0ad471f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::unordered_map&lt;int, boost::unordered_set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; &gt; MapWnd::m_departing_fleet_buttons</td>
         </tr>
       </table>
   </td>
@@ -6594,7 +6808,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>icons representing fleets at a system that are departing, indexed by system </p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>.</p>
 
 </div>
 </div>
@@ -6806,7 +7020,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad095b6ad07131bf341170fff35ac5cfa"></a>
+<a class="anchor" id="a132d9b5a8370d487102841b22e972f4b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -6814,7 +7028,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; MapWnd::m_fleet_buttons</td>
+          <td class="memname">boost::unordered_map&lt;int, <a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; MapWnd::m_fleet_buttons</td>
         </tr>
       </table>
   </td>
@@ -6826,7 +7040,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>fleet icons, index by fleet </p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a2c463bdfe857cdb4a0788bdc5ee8fa20">SelectFleet()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abfc712d2950ece4ea59d450d7d2f41ef">CreateFleetButtonsOfType()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a2c463bdfe857cdb4a0788bdc5ee8fa20">SelectFleet()</a>.</p>
 
 </div>
 </div>
@@ -6854,7 +7068,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab536ca52112ae9f55caeef4528ee1461"></a>
+<a class="anchor" id="aff474f5906aae6f218533f770fc01b9a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -6862,7 +7076,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, boost::signals2::connection&gt; MapWnd::m_fleet_state_change_signals</td>
+          <td class="memname">boost::unordered_map&lt;int, boost::signals2::connection&gt; MapWnd::m_fleet_state_change_signals</td>
         </tr>
       </table>
   </td>
@@ -6872,7 +7086,7 @@ Mutators //!@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a28e9c3fa68ef08852d83473bf70bca96">AddFleetsStateChangedSignal()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#abfac6750f911527afab41768828a7f33">RefreshFleetSignals()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a4d61c3c4dfd8800ff11a9ff624660fbd">RemoveFleetsStateChangedSignal()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
 
 </div>
 </div>
@@ -7102,7 +7316,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a476312eece62be8ba0d3949f0c510eac"></a>
+<a class="anchor" id="a82c1329ade3031a2ec0e4991a6598a29"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -7110,7 +7324,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; MapWnd::m_moving_fleet_buttons</td>
+          <td class="memname">boost::unordered_map&lt;std::pair&lt;double, double&gt;, boost::unordered_set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; &gt; MapWnd::m_moving_fleet_buttons</td>
         </tr>
       </table>
   </td>
@@ -7122,7 +7336,7 @@ Mutators //!@{</h2></td></tr>
 
 <p>icons representing fleets not at a system </p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>.</p>
 
 </div>
 </div>
@@ -7786,7 +8000,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa21af9d4f4b2ea79ee782821c05cb34a"></a>
+<a class="anchor" id="a5e2eebc63915f832537037af9665a606"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -7794,7 +8008,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, std::set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; &gt; MapWnd::m_stationary_fleet_buttons</td>
+          <td class="memname">boost::unordered_map&lt;int, boost::unordered_set&lt;<a class="el" href="../../dc/d3d/classFleetButton.html">FleetButton</a>*&gt; &gt; MapWnd::m_stationary_fleet_buttons</td>
         </tr>
       </table>
   </td>
@@ -7806,11 +8020,11 @@ Mutators //!@{</h2></td></tr>
 
 <p>icons representing fleets at a system that are not departing, indexed by system </p>
 
-<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc">RefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d34/classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="../../d7/d34/classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, and <a class="el" href="../../d7/d34/classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad70d86220ff437f20b42e0a25bf1a624"></a>
+<a class="anchor" id="a4a95e7a917079e62adb56d5aa088f1a8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -7818,7 +8032,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, std::vector&lt;boost::signals2::connection&gt; &gt; MapWnd::m_system_fleet_insert_remove_signals</td>
+          <td class="memname">boost::unordered_map&lt;int, std::vector&lt;boost::signals2::connection&gt; &gt; MapWnd::m_system_fleet_insert_remove_signals</td>
         </tr>
       </table>
   </td>
@@ -7832,7 +8046,7 @@ Mutators //!@{</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac8709aa27a9db72d59aa3cc64bf39725"></a>
+<a class="anchor" id="a160cd76ddd46d0ca252a1683d46ee19b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -7840,7 +8054,7 @@ Mutators //!@{</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int, <a class="el" href="../../d5/d5e/classSystemIcon.html">SystemIcon</a>*&gt; MapWnd::m_system_icons</td>
+          <td class="memname">boost::unordered_map&lt;int, <a class="el" href="../../d5/d5e/classSystemIcon.html">SystemIcon</a>*&gt; MapWnd::m_system_icons</td>
         </tr>
       </table>
   </td>
