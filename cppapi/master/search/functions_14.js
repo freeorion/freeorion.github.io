@@ -99,8 +99,6 @@ var searchData=
   ['togglesuperfluous',['ToggleSuperfluous',['../d5/dac/classDesignWnd_1_1PartPalette.html#a754ecd4ed1d70909594829ee27c0d722',1,'DesignWnd::PartPalette']]],
   ['toggletype',['ToggleType',['../d1/de7/classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693',1,'BuildDesignatorWnd']]],
   ['toggleviewtype',['ToggleViewType',['../dd/d1b/classTechTreeWnd.html#a0b55b982bde3f02ff886b929a9b1ad5d',1,'TechTreeWnd']]],
-  ['tokenize',['Tokenize',['../d1/dd5/XMLDoc_8cpp.html#a77ca2e48e484f6e58145c9675d933b28',1,'Tokenize(const std::string &amp;str):&#160;XMLDoc.cpp'],['../d5/dd3/XMLDoc_8h.html#a77ca2e48e484f6e58145c9675d933b28',1,'Tokenize(const std::string &amp;str):&#160;XMLDoc.cpp']]],
-  ['tokenizemapstring',['TokenizeMapString',['../d1/dd5/XMLDoc_8cpp.html#a46d90d651d4368220b849f9064c7497f',1,'TokenizeMapString(const std::string &amp;str):&#160;XMLDoc.cpp'],['../d5/dd3/XMLDoc_8h.html#a46d90d651d4368220b849f9064c7497f',1,'TokenizeMapString(const std::string &amp;str):&#160;XMLDoc.cpp']]],
   ['toolbar_5fheight',['TOOLBAR_HEIGHT',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a3163554538f228899e3ca071019284d0',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['topborder',['TopBorder',['../d2/d69/classCUIWnd.html#a6ac6c62c72dc775d97b7f6f38dc25df9',1,'CUIWnd']]],
   ['toppriorityenqueuedtech',['TopPriorityEnqueuedTech',['../d2/d2e/classEmpire.html#ab41098ed0b3e0ec04b8732caf157e7d4',1,'Empire']]],

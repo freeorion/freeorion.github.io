@@ -51,7 +51,6 @@ var searchData=
   ['fit',['Fit',['../db/dc5/classTechTreeLayout_1_1Column.html#aa341f198d3aab0f9860b97f83fd5fbad',1,'TechTreeLayout::Column']]],
   ['fixed',['Fixed',['../da/d8f/classSaveFileColumn.html#af33e84bdd5866030a7e8abec815834db',1,'SaveFileColumn']]],
   ['fixedwidth',['FixedWidth',['../da/d8f/classSaveFileColumn.html#a772525779b5eb90d97265a56ec4c05fa',1,'SaveFileColumn']]],
-  ['flagsfromstring',['FlagsFromString',['../d5/dd3/XMLDoc_8h.html#a512d98cdf92a6444ad67832d596d036b',1,'XMLDoc.h']]],
   ['flattenandnestedconditions',['FlattenAndNestedConditions',['../d4/da2/namespaceanonymous__namespace_02Condition_8cpp_03.html#a53d8956578b818025985a9fd557f633c',1,'anonymous_namespace{Condition.cpp}']]],
   ['flattensubevents',['FlattenSubEvents',['../d3/d27/structCombatEvent.html#a7417dfdd6ec39e0904161eae10918dac',1,'CombatEvent::FlattenSubEvents()'],['../d5/d40/structBoutEvent.html#afcd9d6a4efe9c67d165af63506434f10',1,'BoutEvent::FlattenSubEvents()'],['../dc/d2a/structSimultaneousEvents.html#a221395784967e9c91e19b8ff89de8158',1,'SimultaneousEvents::FlattenSubEvents()']]],
   ['fleet',['Fleet',['../d8/d16/classFleet.html#aeb9f154a826ae9abcc0feccf56667735',1,'Fleet::Fleet()'],['../d8/d16/classFleet.html#a0b41faec10ac71189bd484ce089fd4ed',1,'Fleet::Fleet(const std::string &amp;name, double x, double y, int owner)']]],
