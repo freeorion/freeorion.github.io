@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33a790f5d5f380157c5ea86d00ef0b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23af6ac3a70e79e11cae73d881fd656"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#ad23af6ac3a70e79e11cae73d881fd656">FleetID</a> () const </td></tr>
 <tr class="separator:ad23af6ac3a70e79e11cae73d881fd656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5f0b8d0c43eb7c5cea5b0905c318ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#a9a5f0b8d0c43eb7c5cea5b0905c318ce">Refresh</a> ()</td></tr>
+<tr class="separator:a9a5f0b8d0c43eb7c5cea5b0905c318ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a6f2c1dee53422954f7915f758b971"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#a99a6f2c1dee53422954f7915f758b971">SelectedShipIDs</a> () const </td></tr>
 <tr class="memdesc:a99a6f2c1dee53422954f7915f758b971"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns ids of ships selected in the detail panel's <a class="el" href="../../d0/d45/classShipsListBox.html">ShipsListBox</a>  <a href="#a99a6f2c1dee53422954f7915f758b971">More...</a><br/></td></tr>
 <tr class="separator:a99a6f2c1dee53422954f7915f758b971"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,8 +143,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aadc8a91bcb865f84cae2ab7227c391c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#aadc8a91bcb865f84cae2ab7227c391c0">GetShipIDOfListRow</a> (GG::ListBox::iterator it) const </td></tr>
 <tr class="memdesc:aadc8a91bcb865f84cae2ab7227c391c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ID number of the ship in row <em>row_idx</em> of the ships listbox  <a href="#aadc8a91bcb865f84cae2ab7227c391c0">More...</a><br/></td></tr>
 <tr class="separator:aadc8a91bcb865f84cae2ab7227c391c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a5f0b8d0c43eb7c5cea5b0905c318ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#a9a5f0b8d0c43eb7c5cea5b0905c318ce">Refresh</a> ()</td></tr>
-<tr class="separator:a9a5f0b8d0c43eb7c5cea5b0905c318ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa875daac8e5264a49fc5d079b3b1c29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#aa875daac8e5264a49fc5d079b3b1c29f">ShipBrowsed</a> (GG::ListBox::iterator it)</td></tr>
 <tr class="separator:aa875daac8e5264a49fc5d079b3b1c29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a343c8bcb8bcdbb7311dcdc2eb023fc29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d27/classFleetDetailPanel.html#a343c8bcb8bcdbb7311dcdc2eb023fc29">ShipInRow</a> (GG::ListBox::iterator it) const </td></tr>
@@ -312,9 +312,6 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="a9a5f0b8d0c43eb7c5cea5b0905c318ce"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void FleetDetailPanel::Refresh </td>
@@ -323,16 +320,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="../../d0/d27/classFleetDetailPanel.html#a332fa73088780d4aa2fc7058a9730dfa">m_fleet_id</a>, and <a class="el" href="../../d0/d27/classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d27/classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d21/classFleetWnd.html#a8f9b3403a471234d50d95370d4a2246a">FleetWnd::FleetSelectionChanged()</a>, and <a class="el" href="../../d0/d27/classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>.</p>
 
 </div>
 </div>
