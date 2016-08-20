@@ -1311,7 +1311,6 @@ var searchData=
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../d6/d21/namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../dc/d74/namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a3c234d408a98f99d4ac83a524aac13fc',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['max_5ftries',['MAX_TRIES',['../d3/d17/namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a23aa622edcdfa9210eaeb864559ffc43',1,'anonymous_namespace{SystemIcon.cpp}']]],
-  ['message_5fport',['MESSAGE_PORT',['../d7/df6/namespaceNetworking.html#a6d17c3ee8d1752eb81a162d6fa7e7e75',1,'Networking']]],
   ['message_5fwnd_5fname',['MESSAGE_WND_NAME',['../dd/dff/namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a0703fe7fe0511f3d2cee7b478de371cb',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['meter_5fcapacity',['METER_CAPACITY',['../d5/d20/Enums_8h.html#a137a2d12fd88ae6e2676161980b71222',1,'Enums.h']]],
   ['meter_5fchange',['meter_change',['../d5/de0/structEffect_1_1AccountingInfo.html#aa60521c25f9e4475c8cd81a33e3c1978',1,'Effect::AccountingInfo']]],

@@ -50,7 +50,6 @@ var searchData=
   ['diplomaticstatuschangedsignal',['DiplomaticStatusChangedSignal',['../da/ddc/classEmpireManager.html#ab1abd73a20ffdc95a0ae3869489796cb',1,'EmpireManager']]],
   ['direct_5fdistance',['direct_distance',['../d8/db1/structparse_1_1double__complex__parser__rules.html#a85f64929015331c59cd51ef442ca06de',1,'parse::double_complex_parser_rules']]],
   ['discovery_5fanswer',['DISCOVERY_ANSWER',['../d7/df6/namespaceNetworking.html#a84e7b37523da02c746ac2f891a304090',1,'Networking']]],
-  ['discovery_5fport',['DISCOVERY_PORT',['../d7/df6/namespaceNetworking.html#a6db3da629de25579778efd4b8dcf4897',1,'Networking']]],
   ['discovery_5fquestion',['DISCOVERY_QUESTION',['../d7/df6/namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2',1,'Networking']]],
   ['displaybuildingtypesignal',['DisplayBuildingTypeSignal',['../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../d8/df7/classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
