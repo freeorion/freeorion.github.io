@@ -66,6 +66,6 @@ var searchData=
   ['downloading',['DOWNLOADING',['../d6/d28/classMessage.html#a9d82bfdabf715e9dad053935918f40e5',1,'Message']]],
   ['downpressedsignal',['DownPressedSignal',['../da/dbb/classMessageWndEdit.html#ab9f022adc3498aaf50a6e154ffa3281d',1,'MessageWndEdit']]],
   ['draggedsignal',['DraggedSignal',['../d6/dff/classTechTreeWnd_1_1LayoutPanel_1_1LayoutSurface.html#a539794ded3fb8e2e1a2c484e4621f9ca',1,'TechTreeWnd::LayoutPanel::LayoutSurface']]],
-  ['dummy',['dummy',['../db/d40/namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44',1,'anonymous_namespace{CUIWnd.cpp}']]],
+  ['dummy',['dummy',['../db/d40/namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44',1,'anonymous_namespace{CUIWnd.cpp}::dummy()'],['../d7/d17/namespaceanonymous__namespace_02ValueRef_8cpp_03.html#a8f2a1f8f424b1a519f40c3d85f3685e6',1,'anonymous_namespace{ValueRef.cpp}::dummy()']]],
   ['dummy_5fempty_5fmessage',['DUMMY_EMPTY_MESSAGE',['../db/d05/namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74',1,'anonymous_namespace{Message.cpp}']]]
 ];
