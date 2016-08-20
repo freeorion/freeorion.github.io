@@ -156,6 +156,7 @@ var searchData=
   ['_7erunqueue',['~RunQueue',['../d4/ddb/classRunQueue.html#a5b7e4a40451eb983c52034cbfd5923eb',1,'RunQueue']]],
   ['_7esaveddesignsmanager',['~SavedDesignsManager',['../d5/d4a/classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a7ae8af758c2b0b39a1fc59cc205fe1d0',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
   ['_7esavefiledialog',['~SaveFileDialog',['../dc/dd9/classSaveFileDialog.html#ac4552517f7227ca09caa32ab9d60ab3d',1,'SaveFileDialog']]],
+  ['_7escanlinerenderer',['~ScanlineRenderer',['../d7/dec/classScanlineRenderer.html#a770270a2c6781b27cb07ce3783ee1d6f',1,'ScanlineRenderer']]],
   ['_7escopedtimer',['~ScopedTimer',['../d7/d12/classScopedTimer.html#a338ced0c8c39fe3d3e89e1b09d29f589',1,'ScopedTimer']]],
   ['_7escopedtimerimpl',['~ScopedTimerImpl',['../d1/d56/classScopedTimer_1_1ScopedTimerImpl.html#aeaf65982b77ff10de384a2bbb18df126',1,'ScopedTimer::ScopedTimerImpl']]],
   ['_7esectionedscopedtimer',['~SectionedScopedTimer',['../dc/d38/classSectionedScopedTimer.html#a63bad1a11fc01af8a76f8cdaeb0570b0',1,'SectionedScopedTimer']]],

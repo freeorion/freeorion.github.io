@@ -11,6 +11,8 @@ var searchData=
   ['savegamepreviewdata',['SaveGamePreviewData',['../de/dff/structSaveGamePreviewData.html',1,'']]],
   ['savegameuidata',['SaveGameUIData',['../dc/d7f/structSaveGameUIData.html',1,'']]],
   ['scanlinecontrol',['ScanlineControl',['../d4/d53/classScanlineControl.html',1,'']]],
+  ['scanlinerenderer',['ScanlineRenderer',['../d7/dec/classScanlineRenderer.html',1,'']]],
+  ['scanlinerendererimpl',['ScanlineRendererImpl',['../d1/d47/classScanlineRenderer_1_1ScanlineRendererImpl.html',1,'ScanlineRenderer']]],
   ['scopedtimer',['ScopedTimer',['../d7/d12/classScopedTimer.html',1,'']]],
   ['scopedtimerimpl',['ScopedTimerImpl',['../d1/d56/classScopedTimer_1_1ScopedTimerImpl.html',1,'ScopedTimer']]],
   ['scraporder',['ScrapOrder',['../d5/d36/classScrapOrder.html',1,'']]],
