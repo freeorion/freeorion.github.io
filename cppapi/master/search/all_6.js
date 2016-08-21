@@ -214,7 +214,7 @@ var searchData=
   ['freeorion_5fxml_5fiarchive',['freeorion_xml_iarchive',['../d8/d2f/Serialize_8h.html#a7a647b1f26001983ffc17d140a6e7283',1,'Serialize.h']]],
   ['freeorion_5fxml_5foarchive',['freeorion_xml_oarchive',['../d8/d2f/Serialize_8h.html#a9bad4be02884109c8d1ab9d7be5863cd',1,'Serialize.h']]],
   ['freeorionpython',['FreeOrionPython',['../dd/d20/namespaceFreeOrionPython.html',1,'']]],
-  ['freeorionversionstring',['FreeOrionVersionString',['../d3/d7a/Version_8cpp.html#a2d1b51757e4a9be08973cada44f375a6',1,'FreeOrionVersionString():&#160;Version.cpp'],['../de/d3a/Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'FreeOrionVersionString():&#160;Version.cpp']]],
+  ['freeorionversionstring',['FreeOrionVersionString',['../de/d3a/Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../d2/db9/classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
   ['freesound',['FreeSound',['../d2/d4f/classSound_1_1SoundImpl.html#a9ab9040ac2f35ecd7798f78d713a18f1',1,'Sound::SoundImpl::FreeSound()'],['../df/d49/classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
   ['freetypeversionstring',['FreeTypeVersionString',['../d1/dbd/namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a18c504e1c2b97f994337262da4bb13a2',1,'anonymous_namespace{DependencyVersions.cpp}']]],
