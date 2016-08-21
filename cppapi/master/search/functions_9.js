@@ -14,7 +14,7 @@ var searchData=
   ['iconwidth',['IconWidth',['../da/d6e/namespaceanonymous__namespace_02MultiIconValueIndicator_8cpp_03.html#a0eaf86e45607d0603e06365442923153',1,'anonymous_namespace{MultiIconValueIndicator.cpp}']]],
   ['id',['ID',['../db/dd4/classShipDesign.html#a113672ff15f81a297e497e2ed472ebc2',1,'ShipDesign::ID()'],['../d4/d76/classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e',1,'UniverseObject::ID()']]],
   ['idle',['Idle',['../df/d70/structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle']]],
-  ['if',['if',['../d8/dbc/chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;help&quot;)):&#160;chmain.cpp'],['../d8/dbc/chmain_8cpp.html#af3bbeb989258eb61497d32f99c9f342c',1,'if(mainSetupAndRun()!=0):&#160;chmain.cpp']]],
+  ['if',['if',['../d8/dbc/chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;help&quot;)):&#160;chmain.cpp'],['../d8/dbc/chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../d8/dbc/chmain_8cpp.html#af3bbeb989258eb61497d32f99c9f342c',1,'if(mainSetupAndRun()!=0):&#160;chmain.cpp']]],
   ['image_5ftag',['IMAGE_TAG',['../d8/d77/namespaceanonymous__namespace_02MarkupBox_8cpp_03.html#a3ae680e72c995e2eae003484b1e8cfeb',1,'anonymous_namespace{MarkupBox.cpp}']]],
   ['immediateneighbors',['ImmediateNeighbors',['../dc/dce/classUniverse.html#a557c4d34101de7b6c65a46450ce8ce20',1,'Universe']]],
   ['immediateneighborsimpl',['ImmediateNeighborsImpl',['../d0/db9/namespaceSystemPathing.html#a1b87e83630a9ab77052000d3a3575681',1,'SystemPathing']]],
