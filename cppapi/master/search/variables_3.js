@@ -35,7 +35,6 @@ var searchData=
   ['combat_5fid_5ftag',['COMBAT_ID_TAG',['../d6/d1e/classVarText.html#adce1a565236d5eb26f4ee7c9878048fd',1,'VarText']]],
   ['combat_5finfo',['combat_info',['../d2/de7/structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ac082ef74641f9d75b61a8c962e65a295',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['combat_5freport_5fwnd_5fname',['COMBAT_REPORT_WND_NAME',['../da/dac/namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9970c9df1f055cb340c98acd95985166',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['combatlogwndimpl',['CombatLogWndImpl',['../df/d7f/classCombatLogWnd.html#a26f432cc5d7bc1aae9bd15bb08e9b7a5',1,'CombatLogWnd']]],
   ['comment',['Comment',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad93fd3a1699dbf4e245aa05d9b0a0cec',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['comment1',['Comment1',['../dd/d56/namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae73324a0b912b2ded35db0ce5df84451',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['common',['common',['../d4/dfc/structparse_1_1detail_1_1rules.html#a81cd0033dabe3f8dd57fc4b0338af82a',1,'parse::detail::rules']]],

@@ -267,7 +267,7 @@ var searchData=
   ['combatlogwnd_2ecpp',['CombatLogWnd.cpp',['../d1/d7e/CombatLogWnd_8cpp.html',1,'']]],
   ['combatlogwnd_2eh',['CombatLogWnd.h',['../d1/db8/CombatLogWnd_8h.html',1,'']]],
   ['combatlogwndimpl',['CombatLogWndImpl',['../da/d88/classCombatLogWnd_1_1CombatLogWndImpl.html',1,'CombatLogWnd']]],
-  ['combatlogwndimpl',['CombatLogWndImpl',['../df/d7f/classCombatLogWnd.html#a26f432cc5d7bc1aae9bd15bb08e9b7a5',1,'CombatLogWnd::CombatLogWndImpl()'],['../da/d88/classCombatLogWnd_1_1CombatLogWndImpl.html#ac8b2a8de132cdbd1a19dace4cc73a5a1',1,'CombatLogWnd::CombatLogWndImpl::CombatLogWndImpl()']]],
+  ['combatlogwndimpl',['CombatLogWndImpl',['../df/d7f/classCombatLogWnd.html#ab2e1f997fdb577131ca52ef35aad40ea',1,'CombatLogWnd::CombatLogWndImpl()'],['../da/d88/classCombatLogWnd_1_1CombatLogWndImpl.html#ac8b2a8de132cdbd1a19dace4cc73a5a1',1,'CombatLogWnd::CombatLogWndImpl::CombatLogWndImpl()']]],
   ['combatparticipantstate',['CombatParticipantState',['../df/de8/structCombatParticipantState.html',1,'CombatParticipantState'],['../df/de8/structCombatParticipantState.html#a8f15f962a82eab60372a8de2ca5891f3',1,'CombatParticipantState::CombatParticipantState()'],['../df/de8/structCombatParticipantState.html#a21b23f8c8bf7b632a53c4d30827fab6f',1,'CombatParticipantState::CombatParticipantState(const UniverseObject &amp;object)']]],
   ['combatreportdata_2ecpp',['CombatReportData.cpp',['../d1/dea/CombatReportData_8cpp.html',1,'']]],
   ['combatreportdata_2eh',['CombatReportData.h',['../d9/d10/CombatReportData_8h.html',1,'']]],
