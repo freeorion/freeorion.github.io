@@ -138,7 +138,6 @@ var searchData=
   ['renderstarlanes',['RenderStarlanes',['../d7/d34/classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c',1,'MapWnd::RenderStarlanes()'],['../d7/d34/classMapWnd.html#aef1b94d56d92ccf87eca8e56f6341b1c',1,'MapWnd::RenderStarlanes(GG::GL2DVertexBuffer &amp;vertices, GG::GLRGBAColorBuffer &amp;colours, double thickness, bool coloured, bool doBase)']]],
   ['rendersystemoverlays',['RenderSystemOverlays',['../d7/d34/classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624',1,'MapWnd']]],
   ['rendersystems',['RenderSystems',['../d7/d34/classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8',1,'MapWnd']]],
-  ['rendertexturedquad',['RenderTexturedQuad',['../d9/df3/namespaceanonymous__namespace_02FleetButton_8cpp_03.html#a2cc8de8e190fc470a4d2257026842456',1,'anonymous_namespace{FleetButton.cpp}']]],
   ['renderunpressed',['RenderUnpressed',['../da/db9/classCUIButton.html#a31c11dea2c5e6970cb802546a9f42891',1,'CUIButton::RenderUnpressed()'],['../d1/d2f/classCUIArrowButton.html#acd55447d53baef165a4e773749bb80cf',1,'CUIArrowButton::RenderUnpressed()'],['../dc/d3d/classFleetButton.html#a3cbac41b0ac630cf3f879da112c38267',1,'FleetButton::RenderUnpressed()']]],
   ['rendervisibilityradii',['RenderVisibilityRadii',['../d7/d34/classMapWnd.html#a430599a7de3b07699ce373b7412a8f33',1,'MapWnd']]],
   ['replace_5fmacro_5freferences',['replace_macro_references',['../df/d6c/namespaceparse.html#a4e40a250deaabd85972d0d6857d93207',1,'parse']]],
