@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../da/d78/structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../dc/d33/structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../dc/dab/structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90',1,'HullType::Slot::x()'],['../d8/d5d/classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()'],['../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3',1,'UniverseObject::X()']]],
+  ['x',['X',['../d4/d76/classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3',1,'UniverseObject::X()'],['../da/d78/structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../dc/d33/structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../dc/dab/structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90',1,'HullType::Slot::x()'],['../d8/d5d/classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()']]],
   ['x1',['X1',['../de/d7f/structLaneEndpoints.html#ab3d092f3532042f55e298186b55c3006',1,'LaneEndpoints']]],
   ['x2',['X2',['../de/d7f/structLaneEndpoints.html#afa549a6309c4f92a066715822cfe2086',1,'LaneEndpoints']]],
   ['x_5faxis_5flabel_5fmargin',['X_AXIS_LABEL_MARGIN',['../df/d9c/namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a093445f6480c250946a92755e643e44f',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
