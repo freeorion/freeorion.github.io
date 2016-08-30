@@ -452,7 +452,6 @@ var searchData=
   ['signalhandler',['SignalHandler',['../d7/d63/classServerApp.html#a98e27702a28add0fef27b7d2a8c6b201',1,'ServerApp']]],
   ['simple_5fint_5fparser_5frules',['simple_int_parser_rules',['../df/d5f/structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#ae1098124774616e13077f41dc7343c9d',1,'anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules']]],
   ['simpleincrement',['SimpleIncrement',['../d0/d5c/structValueRef_1_1ValueRefBase.html#a55f88a480f8b043876002ad791ec3a33',1,'ValueRef::ValueRefBase::SimpleIncrement()'],['../de/d8e/structValueRef_1_1Operation.html#a85c89675480f44e91bb18585deaa2782',1,'ValueRef::Operation::SimpleIncrement()']]],
-  ['simplemetermodification',['SimpleMeterModification',['../d6/d39/namespaceanonymous__namespace_02Effect_8cpp_03.html#a393a575d180740938d938598f2636624',1,'anonymous_namespace{Effect.cpp}']]],
   ['simultaneousevents',['SimultaneousEvents',['../dc/d2a/structSimultaneousEvents.html#aad09d51e240fb210045efd0bf05626ac',1,'SimultaneousEvents']]],
   ['sinceturnhigh',['SinceTurnHigh',['../d3/dd2/structCondition_1_1HasSpecial.html#aa8147cf2d6cf54eeae1d6e64b7b7618f',1,'Condition::HasSpecial']]],
   ['sinceturnlow',['SinceTurnLow',['../d3/dd2/structCondition_1_1HasSpecial.html#af84badd464b3405b6f3c23115e7682ff',1,'Condition::HasSpecial']]],
