@@ -98,7 +98,7 @@ var searchData=
   ['vertexshaderinfolog',['VertexShaderInfoLog',['../d0/d2d/classShaderProgram.html#a7f3cda4e02f48b4b1b71545bad1a59a4',1,'ShaderProgram']]],
   ['vertical_5fsection_5fgap',['VERTICAL_SECTION_GAP',['../de/d8d/namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a899f691b1e11f2d777a4a374930ae4de',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['vertices',['vertices',['../d2/d9c/structMapWnd_1_1MovementLineData.html#a79350bf1132793ca4a27114a0e9e0b59',1,'MapWnd::MovementLineData']]],
-  ['verts',['verts',['../d1/d86/classDelauney_1_1DTTriangle.html#a9a1e2c14bb2e56a332c63a56656302c7',1,'Delauney::DTTriangle::verts()'],['../d1/d86/classDelauney_1_1DTTriangle.html#a8916366f2d2b7da2cd0833d530d2ac64',1,'Delauney::DTTriangle::Verts()']]],
+  ['verts',['Verts',['../d1/d86/classDelauney_1_1DTTriangle.html#a8916366f2d2b7da2cd0833d530d2ac64',1,'Delauney::DTTriangle::Verts()'],['../d1/d86/classDelauney_1_1DTTriangle.html#a9a1e2c14bb2e56a332c63a56656302c7',1,'Delauney::DTTriangle::verts()']]],
   ['very_5ffar_5fdown_5flayout_5fsurface',['VERY_FAR_DOWN_LAYOUT_SURFACE',['../d8/d77/namespaceanonymous__namespace_02MarkupBox_8cpp_03.html#ab001466163967b478f1d09b14dfe4677',1,'anonymous_namespace{MarkupBox.cpp}']]],
   ['victory',['Victory',['../d3/d4d/classEffect_1_1Victory.html',1,'Effect']]],
   ['victory',['victory',['../da/d59/structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#af0fc57778cbee6deef9a80a3e0c0f152',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3::victory()'],['../d3/d4d/classEffect_1_1Victory.html#aa9650ecce822ba564eeaa10628f20fd9',1,'Effect::Victory::Victory()']]],
