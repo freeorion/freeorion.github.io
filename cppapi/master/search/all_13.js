@@ -958,7 +958,7 @@ var searchData=
   ['stringtable_5ffile_5fsuffix',['STRINGTABLE_FILE_SUFFIX',['../de/d29/namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a62c9d2a99af39f6cd077bb9c4c64a7c8',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['stringtables',['stringtables',['../da/d35/namespaceanonymous__namespace_02i18n_8cpp_03.html#a9fd4bc2a45070174952e372223e4e664',1,'anonymous_namespace{i18n.cpp}']]],
   ['stringtabletextsubstitute',['StringtableTextSubstitute',['../da/dbf/namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3',1,'anonymous_namespace{ChatWnd.cpp}']]],
-  ['stringtolist',['StringToList',['../da/db6/OptionsDB_8cpp.html#a79c7bf0ddd2a445d2325fb6ac2c0f956',1,'StringToList(const std::string &amp;input_string):&#160;OptionsDB.cpp'],['../d2/d81/OptionValidators_8h.html#a79c7bf0ddd2a445d2325fb6ac2c0f956',1,'StringToList(const std::string &amp;input_string):&#160;OptionsDB.cpp']]],
+  ['stringtolist',['StringToList',['../da/db6/OptionsDB_8cpp.html#a79c7bf0ddd2a445d2325fb6ac2c0f956',1,'StringToList(const std::string &amp;input_string):&#160;OptionsDB.cpp'],['../d2/d81/OptionValidators_8h.html#a06fa9f998c06fd50bf6cc6ca2171ffdd',1,'StringToList(const std::string &amp;input_string):&#160;OptionsDB.cpp']]],
   ['stringtoseverityint',['StringToSeverityInt',['../da/d6e/namespaceanonymous__namespace_02Logger_8cpp_03.html#afdecc1902f634ee6d4396d1c075fd065',1,'anonymous_namespace{Logger.cpp}']]],
   ['stringvalidator',['StringValidator',['../dc/df2/classOptionsWnd.html#a14064b0d1e0104286084ce3615e644b2',1,'OptionsWnd']]],
   ['stringvalueref',['StringValueRef',['../d7/d31/namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ad1b7e43b109e8c98e807dd8eb72f61ff',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
