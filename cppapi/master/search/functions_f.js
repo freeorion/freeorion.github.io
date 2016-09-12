@@ -49,6 +49,7 @@ var searchData=
   ['onchecked',['OnChecked',['../de/d02/classCUICheckBoxRepresenter.html#a6477af46a8d985b4288f7bf450ba7544',1,'CUICheckBoxRepresenter::OnChecked()'],['../d1/dc1/classCUIRadioRepresenter.html#a6f1a3610be23b9b6c5d18b8ed5926090',1,'CUIRadioRepresenter::OnChecked()'],['../d0/d78/classCUITabRepresenter.html#acbe4a8b644a68ac5bbc243236b9c4001',1,'CUITabRepresenter::OnChecked()'],['../d9/de1/classCUIToggleRepresenter.html#a2f53bc1315e9f55312a7e4f13940ef2b',1,'CUIToggleRepresenter::OnChecked()']]],
   ['oncredits',['OnCredits',['../d4/daf/classIntroScreen.html#a956b535beaf11e43548700ccd7ba6966',1,'IntroScreen']]],
   ['ondone',['OnDone',['../d9/d6d/classAbout.html#afb77f36b24cbffd6d7bf600254911bcc',1,'About']]],
+  ['onexit',['OnExit',['../d1/d9a/classCreditsWnd.html#affee36c2adba47bfb105a5d115f4b832',1,'CreditsWnd']]],
   ['onexitgame',['OnExitGame',['../d4/daf/classIntroScreen.html#ad011631a22d8bd27deef9cebd7106cc0',1,'IntroScreen']]],
   ['onindex',['OnIndex',['../d5/db0/classEncyclopediaDetailPanel.html#aab7caa86128afeb357c7649e92d03a33',1,'EncyclopediaDetailPanel']]],
   ['onlicense',['OnLicense',['../d9/d6d/classAbout.html#a40e6edce80d733747e3a30ab511d669e',1,'About']]],
