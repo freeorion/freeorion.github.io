@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['delauney',['Delauney',['../de/d5f/namespaceDelauney.html',1,'']]],
-  ['detail',['detail',['../dd/d39/namespacedetail.html',1,'']]],
-  ['details',['details',['../db/d1b/namespacedetails.html',1,'']]],
-  ['dualmeter',['DualMeter',['../dc/df0/namespaceDualMeter.html',1,'']]]
+  ['delauney',['Delauney',['../namespaceDelauney.html',1,'']]],
+  ['detail',['detail',['../namespacedetail.html',1,'']]],
+  ['details',['details',['../namespacedetails.html',1,'']]],
+  ['diplomaticcorp',['DiplomaticCorp',['../namespaceDiplomaticCorp.html',1,'']]],
+  ['dualmeter',['DualMeter',['../namespaceDualMeter.html',1,'']]]
 ];

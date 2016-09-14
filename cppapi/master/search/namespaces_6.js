@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getpathsthroughsupplylanes',['GetPathsThroughSupplyLanes',['../dc/d6c/namespaceGetPathsThroughSupplyLanes.html',1,'']]]
+  ['galaxy',['galaxy',['../namespacegalaxy.html',1,'']]],
+  ['getpathsthroughsupplylanes',['GetPathsThroughSupplyLanes',['../namespaceGetPathsThroughSupplyLanes.html',1,'']]]
 ];

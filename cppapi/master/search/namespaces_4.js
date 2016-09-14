@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['effect',['Effect',['../d7/d24/namespaceEffect.html',1,'']]],
-  ['empirestatistics',['EmpireStatistics',['../dd/d37/namespaceEmpireStatistics.html',1,'']]]
+  ['effect',['Effect',['../namespaceEffect.html',1,'']]],
+  ['empires',['empires',['../namespaceempires.html',1,'']]],
+  ['empirestatistics',['EmpireStatistics',['../namespaceEmpireStatistics.html',1,'']]],
+  ['enumsai',['EnumsAI',['../namespaceEnumsAI.html',1,'']]],
+  ['explorationai',['ExplorationAI',['../namespaceExplorationAI.html',1,'']]]
 ];

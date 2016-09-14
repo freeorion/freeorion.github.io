@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xmldoc',['XMLDoc',['../d5/dfd/classXMLDoc.html',1,'']]],
-  ['xmlelement',['XMLElement',['../dd/d4e/classXMLElement.html',1,'']]]
+  ['xmldoc',['XMLDoc',['../classXMLDoc.html',1,'']]],
+  ['xmlelement',['XMLElement',['../classXMLElement.html',1,'']]]
 ];

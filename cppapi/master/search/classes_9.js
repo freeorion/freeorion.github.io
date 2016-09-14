@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joinmpgamerequested',['JoinMPGameRequested',['../de/d69/structJoinMPGameRequested.html',1,'']]]
+  ['joinmpgamerequested',['JoinMPGameRequested',['../structJoinMPGameRequested.html',1,'']]]
 ];
