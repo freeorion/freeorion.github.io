@@ -20,6 +20,8 @@ var searchData=
   ['path',['path',['../structMapWnd_1_1MovementLineData.html#a37e8640367303fc1d50a77baedb3bc42',1,'MapWnd::MovementLineData']]],
   ['path_5fdelim_5fbegin',['PATH_DELIM_BEGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#af7d6cb909181b6fe96514830ef961db9',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['path_5fdelim_5fend',['PATH_DELIM_END',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a32cb5590d6642b64c3a598f2e4d1c466',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
+  ['pause',['PAUSE',['../classResearchQueueOrder.html#a94de4e3021f68b75ddebdf019278e4e3',1,'ResearchQueueOrder::PAUSE()'],['../classProductionQueueOrder.html#a29100c8021272e308eb05378d407a17b',1,'ProductionQueueOrder::PAUSE()']]],
+  ['paused',['paused',['../structResearchQueue_1_1Element.html#abe3db0ad1cf946fdf3673f3e6729ca11',1,'ResearchQueue::Element::paused()'],['../structProductionQueue_1_1Element.html#a4754464d69c6b56aa87887778215f0cc',1,'ProductionQueue::Element::paused()']]],
   ['pc_5farmour',['PC_ARMOUR',['../Enums_8h.html#a206edc7a8aefc8126ad312e05dae8767',1,'Enums.h']]],
   ['pc_5fbombard',['PC_BOMBARD',['../Enums_8h.html#a62df7b9bc5f683079fa94ae43e1145f9',1,'Enums.h']]],
   ['pc_5fcolony',['PC_COLONY',['../Enums_8h.html#a74db0f02fbbea1d9a1e1d37f8a470df8',1,'Enums.h']]],

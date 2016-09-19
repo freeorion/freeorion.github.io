@@ -744,6 +744,7 @@ var searchData=
   ['m_5fparts',['m_parts',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a78ed7a106d6784614197280af43e40de',1,'BasesListBox::HullAndPartsListBoxRow::m_parts()'],['../classPartTypeManager.html#abcc4183e5683a3d453e1d7418645ef72',1,'PartTypeManager::m_parts()'],['../classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40',1,'ShipDesign::m_parts()'],['../classShipDesignOrder.html#a385cc7a8ef3a554d5390dd47e507296d',1,'ShipDesignOrder::m_parts()']]],
   ['m_5fparts_5flist',['m_parts_list',['../classDesignWnd_1_1PartPalette.html#ab51effec2e377e639cffebf01bad64f9',1,'DesignWnd::PartPalette']]],
   ['m_5fpath',['m_path',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a3fa4ac7062f2542e07e9202aecb19d70',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
+  ['m_5fpause',['m_pause',['../classResearchQueueOrder.html#afe9681f441c9975ca754d73245e78c0d',1,'ResearchQueueOrder::m_pause()'],['../classProductionQueueOrder.html#a7848a16466b2c2c295fceadde0c326e3',1,'ProductionQueueOrder::m_pause()']]],
   ['m_5fpedia_5fpanel',['m_pedia_panel',['../classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94',1,'MapWnd']]],
   ['m_5fpending_5fsystem_5fexit_5flanes',['m_pending_system_exit_lanes',['../classEmpire.html#a5abafab12af95c136e0e0038fa743059',1,'Empire']]],
   ['m_5fphase_5foffset',['m_phase_offset',['../classRotatingGraphic.html#af6c827f3c9fe10638f156ccb0016f7f2',1,'RotatingGraphic']]],
