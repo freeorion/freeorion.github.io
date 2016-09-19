@@ -247,7 +247,7 @@ var searchData=
   ['troopicon',['TroopIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a0b52adf71cc671d4688a8869437a3475',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['tryinsertintomap',['TryInsertIntoMap',['../classObjectMap.html#a7f1e89aa56d786ab51d86e34898269a0',1,'ObjectMap']]],
   ['turn',['Turn',['../structCondition_1_1Turn.html',1,'Condition']]],
-  ['turn',['turn',['../structCombatLog.html#a96332a80adec8b92f01406aaa34963b5',1,'CombatLog::turn()'],['../structCombatInfo.html#a3bf9fca81403b1a21017e2786ad19576',1,'CombatInfo::turn()'],['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#af890341453f3ab04ffcb1e59f9f0c5d6',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3::turn()'],['../structCondition_1_1Turn.html#a3fd8b354788ff2525ead5f68029ddb6d',1,'Condition::Turn::Turn()']]],
+  ['turn',['Turn',['../structCondition_1_1Turn.html#a3fd8b354788ff2525ead5f68029ddb6d',1,'Condition::Turn::Turn()'],['../structCombatLog.html#a96332a80adec8b92f01406aaa34963b5',1,'CombatLog::turn()'],['../structCombatInfo.html#a3bf9fca81403b1a21017e2786ad19576',1,'CombatInfo::turn()'],['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#af890341453f3ab04ffcb1e59f9f0c5d6',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3::turn()']]],
   ['turn_5fend',['turn_end',['../structMovePathNode.html#a622d1b8b04487ce6dedce467ede17c66',1,'MovePathNode']]],
   ['turn_5fevents',['turn_events',['../namespaceturn__events.html',1,'']]],
   ['turn_5fevents_2epy',['turn_events.py',['../turn__events_8py.html',1,'']]],
