@@ -353,6 +353,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a733d8d64346a75ec80c5b261d829a577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3b926b03c767fddf3c8f295e6699e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">RemoveTechFromQueue</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:adf3b926b03c767fddf3c8f295e6699e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700c18c424815b5ef6aec2ea0a07ecf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a700c18c424815b5ef6aec2ea0a07ecf7">PauseResearch</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a700c18c424815b5ef6aec2ea0a07ecf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c9dd0b18f086c4cf93d1b62f26e7d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a85c9dd0b18f086c4cf93d1b62f26e7d3">ResumeResearch</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a85c9dd0b18f086c4cf93d1b62f26e7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec59c181d057aa853f77e9eafd16954e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">SetTechResearchProgress</a> (const std::string &amp;name, float progress)</td></tr>
 <tr class="separator:aec59c181d057aa853f77e9eafd16954e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa0a9af30077f6e0664003ed5f90cccf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf">PlaceProductionOnQueue</a> (BuildType build_type, const std::string &amp;name, int number, int location, int pos=-1)</td></tr>
@@ -2284,6 +2288,27 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a700c18c424815b5ef6aec2ea0a07ecf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Empire::PauseResearch </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing. </p>
+
+<p>References <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">ResearchQueue::end()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">ResearchQueue::find()</a>, and <a class="el" href="classEmpire.html#a486f4d418b8653e2706121ffc12977d9">m_research_queue</a>.</p>
+
+<p>Referenced by <a class="el" href="classResearchQueueOrder.html#af63af91ddb196c3cf98e9dcf4c21187d">ResearchQueueOrder::ExecuteImpl()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aaa0a9af30077f6e0664003ed5f90cccf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3022,6 +3047,27 @@ Friends</h2></td></tr>
 <p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="classProductionQueueOrder.html#af93cffb62dda5b930e5735b2e5e5333e">ProductionQueueOrder::ExecuteImpl()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85c9dd0b18f086c4cf93d1b62f26e7d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Empire::ResumeResearch </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing. </p>
+
+<p>References <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">ResearchQueue::end()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">ResearchQueue::find()</a>, and <a class="el" href="classEmpire.html#a486f4d418b8653e2706121ffc12977d9">m_research_queue</a>.</p>
+
+<p>Referenced by <a class="el" href="classResearchQueueOrder.html#af63af91ddb196c3cf98e9dcf4c21187d">ResearchQueueOrder::ExecuteImpl()</a>.</p>
 
 </div>
 </div>
@@ -4219,7 +4265,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="classEmpire.html#a1cd8dd2059fe5dee8dfa8e44852b1b62">m_research_progress</a>, <a class="el" href="classEmpire.html#a486f4d418b8653e2706121ffc12977d9">m_research_queue</a>, <a class="el" href="classEmpire.html#aa4cbde686d6f8d3e858fce58c4a26cba">m_resource_pools</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">ResearchQueue::Update()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="namespaceAIInterface.html#a9f8b2fd7d1297f628b5356f0b2a85127">AIInterface::UpdateResearchQueue()</a>, and <a class="el" href="classEmpire.html#ab48395fe6c94b6c11fa51a4e1fb51d47">UpdateResourcePools()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="classResearchWnd.html#a49fe5a2c5d65c54ecc293436eb41e74b">ResearchWnd::QueueItemPaused()</a>, <a class="el" href="namespaceAIInterface.html#a9f8b2fd7d1297f628b5356f0b2a85127">AIInterface::UpdateResearchQueue()</a>, and <a class="el" href="classEmpire.html#ab48395fe6c94b6c11fa51a4e1fb51d47">UpdateResourcePools()</a>.</p>
 
 </div>
 </div>
@@ -4981,7 +5027,7 @@ template&lt;class Archive &gt; </div>
 
 <p>the queue of techs being or waiting to be researched </p>
 
-<p>Referenced by <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a7300e6089877b09c87175b83a532b1fb">GetResearchQueue()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">MostRPSpentEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">RemoveTechFromQueue()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">SetTechResearchProgress()</a>, <a class="el" href="classEmpire.html#ab41098ed0b3e0ec04b8732caf157e7d4">TopPriorityEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">TopPriorityResearchableTech()</a>, and <a class="el" href="classEmpire.html#a44dbf32de030f1902775745307feaad6">UpdateResearchQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a7300e6089877b09c87175b83a532b1fb">GetResearchQueue()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">MostRPSpentEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a700c18c424815b5ef6aec2ea0a07ecf7">PauseResearch()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">RemoveTechFromQueue()</a>, <a class="el" href="classEmpire.html#a85c9dd0b18f086c4cf93d1b62f26e7d3">ResumeResearch()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">SetTechResearchProgress()</a>, <a class="el" href="classEmpire.html#ab41098ed0b3e0ec04b8732caf157e7d4">TopPriorityEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">TopPriorityResearchableTech()</a>, and <a class="el" href="classEmpire.html#a44dbf32de030f1902775745307feaad6">UpdateResearchQueue()</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pad',['PAD',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ab70c3b11d1f1622bd25edafa1b240a71',1,'anonymous_namespace{FleetWnd.cpp}']]],
+  ['panel',['panel',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#aa55bebe5e723a3921e0a4bde0b03ebf0',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::panel()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a24ca315c057f9a3be506baaa67e52077',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::panel()']]],
   ['panelupdatequantsignal',['PanelUpdateQuantSignal',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a4665c96abf913a65ce1abef4818018e5',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['params',['params',['../structanonymous__namespace_02MarkupBox_8cpp_03_1_1MarkupTextBlock.html#a51470bbe29c38810f6923e758c78ef56',1,'anonymous_namespace{MarkupBox.cpp}::MarkupTextBlock']]],
   ['parent',['parent',['../structOptionsBar_1_1ToggleData.html#aaade71b42bb67fd41ee2b548bfc058dd',1,'OptionsBar::ToggleData']]],

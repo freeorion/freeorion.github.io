@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a896ab63e0dda4c73716b29a35abff191"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#a896ab63e0dda4c73716b29a35abff191">InQueue</a> (const std::string &amp;tech_name) const </td></tr>
 <tr class="memdesc:a896ab63e0dda4c73716b29a35abff191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <em>tech</em> is in this queue.  <a href="#a896ab63e0dda4c73716b29a35abff191">More...</a><br/></td></tr>
 <tr class="separator:a896ab63e0dda4c73716b29a35abff191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9833571c3a3ed876e0f6d2750d61a89b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#a9833571c3a3ed876e0f6d2750d61a89b">Paused</a> (const std::string &amp;tech_name) const </td></tr>
+<tr class="memdesc:a9833571c3a3ed876e0f6d2750d61a89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <em>tech</em> is in this queue and paused.  <a href="#a9833571c3a3ed876e0f6d2750d61a89b">More...</a><br/></td></tr>
+<tr class="separator:a9833571c3a3ed876e0f6d2750d61a89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca9d54785f3b0354038a617f96c708f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5">Paused</a> (int idx) const </td></tr>
+<tr class="memdesc:aca9d54785f3b0354038a617f96c708f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff there are at least <em>idx</em> - 1 items in the queue and item with index <em>idx</em> is paused.  <a href="#aca9d54785f3b0354038a617f96c708f5">More...</a><br/></td></tr>
+<tr class="separator:aca9d54785f3b0354038a617f96c708f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac60e563c2bc188ceb6a89b19f151c618"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#ac60e563c2bc188ceb6a89b19f151c618">ProjectsInProgress</a> () const </td></tr>
 <tr class="memdesc:ac60e563c2bc188ceb6a89b19f151c618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of research projects currently (perhaps partially) funded.  <a href="#ac60e563c2bc188ceb6a89b19f151c618">More...</a><br/></td></tr>
 <tr class="separator:ac60e563c2bc188ceb6a89b19f151c618"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -302,7 +308,7 @@ Mutators</h2></td></tr>
 
 <p>References <a class="el" href="structResearchQueue.html#a052119baed8b70be7409c4cfb6f4d6ac">m_queue</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="structResearchQueue.html#a8f5d30c3d18033559346b9440d1c0111">AllEnqueuedProjects()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">find()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="classEmpire.html#ab41098ed0b3e0ec04b8732caf157e7d4">Empire::TopPriorityEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">Empire::TopPriorityResearchableTech()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="structResearchQueue.html#a8f5d30c3d18033559346b9440d1c0111">AllEnqueuedProjects()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">find()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5">Paused()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="classEmpire.html#ab41098ed0b3e0ec04b8732caf157e7d4">Empire::TopPriorityEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">Empire::TopPriorityResearchableTech()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
 
 </div>
 </div>
@@ -411,7 +417,7 @@ Mutators</h2></td></tr>
 
 <p>References <a class="el" href="structResearchQueue.html#a052119baed8b70be7409c4cfb6f4d6ac">m_queue</a>.</p>
 
-<p>Referenced by <a class="el" href="structResearchQueue.html#a8f5d30c3d18033559346b9440d1c0111">AllEnqueuedProjects()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">find()</a>, <a class="el" href="structResearchQueue.html#a896ab63e0dda4c73716b29a35abff191">InQueue()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">Empire::MostRPSpentEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">Empire::RemoveTechFromQueue()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a2b581e3f4e7fbf8503e4a4c89bd421dc">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aea1963b14837837a0c32492e1185d94a">TechTreeWnd::TechListBox::TechRightClicked()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">Empire::TopPriorityResearchableTech()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#af7a56e20cc4aa51462ef5491025f8b2a">TechTreeWnd::LayoutPanel::TechPanel::Update()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
+<p>Referenced by <a class="el" href="structResearchQueue.html#a8f5d30c3d18033559346b9440d1c0111">AllEnqueuedProjects()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">find()</a>, <a class="el" href="structResearchQueue.html#a896ab63e0dda4c73716b29a35abff191">InQueue()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">Empire::MostRPSpentEnqueuedTech()</a>, <a class="el" href="structResearchQueue.html#a9833571c3a3ed876e0f6d2750d61a89b">Paused()</a>, <a class="el" href="classEmpire.html#a700c18c424815b5ef6aec2ea0a07ecf7">Empire::PauseResearch()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">Empire::RemoveTechFromQueue()</a>, <a class="el" href="classEmpire.html#a85c9dd0b18f086c4cf93d1b62f26e7d3">Empire::ResumeResearch()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a2b581e3f4e7fbf8503e4a4c89bd421dc">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aea1963b14837837a0c32492e1185d94a">TechTreeWnd::TechListBox::TechRightClicked()</a>, <a class="el" href="classEmpire.html#a4b971af6d62a391527941b97df3aac54">Empire::TopPriorityResearchableTech()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#af7a56e20cc4aa51462ef5491025f8b2a">TechTreeWnd::LayoutPanel::TechPanel::Update()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
 
 </div>
 </div>
@@ -474,7 +480,7 @@ Mutators</h2></td></tr>
 
 <p>References <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, and <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a896ab63e0dda4c73716b29a35abff191">InQueue()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">Empire::MostRPSpentEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">Empire::RemoveTechFromQueue()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a2b581e3f4e7fbf8503e4a4c89bd421dc">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aea1963b14837837a0c32492e1185d94a">TechTreeWnd::TechListBox::TechRightClicked()</a>, and <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#af7a56e20cc4aa51462ef5491025f8b2a">TechTreeWnd::LayoutPanel::TechPanel::Update()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7">ResearchWnd::AddTechsToQueueSlot()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structResearchQueue.html#a896ab63e0dda4c73716b29a35abff191">InQueue()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a4a3b263c5a006f38d106a790e2f839f0">Empire::MostRPSpentEnqueuedTech()</a>, <a class="el" href="structResearchQueue.html#a9833571c3a3ed876e0f6d2750d61a89b">Paused()</a>, <a class="el" href="classEmpire.html#a700c18c424815b5ef6aec2ea0a07ecf7">Empire::PauseResearch()</a>, <a class="el" href="classEmpire.html#a733d8d64346a75ec80c5b261d829a577">Empire::PlaceTechInQueue()</a>, <a class="el" href="classEmpire.html#adf3b926b03c767fddf3c8f295e6699e5">Empire::RemoveTechFromQueue()</a>, <a class="el" href="classEmpire.html#a85c9dd0b18f086c4cf93d1b62f26e7d3">Empire::ResumeResearch()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a2b581e3f4e7fbf8503e4a4c89bd421dc">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aea1963b14837837a0c32492e1185d94a">TechTreeWnd::TechListBox::TechRightClicked()</a>, and <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#af7a56e20cc4aa51462ef5491025f8b2a">TechTreeWnd::LayoutPanel::TechPanel::Update()</a>.</p>
 
 </div>
 </div>
@@ -569,6 +575,46 @@ Mutators</h2></td></tr>
 <p>Returns true iff <em>tech</em> is in this queue. </p>
 
 <p>References <a class="el" href="structResearchQueue.html#a052119baed8b70be7409c4cfb6f4d6ac">m_queue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9833571c3a3ed876e0f6d2750d61a89b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ResearchQueue::Paused </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tech_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff <em>tech</em> is in this queue and paused. </p>
+
+<p>References <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>, and <a class="el" href="structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256">find()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca9d54785f3b0354038a617f96c708f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ResearchQueue::Paused </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff there are at least <em>idx</em> - 1 items in the queue and item with index <em>idx</em> is paused. </p>
+
+<p>References <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, and <a class="el" href="structResearchQueue.html#a052119baed8b70be7409c4cfb6f4d6ac">m_queue</a>.</p>
 
 </div>
 </div>
@@ -845,7 +891,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, <a class="el" href="structResearchQueue.html#a0e57d2a28b4a09c1f24c879af2a00a4a">clear()</a>, <a class="el" href="structResearchQueue.html#ab451439e53fcdade22d872875878d9a1">empty()</a>, <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structResearchQueue.html#aac5a5fa929cd1dd66fb2760aa723d331">insert()</a>, <a class="el" href="structResearchQueue.html#aca4c2026215c356ad2bfc03c39f2982a">operator[]()</a>, <a class="el" href="structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a912a08c989b7dda5fbe4ef4f467abc25">size()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
+<p>Referenced by <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, <a class="el" href="structResearchQueue.html#a0e57d2a28b4a09c1f24c879af2a00a4a">clear()</a>, <a class="el" href="structResearchQueue.html#ab451439e53fcdade22d872875878d9a1">empty()</a>, <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structResearchQueue.html#aac5a5fa929cd1dd66fb2760aa723d331">insert()</a>, <a class="el" href="structResearchQueue.html#aca4c2026215c356ad2bfc03c39f2982a">operator[]()</a>, <a class="el" href="structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5">Paused()</a>, <a class="el" href="structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a912a08c989b7dda5fbe4ef4f467abc25">size()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
 
 </div>
 </div>
