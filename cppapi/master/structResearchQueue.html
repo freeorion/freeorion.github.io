@@ -188,10 +188,10 @@ Mutators</h2></td></tr>
 <tr class="separator:abc47bd77fb7d6f890eaf6f487b32f368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af30cd056f4d35d7f180b74c6ddf6162c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update</a> (float RPs, const std::map&lt; std::string, float &gt; &amp;research_progress)</td></tr>
 <tr class="separator:af30cd056f4d35d7f180b74c6ddf6162c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff3dc45c88a8a4f731c763c70a268a06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06">push_back</a> (const std::string &amp;tech_name)</td></tr>
-<tr class="separator:aff3dc45c88a8a4f731c763c70a268a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac5a5fa929cd1dd66fb2760aa723d331"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#aac5a5fa929cd1dd66fb2760aa723d331">insert</a> (<a class="el" href="structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0">iterator</a> it, const std::string &amp;tech_name)</td></tr>
-<tr class="separator:aac5a5fa929cd1dd66fb2760aa723d331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73bcf56bcb6fbc440e0a3c1f1d1db3f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#a73bcf56bcb6fbc440e0a3c1f1d1db3f1">push_back</a> (const std::string &amp;tech_name, bool paused=false)</td></tr>
+<tr class="separator:a73bcf56bcb6fbc440e0a3c1f1d1db3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4385f097f4cd0fb5992c3ed0b76d2a6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d">insert</a> (<a class="el" href="structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0">iterator</a> it, const std::string &amp;tech_name, bool paused=false)</td></tr>
+<tr class="separator:a4385f097f4cd0fb5992c3ed0b76d2a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62648b8b84c7fb72e06b93d72f56f4d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase</a> (<a class="el" href="structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0">iterator</a> it)</td></tr>
 <tr class="separator:a62648b8b84c7fb72e06b93d72f56f4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ff2bc4337a8087e86a2d36779b1f09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResearchQueue.html#af0ff2bc4337a8087e86a2d36779b1f09">begin</a> ()</td></tr>
@@ -526,7 +526,7 @@ Mutators</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aac5a5fa929cd1dd66fb2760aa723d331"></a>
+<a class="anchor" id="a4385f097f4cd0fb5992c3ed0b76d2a6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -540,7 +540,13 @@ Mutators</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>tech_name</em>&#160;</td>
+          <td class="paramname"><em>tech_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>paused</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -637,7 +643,7 @@ Mutators</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff3dc45c88a8a4f731c763c70a268a06"></a>
+<a class="anchor" id="a73bcf56bcb6fbc440e0a3c1f1d1db3f1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -645,8 +651,18 @@ Mutators</h2></td></tr>
           <td class="memname">void ResearchQueue::push_back </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>tech_name</em></td><td>)</td>
+          <td class="paramname"><em>tech_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>paused</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -847,7 +863,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structResearchQueue.html#aac5a5fa929cd1dd66fb2760aa723d331">insert()</a>, <a class="el" href="structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
+<p>Referenced by <a class="el" href="structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d">insert()</a>, <a class="el" href="structResearchQueue.html#a73bcf56bcb6fbc440e0a3c1f1d1db3f1">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a9aa5fddcf0ebff254a5210763e1fb27f">UnderfundedProject()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
 
 </div>
 </div>
@@ -891,7 +907,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, <a class="el" href="structResearchQueue.html#a0e57d2a28b4a09c1f24c879af2a00a4a">clear()</a>, <a class="el" href="structResearchQueue.html#ab451439e53fcdade22d872875878d9a1">empty()</a>, <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structResearchQueue.html#aac5a5fa929cd1dd66fb2760aa723d331">insert()</a>, <a class="el" href="structResearchQueue.html#aca4c2026215c356ad2bfc03c39f2982a">operator[]()</a>, <a class="el" href="structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5">Paused()</a>, <a class="el" href="structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a912a08c989b7dda5fbe4ef4f467abc25">size()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
+<p>Referenced by <a class="el" href="structResearchQueue.html#a122e28c24ffbde9bf4b56b329619bedd">begin()</a>, <a class="el" href="structResearchQueue.html#a0e57d2a28b4a09c1f24c879af2a00a4a">clear()</a>, <a class="el" href="structResearchQueue.html#ab451439e53fcdade22d872875878d9a1">empty()</a>, <a class="el" href="structResearchQueue.html#a4e8c7ed801885f2b435aca542cab39f4">end()</a>, <a class="el" href="structResearchQueue.html#a62648b8b84c7fb72e06b93d72f56f4d0">erase()</a>, <a class="el" href="structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d">insert()</a>, <a class="el" href="structResearchQueue.html#aca4c2026215c356ad2bfc03c39f2982a">operator[]()</a>, <a class="el" href="structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5">Paused()</a>, <a class="el" href="structResearchQueue.html#a73bcf56bcb6fbc440e0a3c1f1d1db3f1">push_back()</a>, <a class="el" href="structResearchQueue.html#a18f3091ccd7f74e525371fca0bf7ca64">serialize()</a>, <a class="el" href="structProductionQueue.html#a88618f2598a3096b43264dd9eebe7c25">ProductionQueue::serialize()</a>, <a class="el" href="structResearchQueue.html#a912a08c989b7dda5fbe4ef4f467abc25">size()</a>, and <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">Update()</a>.</p>
 
 </div>
 </div>

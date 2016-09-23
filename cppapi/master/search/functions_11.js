@@ -12,6 +12,6 @@ var searchData=
   ['queuelistbox',['QueueListBox',['../classQueueListBox.html#ad61d430e719ff098911c50a13a3a719b',1,'QueueListBox']]],
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#aa275b119f7712eab7d9d9340c691d8df',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a305bdc1dff0d35a53885444232df8939',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
-  ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a97ef146e3ef3b711dcce3a145b9e69c0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
+  ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#af861bb63940fcc5def9fbf8242aca581',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['quitgame',['QuitGame',['../classHumanClientApp.html#a6a9f3560e56a4758c27cc436c63c29d1',1,'HumanClientApp']]]
 ];

@@ -29,7 +29,7 @@ var searchData=
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a305bdc1dff0d35a53885444232df8939',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
-  ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a97ef146e3ef3b711dcce3a145b9e69c0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
+  ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#af861bb63940fcc5def9fbf8242aca581',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['queuetype',['QueueType',['../structResearchQueue.html#aee3a5747de917c41072562a2508c158a',1,'ResearchQueue::QueueType()'],['../structProductionQueue.html#ac81d9056d61895945b13081b4c83336e',1,'ProductionQueue::QueueType()']]],
   ['quitgame',['QuitGame',['../classHumanClientApp.html#a6a9f3560e56a4758c27cc436c63c29d1',1,'HumanClientApp']]]
 ];

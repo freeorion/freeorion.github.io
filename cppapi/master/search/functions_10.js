@@ -269,7 +269,7 @@ var searchData=
   ['pts',['Pts',['../classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b',1,'ClientUI']]],
   ['publicname',['PublicName',['../classField.html#a50d1013afdea91023c2307cdb77f15b1',1,'Field::PublicName()'],['../classFleet.html#a6330143ada061fc97aded7aa5428b9ff',1,'Fleet::PublicName()'],['../classShip.html#ac3e4ff2987572847e40234a11adb3cf0',1,'Ship::PublicName()'],['../classUniverseObject.html#a2b123db572348334117ba66d78165abd',1,'UniverseObject::PublicName()']]],
   ['publicnamelink',['PublicNameLink',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ab1142a9351d03a66d9acf63ea85d0204',1,'anonymous_namespace{CombatEvents.cpp}']]],
-  ['push_5fback',['push_back',['../structResearchQueue.html#aff3dc45c88a8a4f731c763c70a268a06',1,'ResearchQueue::push_back()'],['../structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff',1,'ProductionQueue::push_back()']]],
+  ['push_5fback',['push_back',['../structResearchQueue.html#a73bcf56bcb6fbc440e0a3c1f1d1db3f1',1,'ResearchQueue::push_back()'],['../structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff',1,'ProductionQueue::push_back()']]],
   ['pushback',['PushBack',['../classMessageQueue.html#a4b851bd107da9ff5793d2632c73d3b06',1,'MessageQueue::PushBack()'],['../structanonymous__namespace_02OptionsDB_8cpp_03_1_1PushBack.html#adae54c9c868e90598a63829e06bfd38d',1,'anonymous_namespace{OptionsDB.cpp}::PushBack::PushBack()']]],
   ['pushelem1',['PushElem1',['../classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e',1,'XMLDoc']]],
   ['pushelem2',['PushElem2',['../classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6',1,'XMLDoc']]],
