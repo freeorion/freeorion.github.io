@@ -68,6 +68,7 @@ var searchData=
   ['non_5fship_5fpart_5fmeter_5ftype_5fenum',['non_ship_part_meter_type_enum',['../namespaceparse.html#af11cdf900c53212e37712421fc96eace',1,'parse']]],
   ['non_5ftree_5fedge',['non_tree_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#a6eb786418eced3d001b7bf73a463385c',1,'SystemPathing::BFSVisitorImpl']]],
   ['none',['None',['../structCondition_1_1None.html#a909827ce632ebb5e67dd30704bfc0edb',1,'Condition::None']]],
+  ['noop',['NoOp',['../classEffect_1_1NoOp.html#a53c3d1738e1f7090b431453c427cdc48',1,'Effect::NoOp']]],
   ['nosuchchild',['NoSuchChild',['../classXMLElement_1_1NoSuchChild.html#af5e1e12d3ae871a61e743779f83a71bd',1,'XMLElement::NoSuchChild::NoSuchChild()'],['../classXMLElement_1_1NoSuchChild.html#ad7186cfb4c5d325c390436b07230a7bf',1,'XMLElement::NoSuchChild::NoSuchChild(const std::string &amp;msg)']]],
   ['nosuchindex',['NoSuchIndex',['../classXMLElement_1_1NoSuchIndex.html#ae87b04e9bdc07cad47369d6122a86bc3',1,'XMLElement::NoSuchIndex::NoSuchIndex()'],['../classXMLElement_1_1NoSuchIndex.html#a66ab3de7551ddadc5d40653ae66d27ad',1,'XMLElement::NoSuchIndex::NoSuchIndex(const std::string &amp;msg)']]],
   ['not',['Not',['../structCondition_1_1Not.html#a04254b50bfc0d2e511da0e74be7a04a2',1,'Condition::Not']]],

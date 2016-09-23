@@ -10,6 +10,7 @@ var searchData=
   ['nodepointercmp',['NodePointerCmp',['../structanonymous__namespace_02TechTreeLayout_8cpp_03_1_1NodePointerCmp.html',1,'anonymous_namespace{TechTreeLayout.cpp}']]],
   ['nomodalwndsopencondition',['NoModalWndsOpenCondition',['../classNoModalWndsOpenCondition.html',1,'']]],
   ['none',['None',['../structCondition_1_1None.html',1,'Condition']]],
+  ['noop',['NoOp',['../classEffect_1_1NoOp.html',1,'Effect']]],
   ['nosuchchild',['NoSuchChild',['../classXMLElement_1_1NoSuchChild.html',1,'XMLElement']]],
   ['nosuchindex',['NoSuchIndex',['../classXMLElement_1_1NoSuchIndex.html',1,'XMLElement']]],
   ['not',['Not',['../structCondition_1_1Not.html',1,'Condition']]],
