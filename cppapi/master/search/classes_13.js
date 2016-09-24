@@ -23,8 +23,6 @@ var searchData=
   ['textbrowsewnd',['TextBrowseWnd',['../classTextBrowseWnd.html',1,'']]],
   ['textlinker',['TextLinker',['../classTextLinker.html',1,'']]],
   ['threadqueue',['ThreadQueue',['../structThreadQueue.html',1,'']]],
-  ['toggleavailabilityfunctor',['ToggleAvailabilityFunctor',['../structanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ToggleAvailabilityFunctor.html',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
-  ['togglebuildtypefunctor',['ToggleBuildTypeFunctor',['../structanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ToggleBuildTypeFunctor.html',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html',1,'OptionsBar']]],
   ['turn',['Turn',['../structCondition_1_1Turn.html',1,'Condition']]],
   ['turnended',['TurnEnded',['../structTurnEnded.html',1,'']]],
