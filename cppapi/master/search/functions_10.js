@@ -1,7 +1,7 @@
 var searchData=
 [
   ['pad',['PAD',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a03f0b1a335f25329a044d56b9d9b3fbf',1,'anonymous_namespace{DesignWnd.cpp}::PAD()'],['../namespaceanonymous__namespace_02ModeratorActionsWnd_8cpp_03.html#a1fe575a721fac19035384e9aa47f5028',1,'anonymous_namespace{ModeratorActionsWnd.cpp}::PAD()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#add85377d19cb3ce02074f4f0e36eafbb',1,'anonymous_namespace{ObjectListWnd.cpp}::PAD()']]],
-  ['page_5fheight',['PAGE_HEIGHT',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a3f2c31fa5ae2db176b963bf0b89e40eb',1,'anonymous_namespace{OptionsWnd.cpp}']]],
+  ['page_5fheight',['PAGE_HEIGHT',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#ab10e1ccc46630f52107be17f69a1b275',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['page_5fwidth',['PAGE_WIDTH',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a27ad77ce3caf376f1ced22bfa1df89dc',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['pan',['Pan',['../classMapWnd.html#ac91f981910d6c63d4f14aaaa3cb737ea',1,'MapWnd']]],
   ['panel',['Panel',['../classGalaxySetupWnd.html#a7a121cf89c4f9f3bc5c4cdf92573ddca',1,'GalaxySetupWnd']]],
@@ -53,7 +53,7 @@ var searchData=
   ['perturncost',['PerTurnCost',['../classBuildingType.html#a159e80761948d4d0b5c87f31c9ccefb0',1,'BuildingType::PerTurnCost()'],['../classShipDesign.html#a107f9a2321871baab65507ab73dd0cc5',1,'ShipDesign::PerTurnCost()'],['../classTech.html#a319d80a5f8ac30e08409606b29a43b74',1,'Tech::PerTurnCost()']]],
   ['pinable',['PINABLE',['../CUIWnd_8cpp.html#ac4d6066f9f21fdb3a5795300eebb0bf7',1,'CUIWnd.cpp']]],
   ['pinclicked',['PinClicked',['../classCUIWnd.html#a11779b177b9e195b0b69d97dbe4ca9bc',1,'CUIWnd']]],
-  ['place',['Place',['../classTechTreeLayout_1_1Column.html#aa3dc0bc0ad3d8ea96d8fc9a4efe3c27d',1,'TechTreeLayout::Column::Place()'],['../classmonsters_1_1StarlaneAlteringMonsters.html#ae236da5c845ae2811cf9ea56a8f8a36a',1,'monsters.StarlaneAlteringMonsters.place()']]],
+  ['place',['place',['../classmonsters_1_1StarlaneAlteringMonsters.html#ae236da5c845ae2811cf9ea56a8f8a36a',1,'monsters.StarlaneAlteringMonsters.place()'],['../classTechTreeLayout_1_1Column.html#aa3dc0bc0ad3d8ea96d8fc9a4efe3c27d',1,'TechTreeLayout::Column::Place()']]],
   ['placeclosestfreeindex',['PlaceClosestFreeIndex',['../classTechTreeLayout_1_1Column.html#a4751105da7adf04067bb98ac29107bcf',1,'TechTreeLayout::Column']]],
   ['placeholderwnd',['PlaceholderWnd',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1PlaceholderWnd.html#a032b933b7704e46c1e5d4f8ed4bf2507',1,'anonymous_namespace{OptionsWnd.cpp}::PlaceholderWnd']]],
   ['placeproductiononqueue',['PlaceProductionOnQueue',['../classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf',1,'Empire::PlaceProductionOnQueue(BuildType build_type, const std::string &amp;name, int number, int location, int pos=-1)'],['../classEmpire.html#adb56d39f11b3d3c8613b81932804c56b',1,'Empire::PlaceProductionOnQueue(BuildType build_type, int design_id, int number, int location, int pos=-1)'],['../classEmpire.html#aae366de4239f1a986d7ef3dcfe163a86',1,'Empire::PlaceProductionOnQueue(const ProductionQueue::ProductionItem &amp;item, int number, int location, int pos=-1)']]],
