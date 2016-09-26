@@ -81,7 +81,6 @@ var searchData=
   ['adjustcolumns',['AdjustColumns',['../classSaveFileRow.html#a9aafdd196b1c7a958af1ede896305d8f',1,'SaveFileRow']]],
   ['adjustedattack',['AdjustedAttack',['../classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de',1,'ShipDesign']]],
   ['adjustforaxes',['AdjustForAxes',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a6c86c3bfba85428aacbfdcfd5f28c39f',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
-  ['adjustscrolls',['AdjustScrolls',['../classMarkupBox.html#a9d93d5c31bd1f2a2cff71102f4ca440a',1,'MarkupBox']]],
   ['affiliation',['Affiliation',['../classEffect_1_1GenerateSitRepMessage.html#a068279bfb56612623b2dcb0809a51198',1,'Effect::GenerateSitRepMessage::Affiliation()'],['../classEffect_1_1SetVisibility.html#ab0c1cf0ff28b7d41a2537eba64de70cd',1,'Effect::SetVisibility::Affiliation()']]],
   ['ageinturns',['AgeInTurns',['../classUniverseObject.html#a29fe1a4c7fab5146b38aabdd2d0cd250',1,'UniverseObject']]],
   ['aggression',['Aggression',['../classAggressiveOrder.html#adf3c01788bae3d818a55283c8f9dc2db',1,'AggressiveOrder']]],

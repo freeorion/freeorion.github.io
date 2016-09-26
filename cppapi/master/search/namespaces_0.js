@@ -71,8 +71,6 @@ var searchData=
   ['anonymous_5fnamespace_7blogger_2ecpp_7d',['anonymous_namespace{Logger.cpp}',['../namespaceanonymous__namespace_02Logger_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bloggingwrapper_2ecpp_7d',['anonymous_namespace{LoggingWrapper.cpp}',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmapwnd_2ecpp_7d',['anonymous_namespace{MapWnd.cpp}',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bmarkupbox_2ecpp_7d',['anonymous_namespace{MarkupBox.cpp}',['../namespaceanonymous__namespace_02MarkupBox_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bmarkupbox_2eh_7d',['anonymous_namespace{MarkupBox.h}',['../namespaceanonymous__namespace_02MarkupBox_8h_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmessage_2ecpp_7d',['anonymous_namespace{Message.cpp}',['../namespaceanonymous__namespace_02Message_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmessagequeue_2ecpp_7d',['anonymous_namespace{MessageQueue.cpp}',['../namespaceanonymous__namespace_02MessageQueue_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmeterbrowsewnd_2ecpp_7d',['anonymous_namespace{MeterBrowseWnd.cpp}',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html',1,'']]],

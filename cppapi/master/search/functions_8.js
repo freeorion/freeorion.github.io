@@ -79,7 +79,6 @@ var searchData=
   ['haswormholeto',['HasWormholeTo',['../classSystem.html#a6d92776e154ac1b3ef9c0205fbd21642',1,'System']]],
   ['havewindowfocus',['HaveWindowFocus',['../classHumanClientApp.html#a3d0a87ba19b3ed02a4808fa962acc4ad',1,'HumanClientApp']]],
   ['headertobuffer',['HeaderToBuffer',['../Message_8cpp.html#a53dfb89bdb30a41f62e9541c48d17cf3',1,'HeaderToBuffer(const Message &amp;message, int *header_buf):&#160;Message.cpp'],['../Message_8h.html#adc519c3daa0eecec62c726803df8ee7b',1,'HeaderToBuffer(const Message &amp;message, int *header_buf):&#160;Message.cpp']]],
-  ['heading_5ftag',['HEADING_TAG',['../namespaceanonymous__namespace_02MarkupBox_8cpp_03.html#a7d0e531a45bfe60a2e5cdf1e8a902914',1,'anonymous_namespace{MarkupBox.cpp}']]],
   ['hiddensitreptemplates',['HiddenSitRepTemplates',['../classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a',1,'SitRepPanel']]],
   ['hiddensitreptemplatestringsfromoptions',['HiddenSitRepTemplateStringsFromOptions',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6be4af1fc53fc494b308c101cb882db0',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['hide',['Hide',['../classCUIWnd.html#a70f3b6f161029302fdc5f8adef8a2a73',1,'CUIWnd']]],

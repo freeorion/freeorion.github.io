@@ -92,8 +92,6 @@ var searchData=
   ['_7emapscaleline',['~MapScaleLine',['../classMapWnd_1_1MapScaleLine.html#a58da6c759f083bdc64e7a6d44f0ac610',1,'MapWnd::MapScaleLine']]],
   ['_7emapwnd',['~MapWnd',['../classMapWnd.html#a7fea21d056dff02b622a6b71b18c4df6',1,'MapWnd']]],
   ['_7emapwndpopup',['~MapWndPopup',['../classMapWndPopup.html#a3a2cf198f756151476f5bd60a130c13a',1,'MapWndPopup']]],
-  ['_7emarkupbox',['~MarkupBox',['../classMarkupBox.html#ae55c8e03eea97b318ef483615a03ce0e',1,'MarkupBox']]],
-  ['_7emarkupsurface',['~MarkupSurface',['../classMarkupBox_1_1MarkupSurface.html#ac0dd55afb33e14fecd0fe2329f77f71b',1,'MarkupBox::MarkupSurface']]],
   ['_7emetervalue',['~MeterValue',['../structCondition_1_1MeterValue.html#a39a4a5b60bb5bfe286877734a501c041',1,'Condition::MeterValue']]],
   ['_7emilitarypanel',['~MilitaryPanel',['../classMilitaryPanel.html#aaabcca4b41ddbbc85e56cd6734b41fb7',1,'MilitaryPanel']]],
   ['_7emoderatoraction',['~ModeratorAction',['../classModerator_1_1ModeratorAction.html#a30e05c1101e7671aa6cad49383758495',1,'Moderator::ModeratorAction']]],

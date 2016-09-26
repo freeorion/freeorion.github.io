@@ -2,8 +2,6 @@ var searchData=
 [
   ['mapwnd_2ecpp',['MapWnd.cpp',['../MapWnd_8cpp.html',1,'']]],
   ['mapwnd_2eh',['MapWnd.h',['../MapWnd_8h.html',1,'']]],
-  ['markupbox_2ecpp',['MarkupBox.cpp',['../MarkupBox_8cpp.html',1,'']]],
-  ['markupbox_2eh',['MarkupBox.h',['../MarkupBox_8h.html',1,'']]],
   ['message_2ecpp',['Message.cpp',['../Message_8cpp.html',1,'']]],
   ['message_2eh',['Message.h',['../Message_8h.html',1,'']]],
   ['messagequeue_2ecpp',['MessageQueue.cpp',['../MessageQueue_8cpp.html',1,'']]],
