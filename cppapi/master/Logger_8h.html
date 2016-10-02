@@ -95,23 +95,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;boost/log/trivial.hpp&gt;</code><br/>
+<code>#include &lt;boost/log/expressions/keyword.hpp&gt;</code><br/>
+<code>#include &lt;boost/log/utility/manipulators/add_value.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="Export_8h.html">Export.h</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae0bb0a0e6d09f7a81119644ab028baa1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a>&#160;&#160;&#160;(strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : __FILE__)</td></tr>
 <tr class="separator:ae0bb0a0e6d09f7a81119644ab028baa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9712f05eb282862274edc324f9e3f2da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>()&#160;&#160;&#160;BOOST_LOG_TRIVIAL(debug)</td></tr>
+<tr class="memitem:a9712f05eb282862274edc324f9e3f2da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>()&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(debug)</td></tr>
 <tr class="separator:a9712f05eb282862274edc324f9e3f2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11cf44c7da58a17a70ea182d90d4de3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>()&#160;&#160;&#160;BOOST_LOG_TRIVIAL(error) &lt;&lt; <a class="el" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a> &lt;&lt; &quot;:&quot; &lt;&lt; __LINE__ &lt;&lt; &quot; : &quot;</td></tr>
+<tr class="memitem:a11cf44c7da58a17a70ea182d90d4de3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>()&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(error)</td></tr>
 <tr class="separator:a11cf44c7da58a17a70ea182d90d4de3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e59421bd5b9ccb9ba1c22ff59cc933"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a69e59421bd5b9ccb9ba1c22ff59cc933">FatalLogger</a>()&#160;&#160;&#160;BOOST_LOG_TRIVIAL(fatal) &lt;&lt; <a class="el" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a> &lt;&lt; &quot;:&quot; &lt;&lt; __LINE__ &lt;&lt; &quot; : &quot;</td></tr>
+<tr class="memitem:a69e59421bd5b9ccb9ba1c22ff59cc933"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a69e59421bd5b9ccb9ba1c22ff59cc933">FatalLogger</a>()&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(fatal)</td></tr>
 <tr class="separator:a69e59421bd5b9ccb9ba1c22ff59cc933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a03b5f1b88dbb380682211b7c882049"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a7a03b5f1b88dbb380682211b7c882049">TraceLogger</a>()&#160;&#160;&#160;BOOST_LOG_TRIVIAL(trace)</td></tr>
+<tr class="memitem:a03139356f1cddbe0084f358b9d4e58ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(lvl)</td></tr>
+<tr class="separator:a03139356f1cddbe0084f358b9d4e58ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a03b5f1b88dbb380682211b7c882049"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a7a03b5f1b88dbb380682211b7c882049">TraceLogger</a>()&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(trace)</td></tr>
 <tr class="separator:a7a03b5f1b88dbb380682211b7c882049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:acc94457fea466dec9e9c2acf8357947d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#acc94457fea466dec9e9c2acf8357947d">BOOST_LOG_ATTRIBUTE_KEYWORD</a> (log_src_filename,&quot;SrcFilename&quot;, std::string)</td></tr>
+<tr class="separator:acc94457fea466dec9e9c2acf8357947d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43142b7304848ff3235124a8edf1c84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#ae43142b7304848ff3235124a8edf1c84">BOOST_LOG_ATTRIBUTE_KEYWORD</a> (log_src_linenum,&quot;SrcLinenum&quot;, int)</td></tr>
+<tr class="separator:ae43142b7304848ff3235124a8edf1c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47dbe4d05d4ce283e874d4abfc867862"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent</a> ()</td></tr>
 <tr class="separator:a47dbe4d05d4ce283e874d4abfc867862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b96cf2e6c5710341d8b32caed4303f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a91b96cf2e6c5710341d8b32caed4303f">InitLogger</a> (const std::string &amp;logFile, const std::string &amp;pattern)</td></tr>
@@ -147,7 +155,7 @@ Variables</h2></td></tr>
           <td class="memname">#define DebugLogger</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;BOOST_LOG_TRIVIAL(debug)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(debug)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -164,7 +172,7 @@ Variables</h2></td></tr>
           <td class="memname">#define ErrorLogger</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;BOOST_LOG_TRIVIAL(error) &lt;&lt; <a class="el" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a> &lt;&lt; &quot;:&quot; &lt;&lt; __LINE__ &lt;&lt; &quot; : &quot;</td>
+          <td>&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(error)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,13 +189,35 @@ Variables</h2></td></tr>
           <td class="memname">#define FatalLogger</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;BOOST_LOG_TRIVIAL(fatal) &lt;&lt; <a class="el" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a> &lt;&lt; &quot;:&quot; &lt;&lt; __LINE__ &lt;&lt; &quot; : &quot;</td>
+          <td>&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(fatal)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3901b7eba61bed632fc0efa2b40a8c39">anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage()</a>.</p>
 
+</div>
+</div>
+<a class="anchor" id="a03139356f1cddbe0084f358b9d4e58ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FO_LOGGER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">lvl</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">BOOST_LOG_STREAM_WITH_PARAMS(::<a class="code" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::log::trivial::logger::get</a>(),\</div>
+<div class="line">        (::boost::log::keywords::severity = ::boost::log::trivial::lvl)) &lt;&lt;\</div>
+<div class="line">        ::boost::log::add_value(<span class="stringliteral">&quot;SrcFilename&quot;</span>, <a class="code" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a>) &lt;&lt;\</div>
+<div class="line">        ::boost::log::add_value(<span class="stringliteral">&quot;SrcLinenum&quot;</span>, __LINE__)</div>
+<div class="ttc" id="namespaceboost_html_a677288c30d31a73203e4948991386ed5"><div class="ttname"><a href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get</a></div><div class="ttdeci">const Value &amp; get(const constant_property&lt; Key, Value &gt; &amp;pmap, const Key &amp;)</div><div class="ttdef"><b>Definition:</b> Universe.cpp:74</div></div>
+<div class="ttc" id="Logger_8h_html_ae0bb0a0e6d09f7a81119644ab028baa1"><div class="ttname"><a href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a></div><div class="ttdeci">#define __BASE_FILENAME__</div><div class="ttdef"><b>Definition:</b> Logger.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a7a03b5f1b88dbb380682211b7c882049"></a>
@@ -198,7 +228,7 @@ Variables</h2></td></tr>
           <td class="memname">#define TraceLogger</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;BOOST_LOG_TRIVIAL(trace)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba">FO_LOGGER</a>(trace)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,6 +238,70 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="acc94457fea466dec9e9c2acf8357947d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_LOG_ATTRIBUTE_KEYWORD </td>
+          <td>(</td>
+          <td class="paramtype">log_src_filename&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;SrcFilename&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae43142b7304848ff3235124a8edf1c84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_LOG_ATTRIBUTE_KEYWORD </td>
+          <td>(</td>
+          <td class="paramtype">log_src_linenum&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;SrcLinenum&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a47dbe4d05d4ce283e874d4abfc867862"></a>
 <div class="memitem">
 <div class="memproto">
