@@ -88,6 +88,7 @@ var searchData=
   ['_7einsystem',['~InSystem',['../structCondition_1_1InSystem.html#a1c768e56fc259dc08b102105b8a84fd3',1,'Condition::InSystem']]],
   ['_7eintromenu',['~IntroMenu',['../structIntroMenu.html#aff9fa76c1116ba25ee398a01c6ebb0f1',1,'IntroMenu']]],
   ['_7eintroscreen',['~IntroScreen',['../classIntroScreen.html#a815618c2a7a333a9666d59201ffd48d0',1,'IntroScreen']]],
+  ['_7elinkdecorator',['~LinkDecorator',['../classLinkDecorator.html#a0a181ba12aadfab796bddf26f9404b7c',1,'LinkDecorator']]],
   ['_7elocation',['~Location',['../structCondition_1_1Location.html#a594300af88532a7995fe00f1203ef0a4',1,'Condition::Location']]],
   ['_7emapscaleline',['~MapScaleLine',['../classMapWnd_1_1MapScaleLine.html#a58da6c759f083bdc64e7a6d44f0ac610',1,'MapWnd::MapScaleLine']]],
   ['_7emapwnd',['~MapWnd',['../classMapWnd.html#a7fea21d056dff02b622a6b71b18c4df6',1,'MapWnd']]],
