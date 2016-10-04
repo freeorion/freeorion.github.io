@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['day',['Day',['../classDay.html',1,'']]],
-  ['degree',['Degree',['../classDegree.html',1,'']]],
   ['deletefleetorder',['DeleteFleetOrder',['../classDeleteFleetOrder.html',1,'']]],
   ['described',['Described',['../structCondition_1_1Described.html',1,'Condition']]],
   ['designhashull',['DesignHasHull',['../structCondition_1_1DesignHasHull.html',1,'Condition']]],

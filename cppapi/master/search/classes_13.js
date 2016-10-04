@@ -28,7 +28,6 @@ var searchData=
   ['turnended',['TurnEnded',['../structTurnEnded.html',1,'']]],
   ['type',['Type',['../structCondition_1_1Type.html',1,'Condition']]],
   ['typerow',['TypeRow',['../classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector_1_1TypeRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::TypeSelector']]],
-  ['typesafefloat',['TypesafeFloat',['../classTypesafeFloat.html',1,'']]],
   ['typeselector',['TypeSelector',['../classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['typesimplematch',['TypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1TypeSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]]
 ];

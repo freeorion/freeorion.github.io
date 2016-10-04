@@ -180,7 +180,7 @@ var searchData=
   ['availabletechs',['AvailableTechs',['../classEmpire.html#adfc0ce9272fa8e38dd5dab5f9a2f88d5',1,'Empire']]],
   ['availabletocolonize',['AvailableToColonize',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a2f1c5f425299e371ad1583e68044a16c',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletoinvade',['AvailableToInvade',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a3cf8e27dfc8c33303f51d3c933511449',1,'anonymous_namespace{SidePanel.cpp}']]],
-  ['axialtilt',['AxialTilt',['../classPlanet.html#a79be56da5db2a2992728450b81ffcc5b',1,'Planet']]],
+  ['axialtilt',['AxialTilt',['../classPlanet.html#a09ff7722bf0c3b598057dfa37e4dc7c9',1,'Planet']]],
   ['axis_5fheight',['AXIS_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ab100f21eca477f93626bd263d2c7dd78',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['axis_5fwidth',['AXIS_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a9822cd321f022a86da026c2cbd21fc57',1,'anonymous_namespace{GraphicalSummary.cpp}']]]
 ];
