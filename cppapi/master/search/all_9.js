@@ -238,6 +238,7 @@ var searchData=
   ['isarmed',['IsArmed',['../classShip.html#a41620efecc311e053df9bd83f854aabd',1,'Ship::IsArmed()'],['../classShipDesign.html#a8df16fac48094fd781dab134f8dfd1ba',1,'ShipDesign::IsArmed()']]],
   ['isavailable',['IsAvailable',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a2cdadf027e60cbeefa5d02b6c34499f7',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['iscollapsed',['IsCollapsed',['../classAccordionPanel.html#abe68a2c877489e370050f25b87e79707',1,'AccordionPanel']]],
+  ['isconditionaleffect',['IsConditionalEffect',['../classEffect_1_1EffectBase.html#a2234d1649ac9c4981ede16158897bf34',1,'Effect::EffectBase::IsConditionalEffect()'],['../classEffect_1_1Conditional.html#af40d690237805f0b173a18b7c28da20e',1,'Effect::Conditional::IsConditionalEffect()']]],
   ['isdefault',['IsDefault',['../classHotkey.html#ae9fc4c86a4b0aec3abc4d279df49f3d5',1,'Hotkey']]],
   ['isdefaultvalue',['IsDefaultValue',['../classOptionsDB.html#ab38597b44039ef0084c8454319f3f1a5',1,'OptionsDB::IsDefaultValue(const std::string &amp;name) const '],['../classOptionsDB.html#a7eb28b5cf3fe0e39621657a250acad35',1,'OptionsDB::IsDefaultValue(std::map&lt; std::string, Option &gt;::const_iterator it) const ']]],
   ['isdelimitedwith',['IsDelimitedWith',['../classSaveFileListBox.html#a12ae99a15a2ac6c08730a671415ef2e1',1,'SaveFileListBox']]],
