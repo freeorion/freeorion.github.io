@@ -279,7 +279,7 @@ var searchData=
   ['examine_5fvertex',['examine_vertex',['../classSystemPathing_1_1BFSVisitorImpl.html#ae430e9750ea3a8ae54014d1826f2a96c',1,'SystemPathing::BFSVisitorImpl']]],
   ['examineorder',['ExamineOrder',['../classOrderSet.html#aaedfbc6207bf45ec6e65acf82ab0abbf',1,'OrderSet']]],
   ['exception',['Exception',['../classXMLElement_1_1Exception.html',1,'XMLElement']]],
-  ['exception',['Exception',['../classXMLElement_1_1Exception.html#a7a4778938f045de136b333c2a0d435b3',1,'XMLElement::Exception::Exception()'],['../classXMLElement_1_1Exception.html#ac4ae7f630d7ab01f9ec808db3bc43fe0',1,'XMLElement::Exception::Exception(const std::string &amp;msg)']]],
+  ['exception',['Exception',['../classXMLElement_1_1Exception.html#a5427f5c67d5a8dfee9e95694cfae8803',1,'XMLElement::Exception']]],
   ['exclusions',['Exclusions',['../classPartType.html#acd2c2358de5248ea5eb27032227934a9',1,'PartType::Exclusions()'],['../classHullType.html#ac49bd34b1df9a3f1719d3a6e02be7e67',1,'HullType::Exclusions()'],['../structparse_1_1detail_1_1rules.html#add2245809ec002711993ed7e06427464',1,'parse::detail::rules::exclusions()'],['../structMoreCommonParams.html#a2158cce8d52ad2b16506d2fde88fc369',1,'MoreCommonParams::exclusions()']]],
   ['exclusions_5frule',['exclusions_rule',['../structparse_1_1detail_1_1rules.html#a7cd7a129dfb2a873aa0cc4c52176e2ac',1,'parse::detail::rules']]],
   ['exe',['exe',['../binreloc_8c.html#a988acbf76208b2c16eb342ec5624a0b8',1,'binreloc.c']]],

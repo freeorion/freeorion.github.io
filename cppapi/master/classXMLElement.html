@@ -86,8 +86,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classXMLElement-members.html">List of all members</a>  </div>
@@ -96,194 +94,232 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Represents a simplified XML markup element.  
+ <a href="classXMLElement.html#details">More...</a></p>
+
 <p><code>#include &lt;XMLDoc.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement_1_1Exception.html">Exception</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class for <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> based exceptions.  <a href="classXMLElement_1_1Exception.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement_1_1NoSuchChild.html">NoSuchChild</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when a request for a tag-name named child element cannot be fulfilled.  <a href="classXMLElement_1_1NoSuchChild.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement_1_1NoSuchIndex.html">NoSuchIndex</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when a request for an indexed child element cannot be fulfilled.  <a href="classXMLElement_1_1NoSuchIndex.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:afb2c417ed000c8b9dcf499ab9f5a30ee"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
-std::string &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#afb2c417ed000c8b9dcf499ab9f5a30ee">attr_iterator</a></td></tr>
-<tr class="separator:afb2c417ed000c8b9dcf499ab9f5a30ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Iterators</div></td></tr>
 <tr class="memitem:a843d46e06a446b474e7026b4fd5a2a63"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
 &lt; <a class="el" href="classXMLElement.html">XMLElement</a> &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a843d46e06a446b474e7026b4fd5a2a63">child_iterator</a></td></tr>
+<tr class="memdesc:a843d46e06a446b474e7026b4fd5a2a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to iterate over child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s.  <a href="#a843d46e06a446b474e7026b4fd5a2a63">More...</a><br/></td></tr>
 <tr class="separator:a843d46e06a446b474e7026b4fd5a2a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a098362014311657068e1dfa736d74ec5"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
-std::string &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a098362014311657068e1dfa736d74ec5">const_attr_iterator</a></td></tr>
-<tr class="separator:a098362014311657068e1dfa736d74ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b1acd9cf52e93dcf7b27b6354dcd791"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
 &lt; <a class="el" href="classXMLElement.html">XMLElement</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a9b1acd9cf52e93dcf7b27b6354dcd791">const_child_iterator</a></td></tr>
+<tr class="memdesc:a9b1acd9cf52e93dcf7b27b6354dcd791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to iterate over child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s.  <a href="#a9b1acd9cf52e93dcf7b27b6354dcd791">More...</a><br/></td></tr>
 <tr class="separator:a9b1acd9cf52e93dcf7b27b6354dcd791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:afb2c417ed000c8b9dcf499ab9f5a30ee"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
+std::string &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#afb2c417ed000c8b9dcf499ab9f5a30ee">attr_iterator</a></td></tr>
+<tr class="memdesc:afb2c417ed000c8b9dcf499ab9f5a30ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to iterate over a <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes.  <a href="#afb2c417ed000c8b9dcf499ab9f5a30ee">More...</a><br/></td></tr>
+<tr class="separator:afb2c417ed000c8b9dcf499ab9f5a30ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098362014311657068e1dfa736d74ec5"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
+std::string &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a098362014311657068e1dfa736d74ec5">const_attr_iterator</a></td></tr>
+<tr class="memdesc:a098362014311657068e1dfa736d74ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to iterate over a <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes.  <a href="#a098362014311657068e1dfa736d74ec5">More...</a><br/></td></tr>
+<tr class="separator:a098362014311657068e1dfa736d74ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:ae6e0c3440c60484c1fa97e06efdae280"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ae6e0c3440c60484c1fa97e06efdae280">XMLElement</a> ()</td></tr>
-<tr class="memdesc:ae6e0c3440c60484c1fa97e06efdae280"><td class="mdescLeft">&#160;</td><td class="mdescRight">default ctor  <a href="#ae6e0c3440c60484c1fa97e06efdae280">More...</a><br/></td></tr>
-<tr class="separator:ae6e0c3440c60484c1fa97e06efdae280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d146dd668f5099a0998d670ffa8f9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad2d146dd668f5099a0998d670ffa8f9a">XMLElement</a> (const std::string &amp;tag)</td></tr>
-<tr class="memdesc:ad2d146dd668f5099a0998d670ffa8f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em>  <a href="#ad2d146dd668f5099a0998d670ffa8f9a">More...</a><br/></td></tr>
-<tr class="separator:ad2d146dd668f5099a0998d670ffa8f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#acbe8c3111d8eca7ccf85a19b9ff8a73f">XMLElement</a> (const std::string &amp;tag, const std::string &amp;text)</td></tr>
-<tr class="memdesc:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em> and text <em>text</em>  <a href="#acbe8c3111d8eca7ccf85a19b9ff8a73f">More...</a><br/></td></tr>
-<tr class="separator:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0b47b451873b0790e57247ef475fce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a5e0b47b451873b0790e57247ef475fce">XMLElement</a> (const std::string &amp;tag, const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;body)</td></tr>
-<tr class="memdesc:a5e0b47b451873b0790e57247ef475fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em> and a single child <em>body</em>  <a href="#a5e0b47b451873b0790e57247ef475fce">More...</a><br/></td></tr>
-<tr class="separator:a5e0b47b451873b0790e57247ef475fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:aa9a541665423f74014255a0713afa33d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aa9a541665423f74014255a0713afa33d">Tag</a> () const </td></tr>
-<tr class="memdesc:aa9a541665423f74014255a0713afa33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#aa9a541665423f74014255a0713afa33d">More...</a><br/></td></tr>
+<tr class="memdesc:aa9a541665423f74014255a0713afa33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the the tag-name of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#aa9a541665423f74014255a0713afa33d">More...</a><br/></td></tr>
 <tr class="separator:aa9a541665423f74014255a0713afa33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1d767a62a4f53e2683b18e41fcea09"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a7c1d767a62a4f53e2683b18e41fcea09">Text</a> () const </td></tr>
-<tr class="memdesc:a7c1d767a62a4f53e2683b18e41fcea09"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the text of this <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a7c1d767a62a4f53e2683b18e41fcea09">More...</a><br/></td></tr>
+<tr class="memdesc:a7c1d767a62a4f53e2683b18e41fcea09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the text body of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a7c1d767a62a4f53e2683b18e41fcea09">More...</a><br/></td></tr>
 <tr class="separator:a7c1d767a62a4f53e2683b18e41fcea09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79924913a7a3c2bc5db84146161994ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea">NumChildren</a> () const </td></tr>
-<tr class="memdesc:a79924913a7a3c2bc5db84146161994ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of children in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a79924913a7a3c2bc5db84146161994ea">More...</a><br/></td></tr>
+<tr class="memdesc:a79924913a7a3c2bc5db84146161994ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of child nodes inside this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a79924913a7a3c2bc5db84146161994ea">More...</a><br/></td></tr>
 <tr class="separator:a79924913a7a3c2bc5db84146161994ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76e05fde3a9dc708a70343cd26262b5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a76e05fde3a9dc708a70343cd26262b5b">NumAttributes</a> () const </td></tr>
-<tr class="memdesc:a76e05fde3a9dc708a70343cd26262b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of attributes in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a76e05fde3a9dc708a70343cd26262b5b">More...</a><br/></td></tr>
+<tr class="memdesc:a76e05fde3a9dc708a70343cd26262b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of attributes attached to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a76e05fde3a9dc708a70343cd26262b5b">More...</a><br/></td></tr>
 <tr class="separator:a76e05fde3a9dc708a70343cd26262b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c28ad567e79ac952d4d640c557db693"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a7c28ad567e79ac952d4d640c557db693">ContainsChild</a> (const std::string &amp;child) const </td></tr>
-<tr class="memdesc:a7c28ad567e79ac952d4d640c557db693"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the element contains a child called <em>name</em>  <a href="#a7c28ad567e79ac952d4d640c557db693">More...</a><br/></td></tr>
-<tr class="separator:a7c28ad567e79ac952d4d640c557db693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50976d8baf3c71f37870dd2af70f42b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a50976d8baf3c71f37870dd2af70f42b5">ContainsAttribute</a> (const std::string &amp;attrib) const </td></tr>
-<tr class="memdesc:a50976d8baf3c71f37870dd2af70f42b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the element contains an attribute called <em>name</em>  <a href="#a50976d8baf3c71f37870dd2af70f42b5">More...</a><br/></td></tr>
-<tr class="separator:a50976d8baf3c71f37870dd2af70f42b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d7f003544966e5b2fef2dd80975f61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a11d7f003544966e5b2fef2dd80975f61">ChildIndex</a> (const std::string &amp;child) const </td></tr>
-<tr class="memdesc:a11d7f003544966e5b2fef2dd80975f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the child called <em>name</em>, or -1 if not found  <a href="#a11d7f003544966e5b2fef2dd80975f61">More...</a><br/></td></tr>
-<tr class="separator:a11d7f003544966e5b2fef2dd80975f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3301d7b61c090666e9e40a95ba195035"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a3301d7b61c090666e9e40a95ba195035">Child</a> (unsigned int idx) const </td></tr>
-<tr class="separator:a3301d7b61c090666e9e40a95ba195035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec178d4b2d4d3e6a107a02fbf4619b27"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aec178d4b2d4d3e6a107a02fbf4619b27">Child</a> (const std::string &amp;child) const </td></tr>
-<tr class="separator:aec178d4b2d4d3e6a107a02fbf4619b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996508e4849ecdb1b73a96613a1bbd41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a996508e4849ecdb1b73a96613a1bbd41">ContainsChild</a> (const std::string &amp;tag) const </td></tr>
+<tr class="memdesc:a996508e4849ecdb1b73a96613a1bbd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> contains a child with <code>tag</code> as tag-name.  <a href="#a996508e4849ecdb1b73a96613a1bbd41">More...</a><br/></td></tr>
+<tr class="separator:a996508e4849ecdb1b73a96613a1bbd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd4e5250815a0828cdcd82be1d275763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#afd4e5250815a0828cdcd82be1d275763">ContainsAttribute</a> (const std::string &amp;key) const </td></tr>
+<tr class="memdesc:afd4e5250815a0828cdcd82be1d275763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> contains an attribute with the attribute key <code>key</code>.  <a href="#afd4e5250815a0828cdcd82be1d275763">More...</a><br/></td></tr>
+<tr class="separator:afd4e5250815a0828cdcd82be1d275763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f7bc628cda10c322ac8634b06faa51c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a2f7bc628cda10c322ac8634b06faa51c">ChildIndex</a> (const std::string &amp;tag) const </td></tr>
+<tr class="memdesc:a2f7bc628cda10c322ac8634b06faa51c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the first child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with <code>tag</code> as tag-name or -1 if none found.  <a href="#a2f7bc628cda10c322ac8634b06faa51c">More...</a><br/></td></tr>
+<tr class="separator:a2f7bc628cda10c322ac8634b06faa51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ac10df0bb2bf0c4cebe3098af9a84f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad8ac10df0bb2bf0c4cebe3098af9a84f">Child</a> (unsigned int index) const </td></tr>
+<tr class="memdesc:ad8ac10df0bb2bf0c4cebe3098af9a84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ad8ac10df0bb2bf0c4cebe3098af9a84f">More...</a><br/></td></tr>
+<tr class="separator:ad8ac10df0bb2bf0c4cebe3098af9a84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cdfd4314fd26fbcf3fd1294afbf0e9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#af4cdfd4314fd26fbcf3fd1294afbf0e9">Child</a> (const std::string &amp;tag) const </td></tr>
+<tr class="memdesc:af4cdfd4314fd26fbcf3fd1294afbf0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child that has <code>tag</code> as tag-name.  <a href="#af4cdfd4314fd26fbcf3fd1294afbf0e9">More...</a><br/></td></tr>
+<tr class="separator:af4cdfd4314fd26fbcf3fd1294afbf0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3fee596599c962aa2db583d90523117"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aa3fee596599c962aa2db583d90523117">LastChild</a> () const </td></tr>
+<tr class="memdesc:aa3fee596599c962aa2db583d90523117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#aa3fee596599c962aa2db583d90523117">More...</a><br/></td></tr>
 <tr class="separator:aa3fee596599c962aa2db583d90523117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85aff87c9840a40a88a0e643bff1b7d6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a85aff87c9840a40a88a0e643bff1b7d6">Attribute</a> (const std::string &amp;attrib) const </td></tr>
-<tr class="separator:a85aff87c9840a40a88a0e643bff1b7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dae50b78b3b4f0310c3b497743e4da6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a4dae50b78b3b4f0310c3b497743e4da6">Attribute</a> (const std::string &amp;key) const </td></tr>
+<tr class="memdesc:a4dae50b78b3b4f0310c3b497743e4da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the attribute with name <code>key</code> or an empty string if there is no with attribute with this key.  <a href="#a4dae50b78b3b4f0310c3b497743e4da6">More...</a><br/></td></tr>
+<tr class="separator:a4dae50b78b3b4f0310c3b497743e4da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a486644805342c20a02163443d35c553a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement</a> (std::ostream &amp;os, int indent=0, bool whitespace=true) const </td></tr>
+<tr class="memdesc:a486644805342c20a02163443d35c553a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> XML formatted into the given output stream <code>os</code> with indentation level <code>indent</code> when <code>whitespace</code> is set.  <a href="#a486644805342c20a02163443d35c553a">More...</a><br/></td></tr>
 <tr class="separator:a486644805342c20a02163443d35c553a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef583ba72503ca671703df9e1748af95"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aef583ba72503ca671703df9e1748af95">WriteElement</a> (int indent=0, bool whitespace=true) const </td></tr>
-<tr class="memdesc:aef583ba72503ca671703df9e1748af95"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#aef583ba72503ca671703df9e1748af95">More...</a><br/></td></tr>
+<tr class="memdesc:aef583ba72503ca671703df9e1748af95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> XML formatted as string with indentation level <code>indent</code> when <code>whitespace</code> is set.  <a href="#aef583ba72503ca671703df9e1748af95">More...</a><br/></td></tr>
 <tr class="separator:aef583ba72503ca671703df9e1748af95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17eab26b7925be25eb2dc76a6612e7da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a9b1acd9cf52e93dcf7b27b6354dcd791">const_child_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a17eab26b7925be25eb2dc76a6612e7da">child_begin</a> () const </td></tr>
-<tr class="memdesc:a17eab26b7925be25eb2dc76a6612e7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">const_iterator to the first child in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a17eab26b7925be25eb2dc76a6612e7da">More...</a><br/></td></tr>
+<tr class="memdesc:a17eab26b7925be25eb2dc76a6612e7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the first child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a17eab26b7925be25eb2dc76a6612e7da">More...</a><br/></td></tr>
 <tr class="separator:a17eab26b7925be25eb2dc76a6612e7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a662f9f5ab4df67bcdea34797cf5d93f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a9b1acd9cf52e93dcf7b27b6354dcd791">const_child_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a662f9f5ab4df67bcdea34797cf5d93f9">child_end</a> () const </td></tr>
-<tr class="memdesc:a662f9f5ab4df67bcdea34797cf5d93f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const_iterator to the last + 1 child in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a662f9f5ab4df67bcdea34797cf5d93f9">More...</a><br/></td></tr>
+<tr class="memdesc:a662f9f5ab4df67bcdea34797cf5d93f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the one beyond last child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a662f9f5ab4df67bcdea34797cf5d93f9">More...</a><br/></td></tr>
 <tr class="separator:a662f9f5ab4df67bcdea34797cf5d93f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190829cc7943be29dc38e7d78a66d918"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a098362014311657068e1dfa736d74ec5">const_attr_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a190829cc7943be29dc38e7d78a66d918">attr_begin</a> () const </td></tr>
-<tr class="memdesc:a190829cc7943be29dc38e7d78a66d918"><td class="mdescLeft">&#160;</td><td class="mdescRight">const_iterator to the first attribute in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a190829cc7943be29dc38e7d78a66d918">More...</a><br/></td></tr>
+<tr class="memdesc:a190829cc7943be29dc38e7d78a66d918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the first attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a190829cc7943be29dc38e7d78a66d918">More...</a><br/></td></tr>
 <tr class="separator:a190829cc7943be29dc38e7d78a66d918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab688f7d335fa6a5dcc61533a5b59b3df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a098362014311657068e1dfa736d74ec5">const_attr_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ab688f7d335fa6a5dcc61533a5b59b3df">attr_end</a> () const </td></tr>
-<tr class="memdesc:ab688f7d335fa6a5dcc61533a5b59b3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">const_iterator to the last + 1 attribute in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#ab688f7d335fa6a5dcc61533a5b59b3df">More...</a><br/></td></tr>
+<tr class="memdesc:ab688f7d335fa6a5dcc61533a5b59b3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the one beyond last attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ab688f7d335fa6a5dcc61533a5b59b3df">More...</a><br/></td></tr>
 <tr class="separator:ab688f7d335fa6a5dcc61533a5b59b3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
-<tr class="memitem:a821c62976a9d7718e3bb7078f49cb99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a821c62976a9d7718e3bb7078f49cb99f">Child</a> (unsigned int idx)</td></tr>
-<tr class="separator:a821c62976a9d7718e3bb7078f49cb99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c919950c8313923f11df43f08e5657d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a2c919950c8313923f11df43f08e5657d">Child</a> (const std::string &amp;child)</td></tr>
-<tr class="separator:a2c919950c8313923f11df43f08e5657d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567cfcac0f67bbeb93c6635d458abeef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a567cfcac0f67bbeb93c6635d458abeef">Child</a> (unsigned int index)</td></tr>
+<tr class="memdesc:a567cfcac0f67bbeb93c6635d458abeef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a567cfcac0f67bbeb93c6635d458abeef">More...</a><br/></td></tr>
+<tr class="separator:a567cfcac0f67bbeb93c6635d458abeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab735dc91fe8f54b4cb239bdaa0c1c8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aab735dc91fe8f54b4cb239bdaa0c1c8f">Child</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:aab735dc91fe8f54b4cb239bdaa0c1c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child that has <code>tag</code> as tag-name.  <a href="#aab735dc91fe8f54b4cb239bdaa0c1c8f">More...</a><br/></td></tr>
+<tr class="separator:aab735dc91fe8f54b4cb239bdaa0c1c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c6d45fd995cb9f769dae8046473f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ae2c6d45fd995cb9f769dae8046473f70">LastChild</a> ()</td></tr>
+<tr class="memdesc:ae2c6d45fd995cb9f769dae8046473f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ae2c6d45fd995cb9f769dae8046473f70">More...</a><br/></td></tr>
 <tr class="separator:ae2c6d45fd995cb9f769dae8046473f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd483962bb9e5bc0ab28c282e31754fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#abd483962bb9e5bc0ab28c282e31754fc">SetAttribute</a> (const std::string &amp;attrib, const std::string &amp;val)</td></tr>
-<tr class="separator:abd483962bb9e5bc0ab28c282e31754fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d5dc696ddb92bd78cdac8818d2e9fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a91d5dc696ddb92bd78cdac8818d2e9fb">SetAttribute</a> (const std::string &amp;key, const std::string &amp;value)</td></tr>
+<tr class="memdesc:a91d5dc696ddb92bd78cdac8818d2e9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <code>value</code> of the attribute <code>key</code> in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a91d5dc696ddb92bd78cdac8818d2e9fb">More...</a><br/></td></tr>
+<tr class="separator:a91d5dc696ddb92bd78cdac8818d2e9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc73527883fe36d0c73310eaf25bb4ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#abc73527883fe36d0c73310eaf25bb4ed">SetTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:abc73527883fe36d0c73310eaf25bb4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the tag-name of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> to <code>tag</code>.  <a href="#abc73527883fe36d0c73310eaf25bb4ed">More...</a><br/></td></tr>
 <tr class="separator:abc73527883fe36d0c73310eaf25bb4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ce51c3b959d5e697b982a3944db0981"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">SetText</a> (const std::string &amp;text)</td></tr>
+<tr class="memdesc:a8ce51c3b959d5e697b982a3944db0981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the text content of this XMLEement to <code>text</code>.  <a href="#a8ce51c3b959d5e697b982a3944db0981">More...</a><br/></td></tr>
 <tr class="separator:a8ce51c3b959d5e697b982a3944db0981"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b5c65ebf9abdb90acf335e870e6b7a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a6b5c65ebf9abdb90acf335e870e6b7a0">RemoveAttribute</a> (const std::string &amp;attrib)</td></tr>
-<tr class="separator:a6b5c65ebf9abdb90acf335e870e6b7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4c5a14c60fdd77aa0f0a07f0e68025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#adb4c5a14c60fdd77aa0f0a07f0e68025">RemoveAttribute</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:adb4c5a14c60fdd77aa0f0a07f0e68025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the attribute with <code>key</code> from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#adb4c5a14c60fdd77aa0f0a07f0e68025">More...</a><br/></td></tr>
+<tr class="separator:adb4c5a14c60fdd77aa0f0a07f0e68025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a403298019375eef9016ed35105ad5f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a403298019375eef9016ed35105ad5f29">RemoveAttributes</a> ()</td></tr>
+<tr class="memdesc:a403298019375eef9016ed35105ad5f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all attributes from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a403298019375eef9016ed35105ad5f29">More...</a><br/></td></tr>
 <tr class="separator:a403298019375eef9016ed35105ad5f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb7d25e6a34bbf89010d619a6a62d680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aeb7d25e6a34bbf89010d619a6a62d680">AppendChild</a> (const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;e)</td></tr>
-<tr class="separator:aeb7d25e6a34bbf89010d619a6a62d680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4baa12da5656062e0acd3bf3a01698e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a4baa12da5656062e0acd3bf3a01698e9">AppendChild</a> (const std::string &amp;child)</td></tr>
-<tr class="separator:a4baa12da5656062e0acd3bf3a01698e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e13bd9f2f1f7c3e72b4437e97b3d3d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a1e13bd9f2f1f7c3e72b4437e97b3d3d9">AddChildBefore</a> (const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;e, unsigned int idx)</td></tr>
-<tr class="separator:a1e13bd9f2f1f7c3e72b4437e97b3d3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a199fb0d524c21f3026724539d2f68984"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a199fb0d524c21f3026724539d2f68984">RemoveChild</a> (unsigned int idx)</td></tr>
-<tr class="separator:a199fb0d524c21f3026724539d2f68984"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a385fe1e1e6b111ea61b8f45b3e369f28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a385fe1e1e6b111ea61b8f45b3e369f28">RemoveChild</a> (const std::string &amp;child)</td></tr>
-<tr class="separator:a385fe1e1e6b111ea61b8f45b3e369f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8db66289c6e7f278ee7276080b22cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#acc8db66289c6e7f278ee7276080b22cc">AppendChild</a> (const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;child)</td></tr>
+<tr class="memdesc:acc8db66289c6e7f278ee7276080b22cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a given child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> <code>child</code> to the end of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#acc8db66289c6e7f278ee7276080b22cc">More...</a><br/></td></tr>
+<tr class="separator:acc8db66289c6e7f278ee7276080b22cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3c846c2527a31304cbec703e751581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a2b3c846c2527a31304cbec703e751581">AppendChild</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:a2b3c846c2527a31304cbec703e751581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an new empty <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the tag-name <code>tag</code> and appends it to the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a2b3c846c2527a31304cbec703e751581">More...</a><br/></td></tr>
+<tr class="separator:a2b3c846c2527a31304cbec703e751581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e584825493856b6486ee89169b2bf7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a2e584825493856b6486ee89169b2bf7d">AddChildBefore</a> (const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;child, unsigned int index)</td></tr>
+<tr class="memdesc:a2e584825493856b6486ee89169b2bf7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a given child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> <code>child</code> before the child element at the <code>indexed</code> position in the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a2e584825493856b6486ee89169b2bf7d">More...</a><br/></td></tr>
+<tr class="separator:a2e584825493856b6486ee89169b2bf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c6023fbccadd6bcee19321bc6e8c5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a01c6023fbccadd6bcee19321bc6e8c5a">RemoveChild</a> (unsigned int index)</td></tr>
+<tr class="memdesc:a01c6023fbccadd6bcee19321bc6e8c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a01c6023fbccadd6bcee19321bc6e8c5a">More...</a><br/></td></tr>
+<tr class="separator:a01c6023fbccadd6bcee19321bc6e8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d98e42e63fcacc417bb1d21900128b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a9d98e42e63fcacc417bb1d21900128b7">RemoveChild</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:a9d98e42e63fcacc417bb1d21900128b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child with the tag-name <code>tag</code> from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a9d98e42e63fcacc417bb1d21900128b7">More...</a><br/></td></tr>
+<tr class="separator:a9d98e42e63fcacc417bb1d21900128b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c252b0c78c82381102bf0c94966c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ac2c252b0c78c82381102bf0c94966c2c">RemoveChildren</a> ()</td></tr>
+<tr class="memdesc:ac2c252b0c78c82381102bf0c94966c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all children from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ac2c252b0c78c82381102bf0c94966c2c">More...</a><br/></td></tr>
 <tr class="separator:ac2c252b0c78c82381102bf0c94966c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c84e8efc57697f4a3954c8e5b0fa55b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a843d46e06a446b474e7026b4fd5a2a63">child_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a1c84e8efc57697f4a3954c8e5b0fa55b">child_begin</a> ()</td></tr>
-<tr class="memdesc:a1c84e8efc57697f4a3954c8e5b0fa55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first child in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a1c84e8efc57697f4a3954c8e5b0fa55b">More...</a><br/></td></tr>
+<tr class="memdesc:a1c84e8efc57697f4a3954c8e5b0fa55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the first child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a1c84e8efc57697f4a3954c8e5b0fa55b">More...</a><br/></td></tr>
 <tr class="separator:a1c84e8efc57697f4a3954c8e5b0fa55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf021c0b82596211821374f256f5b82e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#a843d46e06a446b474e7026b4fd5a2a63">child_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aaf021c0b82596211821374f256f5b82e">child_end</a> ()</td></tr>
-<tr class="memdesc:aaf021c0b82596211821374f256f5b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1 child in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#aaf021c0b82596211821374f256f5b82e">More...</a><br/></td></tr>
+<tr class="memdesc:aaf021c0b82596211821374f256f5b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the one beyond last child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#aaf021c0b82596211821374f256f5b82e">More...</a><br/></td></tr>
 <tr class="separator:aaf021c0b82596211821374f256f5b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08eaf155896f4e18b5458bb1ba4f09b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#afb2c417ed000c8b9dcf499ab9f5a30ee">attr_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a08eaf155896f4e18b5458bb1ba4f09b6">attr_begin</a> ()</td></tr>
-<tr class="memdesc:a08eaf155896f4e18b5458bb1ba4f09b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first attribute in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#a08eaf155896f4e18b5458bb1ba4f09b6">More...</a><br/></td></tr>
+<tr class="memdesc:a08eaf155896f4e18b5458bb1ba4f09b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the first attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#a08eaf155896f4e18b5458bb1ba4f09b6">More...</a><br/></td></tr>
 <tr class="separator:a08eaf155896f4e18b5458bb1ba4f09b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede15894356e437c32af28408c2eb334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXMLElement.html#afb2c417ed000c8b9dcf499ab9f5a30ee">attr_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aede15894356e437c32af28408c2eb334">attr_end</a> ()</td></tr>
-<tr class="memdesc:aede15894356e437c32af28408c2eb334"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1 attribute in the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#aede15894356e437c32af28408c2eb334">More...</a><br/></td></tr>
+<tr class="memdesc:aede15894356e437c32af28408c2eb334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an iterator to the one beyond last attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#aede15894356e437c32af28408c2eb334">More...</a><br/></td></tr>
 <tr class="separator:aede15894356e437c32af28408c2eb334"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a8ec4a82ffc8f17427b275832557a66f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a8ec4a82ffc8f17427b275832557a66f5">XMLElement</a> (const std::string &amp;t, bool r)</td></tr>
-<tr class="separator:a8ec4a82ffc8f17427b275832557a66f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aad0b194ab404be5988ab3ddf2e18729d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <br class="typebreak"/>
 std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a></td></tr>
-<tr class="memdesc:aad0b194ab404be5988ab3ddf2e18729d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the attributes of the <a class="el" href="classXMLElement.html">XMLElement</a>, stored as key-value pairs  <a href="#aad0b194ab404be5988ab3ddf2e18729d">More...</a><br/></td></tr>
+<tr class="memdesc:aad0b194ab404be5988ab3ddf2e18729d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the attributes associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> by key name mapping.  <a href="#aad0b194ab404be5988ab3ddf2e18729d">More...</a><br/></td></tr>
 <tr class="separator:aad0b194ab404be5988ab3ddf2e18729d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a1888dc41ed97efd4d8849500acbdb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classXMLElement.html">XMLElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a></td></tr>
-<tr class="memdesc:ac7a1888dc41ed97efd4d8849500acbdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">the <a class="el" href="classXMLElement.html">XMLElement</a> children of this <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#ac7a1888dc41ed97efd4d8849500acbdb">More...</a><br/></td></tr>
+<tr class="memdesc:ac7a1888dc41ed97efd4d8849500acbdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a list of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ac7a1888dc41ed97efd4d8849500acbdb">More...</a><br/></td></tr>
 <tr class="separator:ac7a1888dc41ed97efd4d8849500acbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32075d99e2b48fede1e6b7502679844"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad32075d99e2b48fede1e6b7502679844">m_root</a></td></tr>
-<tr class="memdesc:ad32075d99e2b48fede1e6b7502679844"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if this <a class="el" href="classXMLElement.html">XMLElement</a> is the root element of an <a class="el" href="classXMLDoc.html">XMLDoc</a> document  <a href="#ad32075d99e2b48fede1e6b7502679844">More...</a><br/></td></tr>
+<tr class="memdesc:ad32075d99e2b48fede1e6b7502679844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to true if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> is the root element of an <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a> document.  <a href="#ad32075d99e2b48fede1e6b7502679844">More...</a><br/></td></tr>
 <tr class="separator:ad32075d99e2b48fede1e6b7502679844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41404ae97a8a7b874e47667a0c38cbf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">m_tag</a></td></tr>
-<tr class="memdesc:ad41404ae97a8a7b874e47667a0c38cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#ad41404ae97a8a7b874e47667a0c38cbf">More...</a><br/></td></tr>
+<tr class="memdesc:ad41404ae97a8a7b874e47667a0c38cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the tag-name associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ad41404ae97a8a7b874e47667a0c38cbf">More...</a><br/></td></tr>
 <tr class="separator:ad41404ae97a8a7b874e47667a0c38cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad062fc58cd41be3e243f845d1e6df3d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad062fc58cd41be3e243f845d1e6df3d6">m_text</a></td></tr>
-<tr class="memdesc:ad062fc58cd41be3e243f845d1e6df3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the text of this <a class="el" href="classXMLElement.html">XMLElement</a>  <a href="#ad062fc58cd41be3e243f845d1e6df3d6">More...</a><br/></td></tr>
+<tr class="memdesc:ad062fc58cd41be3e243f845d1e6df3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the text content associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>.  <a href="#ad062fc58cd41be3e243f845d1e6df3d6">More...</a><br/></td></tr>
 <tr class="separator:ad062fc58cd41be3e243f845d1e6df3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:aeff7f97b07cae6b67b3c85e7aec7b739"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#aeff7f97b07cae6b67b3c85e7aec7b739">XMLDoc</a></td></tr>
 <tr class="separator:aeff7f97b07cae6b67b3c85e7aec7b739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Structors</h2></td></tr>
+<tr class="memitem:ae6e0c3440c60484c1fa97e06efdae280"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ae6e0c3440c60484c1fa97e06efdae280">XMLElement</a> ()</td></tr>
+<tr class="memdesc:ae6e0c3440c60484c1fa97e06efdae280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with an empty tag-name assigned.  <a href="#ae6e0c3440c60484c1fa97e06efdae280">More...</a><br/></td></tr>
+<tr class="separator:ae6e0c3440c60484c1fa97e06efdae280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d146dd668f5099a0998d670ffa8f9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#ad2d146dd668f5099a0998d670ffa8f9a">XMLElement</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:ad2d146dd668f5099a0998d670ffa8f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name.  <a href="#ad2d146dd668f5099a0998d670ffa8f9a">More...</a><br/></td></tr>
+<tr class="separator:ad2d146dd668f5099a0998d670ffa8f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#acbe8c3111d8eca7ccf85a19b9ff8a73f">XMLElement</a> (const std::string &amp;tag, const std::string &amp;text)</td></tr>
+<tr class="memdesc:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and <code>text</code> content.  <a href="#acbe8c3111d8eca7ccf85a19b9ff8a73f">More...</a><br/></td></tr>
+<tr class="separator:acbe8c3111d8eca7ccf85a19b9ff8a73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0b47b451873b0790e57247ef475fce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a5e0b47b451873b0790e57247ef475fce">XMLElement</a> (const std::string &amp;tag, const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;body)</td></tr>
+<tr class="memdesc:a5e0b47b451873b0790e57247ef475fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and <code>body</code> a single child element.  <a href="#a5e0b47b451873b0790e57247ef475fce">More...</a><br/></td></tr>
+<tr class="separator:a5e0b47b451873b0790e57247ef475fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0d01aede53e4a97e0d7c9d16dbc9bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLElement.html#a2b0d01aede53e4a97e0d7c9d16dbc9bd">XMLElement</a> (const std::string &amp;tag, bool root)</td></tr>
+<tr class="memdesc:a2b0d01aede53e4a97e0d7c9d16dbc9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and marked as root node, if <code>root</code> is set.  <a href="#a2b0d01aede53e4a97e0d7c9d16dbc9bd">More...</a><br/></td></tr>
+<tr class="separator:a2b0d01aede53e4a97e0d7c9d16dbc9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>encapsulates an XML element (from a &lt;&gt; tag to a &lt;/&gt; tag). <a class="el" href="classXMLElement.html">XMLElement</a> is a simplified XML element, consisting only of a tag, a single text string, attributes and child elements. It is designed to represent C++ objects to allow them to easily be saved to/loaded from disk and serialized to be sent over a network connection. It is <em>not</em> designed to represent documents. So this: </p>
-<pre class="fragment">  &lt;burns&gt;Say &lt;quote&gt;Goodnight&lt;/quote&gt; Gracie.&lt;/burns&gt; 
-</pre><p> may not work as you might think. You will end up with both the "Say " and the " Gracie." together. So burns.Text() == "Say  Gracie.". If, however, you wanted to represent an object bar of class foo: </p>
-<pre class="fragment">  class foo
-  {
-     int ref_ct;
-     double data;
-  };
-</pre><p> you might do something like this: </p>
-<pre class="fragment">  &lt;bar&gt;
-     &lt;foo&gt;
-        &lt;ref_ct&gt;13&lt;ref_ct/&gt;
-        &lt;data&gt;0.364951&lt;data/&gt;
-     &lt;/foo&gt;
-  &lt;/bar&gt;
-</pre><p> Further, while that example is standard XML, an <a class="el" href="classXMLElement.html">XMLElement</a> optionally accepts its single text string in quotes, and strips off trailing whitespace, in direct contrary to the XML standard. So "burns" from above is equivalent to: </p>
-<pre class="fragment">  &lt;burns&gt;"Say  Gracie."&lt;quote&gt;Goodnight&lt;/quote&gt;&lt;/burns&gt; 
-</pre><p> or: </p>
-<pre class="fragment">  &lt;burns&gt;Say  Gracie.&lt;quote&gt;Goodnight&lt;/quote&gt;&lt;/burns&gt; 
-</pre><p> or: </p>
-<pre class="fragment">  &lt;burns&gt;"Say  Gracie."
-     &lt;quote&gt;Goodnight&lt;/quote&gt;
-  &lt;/burns&gt; 
-</pre><p> or: </p>
-<pre class="fragment">  &lt;burns&gt;Say  Gracie.
-     &lt;quote&gt;Goodnight&lt;/quote&gt;
-  &lt;/burns&gt; 
-</pre><p> Each of these yields a burns.Text() of "Say  Gracie.". When an <a class="el" href="classXMLElement.html">XMLElement</a> is saved, its text is saved within a CDATA section. Any string can be put inside one of these quoted text fields, even text that includes an arbitrary number of quotes. So you can assign any std::string or c-string to an element. However, when hand-editing an XML file containing such text strings, you need to be a bit careful. The closing quote must be the last thing other than whitespace. Adding more than one quoted text string to the XML element, with each string separated by other elements, will result in a single concatenated string, as illustrated above. This is not the most time- or space-efficient way to organize object data, but it may just be one of the simplest and most easily read. </p>
+<div class="textblock"><p>Represents a simplified XML markup element. </p>
+<p>An <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> represents a XML element from the opening tag * &lt;tag-name&gt;, including its attributes to the corresponding closing tag &lt;/tag-name&gt;. This may or may not include a text data section <b>OR</b> child XML elements.</p>
+<p>Using the "burns" example: </p>
+<div class="fragment"><div class="line">&lt;burns&gt;Say &lt;quote&gt;Goodnight&lt;/quote&gt; Gracie.&lt;/burns&gt;</div>
+</div><!-- fragment --><p>may not work as expected. The resulting <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> &lt;burns&gt; node will contain both the "Say " and the " Gracie." text fragment. Or represented differently:</p>
+<div class="fragment"><div class="line">burns.Text() == <span class="stringliteral">&quot;Say  Gracie.&quot;</span></div>
+</div><!-- fragment --><p>However, if used to represent data structures like the example struct foo:</p>
+<div class="fragment"><div class="line"><span class="keyword">struct </span>foo</div>
+<div class="line">{</div>
+<div class="line">   <span class="keywordtype">int</span> ref_ct;</div>
+<div class="line">   <span class="keywordtype">double</span> data;</div>
+<div class="line">};</div>
+</div><!-- fragment --><p>the current implementation creates a XML representation similar to:</p>
+<div class="fragment"><div class="line">&lt;bar&gt;</div>
+<div class="line">  &lt;foo&gt;</div>
+<div class="line">    &lt;ref_ct&gt;13&lt;ref_ct/&gt;</div>
+<div class="line">    &lt;data&gt;0.364951&lt;data/&gt;</div>
+<div class="line">  &lt;/foo&gt;</div>
+<div class="line">&lt;/bar&gt;</div>
+</div><!-- fragment --><p>Further, while the "burns" example is standard XML, an <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> optionally accepts its single text string in quotes, and strips off trailing white space, in direct contrary to the XML standard. So "burns" from above is equivalent to: </p>
+<div class="fragment"><div class="line">&lt;burns&gt;<span class="stringliteral">&quot;Say  Gracie.&quot;</span>&lt;quote&gt;Goodnight&lt;/quote&gt;&lt;/burns&gt;</div>
+</div><!-- fragment --><p> or: </p>
+<div class="fragment"><div class="line">&lt;burns&gt;Say  Gracie.&lt;quote&gt;Goodnight&lt;/quote&gt;&lt;/burns&gt;</div>
+</div><!-- fragment --><p> or: </p>
+<div class="fragment"><div class="line">&lt;burns&gt;<span class="stringliteral">&quot;Say  Gracie.&quot;</span></div>
+<div class="line">  &lt;quote&gt;Goodnight&lt;/quote&gt;</div>
+<div class="line">&lt;/burns&gt;</div>
+</div><!-- fragment --><p> or: </p>
+<div class="fragment"><div class="line">&lt;burns&gt;Say  Gracie.</div>
+<div class="line">  &lt;quote&gt;Goodnight&lt;/quote&gt;</div>
+<div class="line">&lt;/burns&gt;</div>
+</div><!-- fragment --><p>Each of these examples yields to </p>
+<div class="fragment"><div class="line">burns.Text() == <span class="stringliteral">&quot;Say  Gracie.&quot;</span></div>
+</div><!-- fragment --><p>When an <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> is saved, its text is saved within a CDATA section. Any string can be put inside one of these quoted text fields, even text that includes an arbitrary number of quotes. So any std::string or c-string can be assigned to an element. However, when hand-editing an XML file containing such text strings, one needs to be careful. The closing quote must be the last thing other than white space. Adding more than one quoted text string to the XML element, with each string separated by other elements, will result in a single concatenated string, as illustrated above.</p>
+<p>This is not the most time- or space-efficient way to organize object data, but it may just be one of the simplest and most easily read. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="afb2c417ed000c8b9dcf499ab9f5a30ee"></a>
 <div class="memitem">
@@ -294,6 +330,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator to iterate over a <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes. </p>
 
 </div>
 </div>
@@ -307,6 +345,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Iterator to iterate over child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s. </p>
+
 </div>
 </div>
 <a class="anchor" id="a098362014311657068e1dfa736d74ec5"></a>
@@ -319,6 +359,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Iterator to iterate over a <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes. </p>
+
 </div>
 </div>
 <a class="anchor" id="a9b1acd9cf52e93dcf7b27b6354dcd791"></a>
@@ -330,6 +372,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator to iterate over child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s. </p>
 
 </div>
 </div>
@@ -355,9 +399,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>default ctor </p>
+<p>Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with an empty tag-name assigned. </p>
+<p>Create a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with no tag-name, text, attribute or child nodes set. Also the new instance isn't marked as root node. </p>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#a4baa12da5656062e0acd3bf3a01698e9">AppendChild()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#a2b3c846c2527a31304cbec703e751581">AppendChild()</a>.</p>
 
 </div>
 </div>
@@ -383,7 +428,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em> </p>
+<p>Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name. </p>
+<p>Create a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name but no text, attribute or child nodes set. Also the new instance isn't marked as root node.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag name of this XML element. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -419,7 +471,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em> and text <em>text</em> </p>
+<p>Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and <code>text</code> content. </p>
+<p>Create a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and <code>text</code> content, but no attribute or child nodes set. Also the new instance isn't marked as root node.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag name of this XML element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The text assigned to this XML element. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -455,11 +515,18 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> with a tag-name <em>tag</em> and a single child <em>body</em> </p>
+<p>Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and <code>body</code> a single child element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag name of this XML element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">body</td><td>The child XML element assigned as body to this XML element. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a class="anchor" id="a8ec4a82ffc8f17427b275832557a66f5"></a>
+<a class="anchor" id="a2b0d01aede53e4a97e0d7c9d16dbc9bd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -470,13 +537,13 @@ Friends</h2></td></tr>
           <td class="memname">XMLElement::XMLElement </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>t</em>, </td>
+          <td class="paramname"><em>tag</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
+          <td class="paramname"><em>root</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -490,12 +557,21 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>ctor that constructs an <a class="el" href="classXMLElement.html">XMLElement</a> from a tag-name <em>t</em> and a bool <em>r</em> indicating whether it is the root <a class="el" href="classXMLElement.html">XMLElement</a> in an <a class="el" href="classXMLDoc.html">XMLDoc</a> document </p>
+
+<p>Creates a new <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the given <code>tag</code> tag-name and marked as root node, if <code>root</code> is set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag name of this XML element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>When true this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> should be interpreted as root node in a <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> tree.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Called by friend <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a>. </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a1e13bd9f2f1f7c3e72b4437e97b3d3d9"></a>
+<a class="anchor" id="a2e584825493856b6486ee89169b2bf7d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -503,13 +579,13 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::AddChildBefore </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
+          <td class="paramname"><em>child</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>idx</em>&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -518,10 +594,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds a child <em>e</em> in the <em>idx-th</em> position of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Adds a given child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> <code>child</code> before the child element at the <code>indexed</code> position in the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">child</td><td>The <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> to be inserted into the child list. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> where the <code>child</code> put be in front of. The passed value must be between 0 and <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea" title="Returns the number of child nodes inside this XMLElement. ">NumChildren()</a> - 1. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html">XMLElement::NoSuchIndex</a></td><td>An out of range index will cause an exception. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html" title="Thrown when a request for an indexed child element cannot be fulfilled. ">XMLElement::NoSuchIndex</a></td><td>When <code>index</code> is out of range in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -530,7 +614,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb7d25e6a34bbf89010d619a6a62d680"></a>
+<a class="anchor" id="acc8db66289c6e7f278ee7276080b22cc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -538,20 +622,27 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::AppendChild </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds child <a class="el" href="classXMLElement.html">XMLElement</a> <em>e</em> to the end of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+
+<p>Adds a given child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> <code>child</code> to the end of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">child</td><td>The <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> to be appended to the child list. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
-<p>Referenced by <a class="el" href="classVarText.html#a2a56259ada1b2dfe92a90838ebb618a9">VarText::AddVariable()</a>, <a class="el" href="MultiplayerCommon_8h.html#a9f6e07376d681db437fa5631347d3065">ClrToXML()</a>, <a class="el" href="classOptionsDB.html#af694070a51d34771b9a54bb1b6d14dd4">OptionsDB::GetXML()</a>, and <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#aec6fef9aed86fc078c60f186d5c2b51b">anonymous_namespace{SidePanel.cpp}::RotatingPlanetData::XMLEncode()</a>.</p>
+<p>Referenced by <a class="el" href="classVarText.html#a2a56259ada1b2dfe92a90838ebb618a9">VarText::AddVariable()</a>, <a class="el" href="MultiplayerCommon_8h.html#a9f6e07376d681db437fa5631347d3065">ClrToXML()</a>, <a class="el" href="classOptionsDB.html#a13eadd013c36cd2b842cb94b82267dbf">OptionsDB::GetXML()</a>, and <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#aec6fef9aed86fc078c60f186d5c2b51b">anonymous_namespace{SidePanel.cpp}::RotatingPlanetData::XMLEncode()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4baa12da5656062e0acd3bf3a01698e9"></a>
+<a class="anchor" id="a2b3c846c2527a31304cbec703e751581"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -559,12 +650,19 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::AppendChild </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates an empty <a class="el" href="classXMLElement.html">XMLElement</a> with tag-name <em>child</em>, and adds it to the end of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+
+<p>Creates an new empty <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with the tag-name <code>tag</code> and appends it to the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag of the created <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>, and <a class="el" href="classXMLElement.html#ae6e0c3440c60484c1fa97e06efdae280">XMLElement()</a>.</p>
 
@@ -583,7 +681,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>const_iterator to the first attribute in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the first attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -602,7 +700,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>iterator to the first attribute in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the first attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -621,7 +719,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>const_iterator to the last + 1 attribute in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the one beyond last attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -640,13 +738,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>iterator to the last + 1 attribute in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the one beyond last attribute in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a85aff87c9840a40a88a0e643bff1b7d6"></a>
+<a class="anchor" id="a4dae50b78b3b4f0310c3b497743e4da6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -654,12 +752,20 @@ Friends</h2></td></tr>
           <td class="memname">const std::string &amp; XMLElement::Attribute </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>attrib</em></td><td>)</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the value of the attribute with name <em>key</em>, or "" if no such named attribute is found </p>
+
+<p>Returns the value of the attribute with name <code>key</code> or an empty string if there is no with attribute with this key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The attribute key of the searched attribute. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value of the attribute with the <code>key</code> or an empty string if there is no such attribute. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -667,7 +773,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3301d7b61c090666e9e40a95ba195035"></a>
+<a class="anchor" id="ad8ac10df0bb2bf0c4cebe3098af9a84f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -675,15 +781,23 @@ Friends</h2></td></tr>
           <td class="memname">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp; XMLElement::Child </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the child in the <em>idx-th</em> position of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Returns the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> requested. The passed value must be between 0 and <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea" title="Returns the number of child nodes inside this XMLElement. ">NumChildren()</a> - 1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html">XMLElement::NoSuchIndex</a></td><td>An out of range index will cause an exception. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html" title="Thrown when a request for an indexed child element cannot be fulfilled. ">XMLElement::NoSuchIndex</a></td><td>When <code>index</code> is out of range in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -694,7 +808,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aec178d4b2d4d3e6a107a02fbf4619b27"></a>
+<a class="anchor" id="af4cdfd4314fd26fbcf3fd1294afbf0e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -702,15 +816,23 @@ Friends</h2></td></tr>
           <td class="memname">const <a class="el" href="classXMLElement.html">XMLElement</a> &amp; XMLElement::Child </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the child in child list of the <a class="el" href="classXMLElement.html">XMLElement</a> that has the tag-name <em>str</em>. </p>
+
+<p>Returns the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child that has <code>tag</code> as tag-name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag-name of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> requested. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child which has the tag-name <code>tag</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchChild.html">XMLElement::NoSuchChild</a></td><td>An exception is thrown if no child named <em>child</em> exists. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchChild.html" title="Thrown when a request for a tag-name named child element cannot be fulfilled. ">XMLElement::NoSuchChild</a></td><td>When no child with a tag-name <code>tag</code> exists. </td></tr>
   </table>
   </dd>
 </dl>
@@ -719,7 +841,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a821c62976a9d7718e3bb7078f49cb99f"></a>
+<a class="anchor" id="a567cfcac0f67bbeb93c6635d458abeef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -727,15 +849,23 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="classXMLElement.html">XMLElement</a> &amp; XMLElement::Child </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the child in the <em>idx-th</em> position of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Returns the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> requested. The passed value must be between 0 and <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea" title="Returns the number of child nodes inside this XMLElement. ">NumChildren()</a> - 1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">XMLElement:NoSuchIndex</td><td>An out of range index will cause an exception. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html" title="Thrown when a request for an indexed child element cannot be fulfilled. ">XMLElement::NoSuchIndex</a></td><td>When <code>index</code> is out of range in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -744,7 +874,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2c919950c8313923f11df43f08e5657d"></a>
+<a class="anchor" id="aab735dc91fe8f54b4cb239bdaa0c1c8f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -752,15 +882,23 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="classXMLElement.html">XMLElement</a> &amp; XMLElement::Child </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the child in child list of the <a class="el" href="classXMLElement.html">XMLElement</a> that has the tag-name <em>child</em>. </p>
+
+<p>Returns the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child that has <code>tag</code> as tag-name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag-name of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> requested. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the first <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child which has the tag-name <code>tag</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchChild.html">XMLElement::NoSuchChild</a></td><td>An exception is thrown if no child named <em>child</em> exists. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchChild.html" title="Thrown when a request for a tag-name named child element cannot be fulfilled. ">XMLElement::NoSuchChild</a></td><td>When no child with a tag-name <code>tag</code> exists. </td></tr>
   </table>
   </dd>
 </dl>
@@ -782,7 +920,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>const_iterator to the first child in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the first child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
@@ -803,7 +941,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>iterator to the first child in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the first child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
@@ -822,7 +960,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>const_iterator to the last + 1 child in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the one beyond last child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
@@ -843,13 +981,13 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>iterator to the last + 1 child in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return an iterator to the one beyond last child in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a11d7f003544966e5b2fef2dd80975f61"></a>
+<a class="anchor" id="a2f7bc628cda10c322ac8634b06faa51c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -857,21 +995,28 @@ Friends</h2></td></tr>
           <td class="memname">int XMLElement::ChildIndex </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the index of the child called <em>name</em>, or -1 if not found </p>
+<p>Returns the index of the first child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with <code>tag</code> as tag-name or -1 if none found. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag-name of the searched child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the first found child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> with <code>tag</code> as tag-name or -1 of no such child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> can be found. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>, and <a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">m_tag</a>.</p>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#a7c28ad567e79ac952d4d640c557db693">ContainsChild()</a>, and <a class="el" href="classXMLElement.html#a385fe1e1e6b111ea61b8f45b3e369f28">RemoveChild()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#a996508e4849ecdb1b73a96613a1bbd41">ContainsChild()</a>, and <a class="el" href="classXMLElement.html#a9d98e42e63fcacc417bb1d21900128b7">RemoveChild()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a50976d8baf3c71f37870dd2af70f42b5"></a>
+<a class="anchor" id="afd4e5250815a0828cdcd82be1d275763"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -879,13 +1024,20 @@ Friends</h2></td></tr>
           <td class="memname">bool XMLElement::ContainsAttribute </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>attrib</em></td><td>)</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns true if the element contains an attribute called <em>name</em> </p>
+<p>Returns if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> contains an attribute with the attribute key <code>key</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The attribute key of the searched attribute. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if there is an attribute with a <code>key</code>, false if not. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -893,7 +1045,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7c28ad567e79ac952d4d640c557db693"></a>
+<a class="anchor" id="a996508e4849ecdb1b73a96613a1bbd41"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -901,15 +1053,22 @@ Friends</h2></td></tr>
           <td class="memname">bool XMLElement::ContainsChild </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns true if the element contains a child called <em>name</em> </p>
+<p>Returns if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> contains a child with <code>tag</code> as tag-name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag-name of the searched child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if there is at least one child with a <code>tag</code> tag-name, false if not. </dd></dl>
 
-<p>References <a class="el" href="classXMLElement.html#a11d7f003544966e5b2fef2dd80975f61">ChildIndex()</a>.</p>
+<p>References <a class="el" href="classXMLElement.html#a2f7bc628cda10c322ac8634b06faa51c">ChildIndex()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a318342a3291b610e3ea67d68ae35456f">anonymous_namespace{SidePanel.cpp}::GetAsteroidsFPS()</a>, <a class="el" href="classSitRepEntry.html#a46080ced20f3b4cc391dd011bf3cd161">SitRepEntry::GetDataIDNumber()</a>, <a class="el" href="classSitRepEntry.html#a9a409a83e2d4c33d2c29d8e9f63e6f77">SitRepEntry::GetDataString()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a558fad6a50be0ccaaeb183ceeb10f3ab">anonymous_namespace{SidePanel.cpp}::GetRotatingPlanetAmbientIntensity()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#aade6d9c1074c429734399b9763b64c30">anonymous_namespace{SidePanel.cpp}::GetRotatingPlanetData()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a8a861b6e84c4ae3458ac4cf4fdefb93f">anonymous_namespace{SidePanel.cpp}::GetRotatingPlanetDiffuseIntensity()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a83a769fd6468354dde667b98b7b5357a">anonymous_namespace{SidePanel.cpp}::GetStarLightColors()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classIntroScreen.html#a956b535beaf11e43548700ccd7ba6966">IntroScreen::OnCredits()</a>, and <a class="el" href="MultiplayerCommon_8h.html#a9035b458fd3988b5e101619fe627cf72">XMLToClr()</a>.</p>
 
@@ -927,10 +1086,12 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the last child in child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Returns the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">XMLElement:NoSuchIndex</td><td>Calling this on an empty element will cause an exception. </td></tr>
+    <tr><td class="paramname">XMLElement:NoSuchIndex</td><td>When there are no child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s. </td></tr>
   </table>
   </dd>
 </dl>
@@ -951,10 +1112,12 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the last child in child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Returns the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the last <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">XMLElement:NoSuchIndex</td><td>Calling this on an empty element will cause an exception. </td></tr>
+    <tr><td class="paramname">XMLElement:NoSuchIndex</td><td>When there are no child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s. </td></tr>
   </table>
   </dd>
 </dl>
@@ -976,7 +1139,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the number of attributes in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Returns the number of attributes attached to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of attributes attached to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. Is always positive. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -995,7 +1159,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the number of children in the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Returns the number of child nodes inside this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s contained by this this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. Is always positive. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
@@ -1003,7 +1168,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6b5c65ebf9abdb90acf335e870e6b7a0"></a>
+<a class="anchor" id="adb4c5a14c60fdd77aa0f0a07f0e68025"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1011,12 +1176,19 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::RemoveAttribute </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>attrib</em></td><td>)</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>removes attribute <em>attrib</em> from the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+
+<p>Removes the attribute with <code>key</code> from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key of the attribute to be deleted. If no such attribute exist no action is taken. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -1034,13 +1206,14 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>removes all attributes from the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+
+<p>Removes all attributes from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a199fb0d524c21f3026724539d2f68984"></a>
+<a class="anchor" id="a01c6023fbccadd6bcee19321bc6e8c5a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1048,15 +1221,22 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::RemoveChild </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>removes the child in the <em>idx-th</em> position of the child list of the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Removes the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child at the <code>indexed</code> position of the child list of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> that should be removed. The passed value must be between 0 and <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea" title="Returns the number of child nodes inside this XMLElement. ">NumChildren()</a> - 1. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html">XMLElement::NoSuchIndex</a></td><td>An out of range index will cause an exception. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchIndex.html" title="Thrown when a request for an indexed child element cannot be fulfilled. ">XMLElement::NoSuchIndex</a></td><td>When <code>index</code> is out of range in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1065,7 +1245,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a385fe1e1e6b111ea61b8f45b3e369f28"></a>
+<a class="anchor" id="a9d98e42e63fcacc417bb1d21900128b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1073,20 +1253,27 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::RemoveChild </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>child</em></td><td>)</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>removes the child called <em>child</em> from the <a class="el" href="classXMLElement.html">XMLElement</a>. </p>
+
+<p>Removes the <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> child with the tag-name <code>tag</code> from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The tag-name of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> to be deleted. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">XMLElement:NoSuchChild</td><td>An exception is thrown if no child named <em>child</em> exists. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classXMLElement_1_1NoSuchChild.html" title="Thrown when a request for a tag-name named child element cannot be fulfilled. ">XMLElement::NoSuchChild</a></td><td>When no child with a tag-name <code>tag</code> exists. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classXMLElement.html#a11d7f003544966e5b2fef2dd80975f61">ChildIndex()</a>, <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>, and <a class="el" href="classXMLElement.html#aa9a541665423f74014255a0713afa33d">Tag()</a>.</p>
+<p>References <a class="el" href="classXMLElement.html#a2f7bc628cda10c322ac8634b06faa51c">ChildIndex()</a>, <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>, and <a class="el" href="classXMLElement.html#aa9a541665423f74014255a0713afa33d">Tag()</a>.</p>
 
 </div>
 </div>
@@ -1102,13 +1289,14 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>removes all children from the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+
+<p>Removes all children from this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>References <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abd483962bb9e5bc0ab28c282e31754fc"></a>
+<a class="anchor" id="a91d5dc696ddb92bd78cdac8818d2e9fb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1116,13 +1304,13 @@ Friends</h2></td></tr>
           <td class="memname">void XMLElement::SetAttribute </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>attrib</em>, </td>
+          <td class="paramname"><em>key</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>val</em>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1131,7 +1319,16 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets (and possibly overwrites) an attribute <em>attrib</em>, with the value <em>val</em>. </p>
+
+<p>Sets the <code>value</code> of the attribute <code>key</code> in this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<p>When the attribute <code>key</code> already has a value set it will be overwritten with the new <code>value</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key of the attribute to set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The new value the attribute should be set to. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>.</p>
 
@@ -1152,7 +1349,14 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the tag to <em>tag</em> </p>
+
+<p>Sets the tag-name of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> to <code>tag</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tag</td><td>The new tag-name this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> should have. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">m_tag</a>.</p>
 
@@ -1171,11 +1375,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the text to <em>text</em> </p>
+
+<p>Sets the text content of this XMLEement to <code>text</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The new text content this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> should have. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classXMLElement.html#ad062fc58cd41be3e243f845d1e6df3d6">m_text</a>.</p>
 
-<p>Referenced by <a class="el" href="classOptionsDB.html#af694070a51d34771b9a54bb1b6d14dd4">OptionsDB::GetXML()</a>.</p>
+<p>Referenced by <a class="el" href="classOptionsDB.html#a13eadd013c36cd2b842cb94b82267dbf">OptionsDB::GetXML()</a>.</p>
 
 </div>
 </div>
@@ -1192,11 +1403,12 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Returns the the tag-name of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The tag-name of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. Can be an empty string. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">m_tag</a>.</p>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#a1e13bd9f2f1f7c3e72b4437e97b3d3d9">AddChildBefore()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html#ac9f08ac816f4a4072546a6708228ec84">anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::Atmosphere::Atmosphere()</a>, <a class="el" href="classXMLElement.html#aec178d4b2d4d3e6a107a02fbf4619b27">Child()</a>, <a class="el" href="classCreditsWnd.html#a1487d185072d6d0a7e0ed3222d386b8c">CreditsWnd::DrawCredits()</a>, <a class="el" href="classOptionsDB.html#af694070a51d34771b9a54bb1b6d14dd4">OptionsDB::GetXML()</a>, <a class="el" href="classXMLElement.html#aa3fee596599c962aa2db583d90523117">LastChild()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData.html#a313a9698f8bbb549b914744dd0ef8b96">anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::PlanetAtmosphereData()</a>, <a class="el" href="classXMLElement.html#a199fb0d524c21f3026724539d2f68984">RemoveChild()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#a41f93e20559d4adfcc1aad0583771bc8">anonymous_namespace{SidePanel.cpp}::RotatingPlanetData::RotatingPlanetData()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">OptionsDB::SetFromXMLRecursive()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#a2e584825493856b6486ee89169b2bf7d">AddChildBefore()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html#ac9f08ac816f4a4072546a6708228ec84">anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::Atmosphere::Atmosphere()</a>, <a class="el" href="classXMLElement.html#af4cdfd4314fd26fbcf3fd1294afbf0e9">Child()</a>, <a class="el" href="classCreditsWnd.html#a1487d185072d6d0a7e0ed3222d386b8c">CreditsWnd::DrawCredits()</a>, <a class="el" href="classOptionsDB.html#a13eadd013c36cd2b842cb94b82267dbf">OptionsDB::GetXML()</a>, <a class="el" href="classXMLElement.html#aa3fee596599c962aa2db583d90523117">LastChild()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData.html#a313a9698f8bbb549b914744dd0ef8b96">anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::PlanetAtmosphereData()</a>, <a class="el" href="classXMLElement.html#a01c6023fbccadd6bcee19321bc6e8c5a">RemoveChild()</a>, <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#a41f93e20559d4adfcc1aad0583771bc8">anonymous_namespace{SidePanel.cpp}::RotatingPlanetData::RotatingPlanetData()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">OptionsDB::SetFromXMLRecursive()</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1425,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the text of this <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Returns the text body of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The text content of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. Can be an empty string. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#ad062fc58cd41be3e243f845d1e6df3d6">m_text</a>.</p>
 
@@ -1250,11 +1463,21 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>writes the <a class="el" href="classXMLElement.html">XMLElement</a> to an output stream; returns the stream </p>
+
+<p>Write this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> XML formatted into the given output stream <code>os</code> with indentation level <code>indent</code> when <code>whitespace</code> is set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">os</td><td>The output stream this document should be written to. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>The indentation level this element should be indented. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">whitespace</td><td>If set to true the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s are indented and newline separated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The given <code>os</code> output stream. </dd></dl>
 
 <p>References <a class="el" href="chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639">if()</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#af6aec42b475f1d70b9515f4cbe9d49cd">anonymous_namespace{XMLDoc.cpp}::INDENT_STR</a>, <a class="el" href="classXMLElement.html#aad0b194ab404be5988ab3ddf2e18729d">m_attributes</a>, <a class="el" href="classXMLElement.html#ac7a1888dc41ed97efd4d8849500acbdb">m_children</a>, <a class="el" href="classXMLElement.html#ad32075d99e2b48fede1e6b7502679844">m_root</a>, <a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">m_tag</a>, and <a class="el" href="classXMLElement.html#ad062fc58cd41be3e243f845d1e6df3d6">m_text</a>.</p>
 
-<p>Referenced by <a class="el" href="classXMLDoc.html#a17d0fdfc831fc5efd8511e3c13e0c7fb">XMLDoc::WriteDoc()</a>, and <a class="el" href="classXMLElement.html#aef583ba72503ca671703df9e1748af95">WriteElement()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLDoc.html#a097a64f0ae10c9f934003a64e7e66fd6">XMLDoc::WriteDoc()</a>, and <a class="el" href="classXMLElement.html#aef583ba72503ca671703df9e1748af95">WriteElement()</a>.</p>
 
 </div>
 </div>
@@ -1282,7 +1505,15 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Return this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> XML formatted as string with indentation level <code>indent</code> when <code>whitespace</code> is set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent</td><td>The indentation level this element should be indented. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">whitespace</td><td>If set to true the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s are indented and newline separated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string containing the XML formatted representation of this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </dd></dl>
 
 <p>References <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 
@@ -1306,7 +1537,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>allows <a class="el" href="classXMLDoc.html">XMLDoc</a> to create root XMLElements and call the non-const overload of <a class="el" href="classXMLElement.html#ae2c6d45fd995cb9f769dae8046473f70">LastChild()</a> </p>
 
 </div>
 </div>
@@ -1329,9 +1559,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the attributes of the <a class="el" href="classXMLElement.html">XMLElement</a>, stored as key-value pairs </p>
+<p>Stores the attributes associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> by key name mapping. </p>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#a190829cc7943be29dc38e7d78a66d918">attr_begin()</a>, <a class="el" href="classXMLElement.html#ab688f7d335fa6a5dcc61533a5b59b3df">attr_end()</a>, <a class="el" href="classXMLElement.html#a85aff87c9840a40a88a0e643bff1b7d6">Attribute()</a>, <a class="el" href="classXMLElement.html#a50976d8baf3c71f37870dd2af70f42b5">ContainsAttribute()</a>, <a class="el" href="classXMLElement.html#a76e05fde3a9dc708a70343cd26262b5b">NumAttributes()</a>, <a class="el" href="classXMLElement.html#a6b5c65ebf9abdb90acf335e870e6b7a0">RemoveAttribute()</a>, <a class="el" href="classXMLElement.html#a403298019375eef9016ed35105ad5f29">RemoveAttributes()</a>, <a class="el" href="classXMLElement.html#abd483962bb9e5bc0ab28c282e31754fc">SetAttribute()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#a190829cc7943be29dc38e7d78a66d918">attr_begin()</a>, <a class="el" href="classXMLElement.html#ab688f7d335fa6a5dcc61533a5b59b3df">attr_end()</a>, <a class="el" href="classXMLElement.html#a4dae50b78b3b4f0310c3b497743e4da6">Attribute()</a>, <a class="el" href="classXMLElement.html#afd4e5250815a0828cdcd82be1d275763">ContainsAttribute()</a>, <a class="el" href="classXMLElement.html#a76e05fde3a9dc708a70343cd26262b5b">NumAttributes()</a>, <a class="el" href="classXMLElement.html#adb4c5a14c60fdd77aa0f0a07f0e68025">RemoveAttribute()</a>, <a class="el" href="classXMLElement.html#a403298019375eef9016ed35105ad5f29">RemoveAttributes()</a>, <a class="el" href="classXMLElement.html#a91d5dc696ddb92bd78cdac8818d2e9fb">SetAttribute()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 
 </div>
 </div>
@@ -1353,9 +1583,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the <a class="el" href="classXMLElement.html">XMLElement</a> children of this <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Stores a list of the child <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<p>This list can be empty when this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> has no associated child elements. </p>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#a1e13bd9f2f1f7c3e72b4437e97b3d3d9">AddChildBefore()</a>, <a class="el" href="classXMLElement.html#aeb7d25e6a34bbf89010d619a6a62d680">AppendChild()</a>, <a class="el" href="classXMLElement.html#a3301d7b61c090666e9e40a95ba195035">Child()</a>, <a class="el" href="classXMLElement.html#a17eab26b7925be25eb2dc76a6612e7da">child_begin()</a>, <a class="el" href="classXMLElement.html#a662f9f5ab4df67bcdea34797cf5d93f9">child_end()</a>, <a class="el" href="classXMLElement.html#a11d7f003544966e5b2fef2dd80975f61">ChildIndex()</a>, <a class="el" href="classXMLElement.html#aa3fee596599c962aa2db583d90523117">LastChild()</a>, <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea">NumChildren()</a>, <a class="el" href="classXMLElement.html#a199fb0d524c21f3026724539d2f68984">RemoveChild()</a>, <a class="el" href="classXMLElement.html#ac2c252b0c78c82381102bf0c94966c2c">RemoveChildren()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#a2e584825493856b6486ee89169b2bf7d">AddChildBefore()</a>, <a class="el" href="classXMLElement.html#acc8db66289c6e7f278ee7276080b22cc">AppendChild()</a>, <a class="el" href="classXMLElement.html#ad8ac10df0bb2bf0c4cebe3098af9a84f">Child()</a>, <a class="el" href="classXMLElement.html#a17eab26b7925be25eb2dc76a6612e7da">child_begin()</a>, <a class="el" href="classXMLElement.html#a662f9f5ab4df67bcdea34797cf5d93f9">child_end()</a>, <a class="el" href="classXMLElement.html#a2f7bc628cda10c322ac8634b06faa51c">ChildIndex()</a>, <a class="el" href="classXMLElement.html#aa3fee596599c962aa2db583d90523117">LastChild()</a>, <a class="el" href="classXMLElement.html#a79924913a7a3c2bc5db84146161994ea">NumChildren()</a>, <a class="el" href="classXMLElement.html#a01c6023fbccadd6bcee19321bc6e8c5a">RemoveChild()</a>, <a class="el" href="classXMLElement.html#ac2c252b0c78c82381102bf0c94966c2c">RemoveChildren()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 
 </div>
 </div>
@@ -1377,7 +1608,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>true if this <a class="el" href="classXMLElement.html">XMLElement</a> is the root element of an <a class="el" href="classXMLDoc.html">XMLDoc</a> document </p>
+<p>Set to true if this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> is the root element of an <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a> document. </p>
 
 <p>Referenced by <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 
@@ -1401,9 +1632,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the tag-name of the <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Stores the tag-name associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000001">Bug:</a></b></dt><dd>Currently this can contain an empty string but I doubt it will be useful as it will cause invalid XML documents serializations. </dd></dl>
 
-<p>Referenced by <a class="el" href="classXMLElement.html#aec178d4b2d4d3e6a107a02fbf4619b27">Child()</a>, <a class="el" href="classXMLElement.html#a11d7f003544966e5b2fef2dd80975f61">ChildIndex()</a>, <a class="el" href="classXMLElement.html#abc73527883fe36d0c73310eaf25bb4ed">SetTag()</a>, <a class="el" href="classXMLElement.html#aa9a541665423f74014255a0713afa33d">Tag()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
+<p>Referenced by <a class="el" href="classXMLElement.html#af4cdfd4314fd26fbcf3fd1294afbf0e9">Child()</a>, <a class="el" href="classXMLElement.html#a2f7bc628cda10c322ac8634b06faa51c">ChildIndex()</a>, <a class="el" href="classXMLElement.html#abc73527883fe36d0c73310eaf25bb4ed">SetTag()</a>, <a class="el" href="classXMLElement.html#aa9a541665423f74014255a0713afa33d">Tag()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 
 </div>
 </div>
@@ -1425,7 +1657,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the text of this <a class="el" href="classXMLElement.html">XMLElement</a> </p>
+<p>Stores the text content associated to this <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>. </p>
 
 <p>Referenced by <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">SetText()</a>, <a class="el" href="classXMLElement.html#a7c1d767a62a4f53e2683b18e41fcea09">Text()</a>, and <a class="el" href="classXMLElement.html#a486644805342c20a02163443d35c553a">WriteElement()</a>.</p>
 

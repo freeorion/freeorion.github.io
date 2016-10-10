@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>FreeOrion: Deprecated List</title>
+<title>FreeOrion: Bug List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -77,12 +77,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">Deprecated List </div>  </div>
+<div class="title">Bug List </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_deprecated000001"></a>Class <a class="el" href="classXMLDoc.html">XMLDoc</a>  </dt>
-<dd>All the GG XML classes are deprecated and will be removed upon the next major release. encapsulates an entire XML document. Each <a class="el" href="classXMLDoc.html">XMLDoc</a> is assumed to take up an entire file, and to contain an arbitrary number of XMLElements within its root_node member. </dd>
+<dt><a class="anchor" id="_bug000002"></a>Member <a class="el" href="classXMLDoc.html#aa6dac4508a8bfcb4dc94c54b8bf1b430">XMLDoc::XMLDoc</a>  (const std::istream &amp;is)</dt>
+<dd><code>is</code> isn't actually read but ignored and an empty (and maybe invalid) document is created. Use <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd" title="Clears the current content of this XMLDoc instance and read a new document from the given input strea...">XMLDoc::ReadDoc(std::istream&amp;)</a> instead.  </dd>
+<dt><a class="anchor" id="_bug000001"></a>Member <a class="el" href="classXMLElement.html#ad41404ae97a8a7b874e47667a0c38cbf">XMLElement::m_tag</a>  </dt>
+<dd>Currently this can contain an empty string but I doubt it will be useful as it will cause invalid XML documents serializations. </dd>
 </dl>
 </div></div><!-- contents -->
 <!-- start footer part -->

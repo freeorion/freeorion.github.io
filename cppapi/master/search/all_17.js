@@ -69,7 +69,7 @@ var searchData=
   ['wrapuserstringwithtag',['WrapUserStringWithTag',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#a35d44a6d8df52a5e684a7af532d80a89',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['wrapwithtagandid',['WrapWithTagAndId',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ac8cc646306cf3269dcd7262454cd5bbb',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['writedesigntofile',['WriteDesignToFile',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab1ea950a16d5a5645604fce7043567c1',1,'anonymous_namespace{DesignWnd.cpp}']]],
-  ['writedoc',['WriteDoc',['../classXMLDoc.html#a17d0fdfc831fc5efd8511e3c13e0c7fb',1,'XMLDoc']]],
+  ['writedoc',['WriteDoc',['../classXMLDoc.html#a097a64f0ae10c9f934003a64e7e66fd6',1,'XMLDoc']]],
   ['writeelement',['WriteElement',['../classXMLElement.html#a486644805342c20a02163443d35c553a',1,'XMLElement::WriteElement(std::ostream &amp;os, int indent=0, bool whitespace=true) const '],['../classXMLElement.html#aef583ba72503ca671703df9e1748af95',1,'XMLElement::WriteElement(int indent=0, bool whitespace=true) const ']]],
   ['writemessage',['WriteMessage',['../namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a4d1b61f93ebca60f0f14970f50c8f363',1,'anonymous_namespace{ServerNetworking.cpp}']]]
 ];
