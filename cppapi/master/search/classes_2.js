@@ -69,8 +69,8 @@ var searchData=
   ['createdonturn',['CreatedOnTurn',['../structCondition_1_1CreatedOnTurn.html',1,'Condition']]],
   ['createdonturnsimplematch',['CreatedOnTurnSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1CreatedOnTurnSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['createfield',['CreateField',['../classEffect_1_1CreateField.html',1,'Effect']]],
-  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect']]],
   ['createplanet',['CreatePlanet',['../classModerator_1_1CreatePlanet.html',1,'Moderator']]],
+  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect']]],
   ['createship',['CreateShip',['../classEffect_1_1CreateShip.html',1,'Effect']]],
   ['createsystem',['CreateSystem',['../classModerator_1_1CreateSystem.html',1,'Moderator']]],
   ['createsystem',['CreateSystem',['../classEffect_1_1CreateSystem.html',1,'Effect']]],
@@ -101,5 +101,6 @@ var searchData=
   ['cuitabrepresenter',['CUITabRepresenter',['../classCUITabRepresenter.html',1,'']]],
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html',1,'']]],
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
 ];
