@@ -146,7 +146,7 @@ var searchData=
   ['tinytexture',['TinyTexture',['../classSystemIcon.html#a2c1b6b0069011f19f36dd78d6ae19b01',1,'SystemIcon']]],
   ['tip_5ffalse',['tip_false',['../structOptionsBar_1_1ToggleData.html#ab548e2f002d430df2594a14b2a30610c',1,'OptionsBar::ToggleData']]],
   ['tip_5ftrue',['tip_true',['../structOptionsBar_1_1ToggleData.html#aaebe4e75c556146b89363293295504ef',1,'OptionsBar::ToggleData']]],
-  ['title',['Title',['../classSaveFileColumn.html#abe33b897e526bb0bd08e3c52f56b43b8',1,'SaveFileColumn::Title()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#aef675e137ab788e0cdbdc794b8170065',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::title()']]],
+  ['title',['title',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#aef675e137ab788e0cdbdc794b8170065',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::title()'],['../classSaveFileColumn.html#abe33b897e526bb0bd08e3c52f56b43b8',1,'SaveFileColumn::Title()']]],
   ['title_5foffset',['TITLE_OFFSET',['../classCUIWnd.html#ab336a37e9836db3e2c7264571e514fe9',1,'CUIWnd']]],
   ['titleforcolumn',['TitleForColumn',['../classSaveFileColumn.html#a81d3b941ec365fc5817b26372b893b61',1,'SaveFileColumn']]],
   ['titlepts',['TitlePts',['../classClientUI.html#a582e0ce3e1632f8ee42d7d6adfb2e913',1,'ClientUI']]],
