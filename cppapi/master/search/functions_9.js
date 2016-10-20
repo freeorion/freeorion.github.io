@@ -15,6 +15,7 @@ var searchData=
   ['id',['ID',['../classShipDesign.html#a113672ff15f81a297e497e2ed472ebc2',1,'ShipDesign::ID()'],['../classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e',1,'UniverseObject::ID()']]],
   ['idle',['Idle',['../structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle']]],
   ['if',['if',['../chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;help&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#af3bbeb989258eb61497d32f99c9f342c',1,'if(mainSetupAndRun()!=0):&#160;chmain.cpp']]],
+  ['ignoresitrep',['IgnoreSitRep',['../classSitRepPanel.html#adcc16377904d26c60e77276a63664764',1,'SitRepPanel']]],
   ['immediateneighbors',['ImmediateNeighbors',['../classUniverse.html#a557c4d34101de7b6c65a46450ce8ce20',1,'Universe']]],
   ['immediateneighborsimpl',['ImmediateNeighborsImpl',['../namespaceSystemPathing.html#a1b87e83630a9ab77052000d3a3575681',1,'SystemPathing']]],
   ['immediateneighborsp',['ImmediateNeighborsP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad266372c48a6539d1f46f32f08719121',1,'anonymous_namespace{UniverseWrapper.cpp}']]],

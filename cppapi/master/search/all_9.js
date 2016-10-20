@@ -22,6 +22,7 @@ var searchData=
   ['idle',['Idle',['../structIdle.html',1,'Idle'],['../classServerApp.html#a381f211de22c597319a6787cf5eef5da',1,'ServerApp::Idle()'],['../structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle::Idle()']]],
   ['if',['IF',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a09719f9b500ef1f2acb103ab7c543b93',1,'ValueRef::IF()'],['../chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;help&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#af3bbeb989258eb61497d32f99c9f342c',1,'if(mainSetupAndRun()!=0):&#160;chmain.cpp']]],
   ['if_5fcurrent_5fvalue',['IF_CURRENT_VALUE',['../ValueRef_8cpp.html#a8e9b608335306cb503712ee3ae366a09',1,'ValueRef.cpp']]],
+  ['ignoresitrep',['IgnoreSitRep',['../classSitRepPanel.html#adcc16377904d26c60e77276a63664764',1,'SitRepPanel']]],
   ['imagechangedsignal',['ImageChangedSignal',['../classGalaxySetupPanel.html#a54f458d8b09731a0d97683310513d85a',1,'GalaxySetupPanel']]],
   ['immediateneighbors',['ImmediateNeighbors',['../classUniverse.html#a557c4d34101de7b6c65a46450ce8ce20',1,'Universe']]],
   ['immediateneighborsfunc',['ImmediateNeighborsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a2e0e98b828d926824d028009c44b9aac',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
