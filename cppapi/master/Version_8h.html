@@ -92,6 +92,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Version.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Declares free functions to access the application and dependency versions.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;map&gt;</code><br/>
 <code>#include &quot;<a class="el" href="Export_8h.html">Export.h</a>&quot;</code><br/>
@@ -100,13 +103,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Functions</h2></td></tr>
 <tr class="memitem:a3442bdd289b5ec164ffa2dbab772f64d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::map<br class="typebreak"/>
 &lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Version_8h.html#a3442bdd289b5ec164ffa2dbab772f64d">DependencyVersions</a> ()</td></tr>
+<tr class="memdesc:a3442bdd289b5ec164ffa2dbab772f64d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a map of dependency versions.  <a href="#a3442bdd289b5ec164ffa2dbab772f64d">More...</a><br/></td></tr>
 <tr class="separator:a3442bdd289b5ec164ffa2dbab772f64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ee9d1027f465cddc2286ac00e57801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString</a> ()</td></tr>
+<tr class="memdesc:ab0ee9d1027f465cddc2286ac00e57801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version string of FreeOrion.  <a href="#ab0ee9d1027f465cddc2286ac00e57801">More...</a><br/></td></tr>
 <tr class="separator:ab0ee9d1027f465cddc2286ac00e57801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a3e8422575b7e69b83d7b830b48c43c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Version_8h.html#a3a3e8422575b7e69b83d7b830b48c43c">LogDependencyVersions</a> ()</td></tr>
+<tr class="memdesc:a3a3e8422575b7e69b83d7b830b48c43c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log the map returned by <a class="el" href="Version_8h.html#a3442bdd289b5ec164ffa2dbab772f64d" title="Returns a map of dependency versions. ">DependencyVersions()</a> into the <em>info</em> log channel.  <a href="#a3a3e8422575b7e69b83d7b830b48c43c">More...</a><br/></td></tr>
 <tr class="separator:a3a3e8422575b7e69b83d7b830b48c43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Declares free functions to access the application and dependency versions. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a3442bdd289b5ec164ffa2dbab772f64d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -120,7 +128,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#afa90e5e653892139729ee2c19ed0ff24">anonymous_namespace{DependencyVersions.cpp}::BoostVersionString()</a>, <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a18c504e1c2b97f994337262da4bb13a2">anonymous_namespace{DependencyVersions.cpp}::FreeTypeVersionString()</a>, <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a242520dbea2abe3f39cf3c5fc4da5f1c">anonymous_namespace{DependencyVersions.cpp}::PNGVersionString()</a>, <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a99076490133d552f251da52b01d32403">anonymous_namespace{DependencyVersions.cpp}::PythonVersionString()</a>, <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a2c3a83d6f24798b88c2c9f01e8e64b2d">anonymous_namespace{DependencyVersions.cpp}::SDLVersionString()</a>, and <a class="el" href="namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a9bad9b1f8944e585f983daf4835bbd55">anonymous_namespace{DependencyVersions.cpp}::ZLibVersionString()</a>.</p>
+<p>Returns a map of dependency versions. </p>
+<dl class="section return"><dt>Returns</dt><dd>A map with the dependency versions. The key represents the dependency name, the value corresponding dependency version string.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function returns different dependencies, depending on which game executable it was called from. </dd></dl>
 
 <p>Referenced by <a class="el" href="Version_8h.html#a3a3e8422575b7e69b83d7b830b48c43c">LogDependencyVersions()</a>.</p>
 
@@ -139,6 +149,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the version string of FreeOrion. </p>
+<p>The version strings consists of:</p>
+<ul>
+<li>the VERSION number composed from <em>MAJOR.MINOR.PATCH</em> numbers. An optional '+' suffix indicates an in between test releases (think 0.4.6 + some more). Release candidates are suffixed with rcNUMBER.</li>
+<li>the BRANCH, which represents the Git branch used to create this build.</li>
+<li>the DATE as ISO 8601 date format.</li>
+<li>the SHORT_COMMIT_HASH, which is the shortes Git commit hash, which identifies the commit this build was created from.</li>
+<li>the BUILD_SYSTEM, which can be one of "CMake", "MSVC" or "XCode".</li>
+</ul>
+<dl class="section return"><dt>Returns</dt><dd>The version string with the format <em>VERSION BRANCH_NAME [build DATE.SHORT_COMMIT_HASH] BUILD_SYSTEM</em> </dd></dl>
+
 <p>Referenced by <a class="el" href="classPlayerConnection.html#a6d4486cf9373b7c029ec1900f2f761cd">PlayerConnection::ClientVersionStringMatchesThisServer()</a>, <a class="el" href="Message_8h.html#a45c410b3097d37b0a371b3e42e51268a">HostMPGameMessage()</a>, <a class="el" href="Message_8h.html#a1b9deebba5a79b0da50d02a288e29a4c">HostSPGameMessage()</a>, <a class="el" href="chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69">if()</a>, <a class="el" href="Logger_8h.html#a91b96cf2e6c5710341d8b32caed4303f">InitLogger()</a>, <a class="el" href="classIntroScreen.html#a4771f91055620c316de83a7b44efec00">IntroScreen::IntroScreen()</a>, <a class="el" href="Message_8h.html#a2f012e8dfb80dcbe4ecb890c5f267687">JoinGameMessage()</a>, <a class="el" href="chmain_8mm.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="chmain_8h.html#ae70f051fd41b552c641f7752ca7021bd">mainSetupAndRun()</a>, and <a class="el" href="structSaveGamePreviewData.html#ae10f1d5029ef73ff96acee9768cd932e">SaveGamePreviewData::serialize()</a>.</p>
 
 </div>
@@ -156,7 +177,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, and <a class="el" href="DependencyVersions_8cpp.html#acd3ad467d5986d0d3683049bedb08d7f">DependencyVersions()</a>.</p>
+<p>Log the map returned by <a class="el" href="Version_8h.html#a3442bdd289b5ec164ffa2dbab772f64d" title="Returns a map of dependency versions. ">DependencyVersions()</a> into the <em>info</em> log channel. </p>
+
+<p>References <a class="el" href="DependencyVersions_8cpp.html#acd3ad467d5986d0d3683049bedb08d7f">DependencyVersions()</a>, and <a class="el" href="Logger_8h.html#a7fd08e4dc95171c25bf7010a5867803b">InfoLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a6feff641864cc55ac0dd85467e3221d7">HumanClientApp::HumanClientApp()</a>, and <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp::ServerApp()</a>.</p>
 

@@ -160,7 +160,6 @@ var searchData=
   ['playtexttypingsound',['PlayTextTypingSound',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a6cb40b0e2e772741ca2ee25dd6413f45',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['playturnbuttonclicksound',['PlayTurnButtonClickSound',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8779033049cfb862f79cf7e0d5987283',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['plotfleetmovement',['PlotFleetMovement',['../classMapWnd.html#a0ad43e3dffdb40fed77f303a6416a419',1,'MapWnd']]],
-  ['pngversionstring',['PNGVersionString',['../namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a242520dbea2abe3f39cf3c5fc4da5f1c',1,'anonymous_namespace{DependencyVersions.cpp}']]],
   ['pointincircumcircle',['PointInCircumCircle',['../classDelauney_1_1DTTriangle.html#acb01c19513023678c421633c9265008b',1,'Delauney::DTTriangle']]],
   ['popcenter',['PopCenter',['../classPopCenter.html#a27b75ac359689f140de09e0e2b47bc7a',1,'PopCenter::PopCenter()'],['../classPopCenter.html#a5eda8186cfd2122268d38b2dd03d7351',1,'PopCenter::PopCenter(const std::string &amp;species_name)']]],
   ['popcenterclampmeters',['PopCenterClampMeters',['../classPopCenter.html#acbe09bf2453c1e2220cb2fab9a1e33a0',1,'PopCenter']]],
@@ -272,6 +271,5 @@ var searchData=
   ['pushback',['PushBack',['../classMessageQueue.html#a4b851bd107da9ff5793d2632c73d3b06',1,'MessageQueue::PushBack()'],['../structanonymous__namespace_02OptionsDB_8cpp_03_1_1PushBack.html#adae54c9c868e90598a63829e06bfd38d',1,'anonymous_namespace{OptionsDB.cpp}::PushBack::PushBack()']]],
   ['pushelem1',['PushElem1',['../classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e',1,'XMLDoc']]],
   ['pushelem2',['PushElem2',['../classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6',1,'XMLDoc']]],
-  ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]],
-  ['pythonversionstring',['PythonVersionString',['../namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a99076490133d552f251da52b01d32403',1,'anonymous_namespace{DependencyVersions.cpp}']]]
+  ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]]
 ];

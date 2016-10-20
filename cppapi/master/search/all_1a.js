@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['zlibversionstring',['ZLibVersionString',['../namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a9bad9b1f8944e585f983daf4835bbd55',1,'anonymous_namespace{DependencyVersions.cpp}']]],
   ['zoom',['Zoom',['../classMapWnd.html#a2847afb3a89e767302f05eb9ec674883',1,'MapWnd::Zoom(int delta)'],['../classMapWnd.html#af5e41426d48842b450ffdc8676f2f2b4',1,'MapWnd::Zoom(int delta, const GG::Pt &amp;position)']]],
   ['zoom_5fin_5fmax_5fsteps',['ZOOM_IN_MAX_STEPS',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a08c9ea40f759c785f92295c52aa69cf2',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['zoom_5fin_5fmin_5fsteps',['ZOOM_IN_MIN_STEPS',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab4211a3c9fb385784bc6c277e383a3de',1,'anonymous_namespace{MapWnd.cpp}']]],

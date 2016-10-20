@@ -132,6 +132,5 @@ var searchData=
   ['freeorionversionstring',['FreeOrionVersionString',['../Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
   ['freesound',['FreeSound',['../classSound_1_1SoundImpl.html#a9ab9040ac2f35ecd7798f78d713a18f1',1,'Sound::SoundImpl::FreeSound()'],['../classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
-  ['freetypeversionstring',['FreeTypeVersionString',['../namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html#a18c504e1c2b97f994337262da4bb13a2',1,'anonymous_namespace{DependencyVersions.cpp}']]],
   ['fuel',['Fuel',['../classFleet.html#a823c5432b6e0e4153963e442c8f30c58',1,'Fleet::Fuel()'],['../classHullType.html#a6867c8594b9436151764a805735044c0',1,'HullType::Fuel()'],['../classShipDesign.html#ac2551289de30054c4efa3e136d6c69d7',1,'ShipDesign::Fuel()']]]
 ];
