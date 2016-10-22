@@ -270,7 +270,7 @@ var searchData=
   ['combatlogmanager',['CombatLogManager',['../classCombatLogManager.html',1,'CombatLogManager'],['../classCombatLogManager.html#addb54e9cfa2e137ad30b3e61f8bf2578',1,'CombatLogManager::CombatLogManager()']]],
   ['combatlogmanager_2ecpp',['CombatLogManager.cpp',['../CombatLogManager_8cpp.html',1,'']]],
   ['combatlogmanager_2eh',['CombatLogManager.h',['../CombatLogManager_8h.html',1,'']]],
-  ['combatlogstring',['CombatLogString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a3ce06b509a2f07dd927af681b36538c9',1,'anonymous_namespace{VarText.cpp}']]],
+  ['combatlogstring',['CombatLogString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a85753a9da85a882fbc161874aa20d468',1,'anonymous_namespace{VarText.cpp}']]],
   ['combatlogwnd',['CombatLogWnd',['../classCombatLogWnd.html',1,'CombatLogWnd'],['../classCombatLogWnd.html#af00d2c96cbd6de2d9892762bb2aefe5e',1,'CombatLogWnd::CombatLogWnd()']]],
   ['combatlogwnd_2ecpp',['CombatLogWnd.cpp',['../CombatLogWnd_8cpp.html',1,'']]],
   ['combatlogwnd_2eh',['CombatLogWnd.h',['../CombatLogWnd_8h.html',1,'']]],

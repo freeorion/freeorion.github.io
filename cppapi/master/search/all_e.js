@@ -15,7 +15,7 @@ var searchData=
   ['nameok',['NameOK',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a0d86db5f3344993023d376e7d544c048',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
   ['names',['names',['../namespacenames.html',1,'names'],['../structCondition_1_1Homeworld.html#a84947315d9047bc94409d0c4f95304ba',1,'Condition::Homeworld::Names()'],['../structCondition_1_1Building.html#a43625304d9ea5a685f65b04bdd9d5ebc',1,'Condition::Building::Names()'],['../structCondition_1_1Species.html#af0090bf39bf2aaebd6d76493effdd8e5',1,'Condition::Species::Names()'],['../structCondition_1_1FocusType.html#af5ad86a3010d513786a186300239bd46',1,'Condition::FocusType::Names()']]],
   ['names_2epy',['names.py',['../names_8py.html',1,'']]],
-  ['namestring',['NameString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a1ed1e84bfb2cc8bd28a0c1a1b85e41fa',1,'anonymous_namespace{VarText.cpp}']]],
+  ['namestring',['NameString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a95f2625eb645a927083398904e94edb3',1,'anonymous_namespace{VarText.cpp}']]],
   ['nametometer',['NameToMeter',['../namespaceValueRef.html#aff1e35bb3b59658f6791170be5d9b0ef',1,'ValueRef']]],
   ['native',['Native',['../classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b',1,'Species::Native()'],['../structSpeciesParams.html#ae247c95e2d18ae51cba1bb7aa23a2720',1,'SpeciesParams::native()']]],
   ['native_5fbegin',['native_begin',['../classSpeciesManager.html#af902df67e81eb9ad821bdf9e4b2ac6a0',1,'SpeciesManager']]],

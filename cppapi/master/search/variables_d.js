@@ -1223,7 +1223,7 @@ var searchData=
   ['m_5fvalue_5fref2',['m_value_ref2',['../structCondition_1_1ValueTest.html#ae005ab73024bd20393cdf11f66ff4ca9',1,'Condition::ValueTest']]],
   ['m_5fvalue_5fref3',['m_value_ref3',['../structCondition_1_1ValueTest.html#a76ed2612b35c65dbb8e2b6ba6dec6c3d',1,'Condition::ValueTest']]],
   ['m_5fvalues',['m_values',['../classStatisticIcon.html#a38d8a46a62aa7792776cdf94a0349c10',1,'StatisticIcon::m_values()'],['../structDiscreteValidator.html#a08df61b8e4e0aac6648bbb2753bf6223',1,'DiscreteValidator::m_values()']]],
-  ['m_5fvariables',['m_variables',['../structanonymous__namespace_02VarText_8cpp_03_1_1SubstituteAndAppend.html#a7092d28ce6ce2b4f9769e8572c09337a',1,'anonymous_namespace{VarText.cpp}::SubstituteAndAppend::m_variables()'],['../classVarText.html#a64279d2c455a7a30d3cdd907ac6da18d',1,'VarText::m_variables()']]],
+  ['m_5fvariables',['m_variables',['../structanonymous__namespace_02VarText_8cpp_03_1_1SubstituteAndAppend.html#a9254c6df1e77b2f790374191ebf3106a',1,'anonymous_namespace{VarText.cpp}::SubstituteAndAppend::m_variables()'],['../classVarText.html#aa9dfb2d376db230c80dd37f707ab2323',1,'VarText::m_variables()']]],
   ['m_5fversion',['m_version',['../classIntroScreen.html#ac8f24f377ac85441f5d7a8700270466b',1,'IntroScreen']]],
   ['m_5fvert_5fbuf',['m_vert_buf',['../classGraphControl.html#a4c8ff2be948972f966566cec3d749504',1,'GraphControl']]],
   ['m_5fvertex_5fbuffer',['m_vertex_buffer',['../classCUIWnd.html#ae43cd7c5f374da467e99ff756a49e7ed',1,'CUIWnd']]],

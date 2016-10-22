@@ -13,7 +13,7 @@ var searchData=
   ['universeobject',['UniverseObject',['../classUniverseObject.html#a83c3092cd13df5f48b3e2d5d7df325de',1,'UniverseObject::UniverseObject()'],['../classUniverseObject.html#a42fbae16016512b3da1b2c63332e01f7',1,'UniverseObject::UniverseObject(const std::string name, double x, double y)']]],
   ['universeobjectdeleted',['UniverseObjectDeleted',['../classFleetDetailPanel.html#a3fd735329f3510de7922e27e3347dde4',1,'FleetDetailPanel::UniverseObjectDeleted()'],['../classFleetWnd.html#a7077c9cdc342e5dc93b063bbcf4ac5b6',1,'FleetWnd::UniverseObjectDeleted()'],['../classMapWnd.html#a93a9f2450fe3ee3b2cc7bd035158e68f',1,'MapWnd::UniverseObjectDeleted()'],['../classObjectListBox.html#a24536024c04f91a51dd29d00a1d6453a',1,'ObjectListBox::UniverseObjectDeleted()']]],
   ['universeobjectsignalsinhibited',['UniverseObjectSignalsInhibited',['../classUniverse.html#a4ceb73fea2093799e47fdb47c3b78341',1,'Universe']]],
-  ['universeobjectstring',['UniverseObjectString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a8d9ebabd732691db62e5dc83dcd71e6c',1,'anonymous_namespace{VarText.cpp}']]],
+  ['universeobjectstring',['UniverseObjectString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a735038e2e1239805a24613ace1271b02',1,'anonymous_namespace{VarText.cpp}']]],
   ['universepositionfromscreencoords',['UniversePositionFromScreenCoords',['../classMapWnd.html#af8736a5951607c5b4d5686b4f4339684',1,'MapWnd']]],
   ['universewidth',['UniverseWidth',['../classUniverse.html#a14013dc4937e98eb20617c4349951cb5',1,'Universe']]],
   ['unknownicon',['UnknownIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aeae1bc7ed9069d87b5186a1b9d767c79',1,'anonymous_namespace{PlayerListWnd.cpp}']]],

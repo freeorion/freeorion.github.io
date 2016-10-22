@@ -66,7 +66,7 @@ var searchData=
   ['empirestaleknowledgeobjectids',['EmpireStaleKnowledgeObjectIDs',['../classUniverse.html#ace3bff266273fde22c3aa19f59717d91',1,'Universe']]],
   ['empirestockpilevalue',['EmpireStockpileValue',['../structCondition_1_1EmpireStockpileValue.html#aed33d86f0cf1525dad7a92946ba46199',1,'Condition::EmpireStockpileValue']]],
   ['empirestockpilevaluesimplematch',['EmpireStockpileValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireStockpileValueSimpleMatch.html#ac735ebe483acf3bdee416082c0c72a9c',1,'Condition::anonymous_namespace{Condition.cpp}::EmpireStockpileValueSimpleMatch']]],
-  ['empirestring',['EmpireString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#adc711c3a6397beb9a44b83ca0be8f3a0',1,'anonymous_namespace{VarText.cpp}']]],
+  ['empirestring',['EmpireString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a795fc38b923a9634303f991f464a0fbe',1,'anonymous_namespace{VarText.cpp}']]],
   ['empirethatcansupplyat',['EmpireThatCanSupplyAt',['../classSupplyManager.html#a53cb663175dca19a0a05c3e69fe46f0f',1,'SupplyManager']]],
   ['empireunlockitem',['EmpireUnlockItem',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a770ae02bfd7567590a52b4daa11d46b9',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['empirevisibleobjectids',['EmpireVisibleObjectIDs',['../classUniverse.html#a5d086c1ac4c6189e93f20f876d23bf71',1,'Universe']]],

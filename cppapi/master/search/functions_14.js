@@ -59,7 +59,7 @@ var searchData=
   ['textforgalaxyshape',['TextForGalaxyShape',['../EnumText_8cpp.html#a68fb6ae62476031623c3fc36b19235fc',1,'TextForGalaxyShape(Shape shape):&#160;EnumText.cpp'],['../EnumText_8h.html#acd5dccb101a4fc79b39786b526a14d42',1,'TextForGalaxyShape(Shape shape):&#160;EnumText.cpp']]],
   ['textlinker',['TextLinker',['../classTextLinker.html#a39574bc2af6b1458d2c7bd2ff90269bb',1,'TextLinker']]],
   ['textlowerright',['TextLowerRight',['../classCUILinkTextMultiEdit.html#ad7bf1a667536bb754c7b096b78a0e631',1,'CUILinkTextMultiEdit::TextLowerRight()'],['../classTextLinker.html#a8701a64a23ede87144181b013d9cd8c1',1,'TextLinker::TextLowerRight()'],['../classLinkText.html#a31a2fffa770747eb01376f4a638de5ec',1,'LinkText::TextLowerRight()']]],
-  ['textstring',['TextString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a042ee2fa8b6409f3aa850c7a751a14c4',1,'anonymous_namespace{VarText.cpp}']]],
+  ['textstring',['TextString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#acbfe944f89d70c7452d96b527a06cd16',1,'anonymous_namespace{VarText.cpp}']]],
   ['textupperleft',['TextUpperLeft',['../classCUILinkTextMultiEdit.html#af565d02af87b597f2cbf646b95d3e4d8',1,'CUILinkTextMultiEdit::TextUpperLeft()'],['../classTextLinker.html#a8302a31d6ba30a1302bb17781f140ab6',1,'TextLinker::TextUpperLeft()'],['../classLinkText.html#a002344dd0d9009697f64d5508f4ec4a5',1,'LinkText::TextUpperLeft()']]],
   ['texturefilenamecompare',['TextureFileNameCompare',['../ClientUI_8cpp.html#a5dc6a69515ab88cf79682e03bd2297d2',1,'ClientUI.cpp']]],
   ['thisclientishost',['ThisClientIsHost',['../classMultiPlayerLobbyWnd.html#a0b4a94a52a6740778760159df23b2ed2',1,'MultiPlayerLobbyWnd']]],
