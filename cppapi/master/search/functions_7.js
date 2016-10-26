@@ -281,7 +281,7 @@ var searchData=
   ['getqueuetoppingfactor',['GetQueueToppingFactor',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#a6d6c0a06864804cceef6d0d4fe07f8b0',1,'anonymous_namespace{Empire.cpp}']]],
   ['getrandomtexture',['GetRandomTexture',['../classClientUI.html#af24ddde3c383ac246561ef65d04e9e49',1,'ClientUI']]],
   ['getreferencetype',['GetReferenceType',['../structValueRef_1_1Variable.html#acd0c6e967f4331228278f01abf44dc1c',1,'ValueRef::Variable']]],
-  ['getrefreshdetailpanelinfo',['GetRefreshDetailPanelInfo',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#aaec58e9bd0ef1cc88e54587d1226d270',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['getrefreshdetailpanelinfo',['GetRefreshDetailPanelInfo',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a8b2711f8a21a0867433ac13cc1e4469c',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['getreplaceddesignid',['GetReplacedDesignID',['../classDesignWnd_1_1MainPanel.html#adde13d17d57462587deac54ecde724d6',1,'DesignWnd::MainPanel']]],
   ['getrescenter',['GetResCenter',['../classResourcePanel.html#a364dc2933aabb37c8620dc29eb80c446',1,'ResourcePanel']]],
   ['getresearchqueue',['GetResearchQueue',['../classEmpire.html#a7300e6089877b09c87175b83a532b1fb',1,'Empire']]],
