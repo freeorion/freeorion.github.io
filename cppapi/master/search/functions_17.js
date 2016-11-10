@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wait',['Wait',['../classAIClientApp.html#a688d4ede521afbb700fe9446950df839',1,'AIClientApp::Wait()'],['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue::Wait()']]],
+  ['wait',['Wait',['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html#a739a867e3cea42da3174c7c22a76c647',1,'WaitingForGameStart']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners']]],
   ['waitingformphostack',['WaitingForMPHostAck',['../structWaitingForMPHostAck.html#ad424f09803044626ce9be1efd3175d4b',1,'WaitingForMPHostAck']]],

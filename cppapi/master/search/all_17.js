@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wait',['Wait',['../classAIClientApp.html#a688d4ede521afbb700fe9446950df839',1,'AIClientApp::Wait()'],['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue::Wait()']]],
+  ['wait',['Wait',['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue']]],
   ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html',1,'WaitingForGameStart'],['../classMapWnd.html#a7e6b1a1935b5112063c85817d4f97dc2',1,'MapWnd::WaitingForGameStart()'],['../structWaitingForGameStart.html#a739a867e3cea42da3174c7c22a76c647',1,'WaitingForGameStart::WaitingForGameStart()']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'WaitingForMPGameJoiners'],['../classServerApp.html#abf7363ef825f47381e909f7b9a3df15c',1,'ServerApp::WaitingForMPGameJoiners()'],['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners::WaitingForMPGameJoiners()']]],
@@ -53,7 +53,7 @@ var searchData=
   ['wndselected',['WndSelected',['../classDesignWnd_1_1BaseSelector.html#a1deebda0ee0b3a305be2c3dff2e524ca',1,'DesignWnd::BaseSelector']]],
   ['wndtop',['WndTop',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0b19dab916ea0f79284b18b821d4ba36',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wobble',['Wobble',['../classTechTreeLayout_1_1Node.html#aedab8a7467d51c65ec0438671752908f',1,'TechTreeLayout::Node']]],
-  ['won',['Won',['../classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()'],['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a4e2c0838e11e6b15bd93227556e6704cac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()']]],
+  ['won',['WON',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a4e2c0838e11e6b15bd93227556e6704cac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()']]],
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#abd9c6d7fbadd02f1c18da5249f3e8672',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['work_5fqueue_5f1',['work_queue_1',['../structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
   ['work_5fqueue_5f2',['work_queue_2',['../structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],
