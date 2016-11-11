@@ -1,6 +1,8 @@
 var searchData=
 [
   ['tag_5falways_5freport',['TAG_ALWAYS_REPORT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a759878c6a33af6d06164515e44b8d675',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['tag_5fbombard_5falways',['TAG_BOMBARD_ALWAYS',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a4d0436ce6f9f8291a34294302ba1ef9a',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['tag_5fbombard_5fprefix',['TAG_BOMBARD_PREFIX',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ada0ee7a2326a28767fcbe9f8746e3497',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['tag_5fextinct',['TAG_EXTINCT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a5d1738387c209413f3cd39abe5c61a14',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['tag_5fshipyard',['TAG_SHIPYARD',['../SystemIcon_8h.html#a896adcd15a07086f3a5b87f6932f5367',1,'SystemIcon.h']]],
   ['tag_5fstat_5fskip_5fdepop',['TAG_STAT_SKIP_DEPOP',['../namespaceanonymous__namespace_02Planet_8cpp_03.html#a6023a5a838d3bc284abe1e7c24883a9d',1,'anonymous_namespace{Planet.cpp}']]],
