@@ -111,6 +111,7 @@ var searchData=
   ['tracehumanclientfsmexecution',['TraceHumanClientFSMExecution',['../HumanClientFSM_8cpp.html#a941915f27419c41743286c38b7fc0bb8',1,'TraceHumanClientFSMExecution():&#160;HumanClientFSM.cpp'],['../HumanClientFSM_8h.html#a941915f27419c41743286c38b7fc0bb8',1,'TraceHumanClientFSMExecution():&#160;HumanClientFSM.cpp']]],
   ['tracereference',['TraceReference',['../namespaceanonymous__namespace_02ValueRef_8cpp_03.html#a5805fab4abcf378e280b6fc5c0e03758',1,'anonymous_namespace{ValueRef.cpp}']]],
   ['tradegeneration',['TradeGeneration',['../classShipDesign.html#a9cc6603d52333427dd26136568a04073',1,'ShipDesign']]],
+  ['tradeicon',['TradeIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a8d518cbb183e6a7bcfd01e078f565817',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['transferrabletechs',['TransferrableTechs',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#ae5bbd4e4c4e2ea31e522a22b63baa21b',1,'ValueRef::anonymous_namespace{ValueRef.cpp}']]],
   ['transferrandomobjects',['TransferRandomObjects',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#acc0816e233afa538f8800d176b027025',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['transfersortedobjects',['TransferSortedObjects',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a69a0ede2a436ff685a30650862146ee8',1,'Condition::anonymous_namespace{Condition.cpp}']]],

@@ -221,6 +221,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3261dcd3f5085f3158b9d62b1c1ff86f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a3261dcd3f5085f3158b9d62b1c1ff86f">Empty</a> () const </td></tr>
 <tr class="memdesc:a3261dcd3f5085f3158b9d62b1c1ff86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if fleet contains no ships, false otherwise.  <a href="#a3261dcd3f5085f3158b9d62b1c1ff86f">More...</a><br/></td></tr>
 <tr class="separator:a3261dcd3f5085f3158b9d62b1c1ff86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2791d6b0b3a7b5d60d61bd6b6416b7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a9c2791d6b0b3a7b5d60d61bd6b6416b7">ResourceOutput</a> (ResourceType type) const </td></tr>
+<tr class="memdesc:a9c2791d6b0b3a7b5d60d61bd6b6416b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of IDs of ships in fleet.  <a href="#a9c2791d6b0b3a7b5d60d61bd6b6416b7">More...</a><br/></td></tr>
+<tr class="separator:a9c2791d6b0b3a7b5d60d61bd6b6416b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a359c5d2b51a656a68acbce54ba3b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a28a359c5d2b51a656a68acbce54ba3b5">UnknownRoute</a> () const </td></tr>
 <tr class="separator:a28a359c5d2b51a656a68acbce54ba3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb89dc2a10061908ce380ae85e8a723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#aadb89dc2a10061908ce380ae85e8a723">ArrivedThisTurn</a> () const </td></tr>
@@ -1608,7 +1611,7 @@ StateChangedSignalType::slot_type&#160;</td><td class="memItemRight" valign="bot
 
 <p>Returns number of ships in fleet. </p>
 
-<p>Referenced by <a class="el" href="SitRepEntry_8h.html#ae45be90f0d182babfd4d1660398a75fd">CreateFleetArrivedAtDestinationSitRep()</a>, <a class="el" href="FleetButton_8h.html#a0aa82261967ac6457d9643e69ed58c13">FleetSizeIcon()</a>, <a class="el" href="classFleet.html#a823c5432b6e0e4153963e442c8f30c58">Fuel()</a>, <a class="el" href="classFleetButton.html#a3f0eba6a7e0d18cc7a29b607d987511f">FleetButton::Init()</a>, <a class="el" href="classFleet.html#a77a51c773c21b5b87ea7548d9c46ff36">MaxFuel()</a>, <a class="el" href="classMapWnd.html#a0ad43e3dffdb40fed77f303a6416a419">MapWnd::PlotFleetMovement()</a>, <a class="el" href="classFleetDataPanel.html#a87896d1bdac29dda2e79c4453c878b9d">FleetDataPanel::SetStatIconValues()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="SitRepEntry_8h.html#ae45be90f0d182babfd4d1660398a75fd">CreateFleetArrivedAtDestinationSitRep()</a>, <a class="el" href="FleetButton_8h.html#a0aa82261967ac6457d9643e69ed58c13">FleetSizeIcon()</a>, <a class="el" href="classFleet.html#a823c5432b6e0e4153963e442c8f30c58">Fuel()</a>, <a class="el" href="classFleetButton.html#a3f0eba6a7e0d18cc7a29b607d987511f">FleetButton::Init()</a>, <a class="el" href="classFleet.html#a77a51c773c21b5b87ea7548d9c46ff36">MaxFuel()</a>, <a class="el" href="classMapWnd.html#a0ad43e3dffdb40fed77f303a6416a419">MapWnd::PlotFleetMovement()</a>, <a class="el" href="classFleet.html#a9c2791d6b0b3a7b5d60d61bd6b6416b7">ResourceOutput()</a>, <a class="el" href="classFleetDataPanel.html#a87896d1bdac29dda2e79c4453c878b9d">FleetDataPanel::SetStatIconValues()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1795,6 +1798,28 @@ StateChangedSignalType::slot_type&#160;</td><td class="memItemRight" valign="bot
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#ae44a30e3a97fc6676b003b8435b76843">UniverseObject</a>.</p>
 
 <p>References <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, and <a class="el" href="classUniverseObject.html#ae44a30e3a97fc6676b003b8435b76843">UniverseObject::ResetTargetMaxUnpairedMeters()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c2791d6b0b3a7b5d60d61bd6b6416b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Fleet::ResourceOutput </td>
+          <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns set of IDs of ships in fleet. </p>
+
+<p>References <a class="el" href="classUniverseObject.html#a3899829536fedb7fb49428a976fa61e0">UniverseObject::CurrentMeterValue()</a>, <a class="el" href="classObjectMap.html#a09d2dde391a0ff00200d3330818f501d">ObjectMap::FindObjects()</a>, <a class="el" href="Enums_8h.html#ae87665f4f4e016b9347bff5c6a5ca855">INVALID_METER_TYPE</a>, <a class="el" href="classFleet.html#ae2e2ab698a90ee9988665f8a37080352">m_ships</a>, <a class="el" href="classFleet.html#ae868a4ee9db0ee162f7bbe1764dcb476">NumShips()</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, and <a class="el" href="Enums_8cpp.html#aed99117b30ff20c7120fe3b44364c2b3">ResourceToMeter()</a>.</p>
+
+<p>Referenced by <a class="el" href="classFleetDataPanel.html#a102b57cdedbdf2b9aaf43ac048c15c30">FleetDataPanel::FleetDataPanel()</a>, and <a class="el" href="classFleetDataPanel.html#a87896d1bdac29dda2e79c4453c878b9d">FleetDataPanel::SetStatIconValues()</a>.</p>
 
 </div>
 </div>
@@ -2474,7 +2499,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFleet.html#aeef48dbf5e684f6c9f3d18adf8decb4b">AddShips()</a>, <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classFleet.html#a03345b27ef23bad375f3cb61d1686fa2">ContainedObjectIDs()</a>, <a class="el" href="classFleet.html#abb035aee0110c0f83354de7c3ca357ba">Contains()</a>, <a class="el" href="classFleet.html#aedbb314a11c66e36d9d9e6ba78acdab8">Copy()</a>, <a class="el" href="classFleet.html#aac42ab573d313bcee21b1fe92439d80d">Damage()</a>, <a class="el" href="classFleet.html#add28c80fc801f7ea6501eb5ffe4cc976">Dump()</a>, <a class="el" href="classFleet.html#a823c5432b6e0e4153963e442c8f30c58">Fuel()</a>, <a class="el" href="classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f">GenerateFleetName()</a>, <a class="el" href="classFleet.html#acd5e1ae4936a9e74f34b480985a5db39">HasArmedShips()</a>, <a class="el" href="classFleet.html#a64ecfcebc7f2256045607c5e92ee6354">HasColonyShips()</a>, <a class="el" href="classFleet.html#a9c066677f4dfc2e557e86725f810a2d5">HasFighterShips()</a>, <a class="el" href="classFleet.html#ae7e8a661de362b880fbcb623cca3602e">HasMonsters()</a>, <a class="el" href="classFleet.html#a38c2b8cc2121bd40209cf8a6fbb3e817">HasOutpostShips()</a>, <a class="el" href="classFleet.html#a0cf15770b830dc0769b6ab7013f74553">HasShipsOrderedScrapped()</a>, <a class="el" href="classFleet.html#a78403424532e8e79855391954a4308cd">HasShipsWithoutScrapOrders()</a>, <a class="el" href="classFleet.html#ab08a2ee0f64b81b1beb9546aa444eeae">HasTroopShips()</a>, <a class="el" href="classFleet.html#a77a51c773c21b5b87ea7548d9c46ff36">MaxFuel()</a>, <a class="el" href="classFleet.html#a6a404d94181b8dbdd496e3935cb45406">MovementPhase()</a>, <a class="el" href="classFleet.html#ae5dd22af5de795bec9f97f98d5f1a8cb">RemoveShips()</a>, <a class="el" href="classFleet.html#a1a4c7d001cca7cafc36ef6c714229a68">serialize()</a>, <a class="el" href="classFleet.html#ac3d64b90850b3e78df90acaf92b86cee">Shields()</a>, <a class="el" href="classFleet.html#a47f7e1056f9712dc8f4dfa5489de4fdb">Speed()</a>, and <a class="el" href="classFleet.html#a510dc3a585c6f933c38e1cbc9fcaf0d8">Structure()</a>.</p>
+<p>Referenced by <a class="el" href="classFleet.html#aeef48dbf5e684f6c9f3d18adf8decb4b">AddShips()</a>, <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classFleet.html#a03345b27ef23bad375f3cb61d1686fa2">ContainedObjectIDs()</a>, <a class="el" href="classFleet.html#abb035aee0110c0f83354de7c3ca357ba">Contains()</a>, <a class="el" href="classFleet.html#aedbb314a11c66e36d9d9e6ba78acdab8">Copy()</a>, <a class="el" href="classFleet.html#aac42ab573d313bcee21b1fe92439d80d">Damage()</a>, <a class="el" href="classFleet.html#add28c80fc801f7ea6501eb5ffe4cc976">Dump()</a>, <a class="el" href="classFleet.html#a823c5432b6e0e4153963e442c8f30c58">Fuel()</a>, <a class="el" href="classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f">GenerateFleetName()</a>, <a class="el" href="classFleet.html#acd5e1ae4936a9e74f34b480985a5db39">HasArmedShips()</a>, <a class="el" href="classFleet.html#a64ecfcebc7f2256045607c5e92ee6354">HasColonyShips()</a>, <a class="el" href="classFleet.html#a9c066677f4dfc2e557e86725f810a2d5">HasFighterShips()</a>, <a class="el" href="classFleet.html#ae7e8a661de362b880fbcb623cca3602e">HasMonsters()</a>, <a class="el" href="classFleet.html#a38c2b8cc2121bd40209cf8a6fbb3e817">HasOutpostShips()</a>, <a class="el" href="classFleet.html#a0cf15770b830dc0769b6ab7013f74553">HasShipsOrderedScrapped()</a>, <a class="el" href="classFleet.html#a78403424532e8e79855391954a4308cd">HasShipsWithoutScrapOrders()</a>, <a class="el" href="classFleet.html#ab08a2ee0f64b81b1beb9546aa444eeae">HasTroopShips()</a>, <a class="el" href="classFleet.html#a77a51c773c21b5b87ea7548d9c46ff36">MaxFuel()</a>, <a class="el" href="classFleet.html#a6a404d94181b8dbdd496e3935cb45406">MovementPhase()</a>, <a class="el" href="classFleet.html#ae5dd22af5de795bec9f97f98d5f1a8cb">RemoveShips()</a>, <a class="el" href="classFleet.html#a9c2791d6b0b3a7b5d60d61bd6b6416b7">ResourceOutput()</a>, <a class="el" href="classFleet.html#a1a4c7d001cca7cafc36ef6c714229a68">serialize()</a>, <a class="el" href="classFleet.html#ac3d64b90850b3e78df90acaf92b86cee">Shields()</a>, <a class="el" href="classFleet.html#a47f7e1056f9712dc8f4dfa5489de4fdb">Speed()</a>, and <a class="el" href="classFleet.html#a510dc3a585c6f933c38e1cbc9fcaf0d8">Structure()</a>.</p>
 
 </div>
 </div>

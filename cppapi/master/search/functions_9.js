@@ -32,6 +32,7 @@ var searchData=
   ['indentation',['INDENTATION',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a445c43843b538de0db787eadfd1dabc6',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['indesignviewmode',['InDesignViewMode',['../classMapWnd.html#a2230ed102a31caeef76c65f9956258b7',1,'MapWnd']]],
   ['industrygeneration',['IndustryGeneration',['../classShipDesign.html#a2f06ba8bb362325b614ff74bbfde718a',1,'ShipDesign']]],
+  ['industryicon',['IndustryIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#acf1b8abda84c714169faca41be94af9f',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['infield',['InField',['../classField.html#a7d7fc91b2339de0fc8340294bdc57fbb',1,'Field::InField(TemporaryPtr&lt; const UniverseObject &gt; obj) const '],['../classField.html#ada6c55d907e3ba2e53924fcb8a5cd4db',1,'Field::InField(double x, double y) const ']]],
   ['info_5fvisitor',['info_visitor',['../structparse_1_1detail_1_1info__visitor.html#a32b4f09339bc2c4a6f73aac52da97618',1,'parse::detail::info_visitor']]],
   ['ingamemenu',['InGameMenu',['../classInGameMenu.html#a695a5a607cfaa25b5d632c12578d482d',1,'InGameMenu']]],
