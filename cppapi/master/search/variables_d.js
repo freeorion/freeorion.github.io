@@ -434,6 +434,7 @@ var searchData=
   ['m_5fgrowth',['m_growth',['../classPopulationPool.html#a340a8cfee7a97175edef07ef283e730b',1,'PopulationPool']]],
   ['m_5fhalo_5ftexture',['m_halo_texture',['../classSystemIcon.html#ab939964b9e11e625e8fe63f8059f40c5',1,'SystemIcon']]],
   ['m_5fhas_5fcontents',['m_has_contents',['../classObjectPanel.html#a8cbda88deea8cc726da379ff19239411',1,'ObjectPanel']]],
+  ['m_5fhas_5ffighters',['m_has_fighters',['../classShipDesign.html#aab7107f760c73b0b1ba73022d46dc41a',1,'ShipDesign']]],
   ['m_5fhave_5fsynchronous_5fresponse',['m_have_synchronous_response',['../classMessageQueue.html#a92c154a2f07f16de5883508a88627f15',1,'MessageQueue']]],
   ['m_5fhave_5fwindow_5ffocus',['m_have_window_focus',['../classHumanClientApp.html#a3bdd4e8f53eabdbae157aadb2a68e9f1',1,'HumanClientApp']]],
   ['m_5fheader_5frow',['m_header_row',['../classObjectListBox.html#a20a1c8c4e701bbcacbe11d6a7f1aeb34',1,'ObjectListBox']]],

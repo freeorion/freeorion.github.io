@@ -57,6 +57,8 @@ var searchData=
   ['hasattackers',['HasAttackers',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#ad36eb08c6639b200f709d0ca84edc73f',1,'anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo']]],
   ['hascolonyships',['HasColonyShips',['../classFleet.html#a64ecfcebc7f2256045607c5e92ee6354',1,'Fleet']]],
   ['hasexploredsystem',['HasExploredSystem',['../classEmpire.html#a6ad0198364d088e4b32b15ab26ccb9bc',1,'Empire']]],
+  ['hasfighters',['HasFighters',['../classShip.html#aeef7dce784a12efd7f77b58fc189e6b6',1,'Ship::HasFighters()'],['../classShipDesign.html#a7191cf3e477e9a709861d317779b0801',1,'ShipDesign::HasFighters()']]],
+  ['hasfighterships',['HasFighterShips',['../classFleet.html#a9c066677f4dfc2e557e86725f810a2d5',1,'Fleet']]],
   ['hasfile',['HasFile',['../classSaveFileListBox.html#ac366edec6e39c1a51295db7be4b045d0',1,'SaveFileListBox']]],
   ['hasgrowthspecial_5fcondition',['HASGROWTHSPECIAL_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a45ba84c6b2b7189713130508305924c7',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['haslowpriority',['HasLowPriority',['../classProcess.html#ab5035a3c7741b146dd45ec492b3b285f',1,'Process']]],
