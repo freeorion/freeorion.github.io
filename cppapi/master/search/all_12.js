@@ -213,7 +213,7 @@ var searchData=
   ['researchqueueorder',['ResearchQueueOrder',['../classResearchQueueOrder.html',1,'ResearchQueueOrder'],['../classResearchQueueOrder.html#a693a18c20713dda17f6318fefc5e3c22',1,'ResearchQueueOrder::ResearchQueueOrder()'],['../classResearchQueueOrder.html#a48a2b21d787d9a2e4bdacbaa871da62e',1,'ResearchQueueOrder::ResearchQueueOrder(int empire, const std::string &amp;tech_name)'],['../classResearchQueueOrder.html#af0f2ee5ebfc14531b5e77d693de6fd96',1,'ResearchQueueOrder::ResearchQueueOrder(int empire, const std::string &amp;tech_name, int position)'],['../classResearchQueueOrder.html#afe7eacda43f21a4425912fe0203265a2',1,'ResearchQueueOrder::ResearchQueueOrder(int empire, const std::string &amp;tech_name, bool pause, float dummy)']]],
   ['researchqueuewnd',['ResearchQueueWnd',['../classResearchQueueWnd.html',1,'ResearchQueueWnd'],['../classResearchQueueWnd.html#aa2ce37555dba9d6af78674ceddeff676',1,'ResearchQueueWnd::ResearchQueueWnd()']]],
   ['researchtime',['ResearchTime',['../classTech.html#a45dfc001302e487e78124f93ad8736cc',1,'Tech']]],
-  ['researchwnd',['ResearchWnd',['../classResearchWnd.html',1,'ResearchWnd'],['../classResearchWnd.html#a99af5f6b10d55d49d8375d423ea78792',1,'ResearchWnd::ResearchWnd()']]],
+  ['researchwnd',['ResearchWnd',['../classResearchWnd.html',1,'ResearchWnd'],['../classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0',1,'ResearchWnd::ResearchWnd()']]],
   ['researchwnd_2ecpp',['ResearchWnd.cpp',['../ResearchWnd_8cpp.html',1,'']]],
   ['researchwnd_2eh',['ResearchWnd.h',['../ResearchWnd_8h.html',1,'']]],
   ['reselectlastfleet',['ReselectLastFleet',['../classMapWnd.html#a04178dff1734c5524bda11baf0b0939c',1,'MapWnd']]],
