@@ -12,6 +12,7 @@ var searchData=
   ['target_5fempire_5fid_5fto_5finvisble_5fobj_5fid',['target_empire_id_to_invisble_obj_id',['../structInitialStealthEvent.html#a0f670ebd618e8a3de860e16b6f81e117',1,'InitialStealthEvent']]],
   ['target_5fid',['target_id',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a361a8e94ce2b20f64508d9583cf90797',1,'StealthChangeEvent::StealthChangeEventDetail::target_id()'],['../structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459',1,'WeaponFireEvent::target_id()']]],
   ['target_5fids',['target_ids',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#a4256c4f6ecc0bea625cb8a0cccc1c452',1,'anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo']]],
+  ['target_5fowner_5fid',['target_owner_id',['../structWeaponFireEvent.html#a719c6b538f8c7fddd35cda7e60138a5b',1,'WeaponFireEvent']]],
   ['target_5fset',['target_set',['../structEffect_1_1TargetsAndCause.html#a39a9585790d69cad02b4613372041e35',1,'Effect::TargetsAndCause']]],
   ['tech',['tech',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a43a5177de836e9f4e00caf6a945ee094',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
   ['tech_5finfo',['tech_info',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a537bd7b28bd72b95bbd5db05253865a5',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
