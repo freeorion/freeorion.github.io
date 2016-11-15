@@ -99,7 +99,7 @@ var searchData=
   ['addwork',['AddWork',['../classRunQueue.html#a3b47980982fba7e2054455e926e90596',1,'RunQueue']]],
   ['addwormhole',['AddWormhole',['../classSystem.html#a59813624c3676074d6b977eedeb42219',1,'System']]],
   ['adjustbrightness',['AdjustBrightness',['../CUIDrawUtil_8cpp.html#a5b66cfd221278b2d72c8d02ee479b59e',1,'AdjustBrightness(GG::Clr &amp;color, int amount, bool jointly_capped):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8cpp.html#ac82a501c2e106852abe11dfb6520c1c2',1,'AdjustBrightness(GG::Clr &amp;color, double amount, bool jointly_capped):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8h.html#ab9160c4e832c1b8866f4c63f4195c68a',1,'AdjustBrightness(GG::Clr &amp;color, int amount, bool jointly_capped=false):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8h.html#adc129a65d43e6969fa9874276a5c5ffe',1,'AdjustBrightness(GG::Clr &amp;color, double amount, bool jointly_capped=false):&#160;CUIDrawUtil.cpp']]],
-  ['adjustcolumns',['AdjustColumns',['../classSaveFileRow.html#a9aafdd196b1c7a958af1ede896305d8f',1,'SaveFileRow']]],
+  ['adjustcolumns',['AdjustColumns',['../classSaveFileRow.html#a4cee490db14a5b8c66f3c9d2aa48bbec',1,'SaveFileRow']]],
   ['adjustedattack',['AdjustedAttack',['../classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de',1,'ShipDesign']]],
   ['adjustforaxes',['AdjustForAxes',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a6c86c3bfba85428aacbfdcfd5f28c39f',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['advanceturn',['AdvanceTurn',['../structAdvanceTurn.html',1,'']]],

@@ -115,10 +115,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe491f72c85a21a414009fbba85324a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#abe491f72c85a21a414009fbba85324a8">BuildingIndicator</a> (GG::X w, const std::string &amp;building_type, double turns_completed, double total_turns, double total_cost, double turn_spending)</td></tr>
 <tr class="separator:abe491f72c85a21a414009fbba85324a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
+<tr class="memitem:a0d5bbd3e216e6f3d328bee1643f1e5e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a0d5bbd3e216e6f3d328bee1643f1e5e1">PreRender</a> ()</td></tr>
+<tr class="separator:a0d5bbd3e216e6f3d328bee1643f1e5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee085c3ba78d89a2f0a51a0c09256cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a6ee085c3ba78d89a2f0a51a0c09256cb">Render</a> ()</td></tr>
 <tr class="separator:a6ee085c3ba78d89a2f0a51a0c09256cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b1f88644905c2117927aee3ec2334c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">Refresh</a> ()</td></tr>
-<tr class="separator:a2b1f88644905c2117927aee3ec2334c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277e5aae389bc12bd0ce49597b9cc0c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a277e5aae389bc12bd0ce49597b9cc0c7">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr)</td></tr>
 <tr class="separator:a277e5aae389bc12bd0ce49597b9cc0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a462d4916b5cc4d19fbbb2ceb7ee80482"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a462d4916b5cc4d19fbbb2ceb7ee80482">MouseWheel</a> (const GG::Pt &amp;pt, int move, GG::Flags&lt; GG::ModKey &gt; mod_keys)</td></tr>
@@ -137,6 +137,8 @@ Public Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ab0e1155ced60beb63a6fcb4220738670"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#ab0e1155ced60beb63a6fcb4220738670">DoLayout</a> ()</td></tr>
 <tr class="separator:ab0e1155ced60beb63a6fcb4220738670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1f88644905c2117927aee3ec2334c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">Refresh</a> ()</td></tr>
+<tr class="separator:a2b1f88644905c2117927aee3ec2334c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -238,7 +240,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor for use when building is partially complete, to show progress bar. </p>
 
-<p>References <a class="el" href="classClientUI.html#ab6d9bcd248f2c4321dd1c82555b5ffcd">ClientUI::BuildingIcon()</a>, <a class="el" href="classBuildingType.html#ac2918beaf703009570c5774c90f2e843">BuildingType::Description()</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="classBuildingIndicator.html#a5abd04cf8262921194f71d86a4541985">m_graphic</a>, <a class="el" href="classBuildingIndicator.html#a83921b959484b9ddf3eacda2d7229a27">m_progress_bar</a>, <a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">Refresh()</a>, <a class="el" href="classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda">ClientUI::ResearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#a806b590ec414fbc7b139ca4113d24af3">ClientUI::TechWndProgressBarBackgroundColor()</a>, <a class="el" href="classClientUI.html#ad540121c8faa0289b44368e4f7584403">ClientUI::TechWndProgressBarColor()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classClientUI.html#ab6d9bcd248f2c4321dd1c82555b5ffcd">ClientUI::BuildingIcon()</a>, <a class="el" href="classBuildingType.html#ac2918beaf703009570c5774c90f2e843">BuildingType::Description()</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="classBuildingIndicator.html#a5abd04cf8262921194f71d86a4541985">m_graphic</a>, <a class="el" href="classBuildingIndicator.html#a83921b959484b9ddf3eacda2d7229a27">m_progress_bar</a>, <a class="el" href="classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda">ClientUI::ResearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#a806b590ec414fbc7b139ca4113d24af3">ClientUI::TechWndProgressBarBackgroundColor()</a>, <a class="el" href="classClientUI.html#ad540121c8faa0289b44368e4f7584403">ClientUI::TechWndProgressBarColor()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -330,6 +332,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0d5bbd3e216e6f3d328bee1643f1e5e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BuildingIndicator::PreRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classBuildingIndicator.html">BuildingIndicator</a>. </p>
+
+<p>References <a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">Refresh()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af5c65927289f556513aab97755c772f1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -370,6 +398,9 @@ Static Private Attributes</h2></td></tr>
 <a class="anchor" id="a2b1f88644905c2117927aee3ec2334c7"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void BuildingIndicator::Refresh </td>
@@ -378,12 +409,16 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classBuildingIndicator.html">BuildingIndicator</a>. </p>
 
 <p>References <a class="el" href="classClientUI.html#a93d5d9d72a3008a6642df0e12fdcc0f8">ClientUI::ArtDir()</a>, <a class="el" href="classClientUI.html#ab6d9bcd248f2c4321dd1c82555b5ffcd">ClientUI::BuildingIcon()</a>, <a class="el" href="classBuilding.html#afdcd02508adbce8693e5240588e1263b">Building::BuildingTypeName()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="classBuildingIndicator.html#ab0e1155ced60beb63a6fcb4220738670">DoLayout()</a>, <a class="el" href="namespaceEffect.html#abe84534a1883095e1ecbaea072367ab3">Effect::Dump()</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="AppInterface_8h.html#ae42d6a912ab6215760d1b6fd6d0481e3">GetBuilding()</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classClientUI.html#a90dcfeed3565b8fa73bdd4785eb458da">ClientUI::GetTexture()</a>, <a class="el" href="classBuildingIndicator.html#a9e9783b53d112a9ef4a6aec82c3c6abf">m_building_id</a>, <a class="el" href="classBuildingIndicator.html#a5abd04cf8262921194f71d86a4541985">m_graphic</a>, <a class="el" href="classBuildingIndicator.html#a49548a2c4018a65f5f04ec786e06dbd5">m_scrap_indicator</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, <a class="el" href="classBuilding.html#af0a502df6cef86d20a8f91c9d4b6f508">Building::OrderedScrapped()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildingIndicator.html#a1d782ad376f199945fde2a70aa4c91fe">BuildingIndicator()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildingIndicator.html#a1d782ad376f199945fde2a70aa4c91fe">BuildingIndicator()</a>, and <a class="el" href="classBuildingIndicator.html#a0d5bbd3e216e6f3d328bee1643f1e5e1">PreRender()</a>.</p>
 
 </div>
 </div>
