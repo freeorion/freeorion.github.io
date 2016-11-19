@@ -108,6 +108,7 @@ var searchData=
   ['flushloadedstringtables',['FlushLoadedStringTables',['../i18n_8cpp.html#a2260c9e74f3cef6dec032e96a763a507',1,'FlushLoadedStringTables():&#160;i18n.cpp'],['../i18n_8h.html#a508f32e53f8a3510f6dfa30a30531785',1,'FlushLoadedStringTables():&#160;i18n.cpp']]],
   ['foci',['Foci',['../classSpecies.html#a9b1634f7e91230b24b9fc28a5c6a2fc3',1,'Species']]],
   ['focus',['Focus',['../classResourceCenter.html#a81aa4e7e1220be6dfa911843a89b9933',1,'ResourceCenter']]],
+  ['focusdroplistopened',['FocusDropListOpened',['../classSidePanel_1_1PlanetPanel.html#a6a9ef69597d3f42fb469c39e15324406',1,'SidePanel::PlanetPanel']]],
   ['focusdroplistselectionchanged',['FocusDropListSelectionChanged',['../classSidePanel_1_1PlanetPanel.html#a907cbbaca84887bf591629bd1c6bbc0d',1,'SidePanel::PlanetPanel']]],
   ['focusicon',['FocusIcon',['../classPlanet.html#a7797dfe8030de9dbcb07d23dee36a02d',1,'Planet::FocusIcon()'],['../classResourceCenter.html#a7c7dc50e5f78cc7fc96253de97a3fbfc',1,'ResourceCenter::FocusIcon()']]],
   ['focustype',['FocusType',['../structCondition_1_1FocusType.html#ae12de2f494d8e1c15bc5a3f90a530b7c',1,'Condition::FocusType::FocusType()'],['../classFocusType.html#ab24521528d3c799420e4132e7d4edca8',1,'FocusType::FocusType()'],['../classFocusType.html#a719282d970e6d755c02cfeb4224ded79',1,'FocusType::FocusType(const std::string &amp;name, const std::string &amp;description, const Condition::ConditionBase *location, const std::string &amp;graphic)']]],
