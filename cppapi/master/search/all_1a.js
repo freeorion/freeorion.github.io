@@ -21,6 +21,7 @@ var searchData=
   ['zoomtofieldtype',['ZoomToFieldType',['../classClientUI.html#acb30437bc3cf1d274be22842b34c054a',1,'ClientUI']]],
   ['zoomtofleet',['ZoomToFleet',['../classClientUI.html#a5f8d97082cdfdcecd10032121de4d554',1,'ClientUI::ZoomToFleet(int id)'],['../classClientUI.html#a3022cefa7902a7ed48c2cb004b4ce34e',1,'ClientUI::ZoomToFleet(TemporaryPtr&lt; const Fleet &gt; fleet)']]],
   ['zoomtohomesystem',['ZoomToHomeSystem',['../classMapWnd.html#adce2968d7f919cb470279a24fceac38f',1,'MapWnd']]],
+  ['zoomtometertypearticle',['ZoomToMeterTypeArticle',['../classClientUI.html#a569fb3e5645011edafe6a1330e17f736',1,'ClientUI']]],
   ['zoomtonextfleet',['ZoomToNextFleet',['../classMapWnd.html#a75ea85081e1cb348f23bc0e7c96f963e',1,'MapWnd']]],
   ['zoomtonextidlefleet',['ZoomToNextIdleFleet',['../classMapWnd.html#a1f45f907b8e933e89e1ac4ee08dedc1e',1,'MapWnd']]],
   ['zoomtonextownedsystem',['ZoomToNextOwnedSystem',['../classMapWnd.html#aca19b01fd66b4312f787d619bcee2d3a',1,'MapWnd']]],

@@ -1350,6 +1350,7 @@ var searchData=
   ['meter_5ftarget_5ftrade',['METER_TARGET_TRADE',['../Enums_8h.html#aacc8e0cef62fd6ede2c0c594725bf111',1,'Enums.h']]],
   ['meter_5ftrade',['METER_TRADE',['../Enums_8h.html#a7c5c6f785df9091383054d66d9b84bee',1,'Enums.h']]],
   ['meter_5ftroops',['METER_TROOPS',['../Enums_8h.html#aea565e6dcba4c806e27b1b58f750716d',1,'Enums.h']]],
+  ['meter_5ftype_5ftag',['METER_TYPE_TAG',['../classVarText.html#a3a5f77595b659022b69730aa707f9617',1,'VarText']]],
   ['meter_5fvalue',['meter_value',['../structanonymous__namespace_02ConditionParser4_8cpp_03_1_1condition__parser__rules__4.html#a2c683fd60d014566936efc9a0520ad59',1,'anonymous_namespace{ConditionParser4.cpp}::condition_parser_rules_4']]],
   ['min_5fheight',['MIN_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a458cedf344766c1a245e0d7c5d901268',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['min_5fparticipant_5fbar_5fheight',['MIN_PARTICIPANT_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#abdc682b349cfdd98a12d28e2e356f2e7',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
