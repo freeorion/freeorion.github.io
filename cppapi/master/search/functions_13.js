@@ -379,7 +379,7 @@ var searchData=
   ['shortestpathdistance',['ShortestPathDistance',['../classUniverse.html#a940c0b4e64742d7b85d1ab4037d38d54',1,'Universe']]],
   ['shortestpathimpl',['ShortestPathImpl',['../namespaceSystemPathing.html#ac420a952d776aead49f0f8e62852b38b',1,'SystemPathing']]],
   ['shouldoutput',['ShouldOutput',['../classScopedTimer_1_1ScopedTimerImpl.html#aab97108aaf5ea04f1da7b94c79f2a272',1,'ScopedTimer::ScopedTimerImpl']]],
-  ['show',['Show',['../classCUIWnd.html#a3087f41312269d3963114b1985307c7e',1,'CUIWnd']]],
+  ['show',['Show',['../classCUIWnd.html#a3087f41312269d3963114b1985307c7e',1,'CUIWnd::Show()'],['../classTechTreeWnd.html#aed12df1b45fbcd97c564e24c03c86c71',1,'TechTreeWnd::Show()']]],
   ['showallcategories',['ShowAllCategories',['../classTechTreeWnd_1_1LayoutPanel.html#a72976add43387b5d5c2d4374fe89455f',1,'TechTreeWnd::LayoutPanel::ShowAllCategories()'],['../classTechTreeWnd_1_1TechListBox.html#a6dd5e8751683bf0a8ac56a7241a27e89',1,'TechTreeWnd::TechListBox::ShowAllCategories()'],['../classTechTreeWnd.html#a6251e94484b87d0cce47845d97ff7100',1,'TechTreeWnd::ShowAllCategories()']]],
   ['showallclasses',['ShowAllClasses',['../classPartsListBox.html#a0d3c14f585073c8567cae928e922a64d',1,'PartsListBox::ShowAllClasses()'],['../classDesignWnd_1_1PartPalette.html#a2743cb9d0d5a4477372c89ba547ac0c4',1,'DesignWnd::PartPalette::ShowAllClasses()']]],
   ['showallpopups',['ShowAllPopups',['../classMapWnd.html#a456f2f550cb0ae47697f471abe2fd549',1,'MapWnd']]],

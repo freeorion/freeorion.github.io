@@ -490,6 +490,7 @@ var searchData=
   ['m_5findustry_5fwasted',['m_industry_wasted',['../classMapWnd.html#a248067de6dbc413d642258d6052eafaf',1,'MapWnd']]],
   ['m_5finfo',['m_info',['../classAbout.html#a8d5c6292895d9edb07f59dcbd138a5b1',1,'About']]],
   ['m_5finhibit_5funiverse_5fobject_5fsignals',['m_inhibit_universe_object_signals',['../classUniverse.html#a4eeed52b9770d08122dd8fa1b47a89cc',1,'Universe']]],
+  ['m_5finit_5fflag',['m_init_flag',['../classTechTreeWnd.html#a8dd4ae8c06a2eaec10cd9debb05b3f69',1,'TechTreeWnd']]],
   ['m_5finitial_5fcapacity',['m_initial_capacity',['../classSpecial.html#a665631898afce99e392994593180b8b6',1,'Special']]],
   ['m_5finitial_5forbital_5fposition',['m_initial_orbital_position',['../classPlanet.html#a72fe5b23278a55898ff36037f945028f',1,'Planet']]],
   ['m_5finitial_5frotation',['m_initial_rotation',['../classRotatingPlanetControl.html#aa54b7307e3d207ef94c58a50e95d7433',1,'RotatingPlanetControl']]],
