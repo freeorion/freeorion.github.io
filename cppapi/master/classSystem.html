@@ -196,9 +196,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a592f769e4c1979435801e7e306562d42 inherit pub_methods_classUniverseObject"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a592f769e4c1979435801e7e306562d42">Y</a> () const </td></tr>
 <tr class="memdesc:a592f769e4c1979435801e7e306562d42 inherit pub_methods_classUniverseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">the Y-coordinate of this object  <a href="#a592f769e4c1979435801e7e306562d42">More...</a><br/></td></tr>
 <tr class="separator:a592f769e4c1979435801e7e306562d42 inherit pub_methods_classUniverseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97f8421bb37f62ea24e737e8e3f2490d inherit pub_methods_classUniverseObject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">Owner</a> () const </td></tr>
-<tr class="memdesc:a97f8421bb37f62ea24e737e8e3f2490d inherit pub_methods_classUniverseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ID of the empire that owns this object, or ALL_EMPIRES if there is no owner  <a href="#a97f8421bb37f62ea24e737e8e3f2490d">More...</a><br/></td></tr>
-<tr class="separator:a97f8421bb37f62ea24e737e8e3f2490d inherit pub_methods_classUniverseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe2518fe88d91e8d0fb752ce7d0c5026 inherit pub_methods_classUniverseObject"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">Unowned</a> () const </td></tr>
 <tr class="memdesc:afe2518fe88d91e8d0fb752ce7d0c5026 inherit pub_methods_classUniverseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff there are no owners of this object  <a href="#afe2518fe88d91e8d0fb752ce7d0c5026">More...</a><br/></td></tr>
 <tr class="separator:afe2518fe88d91e8d0fb752ce7d0c5026 inherit pub_methods_classUniverseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -355,6 +352,8 @@ std::vector&lt; <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a><br 
 <tr class="separator:a6d92776e154ac1b3ef9c0205fbd21642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ed7b432882c03c768e3bb00b464219a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a5ed7b432882c03c768e3bb00b464219a">SystemID</a> () const </td></tr>
 <tr class="separator:a5ed7b432882c03c768e3bb00b464219a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ad7f49d1877d22bc4ffee09a81c0b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#ac1ad7f49d1877d22bc4ffee09a81c0b5">Owner</a> () const </td></tr>
+<tr class="separator:ac1ad7f49d1877d22bc4ffee09a81c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad851d1d89c6e39b4d082d9b7291648a2"><td class="memItemLeft" align="right" valign="top">virtual const std::set&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#ad851d1d89c6e39b4d082d9b7291648a2">ContainedObjectIDs</a> () const </td></tr>
 <tr class="memdesc:ad851d1d89c6e39b4d082d9b7291648a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns ids of objects in this system  <a href="#ad851d1d89c6e39b4d082d9b7291648a2">More...</a><br/></td></tr>
 <tr class="separator:ad851d1d89c6e39b4d082d9b7291648a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1428,6 +1427,34 @@ StateChangedSignalType::slot_type&#160;</td><td class="memItemRight" valign="bot
 
 </div>
 </div>
+<a class="anchor" id="ac1ad7f49d1877d22bc4ffee09a81c0b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int System::Owner </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Systems are unowned unless at least one planet is owned by an empire and no other empire owns any planets in the system. </p>
+
+<p>Reimplemented from <a class="el" href="classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject</a>.</p>
+
+<p>References <a class="el" href="Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, and <a class="el" href="classSystem.html#a7745fd07028884c966879edc87f00d2b">m_planets</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aade2bbdf4ef27232f1d72605edc3e498"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2188,7 +2215,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classSystem.html#a5c49bb355583ae14be29c6dc105382a7">Copy()</a>, <a class="el" href="classSystem.html#a1802dc8ec2619480c6e526ac8edd3ca3">Insert()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#aa72c33e3125dd1d5856516e8805a4f54">serialize()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classSystem.html#a5c49bb355583ae14be29c6dc105382a7">Copy()</a>, <a class="el" href="classSystem.html#a1802dc8ec2619480c6e526ac8edd3ca3">Insert()</a>, <a class="el" href="classSystem.html#ac1ad7f49d1877d22bc4ffee09a81c0b5">Owner()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#aa72c33e3125dd1d5856516e8805a4f54">serialize()</a>.</p>
 
 </div>
 </div>

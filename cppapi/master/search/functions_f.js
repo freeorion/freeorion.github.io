@@ -125,7 +125,7 @@ var searchData=
   ['overlaytexture',['OverlayTexture',['../classSystem.html#a1603d9b49607ce4b7e26acdcbf352330',1,'System']]],
   ['ownedby',['OwnedBy',['../classUniverseObject.html#a2d77efe12046b83a85008905eeac3336',1,'UniverseObject']]],
   ['ownedvisitor',['OwnedVisitor',['../structOwnedVisitor.html#a2c167fe0d5f68d1131cdc87521c39a22',1,'OwnedVisitor']]],
-  ['owner',['Owner',['../classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d',1,'UniverseObject']]],
+  ['owner',['Owner',['../classSystem.html#ac1ad7f49d1877d22bc4ffee09a81c0b5',1,'System::Owner()'],['../classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d',1,'UniverseObject::Owner()']]],
   ['ownercoloredsystemname',['OwnerColoredSystemName',['../classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a',1,'OwnerColoredSystemName']]],
   ['ownerhasbuildingtypeavailable',['OwnerHasBuildingTypeAvailable',['../structCondition_1_1OwnerHasBuildingTypeAvailable.html#a07d2d17b8551a0a41a863d7e3cb930f3',1,'Condition::OwnerHasBuildingTypeAvailable::OwnerHasBuildingTypeAvailable(const std::string &amp;name)'],['../structCondition_1_1OwnerHasBuildingTypeAvailable.html#a2ae28a0ec97c2e6ea4a6812285fee614',1,'Condition::OwnerHasBuildingTypeAvailable::OwnerHasBuildingTypeAvailable(ValueRef::ValueRefBase&lt; std::string &gt; *name)']]],
   ['ownerhasbuildingtypeavailablesimplematch',['OwnerHasBuildingTypeAvailableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OwnerHasBuildingTypeAvailableSimpleMatch.html#a4c3357763069acfcd8292990ab1f5efa',1,'Condition::anonymous_namespace{Condition.cpp}::OwnerHasBuildingTypeAvailableSimpleMatch']]],

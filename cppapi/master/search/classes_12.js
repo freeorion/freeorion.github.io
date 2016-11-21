@@ -118,8 +118,8 @@ var searchData=
   ['streamablecolor',['StreamableColor',['../structStreamableColor.html',1,'']]],
   ['string_5fcomplex_5fparser_5frules',['string_complex_parser_rules',['../structparse_1_1string__complex__parser__rules.html',1,'parse']]],
   ['string_5fparser_5frules',['string_parser_rules',['../structanonymous__namespace_02StringValueRefParser_8cpp_03_1_1string__parser__rules.html',1,'anonymous_namespace{StringValueRefParser.cpp}']]],
-  ['stringappend',['StringAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1StringAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['stringappend',['StringAppend',['../structanonymous__namespace_02VarText_8cpp_03_1_1StringAppend.html',1,'anonymous_namespace{VarText.cpp}']]],
+  ['stringappend',['StringAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1StringAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['stringcast',['StringCast',['../structValueRef_1_1StringCast.html',1,'ValueRef']]],
   ['stringrow',['StringRow',['../classConditionWidget_1_1StringRow.html',1,'ConditionWidget']]],
   ['stringtable_5f',['StringTable_',['../classStringTable__.html',1,'']]],
@@ -129,6 +129,7 @@ var searchData=
   ['synchronousresponsemessage',['SynchronousResponseMessage',['../structanonymous__namespace_02MessageQueue_8cpp_03_1_1SynchronousResponseMessage.html',1,'anonymous_namespace{MessageQueue.cpp}']]],
   ['system',['System',['../classSystem.html',1,'']]],
   ['systemicon',['SystemIcon',['../classSystemIcon.html',1,'']]],
+  ['systemnamedropdownlist',['SystemNameDropDownList',['../classSidePanel_1_1SystemNameDropDownList.html',1,'SidePanel']]],
   ['systemresourcesummarybrowsewnd',['SystemResourceSummaryBrowseWnd',['../classSystemResourceSummaryBrowseWnd.html',1,'']]],
   ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html',1,'anonymous_namespace{SidePanel.cpp}']]]
 ];

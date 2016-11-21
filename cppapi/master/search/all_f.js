@@ -197,7 +197,7 @@ var searchData=
   ['owned_5fby_5frule',['owned_by_rule',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a4d9fdb0518868669c520c82d43365632',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['ownedby',['OwnedBy',['../classUniverseObject.html#a2d77efe12046b83a85008905eeac3336',1,'UniverseObject']]],
   ['ownedvisitor',['OwnedVisitor',['../structOwnedVisitor.html',1,'OwnedVisitor&lt; T &gt;'],['../structOwnedVisitor.html#a2c167fe0d5f68d1131cdc87521c39a22',1,'OwnedVisitor::OwnedVisitor()']]],
-  ['owner',['Owner',['../classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d',1,'UniverseObject']]],
+  ['owner',['Owner',['../classSystem.html#ac1ad7f49d1877d22bc4ffee09a81c0b5',1,'System::Owner()'],['../classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d',1,'UniverseObject::Owner()']]],
   ['owner_5fhas_5ftech',['owner_has_tech',['../structanonymous__namespace_02ConditionParser5_8cpp_03_1_1condition__parser__rules__5.html#abb58af1c574fc628844879dccdcac969',1,'anonymous_namespace{ConditionParser5.cpp}::condition_parser_rules_5']]],
   ['owner_5fstockpile',['owner_stockpile',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#aeaf8546d4d3c8675a578834d6870f833',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['ownercoloredsystemname',['OwnerColoredSystemName',['../classOwnerColoredSystemName.html',1,'OwnerColoredSystemName'],['../classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a',1,'OwnerColoredSystemName::OwnerColoredSystemName()']]],
