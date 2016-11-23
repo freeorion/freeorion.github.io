@@ -207,7 +207,7 @@ var searchData=
   ['planettypevaluerefparser_2ecpp',['PlanetTypeValueRefParser.cpp',['../PlanetTypeValueRefParser_8cpp.html',1,'']]],
   ['planetutilsai',['PlanetUtilsAI',['../namespacePlanetUtilsAI.html',1,'']]],
   ['planetutilsai_2epy',['PlanetUtilsAI.py',['../PlanetUtilsAI_8py.html',1,'']]],
-  ['playable',['playable',['../structSpeciesParams.html#a617bd3e428414618423ae090aa70c418',1,'SpeciesParams::playable()'],['../classSpecies.html#a45f1915a1b9416ead90309ea42cc033a',1,'Species::Playable()']]],
+  ['playable',['Playable',['../classSpecies.html#a45f1915a1b9416ead90309ea42cc033a',1,'Species::Playable()'],['../structSpeciesParams.html#a617bd3e428414618423ae090aa70c418',1,'SpeciesParams::playable()']]],
   ['playable_5fbegin',['playable_begin',['../classSpeciesManager.html#a111878ef2107963aa69f120aa1738df5',1,'SpeciesManager']]],
   ['playable_5fend',['playable_end',['../classSpeciesManager.html#a4bba846b13b1c46daa4493f5665a2a53',1,'SpeciesManager']]],
   ['playable_5fiterator',['playable_iterator',['../classSpeciesManager.html#ac4da34de898acc5b24fdba74ba942f8d',1,'SpeciesManager']]],

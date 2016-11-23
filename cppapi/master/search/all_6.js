@@ -185,7 +185,7 @@ var searchData=
   ['focus_5ftype_5frule',['focus_type_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#aa494c542ae8d43d93206512b3c1286e2',1,'anonymous_namespace{SpeciesParser.cpp}::rules']]],
   ['focuschangedsignal',['FocusChangedSignal',['../classSidePanel_1_1PlanetPanel.html#a9147d1ed6dc5f698cd6cec882169b818',1,'SidePanel::PlanetPanel']]],
   ['focusdroplistopened',['FocusDropListOpened',['../classSidePanel_1_1PlanetPanel.html#a6a9ef69597d3f42fb469c39e15324406',1,'SidePanel::PlanetPanel']]],
-  ['focusdroplistselectionchanged',['FocusDropListSelectionChanged',['../classSidePanel_1_1PlanetPanel.html#a907cbbaca84887bf591629bd1c6bbc0d',1,'SidePanel::PlanetPanel']]],
+  ['focusdroplistselectionchangedslot',['FocusDropListSelectionChangedSlot',['../classSidePanel_1_1PlanetPanel.html#a8a85f399bc254e4a4e8d169bb112c029',1,'SidePanel::PlanetPanel']]],
   ['focusicon',['FocusIcon',['../classPlanet.html#a7797dfe8030de9dbcb07d23dee36a02d',1,'Planet::FocusIcon()'],['../classResourceCenter.html#a7c7dc50e5f78cc7fc96253de97a3fbfc',1,'ResourceCenter::FocusIcon()']]],
   ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition']]],
   ['focustype',['FocusType',['../classFocusType.html',1,'FocusType'],['../structCondition_1_1FocusType.html#ae12de2f494d8e1c15bc5a3f90a530b7c',1,'Condition::FocusType::FocusType()'],['../classFocusType.html#ab24521528d3c799420e4132e7d4edca8',1,'FocusType::FocusType()'],['../classFocusType.html#a719282d970e6d755c02cfeb4224ded79',1,'FocusType::FocusType(const std::string &amp;name, const std::string &amp;description, const Condition::ConditionBase *location, const std::string &amp;graphic)']]],
