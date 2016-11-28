@@ -16,6 +16,7 @@ var searchData=
   ['s_5fneeds_5frefresh',['s_needs_refresh',['../classSidePanel.html#ad8d43070b81ba3edca2228dddae8d455',1,'SidePanel']]],
   ['s_5fneeds_5fupdate',['s_needs_update',['../classSidePanel.html#a963a1a8b67e6084e9499c6b48b246822',1,'SidePanel']]],
   ['s_5foptions_5fdb',['s_options_db',['../classOptionsDB.html#ac85c1ce2277c9d0d00b9681aeee44d8d',1,'OptionsDB']]],
+  ['s_5fplanet_5fid',['s_planet_id',['../classSidePanel.html#add1b330822703398e5cb85b94bd29d48',1,'SidePanel']]],
   ['s_5frule_5fdefiner',['s_rule_definer',['../classXMLDoc.html#a8611cb8ab083889b07468062dfd225df',1,'XMLDoc']]],
   ['s_5fscanline_5fshader',['s_scanline_shader',['../classBuildingIndicator.html#a3b284826e037f2149843251240b83776',1,'BuildingIndicator::s_scanline_shader()'],['../classRotatingPlanetControl.html#ae8bd5156f9b629d1145313f33dce7097',1,'RotatingPlanetControl::s_scanline_shader()']]],
   ['s_5fset_5fpart_5ffunc_5fptr',['s_set_part_func_ptr',['../classDesignWnd_1_1MainPanel.html#aa49ce0cfc6f4a39ffec47767c7970440',1,'DesignWnd::MainPanel']]],

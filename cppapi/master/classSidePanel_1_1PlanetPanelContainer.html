@@ -172,12 +172,12 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5b585e7b3ac540d65f4a44aba7ed6cba"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba">BuildingRightClickedSignal</a></td></tr>
 <tr class="separator:a5b585e7b3ac540d65f4a44aba7ed6cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5caf3663957164a170a1f1a3dca9fa15"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5caf3663957164a170a1f1a3dca9fa15">PlanetClickedSignal</a></td></tr>
+<tr class="separator:a5caf3663957164a170a1f1a3dca9fa15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c549daa9e1778780b56db189e162b8a"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a9c549daa9e1778780b56db189e162b8a">PlanetLeftDoubleClickedSignal</a></td></tr>
 <tr class="separator:a9c549daa9e1778780b56db189e162b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3caa5b240c79db9af85a69ee6744bf"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a8b3caa5b240c79db9af85a69ee6744bf">PlanetRightClickedSignal</a></td></tr>
 <tr class="separator:a8b3caa5b240c79db9af85a69ee6744bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31afd239be241857edc2766f0ea6b2dc"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a31afd239be241857edc2766f0ea6b2dc">PlanetSelectedSignal</a></td></tr>
-<tr class="separator:a31afd239be241857edc2766f0ea6b2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -189,9 +189,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a4c6f691b2f22d10c5a2b4b406d71f0d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a4c6f691b2f22d10c5a2b4b406d71f0d8">DoPanelsLayout</a> ()</td></tr>
 <tr class="memdesc:a4c6f691b2f22d10c5a2b4b406d71f0d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">repositions PlanetPanels, without moving top panel. Panels below may shift if ones above them have resized.  <a href="#a4c6f691b2f22d10c5a2b4b406d71f0d8">More...</a><br/></td></tr>
 <tr class="separator:a4c6f691b2f22d10c5a2b4b406d71f0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94de5a3f4a6e2171a0615e4a48643bd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a94de5a3f4a6e2171a0615e4a48643bd1">PlanetLeftClicked</a> (int planet_id)</td></tr>
-<tr class="memdesc:a94de5a3f4a6e2171a0615e4a48643bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">responds to user clicking a planet panel. emits PlanetSelectedSignal  <a href="#a94de5a3f4a6e2171a0615e4a48643bd1">More...</a><br/></td></tr>
-<tr class="separator:a94de5a3f4a6e2171a0615e4a48643bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45507f601591ecc5d708a98654818161"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a45507f601591ecc5d708a98654818161">VScroll</a> (int pos_top, int pos_bottom, int range_min, int range_max)</td></tr>
 <tr class="memdesc:a45507f601591ecc5d708a98654818161"><td class="mdescLeft">&#160;</td><td class="mdescRight">responds to user scrolling of planet panels list. all but first parameter ignored  <a href="#a45507f601591ecc5d708a98654818161">More...</a><br/></td></tr>
 <tr class="separator:a45507f601591ecc5d708a98654818161"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,7 +261,7 @@ Private Attributes</h2></td></tr>
 
 <p>programatically selects a planet with id <em>planet_id</em> </p>
 
-<p>References <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, and <a class="el" href="classSidePanel.html#a0add6e344d574f045e78ffc541d7bee3">SidePanel::PlanetSelectedSignal</a>.</p>
+<p>References <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>.</p>
 
 <p>Referenced by <a class="el" href="classSidePanel.html#abd1b3bcdfe104d4e52147968b45aab5c">SidePanel::RefreshImpl()</a>.</p>
 
@@ -511,36 +508,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a94de5a3f4a6e2171a0615e4a48643bd1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SidePanel::PlanetPanelContainer::PlanetLeftClicked </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>planet_id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>responds to user clicking a planet panel. emits PlanetSelectedSignal </p>
-
-<p>References <a class="el" href="classSidePanel.html#a0add6e344d574f045e78ffc541d7bee3">SidePanel::PlanetSelectedSignal</a>.</p>
-
-<p>Referenced by <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#af0ca19b8299b35dddb66c39a2b1ea0c8">SetPlanets()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="af48eedc99153c5a9033bbbec498ba2b7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -651,8 +618,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a372a991e48f91f76b7f168f51d7f565e">m_selected_planet_id</a>.</p>
 
-<p>Referenced by <a class="el" href="classSidePanel.html#a9684bfb5962ac6f2851e0569d50611be">SidePanel::PreRender()</a>, and <a class="el" href="classSidePanel.html#af2f4116840b83822ac0d6fb0d706f80f">SidePanel::SelectedPlanetID()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="acf3152f3dc7c98d78daf5df9da1bbf0f"></a>
@@ -680,8 +645,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a3f4b2378403f91294225673b98a35515">m_candidate_ids</a>.</p>
 
-<p>Referenced by <a class="el" href="classSidePanel.html#aacca8d3805617ef30f46e679dd40aede">SidePanel::PlanetSelectable()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="abd1067618a8253ff734bb70661cb9422"></a>
@@ -702,7 +665,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#abf68803cfb0e79415402ab10ce0458b9">SidePanel::PlanetPanel::PlanetID()</a>, and <a class="el" href="classSidePanel_1_1PlanetPanel.html#ab7b618f2e0420f5b573c9446d8e744d4">SidePanel::PlanetPanel::Select()</a>.</p>
 
-<p>Referenced by <a class="el" href="classSidePanel.html#a9684bfb5962ac6f2851e0569d50611be">SidePanel::PreRender()</a>, and <a class="el" href="classSidePanel.html#ac9085158009320f4d69c27ab2fd4a5c7">SidePanel::SelectPlanetImpl()</a>.</p>
+<p>Referenced by <a class="el" href="classSidePanel.html#a9684bfb5962ac6f2851e0569d50611be">SidePanel::PreRender()</a>.</p>
 
 </div>
 </div>
@@ -732,7 +695,7 @@ Private Attributes</h2></td></tr>
 
 <p>programatically selects a planet with id <em>planet_id</em> </p>
 
-<p>References <a class="el" href="classSidePanel.html#a696b02ce5422ed637d1599946aa3fe33">SidePanel::BuildingRightClickedSignal</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">System::OrbitOfPlanet()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a94de5a3f4a6e2171a0615e4a48643bd1">PlanetLeftClicked()</a>, <a class="el" href="classSidePanel.html#aded7d119673b5a32f1c44cf931739169">SidePanel::PlanetRightClickedSignal</a>, <a class="el" href="classSidePanel.html#acef2febf30c01feb3f351d4fa70ec401">SidePanel::SelectPlanet()</a>, and <a class="el" href="classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
+<p>References <a class="el" href="classSidePanel.html#a696b02ce5422ed637d1599946aa3fe33">SidePanel::BuildingRightClickedSignal</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#ad342e3bd4ab8030a1227fb5b670aefb4">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a05979cfe5154436f3110b4e1e45086f2">GetSystem()</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">System::OrbitOfPlanet()</a>, <a class="el" href="classSidePanel.html#aded7d119673b5a32f1c44cf931739169">SidePanel::PlanetRightClickedSignal</a>, <a class="el" href="classSidePanel.html#acef2febf30c01feb3f351d4fa70ec401">SidePanel::SelectPlanet()</a>, and <a class="el" href="classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject::SystemID()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSidePanel.html#abd1b3bcdfe104d4e52147968b45aab5c">SidePanel::RefreshImpl()</a>.</p>
 
@@ -1024,6 +987,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5caf3663957164a170a1f1a3dca9fa15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::signals2::signal&lt;void (int)&gt; SidePanel::PlanetPanelContainer::PlanetClickedSignal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>emitted when an enabled planet panel is clicked by the user </p>
+
+<p>Referenced by <a class="el" href="classSidePanel.html#a04d24141924d0a622a02c0c34242675e">SidePanel::SidePanel()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9c549daa9e1778780b56db189e162b8a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1065,29 +1051,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>emitted when a planet panel is right-clicked </p>
-
-<p>Referenced by <a class="el" href="classSidePanel.html#a04d24141924d0a622a02c0c34242675e">SidePanel::SidePanel()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a31afd239be241857edc2766f0ea6b2dc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::signals2::signal&lt;void (int)&gt; SidePanel::PlanetPanelContainer::PlanetSelectedSignal</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>emitted when an enabled planet panel is clicked by the user </p>
 
 <p>Referenced by <a class="el" href="classSidePanel.html#a04d24141924d0a622a02c0c34242675e">SidePanel::SidePanel()</a>.</p>
 
