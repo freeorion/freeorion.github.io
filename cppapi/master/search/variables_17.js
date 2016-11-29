@@ -4,7 +4,6 @@ var searchData=
   ['weapon_5fname',['weapon_name',['../structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f',1,'WeaponFireEvent']]],
   ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab4b8c9451aafcce6dc17f4f2dd88f68e',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['wide_5fas',['WIDE_AS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a7afeefb0abdcc7eb39cc0aa106b3793a',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
-  ['width',['width',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantRow.html#a3bce1c201bbd89f43b0b37db06437e8d',1,'anonymous_namespace{ProductionWnd.cpp}::QuantRow']]],
   ['within_5fdistance',['within_distance',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0b25b9168892666709881a0fef7b1ce4',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['within_5fstarlane_5fjumps',['within_starlane_jumps',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#aa4c7d5a2d66d54e7c5a0956c993c8c2e',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['wndchangedsignal',['WndChangedSignal',['../classCombatLogWnd.html#adf11c783afac806ca7102c90d5506de1',1,'CombatLogWnd']]],
