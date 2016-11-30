@@ -24,6 +24,7 @@ var searchData=
   ['empire_5fships_5fdestroyed',['empire_ships_destroyed',['../structparse_1_1int__complex__parser__rules.html#a020647b160310a14b2a6bd3608d75758',1,'parse::int_complex_parser_rules']]],
   ['empire_5fsystem_5fgraph_5fviews',['empire_system_graph_views',['../structUniverse_1_1GraphImpl.html#ac7f71529319f9f99f50f48d5aa447094',1,'Universe::GraphImpl']]],
   ['empirefleetsupplyablesystemidsfunc',['empireFleetSupplyableSystemIDsFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a0cb2b102630b154458d43df350dbbae6',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['empty_5farticle',['empty_article',['../structEncyclopedia.html#a68bc18556715499d11c429d148de7012',1,'Encyclopedia']]],
   ['empty_5fint_5fint_5fmap',['EMPTY_INT_INT_MAP',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#aa41029cea07645e4bb5e29e6b93b545e',1,'ValueRef::anonymous_namespace{ValueRef.cpp}']]],
   ['empty_5fint_5fpair_5fset',['EMPTY_INT_PAIR_SET',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#a80156d0946fed4b940a55e7fa5693c8e',1,'anonymous_namespace{Supply.cpp}']]],
   ['empty_5fint_5fset',['EMPTY_INT_SET',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#ae5d260cd06103063cf0386de2e94cd16',1,'anonymous_namespace{Supply.cpp}']]],
