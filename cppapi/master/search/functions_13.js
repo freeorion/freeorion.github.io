@@ -671,7 +671,7 @@ var searchData=
   ['systemremovestarlane',['SystemRemoveStarlane',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ae7cad1dc4dceb5bd2b6654689d38e43c',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['systemresourcesummarybrowsewnd',['SystemResourceSummaryBrowseWnd',['../classSystemResourceSummaryBrowseWnd.html#aea749a47a80a41f7318104d8bf6130e2',1,'SystemResourceSummaryBrowseWnd']]],
   ['systemrightclicked',['SystemRightClicked',['../classMapWnd.html#a269adf2a5bfabe20476c88fdbd49d092',1,'MapWnd']]],
-  ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html#a6b360708d23d848d4ce4604e14fbde68',1,'anonymous_namespace{SidePanel.cpp}::SystemRow']]],
+  ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html#a59f97b9f7ea89150ded4db9c5f9a46e4',1,'anonymous_namespace{SidePanel.cpp}::SystemRow']]],
   ['systems',['Systems',['../classGalaxySetupPanel.html#ae29b797cdf0deffc1b06107128d6d032',1,'GalaxySetupPanel']]],
   ['systemsconnected',['SystemsConnected',['../classUniverse.html#a65a61b36aee64413147016961d433404',1,'Universe']]],
   ['systemsconnectedp',['SystemsConnectedP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a51f2e2a84c2b3ed4f9ce8c42873563a1',1,'anonymous_namespace{UniverseWrapper.cpp}']]],

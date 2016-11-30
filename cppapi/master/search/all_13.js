@@ -1061,7 +1061,7 @@ var searchData=
   ['systemrightclicked',['SystemRightClicked',['../classMapWnd.html#a269adf2a5bfabe20476c88fdbd49d092',1,'MapWnd']]],
   ['systemrightclickedsignal',['SystemRightClickedSignal',['../classMapWnd.html#a3792b96eeab08c76ab125cce4612a0fb',1,'MapWnd']]],
   ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html',1,'anonymous_namespace{SidePanel.cpp}']]],
-  ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html#a6b360708d23d848d4ce4604e14fbde68',1,'anonymous_namespace{SidePanel.cpp}::SystemRow']]],
+  ['systemrow',['SystemRow',['../classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemRow.html#a59f97b9f7ea89150ded4db9c5f9a46e4',1,'anonymous_namespace{SidePanel.cpp}::SystemRow']]],
   ['systems',['systems',['../classmonsters_1_1StarlaneAlteringMonsters.html#ae4a8b8b605c3b52bb05f9cf745437f07',1,'monsters.StarlaneAlteringMonsters.systems()'],['../classGalaxySetupPanel.html#ae29b797cdf0deffc1b06107128d6d032',1,'GalaxySetupPanel::Systems()']]],
   ['systemsconnected',['SystemsConnected',['../classUniverse.html#a65a61b36aee64413147016961d433404',1,'Universe']]],
   ['systemsconnectedfunc',['SystemsConnectedFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a9c3b1775741be097746894813e822086',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
