@@ -21,7 +21,6 @@ var searchData=
   ['distance_5fmatrix_5fstorage_3c_20short_20_3e',['distance_matrix_storage&lt; short &gt;',['../structUniverse_1_1distance__matrix__storage.html',1,'Universe']]],
   ['double_5fcomplex_5fparser_5frules',['double_complex_parser_rules',['../structparse_1_1double__complex__parser__rules.html',1,'parse']]],
   ['double_5fparser_5frules',['double_parser_rules',['../structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html',1,'anonymous_namespace{DoubleValueRefParser.cpp}']]],
-  ['droplistindexsetoptionfunctor',['DropListIndexSetOptionFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1DropListIndexSetOptionFunctor.html',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['dtpoint',['DTPoint',['../classDelauney_1_1DTPoint.html',1,'Delauney']]],
   ['dttriangle',['DTTriangle',['../classDelauney_1_1DTTriangle.html',1,'Delauney']]]
 ];
