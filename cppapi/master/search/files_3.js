@@ -28,6 +28,7 @@ var searchData=
   ['combatlogmanager_2eh',['CombatLogManager.h',['../CombatLogManager_8h.html',1,'']]],
   ['combatlogwnd_2ecpp',['CombatLogWnd.cpp',['../CombatLogWnd_8cpp.html',1,'']]],
   ['combatlogwnd_2eh',['CombatLogWnd.h',['../CombatLogWnd_8h.html',1,'']]],
+  ['combatratingsai_2epy',['CombatRatingsAI.py',['../CombatRatingsAI_8py.html',1,'']]],
   ['combatreportdata_2ecpp',['CombatReportData.cpp',['../CombatReportData_8cpp.html',1,'']]],
   ['combatreportdata_2eh',['CombatReportData.h',['../CombatReportData_8h.html',1,'']]],
   ['combatreportwnd_2ecpp',['CombatReportWnd.cpp',['../CombatReportWnd_8cpp.html',1,'']]],
