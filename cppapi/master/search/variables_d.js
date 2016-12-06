@@ -155,7 +155,7 @@ var searchData=
   ['m_5fcolonize_5fbutton',['m_colonize_button',['../classSidePanel_1_1PlanetPanel.html#acdb00d87635833b78222ffee06cceed1',1,'SidePanel::PlanetPanel']]],
   ['m_5fcolonize_5findicator',['m_colonize_indicator',['../classShipDataPanel.html#a714bf31bb9c36925e2a684d8bf96f59b',1,'ShipDataPanel']]],
   ['m_5fcolony_5fcapacity',['m_colony_capacity',['../classShipDesign.html#a10d197c55d443c12ff950a0e2f087ad0',1,'ShipDesign']]],
-  ['m_5fcolor',['m_color',['../classEmpire.html#a3f75200b6f65e9c1160d274cecba9ef9',1,'Empire::m_color()'],['../structSaveGameEmpireData.html#aa41a25e270c4dd066aa9f15600b6004b',1,'SaveGameEmpireData::m_color()']]],
+  ['m_5fcolor',['m_color',['../classEmpire.html#a3f75200b6f65e9c1160d274cecba9ef9',1,'Empire::m_color()'],['../classScanlineControl.html#a02fa0182ac91079bee258a9a03299bb2',1,'ScanlineControl::m_color()'],['../classScanlineRenderer_1_1ScanlineRendererImpl.html#afabbf1cbcdea3b20ca5a8298d3eb73b1',1,'ScanlineRenderer::ScanlineRendererImpl::m_color()'],['../structSaveGameEmpireData.html#aa41a25e270c4dd066aa9f15600b6004b',1,'SaveGameEmpireData::m_color()']]],
   ['m_5fcolor_5fselector',['m_color_selector',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html#a4287fdbbb2a02cbee2a7efb3362015d6',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGamePlayerRow']]],
   ['m_5fcolored_5fname',['m_colored_name',['../classSystemIcon.html#a508dc3ca42aece8d1f25b14f339f60c3',1,'SystemIcon']]],
   ['m_5fcolour',['m_colour',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a767b1fcb6a829c21b37c3e017aba4721',1,'TechTreeWnd::LayoutPanel::TechPanel']]],

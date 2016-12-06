@@ -107,20 +107,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bb9196341f57674106177446420c694"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#a8bb9196341f57674106177446420c694">ScanlineControl</a> (GG::X x, GG::Y y, GG::X w, GG::Y h, bool square=false)</td></tr>
-<tr class="separator:a8bb9196341f57674106177446420c694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d80b00477669c89f1792d3b1a28bb10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#a4d80b00477669c89f1792d3b1a28bb10">ScanlineControl</a> (GG::X x, GG::Y y, GG::X w, GG::Y h, bool square=false, GG::Clr clr=GG::CLR_BLACK)</td></tr>
+<tr class="separator:a4d80b00477669c89f1792d3b1a28bb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaee5fc3eeaa56f1713271b5646e33b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#acaee5fc3eeaa56f1713271b5646e33b0">Render</a> ()</td></tr>
 <tr class="separator:acaee5fc3eeaa56f1713271b5646e33b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0def535224fbb368cbad4721b25ded0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#ad0def535224fbb368cbad4721b25ded0">SetColor</a> (GG::Clr clr)</td></tr>
+<tr class="separator:ad0def535224fbb368cbad4721b25ded0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a02fa0182ac91079bee258a9a03299bb2"><td class="memItemLeft" align="right" valign="top">GG::Clr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#a02fa0182ac91079bee258a9a03299bb2">m_color</a></td></tr>
+<tr class="separator:a02fa0182ac91079bee258a9a03299bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a313adc5852098161778c0b9747c02869"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineControl.html#a313adc5852098161778c0b9747c02869">m_square</a></td></tr>
 <tr class="separator:a313adc5852098161778c0b9747c02869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Renders scanlines over its area. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8bb9196341f57674106177446420c694"></a>
+<a class="anchor" id="a4d80b00477669c89f1792d3b1a28bb10"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -152,7 +156,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>square</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>square</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GG::Clr&#160;</td>
+          <td class="paramname"><em>clr</em> = <code>GG::CLR_BLACK</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -186,11 +196,60 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classScanlineControl.html#a313adc5852098161778c0b9747c02869">m_square</a>, <a class="el" href="classScanlineRenderer.html#a863c4d0231aaed07d74a4ec76c0ecf8b">ScanlineRenderer::RenderCircle()</a>, <a class="el" href="classScanlineRenderer.html#addb02c776ff727f09da8233e6557c0fb">ScanlineRenderer::RenderRectangle()</a>, and <a class="el" href="namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a2b38121993dabb9e6132d97b097e7e8c">anonymous_namespace{CUIControls.cpp}::scanline_shader</a>.</p>
+<p>References <a class="el" href="classScanlineControl.html#a02fa0182ac91079bee258a9a03299bb2">m_color</a>, <a class="el" href="classScanlineControl.html#a313adc5852098161778c0b9747c02869">m_square</a>, <a class="el" href="classScanlineRenderer.html#a863c4d0231aaed07d74a4ec76c0ecf8b">ScanlineRenderer::RenderCircle()</a>, <a class="el" href="classScanlineRenderer.html#addb02c776ff727f09da8233e6557c0fb">ScanlineRenderer::RenderRectangle()</a>, <a class="el" href="namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a2b38121993dabb9e6132d97b097e7e8c">anonymous_namespace{CUIControls.cpp}::scanline_shader</a>, and <a class="el" href="classScanlineRenderer.html#ad5e2d0377177bf8963bb3c1397c44c19">ScanlineRenderer::SetColor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0def535224fbb368cbad4721b25ded0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScanlineControl::SetColor </td>
+          <td>(</td>
+          <td class="paramtype">GG::Clr&#160;</td>
+          <td class="paramname"><em>clr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Changes the color used to draw the scanlines. </p>
+
+<p>References <a class="el" href="classScanlineControl.html#a02fa0182ac91079bee258a9a03299bb2">m_color</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a02fa0182ac91079bee258a9a03299bb2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GG::Clr ScanlineControl::m_color</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classScanlineControl.html#acaee5fc3eeaa56f1713271b5646e33b0">Render()</a>, and <a class="el" href="classScanlineControl.html#ad0def535224fbb368cbad4721b25ded0">SetColor()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a313adc5852098161778c0b9747c02869"></a>
 <div class="memitem">
 <div class="memproto">
