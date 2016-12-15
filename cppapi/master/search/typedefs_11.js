@@ -9,7 +9,7 @@ var searchData=
   ['setpartfuncptrtype',['SetPartFuncPtrType',['../classDesignWnd_1_1MainPanel.html#ac9abcf4fb2a6b8e0c2d78331883f1454',1,'DesignWnd::MainPanel']]],
   ['ship_5fdesign_5fiterator',['ship_design_iterator',['../classUniverse.html#a36b94ff0880cca821a6249edcccc48a0',1,'Universe']]],
   ['shipdesignitr',['ShipDesignItr',['../classEmpire.html#a778738c144a4fe35b5fa1ebb8d46e277',1,'Empire']]],
-  ['shipdesignmap',['ShipDesignMap',['../classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543',1,'Universe::ShipDesignMap()'],['../Message_8h.html#a5ba2da3ac6f73698653764d40802e5df',1,'ShipDesignMap():&#160;Message.h']]],
+  ['shipdesignmap',['ShipDesignMap',['../classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543',1,'Universe']]],
   ['simultaneouseventsptr',['SimultaneousEventsPtr',['../structSimultaneousEvents.html#a2b87ed053c7e66df8ac0db05cd56ce69',1,'SimultaneousEvents']]],
   ['sitrepitr',['SitRepItr',['../classEmpire.html#a5fddec02770125e339370c5886be9bcd',1,'Empire']]],
   ['skipper_5ftype',['skipper_type',['../namespaceparse.html#a73ed2f3013a63e67745571a738847cb7',1,'parse']]],
