@@ -14,6 +14,7 @@ var searchData=
   ['fighterattackedevent',['FighterAttackedEvent',['../structFighterAttackedEvent.html#a88b9d6477ef129046e683fc8266a43c3',1,'FighterAttackedEvent::FighterAttackedEvent()'],['../structFighterAttackedEvent.html#a37c8199eece67e9cda961a969c6a11b5',1,'FighterAttackedEvent::FighterAttackedEvent(int bout_, int round_, int attacked_by_object_id_, int attacker_owner_empire_id_, int attacked_owner_id_)']]],
   ['fightercount',['FighterCount',['../classShip.html#a2e18b7b3189002b9e29540e2d9394e7a',1,'Ship']]],
   ['fighterlaunchevent',['FighterLaunchEvent',['../structFighterLaunchEvent.html#a8fa38ae5e00fc82b973cdd6d16c13619',1,'FighterLaunchEvent::FighterLaunchEvent()'],['../structFighterLaunchEvent.html#a61a7c90621208835e79699da1f437a78',1,'FighterLaunchEvent::FighterLaunchEvent(int bout_, int launched_from_id_, int fighter_owner_empire_id_, int number_launched_)']]],
+  ['fightermax',['FighterMax',['../classShip.html#a137513e29582911108b658f83633da06',1,'Ship']]],
   ['fighterorpublicnamelink',['FighterOrPublicNameLink',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad0d8104d7c7df0b3217b5d35139c8986',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['fightersicon',['FightersIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ab3d5c535b56cbe33075adcf7ecd4247a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527',1,'parse']]],
