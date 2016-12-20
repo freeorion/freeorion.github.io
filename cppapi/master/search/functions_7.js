@@ -233,6 +233,7 @@ var searchData=
   ['getnode',['GetNode',['../classTechTreeLayout.html#a7337e1abb6a06042589ca388b8a79d93',1,'TechTreeLayout']]],
   ['getnumberofchildren',['GetNumberOfChildren',['../classTechTreeLayout_1_1Node.html#aa505fa4faa37e283ecda3255c3c26a19',1,'TechTreeLayout::Node']]],
   ['getnumberofparents',['GetNumberOfParents',['../classTechTreeLayout_1_1Node.html#a9905d05bf0fb31567ba00d1fb2483fdf',1,'TechTreeLayout::Node']]],
+  ['getnumcombatrounds',['GetNumCombatRounds',['../classUniverse.html#ae6f7bacef66fffc46546e77b80e97084',1,'Universe']]],
   ['getobjectpropertyvalues',['GetObjectPropertyValues',['../structValueRef_1_1Statistic.html#a30c2d2a897704c174375230d7214311c',1,'ValueRef::Statistic']]],
   ['getobjectstoserialize',['GetObjectsToSerialize',['../structCombatInfo.html#a22b2f612917b30a87ce5c9f03f4e7685',1,'CombatInfo::GetObjectsToSerialize()'],['../classUniverse.html#a76ba734bf42a8a5dc7633ee2418d8cb2',1,'Universe::GetObjectsToSerialize()']]],
   ['getobjectvisibilitybyempire',['GetObjectVisibilityByEmpire',['../classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5',1,'Universe']]],
