@@ -12,7 +12,6 @@ var searchData=
   ['noop',['noop',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#a10ced533969f66ca5a4a84efb8bddfc7',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['not_5f',['not_',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a16a9fec4197441145838f71422c177d2',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['num',['num',['../classDelauney_1_1SortValInt.html#a63f03f2d1e6de8bd15f25ce5ac26fa6f',1,'Delauney::SortValInt']]],
-  ['num_5fcombat_5fbouts',['NUM_COMBAT_BOUTS',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#abbc7f6e6c80e8dae837c890a615abc1c',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['num_5fmusic_5fbuffers',['NUM_MUSIC_BUFFERS',['../classSound_1_1SoundImpl.html#a71d3387837b7650f11e126fa38c5aa91',1,'Sound::SoundImpl']]],
   ['num_5fsources',['NUM_SOURCES',['../classSound_1_1SoundImpl.html#a2397d0eee41b56666c7a8038e3197754',1,'Sound::SoundImpl']]],
   ['number',['number',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0fa6f0153abb44bf5a3c87ed0634325f',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
