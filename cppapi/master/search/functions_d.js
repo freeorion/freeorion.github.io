@@ -47,6 +47,8 @@ var searchData=
   ['meter_5fbrowse_5fvalue_5fwidth',['METER_BROWSE_VALUE_WIDTH',['../namespaceanonymous__namespace_02ResourcePanel_8cpp_03.html#a6413d741de4b15f779ecf81316a4f211',1,'anonymous_namespace{ResourcePanel.cpp}']]],
   ['meter_5fend',['meter_end',['../classEmpire.html#af5e7e775ba5750d5aa69159e583de568',1,'Empire']]],
   ['meterbrowselabelwidth',['MeterBrowseLabelWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a940052b6206f20ea880370176774181f',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
+  ['meterbrowseqtywidth',['MeterBrowseQtyWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a06db0738686e5ef3c6a69f397b55714d',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
+  ['meterbrowserowheight',['MeterBrowseRowHeight',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adbefd7bc28a4d85bd05d6da9adc255f7',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['meterbrowsevaluewidth',['MeterBrowseValueWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a30c180cfcafab8e20094231cc1405e1a',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['meterbrowsewnd',['MeterBrowseWnd',['../classMeterBrowseWnd.html#abcb2f818976731249fc1f8710f274000',1,'MeterBrowseWnd']]],
   ['metercolor',['MeterColor',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a6d67c34b110a200ef6b14524f7c26e30',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],

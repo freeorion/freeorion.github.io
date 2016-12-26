@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['damage',['damage',['../structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d',1,'WeaponFireEvent']]],
+  ['damage',['damage',['../structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d',1,'WeaponFireEvent::damage()'],['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo.html#af623f83bd1dc5bb72ef76bed3bdd3b72',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::damage()']]],
   ['damaged_5fobject_5fids',['damaged_object_ids',['../structCombatLog.html#aeeb8fdbc31517a2db2087044d07a7bd1',1,'CombatLog::damaged_object_ids()'],['../structCombatInfo.html#a8e1a7b73200fc5147321cd2128da30fe',1,'CombatInfo::damaged_object_ids()']]],
   ['data',['data',['../structTextLinker_1_1Link.html#a249551c48190603fc5cb9af9d893fcf7',1,'TextLinker::Link']]],
   ['data_5fpanel_5fborder',['DATA_PANEL_BORDER',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a531a98b8cc530a34d08e656ebf6179f3',1,'anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae9cdd5155d2d6499892fb5b83d49e73a',1,'anonymous_namespace{ObjectListWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a58d737422e793f1559583ccd59a6e9d1',1,'anonymous_namespace{PlayerListWnd.cpp}::DATA_PANEL_BORDER()']]],
@@ -52,6 +52,7 @@ var searchData=
   ['discovery_5fquestion',['DISCOVERY_QUESTION',['../namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2',1,'Networking']]],
   ['displaybuildingtypesignal',['DisplayBuildingTypeSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
+  ['docked',['docked',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo_1_1StateQty.html#ac192772b981b9b105868bfde58ed3203',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::StateQty']]],
   ['doctypedecl',['doctypedecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a4418585c8c3ba2eca9ae574eac333016',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['document',['document',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2a453246d4337c7a71c85219b8973c65',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['donetypingsignal',['DoneTypingSignal',['../classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de',1,'MessageWnd']]],

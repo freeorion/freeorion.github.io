@@ -161,6 +161,7 @@ var searchData=
   ['colorsquare',['ColorSquare',['../structanonymous__namespace_02CUIControls_8cpp_03_1_1ColorRow_1_1ColorSquare.html#a229160a7688e7790af20d37d7de2cad3',1,'anonymous_namespace{CUIControls.cpp}::ColorRow::ColorSquare']]],
   ['colortag',['ColorTag',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#af1e89968f55d4dd91339876d50e90580',1,'anonymous_namespace{SystemIcon.cpp}']]],
   ['colortextforselect',['ColorTextForSelect',['../classFleetDataPanel.html#a14298bbcbbb8dec0be6569dbb089d09d',1,'FleetDataPanel']]],
+  ['colouredint',['ColouredInt',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adafcfd9226de9daebf7b9fc56c0f6c68',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['colourednumber',['ColouredNumber',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a4c6b0661951c21fd0104f1f324e72fae',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['colourwrappedtext',['ColourWrappedtext',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#ae4ce4068c7cf755d2047e2a8ae631f20',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['column',['Column',['../classTechTreeLayout_1_1Column.html#a2e877af4f94e59d226a79e6b6fff6199',1,'TechTreeLayout::Column']]],

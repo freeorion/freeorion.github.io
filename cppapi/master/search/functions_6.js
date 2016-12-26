@@ -12,6 +12,8 @@ var searchData=
   ['fieldtypename',['FieldTypeName',['../classField.html#a676f6ad5831da6f47efc19554fe8ad11',1,'Field']]],
   ['fighter',['Fighter',['../classFighter.html#a09899f8d6fa6a099c912cabc5c6a6cb8',1,'Fighter::Fighter(int empire_id, int launched_from_id, const std::string &amp;species_name, float damage)'],['../classFighter.html#ae1d4ac29ed8dac91af41e6396ee00dda',1,'Fighter::Fighter()']]],
   ['fighterattackedevent',['FighterAttackedEvent',['../structFighterAttackedEvent.html#a88b9d6477ef129046e683fc8266a43c3',1,'FighterAttackedEvent::FighterAttackedEvent()'],['../structFighterAttackedEvent.html#a37c8199eece67e9cda961a969c6a11b5',1,'FighterAttackedEvent::FighterAttackedEvent(int bout_, int round_, int attacked_by_object_id_, int attacker_owner_empire_id_, int attacked_owner_id_)']]],
+  ['fighterbrowselabelwidth',['FighterBrowseLabelWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7ded8b30e0b84d37181505ea1a5ed393',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
+  ['fighterbrowselistwidth',['FighterBrowseListWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#ad7211dd64e6715b9ad3b006e3eae42ba',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['fightercount',['FighterCount',['../classShip.html#a2e18b7b3189002b9e29540e2d9394e7a',1,'Ship']]],
   ['fighterlaunchevent',['FighterLaunchEvent',['../structFighterLaunchEvent.html#a8fa38ae5e00fc82b973cdd6d16c13619',1,'FighterLaunchEvent::FighterLaunchEvent()'],['../structFighterLaunchEvent.html#a61a7c90621208835e79699da1f437a78',1,'FighterLaunchEvent::FighterLaunchEvent(int bout_, int launched_from_id_, int fighter_owner_empire_id_, int number_launched_)']]],
   ['fightermax',['FighterMax',['../classShip.html#a137513e29582911108b658f83633da06',1,'Ship']]],
