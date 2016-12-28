@@ -5,7 +5,6 @@ var searchData=
   ['effect_5fparser_5frule',['effect_parser_rule',['../namespaceparse.html#a23f0397c552d6d583bcc024db894d469',1,'parse']]],
   ['effects_5fgroup_5frule',['effects_group_rule',['../structanonymous__namespace_02Parse_8cpp_03_1_1effects__group__rules.html#a117b996f1e8087554da2cf9402303991',1,'anonymous_namespace{Parse.cpp}::effects_group_rules::effects_group_rule()'],['../namespaceparse_1_1detail.html#a76b04383f44466defcec288b172ed12a',1,'parse::detail::effects_group_rule()']]],
   ['effects_5frule',['effects_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#ac0d13624bc5f161830a4cb7b6e03cc27',1,'anonymous_namespace{SpeciesParser.cpp}::rules']]],
-  ['empire_5fit',['empire_it',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a6140d6031aaa7a2870e0309460c3e695',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['empire_5fmeter_5fvalue_5frule',['empire_meter_value_rule',['../structanonymous__namespace_02ConditionParser4_8cpp_03_1_1condition__parser__rules__4.html#ac059c62e6a3ef78f3a5eea90da5de4f3',1,'anonymous_namespace{ConditionParser4.cpp}::condition_parser_rules_4']]],
   ['empireobjectmap',['EmpireObjectMap',['../classUniverse.html#ab2e3c288646f6e8e6d20fbc699f179e9',1,'Universe']]],
   ['empireobjectspecialsmap',['EmpireObjectSpecialsMap',['../classUniverse.html#a0b2abfdbd505010de345a271ee4eb2a6',1,'Universe']]],
