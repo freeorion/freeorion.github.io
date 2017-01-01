@@ -112,6 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a77612bc1efd52de2a7fc4a9fa57a7fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95a5026ef6b90bb9c804520550a16741"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html#a95a5026ef6b90bb9c804520550a16741">Element</a> (BuildType build_type, int design_id, int empire_id_, int ordered_, int remaining_, int location_, bool paused_=false)</td></tr>
 <tr class="separator:a95a5026ef6b90bb9c804520550a16741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462c70c8f35edfc7a9737f8132a66e2a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html#a462c70c8f35edfc7a9737f8132a66e2a">Dump</a> () const </td></tr>
+<tr class="separator:a462c70c8f35edfc7a9737f8132a66e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -137,7 +139,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4754464d69c6b56aa87887778215f0cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html#a4754464d69c6b56aa87887778215f0cc">paused</a></td></tr>
 <tr class="separator:a4754464d69c6b56aa87887778215f0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeeb3ba58e8832febbd2d253bc1b710a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html#aaeeb3ba58e8832febbd2d253bc1b710a">progress</a></td></tr>
-<tr class="memdesc:aaeeb3ba58e8832febbd2d253bc1b710a"><td class="mdescLeft">&#160;</td><td class="mdescRight">PP that has been spent on this production element (will increase by allocation during next turn processing)  <a href="#aaeeb3ba58e8832febbd2d253bc1b710a">More...</a><br/></td></tr>
+<tr class="memdesc:aaeeb3ba58e8832febbd2d253bc1b710a"><td class="mdescLeft">&#160;</td><td class="mdescRight">fraction of this item that is complete.  <a href="#aaeeb3ba58e8832febbd2d253bc1b710a">More...</a><br/></td></tr>
 <tr class="separator:aaeeb3ba58e8832febbd2d253bc1b710a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97baa154ea36c00c419966fcf45b714e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html#a97baa154ea36c00c419966fcf45b714e">progress_memory</a></td></tr>
 <tr class="memdesc:a97baa154ea36c00c419966fcf45b714e"><td class="mdescLeft">&#160;</td><td class="mdescRight">updated by server turn processing; aides in allowing blocksize changes to be undone in same turn w/o progress loss  <a href="#a97baa154ea36c00c419966fcf45b714e">More...</a><br/></td></tr>
@@ -346,6 +348,23 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a462c70c8f35edfc7a9737f8132a66e2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProductionQueue::Element::Dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">Empire::CheckProductionProgress()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aaebf2b6b191b97f87a57e90600da8717"></a>
 <div class="memitem">
 <div class="memproto">
@@ -536,7 +555,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>PP that has been spent on this production element (will increase by allocation during next turn processing) </p>
+<p>fraction of this item that is complete. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a4ec1e765b8e8b2d9eee2b830be5a16f1">anonymous_namespace{Empire.cpp}::CalculateProductionPerTurnLimit()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">Empire::CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">Empire::ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#a8594db3ea7b3037babb4aa286bd09b61">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">ProductionQueue::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
