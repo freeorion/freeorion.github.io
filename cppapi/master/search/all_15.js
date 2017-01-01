@@ -66,7 +66,7 @@ var searchData=
   ['updatedirectory',['UpdateDirectory',['../classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665',1,'SaveFileDialog']]],
   ['updateeffectlabelsandvalues',['UpdateEffectLabelsAndValues',['../classMeterBrowseWnd.html#a2fb960bfb262e9900f8456f986a126ca',1,'MeterBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipDamageBrowseWnd.html#ac05ae893d71d4804654897e7d858c280',1,'ShipDamageBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipFightersBrowseWnd.html#ad9985fb76a1cd05ef8f01d2fe1852bc8',1,'ShipFightersBrowseWnd::UpdateEffectLabelsAndValues()']]],
   ['updateempirecombatdestructioninfo',['UpdateEmpireCombatDestructionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6f1d30ee4639cae1cb96383e0848cc0c',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['updateempireinvasioninfo',['UpdateEmpireInvasionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a90c96e8fa7b811a9f529525a4d59c081',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['updateempireinvasioninfo',['UpdateEmpireInvasionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aef237fc4714386a82eb805345a19550c',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['updateempirelatestknownobjectsandvisibilityturns',['UpdateEmpireLatestKnownObjectsAndVisibilityTurns',['../classUniverse.html#a9df9e2f5d1134b601655e549ef961af2',1,'Universe']]],
   ['updateempireobjectvisibilities',['UpdateEmpireObjectVisibilities',['../classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d',1,'Universe']]],
   ['updateempireresourcepools',['UpdateEmpireResourcePools',['../classMapWnd.html#abed0219d3262a22704cb4b533c804543',1,'MapWnd']]],
