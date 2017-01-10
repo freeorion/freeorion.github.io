@@ -58,6 +58,7 @@ var searchData=
   ['onmultiplayer',['OnMultiPlayer',['../classIntroScreen.html#a405b91387a2ea9bb848b3dbfeef3cc2c',1,'IntroScreen']]],
   ['onnext',['OnNext',['../classEncyclopediaDetailPanel.html#a3e943f5a09557b3855a668026e1953b0',1,'EncyclopediaDetailPanel']]],
   ['onoptions',['OnOptions',['../classIntroScreen.html#a23ff70e3b8a4a2fa0ad9a6f309046bc5',1,'IntroScreen']]],
+  ['onpedia',['OnPedia',['../classIntroScreen.html#a9f2a529921d41e22f60e8268316d6e0a',1,'IntroScreen']]],
   ['onquickstart',['OnQuickStart',['../classIntroScreen.html#aa5b413639a6bbafe6e94311d24eff83e',1,'IntroScreen']]],
   ['onsingleplayer',['OnSinglePlayer',['../classIntroScreen.html#a95d374d1dddbe67f98244b5e0e520b84',1,'IntroScreen']]],
   ['onvision',['OnVision',['../classAbout.html#ae0181587cd1de4419b09a42f00b8defd',1,'About']]],

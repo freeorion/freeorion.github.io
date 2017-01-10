@@ -755,6 +755,7 @@ var searchData=
   ['m_5fpath',['m_path',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a3fa4ac7062f2542e07e9202aecb19d70',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
   ['m_5fpause',['m_pause',['../classResearchQueueOrder.html#afe9681f441c9975ca754d73245e78c0d',1,'ResearchQueueOrder::m_pause()'],['../classProductionQueueOrder.html#a7848a16466b2c2c295fceadde0c326e3',1,'ProductionQueueOrder::m_pause()']]],
   ['m_5fpaused',['m_paused',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a7ecfc60707cf2b4578d809f5cd73564f',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
+  ['m_5fpedia',['m_pedia',['../classIntroScreen.html#afe16501929d7ec13abc9e87c411ff76b',1,'IntroScreen']]],
   ['m_5fpedia_5fpanel',['m_pedia_panel',['../classMapWnd.html#a4761279993a52f5ad6b35f61a483aa94',1,'MapWnd']]],
   ['m_5fpending_5fsystem_5fexit_5flanes',['m_pending_system_exit_lanes',['../classEmpire.html#a5abafab12af95c136e0e0038fa743059',1,'Empire']]],
   ['m_5fphase_5foffset',['m_phase_offset',['../classRotatingGraphic.html#af6c827f3c9fe10638f156ccb0016f7f2',1,'RotatingGraphic']]],

@@ -4,7 +4,7 @@ var searchData=
   ['macro_5fsubstitution',['macro_substitution',['../namespaceparse.html#a45888091fb4310991dcd4d830c8fed25',1,'parse']]],
   ['macros_5fdirectly_5freferenced_5fin_5ftext',['macros_directly_referenced_in_text',['../namespaceparse.html#a9be7c5a0f8b4897249b4d2a5ebc91f14',1,'parse']]],
   ['main',['main',['../camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;camain.cpp'],['../chmain_8mm.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;chmain.mm'],['../dmain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;dmain.cpp']]],
-  ['main_5fmenu_5fheight',['MAIN_MENU_HEIGHT',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#ac04a23007a8b0ef7a1b6c35dd80a2648',1,'anonymous_namespace{IntroScreen.cpp}']]],
+  ['main_5fmenu_5fheight',['MAIN_MENU_HEIGHT',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#a5e3aea09427d94e38e5650e1d2905dfc',1,'anonymous_namespace{IntroScreen.cpp}']]],
   ['main_5fmenu_5fwidth',['MAIN_MENU_WIDTH',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#aaaf09e7b10634de7303ae0fb295035db',1,'anonymous_namespace{IntroScreen.cpp}']]],
   ['mainconfigoptionssetup',['mainConfigOptionsSetup',['../chmain_8cpp.html#a0fb9337762aca900c573d49e7b167b7c',1,'mainConfigOptionsSetup(const std::vector&lt; std::string &gt; &amp;args):&#160;chmain.cpp'],['../chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c',1,'mainConfigOptionsSetup(const std::vector&lt; std::string &gt; &amp;args):&#160;chmain.cpp']]],
   ['mainpanel',['MainPanel',['../classDesignWnd_1_1MainPanel.html#a15941f5c9795b7e6b28539b40278d798',1,'DesignWnd::MainPanel']]],
