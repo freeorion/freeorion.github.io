@@ -11,7 +11,6 @@ var searchData=
   ['lanetooclosetoothersystem',['LaneTooCloseToOtherSystem',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#adac2b344ea688634f912cd0b6a629bc7',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['language',['Language',['../classStringTable__.html#a5b110d10adebe1af2aa0ae5d0cad382f',1,'StringTable_::Language()'],['../i18n_8cpp.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp'],['../i18n_8h.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp']]],
   ['largemetervalue',['LargeMeterValue',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a0e3a7451f62168912a0cf49c118e7474',1,'anonymous_namespace{ServerWrapper.cpp}']]],
-  ['lastchild',['LastChild',['../classXMLElement.html#aa3fee596599c962aa2db583d90523117',1,'XMLElement::LastChild() const '],['../classXMLElement.html#ae2c6d45fd995cb9f769dae8046473f70',1,'XMLElement::LastChild()']]],
   ['lastclicked',['LastClicked',['../classSitRepPanel.html#a893639a33cd269e44e365c949b194c4a',1,'SitRepPanel']]],
   ['lastturnactiveincombat',['LastTurnActiveInCombat',['../classShip.html#aefce2deb8657da228114500868a7650d',1,'Ship']]],
   ['lastturnattackedbyship',['LastTurnAttackedByShip',['../classPlanet.html#a016cc4251b1dc3fcebabab5fc16bb8ca',1,'Planet']]],
