@@ -18,6 +18,5 @@ var searchData=
   ['fleetwnd_2ecpp',['FleetWnd.cpp',['../FleetWnd_8cpp.html',1,'']]],
   ['fleetwnd_2eh',['FleetWnd.h',['../FleetWnd_8h.html',1,'']]],
   ['freeorion_2epy',['freeorion.py',['../freeorion_8py.html',1,'']]],
-  ['freeorionai_2epy',['FreeOrionAI.py',['../FreeOrionAI_8py.html',1,'']]],
-  ['freeorionaiinterface_2epy',['freeOrionAIInterface.py',['../freeOrionAIInterface_8py.html',1,'']]]
+  ['freeorionai_2epy',['FreeOrionAI.py',['../FreeOrionAI_8py.html',1,'']]]
 ];

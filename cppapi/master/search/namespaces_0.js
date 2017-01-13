@@ -4,6 +4,7 @@ var searchData=
   ['aifleetmission',['AIFleetMission',['../namespaceAIFleetMission.html',1,'']]],
   ['aiinterface',['AIInterface',['../namespaceAIInterface.html',1,'']]],
   ['aistate',['AIstate',['../namespaceAIstate.html',1,'']]],
+  ['anonymous_5fnamespace_7baiclientapp_2ecpp_7d',['anonymous_namespace{AIClientApp.cpp}',['../namespaceanonymous__namespace_02AIClientApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7baiwrapper_2ecpp_7d',['anonymous_namespace{AIWrapper.cpp}',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7balignmentsparser_2ecpp_7d',['anonymous_namespace{AlignmentsParser.cpp}',['../namespaceanonymous__namespace_02AlignmentsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bbuilddesignatorwnd_2ecpp_7d',['anonymous_namespace{BuildDesignatorWnd.cpp}',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html',1,'']]],

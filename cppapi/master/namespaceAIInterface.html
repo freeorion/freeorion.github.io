@@ -138,9 +138,18 @@ Functions</h2></td></tr>
 <tr class="memitem:acfca3ff206991ec6bc0def65d323c0e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#acfca3ff206991ec6bc0def65d323c0e4">CurrentTurn</a> ()</td></tr>
 <tr class="memdesc:acfca3ff206991ec6bc0def65d323c0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current game turn.  <a href="#acfca3ff206991ec6bc0def65d323c0e4">More...</a><br/></td></tr>
 <tr class="separator:acfca3ff206991ec6bc0def65d323c0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a1cde6deccdf8fde0796957f8d43ed4fd">GetAIConfigStr</a> ()</td></tr>
-<tr class="memdesc:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the <a class="el" href="classOptionsDB.html">OptionsDB</a> <code>ai-config</code> key.  <a href="#a1cde6deccdf8fde0796957f8d43ed4fd">More...</a><br/></td></tr>
-<tr class="separator:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84559850602e7e95081345a954625747"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a84559850602e7e95081345a954625747">GetOptionsDBOptionStr</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:a84559850602e7e95081345a954625747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#a84559850602e7e95081345a954625747">More...</a><br/></td></tr>
+<tr class="separator:a84559850602e7e95081345a954625747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed52d1fdac39529946ccbdffc3d441de"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#aed52d1fdac39529946ccbdffc3d441de">GetOptionsDBOptionInt</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:aed52d1fdac39529946ccbdffc3d441de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#aed52d1fdac39529946ccbdffc3d441de">More...</a><br/></td></tr>
+<tr class="separator:aed52d1fdac39529946ccbdffc3d441de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af353772536a6742665c98e1ccc8e4515"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#af353772536a6742665c98e1ccc8e4515">GetOptionsDBOptionBool</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:af353772536a6742665c98e1ccc8e4515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#af353772536a6742665c98e1ccc8e4515">More...</a><br/></td></tr>
+<tr class="separator:af353772536a6742665c98e1ccc8e4515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a468cccdec17e436cc6d8ddbce2a0fc85">GetOptionsDBOptionDouble</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#a468cccdec17e436cc6d8ddbce2a0fc85">More...</a><br/></td></tr>
+<tr class="separator:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#afd5f3ad404f35d72e9c96d13274b2be2">GetAIDir</a> ()</td></tr>
 <tr class="memdesc:afd5f3ad404f35d72e9c96d13274b2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the canonical AI directory path.  <a href="#afd5f3ad404f35d72e9c96d13274b2be2">More...</a><br/></td></tr>
 <tr class="separator:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,28 +427,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1cde6deccdf8fde0796957f8d43ed4fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string AIInterface::GetAIConfigStr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the value of the <a class="el" href="classOptionsDB.html">OptionsDB</a> <code>ai-config</code> key. </p>
-<dl class="section return"><dt>Returns</dt><dd>An UTF-8 encoded and NUL terminated string containing the path to an optional ai configuration file or an empty string if not set. </dd></dl>
-
-<p>References <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="afd5f3ad404f35d72e9c96d13274b2be2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -527,6 +514,98 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> used in this game session. </dd></dl>
 
 <p>References <a class="el" href="classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, and <a class="el" href="classClientApp.html#ad0f8a097ceadf19e1b19326a0b16882c">ClientApp::GetGalaxySetupData()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af353772536a6742665c98e1ccc8e4515"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::python::object AIInterface::GetOptionsDBOptionBool </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em> or None if not set. @ throw boost::bad_any_cast if option exists but is not bool </dd></dl>
+
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classOptionsDB.html#a7ad2e905afcce98db9b420d9d7bea3f1">OptionsDB::OptionExists()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a468cccdec17e436cc6d8ddbce2a0fc85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::python::object AIInterface::GetOptionsDBOptionDouble </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em> or None if not set. @ throw boost::bad_any_cast if option exists but is not a double </dd></dl>
+
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classOptionsDB.html#a7ad2e905afcce98db9b420d9d7bea3f1">OptionsDB::OptionExists()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aed52d1fdac39529946ccbdffc3d441de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::python::object AIInterface::GetOptionsDBOptionInt </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em> or None if not set. @ throw boost::bad_any_cast if option exists but is not an int </dd></dl>
+
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classOptionsDB.html#a7ad2e905afcce98db9b420d9d7bea3f1">OptionsDB::OptionExists()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84559850602e7e95081345a954625747"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::python::object AIInterface::GetOptionsDBOptionStr </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em> or None if not set. @ throw boost::bad_any_cast if option exists but is not a string </dd></dl>
+
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classOptionsDB.html#a7ad2e905afcce98db9b420d9d7bea3f1">OptionsDB::OptionExists()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
 

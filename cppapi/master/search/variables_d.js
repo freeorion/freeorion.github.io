@@ -1309,7 +1309,6 @@ var searchData=
   ['mas_5fnoaction',['MAS_NoAction',['../Enums_8h.html#a5920f60f24e8c39a777c37885e4a0e3c',1,'Enums.h']]],
   ['mas_5fremovestarlane',['MAS_RemoveStarlane',['../Enums_8h.html#a3e48198ba1e848ece51c6f41c902b1b3',1,'Enums.h']]],
   ['mas_5fsetowner',['MAS_SetOwner',['../Enums_8h.html#a714e7dad2ada67906a830e3111261b9c',1,'Enums.h']]],
-  ['max_5fai_5fplayers',['MAX_AI_PLAYERS',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ac9f44e4a4e40f0d781592ada7b25228f',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['max_5fcurrent_5fhealth',['max_current_health',['../structCombatSummary.html#aef4bcb2cd76894ba774844a03c56c6f0',1,'CombatSummary']]],
   ['max_5fhealth',['max_health',['../structCombatParticipantState.html#ab98773dc4e7a408c47ab5c05330c1233',1,'CombatParticipantState::max_health()'],['../structParticipantSummary.html#ac165bc735d48f809942572094f345e23',1,'ParticipantSummary::max_health()']]],
   ['max_5fid',['MAX_ID',['../classShipDesign.html#afb2a9dea5610efba5a4e95d3af9a5c77',1,'ShipDesign::MAX_ID()'],['../Universe_8cpp.html#aae2bc596e876bc4dea8666b3e384580f',1,'MAX_ID():&#160;Universe.cpp']]],

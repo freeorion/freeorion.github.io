@@ -95,6 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;boost/python/str.hpp&gt;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -156,9 +157,18 @@ Functions</h2></td></tr>
 <tr class="memitem:acfca3ff206991ec6bc0def65d323c0e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#acfca3ff206991ec6bc0def65d323c0e4">AIInterface::CurrentTurn</a> ()</td></tr>
 <tr class="memdesc:acfca3ff206991ec6bc0def65d323c0e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current game turn.  <a href="#acfca3ff206991ec6bc0def65d323c0e4">More...</a><br/></td></tr>
 <tr class="separator:acfca3ff206991ec6bc0def65d323c0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a1cde6deccdf8fde0796957f8d43ed4fd">AIInterface::GetAIConfigStr</a> ()</td></tr>
-<tr class="memdesc:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the <a class="el" href="classOptionsDB.html">OptionsDB</a> <code>ai-config</code> key.  <a href="#a1cde6deccdf8fde0796957f8d43ed4fd">More...</a><br/></td></tr>
-<tr class="separator:a1cde6deccdf8fde0796957f8d43ed4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84559850602e7e95081345a954625747"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a84559850602e7e95081345a954625747">AIInterface::GetOptionsDBOptionStr</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:a84559850602e7e95081345a954625747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#a84559850602e7e95081345a954625747">More...</a><br/></td></tr>
+<tr class="separator:a84559850602e7e95081345a954625747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed52d1fdac39529946ccbdffc3d441de"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#aed52d1fdac39529946ccbdffc3d441de">AIInterface::GetOptionsDBOptionInt</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:aed52d1fdac39529946ccbdffc3d441de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#aed52d1fdac39529946ccbdffc3d441de">More...</a><br/></td></tr>
+<tr class="separator:aed52d1fdac39529946ccbdffc3d441de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af353772536a6742665c98e1ccc8e4515"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#af353772536a6742665c98e1ccc8e4515">AIInterface::GetOptionsDBOptionBool</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:af353772536a6742665c98e1ccc8e4515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#af353772536a6742665c98e1ccc8e4515">More...</a><br/></td></tr>
+<tr class="separator:af353772536a6742665c98e1ccc8e4515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#a468cccdec17e436cc6d8ddbce2a0fc85">AIInterface::GetOptionsDBOptionDouble</a> (std::string const &amp;option)</td></tr>
+<tr class="memdesc:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classOptionsDB.html">OptionsDB</a> option <em>option</em>.  <a href="#a468cccdec17e436cc6d8ddbce2a0fc85">More...</a><br/></td></tr>
+<tr class="separator:a468cccdec17e436cc6d8ddbce2a0fc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAIInterface.html#afd5f3ad404f35d72e9c96d13274b2be2">AIInterface::GetAIDir</a> ()</td></tr>
 <tr class="memdesc:afd5f3ad404f35d72e9c96d13274b2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the canonical AI directory path.  <a href="#afd5f3ad404f35d72e9c96d13274b2be2">More...</a><br/></td></tr>
 <tr class="separator:afd5f3ad404f35d72e9c96d13274b2be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
