@@ -31,6 +31,7 @@ var searchData=
   ['playerdatapanel',['PlayerDataPanel',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['playerid',['PlayerID',['../structanonymous__namespace_02ServerNetworking_8cpp_03_1_1PlayerID.html',1,'anonymous_namespace{ServerNetworking.cpp}']]],
   ['playerinfo',['PlayerInfo',['../structPlayerInfo.html',1,'']]],
+  ['playerlabelrow',['PlayerLabelRow',['../structMultiPlayerLobbyWnd_1_1PlayerLabelRow.html',1,'MultiPlayerLobbyWnd']]],
   ['playerlistbox',['PlayerListBox',['../classPlayerListBox.html',1,'']]],
   ['playerlistwnd',['PlayerListWnd',['../classPlayerListWnd.html',1,'']]],
   ['playerrow',['PlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1PlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],

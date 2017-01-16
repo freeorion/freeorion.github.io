@@ -78,7 +78,7 @@ var searchData=
   ['loadsingleplayergame',['LoadSinglePlayerGame',['../classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef',1,'HumanClientApp']]],
   ['loadspgameinit',['LoadSPGameInit',['../classServerApp.html#a75c8397ad70c2722d61623fcf0253b73',1,'ServerApp']]],
   ['lobby_5fwnd_5fheight',['LOBBY_WND_HEIGHT',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a1d12824e8a370f45d41c49a2dc9ec467',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['lobby_5fwnd_5fwidth',['LOBBY_WND_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae7f73aade4f3dbc7d179bf036585f7b1',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
+  ['lobby_5fwnd_5fwidth',['LOBBY_WND_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a2d7f97ec975833755fd461f6fbd5cd39',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['lobbychatmessage',['LobbyChatMessage',['../Message_8cpp.html#a34ff53f11233e9254c7492ffa16bceea',1,'LobbyChatMessage(int sender, int receiver, const std::string &amp;data):&#160;Message.cpp'],['../Message_8h.html#a9aaa97568f047927e1a453e8951a3fba',1,'LobbyChatMessage(int sender, int receiver, const std::string &amp;text):&#160;Message.cpp']]],
   ['lobbyupdate',['LobbyUpdate',['../classMultiPlayerLobbyWnd.html#a8a3ff6f556bbcba85b5629f2deecc045',1,'MultiPlayerLobbyWnd']]],
   ['lobbyupdatemessage',['LobbyUpdateMessage',['../Message_8cpp.html#a876aa01d1dd6d3ce1267b9314f8a8354',1,'LobbyUpdateMessage(int sender, const MultiplayerLobbyData &amp;lobby_data):&#160;Message.cpp'],['../Message_8h.html#acf0700c6295ac8f87ba9cafd37a8a3d6',1,'LobbyUpdateMessage(int sender, const MultiplayerLobbyData &amp;lobby_data):&#160;Message.cpp']]],

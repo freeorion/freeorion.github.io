@@ -148,6 +148,7 @@ var searchData=
   ['ismoving',['IsMoving',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8fa19f37f33adcb72377719d14631689',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['isoscelestriangle',['IsoscelesTriangle',['../CUIDrawUtil_8cpp.html#afefb45f1aabac1f5c8302ed210223193',1,'IsoscelesTriangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, ShapeOrientation orientation, GG::Clr color, bool border):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8h.html#abecc42bbd842862dab267830a7f352e7',1,'IsoscelesTriangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, ShapeOrientation orientation, GG::Clr color, bool border=true):&#160;CUIDrawUtil.cpp']]],
   ['isplaceholder',['IsPlaceHolder',['../classTechTreeLayout_1_1Node.html#a6dcb1a18db4ddaffe92ecc9fbf7eb58e',1,'TechTreeLayout::Node']]],
+  ['isplayerchanged',['IsPlayerChanged',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['isproductionlocation',['IsProductionLocation',['../classShipDesign.html#a6396ccb269d3153e76a54ba275db2c31',1,'ShipDesign']]],
   ['ispythonrunning',['IsPythonRunning',['../classPythonBase.html#ab9d722c3819abad7cae2e901f009730f',1,'PythonBase']]],
   ['isqualifiedfleet',['IsQualifiedFleet',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1fa2ffb9a06f1705fbf834b0e101225d',1,'anonymous_namespace{MapWnd.cpp}']]],
