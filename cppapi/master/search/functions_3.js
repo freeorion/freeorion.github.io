@@ -138,6 +138,7 @@ var searchData=
   ['closesocket',['CloseSocket',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad2a1488e37cd497f89afde17efd3e5c9',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer']]],
   ['closestfreeindex',['ClosestFreeIndex',['../classTechTreeLayout_1_1Column.html#a605ad15fff07313d282a13149f28f8f9',1,'TechTreeLayout::Column']]],
   ['closesystemview',['CloseSystemView',['../classMapWnd.html#ab6d13247f8a65979f1b084d10b074a01',1,'MapWnd']]],
+  ['colalignments',['ColAlignments',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a5256891c1ee5028d1a5498abcd25d324',1,'TechTreeWnd::TechListBox::TechRow']]],
   ['collapseexpandclicked',['CollapseExpandClicked',['../classObjectListWnd.html#a935ff864541a7d3ef91c3d9dc27cd6b6',1,'ObjectListWnd']]],
   ['collapseobject',['CollapseObject',['../classObjectListBox.html#a074af0e1ee610454e2b984ee24de6ee2',1,'ObjectListBox']]],
   ['colonize',['Colonize',['../classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630',1,'Planet']]],
