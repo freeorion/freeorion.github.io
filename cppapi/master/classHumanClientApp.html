@@ -180,6 +180,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a7255fde3c6c1f390f25b09042c48d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a5a7255fde3c6c1f390f25b09042c48d9">StartGame</a> ()</td></tr>
 <tr class="memdesc:a5a7255fde3c6c1f390f25b09042c48d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts a server process on localhost  <a href="#a5a7255fde3c6c1f390f25b09042c48d9">More...</a><br/></td></tr>
 <tr class="separator:a5a7255fde3c6c1f390f25b09042c48d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de9ded1cb8e09d9e27b644568d62b33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a4de9ded1cb8e09d9e27b644568d62b33">HandleTurnUpdate</a> ()</td></tr>
+<tr class="separator:a4de9ded1cb8e09d9e27b644568d62b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0780e0222e00579d1d38eedca8e86dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe">UpdateCombatLogManager</a> ()</td></tr>
+<tr class="separator:a0780e0222e00579d1d38eedca8e86dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93938299194af7e68edc07d4f602a3a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1">EndGame</a> (bool suppress_FSM_reset=false)</td></tr>
 <tr class="memdesc:a93938299194af7e68edc07d4f602a3a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">kills the server (if appropriate) and ends the current game, leaving the application in its start state  <a href="#a93938299194af7e68edc07d4f602a3a1">More...</a><br/></td></tr>
 <tr class="separator:a93938299194af7e68edc07d4f602a3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,6 +220,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff51051954870d71f3adde255425066c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#aff51051954870d71f3adde255425066c">HandleSaveGameDataRequest</a> ()</td></tr>
 <tr class="memdesc:aff51051954870d71f3adde255425066c"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts a server process on localhost  <a href="#aff51051954870d71f3adde255425066c">More...</a><br/></td></tr>
 <tr class="separator:aff51051954870d71f3adde255425066c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007735768329ff0ba9fb625e4c1ae72f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f">UpdateCombatLogs</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg)</td></tr>
+<tr class="memdesc:a007735768329ff0ba9fb625e4c1ae72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts a server process on localhost  <a href="#a007735768329ff0ba9fb625e4c1ae72f">More...</a><br/></td></tr>
+<tr class="separator:a007735768329ff0ba9fb625e4c1ae72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e5980b64840120f90a74da819049257"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a8e5980b64840120f90a74da819049257">OpenURL</a> (const std::string &amp;url)</td></tr>
 <tr class="memdesc:a8e5980b64840120f90a74da819049257"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts a server process on localhost  <a href="#a8e5980b64840120f90a74da819049257">More...</a><br/></td></tr>
 <tr class="separator:a8e5980b64840120f90a74da819049257"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1089,6 +1096,34 @@ Message::PlayerStatus &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
+<a class="anchor" id="a4de9ded1cb8e09d9e27b644568d62b33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HumanClientApp::HandleTurnUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Handle background events that need starting when the turn updates. </p>
+
+<p>Reimplemented from <a class="el" href="classClientApp.html#ac6aa42514919cab9b42cd828fe6a328f">ClientApp</a>.</p>
+
+<p>References <a class="el" href="classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe">UpdateCombatLogManager()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a27fc0c610d60aea0aff6d04e45da8117"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1488,7 +1523,7 @@ Message::PlayerStatus &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 <p>Requests the savegame previews for choosing one. </p>
 
-<p>References <a class="el" href="classClientNetworking.html#a199bb6c941b48401249021cae1d3e811">ClientNetworking::Connected()</a>, <a class="el" href="classClientNetworking.html#a86295493b85afaf6d1e9f3423b0b2a6f">ClientNetworking::ConnectToLocalHostServer()</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a4f7c0b7b905039065dada44a95470172">ExtractMessageData()</a>, <a class="el" href="classHumanClientApp.html#a8fc305c6dba2e2928b724adb16351571">KillServer()</a>, <a class="el" href="classHumanClientApp.html#a56a9a1ff7c4a41267ede656b6397c54a">m_connected</a>, <a class="el" href="classClientApp.html#aa25a06fbe9c683507f3d187e4cad0a0d">ClientApp::m_networking</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00">ClientUI::MessageBox()</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="structPreviewInformation.html#a2f0b5ee8dc7cd716c567a391ea21d1a7">PreviewInformation::previews</a>, <a class="el" href="Message_8cpp.html#acbf759bd0b9e36c18635067e301f3bca">RequestSavePreviewsMessage()</a>, <a class="el" href="classClientNetworking.html#ad30d05a47f44bdae7478aa3cd4099435">ClientNetworking::SendSynchronousMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aba5bf126707ecd2b31d444f914c8a6b7">anonymous_namespace{HumanClientApp.cpp}::SERVER_CONNECT_TIMEOUT</a>, <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>, <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classClientNetworking.html#a199bb6c941b48401249021cae1d3e811">ClientNetworking::Connected()</a>, <a class="el" href="classClientNetworking.html#a86295493b85afaf6d1e9f3423b0b2a6f">ClientNetworking::ConnectToLocalHostServer()</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#aa7bfe042181071a798bccd45f2d02850">ExtractDispatchSavePreviewsMessageData()</a>, <a class="el" href="classHumanClientApp.html#a8fc305c6dba2e2928b724adb16351571">KillServer()</a>, <a class="el" href="classHumanClientApp.html#a56a9a1ff7c4a41267ede656b6397c54a">m_connected</a>, <a class="el" href="classClientApp.html#aa25a06fbe9c683507f3d187e4cad0a0d">ClientApp::m_networking</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00">ClientUI::MessageBox()</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="structPreviewInformation.html#a2f0b5ee8dc7cd716c567a391ea21d1a7">PreviewInformation::previews</a>, <a class="el" href="Message_8cpp.html#acbf759bd0b9e36c18635067e301f3bca">RequestSavePreviewsMessage()</a>, <a class="el" href="classClientNetworking.html#ad30d05a47f44bdae7478aa3cd4099435">ClientNetworking::SendSynchronousMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aba5bf126707ecd2b31d444f914c8a6b7">anonymous_namespace{HumanClientApp.cpp}::SERVER_CONNECT_TIMEOUT</a>, <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>, <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">SaveFileDialog::UpdatePreviewList()</a>.</p>
 
@@ -1593,7 +1628,7 @@ Message::PlayerStatus &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 <p>starts a server process on localhost </p>
 
-<p>References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="classOrderSet.html#aa9900d7d0fdb91b9f984d9ef3538d093">OrderSet::Reset()</a>.</p>
+<p>References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="classOrderSet.html#aa9900d7d0fdb91b9f984d9ef3538d093">OrderSet::Reset()</a>, and <a class="el" href="classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe">UpdateCombatLogManager()</a>.</p>
 
 </div>
 </div>
@@ -1696,6 +1731,46 @@ Message::PlayerStatus &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 <p>References <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classHumanClientApp.html#adf408f09bbe8b5cb5de7b9b9429c0d5a">Reinitialize()</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#acd22e6eda2e6068a10d3a831a778b522">ConnectKeyboardAcceleratorSignals()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0780e0222e00579d1d38eedca8e86dbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HumanClientApp::UpdateCombatLogManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Check if the <a class="el" href="classCombatLogManager.html">CombatLogManager</a> has incomplete logs that need fetching and start fetching them from the server. </p>
+
+<p>References <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classCombatLogManager.html#a6e259a97a85079feb3af36001b0be23a">CombatLogManager::IncompleteLogIDs()</a>, <a class="el" href="classClientApp.html#aa25a06fbe9c683507f3d187e4cad0a0d">ClientApp::m_networking</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="Message_8cpp.html#a5a75a3b18c5e01a319eb4a951dad3433">RequestCombatLogsMessage()</a>, and <a class="el" href="classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">ClientNetworking::SendMessage()</a>.</p>
+
+<p>Referenced by <a class="el" href="classHumanClientApp.html#a4de9ded1cb8e09d9e27b644568d62b33">HandleTurnUpdate()</a>, and <a class="el" href="classHumanClientApp.html#a5a7255fde3c6c1f390f25b09042c48d9">StartGame()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a007735768329ff0ba9fb625e4c1ae72f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HumanClientApp::UpdateCombatLogs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>starts a server process on localhost </p>
+
+<p>References <a class="el" href="classCombatLogManager.html#a20e5c6cd6dffdf1e119e8c401c224af0">CombatLogManager::CompleteLog()</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a56de397198fd61e07332a2921f5e74e9">ExtractDispatchCombatLogsMessageData()</a>, and <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>.</p>
 
 </div>
 </div>

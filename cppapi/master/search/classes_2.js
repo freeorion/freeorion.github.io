@@ -32,6 +32,7 @@ var searchData=
   ['combatlog',['CombatLog',['../structCombatLog.html',1,'']]],
   ['combatlogaccordionpanel',['CombatLogAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['combatlogmanager',['CombatLogManager',['../classCombatLogManager.html',1,'']]],
+  ['combatlogmanagerimpl',['CombatLogManagerImpl',['../classCombatLogManager_1_1CombatLogManagerImpl.html',1,'CombatLogManager']]],
   ['combatlogwnd',['CombatLogWnd',['../classCombatLogWnd.html',1,'']]],
   ['combatlogwndimpl',['CombatLogWndImpl',['../classCombatLogWnd_1_1CombatLogWndImpl.html',1,'CombatLogWnd']]],
   ['combatparticipantstate',['CombatParticipantState',['../structCombatParticipantState.html',1,'']]],
@@ -102,6 +103,6 @@ var searchData=
   ['cuitabrepresenter',['CUITabRepresenter',['../classCUITabRepresenter.html',1,'']]],
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html',1,'']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]]
 ];

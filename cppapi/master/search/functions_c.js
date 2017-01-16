@@ -91,7 +91,6 @@ var searchData=
   ['lockitem',['LockItem',['../classEmpire.html#a4e79f2885b3d851cc9636afda273ad28',1,'Empire']]],
   ['lockshared',['LockShared',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html#a33a3a2475c825c911eead60dcb628b59',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::ConditionCache']]],
   ['log_5fbuffer',['log_buffer',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#ac880aa307c209023fe3aab2626a2b2e3',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['logavailable',['LogAvailable',['../classCombatLogManager.html#af2d50ee3f8c58ecaddc0b271a9f651b5',1,'CombatLogManager']]],
   ['logdependencyversions',['LogDependencyVersions',['../DependencyVersions_8cpp.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp'],['../Version_8h.html#a3a3e8422575b7e69b83d7b830b48c43c',1,'LogDependencyVersions():&#160;DependencyVersions.cpp']]],
   ['logoutput',['LogOutput',['../namespaceAIInterface.html#a346c2c05ff06db0650aa07a4e0a8b2ed',1,'AIInterface']]],
   ['logplayersetupdata',['LogPlayerSetupData',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a597cc4f2eba97b05799eae434eb9ffa3',1,'anonymous_namespace{ServerFSM.cpp}::LogPlayerSetupData()'],['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a74fa4215c87376d797d9576b8bfd93df',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LogPlayerSetupData()']]],

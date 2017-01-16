@@ -31,6 +31,8 @@ var searchData=
   ['updateaggressiontoggle',['UpdateAggressionToggle',['../classFleetDataPanel.html#a54ccfa7a1b9aee1490c2341b57299c2a',1,'FleetDataPanel']]],
   ['updateallocation',['UpdateAllocation',['../classSystemResourceSummaryBrowseWnd.html#a901c8ef3d1534cd68dc56d7bed412af9',1,'SystemResourceSummaryBrowseWnd']]],
   ['updateavailablelanes',['UpdateAvailableLanes',['../classEmpire.html#a63aba53fe9759d2b1991782892fec3ae',1,'Empire']]],
+  ['updatecombatlogmanager',['UpdateCombatLogManager',['../classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe',1,'HumanClientApp']]],
+  ['updatecombatlogs',['UpdateCombatLogs',['../classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f',1,'HumanClientApp::UpdateCombatLogs()'],['../classServerApp.html#aeb17c60a51723729b6750b7e60a15814',1,'ServerApp::UpdateCombatLogs()']]],
   ['updateconnection',['UpdateConnection',['../structHotkeyManager_1_1ConditionalConnection.html#a903d1aa381a62396c83499afc5ddf86f',1,'HotkeyManager::ConditionalConnection']]],
   ['updatecurrentdestroyedobjects',['UpdateCurrentDestroyedObjects',['../classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685',1,'ObjectMap']]],
   ['updatedirectory',['UpdateDirectory',['../classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665',1,'SaveFileDialog']]],

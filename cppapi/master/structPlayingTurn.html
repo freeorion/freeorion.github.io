@@ -111,7 +111,7 @@ Public Types</h2></td></tr>
 boost::statechart::state<br class="typebreak"/>
 &lt; <a class="el" href="structPlayingTurn.html">PlayingTurn</a>, <a class="el" href="structPlayingGame.html">PlayingGame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html#a3b7dabf9cef5d3090e6c14644c5acfad">Base</a></td></tr>
 <tr class="separator:a3b7dabf9cef5d3090e6c14644c5acfad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6824dc2142e17c7c367c40c678fffc6"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list<br class="typebreak"/>
+<tr class="memitem:af5bb8dda5a8a7980ad63dc5d2424a284"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list<br class="typebreak"/>
 &lt; boost::statechart::custom_reaction<br class="typebreak"/>
 &lt; SaveGameDataRequest &gt;<br class="typebreak"/>
 , boost::statechart::custom_reaction<br class="typebreak"/>
@@ -123,8 +123,10 @@ boost::statechart::state<br class="typebreak"/>
 , boost::statechart::custom_reaction<br class="typebreak"/>
 &lt; <a class="el" href="structTurnEnded.html">TurnEnded</a> &gt;<br class="typebreak"/>
 , boost::statechart::custom_reaction<br class="typebreak"/>
-&lt; PlayerStatus &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html#ad6824dc2142e17c7c367c40c678fffc6">reactions</a></td></tr>
-<tr class="separator:ad6824dc2142e17c7c367c40c678fffc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+&lt; PlayerStatus &gt;<br class="typebreak"/>
+, boost::statechart::custom_reaction<br class="typebreak"/>
+&lt; DispatchCombatLogs &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html#af5bb8dda5a8a7980ad63dc5d2424a284">reactions</a></td></tr>
+<tr class="separator:af5bb8dda5a8a7980ad63dc5d2424a284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -144,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a83795e572d8cd52eed2f98ad84391227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a846ad7ff3016e28440648ef49b2fb6d2"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html#a846ad7ff3016e28440648ef49b2fb6d2">react</a> (const PlayerStatus &amp;msg)</td></tr>
 <tr class="separator:a846ad7ff3016e28440648ef49b2fb6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178400fbb30ff3a677735c69805bacde"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html#a178400fbb30ff3a677735c69805bacde">react</a> (const DispatchCombatLogs &amp;msg)</td></tr>
+<tr class="separator:a178400fbb30ff3a677735c69805bacde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The substate of <a class="el" href="structPlayingGame.html">PlayingGame</a> in which the player is actively playing a turn. </p>
@@ -160,12 +164,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6824dc2142e17c7c367c40c678fffc6"></a>
+<a class="anchor" id="af5bb8dda5a8a7980ad63dc5d2424a284"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;SaveGameDataRequest&gt;, boost::statechart::custom_reaction&lt;SaveGameComplete&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structAdvanceTurn.html">AdvanceTurn</a>&gt;, boost::statechart::custom_reaction&lt;TurnUpdate&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structTurnEnded.html">TurnEnded</a>&gt;, boost::statechart::custom_reaction&lt;PlayerStatus&gt; &gt; <a class="el" href="structPlayingTurn.html#ad6824dc2142e17c7c367c40c678fffc6">PlayingTurn::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;SaveGameDataRequest&gt;, boost::statechart::custom_reaction&lt;SaveGameComplete&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structAdvanceTurn.html">AdvanceTurn</a>&gt;, boost::statechart::custom_reaction&lt;TurnUpdate&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structTurnEnded.html">TurnEnded</a>&gt;, boost::statechart::custom_reaction&lt;PlayerStatus&gt;, boost::statechart::custom_reaction&lt;DispatchCombatLogs&gt; &gt; <a class="el" href="structPlayingTurn.html#af5bb8dda5a8a7980ad63dc5d2424a284">PlayingTurn::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,7 +245,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a4f7c0b7b905039065dada44a95470172">ExtractMessageData()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html#a7e4e85db7b8936ec65defac5f1b7b084">anonymous_namespace{HumanClientFSM.cpp}::TRACE_EXECUTION</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a41002e911a42cf4111e0d6c67edd7574">ExtractServerSaveGameCompleteMessageData()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html#a7e4e85db7b8936ec65defac5f1b7b084">anonymous_namespace{HumanClientFSM.cpp}::TRACE_EXECUTION</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -311,7 +315,25 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a4f7c0b7b905039065dada44a95470172">ExtractMessageData()</a>, and <a class="el" href="namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html#a7e4e85db7b8936ec65defac5f1b7b084">anonymous_namespace{HumanClientFSM.cpp}::TRACE_EXECUTION</a>.</p>
+<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Message_8cpp.html#ae54501d7892fc4c066eff3cae06e91ad">ExtractPlayerStatusMessageData()</a>, and <a class="el" href="namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html#a7e4e85db7b8936ec65defac5f1b7b084">anonymous_namespace{HumanClientFSM.cpp}::TRACE_EXECUTION</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a178400fbb30ff3a677735c69805bacde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result PlayingTurn::react </td>
+          <td>(</td>
+          <td class="paramtype">const DispatchCombatLogs &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>.</p>
 
 </div>
 </div>

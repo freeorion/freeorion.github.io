@@ -22,6 +22,7 @@ var searchData=
   ['_7ecolorselector',['~ColorSelector',['../classColorSelector.html#a8c5de1d7bf1515c11ba0157e2b11aff4',1,'ColorSelector']]],
   ['_7ecombatevent',['~CombatEvent',['../structCombatEvent.html#a227587f1d7e1b64406acab8133a22b0e',1,'CombatEvent']]],
   ['_7ecombatlogaccordionpanel',['~CombatLogAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#af4c5eb06d5bc93368cd9706cc83e550c',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
+  ['_7ecombatlogmanager',['~CombatLogManager',['../classCombatLogManager.html#a3b50f23677ce2bd115d16946e4f82b0a',1,'CombatLogManager']]],
   ['_7ecombatlogwnd',['~CombatLogWnd',['../classCombatLogWnd.html#a67641b6d8f5d609a93c81039f539a3bb',1,'CombatLogWnd']]],
   ['_7ecombatreportwnd',['~CombatReportWnd',['../classCombatReportWnd.html#a48614bb61636efd1ebba8fc75c488519',1,'CombatReportWnd']]],
   ['_7ecomplexvariable',['~ComplexVariable',['../structValueRef_1_1ComplexVariable.html#ab62c8934cf1030212375f4f5e1368759',1,'ValueRef::ComplexVariable']]],
