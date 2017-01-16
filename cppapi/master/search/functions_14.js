@@ -106,6 +106,7 @@ var searchData=
   ['totalbuildingsowned',['TotalBuildingsOwned',['../classEmpire.html#aa9439f65f73c5d7c116ede52c4aad15a',1,'Empire']]],
   ['totalppsspent',['TotalPPsSpent',['../structProductionQueue.html#a484e93301d7a6ca111500a23d19a35c3',1,'ProductionQueue']]],
   ['totalrpsspent',['TotalRPsSpent',['../structResearchQueue.html#afaf2ae4d2438cdec01b91d81e3e77bc8',1,'ResearchQueue']]],
+  ['totalshippartsowned',['TotalShipPartsOwned',['../classEmpire.html#ad03fca27092ae2a532aabe93805d218b',1,'Empire']]],
   ['totalshipsowned',['TotalShipsOwned',['../classEmpire.html#a04042076364d161e53d24a03f7ee7fad',1,'Empire']]],
   ['totalweaponsdamage',['TotalWeaponsDamage',['../classShip.html#ad6ce8c36e59cdb482b8aa4840e9a7529',1,'Ship']]],
   ['tracehumanclientfsmexecution',['TraceHumanClientFSMExecution',['../HumanClientFSM_8cpp.html#a941915f27419c41743286c38b7fc0bb8',1,'TraceHumanClientFSMExecution():&#160;HumanClientFSM.cpp'],['../HumanClientFSM_8h.html#a941915f27419c41743286c38b7fc0bb8',1,'TraceHumanClientFSMExecution():&#160;HumanClientFSM.cpp']]],

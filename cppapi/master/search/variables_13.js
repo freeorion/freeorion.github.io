@@ -76,6 +76,7 @@ var searchData=
   ['ship_5fid_5ftag',['SHIP_ID_TAG',['../classVarText.html#a5c0324b4833eb85085184c4c967d09ec',1,'VarText']]],
   ['ship_5fpart_5fmeter_5fvalue',['ship_part_meter_value',['../structanonymous__namespace_02ConditionParser4_8cpp_03_1_1condition__parser__rules__4.html#a5ef32d12aa1d8bfa2bb9dbcfa15f8f91',1,'anonymous_namespace{ConditionParser4.cpp}::condition_parser_rules_4']]],
   ['ship_5fpart_5ftag',['SHIP_PART_TAG',['../classVarText.html#a95d661b35882d33c321683b0fb2b002a',1,'VarText']]],
+  ['ship_5fparts_5fowned',['ship_parts_owned',['../structparse_1_1int__complex__parser__rules.html#acf9c75bf189afe2ba277e7131c0a1074',1,'parse::int_complex_parser_rules']]],
   ['shipdesigndescriptionfunc',['ShipDesignDescriptionFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#aa1f089dc07a8f86400612579f54dd750',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['shipdesignnamefunc',['ShipDesignNameFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8c9834f4e41a9ed7a1ef900d5b44e44a',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['shipdesignschangedsignal',['ShipDesignsChangedSignal',['../classEmpire.html#acf5cf44d8fa161e5d8a05cbb4793b535',1,'Empire']]],

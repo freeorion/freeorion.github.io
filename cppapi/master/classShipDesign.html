@@ -181,6 +181,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af810137f707023f956d62a7202c156fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a838208ec38ef8eb5f6626fcec9fbb0ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a838208ec38ef8eb5f6626fcec9fbb0ee">m_name_desc_in_stringtable</a></td></tr>
 <tr class="separator:a838208ec38ef8eb5f6626fcec9fbb0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0c930e2b218ac89e659588b816aa72"><td class="memItemLeft" align="right" valign="top">std::map&lt; ShipPartClass, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72">m_num_part_classes</a></td></tr>
+<tr class="separator:a8b0c930e2b218ac89e659588b816aa72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f64aa74a707a23dca0fad077c035015"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4f64aa74a707a23dca0fad077c035015">m_num_part_types</a></td></tr>
+<tr class="separator:a4f64aa74a707a23dca0fad077c035015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4cb532b8be971158a1396f7b359ea40"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a></td></tr>
 <tr class="separator:aa4cb532b8be971158a1396f7b359ea40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaec382a3e4942861bdc2752724b3cb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aaaec382a3e4942861bdc2752724b3cb6">m_producible</a></td></tr>
@@ -334,6 +338,12 @@ Accessors</h2></td></tr>
 <tr class="memitem:aed37a41c0a554298e2e196da4bdd3732"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aed37a41c0a554298e2e196da4bdd3732">LookupInStringtable</a> () const </td></tr>
 <tr class="memdesc:aed37a41c0a554298e2e196da4bdd3732"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#aed37a41c0a554298e2e196da4bdd3732">More...</a><br/></td></tr>
 <tr class="separator:aed37a41c0a554298e2e196da4bdd3732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34545d166fd95a5f2ab721d9e98cb2a3"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, <br class="typebreak"/>
+int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a34545d166fd95a5f2ab721d9e98cb2a3">PartTypeCount</a> () const </td></tr>
+<tr class="separator:a34545d166fd95a5f2ab721d9e98cb2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6320187e31c919eb3da249a9116216"><td class="memItemLeft" align="right" valign="top">const std::map&lt; ShipPartClass, <br class="typebreak"/>
+int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#afd6320187e31c919eb3da249a9116216">PartClassCount</a> () const </td></tr>
+<tr class="separator:afd6320187e31c919eb3da249a9116216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f8460b684603abf6cc19a1f8409b80"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump</a> () const </td></tr>
 <tr class="memdesc:af7f8460b684603abf6cc19a1f8409b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a data file format representation of this object  <a href="#af7f8460b684603abf6cc19a1f8409b80">More...</a><br/></td></tr>
 <tr class="separator:af7f8460b684603abf6cc19a1f8409b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,7 +507,7 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">PartType::Capacity()</a>, <a class="el" href="classPartType.html#a6440ff70867319b77150c2eb9df4875a">PartType::Class()</a>, <a class="el" href="classHullType.html#a61e7907988fc570f0e3a083ca73f2a18">HullType::ColonyCapacity()</a>, <a class="el" href="classHullType.html#a42b620a86d707422e8ccbbc442b6d842">HullType::Detection()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classHullType.html#a6867c8594b9436151764a805735044c0">HullType::Fuel()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a656b0a1c7e3e15a83ee3bee5e2357113">m_can_bombard</a>, <a class="el" href="classShipDesign.html#a10d197c55d443c12ff950a0e2f087ad0">m_colony_capacity</a>, <a class="el" href="classShipDesign.html#ad0e3229d89d37784765a05c8df11927b">m_detection</a>, <a class="el" href="classShipDesign.html#af263308bb1a13f8d084b96f81360812c">m_fuel</a>, <a class="el" href="classShipDesign.html#aab7107f760c73b0b1ba73022d46dc41a">m_has_fighters</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#a9feabf1ce798a13b4902b1af6d3f8b90">m_industry_generation</a>, <a class="el" href="classShipDesign.html#ada467b8fe6c227eb107e6b7e152f847c">m_is_armed</a>, <a class="el" href="classShipDesign.html#a2e0332e10a3ca2f493b28722b1ec7c20">m_is_production_location</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="classShipDesign.html#aaaec382a3e4942861bdc2752724b3cb6">m_producible</a>, <a class="el" href="classShipDesign.html#a1d45dc1273752839fad337c351be7e94">m_research_generation</a>, <a class="el" href="classShipDesign.html#a21c34afd717298e2ed160193a8525928">m_shields</a>, <a class="el" href="classShipDesign.html#a865e47abcf9c6622cb470d52641e8233">m_speed</a>, <a class="el" href="classShipDesign.html#a5733a61cca6c6f9ffa3e608e89988dec">m_stealth</a>, <a class="el" href="classShipDesign.html#a507b3784106ad6618fb9c0ee1014022f">m_structure</a>, <a class="el" href="classShipDesign.html#abef41f92c6febebd619cb0265d933b29">m_trade_generation</a>, <a class="el" href="classShipDesign.html#afc7428ed7abe7d51be3c76d7a97b9432">m_troop_capacity</a>, <a class="el" href="Enums_8h.html#a206edc7a8aefc8126ad312e05dae8767">PC_ARMOUR</a>, <a class="el" href="Enums_8h.html#a62df7b9bc5f683079fa94ae43e1145f9">PC_BOMBARD</a>, <a class="el" href="Enums_8h.html#a74db0f02fbbea1d9a1e1d37f8a470df8">PC_COLONY</a>, <a class="el" href="Enums_8h.html#af549567d93364117603ae3bdf9de8d40">PC_DETECTION</a>, <a class="el" href="Enums_8h.html#a84859df7773805f45c7b4d049a994dd7">PC_DIRECT_WEAPON</a>, <a class="el" href="Enums_8h.html#ab95ebefb171e3434cc88a57936fb6944">PC_FIGHTER_BAY</a>, <a class="el" href="Enums_8h.html#af53c2d6e55fad82fd984f5db765a23a2">PC_FIGHTER_HANGAR</a>, <a class="el" href="Enums_8h.html#aa00a3a798b16fb9e6b3e42c3a85e3ee6">PC_FUEL</a>, <a class="el" href="Enums_8h.html#a49b6474cb663abf6f36da448ff408a7d">PC_INDUSTRY</a>, <a class="el" href="Enums_8h.html#a84b2ad477b344b65b3e0c569f7512b83">PC_PRODUCTION_LOCATION</a>, <a class="el" href="Enums_8h.html#aca72c043d112eefd1f9e4451883416d2">PC_RESEARCH</a>, <a class="el" href="Enums_8h.html#ac45cf15c2991109287c10923cbb177b2">PC_SHIELD</a>, <a class="el" href="Enums_8h.html#a8b3165ea79ace4ea40bf9f089fbd7595">PC_SPEED</a>, <a class="el" href="Enums_8h.html#a3b333863afd900867b0b8bfe43c5a51d">PC_STEALTH</a>, <a class="el" href="Enums_8h.html#a76d6102bbd78ae954e3c71071661185e">PC_TRADE</a>, <a class="el" href="Enums_8h.html#ae6cae5817de03e395b7fa71786ca348b">PC_TROOPS</a>, <a class="el" href="classPartType.html#a692d91ce1902ff205939b0558a6ceaca">PartType::Producible()</a>, <a class="el" href="classHullType.html#a80a0afb7d6e05fb02baf18de831137f7">HullType::Producible()</a>, <a class="el" href="classHullType.html#a468954f1c9a62f3cba222f3f551264fd">HullType::Shields()</a>, <a class="el" href="classHullType.html#a90c297baf52735fb5be1cb0594093ccc">HullType::Speed()</a>, <a class="el" href="classHullType.html#a91fd72ed0615ccd8e7659b57858e2d49">HullType::Stealth()</a>, <a class="el" href="classHullType.html#af76d6a859b79ee91dc73ef1ac59dabc5">HullType::Structure()</a>, and <a class="el" href="classHullType.html#ad643fdad90af775fea4831eecc180871">HullType::TroopCapacity()</a>.</p>
+<p>References <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">PartType::Capacity()</a>, <a class="el" href="classPartType.html#a6440ff70867319b77150c2eb9df4875a">PartType::Class()</a>, <a class="el" href="classHullType.html#a61e7907988fc570f0e3a083ca73f2a18">HullType::ColonyCapacity()</a>, <a class="el" href="classHullType.html#a42b620a86d707422e8ccbbc442b6d842">HullType::Detection()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classHullType.html#a6867c8594b9436151764a805735044c0">HullType::Fuel()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="Enums_8h.html#aa4dea5f3eb2b8840a3fe7646601dc5f9">INVALID_SHIP_PART_CLASS</a>, <a class="el" href="classShipDesign.html#a656b0a1c7e3e15a83ee3bee5e2357113">m_can_bombard</a>, <a class="el" href="classShipDesign.html#a10d197c55d443c12ff950a0e2f087ad0">m_colony_capacity</a>, <a class="el" href="classShipDesign.html#ad0e3229d89d37784765a05c8df11927b">m_detection</a>, <a class="el" href="classShipDesign.html#af263308bb1a13f8d084b96f81360812c">m_fuel</a>, <a class="el" href="classShipDesign.html#aab7107f760c73b0b1ba73022d46dc41a">m_has_fighters</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#a9feabf1ce798a13b4902b1af6d3f8b90">m_industry_generation</a>, <a class="el" href="classShipDesign.html#ada467b8fe6c227eb107e6b7e152f847c">m_is_armed</a>, <a class="el" href="classShipDesign.html#a2e0332e10a3ca2f493b28722b1ec7c20">m_is_production_location</a>, <a class="el" href="classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72">m_num_part_classes</a>, <a class="el" href="classShipDesign.html#a4f64aa74a707a23dca0fad077c035015">m_num_part_types</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="classShipDesign.html#aaaec382a3e4942861bdc2752724b3cb6">m_producible</a>, <a class="el" href="classShipDesign.html#a1d45dc1273752839fad337c351be7e94">m_research_generation</a>, <a class="el" href="classShipDesign.html#a21c34afd717298e2ed160193a8525928">m_shields</a>, <a class="el" href="classShipDesign.html#a865e47abcf9c6622cb470d52641e8233">m_speed</a>, <a class="el" href="classShipDesign.html#a5733a61cca6c6f9ffa3e608e89988dec">m_stealth</a>, <a class="el" href="classShipDesign.html#a507b3784106ad6618fb9c0ee1014022f">m_structure</a>, <a class="el" href="classShipDesign.html#abef41f92c6febebd619cb0265d933b29">m_trade_generation</a>, <a class="el" href="classShipDesign.html#afc7428ed7abe7d51be3c76d7a97b9432">m_troop_capacity</a>, <a class="el" href="Enums_8h.html#a206edc7a8aefc8126ad312e05dae8767">PC_ARMOUR</a>, <a class="el" href="Enums_8h.html#a62df7b9bc5f683079fa94ae43e1145f9">PC_BOMBARD</a>, <a class="el" href="Enums_8h.html#a74db0f02fbbea1d9a1e1d37f8a470df8">PC_COLONY</a>, <a class="el" href="Enums_8h.html#af549567d93364117603ae3bdf9de8d40">PC_DETECTION</a>, <a class="el" href="Enums_8h.html#a84859df7773805f45c7b4d049a994dd7">PC_DIRECT_WEAPON</a>, <a class="el" href="Enums_8h.html#ab95ebefb171e3434cc88a57936fb6944">PC_FIGHTER_BAY</a>, <a class="el" href="Enums_8h.html#af53c2d6e55fad82fd984f5db765a23a2">PC_FIGHTER_HANGAR</a>, <a class="el" href="Enums_8h.html#aa00a3a798b16fb9e6b3e42c3a85e3ee6">PC_FUEL</a>, <a class="el" href="Enums_8h.html#a49b6474cb663abf6f36da448ff408a7d">PC_INDUSTRY</a>, <a class="el" href="Enums_8h.html#a84b2ad477b344b65b3e0c569f7512b83">PC_PRODUCTION_LOCATION</a>, <a class="el" href="Enums_8h.html#aca72c043d112eefd1f9e4451883416d2">PC_RESEARCH</a>, <a class="el" href="Enums_8h.html#ac45cf15c2991109287c10923cbb177b2">PC_SHIELD</a>, <a class="el" href="Enums_8h.html#a8b3165ea79ace4ea40bf9f089fbd7595">PC_SPEED</a>, <a class="el" href="Enums_8h.html#a3b333863afd900867b0b8bfe43c5a51d">PC_STEALTH</a>, <a class="el" href="Enums_8h.html#a76d6102bbd78ae954e3c71071661185e">PC_TRADE</a>, <a class="el" href="Enums_8h.html#ae6cae5817de03e395b7fa71786ca348b">PC_TROOPS</a>, <a class="el" href="classPartType.html#a692d91ce1902ff205939b0558a6ceaca">PartType::Producible()</a>, <a class="el" href="classHullType.html#a80a0afb7d6e05fb02baf18de831137f7">HullType::Producible()</a>, <a class="el" href="classHullType.html#a468954f1c9a62f3cba222f3f551264fd">HullType::Shields()</a>, <a class="el" href="classHullType.html#a90c297baf52735fb5be1cb0594093ccc">HullType::Speed()</a>, <a class="el" href="classHullType.html#a91fd72ed0615ccd8e7659b57858e2d49">HullType::Stealth()</a>, <a class="el" href="classHullType.html#af76d6a859b79ee91dc73ef1ac59dabc5">HullType::Structure()</a>, and <a class="el" href="classHullType.html#ad643fdad90af775fea4831eecc180871">HullType::TroopCapacity()</a>.</p>
 
 <p>Referenced by <a class="el" href="classShipDesign.html#a7e2f114509a99901e9c1f3a15e3885a8">serialize()</a>, and <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>.</p>
 
@@ -1094,6 +1104,32 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afd6320187e31c919eb3da249a9116216"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt;ShipPartClass, int&gt;&amp; ShipDesign::PartClassCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns number of parts in this ship design, indexed by ShipPartClass </p>
+
+<p>Referenced by <a class="el" href="classEmpire.html#acc3d7a06905373a54b6286965eae6745">Empire::UpdateOwnedObjectCounters()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad690cb36ab1f34b268bbd5f067562cec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1138,6 +1174,32 @@ Accessors</h2></td></tr>
 <p>returns vector of names of parts in slots of indicated type in this design, unrelated to slot positions </p>
 
 <p>References <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classShipDesign.html#acc8d1eabb6c3ab5121b5d8844e63f58a">GetHull()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, and <a class="el" href="classHullType.html#afecb040cd2bd9f98091f9a631bc9521e">HullType::Slots()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a34545d166fd95a5f2ab721d9e98cb2a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt;std::string, int&gt;&amp; ShipDesign::PartTypeCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns number of parts in this ship design, indexed by <a class="el" href="classPartType.html">PartType</a> name </p>
+
+<p>Referenced by <a class="el" href="classEmpire.html#acc3d7a06905373a54b6286965eae6745">Empire::UpdateOwnedObjectCounters()</a>.</p>
 
 </div>
 </div>
@@ -2211,6 +2273,50 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classShipDesign.html#afa41b682de556284b356e350868efcf8">Description()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">Name()</a>, and <a class="el" href="classShipDesign.html#a7e2f114509a99901e9c1f3a15e3885a8">serialize()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b0c930e2b218ac89e659588b816aa72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;ShipPartClass, int&gt; ShipDesign::m_num_part_classes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f64aa74a707a23dca0fad077c035015"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, int&gt; ShipDesign::m_num_part_types</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>.</p>
 
 </div>
 </div>
