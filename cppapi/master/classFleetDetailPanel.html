@@ -108,7 +108,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a16653e64fc61b2c3cd19d09affa8fcc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel</a> (GG::X w, GG::Y h, int fleet_id, bool order_issuing_enabled, GG::Flags&lt; GG::WndFlag &gt; flags=GG::NO_WND_FLAGS)</td></tr>
-<tr class="memdesc:a16653e64fc61b2c3cd19d09affa8fcc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor  <a href="#a16653e64fc61b2c3cd19d09affa8fcc9">More...</a><br/></td></tr>
 <tr class="separator:a16653e64fc61b2c3cd19d09affa8fcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33a790f5d5f380157c5ea86d00ef0b56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a33a790f5d5f380157c5ea86d00ef0b56">EnableOrderIssuing</a> (bool enabled=true)</td></tr>
 <tr class="separator:a33a790f5d5f380157c5ea86d00ef0b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,8 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9035c44537715799f9cd212b0b85776f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a9035c44537715799f9cd212b0b85776f">SetSelectedShips</a> (const std::set&lt; int &gt; &amp;ship_ids)</td></tr>
 <tr class="memdesc:a9035c44537715799f9cd212b0b85776f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the currently-selected ships in the ships list  <a href="#a9035c44537715799f9cd212b0b85776f">More...</a><br/></td></tr>
 <tr class="separator:a9035c44537715799f9cd212b0b85776f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf4ace3dc9ddea0d91d312c4e5f34784"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#abf4ace3dc9ddea0d91d312c4e5f34784">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr)</td></tr>
-<tr class="separator:abf4ace3dc9ddea0d91d312c4e5f34784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda249a755ab97f4124dcae1a730c099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#aeda249a755ab97f4124dcae1a730c099">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
+<tr class="separator:aeda249a755ab97f4124dcae1a730c099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -210,8 +209,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ctor </p>
-
 <p>References <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">DoLayout()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, <a class="el" href="classFleetDetailPanel.html#a5924a8f7a9582b097d76fe6369f68b3b">m_order_issuing_enabled</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#adbdebd0912eba4f1c006ad18fa8bfd92">anonymous_namespace{FleetWnd.cpp}::SHIP_DROP_TYPE_STRING</a>, <a class="el" href="classFleetDetailPanel.html#aa875daac8e5264a49fc5d079b3b1c29f">ShipBrowsed()</a>, <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">ShipRightClicked()</a>, <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>, and <a class="el" href="classFleetDetailPanel.html#a3fd735329f3510de7922e27e3347dde4">UniverseObjectDeleted()</a>.</p>
 
 </div>
@@ -238,9 +235,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd">anonymous_namespace{FleetWnd.cpp}::LabelHeight()</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, and <a class="el" href="classShipsListBox.html#ac03d948986712f4835683cee61f9580a">ShipsListBox::SizeMove()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd">anonymous_namespace{FleetWnd.cpp}::LabelHeight()</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, and <a class="el" href="classShipsListBox.html#a7823d8f129e28b31214af827e55f618a">ShipsListBox::SizeMove()</a>.</p>
 
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>, and <a class="el" href="classFleetDetailPanel.html#abf4ace3dc9ddea0d91d312c4e5f34784">SizeMove()</a>.</p>
+<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>, and <a class="el" href="classFleetDetailPanel.html#aeda249a755ab97f4124dcae1a730c099">SizeMove()</a>.</p>
 
 </div>
 </div>
@@ -517,7 +514,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abf4ace3dc9ddea0d91d312c4e5f34784"></a>
+<a class="anchor" id="aeda249a755ab97f4124dcae1a730c099"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -544,7 +541,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

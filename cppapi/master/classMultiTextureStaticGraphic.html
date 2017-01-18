@@ -114,14 +114,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a831e718cd2336a2be8063ec2fadf8d85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#a831e718cd2336a2be8063ec2fadf8d85">MultiTextureStaticGraphic</a> (const std::vector&lt; GG::SubTexture &gt; &amp;subtextures, const std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt; &amp;styles=std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt; &gt;())</td></tr>
 <tr class="separator:a831e718cd2336a2be8063ec2fadf8d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
-<tr class="memitem:aaaab90871a940234b56d6e08f97805ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#aaaab90871a940234b56d6e08f97805ed">Render</a> ()</td></tr>
-<tr class="memdesc:aaaab90871a940234b56d6e08f97805ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders textures in order specified in constructor, back-to-front  <a href="#aaaab90871a940234b56d6e08f97805ed">More...</a><br/></td></tr>
-<tr class="separator:aaaab90871a940234b56d6e08f97805ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9132d6d4e75b0acd8098c084ecae0351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render</a> () override</td></tr>
+<tr class="separator:a9132d6d4e75b0acd8098c084ecae0351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa0a487638c4592aac67192bd03dc4c56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#aa0a487638c4592aac67192bd03dc4c56">MultiTextureStaticGraphic</a> ()</td></tr>
-<tr class="memdesc:aa0a487638c4592aac67192bd03dc4c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">default ctor  <a href="#aa0a487638c4592aac67192bd03dc4c56">More...</a><br/></td></tr>
 <tr class="separator:aa0a487638c4592aac67192bd03dc4c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa13c963718ef9f333d944347e7009b71"><td class="memItemLeft" align="right" valign="top">GG::Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#aa13c963718ef9f333d944347e7009b71">RenderedArea</a> (const GG::SubTexture &amp;subtexture, GG::Flags&lt; GG::GraphicStyle &gt; style) const </td></tr>
 <tr class="separator:aa13c963718ef9f333d944347e7009b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,8 +223,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>default ctor </p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -257,7 +253,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaaab90871a940234b56d6e08f97805ed"></a>
+<a class="anchor" id="a9132d6d4e75b0acd8098c084ecae0351"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -273,12 +269,11 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>renders textures in order specified in constructor, back-to-front </p>
+<p>Renders textures in order specified in constructor, back-to-front. </p>
 
 <p>References <a class="el" href="classMultiTextureStaticGraphic.html#acf60c6fe7ccea694263f1a11f20e0272">m_graphics</a>, <a class="el" href="classMultiTextureStaticGraphic.html#a0de553630807b1432d3524fd9fdaad20">m_styles</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#aa13c963718ef9f333d944347e7009b71">RenderedArea()</a>.</p>
 
@@ -317,7 +312,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the area in which the graphic is actually rendered, in UpperLeft()-relative coordinates. This may not be the entire area of the StaticGraphic, based on the style being used. </p>
 
-<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#aaaab90871a940234b56d6e08f97805ed">Render()</a>.</p>
+<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render()</a>.</p>
 
 </div>
 </div>
@@ -369,7 +364,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#ab125b3235cef4e1b4ed1405c6350d2bb">MultiTextureStaticGraphic()</a>, <a class="el" href="classMultiTextureStaticGraphic.html#aaaab90871a940234b56d6e08f97805ed">Render()</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c">ValidateStyles()</a>.</p>
+<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#ab125b3235cef4e1b4ed1405c6350d2bb">MultiTextureStaticGraphic()</a>, <a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render()</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c">ValidateStyles()</a>.</p>
 
 </div>
 </div>
@@ -393,7 +388,7 @@ Private Attributes</h2></td></tr>
 
 <p>position of texture wrt the window area </p>
 
-<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#aaaab90871a940234b56d6e08f97805ed">Render()</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c">ValidateStyles()</a>.</p>
+<p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render()</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c">ValidateStyles()</a>.</p>
 
 </div>
 </div>
