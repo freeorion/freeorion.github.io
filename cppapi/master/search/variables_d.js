@@ -317,6 +317,7 @@ var searchData=
   ['m_5fempire_5fopinions',['m_empire_opinions',['../classSpecies.html#a2674f8efa35102b51c5b89c21424b531',1,'Species']]],
   ['m_5fempire_5fplanet_5ftext',['m_empire_planet_text',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a6ace92e3905793d2e7879b14aa858ea5',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fempire_5fproduction_5ftext',['m_empire_production_text',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ae400b8e524718c193d7d500313b288a2',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
+  ['m_5fempire_5fpropagated_5fsupply_5franges',['m_empire_propagated_supply_ranges',['../classSupplyManager.html#a88e2cda911e3fae1a2e184d77464b5e5',1,'SupplyManager']]],
   ['m_5fempire_5fresearch_5ftext',['m_empire_research_text',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a5a2f4f9d97f80b32f3dfbb3e4cae4389',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fempire_5fship_5fdesigns_5fchanged_5fsignal',['m_empire_ship_designs_changed_signal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a4a10830332686bb8457a10e32f5175a8',1,'BuildDesignatorWnd::BuildSelector']]],
   ['m_5fempire_5fship_5ftext',['m_empire_ship_text',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ae1cb923bf3f7337b3789d4ce0128a2ad',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
