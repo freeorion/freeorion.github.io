@@ -103,7 +103,7 @@ var searchData=
   ['orbitoccupied',['OrbitOccupied',['../classSystem.html#a66738619c2727a1ccf83d93abab192b9',1,'System']]],
   ['orbitofplanet',['OrbitOfPlanet',['../classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d',1,'System']]],
   ['orbits',['Orbits',['../classSystem.html#a67b805e82036c3d5aca26a5bcb644092',1,'System']]],
-  ['orcondition',['OrCondition',['../classOrCondition.html#a7671c68158ce8018e6330f782783dbbe',1,'OrCondition']]],
+  ['orcondition',['OrCondition',['../classOrCondition.html#a13ec3903da63c24a8971355fcaac8eca',1,'OrCondition']]],
   ['order',['Order',['../classOrder.html#a7b6a660b03708ed5b4e1c4a6dc2a664a',1,'Order::Order()'],['../classOrder.html#a69c7baf62ba8f9b7008305c6ff3debac',1,'Order::Order(int empire)']]],
   ['orderedbombarded',['OrderedBombarded',['../structCondition_1_1OrderedBombarded.html#aba56d6f853c85b0bc59fcd06b5f85cf9',1,'Condition::OrderedBombarded']]],
   ['orderedbombardedsimplematch',['OrderedBombardedSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OrderedBombardedSimpleMatch.html#a68ab82b0bbba743e23194ce9f6853330',1,'Condition::anonymous_namespace{Condition.cpp}::OrderedBombardedSimpleMatch']]],

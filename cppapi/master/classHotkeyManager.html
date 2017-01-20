@@ -109,12 +109,12 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aafd4b74e391b28a07129ead6e76e801d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#aafd4b74e391b28a07129ead6e76e801d">~HotkeyManager</a> ()</td></tr>
 <tr class="separator:aafd4b74e391b28a07129ead6e76e801d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd73e692062b134878d5538b74716979"><td class="memTemplParams" colspan="2">template&lt;class T , class R &gt; </td></tr>
-<tr class="memitem:acd73e692062b134878d5538b74716979"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#acd73e692062b134878d5538b74716979">Connect</a> (T *instance, R(T::*member)(), const std::string &amp;name, <a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *cond=0)</td></tr>
-<tr class="memdesc:acd73e692062b134878d5538b74716979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects a named shortcut to the target slot in the target instance.  <a href="#acd73e692062b134878d5538b74716979">More...</a><br/></td></tr>
-<tr class="separator:acd73e692062b134878d5538b74716979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c6527842f0b1df8aadc5087d8a944a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#ae3c6527842f0b1df8aadc5087d8a944a">Connect</a> (boost::function&lt; bool()&gt; func, const std::string &amp;name, <a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *cond=0)</td></tr>
-<tr class="separator:ae3c6527842f0b1df8aadc5087d8a944a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed8f26d4b8e186d3fb0c3e40214d99e"><td class="memTemplParams" colspan="2">template&lt;class T , class R &gt; </td></tr>
+<tr class="memitem:a1ed8f26d4b8e186d3fb0c3e40214d99e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#a1ed8f26d4b8e186d3fb0c3e40214d99e">Connect</a> (T *instance, R(T::*member)(), const std::string &amp;name, <a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *cond=nullptr)</td></tr>
+<tr class="memdesc:a1ed8f26d4b8e186d3fb0c3e40214d99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects a named shortcut to the target slot in the target instance.  <a href="#a1ed8f26d4b8e186d3fb0c3e40214d99e">More...</a><br/></td></tr>
+<tr class="separator:a1ed8f26d4b8e186d3fb0c3e40214d99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d49d76045595c4f6d80e46b3fb2566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#af4d49d76045595c4f6d80e46b3fb2566">Connect</a> (boost::function&lt; bool()&gt; func, const std::string &amp;name, <a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *cond=nullptr)</td></tr>
+<tr class="separator:af4d49d76045595c4f6d80e46b3fb2566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ef2bd61cdcfbbc07aa2f2dec2c09f9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">RebuildShortcuts</a> ()</td></tr>
 <tr class="separator:a3ef2bd61cdcfbbc07aa2f2dec2c09f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -160,7 +160,7 @@ GG::GUI::AcceleratorSignalType * &gt;&#160;</td><td class="memItemRight" valign=
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ad147df6075d0319c2081d891d50331a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classHotkeyManager.html">HotkeyManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#ad147df6075d0319c2081d891d50331a7">s_singleton</a> = 0</td></tr>
+<tr class="memitem:ad147df6075d0319c2081d891d50331a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classHotkeyManager.html">HotkeyManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#ad147df6075d0319c2081d891d50331a7">s_singleton</a> = nullptr</td></tr>
 <tr class="separator:ad147df6075d0319c2081d891d50331a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
@@ -288,11 +288,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classHotkeyManager.html#ae333938f7d57d46c8ac5cdcdfb036a11">m_connections</a>.</p>
 
-<p>Referenced by <a class="el" href="classHotkeyManager.html#acd73e692062b134878d5538b74716979">Connect()</a>.</p>
+<p>Referenced by <a class="el" href="classHotkeyManager.html#a1ed8f26d4b8e186d3fb0c3e40214d99e">Connect()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acd73e692062b134878d5538b74716979"></a>
+<a class="anchor" id="a1ed8f26d4b8e186d3fb0c3e40214d99e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -323,7 +323,7 @@ template&lt;class T , class R &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *&#160;</td>
-          <td class="paramname"><em>cond</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>cond</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -346,7 +346,7 @@ template&lt;class T , class R &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae3c6527842f0b1df8aadc5087d8a944a"></a>
+<a class="anchor" id="af4d49d76045595c4f6d80e46b3fb2566"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -369,7 +369,7 @@ template&lt;class T , class R &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classHotkeyCondition.html">HotkeyCondition</a> *&#160;</td>
-          <td class="paramname"><em>cond</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>cond</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -443,7 +443,7 @@ template&lt;class T , class R &gt; </div>
 
 <p>References <a class="el" href="classHotkeyManager.html#a800ec197978bf1d6d133dbeca7bf9084">m_signals</a>.</p>
 
-<p>Referenced by <a class="el" href="classHotkeyManager.html#acd73e692062b134878d5538b74716979">Connect()</a>.</p>
+<p>Referenced by <a class="el" href="classHotkeyManager.html#a1ed8f26d4b8e186d3fb0c3e40214d99e">Connect()</a>.</p>
 
 </div>
 </div>
@@ -591,7 +591,7 @@ template&lt;class T , class R &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classHotkeyManager.html">HotkeyManager</a> * HotkeyManager::s_singleton = 0</td>
+          <td class="memname"><a class="el" href="classHotkeyManager.html">HotkeyManager</a> * HotkeyManager::s_singleton = nullptr</td>
         </tr>
       </table>
   </td>
