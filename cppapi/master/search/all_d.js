@@ -1430,7 +1430,7 @@ var searchData=
   ['meterbrowseqtywidth',['MeterBrowseQtyWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a06db0738686e5ef3c6a69f397b55714d',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['meterbrowserowheight',['MeterBrowseRowHeight',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adbefd7bc28a4d85bd05d6da9adc255f7',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['meterbrowsevaluewidth',['MeterBrowseValueWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a30c180cfcafab8e20094231cc1405e1a',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
-  ['meterbrowsewnd',['MeterBrowseWnd',['../classMeterBrowseWnd.html',1,'MeterBrowseWnd'],['../classMeterBrowseWnd.html#abcb2f818976731249fc1f8710f274000',1,'MeterBrowseWnd::MeterBrowseWnd()']]],
+  ['meterbrowsewnd',['MeterBrowseWnd',['../classMeterBrowseWnd.html',1,'MeterBrowseWnd'],['../classMeterBrowseWnd.html#aab5e3c30e261dbea878dbbdfc98e1b5c',1,'MeterBrowseWnd::MeterBrowseWnd(int object_id, MeterType primary_meter_type, MeterType secondary_meter_type)'],['../classMeterBrowseWnd.html#a22073a238e8bba755b9308ecc1c948be',1,'MeterBrowseWnd::MeterBrowseWnd(int object_id, MeterType primary_meter_type)']]],
   ['meterbrowsewnd_2ecpp',['MeterBrowseWnd.cpp',['../MeterBrowseWnd_8cpp.html',1,'']]],
   ['meterbrowsewnd_2eh',['MeterBrowseWnd.h',['../MeterBrowseWnd_8h.html',1,'']]],
   ['metercolor',['MeterColor',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a6d67c34b110a200ef6b14524f7c26e30',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],

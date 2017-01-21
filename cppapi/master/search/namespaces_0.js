@@ -146,5 +146,6 @@ var searchData=
   ['anonymous_5fnamespace_7bvalueref_2ecpp_7d',['anonymous_namespace{ValueRef.cpp}',['../namespaceanonymous__namespace_02ValueRef_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bvaluerefparserimpl_2ecpp_7d',['anonymous_namespace{ValueRefParserImpl.cpp}',['../namespaceanonymous__namespace_02ValueRefParserImpl_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bvartext_2ecpp_7d',['anonymous_namespace{VarText.cpp}',['../namespaceanonymous__namespace_02VarText_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bversion_2ecpp_7d',['anonymous_namespace{Version.cpp}',['../namespaceanonymous__namespace_02Version_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bxmldoc_2ecpp_7d',['anonymous_namespace{XMLDoc.cpp}',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html',1,'']]]
 ];

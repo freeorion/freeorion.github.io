@@ -599,7 +599,7 @@ var searchData=
   ['stealthchangeeventdetail',['StealthChangeEventDetail',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a50963f7c55628c70c1e7228fc3868d34',1,'StealthChangeEvent::StealthChangeEventDetail::StealthChangeEventDetail()'],['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a48a601a0ec4087a3c2bdc49f64fcca23',1,'StealthChangeEvent::StealthChangeEventDetail::StealthChangeEventDetail(int attacker_id_, int target_id_, int attacker_empire_, int target_empire_, Visibility new_visibility_)']]],
   ['stepvalidator',['StepValidator',['../structStepValidator.html#a784d6ecf0a7c3628f070b4def1fe9b5c',1,'StepValidator']]],
   ['stockpile',['Stockpile',['../classResourcePool.html#a999b2735c398fff53c41d93613fc19be',1,'ResourcePool']]],
-  ['stockpileid',['StockpileID',['../classEmpire.html#a9197ee54c394d8527c944dce5b2e7ba4',1,'Empire']]],
+  ['stockpileid',['StockpileID',['../classEmpire.html#a084dcfde1a3b84f62104743084905935',1,'Empire']]],
   ['stockpileobjectid',['StockpileObjectID',['../classResourcePool.html#aa8b8e219be7696890569cf2917566457',1,'ResourcePool']]],
   ['stopfleetexploring',['StopFleetExploring',['../classMapWnd.html#aa42fd9d8617b8c953c9beb45d76efb7a',1,'MapWnd']]],
   ['stopmusic',['StopMusic',['../classSound_1_1SoundImpl.html#a6f2390ca09e8b79a6441ae80af02e67b',1,'Sound::SoundImpl::StopMusic()'],['../classSound.html#aa107723a56406abbdc19541b0d3fcd98',1,'Sound::StopMusic()']]],
