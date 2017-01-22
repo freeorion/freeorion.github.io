@@ -100,7 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager_1_1CombatLogManagerImpl.html">CombatLogManagerImpl</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager_1_1Impl.html">Impl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -140,9 +140,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a029f2c34438e10f33ddad95b9987d2c3"><td class="memItemLeft" align="right" valign="top">boost::scoped_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classCombatLogManager_1_1CombatLogManagerImpl.html">CombatLogManagerImpl</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a></td></tr>
-<tr class="separator:a029f2c34438e10f33ddad95b9987d2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39681da635f0913c3eca5fb33d2d4779"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classCombatLogManager_1_1Impl.html">Impl</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a></td></tr>
+<tr class="separator:a39681da635f0913c3eca5fb33d2d4779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -214,7 +213,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aea942722372f973db858b8b03d8e3924">anonymous_namespace{ServerApp.cpp}::CreateCombatSitReps()</a>.</p>
 
@@ -234,7 +233,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1">HumanClientApp::EndGame()</a>.</p>
 
@@ -265,7 +264,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f">HumanClientApp::UpdateCombatLogs()</a>.</p>
 
@@ -311,7 +310,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the requested combat log or boost::none. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="CombatLogManager_8h.html#ae72fc5e3ccf1469a7d93842cf17ff140">GetCombatLog()</a>, and <a class="el" href="classServerApp.html#aeb17c60a51723729b6750b7e60a15814">ServerApp::UpdateCombatLogs()</a>.</p>
 
@@ -331,7 +330,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the ids of all incomplete logs or boost::none if they are all complete. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe">HumanClientApp::UpdateCombatLogManager()</a>.</p>
 
@@ -371,7 +370,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 </div>
 </div>
@@ -402,7 +401,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Serialize log headers so that the receiving LogManager can then request complete logs in the background. </p>
 
-<p>References <a class="el" href="classCombatLogManager.html#a029f2c34438e10f33ddad95b9987d2c3">pimpl</a>.</p>
+<p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="Message_8h.html#ae2dd2df038b85252d2fda817e8e16aa2">ExtractGameStartMessageData()</a>, <a class="el" href="Message_8h.html#a60603874a0d5f93461de26df13529df4">ExtractTurnUpdateMessageData()</a>, <a class="el" href="Message_8h.html#ae4b88f00fb50ad84d447bbe49d322763">GameStartMessage()</a>, and <a class="el" href="Message_8h.html#a306017b00cb3878c5eecfb28955fff8d">TurnUpdateMessage()</a>.</p>
 
@@ -430,7 +429,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a029f2c34438e10f33ddad95b9987d2c3"></a>
+<a class="anchor" id="a39681da635f0913c3eca5fb33d2d4779"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -438,7 +437,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::scoped_ptr&lt;<a class="el" href="classCombatLogManager_1_1CombatLogManagerImpl.html">CombatLogManagerImpl</a>&gt; const CombatLogManager::pimpl</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classCombatLogManager_1_1Impl.html">Impl</a>&gt; const CombatLogManager::m_impl</td>
         </tr>
       </table>
   </td>

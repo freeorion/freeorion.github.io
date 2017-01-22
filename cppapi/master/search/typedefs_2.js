@@ -3,7 +3,6 @@ var searchData=
   ['category',['category',['../structboost_1_1property__traits_3_01constant__property_3_01Key_00_01Value_01_4_01_4.html#af967505a1137e25fa9c0f45ede728071',1,'boost::property_traits&lt; constant_property&lt; Key, Value &gt; &gt;']]],
   ['category_5fiterator',['category_iterator',['../classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf',1,'TechManager']]],
   ['category_5frule',['category_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a2b56cb949618b6c9ea5db3d9b0106e8e',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
-  ['chlit_5ft',['chlit_t',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#afd6b1f15a2f483655b05b818fe8e4900',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['chset_5ft',['chset_t',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a64f4303a3b619aa47b5492e0dea05957',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['color_5fparser_5frule',['color_parser_rule',['../namespaceparse_1_1detail.html#af86e18eee6d220f63aed2a35e4e522ce',1,'parse::detail']]],
   ['combateventptr',['CombatEventPtr',['../CombatEvent_8h.html#ab0f8f6c1562a6f1a70e083919760ad96',1,'CombatEvent.h']]],

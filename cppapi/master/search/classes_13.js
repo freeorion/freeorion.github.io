@@ -11,7 +11,6 @@ var searchData=
   ['techpanel',['TechPanel',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html',1,'TechTreeWnd::LayoutPanel']]],
   ['techrow',['TechRow',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html',1,'TechTreeWnd::TechListBox']]],
   ['techtreearcs',['TechTreeArcs',['../classTechTreeArcs.html',1,'']]],
-  ['techtreearcsimplementation',['TechTreeArcsImplementation',['../classTechTreeArcsImplementation.html',1,'']]],
   ['techtreecontrols',['TechTreeControls',['../classTechTreeWnd_1_1TechTreeControls.html',1,'TechTreeWnd']]],
   ['techtreelayout',['TechTreeLayout',['../classTechTreeLayout.html',1,'']]],
   ['techtreewnd',['TechTreeWnd',['../classTechTreeWnd.html',1,'']]],

@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineRenderer_1_1ScanlineRendererImpl.html">ScanlineRendererImpl</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineRenderer_1_1Impl.html">Impl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -120,9 +120,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aa7f1181a03743917113ba6c9d561d417"><td class="memItemLeft" align="right" valign="top">boost::scoped_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classScanlineRenderer_1_1ScanlineRendererImpl.html">ScanlineRendererImpl</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a></td></tr>
-<tr class="separator:aa7f1181a03743917113ba6c9d561d417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85192b6bb727a2f9b176b56e51c7cf9c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classScanlineRenderer_1_1Impl.html">Impl</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a></td></tr>
+<tr class="separator:a85192b6bb727a2f9b176b56e51c7cf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classScanlineRenderer.html">ScanlineRenderer</a> renders scanlines in circular/square/arbitrary areas. It loads the scanline shader on first use. There is only expected to by one <a class="el" href="classScanlineRenderer.html">ScanlineRenderer</a> per compilation unit so that the shader is compiled once.</p>
@@ -146,6 +145,9 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="a770270a2c6781b27cb07ce3783ee1d6f"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ScanlineRenderer::~ScanlineRenderer </td>
@@ -154,6 +156,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -184,7 +191,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Draw scanlines in the circular area bounded by <code>ul</code> and <code>lr</code>. </p>
 
-<p>References <a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a>.</p>
+<p>References <a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classRotatingPlanetControl.html#ac212133332206e1355b5ae94e1176ad6">RotatingPlanetControl::Render()</a>, <a class="el" href="classScanlineControl.html#a7cc6f390d622a9801b5cd728ed3875a8">ScanlineControl::Render()</a>, and <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">MapWnd::RenderSystems()</a>.</p>
 
@@ -215,7 +222,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Draw scanlines in the square area bounded by <code>ul</code> and <code>lr</code>. </p>
 
-<p>References <a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a>.</p>
+<p>References <a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classScanlineControl.html#a7cc6f390d622a9801b5cd728ed3875a8">ScanlineControl::Render()</a>.</p>
 
@@ -236,7 +243,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Changes the color used to draw the scanlines. Set color before calling <a class="el" href="classScanlineRenderer.html#aae038e94b493e00910b85cbd92b84b1b">StartUsing()</a> </p>
 
-<p>References <a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a>.</p>
+<p>References <a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classRotatingPlanetControl.html#ac212133332206e1355b5ae94e1176ad6">RotatingPlanetControl::Render()</a>, <a class="el" href="classScanlineControl.html#a7cc6f390d622a9801b5cd728ed3875a8">ScanlineControl::Render()</a>, <a class="el" href="classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">MapWnd::RenderFields()</a>, and <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">MapWnd::RenderSystems()</a>.</p>
 
@@ -256,7 +263,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Start using <a class="el" href="classScanlineRenderer.html">ScanlineRenderer</a> to draw arbitrary shapes with the scanline shader program. </p>
 
-<p>References <a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a>.</p>
+<p>References <a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildingIndicator.html#a334fff857e3707322834d197087ec723">BuildingIndicator::Render()</a>, and <a class="el" href="classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">MapWnd::RenderFields()</a>.</p>
 
@@ -276,14 +283,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Stop using <a class="el" href="classScanlineRenderer.html">ScanlineRenderer</a> to draw arbitrary shapes with the scanline shader program. </p>
 
-<p>References <a class="el" href="classScanlineRenderer.html#aa7f1181a03743917113ba6c9d561d417">pimpl</a>.</p>
+<p>References <a class="el" href="classScanlineRenderer.html#a85192b6bb727a2f9b176b56e51c7cf9c">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildingIndicator.html#a334fff857e3707322834d197087ec723">BuildingIndicator::Render()</a>, and <a class="el" href="classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">MapWnd::RenderFields()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa7f1181a03743917113ba6c9d561d417"></a>
+<a class="anchor" id="a85192b6bb727a2f9b176b56e51c7cf9c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -291,7 +298,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::scoped_ptr&lt;<a class="el" href="classScanlineRenderer_1_1ScanlineRendererImpl.html">ScanlineRendererImpl</a>&gt; const ScanlineRenderer::pimpl</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classScanlineRenderer_1_1Impl.html">Impl</a>&gt; const ScanlineRenderer::m_impl</td>
         </tr>
       </table>
   </td>

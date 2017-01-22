@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['uisoundstemporarilydisabled',['UISoundsTemporarilyDisabled',['../classSound_1_1SoundImpl.html#afb06f75a996d1852b6ecf40159140d41',1,'Sound::SoundImpl']]],
+  ['uisoundstemporarilydisabled',['UISoundsTemporarilyDisabled',['../classSound_1_1Impl.html#a3a1f5a39a935a63d5b57f8f220607954',1,'Sound::Impl']]],
   ['uisoundsvolumeslid',['UISoundsVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a09c8e30530106ccd085d98cf843a7281',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['uit_5fbuilding',['UIT_BUILDING',['../Enums_8h.html#a871dcef0162307b5f338887268d0e9e3',1,'Enums.h']]],
   ['uit_5fship_5fdesign',['UIT_SHIP_DESIGN',['../Enums_8h.html#ab8dcd758dffc1f670c4ad1b3d9c396c8',1,'Enums.h']]],
