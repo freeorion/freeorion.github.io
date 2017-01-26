@@ -98,10 +98,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="EnumsFwd_8h.html">EnumsFwd.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="ValueRefFwd_8h.html">ValueRefFwd.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="TemporaryPtr_8h.html">TemporaryPtr.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br/>
 <code>#include &lt;boost/serialization/access.hpp&gt;</code><br/>
 <code>#include &lt;boost/serialization/nvp.hpp&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 </div><table class="memberdecls">
@@ -239,10 +239,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a2ec72fe1978ed81a6063168ca546e155"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
-&lt; <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; const <br class="typebreak"/>
-<a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#a2ec72fe1978ed81a6063168ca546e155">Condition::ObjectSet</a></td></tr>
-<tr class="separator:a2ec72fe1978ed81a6063168ca546e155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765fbdd1197036237acf8c2e16763d52"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
+&lt; std::shared_ptr&lt; const <br class="typebreak"/>
+<a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a></td></tr>
+<tr class="separator:a765fbdd1197036237acf8c2e16763d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -287,10 +287,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af77e9056037b0a8cd979cbce4679c232"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#af77e9056037b0a8cd979cbce4679c232">Condition::ConditionDescription</a> (const std::vector&lt; ConditionBase * &gt; &amp;conditions, <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; candidate_object, <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; source_object)</td></tr>
-<tr class="separator:af77e9056037b0a8cd979cbce4679c232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52dad953341e2bf88bf082ecc99aa22a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#a52dad953341e2bf88bf082ecc99aa22a">Condition::ConditionFailedDescription</a> (const std::vector&lt; ConditionBase * &gt; &amp;conditions, <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; candidate_object, <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; source_object)</td></tr>
-<tr class="separator:a52dad953341e2bf88bf082ecc99aa22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f31708160d3016717b24638dfb05bc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#ae6f31708160d3016717b24638dfb05bc">Condition::ConditionDescription</a> (const std::vector&lt; ConditionBase * &gt; &amp;conditions, std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; candidate_object, std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; source_object)</td></tr>
+<tr class="separator:ae6f31708160d3016717b24638dfb05bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fa9d915a935c76965fb6688d59724c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html#ad9fa9d915a935c76965fb6688d59724c">Condition::ConditionFailedDescription</a> (const std::vector&lt; ConditionBase * &gt; &amp;conditions, std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; candidate_object, std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; source_object)</td></tr>
+<tr class="separator:ad9fa9d915a935c76965fb6688d59724c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

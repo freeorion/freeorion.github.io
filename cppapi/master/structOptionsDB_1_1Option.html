@@ -127,10 +127,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6ab634ceb5aeeee49bfd9966314cfb88"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a6ab634ceb5aeeee49bfd9966314cfb88">name</a></td></tr>
 <tr class="memdesc:a6ab634ceb5aeeee49bfd9966314cfb88"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the option  <a href="#a6ab634ceb5aeeee49bfd9966314cfb88">More...</a><br/></td></tr>
 <tr class="separator:a6ab634ceb5aeeee49bfd9966314cfb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f563d8be7f7328a8acf678d1bc5b723"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr<br class="typebreak"/>
+<tr class="memitem:a965e25701c17fc16668a3007f9e54927"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
 &lt; boost::signals2::signal<br class="typebreak"/>
-&lt; void()&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a2f563d8be7f7328a8acf678d1bc5b723">option_changed_sig_ptr</a></td></tr>
-<tr class="separator:a2f563d8be7f7328a8acf678d1bc5b723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+&lt; void()&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a965e25701c17fc16668a3007f9e54927">option_changed_sig_ptr</a></td></tr>
+<tr class="separator:a965e25701c17fc16668a3007f9e54927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d86afbb8252f798534ff1280ecd32b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a9d86afbb8252f798534ff1280ecd32b7">recognized</a></td></tr>
 <tr class="memdesc:a9d86afbb8252f798534ff1280ecd32b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether this option has been registered before being specified via an XML input, unrecognized options can't be parsed (don't know their type) but are stored in case they are later registered with <a class="el" href="classOptionsDB.html#a8fc28c2892368df9237ac34440ad77b8">Add()</a>  <a href="#a9d86afbb8252f798534ff1280ecd32b7">More...</a><br/></td></tr>
 <tr class="separator:a9d86afbb8252f798534ff1280ecd32b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,10 +140,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a08615a80d60aaa7c1a1ee34816663338"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a08615a80d60aaa7c1a1ee34816663338">storable</a></td></tr>
 <tr class="memdesc:a08615a80d60aaa7c1a1ee34816663338"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether this option can be stored in an XML config file for use across multiple runs  <a href="#a08615a80d60aaa7c1a1ee34816663338">More...</a><br/></td></tr>
 <tr class="separator:a08615a80d60aaa7c1a1ee34816663338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a787c53aa05985cdfd1e373d4fafa386a"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr&lt; const <br class="typebreak"/>
-<a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a787c53aa05985cdfd1e373d4fafa386a">validator</a></td></tr>
-<tr class="memdesc:a787c53aa05985cdfd1e373d4fafa386a"><td class="mdescLeft">&#160;</td><td class="mdescRight">a validator for the option. Flags have no validators; lexical_cast boolean conversions are done for them.  <a href="#a787c53aa05985cdfd1e373d4fafa386a">More...</a><br/></td></tr>
-<tr class="separator:a787c53aa05985cdfd1e373d4fafa386a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb36d7ca47b52c8f2e36974c453c658"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <br class="typebreak"/>
+<a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#a7fb36d7ca47b52c8f2e36974c453c658">validator</a></td></tr>
+<tr class="separator:a7fb36d7ca47b52c8f2e36974c453c658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece14cdac8bc2d05887bfab15edc6243"><td class="memItemLeft" align="right" valign="top">boost::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">value</a></td></tr>
 <tr class="memdesc:aece14cdac8bc2d05887bfab15edc6243"><td class="mdescLeft">&#160;</td><td class="mdescRight">the value of the option  <a href="#aece14cdac8bc2d05887bfab15edc6243">More...</a><br/></td></tr>
 <tr class="separator:aece14cdac8bc2d05887bfab15edc6243"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,7 +290,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">flag</a>, <a class="el" href="structOptionsDB_1_1Option.html#a787c53aa05985cdfd1e373d4fafa386a">validator</a>, and <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">value</a>.</p>
+<p>References <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">flag</a>, <a class="el" href="structOptionsDB_1_1Option.html#a7fb36d7ca47b52c8f2e36974c453c658">validator</a>, and <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">value</a>.</p>
 
 </div>
 </div>
@@ -369,7 +368,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2f563d8be7f7328a8acf678d1bc5b723"></a>
+<a class="anchor" id="a965e25701c17fc16668a3007f9e54927"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -377,7 +376,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt;boost::signals2::signal&lt;void ()&gt; &gt; OptionsDB::Option::option_changed_sig_ptr</td>
+          <td class="memname">std::shared_ptr&lt;boost::signals2::signal&lt;void ()&gt; &gt; OptionsDB::Option::option_changed_sig_ptr</td>
         </tr>
       </table>
   </td>
@@ -455,17 +454,16 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a787c53aa05985cdfd1e373d4fafa386a"></a>
+<a class="anchor" id="a7fb36d7ca47b52c8f2e36974c453c658"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt;const <a class="el" href="structValidatorBase.html">ValidatorBase</a>&gt; OptionsDB::Option::validator</td>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="structValidatorBase.html">ValidatorBase</a>&gt; OptionsDB::Option::validator</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>a validator for the option. Flags have no validators; lexical_cast boolean conversions are done for them. </p>
+<p>A validator for the option. Flags have no validators; lexical_cast boolean conversions are done for them. </p>
 
 <p>Referenced by <a class="el" href="structOptionsDB_1_1Option.html#acc58dda801d3a8ade27ff041c90fc43f">SetFromValue()</a>.</p>
 

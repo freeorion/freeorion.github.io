@@ -95,8 +95,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Message_8h.html">../network/Message.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="TemporaryPtr_8h.html">../universe/TemporaryPtr.h</a>&quot;</code><br/>
-<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
 <code>#include &lt;boost/mpl/list.hpp&gt;</code><br/>
 <code>#include &lt;boost/preprocessor/seq/for_each.hpp&gt;</code><br/>
 <code>#include &lt;boost/statechart/custom_reaction.hpp&gt;</code><br/>
@@ -105,6 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;boost/statechart/in_state_reaction.hpp&gt;</code><br/>
 <code>#include &lt;boost/statechart/state.hpp&gt;</code><br/>
 <code>#include &lt;boost/statechart/state_machine.hpp&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;set&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 </div><table class="memberdecls">
@@ -154,9 +153,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac0ea80879634d574734604a716ebdefa"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classPlayerConnection.html">PlayerConnection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerFSM_8h.html#ac0ea80879634d574734604a716ebdefa">PlayerConnectionPtr</a></td></tr>
-<tr class="separator:ac0ea80879634d574734604a716ebdefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad396bb692b026ebebd145f09a53a759d"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classPlayerConnection.html">PlayerConnection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a></td></tr>
+<tr class="separator:ad396bb692b026ebebd145f09a53a759d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a9715f8c7dc5346aff2faab395bf74b66"></a>
@@ -192,12 +191,12 @@ Typedefs</h2></td></tr>
 <div class="line">        sc::event&lt;name&gt;,                                                        \</div>
 <div class="line">        <a class="code" href="structMessageEventBase.html">MessageEventBase</a>                                                        \</div>
 <div class="line">    {                                                                           \</div>
-<div class="line">        name(<span class="keyword">const</span> <a class="code" href="classMessage.html">Message</a>&amp; message, <a class="code" href="ServerNetworking_8h.html#ac0ea80879634d574734604a716ebdefa">PlayerConnectionPtr</a>&amp; player_connection) :  \</div>
+<div class="line">        name(<span class="keyword">const</span> <a class="code" href="classMessage.html">Message</a>&amp; message, <a class="code" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>&amp; player_connection) :  \</div>
 <div class="line">            <a class="code" href="structMessageEventBase.html">MessageEventBase</a>(message, player_connection)                        \</div>
 <div class="line">        {}                                                                      \</div>
 <div class="line">    };</div>
 <div class="ttc" id="classMessage_html"><div class="ttname"><a href="classMessage.html">Message</a></div><div class="ttdef"><b>Definition:</b> Message.h:52</div></div>
-<div class="ttc" id="ServerNetworking_8h_html_ac0ea80879634d574734604a716ebdefa"><div class="ttname"><a href="ServerNetworking_8h.html#ac0ea80879634d574734604a716ebdefa">PlayerConnectionPtr</a></div><div class="ttdeci">boost::shared_ptr&lt; PlayerConnection &gt; PlayerConnectionPtr</div><div class="ttdef"><b>Definition:</b> ServerNetworking.h:18</div></div>
+<div class="ttc" id="ServerNetworking_8h_html_ad396bb692b026ebebd145f09a53a759d"><div class="ttname"><a href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a></div><div class="ttdeci">std::shared_ptr&lt; PlayerConnection &gt; PlayerConnectionPtr</div><div class="ttdef"><b>Definition:</b> ServerNetworking.h:18</div></div>
 <div class="ttc" id="structMessageEventBase_html"><div class="ttname"><a href="structMessageEventBase.html">MessageEventBase</a></div><div class="ttdef"><b>Definition:</b> ClientFSMEvents.h:16</div></div>
 </div><!-- fragment -->
 </div>
@@ -244,12 +243,12 @@ Typedefs</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="ac0ea80879634d574734604a716ebdefa"></a>
+<a class="anchor" id="ad396bb692b026ebebd145f09a53a759d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::shared_ptr&lt;<a class="el" href="classPlayerConnection.html">PlayerConnection</a>&gt; <a class="el" href="ServerNetworking_8h.html#ac0ea80879634d574734604a716ebdefa">PlayerConnectionPtr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="classPlayerConnection.html">PlayerConnection</a>&gt; <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

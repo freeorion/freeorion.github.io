@@ -1,7 +1,7 @@
 var searchData=
 [
   ['halostartypefileprefixes',['HaloStarTypeFilePrefixes',['../classClientUI.html#aac8b94c6d36abb7aecb85a2a2db1d966',1,'ClientUI']]],
-  ['halotexture',['HaloTexture',['../classSystemIcon.html#a2e7e464def3a1553ed666fe41d47b1c8',1,'SystemIcon']]],
+  ['halotexture',['HaloTexture',['../classSystemIcon.html#ae8a54e4c2e80a73b84ba119a99a1c7ec',1,'SystemIcon']]],
   ['handlebuttonchanged',['HandleButtonChanged',['../classGraphicalSummaryWnd.html#a3cb0c571ab43684f0301428da41a16b0',1,'GraphicalSummaryWnd']]],
   ['handlechatmessage',['HandleChatMessage',['../classAIBase.html#ae8ce75a215bfaf4f833f9aa353027c43',1,'AIBase::HandleChatMessage()'],['../classPythonAI.html#aacf348f8eb646447cfb58916be056883',1,'PythonAI::HandleChatMessage()']]],
   ['handlecolonization',['HandleColonization',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af356e69c04e0e99ba6b7e5fb3626d1cb',1,'anonymous_namespace{ServerApp.cpp}']]],
@@ -119,7 +119,7 @@ var searchData=
   ['homeworld_5fcondition',['HOMEWORLD_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a277974887a383f2d6198970f2e282c80',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['homeworlds',['Homeworlds',['../classSpecies.html#ace9c4323ebfaa0a07cfe347b38fac8ee',1,'Species']]],
   ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html#a868971b1759099caf528bfe61df5c9b9',1,'Condition::anonymous_namespace{Condition.cpp}::HomeworldSimpleMatch']]],
-  ['hosticon',['HostIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a461f7e3659c3d56e297980e443b23e7c',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
+  ['hosticon',['HostIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a4a8d9c98c75f20e4f07c714eea797c78',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['hostidmessage',['HostIDMessage',['../Message_8cpp.html#aae46a48fc3c9be999466a53c3aa1223c',1,'HostIDMessage(int host_player_id):&#160;Message.cpp'],['../Message_8h.html#a16ed4dc510926d23c12699a89572d789',1,'HostIDMessage(int host_player_id):&#160;Message.cpp']]],
   ['hostmpackmessage',['HostMPAckMessage',['../Message_8cpp.html#a8ee2be6f5c9b9300d02525512dcb6931',1,'HostMPAckMessage(int player_id):&#160;Message.cpp'],['../Message_8h.html#a1599ab2915259f4bb35ce964dd7924bc',1,'HostMPAckMessage(int player_id):&#160;Message.cpp']]],
   ['hostmpgamemessage',['HostMPGameMessage',['../Message_8cpp.html#a51debdc86ac9a83eb8c9e9ca1ff84de3',1,'HostMPGameMessage(const std::string &amp;host_player_name):&#160;Message.cpp'],['../Message_8h.html#a45c410b3097d37b0a371b3e42e51268a',1,'HostMPGameMessage(const std::string &amp;host_player_name):&#160;Message.cpp']]],
@@ -137,16 +137,16 @@ var searchData=
   ['hotkeytostring',['HotkeyToString',['../classHotkey.html#a8f79d2c948a800a7c0d3324329c83a9e',1,'Hotkey']]],
   ['hull',['Hull',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a0a21a9aa21d0ffae3ad7c4633116e446',1,'BasesListBox::HullAndPartsListBoxRow::Hull()'],['../classDesignWnd_1_1MainPanel.html#a4cd38923bd44010048ac96c3582df75e',1,'DesignWnd::MainPanel::Hull()'],['../classShipDesign.html#a241def88ea3ebbbdf1dead19720e9397',1,'ShipDesign::Hull()']]],
   ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a7195ad033732230dc4d84aa0a4a88bee',1,'BasesListBox::HullAndPartsListBoxRow::HullAndPartsListBoxRow(GG::X w, GG::Y h)'],['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a476d5345eca72273628b98faf8951ad9',1,'BasesListBox::HullAndPartsListBoxRow::HullAndPartsListBoxRow(GG::X w, GG::Y h, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts)']]],
-  ['hullicon',['HullIcon',['../classClientUI.html#a391793d79e17d9d0a59c7e1ed8412edf',1,'ClientUI']]],
+  ['hullicon',['HullIcon',['../classClientUI.html#a58402bc53f69bcacfdde4bfc7aff30d1',1,'ClientUI']]],
   ['hullpanel',['HullPanel',['../classBasesListBox_1_1HullPanel.html#a20d8359a41d2623fa0d83a7812f6ad10',1,'BasesListBox::HullPanel']]],
   ['hullslots',['HullSlots',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a12656fd02cd281d54c596d23b7ed64ec',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
-  ['hulltexture',['HullTexture',['../classClientUI.html#a9aeff28229f7754cfd3b6813559bf4fe',1,'ClientUI']]],
+  ['hulltexture',['HullTexture',['../classClientUI.html#a6b4cad0054c613d7a19dbab60684d9fe',1,'ClientUI']]],
   ['hulltype',['HullType',['../classHullType.html#a24ee2fabb43077b5537daca8f592d267',1,'HullType::HullType()'],['../classHullType.html#aa37332a3f8ab5e3fa66675cb0e376181',1,'HullType::HullType(const HullTypeStats &amp;stats, const CommonParams &amp;common_params, const MoreCommonParams &amp;more_common_params, const std::vector&lt; Slot &gt; &amp;slots, const std::string &amp;icon, const std::string &amp;graphic)']]],
   ['hulltypemanager',['HullTypeManager',['../classHullTypeManager.html#aab22746c12f31a3097c89bc0849d9845',1,'HullTypeManager']]],
   ['hulltypestats',['HullTypeStats',['../structHullTypeStats.html#a71168a3d33dbe6a7351962b1eaaf1dc6',1,'HullTypeStats::HullTypeStats()'],['../structHullTypeStats.html#a173f79d8f2dd8b1349d3a4a7c294e9d8',1,'HullTypeStats::HullTypeStats(float fuel_, float speed_, float stealth_, float structure_)']]],
   ['humanclientapp',['HumanClientApp',['../classHumanClientApp.html#a6feff641864cc55ac0dd85467e3221d7',1,'HumanClientApp']]],
   ['humanclientfsm',['HumanClientFSM',['../structHumanClientFSM.html#a36b9eea21b1f14666526270830aa7b4b',1,'HumanClientFSM']]],
   ['humancontrolledempires',['HumanControlledEmpires',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['humanicon',['HumanIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a33527bc18f3cf2b39ac1d046f399e37c',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
+  ['humanicon',['HumanIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a4d0efe7c01ad786da78abb42f4d1cd4e',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['humanplayerwithidconnected',['HumanPlayerWithIdConnected',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d',1,'anonymous_namespace{ServerApp.cpp}']]]
 ];

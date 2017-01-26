@@ -19,7 +19,7 @@ var searchData=
   ['zoomtoencyclopediaentry',['ZoomToEncyclopediaEntry',['../classClientUI.html#a4d1b1d6e5325ddca58a969664d7b4ee3',1,'ClientUI']]],
   ['zoomtofield',['ZoomToField',['../classClientUI.html#ac45e61842a7d0aeeb70f72766d29dc3f',1,'ClientUI']]],
   ['zoomtofieldtype',['ZoomToFieldType',['../classClientUI.html#acb30437bc3cf1d274be22842b34c054a',1,'ClientUI']]],
-  ['zoomtofleet',['ZoomToFleet',['../classClientUI.html#a5f8d97082cdfdcecd10032121de4d554',1,'ClientUI::ZoomToFleet(int id)'],['../classClientUI.html#a3022cefa7902a7ed48c2cb004b4ce34e',1,'ClientUI::ZoomToFleet(TemporaryPtr&lt; const Fleet &gt; fleet)']]],
+  ['zoomtofleet',['ZoomToFleet',['../classClientUI.html#a5f8d97082cdfdcecd10032121de4d554',1,'ClientUI::ZoomToFleet(int id)'],['../classClientUI.html#a4cc92070f1bffbf4833d30d8c0f1bdfd',1,'ClientUI::ZoomToFleet(std::shared_ptr&lt; const Fleet &gt; fleet)']]],
   ['zoomtohomesystem',['ZoomToHomeSystem',['../classMapWnd.html#adce2968d7f919cb470279a24fceac38f',1,'MapWnd']]],
   ['zoomtometertypearticle',['ZoomToMeterTypeArticle',['../classClientUI.html#a569fb3e5645011edafe6a1330e17f736',1,'ClientUI']]],
   ['zoomtonextfleet',['ZoomToNextFleet',['../classMapWnd.html#a75ea85081e1cb348f23bc0e7c96f963e',1,'MapWnd']]],
@@ -39,7 +39,7 @@ var searchData=
   ['zoomtoshippart',['ZoomToShipPart',['../classClientUI.html#ad760eb77254a209642da51b06622812f',1,'ClientUI']]],
   ['zoomtospecial',['ZoomToSpecial',['../classClientUI.html#a528ec4169afc76eb56ea70b53c78efc0',1,'ClientUI']]],
   ['zoomtospecies',['ZoomToSpecies',['../classClientUI.html#a749b42d989e269a7cceee1a325f76a7c',1,'ClientUI']]],
-  ['zoomtosystem',['ZoomToSystem',['../classClientUI.html#a2a62909d794f718b9ea401d4b07bcf17',1,'ClientUI::ZoomToSystem(int id)'],['../classClientUI.html#af2b61eff1d59f2c567f9d8d53a55d5ef',1,'ClientUI::ZoomToSystem(TemporaryPtr&lt; const System &gt; system)']]],
+  ['zoomtosystem',['ZoomToSystem',['../classClientUI.html#a2a62909d794f718b9ea401d4b07bcf17',1,'ClientUI::ZoomToSystem(int id)'],['../classClientUI.html#ad75416ddb290377a9b17234b2666c087',1,'ClientUI::ZoomToSystem(std::shared_ptr&lt; const System &gt; system)']]],
   ['zoomtosystemwithwastedpp',['ZoomToSystemWithWastedPP',['../classMapWnd.html#ada2311234207c46b4cbd17129da41da1',1,'MapWnd']]],
   ['zoomtotech',['ZoomToTech',['../classClientUI.html#ade78b519367798f161574b193ef04ce6',1,'ClientUI']]]
 ];

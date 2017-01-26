@@ -12,7 +12,6 @@ var searchData=
   ['techtreelayout_2eh',['TechTreeLayout.h',['../TechTreeLayout_8h.html',1,'']]],
   ['techtreewnd_2ecpp',['TechTreeWnd.cpp',['../TechTreeWnd_8cpp.html',1,'']]],
   ['techtreewnd_2eh',['TechTreeWnd.h',['../TechTreeWnd_8h.html',1,'']]],
-  ['temporaryptr_2eh',['TemporaryPtr.h',['../TemporaryPtr_8h.html',1,'']]],
   ['test_5fparse_5fai_5ftag_5fgrade_2epy',['test_parse_ai_tag_grade.py',['../test__parse__ai__tag__grade_8py.html',1,'']]],
   ['test_5fprint_5futils_2epy',['test_print_utils.py',['../test__print__utils_8py.html',1,'']]],
   ['textbrowsewnd_2ecpp',['TextBrowseWnd.cpp',['../TextBrowseWnd_8cpp.html',1,'']]],

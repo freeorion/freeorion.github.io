@@ -95,8 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="EnumsFwd_8h.html">EnumsFwd.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="TemporaryPtr_8h.html">TemporaryPtr.h</a>&quot;</code><br/>
-<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;map&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
@@ -130,9 +129,10 @@ std::map&lt; MeterType, double &gt; &gt;&#160;</td><td class="memItemRight" vali
 &lt; SourcedEffectsGroup, <br class="typebreak"/>
 TargetsAndCause &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">Effect::TargetsCauses</a></td></tr>
 <tr class="separator:a85cb5f481d5cbb086e447110f6c15641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0160f3c98df93b08569f47ec0acd1832"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
-&lt; <a class="el" href="classTemporaryPtr.html">TemporaryPtr</a>&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEffect.html#a0160f3c98df93b08569f47ec0acd1832">Effect::TargetSet</a></td></tr>
-<tr class="separator:a0160f3c98df93b08569f47ec0acd1832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e9596c8574aacbe980390fd91b8f7a"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
+&lt; std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEffect.html#a61e9596c8574aacbe980390fd91b8f7a">Effect::TargetSet</a></td></tr>
+<tr class="separator:a61e9596c8574aacbe980390fd91b8f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

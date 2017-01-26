@@ -19,7 +19,6 @@ var searchData=
   ['empires_2epy',['empires.py',['../empires_8py.html',1,'']]],
   ['empirestatsparser_2ecpp',['EmpireStatsParser.cpp',['../EmpireStatsParser_8cpp.html',1,'']]],
   ['empirewrapper_2ecpp',['EmpireWrapper.cpp',['../EmpireWrapper_8cpp.html',1,'']]],
-  ['enabletemporaryfromthis_2eh',['EnableTemporaryFromThis.h',['../EnableTemporaryFromThis_8h.html',1,'']]],
   ['encyclopedia_2ecpp',['Encyclopedia.cpp',['../Encyclopedia_8cpp.html',1,'']]],
   ['encyclopedia_2eh',['Encyclopedia.h',['../Encyclopedia_8h.html',1,'']]],
   ['encyclopediadetailpanel_2ecpp',['EncyclopediaDetailPanel.cpp',['../EncyclopediaDetailPanel_8cpp.html',1,'']]],

@@ -4,7 +4,7 @@ var searchData=
   ['valid_5fpreview_5fcolumn_5fcount',['VALID_PREVIEW_COLUMN_COUNT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#acfffda1e3f21de6e1eb0a323385c88bf',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['valid_5fpreview_5fcolumns',['VALID_PREVIEW_COLUMNS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a5813f4a46bfd542e8152e96c89fbefb7',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['valid_5ftarget_5fobject_5fids',['valid_target_object_ids',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ab8de9332c42c1e21c1a43432290bd735',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
-  ['validator',['validator',['../structOptionsDB_1_1Option.html#a787c53aa05985cdfd1e373d4fafa386a',1,'OptionsDB::Option']]],
+  ['validator',['validator',['../structOptionsDB_1_1Option.html#a7fb36d7ca47b52c8f2e36974c453c658',1,'OptionsDB::Option']]],
   ['validdesigndesign',['ValidDesignDesign',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a74f1606e475812153d6c148240f5852d',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['validdesignhullandparts',['ValidDesignHullAndParts',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#aa07b471207e315d46714f81470ecfa07',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option']]],

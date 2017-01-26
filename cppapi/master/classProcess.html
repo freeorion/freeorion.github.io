@@ -129,8 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aafa9cbf484fb422117257984ce51e297"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a></td></tr>
 <tr class="memdesc:aafa9cbf484fb422117257984ce51e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">true iff this is a default-constructed <a class="el" href="classProcess.html">Process</a> (no associated process exists)  <a href="#aafa9cbf484fb422117257984ce51e297">More...</a><br/></td></tr>
 <tr class="separator:aafa9cbf484fb422117257984ce51e297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f56538267ce83ee5cba1bf0b6f3c4d"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr&lt; <a class="el" href="classProcess_1_1Impl.html">Impl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a83f56538267ce83ee5cba1bf0b6f3c4d">m_impl</a></td></tr>
-<tr class="separator:a83f56538267ce83ee5cba1bf0b6f3c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6030688924d83428b405f80519062747"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProcess_1_1Impl.html">Impl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a></td></tr>
+<tr class="separator:a6030688924d83428b405f80519062747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ebd51f0d25711b428f1ab52f6be802"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a></td></tr>
 <tr class="memdesc:a95ebd51f0d25711b428f1ab52f6be802"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if this process is set to low priority  <a href="#a95ebd51f0d25711b428f1ab52f6be802">More...</a><br/></td></tr>
 <tr class="separator:a95ebd51f0d25711b428f1ab52f6be802"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +237,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>frees the controlled process from auto-deletion when this <a class="el" href="classProcess.html">Process</a> object is destroyed. </p>
 
-<p>References <a class="el" href="classProcess.html#a83f56538267ce83ee5cba1bf0b6f3c4d">m_impl</a>.</p>
+<p>References <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999">HumanClientApp::FreeServer()</a>.</p>
 
@@ -282,7 +282,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>kills the controlled process immediately. </p>
 
-<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="classProcess.html#a83f56538267ce83ee5cba1bf0b6f3c4d">m_impl</a>, and <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, and <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination()</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a8fc305c6dba2e2928b724adb16351571">HumanClientApp::KillServer()</a>, and <a class="el" href="classProcess_1_1Impl.html#aa0b41299e8c567ffe5a72eac88bdf4ca">Process::Impl::~Impl()</a>.</p>
 
@@ -302,7 +302,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>kills the controlled process iff it has not been freed. </p>
 
-<p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a83f56538267ce83ee5cba1bf0b6f3c4d">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
+<p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1">HumanClientApp::EndGame()</a>, <a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775">Kill()</a>, and <a class="el" href="classHumanClientApp.html#aa4ad9ba706633d61a9c00c17f49bd82a">HumanClientApp::~HumanClientApp()</a>.</p>
 
@@ -323,7 +323,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>sets process priority </p>
 
-<p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a83f56538267ce83ee5cba1bf0b6f3c4d">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
+<p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83f56538267ce83ee5cba1bf0b6f3c4d"></a>
+<a class="anchor" id="a6030688924d83428b405f80519062747"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -360,7 +360,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_ptr&lt;<a class="el" href="classProcess_1_1Impl.html">Impl</a>&gt; Process::m_impl</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classProcess_1_1Impl.html">Impl</a>&gt; Process::m_impl</td>
         </tr>
       </table>
   </td>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['icon',['icon',['../structEncyclopediaArticle.html#af5964a2997fe64ba230d3e8aed42ec90',1,'EncyclopediaArticle']]],
-  ['imagechangedsignal',['ImageChangedSignal',['../classGalaxySetupPanel.html#a54f458d8b09731a0d97683310513d85a',1,'GalaxySetupPanel']]],
+  ['imagechangedsignal',['ImageChangedSignal',['../classGalaxySetupPanel.html#a6cd4d64795af2a99eadb6b650163ca33',1,'GalaxySetupPanel']]],
   ['immediateneighborsfunc',['ImmediateNeighborsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a2e0e98b828d926824d028009c44b9aac',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['import_5fexport_5flabel_5ftop',['import_export_label_top',['../classSystemResourceSummaryBrowseWnd.html#afe47836f98ed8d3c4f8809b9867bcc70',1,'SystemResourceSummaryBrowseWnd']]],
   ['impossibly_5flarge_5fturn',['IMPOSSIBLY_LARGE_TURN',['../AppInterface_8cpp.html#ae8c9bad08e915242e181a466dfd81920',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#a16a8681ab66c4022c0c24bc3c15d9341',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp']]],

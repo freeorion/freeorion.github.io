@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['weaponfireeventptr',['WeaponFireEventPtr',['../structWeaponFireEvent.html#ad9af65da79c9a4f1a9a76b9458af489c',1,'WeaponFireEvent']]],
-  ['weaponsplatformeventptr',['WeaponsPlatformEventPtr',['../structWeaponsPlatformEvent.html#ae1956d57e4be012d4c7b4db21936b6eb',1,'WeaponsPlatformEvent']]]
+  ['weaponfireeventptr',['WeaponFireEventPtr',['../structWeaponFireEvent.html#a2f090c112382c132072d910978304385',1,'WeaponFireEvent']]],
+  ['weaponsplatformeventptr',['WeaponsPlatformEventPtr',['../structWeaponsPlatformEvent.html#aa18ba2e85c79e339ef92028905e6a6cd',1,'WeaponsPlatformEvent']]]
 ];
