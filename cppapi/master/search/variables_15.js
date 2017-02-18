@@ -12,5 +12,6 @@ var searchData=
   ['unknown_5fui_5fdisplay_5fvalue',['UNKNOWN_UI_DISPLAY_VALUE',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#adde16ad9e6de1e4a1e174ac806e8e118',1,'anonymous_namespace{i18n.cpp}']]],
   ['unlocks',['unlocks',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a45cf366340942e2791fff8dcb1ca36d3',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
   ['upper_5fleft_5fpad',['UPPER_LEFT_PAD',['../classTechTreeWnd_1_1TechTreeControls.html#adbd2bc1c683b67769c444ea96444a79b',1,'TechTreeWnd::TechTreeControls']]],
-  ['uppressedsignal',['UpPressedSignal',['../classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64',1,'MessageWndEdit']]]
+  ['uppressedsignal',['UpPressedSignal',['../classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64',1,'MessageWndEdit']]],
+  ['url_5ftag',['URL_TAG',['../classTextLinker.html#aa74a7a1c5a0b3a86f18c83423848a031',1,'TextLinker']]]
 ];

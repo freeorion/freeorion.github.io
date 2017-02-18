@@ -7,7 +7,6 @@ var searchData=
   ['impossibly_5flarge_5fturn',['IMPOSSIBLY_LARGE_TURN',['../AppInterface_8cpp.html#ae8c9bad08e915242e181a466dfd81920',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#a16a8681ab66c4022c0c24bc3c15d9341',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp']]],
   ['in_5fsystem',['in_system',['../structanonymous__namespace_02ConditionParser2_8cpp_03_1_1condition__parser__rules__2.html#aaa017178ffc00f065ab2b1a8133c979a',1,'anonymous_namespace{ConditionParser2.cpp}::condition_parser_rules_2']]],
   ['incomplete_5fdesign',['INCOMPLETE_DESIGN',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a309e9bfa2ba1862e40d6ce6d76930715',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
-  ['indent_5fstr',['INDENT_STR',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#af6aec42b475f1d70b9515f4cbe9d49cd',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['initial_5fscale',['INITIAL_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#ac3b4966afda10707e768f67349ec5f6f',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['inline_5fcomment',['inline_comment',['../structparse_1_1lexer.html#ad25a9d5c3cf69d206b725779020c671f',1,'parse::lexer']]],
   ['inner_5fborder_5fangle_5foffset',['INNER_BORDER_ANGLE_OFFSET',['../classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257',1,'CUIWnd']]],

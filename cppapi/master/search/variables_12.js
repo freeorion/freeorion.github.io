@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['r',['r',['../structStreamableColor.html#a4ef5bdb02713b7d0ff342cacfafa3fe1',1,'StreamableColor']]],
   ['radius2',['radius2',['../classDelauney_1_1DTTriangle.html#a71522c2a6890dcd138e18bf31af7fa22',1,'Delauney::DTTriangle']]],
   ['rally_5fpoint_5fid',['rally_point_id',['../structProductionQueue_1_1Element.html#a5e3db735209850a6ed5d73aad0937c18',1,'ProductionQueue::Element']]],
   ['ramdom_5fcolonizable_5fspecies',['ramdom_colonizable_species',['../structparse_1_1string__complex__parser__rules.html#a6a440e2643ef70392c95181790a6288d',1,'parse::string_complex_parser_rules']]],
@@ -18,7 +17,6 @@ var searchData=
   ['remaining',['remaining',['../structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56',1,'ProductionQueue::Element']]],
   ['remove_5fspecial',['remove_special',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#ababb2319bb951c05db7a6ac99ce95325',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['remove_5fstarlanes',['remove_starlanes',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#ac9d076b2b86f2c4075d2a4565ee05197',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
-  ['removed_5flanes',['removed_lanes',['../classmonsters_1_1StarlaneAlteringMonsters.html#a2a824d937683344608fa998f629c3839',1,'monsters::StarlaneAlteringMonsters']]],
   ['render_5fdebugging_5flink_5frects',['RENDER_DEBUGGING_LINK_RECTS',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a3866a3587e308629a5dfa6daf6b145ed',1,'anonymous_namespace{LinkText.cpp}']]],
   ['report_5ferror',['report_error',['../namespaceparse.html#a198d1ae12a3cb166e961d364eea5b4f9',1,'parse']]],
   ['repositionwindowssignal',['RepositionWindowsSignal',['../classHumanClientApp.html#a9653e1e62e3ab6c23a5d31f2bbed8772',1,'HumanClientApp']]],
@@ -42,6 +40,7 @@ var searchData=
   ['root_5fcandidate',['root_candidate',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a2bf9c629059e521eee1ebbb616f4e3a6',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['root_5fnode',['root_node',['../classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a',1,'XMLDoc']]],
   ['round',['round',['../structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d',1,'WeaponFireEvent::round()'],['../structFighterAttackedEvent.html#af583e85d5b849cf5ac11b2bfd577afd9',1,'FighterAttackedEvent::round()']]],
+  ['row',['row',['../structWithinJumpsOfOthersOtherVisitor.html#aeb09d0dff66727af60e4d8694200bf66',1,'WithinJumpsOfOthersOtherVisitor']]],
   ['row_5fheight',['row_height',['../classSystemResourceSummaryBrowseWnd.html#a869258baea8d3391b8f6ec8f693c6f8a',1,'SystemResourceSummaryBrowseWnd']]],
   ['row_5fmargin',['ROW_MARGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac07ca6262b9824cab1c3bf972e47e08b',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['rowquantchangedsignal',['RowQuantChangedSignal',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#ad509346f330b32e679cd729ea87a3c22',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::RowQuantChangedSignal()'],['../classProductionWnd.html#a10a0e8b56bbf1e1a025f50b8126e01c6',1,'ProductionWnd::RowQuantChangedSignal()']]],

@@ -5,7 +5,6 @@ var searchData=
   ['layoutsurface',['LayoutSurface',['../classTechTreeWnd_1_1LayoutPanel_1_1LayoutSurface.html',1,'TechTreeWnd::LayoutPanel']]],
   ['lazyscrollerlinktext',['LazyScrollerLinkText',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['lexer',['lexer',['../structparse_1_1lexer.html',1,'parse']]],
-  ['limitfpssetoptionfunctor',['LimitFPSSetOptionFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1LimitFPSSetOptionFunctor.html',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['link',['Link',['../structTextLinker_1_1Link.html',1,'TextLinker']]],
   ['linkdecorator',['LinkDecorator',['../classLinkDecorator.html',1,'']]],
   ['linktext',['LinkText',['../classLinkText.html',1,'']]],

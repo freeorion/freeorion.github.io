@@ -1,7 +1,7 @@
 var searchData=
 [
   ['edge',['Edge',['../classTechTreeLayout_1_1Edge.html',1,'TechTreeLayout']]],
-  ['edgevisibilityfilter',['EdgeVisibilityFilter',['../structUniverse_1_1GraphImpl_1_1EdgeVisibilityFilter.html',1,'Universe::GraphImpl']]],
+  ['edgevisibilityfilter',['EdgeVisibilityFilter',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1EdgeVisibilityFilter.html',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['effect_5fparser_5frules_5f1',['effect_parser_rules_1',['../structanonymous__namespace_02EffectParser1_8cpp_03_1_1effect__parser__rules__1.html',1,'anonymous_namespace{EffectParser1.cpp}']]],
   ['effect_5fparser_5frules_5f2',['effect_parser_rules_2',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html',1,'anonymous_namespace{EffectParser2.cpp}']]],
   ['effect_5fparser_5frules_5f3',['effect_parser_rules_3',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html',1,'anonymous_namespace{EffectParser3.cpp}']]],
@@ -11,8 +11,8 @@ var searchData=
   ['effectcause',['EffectCause',['../structEffect_1_1EffectCause.html',1,'Effect']]],
   ['effects_5fgroup_5frules',['effects_group_rules',['../structanonymous__namespace_02Parse_8cpp_03_1_1effects__group__rules.html',1,'anonymous_namespace{Parse.cpp}']]],
   ['effectsgroup',['EffectsGroup',['../classEffect_1_1EffectsGroup.html',1,'Effect']]],
-  ['element',['Element',['../structProductionQueue_1_1Element.html',1,'ProductionQueue']]],
   ['element',['Element',['../structResearchQueue_1_1Element.html',1,'ResearchQueue']]],
+  ['element',['Element',['../structProductionQueue_1_1Element.html',1,'ProductionQueue']]],
   ['empire',['Empire',['../classEmpire.html',1,'']]],
   ['empireaffiliation',['EmpireAffiliation',['../structCondition_1_1EmpireAffiliation.html',1,'Condition']]],
   ['empireaffiliationsimplematch',['EmpireAffiliationSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireAffiliationSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],

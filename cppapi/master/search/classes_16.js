@@ -14,6 +14,7 @@ var searchData=
   ['weaponsplatformevent',['WeaponsPlatformEvent',['../structWeaponsPlatformEvent.html',1,'']]],
   ['withindistance',['WithinDistance',['../structCondition_1_1WithinDistance.html',1,'Condition']]],
   ['withindistancesimplematch',['WithinDistanceSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinDistanceSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
-  ['withinstarlanejumps',['WithinStarlaneJumps',['../structCondition_1_1WithinStarlaneJumps.html',1,'Condition']]],
-  ['withinstarlanejumpssimplematch',['WithinStarlaneJumpsSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinStarlaneJumpsSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]]
+  ['withinjumpsofothersobjectvisitor',['WithinJumpsOfOthersObjectVisitor',['../structWithinJumpsOfOthersObjectVisitor.html',1,'']]],
+  ['withinjumpsofothersothervisitor',['WithinJumpsOfOthersOtherVisitor',['../structWithinJumpsOfOthersOtherVisitor.html',1,'']]],
+  ['withinstarlanejumps',['WithinStarlaneJumps',['../structCondition_1_1WithinStarlaneJumps.html',1,'Condition']]]
 ];

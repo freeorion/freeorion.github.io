@@ -9,7 +9,6 @@ var searchData=
   ['hostmpgamerequested',['HostMPGameRequested',['../structHostMPGameRequested.html',1,'']]],
   ['hostspgamerequested',['HostSPGameRequested',['../structHostSPGameRequested.html',1,'']]],
   ['hotkey',['Hotkey',['../classHotkey.html',1,'']]],
-  ['hotkeycondition',['HotkeyCondition',['../classHotkeyCondition.html',1,'']]],
   ['hotkeymanager',['HotkeyManager',['../classHotkeyManager.html',1,'']]],
   ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html',1,'BasesListBox']]],
   ['hullpanel',['HullPanel',['../classBasesListBox_1_1HullPanel.html',1,'BasesListBox']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['g',['g',['../structStreamableColor.html#a0576c32893d4cf2508d045901c141a04',1,'StreamableColor']]],
   ['g_5fcategories',['g_categories',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a221cd2d32aea4d49df6c0f70e8fc9841',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['g_5fcategories_5fseen',['g_categories_seen',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a3bac04a5599ce0f450b222c0ff7b564f',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['g_5feffects_5fgroups',['g_effects_groups',['../namespaceanonymous__namespace_02AlignmentsParser_8cpp_03.html#a2d55b82b0dfca1e397bf836f28bc6ccf',1,'anonymous_namespace{AlignmentsParser.cpp}']]],

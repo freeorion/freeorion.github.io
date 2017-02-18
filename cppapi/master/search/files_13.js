@@ -16,7 +16,6 @@ var searchData=
   ['test_5fprint_5futils_2epy',['test_print_utils.py',['../test__print__utils_8py.html',1,'']]],
   ['textbrowsewnd_2ecpp',['TextBrowseWnd.cpp',['../TextBrowseWnd_8cpp.html',1,'']]],
   ['textbrowsewnd_2eh',['TextBrowseWnd.h',['../TextBrowseWnd_8h.html',1,'']]],
-  ['timers_2epy',['timers.py',['../timers_8py.html',1,'']]],
   ['tokens_2ecpp',['Tokens.cpp',['../Tokens_8cpp.html',1,'']]],
   ['tokens_2eh',['Tokens.h',['../Tokens_8h.html',1,'']]],
   ['turn_5fevents_2epy',['turn_events.py',['../turn__events_8py.html',1,'']]],

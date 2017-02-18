@@ -14,6 +14,7 @@ var searchData=
   ['fleet',['Fleet',['../classFleet.html',1,'']]],
   ['fleetbutton',['FleetButton',['../classFleetButton.html',1,'']]],
   ['fleetdatapanel',['FleetDataPanel',['../classFleetDataPanel.html',1,'']]],
+  ['fleetdetailbrowsewnd',['FleetDetailBrowseWnd',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1FleetDetailBrowseWnd.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fleetdetailpanel',['FleetDetailPanel',['../classFleetDetailPanel.html',1,'']]],
   ['fleetmoveorder',['FleetMoveOrder',['../classFleetMoveOrder.html',1,'']]],
   ['fleetplan',['FleetPlan',['../classFleetPlan.html',1,'']]],

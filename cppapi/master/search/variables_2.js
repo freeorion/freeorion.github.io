@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['b',['b',['../structStreamableColor.html#a661845737e3797076833f3a90957cabf',1,'StreamableColor']]],
   ['bases_5flist_5fbox_5fdrop_5ftype',['BASES_LIST_BOX_DROP_TYPE',['../classBasesListBox.html#a23b2d468e4ee4b88caafb1c344707e07',1,'BasesListBox']]],
   ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
   ['beginner',['BEGINNER',['../Enums_8h.html#a11dca09fa4060634f889cb568180766b',1,'Enums.h']]],
@@ -23,8 +22,8 @@ var searchData=
   ['bt_5fship',['BT_SHIP',['../Enums_8h.html#a984a0db15120b45c7a40336c74053516',1,'Enums.h']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736',1,'anonymous_namespace{Sound.cpp}']]],
   ['build_5ftype',['build_type',['../structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd',1,'ProductionQueue::ProductionItem']]],
-  ['buildableitembuilding',['BuildableItemBuilding',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#abbcbe05ab38f681121e5bc12cdccb141',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['buildableitemship',['BuildableItemShip',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a459a2a3c68a602b8068a8e3fdf1e8661',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['buildableitembuilding',['BuildableItemBuilding',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aac551565af0c3680c64da2f6a5ca83e2',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['buildableitemship',['BuildableItemShip',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a6138f173092c41fa48e117dcec2d4170',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['building',['building',['../structanonymous__namespace_02ConditionParser6_8cpp_03_1_1condition__parser__rules__6.html#a23d9cb47a5c0655a4685d4b7462608ee',1,'anonymous_namespace{ConditionParser6.cpp}::condition_parser_rules_6']]],
   ['building_5fid_5ftag',['BUILDING_ID_TAG',['../classVarText.html#a452056c89102fe936c4389596955944e',1,'VarText']]],
   ['building_5ftype',['building_type',['../structanonymous__namespace_02BuildingsParser_8cpp_03_1_1rules.html#a86f4d11af9a60b45c14ba4d804f96269',1,'anonymous_namespace{BuildingsParser.cpp}::rules']]],

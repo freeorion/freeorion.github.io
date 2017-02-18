@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['cache_5fhit_5fhandler',['cache_hit_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7f5c32b437f451221c3696caeb28b319',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
+  ['cache_5fmiss_5fhandler',['cache_miss_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7c344c5c9ef2332420077575cd17299d',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['category',['category',['../structboost_1_1property__traits_3_01constant__property_3_01Key_00_01Value_01_4_01_4.html#af967505a1137e25fa9c0f45ede728071',1,'boost::property_traits&lt; constant_property&lt; Key, Value &gt; &gt;']]],
   ['category_5fiterator',['category_iterator',['../classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf',1,'TechManager']]],
   ['category_5frule',['category_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a2b56cb949618b6c9ea5db3d9b0106e8e',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
@@ -18,10 +20,11 @@ var searchData=
   ['const_5fid_5fiterator',['const_id_iterator',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8d347e9d06e9e9ea5ca3223f4c2003fa',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['const_5fiterator',['const_iterator',['../structResearchQueue.html#a6cebab5a08245f16a0934541a44591dd',1,'ResearchQueue::const_iterator()'],['../structProductionQueue.html#a2dbfa6b3b17cac438e5fc1696011a374',1,'ProductionQueue::const_iterator()'],['../classEmpireManager.html#ae082349cca8fd370929855c1ad6086f0',1,'EmpireManager::const_iterator()'],['../classServerNetworking.html#ab36329899e2540862914630e4743a68b',1,'ServerNetworking::const_iterator()'],['../classOrderSet.html#a1bf27bf457edc63d84f921e6ad639282',1,'OrderSet::const_iterator()']]],
   ['constcombateventptr',['ConstCombatEventPtr',['../CombatEvent_8h.html#a3a909ea50e13f8617589f6231730c8a2',1,'CombatEvent.h']]],
-  ['constedgeweightpropertymap',['ConstEdgeWeightPropertyMap',['../structUniverse_1_1GraphImpl.html#a9881114255c15b5e04dbbe95717c1b7f',1,'Universe::GraphImpl']]],
-  ['constindexpropertymap',['ConstIndexPropertyMap',['../structUniverse_1_1GraphImpl.html#a368b8561d37b41bc81a56ccf849dad70',1,'Universe::GraphImpl']]],
+  ['constedgeweightpropertymap',['ConstEdgeWeightPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a48a7c67583c5567c28ec077c97900b1b',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['constindexpropertymap',['ConstIndexPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a1e501cd414299b28d8bf5e8cbb95cc75',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['constptr',['ConstPtr',['../classPathfinder.html#a64d3d1c28b954ca7095e98f017c7844b',1,'Pathfinder']]],
   ['conststealthchangeeventdetailptr',['ConstStealthChangeEventDetailPtr',['../structStealthChangeEvent.html#afc1bc49f4d0cf30fb6214279271d439e',1,'StealthChangeEvent']]],
-  ['constsystemidpropertymap',['ConstSystemIDPropertyMap',['../structUniverse_1_1GraphImpl.html#afd1af369a01ad1226a3ab79b1d5362c9',1,'Universe::GraphImpl']]],
+  ['constsystemidpropertymap',['ConstSystemIDPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a7c4839e9656bc141dbf1dc601a7dd79b',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['constweaponfireeventptr',['ConstWeaponFireEventPtr',['../structWeaponFireEvent.html#a6d331e555fe53397056e972d590e9d80',1,'WeaponFireEvent']]],
   ['constweaponsplatformeventptr',['ConstWeaponsPlatformEventPtr',['../structWeaponsPlatformEvent.html#ae45f93bc1a93a7652b0712e1a033f21c',1,'WeaponsPlatformEvent']]],
   ['consumable_5frule',['consumable_rule',['../structparse_1_1detail_1_1rules.html#a90cf5b337c4af0a1acd926689a8ae0eb',1,'parse::detail::rules']]],

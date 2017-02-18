@@ -6,9 +6,8 @@ var searchData=
   ['set_5fmeter_5frule',['set_meter_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#abae240983a77abb38daa986ad2904a26',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#a225163805286ea54c3a851e2ff2fa1e4',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['setiterator',['SetIterator',['../classFreeOrionPython_1_1SetWrapper.html#a56ba736e31c8ca8f89951bdf643aa973',1,'FreeOrionPython::SetWrapper']]],
-  ['setpartfuncptrtype',['SetPartFuncPtrType',['../classDesignWnd_1_1MainPanel.html#ac9abcf4fb2a6b8e0c2d78331883f1454',1,'DesignWnd::MainPanel']]],
+  ['setpartfuncptrtype',['SetPartFuncPtrType',['../classDesignWnd_1_1MainPanel.html#aa4a7c63825f7da092e1632df6dc37bff',1,'DesignWnd::MainPanel']]],
   ['ship_5fdesign_5fiterator',['ship_design_iterator',['../classUniverse.html#a36b94ff0880cca821a6249edcccc48a0',1,'Universe']]],
-  ['shipdesignitr',['ShipDesignItr',['../classEmpire.html#a778738c144a4fe35b5fa1ebb8d46e277',1,'Empire']]],
   ['shipdesignmap',['ShipDesignMap',['../classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543',1,'Universe']]],
   ['simultaneouseventsptr',['SimultaneousEventsPtr',['../structSimultaneousEvents.html#aac1832dc79c1513a0858eaf7d1636ab1',1,'SimultaneousEvents']]],
   ['sitrepitr',['SitRepItr',['../classEmpire.html#a5fddec02770125e339370c5886be9bcd',1,'Empire']]],
@@ -41,10 +40,9 @@ var searchData=
   ['string_5fstring_5fint_5frule',['string_string_int_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#a2652512362e01736abac87868f921daa',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['stringref_5fand_5fdoubleref_5frule',['stringref_and_doubleref_rule',['../structanonymous__namespace_02EffectParser1_8cpp_03_1_1effect__parser__rules__1.html#a5cf20aac4bbe267bb33e902dffc61e02',1,'anonymous_namespace{EffectParser1.cpp}::effect_parser_rules_1']]],
   ['strings_5frule',['strings_rule',['../structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1rules.html#a23e86960dfd8eafc7ecdc7e2e8f34b2a',1,'anonymous_namespace{EncyclopediaParser.cpp}::rules']]],
-  ['stringvalidator',['StringValidator',['../classOptionsWnd.html#a14064b0d1e0104286084ce3615e644b2',1,'OptionsWnd']]],
   ['supplylanemmap',['SupplyLaneMMap',['../namespaceGetPathsThroughSupplyLanes.html#a2480ddc06966cba3cc631a826fd2fd3e',1,'GetPathsThroughSupplyLanes']]],
-  ['systemgraph',['SystemGraph',['../structUniverse_1_1GraphImpl.html#aeaaec38dcfe5df7502f765e9685b11ea',1,'Universe::GraphImpl']]],
+  ['systemgraph',['SystemGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['systemiditr',['SystemIDItr',['../classEmpire.html#a9f867ba7719e671cbe75c56608cfbfd0',1,'Empire']]],
-  ['systemidpropertymap',['SystemIDPropertyMap',['../structUniverse_1_1GraphImpl.html#a7ead0d3d1d780bc87877b2b477222a83',1,'Universe::GraphImpl']]],
+  ['systemidpropertymap',['SystemIDPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a67f2170fb3192fd67a966c3cd1595f0c',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['systemxempiretofleetsmap',['SystemXEmpireToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6e4acb9075731f8c6c7fc02d2c7d63f2',1,'anonymous_namespace{MapWnd.cpp}']]]
 ];

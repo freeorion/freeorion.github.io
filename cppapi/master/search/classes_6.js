@@ -8,7 +8,6 @@ var searchData=
   ['giveobjecttoempireorder',['GiveObjectToEmpireOrder',['../classGiveObjectToEmpireOrder.html',1,'']]],
   ['graphcontrol',['GraphControl',['../classGraphControl.html',1,'']]],
   ['graphicalsummarywnd',['GraphicalSummaryWnd',['../classGraphicalSummaryWnd.html',1,'']]],
-  ['graphicssystem',['GraphicsSystem',['../classGraphicsSystem.html',1,'']]],
-  ['graphimpl',['GraphImpl',['../structUniverse_1_1GraphImpl.html',1,'Universe']]],
+  ['graphimpl',['GraphImpl',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['guicontroller',['GUIController',['../interfaceGUIController.html',1,'']]]
 ];

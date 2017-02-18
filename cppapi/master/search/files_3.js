@@ -23,6 +23,8 @@ var searchData=
   ['clientnetworking_2eh',['ClientNetworking.h',['../ClientNetworking_8h.html',1,'']]],
   ['clientui_2ecpp',['ClientUI.cpp',['../ClientUI_8cpp.html',1,'']]],
   ['clientui_2eh',['ClientUI.h',['../ClientUI_8h.html',1,'']]],
+  ['cmakelists_2etxt',['CMakeLists.txt',['../client_2AI_2CMakeLists_8txt.html',1,'']]],
+  ['cmakelists_2etxt',['CMakeLists.txt',['../client_2human_2CMakeLists_8txt.html',1,'']]],
   ['colonisationai_2epy',['ColonisationAI.py',['../ColonisationAI_8py.html',1,'']]],
   ['combatevent_2ecpp',['CombatEvent.cpp',['../CombatEvent_8cpp.html',1,'']]],
   ['combatevent_2eh',['CombatEvent.h',['../CombatEvent_8h.html',1,'']]],
@@ -69,5 +71,6 @@ var searchData=
   ['cuistyle_2ecpp',['CUIStyle.cpp',['../CUIStyle_8cpp.html',1,'']]],
   ['cuistyle_2eh',['CUIStyle.h',['../CUIStyle_8h.html',1,'']]],
   ['cuiwnd_2ecpp',['CUIWnd.cpp',['../CUIWnd_8cpp.html',1,'']]],
-  ['cuiwnd_2eh',['CUIWnd.h',['../CUIWnd_8h.html',1,'']]]
+  ['cuiwnd_2eh',['CUIWnd.h',['../CUIWnd_8h.html',1,'']]],
+  ['timers_2epy',['timers.py',['../common_2timers_8py.html',1,'']]]
 ];

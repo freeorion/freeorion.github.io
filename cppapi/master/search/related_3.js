@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['empiremanager',['EmpireManager',['../classEmpire.html#a9c39e937c058204678ebe4fc6e5638e5',1,'Empire']]]
+  ['fleetuimanager',['FleetUIManager',['../classFleetWnd.html#afbaa71b90035aedd073657c76440350d',1,'FleetWnd']]]
 ];

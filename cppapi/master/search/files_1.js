@@ -20,5 +20,6 @@ var searchData=
   ['alignmentsparser_2ecpp',['AlignmentsParser.cpp',['../AlignmentsParser_8cpp.html',1,'']]],
   ['all_5ftags_2edox',['all_tags.dox',['../all__tags_8dox.html',1,'']]],
   ['appinterface_2ecpp',['AppInterface.cpp',['../AppInterface_8cpp.html',1,'']]],
-  ['appinterface_2eh',['AppInterface.h',['../AppInterface_8h.html',1,'']]]
+  ['appinterface_2eh',['AppInterface.h',['../AppInterface_8h.html',1,'']]],
+  ['timers_2epy',['timers.py',['../AI_2freeorion__tools_2timers_8py.html',1,'']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['serverapp',['ServerApp',['../classEmpireManager.html#a0e022dc7e96ff3bc6938c34cf9482d47',1,'EmpireManager']]],
-  ['serverfsm',['ServerFSM',['../classServerApp.html#a6658abeffc66e9da0c55672ee9711948',1,'ServerApp']]],
-  ['servernetworking',['ServerNetworking',['../classPlayerConnection.html#a7f7e479ceff6e9cb34c8f88b084a3fa7',1,'PlayerConnection']]]
+  ['universe',['Universe',['../classBuilding.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Building::Universe()'],['../classField.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Field::Universe()'],['../classFleet.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Fleet::Universe()'],['../classPlanet.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Planet::Universe()'],['../classShip.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Ship::Universe()'],['../classSystem.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'System::Universe()'],['../classUniverseObject.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'UniverseObject::Universe()']]],
+  ['universeobjectdeleter',['UniverseObjectDeleter',['../classBuilding.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'Building::UniverseObjectDeleter()'],['../classField.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'Field::UniverseObjectDeleter()'],['../classFleet.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'Fleet::UniverseObjectDeleter()'],['../classPlanet.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'Planet::UniverseObjectDeleter()'],['../classShip.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'Ship::UniverseObjectDeleter()'],['../classSystem.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'System::UniverseObjectDeleter()'],['../classUniverseObject.html#ae6d6a55d891f15eaff4cd03cce62b402',1,'UniverseObject::UniverseObjectDeleter()']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['matchhelper',['MatchHelper',['../structCondition_1_1ConditionBase.html#a38a75063e619d2c981a64b489c263b95',1,'Condition::ConditionBase']]],
-  ['mplobby',['MPLobby',['../classServerApp.html#a50dbd4e3d204a391494bf2f01ccdb128',1,'ServerApp']]]
+  ['playinggame',['PlayingGame',['../classServerApp.html#ab368ab50c7d6b9faae54f91e35e101e4',1,'ServerApp::PlayingGame()'],['../classMapWnd.html#ab368ab50c7d6b9faae54f91e35e101e4',1,'MapWnd::PlayingGame()']]],
+  ['playingturn',['PlayingTurn',['../classMapWnd.html#a02fd866c8f0445fe13bb12afe78cb89f',1,'MapWnd']]],
+  ['processingturn',['ProcessingTurn',['../classServerApp.html#a3ec5435f2d01b781393fad3a9a558961',1,'ServerApp']]]
 ];
