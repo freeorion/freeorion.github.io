@@ -39,7 +39,7 @@ var searchData=
   ['rightdoubleclickedsignal',['RightDoubleClickedSignal',['../classFieldIcon.html#acfaa2568a1062986a3f2268319812f20',1,'FieldIcon::RightDoubleClickedSignal()'],['../classSystemIcon.html#a34632d0330638e56fbb8ef0baddf29a8',1,'SystemIcon::RightDoubleClickedSignal()']]],
   ['root_5fcandidate',['root_candidate',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a2bf9c629059e521eee1ebbb616f4e3a6',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['root_5fnode',['root_node',['../classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a',1,'XMLDoc']]],
-  ['round',['round',['../structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d',1,'WeaponFireEvent::round()'],['../structFighterAttackedEvent.html#af583e85d5b849cf5ac11b2bfd577afd9',1,'FighterAttackedEvent::round()']]],
+  ['round',['round',['../structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d',1,'WeaponFireEvent']]],
   ['row',['row',['../structWithinJumpsOfOthersOtherVisitor.html#aeb09d0dff66727af60e4d8694200bf66',1,'WithinJumpsOfOthersOtherVisitor']]],
   ['row_5fheight',['row_height',['../classSystemResourceSummaryBrowseWnd.html#a869258baea8d3391b8f6ec8f693c6f8a',1,'SystemResourceSummaryBrowseWnd']]],
   ['row_5fmargin',['ROW_MARGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac07ca6262b9824cab1c3bf972e47e08b',1,'anonymous_namespace{SaveFileDialog.cpp}']]],

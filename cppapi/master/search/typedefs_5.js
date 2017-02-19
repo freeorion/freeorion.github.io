@@ -1,7 +1,6 @@
 var searchData=
 [
   ['field_5frule',['field_rule',['../structanonymous__namespace_02FieldsParser_8cpp_03_1_1rules.html#aec3a302ab50f03ecd864a6d7ef379a5b',1,'anonymous_namespace{FieldsParser.cpp}::rules']]],
-  ['fighterattackedeventptr',['FighterAttackedEventPtr',['../structFighterAttackedEvent.html#ad846ccae38cce9727fc50f61c27d33b9',1,'FighterAttackedEvent']]],
   ['fighterlaunchesevent',['FighterLaunchesEvent',['../CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d',1,'CombatEvents.h']]],
   ['fighterlauncheseventptr',['FighterLaunchesEventPtr',['../CombatEvents_8h.html#a0577afe61b0d2c63fe02a6833576d72c',1,'CombatEvents.h']]],
   ['fighterlauncheventptr',['FighterLaunchEventPtr',['../structFighterLaunchEvent.html#a159dbdcdaa6e86c7e7681db854374f9a',1,'FighterLaunchEvent']]],
