@@ -16,7 +16,6 @@ var searchData=
   ['serializemultiplayercommon_2ecpp',['SerializeMultiplayerCommon.cpp',['../SerializeMultiplayerCommon_8cpp.html',1,'']]],
   ['serializeorderset_2ecpp',['SerializeOrderSet.cpp',['../SerializeOrderSet_8cpp.html',1,'']]],
   ['serializeuniverse_2ecpp',['SerializeUniverse.cpp',['../SerializeUniverse_8cpp.html',1,'']]],
-  ['serializeuniverseexports_2eipp',['SerializeUniverseExports.ipp',['../SerializeUniverseExports_8ipp.html',1,'']]],
   ['serverapp_2ecpp',['ServerApp.cpp',['../ServerApp_8cpp.html',1,'']]],
   ['serverapp_2eh',['ServerApp.h',['../ServerApp_8h.html',1,'']]],
   ['serverconnectwnd_2ecpp',['ServerConnectWnd.cpp',['../ServerConnectWnd_8cpp.html',1,'']]],
