@@ -952,6 +952,7 @@ var searchData=
   ['m_5fschedule_5fmutex',['m_schedule_mutex',['../classRunQueue.html#a955dffb3602975fb13b72d05b4a9650a',1,'RunQueue']]],
   ['m_5fscope',['m_scope',['../classEffect_1_1EffectsGroup.html#aaf8eb892a5c2d8f3ae6abe3e47101244',1,'Effect::EffectsGroup']]],
   ['m_5fscrap_5findicator',['m_scrap_indicator',['../classBuildingIndicator.html#a49548a2c4018a65f5f04ec786e06dbd5',1,'BuildingIndicator::m_scrap_indicator()'],['../classShipDataPanel.html#a7f51e65cca4b9eda504d61ef509f5785',1,'ShipDataPanel::m_scrap_indicator()']]],
+  ['m_5fscroll_5foffset',['m_scroll_offset',['../classCreditsWnd.html#a5414ff5500232feffc6a782f73cc610f',1,'CreditsWnd']]],
   ['m_5fscroll_5fposition_5fx',['m_scroll_position_x',['../classTechTreeWnd_1_1LayoutPanel.html#a3957ac6943f44b5024803ce21051ef59',1,'TechTreeWnd::LayoutPanel']]],
   ['m_5fscroll_5fposition_5fy',['m_scroll_position_y',['../classTechTreeWnd_1_1LayoutPanel.html#af4d74570c21485661fff904e4ddb1635',1,'TechTreeWnd::LayoutPanel']]],
   ['m_5fsearch_5fedit',['m_search_edit',['../classEncyclopediaDetailPanel.html#a350fcc305339b9bd63375fd4af8fd355',1,'EncyclopediaDetailPanel']]],
