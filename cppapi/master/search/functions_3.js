@@ -36,6 +36,7 @@ var searchData=
   ['capital',['Capital',['../structCondition_1_1Capital.html#a2c07df0d03be448dd8f8a4d019f49796',1,'Condition::Capital']]],
   ['capital_5fcondition',['CAPITAL_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a327690fbff5bf6c911ddafcaf14c2a7a',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['capitalid',['CapitalID',['../classEmpire.html#ac1b44101f0bfe24ac69659cbba6e291d',1,'Empire']]],
+  ['capture_5fresult_5fenum',['capture_result_enum',['../namespaceparse.html#ae3e2f54e0fe1f312b612a870fe8b1f3d',1,'parse']]],
   ['cardinalsuffix',['CardinalSuffix',['../classPlanet.html#ae1bfd147c4ac7f41e66fa424c36f38c6',1,'Planet']]],
   ['castable_5fas_5fint_5fparser_5frules',['castable_as_int_parser_rules',['../structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1castable__as__int__parser__rules.html#a91353f436cf7a8a9c4633c898b09b915',1,'anonymous_namespace{IntValueRefParser.cpp}::castable_as_int_parser_rules']]],
   ['caststringtoint',['CastStringToInt',['../classLinkDecorator.html#a2f46633a5a1a694d5b613a1d3a13fad0',1,'LinkDecorator']]],
