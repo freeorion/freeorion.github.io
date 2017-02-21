@@ -13,7 +13,7 @@ var searchData=
   ['accumulate',['Accumulate',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a390dc7956b2671d2d3eaba23d3767e2b',1,'SectionedScopedTimer::Impl::Sections']]],
   ['activation',['Activation',['../classEffect_1_1EffectsGroup.html#a643d49cc2e588155026a171aecd81134',1,'Effect::EffectsGroup']]],
   ['add',['Add',['../classOptionsDB.html#a8fc28c2892368df9237ac34440ad77b8',1,'OptionsDB::Add(const std::string &amp;name, const std::string &amp;description, T default_value, const ValidatorBase &amp;validator=Validator&lt; T &gt;(), bool storable=true)'],['../classOptionsDB.html#af6d3a44aa345e041e5e831c44db893b3',1,'OptionsDB::Add(char short_name, const std::string &amp;name, const std::string &amp;description, T default_value, const ValidatorBase &amp;validator=Validator&lt; T &gt;(), bool storable=true)']]],
-  ['add_5fdefinitions',['add_definitions',['../parse_2CMakeLists_8txt.html#a2998f2b816e944df4d83e11448f248d2',1,'CMakeLists.txt']]],
+  ['add_5fdefinitions',['add_definitions',['../parse_2CMakeLists_8txt.html#a138393d320b038f43932dcaee6226302',1,'CMakeLists.txt']]],
   ['addallobjectsset',['AddAllObjectsSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#acc67437fc467ac312fe2d901d69943a3',1,'anonymous_namespace{Condition.cpp}']]],
   ['addattribute',['AddAttribute',['../classXMLDoc.html#acd9b8a84d17a17ede895d8985df7f7b2',1,'XMLDoc']]],
   ['addbuilding',['AddBuilding',['../classPlanet.html#ae403e4b0a88678aa50b638ed99492ac5',1,'Planet']]],
