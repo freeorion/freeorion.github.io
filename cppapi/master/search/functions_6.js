@@ -18,6 +18,7 @@ var searchData=
   ['fightermax',['FighterMax',['../classShip.html#a137513e29582911108b658f83633da06',1,'Ship']]],
   ['fighterorpublicnamelink',['FighterOrPublicNameLink',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad0d8104d7c7df0b3217b5d35139c8986',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['fightersattackfightersevent',['FightersAttackFightersEvent',['../structFightersAttackFightersEvent.html#ab8d2d82a07c6db569f989dd658bc94ef',1,'FightersAttackFightersEvent::FightersAttackFightersEvent()'],['../structFightersAttackFightersEvent.html#ac5b21622a27ce9a82b4e3200e9658bb1',1,'FightersAttackFightersEvent::FightersAttackFightersEvent(int bout)']]],
+  ['fightersdestroyedevent',['FightersDestroyedEvent',['../structFightersDestroyedEvent.html#a63c363816cd686db540e8fdbc65be3b5',1,'FightersDestroyedEvent::FightersDestroyedEvent()'],['../structFightersDestroyedEvent.html#a488753f0a9b9b9d705f3536dab19425b',1,'FightersDestroyedEvent::FightersDestroyedEvent(int bout)']]],
   ['fightersicon',['FightersIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a81a3a35767bc422db088af517830ab8a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527',1,'parse']]],
   ['filedlg',['FileDlg',['../classFileDlg.html#a7f80619793010767b56df6338be182c5',1,'FileDlg']]],

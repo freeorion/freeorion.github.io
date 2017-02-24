@@ -60,6 +60,7 @@ var searchData=
   ['_7efighter',['~Fighter',['../classFighter.html#a7c7f2ffa4724887e564af51a6154b703',1,'Fighter']]],
   ['_7efighterlaunchevent',['~FighterLaunchEvent',['../structFighterLaunchEvent.html#a256725d42bd4a5e45222d8e4f98475ab',1,'FighterLaunchEvent']]],
   ['_7efightersattackfightersevent',['~FightersAttackFightersEvent',['../structFightersAttackFightersEvent.html#ab5da7b84d008b928848bcfbfd9c5b1d5',1,'FightersAttackFightersEvent']]],
+  ['_7efightersdestroyedevent',['~FightersDestroyedEvent',['../structFightersDestroyedEvent.html#a6004fb3362f10ab75e987a3e40c901a0',1,'FightersDestroyedEvent']]],
   ['_7efleet',['~Fleet',['../classFleet.html#a48cbd97f91b0bbf5f3ceddeda715f4ee',1,'Fleet']]],
   ['_7efleetbutton',['~FleetButton',['../classFleetButton.html#a9797fced961f7516fe115ee11782ca65',1,'FleetButton']]],
   ['_7efleetplan',['~FleetPlan',['../classFleetPlan.html#aa304a7164c89b0e41f05396a5f2b4318',1,'FleetPlan']]],
