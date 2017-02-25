@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['label',['label',['../namespaceparse.html#ad3e368b9ebdb8abd19c11414d939fdf7',1,'parse']]],
+  ['label',['label',['../namespaceparse_1_1detail.html#a718e36ca142f692f5a740d9789365f64',1,'parse::detail']]],
   ['label_5fseparator',['LABEL_SEPARATOR',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a5d1b944fcd94cae030ceb82378433dda',1,'anonymous_namespace{VarText.cpp}']]],
   ['labelheight',['LabelHeight',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['labelwidth',['LabelWidth',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#a8e8bbad61b996dd99b38284b7f02235e',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],

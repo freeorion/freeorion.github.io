@@ -97,21 +97,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ValueRefParser_8h.html">ValueRefParser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ConditionParserImpl_8h.html">ConditionParserImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EnumParser_8h.html">EnumParser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Label_8h.html">Label.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ValueRef_8h.html">../universe/ValueRef.h</a>&quot;</code><br />
 <code>#include &lt;boost/spirit/include/phoenix.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcomplex__variable__rule.html">complex_variable_rule&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexpression__rule.html">expression_rule&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatistic__rule.html">statistic_rule&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvariable__rule.html">variable_rule&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structarithmetic__rules.html">arithmetic_rules&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -121,70 +115,56 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a60995a8195ff26510ae072a0ecd64dc2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; double &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a60995a8195ff26510ae072a0ecd64dc2">double_rule</a></td></tr>
-<tr class="separator:a60995a8195ff26510ae072a0ecd64dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab01cf6446e7f3079d218e163aa73b428"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; int &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a></td></tr>
-<tr class="separator:ab01cf6446e7f3079d218e163aa73b428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac83797c9529043ec65240465b487dec1"><td class="memItemLeft" align="right" valign="top">typedef qi::rule&lt; <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a>, const char *(), <a class="el" href="namespaceparse.html#a73ed2f3013a63e67745571a738847cb7">parse::skipper_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a></td></tr>
-<tr class="separator:ac83797c9529043ec65240465b487dec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0fd3ae72d9f04c978fee92118c93a62"><td class="memItemLeft" align="right" valign="top">typedef qi::rule&lt; <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a>, <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a>(), <a class="el" href="namespaceparse.html#a73ed2f3013a63e67745571a738847cb7">parse::skipper_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ad0fd3ae72d9f04c978fee92118c93a62">reference_token_rule</a></td></tr>
-<tr class="separator:ad0fd3ae72d9f04c978fee92118c93a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6e56d3c9a1f1a5ca064c7efb47d618"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2c6e56d3c9a1f1a5ca064c7efb47d618"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a> = <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1ComplexVariable.html">ValueRef::ComplexVariable</a>&lt; T &gt; *(), boost::spirit::qi::locals&lt; std::string, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; * &gt; &gt;</td></tr>
+<tr class="separator:a2c6e56d3c9a1f1a5ca064c7efb47d618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ce6b643f1d751a6ca03d378f5da5ee"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a49ce6b643f1d751a6ca03d378f5da5ee"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a> = <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; *(), boost::spirit::qi::locals&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; *, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; *, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">ValueRef::OpType</a>, std::vector&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; * &gt; &gt; &gt;</td></tr>
+<tr class="separator:a49ce6b643f1d751a6ca03d378f5da5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0859ac64b61e6805f111c35a23e4149c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; const char *()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a></td></tr>
+<tr class="separator:a0859ac64b61e6805f111c35a23e4149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d8aad307afef506607ab8d5eb0d5c4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ab1d8aad307afef506607ab8d5eb0d5c4">reference_token_rule</a></td></tr>
+<tr class="separator:ab1d8aad307afef506607ab8d5eb0d5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada112df35db12335a75ffed3940c84cf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ada112df35db12335a75ffed3940c84cf"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a> = <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1Statistic.html">ValueRef::Statistic</a>&lt; T &gt; *(), boost::spirit::qi::locals&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; *, <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3">ValueRef::StatisticType</a> &gt; &gt;</td></tr>
+<tr class="separator:ada112df35db12335a75ffed3940c84cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719198cfc13b236d239f2620be00aa27"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a719198cfc13b236d239f2620be00aa27"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a> = <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1Variable.html">ValueRef::Variable</a>&lt; T &gt; *(), boost::spirit::qi::locals&lt; std::vector&lt; std::string &gt;, <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a> &gt; &gt;</td></tr>
+<tr class="separator:a719198cfc13b236d239f2620be00aa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a266f2ae6ad2451e2c1578263492b9fe2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a266f2ae6ad2451e2c1578263492b9fe2">container_type</a> ()</td></tr>
+<tr class="memitem:a266f2ae6ad2451e2c1578263492b9fe2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a266f2ae6ad2451e2c1578263492b9fe2">container_type</a> ()</td></tr>
 <tr class="separator:a266f2ae6ad2451e2c1578263492b9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4e40a6c01853332dd21ac9605cde27"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; double &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a8e4e40a6c01853332dd21ac9605cde27">double_bound_variable</a> ()</td></tr>
-<tr class="separator:a8e4e40a6c01853332dd21ac9605cde27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b8d825f615fffc75ba15c8c7192ade"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ab4b8d825f615fffc75ba15c8c7192ade">double_bound_variable_name</a> ()</td></tr>
-<tr class="separator:ab4b8d825f615fffc75ba15c8c7192ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e1ee0cd573cb7a77322cd933ca52fe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a60995a8195ff26510ae072a0ecd64dc2">double_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a75e1ee0cd573cb7a77322cd933ca52fe">double_constant</a> ()</td></tr>
-<tr class="separator:a75e1ee0cd573cb7a77322cd933ca52fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced4e6b21c6bef6df2c13b8b0e2c68a1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; double &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#aced4e6b21c6bef6df2c13b8b0e2c68a1">double_free_variable</a> ()</td></tr>
-<tr class="separator:aced4e6b21c6bef6df2c13b8b0e2c68a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af197dd175bb2ee512029c782f070ce37"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#af197dd175bb2ee512029c782f070ce37">double_free_variable_name</a> ()</td></tr>
-<tr class="separator:af197dd175bb2ee512029c782f070ce37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583d5cfd36a4976b26a79c90b8efbf2a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt; double &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a583d5cfd36a4976b26a79c90b8efbf2a">double_var_complex</a> ()</td></tr>
-<tr class="separator:a583d5cfd36a4976b26a79c90b8efbf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f817f77823525f21c68d9cc2b6e7c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; double &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a24f817f77823525f21c68d9cc2b6e7c7">double_var_statistic</a> ()</td></tr>
-<tr class="separator:a24f817f77823525f21c68d9cc2b6e7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe2612821c9c5c0c1523a5be87c2516"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7fe2612821c9c5c0c1523a5be87c2516"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a7fe2612821c9c5c0c1523a5be87c2516">initialize_bound_variable_parser</a> (typename <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; T &gt;::type &amp;bound_variable, const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;variable_name)</td></tr>
-<tr class="separator:a7fe2612821c9c5c0c1523a5be87c2516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b742b1976ea38df77206c2824ee808"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a91b742b1976ea38df77206c2824ee808"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a91b742b1976ea38df77206c2824ee808">initialize_nonnumeric_expression_parsers</a> (typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;function_expr, typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;operated_expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;primary_expr)</td></tr>
-<tr class="separator:a91b742b1976ea38df77206c2824ee808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac06a3eb0637875a1aefcf2602e16929e"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ac06a3eb0637875a1aefcf2602e16929e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ac06a3eb0637875a1aefcf2602e16929e">initialize_nonnumeric_expression_parsers&lt; std::string &gt;</a> (typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; std::string &gt;::type &amp;function_expr, typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; std::string &gt;::type &amp;operated_expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; std::string &gt;::type &amp;expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; std::string &gt;::type &amp;primary_expr)</td></tr>
-<tr class="separator:ac06a3eb0637875a1aefcf2602e16929e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7f0d12ed138f6565f51385b3286106"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ada7f0d12ed138f6565f51385b3286106"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ada7f0d12ed138f6565f51385b3286106">initialize_nonnumeric_statistic_parser</a> (typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;statistic, const typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;value_ref)</td></tr>
-<tr class="separator:ada7f0d12ed138f6565f51385b3286106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a986984233616825f13400f5903c4b7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7a986984233616825f13400f5903c4b7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers</a> (typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;function_expr, typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;exponential_expr, typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;multiplicative_expr, typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;additive_expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;expr, typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;primary_expr)</td></tr>
-<tr class="separator:a7a986984233616825f13400f5903c4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a024476e37cfcca5fcc2b10eaf31a234a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a024476e37cfcca5fcc2b10eaf31a234a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a024476e37cfcca5fcc2b10eaf31a234a">initialize_numeric_statistic_parser</a> (typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;statistic, typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;statistic_1, typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;statistic_2, const typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;value_ref)</td></tr>
-<tr class="separator:a024476e37cfcca5fcc2b10eaf31a234a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03740392148adfd003dd75d412c13166"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; int &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a03740392148adfd003dd75d412c13166">int_bound_variable</a> ()</td></tr>
-<tr class="separator:a03740392148adfd003dd75d412c13166"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905e7545b6329c2fc7e095f3087a149d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a905e7545b6329c2fc7e095f3087a149d">int_bound_variable_name</a> ()</td></tr>
-<tr class="separator:a905e7545b6329c2fc7e095f3087a149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86afeba865fee57a47753ff52deb803f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a86afeba865fee57a47753ff52deb803f">int_constant</a> ()</td></tr>
-<tr class="separator:a86afeba865fee57a47753ff52deb803f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17771d62c518da2ef711eac2123e115e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; int &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a17771d62c518da2ef711eac2123e115e">int_free_variable</a> ()</td></tr>
-<tr class="separator:a17771d62c518da2ef711eac2123e115e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5456c29ffd3a87750e42199f0ef1ad3d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a5456c29ffd3a87750e42199f0ef1ad3d">int_free_variable_name</a> ()</td></tr>
-<tr class="separator:a5456c29ffd3a87750e42199f0ef1ad3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a519aa470be05b187ff5401351797395b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a519aa470be05b187ff5401351797395b">int_simple</a> ()</td></tr>
-<tr class="separator:a519aa470be05b187ff5401351797395b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad495959e455d8491d37b4b88df0c4516"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt; int &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ad495959e455d8491d37b4b88df0c4516">int_var_complex</a> ()</td></tr>
-<tr class="separator:ad495959e455d8491d37b4b88df0c4516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5540f6cf080f541ff687858fc24f0e0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; int &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#ac5540f6cf080f541ff687858fc24f0e0">int_var_statistic</a> ()</td></tr>
-<tr class="separator:ac5540f6cf080f541ff687858fc24f0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b5a7d8839dd5376dae3d1dbe9f9437"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt; std::string &gt;::type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a15b5a7d8839dd5376dae3d1dbe9f9437">string_var_complex</a> ()</td></tr>
-<tr class="separator:a15b5a7d8839dd5376dae3d1dbe9f9437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0ce15d2b16986f71a5fcac9384dd6c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ad0fd3ae72d9f04c978fee92118c93a62">reference_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a8c0ce15d2b16986f71a5fcac9384dd6c">variable_scope</a> ()</td></tr>
+<tr class="memitem:a665f5f656ce4220e3710523ee5d8c15c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a665f5f656ce4220e3710523ee5d8c15c">double_simple</a> ()</td></tr>
+<tr class="separator:a665f5f656ce4220e3710523ee5d8c15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a841e109acab12dbecf66e6665e25155d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a841e109acab12dbecf66e6665e25155d">double_var_complex</a> ()</td></tr>
+<tr class="separator:a841e109acab12dbecf66e6665e25155d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcba4a066cedc9b06bdbda8902535837"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afcba4a066cedc9b06bdbda8902535837"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#afcba4a066cedc9b06bdbda8902535837">initialize_bound_variable_parser</a> (<a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt; T &gt; &amp;bound_variable, const <a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a> &amp;variable_name)</td></tr>
+<tr class="separator:afcba4a066cedc9b06bdbda8902535837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbb6f809232e28b370e4fca14385c00"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5fbb6f809232e28b370e4fca14385c00"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a5fbb6f809232e28b370e4fca14385c00">initialize_nonnumeric_expression_parsers</a> (<a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; T &gt; &amp;function_expr, <a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; T &gt; &amp;operated_expr, typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;expr, typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;primary_expr)</td></tr>
+<tr class="separator:a5fbb6f809232e28b370e4fca14385c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ca84ec4a1831131296a8a6f430f262"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a50ca84ec4a1831131296a8a6f430f262"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a50ca84ec4a1831131296a8a6f430f262">initialize_nonnumeric_expression_parsers&lt; std::string &gt;</a> (<a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; std::string &gt; &amp;function_expr, <a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; std::string &gt; &amp;operated_expr, typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; std::string &gt; &amp;expr, typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; std::string &gt; &amp;primary_expr)</td></tr>
+<tr class="separator:a50ca84ec4a1831131296a8a6f430f262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc89cb820c523238c148225e04e34a69"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afc89cb820c523238c148225e04e34a69"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#afc89cb820c523238c148225e04e34a69">initialize_nonnumeric_statistic_parser</a> (<a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a>&lt; T &gt; &amp;statistic, const typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;value_ref)</td></tr>
+<tr class="separator:afc89cb820c523238c148225e04e34a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7420ce7891a0da5f2e0d057e577efb39"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a7420ce7891a0da5f2e0d057e577efb39">int_bound_variable</a> ()</td></tr>
+<tr class="separator:a7420ce7891a0da5f2e0d057e577efb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5652f57ce2c9547d76d055639892cff4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a5652f57ce2c9547d76d055639892cff4">int_free_variable</a> ()</td></tr>
+<tr class="separator:a5652f57ce2c9547d76d055639892cff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af1ff4903af04bf34436a949c2eb0fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a2af1ff4903af04bf34436a949c2eb0fd">int_simple</a> ()</td></tr>
+<tr class="separator:a2af1ff4903af04bf34436a949c2eb0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423d6b62adef697c0f540e4e35089414"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a423d6b62adef697c0f540e4e35089414">int_var_complex</a> ()</td></tr>
+<tr class="separator:a423d6b62adef697c0f540e4e35089414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db3382880e47e3305b94c21dbd9a2c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a2db3382880e47e3305b94c21dbd9a2c5">int_var_statistic</a> ()</td></tr>
+<tr class="separator:a2db3382880e47e3305b94c21dbd9a2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c55e28e1f7b3f3681d48343cfa1e438"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a1c55e28e1f7b3f3681d48343cfa1e438">string_var_complex</a> ()</td></tr>
+<tr class="separator:a1c55e28e1f7b3f3681d48343cfa1e438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0ce15d2b16986f71a5fcac9384dd6c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="ValueRefParserImpl_8h.html#ab1d8aad307afef506607ab8d5eb0d5c4">reference_token_rule</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefParserImpl_8h.html#a8c0ce15d2b16986f71a5fcac9384dd6c">variable_scope</a> ()</td></tr>
 <tr class="separator:a8c0ce15d2b16986f71a5fcac9384dd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -201,48 +181,80 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a60995a8195ff26510ae072a0ecd64dc2"></a>
+<a class="anchor" id="a2c6e56d3c9a1f1a5ca064c7efb47d618"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt;double&gt;::type <a class="el" href="ValueRefParserImpl_8h.html#a60995a8195ff26510ae072a0ecd64dc2">double_rule</a></td>
+          <td class="memname">using <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a> =  <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1ComplexVariable.html">ValueRef::ComplexVariable</a>&lt;T&gt;* (), boost::spirit::qi::locals&lt; std::string, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;int&gt;*, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;int&gt;*, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;std::string&gt;*, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;std::string&gt;*, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;int&gt;* &gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ab01cf6446e7f3079d218e163aa73b428"></a>
+<a class="anchor" id="a49ce6b643f1d751a6ca03d378f5da5ee"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt;int&gt;::type <a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a></td>
+          <td class="memname">using <a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a> =  <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;T&gt;* (), boost::spirit::qi::locals&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;T&gt;*, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;T&gt;*, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">ValueRef::OpType</a>, std::vector&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;T&gt;*&gt; &gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ac83797c9529043ec65240465b487dec1"></a>
+<a class="anchor" id="a0859ac64b61e6805f111c35a23e4149c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef qi::rule&lt; <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a>, const char* (), <a class="el" href="namespaceparse.html#a73ed2f3013a63e67745571a738847cb7">parse::skipper_type</a>&gt; <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a></td>
+          <td class="memname">typedef <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; const char* ()&gt; <a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ad0fd3ae72d9f04c978fee92118c93a62"></a>
+<a class="anchor" id="ab1d8aad307afef506607ab8d5eb0d5c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef qi::rule&lt; <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a>, <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a> (), <a class="el" href="namespaceparse.html#a73ed2f3013a63e67745571a738847cb7">parse::skipper_type</a>&gt; <a class="el" href="ValueRefParserImpl_8h.html#ad0fd3ae72d9f04c978fee92118c93a62">reference_token_rule</a></td>
+          <td class="memname">typedef <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a> ()&gt; <a class="el" href="ValueRefParserImpl_8h.html#ab1d8aad307afef506607ab8d5eb0d5c4">reference_token_rule</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada112df35db12335a75ffed3940c84cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a> =  <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1Statistic.html">ValueRef::Statistic</a>&lt;T&gt;* (), boost::spirit::qi::locals&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;T&gt;*, <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3">ValueRef::StatisticType</a> &gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a719198cfc13b236d239f2620be00aa27"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a> =  <a class="el" href="namespaceparse_1_1detail.html#a85db33af0268d81875e44649d456fe07">parse::detail::rule</a>&lt; <a class="el" href="structValueRef_1_1Variable.html">ValueRef::Variable</a>&lt;T&gt;* (), boost::spirit::qi::locals&lt; std::vector&lt;std::string&gt;, <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1">ValueRef::ReferenceType</a> &gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -255,7 +267,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a>&amp; container_type </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a>&amp; container_type </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -265,16 +277,16 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#af59d4c4d4a04edc4df3ce755ee52a9a6">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::container_type</a>, and <a class="el" href="namespaceanonymous__namespace_02ValueRefParserImpl_8cpp_03.html#a58ae8e22fd088161edc7e80ae7234475">anonymous_namespace{ValueRefParserImpl.cpp}::get_variable_parser_rules()</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7fe2612821c9c5c0c1523a5be87c2516">initialize_bound_variable_parser()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, and <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#a86a22c8d0556a7d1545f83c05796017a">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::variable_parser_rules()</a>.</p>
+<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#afcba4a066cedc9b06bdbda8902535837">initialize_bound_variable_parser()</a>, and <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#a86a22c8d0556a7d1545f83c05796017a">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::variable_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8e4e40a6c01853332dd21ac9605cde27"></a>
+<a class="anchor" id="a665f5f656ce4220e3710523ee5d8c15c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt;double&gt;::type&amp; double_bound_variable </td>
+          <td class="memname">const <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt;double&gt;&amp; double_simple </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -282,18 +294,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a8c04b214e2f8b82572090e7992ce04fc">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::bound_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#acf4b4c3d4d107ce9ef1ae8d9a98b30f7">anonymous_namespace{DoubleValueRefParser.cpp}::get_simple_double_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1simple__double__parser__rules.html#a9433d907a4df7db2b541351e81d5f74b">anonymous_namespace{DoubleValueRefParser.cpp}::simple_double_parser_rules::simple</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab4b8d825f615fffc75ba15c8c7192ade"></a>
+<a class="anchor" id="a841e109acab12dbecf66e6665e25155d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a>&amp; double_bound_variable_name </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt;double&gt;&amp; double_var_complex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -301,108 +313,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#ad80af152ae6f06cf242a49b7735ff5ae">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::bound_variable_name</a>, and <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>.</p>
+<p>References <a class="el" href="namespaceparse_1_1detail.html#a7be8dba78f1c80c99802a34cb87c8fcc">parse::detail::double_complex_parser</a>, and <a class="el" href="structparse_1_1double__complex__parser__rules.html#a5532a670c6141abdd16c008cbc60a9b0">parse::double_complex_parser_rules::start</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a75e1ee0cd573cb7a77322cd933ca52fe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a60995a8195ff26510ae072a0ecd64dc2">double_rule</a>&amp; double_constant </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a8f165d24d779baa3ba476350b4a8a3e5">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::constant</a>, and <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>.</p>
-
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aced4e6b21c6bef6df2c13b8b0e2c68a1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt;double&gt;::type&amp; double_free_variable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#aac5e6358fb9c0e047b5b9c2f479571cf">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::free_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>.</p>
-
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af197dd175bb2ee512029c782f070ce37"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a>&amp; double_free_variable_name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a875dec0b2d9634dcdf0a0832ac2a82e4">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::free_variable_name</a>, and <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>.</p>
-
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a583d5cfd36a4976b26a79c90b8efbf2a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt;double&gt;::type&amp; double_var_complex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceparse_1_1detail.html#a7be8dba78f1c80c99802a34cb87c8fcc">parse::detail::double_complex_parser</a>, and <a class="el" href="structparse_1_1double__complex__parser__rules.html#ad6657102b6139d2e43109dff6b5e797d">parse::double_complex_parser_rules::start</a>.</p>
-
-<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, and <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a24f817f77823525f21c68d9cc2b6e7c7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt;double&gt;::type&amp; double_var_statistic </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceanonymous__namespace_02DoubleValueRefParser_8cpp_03.html#ac8232b3b7b70950dc4e405d7bc88a06c">anonymous_namespace{DoubleValueRefParser.cpp}::get_double_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a34dcbdc8ecadc21b66cdebce3537c992">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::statistic</a>.</p>
-
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7fe2612821c9c5c0c1523a5be87c2516"></a>
+<a class="anchor" id="afcba4a066cedc9b06bdbda8902535837"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -411,13 +328,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void initialize_bound_variable_parser </td>
           <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structvariable__rule.html">variable_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>bound_variable</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="ValueRefParserImpl_8h.html#a0859ac64b61e6805f111c35a23e4149c">name_token_rule</a> &amp;&#160;</td>
           <td class="paramname"><em>variable_name</em>&#160;</td>
         </tr>
         <tr>
@@ -432,7 +349,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a91b742b1976ea38df77206c2824ee808"></a>
+<a class="anchor" id="a5fbb6f809232e28b370e4fca14385c00"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -441,25 +358,25 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void initialize_nonnumeric_expression_parsers </td>
           <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>function_expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>operated_expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype">typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype">typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>primary_expr</em>&#160;</td>
         </tr>
         <tr>
@@ -474,34 +391,34 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac06a3eb0637875a1aefcf2602e16929e"></a>
+<a class="anchor" id="a50ca84ec4a1831131296a8a6f430f262"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="ValueRefParserImpl_8h.html#a91b742b1976ea38df77206c2824ee808">initialize_nonnumeric_expression_parsers</a>&lt; std::string &gt; </td>
+          <td class="memname">void <a class="el" href="ValueRefParserImpl_8h.html#a5fbb6f809232e28b370e4fca14385c00">initialize_nonnumeric_expression_parsers</a>&lt; std::string &gt; </td>
           <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; std::string &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>function_expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; std::string &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#a49ce6b643f1d751a6ca03d378f5da5ee">expression_rule</a>&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>operated_expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; std::string &gt;::type &amp;&#160;</td>
+          <td class="paramtype">typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>expr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; std::string &gt;::type &amp;&#160;</td>
+          <td class="paramtype">typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>primary_expr</em>&#160;</td>
         </tr>
         <tr>
@@ -516,7 +433,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ada7f0d12ed138f6565f51385b3286106"></a>
+<a class="anchor" id="afc89cb820c523238c148225e04e34a69"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -525,13 +442,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void initialize_nonnumeric_statistic_parser </td>
           <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>statistic</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
+          <td class="paramtype">const typename <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>value_ref</em>&#160;</td>
         </tr>
         <tr>
@@ -542,112 +459,16 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02EnumParser_8cpp_03.html#ad8482a0122a8321314941a2e8d2a93bf">anonymous_namespace{EnumParser.cpp}::_val</a>, <a class="el" href="namespaceparse_1_1detail.html#aca4535e1dd1dc57b320682a009fd2806">parse::detail::condition_parser</a>, <a class="el" href="structparse_1_1lexer.html#a2ebc95e7faa89b8135f13a97ce58f680">parse::lexer::instance()</a>, <a class="el" href="namespaceparse.html#ad3e368b9ebdb8abd19c11414d939fdf7">parse::label()</a>, and <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a89ece983ef5fd1077819f98160ab1344">ValueRef::MODE</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02EnumParser_8cpp_03.html#ad8482a0122a8321314941a2e8d2a93bf">anonymous_namespace{EnumParser.cpp}::_val</a>, <a class="el" href="namespaceparse_1_1detail.html#aca4535e1dd1dc57b320682a009fd2806">parse::detail::condition_parser</a>, <a class="el" href="structparse_1_1lexer.html#a2ebc95e7faa89b8135f13a97ce58f680">parse::lexer::instance()</a>, <a class="el" href="namespaceparse_1_1detail.html#a718e36ca142f692f5a740d9789365f64">parse::detail::label()</a>, and <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a89ece983ef5fd1077819f98160ab1344">ValueRef::MODE</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7a986984233616825f13400f5903c4b7"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void initialize_numeric_expression_parsers </td>
-          <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>function_expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>exponential_expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>multiplicative_expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structexpression__rule.html">expression_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>additive_expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>primary_expr</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceanonymous__namespace_02EnumParser_8cpp_03.html#ad8482a0122a8321314941a2e8d2a93bf">anonymous_namespace{EnumParser.cpp}::_val</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a19656627948fb01c2160cfb9f2b185ac">ValueRef::ABS</a>, <a class="el" href="ValueRefParserImpl_8h.html#a266f2ae6ad2451e2c1578263492b9fe2">container_type()</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a6a69b117f9ba2f4446f5417345884724">ValueRef::COSINE</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a2f8057dd2ae863145baec215157d81be">ValueRef::DIVIDE</a>, <a class="el" href="ValueRefParserImpl_8h.html#a8e4e40a6c01853332dd21ac9605cde27">double_bound_variable()</a>, <a class="el" href="ValueRefParserImpl_8h.html#ab4b8d825f615fffc75ba15c8c7192ade">double_bound_variable_name()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a75e1ee0cd573cb7a77322cd933ca52fe">double_constant()</a>, <a class="el" href="ValueRefParserImpl_8h.html#aced4e6b21c6bef6df2c13b8b0e2c68a1">double_free_variable()</a>, <a class="el" href="ValueRefParserImpl_8h.html#af197dd175bb2ee512029c782f070ce37">double_free_variable_name()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a583d5cfd36a4976b26a79c90b8efbf2a">double_var_complex()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a24f817f77823525f21c68d9cc2b6e7c7">double_var_statistic()</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a6e5391c5769edd15dcdd854f2eefc91a">ValueRef::EXPONENTIATE</a>, <a class="el" href="structparse_1_1lexer.html#a2ebc95e7faa89b8135f13a97ce58f680">parse::lexer::instance()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a03740392148adfd003dd75d412c13166">int_bound_variable()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a905e7545b6329c2fc7e095f3087a149d">int_bound_variable_name()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a86afeba865fee57a47753ff52deb803f">int_constant()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a17771d62c518da2ef711eac2123e115e">int_free_variable()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a5456c29ffd3a87750e42199f0ef1ad3d">int_free_variable_name()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a519aa470be05b187ff5401351797395b">int_simple()</a>, <a class="el" href="ValueRefParserImpl_8h.html#ad495959e455d8491d37b4b88df0c4516">int_var_complex()</a>, <a class="el" href="ValueRefParserImpl_8h.html#ac5540f6cf080f541ff687858fc24f0e0">int_var_statistic()</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407aa3eed34de66da0ee9bf44447471b20e9">ValueRef::LOGARITHM</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a531c9cfc9a34dbb4cad8a268d6d34e70">ValueRef::MAXIMUM</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ab4cf8d8c8141ef457e92228d62904082">ValueRef::MINIMUM</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a70f20478e62f3f442609ba970823b50e">ValueRef::MINUS</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a531870beaad65d25bcb16faed305087a">ValueRef::NEGATE</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a13121804bef7bbb55b8d260b11ed2a25">ValueRef::PLUS</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ad32045fadf041097bcaabe4bc056fcd7">ValueRef::RANDOM_PICK</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407af0cf442bbf4583153b0d920e60f6ad0d">ValueRef::RANDOM_UNIFORM</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a1d51b6d07e3afd3878d43c2b5494f088">ValueRef::SINE</a>, <a class="el" href="ValueRefParserImpl_8h.html#a15b5a7d8839dd5376dae3d1dbe9f9437">string_var_complex()</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ae2e5fc10f76f7ae7baa6932f05203e4d">ValueRef::TIMES</a>, and <a class="el" href="ValueRefParserImpl_8h.html#a8c0ce15d2b16986f71a5fcac9384dd6c">variable_scope()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a024476e37cfcca5fcc2b10eaf31a234a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void initialize_numeric_statistic_parser </td>
-          <td>(</td>
-          <td class="paramtype">typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>statistic</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>statistic_1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>statistic_2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const typename <a class="el" href="structparse_1_1value__ref__parser__rule.html">parse::value_ref_parser_rule</a>&lt; T &gt;::type &amp;&#160;</td>
-          <td class="paramname"><em>value_ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceanonymous__namespace_02EnumParser_8cpp_03.html#ad8482a0122a8321314941a2e8d2a93bf">anonymous_namespace{EnumParser.cpp}::_val</a>, <a class="el" href="namespaceparse_1_1detail.html#aca4535e1dd1dc57b320682a009fd2806">parse::detail::condition_parser</a>, <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3ace27005a5b73f9026dbf6fc5e146fcf5">ValueRef::COUNT</a>, <a class="el" href="namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a09719f9b500ef1f2acb103ab7c543b93">ValueRef::IF</a>, <a class="el" href="structparse_1_1lexer.html#a2ebc95e7faa89b8135f13a97ce58f680">parse::lexer::instance()</a>, <a class="el" href="namespaceparse.html#ad3e368b9ebdb8abd19c11414d939fdf7">parse::label()</a>, and <a class="el" href="namespaceparse.html#acebac88a0cfb9516ca48e99db71234af">parse::statistic_type_enum()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a03740392148adfd003dd75d412c13166"></a>
+<a class="anchor" id="a7420ce7891a0da5f2e0d057e577efb39"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt;int&gt;::type&amp; int_bound_variable </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt;int&gt;&amp; int_bound_variable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -655,18 +476,18 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#ad631c7c3ff516051b2538785c808d8f9">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::bound_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
+<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#ab07dec818de995333cddddd941dff3d1">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::bound_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
 
-<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, and <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a905e7545b6329c2fc7e095f3087a149d"></a>
+<a class="anchor" id="a5652f57ce2c9547d76d055639892cff4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a>&amp; int_bound_variable_name </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27">variable_rule</a>&lt;int&gt;&amp; int_free_variable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -674,18 +495,18 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#a369242d643cfafed502773394c9754c1">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::bound_variable_name</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
+<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#a92bf73ee3d19187b2c39adf0a18db431">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::free_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1simple__double__parser__rules.html#a954cdd46f518820f2e4ae791ce6bcfbd">anonymous_namespace{DoubleValueRefParser.cpp}::simple_double_parser_rules::simple_double_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a86afeba865fee57a47753ff52deb803f"></a>
+<a class="anchor" id="a2af1ff4903af04bf34436a949c2eb0fd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a>&amp; int_constant </td>
+          <td class="memname">const <a class="el" href="namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db">parse::value_ref_rule</a>&lt;int&gt;&amp; int_simple </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -693,18 +514,18 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#a34f21af33f45633c8756eb30104ff722">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::constant</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#a4b12aaf92e1e09004ec7b4a5123b104c">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::simple</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structparse_1_1double__complex__parser__rules.html#a34647239dba4002e2aa5a1cd894f16b2">parse::double_complex_parser_rules::double_complex_parser_rules()</a>, <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__arithmetic__rules.html#a04e1bdf0aeee86c3a9a9c0d8ba7d144e">anonymous_namespace{IntValueRefParser.cpp}::int_arithmetic_rules::int_arithmetic_rules()</a>, and <a class="el" href="structparse_1_1string__complex__parser__rules.html#a5dfb3857b353744cfc93429683d94319">parse::string_complex_parser_rules::string_complex_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a17771d62c518da2ef711eac2123e115e"></a>
+<a class="anchor" id="a423d6b62adef697c0f540e4e35089414"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structvariable__rule.html">variable_rule</a>&lt;int&gt;::type&amp; int_free_variable </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt;int&gt;&amp; int_var_complex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -712,18 +533,18 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#abe97fc2bb3df80da9dd2be31f6a6b3ae">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::free_variable</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
+<p>References <a class="el" href="namespaceparse_1_1detail.html#ad8eee488a92920bddde764f61f39c907">parse::detail::int_complex_parser</a>, and <a class="el" href="structparse_1_1int__complex__parser__rules.html#a35f8293e63cceefd4e8e42183c62a9e6">parse::int_complex_parser_rules::start</a>.</p>
 
-<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, and <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__arithmetic__rules.html#a04e1bdf0aeee86c3a9a9c0d8ba7d144e">anonymous_namespace{IntValueRefParser.cpp}::int_arithmetic_rules::int_arithmetic_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5456c29ffd3a87750e42199f0ef1ad3d"></a>
+<a class="anchor" id="a2db3382880e47e3305b94c21dbd9a2c5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ac83797c9529043ec65240465b487dec1">name_token_rule</a>&amp; int_free_variable_name </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ada112df35db12335a75ffed3940c84cf">statistic_rule</a>&lt;int&gt;&amp; int_var_statistic </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -731,18 +552,18 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#a2928cb72804e5f24b166c23fb2869c34">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::free_variable_name</a>, and <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ad07a75edcfd0fada9fb4fd4fc2009f22">anonymous_namespace{IntValueRefParser.cpp}::get_int_arithmetic_rules()</a>, and <a class="el" href="structarithmetic__rules.html#a560edbe1a37042b2ba9ad8a853fb71c9">arithmetic_rules&lt; T &gt;::statistic_expr</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, and <a class="el" href="structparse_1_1int__complex__parser__rules.html#aafc32080df83431a4ef4ad55d2d22287">parse::int_complex_parser_rules::int_complex_parser_rules()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a519aa470be05b187ff5401351797395b"></a>
+<a class="anchor" id="a1c55e28e1f7b3f3681d48343cfa1e438"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ab01cf6446e7f3079d218e163aa73b428">int_rule</a>&amp; int_simple </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#a2c6e56d3c9a1f1a5ca064c7efb47d618">complex_variable_rule</a>&lt;std::string&gt;&amp; string_var_complex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -750,66 +571,9 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#ac0d08bfb9830ab8090f5ba53f167dcb8">anonymous_namespace{IntValueRefParser.cpp}::get_simple_int_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1simple__int__parser__rules.html#af6c9d58190d733f71bf9c6ce48bea996">anonymous_namespace{IntValueRefParser.cpp}::simple_int_parser_rules::simple</a>.</p>
+<p>References <a class="el" href="structparse_1_1string__complex__parser__rules.html#a82f3a7a2a6fd95a86ec76461da046506">parse::string_complex_parser_rules::start</a>, and <a class="el" href="namespaceparse_1_1detail.html#a546b73dc9137835b50709f96ebbb31c8">parse::detail::string_complex_parser</a>.</p>
 
-<p>Referenced by <a class="el" href="structparse_1_1double__complex__parser__rules.html#a34647239dba4002e2aa5a1cd894f16b2">parse::double_complex_parser_rules::double_complex_parser_rules()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__parser__rules.html#a52efacb1e9711efd40fbec9fef60a990">anonymous_namespace{IntValueRefParser.cpp}::int_parser_rules::int_parser_rules()</a>, and <a class="el" href="structparse_1_1string__complex__parser__rules.html#a5dfb3857b353744cfc93429683d94319">parse::string_complex_parser_rules::string_complex_parser_rules()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad495959e455d8491d37b4b88df0c4516"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt;int&gt;::type&amp; int_var_complex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceparse_1_1detail.html#ad8eee488a92920bddde764f61f39c907">parse::detail::int_complex_parser</a>, and <a class="el" href="structparse_1_1int__complex__parser__rules.html#ad9c372a7a779103a7b0cf1f0a235c038">parse::int_complex_parser_rules::start</a>.</p>
-
-<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, and <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__parser__rules.html#a52efacb1e9711efd40fbec9fef60a990">anonymous_namespace{IntValueRefParser.cpp}::int_parser_rules::int_parser_rules()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac5540f6cf080f541ff687858fc24f0e0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structstatistic__rule.html">statistic_rule</a>&lt;int&gt;::type&amp; int_var_statistic </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html#a47c601aeb9973d7c08175a5672fc684b">anonymous_namespace{IntValueRefParser.cpp}::get_int_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__parser__rules.html#a3d8210edce70b3d37210e51a19220e96">anonymous_namespace{IntValueRefParser.cpp}::int_parser_rules::statistic</a>.</p>
-
-<p>Referenced by <a class="el" href="structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b">anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::double_parser_rules()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, and <a class="el" href="structparse_1_1int__complex__parser__rules.html#aafc32080df83431a4ef4ad55d2d22287">parse::int_complex_parser_rules::int_complex_parser_rules()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a15b5a7d8839dd5376dae3d1dbe9f9437"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structcomplex__variable__rule.html">complex_variable_rule</a>&lt;std::string&gt;::type&amp; string_var_complex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="structparse_1_1string__complex__parser__rules.html#a7fccbce3b446245e7a63dfefc2dd0243">parse::string_complex_parser_rules::start</a>, and <a class="el" href="namespaceparse_1_1detail.html#a546b73dc9137835b50709f96ebbb31c8">parse::detail::string_complex_parser</a>.</p>
-
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, and <a class="el" href="structanonymous__namespace_02StringValueRefParser_8cpp_03_1_1string__parser__rules.html#abe1b54ce5cb85ba6fc64ab7919125a7a">anonymous_namespace{StringValueRefParser.cpp}::string_parser_rules::string_parser_rules()</a>.</p>
+<p>Referenced by <a class="el" href="structanonymous__namespace_02StringValueRefParser_8cpp_03_1_1string__parser__rules.html#abe1b54ce5cb85ba6fc64ab7919125a7a">anonymous_namespace{StringValueRefParser.cpp}::string_parser_rules::string_parser_rules()</a>.</p>
 
 </div>
 </div>
@@ -818,7 +582,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ad0fd3ae72d9f04c978fee92118c93a62">reference_token_rule</a>&amp; variable_scope </td>
+          <td class="memname">const <a class="el" href="ValueRefParserImpl_8h.html#ab1d8aad307afef506607ab8d5eb0d5c4">reference_token_rule</a>&amp; variable_scope </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -828,7 +592,7 @@ template&lt;typename T &gt; </div>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02ValueRefParserImpl_8cpp_03.html#a58ae8e22fd088161edc7e80ae7234475">anonymous_namespace{ValueRefParserImpl.cpp}::get_variable_parser_rules()</a>, and <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#ad4c85ebf7e78cfd0a9357f77d7a808ad">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::variable_scope</a>.</p>
 
-<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#a7fe2612821c9c5c0c1523a5be87c2516">initialize_bound_variable_parser()</a>, <a class="el" href="ValueRefParserImpl_8h.html#a7a986984233616825f13400f5903c4b7">initialize_numeric_expression_parsers()</a>, and <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#a86a22c8d0556a7d1545f83c05796017a">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::variable_parser_rules()</a>.</p>
+<p>Referenced by <a class="el" href="ValueRefParserImpl_8h.html#afcba4a066cedc9b06bdbda8902535837">initialize_bound_variable_parser()</a>, and <a class="el" href="structanonymous__namespace_02ValueRefParserImpl_8cpp_03_1_1variable__parser__rules.html#a86a22c8d0556a7d1545f83c05796017a">anonymous_namespace{ValueRefParserImpl.cpp}::variable_parser_rules::variable_parser_rules()</a>.</p>
 
 </div>
 </div>

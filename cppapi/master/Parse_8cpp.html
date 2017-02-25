@@ -97,14 +97,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Parse.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ConditionParserImpl_8h.html">ConditionParserImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Double_8h.html">Double.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="Parse_8h.html">Parse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ConditionParserImpl_8h.html">ConditionParserImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EffectParser_8h.html">EffectParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EnumParser_8h.html">EnumParser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Int_8h.html">Int.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Label_8h.html">Label.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Parse_8h.html">Parse.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ValueRefParser_8h.html">ValueRefParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Effect_8h.html">../universe/Effect.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
@@ -157,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3135d4dc8c4b4499dc4b7feae28357c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df9a08043e931cf7933e34269a640ac"><td class="memItemLeft" align="right" valign="top">item_spec_parser_rule &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a1df9a08043e931cf7933e34269a640ac">parse::detail::item_spec_parser</a> ()</td></tr>
 <tr class="separator:a1df9a08043e931cf7933e34269a640ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718e36ca142f692f5a740d9789365f64"><td class="memItemLeft" align="right" valign="top">label_rule &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a718e36ca142f692f5a740d9789365f64">parse::detail::label</a> (const char *name)</td></tr>
+<tr class="separator:a718e36ca142f692f5a740d9789365f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00232088a66b2baa1dd8991a4b99a19b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; boost::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a00232088a66b2baa1dd8991a4b99a19b">parse::ListScripts</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:a00232088a66b2baa1dd8991a4b99a19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector of absolute paths to script files in the given path.  <a href="namespaceparse.html#a00232088a66b2baa1dd8991a4b99a19b">More...</a><br /></td></tr>
 <tr class="separator:a00232088a66b2baa1dd8991a4b99a19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,10 +182,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:abd5b65222a01dedc28fc9817434b1e65"><td class="memItemLeft" align="right" valign="top">double_rule&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#abd5b65222a01dedc28fc9817434b1e65">parse::detail::double_</a></td></tr>
+<tr class="separator:abd5b65222a01dedc28fc9817434b1e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a6a44218a2c703a9a044c7c2c009dc6"><td class="memItemLeft" align="right" valign="top">const sregex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a4a6a44218a2c703a9a044c7c2c009dc6">parse::FILENAME_INSERTION</a> = bol &gt;&gt; &quot;#include&quot; &gt;&gt; *space &gt;&gt; &quot;\&quot;&quot; &gt;&gt; (s1 = FILENAME_TEXT) &gt;&gt; &quot;\&quot;&quot; &gt;&gt; *space &gt;&gt; _n</td></tr>
 <tr class="separator:a4a6a44218a2c703a9a044c7c2c009dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0acd866850e1297c7a588d8a35a6427"><td class="memItemLeft" align="right" valign="top">const sregex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac0acd866850e1297c7a588d8a35a6427">parse::FILENAME_TEXT</a> = -+_</td></tr>
 <tr class="separator:ac0acd866850e1297c7a588d8a35a6427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9e6fd9d6d47d3c8b0a39cdbc4cd2ae"><td class="memItemLeft" align="right" valign="top">int_rule&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a7e9e6fd9d6d47d3c8b0a39cdbc4cd2ae">parse::detail::int_</a></td></tr>
+<tr class="separator:a7e9e6fd9d6d47d3c8b0a39cdbc4cd2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f2d8bd6933e4402083891b9e8694554"><td class="memItemLeft" align="right" valign="top">const sregex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a8f2d8bd6933e4402083891b9e8694554">parse::MACRO_DEFINITION</a> = (s1 = MACRO_KEY) &gt;&gt; _n &gt;&gt; &quot;'''&quot; &gt;&gt; (s2 = MACRO_TEXT) &gt;&gt; &quot;'''&quot; &gt;&gt; _n</td></tr>
 <tr class="separator:a8f2d8bd6933e4402083891b9e8694554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1ced2337fad08a543ae6c83b5e21a7"><td class="memItemLeft" align="right" valign="top">const sregex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a9e1ced2337fad08a543ae6c83b5e21a7">parse::MACRO_INSERTION</a> = &quot;[[&quot; &gt;&gt; *space &gt;&gt; (s1 = MACRO_KEY) &gt;&gt; *space &gt;&gt; !(&quot;(&quot; &gt;&gt; (s2 = +~(set = ')', '\n')) &gt;&gt; &quot;)&quot;) &gt;&gt; &quot;]]&quot;</td></tr>

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['label_2ecpp',['Label.cpp',['../Label_8cpp.html',1,'']]],
-  ['label_2eh',['Label.h',['../Label_8h.html',1,'']]],
   ['lexer_2ecpp',['Lexer.cpp',['../Lexer_8cpp.html',1,'']]],
   ['lexer_2eh',['Lexer.h',['../Lexer_8h.html',1,'']]],
   ['linktext_2ecpp',['LinkText.cpp',['../LinkText_8cpp.html',1,'']]],

@@ -5,7 +5,7 @@ var searchData=
   ['add_5fspecial_5f2',['add_special_2',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#a7262aef055051df4ae845a27cec80320',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['add_5fstarlanes',['add_starlanes',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#aafa7ba1c5a043b430779642793c9d1ed',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['addbuildtoqueuesignal',['AddBuildToQueueSignal',['../classBuildDesignatorWnd.html#ae9fafadcbcd2aaa78da9ce3b72dede5c',1,'BuildDesignatorWnd']]],
-  ['additive_5fexpr',['additive_expr',['../structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a24bf9138873fe0f600ef55b734c7741f',1,'anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules::additive_expr()'],['../structanonymous__namespace_02IntValueRefParser_8cpp_03_1_1int__parser__rules.html#a28df20ff43e26db99dbf54839ee8fbf9',1,'anonymous_namespace{IntValueRefParser.cpp}::int_parser_rules::additive_expr()']]],
+  ['additive_5fexpr',['additive_expr',['../structarithmetic__rules.html#a44970f849c34c91217258ec4b9fd9994',1,'arithmetic_rules']]],
   ['addstarlaneactionselectedsignal',['AddStarlaneActionSelectedSignal',['../classModeratorActionsWnd.html#a92c5ca0600a7d37e3e062fccb2dd5b21',1,'ModeratorActionsWnd']]],
   ['addtechstoqueuesignal',['AddTechsToQueueSignal',['../classTechTreeWnd.html#a2a8401c57596380fa92d8abaff19d5f5',1,'TechTreeWnd']]],
   ['affil_5fally',['AFFIL_ALLY',['../Enums_8h.html#a4889693a1d149b5c613f33a17f4893e7',1,'Enums.h']]],

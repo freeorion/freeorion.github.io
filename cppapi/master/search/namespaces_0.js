@@ -66,7 +66,6 @@ var searchData=
   ['anonymous_5fnamespace_7bintvaluerefparser_2ecpp_7d',['anonymous_namespace{IntValueRefParser.cpp}',['../namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bitemsparser_2ecpp_7d',['anonymous_namespace{ItemsParser.cpp}',['../namespaceanonymous__namespace_02ItemsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bkeymapparser_2ecpp_7d',['anonymous_namespace{KeymapParser.cpp}',['../namespaceanonymous__namespace_02KeymapParser_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7blabel_2ecpp_7d',['anonymous_namespace{Label.cpp}',['../namespaceanonymous__namespace_02Label_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7blexer_2ecpp_7d',['anonymous_namespace{Lexer.cpp}',['../namespaceanonymous__namespace_02Lexer_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7blinktext_2ecpp_7d',['anonymous_namespace{LinkText.cpp}',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7blogger_2ecpp_7d',['anonymous_namespace{Logger.cpp}',['../namespaceanonymous__namespace_02Logger_8cpp_03.html',1,'']]],
