@@ -134,6 +134,8 @@ Functions</h2></td></tr>
 <tr class="separator:a112c4acbb983f733f5ab3e53fb21af18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a685be36c85c42324b0b77b0e32c438ad"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; std::string, int &gt;, <a class="el" href="structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html">CustomRowCmp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a685be36c85c42324b0b77b0e32c438ad">GetOwnedSystemNamesIDs</a> (int empire_id)</td></tr>
 <tr class="separator:a685be36c85c42324b0b77b0e32c438ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136cf2a16e7370548f3c1efece4676d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a136cf2a16e7370548f3c1efece4676d2">GetResPoolLaneInfo</a> (int empire_id, boost::unordered_map&lt; std::set&lt; int &gt;, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;res_pool_systems, boost::unordered_map&lt; std::set&lt; int &gt;, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;res_group_cores, std::unordered_set&lt; int &gt; &amp;res_group_core_members, boost::unordered_map&lt; int, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;member_to_core, std::shared_ptr&lt; std::unordered_set&lt; int &gt;&gt; &amp;under_alloc_res_grp_core_members)</td></tr>
+<tr class="separator:a136cf2a16e7370548f3c1efece4676d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac615a1fe904a8e16172e020cc6288221"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::pair&lt; std::string, int &gt;, <a class="el" href="structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html">CustomRowCmp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ac615a1fe904a8e16172e020cc6288221">GetSystemNamesIDs</a> ()</td></tr>
 <tr class="separator:ac615a1fe904a8e16172e020cc6288221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb5e318b3f889031cce9f4aa0bd8280"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#adcb5e318b3f889031cce9f4aa0bd8280">InRect</a> (GG::X left, GG::Y top, GG::X right, GG::Y bottom, const GG::Pt &amp;pt)</td></tr>
@@ -526,6 +528,60 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a136cf2a16e7370548f3c1efece4676d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{MapWnd.cpp}::GetResPoolLaneInfo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::unordered_map&lt; std::set&lt; int &gt;, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>res_pool_systems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::unordered_map&lt; std::set&lt; int &gt;, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>res_group_cores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unordered_set&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res_group_core_members</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::unordered_map&lt; int, std::shared_ptr&lt; std::set&lt; int &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>member_to_core</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; std::unordered_set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>under_alloc_res_grp_core_members</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Diplomacy_8cpp.html#aa8a9a9983fa32ea5bb169e87544d7981">ALL_EMPIRES</a>, <a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">ProductionQueue::AllocatedPP()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceGetPathsThroughSupplyLanes.html#a6c800e8f9ab0f915d65650ffc3a94fbb">GetPathsThroughSupplyLanes::GetPathsThroughSupplyLanes()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa46bace3c796e22bcf8a6681f2a7cca8">lookup_or_make_shared()</a>, and <a class="el" href="classSupplyManager.html#ad8eadf99262ffb3a09af0eff6511f67b">SupplyManager::SupplyStarlaneTraversals()</a>.</p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">MapWnd::InitStarlaneRenderingBuffers()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac615a1fe904a8e16172e020cc6288221"></a>
 <div class="memitem">
 <div class="memproto">
@@ -724,7 +780,7 @@ template&lt;typename Map &gt; </div>
 
 <p>References <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>.</p>
 
-<p>Referenced by <a class="el" href="classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856">MapWnd::InitStarlaneRenderingBuffers()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a136cf2a16e7370548f3c1efece4676d2">GetResPoolLaneInfo()</a>.</p>
 
 </div>
 </div>
