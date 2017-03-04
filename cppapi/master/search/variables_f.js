@@ -22,6 +22,7 @@ var searchData=
   ['options_5froot',['OPTIONS_ROOT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ad87f96f6c2fe0e8844981ed9fcc47644',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['options_5fwnd_5fname',['OPTIONS_WND_NAME',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a5ff3d803f844965ead6a5c6171dab1d8',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['or_5f',['or_',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#ab710821cbc0f0169784b7b96a627e237',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
+  ['orderbuttonchangedsignal',['OrderButtonChangedSignal',['../classSidePanel_1_1PlanetPanel.html#aeea47c83449b78dfc11a37ceb86cc4fc',1,'SidePanel::PlanetPanel']]],
   ['ordered',['ordered',['../structProductionQueue_1_1Element.html#a4ad24f2ed87993d097dbc4c0c64cf3c7',1,'ProductionQueue::Element']]],
   ['ordered_5fbombarded_5fby',['ordered_bombarded_by',['../structanonymous__namespace_02ConditionParser7_8cpp_03_1_1condition__parser__rules__7.html#aac92eb82809aa24f89f20d573c812c44',1,'anonymous_namespace{ConditionParser7.cpp}::condition_parser_rules_7']]],
   ['origin',['origin',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a4b3049694b077329100740c1cc55344d',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],

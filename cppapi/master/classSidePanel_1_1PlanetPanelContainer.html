@@ -152,9 +152,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2c6bbab8f4cbea1968611f118fc793b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#ab2c6bbab8f4cbea1968611f118fc793b">ScrollTo</a> (int pos)</td></tr>
 <tr class="memdesc:ab2c6bbab8f4cbea1968611f118fc793b"><td class="mdescLeft">&#160;</td><td class="mdescRight">programatically selects a planet with id <em>planet_id</em>  <a href="#ab2c6bbab8f4cbea1968611f118fc793b">More...</a><br /></td></tr>
 <tr class="separator:ab2c6bbab8f4cbea1968611f118fc793b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c650814301651e051cc153311192bda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a7c650814301651e051cc153311192bda">RefreshAllPlanetPanels</a> ()</td></tr>
-<tr class="memdesc:a7c650814301651e051cc153311192bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates data displayed in info panels and redoes layout  <a href="#a7c650814301651e051cc153311192bda">More...</a><br /></td></tr>
-<tr class="separator:a7c650814301651e051cc153311192bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7676aaf2889acc1b21f6bbd0ad1c64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#adf7676aaf2889acc1b21f6bbd0ad1c64">RefreshAllPlanetPanels</a> (int excluded_planet_id=<a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, bool require_prerender=false)</td></tr>
+<tr class="separator:adf7676aaf2889acc1b21f6bbd0ad1c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bce63f3942861ac1473ac64368c7596"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a8bce63f3942861ac1473ac64368c7596">ShowScrollbar</a> ()</td></tr>
 <tr class="memdesc:a8bce63f3942861ac1473ac64368c7596"><td class="mdescLeft">&#160;</td><td class="mdescRight">programatically selects a planet with id <em>planet_id</em>  <a href="#a8bce63f3942861ac1473ac64368c7596">More...</a><br /></td></tr>
 <tr class="separator:a8bce63f3942861ac1473ac64368c7596"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -540,22 +539,38 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7c650814301651e051cc153311192bda"></a>
+<a class="anchor" id="adf7676aaf2889acc1b21f6bbd0ad1c64"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void SidePanel::PlanetPanelContainer::RefreshAllPlanetPanels </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>excluded_planet_id</em> = <code><a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>require_prerender</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Updates data displayed in info panels and redoes layout </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">excluded_planet_id</td><td>Excludes panels with this planet id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">require_prerender</td><td>Set panels to RequirePreRender </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>updates data displayed in info panels and redoes layout </p>
-
-<p>References <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a3e2402cc914a85b58fd6bc223bf7011f">m_planet_panels</a>.</p>
+<p>References <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>, and <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a3e2402cc914a85b58fd6bc223bf7011f">m_planet_panels</a>.</p>
 
 <p>Referenced by <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#af0ca19b8299b35dddb66c39a2b1ea0c8">SetPlanets()</a>, and <a class="el" href="classSidePanel.html#a205e9ec2fcf54881c408003bcaf6b072">SidePanel::UpdateImpl()</a>.</p>
 
@@ -675,6 +690,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>References <a class="el" href="Empire_8h.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="abd1067618a8253ff734bb70661cb9422"></a>
@@ -725,7 +742,7 @@ Private Attributes</h2></td></tr>
 
 <p>programatically selects a planet with id <em>planet_id</em> </p>
 
-<p>References <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba">BuildingRightClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a593a9f245649cd25401dd7eb9772ea2a">Clear()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05">DisableNonSelectionCandidates()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a3e2402cc914a85b58fd6bc223bf7011f">m_planet_panels</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a372a991e48f91f76b7f168f51d7f565e">m_selected_planet_id</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#aaa7b492bbccdc4b0900550e41261053b">m_vscroll</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5caf3663957164a170a1f1a3dca9fa15">PlanetClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a9c549daa9e1778780b56db189e162b8a">PlanetLeftDoubleClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a8b3caa5b240c79db9af85a69ee6744bf">PlanetRightClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a7c650814301651e051cc153311192bda">RefreshAllPlanetPanels()</a>, and <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#abd1067618a8253ff734bb70661cb9422">SelectPlanet()</a>.</p>
+<p>References <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba">BuildingRightClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a593a9f245649cd25401dd7eb9772ea2a">Clear()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05">DisableNonSelectionCandidates()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a3e2402cc914a85b58fd6bc223bf7011f">m_planet_panels</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a372a991e48f91f76b7f168f51d7f565e">m_selected_planet_id</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#aaa7b492bbccdc4b0900550e41261053b">m_vscroll</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a5caf3663957164a170a1f1a3dca9fa15">PlanetClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a9c549daa9e1778780b56db189e162b8a">PlanetLeftDoubleClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a8b3caa5b240c79db9af85a69ee6744bf">PlanetRightClickedSignal</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#adf7676aaf2889acc1b21f6bbd0ad1c64">RefreshAllPlanetPanels()</a>, and <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#abd1067618a8253ff734bb70661cb9422">SelectPlanet()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSidePanel.html#abd1b3bcdfe104d4e52147968b45aab5c">SidePanel::RefreshImpl()</a>.</p>
 
@@ -953,7 +970,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a593a9f245649cd25401dd7eb9772ea2a">Clear()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05">DisableNonSelectionCandidates()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a4c6f691b2f22d10c5a2b4b406d71f0d8">DoPanelsLayout()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#aa653222419e98a94e45e48db337f5bc5">EnableOrderIssuing()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#acf4ddd05a4bb4ba28cb1181b0519a33e">InWindow()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a7c650814301651e051cc153311192bda">RefreshAllPlanetPanels()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a9d375d2046feebeda88a2b10a437b1db">ResizePanelsForVScroll()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#abd1067618a8253ff734bb70661cb9422">SelectPlanet()</a>, and <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#af0ca19b8299b35dddb66c39a2b1ea0c8">SetPlanets()</a>.</p>
+<p>Referenced by <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a593a9f245649cd25401dd7eb9772ea2a">Clear()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05">DisableNonSelectionCandidates()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a4c6f691b2f22d10c5a2b4b406d71f0d8">DoPanelsLayout()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#aa653222419e98a94e45e48db337f5bc5">EnableOrderIssuing()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#acf4ddd05a4bb4ba28cb1181b0519a33e">InWindow()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#adf7676aaf2889acc1b21f6bbd0ad1c64">RefreshAllPlanetPanels()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#a9d375d2046feebeda88a2b10a437b1db">ResizePanelsForVScroll()</a>, <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#abd1067618a8253ff734bb70661cb9422">SelectPlanet()</a>, and <a class="el" href="classSidePanel_1_1PlanetPanelContainer.html#af0ca19b8299b35dddb66c39a2b1ea0c8">SetPlanets()</a>.</p>
 
 </div>
 </div>
