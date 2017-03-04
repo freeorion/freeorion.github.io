@@ -12,7 +12,7 @@ var searchData=
   ['lane_5fend_5fid',['lane_end_id',['../structMovePathNode.html#a1d1163bc94a883f7c034a32424cd5cd7',1,'MovePathNode']]],
   ['lane_5fstart_5fid',['lane_start_id',['../structMovePathNode.html#a5bad84f7120f3cfe7b029339326e5e37',1,'MovePathNode']]],
   ['lanecrossesexistinglane',['LaneCrossesExistingLane',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a7fed7b8aef499bec1ffbbf17535337c1',1,'Condition::anonymous_namespace{Condition.cpp}']]],
-  ['laneendpoints',['LaneEndpoints',['../structLaneEndpoints.html',1,'LaneEndpoints'],['../structLaneEndpoints.html#aeaf7ff9fc073421293e869573a8b2ac6',1,'LaneEndpoints::LaneEndpoints()']]],
+  ['laneendpoints',['LaneEndpoints',['../structLaneEndpoints.html',1,'LaneEndpoints'],['../structLaneEndpoints.html#aeaf7ff9fc073421293e869573a8b2ac6',1,'LaneEndpoints::LaneEndpoints()'],['../structLaneEndpoints.html#ae05fe3c7f7729f7e152f6406494b6caf',1,'LaneEndpoints::LaneEndpoints(float x1, float y1, float x2, float y2)']]],
   ['lanesangularlytooclose',['LanesAngularlyTooClose',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#aa844188971f32e4f4f61fb01106457cb',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['lanescross',['LanesCross',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a53752782467315fd958d11cdce2104d9',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['lanetooclosetoothersystem',['LaneTooCloseToOtherSystem',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a490fdd60ec3f24a37f69054fb84039c9',1,'Condition::anonymous_namespace{Condition.cpp}']]],

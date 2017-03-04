@@ -5,7 +5,7 @@ var searchData=
   ['labelheight',['LabelHeight',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['labelwidth',['LabelWidth',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#a8e8bbad61b996dd99b38284b7f02235e',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],
   ['lanecrossesexistinglane',['LaneCrossesExistingLane',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a7fed7b8aef499bec1ffbbf17535337c1',1,'Condition::anonymous_namespace{Condition.cpp}']]],
-  ['laneendpoints',['LaneEndpoints',['../structLaneEndpoints.html#aeaf7ff9fc073421293e869573a8b2ac6',1,'LaneEndpoints']]],
+  ['laneendpoints',['LaneEndpoints',['../structLaneEndpoints.html#aeaf7ff9fc073421293e869573a8b2ac6',1,'LaneEndpoints::LaneEndpoints()'],['../structLaneEndpoints.html#ae05fe3c7f7729f7e152f6406494b6caf',1,'LaneEndpoints::LaneEndpoints(float x1, float y1, float x2, float y2)']]],
   ['lanesangularlytooclose',['LanesAngularlyTooClose',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#aa844188971f32e4f4f61fb01106457cb',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['lanescross',['LanesCross',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a53752782467315fd958d11cdce2104d9',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['lanetooclosetoothersystem',['LaneTooCloseToOtherSystem',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a490fdd60ec3f24a37f69054fb84039c9',1,'Condition::anonymous_namespace{Condition.cpp}']]],
