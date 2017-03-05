@@ -24,7 +24,6 @@ var searchData=
   ['unlockeditems',['UnlockedItems',['../classTech.html#a291f1945006bac6ed1696d5326b7944c',1,'Tech']]],
   ['unlockedtechs',['UnlockedTechs',['../classTech.html#a43577a1d1bc83bb58536e3ec9bf6e557',1,'Tech']]],
   ['unlockitem',['UnlockItem',['../classEmpire.html#a781233870b4d63ce3ed15d0a6a5a470f',1,'Empire']]],
-  ['unorderedintpair',['UnorderedIntPair',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a2894aeac3b6b64128716172ac8da190e',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['unowned',['Unowned',['../classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026',1,'UniverseObject']]],
   ['unresearchabletechfillcolor',['UnresearchableTechFillColor',['../classClientUI.html#a0afab5005ed265c7a4730ee217b85cd4',1,'ClientUI']]],
   ['unresearchabletechtextandbordercolor',['UnresearchableTechTextAndBorderColor',['../classClientUI.html#a5f4ed22bae90aa5645567bda2907502a',1,'ClientUI']]],
