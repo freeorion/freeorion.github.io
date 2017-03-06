@@ -29,7 +29,7 @@ var searchData=
   ['validsoundfile',['ValidSoundFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validstringtablefile',['ValidStringtableFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validtargetsforattackertype',['ValidTargetsForAttackerType',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a8a21ea601fe7b2eef1e63d6dbbecf88c',1,'anonymous_namespace{CombatSystem.cpp}']]],
-  ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()'],['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()']]],
+  ['value',['Value',['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()'],['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()']]],
   ['value_5fref_5frule',['value_ref_rule',['../namespaceparse.html#a63048a20c49f79e9a4c84df7c73ab2db',1,'parse']]],
   ['value_5ftest_5f1',['value_test_1',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a5841f51f267c4f0a22e0fc6d926cb804',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['value_5ftest_5f2',['value_test_2',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a04ab883ace7ce00d6b711b96bf751cad',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
