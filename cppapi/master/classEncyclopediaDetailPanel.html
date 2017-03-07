@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a4d41bd7128b7ec5260082611436753a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEncyclopediaDetailPanel.html#a4d41bd7128b7ec5260082611436753a0">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
 <tr class="separator:a4d41bd7128b7ec5260082611436753a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4a28cfc2aacb0e877990c904db0915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEncyclopediaDetailPanel.html#a8e4a28cfc2aacb0e877990c904db0915">KeyPress</a> (GG::Key key, std::uint32_t key_code_point, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:a8e4a28cfc2aacb0e877990c904db0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ad3d493c9c4810dba67925267bb153c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEncyclopediaDetailPanel.html#a3ad3d493c9c4810dba67925267bb153c">PreRender</a> () override</td></tr>
 <tr class="separator:a3ad3d493c9c4810dba67925267bb153c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f3a1e015ff10ad0b394e60d5737490d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEncyclopediaDetailPanel.html#a2f3a1e015ff10ad0b394e60d5737490d">Render</a> () override</td></tr>
@@ -816,6 +818,49 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">CUIWnd</a>.</p>
 
 <p>References <a class="el" href="classCUIWnd.html#a30a0357332d2b68b73be0f5e2bd2b363">CUIWnd::BORDER_BOTTOM</a>, <a class="el" href="classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56">CUIWnd::BORDER_LEFT</a>, <a class="el" href="classCUIWnd.html#accdc6254146d0435cfa76ed284e99e3a">CUIWnd::BORDER_RIGHT</a>, <a class="el" href="classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257">CUIWnd::INNER_BORDER_ANGLE_OFFSET</a>, <a class="el" href="classCUIWnd.html#a06ad80eb1a8f5d134818b4ec7ae9f00c">CUIWnd::m_buffer_indices</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a007d9c87bd900f7ac75064f0c14d8228">m_name_text</a>, <a class="el" href="classCUIWnd.html#a7090dea22ecefff7e44b3c27ffe93bf8">CUIWnd::m_resizable</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ad82c6196ea5621ac5a261287fd55c9b4">m_summary_text</a>, <a class="el" href="classCUIWnd.html#ae43cd7c5f374da467e99ff756a49e7ed">CUIWnd::m_vertex_buffer</a>, <a class="el" href="classCUIWnd.html#a266942f29f9e767cbada15764a939708">CUIWnd::OUTER_EDGE_ANGLE_OFFSET</a>, <a class="el" href="classCUIWnd.html#a7ab09cbca1c71c61dcc674edc987ac98">CUIWnd::RESIZE_HASHMARK1_OFFSET</a>, and <a class="el" href="classCUIWnd.html#a646b7451d8c0748a56230d168cd4b1d6">CUIWnd::RESIZE_HASHMARK2_OFFSET</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e4a28cfc2aacb0e877990c904db0915"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EncyclopediaDetailPanel::KeyPress </td>
+          <td>(</td>
+          <td class="paramtype">GG::Key&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t&#160;</td>
+          <td class="paramname"><em>key_code_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GG::Flags&lt; GG::ModKey &gt;&#160;</td>
+          <td class="paramname"><em>mod_keys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Need to redefine this so that icons and name can be put at the top of the Wnd, rather than being restricted to the client area of a <a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a> </p>
+
+<p>References <a class="el" href="classEncyclopediaDetailPanel.html#a7de0249045f7545b9b8e5e3a5ef27d48">m_description_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a350fcc305339b9bd63375fd4af8fd355">m_search_edit</a>.</p>
 
 </div>
 </div>
@@ -1774,7 +1819,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEncyclopediaDetailPanel.html#adaa9d6d4b13673b93c693bb773308e66">AddItem()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a912a3fb452c1f453994362fbefe54be9">ClearItems()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">DoLayout()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f">EncyclopediaDetailPanel()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#aeab2445fc3acaf91a3290d0913b11c9e">OnBack()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a3e943f5a09557b3855a668026e1953b0">OnNext()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ae86b19cb3ebd89523e2a3396fbfa5bde">PopItem()</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a6109687454da8775f07f75f955bef2a8">RefreshImpl()</a>.</p>
+<p>Referenced by <a class="el" href="classEncyclopediaDetailPanel.html#adaa9d6d4b13673b93c693bb773308e66">AddItem()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a912a3fb452c1f453994362fbefe54be9">ClearItems()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">DoLayout()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f">EncyclopediaDetailPanel()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a8e4a28cfc2aacb0e877990c904db0915">KeyPress()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#aeab2445fc3acaf91a3290d0913b11c9e">OnBack()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a3e943f5a09557b3855a668026e1953b0">OnNext()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ae86b19cb3ebd89523e2a3396fbfa5bde">PopItem()</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a6109687454da8775f07f75f955bef2a8">RefreshImpl()</a>.</p>
 
 </div>
 </div>
@@ -1996,7 +2041,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">DoLayout()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f">EncyclopediaDetailPanel()</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#abe1ca9109c73732a6c9bdb509c08d495">HandleSearchTextEntered()</a>.</p>
+<p>Referenced by <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">DoLayout()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f">EncyclopediaDetailPanel()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#abe1ca9109c73732a6c9bdb509c08d495">HandleSearchTextEntered()</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a8e4a28cfc2aacb0e877990c904db0915">KeyPress()</a>.</p>
 
 </div>
 </div>
