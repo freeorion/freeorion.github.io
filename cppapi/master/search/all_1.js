@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['_5f_5finit_5f_5f_2epy',['__init__.py',['../AI_2character_2____init_____8py.html',1,'']]],
-  ['_5f_5finit_5f_5f_2epy',['__init__.py',['../AI_2freeorion__tools_2____init_____8py.html',1,'']]],
   ['about',['About',['../classAbout.html',1,'About'],['../classAbout.html#a6e538bec4fdb4518fee5ccc89363f273',1,'About::About()']]],
   ['about_2ecpp',['About.cpp',['../About_8cpp.html',1,'']]],
   ['about_2eh',['About.h',['../About_8h.html',1,'']]],
@@ -125,10 +123,6 @@ var searchData=
   ['aiclientapp_2ecpp',['AIClientApp.cpp',['../AIClientApp_8cpp.html',1,'']]],
   ['aiclientapp_2eh',['AIClientApp.h',['../AIClientApp_8h.html',1,'']]],
   ['aiclientexe',['AIClientExe',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad9dee4fe7851cbde13f44a55e4d0368b',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['aidependencies',['AIDependencies',['../namespaceAIDependencies.html',1,'']]],
-  ['aidependencies_2epy',['AIDependencies.py',['../AIDependencies_8py.html',1,'']]],
-  ['aifleetmission',['AIFleetMission',['../namespaceAIFleetMission.html',1,'']]],
-  ['aifleetmission_2epy',['AIFleetMission.py',['../AIFleetMission_8py.html',1,'']]],
   ['aiframework_2ecpp',['AIFramework.cpp',['../AIFramework_8cpp.html',1,'']]],
   ['aiframework_2eh',['AIFramework.h',['../AIFramework_8h.html',1,'']]],
   ['aiicon',['AIIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#ac8531a0eefd863ea7340f3a3210b425d',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
@@ -142,8 +136,6 @@ var searchData=
   ['aiintplayernamevoid',['AIIntPlayerNameVoid',['../AIWrapper_8cpp.html#a19b0e14afec61215e03f92d186124ca0',1,'AIWrapper.cpp']]],
   ['aiintscrap',['AIIntScrap',['../AIWrapper_8cpp.html#aeeb634dea6cf8d28fc7edef8a45f3fa9',1,'AIWrapper.cpp']]],
   ['aiplayeridwithname',['AIPlayerIDWithName',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['aistate',['AIstate',['../namespaceAIstate.html',1,'']]],
-  ['aistate_2epy',['AIstate.py',['../AIstate_8py.html',1,'']]],
   ['aiwrapper_2ecpp',['AIWrapper.cpp',['../AIWrapper_8cpp.html',1,'']]],
   ['aiwrapper_2eh',['AIWrapper.h',['../AIWrapper_8h.html',1,'']]],
   ['alignment',['Alignment',['../classAlignment.html',1,'Alignment'],['../classAlignment.html#aa6a6d08c8bc450073b54eae8f18e6556',1,'Alignment::Alignment(const std::string &amp;name, const std::string &amp;description, const std::string &amp;graphic)'],['../classAlignment.html#a091e21f0cfb741cb5cdc3535c6cc287f',1,'Alignment::Alignment()'],['../structanonymous__namespace_02AlignmentsParser_8cpp_03_1_1rules.html#a3f97e18ecb36c945a171cbd59c9b8f9a',1,'anonymous_namespace{AlignmentsParser.cpp}::rules::alignment()']]],
@@ -351,8 +343,8 @@ var searchData=
   ['arithmetic_5frules',['arithmetic_rules',['../structarithmetic__rules.html',1,'arithmetic_rules&lt; T &gt;'],['../structarithmetic__rules.html#aeb962923e76c7c57db49b1a92d846da1',1,'arithmetic_rules::arithmetic_rules()']]],
   ['arithmetic_5frules_3c_20double_20_3e',['arithmetic_rules&lt; double &gt;',['../structarithmetic__rules.html',1,'']]],
   ['arithmetic_5frules_3c_20int_20_3e',['arithmetic_rules&lt; int &gt;',['../structarithmetic__rules.html',1,'']]],
-  ['armed',['Armed',['../structCondition_1_1Armed.html#a245ad6f640b94636f5a05efc7e045d85',1,'Condition::Armed::Armed()'],['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a6ccfeffcd8eb80f7c5c57859e0fa9e78',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1::armed()']]],
   ['armed',['Armed',['../structCondition_1_1Armed.html',1,'Condition']]],
+  ['armed',['Armed',['../structCondition_1_1Armed.html#a245ad6f640b94636f5a05efc7e045d85',1,'Condition::Armed::Armed()'],['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a6ccfeffcd8eb80f7c5c57859e0fa9e78',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1::armed()']]],
   ['armed_5fcondition',['ARMED_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab6d86d93b9446950c321c1eef2c51ce6',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['arrivalstarlane',['ArrivalStarlane',['../classFleet.html#a30c4d997cceb2354eecd286c0db86e9b',1,'Fleet']]],
   ['arrivedonturn',['ArrivedOnTurn',['../classShip.html#a64c94f6cb41c5233d0f108cec0534318',1,'Ship']]],
@@ -399,8 +391,8 @@ var searchData=
   ['automaticallychosencolonyship',['AutomaticallyChosenColonyShip',['../SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12',1,'AutomaticallyChosenColonyShip(int target_planet_id):&#160;SidePanel.cpp'],['../SidePanel_8h.html#ad8ceb96a57e2e8c66789d53cc87ebf12',1,'AutomaticallyChosenColonyShip(int target_planet_id):&#160;SidePanel.cpp']]],
   ['automaticallychoseninvasionships',['AutomaticallyChosenInvasionShips',['../SidePanel_8cpp.html#a82081f45973d72dfc143a8f079f87bac',1,'SidePanel.cpp']]],
   ['autoresolvecombat',['AutoResolveCombat',['../CombatSystem_8cpp.html#a7f27420ecf67037df6ef23d9da050864',1,'AutoResolveCombat(CombatInfo &amp;combat_info):&#160;CombatSystem.cpp'],['../CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864',1,'AutoResolveCombat(CombatInfo &amp;combat_info):&#160;CombatSystem.cpp']]],
-  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a9f9b056bb8b718d092195bdf384966fa',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
+  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['autosave',['Autosave',['../classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38',1,'HumanClientApp']]],
   ['autosetrange',['AutoSetRange',['../classGraphControl.html#a04c0995e1c3d09b16f16a1b65d1cf40e',1,'GraphControl']]],
   ['autoturnsleft',['AutoTurnsLeft',['../classHumanClientApp.html#a21ca2938673fcf2ddaba83386109be1b',1,'HumanClientApp']]],
@@ -420,6 +412,5 @@ var searchData=
   ['axialtilt',['AxialTilt',['../classPlanet.html#a09ff7722bf0c3b598057dfa37e4dc7c9',1,'Planet']]],
   ['axis_5fheight',['AXIS_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ab100f21eca477f93626bd263d2c7dd78',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['axis_5fwidth',['AXIS_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a9822cd321f022a86da026c2cbd21fc57',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../AI_2CMakeLists_8txt.html',1,'']]],
-  ['timers_2epy',['timers.py',['../AI_2freeorion__tools_2timers_8py.html',1,'']]]
+  ['cmakelists_2etxt',['CMakeLists.txt',['../AI_2CMakeLists_8txt.html',1,'']]]
 ];

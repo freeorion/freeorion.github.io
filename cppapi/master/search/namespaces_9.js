@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['names',['names',['../namespacenames.html',1,'']]],
-  ['natives',['natives',['../namespacenatives.html',1,'']]],
-  ['networking',['Networking',['../namespaceNetworking.html',1,'']]]
+  ['detail',['detail',['../namespaceparse_1_1detail.html',1,'parse']]],
+  ['parse',['parse',['../namespaceparse.html',1,'']]]
 ];

@@ -37,7 +37,6 @@ var searchData=
   ['handlepythonaicrash',['HandlePythonAICrash',['../classAIClientApp.html#a164b8f3779c16f34be4d482f1012e4a3',1,'AIClientApp']]],
   ['handlereceive',['HandleReceive',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad43119fc5b276f148739e2456fd9482f',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::HandleReceive()'],['../classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9',1,'DiscoveryServer::HandleReceive()']]],
   ['handleresethotkeyoption',['HandleResetHotkeyOption',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#ac16918c53594f159e2831737ca5bf0a3',1,'anonymous_namespace{OptionsWnd.cpp}']]],
-  ['handlers_2epy',['handlers.py',['../handlers_8py.html',1,'']]],
   ['handlesavegamedatarequest',['HandleSaveGameDataRequest',['../classHumanClientApp.html#aff51051954870d71f3adde255425066c',1,'HumanClientApp']]],
   ['handlescrapping',['HandleScrapping',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1cab1aa2267ac8e18beb53a951835eec',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlescrolledandstopped',['HandleScrolledAndStopped',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html#a524e84c4fa26a26c75450b021595b154',1,'anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText']]],
@@ -78,8 +77,8 @@ var searchData=
   ['hasshipsorderedscrapped',['HasShipsOrderedScrapped',['../classFleet.html#a0cf15770b830dc0769b6ab7013f74553',1,'Fleet']]],
   ['hasshipswithoutscraporders',['HasShipsWithoutScrapOrders',['../classFleet.html#a78403424532e8e79855391954a4308cd',1,'Fleet']]],
   ['hassitrepeffects',['HasSitrepEffects',['../classEffect_1_1EffectsGroup.html#a96872ca4403f76cdf63b0eba413e622d',1,'Effect::EffectsGroup']]],
-  ['hasspecial',['HasSpecial',['../structCondition_1_1HasSpecial.html',1,'Condition']]],
   ['hasspecial',['HasSpecial',['../structCondition_1_1HasSpecial.html#a2d34e6da9ae4bb101c54f55411901588',1,'Condition::HasSpecial::HasSpecial(const std::string &amp;name)'],['../structCondition_1_1HasSpecial.html#a280f114b9b8691ff57152fe95628d5ef',1,'Condition::HasSpecial::HasSpecial(ValueRef::ValueRefBase&lt; std::string &gt; *name=nullptr)'],['../structCondition_1_1HasSpecial.html#a7d4ec61d458a4a2c3519057e57e514bd',1,'Condition::HasSpecial::HasSpecial(ValueRef::ValueRefBase&lt; std::string &gt; *name, ValueRef::ValueRefBase&lt; int &gt; *since_turn_low, ValueRef::ValueRefBase&lt; int &gt; *since_turn_high=nullptr)'],['../structCondition_1_1HasSpecial.html#a20fb8b80753224dc9321feb39404f7e0',1,'Condition::HasSpecial::HasSpecial(ValueRef::ValueRefBase&lt; std::string &gt; *name, ValueRef::ValueRefBase&lt; double &gt; *capacity_low, ValueRef::ValueRefBase&lt; double &gt; *capacity_high=nullptr)'],['../classUniverseObject.html#a0151ee62e1521cfc8a778868534af15f',1,'UniverseObject::HasSpecial()']]],
+  ['hasspecial',['HasSpecial',['../structCondition_1_1HasSpecial.html',1,'Condition']]],
   ['hasspecial_5fcondition',['HASSPECIAL_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a6c7b769fd54622a103586f8a4ebe65b7',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasSpecialSimpleMatch.html#a65e8c505f423f73c5f4a06822ebfe0f6',1,'Condition::anonymous_namespace{Condition.cpp}::HasSpecialSimpleMatch']]],
   ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasSpecialSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
@@ -136,8 +135,8 @@ var searchData=
   ['homeworld',['Homeworld',['../structCondition_1_1Homeworld.html',1,'Condition']]],
   ['homeworld_5fcondition',['HOMEWORLD_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a277974887a383f2d6198970f2e282c80',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['homeworlds',['Homeworlds',['../classSpecies.html#ace9c4323ebfaa0a07cfe347b38fac8ee',1,'Species']]],
-  ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html#a868971b1759099caf528bfe61df5c9b9',1,'Condition::anonymous_namespace{Condition.cpp}::HomeworldSimpleMatch']]],
+  ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['host',['host',['../structPlayerInfo.html#ab43cfc02255c503231835827dee05eac',1,'PlayerInfo']]],
   ['hosticon',['HostIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a4a8d9c98c75f20e4f07c714eea797c78',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['hostidmessage',['HostIDMessage',['../Message_8cpp.html#aae46a48fc3c9be999466a53c3aa1223c',1,'HostIDMessage(int host_player_id):&#160;Message.cpp'],['../Message_8h.html#a16ed4dc510926d23c12699a89572d789',1,'HostIDMessage(int host_player_id):&#160;Message.cpp']]],
@@ -185,7 +184,5 @@ var searchData=
   ['humanclientfsm_2eh',['HumanClientFSM.h',['../HumanClientFSM_8h.html',1,'']]],
   ['humancontrolledempires',['HumanControlledEmpires',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['humanicon',['HumanIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a4d0efe7c01ad786da78abb42f4d1cd4e',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
-  ['humanplayerwithidconnected',['HumanPlayerWithIdConnected',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['handlers_20allow_20to_20add_20debug_20features_20to_20ai_20without_20modifying_20existing_20code_2e',['Handlers allow to add debug features to AI without modifying existing code.',['../md_default_python_handlers_README.html',1,'']]],
-  ['readme_2emd',['README.md',['../handlers_2README_8md.html',1,'']]]
+  ['humanplayerwithidconnected',['HumanPlayerWithIdConnected',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d',1,'anonymous_namespace{ServerApp.cpp}']]]
 ];

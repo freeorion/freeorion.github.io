@@ -1,20 +1,5 @@
 var searchData=
 [
   ['anonymous_5fnamespace_7bcondition_2ecpp_7d',['anonymous_namespace{Condition.cpp}',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html',1,'Condition']]],
-  ['character',['character',['../namespacecharacter.html',1,'']]],
-  ['character_5fmodule',['character_module',['../namespacecharacter_1_1character__module.html',1,'character']]],
-  ['character_5fstrings_5fmodule',['character_strings_module',['../namespacecharacter_1_1character__strings__module.html',1,'character']]],
-  ['character_5fstrings_5ftest',['character_strings_test',['../namespacecharacter__strings__test.html',1,'']]],
-  ['character_5ftest',['character_test',['../namespacecharacter__test.html',1,'']]],
-  ['charts',['charts',['../namespacecharts.html',1,'']]],
-  ['colonisationai',['ColonisationAI',['../namespaceColonisationAI.html',1,'']]],
-  ['combatratingsai',['CombatRatingsAI',['../namespaceCombatRatingsAI.html',1,'']]],
-  ['common',['common',['../namespacecommon.html',1,'']]],
-  ['condition',['Condition',['../namespaceCondition.html',1,'']]],
-  ['configure_5flogging',['configure_logging',['../namespacecommon_1_1configure__logging.html',1,'common']]],
-  ['listeners',['listeners',['../namespacecommon_1_1listeners.html',1,'common']]],
-  ['option_5ftools',['option_tools',['../namespacecommon_1_1option__tools.html',1,'common']]],
-  ['print_5futils',['print_utils',['../namespacecommon_1_1print__utils.html',1,'common']]],
-  ['profiling',['profiling',['../namespacecommon_1_1profiling.html',1,'common']]],
-  ['timers',['timers',['../namespacecommon_1_1timers.html',1,'common']]]
+  ['condition',['Condition',['../namespaceCondition.html',1,'']]]
 ];

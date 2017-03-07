@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['detail',['detail',['../namespaceparse_1_1detail.html',1,'parse']]],
-  ['parse',['parse',['../namespaceparse.html',1,'']]],
-  ['planets',['planets',['../namespaceplanets.html',1,'']]],
-  ['planetutilsai',['PlanetUtilsAI',['../namespacePlanetUtilsAI.html',1,'']]],
-  ['priorityai',['PriorityAI',['../namespacePriorityAI.html',1,'']]],
-  ['productionai',['ProductionAI',['../namespaceProductionAI.html',1,'']]]
+  ['anonymous_5fnamespace_7bvalueref_2ecpp_7d',['anonymous_namespace{ValueRef.cpp}',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html',1,'ValueRef']]],
+  ['valueref',['ValueRef',['../namespaceValueRef.html',1,'']]]
 ];
