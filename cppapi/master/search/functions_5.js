@@ -94,7 +94,6 @@ var searchData=
   ['endedwithok',['EndedWithOk',['../classGalaxySetupWnd.html#a1168e06ca9a1af9b1ce4fc246d68a3e0',1,'GalaxySetupWnd']]],
   ['endgame',['EndGame',['../classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1',1,'HumanClientApp']]],
   ['endgamemessage',['EndGameMessage',['../Message_8cpp.html#ad562a808a98d81698380edd85baa9a76',1,'EndGameMessage(int receiver, Message::EndGameReason reason, const std::string &amp;reason_player_name):&#160;Message.cpp'],['../Message_8h.html#ae157b76a8a6f2b771dc28bd8c1a20b7d',1,'EndGameMessage(int receiver, Message::EndGameReason reason, const std::string &amp;reason_player_name=&quot;&quot;):&#160;Message.cpp']]],
-  ['endif',['endif',['../util_2CMakeLists_8txt.html#a430c67ebe1ec20c9e67b9d47dd0cd406',1,'CMakeLists.txt']]],
   ['endshipdesigns',['endShipDesigns',['../classUniverse.html#a8a51786f6b444654003266821230e238',1,'Universe']]],
   ['endturn',['EndTurn',['../classMapWnd.html#ad2a37e2ce18fb97a497805424ca3e20f',1,'MapWnd']]],
   ['enemyid',['EnemyId',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3ec85dcd5573036ea8f6fc2b2ef4f7ff',1,'anonymous_namespace{ServerApp.cpp}']]],
