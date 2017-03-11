@@ -18,7 +18,7 @@ var searchData=
   ['accountinginfo',['AccountingInfo',['../structEffect_1_1AccountingInfo.html#a71313186a92cca08c36ec14a9510465c',1,'Effect::AccountingInfo']]],
   ['accountinglabel',['AccountingLabel',['../classEffect_1_1EffectsGroup.html#af458887071b7e143e578c80d9df808dd',1,'Effect::EffectsGroup::AccountingLabel()'],['../classEffect_1_1SetMeter.html#afccdefdf5e773607d8688b4c05af68a1',1,'Effect::SetMeter::AccountingLabel()']]],
   ['accountingmap',['AccountingMap',['../namespaceEffect.html#a0417b92714c94e22f690125299de4d43',1,'Effect']]],
-  ['accumulate',['Accumulate',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a390dc7956b2671d2d3eaba23d3767e2b',1,'SectionedScopedTimer::Impl::Sections']]],
+  ['accumulate',['Accumulate',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#aaec292d805c613ce4e2b2d3318a61efb',1,'SectionedScopedTimer::Impl::Sections']]],
   ['acknowledgement',['ACKNOWLEDGEMENT',['../namespaceanonymous__namespace_02Message_8cpp_03.html#a765200b7439c654ec41ccc586f018729',1,'anonymous_namespace{Message.cpp}']]],
   ['activation',['Activation',['../classEffect_1_1EffectsGroup.html#a643d49cc2e588155026a171aecd81134',1,'Effect::EffectsGroup']]],
   ['add',['Add',['../classOptionsDB.html#a8fc28c2892368df9237ac34440ad77b8',1,'OptionsDB::Add(const std::string &amp;name, const std::string &amp;description, T default_value, const ValidatorBase &amp;validator=Validator&lt; T &gt;(), bool storable=true)'],['../classOptionsDB.html#af6d3a44aa345e041e5e831c44db893b3',1,'OptionsDB::Add(char short_name, const std::string &amp;name, const std::string &amp;description, T default_value, const ValidatorBase &amp;validator=Validator&lt; T &gt;(), bool storable=true)']]],

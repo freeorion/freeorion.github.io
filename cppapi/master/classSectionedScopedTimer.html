@@ -104,10 +104,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2af016d88362a1f39487281427eb656c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a2af016d88362a1f39487281427eb656c">SectionedScopedTimer</a> (const std::string &amp;timed_name, bool enable_output=false, boost::chrono::microseconds threshold=boost::chrono::milliseconds(1))</td></tr>
-<tr class="separator:a2af016d88362a1f39487281427eb656c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3780b5aba2577c304ab34b3ae33e68a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a3780b5aba2577c304ab34b3ae33e68a8">SectionedScopedTimer</a> (const std::string &amp;timed_name, boost::chrono::microseconds threshold)</td></tr>
-<tr class="separator:a3780b5aba2577c304ab34b3ae33e68a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72057de120ec4924101cb2c8b1d7e8f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a72057de120ec4924101cb2c8b1d7e8f4">SectionedScopedTimer</a> (const std::string &amp;timed_name, bool enable_output=false, std::chrono::microseconds threshold=std::chrono::milliseconds(1))</td></tr>
+<tr class="separator:a72057de120ec4924101cb2c8b1d7e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac392362896acbf4686fcb5ec3d1d753"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#aac392362896acbf4686fcb5ec3d1d753">SectionedScopedTimer</a> (const std::string &amp;timed_name, std::chrono::microseconds threshold)</td></tr>
+<tr class="separator:aac392362896acbf4686fcb5ec3d1d753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a63bad1a11fc01af8a76f8cdaeb0570b0">~SectionedScopedTimer</a> ()</td></tr>
 <tr class="separator:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb3eebdb3c4e3c9b3f1dbe3905a25ba3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3">EnterSection</a> (const std::string &amp;section_name)</td></tr>
@@ -129,7 +129,7 @@ Private Attributes</h2></td></tr>
 <p>Title - Section time: xxxx ms Title - Section2 time: xxxx ms Title time: xxxx ms</p>
 <p>The following is a usage example. It shows how to create timer with a section before a loop, two sections in a loop, a section after a loop and a section that will not be timed.</p>
 <p>Usage:</p>
-<p>void function_to_profile () { </p><pre class="fragment">SectionedScopedTimer timer("Title", boost::chrono::milliseconds(1));
+<p>void function_to_profile () { </p><pre class="fragment">SectionedScopedTimer timer("Title", std::chrono::milliseconds(1));
 timer.EnterSection("initial section");
 
 profiled_code();
@@ -153,7 +153,7 @@ timer.EnterSection("final section");
 final_timed_code()
 </pre><p> } </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2af016d88362a1f39487281427eb656c"></a>
+<a class="anchor" id="a72057de120ec4924101cb2c8b1d7e8f4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -172,8 +172,8 @@ final_timed_code()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::chrono::microseconds&#160;</td>
-          <td class="paramname"><em>threshold</em> = <code>boost::chrono::milliseconds(1)</code>&#160;</td>
+          <td class="paramtype">std::chrono::microseconds&#160;</td>
+          <td class="paramname"><em>threshold</em> = <code>std::chrono::milliseconds(1)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -185,7 +185,7 @@ final_timed_code()
 
 </div>
 </div>
-<a class="anchor" id="a3780b5aba2577c304ab34b3ae33e68a8"></a>
+<a class="anchor" id="aac392362896acbf4686fcb5ec3d1d753"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -198,7 +198,7 @@ final_timed_code()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::chrono::microseconds&#160;</td>
+          <td class="paramtype">std::chrono::microseconds&#160;</td>
           <td class="paramname"><em>threshold</em>&#160;</td>
         </tr>
         <tr>
