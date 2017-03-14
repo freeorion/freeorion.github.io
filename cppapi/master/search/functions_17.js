@@ -21,6 +21,7 @@ var searchData=
   ['win',['Win',['../classEmpire.html#a52ed00b2ccb16aca3e64c2031a953ddf',1,'Empire']]],
   ['window_5fheight',['WINDOW_HEIGHT',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a002d03e95f5af3b6ed0a3bfb46899850',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
   ['window_5fwidth',['WINDOW_WIDTH',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a98d10f9e6493d847af4690eedee59456',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
+  ['windowresizedslot',['WindowResizedSlot',['../classCreditsWnd.html#a6bd18e0788bdc42bac3b11a9b73af32f',1,'CreditsWnd']]],
   ['withindistance',['WithinDistance',['../structCondition_1_1WithinDistance.html#ad52033c68e9ffe2a6089c894ac76950f',1,'Condition::WithinDistance']]],
   ['withindistancesimplematch',['WithinDistanceSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinDistanceSimpleMatch.html#a8ddfe60339654e656b34412377cae104',1,'Condition::anonymous_namespace{Condition.cpp}::WithinDistanceSimpleMatch']]],
   ['withinjumps',['WithinJumps',['../classPathfinder_1_1PathfinderImpl.html#a2d198ca05efd6101d5557997d28bbec0',1,'Pathfinder::PathfinderImpl::WithinJumps()'],['../classPathfinder.html#a038ee2478ad102c8d0f17b1de7b66c89',1,'Pathfinder::WithinJumps()']]],
