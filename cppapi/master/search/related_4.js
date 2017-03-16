@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getoptionsdb',['GetOptionsDB',['../classOptionsDB.html#a2a301938847de915538079d57d7edb9a',1,'OptionsDB']]]
+  ['getoptionsdb',['GetOptionsDB',['../classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2',1,'OptionsDB']]]
 ];

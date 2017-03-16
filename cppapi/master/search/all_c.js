@@ -139,7 +139,7 @@ var searchData=
   ['log',['log',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#abb296ab3a2fe44ba7a66bd6e1d8490a7',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
   ['log_5fbuffer',['log_buffer',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#ac880aa307c209023fe3aab2626a2b2e3',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['logarithm',['LOGARITHM',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407aa3eed34de66da0ee9bf44447471b20e9',1,'ValueRef']]],
-  ['logdependencyversions',['LogDependencyVersions',['../DependencyVersions_8cpp.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp'],['../Version_8h.html#a3a3e8422575b7e69b83d7b830b48c43c',1,'LogDependencyVersions():&#160;DependencyVersions.cpp']]],
+  ['logdependencyversions',['LogDependencyVersions',['../DependencyVersions_8cpp.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp'],['../Version_8h.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp']]],
   ['logger_2ecpp',['Logger.cpp',['../Logger_8cpp.html',1,'']]],
   ['logger_2eh',['Logger.h',['../Logger_8h.html',1,'']]],
   ['loggingwrapper_2ecpp',['LoggingWrapper.cpp',['../LoggingWrapper_8cpp.html',1,'']]],

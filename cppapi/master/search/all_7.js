@@ -258,7 +258,7 @@ var searchData=
   ['getobjectvisibilitybyempire',['GetObjectVisibilityByEmpire',['../classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5',1,'Universe']]],
   ['getobjectvisibilityturnmapbyempire',['GetObjectVisibilityTurnMapByEmpire',['../classUniverse.html#ac1835262232f06834e7e8a1d1ef7269c',1,'Universe']]],
   ['getobjectvisiblespecialsbyempire',['GetObjectVisibleSpecialsByEmpire',['../classUniverse.html#a1d727839ae2bcd37a94f0b04e90a5fc0',1,'Universe']]],
-  ['getoptionsdb',['GetOptionsDB',['../classOptionsDB.html#a2a301938847de915538079d57d7edb9a',1,'OptionsDB::GetOptionsDB()'],['../OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a',1,'GetOptionsDB():&#160;OptionsDB.cpp'],['../OptionsDB_8h.html#ac081f88357e725b5f27d5027ba38a1b2',1,'GetOptionsDB():&#160;OptionsDB.cpp']]],
+  ['getoptionsdb',['GetOptionsDB',['../classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2',1,'OptionsDB::GetOptionsDB()'],['../OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a',1,'GetOptionsDB():&#160;OptionsDB.cpp'],['../OptionsDB_8h.html#ac081f88357e725b5f27d5027ba38a1b2',1,'GetOptionsDB():&#160;OptionsDB.cpp']]],
   ['getoptionsdboptionbool',['GetOptionsDBOptionBool',['../namespaceAIInterface.html#af353772536a6742665c98e1ccc8e4515',1,'AIInterface']]],
   ['getoptionsdboptiondouble',['GetOptionsDBOptionDouble',['../namespaceAIInterface.html#a468cccdec17e436cc6d8ddbce2a0fc85',1,'AIInterface']]],
   ['getoptionsdboptionint',['GetOptionsDBOptionInt',['../namespaceAIInterface.html#aed52d1fdac39529946ccbdffc3d441de',1,'AIInterface']]],
