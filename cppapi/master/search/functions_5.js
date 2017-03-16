@@ -91,7 +91,6 @@ var searchData=
   ['end_5fgeneric',['end_generic',['../classPredefinedShipDesignManager.html#aebf29a7fa0504e06e97de5995f6bbfb9',1,'PredefinedShipDesignManager']]],
   ['end_5fmonsters',['end_monsters',['../classPredefinedShipDesignManager.html#a67314f3043d2e34ef3f06750624e5562',1,'PredefinedShipDesignManager']]],
   ['end_5fvar',['END_VAR',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a251b2bf74787cb71b179addffb41eedc',1,'anonymous_namespace{VarText.cpp}']]],
-  ['endalliancediplomaticmessage',['EndAllianceDiplomaticMessage',['../Diplomacy_8cpp.html#a236173da8eb17851f0242cdc3e76ebdf',1,'EndAllianceDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a128fe7951eae82da86827a7b597ea850',1,'EndAllianceDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['endedwithok',['EndedWithOk',['../classGalaxySetupWnd.html#a1168e06ca9a1af9b1ce4fc246d68a3e0',1,'GalaxySetupWnd']]],
   ['endgame',['EndGame',['../classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1',1,'HumanClientApp']]],
   ['endgamemessage',['EndGameMessage',['../Message_8cpp.html#ad562a808a98d81698380edd85baa9a76',1,'EndGameMessage(int receiver, Message::EndGameReason reason, const std::string &amp;reason_player_name):&#160;Message.cpp'],['../Message_8h.html#ae157b76a8a6f2b771dc28bd8c1a20b7d',1,'EndGameMessage(int receiver, Message::EndGameReason reason, const std::string &amp;reason_player_name=&quot;&quot;):&#160;Message.cpp']]],
