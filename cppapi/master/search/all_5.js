@@ -176,7 +176,7 @@ var searchData=
   ['encyclopedia',['Encyclopedia',['../structEncyclopedia.html',1,'Encyclopedia'],['../structEncyclopedia.html#a667273357aa82b92d63348c3632b83b8',1,'Encyclopedia::Encyclopedia()']]],
   ['encyclopedia_2ecpp',['Encyclopedia.cpp',['../Encyclopedia_8cpp.html',1,'']]],
   ['encyclopedia_2eh',['Encyclopedia.h',['../Encyclopedia_8h.html',1,'']]],
-  ['encyclopedia_5farticles',['encyclopedia_articles',['../namespaceparse.html#ab1349c8acd5c9c9d56e528813d48dee9',1,'parse']]],
+  ['encyclopedia_5farticles',['encyclopedia_articles',['../namespaceparse.html#aa9af357445fb08f4bc3810b26344b728',1,'parse']]],
   ['encyclopedia_5ftag',['ENCYCLOPEDIA_TAG',['../classTextLinker.html#a3447f6179c7780fd6ea8f79bfdb999da',1,'TextLinker']]],
   ['encyclopediaarticle',['EncyclopediaArticle',['../structEncyclopediaArticle.html',1,'EncyclopediaArticle'],['../structEncyclopediaArticle.html#a39d0ef8ffbfc67b04667931397712112',1,'EncyclopediaArticle::EncyclopediaArticle()'],['../structEncyclopediaArticle.html#a0345ff490ed07d7f85ec17da4a5888cc',1,'EncyclopediaArticle::EncyclopediaArticle(const std::string &amp;name_, const std::string &amp;category_, const std::string &amp;short_description_, const std::string &amp;description_, const std::string &amp;icon_)']]],
   ['encyclopediadetailpanel',['EncyclopediaDetailPanel',['../classEncyclopediaDetailPanel.html',1,'EncyclopediaDetailPanel'],['../classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f',1,'EncyclopediaDetailPanel::EncyclopediaDetailPanel()']]],
