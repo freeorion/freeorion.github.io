@@ -13,5 +13,5 @@ var searchData=
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9e22b0db58dccc49cb54139277efe439',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a305bdc1dff0d35a53885444232df8939',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
-  ['quitgame',['QuitGame',['../classHumanClientApp.html#a6a9f3560e56a4758c27cc436c63c29d1',1,'HumanClientApp']]]
+  ['quittinggame',['QuittingGame',['../structQuittingGame.html#a46907cba60c808bf52be11c7baa20341',1,'QuittingGame']]]
 ];

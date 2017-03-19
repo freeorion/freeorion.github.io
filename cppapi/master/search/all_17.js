@@ -1,6 +1,7 @@
 var searchData=
 [
   ['wait',['Wait',['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue']]],
+  ['waitfordisconnect',['WaitForDisconnect',['../structWaitForDisconnect.html',1,'']]],
   ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html',1,'WaitingForGameStart'],['../classMapWnd.html#a7e6b1a1935b5112063c85817d4f97dc2',1,'MapWnd::WaitingForGameStart()'],['../structWaitingForGameStart.html#a739a867e3cea42da3174c7c22a76c647',1,'WaitingForGameStart::WaitingForGameStart()']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'WaitingForMPGameJoiners'],['../classServerApp.html#abf7363ef825f47381e909f7b9a3df15c',1,'ServerApp::WaitingForMPGameJoiners()'],['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners::WaitingForMPGameJoiners()']]],
@@ -33,8 +34,8 @@ var searchData=
   ['windowresizedslot',['WindowResizedSlot',['../classCreditsWnd.html#a6bd18e0788bdc42bac3b11a9b73af32f',1,'CreditsWnd']]],
   ['within_5fdistance',['within_distance',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0b25b9168892666709881a0fef7b1ce4',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['within_5fstarlane_5fjumps',['within_starlane_jumps',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#aa4c7d5a2d66d54e7c5a0956c993c8c2e',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
-  ['withindistance',['WithinDistance',['../structCondition_1_1WithinDistance.html#ad52033c68e9ffe2a6089c894ac76950f',1,'Condition::WithinDistance']]],
   ['withindistance',['WithinDistance',['../structCondition_1_1WithinDistance.html',1,'Condition']]],
+  ['withindistance',['WithinDistance',['../structCondition_1_1WithinDistance.html#ad52033c68e9ffe2a6089c894ac76950f',1,'Condition::WithinDistance']]],
   ['withindistancesimplematch',['WithinDistanceSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinDistanceSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['withindistancesimplematch',['WithinDistanceSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1WithinDistanceSimpleMatch.html#a8ddfe60339654e656b34412377cae104',1,'Condition::anonymous_namespace{Condition.cpp}::WithinDistanceSimpleMatch']]],
   ['withinjumps',['WithinJumps',['../classPathfinder_1_1PathfinderImpl.html#a2d198ca05efd6101d5557997d28bbec0',1,'Pathfinder::PathfinderImpl::WithinJumps()'],['../classPathfinder.html#a038ee2478ad102c8d0f17b1de7b66c89',1,'Pathfinder::WithinJumps()']]],
@@ -57,7 +58,7 @@ var searchData=
   ['wndselected',['WndSelected',['../classDesignWnd_1_1BaseSelector.html#a1deebda0ee0b3a305be2c3dff2e524ca',1,'DesignWnd::BaseSelector']]],
   ['wndtop',['WndTop',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0b19dab916ea0f79284b18b821d4ba36',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wobble',['Wobble',['../classTechTreeLayout_1_1Node.html#aedab8a7467d51c65ec0438671752908f',1,'TechTreeLayout::Node']]],
-  ['won',['WON',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()']]],
+  ['won',['Won',['../classEmpire.html#a0c36636ed52b46c4044b3c98ebbfe85e',1,'Empire::Won()'],['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()']]],
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aa7b7203413fc582aa06d0e64373b23bd',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['work_5fqueue_5f1',['work_queue_1',['../structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
   ['work_5fqueue_5f2',['work_queue_2',['../structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],
@@ -75,6 +76,5 @@ var searchData=
   ['wrapwithtagandid',['WrapWithTagAndId',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ac8cc646306cf3269dcd7262454cd5bbb',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['writedesigntofile',['WriteDesignToFile',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab1ea950a16d5a5645604fce7043567c1',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['writedoc',['WriteDoc',['../classXMLDoc.html#a097a64f0ae10c9f934003a64e7e66fd6',1,'XMLDoc']]],
-  ['writeelement',['WriteElement',['../classXMLElement.html#a486644805342c20a02163443d35c553a',1,'XMLElement::WriteElement(std::ostream &amp;os, int indent=0, bool whitespace=true) const '],['../classXMLElement.html#aef583ba72503ca671703df9e1748af95',1,'XMLElement::WriteElement(int indent=0, bool whitespace=true) const ']]],
-  ['writemessage',['WriteMessage',['../namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a4d1b61f93ebca60f0f14970f50c8f363',1,'anonymous_namespace{ServerNetworking.cpp}']]]
+  ['writeelement',['WriteElement',['../classXMLElement.html#a486644805342c20a02163443d35c553a',1,'XMLElement::WriteElement(std::ostream &amp;os, int indent=0, bool whitespace=true) const '],['../classXMLElement.html#aef583ba72503ca671703df9e1748af95',1,'XMLElement::WriteElement(int indent=0, bool whitespace=true) const ']]]
 ];

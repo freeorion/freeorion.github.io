@@ -13,6 +13,7 @@ var searchData=
   ['destroyuniverseobject',['DestroyUniverseObject',['../classModerator_1_1DestroyUniverseObject.html',1,'Moderator']]],
   ['diplomaticmessage',['DiplomaticMessage',['../classDiplomaticMessage.html',1,'']]],
   ['diplomaticstatusupdateinfo',['DiplomaticStatusUpdateInfo',['../structDiplomaticStatusUpdateInfo.html',1,'']]],
+  ['disconnectclients',['DisconnectClients',['../structDisconnectClients.html',1,'']]],
   ['disconnection',['Disconnection',['../structDisconnection.html',1,'']]],
   ['discoveryserver',['DiscoveryServer',['../classDiscoveryServer.html',1,'']]],
   ['discretevalidator',['DiscreteValidator',['../structDiscreteValidator.html',1,'']]],

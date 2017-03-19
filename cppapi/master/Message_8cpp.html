@@ -135,6 +135,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1c77137a913dfac45e79859a082a1862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a1c77137a913dfac45e79859a082a1862">AIEndGameAcknowledgeMessage</a> (int sender)</td></tr>
+<tr class="separator:a1c77137a913dfac45e79859a082a1862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d5e81679978f3ba2cb51d1cf9e5e7eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a5d5e81679978f3ba2cb51d1cf9e5e7eb">BufferToHeader</a> (const <a class="el" href="classMessage.html#a295dc44e30e990ecbc629332004161ca">Message::HeaderBuffer</a> &amp;buffer, <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="separator:a5d5e81679978f3ba2cb51d1cf9e5e7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb31aa09991f1919fb8fc6fca27ce08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#aedb31aa09991f1919fb8fc6fca27ce08">ClientSaveDataMessage</a> (int sender, const <a class="el" href="classOrderSet.html">OrderSet</a> &amp;orders, const <a class="el" href="structSaveGameUIData.html">SaveGameUIData</a> &amp;ui_data)</td></tr>
@@ -285,6 +287,27 @@ Variables</h2></td></tr>
 <tr class="separator:a31ce869a27e6f4f35a6fe5d7e2fcee74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a1c77137a913dfac45e79859a082a1862"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMessage.html">Message</a> AIEndGameAcknowledgeMessage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates an AI_END_GAME_ACK message used to indicate that the AI has shutdown. </p>
+
+<p>References <a class="el" href="namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74">anonymous_namespace{Message.cpp}::DUMMY_EMPTY_MESSAGE</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
+
+<p>Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5d5e81679978f3ba2cb51d1cf9e5e7eb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +335,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="classMessage.html#a20eb45a0f46c311b7e346d6a50ef8423">Message::m_message_size</a>, <a class="el" href="classMessage.html#a610109fb5587fdc8070c81404a5e5eb2">Message::m_receiving_player</a>, <a class="el" href="classMessage.html#aeb031d0c2fb1a4a28e6aca0e3594b0c3">Message::m_sending_player</a>, <a class="el" href="classMessage.html#adc7ed65ced6bc4546737d8e082bda78c">Message::m_synchronous_response</a>, and <a class="el" href="classMessage.html#ad00e422b792e72859a9671b63090a538">Message::m_type</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking.html#ae53a6d16d4b024d23c48547e2efc8b99">ClientNetworking::HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">PlayerConnection::HandleMessageHeaderRead()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking.html#a7e47fcfb9518ee9a80dcdbddcf63736a">ClientNetworking::HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">PlayerConnection::HandleMessageHeaderRead()</a>.</p>
 
 </div>
 </div>
@@ -642,7 +665,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a494b4b725c695e6e1578879f84279341">ServerApp::CleanupAIs()</a>, and <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a494b4b725c695e6e1578879f84279341">ServerApp::CleanupAIs()</a>, <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>, and <a class="el" href="structShuttingDownServer.html#a0292871689f21c7c82c69724a2d0b3c8">ShuttingDownServer::ShuttingDownServer()</a>.</p>
 
 </div>
 </div>
@@ -953,7 +976,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classMessage.html#ae03f52a51c389fa69f19c26cfbf577d2">Message::Text()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3901b7eba61bed632fc0efa2b40a8c39">anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage()</a>, <a class="el" href="structWaitingForSPHostAck.html#a989806ec738d00deae151f568fd4d0d5">WaitingForSPHostAck::react()</a>, <a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">WaitingForMPHostAck::react()</a>, <a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">WaitingForMPJoinAck::react()</a>, <a class="el" href="structMPLobby.html#ab0c770febbfc8de0887033780bd19c3c">MPLobby::react()</a>, and <a class="el" href="structPlayingGame.html#a5cfcd1b8202b9f5d0f3c9a52dc43c879">PlayingGame::react()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#ae29a7254d5843cdef6d981e85a396304">anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage()</a>, <a class="el" href="structWaitingForSPHostAck.html#a989806ec738d00deae151f568fd4d0d5">WaitingForSPHostAck::react()</a>, <a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">WaitingForMPHostAck::react()</a>, <a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">WaitingForMPJoinAck::react()</a>, <a class="el" href="structMPLobby.html#ab0c770febbfc8de0887033780bd19c3c">MPLobby::react()</a>, and <a class="el" href="structPlayingGame.html#a5cfcd1b8202b9f5d0f3c9a52dc43c879">PlayingGame::react()</a>.</p>
 
 </div>
 </div>
@@ -1902,7 +1925,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="classMessage.html#a8f088b791e82e11f90c4c9d81b4d46d4">Message::ReceivingPlayer()</a>, <a class="el" href="classMessage.html#a0d1ed6b09c93c5619e99bd07157ecdd9">Message::SendingPlayer()</a>, <a class="el" href="classMessage.html#a9377a808794641b36e14b5c222fd3116">Message::Size()</a>, <a class="el" href="classMessage.html#ad1193e571c9448fccbef383502cb4bfe">Message::SynchronousResponse()</a>, and <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking.html#a678a919ef5211e88b2aeb480eeebe98c">ClientNetworking::AsyncWriteMessage()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a4d1b61f93ebca60f0f14970f50c8f363">anonymous_namespace{ServerNetworking.cpp}::WriteMessage()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking.html#a678a919ef5211e88b2aeb480eeebe98c">ClientNetworking::AsyncWriteMessage()</a>, and <a class="el" href="classPlayerConnection.html#af053f4d9d4ece1bf2d08cbe419195241">PlayerConnection::SyncWriteMessage()</a>.</p>
 
 </div>
 </div>
@@ -2564,7 +2587,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74">anonymous_namespace{Message.cpp}::DUMMY_EMPTY_MESSAGE</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHumanClientApp.html#a93938299194af7e68edc07d4f602a3a1">HumanClientApp::EndGame()</a>, and <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">HumanClientApp::NewSinglePlayerGame()</a>.</p>
+<p>Referenced by <a class="el" href="structQuittingGame.html#ab6ffe8f125bca3984984440a28be5351">QuittingGame::react()</a>.</p>
 
 </div>
 </div>

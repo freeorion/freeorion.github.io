@@ -104,15 +104,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;boost/statechart/in_state_reaction.hpp&gt;</code><br />
 <code>#include &lt;boost/statechart/state.hpp&gt;</code><br />
 <code>#include &lt;boost/statechart/state_machine.hpp&gt;</code><br />
+<code>#include &lt;boost/asio/high_resolution_timer.hpp&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;unordered_set&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCheckEndConditions.html">CheckEndConditions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCheckStartConditions.html">CheckStartConditions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDisconnectClients.html">DisconnectClients</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDisconnection.html">Disconnection</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +138,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessTurn.html">ProcessTurn</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structServerFSM.html">ServerFSM</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structShutdownServer.html">ShutdownServer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structShuttingDownServer.html">ShuttingDownServer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPGameJoiners.html">WaitingForMPGameJoiners</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,7 +213,7 @@ Typedefs</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(HostMPGame)                            \</div><div class="line">    (HostSPGame)                            \</div><div class="line">    (StartMPGame)                           \</div><div class="line">    (LobbyUpdate)                           \</div><div class="line">    (LobbyChat)                             \</div><div class="line">    (JoinGame)                              \</div><div class="line">    (SaveGameRequest)                       \</div><div class="line">    (TurnOrders)                            \</div><div class="line">    (CombatTurnOrders)                      \</div><div class="line">    (ClientSaveData)                        \</div><div class="line">    (RequestObjectID)                       \</div><div class="line">    (RequestDesignID)                       \</div><div class="line">    (RequestCombatLogs)                     \</div><div class="line">    (PlayerChat)                            \</div><div class="line">    (Diplomacy)                             \</div><div class="line">    (ModeratorAct)                          \</div><div class="line">    (Error)</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line">(HostMPGame)                            \</div><div class="line">    (HostSPGame)                            \</div><div class="line">    (StartMPGame)                           \</div><div class="line">    (LobbyUpdate)                           \</div><div class="line">    (LobbyChat)                             \</div><div class="line">    (JoinGame)                              \</div><div class="line">    (LeaveGame)                             \</div><div class="line">    (SaveGameRequest)                       \</div><div class="line">    (TurnOrders)                            \</div><div class="line">    (CombatTurnOrders)                      \</div><div class="line">    (ClientSaveData)                        \</div><div class="line">    (RequestObjectID)                       \</div><div class="line">    (RequestDesignID)                       \</div><div class="line">    (RequestCombatLogs)                     \</div><div class="line">    (PlayerChat)                            \</div><div class="line">    (Diplomacy)                             \</div><div class="line">    (ModeratorAct)                          \</div><div class="line">    (Error)</div></div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a0fb0fafcecddf207ab0e58f7b5b5c8cd"></a>

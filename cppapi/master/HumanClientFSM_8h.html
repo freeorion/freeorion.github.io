@@ -102,6 +102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;boost/statechart/simple_state.hpp&gt;</code><br />
 <code>#include &lt;boost/statechart/state.hpp&gt;</code><br />
 <code>#include &lt;boost/statechart/state_machine.hpp&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -125,11 +126,19 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingTurn.html">PlayingTurn</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structResetToIntroMenu.html">ResetToIntroMenu</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html">QuittingGame</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structShutdownServer.html">ShutdownServer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structStartMPGameClicked.html">StartMPGameClicked</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structStartQuittingGame.html">StartQuittingGame</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTerminateServer.html">TerminateServer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTurnEnded.html">TurnEnded</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitForDisconnect.html">WaitForDisconnect</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html">WaitingForGameStart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,13 +185,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(<a class="code" href="structStartMPGameClicked.html">StartMPGameClicked</a>)                                        \</div><div class="line">    (<a class="code" href="structCancelMPGameClicked.html">CancelMPGameClicked</a>)                                       \</div><div class="line">    (<a class="code" href="structHostSPGameRequested.html">HostSPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structHostMPGameRequested.html">HostMPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structJoinMPGameRequested.html">JoinMPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structTurnEnded.html">TurnEnded</a>)                                                 \</div><div class="line">    (<a class="code" href="structResetToIntroMenu.html">ResetToIntroMenu</a>)</div><div class="ttc" id="structJoinMPGameRequested_html"><div class="ttname"><a href="structJoinMPGameRequested.html">JoinMPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:34</div></div>
-<div class="ttc" id="structCancelMPGameClicked_html"><div class="ttname"><a href="structCancelMPGameClicked.html">CancelMPGameClicked</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:25</div></div>
-<div class="ttc" id="structHostSPGameRequested_html"><div class="ttname"><a href="structHostSPGameRequested.html">HostSPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:28</div></div>
-<div class="ttc" id="structHostMPGameRequested_html"><div class="ttname"><a href="structHostMPGameRequested.html">HostMPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:31</div></div>
-<div class="ttc" id="structStartMPGameClicked_html"><div class="ttname"><a href="structStartMPGameClicked.html">StartMPGameClicked</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:22</div></div>
-<div class="ttc" id="structTurnEnded_html"><div class="ttname"><a href="structTurnEnded.html">TurnEnded</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:37</div></div>
-<div class="ttc" id="structResetToIntroMenu_html"><div class="ttname"><a href="structResetToIntroMenu.html">ResetToIntroMenu</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:41</div></div>
+<b>Value:</b><div class="fragment"><div class="line">(<a class="code" href="structStartMPGameClicked.html">StartMPGameClicked</a>)                                        \</div><div class="line">    (<a class="code" href="structCancelMPGameClicked.html">CancelMPGameClicked</a>)                                       \</div><div class="line">    (<a class="code" href="structHostSPGameRequested.html">HostSPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structHostMPGameRequested.html">HostMPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structJoinMPGameRequested.html">JoinMPGameRequested</a>)                                       \</div><div class="line">    (<a class="code" href="structTurnEnded.html">TurnEnded</a>)                                                 \</div><div class="line">    (<a class="code" href="structStartQuittingGame.html">StartQuittingGame</a>)                                         \</div><div class="line">    (<a class="code" href="structShutdownServer.html">ShutdownServer</a>)                                            \</div><div class="line">    (<a class="code" href="structWaitForDisconnect.html">WaitForDisconnect</a>)                                         \</div><div class="line">    (<a class="code" href="structTerminateServer.html">TerminateServer</a>)</div><div class="ttc" id="structJoinMPGameRequested_html"><div class="ttname"><a href="structJoinMPGameRequested.html">JoinMPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:35</div></div>
+<div class="ttc" id="structCancelMPGameClicked_html"><div class="ttname"><a href="structCancelMPGameClicked.html">CancelMPGameClicked</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:26</div></div>
+<div class="ttc" id="structShutdownServer_html"><div class="ttname"><a href="structShutdownServer.html">ShutdownServer</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:52</div></div>
+<div class="ttc" id="structWaitForDisconnect_html"><div class="ttname"><a href="structWaitForDisconnect.html">WaitForDisconnect</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:53</div></div>
+<div class="ttc" id="structTerminateServer_html"><div class="ttname"><a href="structTerminateServer.html">TerminateServer</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:54</div></div>
+<div class="ttc" id="structStartQuittingGame_html"><div class="ttname"><a href="structStartQuittingGame.html">StartQuittingGame</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:45</div></div>
+<div class="ttc" id="structHostSPGameRequested_html"><div class="ttname"><a href="structHostSPGameRequested.html">HostSPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:29</div></div>
+<div class="ttc" id="structHostMPGameRequested_html"><div class="ttname"><a href="structHostMPGameRequested.html">HostMPGameRequested</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:32</div></div>
+<div class="ttc" id="structStartMPGameClicked_html"><div class="ttname"><a href="structStartMPGameClicked.html">StartMPGameClicked</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:23</div></div>
+<div class="ttc" id="structTurnEnded_html"><div class="ttname"><a href="structTurnEnded.html">TurnEnded</a></div><div class="ttdef"><b>Definition:</b> HumanClientFSM.h:38</div></div>
 </div><!-- fragment --><p>This is a Boost.Preprocessor list of all the events above. As new events are added above, they should be added to this list as well. </p>
 
 <p>Referenced by <a class="el" href="structHumanClientFSM.html#a0f16966b1b79853faec620d990a60bab">HumanClientFSM::unconsumed_event()</a>.</p>

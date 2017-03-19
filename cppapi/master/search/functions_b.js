@@ -7,7 +7,6 @@ var searchData=
   ['keypresscatcher',['KeyPressCatcher',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1KeyPressCatcher.html#a5685c41acb55aa1c4a0386538aac3ace',1,'anonymous_namespace{OptionsWnd.cpp}::KeyPressCatcher']]],
   ['keyrelease',['KeyRelease',['../classMapWnd.html#a625d7e4d0e44f916d4917d9092a3d6c1',1,'MapWnd']]],
   ['kill',['Kill',['../classProcess_1_1Impl.html#a11f7e0b297bb25d9b867fac566775895',1,'Process::Impl::Kill()'],['../classProcess.html#ae10e07f87db5169c1000fbb978578775',1,'Process::Kill()']]],
-  ['killserver',['KillServer',['../classHumanClientApp.html#a8fc305c6dba2e2928b724adb16351571',1,'HumanClientApp']]],
   ['knownstarlanes',['KnownStarlanes',['../classEmpire.html#a105c5d95d972a970c68ed309d0229119',1,'Empire']]],
   ['knowntechfillcolor',['KnownTechFillColor',['../classClientUI.html#a77fe3c4cbbbd945cbb7d355d13b6489e',1,'ClientUI']]],
   ['knowntechtextandbordercolor',['KnownTechTextAndBorderColor',['../classClientUI.html#ad5b3ebd494729d2ec30caa84f32d9ae6',1,'ClientUI']]]

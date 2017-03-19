@@ -13,6 +13,7 @@ var searchData=
   ['chance',['Chance',['../structCondition_1_1Chance.html',1,'Condition']]],
   ['chancesimplematch',['ChanceSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ChanceSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['changefocusorder',['ChangeFocusOrder',['../classChangeFocusOrder.html',1,'']]],
+  ['checkendconditions',['CheckEndConditions',['../structCheckEndConditions.html',1,'']]],
   ['checkstartconditions',['CheckStartConditions',['../structCheckStartConditions.html',1,'']]],
   ['checkturnendconditions',['CheckTurnEndConditions',['../structCheckTurnEndConditions.html',1,'']]],
   ['cleanquit',['CleanQuit',['../classHumanClientApp_1_1CleanQuit.html',1,'HumanClientApp']]],

@@ -6,6 +6,7 @@ var searchData=
   ['category_5fiterator',['category_iterator',['../classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf',1,'TechManager']]],
   ['category_5frule',['category_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#ad15b2497b9f88b290aca7d0f0def8128',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
   ['chset_5ft',['chset_t',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a64f4303a3b619aa47b5492e0dea05957',1,'anonymous_namespace{XMLDoc.cpp}']]],
+  ['clock',['Clock',['../structQuittingGame.html#a32bdbf6746245dfe776d923ac7c57904',1,'QuittingGame::Clock()'],['../structShuttingDownServer.html#a65ff2f73562ac38d248cca82bbc1d103',1,'ShuttingDownServer::Clock()']]],
   ['color_5fparser_5frule',['color_parser_rule',['../namespaceparse_1_1detail.html#a0f19963960e211a517214ffc40183a22',1,'parse::detail']]],
   ['combateventptr',['CombatEventPtr',['../CombatEvent_8h.html#a009038f7dc0267377b1046596913dd7b',1,'CombatEvent.h']]],
   ['combatsummarymap',['CombatSummaryMap',['../classBarSizer.html#afb528e1d6b9ae59034124be81308bd0c',1,'BarSizer']]],

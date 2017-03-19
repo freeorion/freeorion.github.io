@@ -15,6 +15,7 @@ var searchData=
   ['techtreelayout',['TechTreeLayout',['../classTechTreeLayout.html',1,'']]],
   ['techtreewnd',['TechTreeWnd',['../classTechTreeWnd.html',1,'']]],
   ['tempuisounddisabler',['TempUISoundDisabler',['../structSound_1_1TempUISoundDisabler.html',1,'Sound']]],
+  ['terminateserver',['TerminateServer',['../structTerminateServer.html',1,'']]],
   ['textbrowsewnd',['TextBrowseWnd',['../classTextBrowseWnd.html',1,'']]],
   ['textlinker',['TextLinker',['../classTextLinker.html',1,'']]],
   ['threadqueue',['ThreadQueue',['../structThreadQueue.html',1,'']]],

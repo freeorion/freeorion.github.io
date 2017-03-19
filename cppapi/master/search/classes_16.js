@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['waitfordisconnect',['WaitForDisconnect',['../structWaitForDisconnect.html',1,'']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html',1,'']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'']]],
   ['waitingformphostack',['WaitingForMPHostAck',['../structWaitingForMPHostAck.html',1,'']]],
