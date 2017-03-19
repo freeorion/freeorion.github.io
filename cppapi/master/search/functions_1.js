@@ -98,7 +98,7 @@ var searchData=
   ['aiplayeridwithname',['AIPlayerIDWithName',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['alignment',['Alignment',['../classAlignment.html#aa6a6d08c8bc450073b54eae8f18e6556',1,'Alignment::Alignment(const std::string &amp;name, const std::string &amp;description, const std::string &amp;graphic)'],['../classAlignment.html#a091e21f0cfb741cb5cdc3535c6cc287f',1,'Alignment::Alignment()']]],
   ['alignmentmanager',['AlignmentManager',['../classanonymous__namespace_02Empire_8cpp_03_1_1AlignmentManager.html#a9c6f6ffb0f82852a2ed96f3ee3ca9415',1,'anonymous_namespace{Empire.cpp}::AlignmentManager']]],
-  ['alignments',['Alignments',['../classanonymous__namespace_02Empire_8cpp_03_1_1AlignmentManager.html#a5a9d5dbd7b31aeb4bbb6357570bbe847',1,'anonymous_namespace{Empire.cpp}::AlignmentManager::Alignments()'],['../namespaceparse.html#a25e1932b4d46912aed70c050997ca160',1,'parse::alignments()']]],
+  ['alignments',['Alignments',['../classanonymous__namespace_02Empire_8cpp_03_1_1AlignmentManager.html#a5a9d5dbd7b31aeb4bbb6357570bbe847',1,'anonymous_namespace{Empire.cpp}::AlignmentManager::Alignments()'],['../namespaceparse.html#a3de9eb82308461351cc2c1a0ae53dadb',1,'parse::alignments()']]],
   ['alive',['Alive',['../classParticipantBar.html#ac77811067fc3b12444754628ce8248c3',1,'ParticipantBar']]],
   ['all',['All',['../structCondition_1_1All.html#a0f545f981e596ae167762da8d0728a66',1,'Condition::All']]],
   ['all_5fcondition',['ALL_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5ac1f8cbc27933c8c4ce082dc97f3c3d',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
