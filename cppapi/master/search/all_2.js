@@ -90,7 +90,7 @@ var searchData=
   ['briniterror',['BrInitError',['../binreloc_8h.html#a75b9f001354b0025d1b7703b72b67072',1,'binreloc.h']]],
   ['browse_5fbtn_5fwidth',['BROWSE_BTN_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae22c527a3b027cf3d741d5637af50288',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html',1,'anonymous_namespace{OptionsWnd.cpp}']]],
-  ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a6d8329497eb67e92b2a02719ad458ad7',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
+  ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a0870b96eb26c65aa267386815a5dd636',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
   ['browsetextwidth',['BrowseTextWidth',['../namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a6732637a66e9601466bfaaecc1d8fb25',1,'anonymous_namespace{CensusBrowseWnd.cpp}::BrowseTextWidth()'],['../namespaceanonymous__namespace_02ResourceBrowseWnd_8cpp_03.html#a0abfa657fa47bd51195e6e892924276f',1,'anonymous_namespace{ResourceBrowseWnd.cpp}::BrowseTextWidth()']]],
   ['bt_5fbuilding',['BT_BUILDING',['../Enums_8h.html#a7058f1ba05145652343673d37708c9db',1,'Enums.h']]],
   ['bt_5fnot_5fbuilding',['BT_NOT_BUILDING',['../Enums_8h.html#ab50889e430c41c0094ab201209fd5ab2',1,'Enums.h']]],
