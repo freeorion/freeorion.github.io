@@ -31,6 +31,7 @@ var searchData=
   ['s_5fthe_5fui',['s_the_UI',['../classClientUI.html#a2d18e1cc75377d08cac56da4c3e9b303',1,'ClientUI']]],
   ['save_5ffile_5fcell_5fmargin',['SAVE_FILE_CELL_MARGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a50fdfab88df75e759738ce6b226e16ab',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['save_5ffile_5fwnd_5fname',['SAVE_FILE_WND_NAME',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#af53e80156ba93b8910afb919c74ebbb5',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
+  ['save_5fformat_5fmarker',['save_format_marker',['../structSaveGamePreviewData.html#af301f474d120a26a2ae84546670b6eae',1,'SaveGamePreviewData']]],
   ['save_5ftime',['save_time',['../structSaveGamePreviewData.html#a474bb6385eb7a60ca78848b559514287',1,'SaveGamePreviewData']]],
   ['saved_5fdesign_5frow_5fdrop_5fstring',['SAVED_DESIGN_ROW_DROP_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a0f97e661b8123c038b3263e15d3c46f2',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['saveddesignselectedsignal',['SavedDesignSelectedSignal',['../classBasesListBox.html#af55dd14f2569f5574f66ba3f6467986f',1,'BasesListBox::SavedDesignSelectedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a45c1d3898931cf335e3817026c89e730',1,'DesignWnd::BaseSelector::SavedDesignSelectedSignal()']]],
