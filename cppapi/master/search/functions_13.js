@@ -565,6 +565,7 @@ var searchData=
   ['start',['Start',['../classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607',1,'PlayerConnection']]],
   ['start_5fvar',['START_VAR',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a4bf2847f66e80fa891bfbfd413ca099f',1,'anonymous_namespace{VarText.cpp}']]],
   ['startgame',['StartGame',['../classHumanClientApp.html#a5a7255fde3c6c1f390f25b09042c48d9',1,'HumanClientApp']]],
+  ['starting_5fbuildings',['starting_buildings',['../namespaceparse.html#a1cf2f0677d2b1c6123985a2903ad9dfc',1,'parse']]],
   ['startingchilddragdrop',['StartingChildDragDrop',['../classSlotControl.html#ae51bea22f58ccd7f2ea808bc9de1f3e6',1,'SlotControl']]],
   ['startingspeciesname',['StartingSpeciesName',['../classGalaxySetupWnd.html#ac3aa8cd57ae3301b81030795011cc659',1,'GalaxySetupWnd']]],
   ['startmpgamemessage',['StartMPGameMessage',['../Message_8cpp.html#a7fcfda1e45ca2f2b259e092e339d58d7',1,'StartMPGameMessage(int player_id):&#160;Message.cpp'],['../Message_8h.html#a5e398661939c2510df188fb780a16b9a',1,'StartMPGameMessage(int player_id):&#160;Message.cpp']]],
