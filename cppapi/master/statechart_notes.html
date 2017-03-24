@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>FreeOrion: Related Pages</title>
+<title>FreeOrion: Notes on Boost Statechart transitions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -76,21 +75,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">Related Pages</div>  </div>
+<div class="title">Notes on Boost Statechart transitions </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all related documentation pages:</div><div class="directory">
-<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span>]</div><table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="statechart_notes.html" target="_self">Notes on Boost Statechart transitions</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><a class="el" href="content_tags.html" target="_self">Content Definition Tags</a></td><td class="desc">Content entries may have tags associated with them to help filter them for later effects </td></tr>
-<tr id="row_1_0_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a class="el" href="content_tags_alias.html" target="_self">content tags alias</a></td><td class="desc"></td></tr>
-<tr id="row_2_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="todo.html" target="_self">Todo List</a></td><td class="desc"></td></tr>
-<tr id="row_3_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="bug.html" target="_self">Bug List</a></td><td class="desc"></td></tr>
-</table>
-</div><!-- directory -->
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="reaction_transition_note"></a>
+Transistion Ordering and Reaction return values.</h1>
+<p>Transitions, transit&lt;&gt; or discard_event(), from states must occur from the current state. Transitioning from a state a second time causes indeterminate behavior and may crash. Transitioning from a state that is not the current state causes indeterminate behavior and may crash.</p>
+<p>Reactions handle events in states. They return a statechart::result from a transit&lt;&gt; or discard_event().</p>
+<p>In a reaction the state is transitioned when transit&lt;&gt; or discard_event() is called, not when the reaction returns. If a function is called within the reaction that may internally cause a transition, then the transistion out of the reaction's initial state must happen before the function is called. Save the return value and return it at the end of the reaction.</p>
+<p>This code is correct: </p><div class="fragment"><div class="line">boost::statechart::result SomeState::react(<span class="keyword">const</span> SomeEvent&amp; a) {</div><div class="line"></div><div class="line">    <span class="comment">// Transition before calling other code that may also transition</span></div><div class="line">    <span class="keyword">auto</span> retval = transit&lt;SomeOtherState&gt;();</div><div class="line"></div><div class="line">    <span class="comment">// Or the transit could be a discard event</span></div><div class="line">    <span class="comment">// auto retval = discard_event();</span></div><div class="line"></div><div class="line">    <span class="comment">// Call functions that might also transition.</span></div><div class="line">    Client().ResetToIntro();</div><div class="line">    <a class="code" href="classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00">ClientUI::MessageBox</a>(<span class="stringliteral">&quot;Some message&quot;</span>, <span class="keyword">true</span>);</div><div class="line"></div><div class="line">    <span class="comment">// Return the state chart result from the only transition in this reaction.</span></div><div class="line">    <span class="keywordflow">return</span> retval;</div><div class="line">}</div></div><!-- fragment --><p> discard_event() happens before any transitions inside ResetToIntro() or the MessageBox.</p>
+<p>Two constructions that may cause problems are: </p><pre class="fragment">- MessageBox blocks execution locally and starts an EventPump that handles events that may
+  transit&lt;&gt; to a new state which makes a local transition lexically after the MessageBox
+  potentially fatal.
+
+- Some client functions (ResetToIntro()) process events and change the state machine, so a
+  transition after the function is undefined and potentially fatal.</pre> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

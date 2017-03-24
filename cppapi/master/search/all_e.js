@@ -105,8 +105,8 @@ var searchData=
   ['not',['Not',['../structCondition_1_1Not.html',1,'Condition']]],
   ['not_5f',['not_',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a16a9fec4197441145838f71422c177d2',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['not_5fequal',['NOT_EQUAL',['../namespaceCondition.html#a43b44ac55c73177d91e4c164c5ed7395ab8bb24134e9d1728cd1f51eabf323bdf',1,'Condition']]],
-  ['notcoveredmapwndcondition',['NotCoveredMapWndCondition',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1NotCoveredMapWndCondition.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['notcoveredmapwndcondition',['NotCoveredMapWndCondition',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1NotCoveredMapWndCondition.html#acf616add6557268f0ce8efd0d5553469',1,'anonymous_namespace{MapWnd.cpp}::NotCoveredMapWndCondition']]],
+  ['notcoveredmapwndcondition',['NotCoveredMapWndCondition',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1NotCoveredMapWndCondition.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['nthfleetbuttonupperleft',['NthFleetButtonUpperLeft',['../classSystemIcon.html#a91c426c784f14fc59733843088f75191',1,'SystemIcon']]],
   ['null',['NULL',['../binreloc_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'binreloc.c']]],
   ['nullaryfn',['NullaryFn',['../ServerNetworking_8h.html#a736b1babfcf3d42045878bdbc21ad099',1,'ServerNetworking.h']]],
@@ -115,8 +115,8 @@ var searchData=
   ['num_5fcolumns',['NUM_COLUMNS',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#af2f426b8a0e4cf1fed09ed8a582b411c',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['num_5fmusic_5fbuffers',['NUM_MUSIC_BUFFERS',['../classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992',1,'Sound::Impl']]],
   ['num_5fsources',['NUM_SOURCES',['../classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb',1,'Sound::Impl']]],
-  ['number',['Number',['../structCondition_1_1Number.html#ab6f33134208afd1392d8fbb2b601c7a3',1,'Condition::Number::Number()'],['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0fa6f0153abb44bf5a3c87ed0634325f',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3::number()']]],
   ['number',['Number',['../structCondition_1_1Number.html',1,'Condition']]],
+  ['number',['Number',['../structCondition_1_1Number.html#ab6f33134208afd1392d8fbb2b601c7a3',1,'Condition::Number::Number()'],['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0fa6f0153abb44bf5a3c87ed0634325f',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3::number()']]],
   ['number_5flaunched',['number_launched',['../structFighterLaunchEvent.html#ae84fe9741e2f211503adc3e98ce70991',1,'FighterLaunchEvent']]],
   ['number_5fof',['number_of',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#aac3e65c369257f900587d9564ce80554',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['number_5fof1',['number_of1',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a5bb41eccfa5a362f864054e70077a42e',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
@@ -124,8 +124,8 @@ var searchData=
   ['number_5fof_5fempires',['number_of_empires',['../structSaveGamePreviewData.html#a4da585d66f0da6c8c17bddcec194f48f',1,'SaveGamePreviewData']]],
   ['number_5fof_5fhuman_5fplayers',['number_of_human_players',['../structSaveGamePreviewData.html#a3b007160b089161fb4417aebd7421df9',1,'SaveGamePreviewData']]],
   ['numberais',['NumberAIs',['../classGalaxySetupWnd.html#a31eb8d01ccc9b7f79d0a17a7c4e6d900',1,'GalaxySetupWnd']]],
-  ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html#a3e3989c4e7c1beb7de36e04f2b6b7455',1,'Condition::NumberedShipDesign']]],
   ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html',1,'Condition']]],
+  ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html#a3e3989c4e7c1beb7de36e04f2b6b7455',1,'Condition::NumberedShipDesign']]],
   ['numberedshipdesignsimplematch',['NumberedShipDesignSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1NumberedShipDesignSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['numberedshipdesignsimplematch',['NumberedShipDesignSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1NumberedShipDesignSimpleMatch.html#afa3f803b08f014bcd64fa8c2a0c00ef2',1,'Condition::anonymous_namespace{Condition.cpp}::NumberedShipDesignSimpleMatch']]],
   ['numberonqueue',['NumberOnQueue',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a77178c1635a7816ecc2c837e90c69306',1,'Condition::anonymous_namespace{Condition.cpp}']]],
@@ -143,5 +143,6 @@ var searchData=
   ['numspecies',['NumSpecies',['../classSpeciesManager.html#aca873ed5dd612fd6346b1521bb021db1',1,'SpeciesManager']]],
   ['numstarlanes',['NumStarlanes',['../classSystem.html#a8d89fde00bada266184c8d55cad71cf2',1,'System']]],
   ['numvisiblesitrepsthisturn',['NumVisibleSitrepsThisTurn',['../classSitRepPanel.html#af4bd0e6ae24ed501d713e335fc74b77d',1,'SitRepPanel']]],
-  ['numwormholes',['NumWormholes',['../classSystem.html#a4b85d8ceca07daa4a33800c1d16b6d68',1,'System']]]
+  ['numwormholes',['NumWormholes',['../classSystem.html#a4b85d8ceca07daa4a33800c1d16b6d68',1,'System']]],
+  ['notes_20on_20boost_20statechart_20transitions',['Notes on Boost Statechart transitions',['../statechart_notes.html',1,'']]]
 ];
