@@ -34,6 +34,7 @@ var searchData=
   ['save_5ftime',['save_time',['../structSaveGamePreviewData.html#a474bb6385eb7a60ca78848b559514287',1,'SaveGamePreviewData']]],
   ['saved_5fdesign_5frow_5fdrop_5fstring',['SAVED_DESIGN_ROW_DROP_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a0f97e661b8123c038b3263e15d3c46f2',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['saveddesignselectedsignal',['SavedDesignSelectedSignal',['../classBasesListBox.html#af55dd14f2569f5574f66ba3f6467986f',1,'BasesListBox::SavedDesignSelectedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a45c1d3898931cf335e3817026c89e730',1,'DesignWnd::BaseSelector::SavedDesignSelectedSignal()']]],
+  ['savegamecompletedsignal',['SaveGameCompletedSignal',['../classHumanClientApp.html#a2ba371d0768e469420589e86932013ee',1,'HumanClientApp']]],
   ['scanline_5fshader',['scanline_shader',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a2b38121993dabb9e6132d97b097e7e8c',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['schedule_5fqueue',['schedule_queue',['../structThreadQueue.html#a950f7d289c0f9b36e624d4fc68373dad',1,'ThreadQueue']]],
   ['schedule_5fqueue_5fsize',['schedule_queue_size',['../structThreadQueue.html#a65744d730f6eb7d1041f461103eda828',1,'ThreadQueue']]],

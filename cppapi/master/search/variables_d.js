@@ -941,6 +941,7 @@ var searchData=
   ['m_5fsave_5fgame',['m_save_game',['../structMultiplayerLobbyData.html#a0b5171d836a930039700230437c879a3',1,'MultiplayerLobbyData']]],
   ['m_5fsave_5fgame_5fempire_5fdata',['m_save_game_empire_data',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html#a2b38fc8a524107654a6abcf88d038432',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGamePlayerRow::m_save_game_empire_data()'],['../structMultiplayerLobbyData.html#ae55d3e1d805bb90eb9e7e386bb6b16f1',1,'MultiplayerLobbyData::m_save_game_empire_data()']]],
   ['m_5fsave_5fgame_5fempire_5fid',['m_save_game_empire_id',['../structPlayerSetupData.html#ade2862ad57c9aab9ba4a741bc6388a5e',1,'PlayerSetupData']]],
+  ['m_5fsave_5fgame_5fin_5fprogress',['m_save_game_in_progress',['../classHumanClientApp.html#a98bf11125f5d7964f150b126f089d73c',1,'HumanClientApp']]],
   ['m_5fsave_5fstate_5fstring',['m_save_state_string',['../structPlayerSaveGameData.html#ad8ab840cb4b5a05c1911b0f885779092',1,'PlayerSaveGameData']]],
   ['m_5fsaved_5fdesgins_5fin_5flist',['m_saved_desgins_in_list',['../classBasesListBox.html#a0c41c9c7b78841f078964ec0175930f1',1,'BasesListBox']]],
   ['m_5fsaved_5fdesigns',['m_saved_designs',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#af65cd871a4d1b8122b21e88781dfdb58',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
