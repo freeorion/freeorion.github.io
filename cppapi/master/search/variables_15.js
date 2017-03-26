@@ -6,6 +6,7 @@ var searchData=
   ['uit_5fship_5fpart',['UIT_SHIP_PART',['../Enums_8h.html#abe5d8f2c10b87b984266536bdefd4d95',1,'Enums.h']]],
   ['uit_5ftech',['UIT_TECH',['../Enums_8h.html#ae5270b93adc966d2ce2ce69c3f7b5865',1,'Enums.h']]],
   ['unable_5fto_5fopen_5ffile',['UNABLE_TO_OPEN_FILE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab9fa02b3accaf7f484b5fd850aea5661',1,'anonymous_namespace{DesignWnd.cpp}']]],
+  ['uncompressed_5ftext_5fsize',['uncompressed_text_size',['../structSaveGamePreviewData.html#aba363f6da7af5edc0bfceac6f23e75eb',1,'SaveGamePreviewData']]],
   ['unit_5fsummaries',['unit_summaries',['../structCombatSummary.html#a2e9cb9d6e9ecb3987db27c5ecd964a8d',1,'CombatSummary']]],
   ['universe_5fobject',['UNIVERSE_OBJECT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ae44864ad88710f794ad55c198ee2fad8',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['universeobjectdeletesignal',['UniverseObjectDeleteSignal',['../classUniverse.html#a654cddfe81c903c36ec02945ddedb4c1',1,'Universe']]],

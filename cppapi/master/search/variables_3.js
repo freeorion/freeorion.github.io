@@ -41,6 +41,7 @@ var searchData=
   ['common',['common',['../structparse_1_1detail_1_1rules.html#a81cd0033dabe3f8dd57fc4b0338af82a',1,'parse::detail::rules']]],
   ['complete_5fdesign_5frow_5fdrop_5fstring',['COMPLETE_DESIGN_ROW_DROP_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a8bdd0b5d7fc28ac474b74872392060c2',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['completedesignclickedsignal',['CompleteDesignClickedSignal',['../classDesignWnd_1_1MainPanel.html#a14bcc8d502deb844cdbbef3d007d6e03',1,'DesignWnd::MainPanel']]],
+  ['compressed_5ftext_5fsize',['compressed_text_size',['../structSaveGamePreviewData.html#a8c818dd5b3642f9c74cefb135fd89675',1,'SaveGamePreviewData']]],
   ['condition',['condition',['../structHotkeyManager_1_1ConditionalConnection.html#aa2e5690c48fb0a9f021ff7634bb5d462',1,'HotkeyManager::ConditionalConnection']]],
   ['condition_5flocal_5fcandidate',['condition_local_candidate',['../structScriptingContext.html#aaeab49b837f0eb00620aeb17d0099f68',1,'ScriptingContext']]],
   ['condition_5fparser',['condition_parser',['../namespaceparse_1_1detail.html#aca4535e1dd1dc57b320682a009fd2806',1,'parse::detail']]],
