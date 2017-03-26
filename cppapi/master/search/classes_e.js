@@ -31,6 +31,8 @@ var searchData=
   ['ownerhasbuildingtypeavailablesimplematch',['OwnerHasBuildingTypeAvailableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OwnerHasBuildingTypeAvailableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['ownerhasshipdesignavailable',['OwnerHasShipDesignAvailable',['../structCondition_1_1OwnerHasShipDesignAvailable.html',1,'Condition']]],
   ['ownerhasshipdesignavailablesimplematch',['OwnerHasShipDesignAvailableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OwnerHasShipDesignAvailableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['ownerhasshippartavailable',['OwnerHasShipPartAvailable',['../structCondition_1_1OwnerHasShipPartAvailable.html',1,'Condition']]],
+  ['ownerhasshippartavailablesimplematch',['OwnerHasShipPartAvailableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OwnerHasShipPartAvailableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['ownerhastech',['OwnerHasTech',['../structCondition_1_1OwnerHasTech.html',1,'Condition']]],
   ['ownerhastechsimplematch',['OwnerHasTechSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OwnerHasTechSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]]
 ];
