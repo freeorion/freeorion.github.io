@@ -358,6 +358,7 @@ var searchData=
   ['getstringtablelookupflag',['GetStringtableLookupFlag',['../classVarText.html#a870d6fdd4d10ffc26af8a05240a73206',1,'VarText']]],
   ['getstringvalueref',['GetStringValueRef',['../classConditionWidget.html#acf1b8efeec0d97cb39e5593524c5ce02',1,'ConditionWidget']]],
   ['getstringvaluerefvec',['GetStringValueRefVec',['../classConditionWidget.html#aa82fa1146049983ac9c267f0ef78e5e7',1,'ConditionWidget']]],
+  ['getsubdirs',['GetSubDirs',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a9fa7100bb9be64d7d7774c81805db4cb',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['getsupplymanager',['GetSupplyManager',['../classClientApp.html#a205dac428feb80380a96f0585a68a661',1,'ClientApp::GetSupplyManager()'],['../classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c',1,'ServerApp::GetSupplyManager()'],['../classIApp.html#a99fbceb67b271eb8d4178555394abca3',1,'IApp::GetSupplyManager()'],['../AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b',1,'GetSupplyManager():&#160;AppInterface.h']]],
   ['getsystem',['GetSystem',['../structCombatInfo.html#ae578d86c256aec78da22f75c9c9c879d',1,'CombatInfo::GetSystem() const '],['../structCombatInfo.html#a44441e8b69f19ee3cea6b9dc9eed3799',1,'CombatInfo::GetSystem()'],['../AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957',1,'GetSystem():&#160;AppInterface.h']]],
   ['getsystemnamesids',['GetSystemNamesIDs',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ac615a1fe904a8e16172e020cc6288221',1,'anonymous_namespace{MapWnd.cpp}']]],
