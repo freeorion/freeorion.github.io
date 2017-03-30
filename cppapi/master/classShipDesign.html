@@ -343,6 +343,8 @@ Accessors</h2></td></tr>
 <tr class="memitem:af7f8460b684603abf6cc19a1f8409b80"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump</a> () const </td></tr>
 <tr class="memdesc:af7f8460b684603abf6cc19a1f8409b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a data file format representation of this object  <a href="#af7f8460b684603abf6cc19a1f8409b80">More...</a><br /></td></tr>
 <tr class="separator:af7f8460b684603abf6cc19a1f8409b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f6ceb454c512411421cb3de8d729af"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum</a> () const </td></tr>
+<tr class="separator:a87f6ceb454c512411421cb3de8d729af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Returns true if the two designs have the same hull and parts. </p>
@@ -436,7 +438,7 @@ Accessors</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ValidDesign()</a>.</p>
+<p>References <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="Logger_8h.html#a11cf44c7da58a17a70ea182d90d4de3b">ErrorLogger</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#af810137f707023f956d62a7202c156fe">m_name</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ValidDesign()</a>.</p>
 
 </div>
 </div>
@@ -754,6 +756,26 @@ Accessors</h2></td></tr>
 <p>returns the max fuel capacity of this design </p>
 
 <p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a87f6ceb454c512411421cb3de8d729af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int ShipDesign::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a83dcea3818bc4affe57260dbbd606c59">anonymous_namespace{ShipDesign.cpp}::CheckSumCombine()</a>, <a class="el" href="classShipDesign.html#a10541d98dd579f75240610ac34d7ae63">m_3D_model</a>, <a class="el" href="classShipDesign.html#afcc897695fa7898b11e951854ef56f62">m_description</a>, <a class="el" href="classShipDesign.html#a89a6dcd8fb271c0c5b369f30315a2daf">m_designed_by_empire</a>, <a class="el" href="classShipDesign.html#ab11099d21611eea1f41f87fda0cf8e94">m_designed_on_turn</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa8a6faa21d6f2a7563698f9423d07320">m_icon</a>, <a class="el" href="classShipDesign.html#ad82c036e41e495af5e5bb67962b7e329">m_id</a>, <a class="el" href="classShipDesign.html#a184fc4891d8aa7ffe1fbb580d1703b59">m_is_monster</a>, <a class="el" href="classShipDesign.html#af810137f707023f956d62a7202c156fe">m_name</a>, <a class="el" href="classShipDesign.html#a838208ec38ef8eb5f6626fcec9fbb0ee">m_name_desc_in_stringtable</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+
+<p>Referenced by <a class="el" href="classPredefinedShipDesignManager.html#a34ffcb92537e46938d8b8bc3cbcebcae">PredefinedShipDesignManager::PredefinedShipDesignManager()</a>, and <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1907,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, and <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -1951,7 +1973,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#afa41b682de556284b356e350868efcf8">Description()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, and <a class="el" href="classShipDesign.html#a125a91ed7dcdbee255c4b101271c78f0">SetDescription()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#afa41b682de556284b356e350868efcf8">Description()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, and <a class="el" href="classShipDesign.html#a125a91ed7dcdbee255c4b101271c78f0">SetDescription()</a>.</p>
 
 </div>
 </div>
@@ -1973,6 +1995,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab11099d21611eea1f41f87fda0cf8e94"></a>
@@ -1992,6 +2016,8 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -2079,7 +2105,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>, and <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>, and <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>.</p>
 
 </div>
 </div>
@@ -2101,7 +2127,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, and <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -2123,7 +2149,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, and <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID()</a>.</p>
 
 </div>
 </div>
@@ -2189,6 +2215,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2e0332e10a3ca2f493b28722b1ec7c20"></a>
@@ -2231,7 +2259,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">Name()</a>, and <a class="el" href="classShipDesign.html#a36075f07633d37b8fb13f0d3db371f1d">SetName()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">Name()</a>, <a class="el" href="classShipDesign.html#a36075f07633d37b8fb13f0d3db371f1d">SetName()</a>, and <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>.</p>
 
 </div>
 </div>
@@ -2253,7 +2281,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#afa41b682de556284b356e350868efcf8">Description()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, and <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">Name()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#afa41b682de556284b356e350868efcf8">Description()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, and <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">Name()</a>.</p>
 
 </div>
 </div>
@@ -2319,7 +2347,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de">AdjustedAttack()</a>, <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c">CanColonize()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>, <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>, and <a class="el" href="classShipDesign.html#afadec1bb44bd9c2af24499304ef3bf93">Weapons()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de">AdjustedAttack()</a>, <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c">CanColonize()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a239dba5179f7e6e4f3e2819a34286503">ShipDesign()</a>, <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>, and <a class="el" href="classShipDesign.html#afadec1bb44bd9c2af24499304ef3bf93">Weapons()</a>.</p>
 
 </div>
 </div>
