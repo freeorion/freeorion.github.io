@@ -29,7 +29,7 @@ var searchData=
   ['mergefleetsintofleet',['MergeFleetsIntoFleet',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a2e65eb4ceaa59baebec4d4cee0d4263a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['message',['Message',['../classMessage.html#a4fc4f717b634e66070366cb7722d7761',1,'Message::Message()'],['../classMessage.html#a150e8ed20efdb4760818171670077b39',1,'Message::Message(MessageType message_type, int sending_player, int receiving_player, const std::string &amp;text, bool synchronous_response=false)']]],
   ['message_5fpanel_5fwidth',['MESSAGE_PANEL_WIDTH',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a724586eb76b0e3858fb74c9a9430fc95',1,'anonymous_namespace{ClientUI.cpp}']]],
-  ['messageavailable',['MessageAvailable',['../classClientNetworking.html#a907f807c34542454f10d4de9a96964ad',1,'ClientNetworking']]],
+  ['messageavailable',['MessageAvailable',['../classClientNetworking_1_1Impl.html#ad416de75f1512529b4812432be1bea6b',1,'ClientNetworking::Impl::MessageAvailable()'],['../classClientNetworking.html#a907f807c34542454f10d4de9a96964ad',1,'ClientNetworking::MessageAvailable()']]],
   ['messagebox',['MessageBox',['../classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00',1,'ClientUI']]],
   ['messageentered',['MessageEntered',['../classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a',1,'MessageWnd']]],
   ['messageeventbase',['MessageEventBase',['../structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851',1,'MessageEventBase::MessageEventBase(Message &amp;message)'],['../structMessageEventBase.html#a687e32a8524a305b17e6085fc9094fea',1,'MessageEventBase::MessageEventBase(const Message &amp;message, PlayerConnectionPtr &amp;player_connection)']]],

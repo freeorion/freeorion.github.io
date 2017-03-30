@@ -1,7 +1,8 @@
 var searchData=
 [
   ['sectiontable',['SectionTable',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a89dd5614e92c95fb5c0cb816e52a8675',1,'SectionedScopedTimer::Impl::Sections']]],
-  ['serverlist',['ServerList',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad5ab9cbf275508d65a603de7eaa60637',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::ServerList()'],['../classClientNetworking.html#a98060c80047a51397edaddbc65fa63d8',1,'ClientNetworking::ServerList()']]],
+  ['serverlist',['ServerList',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#a09a37814252fd081aa06f36ea9d73f38',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::ServerList()'],['../classClientNetworking_1_1Impl.html#a3f53bce8150911a17e6702b42eb78059',1,'ClientNetworking::Impl::ServerList()']]],
+  ['servernames',['ServerNames',['../classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c',1,'ClientNetworking']]],
   ['set',['Set',['../classFreeOrionPython_1_1SetWrapper.html#a246fb1ca58bf3863129da2c142f094db',1,'FreeOrionPython::SetWrapper']]],
   ['set_5fmeter_5frule',['set_meter_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#af0334340c9da27e8da1c6fc9764c0203',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#ab82e52e3a112e086c012599e3180a809',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],

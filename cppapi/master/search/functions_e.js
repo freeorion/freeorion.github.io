@@ -17,7 +17,7 @@ var searchData=
   ['neighbors',['Neighbors',['../classPathfinder_1_1PathfinderImpl.html#a2ba86d74d4e0f19cc16dfd371c12b4f7',1,'Pathfinder::PathfinderImpl']]],
   ['neighborscachehit',['NeighborsCacheHit',['../classPathfinder_1_1PathfinderImpl.html#a0078d396a5ae9f11b7aae9c8b71267ff',1,'Pathfinder::PathfinderImpl']]],
   ['networking',['Networking',['../classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa',1,'ClientApp::Networking()'],['../classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659',1,'ClientApp::Networking() const '],['../classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2',1,'ServerApp::Networking()']]],
-  ['networkingthread',['NetworkingThread',['../classClientNetworking.html#a4583eaef3dae71ea8ed4ea099d962680',1,'ClientNetworking']]],
+  ['networkingthread',['NetworkingThread',['../classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c',1,'ClientNetworking::Impl']]],
   ['newconnection',['NewConnection',['../classPlayerConnection.html#a97b118389ea07da19428c54350e77c87',1,'PlayerConnection']]],
   ['newdropdownlist',['NewDropDownList',['../classCUIStyle.html#ad2101a222db4961e8cc44dc823a3c1b2',1,'CUIStyle']]],
   ['newedit',['NewEdit',['../classCUIStyle.html#a8065021ca2b9788308ddbbf04ce13738',1,'CUIStyle']]],

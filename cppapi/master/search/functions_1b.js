@@ -17,6 +17,7 @@ var searchData=
   ['_7ecanaddstarlaneconnection',['~CanAddStarlaneConnection',['../structCondition_1_1CanAddStarlaneConnection.html#a87b78acc7b330700f9f789073c317711',1,'Condition::CanAddStarlaneConnection']]],
   ['_7echance',['~Chance',['../structCondition_1_1Chance.html#a62b2fc93e4a0233e1338d7473f5720fd',1,'Condition::Chance']]],
   ['_7eclientapp',['~ClientApp',['../classClientApp.html#afc7d439596001531d2b669408f9ca81b',1,'ClientApp']]],
+  ['_7eclientnetworking',['~ClientNetworking',['../classClientNetworking.html#a7991eef52f70736431cacee9ac10fd7e',1,'ClientNetworking']]],
   ['_7eclientui',['~ClientUI',['../classClientUI.html#ad2fe5ef1a59fc2446794b87b00c46b63',1,'ClientUI']]],
   ['_7ecolorselector',['~ColorSelector',['../classColorSelector.html#a8c5de1d7bf1515c11ba0157e2b11aff4',1,'ColorSelector']]],
   ['_7ecombatevent',['~CombatEvent',['../structCombatEvent.html#a227587f1d7e1b64406acab8133a22b0e',1,'CombatEvent']]],
