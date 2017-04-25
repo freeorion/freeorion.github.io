@@ -186,6 +186,7 @@ var searchData=
   ['setfocus',['SetFocus',['../classSidePanel_1_1PlanetPanel.html#a0b0412900d20ba3ba91edd90a235eb65',1,'SidePanel::PlanetPanel::SetFocus()'],['../classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a',1,'ResourceCenter::SetFocus()']]],
   ['setfont',['SetFont',['../classCombatLogWnd_1_1Impl.html#a7f5a26dc3a5380f7b3a94edccca2fe60',1,'CombatLogWnd::Impl::SetFont()'],['../classCombatLogWnd.html#a7190633c3d5f1774dbdfa83757da93a7',1,'CombatLogWnd::SetFont()']]],
   ['setfromcommandline',['SetFromCommandLine',['../classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e',1,'OptionsDB']]],
+  ['setfromfile',['SetFromFile',['../classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f',1,'OptionsDB']]],
   ['setfromsetupdata',['SetFromSetupData',['../classGalaxySetupPanel.html#a1dbb15c2dabaf04fdeb2e11190ffb16e',1,'GalaxySetupPanel']]],
   ['setfromstring',['SetFromString',['../classHotkey.html#aa835bc20f92dae8ef8cb3f50ddcb3511',1,'Hotkey::SetFromString()'],['../structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664',1,'OptionsDB::Option::SetFromString()']]],
   ['setfromvalue',['SetFromValue',['../structOptionsDB_1_1Option.html#acc58dda801d3a8ade27ff041c90fc43f',1,'OptionsDB::Option']]],

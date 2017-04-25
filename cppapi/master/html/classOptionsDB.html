@@ -166,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2eb6a0f41742afd8d82261f2b047d52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32deca7693ffe60f5d65d19d40211d1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine</a> (const std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="separator:a32deca7693ffe60f5d65d19d40211d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd14c7bf6621c8f1d59e4f0db41ec4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f">SetFromFile</a> (const boost::filesystem::path &amp;file_path, const std::string &amp;version=&quot;&quot;)</td></tr>
+<tr class="separator:a1bd14c7bf6621c8f1d59e4f0db41ec4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1597deae00990e4071bd2d1ddfbcab7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a1597deae00990e4071bd2d1ddfbcab7d">SetFromXML</a> (const <a class="el" href="classXMLDoc.html">XMLDoc</a> &amp;doc)</td></tr>
 <tr class="separator:a1597deae00990e4071bd2d1ddfbcab7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4740aaf296d8bf7242142d37f2cc31c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a4740aaf296d8bf7242142d37f2cc31c5">Validate</a> (const std::string &amp;name, const std::string &amp;value) const </td></tr>
@@ -980,6 +982,37 @@ template&lt;class T &gt; </div>
 
 <p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">OptionsDB::Option::flag</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1Option.html#a6ab634ceb5aeeee49bfd9966314cfb88">OptionsDB::Option::name</a>, <a class="el" href="structOptionsDB_1_1Option.html#a1b0305c05240e746cc4df592edeff97d">OptionsDB::Option::Option()</a>, <a class="el" href="structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664">OptionsDB::Option::SetFromString()</a>, <a class="el" href="structOptionsDB_1_1Option.html#a73e32d755b980c2137f0cc26277c25c5">OptionsDB::Option::short_names</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a8be4512b2ce05c15e981bf854339ba84">anonymous_namespace{OptionsDB.cpp}::StripQuotation()</a>, and <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">OptionsDB::Option::value</a>.</p>
 
+<p>Referenced by <a class="el" href="dmain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bd14c7bf6621c8f1d59e4f0db41ec4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OptionsDB::SetFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>version</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if an xml file exists at <em>file_path</em> and has the same version tag as <em>version</em>, fill the DB options contained in that file (read the file using <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a>, then fill the DB using SetFromXML) if the <em>version</em> string is empty, bypass that check </p>
+
+<p>References <a class="el" href="classXMLElement.html#af4cdfd4314fd26fbcf3fd1294afbf0e9">XMLElement::Child()</a>, <a class="el" href="classXMLElement.html#a996508e4849ecdb1b73a96613a1bbd41">XMLElement::ContainsChild()</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd">XMLDoc::ReadDoc()</a>, <a class="el" href="classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a">XMLDoc::root_node</a>, <a class="el" href="classOptionsDB.html#a1597deae00990e4071bd2d1ddfbcab7d">SetFromXML()</a>, <a class="el" href="classXMLElement.html#a7c1d767a62a4f53e2683b18e41fcea09">XMLElement::Text()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
 <p>Referenced by <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
 </div>
@@ -1001,7 +1034,7 @@ template&lt;class T &gt; </div>
 
 <p>References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a">XMLDoc::root_node</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>.</p>
 
-<p>Referenced by <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+<p>Referenced by <a class="el" href="classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f">SetFromFile()</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1128,7 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>returns the single instance of the <a class="el" href="classOptionsDB.html">OptionsDB</a> class </p>
 
-<p>Referenced by <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>.</p>
+<p>Referenced by <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, <a class="el" href="classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f">SetFromFile()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>.</p>
 
 </div>
 </div>
