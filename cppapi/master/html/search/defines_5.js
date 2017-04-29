@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['fatallogger',['FatalLogger',['../Logger_8h.html#a69e59421bd5b9ccb9ba1c22ff59cc933',1,'Logger.h']]],
   ['fo_5fcommon_5fapi',['FO_COMMON_API',['../Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6',1,'Export.h']]],
   ['fo_5flogger',['FO_LOGGER',['../Logger_8h.html#a03139356f1cddbe0084f358b9d4e58ba',1,'Logger.h']]],
   ['fo_5fparse_5fapi',['FO_PARSE_API',['../Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5',1,'Parse.h']]],

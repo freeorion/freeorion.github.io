@@ -2,7 +2,6 @@ var searchData=
 [
   ['factory',['Factory',['../classCUILinkTextBlock_1_1Factory.html',1,'CUILinkTextBlock']]],
   ['fake_5fmode_5fchange_5fflag',['FAKE_MODE_CHANGE_FLAG',['../chmain_8cpp.html#a939e21f37bc15008ced514fdf94896ec',1,'chmain.cpp']]],
-  ['fatallogger',['FatalLogger',['../Logger_8h.html#a69e59421bd5b9ccb9ba1c22ff59cc933',1,'Logger.h']]],
   ['field',['Field',['../classField.html',1,'Field'],['../structanonymous__namespace_02FieldsParser_8cpp_03_1_1rules.html#a4cf34b26994b813e55786c019e5eb7df',1,'anonymous_namespace{FieldsParser.cpp}::rules::field()'],['../classField.html#a3e804c92273d9159f413f227b535c672',1,'Field::Field()'],['../classField.html#a11c21389e9d357e559c507485516f6dc',1,'Field::Field(const std::string &amp;field_type, double x, double y, double radius)']]],
   ['field_2ecpp',['Field.cpp',['../Field_8cpp.html',1,'']]],
   ['field_2eh',['Field.h',['../Field_8h.html',1,'']]],
@@ -194,8 +193,8 @@ var searchData=
   ['focusdroplistopened',['FocusDropListOpened',['../classSidePanel_1_1PlanetPanel.html#a6a9ef69597d3f42fb469c39e15324406',1,'SidePanel::PlanetPanel']]],
   ['focusdroplistselectionchangedslot',['FocusDropListSelectionChangedSlot',['../classSidePanel_1_1PlanetPanel.html#a8a85f399bc254e4a4e8d169bb112c029',1,'SidePanel::PlanetPanel']]],
   ['focusicon',['FocusIcon',['../classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd',1,'Planet::FocusIcon()'],['../classResourceCenter.html#a7c7dc50e5f78cc7fc96253de97a3fbfc',1,'ResourceCenter::FocusIcon()']]],
-  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition']]],
   ['focustype',['FocusType',['../classFocusType.html',1,'FocusType'],['../structCondition_1_1FocusType.html#ae12de2f494d8e1c15bc5a3f90a530b7c',1,'Condition::FocusType::FocusType()'],['../classFocusType.html#ab24521528d3c799420e4132e7d4edca8',1,'FocusType::FocusType()'],['../classFocusType.html#a719282d970e6d755c02cfeb4224ded79',1,'FocusType::FocusType(const std::string &amp;name, const std::string &amp;description, const Condition::ConditionBase *location, const std::string &amp;graphic)']]],
+  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition']]],
   ['focustype_5fcondition',['FOCUSTYPE_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a49b0c793e7ff67b91bcb54168985f931',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['focustypesimplematch',['FocusTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FocusTypeSimpleMatch.html#aadd83f53fed8a3c3845acfbc58be15e0',1,'Condition::anonymous_namespace{Condition.cpp}::FocusTypeSimpleMatch']]],
   ['focustypesimplematch',['FocusTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FocusTypeSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],

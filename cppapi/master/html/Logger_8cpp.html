@@ -119,8 +119,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a47dbe4d05d4ce283e874d4abfc867862"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent</a> ()</td></tr>
 <tr class="separator:a47dbe4d05d4ce283e874d4abfc867862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca56843833d71ae406b9da9824815d2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8cpp.html#aca56843833d71ae406b9da9824815d2d">InitLogger</a> (const std::string &amp;logFile, const std::string &amp;process)</td></tr>
-<tr class="separator:aca56843833d71ae406b9da9824815d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f0dc294871df27ce9dc4e63d6bf803"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8cpp.html#a11f0dc294871df27ce9dc4e63d6bf803">InitLoggingSystem</a> (const std::string &amp;logFile, const std::string &amp;process)</td></tr>
+<tr class="separator:a11f0dc294871df27ce9dc4e63d6bf803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ccab3685de8de1403cb05264408ef94"><td class="memItemLeft" align="right" valign="top">logging::trivial::severity_level&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Logger_8cpp_03.html#a1ccab3685de8de1403cb05264408ef94">anonymous_namespace{Logger.cpp}::IntToSeverity</a> (int num)</td></tr>
 <tr class="separator:a1ccab3685de8de1403cb05264408ef94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2812abf2807d4388b3dc77622b779afa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8cpp.html#a2812abf2807d4388b3dc77622b779afa">PriorityValue</a> (const std::string &amp;name)</td></tr>
@@ -156,12 +156,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca56843833d71ae406b9da9824815d2d"></a>
+<a class="anchor" id="a11f0dc294871df27ce9dc4e63d6bf803"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void InitLogger </td>
+          <td class="memname">void InitLoggingSystem </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>logFile</em>, </td>
@@ -170,7 +170,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>pattern</em>&#160;</td>
+          <td class="paramname"><em>root_logger_name</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,7 +179,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Initializes the logging system. Log to the given file. If the file already exists it will be deleted. </p>
+<p>Initializes the logging system. Log to the given file. If the file already exists it will be deleted. <code>root_logger_name</code> is the name by which the default logger "" appears in the log file. </p>
 
 <p>References <a class="el" href="Logger_8h.html#a9712f05eb282862274edc324f9e3f2da">DebugLogger</a>, <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, <a class="el" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Logger_8h.html#a7fd08e4dc95171c25bf7010a5867803b">InfoLogger</a>, <a class="el" href="Logger_8cpp.html#a2812abf2807d4388b3dc77622b779afa">PriorityValue()</a>, and <a class="el" href="Logger_8cpp.html#ab53950b97c7891b099422a43938dcd4d">SetLoggerPriority()</a>.</p>
 
@@ -204,7 +204,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Logger_8cpp_03.html#afdecc1902f634ee6d4396d1c075fd065">anonymous_namespace{Logger.cpp}::StringToSeverityInt()</a>.</p>
 
-<p>Referenced by <a class="el" href="Logger_8h.html#a91b96cf2e6c5710341d8b32caed4303f">InitLogger()</a>.</p>
+<p>Referenced by <a class="el" href="Logger_8h.html#ae89ac43a6c368f327486f5174d20e871">InitLoggingSystem()</a>.</p>
 
 </div>
 </div>
@@ -225,7 +225,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get()</a>, and <a class="el" href="namespaceanonymous__namespace_02Logger_8cpp_03.html#a1ccab3685de8de1403cb05264408ef94">anonymous_namespace{Logger.cpp}::IntToSeverity()</a>.</p>
 
-<p>Referenced by <a class="el" href="Logger_8h.html#a91b96cf2e6c5710341d8b32caed4303f">InitLogger()</a>.</p>
+<p>Referenced by <a class="el" href="Logger_8h.html#ae89ac43a6c368f327486f5174d20e871">InitLoggingSystem()</a>.</p>
 
 </div>
 </div>
