@@ -162,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad91b11e15da1058c43fa21ceb01c0d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c34415521c8cc7893405dbc15820fc"><td class="memItemLeft" align="right" valign="top">CaptureResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#a66c34415521c8cc7893405dbc15820fc">GetCaptureResult</a> (int from_empire_id, int to_empire_id, int location_id, bool as_production_item) const </td></tr>
 <tr class="separator:a66c34415521c8cc7893405dbc15820fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edec3247b9eefaf02b562d3d9d830e5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#a9edec3247b9eefaf02b562d3d9d830e5">GetCheckSum</a> () const </td></tr>
+<tr class="separator:a9edec3247b9eefaf02b562d3d9d830e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -426,7 +428,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns true iff the empire with ID empire_id can enqueue this building at the location with location_id </p>
 
-<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, and <a class="el" href="classBuildingTypeManager.html#a7f1f4f57048b5ce318991ab5997d3e55">BuildingTypeManager::s_instance</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, and <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>.</p>
 
 </div>
 </div>
@@ -476,6 +478,24 @@ Private Attributes</h2></td></tr>
 <p>returns CaptureResult for empire with ID <em>to_empire_id</em> capturing from empire with IDs <em>from_empire_id</em> the planet (or other <a class="el" href="classUniverseObject.html">UniverseObject</a>) with id <em>location_id</em> on which this type of <a class="el" href="classBuilding.html">Building</a> is located (if <em>as_production_item</em> is false) or which is the location of a Production Queue BuildItem for a building of this type (otherwise) </p>
 
 <p>Referenced by <a class="el" href="classPlanet.html#ae7db84264c28a0e961215dd136cf3782">Planet::Conquer()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">Empire::ConquerProductionQueueItemsAtLocation()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9edec3247b9eefaf02b562d3d9d830e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int BuildingType::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a5b0c6907712d4acccefd715a36526873">CheckSums::CheckSumCombine()</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">UniverseObject::m_name</a>, and <a class="el" href="classBuildingTypeManager.html#a7f1f4f57048b5ce318991ab5997d3e55">BuildingTypeManager::s_instance</a>.</p>
 
 </div>
 </div>
