@@ -6,5 +6,7 @@ var searchData=
   ['linktext_2eh',['LinkText.h',['../LinkText_8h.html',1,'']]],
   ['logger_2ecpp',['Logger.cpp',['../Logger_8cpp.html',1,'']]],
   ['logger_2eh',['Logger.h',['../Logger_8h.html',1,'']]],
+  ['loggerwithoptionsdb_2ecpp',['LoggerWithOptionsDB.cpp',['../LoggerWithOptionsDB_8cpp.html',1,'']]],
+  ['loggerwithoptionsdb_2eh',['LoggerWithOptionsDB.h',['../LoggerWithOptionsDB_8h.html',1,'']]],
   ['loggingwrapper_2ecpp',['LoggingWrapper.cpp',['../LoggingWrapper_8cpp.html',1,'']]]
 ];

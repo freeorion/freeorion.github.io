@@ -75,6 +75,7 @@ var searchData=
   ['refreshtraderesourceindicator',['RefreshTradeResourceIndicator',['../classMapWnd.html#a7c1349fd626c63392254cb44780ffba8',1,'MapWnd']]],
   ['registercompleteddesigndump',['RegisterCompletedDesignDump',['../classDesignWnd_1_1MainPanel.html#a8381df2b3b7e37d9a76acd259fe4de77',1,'DesignWnd::MainPanel']]],
   ['registerlinktags',['RegisterLinkTags',['../LinkText_8cpp.html#a8355095b52f01351971392431c3fb60c',1,'RegisterLinkTags():&#160;LinkText.cpp'],['../LinkText_8h.html#a8355095b52f01351971392431c3fb60c',1,'RegisterLinkTags():&#160;LinkText.cpp']]],
+  ['registerloggerwithoptionsdb',['RegisterLoggerWithOptionsDB',['../LoggerWithOptionsDB_8cpp.html#a97670cb2f11ea46b901e3a9d2f6d3274',1,'RegisterLoggerWithOptionsDB(const std::string name):&#160;LoggerWithOptionsDB.cpp'],['../LoggerWithOptionsDB_8h.html#aaf2030b78d218e4f7971e5d73cb0f72a',1,'RegisterLoggerWithOptionsDB(const std::string logger):&#160;LoggerWithOptionsDB.cpp']]],
   ['registeroptions',['RegisterOptions',['../OptionsDB_8cpp.html#aa66d0446731eee94857065953f710b4c',1,'RegisterOptions(OptionsDBFn function):&#160;OptionsDB.cpp'],['../OptionsDB_8h.html#aebc5fdb4c86f4e04209bbc10276cd92f',1,'RegisterOptions(OptionsDBFn function):&#160;OptionsDB.cpp']]],
   ['registerpopup',['RegisterPopup',['../classMapWnd.html#a53f0c2f5a9f9762a9c27c3801ea8e788',1,'MapWnd']]],
   ['registerwindows',['RegisterWindows',['../classMapWnd.html#a843319bbce7e883920510595ed55d164',1,'MapWnd']]],

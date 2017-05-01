@@ -113,6 +113,7 @@ var searchData=
   ['source',['source',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a629bab6200f11260c39ceecc0d70f8a1',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1::source()'],['../structScriptingContext.html#a599dadb042c5807203aeb3d552dcd3a4',1,'ScriptingContext::source()']]],
   ['source_5fid',['source_id',['../structEffect_1_1AccountingInfo.html#ae7958775ca2586c0471e0fff761c0fc5',1,'Effect::AccountingInfo']]],
   ['source_5fobject_5fid',['source_object_id',['../structEffect_1_1SourcedEffectsGroup.html#a542dd0d130ab50fcf7fc5c9481a8ceb6',1,'Effect::SourcedEffectsGroup']]],
+  ['source_5foption_5fname_5fprefix',['source_option_name_prefix',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#a70b2628db40bde8814f9c37c9379e11d',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['sp_5fsave_5ffile_5fextension',['SP_SAVE_FILE_EXTENSION',['../MultiplayerCommon_8cpp.html#a8df2a27573ddeb9deabc50e42b9326bd',1,'SP_SAVE_FILE_EXTENSION():&#160;MultiplayerCommon.cpp'],['../MultiplayerCommon_8h.html#a1ff0c9cbb0f6db0adf631ef16ee31dc4',1,'SP_SAVE_FILE_EXTENSION():&#160;MultiplayerCommon.cpp']]],
   ['spawn',['spawn',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1rules.html#a13c37b142c43aee7227fcb862e956e4c',1,'anonymous_namespace{SpecialsParser.cpp}::rules']]],
   ['spawns',['spawns',['../structanonymous__namespace_02MonsterFleetPlansParser_8cpp_03_1_1rules.html#a88ca380272a03aa25ff81746efc33da5',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}::rules']]],

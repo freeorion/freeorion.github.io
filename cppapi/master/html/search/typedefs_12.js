@@ -11,6 +11,8 @@ var searchData=
   ['techcontainer',['TechContainer',['../classTechManager.html#ab3d4a9c9ba76b2c55194af857854c4a6',1,'TechManager']]],
   ['techsignaltype',['TechSignalType',['../classTechTreeWnd.html#a90c899b03faab70556b7b134a4ced728',1,'TechTreeWnd']]],
   ['text_5fiterator',['text_iterator',['../namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8',1,'parse']]],
+  ['textfilesinkbackend',['TextFileSinkBackend',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a9c3ea2e5b99072271dc04cb32ab664d1',1,'anonymous_namespace{Logger.cpp}']]],
+  ['textfilesinkfrontend',['TextFileSinkFrontend',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#ac4162f1e4c4c06600d5dcec1cb8d4265',1,'anonymous_namespace{Logger.cpp}']]],
   ['texturesanddist',['TexturesAndDist',['../classClientUI.html#a0f9ac1f1c97630d7280c7a84bca58e53',1,'ClientUI']]],
   ['togglegetter',['ToggleGetter',['../structOptionsBar_1_1ToggleData.html#ac3c88597174235ba4f24f76f1d4d560a',1,'OptionsBar::ToggleData']]],
   ['togglesetter',['ToggleSetter',['../structOptionsBar_1_1ToggleData.html#a0ddaa7f6e2a1fc6d33fe17291b2d1ad0',1,'OptionsBar::ToggleData']]],
