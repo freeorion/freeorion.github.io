@@ -153,12 +153,18 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7ecc66dfb98a2030253b0b9f89a180dd"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a7ecc66dfb98a2030253b0b9f89a180dd">DeleteAction</a> (GG::ListBox::iterator it) const </td></tr>
+<tr class="separator:a7ecc66dfb98a2030253b0b9f89a180dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6a0f9ed0764b6f0b68e48d7a8b7eea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#aae6a0f9ed0764b6f0b68e48d7a8b7eea">DropsAcceptable</a> (DropsAcceptableIter first, DropsAcceptableIter last, const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) const override</td></tr>
 <tr class="separator:aae6a0f9ed0764b6f0b68e48d7a8b7eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f213d944cf82f9611ffc81b6a396522"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl</a> (GG::ListBox::iterator it, const GG::Pt &amp;pt, const GG::Flags&lt; GG::ModKey &gt; &amp;modkeys)</td></tr>
 <tr class="separator:a5f213d944cf82f9611ffc81b6a396522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad226cb581d312374e35440cadf70d79d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#ad226cb581d312374e35440cadf70d79d">KeyPress</a> (GG::Key key, std::uint32_t key_code_point, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:ad226cb581d312374e35440cadf70d79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7170a3b8ca86db059bdffe819c0a0714"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a7170a3b8ca86db059bdffe819c0a0714">MoveToBottomAction</a> (GG::ListBox::iterator it) const </td></tr>
+<tr class="separator:a7170a3b8ca86db059bdffe819c0a0714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9b95facccfe8f5b9bfa5cff7bf7614"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#aba9b95facccfe8f5b9bfa5cff7bf7614">MoveToTopAction</a> (GG::ListBox::iterator it) const </td></tr>
+<tr class="separator:aba9b95facccfe8f5b9bfa5cff7bf7614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -274,6 +280,35 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classQueueListBox.html#a00a2975be5f3f01bccd687f548906834">DragDropLeave()</a>.</p>
 
 <p>Referenced by <a class="el" href="classQueueListBox.html#ae8bda8c069905a216756715177ff2045">OrderIssuingEnabled()</a>, <a class="el" href="classBasesListBox.html#a19b3a5346a75b9ab9453fba168bd8089">BasesListBox::PopulateWithCompletedDesigns()</a>, <a class="el" href="classBasesListBox.html#ab8f0dfc317fa32ba74e8160b2d1a80c0">BasesListBox::PopulateWithMonsters()</a>, <a class="el" href="classBasesListBox.html#a3c8baa84ae82b15d2dcc513d9ef6bb5f">BasesListBox::PopulateWithSavedDesigns()</a>, <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">ProductionWnd::UpdateQueue()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ecc66dfb98a2030253b0b9f89a180dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt; void()&gt; QueueListBox::DeleteAction </td>
+          <td>(</td>
+          <td class="paramtype">GG::ListBox::iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a functor that will signal that <code>it</code> should be deleted. </p>
+
+<p>References <a class="el" href="classQueueListBox.html#a3f2482b987e9c224ad9151062891c958">QueueItemDeletedSignal</a>.</p>
+
+<p>Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
 
 </div>
 </div>
@@ -557,7 +592,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f">BasesListBox</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955">anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox</a>, and <a class="el" href="classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2">ResearchQueueListBox</a>.</p>
 
-<p>References <a class="el" href="classQueueListBox.html#a3f2482b987e9c224ad9151062891c958">QueueItemDeletedSignal</a>, <a class="el" href="classQueueListBox.html#a6b73bde6b3887fd3a26cbb8dfbc17104">QueueItemMovedSignal</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classQueueListBox.html#a7ecc66dfb98a2030253b0b9f89a180dd">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#a7170a3b8ca86db059bdffe819c0a0714">MoveToBottomAction()</a>, <a class="el" href="classQueueListBox.html#aba9b95facccfe8f5b9bfa5cff7bf7614">MoveToTopAction()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classQueueListBox.html#a66645ad462b6806073a05fa302333849">ItemRightClicked()</a>.</p>
 
@@ -602,6 +637,64 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classQueueListBox.html#a3f2482b987e9c224ad9151062891c958">QueueItemDeletedSignal</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7170a3b8ca86db059bdffe819c0a0714"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt; void()&gt; QueueListBox::MoveToBottomAction </td>
+          <td>(</td>
+          <td class="paramtype">GG::ListBox::iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a functor that will signal that <code>it</code> should be moved to the bottom of the list. </p>
+
+<p>References <a class="el" href="classQueueListBox.html#a6b73bde6b3887fd3a26cbb8dfbc17104">QueueItemMovedSignal</a>.</p>
+
+<p>Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba9b95facccfe8f5b9bfa5cff7bf7614"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt; void()&gt; QueueListBox::MoveToTopAction </td>
+          <td>(</td>
+          <td class="paramtype">GG::ListBox::iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a functor that will signal that <code>it</code> should be moved to the top of the list. </p>
+
+<p>References <a class="el" href="classQueueListBox.html#a6b73bde6b3887fd3a26cbb8dfbc17104">QueueItemMovedSignal</a>.</p>
+
+<p>Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
 
 </div>
 </div>
@@ -884,7 +977,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>, <a class="el" href="classQueueListBox.html#ad226cb581d312374e35440cadf70d79d">KeyPress()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd::ResearchWnd()</a>.</p>
+<p>Referenced by <a class="el" href="classQueueListBox.html#a7ecc66dfb98a2030253b0b9f89a180dd">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#ad226cb581d312374e35440cadf70d79d">KeyPress()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd::ResearchWnd()</a>.</p>
 
 </div>
 </div>
@@ -898,7 +991,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classQueueListBox.html#aeb4ad6d6d0d2e0b222222adffaa0b901">AcceptDrops()</a>, <a class="el" href="classBasesListBox.html#ae25dd742479a1ccb8e7748930f26e617">BasesListBox::BasesListBox()</a>, <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd::ResearchWnd()</a>.</p>
+<p>Referenced by <a class="el" href="classQueueListBox.html#aeb4ad6d6d0d2e0b222222adffaa0b901">AcceptDrops()</a>, <a class="el" href="classBasesListBox.html#ae25dd742479a1ccb8e7748930f26e617">BasesListBox::BasesListBox()</a>, <a class="el" href="classQueueListBox.html#a7170a3b8ca86db059bdffe819c0a0714">MoveToBottomAction()</a>, <a class="el" href="classQueueListBox.html#aba9b95facccfe8f5b9bfa5cff7bf7614">MoveToTopAction()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd::ResearchWnd()</a>.</p>
 
 </div>
 </div>

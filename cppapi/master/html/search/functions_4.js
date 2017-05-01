@@ -23,6 +23,7 @@ var searchData=
   ['definedhotkeys',['DefinedHotkeys',['../classHotkey.html#a75d9e3b71a6da85897020c8841b30899',1,'Hotkey']]],
   ['delauneytriangulate',['DelauneyTriangulate',['../namespaceDelauney.html#a403f44012d30e1fcb222148b848d8fd0',1,'Delauney']]],
   ['delete',['Delete',['../classUniverse.html#ab339e9449235c1d51c8e6bf3f6c52db1',1,'Universe']]],
+  ['deleteaction',['DeleteAction',['../classQueueListBox.html#a7ecc66dfb98a2030253b0b9f89a180dd',1,'QueueListBox']]],
   ['deletefleetbuttons',['DeleteFleetButtons',['../classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80',1,'MapWnd']]],
   ['deleteobjectclicked',['DeleteObjectClicked',['../classModeratorActionsWnd.html#af744d1458c5211e53c861ca779c78b62',1,'ModeratorActionsWnd']]],
   ['deletequeueitem',['DeleteQueueItem',['../classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca',1,'ProductionWnd::DeleteQueueItem()'],['../classResearchWnd.html#a3b794fc06ee0644f1250bb2aa06cbade',1,'ResearchWnd::DeleteQueueItem()']]],
