@@ -155,6 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43577a1d1bc83bb58536e3ec9bf6e557"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#a43577a1d1bc83bb58536e3ec9bf6e557">UnlockedTechs</a> () const </td></tr>
 <tr class="memdesc:a43577a1d1bc83bb58536e3ec9bf6e557"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of names of all techs for which this one is a prerequisite  <a href="#a43577a1d1bc83bb58536e3ec9bf6e557">More...</a><br /></td></tr>
 <tr class="separator:a43577a1d1bc83bb58536e3ec9bf6e557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8497d39c778ffa6cbb393f95c153271"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#ab8497d39c778ffa6cbb393f95c153271">GetCheckSum</a> () const </td></tr>
+<tr class="separator:ab8497d39c778ffa6cbb393f95c153271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -446,7 +448,7 @@ Friends</h2></td></tr>
 
 <p>Returns a text representation of this object. </p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>, <a class="el" href="classTech.html#acaf072114777160c89a908fcf93fec42">m_category</a>, <a class="el" href="classTech.html#afa12228ddd39c72461f13f62abf76f16">m_description</a>, <a class="el" href="classTech.html#a9badb85d307a75175d8aad816a76e13b">m_effects</a>, <a class="el" href="classTech.html#a3b37195f2b98158d6a8bde7adb7c7bcf">m_graphic</a>, <a class="el" href="classTech.html#ac2c51e593211aac719ff4d8f75709340">m_name</a>, <a class="el" href="classTech.html#a34d8f3b9fc57150b1a7741ea1cd52b15">m_prerequisites</a>, <a class="el" href="classTech.html#ab2e392cf66f1cbdcfa81e2b7fe673495">m_research_cost</a>, <a class="el" href="classTech.html#a997cd70dbfa13362803ac6ea0f2465df">m_research_turns</a>, <a class="el" href="classTech.html#ae8a9481a306685744d13d68e81f9c33c">m_short_description</a>, and <a class="el" href="classTech.html#abe94227fe5f3fa449fc5b7f4d65e6956">m_unlocked_items</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>.</p>
 
 </div>
 </div>
@@ -473,6 +475,24 @@ Friends</h2></td></tr>
 <p>returns the effects that are applied to the discovering empire's capital when this tech is researched; not all techs have effects, in which case this returns 0 </p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab8497d39c778ffa6cbb393f95c153271"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Tech::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a5b0c6907712d4acccefd715a36526873">CheckSums::CheckSumCombine()</a>.</p>
 
 </div>
 </div>
@@ -523,8 +543,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="classTech.html#a9badb85d307a75175d8aad816a76e13b">m_effects</a>, <a class="el" href="classTech.html#ac2c51e593211aac719ff4d8f75709340">m_name</a>, <a class="el" href="classTech.html#ab2e392cf66f1cbdcfa81e2b7fe673495">m_research_cost</a>, <a class="el" href="classTech.html#a997cd70dbfa13362803ac6ea0f2465df">m_research_turns</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
 
 </div>
 </div>
@@ -594,8 +612,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the maximum number of RPs per turn allowed to be spent on researching this tech </p>
-
-<p>References <a class="el" href="classTech.html#ab0ad48ede76c3e79785b7cb546d27ab5">ResearchCost()</a>, and <a class="el" href="classTech.html#a45dfc001302e487e78124f93ad8736cc">ResearchTime()</a>.</p>
 
 <p>Referenced by <a class="el" href="structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a4ae1ee6d8e26b4dbe391d8a4f93500c1">anonymous_namespace{ResearchWnd.cpp}::QueueRow::Init()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a2af41a291a142939db4eafbd38431e92">anonymous_namespace{Empire.cpp}::SetTechQueueElementSpending()</a>, <a class="el" href="TechTreeWnd_8h.html#a5a356a32fbcf227d5e00933da41a3d03">TechPanelRowBrowseWnd()</a>, <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">ResearchQueue::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -671,9 +687,9 @@ Friends</h2></td></tr>
 
 <p>returns the total research cost in RPs required to research this tech </p>
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#acfccd90ebab8381b8c7d38741f6218a0">anonymous_namespace{Tech.cpp}::CHEAP_AND_FAST_TECH_RESEARCH</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#aada956cb1661d823b027a9dda87e9252">ValueRef::ValueRefBase&lt; T &gt;::ConstantExpr()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="classTech.html#ab2e392cf66f1cbdcfa81e2b7fe673495">m_research_cost</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#af7e45408ef93c099fadda8d3986b549e">ValueRef::ValueRefBase&lt; T &gt;::SourceInvariant()</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#acfccd90ebab8381b8c7d38741f6218a0">anonymous_namespace{Tech.cpp}::CHEAP_AND_FAST_TECH_RESEARCH</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, and <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#ac7c41cfb43b4c512cfa1bc55343cfa3b">anonymous_namespace{Tech.cpp}::Cheapest()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a4ae1ee6d8e26b4dbe391d8a4f93500c1">anonymous_namespace{ResearchWnd.cpp}::QueueRow::Init()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classTech.html#a319d80a5f8ac30e08409606b29a43b74">PerTurnCost()</a>, <a class="el" href="classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()</a>, <a class="el" href="classTechManager.html#aa1549f3af02c6213e7022f0dedbfb352">TechManager::RecursivePrereqs()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>, <a class="el" href="classEmpire.html#aef9ed40c21d0c5d11c3d0e95f936ad6d">Empire::ResearchProgress()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a2af41a291a142939db4eafbd38431e92">anonymous_namespace{Empire.cpp}::SetTechQueueElementSpending()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a5a356a32fbcf227d5e00933da41a3d03">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aeee0cba98458b05698af67545a465db1">TechTreeWnd::TechListBox::TechRow::TechRow()</a>, <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">ResearchQueue::Update()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#ac7c41cfb43b4c512cfa1bc55343cfa3b">anonymous_namespace{Tech.cpp}::Cheapest()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a4ae1ee6d8e26b4dbe391d8a4f93500c1">anonymous_namespace{ResearchWnd.cpp}::QueueRow::Init()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">Empire::LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">Empire::MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">Empire::MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()</a>, <a class="el" href="classTechManager.html#aa1549f3af02c6213e7022f0dedbfb352">TechManager::RecursivePrereqs()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>, <a class="el" href="classEmpire.html#aef9ed40c21d0c5d11c3d0e95f936ad6d">Empire::ResearchProgress()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a2af41a291a142939db4eafbd38431e92">anonymous_namespace{Empire.cpp}::SetTechQueueElementSpending()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">Empire::SetTechResearchProgress()</a>, <a class="el" href="TechTreeWnd_8h.html#a5a356a32fbcf227d5e00933da41a3d03">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aeee0cba98458b05698af67545a465db1">TechTreeWnd::TechListBox::TechRow::TechRow()</a>, <a class="el" href="structResearchQueue.html#af30cd056f4d35d7f180b74c6ddf6162c">ResearchQueue::Update()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
 </div>
 </div>
@@ -693,9 +709,9 @@ Friends</h2></td></tr>
 
 <p>returns the number of turns required to research this tech, if <a class="el" href="classTech.html#ab0ad48ede76c3e79785b7cb546d27ab5" title="returns the total research cost in RPs required to research this tech ">ResearchCost()</a> RPs are spent per turn </p>
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#acfccd90ebab8381b8c7d38741f6218a0">anonymous_namespace{Tech.cpp}::CHEAP_AND_FAST_TECH_RESEARCH</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#aada956cb1661d823b027a9dda87e9252">ValueRef::ValueRefBase&lt; T &gt;::ConstantExpr()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="classTech.html#a997cd70dbfa13362803ac6ea0f2465df">m_research_turns</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#af7e45408ef93c099fadda8d3986b549e">ValueRef::ValueRefBase&lt; T &gt;::SourceInvariant()</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#acfccd90ebab8381b8c7d38741f6218a0">anonymous_namespace{Tech.cpp}::CHEAP_AND_FAST_TECH_RESEARCH</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, and <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>.</p>
 
-<p>Referenced by <a class="el" href="classTech.html#a319d80a5f8ac30e08409606b29a43b74">PerTurnCost()</a>, <a class="el" href="classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>, <a class="el" href="TechTreeWnd_8h.html#a5a356a32fbcf227d5e00933da41a3d03">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aeee0cba98458b05698af67545a465db1">TechTreeWnd::TechListBox::TechRow::TechRow()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
+<p>Referenced by <a class="el" href="classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>, <a class="el" href="TechTreeWnd_8h.html#a5a356a32fbcf227d5e00933da41a3d03">TechPanelRowBrowseWnd()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aeee0cba98458b05698af67545a465db1">TechTreeWnd::TechListBox::TechRow::TechRow()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
 </div>
 </div>
@@ -849,8 +865,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="afa12228ddd39c72461f13f62abf76f16"></a>
@@ -870,8 +884,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
 
 </div>
 </div>
@@ -893,8 +905,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>, and <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a3b37195f2b98158d6a8bde7adb7c7bcf"></a>
@@ -914,8 +924,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
 
 </div>
 </div>
@@ -937,8 +945,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>, and <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a34d8f3b9fc57150b1a7741ea1cd52b15"></a>
@@ -958,8 +964,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
 
 </div>
 </div>
@@ -981,8 +985,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>, <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>, and <a class="el" href="classTech.html#ab0ad48ede76c3e79785b7cb546d27ab5">ResearchCost()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a997cd70dbfa13362803ac6ea0f2465df"></a>
@@ -1002,8 +1004,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>, <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>, and <a class="el" href="classTech.html#a45dfc001302e487e78124f93ad8736cc">ResearchTime()</a>.</p>
 
 </div>
 </div>
@@ -1045,8 +1045,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ac2fcb3ebaef778c3d072cdaf705c3a16"></a>
@@ -1086,8 +1084,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classTech.html#ac05097b137af7036773bffbfaecc6cab">Dump()</a>.</p>
 
 </div>
 </div>
