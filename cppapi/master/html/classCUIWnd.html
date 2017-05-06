@@ -369,7 +369,7 @@ Statics //@{</h2></td></tr>
 </li>
 <li><a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a>'s do their own rendering. Do not override the render function unless you have specific needs. If you do, make sure you call <a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">CUIWnd::Render()</a> before adding your own drawing. <br />
 </li>
-<li>Three functions are user-overridable so that new events may be responded to. OnClose() is called before the window's memory is deallocated after the user clicks the close button. OnMinimize() is called before the window becomes minimized after clicking the Minimize button. OnResize() is called as part of a response to the resize signal emitted via GG::Wnd. Users are advised to use this function instead of making a slot connection with GG::Connect to respond to the resize signal. </li>
+<li>Three functions are user-overridable so that new events may be responded to. OnClose() is called before the window's memory is deallocated after the user clicks the close button. OnMinimize() is called before the window becomes minimized after clicking the Minimize button. OnResize() is called as part of a response to the resize signal emitted via GG::Wnd. Users are advised to use this function instead of making a slot connection with boost::signals to respond to the resize signal. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a534b23149a1e8f625d9f79dc2b9e524a"></a>
