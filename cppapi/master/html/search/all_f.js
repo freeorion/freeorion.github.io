@@ -186,7 +186,7 @@ var searchData=
   ['output',['Output',['../classResourcePool.html#acae80f9cc498758e00bc8c11399609d6',1,'ResourcePool']]],
   ['overlaysize',['OverlaySize',['../classSystem.html#a3bf236b07a25a3236669904b49b9cb7e',1,'System']]],
   ['overlaytexture',['OverlayTexture',['../classSystem.html#a1603d9b49607ce4b7e26acdcbf352330',1,'System']]],
-  ['overrideloggerthresholds',['OverrideLoggerThresholds',['../Logger_8cpp.html#a9b31d9404e443e012d326d2ebb5ea3c6',1,'OverrideLoggerThresholds(const LogLevel threshold):&#160;Logger.cpp'],['../Logger_8h.html#a51be821ea17e3f96bbd468ec20ee76df',1,'OverrideLoggerThresholds(const LogLevel threshold):&#160;Logger.cpp']]],
+  ['overrideallloggersthresholds',['OverrideAllLoggersThresholds',['../Logger_8cpp.html#a3a155f62bc4a83fb4c0cfdb46db3b24a',1,'OverrideAllLoggersThresholds(const boost::optional&lt; LogLevel &gt; &amp;threshold):&#160;Logger.cpp'],['../Logger_8h.html#a0f596565654f55f602097861eb606873',1,'OverrideAllLoggersThresholds(const boost::optional&lt; LogLevel &gt; &amp;threshold):&#160;Logger.cpp']]],
   ['owned_5fby',['owned_by',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#a072654c7cc31e9d4ee16fcfaf5d5d27c',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['owned_5fby_5f1',['owned_by_1',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#ac9aa4971cfdd1dac1993d32a252848f3',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],
   ['owned_5fby_5f2',['owned_by_2',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html#ad4bb68b32aaece75bebba133911328c2',1,'anonymous_namespace{ConditionParser1.cpp}::condition_parser_rules_1']]],

@@ -9,7 +9,7 @@ var searchData=
   ['default_5fdecorator',['DEFAULT_DECORATOR',['../classTextLinker.html#a76d3304fbc1402830c2f4afe891568dd',1,'TextLinker']]],
   ['default_5fheight',['DEFAULT_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a9132d5e6621e6626f6d4de6a8579511c',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['default_5fleft',['DEFAULT_LEFT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a95c28b5aba66177c7545430bfa5dfa66',1,'anonymous_namespace{HumanClientApp.cpp}']]],
-  ['default_5floglevel',['default_LogLevel',['../Logger_8h.html#a8d4c6a1c02e5db1ee9ddd134541beb8d',1,'Logger.h']]],
+  ['default_5flog_5flevel_5fthreshold',['default_log_level_threshold',['../Logger_8h.html#a5b570a064704e27839d00bbe995a1023',1,'Logger.h']]],
   ['default_5frow_5fheight',['DEFAULT_ROW_HEIGHT',['../structCUISimpleDropDownListRow.html#a4547ab06040cf1b91a1e02e6effda16b',1,'CUISimpleDropDownListRow']]],
   ['default_5fsink_5flevel',['default_sink_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#aacf4f216045f5d85f81303b29c9eb16e',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['default_5fsource_5flevel',['default_source_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ae901e210a18b41f5bf144f08b90be1d9',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],

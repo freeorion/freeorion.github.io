@@ -24,6 +24,7 @@ var searchData=
   ['handleinvasion',['HandleInvasion',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a965f23e2b3a7c4585a2bc8cb19f41490',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlelinkclick',['HandleLinkClick',['../classCombatReportWnd_1_1Impl.html#ae28314556844c6a27945155634e22d4f',1,'CombatReportWnd::Impl::HandleLinkClick()'],['../classEncyclopediaDetailPanel.html#a6fc0b1ee16aab6cfeae30d6cc698626e',1,'EncyclopediaDetailPanel::HandleLinkClick()'],['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a715fd94bb37e9c0d48614b244bcacf9c',1,'anonymous_namespace{SitRepPanel.cpp}::HandleLinkClick()']]],
   ['handlelinkdoubleclick',['HandleLinkDoubleClick',['../classCombatReportWnd_1_1Impl.html#a6b86d379b21f7f8942515e1adfcb6f3d',1,'CombatReportWnd::Impl::HandleLinkDoubleClick()'],['../classEncyclopediaDetailPanel.html#ac9102a246804f212ebf0f00662cbf56a',1,'EncyclopediaDetailPanel::HandleLinkDoubleClick()']]],
+  ['handleloggerconfig',['HandleLoggerConfig',['../classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7',1,'ServerApp']]],
   ['handlelogmessage',['HandleLogMessage',['../classMessageWnd.html#a9ea46006ef5c1d1c9ab841962c18aa3b',1,'MessageWnd']]],
   ['handlemadevisible',['HandleMadeVisible',['../classCombatLogWnd.html#a032028a91090bcd6cf5c9ad5d3cd952f',1,'CombatLogWnd']]],
   ['handlemaybevisible',['HandleMaybeVisible',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html#a74d2e089cde177a70faaf1d55a2e9dbe',1,'anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText']]],

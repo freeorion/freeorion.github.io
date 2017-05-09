@@ -5,8 +5,6 @@ var searchData=
   ['censusbrowsewnd_2eh',['CensusBrowseWnd.h',['../CensusBrowseWnd_8h.html',1,'']]],
   ['chatwnd_2ecpp',['ChatWnd.cpp',['../ChatWnd_8cpp.html',1,'']]],
   ['chatwnd_2eh',['ChatWnd.h',['../ChatWnd_8h.html',1,'']]],
-  ['checksums_2ecpp',['CheckSums.cpp',['../CheckSums_8cpp.html',1,'']]],
-  ['checksums_2eh',['CheckSums.h',['../CheckSums_8h.html',1,'']]],
   ['chmain_2ecpp',['chmain.cpp',['../chmain_8cpp.html',1,'']]],
   ['chmain_2eh',['chmain.h',['../chmain_8h.html',1,'']]],
   ['chmain_2emm',['chmain.mm',['../chmain_8mm.html',1,'']]],

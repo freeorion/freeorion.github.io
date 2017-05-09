@@ -11,6 +11,7 @@ var searchData=
   ['validfleetmerge',['ValidFleetMerge',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a1efb91e21bed9d75793983b2d5089195',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['validfontfile',['ValidFontFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validmusicfile',['ValidMusicFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a20271029667765e3fadce5fa66d0293c',1,'anonymous_namespace{OptionsWnd.cpp}']]],
+  ['validnametologlevel',['ValidNameToLogLevel',['../Logger_8cpp.html#a3e77493d63621d6613b9f956563025ab',1,'ValidNameToLogLevel():&#160;Logger.cpp'],['../Logger_8h.html#a3e77493d63621d6613b9f956563025ab',1,'ValidNameToLogLevel():&#160;Logger.cpp']]],
   ['validselectedbombardships',['ValidSelectedBombardShips',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a1a1c4a10fe1d7b58f8941765db677423',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['validselectedcolonyship',['ValidSelectedColonyShip',['../SidePanel_8cpp.html#a598f52a026dd628ec30e07077298fb80',1,'ValidSelectedColonyShip(int system_id):&#160;SidePanel.cpp'],['../SidePanel_8h.html#a598f52a026dd628ec30e07077298fb80',1,'ValidSelectedColonyShip(int system_id):&#160;SidePanel.cpp']]],
   ['validselectedinvasionships',['ValidSelectedInvasionShips',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a320dda18ed9363a94e5d8a4f721ff431',1,'anonymous_namespace{SidePanel.cpp}']]],

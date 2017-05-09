@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['named',['named',['../LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa72b49a243cef20220b110e1a0ccbb93c',1,'LoggerWithOptionsDB.h']]],
   ['negate',['NEGATE',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a531870beaad65d25bcb16faed305087a',1,'ValueRef']]],
   ['neither',['NEITHER',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ada689ab221a95430fae957e6c40425b6',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['non_5fmatches',['NON_MATCHES',['../namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddeaf4d3d872aa8619edc455b49275f22eb8',1,'Condition']]],
