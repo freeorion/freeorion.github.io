@@ -96,7 +96,6 @@ var searchData=
   ['buttoncellheight',['ButtonCellHeight',['../classInGameMenu.html#ab4874c138521f7a887ce62344b5b1c77',1,'InGameMenu']]],
   ['buttonhilitebordercolor',['ButtonHiliteBorderColor',['../classClientUI.html#a481db4845437636f495bca4e3238bd1d',1,'ClientUI']]],
   ['buttonhilitecolor',['ButtonHiliteColor',['../classClientUI.html#a9966092be816e1440829d7b7645ce1f2',1,'ClientUI']]],
-  ['buttonleftclicked',['ButtonLeftClicked',['../classObjectHeaderPanel.html#ad764eb4f0c87633a5f02aebc4387cb4e',1,'ObjectHeaderPanel']]],
   ['buttonrightclicked',['ButtonRightClicked',['../classObjectHeaderPanel.html#ad0b915259b2b6b48fc41ee36cfaa3eb6',1,'ObjectHeaderPanel']]],
   ['buttonwidth',['ButtonWidth',['../classInGameMenu.html#a641cf3b74f79b5c53e9123b398c34221',1,'InGameMenu']]]
 ];

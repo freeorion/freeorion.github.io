@@ -103,7 +103,6 @@ var searchData=
   ['fleetsremoved',['FleetsRemoved',['../classSidePanel.html#a5227631d4d45b79beb76cbb2ab094d9b',1,'SidePanel']]],
   ['fleetsremovedsignalhandler',['FleetsRemovedSignalHandler',['../classMapWnd.html#a431674305b40a37bf54cfa57d9073487',1,'MapWnd']]],
   ['fleetsrightclicked',['FleetsRightClicked',['../classMapWnd.html#aea99e10734a00fbda5c68079bce5038c',1,'MapWnd']]],
-  ['fleetstatechanged',['FleetStateChanged',['../classSidePanel.html#a2a1677bba79e1fb2ce83773908f2a621',1,'SidePanel']]],
   ['fleetsupplyablebyempire',['FleetSupplyableByEmpire',['../structCondition_1_1FleetSupplyableByEmpire.html#a4b01564c225b17b5074b1c06c38605f7',1,'Condition::FleetSupplyableByEmpire']]],
   ['fleetsupplyablesimplematch',['FleetSupplyableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FleetSupplyableSimpleMatch.html#a0b95082326640a458f1392a6ad136b56',1,'Condition::anonymous_namespace{Condition.cpp}::FleetSupplyableSimpleMatch']]],
   ['fleetsupplyablesystemids',['FleetSupplyableSystemIDs',['../classSupplyManager.html#a9c090b1bf40bf05def3affef48a9dcfe',1,'SupplyManager::FleetSupplyableSystemIDs() const '],['../classSupplyManager.html#a5cc25c82cbfa1188ac6746c1950ec9b9',1,'SupplyManager::FleetSupplyableSystemIDs(int empire_id) const '],['../classSupplyManager.html#a80d73e7ae782f0be9b9200e836ebf38a',1,'SupplyManager::FleetSupplyableSystemIDs(int empire_id, bool include_allies) const ']]],

@@ -88,7 +88,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classSlotControl-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -167,11 +166,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a7ed0870f229e7bd75725283c34c9acac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e49beaaf48a28836e4565b9bb1424c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlotControl.html#a38e49beaaf48a28836e4565b9bb1424c">EventFilter</a> (GG::Wnd *w, const GG::WndEvent &amp;event) override</td></tr>
 <tr class="separator:a38e49beaaf48a28836e4565b9bb1424c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ae66051f430bc1c771b224d41706ba800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlotControl.html#ae66051f430bc1c771b224d41706ba800">EmitNullSlotContentsAlteredSignal</a> ()</td></tr>
-<tr class="separator:ae66051f430bc1c771b224d41706ba800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -473,34 +467,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae66051f430bc1c771b224d41706ba800"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SlotControl::EmitNullSlotContentsAlteredSignal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>emits SlotContentsAlteredSignal with PartType* = 0. needed because boost::signals2::signal is noncopyable, so boost::bind can't be used to bind the parameter 0 to SlotContentsAlteredSignal::operator() </p>
-
-<p>References <a class="el" href="classSlotControl.html#a500f3b76e54cbbb155a7df8c64244356">SlotContentsAlteredSignal</a>.</p>
-
-<p>Referenced by <a class="el" href="classSlotControl.html#a7bc0c640d6c3fd794a057d6f4cf93bd2">SetPart()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a38e49beaaf48a28836e4565b9bb1424c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -635,7 +601,7 @@ Private Attributes</h2></td></tr>
 
 <p>used to programmatically set the <a class="el" href="classPartControl.html">PartControl</a> in this slot. Does not emit signal </p>
 
-<p>References <a class="el" href="classPartControl.html#a83b9aaaf6d3090773384431af1bdb299">PartControl::ClickedSignal</a>, <a class="el" href="classPartType.html#a3f2eddd82aef1ba500a5932fcee5dde2">PartType::Description()</a>, <a class="el" href="classPartControl.html#a1a9460e852000911862e1be7ca7b63f4">PartControl::DoubleClickedSignal</a>, <a class="el" href="classSlotControl.html#ae66051f430bc1c771b224d41706ba800">EmitNullSlotContentsAlteredSignal()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSlotControl.html#a910cf203d1ec75450b0d3233f42730fc">m_part_control</a>, <a class="el" href="classSlotControl.html#a2e621013304e49b2b708acd9bfcdc33c">m_slot_type</a>, <a class="el" href="classPartType.html#ac9244b6b9f2ad766b081e5697b8c18fa">PartType::Name()</a>, <a class="el" href="classClientUI.html#a7a4fe24da327f0097ff0c83cbdfbac52">ClientUI::PartIcon()</a>, <a class="el" href="classSlotControl.html#a6be9be552d39f9dbe468d7d27e6a69c7">PartTypeClickedSignal</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classPartControl.html#a83b9aaaf6d3090773384431af1bdb299">PartControl::ClickedSignal</a>, <a class="el" href="classPartType.html#a3f2eddd82aef1ba500a5932fcee5dde2">PartType::Description()</a>, <a class="el" href="classPartControl.html#a1a9460e852000911862e1be7ca7b63f4">PartControl::DoubleClickedSignal</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSlotControl.html#a910cf203d1ec75450b0d3233f42730fc">m_part_control</a>, <a class="el" href="classSlotControl.html#a2e621013304e49b2b708acd9bfcdc33c">m_slot_type</a>, <a class="el" href="classPartType.html#ac9244b6b9f2ad766b081e5697b8c18fa">PartType::Name()</a>, <a class="el" href="classClientUI.html#a7a4fe24da327f0097ff0c83cbdfbac52">ClientUI::PartIcon()</a>, <a class="el" href="classSlotControl.html#a6be9be552d39f9dbe468d7d27e6a69c7">PartTypeClickedSignal</a>, <a class="el" href="classSlotControl.html#a500f3b76e54cbbb155a7df8c64244356">SlotContentsAlteredSignal</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -904,7 +870,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>emitted when the contents of a slot are altered by the dragging a <a class="el" href="classPartControl.html">PartControl</a> in or out of the slot. signal should be caught and the slot contents set using SetPart accordingly </p>
 
-<p>Referenced by <a class="el" href="classSlotControl.html#a6d18b62ae407e02ad0403982256abf0d">AcceptDrops()</a>, <a class="el" href="classSlotControl.html#aaca87cba28eab6d09a1d85d351776b0d">ChildrenDraggedAway()</a>, <a class="el" href="classSlotControl.html#ae66051f430bc1c771b224d41706ba800">EmitNullSlotContentsAlteredSignal()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#a9137fed01bcf0626250e9304176d1132">DesignWnd::MainPanel::Populate()</a>.</p>
+<p>Referenced by <a class="el" href="classSlotControl.html#a6d18b62ae407e02ad0403982256abf0d">AcceptDrops()</a>, <a class="el" href="classSlotControl.html#aaca87cba28eab6d09a1d85d351776b0d">ChildrenDraggedAway()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a9137fed01bcf0626250e9304176d1132">DesignWnd::MainPanel::Populate()</a>, and <a class="el" href="classSlotControl.html#a7bc0c640d6c3fd794a057d6f4cf93bd2">SetPart()</a>.</p>
 
 </div>
 </div>

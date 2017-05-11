@@ -4,7 +4,6 @@ var searchData=
   ['name_5ftoken',['name_token',['../structparse_1_1lexer.html#a714303b7287263b898fd2ac27bbbee37',1,'parse::lexer']]],
   ['namedhotkey',['NamedHotkey',['../classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2',1,'Hotkey']]],
   ['namedsignal',['NamedSignal',['../classHotkeyManager.html#ae740b29742b8ab56116511b8403a5f5d',1,'HotkeyManager']]],
-  ['nameedited',['NameEdited',['../classServerConnectWnd.html#a27fe892ffece098f9d9e8af0cb08503b',1,'ServerConnectWnd']]],
   ['namefromproductionqueueelement',['NameFromProductionQueueElement',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#ad9b19c6a5a7f069907081b13ebb9d1d4',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html#a0529136ac2158c47197f8846eb1565ef',1,'ValueRef::NameLookup']]],
   ['nameok',['NameOK',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a0d86db5f3344993023d376e7d544c048',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],

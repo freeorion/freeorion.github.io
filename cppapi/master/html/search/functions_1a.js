@@ -4,7 +4,6 @@ var searchData=
   ['zoom_5fslider_5fheight',['ZOOM_SLIDER_HEIGHT',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acae90218680c9738873cb2a2c4ae73fc',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['zoomfactor',['ZoomFactor',['../classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c',1,'MapWnd']]],
   ['zoomscalefactor',['ZoomScaleFactor',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#abc9c6c3a8d43784d3038b55ebe66b0c8',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['zoomslid',['ZoomSlid',['../classMapWnd.html#aaddefcc9e35a4cbd8db96c1e81d09583',1,'MapWnd']]],
   ['zoomtobuilding',['ZoomToBuilding',['../classClientUI.html#a9977d22a02dd663294b8c27fc5e6df96',1,'ClientUI']]],
   ['zoomtobuildingtype',['ZoomToBuildingType',['../classClientUI.html#ace2d11f9fc96fbfdf4122fac3ef61144',1,'ClientUI']]],
   ['zoomtocombatlog',['ZoomToCombatLog',['../classClientUI.html#a6e678d48d53d29aa6000bf4d3fb03dec',1,'ClientUI']]],

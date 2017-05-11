@@ -7,7 +7,6 @@ var searchData=
   ['set_5fmeter_5frule',['set_meter_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#af0334340c9da27e8da1c6fc9764c0203',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#ab82e52e3a112e086c012599e3180a809',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['setiterator',['SetIterator',['../classFreeOrionPython_1_1SetWrapper.html#a56ba736e31c8ca8f89951bdf643aa973',1,'FreeOrionPython::SetWrapper']]],
-  ['setpartfuncptrtype',['SetPartFuncPtrType',['../classDesignWnd_1_1MainPanel.html#aa4a7c63825f7da092e1632df6dc37bff',1,'DesignWnd::MainPanel']]],
   ['ship_5fdesign_5fiterator',['ship_design_iterator',['../classUniverse.html#a36b94ff0880cca821a6249edcccc48a0',1,'Universe']]],
   ['shipdesignmap',['ShipDesignMap',['../classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543',1,'Universe']]],
   ['simultaneouseventsptr',['SimultaneousEventsPtr',['../structSimultaneousEvents.html#aac1832dc79c1513a0858eaf7d1636ab1',1,'SimultaneousEvents']]],

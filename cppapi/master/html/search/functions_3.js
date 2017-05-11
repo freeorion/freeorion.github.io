@@ -66,7 +66,6 @@ var searchData=
   ['char',['Char',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a199cf1128f124a0a4e23966d2a013e98',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['chat_5fwidth',['CHAT_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a6d44116ffa402e15cf14be3b42acf8e7',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['chatmessage',['ChatMessage',['../classMultiPlayerLobbyWnd.html#a978c4f8d6033fca2b8dd3d2268b1e0d2',1,'MultiPlayerLobbyWnd']]],
-  ['chatmessagesentslot',['ChatMessageSentSlot',['../classMapWnd.html#aa14ded31210cc301a113a82807c53060',1,'MapWnd']]],
   ['cheapest',['Cheapest',['../namespaceanonymous__namespace_02Tech_8cpp_03.html#ac7c41cfb43b4c512cfa1bc55343cfa3b',1,'anonymous_namespace{Tech.cpp}']]],
   ['cheapestnexttech',['CheapestNextTech',['../classTechManager.html#a651f663b0f7eb4cf5983c227fcd0b0a3',1,'TechManager']]],
   ['cheapestnexttechtowards',['CheapestNextTechTowards',['../classTechManager.html#a7a132e83ede50ffa681fcd26de88ff9e',1,'TechManager']]],
