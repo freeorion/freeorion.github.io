@@ -7,5 +7,6 @@ var searchData=
   ['debuglogger',['DebugLogger',['../Logger_8h.html#aa0888613df086ecb21e798a83f37f13b',1,'Logger.h']]],
   ['declare_5fmessage_5fevent',['DECLARE_MESSAGE_EVENT',['../ClientFSMEvents_8h.html#a9715f8c7dc5346aff2faab395bf74b66',1,'DECLARE_MESSAGE_EVENT():&#160;ClientFSMEvents.h'],['../ServerFSM_8h.html#a9715f8c7dc5346aff2faab395bf74b66',1,'DECLARE_MESSAGE_EVENT():&#160;ServerFSM.h']]],
   ['declare_5ftoken',['DECLARE_TOKEN',['../Lexer_8h.html#a7f92cebf46754c6c2bd742f33c212b0a',1,'DECLARE_TOKEN():&#160;Lexer.h'],['../Tokens_8h.html#a60ca9a4db79340d15bd5fc8dd75c16be',1,'DECLARE_TOKEN():&#160;Tokens.h']]],
+  ['declarethreadsafelogger',['DeclareThreadSafeLogger',['../Logger_8h.html#a6ef01d9e0c434a2088e627c78f05e4c9',1,'Logger.h']]],
   ['define_5ftoken',['DEFINE_TOKEN',['../Lexer_8cpp.html#ab6828cf115f0ced4e408ddffad567d42',1,'DEFINE_TOKEN():&#160;Lexer.cpp'],['../Tokens_8cpp.html#ab6828cf115f0ced4e408ddffad567d42',1,'DEFINE_TOKEN():&#160;Tokens.cpp']]]
 ];
