@@ -97,9 +97,12 @@ Functions</h2></td></tr>
 <tr class="separator:ad8aefe835734693aad4e18c1ba42d27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dfc6d8f65abcca616255c9fa05546b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a0dfc6d8f65abcca616255c9fa05546b6">CheckSumCombine</a> (unsigned int &amp;sum, double t)</td></tr>
 <tr class="separator:a0dfc6d8f65abcca616255c9fa05546b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f36066b8d7508ec4d01d27a2f48e6e0"><td class="memTemplParams" colspan="2">template&lt;class T , typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::value, T &gt;::type *  = nullptr&gt; </td></tr>
-<tr class="memitem:a5f36066b8d7508ec4d01d27a2f48e6e0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a5f36066b8d7508ec4d01d27a2f48e6e0">CheckSumCombine</a> (unsigned int &amp;sum, T t)</td></tr>
-<tr class="separator:a5f36066b8d7508ec4d01d27a2f48e6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a95f2756e69c607f45c636d104df15"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa7a95f2756e69c607f45c636d104df15"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#aa7a95f2756e69c607f45c636d104df15">CheckSumCombine</a> (unsigned int &amp;sum, T t, typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::value, T &gt;::type *=nullptr)</td></tr>
+<tr class="separator:aa7a95f2756e69c607f45c636d104df15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24be5c64fff49a779bacf6034dd916fd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a24be5c64fff49a779bacf6034dd916fd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a24be5c64fff49a779bacf6034dd916fd">CheckSumCombine</a> (unsigned int &amp;sum, T t, typename std::enable_if&lt; std::is_signed&lt; T &gt;::value, T &gt;::type *=nullptr)</td></tr>
+<tr class="separator:a24be5c64fff49a779bacf6034dd916fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae482958d55202671bf3abc264377f2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#ae482958d55202671bf3abc264377f2ca">CheckSumCombine</a> (unsigned int &amp;sum, float t)</td></tr>
 <tr class="separator:ae482958d55202671bf3abc264377f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae2f6bd6c81e7c00f30c92013923105"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
@@ -186,11 +189,11 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5f36066b8d7508ec4d01d27a2f48e6e0"></a>
+<a class="anchor" id="aa7a95f2756e69c607f45c636d104df15"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::value, T &gt;::type *  = nullptr&gt; </div>
+template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void CheckSums::CheckSumCombine </td>
@@ -202,7 +205,13 @@ template&lt;class T , typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::v
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::value, T &gt;::type *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -212,7 +221,43 @@ template&lt;class T , typename std::enable_if&lt; std::is_unsigned&lt; T &gt;::v
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceCheckSums.html#aa371b4ac057a76baa6a8d602e2c29c14">CHECKSUM_MODULUS</a>, <a class="el" href="namespaceCheckSums.html#a5b0c6907712d4acccefd715a36526873">CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#aa371b4ac057a76baa6a8d602e2c29c14">CHECKSUM_MODULUS</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a24be5c64fff49a779bacf6034dd916fd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckSums::CheckSumCombine </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int &amp;&#160;</td>
+          <td class="paramname"><em>sum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename std::enable_if&lt; std::is_signed&lt; T &gt;::value, T &gt;::type *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="namespaceCheckSums.html#aa371b4ac057a76baa6a8d602e2c29c14">CHECKSUM_MODULUS</a>.</p>
 
 </div>
 </div>
