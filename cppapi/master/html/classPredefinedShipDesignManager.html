@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebf29a7fa0504e06e97de5995f6bbfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a922eec93faa8a2112d9f48fcfca5b1cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a922eec93faa8a2112d9f48fcfca5b1cb">GetDesignID</a> (const std::string &amp;name) const </td></tr>
 <tr class="separator:a922eec93faa8a2112d9f48fcfca5b1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a13cfb91b8c6a3b1f8f48dde718246f1e">GetCheckSum</a> () const </td></tr>
+<tr class="separator:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -202,7 +204,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a6e9ee1551f654b9fdab46bb8211920cf">parse::monster_designs()</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="namespaceparse.html#a4563c7040838c2493224e6fc62dafccd">parse::ship_designs()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">ShipDesign::GetCheckSum()</a>, <a class="el" href="namespaceparse.html#a6e9ee1551f654b9fdab46bb8211920cf">parse::monster_designs()</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="namespaceparse.html#a4563c7040838c2493224e6fc62dafccd">parse::ship_designs()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -376,6 +378,24 @@ Static Private Attributes</h2></td></tr>
 <p>Returns iterator pointing one past last monster design. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a28a11f9082f4ec00bee994a2efbd8601">anonymous_namespace{ServerWrapper.cpp}::ShipDesignGetMonsterList()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13cfb91b8c6a3b1f8f48dde718246f1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int PredefinedShipDesignManager::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a5b0c6907712d4acccefd715a36526873">CheckSums::CheckSumCombine()</a>.</p>
 
 </div>
 </div>
