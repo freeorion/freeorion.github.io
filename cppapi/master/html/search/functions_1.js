@@ -60,7 +60,7 @@ var searchData=
   ['addrow',['AddRow',['../classCombatLogWnd_1_1Impl.html#a369e5b20145c82198ad541f3d1655ca1',1,'CombatLogWnd::Impl']]],
   ['addseries',['AddSeries',['../classGraphControl.html#ad94cf6062f97fb57d0ad977732fbef0d',1,'GraphControl']]],
   ['addship',['AddShip',['../classFleet.html#a544ee3d300c93991666e45c4b85a1aa3',1,'Fleet']]],
-  ['addshipdesign',['AddShipDesign',['../classEmpire.html#a44917f499dba689cbf17871eee25dc1b',1,'Empire::AddShipDesign(int ship_design_id, int next_design_id=ShipDesign::INVALID_DESIGN_ID)'],['../classEmpire.html#a0c19635ff83ab5b68f48a7a0cea94c71',1,'Empire::AddShipDesign(ShipDesign *ship_design)']]],
+  ['addshipdesign',['AddShipDesign',['../classEmpire.html#a2d05e32e1cc05973196fc8f3e73138df',1,'Empire::AddShipDesign(int ship_design_id, int next_design_id=INVALID_DESIGN_ID)'],['../classEmpire.html#a0c19635ff83ab5b68f48a7a0cea94c71',1,'Empire::AddShipDesign(ShipDesign *ship_design)']]],
   ['addshipdesignstoempire',['AddShipDesignsToEmpire',['../classPredefinedShipDesignManager.html#a2607f7b023671d23f7690fbf24bdff07',1,'PredefinedShipDesignManager']]],
   ['addshipdesignstouniverse',['AddShipDesignsToUniverse',['../classPredefinedShipDesignManager.html#a741eec27f65e38fefe3226bd7a50c1b0',1,'PredefinedShipDesignManager']]],
   ['addships',['AddShips',['../classFleet.html#aeef48dbf5e684f6c9f3d18adf8decb4b',1,'Fleet']]],

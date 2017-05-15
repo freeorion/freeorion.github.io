@@ -1322,7 +1322,7 @@ var searchData=
   ['mas_5fsetowner',['MAS_SetOwner',['../Enums_8h.html#a714e7dad2ada67906a830e3111261b9c',1,'Enums.h']]],
   ['max_5fcurrent_5fhealth',['max_current_health',['../structCombatSummary.html#aef4bcb2cd76894ba774844a03c56c6f0',1,'CombatSummary']]],
   ['max_5fhealth',['max_health',['../structCombatParticipantState.html#ab98773dc4e7a408c47ab5c05330c1233',1,'CombatParticipantState::max_health()'],['../structParticipantSummary.html#ac165bc735d48f809942572094f345e23',1,'ParticipantSummary::max_health()']]],
-  ['max_5fid',['MAX_ID',['../classShipDesign.html#afb2a9dea5610efba5a4e95d3af9a5c77',1,'ShipDesign::MAX_ID()'],['../Universe_8cpp.html#aae2bc596e876bc4dea8666b3e384580f',1,'MAX_ID():&#160;Universe.cpp']]],
+  ['max_5fid',['MAX_ID',['../Universe_8cpp.html#aae2bc596e876bc4dea8666b3e384580f',1,'Universe.cpp']]],
   ['max_5fmax_5fhealth',['max_max_health',['../structCombatSummary.html#abb7a14bcee3c58985327d69ed270bcd7',1,'CombatSummary']]],
   ['max_5fprod_5fqueue_5fsize',['MAX_PROD_QUEUE_SIZE',['../Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f',1,'Empire.cpp']]],
   ['max_5fscale',['MAX_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a24667ca11fd62554ba4204df683264b4',1,'anonymous_namespace{TechTreeWnd.cpp}']]],

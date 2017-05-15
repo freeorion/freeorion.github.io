@@ -80,7 +80,7 @@ var searchData=
   ['numberais',['NumberAIs',['../classGalaxySetupWnd.html#a31eb8d01ccc9b7f79d0a17a7c4e6d900',1,'GalaxySetupWnd']]],
   ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html#a3e3989c4e7c1beb7de36e04f2b6b7455',1,'Condition::NumberedShipDesign']]],
   ['numberedshipdesignsimplematch',['NumberedShipDesignSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1NumberedShipDesignSimpleMatch.html#afa3f803b08f014bcd64fa8c2a0c00ef2',1,'Condition::anonymous_namespace{Condition.cpp}::NumberedShipDesignSimpleMatch']]],
-  ['numberonqueue',['NumberOnQueue',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a77178c1635a7816ecc2c837e90c69306',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['numberonqueue',['NumberOnQueue',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a8b05611bdbd8c74630dd72c03b1194a3',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['numempires',['NumEmpires',['../classEmpireManager.html#a8d4607ab2d94aad758409de6f11f3456',1,'EmpireManager']]],
   ['numestablishedplayers',['NumEstablishedPlayers',['../classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f',1,'ServerNetworking']]],
   ['nummonsters',['NumMonsters',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1MonsterFleetPlanManager.html#ab8ba2bbe2629373cd799ff2ff405e9a0',1,'anonymous_namespace{UniverseGenerator.cpp}::MonsterFleetPlanManager']]],
