@@ -135,17 +135,11 @@ Functions</h2></td></tr>
 <tr class="separator:ae482958d55202671bf3abc264377f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8bebda8f16459aaf9b865150c6d8877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#ae8bebda8f16459aaf9b865150c6d8877">CheckSumCombine</a> (unsigned int &amp;sum, const <a class="el" href="structItemSpec.html">ItemSpec</a> &amp;item)</td></tr>
 <tr class="separator:ae8bebda8f16459aaf9b865150c6d8877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a1a04abfb8d08c36e8af0c63bdc4f57"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a6a1a04abfb8d08c36e8af0c63bdc4f57"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a6a1a04abfb8d08c36e8af0c63bdc4f57">CheckSumCombine</a> (unsigned int &amp;sum, const typename std::vector&lt; C &gt; &amp;v)</td></tr>
-<tr class="separator:a6a1a04abfb8d08c36e8af0c63bdc4f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3d13a76c91fba67fcaddc9f492bc64"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a8b3d13a76c91fba67fcaddc9f492bc64"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a8b3d13a76c91fba67fcaddc9f492bc64">CheckSumCombine</a> (unsigned int &amp;sum, const C &amp;c, decltype(std::declval&lt; C &gt;().begin())*=nullptr, decltype(std::declval&lt; C &gt;().end())*=nullptr)</td></tr>
+<tr class="separator:a8b3d13a76c91fba67fcaddc9f492bc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d2e2f781712c930a1017eed239cd70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a30d2e2f781712c930a1017eed239cd70">CheckSumCombine</a> (unsigned int &amp;sum, const <a class="el" href="structTechCategory.html">TechCategory</a> &amp;cat)</td></tr>
 <tr class="separator:a30d2e2f781712c930a1017eed239cd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d5c341c17856449a721e4df5a610c5"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ad4d5c341c17856449a721e4df5a610c5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#ad4d5c341c17856449a721e4df5a610c5">CheckSumCombine</a> (unsigned int &amp;sum, const typename std::set&lt; C &gt; &amp;s)</td></tr>
-<tr class="separator:ad4d5c341c17856449a721e4df5a610c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d5a624249464fcba0bf30e454877df"><td class="memTemplParams" colspan="2">template&lt;class C , class D &gt; </td></tr>
-<tr class="memitem:ad8d5a624249464fcba0bf30e454877df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#ad8d5a624249464fcba0bf30e454877df">CheckSumCombine</a> (unsigned int &amp;sum, const typename std::map&lt; C, D &gt; &amp;m)</td></tr>
-<tr class="separator:ad8d5a624249464fcba0bf30e454877df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSumCombine</a> (unsigned int &amp;sum, const <a class="el" href="structHullType_1_1Slot.html">HullType::Slot</a> &amp;slot)</td></tr>
 <tr class="separator:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -683,7 +677,7 @@ template&lt;class C , class D &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6a1a04abfb8d08c36e8af0c63bdc4f57"></a>
+<a class="anchor" id="a8b3d13a76c91fba67fcaddc9f492bc64"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -698,8 +692,20 @@ template&lt;class C &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const typename std::vector&lt; C &gt; &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decltype(std::declval&lt; C &gt;().begin())*&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decltype(std::declval&lt; C &gt;().end())*&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -738,66 +744,6 @@ template&lt;class C &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSumCombine()</a>, <a class="el" href="structTechCategory.html#a803b5e0491c39a239ebb73505766c89d">TechCategory::colour</a>, <a class="el" href="structTechCategory.html#a9fc6bf74bd846c735726f6ba389176d3">TechCategory::graphic</a>, <a class="el" href="structTechCategory.html#a87b2d0064b645799091b6ffcbf8f4be0">TechCategory::name</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad4d5c341c17856449a721e4df5a610c5"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CheckSums::CheckSumCombine </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>sum</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const typename std::set&lt; C &gt; &amp;&#160;</td>
-          <td class="paramname"><em>s</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceCheckSums.html#aa371b4ac057a76baa6a8d602e2c29c14">CHECKSUM_MODULUS</a>, <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad8d5a624249464fcba0bf30e454877df"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C , class D &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void CheckSums::CheckSumCombine </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int &amp;&#160;</td>
-          <td class="paramname"><em>sum</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const typename std::map&lt; C, D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>m</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceCheckSums.html#aa371b4ac057a76baa6a8d602e2c29c14">CHECKSUM_MODULUS</a>, <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
