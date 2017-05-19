@@ -217,6 +217,8 @@ Accessors</h2></td></tr>
 <tr class="separator:aeb85b658031457487bd47073d679af0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d0bf5247c099235d467593306f0cdd5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a0d0bf5247c099235d467593306f0cdd5">SpeciesSpeciesOpinion</a> (const std::string &amp;opinionated_species_name, const std::string &amp;rated_species_name) const </td></tr>
 <tr class="separator:a0d0bf5247c099235d467593306f0cdd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf807ea6d7890b71758087aeac85a42d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#adf807ea6d7890b71758087aeac85a42d">GetCheckSum</a> () const </td></tr>
+<tr class="separator:adf807ea6d7890b71758087aeac85a42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f644940b3f16400fa789c8e1f77896d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a4f644940b3f16400fa789c8e1f77896d">GetSpeciesManager</a> ()</td></tr>
 <tr class="separator:a4f644940b3f16400fa789c8e1f77896d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -281,7 +283,7 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSpecies.html#adaf8e5b4fab4eca0f361e3310147f1f8">Species::CanColonize()</a>, <a class="el" href="classSpecies.html#a15c8df7818b4bdbe6e7f3824b1f2ebd3">Species::CanProduceShips()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classSpecies.html#a95b5d38896422d56858a41a59532bf2a">Species::Name()</a>, <a class="el" href="classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b">Species::Native()</a>, <a class="el" href="classSpecies.html#a45f1915a1b9416ead90309ea42cc033a">Species::Playable()</a>, <a class="el" href="namespaceparse.html#a223b48d9cb14fc738171cf7851003909">parse::species()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="classSpecies.html#adaf8e5b4fab4eca0f361e3310147f1f8">Species::CanColonize()</a>, <a class="el" href="classSpecies.html#a15c8df7818b4bdbe6e7f3824b1f2ebd3">Species::CanProduceShips()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">FocusType::GetCheckSum()</a>, <a class="el" href="classSpecies.html#a95b5d38896422d56858a41a59532bf2a">Species::Name()</a>, <a class="el" href="classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b">Species::Native()</a>, <a class="el" href="classSpecies.html#a45f1915a1b9416ead90309ea42cc033a">Species::Playable()</a>, <a class="el" href="namespaceparse.html#a223b48d9cb14fc738171cf7851003909">parse::species()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -392,6 +394,24 @@ Accessors</h2></td></tr>
 <p>returns the building type with the name <em>name</em>; you should use the free function <a class="el" href="classSpeciesManager.html#a4f77aa28a3cc6bac5f3219ed1844fa25">GetSpecies()</a> instead, mainly to save some typing. </p>
 
 <p>Referenced by <a class="el" href="structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html#a4d9b2130c06e1c84597bdbd2fa1789cf">Condition::anonymous_namespace{Condition.cpp}::HomeworldSimpleMatch::operator()()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adf807ea6d7890b71758087aeac85a42d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int SpeciesManager::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>.</p>
 
 </div>
 </div>
@@ -1137,7 +1157,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSpecies.html#ae53d0a716ac38b8804a7f93badaccc72">Species::SetOtherSpeciesOpinion()</a>.</p>
+<p>Referenced by <a class="el" href="classSpecies.html#abb8938f1d183435c4a51e9ddb9c6c438">Species::GetCheckSum()</a>.</p>
 
 </div>
 </div>
