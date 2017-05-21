@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29550d4faf435fd873e23442d5452d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfd87f0811076b56368762a7dcbb1e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetShipPartMeter.html#acfd87f0811076b56368762a7dcbb1e5b">Execute</a> (const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">TargetsCauses</a> &amp;targets_causes, <a class="el" href="namespaceEffect.html#a0417b92714c94e22f690125299de4d43">AccountingMap</a> *accounting_map=nullptr, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false) const override</td></tr>
 <tr class="separator:acfd87f0811076b56368762a7dcbb1e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae457f74ee8599559e88dec854ac2006f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetShipPartMeter.html#ae457f74ee8599559e88dec854ac2006f">GetCheckSum</a> () const override</td></tr>
+<tr class="separator:ae457f74ee8599559e88dec854ac2006f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad71a3c03a235f1f71d4f73e4351fe8eb"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetShipPartMeter.html#ad71a3c03a235f1f71d4f73e4351fe8eb">GetMeterType</a> () const </td></tr>
 <tr class="separator:ad71a3c03a235f1f71d4f73e4351fe8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5682be11d6ba7c9bf0aa46dccdce195a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetShipPartMeter.html#a5682be11d6ba7c9bf0aa46dccdce195a">GetPartName</a> () const </td></tr>
@@ -388,6 +390,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae457f74ee8599559e88dec854ac2006f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Effect::SetShipPartMeter::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a582c534ad8918828b22640c2d1143df5">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#af4a97ea7fa6ab4d21d483d4eab7574b3">m_meter</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a2d091b8de028dd1cd89db858eb71e5ab">m_part_name</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a5f964275bc52edabfd20aea715e6e802">m_value</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad71a3c03a235f1f71d4f73e4351fe8eb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +592,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#ae457f74ee8599559e88dec854ac2006f">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -585,7 +614,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a2ccfa6972eebb164e9013c69228ac047">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#af4c537c3b17bcb3134928ee95d93d59b">~SetShipPartMeter()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#ae457f74ee8599559e88dec854ac2006f">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a2ccfa6972eebb164e9013c69228ac047">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#af4c537c3b17bcb3134928ee95d93d59b">~SetShipPartMeter()</a>.</p>
 
 </div>
 </div>
@@ -607,7 +636,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a2ccfa6972eebb164e9013c69228ac047">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#af4c537c3b17bcb3134928ee95d93d59b">~SetShipPartMeter()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetShipPartMeter.html#a85033b5614883eb5081dae641d86259d">Dump()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a0d9c5298f58728f473c28347ee644d9f">Execute()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#ae457f74ee8599559e88dec854ac2006f">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#a2ccfa6972eebb164e9013c69228ac047">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetShipPartMeter.html#af4c537c3b17bcb3134928ee95d93d59b">~SetShipPartMeter()</a>.</p>
 
 </div>
 </div>

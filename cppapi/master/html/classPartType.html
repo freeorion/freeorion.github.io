@@ -163,6 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aee512743829d8555263081de70c28975"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartType.html#aee512743829d8555263081de70c28975">Icon</a> () const </td></tr>
 <tr class="memdesc:aee512743829d8555263081de70c28975"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns icon graphic that represents part in UI  <a href="#aee512743829d8555263081de70c28975">More...</a><br /></td></tr>
 <tr class="separator:aee512743829d8555263081de70c28975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63cf3b4210ead7a408712babe58f392"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum</a> () const </td></tr>
+<tr class="separator:aa63cf3b4210ead7a408712babe58f392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -484,6 +486,24 @@ Friends</h2></td></tr>
 <p>returns the names of other content that cannot be used in the same ship design as this part </p>
 
 <p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#a0c8b2ef5ae52f67a2a05374cb9e5273e">DesignWnd::MainPanel::DesignChanged()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a45e45676f3bd50b8d7adcb274597f386">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelShipPartTag()</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa63cf3b4210ead7a408712babe58f392"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int PartType::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a582c534ad8918828b22640c2d1143df5">CheckSums::CheckSumCombine()</a>, <a class="el" href="classPartType.html#a9812c1ce7aab6dda06a949130ee8d14a">m_add_standard_capacity_effect</a>, <a class="el" href="classPartType.html#ad10f05b1b5bedd4fb8e3b35fd007df67">m_capacity</a>, <a class="el" href="classPartType.html#a6ff04ac857582c740aefe089e15d5754">m_class</a>, <a class="el" href="classPartType.html#a4c96ca5d4abc08ecf3c689e35437910e">m_description</a>, <a class="el" href="classPartType.html#a39382000d1574e85f56b9797abf650cb">m_effects</a>, <a class="el" href="classPartType.html#a1801e430b9fa9fe463f9d6c024ad2d74">m_exclusions</a>, <a class="el" href="classPartType.html#a6d071ace0b4d9d03a1e1a02cef1761ef">m_icon</a>, <a class="el" href="classPartType.html#a599770e72d1d04711e7bf26ad74bc146">m_location</a>, <a class="el" href="classPartType.html#a6873f6eeeb2eb16684d32a7f70963aca">m_mountable_slot_types</a>, <a class="el" href="classPartType.html#acbb0d746fc019b16ce3835cbcb47e409">m_name</a>, <a class="el" href="classPartType.html#a498c8ae0c68114b1553c0278f822f44a">m_producible</a>, <a class="el" href="classPartType.html#af7a58cb28b237622825bb38bd5964125">m_production_cost</a>, <a class="el" href="classPartType.html#a32232fa078d6ce2abefc2708c1d9b202">m_production_meter_consumption</a>, <a class="el" href="classPartType.html#a68061c71ddef1555d67a0420c9326dd6">m_production_special_consumption</a>, <a class="el" href="classPartType.html#adf5184b01c7254e9c4f4c76feb33ad07">m_production_time</a>, <a class="el" href="classPartType.html#a011e0b6dbd8aeec9df2758c2f1a5cd5d">m_secondary_stat</a>, and <a class="el" href="classPartType.html#a07b59d0bb92842ba85b96e29c95a5e6f">m_tags</a>.</p>
 
 </div>
 </div>
@@ -919,7 +939,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
 
 </div>
 </div>
@@ -941,7 +961,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">Capacity()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">Capacity()</a>, <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
 
 </div>
 </div>
@@ -963,7 +983,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a12f74b01ff3f3df6755cef1876f7df03">CapacityDescription()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#a12f74b01ff3f3df6755cef1876f7df03">CapacityDescription()</a>, <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
 
 </div>
 </div>
@@ -985,6 +1005,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a39382000d1574e85f56b9797abf650cb"></a>
@@ -1005,7 +1027,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
 
 </div>
 </div>
@@ -1027,6 +1049,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a6d071ace0b4d9d03a1e1a02cef1761ef"></a>
@@ -1046,6 +1070,8 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -1067,7 +1093,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a2ba617ca95d294204d9483479d4782e2">~PartType()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a2ba617ca95d294204d9483479d4782e2">~PartType()</a>.</p>
 
 </div>
 </div>
@@ -1089,7 +1115,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a4429d3b8be9f4aac45ebb68200a3a66e">CanMountInSlotType()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#a4429d3b8be9f4aac45ebb68200a3a66e">CanMountInSlotType()</a>, and <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1137,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>.</p>
 
 </div>
 </div>
@@ -1133,6 +1159,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="af7a58cb28b237622825bb38bd5964125"></a>
@@ -1153,7 +1181,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a107e108f1561dac5a9fff520c4ab4796">ProductionCost()</a>, and <a class="el" href="classPartType.html#a1df2daa9989e99a66d3487071dae2413">ProductionCostTimeLocationInvariant()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, <a class="el" href="classPartType.html#a107e108f1561dac5a9fff520c4ab4796">ProductionCost()</a>, and <a class="el" href="classPartType.html#a1df2daa9989e99a66d3487071dae2413">ProductionCostTimeLocationInvariant()</a>.</p>
 
 </div>
 </div>
@@ -1175,6 +1203,8 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a68061c71ddef1555d67a0420c9326dd6"></a>
@@ -1194,6 +1224,8 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -1215,7 +1247,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a1df2daa9989e99a66d3487071dae2413">ProductionCostTimeLocationInvariant()</a>, and <a class="el" href="classPartType.html#a8f76adf9f7f4e7d8872f0e411d1d8dd2">ProductionTime()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, <a class="el" href="classPartType.html#a1df2daa9989e99a66d3487071dae2413">ProductionCostTimeLocationInvariant()</a>, and <a class="el" href="classPartType.html#a8f76adf9f7f4e7d8872f0e411d1d8dd2">ProductionTime()</a>.</p>
 
 </div>
 </div>
@@ -1237,7 +1269,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>, and <a class="el" href="classPartType.html#ad7f10a3f5465a972f323c9b4663311fa">SecondaryStat()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, <a class="el" href="classPartType.html#a6b46b3ce5937676290f4c7c9cefdbc09">Init()</a>, and <a class="el" href="classPartType.html#ad7f10a3f5465a972f323c9b4663311fa">SecondaryStat()</a>.</p>
 
 </div>
 </div>
@@ -1259,7 +1291,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartType.html#a8b7d88aec3d0e8224727476964d46d78">PartType()</a>.</p>
+<p>Referenced by <a class="el" href="classPartType.html#aa63cf3b4210ead7a408712babe58f392">GetCheckSum()</a>, and <a class="el" href="classPartType.html#a8b7d88aec3d0e8224727476964d46d78">PartType()</a>.</p>
 
 </div>
 </div>

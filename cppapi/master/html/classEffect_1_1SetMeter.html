@@ -131,6 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5013b41d6c41f62695fe730404476294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31874cd945caf7281a611f85ee68bfde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a31874cd945caf7281a611f85ee68bfde">Execute</a> (const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">TargetsCauses</a> &amp;targets_causes, <a class="el" href="namespaceEffect.html#a0417b92714c94e22f690125299de4d43">AccountingMap</a> *accounting_map=nullptr, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false) const override</td></tr>
 <tr class="separator:a31874cd945caf7281a611f85ee68bfde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869bd87e307ad0092a2b6a56c318dedf"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum</a> () const override</td></tr>
+<tr class="separator:a869bd87e307ad0092a2b6a56c318dedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80e92b11a36d83542ed095178d81efd"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#ad80e92b11a36d83542ed095178d81efd">GetMeterType</a> () const </td></tr>
 <tr class="separator:ad80e92b11a36d83542ed095178d81efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f8cceb6de4efb651f19261fa261b64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a17f8cceb6de4efb651f19261fa261b64">IsMeterEffect</a> () const override</td></tr>
@@ -438,6 +440,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a869bd87e307ad0092a2b6a56c318dedf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Effect::SetMeter::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a582c534ad8918828b22640c2d1143df5">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a7fc3e7e9c03bf966f7c57fa6a163a74d">m_accounting_label</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad80e92b11a36d83542ed095178d81efd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -590,7 +619,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a31874cd945caf7281a611f85ee68bfde">Execute()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a31874cd945caf7281a611f85ee68bfde">Execute()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -612,7 +641,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -634,7 +663,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a56efc9a1abe0d5a1f8642be7e9975650">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a9ac5b6c3ed82cf270737f47b9a3ee7ff">~SetMeter()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a56efc9a1abe0d5a1f8642be7e9975650">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a9ac5b6c3ed82cf270737f47b9a3ee7ff">~SetMeter()</a>.</p>
 
 </div>
 </div>
