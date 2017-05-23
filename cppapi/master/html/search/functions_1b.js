@@ -13,7 +13,6 @@ var searchData=
   ['_7ebuilding',['~Building',['../classBuilding.html#ab675c6a382e110b84031956cda708439',1,'Building::~Building()'],['../structCondition_1_1Building.html#ab675c6a382e110b84031956cda708439',1,'Condition::Building::~Building()']]],
   ['_7ebuildingspanel',['~BuildingsPanel',['../classBuildingsPanel.html#a19c8cb18477e14692d4b5d0e01d54870',1,'BuildingsPanel']]],
   ['_7ebuildingtype',['~BuildingType',['../classBuildingType.html#ab307f939c2dfa1ec9732e369932aa601',1,'BuildingType']]],
-  ['_7ebuildingtypemanager',['~BuildingTypeManager',['../classBuildingTypeManager.html#adaebd068c131ac6e2682e0959122a5c7',1,'BuildingTypeManager']]],
   ['_7ecanaddstarlaneconnection',['~CanAddStarlaneConnection',['../structCondition_1_1CanAddStarlaneConnection.html#a87b78acc7b330700f9f789073c317711',1,'Condition::CanAddStarlaneConnection']]],
   ['_7echance',['~Chance',['../structCondition_1_1Chance.html#a62b2fc93e4a0233e1338d7473f5720fd',1,'Condition::Chance']]],
   ['_7eclientapp',['~ClientApp',['../classClientApp.html#afc7d439596001531d2b669408f9ca81b',1,'ClientApp']]],

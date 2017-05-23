@@ -97,7 +97,7 @@ var searchData=
   ['m_5fbuilding_5findicators',['m_building_indicators',['../classBuildingsPanel.html#abc6b6c982ebbe7d37d41a3f3d6057f05',1,'BuildingsPanel']]],
   ['m_5fbuilding_5ftype',['m_building_type',['../classBuilding.html#a511dabf29852d597d02fbde9923d7e2b',1,'Building']]],
   ['m_5fbuilding_5ftype_5fname',['m_building_type_name',['../classEffect_1_1CreateBuilding.html#af997d1f0359a97e1f834f9acab8ff6e6',1,'Effect::CreateBuilding']]],
-  ['m_5fbuilding_5ftypes',['m_building_types',['../classBuildingTypeManager.html#a7d0b1d8792da063d57e9d75036aaa420',1,'BuildingTypeManager']]],
+  ['m_5fbuilding_5ftypes',['m_building_types',['../classBuildingTypeManager.html#a02271ff91bc1a4757c75aceeb14b8f7b',1,'BuildingTypeManager']]],
   ['m_5fbuilding_5ftypes_5fowned',['m_building_types_owned',['../classEmpire.html#a74e2ea30e627798d8c6835151a6a7dbd',1,'Empire']]],
   ['m_5fbuilding_5ftypes_5fproduced',['m_building_types_produced',['../classEmpire.html#a42440fffcbda7f82c6d8c316260bbc4f',1,'Empire']]],
   ['m_5fbuilding_5ftypes_5fscrapped',['m_building_types_scrapped',['../classEmpire.html#ab8fd7b9bec09d422a34c96b63e53dca4',1,'Empire']]],
