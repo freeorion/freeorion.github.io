@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa23b739e94a80dedc6c94ca60fc467dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4cf63171a2d020dfe65030b2be6c10f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechTreeWnd.html#ac4cf63171a2d020dfe65030b2be6c10f">PediaVisible</a> ()</td></tr>
 <tr class="separator:ac4cf63171a2d020dfe65030b2be6c10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84220cafab1b5bebe54190043a66e268"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechTreeWnd.html#a84220cafab1b5bebe54190043a66e268">TechIsVisible</a> (const std::string &amp;tech_name) const </td></tr>
+<tr class="separator:a84220cafab1b5bebe54190043a66e268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators //@{</div></td></tr>
 <tr class="memitem:aca7a0644197f48fd1a280ae8b74fcc6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechTreeWnd.html#aca7a0644197f48fd1a280ae8b74fcc6e">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
 <tr class="separator:aca7a0644197f48fd1a280ae8b74fcc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,7 +330,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classTech.html#a09855b8e266ad459d405e19ed18604e4">Tech::Category()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a4407f82f5895a78c98484a0de4871741">TechTreeWnd::LayoutPanel::CenterOnTech()</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceAIInterface.html#a842c653e1381b87d038324173168a2c6">AIInterface::GetTech()</a>, <a class="el" href="classEmpire.html#a55e4f42bdfcdbafcb7c32c5d8fc2ce50">Empire::GetTechStatus()</a>, <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>, <a class="el" href="classTechTreeWnd.html#a9bbe18f37594b89f0b0c5b4fd2e4fb94">SetTechStatus()</a>, and <a class="el" href="classTechTreeWnd.html#a625b271a37413a0a163dadf59606c13e">ShowCategory()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a0d1937482dd96a4e13be89c09c5057da">ResearchWnd::CenterOnTech()</a>, and <a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ResearchWnd::ShowTech()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a0d1937482dd96a4e13be89c09c5057da">ResearchWnd::CenterOnTech()</a>, and <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ResearchWnd::ShowTech()</a>.</p>
 
 </div>
 </div>
@@ -363,8 +365,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If tech <code>tech_name</code> is currently visible </p>
 
 <p>References <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#ae722f86e684a5d9d3b063c6f2a58c4ae">TechTreeWnd::LayoutPanel::GetCategoriesShown()</a>, and <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>.</p>
+
+<p>Referenced by <a class="el" href="classTechTreeWnd.html#a84220cafab1b5bebe54190043a66e268">TechIsVisible()</a>.</p>
 
 </div>
 </div>
@@ -380,8 +385,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If tech <code>tech_name</code> is currently visible </p>
 
 <p>References <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a3b6c408decfeea6039149b1fb1a06937">TechTreeWnd::LayoutPanel::GetTechStatusesShown()</a>, and <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>.</p>
+
+<p>Referenced by <a class="el" href="classTechTreeWnd.html#a84220cafab1b5bebe54190043a66e268">TechIsVisible()</a>.</p>
 
 </div>
 </div>
@@ -482,6 +490,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If tech <code>tech_name</code> is currently visible </p>
 
 <p>References <a class="el" href="classTechTreeWnd.html#acf2f2855d2740dc27df1486d42c3ec1c">m_enc_detail_panel</a>.</p>
 
@@ -520,6 +529,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If tech <code>tech_name</code> is currently visible </p>
 
 <p>References <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>, and <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#ae1a48a127cd122af1a25e33383dd5928">TechTreeWnd::LayoutPanel::Scale()</a>.</p>
 
@@ -541,7 +551,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>, and <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a3e33a557da259a90542298b994c63cec">TechTreeWnd::LayoutPanel::ShowTech()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ResearchWnd::ShowTech()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ResearchWnd::ShowTech()</a>.</p>
 
 </div>
 </div>
@@ -561,7 +571,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classTechTreeWnd.html#acf2f2855d2740dc27df1486d42c3ec1c">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a7a5ba06341b0a10b330dc2d50015dbb7">EncyclopediaDetailPanel::SetTech()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ResearchWnd::ShowTech()</a>, <a class="el" href="classTechTreeWnd.html#ab31b08a271e3d1acb0642c0d533ceb86">TechLeftClickedSlot()</a>, and <a class="el" href="classTechTreeWnd.html#a1fa983f89df4b687bb01dd9276216f53">TechPediaDisplaySlot()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ResearchWnd::ShowTech()</a>, <a class="el" href="classTechTreeWnd.html#ab31b08a271e3d1acb0642c0d533ceb86">TechLeftClickedSlot()</a>, and <a class="el" href="classTechTreeWnd.html#a1fa983f89df4b687bb01dd9276216f53">TechPediaDisplaySlot()</a>.</p>
 
 </div>
 </div>
@@ -607,7 +617,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">OptionsDB::Commit()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a1d6ec669d83f54ba55b317416793206e">TechTreeWnd::LayoutPanel::HideStatus()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aff5bd675e4634def04038d40f4046d2a">TechTreeWnd::TechListBox::HideStatus()</a>, <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>, <a class="el" href="classTechTreeWnd.html#ac40bdf09cb465110910c793877990fdb">m_tech_list</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a506db86713e16c34955a2c9fd929e610">TechTreeWnd::LayoutPanel::ShowStatus()</a>, and <a class="el" href="classTechTreeWnd_1_1TechListBox.html#a207f846c4894b6da4d76640aa6dc26e3">TechTreeWnd::TechListBox::ShowStatus()</a>.</p>
+<p>References <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">OptionsDB::Commit()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a1d6ec669d83f54ba55b317416793206e">TechTreeWnd::LayoutPanel::HideStatus()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#aff5bd675e4634def04038d40f4046d2a">TechTreeWnd::TechListBox::HideStatus()</a>, <a class="el" href="classTechTreeWnd.html#a918eb5951be0359dca10517d9aca5839">m_layout_panel</a>, <a class="el" href="classTechTreeWnd.html#ac40bdf09cb465110910c793877990fdb">m_tech_list</a>, <a class="el" href="classTechTreeWnd.html#a5660db6652521bc7c502776ede629bf9">m_tech_tree_controls</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#aaa830d9d366f1569b0b00a6cdef53113">TechTreeWnd::TechTreeControls::SetTechStatus()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a506db86713e16c34955a2c9fd929e610">TechTreeWnd::LayoutPanel::ShowStatus()</a>, and <a class="el" href="classTechTreeWnd_1_1TechListBox.html#a207f846c4894b6da4d76640aa6dc26e3">TechTreeWnd::TechListBox::ShowStatus()</a>.</p>
 
 <p>Referenced by <a class="el" href="classTechTreeWnd.html#af2d29d310b5b3784539d97df9b46ace7">CenterOnTech()</a>, <a class="el" href="classTechTreeWnd.html#ab0297aaae49c222749c6475246a5ae76">Show()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd()</a>.</p>
 
@@ -808,6 +818,27 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classTechTreeWnd.html#a2a8401c57596380fa92d8abaff19d5f5">AddTechsToQueueSignal</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceAIInterface.html#a842c653e1381b87d038324173168a2c6">AIInterface::GetTech()</a>, <a class="el" href="Tech_8cpp.html#a5fb6b34d37fa05a1338d273ae33aa41a">GetTechManager()</a>, <a class="el" href="classEmpire.html#a55e4f42bdfcdbafcb7c32c5d8fc2ce50">Empire::GetTechStatus()</a>, <a class="el" href="classTechManager.html#aa1549f3af02c6213e7022f0dedbfb352">TechManager::RecursivePrereqs()</a>, and <a class="el" href="namespaceparse.html#a79d853f78046ab723467cab902d9457d">parse::techs()</a>.</p>
 
 <p>Referenced by <a class="el" href="classTechTreeWnd.html#ab31b08a271e3d1acb0642c0d533ceb86">TechLeftClickedSlot()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84220cafab1b5bebe54190043a66e268"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TechTreeWnd::TechIsVisible </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tech_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If tech <code>tech_name</code> is currently visible </p>
+
+<p>References <a class="el" href="classTechTreeWnd.html#aceae6e325d7a6fcff09deb49ef176095">GetCategoriesShown()</a>, <a class="el" href="classTechTreeWnd.html#aa23b739e94a80dedc6c94ca60fc467dd">GetTechStatusesShown()</a>, and <a class="el" href="namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a932df8ff197ed6f51818e5edb110a167">anonymous_namespace{TechTreeWnd.cpp}::TechVisible()</a>.</p>
+
+<p>Referenced by <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ResearchWnd::ShowTech()</a>.</p>
 
 </div>
 </div>
@@ -1082,7 +1113,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTechTreeWnd.html#ac0e8674ab0c7971d569678643babba0b">HideAllCategories()</a>, <a class="el" href="classTechTreeWnd.html#a55e68c8d5a168315074657f3a4668a58">HideCategory()</a>, <a class="el" href="classTechTreeWnd.html#aa00d9a7280695ab34bc518b927a9a7df">InitializeWindows()</a>, <a class="el" href="classTechTreeWnd.html#a6251e94484b87d0cce47845d97ff7100">ShowAllCategories()</a>, <a class="el" href="classTechTreeWnd.html#a625b271a37413a0a163dadf59606c13e">ShowCategory()</a>, <a class="el" href="classTechTreeWnd.html#ad084ef0849b5252d376792b6e2cf02a3">ShowListView()</a>, <a class="el" href="classTechTreeWnd.html#a56c06ab3ac963d23f381477fa62ad7a2">ShowTreeView()</a>, <a class="el" href="classTechTreeWnd.html#aca7a0644197f48fd1a280ae8b74fcc6e">SizeMove()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd()</a>.</p>
+<p>Referenced by <a class="el" href="classTechTreeWnd.html#ac0e8674ab0c7971d569678643babba0b">HideAllCategories()</a>, <a class="el" href="classTechTreeWnd.html#a55e68c8d5a168315074657f3a4668a58">HideCategory()</a>, <a class="el" href="classTechTreeWnd.html#aa00d9a7280695ab34bc518b927a9a7df">InitializeWindows()</a>, <a class="el" href="classTechTreeWnd.html#a9bbe18f37594b89f0b0c5b4fd2e4fb94">SetTechStatus()</a>, <a class="el" href="classTechTreeWnd.html#a6251e94484b87d0cce47845d97ff7100">ShowAllCategories()</a>, <a class="el" href="classTechTreeWnd.html#a625b271a37413a0a163dadf59606c13e">ShowCategory()</a>, <a class="el" href="classTechTreeWnd.html#ad084ef0849b5252d376792b6e2cf02a3">ShowListView()</a>, <a class="el" href="classTechTreeWnd.html#a56c06ab3ac963d23f381477fa62ad7a2">ShowTreeView()</a>, <a class="el" href="classTechTreeWnd.html#aca7a0644197f48fd1a280ae8b74fcc6e">SizeMove()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd()</a>.</p>
 
 </div>
 </div>

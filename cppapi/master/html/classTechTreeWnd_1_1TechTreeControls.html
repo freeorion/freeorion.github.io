@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a007defb306b1c843ee17ead5d5b48410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ca70ee22f05a0786dd6cb8b8eb83ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#ad4ca70ee22f05a0786dd6cb8b8eb83ea">LDrag</a> (const GG::Pt &amp;pt, const GG::Pt &amp;move, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:ad4ca70ee22f05a0786dd6cb8b8eb83ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa830d9d366f1569b0b00a6cdef53113"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#aaa830d9d366f1569b0b00a6cdef53113">SetTechStatus</a> (TechStatus status, bool state)</td></tr>
+<tr class="separator:aaa830d9d366f1569b0b00a6cdef53113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classCUIWnd"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCUIWnd')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classCUIWnd.html">CUIWnd</a></td></tr>
 <tr class="memitem:a534b23149a1e8f625d9f79dc2b9e524a inherit pub_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a534b23149a1e8f625d9f79dc2b9e524a">CUIWnd</a> (const std::string &amp;wnd_name, GG::X x, GG::Y y, GG::X w, GG::Y h, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)</td></tr>
 <tr class="separator:a534b23149a1e8f625d9f79dc2b9e524a inherit pub_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -452,6 +454,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set checked value of control for TechStatus <code>status</code> to <code>state</code> </p>
 
 <p>References <a class="el" href="classCUIWnd.html#a714fed1cbefcd7be142a470fb617809d">CUIWnd::m_drag_offset</a>.</p>
 
@@ -477,8 +480,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set checked value of control for TechStatus <code>status</code> to <code>state</code> </p>
 
 <p>References <a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e">CUIWnd::Render()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa830d9d366f1569b0b00a6cdef53113"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TechTreeWnd::TechTreeControls::SetTechStatus </td>
+          <td>(</td>
+          <td class="paramtype">TechStatus&#160;</td>
+          <td class="paramname"><em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set checked value of control for TechStatus <code>status</code> to <code>state</code> </p>
+
+<p>References <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#ae37f47967ff58cf066c1f6671559716c">m_status_buttons</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="classTechTreeWnd.html#a9bbe18f37594b89f0b0c5b4fd2e4fb94">TechTreeWnd::SetTechStatus()</a>.</p>
 
 </div>
 </div>
@@ -513,6 +548,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set checked value of control for TechStatus <code>status</code> to <code>state</code> </p>
 
 <p>References <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a700ee00c012db9bb11b8107a49ab1c32">DoButtonLayout()</a>, <a class="el" href="classCUIWnd.html#a897802e091b862f43d1df73dc4b9bb52">CUIWnd::m_config_save</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">CUIWnd::SizeMove()</a>.</p>
 
@@ -692,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a700ee00c012db9bb11b8107a49ab1c32">DoButtonLayout()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#abf9a5782bce96bd3b0b4b2ea033399a2">TechTreeControls()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd::TechTreeWnd()</a>.</p>
+<p>Referenced by <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a700ee00c012db9bb11b8107a49ab1c32">DoButtonLayout()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#aaa830d9d366f1569b0b00a6cdef53113">SetTechStatus()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#abf9a5782bce96bd3b0b4b2ea033399a2">TechTreeControls()</a>, and <a class="el" href="classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f">TechTreeWnd::TechTreeWnd()</a>.</p>
 
 </div>
 </div>

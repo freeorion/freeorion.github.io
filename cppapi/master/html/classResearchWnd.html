@@ -133,8 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99f2a70c1970fce3e85cbba13bb59147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d1937482dd96a4e13be89c09c5057da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResearchWnd.html#a0d1937482dd96a4e13be89c09c5057da">CenterOnTech</a> (const std::string &amp;tech_name)</td></tr>
 <tr class="separator:a0d1937482dd96a4e13be89c09c5057da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d71410d5ee82b6923dfe5514bf65964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ShowTech</a> (const std::string &amp;tech_name)</td></tr>
-<tr class="separator:a7d71410d5ee82b6923dfe5514bf65964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3fc771de9c57b53c7b90e791d25d02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ShowTech</a> (const std::string &amp;tech_name, bool force=true)</td></tr>
+<tr class="separator:a9d3fc771de9c57b53c7b90e791d25d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a232a94dd3d2dee2b35b1d5db566012b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResearchWnd.html#a232a94dd3d2dee2b35b1d5db566012b9">QueueItemMoved</a> (GG::ListBox::Row *row, std::size_t position)</td></tr>
 <tr class="separator:a232a94dd3d2dee2b35b1d5db566012b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1168cc4ffd305c5a8f96608187dede3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResearchWnd.html#a1168cc4ffd305c5a8f96608187dede3f">Sanitize</a> ()</td></tr>
@@ -291,7 +291,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classTechTreeWnd.html#af2d29d310b5b3784539d97df9b46ace7">TechTreeWnd::CenterOnTech()</a>, and <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>.</p>
 
@@ -321,7 +321,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, <a class="el" href="classResearchWnd.html#a4699d316e6bffd88d15b4d782dff70a0">m_enabled</a>, and <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a56caffdce38858c5b008dc6c1f9c16a0">QueueItemDoubleClickedSlot()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a958c6e5d270996962ba58133564a5f87">QueueItemClickedSlot()</a>, and <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>.</p>
 
 </div>
 </div>
@@ -385,7 +385,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classTechTreeWnd.html#a60816483e06b8cdb2283f995092a58c8">TechTreeWnd::HidePedia()</a>, and <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>.</p>
 
@@ -448,7 +448,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">QueueListBox::DisplayingValidQueueItems()</a>, <a class="el" href="classResearchQueueWnd.html#a4ba199c2c2131feee0736b367c6f2124">ResearchQueueWnd::GetQueueListBox()</a>, <a class="el" href="classResearchWnd.html#abb38c28bae7706f9e7d0b057532a6147">m_queue_wnd</a>, and <a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ShowTech()</a>.</p>
+<p>References <a class="el" href="classResearchWnd.html#a3b794fc06ee0644f1250bb2aa06cbade">DeleteQueueItem()</a>, <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">QueueListBox::DisplayingValidQueueItems()</a>, <a class="el" href="classResearchQueueWnd.html#a4ba199c2c2131feee0736b367c6f2124">ResearchQueueWnd::GetQueueListBox()</a>, <a class="el" href="classResearchWnd.html#abb38c28bae7706f9e7d0b057532a6147">m_queue_wnd</a>, and <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ShowTech()</a>.</p>
 
 <p>Referenced by <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>.</p>
 
@@ -492,7 +492,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classResearchWnd.html#a3b794fc06ee0644f1250bb2aa06cbade">DeleteQueueItem()</a>, <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">QueueListBox::DisplayingValidQueueItems()</a>, <a class="el" href="classResearchQueueWnd.html#a4ba199c2c2131feee0736b367c6f2124">ResearchQueueWnd::GetQueueListBox()</a>, and <a class="el" href="classResearchWnd.html#abb38c28bae7706f9e7d0b057532a6147">m_queue_wnd</a>.</p>
+<p>References <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">QueueListBox::DisplayingValidQueueItems()</a>, <a class="el" href="classResearchQueueWnd.html#a4ba199c2c2131feee0736b367c6f2124">ResearchQueueWnd::GetQueueListBox()</a>, <a class="el" href="classResearchWnd.html#abb38c28bae7706f9e7d0b057532a6147">m_queue_wnd</a>, and <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ShowTech()</a>.</p>
 
 <p>Referenced by <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>.</p>
 
@@ -521,7 +521,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, and <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
 
@@ -579,7 +579,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classResearchWnd.html#a7c8bb5727afec7ad70341dd743b2a7ea">m_empire_connection</a>, <a class="el" href="classResearchWnd.html#ab77c5c5b78a07f823695a43362cd80f6">ResearchQueueChangedSlot()</a>, and <a class="el" href="classResearchWnd.html#a99f2a70c1970fce3e85cbba13bb59147">Update()</a>.</p>
 
@@ -607,7 +607,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchQueueWnd.html#a4ba199c2c2131feee0736b367c6f2124">ResearchQueueWnd::GetQueueListBox()</a>, <a class="el" href="classResearchWnd.html#abb38c28bae7706f9e7d0b057532a6147">m_queue_wnd</a>, <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, <a class="el" href="classTechTreeWnd.html#a3df36398b12694983c63f325f28adfd5">TechTreeWnd::Reset()</a>, <a class="el" href="classResearchWnd.html#ae064c0a5af3156a264b2f2016843d124">UpdateInfoPanel()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">UpdateQueue()</a>.</p>
 
@@ -670,7 +670,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classTechTreeWnd.html#a12fb043645e9e798bfe5a44ca97ecaa6">TechTreeWnd::Clear()</a>, and <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>.</p>
 
@@ -691,7 +691,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchWnd.html#abf425523d80af791a022a3324510d35d">m_empire_shown_id</a>, and <a class="el" href="classResearchWnd.html#afb63f97e8eaefedb43b8f98305189038">Refresh()</a>.</p>
 
@@ -726,7 +726,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, and <a class="el" href="classTechTreeWnd.html#aae7f0509fa0c4247a7335c93acb51683">TechTreeWnd::ShowPedia()</a>.</p>
 
@@ -734,7 +734,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7d71410d5ee82b6923dfe5514bf65964"></a>
+<a class="anchor" id="a9d3fc771de9c57b53c7b90e791d25d02"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -742,16 +742,26 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ResearchWnd::ShowTech </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>tech_name</em></td><td>)</td>
+          <td class="paramname"><em>tech_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
-<p>References <a class="el" href="classTechTreeWnd.html#af2d29d310b5b3784539d97df9b46ace7">TechTreeWnd::CenterOnTech()</a>, <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, <a class="el" href="classTechTreeWnd.html#a81a80aa26ceb2f261825683b3cbc068b">TechTreeWnd::SelectTech()</a>, and <a class="el" href="classTechTreeWnd.html#afee5eea245896bccc82935454f606283">TechTreeWnd::SetEncyclopediaTech()</a>.</p>
+<p>References <a class="el" href="classTechTreeWnd.html#af2d29d310b5b3784539d97df9b46ace7">TechTreeWnd::CenterOnTech()</a>, <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, <a class="el" href="classTechTreeWnd.html#a81a80aa26ceb2f261825683b3cbc068b">TechTreeWnd::SelectTech()</a>, <a class="el" href="classTechTreeWnd.html#afee5eea245896bccc82935454f606283">TechTreeWnd::SetEncyclopediaTech()</a>, and <a class="el" href="classTechTreeWnd.html#a84220cafab1b5bebe54190043a66e268">TechTreeWnd::TechIsVisible()</a>.</p>
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a958c6e5d270996962ba58133564a5f87">QueueItemClickedSlot()</a>, and <a class="el" href="classMapWnd.html#af14fe73f85bf19ec4516f07d9580e744">MapWnd::ShowTech()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a958c6e5d270996962ba58133564a5f87">QueueItemClickedSlot()</a>, <a class="el" href="classResearchWnd.html#a56caffdce38858c5b008dc6c1f9c16a0">QueueItemDoubleClickedSlot()</a>, and <a class="el" href="classMapWnd.html#af14fe73f85bf19ec4516f07d9580e744">MapWnd::ShowTech()</a>.</p>
 
 </div>
 </div>
@@ -786,7 +796,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchWnd.html#aeea01511a872afccbf73124f582a9a04">DoLayout()</a>.</p>
 
@@ -804,7 +814,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, and <a class="el" href="classTechTreeWnd.html#a24f76fb13c558d2684aa79bd410af559">TechTreeWnd::TogglePedia()</a>.</p>
 
@@ -824,7 +834,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Enables, or disables if <em>enable</em> is false, issuing orders via this <a class="el" href="classResearchWnd.html">ResearchWnd</a>. </p>
+<p>Set encyclopedia entry to tech article for <code>tech_name</code> Selects and centers tech <code>tech_name</code> if tech is initially visible or if <code>force</code> is true(default). </p>
 
 <p>References <a class="el" href="classResearchWnd.html#a7a845b1b0591e5bf59ca00defa849b63">m_tech_tree_wnd</a>, <a class="el" href="classTechTreeWnd.html#a91d6dbb8d06c39fc34c4be8ee14d549f">TechTreeWnd::Update()</a>, <a class="el" href="classResearchWnd.html#ae064c0a5af3156a264b2f2016843d124">UpdateInfoPanel()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">UpdateQueue()</a>.</p>
 
@@ -1017,7 +1027,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classResearchWnd.html#a0d1937482dd96a4e13be89c09c5057da">CenterOnTech()</a>, <a class="el" href="classResearchWnd.html#aeea01511a872afccbf73124f582a9a04">DoLayout()</a>, <a class="el" href="classResearchWnd.html#af3c639e401beff7d10888ca6381c8a29">HidePedia()</a>, <a class="el" href="classResearchWnd.html#a1afa38e14664ac9bd83533f103ec3510">PediaVisible()</a>, <a class="el" href="classResearchWnd.html#ab77c5c5b78a07f823695a43362cd80f6">ResearchQueueChangedSlot()</a>, <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>, <a class="el" href="classResearchWnd.html#ae51bbd51fd3e2bda41c97d545f0e2ae0">Reset()</a>, <a class="el" href="classResearchWnd.html#a1168cc4ffd305c5a8f96608187dede3f">Sanitize()</a>, <a class="el" href="classResearchWnd.html#ab007707dbb7d2b3e69ddfa99b46f15ba">ShowPedia()</a>, <a class="el" href="classResearchWnd.html#a7d71410d5ee82b6923dfe5514bf65964">ShowTech()</a>, <a class="el" href="classResearchWnd.html#a4f41d93f40f06b28faf19c22c57fb08b">TogglePedia()</a>, and <a class="el" href="classResearchWnd.html#a99f2a70c1970fce3e85cbba13bb59147">Update()</a>.</p>
+<p>Referenced by <a class="el" href="classResearchWnd.html#a0d1937482dd96a4e13be89c09c5057da">CenterOnTech()</a>, <a class="el" href="classResearchWnd.html#aeea01511a872afccbf73124f582a9a04">DoLayout()</a>, <a class="el" href="classResearchWnd.html#af3c639e401beff7d10888ca6381c8a29">HidePedia()</a>, <a class="el" href="classResearchWnd.html#a1afa38e14664ac9bd83533f103ec3510">PediaVisible()</a>, <a class="el" href="classResearchWnd.html#ab77c5c5b78a07f823695a43362cd80f6">ResearchQueueChangedSlot()</a>, <a class="el" href="classResearchWnd.html#a1132897258feaa9fb7a14ad434db66d0">ResearchWnd()</a>, <a class="el" href="classResearchWnd.html#ae51bbd51fd3e2bda41c97d545f0e2ae0">Reset()</a>, <a class="el" href="classResearchWnd.html#a1168cc4ffd305c5a8f96608187dede3f">Sanitize()</a>, <a class="el" href="classResearchWnd.html#ab007707dbb7d2b3e69ddfa99b46f15ba">ShowPedia()</a>, <a class="el" href="classResearchWnd.html#a9d3fc771de9c57b53c7b90e791d25d02">ShowTech()</a>, <a class="el" href="classResearchWnd.html#a4f41d93f40f06b28faf19c22c57fb08b">TogglePedia()</a>, and <a class="el" href="classResearchWnd.html#a99f2a70c1970fce3e85cbba13bb59147">Update()</a>.</p>
 
 </div>
 </div>
