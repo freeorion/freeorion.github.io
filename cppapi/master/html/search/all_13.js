@@ -1019,7 +1019,7 @@ var searchData=
   ['system_5fgraph',['system_graph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a1e78301bc7ba6183cda9287ca0ee432e',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['system_5fid',['system_id',['../structCombatLog.html#a85a0588903dc29e3a30e9a3d59ee7eb5',1,'CombatLog::system_id()'],['../structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e',1,'CombatInfo::system_id()']]],
   ['system_5fid_5ftag',['SYSTEM_ID_TAG',['../classVarText.html#a1903f851e6b56625a44006cb1bc1d252',1,'VarText']]],
-  ['system_5forbits',['SYSTEM_ORBITS',['../namespaceanonymous__namespace_02System_8cpp_03.html#a5cb88cf5cbd6b33ec66f57d28752cd6b',1,'anonymous_namespace{System.cpp}']]],
+  ['system_5forbits',['SYSTEM_ORBITS',['../namespaceanonymous__namespace_02System_8h_03.html#a8a1783bf222144c076418909e3e1bb87',1,'anonymous_namespace{System.h}']]],
   ['systemaddstarlane',['SystemAddStarlane',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a6d66b84f90c160b347f4c63e9ce1c602',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['systembrowsedsignal',['SystemBrowsedSignal',['../classMapWnd.html#a6aabf9e1aaf3bbaec1888f9299257236',1,'MapWnd']]],
   ['systemcirclesize',['SystemCircleSize',['../classClientUI.html#ac5943654275ee76f385aafec22782306',1,'ClientUI']]],

@@ -216,17 +216,17 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0c577deeff44e8ced2ba856ee2125e4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a></td></tr>
+<tr class="memitem:a0c577deeff44e8ced2ba856ee2125e4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a> = <a class="el" href="AppInterface_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td></tr>
 <tr class="separator:a0c577deeff44e8ced2ba856ee2125e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46342d0d76ab74ff6431173bef45ca8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a46342d0d76ab74ff6431173bef45ca8b">m_id</a></td></tr>
+<tr class="memitem:a46342d0d76ab74ff6431173bef45ca8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a46342d0d76ab74ff6431173bef45ca8b">m_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:a46342d0d76ab74ff6431173bef45ca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7b34f56884fd5cd459c2fab1e49ee88"><td class="memItemLeft" align="right" valign="top">std::map&lt; MeterType, <a class="el" href="classMeter.html">Meter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ab7b34f56884fd5cd459c2fab1e49ee88">m_meters</a></td></tr>
 <tr class="separator:ab7b34f56884fd5cd459c2fab1e49ee88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a105892ecef9ba211d748256dc40a881b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a105892ecef9ba211d748256dc40a881b">m_owner_empire_id</a></td></tr>
+<tr class="memitem:a105892ecef9ba211d748256dc40a881b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a105892ecef9ba211d748256dc40a881b">m_owner_empire_id</a> = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
 <tr class="separator:a105892ecef9ba211d748256dc40a881b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac292b32e162a57491ccce52ea7b488"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; int, float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a></td></tr>
 <tr class="separator:a3ac292b32e162a57491ccce52ea7b488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd1fab3adcc5cb44dd3507c4f9dffcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a1dd1fab3adcc5cb44dd3507c4f9dffcb">m_system_id</a></td></tr>
+<tr class="memitem:a1dd1fab3adcc5cb44dd3507c4f9dffcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a1dd1fab3adcc5cb44dd3507c4f9dffcb">m_system_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:a1dd1fab3adcc5cb44dd3507c4f9dffcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb4559b9133c1714c9f8450a982dd008"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#aeb4559b9133c1714c9f8450a982dd008">m_x</a></td></tr>
 <tr class="separator:aeb4559b9133c1714c9f8450a982dd008"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -403,8 +403,6 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
 
-<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, and <a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a42fbae16016512b3da1b2c63332e01f7"></a>
@@ -445,8 +443,6 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
-
-<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, and <a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a>.</p>
 
 </div>
 </div>
@@ -498,11 +494,11 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Accepts a visitor object </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classFleet.html#a2caf5f00fe32d78de663573988a745b6">Fleet</a>, <a class="el" href="classSystem.html#a29eafe3b29e683ed8bd9c4d93c0bb617">System</a>, <a class="el" href="classPlanet.html#a26c62246e5d5a0b2979361ff3e1ce46e">Planet</a>, <a class="el" href="classBuilding.html#a05754abe7b031ea9fd866ea98f745410">Building</a>, <a class="el" href="classShip.html#ac28d6621b90013bc191e8c5ede4a074b">Ship</a>, <a class="el" href="classField.html#af8b06ee6d68fff38adab72b5afd26d8f">Field</a>, and <a class="el" href="classFighter.html#a4e147041653c95ded1251ff1094d4ccc">Fighter</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#a29eafe3b29e683ed8bd9c4d93c0bb617">System</a>, <a class="el" href="classFleet.html#a2caf5f00fe32d78de663573988a745b6">Fleet</a>, <a class="el" href="classPlanet.html#a26c62246e5d5a0b2979361ff3e1ce46e">Planet</a>, <a class="el" href="classShip.html#ac28d6621b90013bc191e8c5ede4a074b">Ship</a>, <a class="el" href="classBuilding.html#a05754abe7b031ea9fd866ea98f745410">Building</a>, <a class="el" href="classField.html#af8b06ee6d68fff38adab72b5afd26d8f">Field</a>, and <a class="el" href="classFighter.html#a4e147041653c95ded1251ff1094d4ccc">Fighter</a>.</p>
 
 <p>References <a class="el" href="structUniverseObjectVisitor.html#a816ded1ce9cfa51e6d4cd3683cb93b2f">UniverseObjectVisitor::Visit()</a>.</p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a3f1f7fe0a75c7c9c5825f2d78cda85df">System::ContainedBy()</a>, and <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>.</p>
+<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>.</p>
 
 </div>
 </div>
@@ -708,9 +704,9 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
 
-<p>Implemented in <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Fleet</a>, <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">System</a>, <a class="el" href="classPlanet.html#a5526518aaf4308e51b27878166511a3c">Planet</a>, <a class="el" href="classBuilding.html#a2f53addb77540c76e191dee3cf447b73">Building</a>, <a class="el" href="classField.html#acf7a818ed36ce6c7af15843f254ce929">Field</a>, <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Ship</a>, and <a class="el" href="classFighter.html#a99959f3e066ba01242942c3d60ad5eaa">Fighter</a>.</p>
+<p>Implemented in <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">System</a>, <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Fleet</a>, <a class="el" href="classPlanet.html#a5526518aaf4308e51b27878166511a3c">Planet</a>, <a class="el" href="classBuilding.html#a2f53addb77540c76e191dee3cf447b73">Building</a>, <a class="el" href="classField.html#acf7a818ed36ce6c7af15843f254ce929">Field</a>, <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Ship</a>, and <a class="el" href="classFighter.html#a99959f3e066ba01242942c3d60ad5eaa">Fighter</a>.</p>
 
-<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, and <a class="el" href="classSystem.html#a3be70bb338e3f062f821173fd15680d0">System::~System()</a>.</p>
+<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
 
 </div>
 </div>
@@ -738,7 +734,7 @@ Structors</h2></td></tr>
 
 <p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
 
-<p>Reimplemented in <a class="el" href="classFleet.html#afcb40556528a1d9aaa615b25534b7810">Fleet</a>, <a class="el" href="classSystem.html#a3f1f7fe0a75c7c9c5825f2d78cda85df">System</a>, <a class="el" href="classBuilding.html#a92a47aa4f13336ee85fbee4f52e6be4c">Building</a>, <a class="el" href="classPlanet.html#a53faa1442b279df428de54a2aa7f65ab">Planet</a>, <a class="el" href="classShip.html#ab3a6531284208386442e5468a5a9c98d">Ship</a>, and <a class="el" href="classField.html#abbece90f8282257eddc18621cefa051d">Field</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#a3f1f7fe0a75c7c9c5825f2d78cda85df">System</a>, <a class="el" href="classFleet.html#afcb40556528a1d9aaa615b25534b7810">Fleet</a>, <a class="el" href="classBuilding.html#a92a47aa4f13336ee85fbee4f52e6be4c">Building</a>, <a class="el" href="classPlanet.html#a53faa1442b279df428de54a2aa7f65ab">Planet</a>, <a class="el" href="classShip.html#ab3a6531284208386442e5468a5a9c98d">Ship</a>, and <a class="el" href="classField.html#abbece90f8282257eddc18621cefa051d">Field</a>.</p>
 
 <p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -766,11 +762,11 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns ids of objects contained within this object. </p>
 
-<p>Reimplemented in <a class="el" href="classFleet.html#a010e26947514fe90ac78903d2f338b79">Fleet</a>, <a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">System</a>, and <a class="el" href="classPlanet.html#a069604de29db90e62eb37cd2e67315a9">Planet</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">System</a>, <a class="el" href="classFleet.html#a010e26947514fe90ac78903d2f338b79">Fleet</a>, and <a class="el" href="classPlanet.html#a069604de29db90e62eb37cd2e67315a9">Planet</a>.</p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02UniverseObject_8cpp_03.html#a6f9e41a954b2f0a59756abc68a72cf77">anonymous_namespace{UniverseObject.cpp}::EMPTY_SET</a>.</p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a94b4313882064d15093ad444c40c1d30">System::SystemID()</a>, <a class="el" href="classUniverseObject.html#a47bab128ba57d639bd19eaaf16a025b9">VisibleContainedObjectIDs()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverseObject.html#a47bab128ba57d639bd19eaaf16a025b9">VisibleContainedObjectIDs()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -796,7 +792,7 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns id of the object that directly contains this object, if any, or INVALID_OBJECT_ID if this object is not contained by any other. </p>
 
-<p>Reimplemented in <a class="el" href="classFleet.html#af4bc3a0f9f1b7fe21cca22742349daa6">Fleet</a>, <a class="el" href="classBuilding.html#a39cd9a08ed2a55d8dc4a724c1512f0bd">Building</a>, <a class="el" href="classPlanet.html#ac63a1fc339ec6212f52586cd68651da2">Planet</a>, <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship</a>, and <a class="el" href="classField.html#a9f05e68727c08060c575262a9f088f8f">Field</a>.</p>
+<p>Reimplemented in <a class="el" href="classFleet.html#af4bc3a0f9f1b7fe21cca22742349daa6">Fleet</a>, <a class="el" href="classBuilding.html#a39cd9a08ed2a55d8dc4a724c1512f0bd">Building</a>, <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship</a>, <a class="el" href="classPlanet.html#ac63a1fc339ec6212f52586cd68651da2">Planet</a>, and <a class="el" href="classField.html#a9f05e68727c08060c575262a9f088f8f">Field</a>.</p>
 
 <p>References <a class="el" href="UniverseObject_8cpp.html#ace6308945c3f08cd15596198019ef348">INVALID_OBJECT_ID</a>.</p>
 
@@ -827,9 +823,9 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if there is an object with id <em>object_id</em> is contained within this <a class="el" href="classUniverseObject.html">UniverseObject</a>. </p>
 
-<p>Reimplemented in <a class="el" href="classFleet.html#ad8e5fd59327ce8fcce2586eb6994df66">Fleet</a>, <a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">System</a>, and <a class="el" href="classPlanet.html#acfadf4bf0d5c4c596c0d16acd87b15d0">Planet</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">System</a>, <a class="el" href="classFleet.html#ad8e5fd59327ce8fcce2586eb6994df66">Fleet</a>, and <a class="el" href="classPlanet.html#acfadf4bf0d5c4c596c0d16acd87b15d0">Planet</a>.</p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a94b4313882064d15093ad444c40c1d30">System::SystemID()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -866,9 +862,9 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>copies data from <em>copied_object</em> to this object, limited to only copy data about the copied object that is known to the empire with id <em>empire_id</em> (or all data if empire_id is ALL_EMPIRES) </p>
 
-<p>Implemented in <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet</a>, <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field</a>, and <a class="el" href="classFighter.html#aa8fcc41a9c7f3bde4d7bfdee511c4110">Fighter</a>.</p>
+<p>Implemented in <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet</a>, <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field</a>, and <a class="el" href="classFighter.html#aa8fcc41a9c7f3bde4d7bfdee511c4110">Fighter</a>.</p>
 
-<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, <a class="el" href="classFighter.html#aa8fcc41a9c7f3bde4d7bfdee511c4110">Fighter::Copy()</a>, <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field::Copy()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building::Copy()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System::Copy()</a>, and <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet::Copy()</a>.</p>
+<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, <a class="el" href="classFighter.html#aa8fcc41a9c7f3bde4d7bfdee511c4110">Fighter::Copy()</a>, <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field::Copy()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building::Copy()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System::Copy()</a>, and <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet::Copy()</a>.</p>
 
 </div>
 </div>
@@ -980,11 +976,11 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Outputs textual description of object to logger. </p>
 
-<p>Reimplemented in <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">System</a>, <a class="el" href="classFleet.html#a39ffa4a047cda75dec26a85d020b4b0b">Fleet</a>, <a class="el" href="classBuilding.html#a35f3ce5c6b6cebe91bde0f6bd3401d1f">Building</a>, <a class="el" href="classPlanet.html#ab8be07fa72564cf6b9c5e4e2d48239f9">Planet</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Ship</a>, <a class="el" href="classField.html#afcfdbe14cfd1bfcf4f4770df2673586f">Field</a>, and <a class="el" href="classFighter.html#a52d8babe729b21653989a80409556acf">Fighter</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">System</a>, <a class="el" href="classFleet.html#a39ffa4a047cda75dec26a85d020b4b0b">Fleet</a>, <a class="el" href="classBuilding.html#a35f3ce5c6b6cebe91bde0f6bd3401d1f">Building</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Ship</a>, <a class="el" href="classPlanet.html#ab8be07fa72564cf6b9c5e4e2d48239f9">Planet</a>, <a class="el" href="classField.html#afcfdbe14cfd1bfcf4f4770df2673586f">Field</a>, and <a class="el" href="classFighter.html#a52d8babe729b21653989a80409556acf">Fighter</a>.</p>
 
 <p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#ad12d47aad6b0d86a0f210e5bdc4f257f">EmpireManager::GetEmpireName()</a>, <a class="el" href="AppInterface_8h.html#ab19bed831dd079cc9d3aab365342c3fb">GetPathfinder()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">ID()</a>, <a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a>, <a class="el" href="classUniverseObject.html#ab7b34f56884fd5cd459c2fab1e49ee88">m_meters</a>, <a class="el" href="classUniverseObject.html#a105892ecef9ba211d748256dc40a881b">m_owner_empire_id</a>, <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">Name()</a>, <a class="el" href="classUniverseObject.html#ab5f93ca43643a2770429732547ebb907">ObjectType()</a>, <a class="el" href="classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">SystemID()</a>, <a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">Unowned()</a>, <a class="el" href="classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3">X()</a>, and <a class="el" href="classUniverseObject.html#a592f769e4c1979435801e7e306562d42">Y()</a>.</p>
 
-<p>Referenced by <a class="el" href="classFighter.html#a52d8babe729b21653989a80409556acf">Fighter::Dump()</a>, <a class="el" href="classField.html#afcfdbe14cfd1bfcf4f4770df2673586f">Field::Dump()</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Ship::Dump()</a>, <a class="el" href="classPlanet.html#ab8be07fa72564cf6b9c5e4e2d48239f9">Planet::Dump()</a>, <a class="el" href="classBuilding.html#a35f3ce5c6b6cebe91bde0f6bd3401d1f">Building::Dump()</a>, <a class="el" href="classFleet.html#a39ffa4a047cda75dec26a85d020b4b0b">Fleet::Dump()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">System::Dump()</a>, <a class="el" href="classSystem.html#a94b4313882064d15093ad444c40c1d30">System::SystemID()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="classFighter.html#a52d8babe729b21653989a80409556acf">Fighter::Dump()</a>, <a class="el" href="classField.html#afcfdbe14cfd1bfcf4f4770df2673586f">Field::Dump()</a>, <a class="el" href="classPlanet.html#ab8be07fa72564cf6b9c5e4e2d48239f9">Planet::Dump()</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Ship::Dump()</a>, <a class="el" href="classBuilding.html#a35f3ce5c6b6cebe91bde0f6bd3401d1f">Building::Dump()</a>, <a class="el" href="classFleet.html#a39ffa4a047cda75dec26a85d020b4b0b">Fleet::Dump()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">System::Dump()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1093,7 @@ Structors</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true iff this object has the tag with the indicated <em>name</em>. </p>
 
-<p>Reimplemented in <a class="el" href="classBuilding.html#a4175be934cbdce81ccb32de79ff3a452">Building</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet</a>, <a class="el" href="classShip.html#aaa86ff250a33c3660c95aaedd787b307">Ship</a>, and <a class="el" href="classField.html#a9b4c6a7c2433f025dd62ce752b040697">Field</a>.</p>
+<p>Reimplemented in <a class="el" href="classBuilding.html#a4175be934cbdce81ccb32de79ff3a452">Building</a>, <a class="el" href="classShip.html#aaa86ff250a33c3660c95aaedd787b307">Ship</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet</a>, and <a class="el" href="classField.html#a9b4c6a7c2433f025dd62ce752b040697">Field</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -1120,7 +1116,7 @@ Structors</h2></td></tr>
 
 <p>References <a class="el" href="classUniverseObject.html#a46342d0d76ab74ff6431173bef45ca8b">m_id</a>.</p>
 
-<p>Referenced by <a class="el" href="classSystem.html#aed8292158983992b44abd2efc5bec4bf">System::AddStarlane()</a>, <a class="el" href="classSystem.html#a59813624c3676074d6b977eedeb42219">System::AddWormhole()</a>, <a class="el" href="classSystem.html#a66c301365362aa528c088eeb48513566">System::ApparentName()</a>, <a class="el" href="classFleet.html#aa99103c87d1b08e42cb85f42629a8833">Fleet::BlockadedAtSystem()</a>, <a class="el" href="classPlanet.html#ae1bfd147c4ac7f41e66fa424c36f38c6">Planet::CardinalSuffix()</a>, <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Ship::Clone()</a>, <a class="el" href="classField.html#acf7a818ed36ce6c7af15843f254ce929">Field::Clone()</a>, <a class="el" href="classBuilding.html#a2f53addb77540c76e191dee3cf447b73">Building::Clone()</a>, <a class="el" href="classPlanet.html#a5526518aaf4308e51b27878166511a3c">Planet::Clone()</a>, <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">System::Clone()</a>, <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Fleet::Clone()</a>, <a class="el" href="classPlanet.html#ae7db84264c28a0e961215dd136cf3782">Planet::Conquer()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="namespaceDualMeter.html#a43a69bcdb8008a9ae196801b5b9ff064">DualMeter::CurrentProjectedTarget()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>, <a class="el" href="classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f">Fleet::GenerateFleetName()</a>, <a class="el" href="classUniverseObject.html#a533deb17c823ca6903f1f1edb8c5b0ef">GetVisibility()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">System::Insert()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OrderedBombardedSimpleMatch.html#a1d8ec9b8a6453ea09a6396df1396addd">Condition::anonymous_namespace{Condition.cpp}::OrderedBombardedSimpleMatch::operator()()</a>, <a class="el" href="classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a">OwnerColoredSystemName::OwnerColoredSystemName()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="classSystem.html#a18bdfe2c8c602133998e24d1e057dbac">System::System()</a>, <a class="el" href="classSystem.html#a94b4313882064d15093ad444c40c1d30">System::SystemID()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="classSystem.html#a2efb9cffc9d0206031ea94eaebf46d3c">System::VisibleStarlanesWormholes()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#aed8292158983992b44abd2efc5bec4bf">System::AddStarlane()</a>, <a class="el" href="classSystem.html#a59813624c3676074d6b977eedeb42219">System::AddWormhole()</a>, <a class="el" href="classSystem.html#a66c301365362aa528c088eeb48513566">System::ApparentName()</a>, <a class="el" href="classFleet.html#aa99103c87d1b08e42cb85f42629a8833">Fleet::BlockadedAtSystem()</a>, <a class="el" href="classPlanet.html#ae1bfd147c4ac7f41e66fa424c36f38c6">Planet::CardinalSuffix()</a>, <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Ship::Clone()</a>, <a class="el" href="classField.html#acf7a818ed36ce6c7af15843f254ce929">Field::Clone()</a>, <a class="el" href="classBuilding.html#a2f53addb77540c76e191dee3cf447b73">Building::Clone()</a>, <a class="el" href="classPlanet.html#a5526518aaf4308e51b27878166511a3c">Planet::Clone()</a>, <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Fleet::Clone()</a>, <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">System::Clone()</a>, <a class="el" href="classPlanet.html#ae7db84264c28a0e961215dd136cf3782">Planet::Conquer()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="namespaceDualMeter.html#a43a69bcdb8008a9ae196801b5b9ff064">DualMeter::CurrentProjectedTarget()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>, <a class="el" href="classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f">Fleet::GenerateFleetName()</a>, <a class="el" href="classUniverseObject.html#a533deb17c823ca6903f1f1edb8c5b0ef">GetVisibility()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">System::Insert()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OrderedBombardedSimpleMatch.html#a1d8ec9b8a6453ea09a6396df1396addd">Condition::anonymous_namespace{Condition.cpp}::OrderedBombardedSimpleMatch::operator()()</a>, <a class="el" href="classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a">OwnerColoredSystemName::OwnerColoredSystemName()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="classSystem.html#a18bdfe2c8c602133998e24d1e057dbac">System::System()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="classSystem.html#a2efb9cffc9d0206031ea94eaebf46d3c">System::VisibleStarlanesWormholes()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1426,9 +1422,9 @@ Structors</h2></td></tr>
 
 <p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
 
-<p>Reimplemented in <a class="el" href="classSystem.html#af4579332df4e1f4a838c5fe65fe081a7">System</a>, <a class="el" href="classFleet.html#a88be04337f3301fff4779296243bad10">Fleet</a>, <a class="el" href="classBuilding.html#ae375b206f9fd4b170ba4d7f18aaa0734">Building</a>, <a class="el" href="classPlanet.html#a66901f7cd2f6231dfed61524fc68794e">Planet</a>, <a class="el" href="classShip.html#aa0dc0cc3dd121058aa37fd6235fb5748">Ship</a>, <a class="el" href="classField.html#a773f28bb1df3940cabee155bb29c6758">Field</a>, and <a class="el" href="classFighter.html#aefa739920bb974f533ac983d1a467770">Fighter</a>.</p>
+<p>Reimplemented in <a class="el" href="classSystem.html#af4579332df4e1f4a838c5fe65fe081a7">System</a>, <a class="el" href="classFleet.html#a88be04337f3301fff4779296243bad10">Fleet</a>, <a class="el" href="classBuilding.html#ae375b206f9fd4b170ba4d7f18aaa0734">Building</a>, <a class="el" href="classShip.html#aa0dc0cc3dd121058aa37fd6235fb5748">Ship</a>, <a class="el" href="classPlanet.html#a66901f7cd2f6231dfed61524fc68794e">Planet</a>, <a class="el" href="classField.html#a773f28bb1df3940cabee155bb29c6758">Field</a>, and <a class="el" href="classFighter.html#aefa739920bb974f533ac983d1a467770">Fighter</a>.</p>
 
-<p>Referenced by <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>, and <a class="el" href="classSystem.html#a94b4313882064d15093ad444c40c1d30">System::SystemID()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>.</p>
 
 </div>
 </div>
@@ -1644,13 +1640,13 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets current value of max, target and unpaired meters in in this <a class="el" href="classUniverseObject.html">UniverseObject</a> to <a class="el" href="classMeter.html#aaea899a4ed7aaec609f2cc9c340d1fc6" title="value assigned to current or initial when resetting or when no value is specified in a constructor ...">Meter::DEFAULT_VALUE</a>. This should be done before any Effects that alter these meter(s) act on the object. </p>
+<p>Sets current value of max, target and unpaired meters in in this <a class="el" href="classUniverseObject.html">UniverseObject</a> to <a class="el" href="classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad" title="value assigned to current or initial when resetting or when no value is specified in a constructor ...">Meter::DEFAULT_VALUE</a>. This should be done before any Effects that alter these meter(s) act on the object. </p>
 
 <p>Reimplemented in <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet</a>, <a class="el" href="classFleet.html#afd848ca2fbe27863aee9248ca2bc8345">Fleet</a>, <a class="el" href="classSystem.html#abb57e11567815b85b413f31510cd7d25">System</a>, <a class="el" href="classBuilding.html#a56bff71ab40c1a16dc076dfb7641f956">Building</a>, <a class="el" href="classField.html#ac5ea8bf4ab722517ff23378e7ef32899">Field</a>, and <a class="el" href="classShip.html#a402566e50f79ea6101ed6d313dd9de17">Ship</a>.</p>
 
 <p>References <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">GetMeter()</a>, and <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>.</p>
 
-<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, <a class="el" href="classShip.html#a402566e50f79ea6101ed6d313dd9de17">Ship::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classField.html#ac5ea8bf4ab722517ff23378e7ef32899">Field::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classBuilding.html#a56bff71ab40c1a16dc076dfb7641f956">Building::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classSystem.html#abb57e11567815b85b413f31510cd7d25">System::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classFleet.html#afd848ca2fbe27863aee9248ca2bc8345">Fleet::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classSystem.html#aa17076e2fdad81d2aae88e335d8b7bb6">System::SetOwner()</a>, and <a class="el" href="classPlanet.html#a54a300d255fae127da7143e602a500a6">Planet::SurfaceTexture()</a>.</p>
+<p>Referenced by <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship::ContainerObjectID()</a>, <a class="el" href="classShip.html#a402566e50f79ea6101ed6d313dd9de17">Ship::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classField.html#ac5ea8bf4ab722517ff23378e7ef32899">Field::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classBuilding.html#a56bff71ab40c1a16dc076dfb7641f956">Building::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classSystem.html#abb57e11567815b85b413f31510cd7d25">System::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classFleet.html#afd848ca2fbe27863aee9248ca2bc8345">Fleet::ResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet::ResetTargetMaxUnpairedMeters()</a>, and <a class="el" href="classPlanet.html#a54a300d255fae127da7143e602a500a6">Planet::SurfaceTexture()</a>.</p>
 
 </div>
 </div>
@@ -1913,7 +1909,7 @@ template&lt;class Archive &gt; </div>
 </p>
 <p>Returns all tags this object has. </p>
 
-<p>Reimplemented in <a class="el" href="classBuilding.html#a8e5bd223db5996865dc2607a26a3649f">Building</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet</a>, <a class="el" href="classShip.html#abb2583d5aa1529b5d85e6813f5c48e00">Ship</a>, and <a class="el" href="classField.html#ad20f29f8cbe566e5bc239ed18cde2b5d">Field</a>.</p>
+<p>Reimplemented in <a class="el" href="classBuilding.html#a8e5bd223db5996865dc2607a26a3649f">Building</a>, <a class="el" href="classShip.html#abb2583d5aa1529b5d85e6813f5c48e00">Ship</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet</a>, and <a class="el" href="classField.html#ad20f29f8cbe566e5bc239ed18cde2b5d">Field</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -2190,7 +2186,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int UniverseObject::m_created_on_turn</td>
+          <td class="memname">int UniverseObject::m_created_on_turn = <a class="el" href="AppInterface_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td>
         </tr>
       </table>
   </td>
@@ -2200,7 +2196,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverseObject.html#a29fe1a4c7fab5146b38aabdd2d0cd250">AgeInTurns()</a>, <a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">Copy()</a>, <a class="el" href="classUniverseObject.html#a21391d4a3ce20f8634d0033990fd1cc3">CreationTurn()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>, and <a class="el" href="classUniverseObject.html#a83c3092cd13df5f48b3e2d5d7df325de">UniverseObject()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverseObject.html#a29fe1a4c7fab5146b38aabdd2d0cd250">AgeInTurns()</a>, <a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">Copy()</a>, <a class="el" href="classUniverseObject.html#a21391d4a3ce20f8634d0033990fd1cc3">CreationTurn()</a>, and <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">Dump()</a>.</p>
 
 </div>
 </div>
@@ -2212,7 +2208,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int UniverseObject::m_id</td>
+          <td class="memname">int UniverseObject::m_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>
@@ -2266,7 +2262,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field::Copy()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building::Copy()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System::Copy()</a>, <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet::Copy()</a>, <a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">Copy()</a>, <a class="el" href="classBuildingType.html#a261fb16add172e17a119ecaf077b28fa">BuildingType::Dump()</a>, <a class="el" href="classBuildingType.html#a950b458dd3d28de487aa7fe0c45f53f2">BuildingType::Init()</a>, <a class="el" href="classUniverseObject.html#a69de22eda19d60b8d51cb301b8c1acf0">MoveTo()</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">Name()</a>, <a class="el" href="classUniverseObject.html#a2b123db572348334117ba66d78165abd">PublicName()</a>, and <a class="el" href="classUniverseObject.html#a252cf0279d9b9cc72ea0dd735ebf39ea">Rename()</a>.</p>
+<p>Referenced by <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field::Copy()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building::Copy()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship::Copy()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System::Copy()</a>, <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet::Copy()</a>, <a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">Copy()</a>, <a class="el" href="classBuildingType.html#a261fb16add172e17a119ecaf077b28fa">BuildingType::Dump()</a>, <a class="el" href="classBuildingType.html#a950b458dd3d28de487aa7fe0c45f53f2">BuildingType::Init()</a>, <a class="el" href="classUniverseObject.html#a69de22eda19d60b8d51cb301b8c1acf0">MoveTo()</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">Name()</a>, <a class="el" href="classUniverseObject.html#a2b123db572348334117ba66d78165abd">PublicName()</a>, and <a class="el" href="classUniverseObject.html#a252cf0279d9b9cc72ea0dd735ebf39ea">Rename()</a>.</p>
 
 </div>
 </div>
@@ -2278,7 +2274,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int UniverseObject::m_owner_empire_id</td>
+          <td class="memname">int UniverseObject::m_owner_empire_id = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td>
         </tr>
       </table>
   </td>
@@ -2322,7 +2318,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int UniverseObject::m_system_id</td>
+          <td class="memname">int UniverseObject::m_system_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>

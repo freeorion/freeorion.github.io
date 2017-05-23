@@ -274,15 +274,15 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9b8237eeb7205d754ca80e70b13782e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2535c8a8e67230efa3f4b2a51481d30f"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a2535c8a8e67230efa3f4b2a51481d30f">m_fleets</a></td></tr>
 <tr class="separator:a2535c8a8e67230efa3f4b2a51481d30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe17deecfa92c96e17f43579025fe81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a8fe17deecfa92c96e17f43579025fe81">m_last_turn_battle_here</a></td></tr>
+<tr class="memitem:a8fe17deecfa92c96e17f43579025fe81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a8fe17deecfa92c96e17f43579025fe81">m_last_turn_battle_here</a> = <a class="el" href="AppInterface_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td></tr>
 <tr class="memdesc:a8fe17deecfa92c96e17f43579025fe81"><td class="mdescLeft">&#160;</td><td class="mdescRight">the turn on which there was last a battle in this system  <a href="#a8fe17deecfa92c96e17f43579025fe81">More...</a><br /></td></tr>
 <tr class="separator:a8fe17deecfa92c96e17f43579025fe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3cf1d27b8e4bf67599e79beb08a2846"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#aa3cf1d27b8e4bf67599e79beb08a2846">m_objects</a></td></tr>
 <tr class="separator:aa3cf1d27b8e4bf67599e79beb08a2846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a761f7008f4316b1cf57a9245973c5629"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a></td></tr>
+<tr class="memitem:a761f7008f4316b1cf57a9245973c5629"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a> = std::vector&lt;int&gt;(SYSTEM_ORBITS, <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>)</td></tr>
 <tr class="memdesc:a761f7008f4316b1cf57a9245973c5629"><td class="mdescLeft">&#160;</td><td class="mdescRight">indexed by orbit number, indicates the id of the planet in that orbit  <a href="#a761f7008f4316b1cf57a9245973c5629">More...</a><br /></td></tr>
 <tr class="separator:a761f7008f4316b1cf57a9245973c5629"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa85f581c87692dc810e8abf2bb8fab94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#aa85f581c87692dc810e8abf2bb8fab94">m_overlay_size</a></td></tr>
+<tr class="memitem:aa85f581c87692dc810e8abf2bb8fab94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#aa85f581c87692dc810e8abf2bb8fab94">m_overlay_size</a> = 1.0</td></tr>
 <tr class="separator:aa85f581c87692dc810e8abf2bb8fab94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f304d7873f54beb7290a737b1591077"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a1f304d7873f54beb7290a737b1591077">m_overlay_texture</a></td></tr>
 <tr class="separator:a1f304d7873f54beb7290a737b1591077"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -473,8 +473,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, and <a class="el" href="namespaceanonymous__namespace_02System_8cpp_03.html#a5cb88cf5cbd6b33ec66f57d28752cd6b">anonymous_namespace{System.cpp}::SYSTEM_ORBITS</a>.</p>
-
 <p>Referenced by <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">Clone()</a>.</p>
 
 </div>
@@ -529,7 +527,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classUniverseObject.html#a9c4857a527fb226674266306d670337f">UniverseObject::Init()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9">INVALID_STAR_TYPE</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, and <a class="el" href="namespaceanonymous__namespace_02System_8cpp_03.html#a5cb88cf5cbd6b33ec66f57d28752cd6b">anonymous_namespace{System.cpp}::SYSTEM_ORBITS</a>.</p>
+<p>References <a class="el" href="classUniverseObject.html#a9c4857a527fb226674266306d670337f">UniverseObject::Init()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9">INVALID_STAR_TYPE</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, and <a class="el" href="namespaceanonymous__namespace_02System_8h_03.html#a8a1783bf222144c076418909e3e1bb87">anonymous_namespace{System.h}::SYSTEM_ORBITS</a>.</p>
 
 </div>
 </div>
@@ -589,7 +587,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="classUniverseObject.html#a9c4857a527fb226674266306d670337f">UniverseObject::Init()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9">INVALID_STAR_TYPE</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="classUniverseObject.html#a2e20dea09882fefcfd77324086bacf2f">UniverseObject::SetSystem()</a>, and <a class="el" href="namespaceanonymous__namespace_02System_8cpp_03.html#a5cb88cf5cbd6b33ec66f57d28752cd6b">anonymous_namespace{System.cpp}::SYSTEM_ORBITS</a>.</p>
+<p>References <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="classUniverseObject.html#a9c4857a527fb226674266306d670337f">UniverseObject::Init()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9">INVALID_STAR_TYPE</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, <a class="el" href="classUniverseObject.html#abebc7074db02b1a3a3b618cbb7688b4d">UniverseObject::Name()</a>, <a class="el" href="classUniverseObject.html#a2e20dea09882fefcfd77324086bacf2f">UniverseObject::SetSystem()</a>, and <a class="el" href="namespaceanonymous__namespace_02System_8h_03.html#a8a1783bf222144c076418909e3e1bb87">anonymous_namespace{System.h}::SYSTEM_ORBITS</a>.</p>
 
 </div>
 </div>
@@ -620,7 +618,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="classUniverseObject.html#a964bf6d3617b688554a0c6022c85a452">UniverseObject::Clone()</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="classObjectMap.html#a5203c34483d3b4022616eea6057cccc8">ObjectMap::Clone()</a>.</p>
 
 </div>
 </div>
@@ -804,8 +802,6 @@ Additional Inherited Members</h2></td></tr>
 <p>fleets are inserted into system </p>
 
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#ae0e7b42a88c1e1a646da1e526181e4b9">UniverseObject</a>.</p>
-
-<p>References <a class="el" href="classUniverseObject.html#a1883e8e3f1d1548eabc9946643f106e0">UniverseObject::Accept()</a>.</p>
 
 </div>
 </div>
@@ -1679,8 +1675,6 @@ template&lt;class Archive &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#a74f6412dac94ed34e42d253dbbcfa655">UniverseObject</a>.</p>
 
-<p>References <a class="el" href="classUniverseObject.html#ae44a30e3a97fc6676b003b8435b76843">UniverseObject::ResetTargetMaxUnpairedMeters()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab797738fadfd5ff409cf7b82f41738eb"></a>
@@ -1775,7 +1769,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">UniverseObject</a>.</p>
 
-<p>References <a class="el" href="classUniverseObject.html#a6bac34ca3484ad8c119c6ae5fddde359">UniverseObject::ContainedObjectIDs()</a>, <a class="el" href="classUniverseObject.html#af79650e33b24717acae60abdb965d51f">UniverseObject::Contains()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject::Dump()</a>, <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, and <a class="el" href="classUniverseObject.html#ab5f93ca43643a2770429732547ebb907">UniverseObject::ObjectType()</a>.</p>
+<p>References <a class="el" href="namespaceEffect.html#af0b96b1934550de1d695a0296be7a96b">Effect::Dump()</a>.</p>
 
 </div>
 </div>
@@ -2044,7 +2038,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int System::m_last_turn_battle_here</td>
+          <td class="memname">int System::m_last_turn_battle_here = <a class="el" href="AppInterface_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td>
         </tr>
       </table>
   </td>
@@ -2090,7 +2084,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; System::m_orbits</td>
+          <td class="memname">std::vector&lt;int&gt; System::m_orbits = std::vector&lt;int&gt;(SYSTEM_ORBITS, <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>)</td>
         </tr>
       </table>
   </td>
@@ -2102,7 +2096,7 @@ template&lt;typename T &gt; </div>
 
 <p>indexed by orbit number, indicates the id of the planet in that orbit </p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#a15130528b2222715e927d4507379d4e9">FreeOrbits()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, <a class="el" href="classSystem.html#a66738619c2727a1ccf83d93abab192b9">OrbitOccupied()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">OrbitOfPlanet()</a>, <a class="el" href="classSystem.html#acdb5fcfe86a736fb92b4cf1707fe9dc3">PlanetInOrbit()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#ae317936c9bcf1374d61745572e0f2f8a">System()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#a15130528b2222715e927d4507379d4e9">FreeOrbits()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, <a class="el" href="classSystem.html#a66738619c2727a1ccf83d93abab192b9">OrbitOccupied()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">OrbitOfPlanet()</a>, <a class="el" href="classSystem.html#acdb5fcfe86a736fb92b4cf1707fe9dc3">PlanetInOrbit()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#a45dd76c3c215e5253ab112d8d40ec0ff">System()</a>.</p>
 
 </div>
 </div>
@@ -2114,7 +2108,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double System::m_overlay_size</td>
+          <td class="memname">double System::m_overlay_size = 1.0</td>
         </tr>
       </table>
   </td>
