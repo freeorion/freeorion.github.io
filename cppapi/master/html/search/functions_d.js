@@ -86,7 +86,7 @@ var searchData=
   ['moderatorsingame',['ModeratorsInGame',['../classServerNetworking.html#a7945a8dcd73eeefa06359c493744003d',1,'ServerNetworking']]],
   ['monster',['Monster',['../structCondition_1_1Monster.html#aee60b673a724bb5c18c8e9cdf86f0edf',1,'Condition::Monster']]],
   ['monster_5fcondition',['MONSTER_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aa30147d712765b95c660fc812af91f66',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['monster_5fdesigns',['monster_designs',['../namespaceparse.html#a6e9ee1551f654b9fdab46bb8211920cf',1,'parse']]],
+  ['monster_5fdesigns',['monster_designs',['../namespaceparse.html#ae5048983a65f3f83a1d2ce439d878a66',1,'parse']]],
   ['monster_5ffleet_5fplans',['monster_fleet_plans',['../namespaceparse.html#a2d285f1eb57113862028b3d6c8f10d41',1,'parse']]],
   ['monsterfleetplan',['MonsterFleetPlan',['../classMonsterFleetPlan.html#a52f7197e751902d7e8b1350fbcff166d',1,'MonsterFleetPlan::MonsterFleetPlan(const std::string &amp;fleet_name, const std::vector&lt; std::string &gt; &amp;ship_design_names, double spawn_rate=1.0, int spawn_limit=9999, const Condition::ConditionBase *location=nullptr, bool lookup_name_userstring=false)'],['../classMonsterFleetPlan.html#a36cbf39eef4bf7a44faf257143ea12c6',1,'MonsterFleetPlan::MonsterFleetPlan()']]],
   ['monsterfleetplanmanager',['MonsterFleetPlanManager',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1MonsterFleetPlanManager.html#a4e9f55179b19b6b34687e42c2a63921d',1,'anonymous_namespace{UniverseGenerator.cpp}::MonsterFleetPlanManager']]],

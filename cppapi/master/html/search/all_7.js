@@ -122,7 +122,7 @@ var searchData=
   ['getdesign',['GetDesign',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a6620b3168945aff72b0b3256794706bb',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
   ['getdesignid',['GetDesignID',['../classPredefinedShipDesignManager.html#a922eec93faa8a2112d9f48fcfca5b1cb',1,'PredefinedShipDesignManager']]],
   ['getdesignidfromobject',['GetDesignIDFromObject',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#aed7084de93e95bd1be7fbf5984d37b5e',1,'anonymous_namespace{Universe.cpp}']]],
-  ['getdesigns',['GetDesigns',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#af170ddf2ca5d34c56f5fa60a37baa680',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
+  ['getdesigns',['GetDesigns',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#addbf14dd639ab96c0a27105f50f89a06',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
   ['getdestroyedobjectknowerstoserialize',['GetDestroyedObjectKnowersToSerialize',['../structCombatInfo.html#a41010a47fcec157d84fb2b0549120d2e',1,'CombatInfo']]],
   ['getdestroyedobjectstoserialize',['GetDestroyedObjectsToSerialize',['../structCombatInfo.html#a47b129973d1ee4d2e0acc071fa83a1a9',1,'CombatInfo::GetDestroyedObjectsToSerialize()'],['../classUniverse.html#ab413ed7d87180ea708a5005135d8a097',1,'Universe::GetDestroyedObjectsToSerialize()']]],
   ['getdetaileddescriptionbase',['GetDetailedDescriptionBase',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a2c476d521b897b260330a1505accab1b',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],

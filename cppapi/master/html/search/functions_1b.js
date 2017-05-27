@@ -140,7 +140,6 @@ var searchData=
   ['_7epopcenter',['~PopCenter',['../classPopCenter.html#a50b80da633585b01c508ae328f32fca7',1,'PopCenter']]],
   ['_7epopulationpanel',['~PopulationPanel',['../classPopulationPanel.html#a483165f76a6c2163427a381350542cdb',1,'PopulationPanel']]],
   ['_7epredefinedshipdesign',['~PredefinedShipDesign',['../structCondition_1_1PredefinedShipDesign.html#a3de1d71c54afe9919debca5a0d0e4231',1,'Condition::PredefinedShipDesign']]],
-  ['_7epredefinedshipdesignmanager',['~PredefinedShipDesignManager',['../classPredefinedShipDesignManager.html#af3195b0b151a347b2bc68f1c3a245758',1,'PredefinedShipDesignManager']]],
   ['_7eprocessingturn',['~ProcessingTurn',['../structProcessingTurn.html#a470fbfcaae88a3e442046732aa0c6a26',1,'ProcessingTurn']]],
   ['_7eproducedbyempire',['~ProducedByEmpire',['../structCondition_1_1ProducedByEmpire.html#ad776dd60079b0a8dec31f0a7ded97ce5',1,'Condition::ProducedByEmpire']]],
   ['_7eproductionwnd',['~ProductionWnd',['../classProductionWnd.html#ade4603efae8ca2297f122a258d460bb4',1,'ProductionWnd']]],

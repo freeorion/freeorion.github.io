@@ -38,7 +38,7 @@ var searchData=
   ['addchild',['AddChild',['../classTechTreeLayout_1_1Node.html#ad20ad162830f8f7b5c80fc29b5ed635e',1,'TechTreeLayout::Node']]],
   ['addconditionalconnection',['AddConditionalConnection',['../classHotkeyManager.html#ae15d158ce3573e1f7cbff0e9c711df39',1,'HotkeyManager']]],
   ['adddesign',['AddDesign',['../classDesignWnd.html#a528d59c473dca1a5ebd04fd389e53c8c',1,'DesignWnd']]],
-  ['adddesigntouniverse',['AddDesignToUniverse',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a9d1c56948a3767efc1b1a647cf6bcebd',1,'anonymous_namespace{ShipDesign.cpp}']]],
+  ['adddesigntouniverse',['AddDesignToUniverse',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['addedge',['AddEdge',['../classTechTreeLayout.html#ae2eb6d5979bfff6347709013315aa78f',1,'TechTreeLayout']]],
   ['addempireturn',['AddEmpireTurn',['../classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5',1,'ServerApp']]],
   ['addevent',['AddEvent',['../structBoutEvent.html#a576c7ac4cedfe752c187eeaa7d318579',1,'BoutEvent::AddEvent()'],['../structSimultaneousEvents.html#a155c0c9cb9774334623f6b07331bbe3c',1,'SimultaneousEvents::AddEvent()'],['../structStealthChangeEvent.html#a3e712a95eb1a6dc77ae35da95de8cb2e',1,'StealthChangeEvent::AddEvent()'],['../structFightersAttackFightersEvent.html#a5e132a74b955e3ff5254148d61749b95',1,'FightersAttackFightersEvent::AddEvent()'],['../structFightersDestroyedEvent.html#a1c03cc9c18ebf341c8e2705129d08b4e',1,'FightersDestroyedEvent::AddEvent()'],['../structWeaponsPlatformEvent.html#a2e5b698b955667601fc3af5b710fe154',1,'WeaponsPlatformEvent::AddEvent()']]],
