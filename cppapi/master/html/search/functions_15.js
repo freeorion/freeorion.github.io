@@ -90,5 +90,6 @@ var searchData=
   ['userstringlookup',['UserStringLookup',['../structValueRef_1_1UserStringLookup.html#a3812a4e9792c1880d9fac75bae8ebf6b',1,'ValueRef::UserStringLookup::UserStringLookup(Variable&lt; FromType &gt; *value_ref)'],['../structValueRef_1_1UserStringLookup.html#aab97ae93647b66ea02e009c181566f92',1,'ValueRef::UserStringLookup::UserStringLookup(ValueRefBase&lt; FromType &gt; *value_ref)']]],
   ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#a816ff0fe328c904529644b5d953cf28a',1,'anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aa5f6b939a86592175974e31f3aa41e00',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a0e919396061a4288ca8033e7b61213e2',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
+  ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a0e919396061a4288ca8033e7b61213e2',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['uuid',['UUID',['../classShipDesign.html#a4d66bef3a07521432710df9ab6ed3c76',1,'ShipDesign']]]
 ];
