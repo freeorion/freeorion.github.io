@@ -217,7 +217,7 @@ var searchData=
   ['planettypesimplematch',['PlanetTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1PlanetTypeSimpleMatch.html#ae4e59699e00f5e852b445d0a2605261d',1,'Condition::anonymous_namespace{Condition.cpp}::PlanetTypeSimpleMatch']]],
   ['planettypetostring',['PlanetTypeToString',['../namespaceanonymous__namespace_02Species_8cpp_03.html#a0b6f0ef1f8b22e0f1c681cdc0f123db2',1,'anonymous_namespace{Species.cpp}']]],
   ['planettypevaluerefparser_2ecpp',['PlanetTypeValueRefParser.cpp',['../PlanetTypeValueRefParser_8cpp.html',1,'']]],
-  ['playable',['playable',['../structSpeciesParams.html#a617bd3e428414618423ae090aa70c418',1,'SpeciesParams::playable()'],['../classSpecies.html#a45f1915a1b9416ead90309ea42cc033a',1,'Species::Playable()']]],
+  ['playable',['Playable',['../classSpecies.html#a45f1915a1b9416ead90309ea42cc033a',1,'Species::Playable()'],['../structSpeciesParams.html#a617bd3e428414618423ae090aa70c418',1,'SpeciesParams::playable()']]],
   ['playable_5fbegin',['playable_begin',['../classSpeciesManager.html#a111878ef2107963aa69f120aa1738df5',1,'SpeciesManager']]],
   ['playable_5fend',['playable_end',['../classSpeciesManager.html#a4bba846b13b1c46daa4493f5665a2a53',1,'SpeciesManager']]],
   ['playable_5fiterator',['playable_iterator',['../classSpeciesManager.html#ac4da34de898acc5b24fdba74ba942f8d',1,'SpeciesManager']]],

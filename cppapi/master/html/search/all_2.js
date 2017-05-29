@@ -16,7 +16,7 @@ var searchData=
   ['bases_5flist_5fbox_5frow_5fheight',['BASES_LIST_BOX_ROW_HEIGHT',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab1b059ac047dc1831bc5d4b6fb549016',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['baseselector',['BaseSelector',['../classDesignWnd_1_1BaseSelector.html',1,'DesignWnd']]],
   ['baseselector',['BaseSelector',['../classDesignWnd_1_1BaseSelector.html#aeb524983580144a16bf4bcb2cc0362b5',1,'DesignWnd::BaseSelector']]],
-  ['baseslistbox',['BasesListBox',['../classBasesListBox.html',1,'BasesListBox'],['../classBasesListBox.html#ae25dd742479a1ccb8e7748930f26e617',1,'BasesListBox::BasesListBox()']]],
+  ['baseslistbox',['BasesListBox',['../classBasesListBox.html',1,'BasesListBox'],['../classBasesListBox.html#ab0c1b292c9b85ef848f12de0f8c4af9a',1,'BasesListBox::BasesListBox()']]],
   ['baseslistboxrow',['BasesListBoxRow',['../classBasesListBox_1_1BasesListBoxRow.html',1,'BasesListBox']]],
   ['baseslistboxrow',['BasesListBoxRow',['../classBasesListBox_1_1BasesListBoxRow.html#a6aa5a4f0431698db6066ac3fbd5d8c2b',1,'BasesListBox::BasesListBoxRow']]],
   ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
