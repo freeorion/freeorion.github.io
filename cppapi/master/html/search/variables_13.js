@@ -89,6 +89,7 @@ var searchData=
   ['short_5fname',['short_name',['../structOptionsDB_1_1Option.html#a9c1baa35dc5f137cb22e1e40136a7289',1,'OptionsDB::Option']]],
   ['short_5fnames',['short_names',['../structOptionsDB_1_1Option.html#a73e32d755b980c2137f0cc26277c25c5',1,'OptionsDB::Option']]],
   ['shortest_5fpath',['shortest_path',['../structparse_1_1double__complex__parser__rules.html#a44532c6d9f5ce515ffc75877f9648f87',1,'parse::double_complex_parser_rules']]],
+  ['shortestpathdistancefunc',['ShortestPathDistanceFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a870178af483035056ee0677a5bbccec5',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['shortestpathfunc',['ShortestPathFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a90293a3b0ad8964f320a49dfc6e5caa0',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['show_5fall_5fplanet_5fpanels',['SHOW_ALL_PLANET_PANELS',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a6e6cff8972aa6e1feeac6be76ba5d1c0',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['show_5feta',['show_eta',['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a79d50a1f1533bc2a8d2c508a6f4fd52c',1,'MapWnd::MovementLineData::Vertex']]],
