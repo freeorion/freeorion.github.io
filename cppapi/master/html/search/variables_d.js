@@ -1218,7 +1218,7 @@ var searchData=
   ['m_5ftroop_5fcapacity',['m_troop_capacity',['../classShipDesign.html#afc7428ed7abe7d51be3c76d7a97b9432',1,'ShipDesign']]],
   ['m_5ftrue_5feffects',['m_true_effects',['../classEffect_1_1Conditional.html#a716563a89adb3ae4ec7b3bd87434e678',1,'Effect::Conditional']]],
   ['m_5fturn',['m_turn',['../classSitRepEntry.html#ae9db454949232d1773f9ffb18d66f83e',1,'SitRepEntry']]],
-  ['m_5fturn_5fsequence',['m_turn_sequence',['../classServerApp.html#af175dc6166b71185748970afacb8015c',1,'ServerApp']]],
+  ['m_5fturn_5fsequence',['m_turn_sequence',['../classServerApp.html#adf2f6a14ca303fa7760e25e24a78a954',1,'ServerApp']]],
   ['m_5fturn_5fspending',['m_turn_spending',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a0196f3c6181c23f601caf6138ea2bb4d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['m_5fturns_5fremaining_5ftext',['m_turns_remaining_text',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#ae284a8feb7d43709c5527c6af9c32225',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['m_5fturns_5fremaining_5funtil_5fnext_5fcomplete_5ftext',['m_turns_remaining_until_next_complete_text',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a823ba2db5417c4be02d11c401c51e706',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
