@@ -222,6 +222,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0abc34d913a6d4b96a6ed012086381ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a0abc34d913a6d4b96a6ed012086381ca">BuildingTypeAvailable</a> (const std::string &amp;name) const </td></tr>
 <tr class="memdesc:a0abc34d913a6d4b96a6ed012086381ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given building type is known to this empire, false if it is not.  <a href="#a0abc34d913a6d4b96a6ed012086381ca">More...</a><br /></td></tr>
 <tr class="separator:a0abc34d913a6d4b96a6ed012086381ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe4679354c15b45267df7aac00772d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;design) const </td></tr>
+<tr class="memdesc:aefe4679354c15b45267df7aac00772d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this ship design can be built by this empire.  <a href="#aefe4679354c15b45267df7aac00772d4">More...</a><br /></td></tr>
+<tr class="separator:aefe4679354c15b45267df7aac00772d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797d757e165c4be7562a9b2d136fa012"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable</a> (int ship_design_id) const </td></tr>
 <tr class="memdesc:a797d757e165c4be7562a9b2d136fa012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this ship design can be built by this empire. If no such ship design exists, returns false.  <a href="#a797d757e165c4be7562a9b2d136fa012">More...</a><br /></td></tr>
 <tr class="separator:a797d757e165c4be7562a9b2d136fa012"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1006,7 +1009,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the set of <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> IDs available for this empire to build. </p>
 
-<p>References <a class="el" href="classEmpire.html#a11c6afa3c3d632d8343fcc1f52e2a8a7">m_ship_designs_ordered</a>, and <a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable()</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a11c6afa3c3d632d8343fcc1f52e2a8a7">m_ship_designs_ordered</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 <p>Referenced by <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -2504,7 +2507,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can produce the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ShipDesign::ProductionLocation()</a>, and <a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ShipDesign::ProductionLocation()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 </div>
 </div>
@@ -3258,6 +3261,28 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aefe4679354c15b45267df7aac00772d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Empire::ShipDesignAvailable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;&#160;</td>
+          <td class="paramname"><em>design</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff this ship design can be built by this empire. </p>
+
+<p>References <a class="el" href="classShipDesign.html#a241def88ea3ebbbdf1dead19720e9397">ShipDesign::Hull()</a>, <a class="el" href="classShipDesign.html#ad690cb36ab1f34b268bbd5f067562cec">ShipDesign::Parts()</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classEmpire.html#a4b930c366cf3bf682ec52e3f4111c65d">ShipHullAvailable()</a>, and <a class="el" href="classEmpire.html#a835b1f54802e3379d356a502eb575bf7">ShipPartAvailable()</a>.</p>
+
+<p>Referenced by <a class="el" href="classEmpire.html#aab4fb5519716951e41e00c7ec3239e8b">AvailableShipDesigns()</a>, <a class="el" href="classBasesListBox.html#a19b3a5346a75b9ab9453fba168bd8089">BasesListBox::PopulateWithCompletedDesigns()</a>, <a class="el" href="classEmpire.html#a9853078d8274a689f13c77488adf1ff9">ProducibleItem()</a>, <a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a797d757e165c4be7562a9b2d136fa012"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3274,9 +3299,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Returns true iff this ship design can be built by this empire. If no such ship design exists, returns false. </p>
 
-<p>References <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classShipDesign.html#a241def88ea3ebbbdf1dead19720e9397">ShipDesign::Hull()</a>, <a class="el" href="classShipDesign.html#ad690cb36ab1f34b268bbd5f067562cec">ShipDesign::Parts()</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classEmpire.html#a4b930c366cf3bf682ec52e3f4111c65d">ShipHullAvailable()</a>, and <a class="el" href="classEmpire.html#a835b1f54802e3379d356a502eb575bf7">ShipPartAvailable()</a>.</p>
-
-<p>Referenced by <a class="el" href="classEmpire.html#aab4fb5519716951e41e00c7ec3239e8b">AvailableShipDesigns()</a>, <a class="el" href="classBasesListBox.html#a19b3a5346a75b9ab9453fba168bd8089">BasesListBox::PopulateWithCompletedDesigns()</a>, <a class="el" href="classEmpire.html#a9853078d8274a689f13c77488adf1ff9">ProducibleItem()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
+<p>References <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 </div>
 </div>
@@ -3469,7 +3492,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="classEmpire.html#a60dbb0484839628404f367952b6ddb77">m_available_hull_types</a>.</p>
 
-<p>Referenced by <a class="el" href="classBasesListBox.html#a95f91457233c2ae0933725c8188a9ecf">BasesListBox::PopulateWithEmptyHulls()</a>, and <a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable()</a>.</p>
+<p>Referenced by <a class="el" href="classBasesListBox.html#a95f91457233c2ae0933725c8188a9ecf">BasesListBox::PopulateWithEmptyHulls()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 </div>
 </div>
@@ -3491,7 +3514,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="classEmpire.html#ad208778f008713dc3344e44608ff8b8a">m_available_part_types</a>.</p>
 
-<p>Referenced by <a class="el" href="classPartsListBox.html#a089a9164a265381e10f94c82a11857c2">PartsListBox::GroupAvailableDisplayableParts()</a>, and <a class="el" href="classEmpire.html#a797d757e165c4be7562a9b2d136fa012">ShipDesignAvailable()</a>.</p>
+<p>Referenced by <a class="el" href="classPartsListBox.html#a089a9164a265381e10f94c82a11857c2">PartsListBox::GroupAvailableDisplayableParts()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 </div>
 </div>
