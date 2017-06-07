@@ -99,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="OptionsDB_8h.html">../util/OptionsDB.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AppInterface_8h.html">../util/AppInterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="CheckSums_8h.html">../util/CheckSums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Parse_8h.html">../parse/Parse.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Empire_8h.html">../Empire/Empire.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EmpireManager_8h.html">../Empire/EmpireManager.h</a>&quot;</code><br />
@@ -120,11 +121,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceanonymous__namespace_02ShipDesign_8cpp_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html">anonymous_namespace{ShipDesign.cpp}</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceCheckSums"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html">CheckSums</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a474b8860abfcb275e07e016c74c47b4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse</a> (std::map&lt; std::string, int &gt; &amp;design_generic_ids, const std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt; &amp;design, bool monster)</td></tr>
 <tr class="separator:a474b8860abfcb275e07e016c74c47b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine</a> (unsigned int &amp;sum, const <a class="el" href="structHullType_1_1Slot.html">HullType::Slot</a> &amp;slot)</td></tr>
+<tr class="separator:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae665d62a352082d40ab0f853ba381d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08">anonymous_namespace{ShipDesign.cpp}::DesignsTheSame</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;one, const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;two)</td></tr>
 <tr class="separator:ae665d62a352082d40ab0f853ba381d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f0b5ac87d9a3a3f6d725f151668cc91"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classHullType.html">HullType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType</a> (const std::string &amp;name)</td></tr>
@@ -195,7 +200,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="classHullTypeManager.html#ab41b4a8002aec832310c07082d398907">HullTypeManager::GetHullTypeManager()</a>.</p>
 
-<p>Referenced by <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, <a class="el" href="classShipDesign.html#acc8d1eabb6c3ab5121b5d8844e63f58a">ShipDesign::GetHull()</a>, <a class="el" href="ShipDesign_8h.html#a566c6279d4947267ffd6802a16b37326">GetHullType()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classBasesListBox.html#a95f91457233c2ae0933725c8188a9ecf">BasesListBox::PopulateWithEmptyHulls()</a>, <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>, and <a class="el" href="classClientUI.html#a7b3becd5f84b124769d511ea45923f8d">ClientUI::ZoomToContent()</a>.</p>
+<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>, <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, <a class="el" href="classShipDesign.html#acc8d1eabb6c3ab5121b5d8844e63f58a">ShipDesign::GetHull()</a>, <a class="el" href="ShipDesign_8h.html#a566c6279d4947267ffd6802a16b37326">GetHullType()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classBasesListBox.html#a95f91457233c2ae0933725c8188a9ecf">BasesListBox::PopulateWithEmptyHulls()</a>, <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>, and <a class="el" href="classClientUI.html#a7b3becd5f84b124769d511ea45923f8d">ClientUI::ZoomToContent()</a>.</p>
 
 </div>
 </div>
@@ -236,7 +241,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="classPartTypeManager.html#af9d165d708f267e233911fb968824e5e">PartTypeManager::GetPartTypeManager()</a>.</p>
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a6416a963c8afc838a575846a372406a0">ShipDesign::Defense()</a>, <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, <a class="el" href="ShipDesign_8h.html#a43adebddc1f8ee54594037117ff53fd8">GetPartType()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classPartsListBox.html#a089a9164a265381e10f94c82a11857c2">PartsListBox::GroupAvailableDisplayableParts()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#af5e76ef8ec1e3f86f9ac069a8ec392ee">DesignWnd::PartPalette::PartPalette()</a>, and <a class="el" href="classClientUI.html#a7b3becd5f84b124769d511ea45923f8d">ClientUI::ZoomToContent()</a>.</p>
+<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>, <a class="el" href="classShipDesign.html#a6416a963c8afc838a575846a372406a0">ShipDesign::Defense()</a>, <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, <a class="el" href="ShipDesign_8h.html#a43adebddc1f8ee54594037117ff53fd8">GetPartType()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classPartsListBox.html#a089a9164a265381e10f94c82a11857c2">PartsListBox::GroupAvailableDisplayableParts()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#af5e76ef8ec1e3f86f9ac069a8ec392ee">DesignWnd::PartPalette::PartPalette()</a>, and <a class="el" href="classClientUI.html#a7b3becd5f84b124769d511ea45923f8d">ClientUI::ZoomToContent()</a>.</p>
 
 </div>
 </div>
@@ -277,7 +282,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="classPredefinedShipDesignManager.html#af1e432207d6dc3d0494fa18b26f15bfd">PredefinedShipDesignManager::GetPredefinedShipDesignManager()</a>.</p>
 
-<p>Referenced by <a class="el" href="classMessageWndEdit.html#a78da5e4e86d0200aa17411c51d5ee18c">MessageWndEdit::FindGameWords()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="classEmpire.html#a4e79f2885b3d851cc9636afda273ad28">Empire::LockItem()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a28a11f9082f4ec00bee994a2efbd8601">anonymous_namespace{ServerWrapper.cpp}::ShipDesignGetMonsterList()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aa6e2c81f7c3b3c598ec1934f99287b94">anonymous_namespace{ServerWrapper.cpp}::ShipDesignGetPremadeList()</a>, and <a class="el" href="classEmpire.html#a781233870b4d63ce3ed15d0a6a5a470f">Empire::UnlockItem()</a>.</p>
+<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>, <a class="el" href="classMessageWndEdit.html#a78da5e4e86d0200aa17411c51d5ee18c">MessageWndEdit::FindGameWords()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="classEmpire.html#a4e79f2885b3d851cc9636afda273ad28">Empire::LockItem()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a28a11f9082f4ec00bee994a2efbd8601">anonymous_namespace{ServerWrapper.cpp}::ShipDesignGetMonsterList()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aa6e2c81f7c3b3c598ec1934f99287b94">anonymous_namespace{ServerWrapper.cpp}::ShipDesignGetPremadeList()</a>, and <a class="el" href="classEmpire.html#a781233870b4d63ce3ed15d0a6a5a470f">Empire::UnlockItem()</a>.</p>
 
 </div>
 </div>
