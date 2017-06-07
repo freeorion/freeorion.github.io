@@ -147,8 +147,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03656eefd73c53e345d2d72fd77fdaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1549f3af02c6213e7022f0dedbfb352"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#aa1549f3af02c6213e7022f0dedbfb352">RecursivePrereqs</a> (const std::string &amp;tech_name, int empire_id, bool min_required=true) const </td></tr>
 <tr class="separator:aa1549f3af02c6213e7022f0dedbfb352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad694d2f3912963e5760e6bfe98bd1f98"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ad694d2f3912963e5760e6bfe98bd1f98">GetCheckSum</a> () const </td></tr>
-<tr class="separator:ad694d2f3912963e5760e6bfe98bd1f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -245,7 +243,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="namespaceparse.html#a79d853f78046ab723467cab902d9457d">parse::techs()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="namespaceparse.html#a79d853f78046ab723467cab902d9457d">parse::techs()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -551,26 +549,6 @@ Static Private Attributes</h2></td></tr>
 <p>returns an error string indicating the first instance of a redundant dependency, or an empty string if there are no redundant dependencies. An example of a redundant dependency is A &ndash;&gt; C, if A &ndash;&gt; B and B &ndash;&gt; C. </p>
 
 <p>References <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad694d2f3912963e5760e6bfe98bd1f98"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int TechManager::GetCheckSum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
-
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>.</p>
-
-<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>.</p>
 
 </div>
 </div>
