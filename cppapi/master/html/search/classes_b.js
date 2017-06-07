@@ -11,5 +11,6 @@ var searchData=
   ['loadgameplayerrow',['LoadGamePlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['loadsavefilefailed',['LoadSaveFileFailed',['../structLoadSaveFileFailed.html',1,'']]],
   ['location',['Location',['../structCondition_1_1Location.html',1,'Condition']]],
-  ['loggerstosinkfrontends',['LoggersToSinkFrontEnds',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggersToSinkFrontEnds.html',1,'anonymous_namespace{Logger.cpp}']]]
+  ['loggerstosinkfrontends',['LoggersToSinkFrontEnds',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggersToSinkFrontEnds.html',1,'anonymous_namespace{Logger.cpp}']]],
+  ['loggerthresholdsetter',['LoggerThresholdSetter',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggerThresholdSetter.html',1,'anonymous_namespace{Logger.cpp}']]]
 ];

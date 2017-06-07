@@ -53,6 +53,7 @@ var searchData=
   ['initialize_5fbound_5fvariable_5fparser',['initialize_bound_variable_parser',['../ValueRefParserImpl_8h.html#afcba4a066cedc9b06bdbda8902535837',1,'ValueRefParserImpl.h']]],
   ['initialize_5fnonnumeric_5fstatistic_5fparser',['initialize_nonnumeric_statistic_parser',['../ValueRefParserImpl_8h.html#afc89cb820c523238c148225e04e34a69',1,'ValueRefParserImpl.h']]],
   ['initialize_5fvertex',['initialize_vertex',['../classSystemPathing_1_1BFSVisitorImpl.html#a556bf858fd5699aca405cb5fdf28964f',1,'SystemPathing::BFSVisitorImpl']]],
+  ['initializeloggercreatedsignal',['InitializeLoggerCreatedSignal',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a519eb9a39a05a259c2c1c36db90f4999',1,'anonymous_namespace{Logger.cpp}']]],
   ['initializeobjectvisibility',['InitializeObjectVisibility',['../structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8',1,'CombatInfo']]],
   ['initializepython',['InitializePython',['../classServerApp.html#aade4f1bf48914ec40757128314f6b244',1,'ServerApp']]],
   ['initializesystemgraph',['InitializeSystemGraph',['../classPathfinder_1_1PathfinderImpl.html#a5b27e7ee68e723eb3a4916ac61185ed1',1,'Pathfinder::PathfinderImpl::InitializeSystemGraph()'],['../classPathfinder.html#ae4da1bc97ebe4510c919f7e5dd7057a2',1,'Pathfinder::InitializeSystemGraph()'],['../classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c',1,'Universe::InitializeSystemGraph()']]],
