@@ -1,6 +1,7 @@
 var searchData=
 [
   ['mainpanel',['MainPanel',['../classDesignWnd_1_1MainPanel.html',1,'DesignWnd']]],
+  ['manifest_5frules',['manifest_rules',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__rules.html',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['mapscaleline',['MapScaleLine',['../classMapWnd_1_1MapScaleLine.html',1,'MapWnd']]],
   ['mapwnd',['MapWnd',['../classMapWnd.html',1,'']]],
   ['mapwndpopup',['MapWndPopup',['../classMapWndPopup.html',1,'']]],

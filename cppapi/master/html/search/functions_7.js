@@ -246,6 +246,8 @@ var searchData=
   ['getoptionsdboptionint',['GetOptionsDBOptionInt',['../namespaceAIInterface.html#aed52d1fdac39529946ccbdffc3d441de',1,'AIInterface']]],
   ['getoptionsdboptionstr',['GetOptionsDBOptionStr',['../namespaceAIInterface.html#a84559850602e7e95081345a954625747',1,'AIInterface']]],
   ['getoptype',['GetOpType',['../structValueRef_1_1Operation.html#ae4768d45c7f1abd1390f93326526110c',1,'ValueRef::Operation']]],
+  ['getorderedmonsterdesigns',['GetOrderedMonsterDesigns',['../classPredefinedShipDesignManager.html#a3c4ce228432e1b4a8749736ef93a9720',1,'PredefinedShipDesignManager']]],
+  ['getorderedshipdesigns',['GetOrderedShipDesigns',['../classPredefinedShipDesignManager.html#a96b032306e13b7412332e8930c6a7e5e',1,'PredefinedShipDesignManager']]],
   ['getoutedges',['GetOutEdges',['../classTechTreeLayout.html#a14d7ea88b063ced07ed672dae6c22cf7',1,'TechTreeLayout::GetOutEdges()'],['../classTechTreeLayout_1_1Node.html#a1191ad9ea00383bd1ef5cdfbda55665e',1,'TechTreeLayout::Node::GetOutEdges()']]],
   ['getownedsystemnamesids',['GetOwnedSystemNamesIDs',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a685be36c85c42324b0b77b0e32c438ad',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['getowner',['GetOwner',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ac2443a2f409236296686a46107914441',1,'anonymous_namespace{ServerWrapper.cpp}']]],

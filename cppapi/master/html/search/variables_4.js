@@ -32,6 +32,7 @@ var searchData=
   ['design_5fhas_5fpart_5fclass',['design_has_part_class',['../structanonymous__namespace_02ConditionParser2_8cpp_03_1_1condition__parser__rules__2.html#a08ad798dfff620d2bf2bdafae78cecc5',1,'anonymous_namespace{ConditionParser2.cpp}::condition_parser_rules_2']]],
   ['design_5fid',['design_id',['../structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54',1,'ProductionQueue::ProductionItem']]],
   ['design_5fid_5ftag',['DESIGN_ID_TAG',['../classVarText.html#a84cfa8567c7126361e6a7eb8f5d8dd8e',1,'VarText']]],
+  ['design_5fmanifest',['design_manifest',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__rules.html#a83bc829ce70932c2de14de64f59ecad3',1,'anonymous_namespace{ShipDesignsParser.cpp}::manifest_rules']]],
   ['design_5fnumber',['design_number',['../structanonymous__namespace_02ConditionParser5_8cpp_03_1_1condition__parser__rules__5.html#a47b5962e49e85f53988e902feaac64a8',1,'anonymous_namespace{ConditionParser5.cpp}::condition_parser_rules_5']]],
   ['design_5fprefix',['design_prefix',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1rules.html#a21c9208524e74f901d2e6c0f2d8743ee',1,'anonymous_namespace{ShipDesignsParser.cpp}::rules']]],
   ['designchangedsignal',['DesignChangedSignal',['../classDesignWnd_1_1MainPanel.html#aacd80d0d5b4689dfc3f264d399ff6817',1,'DesignWnd::MainPanel']]],
