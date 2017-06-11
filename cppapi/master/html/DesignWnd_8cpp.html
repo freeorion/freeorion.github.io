@@ -130,6 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;boost/filesystem/operations.hpp&gt;</code><br />
 <code>#include &lt;boost/filesystem/fstream.hpp&gt;</code><br />
 <code>#include &lt;boost/uuid/random_generator.hpp&gt;</code><br />
+<code>#include &lt;boost/uuid/uuid_io.hpp&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
 </div><table class="memberdecls">
@@ -198,16 +199,16 @@ Functions</h2></td></tr>
 <tr class="separator:a6a91de2faa1db4cd0cde48ac5b5d0804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acad557f094198f708f813b597a03c51f"><td class="memItemLeft" align="right" valign="top">boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#acad557f094198f708f813b597a03c51f">anonymous_namespace{DesignWnd.cpp}::SavedDesignsDir</a> ()</td></tr>
 <tr class="separator:acad557f094198f708f813b597a03c51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae538d96994a924a9c6ca3f9c22c8fc54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ae538d96994a924a9c6ca3f9c22c8fc54">anonymous_namespace{DesignWnd.cpp}::ShowSaveDesignDialog</a> (int design_id)</td></tr>
-<tr class="separator:ae538d96994a924a9c6ca3f9c22c8fc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae737ad84e459bfaa18401577190f5c34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ae737ad84e459bfaa18401577190f5c34">anonymous_namespace{DesignWnd.cpp}::SaveDesign</a> (int design_id)</td></tr>
+<tr class="separator:ae737ad84e459bfaa18401577190f5c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bae62a0973525d7d03faaba59a307b0"><td class="memItemLeft" align="right" valign="top">const GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a1bae62a0973525d7d03faaba59a307b0">anonymous_namespace{DesignWnd.cpp}::SLOT_CONTROL_HEIGHT</a> (60)</td></tr>
 <tr class="separator:a1bae62a0973525d7d03faaba59a307b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5cc7de704ddfbade25033631c004f87"><td class="memItemLeft" align="right" valign="top">const GG::X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac5cc7de704ddfbade25033631c004f87">anonymous_namespace{DesignWnd.cpp}::SLOT_CONTROL_WIDTH</a> (60)</td></tr>
 <tr class="separator:ac5cc7de704ddfbade25033631c004f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e4ff192a45b5a5fd16fff05337ac98"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Texture &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ad9e4ff192a45b5a5fd16fff05337ac98">anonymous_namespace{DesignWnd.cpp}::SlotBackgroundTexture</a> (ShipSlotType slot_type)</td></tr>
 <tr class="separator:ad9e4ff192a45b5a5fd16fff05337ac98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ea950a16d5a5645604fce7043567c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab1ea950a16d5a5645604fce7043567c1">anonymous_namespace{DesignWnd.cpp}::WriteDesignToFile</a> (int design_id, boost::filesystem::path &amp;file)</td></tr>
-<tr class="separator:ab1ea950a16d5a5645604fce7043567c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac357a88c3cd0973be1ab6fd8f0c65ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac357a88c3cd0973be1ab6fd8f0c65ffc">anonymous_namespace{DesignWnd.cpp}::WriteDesignToFile</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;design, boost::filesystem::path &amp;file)</td></tr>
+<tr class="separator:ac357a88c3cd0973be1ab6fd8f0c65ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -221,8 +222,10 @@ Variables</h2></td></tr>
 <tr class="separator:a09beed079022b3b1c886645852510665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ef0c418d297cb83b316f13fad6b93bf"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a3ef0c418d297cb83b316f13fad6b93bf">anonymous_namespace{DesignWnd.cpp}::DES_PEDIA_WND_NAME</a> = &quot;design.pedia&quot;</td></tr>
 <tr class="separator:a3ef0c418d297cb83b316f13fad6b93bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed6a5f2797bc44fb41d90ab0c291041"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a5ed6a5f2797bc44fb41d90ab0c291041">anonymous_namespace{DesignWnd.cpp}::DESIGN_FILENAME_EXTENSION</a> = &quot;.txt&quot;</td></tr>
+<tr class="memitem:a5ed6a5f2797bc44fb41d90ab0c291041"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a5ed6a5f2797bc44fb41d90ab0c291041">anonymous_namespace{DesignWnd.cpp}::DESIGN_FILENAME_EXTENSION</a> = &quot;.focs.txt&quot;</td></tr>
 <tr class="separator:a5ed6a5f2797bc44fb41d90ab0c291041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad433eae4bb632c5c0a9388f0e130139f"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ad433eae4bb632c5c0a9388f0e130139f">anonymous_namespace{DesignWnd.cpp}::DESIGN_FILENAME_PREFIX</a> = &quot;ShipDesign-&quot;</td></tr>
+<tr class="separator:ad433eae4bb632c5c0a9388f0e130139f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8af98680fe2d5f8d3ec71f818e9b5e33"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a8af98680fe2d5f8d3ec71f818e9b5e33">anonymous_namespace{DesignWnd.cpp}::EMPTY_STRING</a> = &quot;&quot;</td></tr>
 <tr class="separator:a8af98680fe2d5f8d3ec71f818e9b5e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43f29423b1631b2291e2c4fcc279a706"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a43f29423b1631b2291e2c4fcc279a706">anonymous_namespace{DesignWnd.cpp}::HULL_PARTS_ROW_DROP_TYPE_STRING</a> = &quot;Hull and Parts Row&quot;</td></tr>
