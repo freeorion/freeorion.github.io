@@ -44,6 +44,7 @@ var searchData=
   ['invalid_5fposition',['INVALID_POSITION',['../classUniverseObject.html#af77313701ae4814fa2a103c9c6a665c1',1,'UniverseObject']]],
   ['invalid_5fquantity',['INVALID_QUANTITY',['../classProductionQueueOrder.html#a5abdc379e5bbc0436e3f8f20eedd8493',1,'ProductionQueueOrder']]],
   ['invalid_5fship_5fpart_5fclass',['INVALID_SHIP_PART_CLASS',['../Enums_8h.html#aa4dea5f3eb2b8840a3fe7646601dc5f9',1,'Enums.h']]],
+  ['invalid_5fsplit_5fincomplete',['INVALID_SPLIT_INCOMPLETE',['../classProductionQueueOrder.html#a1b167a2fad77a46ef9c5d7e1c1d80aca',1,'ProductionQueueOrder']]],
   ['invalid_5fstar_5ftype',['INVALID_STAR_TYPE',['../Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9',1,'Enums.h']]],
   ['invalid_5funlockable_5fitem_5ftype',['INVALID_UNLOCKABLE_ITEM_TYPE',['../Enums_8h.html#ad741b39eef92773f0600b66697f77fb8',1,'Enums.h']]],
   ['invalid_5fvalue',['INVALID_VALUE',['../classMeter.html#ae9583963fa0f26d0b4b0279d80ef9b68',1,'Meter']]],

@@ -219,10 +219,10 @@ var searchData=
   ['dot_5fvertices_5fbuffer',['dot_vertices_buffer',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9746f6e8ddbd0d77a575ac265382f041',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['double_5f',['double_',['../structparse_1_1lexer.html#a882e572a1d75c582e35983c9d330a4af',1,'parse::lexer::double_()'],['../namespaceparse_1_1detail.html#abd5b65222a01dedc28fc9817434b1e65',1,'parse::detail::double_()']]],
   ['double_5fcomplex_5fparser',['double_complex_parser',['../namespaceparse_1_1detail.html#a7be8dba78f1c80c99802a34cb87c8fcc',1,'parse::detail']]],
-  ['double_5fcomplex_5fparser_5frules',['double_complex_parser_rules',['../structparse_1_1double__complex__parser__rules.html#a34647239dba4002e2aa5a1cd894f16b2',1,'parse::double_complex_parser_rules']]],
   ['double_5fcomplex_5fparser_5frules',['double_complex_parser_rules',['../structparse_1_1double__complex__parser__rules.html',1,'parse']]],
-  ['double_5fparser_5frules',['double_parser_rules',['../structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html',1,'anonymous_namespace{DoubleValueRefParser.cpp}']]],
+  ['double_5fcomplex_5fparser_5frules',['double_complex_parser_rules',['../structparse_1_1double__complex__parser__rules.html#a34647239dba4002e2aa5a1cd894f16b2',1,'parse::double_complex_parser_rules']]],
   ['double_5fparser_5frules',['double_parser_rules',['../structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html#a5534d7bfeac40c165a7c3df377380c0b',1,'anonymous_namespace{DoubleValueRefParser.cpp}::double_parser_rules']]],
+  ['double_5fparser_5frules',['double_parser_rules',['../structanonymous__namespace_02DoubleValueRefParser_8cpp_03_1_1double__parser__rules.html',1,'anonymous_namespace{DoubleValueRefParser.cpp}']]],
   ['double_5fref_5fdouble_5fref_5frule',['double_ref_double_ref_rule',['../structanonymous__namespace_02ConditionParser3_8cpp_03_1_1condition__parser__rules__3.html#a0e5d9e0307c39fbf4573e987d783b3ef',1,'anonymous_namespace{ConditionParser3.cpp}::condition_parser_rules_3']]],
   ['double_5fregex',['double_regex',['../structparse_1_1lexer.html#a19221e91de63100793e4dee3a13cab85',1,'parse::lexer']]],
   ['double_5frule',['double_rule',['../namespaceparse_1_1detail.html#a894a824c2e60f8b51d9914602c0f4e74',1,'parse::detail']]],
@@ -255,10 +255,10 @@ var searchData=
   ['droplistwidth',['DropListWidth',['../classConditionWidget.html#a07bfb694d85f448acd86fa05d865faf9',1,'ConditionWidget']]],
   ['droppedrowwidth',['DroppedRowWidth',['../classCUIDropDownList.html#a56208103642d478fc010f81cf887ca85',1,'CUIDropDownList']]],
   ['dropsacceptable',['DropsAcceptable',['../classPartsListBox.html#aa64116c99fe0731699aaba5cdcbd45d9',1,'PartsListBox::DropsAcceptable()'],['../classSlotControl.html#a7ed0870f229e7bd75725283c34c9acac',1,'SlotControl::DropsAcceptable()'],['../classDesignWnd_1_1MainPanel.html#a308abad696ed5ee43be80b087a388a30',1,'DesignWnd::MainPanel::DropsAcceptable()'],['../classFleetDataPanel.html#a48476a632bd041c1fb1433177d3e56f3',1,'FleetDataPanel::DropsAcceptable()'],['../classFleetsListBox.html#aecc1dfaba6bd41eca51dbe8afdf2de6a',1,'FleetsListBox::DropsAcceptable()'],['../classShipsListBox.html#a8d7c0e4ad85f12830bb45286316973b5',1,'ShipsListBox::DropsAcceptable()']]],
-  ['dtpoint',['DTPoint',['../classDelauney_1_1DTPoint.html',1,'Delauney']]],
   ['dtpoint',['DTPoint',['../classDelauney_1_1DTPoint.html#a53facc59430903760ba0ff1b37bbbfb7',1,'Delauney::DTPoint::DTPoint()'],['../classDelauney_1_1DTPoint.html#a225ec1be8d580a554c285cf0d5fd87a9',1,'Delauney::DTPoint::DTPoint(double x_, double y_)']]],
-  ['dttriangle',['DTTriangle',['../classDelauney_1_1DTTriangle.html',1,'Delauney']]],
+  ['dtpoint',['DTPoint',['../classDelauney_1_1DTPoint.html',1,'Delauney']]],
   ['dttriangle',['DTTriangle',['../classDelauney_1_1DTTriangle.html#a423cce043e46ea9d94efd60b8ab66f5b',1,'Delauney::DTTriangle::DTTriangle()'],['../classDelauney_1_1DTTriangle.html#acedf164761001b8c3925e548c42c7cd7',1,'Delauney::DTTriangle::DTTriangle(int vert1, int vert2, int vert3, std::vector&lt; Delauney::DTPoint &gt; &amp;points)']]],
+  ['dttriangle',['DTTriangle',['../classDelauney_1_1DTTriangle.html',1,'Delauney']]],
   ['dualmeter',['DualMeter',['../namespaceDualMeter.html',1,'']]],
   ['dummy',['dummy',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44',1,'anonymous_namespace{CUIWnd.cpp}::dummy()'],['../namespaceanonymous__namespace_02ValueRef_8cpp_03.html#a8f2a1f8f424b1a519f40c3d85f3685e6',1,'anonymous_namespace{ValueRef.cpp}::dummy()']]],
   ['dummy_5fempty_5fmessage',['DUMMY_EMPTY_MESSAGE',['../namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74',1,'anonymous_namespace{Message.cpp}']]],
@@ -266,5 +266,6 @@ var searchData=
   ['dumpdiplomacy',['DumpDiplomacy',['../classEmpireManager.html#a1eba2a4aef5339dbe94794b6c2cd61a9',1,'EmpireManager']]],
   ['dumpindent',['DumpIndent',['../Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862',1,'DumpIndent():&#160;Logger.cpp'],['../Logger_8h.html#a47dbe4d05d4ce283e874d4abfc867862',1,'DumpIndent():&#160;Logger.cpp']]],
   ['dumpobject',['DumpObject',['../classClientUI.html#ab2679f656c2df8e46739986e4850ca8d',1,'ClientUI']]],
-  ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]]
+  ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['duplicateproductionitem',['DuplicateProductionItem',['../classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e',1,'Empire']]]
 ];

@@ -337,19 +337,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae366de4239f1a986d7ef3dcfe163a86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aae366de4239f1a986d7ef3dcfe163a86">PlaceProductionOnQueue</a> (const <a class="el" href="structProductionQueue_1_1ProductionItem.html">ProductionQueue::ProductionItem</a> &amp;item, int number, int location, int pos=-1)</td></tr>
 <tr class="separator:aae366de4239f1a986d7ef3dcfe163a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1101bec137817c8c32401d01ad403962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity</a> (int index, int quantity)</td></tr>
-<tr class="memdesc:a1101bec137817c8c32401d01ad403962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the remaining number to build for queue item <em>index</em> to <em>quantity</em>.  <a href="#a1101bec137817c8c32401d01ad403962">More...</a><br /></td></tr>
+<tr class="memdesc:a1101bec137817c8c32401d01ad403962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the remaining number to produce for queue item <em>index</em> to <em>quantity</em>.  <a href="#a1101bec137817c8c32401d01ad403962">More...</a><br /></td></tr>
 <tr class="separator:a1101bec137817c8c32401d01ad403962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b0cc4ee05cb0a2a89b86e46b99ba46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">SetProductionQuantityAndBlocksize</a> (int index, int quantity, int blocksize)</td></tr>
-<tr class="memdesc:a8b0cc4ee05cb0a2a89b86e46b99ba46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the remaining number and blocksize to build for queue item <em>index</em> to <em>quantity</em> and <em>blocksize</em>.  <a href="#a8b0cc4ee05cb0a2a89b86e46b99ba46d">More...</a><br /></td></tr>
+<tr class="memdesc:a8b0cc4ee05cb0a2a89b86e46b99ba46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the remaining number and blocksize to produce for queue item <em>index</em> to <em>quantity</em> and <em>blocksize</em>.  <a href="#a8b0cc4ee05cb0a2a89b86e46b99ba46d">More...</a><br /></td></tr>
 <tr class="separator:a8b0cc4ee05cb0a2a89b86e46b99ba46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac98032f34486e4543f02f277505b5c74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem</a> (int index)</td></tr>
+<tr class="memdesc:ac98032f34486e4543f02f277505b5c74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a copy of the production item at position <em>index</em> below it in the queue, with one less quantity. Sets the quantity of the production item at position <em>index</em> to 1, retaining its incomplete progress.  <a href="#ac98032f34486e4543f02f277505b5c74">More...</a><br /></td></tr>
+<tr class="separator:ac98032f34486e4543f02f277505b5c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d5d1483d6c87cfca2f589df0289a6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem</a> (int index)</td></tr>
+<tr class="memdesc:a99d5d1483d6c87cfca2f589df0289a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a copy of the production item at position <em>index</em> below it in the queue, with no progress.  <a href="#a99d5d1483d6c87cfca2f589df0289a6e">More...</a><br /></td></tr>
+<tr class="separator:a99d5d1483d6c87cfca2f589df0289a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2a751f9c71a102c484f38075553c541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">SetProductionRallyPoint</a> (int index, int rally_point_id=<a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>)</td></tr>
-<tr class="memdesc:ae2a751f9c71a102c484f38075553c541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rally point for ships produced by this build, to which they are automatically ordered to move after they are produced.  <a href="#ae2a751f9c71a102c484f38075553c541">More...</a><br /></td></tr>
+<tr class="memdesc:ae2a751f9c71a102c484f38075553c541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rally point for ships produced by this produce, to which they are automatically ordered to move after they are produced.  <a href="#ae2a751f9c71a102c484f38075553c541">More...</a><br /></td></tr>
 <tr class="separator:ae2a751f9c71a102c484f38075553c541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af89b1f40e34c42a2b4de4d0d9588c4be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">MoveProductionWithinQueue</a> (int index, int new_index)</td></tr>
 <tr class="memdesc:af89b1f40e34c42a2b4de4d0d9588c4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves <em>tech</em> from the production queue, if it is in the production queue already.  <a href="#af89b1f40e34c42a2b4de4d0d9588c4be">More...</a><br /></td></tr>
 <tr class="separator:af89b1f40e34c42a2b4de4d0d9588c4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a501bd666e94e12db2b880f05e95950e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">RemoveProductionFromQueue</a> (int index)</td></tr>
-<tr class="memdesc:a501bd666e94e12db2b880f05e95950e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the build at position <em>index</em> in the production queue, if such an index exists.  <a href="#a501bd666e94e12db2b880f05e95950e2">More...</a><br /></td></tr>
+<tr class="memdesc:a501bd666e94e12db2b880f05e95950e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the produce at position <em>index</em> in the production queue, if such an index exists.  <a href="#a501bd666e94e12db2b880f05e95950e2">More...</a><br /></td></tr>
 <tr class="separator:a501bd666e94e12db2b880f05e95950e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a181913adbcb25dfdef009bde43b96e45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">PauseProduction</a> (int index)</td></tr>
 <tr class="separator:a181913adbcb25dfdef009bde43b96e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1376,6 +1382,26 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a99d5d1483d6c87cfca2f589df0289a6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Empire::DuplicateProductionItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a copy of the production item at position <em>index</em> below it in the queue, with no progress. </p>
+
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="structProductionQueue_1_1Element.html#a7349c8d6e2bcafc698903a65e3439b49">ProductionQueue::Element::item</a>, <a class="el" href="structProductionQueue_1_1Element.html#a7ebb34bcf03d6cfa550c13dbf42750f3">ProductionQueue::Element::location</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf">PlaceProductionOnQueue()</a>, <a class="el" href="structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56">ProductionQueue::Element::remaining</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a65320e749400abd9d22265cd0dad5b46"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2274,7 +2300,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
-<p>Referenced by <a class="el" href="classEmpire.html#aae366de4239f1a986d7ef3dcfe163a86">PlaceProductionOnQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem()</a>, <a class="el" href="classEmpire.html#aae366de4239f1a986d7ef3dcfe163a86">PlaceProductionOnQueue()</a>, and <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem()</a>.</p>
 
 </div>
 </div>
@@ -2746,7 +2772,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes the build at position <em>index</em> in the production queue, if such an index exists. </p>
+<p>Removes the produce at position <em>index</em> in the production queue, if such an index exists. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="structProductionQueue.html#aca38e1b4673eca540e857b7ebb0443b7">ProductionQueue::erase()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
@@ -3126,7 +3152,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the remaining number to build for queue item <em>index</em> to <em>quantity</em>. </p>
+<p>Changes the remaining number to produce for queue item <em>index</em> to <em>quantity</em>. </p>
 
 <p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
@@ -3162,7 +3188,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the remaining number and blocksize to build for queue item <em>index</em> to <em>quantity</em> and <em>blocksize</em>. </p>
+<p>Changes the remaining number and blocksize to produce for queue item <em>index</em> to <em>quantity</em> and <em>blocksize</em>. </p>
 
 <p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
@@ -3192,7 +3218,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the rally point for ships produced by this build, to which they are automatically ordered to move after they are produced. </p>
+<p>Sets the rally point for ships produced by this produce, to which they are automatically ordered to move after they are produced. </p>
 
 <p>References <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
@@ -3884,6 +3910,26 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ac98032f34486e4543f02f277505b5c74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Empire::SplitIncompleteProductionItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a copy of the production item at position <em>index</em> below it in the queue, with one less quantity. Sets the quantity of the production item at position <em>index</em> to 1, retaining its incomplete progress. </p>
+
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="structProductionQueue_1_1Element.html#a7349c8d6e2bcafc698903a65e3439b49">ProductionQueue::Element::item</a>, <a class="el" href="structProductionQueue_1_1Element.html#a7ebb34bcf03d6cfa550c13dbf42750f3">ProductionQueue::Element::location</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf">PlaceProductionOnQueue()</a>, <a class="el" href="structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56">ProductionQueue::Element::remaining</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a084dcfde1a3b84f62104743084905935"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4192,7 +4238,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">EmpireID()</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#af67e07f691d1b44f7a70720f6e0e32e9">m_resource_pools</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">ProductionQueue::Update()</a>.</p>
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">ProductionWnd::AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ad0e2f3690826f8f4632066b6d1fde52d">ProductionWnd::ChangeBuildQuantityBlockSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ProductionWnd::ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">ProductionWnd::DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">ProductionWnd::QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">ProductionWnd::QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">ProductionWnd::QueueItemRallied()</a>, <a class="el" href="namespaceAIInterface.html#afe73a221b3aa8a5c5aea2178c33e9358">AIInterface::UpdateProductionQueue()</a>, and <a class="el" href="classEmpire.html#ab48395fe6c94b6c11fa51a4e1fb51d47">UpdateResourcePools()</a>.</p>
+<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">ProductionWnd::AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ad0e2f3690826f8f4632066b6d1fde52d">ProductionWnd::ChangeBuildQuantityBlockSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ProductionWnd::ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">ProductionWnd::DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">ProductionWnd::QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">ProductionWnd::QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">ProductionWnd::QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">ProductionWnd::QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">ProductionWnd::QueueItemSplit()</a>, <a class="el" href="namespaceAIInterface.html#afe73a221b3aa8a5c5aea2178c33e9358">AIInterface::UpdateProductionQueue()</a>, and <a class="el" href="classEmpire.html#ab48395fe6c94b6c11fa51a4e1fb51d47">UpdateResourcePools()</a>.</p>
 
 </div>
 </div>
@@ -4926,7 +4972,7 @@ template&lt;class Archive &gt; </div>
 
 <p>the queue of items being or waiting to be built </p>
 
-<p>Referenced by <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">GetProductionQueue()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">PauseProduction()</a>, <a class="el" href="classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a9f843ebdef01ba6224b22e418c8f1b99">ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">ResumeProduction()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">SetProductionRallyPoint()</a>, and <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">UpdateProductionQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">GetProductionQueue()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">PauseProduction()</a>, <a class="el" href="classEmpire.html#aaa0a9af30077f6e0664003ed5f90cccf">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a9f843ebdef01ba6224b22e418c8f1b99">ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">ResumeProduction()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">SetProductionRallyPoint()</a>, <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem()</a>, and <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">UpdateProductionQueue()</a>.</p>
 
 </div>
 </div>

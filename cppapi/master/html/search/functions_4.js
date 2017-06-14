@@ -152,5 +152,6 @@ var searchData=
   ['dumpdiplomacy',['DumpDiplomacy',['../classEmpireManager.html#a1eba2a4aef5339dbe94794b6c2cd61a9',1,'EmpireManager']]],
   ['dumpindent',['DumpIndent',['../Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862',1,'DumpIndent():&#160;Logger.cpp'],['../Logger_8h.html#a47dbe4d05d4ce283e874d4abfc867862',1,'DumpIndent():&#160;Logger.cpp']]],
   ['dumpobject',['DumpObject',['../classClientUI.html#ab2679f656c2df8e46739986e4850ca8d',1,'ClientUI']]],
-  ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]]
+  ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['duplicateproductionitem',['DuplicateProductionItem',['../classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e',1,'Empire']]]
 ];
