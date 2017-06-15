@@ -118,6 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3bd4c34fa091b5aa8d142eb56d6aac3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump</a> () const </td></tr>
 <tr class="memdesc:ac3bd4c34fa091b5aa8d142eb56d6aac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a data file format representation of this object  <a href="#ac3bd4c34fa091b5aa8d142eb56d6aac3">More...</a><br /></td></tr>
 <tr class="separator:ac3bd4c34fa091b5aa8d142eb56d6aac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd8c2071fa857cf50e3cb4a31f6e31f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">GetCheckSum</a> () const </td></tr>
+<tr class="separator:a2dd8c2071fa857cf50e3cb4a31f6e31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -239,6 +241,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2dd8c2071fa857cf50e3cb4a31f6e31f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int FocusType::GetCheckSum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classFocusType.html#aad93942ff62d3f295c88f2a865d38040">m_description</a>, <a class="el" href="classFocusType.html#acf15a3c6a0df41d2976f760f3e6248ba">m_graphic</a>, <a class="el" href="classFocusType.html#a105a76ffa0dd505556d41867f81a5055">m_location</a>, and <a class="el" href="classFocusType.html#ac7bd8ca97c08e2076c98c48a1116ad5d">m_name</a>.</p>
+
+<p>Referenced by <a class="el" href="classSpeciesManager.html#aa5c8d7473ab1f3a854fba8e2cc9c366d">SpeciesManager::SpeciesManager()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad92441f3d9885c2d09750f0a064ca005"></a>
 <div class="memitem">
 <div class="memproto">
@@ -335,7 +357,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, and <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>.</p>
+<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>, <a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">GetCheckSum()</a>, and <a class="el" href="classSpecies.html#abb8938f1d183435c4a51e9ddb9c6c438">Species::GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -357,7 +379,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, and <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>.</p>
+<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>, <a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">GetCheckSum()</a>, and <a class="el" href="classSpecies.html#abb8938f1d183435c4a51e9ddb9c6c438">Species::GetCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -379,7 +401,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classSpecies.html#a6a68bd89f8c87b8cea8541631118bb4d">Species::Init()</a>, <a class="el" href="classSpecies.html#aa5718302a56a877002fd3e9a17cd636f">Species::Location()</a>, and <a class="el" href="classSpecies.html#af36f93648e2dedc2f05b6fb0c067f35e">Species::~Species()</a>.</p>
+<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">GetCheckSum()</a>, <a class="el" href="classSpecies.html#abb8938f1d183435c4a51e9ddb9c6c438">Species::GetCheckSum()</a>, <a class="el" href="classSpecies.html#a6a68bd89f8c87b8cea8541631118bb4d">Species::Init()</a>, <a class="el" href="classSpecies.html#aa5718302a56a877002fd3e9a17cd636f">Species::Location()</a>, and <a class="el" href="classSpecies.html#af36f93648e2dedc2f05b6fb0c067f35e">Species::~Species()</a>.</p>
 
 </div>
 </div>
@@ -401,7 +423,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>, <a class="el" href="classSpecies.html#a6a68bd89f8c87b8cea8541631118bb4d">Species::Init()</a>, and <a class="el" href="classSpecies.html#aa5718302a56a877002fd3e9a17cd636f">Species::Location()</a>.</p>
+<p>Referenced by <a class="el" href="classFocusType.html#ac3bd4c34fa091b5aa8d142eb56d6aac3">Dump()</a>, <a class="el" href="classSpecies.html#a2e7f069b2f7d25b36130af0098829bf6">Species::Dump()</a>, <a class="el" href="classFocusType.html#a2dd8c2071fa857cf50e3cb4a31f6e31f">GetCheckSum()</a>, <a class="el" href="classSpecies.html#abb8938f1d183435c4a51e9ddb9c6c438">Species::GetCheckSum()</a>, <a class="el" href="classSpecies.html#a6a68bd89f8c87b8cea8541631118bb4d">Species::Init()</a>, and <a class="el" href="classSpecies.html#aa5718302a56a877002fd3e9a17cd636f">Species::Location()</a>.</p>
 
 </div>
 </div>
