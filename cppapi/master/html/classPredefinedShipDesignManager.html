@@ -109,8 +109,6 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a741eec27f65e38fefe3226bd7a50c1b0"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a741eec27f65e38fefe3226bd7a50c1b0">AddShipDesignsToUniverse</a> () const </td></tr>
 <tr class="separator:a741eec27f65e38fefe3226bd7a50c1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a13cfb91b8c6a3b1f8f48dde718246f1e">GetCheckSum</a> () const </td></tr>
-<tr class="separator:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a922eec93faa8a2112d9f48fcfca5b1cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a922eec93faa8a2112d9f48fcfca5b1cb">GetDesignID</a> (const std::string &amp;name) const </td></tr>
 <tr class="separator:a922eec93faa8a2112d9f48fcfca5b1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c4ce228432e1b4a8749736ef93a9720"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classShipDesign.html">ShipDesign</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a3c4ce228432e1b4a8749736ef93a9720">GetOrderedMonsterDesigns</a> () const </td></tr>
@@ -177,7 +175,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">ShipDesign::GetCheckSum()</a>, <a class="el" href="namespaceparse.html#ac6c3f06bc91da42525560da4adfaeeb0">parse::monster_designs()</a>, <a class="el" href="namespaceparse.html#aeb28994dc1e2021afd528fe9efb8b4e2">parse::ship_designs()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#ac6c3f06bc91da42525560da4adfaeeb0">parse::monster_designs()</a>, <a class="el" href="namespaceparse.html#aeb28994dc1e2021afd528fe9efb8b4e2">parse::ship_designs()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -199,26 +197,6 @@ Static Private Attributes</h2></td></tr>
 <p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse()</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a13cfb91b8c6a3b1f8f48dde718246f1e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int PredefinedShipDesignManager::GetCheckSum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
-
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>.</p>
-
-<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>.</p>
 
 </div>
 </div>
