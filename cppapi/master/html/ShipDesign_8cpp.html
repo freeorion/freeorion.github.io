@@ -99,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="OptionsDB_8h.html">../util/OptionsDB.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AppInterface_8h.html">../util/AppInterface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MultiplayerCommon_8h.html">../util/MultiplayerCommon.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="CheckSums_8h.html">../util/CheckSums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Parse_8h.html">../parse/Parse.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Empire_8h.html">../Empire/Empire.h</a>&quot;</code><br />
@@ -128,6 +129,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a474b8860abfcb275e07e016c74c47b4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse</a> (std::map&lt; std::string, int &gt; &amp;design_generic_ids, const std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt; &amp;design, bool monster)</td></tr>
 <tr class="separator:a474b8860abfcb275e07e016c74c47b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0007dcbe418f5e927e86fe9ef34abe22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a0007dcbe418f5e927e86fe9ef34abe22">anonymous_namespace{ShipDesign.cpp}::AddRules</a> (<a class="el" href="classGameRules.html">GameRules</a> &amp;rules)</td></tr>
+<tr class="separator:a0007dcbe418f5e927e86fe9ef34abe22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine</a> (unsigned int &amp;sum, const <a class="el" href="structHullType_1_1Slot.html">HullType::Slot</a> &amp;slot)</td></tr>
 <tr class="separator:a9b3964cae8c04cda052fe4501ca7e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae665d62a352082d40ab0f853ba381d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08">anonymous_namespace{ShipDesign.cpp}::DesignsTheSame</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;one, const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;two)</td></tr>
@@ -155,12 +158,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab293fd4bd6186370156cf94294edaf1b"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ab293fd4bd6186370156cf94294edaf1b">anonymous_namespace{ShipDesign.cpp}::CHEAP_AND_FAST_SHIP_PRODUCTION</a> = false</td></tr>
-<tr class="separator:ab293fd4bd6186370156cf94294edaf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bbacf33737df8af258cc7d30914aad6"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a3bbacf33737df8af258cc7d30914aad6">anonymous_namespace{ShipDesign.cpp}::EMPTY_STRING</a></td></tr>
 <tr class="separator:a3bbacf33737df8af258cc7d30914aad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725aac69cb80e8eba376811265b27c4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ShipDesign_8cpp.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a> = -1</td></tr>
 <tr class="separator:a725aac69cb80e8eba376811265b27c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78265ba7b2ca00806a136229a617cc6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a78265ba7b2ca00806a136229a617cc6d">anonymous_namespace{ShipDesign.cpp}::temp_bool</a> = <a class="el" href="MultiplayerCommon_8h.html#a2ca729ee6791ef4feec84e0011d53c16">RegisterGameRules</a>(&amp;AddRules)</td></tr>
+<tr class="separator:a78265ba7b2ca00806a136229a617cc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a0f0b5ac87d9a3a3f6d725f151668cc91"></a>
