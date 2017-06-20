@@ -110,8 +110,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Types</h2></td></tr>
 <tr class="memitem:a7a2f27355fa27b941fc1b9065beedd5f"><td class="memItemLeft" align="right" valign="top">typedef boost::statechart::simple_state&lt; <a class="el" href="structWaitingForMPHostAck.html">WaitingForMPHostAck</a>, <a class="el" href="structHumanClientFSM.html">HumanClientFSM</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPHostAck.html#a7a2f27355fa27b941fc1b9065beedd5f">Base</a></td></tr>
 <tr class="separator:a7a2f27355fa27b941fc1b9065beedd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fddb9e885bc63c17b1e4ed41ab1bfe7"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; HostMPGame &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &gt;, boost::statechart::custom_reaction&lt; Error &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPHostAck.html#a4fddb9e885bc63c17b1e4ed41ab1bfe7">reactions</a></td></tr>
-<tr class="separator:a4fddb9e885bc63c17b1e4ed41ab1bfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7420cb81b2f45ef3c1e2fc35ab8316c"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; HostMPGame &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &gt;, boost::statechart::custom_reaction&lt; Error &gt;, boost::statechart::custom_reaction&lt; CheckSum &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPHostAck.html#af7420cb81b2f45ef3c1e2fc35ab8316c">reactions</a></td></tr>
+<tr class="separator:af7420cb81b2f45ef3c1e2fc35ab8316c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b78493fd996774086259c09b1b3b0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e089c36c650451b15ec7b70dc9f9a47"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">react</a> (const Error &amp;msg)</td></tr>
 <tr class="separator:a6e089c36c650451b15ec7b70dc9f9a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6827528c78aa41a5e2da8137bd9236b9"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPHostAck.html#a6827528c78aa41a5e2da8137bd9236b9">react</a> (const CheckSum &amp;msg)</td></tr>
+<tr class="separator:a6827528c78aa41a5e2da8137bd9236b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The human client state in which the player has requested to host a multiplayer game and is waiting for the server to acknowledge the request. </p>
@@ -143,12 +145,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4fddb9e885bc63c17b1e4ed41ab1bfe7"></a>
+<a class="anchor" id="af7420cb81b2f45ef3c1e2fc35ab8316c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;HostMPGame&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structStartQuittingGame.html">StartQuittingGame</a>&gt;, boost::statechart::custom_reaction&lt;Error&gt; &gt; <a class="el" href="structWaitingForMPHostAck.html#a4fddb9e885bc63c17b1e4ed41ab1bfe7">WaitingForMPHostAck::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;HostMPGame&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structStartQuittingGame.html">StartQuittingGame</a>&gt;, boost::statechart::custom_reaction&lt;Error&gt;, boost::statechart::custom_reaction&lt;CheckSum&gt; &gt; <a class="el" href="structWaitingForMPHostAck.html#af7420cb81b2f45ef3c1e2fc35ab8316c">WaitingForMPHostAck::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -260,6 +262,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#adc3978b2d8cd3d5531e2b2a60848d393">ExtractErrorMessageData()</a>, <a class="el" href="classHumanClientApp.html#acd32b52bbd3eabf669f5ba323291371a">HumanClientApp::GetClientUI()</a>, <a class="el" href="classClientUI.html#aee63d969a0049c66358091726f4fbc3f">ClientUI::GetMessageWnd()</a>, <a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">MessageWnd::HandleGameStatusUpdate()</a>, <a class="el" href="classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00">ClientUI::MessageBox()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6827528c78aa41a5e2da8137bd9236b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForMPHostAck::react </td>
+          <td>(</td>
+          <td class="paramtype">const CheckSum &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Message_8cpp.html#a5cedb83a0ba2116c6bf08b65c2a5858d">ExtractContentCheckSumMessageData()</a>, <a class="el" href="Logger_8h.html#aef58f34adf9f1de44115a06ce0f555cb">InfoLogger</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
