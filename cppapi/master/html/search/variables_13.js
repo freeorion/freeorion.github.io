@@ -64,7 +64,7 @@ var searchData=
   ['set_5ftexture',['set_texture',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#a92efb63c9c95320cc10aaf7bcd83adcd',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['set_5fvisibility',['set_visibility',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#a76b300c11a51c0466dfed1e162c1c174',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['setowneractionselectedsignal',['SetOwnerActionSelectedSignal',['../classModeratorActionsWnd.html#a27a7bbc2f7e9375ca1ef7ae48ecdee3a',1,'ModeratorActionsWnd']]],
-  ['settingschangedsignal',['SettingsChangedSignal',['../classGalaxySetupPanel.html#a79735a0918f933fc435e8e90db8cce1f',1,'GalaxySetupPanel']]],
+  ['settingschangedsignal',['SettingsChangedSignal',['../classGameRulesPanel.html#a832e70c5074aa6c1eb8a32ae1210dcd0',1,'GameRulesPanel::SettingsChangedSignal()'],['../classGalaxySetupPanel.html#a79735a0918f933fc435e8e90db8cce1f',1,'GalaxySetupPanel::SettingsChangedSignal()']]],
   ['shield',['shield',['../structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987',1,'WeaponFireEvent']]],
   ['shininess',['shininess',['../structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#a1ec2fe46a44554ba726f87a33776cfcb',1,'anonymous_namespace{SidePanel.cpp}::RotatingPlanetData']]],
   ['ship_5fdesigns_5fdestroyed',['ship_designs_destroyed',['../structparse_1_1int__complex__parser__rules.html#ad9445945e739721d2581a00c9b2437a2',1,'parse::int_complex_parser_rules']]],

@@ -4,7 +4,6 @@ var searchData=
   ['page_5fheight',['PAGE_HEIGHT',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#ab10e1ccc46630f52107be17f69a1b275',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['page_5fwidth',['PAGE_WIDTH',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a27ad77ce3caf376f1ced22bfa1df89dc',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['pan',['Pan',['../classMapWnd.html#ac91f981910d6c63d4f14aaaa3cb737ea',1,'MapWnd']]],
-  ['panel',['Panel',['../classGalaxySetupWnd.html#a7a121cf89c4f9f3bc5c4cdf92573ddca',1,'GalaxySetupWnd']]],
   ['panel_5fcontrol_5fspacing',['PANEL_CONTROL_SPACING',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ae99ef45ae5f7e1205dadf0e3390e917c',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['panel_5fheight',['PANEL_HEIGHT',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a25e20d0ad4c7438f1aa6e1e69c7ef1f3',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['panx',['PanX',['../classMapWnd.html#ac1007ab8866757f6c752771bf850271e',1,'MapWnd']]],

@@ -96,6 +96,7 @@ var searchData=
   ['clearcontents',['ClearContents',['../classObjectListBox.html#a17fae88640cc82fd08b4c996a2a4eefc',1,'ObjectListBox']]],
   ['cleardesigns',['ClearDesigns',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#ac7d176cf265acb9bf16585067ec126d1',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
   ['clearempireturnorders',['ClearEmpireTurnOrders',['../classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d',1,'ServerApp']]],
+  ['clearexternalrules',['ClearExternalRules',['../classGameRules.html#a3e64922502fca440b26151c75638b899',1,'GameRules']]],
   ['clearfieldrenderingbuffers',['ClearFieldRenderingBuffers',['../classMapWnd.html#a8becbde6f64b797d1b85d549e5ec1a99',1,'MapWnd']]],
   ['clearfocus',['ClearFocus',['../classResourceCenter.html#a83d64336290e3398151b255fac127d4b',1,'ResourceCenter']]],
   ['cleargivetoempire',['ClearGiveToEmpire',['../classFleet.html#afd62ef66cf4b4ac3589028f2c0a7efa9',1,'Fleet::ClearGiveToEmpire()'],['../classPlanet.html#aa6bd14d3f500b89bf0fdf4c4294c8ffe',1,'Planet::ClearGiveToEmpire()']]],
