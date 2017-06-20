@@ -89,6 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classShipDesign-members.html">List of all members</a>  </div>
@@ -107,13 +108,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abfb723f154627f23f6705495d67db60d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation</a> (int empire_id, int location_id) const </td></tr>
 <tr class="memdesc:abfb723f154627f23f6705495d67db60d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with ID empire_id can produce this design at the location with location_id  <a href="#abfb723f154627f23f6705495d67db60d">More...</a><br /></td></tr>
 <tr class="separator:abfb723f154627f23f6705495d67db60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca">ShipDesign</a> ()</td></tr>
-<tr class="separator:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a8bea6c677bbfc16dad14938d884484"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign</a> (const std::string &amp;name, const std::string &amp;description, int designed_on_turn, int designed_by_empire, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable=false, bool monster=false, const boost::uuids::uuid &amp;uuid=boost::uuids::nil_uuid())</td></tr>
-<tr class="separator:a8a8bea6c677bbfc16dad14938d884484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abed3a746667309d349dfad174666a2f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abed3a746667309d349dfad174666a2f2">ShipDesign</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable=false, bool monster=false, const boost::uuids::uuid &amp;uuid=boost::uuids::nil_uuid())</td></tr>
-<tr class="separator:abed3a746667309d349dfad174666a2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a3b91e4dcc0aa605c6058386055faf178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID</a> (int id)</td></tr>
 <tr class="memdesc:a3b91e4dcc0aa605c6058386055faf178"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ID number of the design to <em>id</em> . Should only be used by <a class="el" href="classUniverse.html">Universe</a> class when inserting new design into <a class="el" href="classUniverse.html">Universe</a>.  <a href="#a3b91e4dcc0aa605c6058386055faf178">More...</a><br /></td></tr>
@@ -127,18 +121,22 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:affe0ae243b8bf0bbd4105d17ef169980"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ValidDesign</a> (const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
-<tr class="memdesc:affe0ae243b8bf0bbd4105d17ef169980"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; returns true if the <em>hull</em> and parts vectors passed make a valid <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a>  <a href="#affe0ae243b8bf0bbd4105d17ef169980">More...</a><br /></td></tr>
 <tr class="separator:affe0ae243b8bf0bbd4105d17ef169980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec6bd06d88f8b124d2d1979a6601518c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;design)</td></tr>
-<tr class="separator:aec6bd06d88f8b124d2d1979a6601518c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ad6b1ae007830fc297543790880198683"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches</a> ()</td></tr>
 <tr class="separator:ad6b1ae007830fc297543790880198683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2111124d8cdae7f4e56f06cb43c5670e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow</a> (const boost::optional&lt; std::invalid_argument &gt; &amp;should_throw, bool produce_log)</td></tr>
+<tr class="separator:a2111124d8cdae7f4e56f06cb43c5670e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e2f114509a99901e9c1f3a15e3885a8"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
 <tr class="memitem:a7e2f114509a99901e9c1f3a15e3885a8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a7e2f114509a99901e9c1f3a15e3885a8">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
 <tr class="separator:a7e2f114509a99901e9c1f3a15e3885a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a9bd858e82b4edb502997492a35546361"><td class="memItemLeft" align="right" valign="top">static boost::optional&lt; std::pair&lt; std::string, std::vector&lt; std::string &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a9bd858e82b4edb502997492a35546361">MaybeInvalidDesign</a> (const std::string &amp;hull, std::vector&lt; std::string &gt; &amp;parts, bool produce_log)</td></tr>
+<tr class="separator:a9bd858e82b4edb502997492a35546361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -207,6 +205,15 @@ Private Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
 <tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Structors</h2></td></tr>
+<tr class="memitem:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca">ShipDesign</a> ()</td></tr>
+<tr class="separator:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add0134772c7c250b42a0a1d6edc9e562"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#add0134772c7c250b42a0a1d6edc9e562">ShipDesign</a> (const boost::optional&lt; std::invalid_argument &gt; &amp;should_throw, const std::string &amp;name, const std::string &amp;description, int designed_on_turn, int designed_by_empire, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable=false, bool monster=false, const boost::uuids::uuid &amp;uuid=boost::uuids::nil_uuid())</td></tr>
+<tr class="separator:add0134772c7c250b42a0a1d6edc9e562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a8bea6c677bbfc16dad14938d884484"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign</a> (const std::string &amp;name, const std::string &amp;description, int designed_on_turn, int designed_by_empire, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable=false, bool monster=false, const boost::uuids::uuid &amp;uuid=boost::uuids::nil_uuid())</td></tr>
+<tr class="separator:a8a8bea6c677bbfc16dad14938d884484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
@@ -352,6 +359,9 @@ Accessors</h2></td></tr>
 <a class="anchor" id="a81c3e540e7c21e3ab9d8c0c60eeeeeca"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ShipDesign::ShipDesign </td>
@@ -360,9 +370,107 @@ Accessors</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<p>The <a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca">ShipDesign()</a> constructor constructs invalid designs and is only used by boost serialization. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add0134772c7c250b42a0a1d6edc9e562"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ShipDesign::ShipDesign </td>
+          <td>(</td>
+          <td class="paramtype">const boost::optional&lt; std::invalid_argument &gt; &amp;&#160;</td>
+          <td class="paramname"><em>should_throw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>designed_on_turn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>designed_by_empire</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>hull</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>icon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>name_desc_in_stringtable</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>monster</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::uuids::uuid &amp;&#160;</td>
+          <td class="paramname"><em>uuid</em> = <code>boost::uuids::nil_uuid()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The public <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> constructor will only construct valid ship designs, as long as the <a class="el" href="classHullTypeManager.html">HullTypeManager</a> has at least one hull.</p>
+<p>If <code>should_throw</code> is not boost::none and the passed in parameters (<code>hull</code> and <code>parts</code>) would result in an invalid design it generates an explicit log message showing the FOCS corresponding to the passed in parameters and the FOCS corresponding to a corrected valid design and then throws std::invalid_argument. This can be used to test design validity and provide an explcit log message.</p>
+<p>should_throw is not used but it is a literal reminder that std::invalid_argument should be caught.</p>
+<p>If <code>should_throw</code> is boost::none it will correct the errors in parameters, print a log message and return a valid ship design. The only exception is if there are no ship hull in the HullManager. Then the constructor will not throw, but will return an invalid ship design with a empty "" hull. </p>
+
+<p>References <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, and <a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow()</a>.</p>
 
 </div>
 </div>
@@ -443,76 +551,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ValidDesign()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abed3a746667309d349dfad174666a2f2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ShipDesign::ShipDesign </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>description</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>hull</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>parts</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>icon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>model</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>name_desc_in_stringtable</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>monster</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const boost::uuids::uuid &amp;&#160;</td>
-          <td class="paramname"><em>uuid</em> = <code>boost::uuids::nil_uuid()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>The public <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> constructor will only construct valid ship designs, as long as the <a class="el" href="classHullTypeManager.html">HullTypeManager</a> has at least one hull. </p>
 
 </div>
 </div>
@@ -533,7 +572,7 @@ Accessors</h2></td></tr>
 
 <p>returns id number of design </p>
 
-<p>References <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">PartType::Capacity()</a>, <a class="el" href="classPartType.html#a6440ff70867319b77150c2eb9df4875a">PartType::Class()</a>, <a class="el" href="classGameRules.html#a50df260f47c0ba1bc3fbcba880115d8a">GameRules::Get()</a>, <a class="el" href="MultiplayerCommon_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="Enums_8h.html#a84859df7773805f45c7b4d049a994dd7">PC_DIRECT_WEAPON</a>, <a class="el" href="Enums_8h.html#ab95ebefb171e3434cc88a57936fb6944">PC_FIGHTER_BAY</a>, <a class="el" href="Enums_8h.html#af53c2d6e55fad82fd984f5db765a23a2">PC_FIGHTER_HANGAR</a>, and <a class="el" href="classPartType.html#ad7f10a3f5465a972f323c9b4663311fa">PartType::SecondaryStat()</a>.</p>
+<p>References <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">PartType::Capacity()</a>, <a class="el" href="classPartType.html#a6440ff70867319b77150c2eb9df4875a">PartType::Class()</a>, <a class="el" href="classUniverse.html#ae6f7bacef66fffc46546e77b80e97084">Universe::GetNumCombatRounds()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="Enums_8h.html#a84859df7773805f45c7b4d049a994dd7">PC_DIRECT_WEAPON</a>, <a class="el" href="Enums_8h.html#ab95ebefb171e3434cc88a57936fb6944">PC_FIGHTER_BAY</a>, <a class="el" href="Enums_8h.html#af53c2d6e55fad82fd984f5db765a23a2">PC_FIGHTER_HANGAR</a>, and <a class="el" href="classPartType.html#ad7f10a3f5465a972f323c9b4663311fa">PartType::SecondaryStat()</a>.</p>
 
 <p>Referenced by <a class="el" href="classShipDesign.html#a722dfa42edbf03e4f447684da46ac1e4">Attack()</a>.</p>
 
@@ -583,7 +622,7 @@ Accessors</h2></td></tr>
 
 <p>References <a class="el" href="classPartType.html#ab4ffcf241ee0e1bd8df019aa528a24c8">PartType::Capacity()</a>, <a class="el" href="classPartType.html#a6440ff70867319b77150c2eb9df4875a">PartType::Class()</a>, <a class="el" href="classHullType.html#a61e7907988fc570f0e3a083ca73f2a18">HullType::ColonyCapacity()</a>, <a class="el" href="classHullType.html#a42b620a86d707422e8ccbbc442b6d842">HullType::Detection()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHullType.html#a6867c8594b9436151764a805735044c0">HullType::Fuel()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="Enums_8h.html#aa4dea5f3eb2b8840a3fe7646601dc5f9">INVALID_SHIP_PART_CLASS</a>, <a class="el" href="classShipDesign.html#a656b0a1c7e3e15a83ee3bee5e2357113">m_can_bombard</a>, <a class="el" href="classShipDesign.html#a10d197c55d443c12ff950a0e2f087ad0">m_colony_capacity</a>, <a class="el" href="classShipDesign.html#ad0e3229d89d37784765a05c8df11927b">m_detection</a>, <a class="el" href="classShipDesign.html#af263308bb1a13f8d084b96f81360812c">m_fuel</a>, <a class="el" href="classShipDesign.html#aab7107f760c73b0b1ba73022d46dc41a">m_has_fighters</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#a9feabf1ce798a13b4902b1af6d3f8b90">m_industry_generation</a>, <a class="el" href="classShipDesign.html#ada467b8fe6c227eb107e6b7e152f847c">m_is_armed</a>, <a class="el" href="classShipDesign.html#a2e0332e10a3ca2f493b28722b1ec7c20">m_is_production_location</a>, <a class="el" href="classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72">m_num_part_classes</a>, <a class="el" href="classShipDesign.html#a4f64aa74a707a23dca0fad077c035015">m_num_part_types</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="classShipDesign.html#aaaec382a3e4942861bdc2752724b3cb6">m_producible</a>, <a class="el" href="classShipDesign.html#a1d45dc1273752839fad337c351be7e94">m_research_generation</a>, <a class="el" href="classShipDesign.html#a21c34afd717298e2ed160193a8525928">m_shields</a>, <a class="el" href="classShipDesign.html#a865e47abcf9c6622cb470d52641e8233">m_speed</a>, <a class="el" href="classShipDesign.html#a5733a61cca6c6f9ffa3e608e89988dec">m_stealth</a>, <a class="el" href="classShipDesign.html#a507b3784106ad6618fb9c0ee1014022f">m_structure</a>, <a class="el" href="classShipDesign.html#abef41f92c6febebd619cb0265d933b29">m_trade_generation</a>, <a class="el" href="classShipDesign.html#afc7428ed7abe7d51be3c76d7a97b9432">m_troop_capacity</a>, <a class="el" href="Enums_8h.html#a206edc7a8aefc8126ad312e05dae8767">PC_ARMOUR</a>, <a class="el" href="Enums_8h.html#a62df7b9bc5f683079fa94ae43e1145f9">PC_BOMBARD</a>, <a class="el" href="Enums_8h.html#a74db0f02fbbea1d9a1e1d37f8a470df8">PC_COLONY</a>, <a class="el" href="Enums_8h.html#af549567d93364117603ae3bdf9de8d40">PC_DETECTION</a>, <a class="el" href="Enums_8h.html#a84859df7773805f45c7b4d049a994dd7">PC_DIRECT_WEAPON</a>, <a class="el" href="Enums_8h.html#ab95ebefb171e3434cc88a57936fb6944">PC_FIGHTER_BAY</a>, <a class="el" href="Enums_8h.html#af53c2d6e55fad82fd984f5db765a23a2">PC_FIGHTER_HANGAR</a>, <a class="el" href="Enums_8h.html#aa00a3a798b16fb9e6b3e42c3a85e3ee6">PC_FUEL</a>, <a class="el" href="Enums_8h.html#a49b6474cb663abf6f36da448ff408a7d">PC_INDUSTRY</a>, <a class="el" href="Enums_8h.html#a84b2ad477b344b65b3e0c569f7512b83">PC_PRODUCTION_LOCATION</a>, <a class="el" href="Enums_8h.html#aca72c043d112eefd1f9e4451883416d2">PC_RESEARCH</a>, <a class="el" href="Enums_8h.html#ac45cf15c2991109287c10923cbb177b2">PC_SHIELD</a>, <a class="el" href="Enums_8h.html#a8b3165ea79ace4ea40bf9f089fbd7595">PC_SPEED</a>, <a class="el" href="Enums_8h.html#a3b333863afd900867b0b8bfe43c5a51d">PC_STEALTH</a>, <a class="el" href="Enums_8h.html#a76d6102bbd78ae954e3c71071661185e">PC_TRADE</a>, <a class="el" href="Enums_8h.html#ae6cae5817de03e395b7fa71786ca348b">PC_TROOPS</a>, <a class="el" href="classPartType.html#a692d91ce1902ff205939b0558a6ceaca">PartType::Producible()</a>, <a class="el" href="classHullType.html#a80a0afb7d6e05fb02baf18de831137f7">HullType::Producible()</a>, <a class="el" href="classHullType.html#a468954f1c9a62f3cba222f3f551264fd">HullType::Shields()</a>, <a class="el" href="classHullType.html#a90c297baf52735fb5be1cb0594093ccc">HullType::Speed()</a>, <a class="el" href="classHullType.html#a91fd72ed0615ccd8e7659b57858e2d49">HullType::Stealth()</a>, <a class="el" href="classHullType.html#af76d6a859b79ee91dc73ef1ac59dabc5">HullType::Structure()</a>, and <a class="el" href="classHullType.html#ad643fdad90af775fea4831eecc180871">HullType::TroopCapacity()</a>.</p>
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#add0134772c7c250b42a0a1d6edc9e562">ShipDesign()</a>.</p>
 
 </div>
 </div>
@@ -802,7 +841,47 @@ Accessors</h2></td></tr>
 
 <p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>, <a class="el" href="classShipDesign.html#a10541d98dd579f75240610ac34d7ae63">m_3D_model</a>, <a class="el" href="classShipDesign.html#afcc897695fa7898b11e951854ef56f62">m_description</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa8a6faa21d6f2a7563698f9423d07320">m_icon</a>, <a class="el" href="classShipDesign.html#af810137f707023f956d62a7202c156fe">m_name</a>, <a class="el" href="classShipDesign.html#a838208ec38ef8eb5f6626fcec9fbb0ee">m_name_desc_in_stringtable</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="classShipDesign.html#a88842f6ef2d62c6a02d5793701aab784">m_uuid</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign()</a>, <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>, and <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac357a88c3cd0973be1ab6fd8f0c65ffc">anonymous_namespace{DesignWnd.cpp}::WriteDesignToFile()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow()</a>, <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>, and <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac357a88c3cd0973be1ab6fd8f0c65ffc">anonymous_namespace{DesignWnd.cpp}::WriteDesignToFile()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2111124d8cdae7f4e56f06cb43c5670e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShipDesign::ForceValidDesignOrThrow </td>
+          <td>(</td>
+          <td class="paramtype">const boost::optional&lt; std::invalid_argument &gt; &amp;&#160;</td>
+          <td class="paramname"><em>should_throw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>produce_log</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Force design invariants to be true. If design invariants are not begin met and <code>produce_log</code> is true provide an explicit log message about how it was corrected and throw std::invalid_argument if <code>should_throw</code> is not none.</p>
+<p><code>should_throw</code> is not used but it is a literal reminder that std::invalid_argument should be caught. </p>
+
+<p>References <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>, <a class="el" href="classShipDesign.html#a9bd858e82b4edb502997492a35546361">MaybeInvalidDesign()</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="classShipDesign.html#add0134772c7c250b42a0a1d6edc9e562">ShipDesign()</a>.</p>
 
 </div>
 </div>
@@ -1154,6 +1233,51 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9bd858e82b4edb502997492a35546361"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt; std::pair&lt; std::string, std::vector&lt; std::string &gt; &gt; &gt; ShipDesign::MaybeInvalidDesign </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>hull</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>produce_log</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a valid hull and parts pair iff the <code>hull</code> and <code>parts</code> vectors would not make a valid <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a>. Also pad parts with "" if it is shorter than the <code>hull</code> number of slots. Otherwise return none. If <code>produce_log</code> is true then produce log messages. </p>
+
+<p>References <a class="el" href="classHullTypeManager.html#a3f7195d208d38a24183af5c2cdbb6c30">HullTypeManager::begin()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHullTypeManager.html#a263958e703f783ca9414eb354fb40462">HullTypeManager::GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a1506d407617ded953cbfbbf78dea5d13">GetHullTypeManager()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow()</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ValidDesign()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9915c44fe048a086e46756d79b722218"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1388,7 +1512,7 @@ Accessors</h2></td></tr>
 
 <p>returns the total cost to build a ship of this design </p>
 
-<p>References <a class="el" href="MultiplayerCommon_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ab293fd4bd6186370156cf94294edaf1b">anonymous_namespace{ShipDesign.cpp}::CHEAP_AND_FAST_SHIP_PRODUCTION</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
 <p>Referenced by <a class="el" href="classShipDesign.html#a107f9a2321871baab65507ab73dd0cc5">PerTurnCost()</a>, <a class="el" href="classEmpire.html#a72afae7d87346b032f6dae39b0fb624d">Empire::ProductionCostAndTime()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af2716ca942ff9ec5e588fd812d5e7819">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ae01563a19df3bf094a1457b38649b2d9">anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRowBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -1410,7 +1534,7 @@ Accessors</h2></td></tr>
 <p>returns id of empire that created this design </p>
 <p>returns true if the production cost and time are invariant (does not depend on) the location </p>
 
-<p>References <a class="el" href="MultiplayerCommon_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ab293fd4bd6186370156cf94294edaf1b">anonymous_namespace{ShipDesign.cpp}::CHEAP_AND_FAST_SHIP_PRODUCTION</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
 <p>Referenced by <a class="el" href="structProductionQueue_1_1ProductionItem.html#a30c5d7a59cc02a003b198958d3b58c19">ProductionQueue::ProductionItem::CostIsProductionLocationInvariant()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -1474,7 +1598,7 @@ Accessors</h2></td></tr>
 
 <p>returns the time in turns it takes to build a ship of this design </p>
 
-<p>References <a class="el" href="MultiplayerCommon_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ab293fd4bd6186370156cf94294edaf1b">anonymous_namespace{ShipDesign.cpp}::CHEAP_AND_FAST_SHIP_PRODUCTION</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
 <p>Referenced by <a class="el" href="classShipDesign.html#a107f9a2321871baab65507ab73dd0cc5">PerTurnCost()</a>, <a class="el" href="classEmpire.html#a72afae7d87346b032f6dae39b0fb624d">Empire::ProductionCostAndTime()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ae01563a19df3bf094a1457b38649b2d9">anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRowBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -1875,39 +1999,11 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Return true if <code>hull</code> and <code>parts</code> would make a valid design. </p>
 
-<p>&lt; returns true if the <em>hull</em> and parts vectors passed make a valid <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> </p>
+<p>References <a class="el" href="classShipDesign.html#a9bd858e82b4edb502997492a35546361">MaybeInvalidDesign()</a>.</p>
 
-<p>References <a class="el" href="classPartType.html#a4429d3b8be9f4aac45ebb68200a3a66e">PartType::CanMountInSlotType()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classPartType.html#acd2c2358de5248ea5eb27032227934a9">PartType::Exclusions()</a>, <a class="el" href="classHullType.html#ac49bd34b1df9a3f1719d3a6e02be7e67">HullType::Exclusions()</a>, <a class="el" href="classHullTypeManager.html#a263958e703f783ca9414eb354fb40462">HullTypeManager::GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a1506d407617ded953cbfbbf78dea5d13">GetHullTypeManager()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classHullType.html#a56beccb42b3e5bed175657d9a04f300d">HullType::NumSlots()</a>, and <a class="el" href="classHullType.html#afecb040cd2bd9f98091f9a631bc9521e">HullType::Slots()</a>.</p>
-
-<p>Referenced by <a class="el" href="classDesignWnd.html#a528d59c473dca1a5ebd04fd389e53c8c">DesignWnd::AddDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a0c8b2ef5ae52f67a2a05374cb9e5273e">DesignWnd::MainPanel::DesignChanged()</a>, <a class="el" href="namespaceAIInterface.html#af8b1fd00d9582b6fbf090f35f572af64">AIInterface::IssueCreateShipDesignOrder()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a669dce7f9d7fe2079df3e1d2614d028e">DesignWnd::MainPanel::RefreshIncompleteDesign()</a>, <a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a915961a462d887294574870a996412c9">anonymous_namespace{ServerWrapper.cpp}::ShipDesignCreate()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aec6bd06d88f8b124d2d1979a6601518c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool ShipDesign::ValidDesign </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;&#160;</td>
-          <td class="paramname"><em>design</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>returns true if the <em>design</em> passed is a valid <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> in terms of (its hull and parts. does not check any other member variables </p>
-
-<p>References <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+<p>Referenced by <a class="el" href="classDesignWnd.html#a528d59c473dca1a5ebd04fd389e53c8c">DesignWnd::AddDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a0c8b2ef5ae52f67a2a05374cb9e5273e">DesignWnd::MainPanel::DesignChanged()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#a669dce7f9d7fe2079df3e1d2614d028e">DesignWnd::MainPanel::RefreshIncompleteDesign()</a>.</p>
 
 </div>
 </div>
@@ -2204,7 +2300,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign()</a>, and <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, and <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>.</p>
 
 </div>
 </div>
@@ -2446,7 +2542,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de">AdjustedAttack()</a>, <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c">CanColonize()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, <a class="el" href="classShipDesign.html#a8a8bea6c677bbfc16dad14938d884484">ShipDesign()</a>, <a class="el" href="classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c">ValidDesign()</a>, and <a class="el" href="classShipDesign.html#afadec1bb44bd9c2af24499304ef3bf93">Weapons()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesign.html#a486c5a424f3a7bd3eabe7fc41454d3de">AdjustedAttack()</a>, <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, <a class="el" href="classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c">CanColonize()</a>, <a class="el" href="classShipDesign.html#af7f8460b684603abf6cc19a1f8409b80">Dump()</a>, <a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#aa490db4fd02020b5dca96656f4400182">Parts()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ProductionCost()</a>, <a class="el" href="classShipDesign.html#afa36e82808aa354fcac61d5f210727cf">ProductionCostTimeLocationInvariant()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ProductionLocation()</a>, <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ProductionTime()</a>, and <a class="el" href="classShipDesign.html#afadec1bb44bd9c2af24499304ef3bf93">Weapons()</a>.</p>
 
 </div>
 </div>

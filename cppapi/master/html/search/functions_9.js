@@ -112,7 +112,6 @@ var searchData=
   ['intriangle',['InTriangle',['../CUIDrawUtil_8cpp.html#a9b005632df6a6b1de60317051477bcea',1,'InTriangle(const GG::Pt &amp;pt, double x1, double y1, double x2, double y2, double x3, double y3):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8h.html#a2d27c1a40c90daa6ddf58c5e0cacc4ea',1,'InTriangle(const GG::Pt &amp;pt, const GG::Pt &amp;pt1, const GG::Pt pt2, const GG::Pt pt3):&#160;CUIDrawUtil.h']]],
   ['intromenu',['IntroMenu',['../structIntroMenu.html#a97d2593063a352147571ceb730481a06',1,'IntroMenu']]],
   ['introscreen',['IntroScreen',['../classIntroScreen.html#a4771f91055620c316de83a7b44efec00',1,'IntroScreen']]],
-  ['intrulechanged',['IntRuleChanged',['../classGameRulesPanel.html#a71540ec72ac97a35546e9f54770ada39',1,'GameRulesPanel']]],
   ['inttostring',['IntToString',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7bc34e28037a45be89b73c402337a590',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['invadeorder',['InvadeOrder',['../classInvadeOrder.html#a7bdcdf0239af2addfef54ea4162feb98',1,'InvadeOrder::InvadeOrder()'],['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)']]],
   ['invalidateunusedoptions',['InvalidateUnusedOptions',['../classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0',1,'CUIWnd']]],

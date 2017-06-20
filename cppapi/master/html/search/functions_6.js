@@ -128,6 +128,7 @@ var searchData=
   ['fonttexturewnd',['FontTextureWnd',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a005106caf2556503dde137901f842339',1,'anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd']]],
   ['forceatleastbasicvisibility',['ForceAtLeastBasicVisibility',['../structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3',1,'CombatInfo']]],
   ['forcedthreshold',['ForcedThreshold',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a06020d1e1c355f85f2cfb5a325d88884',1,'anonymous_namespace{Logger.cpp}']]],
+  ['forcevaliddesignorthrow',['ForceValidDesignOrThrow',['../classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e',1,'ShipDesign']]],
   ['forgetknownobject',['ForgetKnownObject',['../classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
   ['forgetorder',['ForgetOrder',['../classForgetOrder.html#acb2979db910936c954bd73d4e07adf81',1,'ForgetOrder::ForgetOrder()'],['../classForgetOrder.html#a6cac205cf0dc6b6a8733fc58257c235c',1,'ForgetOrder::ForgetOrder(int empire, int object_id)']]],
   ['formatduration',['FormatDuration',['../classScopedTimer_1_1Impl.html#afc0c586a6c3aaab8234f215e0df13492',1,'ScopedTimer::Impl']]],

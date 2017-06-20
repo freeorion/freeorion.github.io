@@ -5,7 +5,7 @@ var searchData=
   ['validateddesignname',['ValidatedDesignName',['../classDesignWnd_1_1MainPanel.html#a0a035f811ab418a80ee21a176362811b',1,'DesignWnd::MainPanel']]],
   ['validateposition',['ValidatePosition',['../classCUIWnd.html#aaf04410026082dede3da4194443e2239',1,'CUIWnd']]],
   ['validatestyles',['ValidateStyles',['../classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c',1,'MultiTextureStaticGraphic']]],
-  ['validdesign',['ValidDesign',['../classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980',1,'ShipDesign::ValidDesign(const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts)'],['../classShipDesign.html#aec6bd06d88f8b124d2d1979a6601518c',1,'ShipDesign::ValidDesign(const ShipDesign &amp;design)']]],
+  ['validdesign',['ValidDesign',['../classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980',1,'ShipDesign']]],
   ['validdirectory',['ValidDirectory',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validfleetmerge',['ValidFleetMerge',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a1efb91e21bed9d75793983b2d5089195',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['validfontfile',['ValidFontFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c',1,'anonymous_namespace{OptionsWnd.cpp}']]],
