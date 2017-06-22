@@ -100,23 +100,25 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a21877d91ac42897e5ed6e2a970870a6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#a21877d91ac42897e5ed6e2a970870a6f">insert_ship_design</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;designs, const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable, const boost::uuids::uuid &amp;uuid)</td></tr>
-<tr class="separator:a21877d91ac42897e5ed6e2a970870a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557f6104d755ee73f0b65ec3fea0fceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#a557f6104d755ee73f0b65ec3fea0fceb">insert_ship_design</a> (boost::optional&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;maybe_design, const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable, const boost::uuids::uuid &amp;uuid)</td></tr>
+<tr class="separator:a557f6104d755ee73f0b65ec3fea0fceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf1dabcce71c673f72b3051c39f599ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#abf1dabcce71c673f72b3051c39f599ae">is_valid_uuid</a> (const std::string &amp;uuid_string)</td></tr>
 <tr class="separator:abf1dabcce71c673f72b3051c39f599ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99441f617b1af5676cc5871a31f58810"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#a99441f617b1af5676cc5871a31f58810">only_ship_designs</a> (const boost::filesystem::path &amp;path, std::vector&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;designs, std::vector&lt; boost::uuids::uuid &gt; &amp;ordering)</td></tr>
+<tr class="separator:a99441f617b1af5676cc5871a31f58810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeacd8a1341e7b6abdcda9d21ef13e4c"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#aeeacd8a1341e7b6abdcda9d21ef13e4c">parse_uuid</a> (const std::string &amp;uuid_string)</td></tr>
 <tr class="separator:aeeacd8a1341e7b6abdcda9d21ef13e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a21877d91ac42897e5ed6e2a970870a6f"></a>
+<a class="anchor" id="a557f6104d755ee73f0b65ec3fea0fceb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void anonymous_namespace{ShipDesignsParser.cpp}::insert_ship_design </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>designs</em>, </td>
+          <td class="paramtype">boost::optional&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>maybe_design</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -193,6 +195,43 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99441f617b1af5676cc5871a31f58810"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool anonymous_namespace{ShipDesignsParser.cpp}::only_ship_designs </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>designs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; boost::uuids::uuid &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ordering</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Remove the file paths from the returned ShipDesigns. </p>
+
+<p>References <a class="el" href="namespaceparse.html#a9896eda62ecb81232233b31bfe5645d8">parse::ship_designs()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceparse.html#ac6c3f06bc91da42525560da4adfaeeb0">parse::monster_designs()</a>, and <a class="el" href="namespaceparse.html#a02f5efee3c693fda94cd2a1099f0e42f">parse::ship_designs()</a>.</p>
 
 </div>
 </div>
