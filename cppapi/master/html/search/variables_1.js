@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['add_5frule',['add_rule',['../namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html#a2c9cd6e9e0981159d520dd549800d48d',1,'anonymous_namespace{GameRulesParser.cpp}']]],
   ['add_5fspecial_5f1',['add_special_1',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#af24240f9adb8b550fc7e38021e68a84f',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['add_5fspecial_5f2',['add_special_2',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#a7262aef055051df4ae845a27cec80320',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['add_5fstarlanes',['add_starlanes',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#aafa7ba1c5a043b430779642793c9d1ed',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
