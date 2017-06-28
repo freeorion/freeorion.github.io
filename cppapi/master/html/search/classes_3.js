@@ -7,6 +7,7 @@ var searchData=
   ['designhaspartclass',['DesignHasPartClass',['../structCondition_1_1DesignHasPartClass.html',1,'Condition']]],
   ['designhaspartclasssimplematch',['DesignHasPartClassSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1DesignHasPartClassSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['designhaspartsimplematch',['DesignHasPartSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1DesignHasPartSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['designs',['Designs',['../classShipDesignManager_1_1Designs.html',1,'ShipDesignManager']]],
   ['designwnd',['DesignWnd',['../classDesignWnd.html',1,'']]],
   ['destroy',['Destroy',['../classEffect_1_1Destroy.html',1,'Effect']]],
   ['destroyuniverseobject',['DestroyUniverseObject',['../classModerator_1_1DestroyUniverseObject.html',1,'Moderator']]],

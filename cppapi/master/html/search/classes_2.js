@@ -40,6 +40,7 @@ var searchData=
   ['combatsummary',['CombatSummary',['../structCombatSummary.html',1,'']]],
   ['commonparams',['CommonParams',['../structCommonParams.html',1,'']]],
   ['completeddesignlistboxrow',['CompletedDesignListBoxRow',['../classBasesListBox_1_1CompletedDesignListBoxRow.html',1,'BasesListBox']]],
+  ['completeddesignslistbox',['CompletedDesignsListBox',['../classCompletedDesignsListBox.html',1,'']]],
   ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html',1,'ValueRef']]],
   ['condition_5fparser_5frules_5f1',['condition_parser_rules_1',['../structanonymous__namespace_02ConditionParser1_8cpp_03_1_1condition__parser__rules__1.html',1,'anonymous_namespace{ConditionParser1.cpp}']]],
   ['condition_5fparser_5frules_5f2',['condition_parser_rules_2',['../structanonymous__namespace_02ConditionParser2_8cpp_03_1_1condition__parser__rules__2.html',1,'anonymous_namespace{ConditionParser2.cpp}']]],
@@ -65,8 +66,8 @@ var searchData=
   ['createdonturn',['CreatedOnTurn',['../structCondition_1_1CreatedOnTurn.html',1,'Condition']]],
   ['createdonturnsimplematch',['CreatedOnTurnSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1CreatedOnTurnSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['createfield',['CreateField',['../classEffect_1_1CreateField.html',1,'Effect']]],
-  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect']]],
   ['createplanet',['CreatePlanet',['../classModerator_1_1CreatePlanet.html',1,'Moderator']]],
+  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect']]],
   ['createship',['CreateShip',['../classEffect_1_1CreateShip.html',1,'Effect']]],
   ['createsystem',['CreateSystem',['../classModerator_1_1CreateSystem.html',1,'Moderator']]],
   ['createsystem',['CreateSystem',['../classEffect_1_1CreateSystem.html',1,'Effect']]],
@@ -98,6 +99,7 @@ var searchData=
   ['cuitabrepresenter',['CUITabRepresenter',['../classCUITabRepresenter.html',1,'']]],
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html',1,'']]],
+  ['currentshipdesignmanager',['CurrentShipDesignManager',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1CurrentShipDesignManager.html',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
 ];

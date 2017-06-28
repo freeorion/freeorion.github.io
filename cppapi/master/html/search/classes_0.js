@@ -23,5 +23,7 @@ var searchData=
   ['assign_5fto_5fattribute_5ffrom_5fiterators_3c_20bool_2c_20parse_3a_3atext_5fiterator_2c_20void_20_3e',['assign_to_attribute_from_iterators&lt; bool, parse::text_iterator, void &gt;',['../structboost_1_1spirit_1_1traits_1_1assign__to__attribute__from__iterators_3_01bool_00_01parse_1_1text__iterator_00_01void_01_4.html',1,'boost::spirit::traits']]],
   ['assign_5fto_5fattribute_5ffrom_5fiterators_3c_20const_20char_20_2a_2c_20parse_3a_3atext_5fiterator_2c_20void_20_3e',['assign_to_attribute_from_iterators&lt; const char *, parse::text_iterator, void &gt;',['../structboost_1_1spirit_1_1traits_1_1assign__to__attribute__from__iterators_3_01const_01char_01_5_9646e198ece14bf25b04a06c62f41f9f.html',1,'boost::spirit::traits']]],
   ['atmosphere',['Atmosphere',['../structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData']]],
-  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]]
+  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
+  ['availability',['Availability',['../structAvailability.html',1,'']]],
+  ['availabilitymanager',['AvailabilityManager',['../classBasesListBox_1_1AvailabilityManager.html',1,'BasesListBox']]]
 ];

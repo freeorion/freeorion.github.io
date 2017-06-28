@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['optype',['OpType',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407',1,'ValueRef']]]
+  ['mode',['Mode',['../classCUI__MinRestoreButton.html#a4e0b98fb2769cd0a255e0e9a32ab40fe',1,'CUI_MinRestoreButton']]]
 ];

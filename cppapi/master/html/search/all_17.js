@@ -73,7 +73,7 @@ var searchData=
   ['wrapuniverseclasses',['WrapUniverseClasses',['../namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf',1,'FreeOrionPython']]],
   ['wrapuserstringwithtag',['WrapUserStringWithTag',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#a35d44a6d8df52a5e684a7af532d80a89',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['wrapwithtagandid',['WrapWithTagAndId',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ac8cc646306cf3269dcd7262454cd5bbb',1,'anonymous_namespace{CombatEvents.cpp}']]],
-  ['writedesigntofile',['WriteDesignToFile',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac357a88c3cd0973be1ab6fd8f0c65ffc',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['writedoc',['WriteDoc',['../classXMLDoc.html#a097a64f0ae10c9f934003a64e7e66fd6',1,'XMLDoc']]],
-  ['writeelement',['WriteElement',['../classXMLElement.html#a486644805342c20a02163443d35c553a',1,'XMLElement::WriteElement(std::ostream &amp;os, int indent=0, bool whitespace=true) const '],['../classXMLElement.html#aef583ba72503ca671703df9e1748af95',1,'XMLElement::WriteElement(int indent=0, bool whitespace=true) const ']]]
+  ['writeelement',['WriteElement',['../classXMLElement.html#a486644805342c20a02163443d35c553a',1,'XMLElement::WriteElement(std::ostream &amp;os, int indent=0, bool whitespace=true) const '],['../classXMLElement.html#aef583ba72503ca671703df9e1748af95',1,'XMLElement::WriteElement(int indent=0, bool whitespace=true) const ']]],
+  ['writetofile',['WriteToFile',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a093ca1c6ddc7e885fa55c26e6a06deb6',1,'anonymous_namespace{DesignWnd.cpp}']]]
 ];

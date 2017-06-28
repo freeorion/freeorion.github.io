@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tabchangedsignal',['TabChangedSignal',['../classDesignWnd_1_1BaseSelector.html#a12aa4e1b644835ee319897ab61b8e010',1,'DesignWnd::BaseSelector']]],
   ['tag_5falways_5freport',['TAG_ALWAYS_REPORT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a759878c6a33af6d06164515e44b8d675',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['tag_5fbombard_5falways',['TAG_BOMBARD_ALWAYS',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a4d0436ce6f9f8291a34294302ba1ef9a',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['tag_5fbombard_5fprefix',['TAG_BOMBARD_PREFIX',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ada0ee7a2326a28767fcbe9f8746e3497',1,'anonymous_namespace{SidePanel.cpp}']]],

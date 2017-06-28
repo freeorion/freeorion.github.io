@@ -86,7 +86,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -100,15 +99,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;ShipDesign.h&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a1306c38d7feed24ff0d65ebe336ee6fd"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, int &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a1306c38d7feed24ff0d65ebe336ee6fd">generic_iterator</a></td></tr>
-<tr class="separator:a1306c38d7feed24ff0d65ebe336ee6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a741eec27f65e38fefe3226bd7a50c1b0"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a741eec27f65e38fefe3226bd7a50c1b0">AddShipDesignsToUniverse</a> () const </td></tr>
-<tr class="separator:a741eec27f65e38fefe3226bd7a50c1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19b7187717384439dfcfc2341c5bd43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#ab19b7187717384439dfcfc2341c5bd43">AddShipDesignsToUniverse</a> () const </td></tr>
+<tr class="separator:ab19b7187717384439dfcfc2341c5bd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a13cfb91b8c6a3b1f8f48dde718246f1e">GetCheckSum</a> () const </td></tr>
 <tr class="separator:a13cfb91b8c6a3b1f8f48dde718246f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a922eec93faa8a2112d9f48fcfca5b1cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a922eec93faa8a2112d9f48fcfca5b1cb">GetDesignID</a> (const std::string &amp;name) const </td></tr>
@@ -130,31 +124,24 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9888bed4f128c39aebd9372ed91bd890"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a9888bed4f128c39aebd9372ed91bd890">m_design_generic_ids</a></td></tr>
-<tr class="separator:a9888bed4f128c39aebd9372ed91bd890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ff61fa3306e190787e3cbc491c7d9d2"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a5ff61fa3306e190787e3cbc491c7d9d2">m_monster_designs</a></td></tr>
-<tr class="separator:a5ff61fa3306e190787e3cbc491c7d9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7957f96a3070d46433d62ed7b2f3b913"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a7957f96a3070d46433d62ed7b2f3b913">m_ship_designs</a></td></tr>
-<tr class="separator:a7957f96a3070d46433d62ed7b2f3b913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af972043249a563ce5a647c2d5fe2a330"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#af972043249a563ce5a647c2d5fe2a330">m_design_generic_ids</a></td></tr>
+<tr class="separator:af972043249a563ce5a647c2d5fe2a330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6639ea0c3154c8c2830ae15c7b6c330c"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; boost::uuids::uuid, std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;, boost::hash&lt; boost::uuids::uuid &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a6639ea0c3154c8c2830ae15c7b6c330c">m_designs</a></td></tr>
+<tr class="separator:a6639ea0c3154c8c2830ae15c7b6c330c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa335d7d91335a2ca869e0c88acb7e726"><td class="memItemLeft" align="right" valign="top">std::vector&lt; boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#aa335d7d91335a2ca869e0c88acb7e726">m_monster_ordering</a></td></tr>
+<tr class="separator:aa335d7d91335a2ca869e0c88acb7e726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6588e4bb2693838a5fba91acb2720b39"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a6588e4bb2693838a5fba91acb2720b39">m_name_to_monster_design</a></td></tr>
+<tr class="separator:a6588e4bb2693838a5fba91acb2720b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adf00acded289b530f2378e40ea800e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a9adf00acded289b530f2378e40ea800e">m_name_to_ship_design</a></td></tr>
+<tr class="separator:a9adf00acded289b530f2378e40ea800e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415b5233872fb084e624e230de207d61"><td class="memItemLeft" align="right" valign="top">std::vector&lt; boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#a415b5233872fb084e624e230de207d61">m_ship_ordering</a></td></tr>
+<tr class="separator:a415b5233872fb084e624e230de207d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:af206f0a77d5cc8c207a0fa803c0531c5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classPredefinedShipDesignManager.html">PredefinedShipDesignManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPredefinedShipDesignManager.html#af206f0a77d5cc8c207a0fa803c0531c5">s_instance</a> = nullptr</td></tr>
 <tr class="separator:af206f0a77d5cc8c207a0fa803c0531c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a1306c38d7feed24ff0d65ebe336ee6fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::map&lt;std::string, int&gt;::const_iterator <a class="el" href="classPredefinedShipDesignManager.html#a1306c38d7feed24ff0d65ebe336ee6fd">PredefinedShipDesignManager::generic_iterator</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a34ffcb92537e46938d8b8bc3cbcebcae"></a>
 <div class="memitem">
@@ -177,26 +164,26 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">ShipDesign::GetCheckSum()</a>, <a class="el" href="namespaceparse.html#ac6c3f06bc91da42525560da4adfaeeb0">parse::monster_designs()</a>, <a class="el" href="namespaceparse.html#a9896eda62ecb81232233b31bfe5645d8">parse::ship_designs()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a79ef63adf023a469fcebd5b139e29bb0">anonymous_namespace{ShipDesign.cpp}::FillDesignsOrderingAndNameTables()</a>, <a class="el" href="classShipDesign.html#a87f6ceb454c512411421cb3de8d729af">ShipDesign::GetCheckSum()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a741eec27f65e38fefe3226bd7a50c1b0"></a>
+<a class="anchor" id="ab19b7187717384439dfcfc2341c5bd43"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt; std::string, int &gt; &amp; PredefinedShipDesignManager::AddShipDesignsToUniverse </td>
+          <td class="memname">void PredefinedShipDesignManager::AddShipDesignsToUniverse </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds designs in this manager to the universe with the design creator left as no empire. Returns a map from ship design name to design id in the universe. </p>
+<p>Adds designs in this manager to the universe with the design creator left as no empire. </p>
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a474b8860abfcb275e07e016c74c47b4f">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#af081a129507f9c6e6af4d7d910ad94b2">anonymous_namespace{ShipDesign.cpp}::AddDesignToUniverse()</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>.</p>
 
@@ -304,7 +291,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a9888bed4f128c39aebd9372ed91bd890"></a>
+<a class="anchor" id="af972043249a563ce5a647c2d5fe2a330"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -312,7 +299,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, int&gt; PredefinedShipDesignManager::m_design_generic_ids</td>
+          <td class="memname">std::unordered_map&lt;std::string, int&gt; PredefinedShipDesignManager::m_design_generic_ids</td>
         </tr>
       </table>
   </td>
@@ -324,7 +311,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5ff61fa3306e190787e3cbc491c7d9d2"></a>
+<a class="anchor" id="a6639ea0c3154c8c2830ae15c7b6c330c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -332,7 +319,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="classShipDesign.html">ShipDesign</a>&gt; &gt; PredefinedShipDesignManager::m_monster_designs</td>
+          <td class="memname">std::unordered_map&lt;boost::uuids::uuid, std::unique_ptr&lt;<a class="el" href="classShipDesign.html">ShipDesign</a>&gt;, boost::hash&lt;boost::uuids::uuid&gt; &gt; PredefinedShipDesignManager::m_designs</td>
         </tr>
       </table>
   </td>
@@ -344,7 +331,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7957f96a3070d46433d62ed7b2f3b913"></a>
+<a class="anchor" id="aa335d7d91335a2ca869e0c88acb7e726"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -352,7 +339,67 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="classShipDesign.html">ShipDesign</a>&gt; &gt; PredefinedShipDesignManager::m_ship_designs</td>
+          <td class="memname">std::vector&lt;boost::uuids::uuid&gt; PredefinedShipDesignManager::m_monster_ordering</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6588e4bb2693838a5fba91acb2720b39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::string, boost::uuids::uuid&gt; PredefinedShipDesignManager::m_name_to_monster_design</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9adf00acded289b530f2378e40ea800e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::string, boost::uuids::uuid&gt; PredefinedShipDesignManager::m_name_to_ship_design</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a415b5233872fb084e624e230de207d61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;boost::uuids::uuid&gt; PredefinedShipDesignManager::m_ship_ordering</td>
         </tr>
       </table>
   </td>

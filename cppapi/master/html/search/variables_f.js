@@ -25,6 +25,7 @@ var searchData=
   ['orderbuttonchangedsignal',['OrderButtonChangedSignal',['../classSidePanel_1_1PlanetPanel.html#aeea47c83449b78dfc11a37ceb86cc4fc',1,'SidePanel::PlanetPanel']]],
   ['ordered',['ordered',['../structProductionQueue_1_1Element.html#a4ad24f2ed87993d097dbc4c0c64cf3c7',1,'ProductionQueue::Element']]],
   ['ordered_5fbombarded_5fby',['ordered_bombarded_by',['../structanonymous__namespace_02ConditionParser7_8cpp_03_1_1condition__parser__rules__7.html#aac92eb82809aa24f89f20d573c812c44',1,'anonymous_namespace{ConditionParser7.cpp}::condition_parser_rules_7']]],
+  ['ordered_5fship_5fdesign_5fids_5fand_5fobsolete',['ordered_ship_design_ids_and_obsolete',['../structSaveGameUIData.html#a24500aaddb0647318717ca93d2c48f3a',1,'SaveGameUIData']]],
   ['origin',['origin',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a4b3049694b077329100740c1cc55344d',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['others',['others',['../structWithinJumpsOfOthersObjectVisitor.html#ace9e325bb735f9c3bda2edb5ff148649',1,'WithinJumpsOfOthersObjectVisitor']]],
   ['outer_5fedge_5fangle_5foffset',['OUTER_EDGE_ANGLE_OFFSET',['../classCUIWnd.html#a266942f29f9e767cbada15764a939708',1,'CUIWnd']]],

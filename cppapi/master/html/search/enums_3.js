@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['invariance',['Invariance',['../namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9a',1,'Condition']]]
+  ['enum',['Enum',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8b',1,'Availability']]]
 ];

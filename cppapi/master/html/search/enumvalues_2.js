@@ -14,5 +14,6 @@ var searchData=
   ['content_5fspecial',['CONTENT_SPECIAL',['../namespaceCondition.html#a973ec0060cf883b9712bc7b5727dba20adb2a7490e36f670e34f7700cdb6bad90',1,'Condition']]],
   ['content_5fspecies',['CONTENT_SPECIES',['../namespaceCondition.html#a973ec0060cf883b9712bc7b5727dba20acb251475bdc104b198e1e0b481043e66',1,'Condition']]],
   ['cosine',['COSINE',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a6a69b117f9ba2f4446f5417345884724',1,'ValueRef']]],
-  ['count',['COUNT',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3ace27005a5b73f9026dbf6fc5e146fcf5',1,'ValueRef']]]
+  ['count',['COUNT',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3ace27005a5b73f9026dbf6fc5e146fcf5',1,'ValueRef']]],
+  ['current',['Current',['../classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a222a267cc5778206b253be35ee3ddab5',1,'DesignWnd::BaseSelector']]]
 ];
