@@ -44,6 +44,7 @@ var searchData=
   ['row_5fheight',['row_height',['../classSystemResourceSummaryBrowseWnd.html#a869258baea8d3391b8f6ec8f693c6f8a',1,'SystemResourceSummaryBrowseWnd']]],
   ['row_5fmargin',['ROW_MARGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac07ca6262b9824cab1c3bf972e47e08b',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['rowquantchangedsignal',['RowQuantChangedSignal',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#ad509346f330b32e679cd729ea87a3c22',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::RowQuantChangedSignal()'],['../classProductionWnd.html#a10a0e8b56bbf1e1a025f50b8126e01c6',1,'ProductionWnd::RowQuantChangedSignal()']]],
+  ['rule_5ftype',['rule_type',['../structGameRules_1_1Rule.html#aecc1d79b5bcdbbac345c6e705c9cc36d',1,'GameRules::Rule']]],
   ['running_5fmeter_5ftotal',['running_meter_total',['../structEffect_1_1AccountingInfo.html#ae62e4118eb504f2ad8dee2791cf8de2b',1,'Effect::AccountingInfo']]],
   ['running_5fqueue',['running_queue',['../structThreadQueue.html#a1e5e948db341c5aa82810912998c7062',1,'ThreadQueue']]],
   ['running_5fqueue_5fsize',['running_queue_size',['../structThreadQueue.html#aac96d101e32798c0674d34056b99c59b',1,'ThreadQueue']]]
