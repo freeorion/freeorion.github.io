@@ -11,8 +11,6 @@ var searchData=
   ['aggressiveorder',['AggressiveOrder',['../classAggressiveOrder.html',1,'']]],
   ['aibase',['AIBase',['../classAIBase.html',1,'']]],
   ['aiclientapp',['AIClientApp',['../classAIClientApp.html',1,'']]],
-  ['alignment',['Alignment',['../classAlignment.html',1,'']]],
-  ['alignmentmanager',['AlignmentManager',['../classanonymous__namespace_02Empire_8cpp_03_1_1AlignmentManager.html',1,'anonymous_namespace{Empire.cpp}']]],
   ['all',['All',['../structCondition_1_1All.html',1,'Condition']]],
   ['and',['And',['../structCondition_1_1And.html',1,'Condition']]],
   ['andcondition',['AndCondition',['../classAndCondition.html',1,'']]],

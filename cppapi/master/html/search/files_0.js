@@ -12,7 +12,6 @@ var searchData=
   ['aiinterface_2eh',['AIInterface.h',['../AIInterface_8h.html',1,'']]],
   ['aiwrapper_2ecpp',['AIWrapper.cpp',['../AIWrapper_8cpp.html',1,'']]],
   ['aiwrapper_2eh',['AIWrapper.h',['../AIWrapper_8h.html',1,'']]],
-  ['alignmentsparser_2ecpp',['AlignmentsParser.cpp',['../AlignmentsParser_8cpp.html',1,'']]],
   ['all_5ftags_2edox',['all_tags.dox',['../all__tags_8dox.html',1,'']]],
   ['appinterface_2ecpp',['AppInterface.cpp',['../AppInterface_8cpp.html',1,'']]],
   ['appinterface_2eh',['AppInterface.h',['../AppInterface_8h.html',1,'']]],
