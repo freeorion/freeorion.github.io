@@ -52,6 +52,7 @@ var searchData=
   ['anonymous_5fnamespace_7bfleetplansparser_2ecpp_7d',['anonymous_namespace{FleetPlansParser.cpp}',['../namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfleetwnd_2ecpp_7d',['anonymous_namespace{FleetWnd.cpp}',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgalaxysetupwnd_2ecpp_7d',['anonymous_namespace{GalaxySetupWnd.cpp}',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bgamerulesparser_2ecpp_7d',['anonymous_namespace{GameRulesParser.cpp}',['../namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgraphicalsummary_2ecpp_7d',['anonymous_namespace{GraphicalSummary.cpp}',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bhumanclientapp_2ecpp_7d',['anonymous_namespace{HumanClientApp.cpp}',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bhumanclientfsm_2ecpp_7d',['anonymous_namespace{HumanClientFSM.cpp}',['../namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html',1,'']]],

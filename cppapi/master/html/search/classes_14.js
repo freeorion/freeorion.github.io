@@ -5,5 +5,6 @@ var searchData=
   ['universeobject',['UniverseObject',['../classUniverseObject.html',1,'']]],
   ['universeobjectvisitor',['UniverseObjectVisitor',['../structUniverseObjectVisitor.html',1,'']]],
   ['userstringlookup',['UserStringLookup',['../structValueRef_1_1UserStringLookup.html',1,'ValueRef']]],
+  ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]]
 ];
