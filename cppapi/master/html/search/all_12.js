@@ -305,7 +305,7 @@ var searchData=
   ['rotationalperiod',['RotationalPeriod',['../classPlanet.html#a89f361a6642b38810fd44d456b01a24e',1,'Planet']]],
   ['round',['round',['../structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d',1,'WeaponFireEvent']]],
   ['route',['Route',['../classFleetMoveOrder.html#ab57a70b63b8095fdcacf1afc71355435',1,'FleetMoveOrder']]],
-  ['row',['row',['../structWithinJumpsOfOthersOtherVisitor.html#aeb09d0dff66727af60e4d8694200bf66',1,'WithinJumpsOfOthersOtherVisitor']]],
+  ['row',['row',['../structWithinJumpsOfOthersOtherVisitor.html#a0bf4aa34d5af84b29b5f873f42e8f825',1,'WithinJumpsOfOthersOtherVisitor']]],
   ['row_5fheight',['row_height',['../classSystemResourceSummaryBrowseWnd.html#a869258baea8d3391b8f6ec8f693c6f8a',1,'SystemResourceSummaryBrowseWnd']]],
   ['row_5fmargin',['ROW_MARGIN',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac07ca6262b9824cab1c3bf972e47e08b',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['row_5fref',['row_ref',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#aa91a59b2b11609ba87cf998639cd9bbc',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage']]],

@@ -14,7 +14,7 @@ var searchData=
   ['native_5fend',['native_end',['../classSpeciesManager.html#aaea4e97e497c524cde835999a0171973',1,'SpeciesManager']]],
   ['nearestsystemto',['NearestSystemTo',['../classPathfinder_1_1PathfinderImpl.html#ad171e4c59e43024c017d762b3f9752df',1,'Pathfinder::PathfinderImpl::NearestSystemTo()'],['../classPathfinder.html#a455123856e59d56df273176cdd5ef94a',1,'Pathfinder::NearestSystemTo()']]],
   ['neighbors',['Neighbors',['../classPathfinder_1_1PathfinderImpl.html#a2ba86d74d4e0f19cc16dfd371c12b4f7',1,'Pathfinder::PathfinderImpl']]],
-  ['neighborscachehit',['NeighborsCacheHit',['../classPathfinder_1_1PathfinderImpl.html#a0078d396a5ae9f11b7aae9c8b71267ff',1,'Pathfinder::PathfinderImpl']]],
+  ['neighborscachehit',['NeighborsCacheHit',['../classPathfinder_1_1PathfinderImpl.html#adc5c671d03057a1f1b57b71256846c03',1,'Pathfinder::PathfinderImpl']]],
   ['networking',['Networking',['../classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa',1,'ClientApp::Networking()'],['../classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659',1,'ClientApp::Networking() const '],['../classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2',1,'ServerApp::Networking()']]],
   ['networkingthread',['NetworkingThread',['../classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c',1,'ClientNetworking::Impl']]],
   ['newconnection',['NewConnection',['../classPlayerConnection.html#a97b118389ea07da19428c54350e77c87',1,'PlayerConnection']]],
