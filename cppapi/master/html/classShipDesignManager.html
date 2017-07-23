@@ -116,8 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8f8ae40b8a2886da8521538be5dfa83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaebd5d5bcf4770b759da9c331b712bd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classShipDesignManager_1_1Designs.html">Designs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignManager.html#aaaebd5d5bcf4770b759da9c331b712bd">SavedDesigns</a> ()</td></tr>
 <tr class="separator:aaaebd5d5bcf4770b759da9c331b712bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae13f0d432aefe99d236e789ae4ede5c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignManager.html#ae13f0d432aefe99d236e789ae4ede5c5">StartGame</a> (int empire_id)</td></tr>
-<tr class="separator:ae13f0d432aefe99d236e789ae4ede5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc32bb8e8a765253d7b21273e4c0aca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignManager.html#accc32bb8e8a765253d7b21273e4c0aca">StartGame</a> (int empire_id, bool is_new_game)</td></tr>
+<tr class="separator:accc32bb8e8a765253d7b21273e4c0aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -276,7 +276,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae13f0d432aefe99d236e789ae4ede5c5"></a>
+<a class="anchor" id="accc32bb8e8a765253d7b21273e4c0aca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -287,8 +287,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ShipDesignManager::StartGame </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em></td><td>)</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_new_game</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -298,9 +308,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a3aa4b514bf43d33e74ad1f7cb0621c08">anonymous_namespace{DesignWnd.cpp}::AddSavedDesignToCurrentDesigns()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classOrderSet.html#ae03febc91c8b0a207c958b8bf2058e00">OrderSet::IssueOrder()</a>, <a class="el" href="classShipDesignManager.html#a060957884a268bfe50ae43b28ad5a262">m_current_designs</a>, <a class="el" href="classShipDesignManager.html#ac91b9dc06efc58e4bcf7222cc1636fcb">m_saved_designs</a>, and <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a6caca0edccbf12689a5bb635b38e45bf">anonymous_namespace{DesignWnd.cpp}::AddSavedDesignToCurrentDesigns()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, <a class="el" href="classShipDesignManager.html#a060957884a268bfe50ae43b28ad5a262">m_current_designs</a>, <a class="el" href="classShipDesignManager.html#ac91b9dc06efc58e4bcf7222cc1636fcb">m_saved_designs</a>, and <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHumanClientApp.html#a5a7255fde3c6c1f390f25b09042c48d9">HumanClientApp::StartGame()</a>.</p>
+<p>Referenced by <a class="el" href="classHumanClientApp.html#abb5800e7a110222994f57001d20130d8">HumanClientApp::StartGame()</a>.</p>
 
 </div>
 </div>
@@ -323,7 +333,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesignManager.html#a7e712fe7475c22636e6e5a8d23b8d2d6">CurrentDesigns()</a>, and <a class="el" href="classShipDesignManager.html#ae13f0d432aefe99d236e789ae4ede5c5">StartGame()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesignManager.html#a7e712fe7475c22636e6e5a8d23b8d2d6">CurrentDesigns()</a>, and <a class="el" href="classShipDesignManager.html#accc32bb8e8a765253d7b21273e4c0aca">StartGame()</a>.</p>
 
 </div>
 </div>
@@ -345,7 +355,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classShipDesignManager.html#aaaebd5d5bcf4770b759da9c331b712bd">SavedDesigns()</a>, and <a class="el" href="classShipDesignManager.html#ae13f0d432aefe99d236e789ae4ede5c5">StartGame()</a>.</p>
+<p>Referenced by <a class="el" href="classShipDesignManager.html#aaaebd5d5bcf4770b759da9c331b712bd">SavedDesigns()</a>, and <a class="el" href="classShipDesignManager.html#accc32bb8e8a765253d7b21273e4c0aca">StartGame()</a>.</p>
 
 </div>
 </div>

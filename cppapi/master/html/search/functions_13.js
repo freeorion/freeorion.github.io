@@ -580,7 +580,7 @@ var searchData=
   ['starlightcolour',['StarLightColour',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a669076d0236108465043e86da4d44a73',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['start',['Start',['../classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607',1,'PlayerConnection']]],
   ['start_5fvar',['START_VAR',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a4bf2847f66e80fa891bfbfd413ca099f',1,'anonymous_namespace{VarText.cpp}']]],
-  ['startgame',['StartGame',['../classHumanClientApp.html#a5a7255fde3c6c1f390f25b09042c48d9',1,'HumanClientApp::StartGame()'],['../classShipDesignManager.html#ae13f0d432aefe99d236e789ae4ede5c5',1,'ShipDesignManager::StartGame()']]],
+  ['startgame',['StartGame',['../classHumanClientApp.html#abb5800e7a110222994f57001d20130d8',1,'HumanClientApp::StartGame()'],['../classShipDesignManager.html#accc32bb8e8a765253d7b21273e4c0aca',1,'ShipDesignManager::StartGame()']]],
   ['starting_5fbuildings',['starting_buildings',['../namespaceparse.html#a1cf2f0677d2b1c6123985a2903ad9dfc',1,'parse']]],
   ['startingchilddragdrop',['StartingChildDragDrop',['../classSlotControl.html#ae51bea22f58ccd7f2ea808bc9de1f3e6',1,'SlotControl']]],
   ['startingspeciesname',['StartingSpeciesName',['../classGalaxySetupWnd.html#ac3aa8cd57ae3301b81030795011cc659',1,'GalaxySetupWnd']]],

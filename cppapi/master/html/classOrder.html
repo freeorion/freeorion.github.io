@@ -287,6 +287,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Executes the order on the <a class="el" href="classUniverse.html">Universe</a> and Empires.</p>
 <p>Preconditions of <a class="el" href="classOrder.html#aaea320396d30ee73a72154f48e5aab7a">Execute()</a>: For all order subclasses, the empire ID for the order must be that of an existing empire.</p>
+<p>The order has not already been executed.</p>
 <p>Subclasses add additional preconditions. An std::runtime_error should be thrown if any precondition fails. </p>
 
 <p>References <a class="el" href="classOrder.html#abea87712266010dccf5a31205fd524d0">ExecuteImpl()</a>, and <a class="el" href="classOrder.html#aa28fff261441b5cf215b1976ae928a49">m_executed</a>.</p>
@@ -407,6 +408,7 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>m_executed is intentionally not serialized so that orders always deserialize with m_execute = false. See class comment for <a class="el" href="classOrderSet.html">OrderSet</a>. ar &amp; BOOST_SERIALIZATION_NVP(m_executed); </p>
 
 </div>
 </div>
@@ -422,9 +424,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this function returns true, it reverts the game state to what it was before this order was executed, otherwise it returns false and has no effect. </p>
+<p>If this function returns true, it reverts the game state to what it was before this order was executed, otherwise it returns false and has no effect. If an order is undone on the client and then still sent to the server it will be executed on the server, which is probably not desired. </p>
 
-<p>References <a class="el" href="classOrder.html#aff19d45fbc4f3b800e39b7dbba6104fa">UndoImpl()</a>.</p>
+<p>References <a class="el" href="classOrder.html#aa28fff261441b5cf215b1976ae928a49">m_executed</a>, and <a class="el" href="classOrder.html#aff19d45fbc4f3b800e39b7dbba6104fa">UndoImpl()</a>.</p>
 
 </div>
 </div>
@@ -516,7 +518,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Indicates that <a class="el" href="classOrder.html#aaea320396d30ee73a72154f48e5aab7a">Execute()</a> has occured, and so an undo is legal. </p>
 
-<p>Referenced by <a class="el" href="classOrder.html#aaea320396d30ee73a72154f48e5aab7a">Execute()</a>, and <a class="el" href="classOrder.html#a33c27a2994a946b440dc4c02afc2a19f">Executed()</a>.</p>
+<p>Referenced by <a class="el" href="classOrder.html#aaea320396d30ee73a72154f48e5aab7a">Execute()</a>, <a class="el" href="classOrder.html#a33c27a2994a946b440dc4c02afc2a19f">Executed()</a>, and <a class="el" href="classOrder.html#ae854e8bb9cdb0df9c2b403510f0102f6">Undo()</a>.</p>
 
 </div>
 </div>
