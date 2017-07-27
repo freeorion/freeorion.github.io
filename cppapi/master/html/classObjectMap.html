@@ -330,9 +330,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab817e1a0ac4f2ad7a9bda040fefe955f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78c8a3a97d8dd1d99ad58c2397e58b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject</a> (std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; source, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
 <tr class="separator:a78c8a3a97d8dd1d99ad58c2397e58b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228c9435d13bdbcf405221d15f9c6f2e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a228c9435d13bdbcf405221d15f9c6f2e"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a228c9435d13bdbcf405221d15f9c6f2e">Insert</a> (T *obj, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="separator:a228c9435d13bdbcf405221d15f9c6f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9fd026e50b13e3de3e99d83f28119bc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ac9fd026e50b13e3de3e99d83f28119bc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc">Insert</a> (std::shared_ptr&lt; T &gt; obj, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
 <tr class="separator:ac9fd026e50b13e3de3e99d83f28119bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,8 +348,8 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a442348ae5b70aac81ba5b7b6b5c2f107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107">CopyObjectsToSpecializedMaps</a> ()</td></tr>
 <tr class="separator:a442348ae5b70aac81ba5b7b6b5c2f107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad022b792c7d48981c805eb61e9b93a37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert</a> (std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; item, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="separator:ad022b792c7d48981c805eb61e9b93a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9942f1361d84ff0410d2321bc57e49a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore</a> (std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; item, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
+<tr class="separator:a9942f1361d84ff0410d2321bc57e49a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39a0621816de12e6480acc56fb4a4a1f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a39a0621816de12e6480acc56fb4a4a1f"><td class="memTemplItemLeft" align="right" valign="top">const std::map&lt; int, std::shared_ptr&lt; T &gt; &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a39a0621816de12e6480acc56fb4a4a1f">Map</a> () const </td></tr>
 <tr class="separator:a39a0621816de12e6480acc56fb4a4a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -735,7 +732,7 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>Copies the passed <em>object</em> into this <a class="el" href="classObjectMap.html">ObjectMap</a>, overwriting any existing information about that object or creating a new object in this map as appropriate with <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy</a> or <a class="el" href="classUniverseObject.html#a964bf6d3617b688554a0c6022c85a452">UniverseObject::Clone</a>. The object is fully copied if <em>empire_id</em> is ALL_EMPIRES, but if another empire id is specified, then the copied information is limited by passing the visibility of the object by the empire specified by <em>empire_id</em> to Copy or Clone of the object. The passed object is unchanged. </p>
 
-<p>References <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#a228c9435d13bdbcf405221d15f9c6f2e">Insert()</a>, and <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">Object()</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, and <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">Object()</a>.</p>
 
 <p>Referenced by <a class="el" href="classObjectMap.html#a7ce9d281c7ef340b5993be6f9274e0bf">Copy()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a358259eb8e4b87c9892606c898992c69">anonymous_namespace{ServerApp.cpp}::DisseminateSystemCombatInfo()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a965f23e2b3a7c4585a2bc8cb19f41490">anonymous_namespace{ServerApp.cpp}::HandleInvasion()</a>.</p>
 
@@ -1440,37 +1437,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a228c9435d13bdbcf405221d15f9c6f2e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; T &gt; ObjectMap::Insert </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em> = <code><a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Adds object <em>obj</em> to the map under its ID, if it is a valid object. If there already was an object in the map with the id <em>id</em> then that object will be removed. A std::shared_ptr to the new object is returned. </p>
-
-<p>Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a4fa89cad376798aadfecae56475d7f85">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structCombatInfo.html#a00c1f481f05f6d95f189bbd561c1bd73">CombatInfo::CombatInfo()</a>, <a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject()</a>, <a class="el" href="classUniverse.html#acece5b3737044e2f483caaf57f18f67c">Universe::Insert()</a>, <a class="el" href="classUniverse.html#a77fbf0c31c491f7f78be0dcdad6770e3">Universe::InsertID()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ac9fd026e50b13e3de3e99d83f28119bc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1496,13 +1462,15 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds object <em>obj</em> to the map under its ID, if it is a valid object. </p>
+<p>Adds object <em>obj</em> to the map under its ID, if it is a valid object. If there already was an object in the map with the id <em>id</em> then that object will be removed. </p>
 
 <p>References <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a>, and <a class="el" href="classObjectMap.html#a39a0621816de12e6480acc56fb4a4a1f">Map()</a>.</p>
 
+<p>Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a4fa89cad376798aadfecae56475d7f85">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structCombatInfo.html#a00c1f481f05f6d95f189bbd561c1bd73">CombatInfo::CombatInfo()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">Universe::InsertIDCore()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="ad022b792c7d48981c805eb61e9b93a37"></a>
+<a class="anchor" id="a9942f1361d84ff0410d2321bc57e49a8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1510,7 +1478,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ObjectMap::Insert </td>
+          <td class="memname">void ObjectMap::InsertCore </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td>
           <td class="paramname"><em>item</em>, </td>
@@ -1535,6 +1503,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#ad7e0512fc7fe2dc2c11c342cc8c93c38">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#a8150d1027a5a8bad8912b9c24e8e7940">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a8a1047b4939a22b7ee311c27030f1c5d">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#af1872b200f06d5d7d1413b36a6913977">m_existing_objects</a>, <a class="el" href="classObjectMap.html#acfc2a57ae1a230b2af9ac35ecd6dafea">m_existing_planets</a>, <a class="el" href="classObjectMap.html#ac5ca66e45a12cc1923929d5965098db4">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a79ecd36a46e914bdba5b75b852be737e">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac">m_existing_ships</a>, <a class="el" href="classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c">m_existing_systems</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">Object()</a>, and <a class="el" href="classObjectMap.html#a6d32f04f7787b0c630630af4ff1a02f4">TryInsertIntoMap()</a>.</p>
+
+<p>Referenced by <a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject()</a>.</p>
 
 </div>
 </div>
@@ -2291,7 +2261,7 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>Returns a pointer to the universe object with ID number <em>id</em>, or a null std::shared_ptr if none exists </p>
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">AuditContainment()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#afc771ffed95d2ae014a5a11426392f3a">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#af6ca661aed1bef7009e3282074f9a923">anonymous_namespace{CombatLogWnd.cpp}::CountByOwner()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7bf9c53c294f67658403ec2096046a5d">anonymous_namespace{ServerWrapper.cpp}::CreateBuilding()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aea942722372f973db858b8b03d8e3924">anonymous_namespace{ServerApp.cpp}::CreateCombatSitReps()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aabc3449c16cc25257731e818fcaa620b">anonymous_namespace{ServerWrapper.cpp}::CreateFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a2f1af7569752d8102583971b2a1a5adc">anonymous_namespace{ServerWrapper.cpp}::CreatePlanet()</a>, <a class="el" href="classColorByOwner.html#a9cfa00a89704b72f22654cbfc8585d8e">ColorByOwner::Decorate()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">MapWnd::DoFleetButtonsLayout()</a>, <a class="el" href="classServerApp.html#a345fd2ca4d5b9a760cbbd8670c0f3d51">ServerApp::EmpireKnownObject()</a>, <a class="el" href="classClientApp.html#a9e217683f8a9109b09a3cb1743b356f6">ClientApp::EmpireKnownObject()</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">FindObjects()</a>, <a class="el" href="structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3">CombatInfo::ForceAtLeastBasicVisibility()</a>, <a class="el" href="classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b">Universe::ForgetKnownObject()</a>, <a class="el" href="AppInterface_8h.html#a9646f546eed95f75d435abb7beda7f7d">GetBuilding()</a>, <a class="el" href="AppInterface_8h.html#ad61512367f0f22cf991ddf0f8ca424c9">GetEmpireKnownBuilding()</a>, <a class="el" href="AppInterface_8h.html#af11202112f6a7077a095cfe500771216">GetEmpireKnownField()</a>, <a class="el" href="AppInterface_8h.html#aa3bb35f99baaf05c3f6d616aa0da4a9e">GetEmpireKnownFleet()</a>, <a class="el" href="AppInterface_8h.html#aaf19019f4f5a31ec937d76abb5bcae3b">GetEmpireKnownPlanet()</a>, <a class="el" href="AppInterface_8h.html#a411f544b626896c68d37d92fa84d390f">GetEmpireKnownPopCenter()</a>, <a class="el" href="AppInterface_8h.html#ad09d5f7fa956e32eae311777d3ce8cb6">GetEmpireKnownResourceCenter()</a>, <a class="el" href="AppInterface_8h.html#a9c329b950f4b9c0c6dfa95407504e58f">GetEmpireKnownShip()</a>, <a class="el" href="AppInterface_8h.html#a758df24b2f29c4ee138b1c262f041fb2">GetEmpireKnownSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a837b486374af7c625f27c8acfdc5a984">anonymous_namespace{Universe.cpp}::GetEmpiresPositionDetectionRanges()</a>, <a class="el" href="AppInterface_8h.html#a57ab17ee88b40aea50bae5c64e2bbd58">GetField()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1d727839ae2bcd37a94f0b04e90a5fc0">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a6cd3b7b4f691ce6a14b64d170aaedecd">GetPopCenter()</a>, <a class="el" href="AppInterface_8h.html#ae08f9bf45535aaf4900e09dff23e1d66">GetResourceCenter()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="structCombatInfo.html#ae578d86c256aec78da22f75c9c9c879d">CombatInfo::GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">ServerApp::GetUniverseObject()</a>, <a class="el" href="classClientApp.html#a09b86ee410d1372dea6a4393d4fc51f3">ClientApp::GetUniverseObject()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#a9379b8b235b701fcb5327e27a9365273">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, <a class="el" href="classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">MapWnd::InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classParticipantBar.html#a099e91a4a9b1cd0f58e4238a4754aa85">ParticipantBar::ParticipantBar()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a54b4a04b2d691cf2b5ca82e1c6c6de1d">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::PopulateEmpireTargets()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, <a class="el" href="classMapWnd.html#acabb897ee39015e8403df817784e2bcc">MapWnd::RefreshPopulationIndicator()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a80f5e95bfc29dfff6872775950311340">anonymous_namespace{CombatSystem.cpp}::ReportInvalidTargets()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a6f7b8d69e534fcf2c72d894f7e03f597">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, <a class="el" href="classMapWnd.html#a04178dff1734c5524bda11baf0b0939c">MapWnd::ReselectLastFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#ac8b37cf65ee8a6af328f170aa4025871">anonymous_namespace{Universe.cpp}::SetEmpireSpecialVisibilities()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#abb4c13fe55cbaf9567e986e66fd84dfc">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>, <a class="el" href="classFleetWnd.html#a6f2df920a5120ab572d8e2ce4535885e">FleetWnd::UniverseObjectDeleted()</a>, <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="classUniverse.html#a263606350c6d10317a9d4aafb60494f4">Universe::UpdateMeterEstimates()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a8a21ea601fe7b2eef1e63d6dbbecf88c">anonymous_namespace{CombatSystem.cpp}::ValidTargetsForAttackerType()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">AuditContainment()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#afc771ffed95d2ae014a5a11426392f3a">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#af6ca661aed1bef7009e3282074f9a923">anonymous_namespace{CombatLogWnd.cpp}::CountByOwner()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7bf9c53c294f67658403ec2096046a5d">anonymous_namespace{ServerWrapper.cpp}::CreateBuilding()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aea942722372f973db858b8b03d8e3924">anonymous_namespace{ServerApp.cpp}::CreateCombatSitReps()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aabc3449c16cc25257731e818fcaa620b">anonymous_namespace{ServerWrapper.cpp}::CreateFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a2f1af7569752d8102583971b2a1a5adc">anonymous_namespace{ServerWrapper.cpp}::CreatePlanet()</a>, <a class="el" href="classColorByOwner.html#a9cfa00a89704b72f22654cbfc8585d8e">ColorByOwner::Decorate()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">MapWnd::DoFleetButtonsLayout()</a>, <a class="el" href="classServerApp.html#a345fd2ca4d5b9a760cbbd8670c0f3d51">ServerApp::EmpireKnownObject()</a>, <a class="el" href="classClientApp.html#a9e217683f8a9109b09a3cb1743b356f6">ClientApp::EmpireKnownObject()</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">FindObjects()</a>, <a class="el" href="structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3">CombatInfo::ForceAtLeastBasicVisibility()</a>, <a class="el" href="classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b">Universe::ForgetKnownObject()</a>, <a class="el" href="AppInterface_8h.html#a9646f546eed95f75d435abb7beda7f7d">GetBuilding()</a>, <a class="el" href="AppInterface_8h.html#ad61512367f0f22cf991ddf0f8ca424c9">GetEmpireKnownBuilding()</a>, <a class="el" href="AppInterface_8h.html#af11202112f6a7077a095cfe500771216">GetEmpireKnownField()</a>, <a class="el" href="AppInterface_8h.html#aa3bb35f99baaf05c3f6d616aa0da4a9e">GetEmpireKnownFleet()</a>, <a class="el" href="AppInterface_8h.html#aaf19019f4f5a31ec937d76abb5bcae3b">GetEmpireKnownPlanet()</a>, <a class="el" href="AppInterface_8h.html#a411f544b626896c68d37d92fa84d390f">GetEmpireKnownPopCenter()</a>, <a class="el" href="AppInterface_8h.html#ad09d5f7fa956e32eae311777d3ce8cb6">GetEmpireKnownResourceCenter()</a>, <a class="el" href="AppInterface_8h.html#a9c329b950f4b9c0c6dfa95407504e58f">GetEmpireKnownShip()</a>, <a class="el" href="AppInterface_8h.html#a758df24b2f29c4ee138b1c262f041fb2">GetEmpireKnownSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a837b486374af7c625f27c8acfdc5a984">anonymous_namespace{Universe.cpp}::GetEmpiresPositionDetectionRanges()</a>, <a class="el" href="AppInterface_8h.html#a57ab17ee88b40aea50bae5c64e2bbd58">GetField()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1d727839ae2bcd37a94f0b04e90a5fc0">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a6cd3b7b4f691ce6a14b64d170aaedecd">GetPopCenter()</a>, <a class="el" href="AppInterface_8h.html#ae08f9bf45535aaf4900e09dff23e1d66">GetResourceCenter()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="structCombatInfo.html#ae578d86c256aec78da22f75c9c9c879d">CombatInfo::GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">ServerApp::GetUniverseObject()</a>, <a class="el" href="classClientApp.html#a09b86ee410d1372dea6a4393d4fc51f3">ClientApp::GetUniverseObject()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#a9379b8b235b701fcb5327e27a9365273">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">Universe::InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, <a class="el" href="classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">MapWnd::InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classParticipantBar.html#a099e91a4a9b1cd0f58e4238a4754aa85">ParticipantBar::ParticipantBar()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a54b4a04b2d691cf2b5ca82e1c6c6de1d">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::PopulateEmpireTargets()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, <a class="el" href="classMapWnd.html#acabb897ee39015e8403df817784e2bcc">MapWnd::RefreshPopulationIndicator()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a80f5e95bfc29dfff6872775950311340">anonymous_namespace{CombatSystem.cpp}::ReportInvalidTargets()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a6f7b8d69e534fcf2c72d894f7e03f597">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, <a class="el" href="classMapWnd.html#a04178dff1734c5524bda11baf0b0939c">MapWnd::ReselectLastFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#ac8b37cf65ee8a6af328f170aa4025871">anonymous_namespace{Universe.cpp}::SetEmpireSpecialVisibilities()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#abb4c13fe55cbaf9567e986e66fd84dfc">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>, <a class="el" href="classFleetWnd.html#a6f2df920a5120ab572d8e2ce4535885e">FleetWnd::UniverseObjectDeleted()</a>, <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="classUniverse.html#a263606350c6d10317a9d4aafb60494f4">Universe::UpdateMeterEstimates()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a8a21ea601fe7b2eef1e63d6dbbecf88c">anonymous_namespace{CombatSystem.cpp}::ValidTargetsForAttackerType()</a>.</p>
 
 </div>
 </div>
@@ -2502,7 +2472,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107">CopyObjectsToSpecializedMaps()</a>, and <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107">CopyObjectsToSpecializedMaps()</a>, and <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>.</p>
 
 </div>
 </div>
@@ -2589,7 +2559,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2611,7 +2581,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2633,7 +2603,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2655,7 +2625,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a816bb5ca68f24ed8e216d9f415da5262">ExistingObject()</a>, <a class="el" href="classObjectMap.html#a431e38f828c3ecce758a77fe412ee993">FindExistingObjectIDs()</a>, <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a816bb5ca68f24ed8e216d9f415da5262">ExistingObject()</a>, <a class="el" href="classObjectMap.html#a431e38f828c3ecce758a77fe412ee993">FindExistingObjectIDs()</a>, <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2677,7 +2647,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2699,7 +2669,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2721,7 +2691,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2743,7 +2713,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2765,7 +2735,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#ad022b792c7d48981c805eb61e9b93a37">Insert()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['obfuscatebeforeserialization',['ObfuscateBeforeSerialization',['../classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d',1,'IDAllocator']]],
+  ['obfuscateidgenerator',['ObfuscateIDGenerator',['../classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7',1,'Universe']]],
   ['object',['Object',['../classObjectMap.html#a646be434e992737853f99fb4adc1e24b',1,'ObjectMap::Object(int id) const '],['../classObjectMap.html#ac225180532b2f4c80040939c0d086dd3',1,'ObjectMap::Object(int id)'],['../classObjectMap.html#ab1524aedc48baafe0c655e7052564d04',1,'ObjectMap::Object(int id) const '],['../classObjectMap.html#a78edcb268113920fa93deec37ba5ad3c',1,'ObjectMap::Object(int id)']]],
   ['objectattackablebyempire',['ObjectAttackableByEmpire',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a89afc0fd3e6d780e1f0cba3bc7e55246',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['objectattackablebymonsters',['ObjectAttackableByMonsters',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a8c71ac386ece296d2ba31090ee22b0d9',1,'anonymous_namespace{CombatSystem.cpp}']]],

@@ -58,6 +58,7 @@ var searchData=
   ['anonymous_5fnamespace_7bhumanclientfsm_2ecpp_7d',['anonymous_namespace{HumanClientFSM.cpp}',['../namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bi18n_2ecpp_7d',['anonymous_namespace{i18n.cpp}',['../namespaceanonymous__namespace_02i18n_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bicontextbrowsewnd_2ecpp_7d',['anonymous_namespace{IconTextBrowseWnd.cpp}',['../namespaceanonymous__namespace_02IconTextBrowseWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bidallocator_2ecpp_7d',['anonymous_namespace{IDAllocator.cpp}',['../namespaceanonymous__namespace_02IDAllocator_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bingamemenu_2ecpp_7d',['anonymous_namespace{InGameMenu.cpp}',['../namespaceanonymous__namespace_02InGameMenu_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bintroscreen_2ecpp_7d',['anonymous_namespace{IntroScreen.cpp}',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bintvaluerefparser_2ecpp_7d',['anonymous_namespace{IntValueRefParser.cpp}',['../namespaceanonymous__namespace_02IntValueRefParser_8cpp_03.html',1,'']]],

@@ -4,6 +4,8 @@ var searchData=
   ['i18n_2eh',['i18n.h',['../i18n_8h.html',1,'']]],
   ['icontextbrowsewnd_2ecpp',['IconTextBrowseWnd.cpp',['../IconTextBrowseWnd_8cpp.html',1,'']]],
   ['icontextbrowsewnd_2eh',['IconTextBrowseWnd.h',['../IconTextBrowseWnd_8h.html',1,'']]],
+  ['idallocator_2ecpp',['IDAllocator.cpp',['../IDAllocator_8cpp.html',1,'']]],
+  ['idallocator_2eh',['IDAllocator.h',['../IDAllocator_8h.html',1,'']]],
   ['ingamemenu_2ecpp',['InGameMenu.cpp',['../InGameMenu_8cpp.html',1,'']]],
   ['ingamemenu_2eh',['InGameMenu.h',['../InGameMenu_8h.html',1,'']]],
   ['intcomplexvaluerefparser_2ecpp',['IntComplexValueRefParser.cpp',['../IntComplexValueRefParser_8cpp.html',1,'']]],

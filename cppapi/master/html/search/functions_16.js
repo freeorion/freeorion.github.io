@@ -30,6 +30,7 @@ var searchData=
   ['vartext',['VarText',['../classVarText.html#ab38b8a174f36204ea895b76f574d1cd9',1,'VarText::VarText()'],['../classVarText.html#aa0bd64a1108659d7f65aab06d237df36',1,'VarText::VarText(const std::string &amp;template_string, bool stringtable_lookup_template=true)']]],
   ['vectorindexforplayersavegamedataforempireid',['VectorIndexForPlayerSaveGameDataForEmpireID',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af4a84e58d5ef5792133d7da4f8173db5',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['verifyspgameais',['VerifySPGameAIs',['../classServerApp.html#acec8a6b2dd08b9a9f5f5be87127bb6c0',1,'ServerApp']]],
+  ['verifyunusedobjectid',['VerifyUnusedObjectID',['../classUniverse.html#a3a96fb6b17a8b91d84cd477de3952940',1,'Universe']]],
   ['vertex',['Vertex',['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a35ebf8e12e6edbed93853df9e060a46d',1,'MapWnd::MovementLineData::Vertex']]],
   ['vertexshaderinfolog',['VertexShaderInfoLog',['../classShaderProgram.html#a7f3cda4e02f48b4b1b71545bad1a59a4',1,'ShaderProgram']]],
   ['vertical_5fsection_5fgap',['VERTICAL_SECTION_GAP',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a899f691b1e11f2d777a4a374930ae4de',1,'anonymous_namespace{CUIControls.cpp}']]],
