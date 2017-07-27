@@ -386,7 +386,6 @@ var searchData=
   ['gettext',['GetText',['../classVarText.html#a9a036a8f72c0eb9c99cfb8aa0643752c',1,'VarText']]],
   ['gettexture',['GetTexture',['../classClientUI.html#ad13d252f7e419c8b3407e139af1884fe',1,'ClientUI']]],
   ['gettitlefont',['GetTitleFont',['../classClientUI.html#ae06f606027f41c9079e81f2f94404cb3',1,'ClientUI']]],
-  ['gettogglerule',['GetToggleRule',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a697fd072ca568afc26c9e046a563f709',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['gettotalworkload',['GetTotalWorkload',['../classRunQueue.html#aaf2f4d86b6362862f39843022377c8b8',1,'RunQueue']]],
   ['getturn',['GetTurn',['../classSitRepEntry.html#a93c6d8da29058f6ae1bb96d4370c5faa',1,'SitRepEntry']]],
   ['gettype',['GetType',['../classDiplomaticMessage.html#a97d5644f954de537aa52640a5129102a',1,'DiplomaticMessage']]],
