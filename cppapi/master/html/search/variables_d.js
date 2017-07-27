@@ -803,7 +803,6 @@ var searchData=
   ['m_5fplanet_5ftype',['m_planet_type',['../classModerator_1_1CreatePlanet.html#a0d96e2936dcc7a4f89eeebde79f881f9',1,'Moderator::CreatePlanet']]],
   ['m_5fplanet_5ftype_5fdrop',['m_planet_type_drop',['../classModeratorActionsWnd.html#af31634dbd6505ad0a5730ba8d07c1b97',1,'ModeratorActionsWnd']]],
   ['m_5fplanets',['m_planets',['../classObjectMap.html#aab58985f0bec791eca8104064ff441a7',1,'ObjectMap::m_planets()'],['../classSystem.html#a7745fd07028884c966879edc87f00d2b',1,'System::m_planets()']]],
-  ['m_5fplans',['m_plans',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1FleetPlanManager.html#a37aa0ba0426329df041a2faace4356d5',1,'anonymous_namespace{UniverseGenerator.cpp}::FleetPlanManager::m_plans()'],['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1MonsterFleetPlanManager.html#aba7b2ac440b5d8ce2fed31d3e9333ee9',1,'anonymous_namespace{UniverseGenerator.cpp}::MonsterFleetPlanManager::m_plans()']]],
   ['m_5fplayable',['m_playable',['../classSpecies.html#afe4e7cf9ae18748e257862a7ba84afcd',1,'Species']]],
   ['m_5fplayer_5fconnection',['m_player_connection',['../structDisconnection.html#a8c4425e775de8167d44936b6a6ca5e47',1,'Disconnection::m_player_connection()'],['../structMessageEventBase.html#a12658cf0f85a747e9547fe9a99d8386d',1,'MessageEventBase::m_player_connection()']]],
   ['m_5fplayer_5fconnection_5facceptor',['m_player_connection_acceptor',['../classServerNetworking.html#a9f84e675ddf13835c3fcce94e136c19c',1,'ServerNetworking']]],

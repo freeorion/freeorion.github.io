@@ -9,5 +9,5 @@ var searchData=
   ['wndchangedsignal',['WndChangedSignal',['../classCombatLogWnd.html#adf11c783afac806ca7102c90d5506de1',1,'CombatLogWnd']]],
   ['work_5fqueue_5f1',['work_queue_1',['../structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
   ['work_5fqueue_5f2',['work_queue_2',['../structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],
-  ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}::WORMHOLE_TRAVEL_DISTANCE()'],['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a730da508898506bdd4670e6ed3ded100',1,'anonymous_namespace{Universe.cpp}::WORMHOLE_TRAVEL_DISTANCE()']]]
+  ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]]
 ];

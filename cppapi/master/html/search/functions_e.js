@@ -84,7 +84,6 @@ var searchData=
   ['numberonqueue',['NumberOnQueue',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a8b05611bdbd8c74630dd72c03b1194a3',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['numempires',['NumEmpires',['../classEmpireManager.html#a8d4607ab2d94aad758409de6f11f3456',1,'EmpireManager']]],
   ['numestablishedplayers',['NumEstablishedPlayers',['../classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f',1,'ServerNetworking']]],
-  ['nummonsters',['NumMonsters',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1MonsterFleetPlanManager.html#ab8ba2bbe2629373cd799ff2ff405e9a0',1,'anonymous_namespace{UniverseGenerator.cpp}::MonsterFleetPlanManager']]],
   ['numnativespecies',['NumNativeSpecies',['../classSpeciesManager.html#a7052a2ba44cb1bbf12a5fc0f636283cc',1,'SpeciesManager']]],
   ['numobjects',['NumObjects',['../classObjectMap.html#ad76323689535aa2e7e7ba23a8bc1e967',1,'ObjectMap::NumObjects() const '],['../classObjectMap.html#ae49a754c34c76611a3b233360627d4b8',1,'ObjectMap::NumObjects() const ']]],
   ['numplayablespecies',['NumPlayableSpecies',['../classSpeciesManager.html#ad88dfcfa8ca111fa39a1a23a02a13378',1,'SpeciesManager']]],

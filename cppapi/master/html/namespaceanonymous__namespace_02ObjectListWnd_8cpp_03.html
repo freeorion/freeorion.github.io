@@ -189,8 +189,6 @@ Functions</h2></td></tr>
 <tr class="separator:aa3afeb7ff32bc818ffffe7ca1ac53cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea7372b0ede1cc2c4089142c75a4955c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aea7372b0ede1cc2c4089142c75a4955c">SetColumnName</a> (int column, const std::string &amp;name)</td></tr>
 <tr class="separator:aea7372b0ede1cc2c4089142c75a4955c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee59a5238ee265a41d63f71d4969c451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aee59a5238ee265a41d63f71d4969c451">SetColumnWidth</a> (int column, int width)</td></tr>
-<tr class="separator:aee59a5238ee265a41d63f71d4969c451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575f610805b00d938d20a0ade0d68aa4"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a575f610805b00d938d20a0ade0d68aa4">SPECIES_CONDITION</a> (<a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>(&quot;CONDITION_SPECIES&quot;))</td></tr>
 <tr class="separator:a575f610805b00d938d20a0ade0d68aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe282124957a33c4a1e53eba57555b7"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aebe282124957a33c4a1e53eba57555b7">STARTYPE_CONDITION</a> (<a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>(&quot;CONDITION_STARTYPE&quot;))</td></tr>
@@ -599,6 +597,7 @@ template&lt;class enumT &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>unused function. Kept because it will be useful if some make persistent column widths void SetColumnWidth(int column, int width) { if (column &lt; 0) return; std::string option_name = "UI.objects-list-width-col-" + std::to_string(column); if (<a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.OptionExists(option_name)) <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.Set(option_name, width); } </p>
 
 <p>References <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
@@ -1004,34 +1003,6 @@ template&lt;class enumT &gt; </div>
 <p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
 <p>Referenced by <a class="el" href="classObjectHeaderPanel.html#ad0b915259b2b6b48fc41ee36cfaa3eb6">ObjectHeaderPanel::ButtonRightClicked()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aee59a5238ee265a41d63f71d4969c451"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void anonymous_namespace{ObjectListWnd.cpp}::SetColumnWidth </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>column</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
 </div>
 </div>

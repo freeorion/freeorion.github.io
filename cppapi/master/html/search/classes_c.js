@@ -20,7 +20,6 @@ var searchData=
   ['moderatoractionswnd',['ModeratorActionsWnd',['../classModeratorActionsWnd.html',1,'']]],
   ['monster',['Monster',['../structCondition_1_1Monster.html',1,'Condition']]],
   ['monsterfleetplan',['MonsterFleetPlan',['../classMonsterFleetPlan.html',1,'']]],
-  ['monsterfleetplanmanager',['MonsterFleetPlanManager',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1MonsterFleetPlanManager.html',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['monsterfleetplanwrapper',['MonsterFleetPlanWrapper',['../classanonymous__namespace_02ServerWrapper_8cpp_03_1_1MonsterFleetPlanWrapper.html',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['monsterslistbox',['MonstersListBox',['../classMonstersListBox.html',1,'']]],
   ['morecommonparams',['MoreCommonParams',['../structMoreCommonParams.html',1,'']]],

@@ -19,7 +19,6 @@ var searchData=
   ['fleetdetailpanel',['FleetDetailPanel',['../classFleetDetailPanel.html',1,'']]],
   ['fleetmoveorder',['FleetMoveOrder',['../classFleetMoveOrder.html',1,'']]],
   ['fleetplan',['FleetPlan',['../classFleetPlan.html',1,'']]],
-  ['fleetplanmanager',['FleetPlanManager',['../classanonymous__namespace_02UniverseGenerator_8cpp_03_1_1FleetPlanManager.html',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['fleetplanwrapper',['FleetPlanWrapper',['../classanonymous__namespace_02ServerWrapper_8cpp_03_1_1FleetPlanWrapper.html',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['fleetrow',['FleetRow',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1FleetRow.html',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleetslistbox',['FleetsListBox',['../classFleetsListBox.html',1,'']]],
