@@ -102,7 +102,7 @@ var searchData=
   ['headertobuffer',['HeaderToBuffer',['../Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp'],['../Message_8h.html#a9b4c4e8c8555e3b844a56b99a8c45e52',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp']]],
   ['hiddensitreptemplates',['HiddenSitRepTemplates',['../classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a',1,'SitRepPanel']]],
   ['hiddensitreptemplatestringsfromoptions',['HiddenSitRepTemplateStringsFromOptions',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6be4af1fc53fc494b308c101cb882db0',1,'anonymous_namespace{SitRepPanel.cpp}']]],
-  ['hide',['Hide',['../classCUIWnd.html#a1f9c4542c32a2ad7b6b3142cd03f56f1',1,'CUIWnd']]],
+  ['hide',['Hide',['../classCUIWnd.html#a4b4e7d174932807755f406bf487d3131',1,'CUIWnd']]],
   ['hideallcategories',['HideAllCategories',['../classTechTreeWnd_1_1LayoutPanel.html#aab3b0511625bcbd12bdb7de8049070fa',1,'TechTreeWnd::LayoutPanel::HideAllCategories()'],['../classTechTreeWnd_1_1TechListBox.html#a8266e0698cf1fff18a06853ef2895666',1,'TechTreeWnd::TechListBox::HideAllCategories()'],['../classTechTreeWnd.html#ac0e8674ab0c7971d569678643babba0b',1,'TechTreeWnd::HideAllCategories()']]],
   ['hideallclasses',['HideAllClasses',['../classPartsListBox.html#a0a37acaf5a79754fe3232652c5fa465f',1,'PartsListBox::HideAllClasses()'],['../classDesignWnd_1_1PartPalette.html#a3a3a72ce942d616190cb85906d5833ad',1,'DesignWnd::PartPalette::HideAllClasses()']]],
   ['hideallpopups',['HideAllPopups',['../classMapWnd.html#ac3b18beb604feeba94be52bffbe541a8',1,'MapWnd']]],
