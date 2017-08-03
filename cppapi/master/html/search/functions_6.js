@@ -21,7 +21,7 @@ var searchData=
   ['fightersdestroyedevent',['FightersDestroyedEvent',['../structFightersDestroyedEvent.html#a63c363816cd686db540e8fdbc65be3b5',1,'FightersDestroyedEvent::FightersDestroyedEvent()'],['../structFightersDestroyedEvent.html#a488753f0a9b9b9d705f3536dab19425b',1,'FightersDestroyedEvent::FightersDestroyedEvent(int bout)']]],
   ['fightersicon',['FightersIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a81a3a35767bc422db088af517830ab8a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527',1,'parse']]],
-  ['filedlg',['FileDlg',['../classFileDlg.html#a81802d7d7175140e098d86d9815dddaf',1,'FileDlg']]],
+  ['filedlg',['FileDlg',['../classFileDlg.html#ad63242ab2d6bb7f33a2ecdd1031cf719',1,'FileDlg']]],
   ['filename',['Filename',['../classSaveFileRow.html#a7b015d09b2044293ef78a2624a5cd43a',1,'SaveFileRow::Filename()'],['../classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93',1,'StringTable_::Filename()']]],
   ['filenameedited',['FileNameEdited',['../classSaveFileDialog.html#a991e3c32d2ac3dd854200e74128e8dd6',1,'SaveFileDialog']]],
   ['filenametimestamp',['FilenameTimestamp',['../Directories_8cpp.html#a878c6bb4d43be96570e86d3a6a2976bd',1,'FilenameTimestamp():&#160;Directories.cpp'],['../Directories_8h.html#ab5d6594d275c1d145ddec4540d0bb4c6',1,'FilenameTimestamp():&#160;Directories.cpp']]],

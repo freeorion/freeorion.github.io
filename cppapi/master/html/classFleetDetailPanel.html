@@ -110,6 +110,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a16653e64fc61b2c3cd19d09affa8fcc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel</a> (GG::X w, GG::Y h, int fleet_id, bool order_issuing_enabled, GG::Flags&lt; GG::WndFlag &gt; flags=GG::NO_WND_FLAGS)</td></tr>
 <tr class="separator:a16653e64fc61b2c3cd19d09affa8fcc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed57d00d2dc62ca3b6a75b9afc2a1c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a7ed57d00d2dc62ca3b6a75b9afc2a1c8">CompleteConstruction</a> () override</td></tr>
+<tr class="separator:a7ed57d00d2dc62ca3b6a75b9afc2a1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33a790f5d5f380157c5ea86d00ef0b56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#a33a790f5d5f380157c5ea86d00ef0b56">EnableOrderIssuing</a> (bool enabled=true)</td></tr>
 <tr class="separator:a33a790f5d5f380157c5ea86d00ef0b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23af6ac3a70e79e11cae73d881fd656"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDetailPanel.html#ad23af6ac3a70e79e11cae73d881fd656">FleetID</a> () const </td></tr>
@@ -207,11 +209,36 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">DoLayout()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classFleetDetailPanel.html#a5924a8f7a9582b097d76fe6369f68b3b">m_order_issuing_enabled</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#adbdebd0912eba4f1c006ad18fa8bfd92">anonymous_namespace{FleetWnd.cpp}::SHIP_DROP_TYPE_STRING</a>, <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">ShipRightClicked()</a>, <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>, <a class="el" href="classFleetDetailPanel.html#a8e9ebcf465d6202a3f5a02d035263ae2">UniverseObjectDeleted()</a>, and <a class="el" href="classUniverse.html#a654cddfe81c903c36ec02945ddedb4c1">Universe::UniverseObjectDeleteSignal</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classFleetDetailPanel.html#a5924a8f7a9582b097d76fe6369f68b3b">m_order_issuing_enabled</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#adbdebd0912eba4f1c006ad18fa8bfd92">anonymous_namespace{FleetWnd.cpp}::SHIP_DROP_TYPE_STRING</a>, <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">ShipRightClicked()</a>, <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>, <a class="el" href="classFleetDetailPanel.html#a8e9ebcf465d6202a3f5a02d035263ae2">UniverseObjectDeleted()</a>, and <a class="el" href="classUniverse.html#a654cddfe81c903c36ec02945ddedb4c1">Universe::UniverseObjectDeleteSignal</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7ed57d00d2dc62ca3b6a75b9afc2a1c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FleetDetailPanel::CompleteConstruction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">DoLayout()</a>, and <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a21f46c378ddf426736fd4871a0682e30"></a>
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +262,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd">anonymous_namespace{FleetWnd.cpp}::LabelHeight()</a>, <a class="el" href="classFleetDetailPanel.html#aaa931a79b16a4c4c281cee25bb6bd4f7">m_ships_lb</a>, and <a class="el" href="classShipsListBox.html#a7823d8f129e28b31214af827e55f618a">ShipsListBox::SizeMove()</a>.</p>
 
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>, and <a class="el" href="classFleetDetailPanel.html#aeda249a755ab97f4124dcae1a730c099">SizeMove()</a>.</p>
+<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a7ed57d00d2dc62ca3b6a75b9afc2a1c8">CompleteConstruction()</a>, and <a class="el" href="classFleetDetailPanel.html#aeda249a755ab97f4124dcae1a730c099">SizeMove()</a>.</p>
 
 </div>
 </div>
@@ -452,7 +479,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a268c02a04e3082a544a8bb0c2a9bb54d">anonymous_namespace{FleetWnd.cpp}::ClientPlayerIsModerator()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a507200b75a83b3bced0b546a1dd590e3">anonymous_namespace{FleetWnd.cpp}::CreateNewFleetFromShipsWithDesign()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#adb3de15c20c4cc7b3c6d3e557bf9222f">anonymous_namespace{FleetWnd.cpp}::CreateNewFleetsFromShipsForEachDesign()</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classClientUI.html#ac323859536c77eb6727afc37905eb3ca">ClientUI::GetMapWnd()</a>, <a class="el" href="classMapWnd.html#a6a27001c51836073b6a7328f9993a903">MapWnd::GetModeratorActionSetting()</a>, <a class="el" href="classFleetWnd.html#a4347e370b46e86a175224f1f59c8ac3b">FleetWnd::GetNewFleetAggression()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classShipDesign.html#a113672ff15f81a297e497e2ed472ebc2">ShipDesign::ID()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, <a class="el" href="classFleetDetailPanel.html#a332fa73088780d4aa2fc7058a9730dfa">m_fleet_id</a>, <a class="el" href="Enums_8h.html#a5920f60f24e8c39a777c37885e4a0e3c">MAS_NoAction</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#aea93731eefe5c67c581249967f23b92f">anonymous_namespace{FleetWnd.cpp}::PendingScrapOrders()</a>, <a class="el" href="classOrderSet.html#aa5bc1797ffaa71ee5c831d3c50af1be2">OrderSet::RescindOrder()</a>, <a class="el" href="classCUIEditWnd.html#a4f65c6cbb6c04f2b7ad3f4b55bfe5d93">CUIEditWnd::Result()</a>, <a class="el" href="classFleetDetailPanel.html#ab78dbf3fa8986a4a9b8af28c46b58aea">ShipRightClickedSignal</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classClientUI.html#acdf2c81d4f295b20f630c707d32ae7ce">ClientUI::ZoomToShipDesign()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a268c02a04e3082a544a8bb0c2a9bb54d">anonymous_namespace{FleetWnd.cpp}::ClientPlayerIsModerator()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a507200b75a83b3bced0b546a1dd590e3">anonymous_namespace{FleetWnd.cpp}::CreateNewFleetFromShipsWithDesign()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#adb3de15c20c4cc7b3c6d3e557bf9222f">anonymous_namespace{FleetWnd.cpp}::CreateNewFleetsFromShipsForEachDesign()</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classClientUI.html#ac323859536c77eb6727afc37905eb3ca">ClientUI::GetMapWnd()</a>, <a class="el" href="classMapWnd.html#a6a27001c51836073b6a7328f9993a903">MapWnd::GetModeratorActionSetting()</a>, <a class="el" href="classFleetWnd.html#a4347e370b46e86a175224f1f59c8ac3b">FleetWnd::GetNewFleetAggression()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classShipDesign.html#a113672ff15f81a297e497e2ed472ebc2">ShipDesign::ID()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, <a class="el" href="classFleetDetailPanel.html#a332fa73088780d4aa2fc7058a9730dfa">m_fleet_id</a>, <a class="el" href="Enums_8h.html#a5920f60f24e8c39a777c37885e4a0e3c">MAS_NoAction</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#aea93731eefe5c67c581249967f23b92f">anonymous_namespace{FleetWnd.cpp}::PendingScrapOrders()</a>, <a class="el" href="classOrderSet.html#aa5bc1797ffaa71ee5c831d3c50af1be2">OrderSet::RescindOrder()</a>, <a class="el" href="classFleetDetailPanel.html#ab78dbf3fa8986a4a9b8af28c46b58aea">ShipRightClickedSignal</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classClientUI.html#acdf2c81d4f295b20f630c707d32ae7ce">ClientUI::ZoomToShipDesign()</a>.</p>
 
 <p>Referenced by <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>.</p>
 
@@ -637,7 +664,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">DoLayout()</a>, <a class="el" href="classFleetDetailPanel.html#a33a790f5d5f380157c5ea86d00ef0b56">EnableOrderIssuing()</a>, <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>, <a class="el" href="classFleetDetailPanel.html#a99a6f2c1dee53422954f7915f758b971">SelectedShipIDs()</a>, <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>, <a class="el" href="classFleetDetailPanel.html#a9035c44537715799f9cd212b0b85776f">SetSelectedShips()</a>, <a class="el" href="classFleetDetailPanel.html#a343c8bcb8bcdbb7311dcdc2eb023fc29">ShipInRow()</a>, and <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>.</p>
+<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a7ed57d00d2dc62ca3b6a75b9afc2a1c8">CompleteConstruction()</a>, <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">DoLayout()</a>, <a class="el" href="classFleetDetailPanel.html#a33a790f5d5f380157c5ea86d00ef0b56">EnableOrderIssuing()</a>, <a class="el" href="classFleetDetailPanel.html#a16653e64fc61b2c3cd19d09affa8fcc9">FleetDetailPanel()</a>, <a class="el" href="classFleetDetailPanel.html#a99a6f2c1dee53422954f7915f758b971">SelectedShipIDs()</a>, <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">SetFleet()</a>, <a class="el" href="classFleetDetailPanel.html#a9035c44537715799f9cd212b0b85776f">SetSelectedShips()</a>, <a class="el" href="classFleetDetailPanel.html#a343c8bcb8bcdbb7311dcdc2eb023fc29">ShipInRow()</a>, and <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>.</p>
 
 </div>
 </div>
@@ -660,7 +687,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>emitted when the set of selected ships changes </p>
 
-<p>Referenced by <a class="el" href="classFleetWnd.html#ac9515aef410d3cd33bb166cd3a3d6267">FleetWnd::FleetWnd()</a>, and <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>.</p>
+<p>Referenced by <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, and <a class="el" href="classFleetDetailPanel.html#a9803e0174a41719183dec003108333ce">ShipSelectionChanged()</a>.</p>
 
 </div>
 </div>
@@ -682,7 +709,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFleetWnd.html#ac9515aef410d3cd33bb166cd3a3d6267">FleetWnd::FleetWnd()</a>, and <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">ShipRightClicked()</a>.</p>
+<p>Referenced by <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, and <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">ShipRightClicked()</a>.</p>
 
 </div>
 </div>

@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structCUISimpleDropDownListRow-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CUISimpleDropDownListRow Struct Reference</div>  </div>
@@ -110,11 +111,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e7cd55993407dc0e60f46cf16d6cc9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCUISimpleDropDownListRow.html#a2e7cd55993407dc0e60f46cf16d6cc9f">CUISimpleDropDownListRow</a> (const std::string &amp;row_text, GG::Y row_height=<a class="el" href="structCUISimpleDropDownListRow.html#a4547ab06040cf1b91a1e02e6effda16b">DEFAULT_ROW_HEIGHT</a>)</td></tr>
 <tr class="separator:a2e7cd55993407dc0e60f46cf16d6cc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d5cd8ab379bf19cb019a3c10b53132"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCUISimpleDropDownListRow.html#a67d5cd8ab379bf19cb019a3c10b53132">CompleteConstruction</a> () override</td></tr>
+<tr class="separator:a67d5cd8ab379bf19cb019a3c10b53132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4547ab06040cf1b91a1e02e6effda16b"><td class="memItemLeft" align="right" valign="top">static const GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCUISimpleDropDownListRow.html#a4547ab06040cf1b91a1e02e6effda16b">DEFAULT_ROW_HEIGHT</a></td></tr>
 <tr class="separator:a4547ab06040cf1b91a1e02e6effda16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a66478bb9385338a373b0a45254072680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUILabel.html">CUILabel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCUISimpleDropDownListRow.html#a66478bb9385338a373b0a45254072680">m_row_label</a></td></tr>
+<tr class="separator:a66478bb9385338a373b0a45254072680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple GG::ListBox::Row subclass designed for use in text-only drop-down lists, such as the ones used in the game setup dialogs. </p>
@@ -145,6 +153,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a67d5cd8ab379bf19cb019a3c10b53132"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CUISimpleDropDownListRow::CompleteConstruction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structCUISimpleDropDownListRow.html#a66478bb9385338a373b0a45254072680">m_row_label</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a4547ab06040cf1b91a1e02e6effda16b"></a>
 <div class="memitem">
@@ -165,6 +199,28 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classCUIDropDownList.html#a0afbba9574dfeb04ec08c6990a39e80a">CUIDropDownList::CUIDropDownList()</a>, and <a class="el" href="classCUILinkTextMultiEdit.html#adf6713b3f797950f2c26859d8320f74a">CUILinkTextMultiEdit::SetLinkedText()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66478bb9385338a373b0a45254072680"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCUILabel.html">CUILabel</a>* CUISimpleDropDownListRow::m_row_label</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structCUISimpleDropDownListRow.html#a67d5cd8ab379bf19cb019a3c10b53132">CompleteConstruction()</a>.</p>
 
 </div>
 </div>
