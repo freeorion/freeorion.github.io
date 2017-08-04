@@ -385,7 +385,7 @@ var searchData=
   ['setplayername',['SetPlayerName',['../classAIClientApp.html#af276a344c5ce4430d64df8b3bfa72382',1,'AIClientApp::SetPlayerName()'],['../classEmpire.html#a0323a71966913acc87d628f89f38e69f',1,'Empire::SetPlayerName()']]],
   ['setplayerstatus',['SetPlayerStatus',['../classClientApp.html#a0b32d1315b535bf78c7eb5fd85c743a6',1,'ClientApp']]],
   ['setpopcenters',['SetPopCenters',['../classPopulationPool.html#afe278de843b60f11c4ae40652479330c',1,'PopulationPool']]],
-  ['setprodqueueelementspending',['SetProdQueueElementSpending',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#ac4cdc60161e8008013262fed279f8ae7',1,'anonymous_namespace{Empire.cpp}']]],
+  ['setprodqueueelementspending',['SetProdQueueElementSpending',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#a58c1c9fd3a7c4b38042f3c943fc1160b',1,'anonymous_namespace{Empire.cpp}']]],
   ['setproductionquantity',['SetProductionQuantity',['../classEmpire.html#a1101bec137817c8c32401d01ad403962',1,'Empire']]],
   ['setproductionquantityandblocksize',['SetProductionQuantityAndBlocksize',['../classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d',1,'Empire']]],
   ['setproductionrallypoint',['SetProductionRallyPoint',['../classEmpire.html#ae2a751f9c71a102c484f38075553c541',1,'Empire']]],
