@@ -7,5 +7,7 @@ var searchData=
   ['linktextptr',['LinkTextPtr',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#aeeab31a4fbe9d7d1ba6c153f57733980',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['location_5frule',['location_rule',['../namespaceparse_1_1detail.html#a5559a0a39258030c589385aacbe026f1',1,'parse::detail']]],
   ['locationxempiretofleetsmap',['LocationXEmpireToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ad50741de22ece0ead9c55e4a4764e963',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['loggercreatedsignaltype',['LoggerCreatedSignalType',['../Logger_8h.html#ac79687968d227e42758b01ffde4f566d',1,'Logger.h']]]
+  ['loggercreatedsignaltype',['LoggerCreatedSignalType',['../Logger_8h.html#ac79687968d227e42758b01ffde4f566d',1,'Logger.h']]],
+  ['loggerfilesinkfrontendconfigurer',['LoggerFileSinkFrontEndConfigurer',['../Logger_8h.html#a1ed82f188389dc1a3acbedcb6302bfa3',1,'Logger.h']]],
+  ['loggertextfilesinkfrontend',['LoggerTextFileSinkFrontend',['../Logger_8h.html#a14245774c13cb716dec8337ba7b1a89e',1,'Logger.h']]]
 ];

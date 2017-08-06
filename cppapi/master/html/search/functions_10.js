@@ -282,5 +282,11 @@ var searchData=
   ['pushback',['PushBack',['../classMessageQueue.html#a4b851bd107da9ff5793d2632c73d3b06',1,'MessageQueue']]],
   ['pushelem1',['PushElem1',['../classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e',1,'XMLDoc']]],
   ['pushelem2',['PushElem2',['../classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6',1,'XMLDoc']]],
-  ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]]
+  ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]],
+  ['pythonlogger',['PythonLogger',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a2343ab286af4b21fda1d6006cb518574',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggerdebug',['PythonLoggerDebug',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a26856c28724a965ff3ca25779c85ee',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggererror',['PythonLoggerError',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a9d8a7d37f0c4da74c3e02f6966d71b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggerinfo',['PythonLoggerInfo',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a26bd0730512b1d1e520384df4391aca0',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggerwarn',['PythonLoggerWarn',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#acc1322f60b401bcf9910bff3245670e6',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggerwrapper',['PythonLoggerWrapper',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a6e2048a5b67b13fe792d451b98017a74',1,'anonymous_namespace{LoggingWrapper.cpp}']]]
 ];
