@@ -20,7 +20,7 @@ var searchData=
   ['s_5fprng_5fmutex',['s_prng_mutex',['../namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec',1,'anonymous_namespace{Random.cpp}']]],
   ['s_5frule_5fdefiner',['s_rule_definer',['../classXMLDoc.html#a8611cb8ab083889b07468062dfd225df',1,'XMLDoc']]],
   ['s_5fscanline_5fshader',['s_scanline_shader',['../classBuildingIndicator.html#a3b284826e037f2149843251240b83776',1,'BuildingIndicator::s_scanline_shader()'],['../classRotatingPlanetControl.html#ae8bd5156f9b629d1145313f33dce7097',1,'RotatingPlanetControl::s_scanline_shader()']]],
-  ['s_5fside_5fpanels',['s_side_panels',['../classSidePanel.html#aed276ab4c640315242c90322ffad3c16',1,'SidePanel']]],
+  ['s_5fside_5fpanels',['s_side_panels',['../classSidePanel.html#ae8cb08ce3021892287ba319fd04db393',1,'SidePanel']]],
   ['s_5fsingleton',['s_singleton',['../classHotkeyManager.html#ad147df6075d0319c2081d891d50331a7',1,'HotkeyManager']]],
   ['s_5fsystem_5fconnections',['s_system_connections',['../classSidePanel.html#a97cccc5a88dc3a10addec247ab957a56',1,'SidePanel']]],
   ['s_5fsystem_5fid',['s_system_id',['../classSidePanel.html#a938aa9a9a05c446115139528bcfa8b14',1,'SidePanel']]],

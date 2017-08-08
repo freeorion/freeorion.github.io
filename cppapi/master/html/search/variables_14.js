@@ -41,7 +41,7 @@ var searchData=
   ['thread',['thread',['../structThreadQueue.html#a17b925c43ccff6f72fa89f7749711aa0',1,'ThreadQueue']]],
   ['tip_5ffalse',['tip_false',['../structOptionsBar_1_1ToggleData.html#ab548e2f002d430df2594a14b2a30610c',1,'OptionsBar::ToggleData']]],
   ['tip_5ftrue',['tip_true',['../structOptionsBar_1_1ToggleData.html#aaebe4e75c556146b89363293295504ef',1,'OptionsBar::ToggleData']]],
-  ['title',['title',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#aef675e137ab788e0cdbdc794b8170065',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
+  ['title',['title',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#aeb85252f2554f911558c828dae524577',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
   ['title_5foffset',['TITLE_OFFSET',['../classCUIWnd.html#ab336a37e9836db3e2c7264571e514fe9',1,'CUIWnd']]],
   ['toggle_5fbar_5fhealth_5fsmooth',['TOGGLE_BAR_HEALTH_SMOOTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a2a5b765b7ea96a065fa44c4d025d50aa',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['toggle_5fbar_5fheight_5fproportional',['TOGGLE_BAR_HEIGHT_PROPORTIONAL',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a6b33a4b7ca9d904dcb7ab103be9454d1',1,'anonymous_namespace{GraphicalSummary.cpp}']]],

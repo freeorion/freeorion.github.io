@@ -241,12 +241,12 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a173189cb98148bbf0d59555f9cec64fc"><td class="memItemLeft" align="right" valign="top">GG::MultiEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a></td></tr>
-<tr class="separator:a173189cb98148bbf0d59555f9cec64fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb11d605ec306330ef6ddc37a98f835c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::MultiEdit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a></td></tr>
+<tr class="separator:abb11d605ec306330ef6ddc37a98f835c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a68b4cc69c38ac649d5ce36a35d1020"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a></td></tr>
 <tr class="separator:a8a68b4cc69c38ac649d5ce36a35d1020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a7b6107efda57962c3c91d75a4696bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessageWndEdit.html">MessageWndEdit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a></td></tr>
-<tr class="separator:a7a7b6107efda57962c3c91d75a4696bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b8e1f573555a9b9754539063882525"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMessageWndEdit.html">MessageWndEdit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a></td></tr>
+<tr class="separator:ab2b8e1f573555a9b9754539063882525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a312ab6bcf709de79e4468075e3dbae2e"><td class="memItemLeft" align="right" valign="top">std::deque&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a></td></tr>
 <tr class="separator:a312ab6bcf709de79e4468075e3dbae2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45042d4e66477989cf128959ae388e13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a></td></tr>
@@ -295,9 +295,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">ResetDefaultPosition</a> ()</td></tr>
 <tr class="memdesc:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">called via signal from the <a class="el" href="classClientUI.html" title="ClientUI Main Module This is the main class of the ClientUI module. it contains objects of many other...">ClientUI</a>, passes the value from <a class="el" href="classCUIWnd.html#a88b783ffa516b66a6df2db24d21745f7" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> to <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a>  <a href="#aec2341f4dd0f771a157b63cd26b6d195">More...</a><br /></td></tr>
 <tr class="separator:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3092060e42bf72191de877783f4906cf">SetParent</a> (GG::Wnd *wnd) override</td></tr>
-<tr class="memdesc:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a3092060e42bf72191de877783f4906cf">More...</a><br /></td></tr>
-<tr class="separator:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5297828be469e40d060500b477b5da49">SetParent</a> (const std::shared_ptr&lt; GG::Wnd &gt; &amp;wnd) override</td></tr>
+<tr class="memdesc:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a5297828be469e40d060500b477b5da49">More...</a><br /></td></tr>
+<tr class="separator:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classCUIWnd"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classCUIWnd')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classCUIWnd.html">CUIWnd</a></td></tr>
 <tr class="memitem:a91ee4fb867a51a8726cd5474cde75269 inherit pro_static_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">AddWindowOptions</a> (const std::string &amp;config_name, int left, int top, int width, int height, bool visible, bool pinned, bool minimized)</td></tr>
 <tr class="memdesc:a91ee4fb867a51a8726cd5474cde75269 inherit pro_static_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <a class="el" href="classOptionsDB.html">OptionsDB</a> entries for a window under a given name along with default values.  <a href="#a91ee4fb867a51a8726cd5474cde75269">More...</a><br /></td></tr>
@@ -314,9 +314,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8b385c28c9d31a58576aac39ca5d916c">m_closable</a></td></tr>
 <tr class="memdesc:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be closed with a button press  <a href="#a8b385c28c9d31a58576aac39ca5d916c">More...</a><br /></td></tr>
 <tr class="separator:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8895f8952291e028ee6028e0aa1795fe">m_close_button</a> = nullptr</td></tr>
-<tr class="memdesc:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#a8895f8952291e028ee6028e0aa1795fe">More...</a><br /></td></tr>
-<tr class="separator:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#abe3cf69538f8c5971fffc77a83895cbe">m_close_button</a> = nullptr</td></tr>
+<tr class="memdesc:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#abe3cf69538f8c5971fffc77a83895cbe">More...</a><br /></td></tr>
+<tr class="separator:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a232097f6c41602c0daf367bdba5f21fe">m_config_name</a></td></tr>
 <tr class="memdesc:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name that this window will use to save its properties to the <a class="el" href="classOptionsDB.html">OptionsDB</a>, the default empty string means "do not save"  <a href="#a232097f6c41602c0daf367bdba5f21fe">More...</a><br /></td></tr>
 <tr class="separator:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,9 +329,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4350162dec0af04d5b5a960e84ade24a">m_minimizable</a></td></tr>
 <tr class="memdesc:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be minimized  <a href="#a4350162dec0af04d5b5a960e84ade24a">More...</a><br /></td></tr>
 <tr class="separator:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a01263b1c368be3b7a6e267c6c10e5adc">m_minimize_button</a> = nullptr</td></tr>
-<tr class="memdesc:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a01263b1c368be3b7a6e267c6c10e5adc">More...</a><br /></td></tr>
-<tr class="separator:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a102ee1becb10d3ca48a555f6daf33259">m_minimize_button</a> = nullptr</td></tr>
+<tr class="memdesc:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a102ee1becb10d3ca48a555f6daf33259">More...</a><br /></td></tr>
+<tr class="separator:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a> = false</td></tr>
 <tr class="memdesc:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is currently minimized  <a href="#a0ba63b9fa9443f4144f003045083e283">More...</a><br /></td></tr>
 <tr class="separator:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,9 +340,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8f6313a8489058063fbe8c5cc83ca946">m_original_size</a></td></tr>
 <tr class="memdesc:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of the size of the window before resizing  <a href="#a8f6313a8489058063fbe8c5cc83ca946">More...</a><br /></td></tr>
 <tr class="separator:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4f5e0228c4afd53519a28a3f4744cce7">m_pin_button</a> = nullptr</td></tr>
-<tr class="memdesc:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#a4f5e0228c4afd53519a28a3f4744cce7">More...</a><br /></td></tr>
-<tr class="separator:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae556620ca4eabeefd8922223732712c9">m_pin_button</a> = nullptr</td></tr>
+<tr class="memdesc:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#ae556620ca4eabeefd8922223732712c9">More...</a><br /></td></tr>
+<tr class="separator:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a038d431b0490c0961286e4c46e3619a0">m_pinable</a></td></tr>
 <tr class="memdesc:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be pinned  <a href="#a038d431b0490c0961286e4c46e3619a0">More...</a><br /></td></tr>
 <tr class="separator:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -409,7 +409,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>.</p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCUIWnd.html#a36f3c792fc0872d003e7fea9ccf4e229">CUIWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#a88c0b5a8b7510b2cf5c71d2bc270fa8c">DoLayout()</a>, <a class="el" href="classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de">DoneTypingSignal</a>, <a class="el" href="classMessageWndEdit.html#ab9f022adc3498aaf50a6e154ffa3281d">MessageWndEdit::DownPressedSignal</a>, <a class="el" href="classCUIEdit.html#a24d0a00ecb3afe043e5fb04dae2835fb">CUIEdit::GainingFocusSignal</a>, <a class="el" href="classCUIEdit.html#a315512d4f69a08e712351a7f473734ca">CUIEdit::LosingFocusSignal</a>, <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageEntered()</a>, <a class="el" href="classMessageWnd.html#a6180da556d44f97bf2cd2c0bd3515c82">MessageHistoryDownRequested()</a>, <a class="el" href="classMessageWnd.html#aa9fc742f9b25d4f982579eb903958eb9">MessageHistoryUpRequested()</a>, <a class="el" href="classMessageWndEdit.html#aee835426aaff9ea1c05e9c97104423e4">MessageWndEdit::TextEnteredSignal</a>, <a class="el" href="classMessageWnd.html#ac38bbae239e9e68536a401a311e60cf7">TypingSignal</a>, and <a class="el" href="classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64">MessageWndEdit::UpPressedSignal</a>.</p>
+<p>References <a class="el" href="classCUIWnd.html#a36f3c792fc0872d003e7fea9ccf4e229">CUIWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#a88c0b5a8b7510b2cf5c71d2bc270fa8c">DoLayout()</a>, <a class="el" href="classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de">DoneTypingSignal</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageEntered()</a>, <a class="el" href="classMessageWnd.html#a6180da556d44f97bf2cd2c0bd3515c82">MessageHistoryDownRequested()</a>, <a class="el" href="classMessageWnd.html#aa9fc742f9b25d4f982579eb903958eb9">MessageHistoryUpRequested()</a>, and <a class="el" href="classMessageWnd.html#ac38bbae239e9e68536a401a311e60cf7">TypingSignal</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257">CUIWnd::INNER_BORDER_ANGLE_OFFSET</a>, <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>, and <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ab70c3b11d1f1622bd25edafa1b240a71">anonymous_namespace{FleetWnd.cpp}::PAD</a>.</p>
+<p>References <a class="el" href="classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257">CUIWnd::INNER_BORDER_ANGLE_OFFSET</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, and <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ab70c3b11d1f1622bd25edafa1b240a71">anonymous_namespace{FleetWnd.cpp}::PAD</a>.</p>
 
 <p>Referenced by <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>, and <a class="el" href="classMessageWnd.html#ad3ae06d566a84f3885c9f8fe36e4793f">PreRender()</a>.</p>
 
@@ -508,9 +508,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, and <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>.</p>
-
-<p>Referenced by <a class="el" href="structWaitingForSPHostAck.html#a989806ec738d00deae151f568fd4d0d5">WaitingForSPHostAck::react()</a>, <a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">WaitingForMPHostAck::react()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">WaitingForMPJoinAck::react()</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, and <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>.</p>
 
 </div>
 </div>
@@ -528,9 +526,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, and <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>.</p>
-
-<p>Referenced by <a class="el" href="classClientUI.html#ab2679f656c2df8e46739986e4850ca8d">ClientUI::DumpObject()</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, and <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>.</p>
 
 </div>
 </div>
@@ -564,7 +560,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3">anonymous_namespace{ChatWnd.cpp}::StringtableTextSubstitute()</a>, and <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classClientApp.html#a02198e1c832276134e5b9547ff4392a6">ClientApp::Players()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3">anonymous_namespace{ChatWnd.cpp}::StringtableTextSubstitute()</a>, and <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>.</p>
 
 </div>
 </div>
@@ -608,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessage.html#ab545e3a47d910cb9a356e138e0534ed5">Message::COLONIZE_AND_SCRAP</a>, <a class="el" href="classMessage.html#a610fbee50432e477d952db733608e2e6">Message::COMBAT</a>, <a class="el" href="classMessage.html#a9d82bfdabf715e9dad053935918f40e5">Message::DOWNLOADING</a>, <a class="el" href="classMessage.html#ad3734738d4a908d130c320c36bba526a">Message::EMPIRE_PRODUCTION</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMessage.html#a90ee2c9e1514d56ac511fcb111e1ccb9">Message::FLEET_MOVEMENT</a>, <a class="el" href="classMessage.html#a6bee315a53a4a1663394d1bf5329caab">Message::GENERATING_UNIVERSE</a>, <a class="el" href="classMessage.html#a9d518df154ba387c4dd6f82a886204eb">Message::LOADING_GAME</a>, <a class="el" href="classMessageWnd.html#a173189cb98148bbf0d59555f9cec64fc">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessage.html#ad4480e58e60597e3a375ce02f2807bcd">Message::PROCESSING_ORDERS</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17">Message::WAITING_FOR_PLAYERS</a>.</p>
+<p>References <a class="el" href="classMessage.html#ab545e3a47d910cb9a356e138e0534ed5">Message::COLONIZE_AND_SCRAP</a>, <a class="el" href="classMessage.html#a610fbee50432e477d952db733608e2e6">Message::COMBAT</a>, <a class="el" href="classMessage.html#a9d82bfdabf715e9dad053935918f40e5">Message::DOWNLOADING</a>, <a class="el" href="classMessage.html#ad3734738d4a908d130c320c36bba526a">Message::EMPIRE_PRODUCTION</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMessage.html#a90ee2c9e1514d56ac511fcb111e1ccb9">Message::FLEET_MOVEMENT</a>, <a class="el" href="classMessage.html#a6bee315a53a4a1663394d1bf5329caab">Message::GENERATING_UNIVERSE</a>, <a class="el" href="classMessage.html#a9d518df154ba387c4dd6f82a886204eb">Message::LOADING_GAME</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessage.html#ad4480e58e60597e3a375ce02f2807bcd">Message::PROCESSING_ORDERS</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17">Message::WAITING_FOR_PLAYERS</a>.</p>
 
 </div>
 </div>
@@ -633,7 +629,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#ae5424cef613b9d8367afbcd66ad72ee7">anonymous_namespace{ChatWnd.cpp}::HandleTextCommand()</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>, and <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a5052d80fb994c2217a1b8d4cdd1d4293">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>.</p>
+<p>References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#ae5424cef613b9d8367afbcd66ad72ee7">anonymous_namespace{ChatWnd.cpp}::HandleTextCommand()</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>, and <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a5052d80fb994c2217a1b8d4cdd1d4293">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>.</p>
 
@@ -660,7 +656,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, and <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, and <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>.</p>
 
 <p>Referenced by <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>.</p>
 
@@ -687,7 +683,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, and <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, and <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>.</p>
 
 <p>Referenced by <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>.</p>
 
@@ -706,9 +702,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, and <a class="el" href="classMessageWnd.html#a7a7b6107efda57962c3c91d75a4696bc">m_edit</a>.</p>
-
-<p>Referenced by <a class="el" href="classMapWnd.html#ad5b7b86ce404222adbcaf7b215a1f2f7">MapWnd::ShowMessages()</a>.</p>
+<p>References <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, and <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>.</p>
 
 </div>
 </div>
@@ -819,7 +813,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a173189cb98148bbf0d59555f9cec64fc"></a>
+<a class="anchor" id="abb11d605ec306330ef6ddc37a98f835c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -827,7 +821,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::MultiEdit* MessageWnd::m_display</td>
+          <td class="memname">std::shared_ptr&lt;GG::MultiEdit&gt; MessageWnd::m_display</td>
         </tr>
       </table>
   </td>
@@ -863,7 +857,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a7b6107efda57962c3c91d75a4696bc"></a>
+<a class="anchor" id="ab2b8e1f573555a9b9754539063882525"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -871,7 +865,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMessageWndEdit.html">MessageWndEdit</a>* MessageWnd::m_edit</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMessageWndEdit.html">MessageWndEdit</a>&gt; MessageWnd::m_edit</td>
         </tr>
       </table>
   </td>

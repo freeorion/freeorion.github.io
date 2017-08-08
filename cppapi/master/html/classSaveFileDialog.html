@@ -253,9 +253,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">ResetDefaultPosition</a> ()</td></tr>
 <tr class="memdesc:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">called via signal from the <a class="el" href="classClientUI.html" title="ClientUI Main Module This is the main class of the ClientUI module. it contains objects of many other...">ClientUI</a>, passes the value from <a class="el" href="classCUIWnd.html#a88b783ffa516b66a6df2db24d21745f7" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> to <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a>  <a href="#aec2341f4dd0f771a157b63cd26b6d195">More...</a><br /></td></tr>
 <tr class="separator:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3092060e42bf72191de877783f4906cf">SetParent</a> (GG::Wnd *wnd) override</td></tr>
-<tr class="memdesc:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a3092060e42bf72191de877783f4906cf">More...</a><br /></td></tr>
-<tr class="separator:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5297828be469e40d060500b477b5da49">SetParent</a> (const std::shared_ptr&lt; GG::Wnd &gt; &amp;wnd) override</td></tr>
+<tr class="memdesc:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a5297828be469e40d060500b477b5da49">More...</a><br /></td></tr>
+<tr class="separator:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -306,33 +306,33 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1b1d05a2d23cedb28ff82e0289fba63b"><td class="memItemLeft" align="right" valign="top">GG::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a1b1d05a2d23cedb28ff82e0289fba63b">m_confirm_btn</a></td></tr>
-<tr class="memdesc:a1b1d05a2d23cedb28ff82e0289fba63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to confirm choice.  <a href="#a1b1d05a2d23cedb28ff82e0289fba63b">More...</a><br /></td></tr>
-<tr class="separator:a1b1d05a2d23cedb28ff82e0289fba63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270279294a66a21847217dd0fb29a20c"><td class="memItemLeft" align="right" valign="top">GG::Edit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a></td></tr>
-<tr class="memdesc:a270279294a66a21847217dd0fb29a20c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The editor for the save directory.  <a href="#a270279294a66a21847217dd0fb29a20c">More...</a><br /></td></tr>
-<tr class="separator:a270279294a66a21847217dd0fb29a20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b7fbbd090496f0aab9c25a1ac739fe"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#ab8b7fbbd090496f0aab9c25a1ac739fe">m_confirm_btn</a></td></tr>
+<tr class="memdesc:ab8b7fbbd090496f0aab9c25a1ac739fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to confirm choice;.  <a href="#ab8b7fbbd090496f0aab9c25a1ac739fe">More...</a><br /></td></tr>
+<tr class="separator:ab8b7fbbd090496f0aab9c25a1ac739fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc88e506b60f187537092f573863dfa"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Edit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a></td></tr>
+<tr class="memdesc:a0bc88e506b60f187537092f573863dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The editor for the save directory;.  <a href="#a0bc88e506b60f187537092f573863dfa">More...</a><br /></td></tr>
+<tr class="separator:a0bc88e506b60f187537092f573863dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fa935630bcff87899513eeee880ea0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a></td></tr>
 <tr class="memdesc:a09fa935630bcff87899513eeee880ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The save game file name extension.  <a href="#a09fa935630bcff87899513eeee880ea0">More...</a><br /></td></tr>
 <tr class="separator:a09fa935630bcff87899513eeee880ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e6d37725184991072653bc54d68ff14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSaveFileListBox.html">SaveFileListBox</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a></td></tr>
-<tr class="memdesc:a3e6d37725184991072653bc54d68ff14"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of available saves.  <a href="#a3e6d37725184991072653bc54d68ff14">More...</a><br /></td></tr>
-<tr class="separator:a3e6d37725184991072653bc54d68ff14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a508961efc34955eb245952c26aef461d"><td class="memItemLeft" align="right" valign="top">GG::Layout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a508961efc34955eb245952c26aef461d">m_layout</a></td></tr>
-<tr class="memdesc:a508961efc34955eb245952c26aef461d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout of the dialog.  <a href="#a508961efc34955eb245952c26aef461d">More...</a><br /></td></tr>
-<tr class="separator:a508961efc34955eb245952c26aef461d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8708e2b33131ae53e6bdbd4dc7abdf70"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSaveFileListBox.html">SaveFileListBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a></td></tr>
+<tr class="memdesc:a8708e2b33131ae53e6bdbd4dc7abdf70"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of available saves.  <a href="#a8708e2b33131ae53e6bdbd4dc7abdf70">More...</a><br /></td></tr>
+<tr class="separator:a8708e2b33131ae53e6bdbd4dc7abdf70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947e20a347f4be9411b32bd4688de9a6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Layout &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a947e20a347f4be9411b32bd4688de9a6">m_layout</a></td></tr>
+<tr class="memdesc:a947e20a347f4be9411b32bd4688de9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout of the dialog;.  <a href="#a947e20a347f4be9411b32bd4688de9a6">More...</a><br /></td></tr>
+<tr class="separator:a947e20a347f4be9411b32bd4688de9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaaafcc653df454d4e0778154e05522a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a></td></tr>
 <tr class="memdesc:acaaafcc653df454d4e0778154e05522a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we are loading.  <a href="#acaaafcc653df454d4e0778154e05522a">More...</a><br /></td></tr>
 <tr class="separator:acaaafcc653df454d4e0778154e05522a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad118d283ca16d30206f96b4274fd5fb7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#ad118d283ca16d30206f96b4274fd5fb7">m_loaded_dir</a></td></tr>
 <tr class="memdesc:ad118d283ca16d30206f96b4274fd5fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The directory whose contents are currently shown.  <a href="#ad118d283ca16d30206f96b4274fd5fb7">More...</a><br /></td></tr>
 <tr class="separator:ad118d283ca16d30206f96b4274fd5fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefff7544fc25ccdc49aff68c3fb67407"><td class="memItemLeft" align="right" valign="top">GG::Edit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a></td></tr>
-<tr class="memdesc:aefff7544fc25ccdc49aff68c3fb67407"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file name edit control.  <a href="#aefff7544fc25ccdc49aff68c3fb67407">More...</a><br /></td></tr>
-<tr class="separator:aefff7544fc25ccdc49aff68c3fb67407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb73d6ab8615fe33e2f593ac2c523256"><td class="memItemLeft" align="right" valign="top">GG::DropDownList *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#afb73d6ab8615fe33e2f593ac2c523256">m_remote_dir_dropdown</a></td></tr>
-<tr class="memdesc:afb73d6ab8615fe33e2f593ac2c523256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown to select remote dir.  <a href="#afb73d6ab8615fe33e2f593ac2c523256">More...</a><br /></td></tr>
-<tr class="separator:afb73d6ab8615fe33e2f593ac2c523256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d50260f167a620046c545a9728114d7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Edit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a></td></tr>
+<tr class="memdesc:a4d50260f167a620046c545a9728114d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file name edit control;.  <a href="#a4d50260f167a620046c545a9728114d7">More...</a><br /></td></tr>
+<tr class="separator:a4d50260f167a620046c545a9728114d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d94b7ae83fe83992aec6cdf31915d3"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::DropDownList &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a22d94b7ae83fe83992aec6cdf31915d3">m_remote_dir_dropdown</a></td></tr>
+<tr class="memdesc:a22d94b7ae83fe83992aec6cdf31915d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown to select remote dir;.  <a href="#a22d94b7ae83fe83992aec6cdf31915d3">More...</a><br /></td></tr>
+<tr class="separator:a22d94b7ae83fe83992aec6cdf31915d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a395d610d8c5899bda98d8f378d57388a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a></td></tr>
 <tr class="memdesc:a395d610d8c5899bda98d8f378d57388a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, get the previews from the server.  <a href="#a395d610d8c5899bda98d8f378d57388a">More...</a><br /></td></tr>
 <tr class="separator:a395d610d8c5899bda98d8f378d57388a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,9 +359,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8b385c28c9d31a58576aac39ca5d916c">m_closable</a></td></tr>
 <tr class="memdesc:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be closed with a button press  <a href="#a8b385c28c9d31a58576aac39ca5d916c">More...</a><br /></td></tr>
 <tr class="separator:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8895f8952291e028ee6028e0aa1795fe">m_close_button</a> = nullptr</td></tr>
-<tr class="memdesc:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#a8895f8952291e028ee6028e0aa1795fe">More...</a><br /></td></tr>
-<tr class="separator:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#abe3cf69538f8c5971fffc77a83895cbe">m_close_button</a> = nullptr</td></tr>
+<tr class="memdesc:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#abe3cf69538f8c5971fffc77a83895cbe">More...</a><br /></td></tr>
+<tr class="separator:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a232097f6c41602c0daf367bdba5f21fe">m_config_name</a></td></tr>
 <tr class="memdesc:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name that this window will use to save its properties to the <a class="el" href="classOptionsDB.html">OptionsDB</a>, the default empty string means "do not save"  <a href="#a232097f6c41602c0daf367bdba5f21fe">More...</a><br /></td></tr>
 <tr class="separator:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,9 +374,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4350162dec0af04d5b5a960e84ade24a">m_minimizable</a></td></tr>
 <tr class="memdesc:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be minimized  <a href="#a4350162dec0af04d5b5a960e84ade24a">More...</a><br /></td></tr>
 <tr class="separator:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a01263b1c368be3b7a6e267c6c10e5adc">m_minimize_button</a> = nullptr</td></tr>
-<tr class="memdesc:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a01263b1c368be3b7a6e267c6c10e5adc">More...</a><br /></td></tr>
-<tr class="separator:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a102ee1becb10d3ca48a555f6daf33259">m_minimize_button</a> = nullptr</td></tr>
+<tr class="memdesc:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a102ee1becb10d3ca48a555f6daf33259">More...</a><br /></td></tr>
+<tr class="separator:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a> = false</td></tr>
 <tr class="memdesc:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is currently minimized  <a href="#a0ba63b9fa9443f4144f003045083e283">More...</a><br /></td></tr>
 <tr class="separator:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -385,9 +385,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8f6313a8489058063fbe8c5cc83ca946">m_original_size</a></td></tr>
 <tr class="memdesc:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of the size of the window before resizing  <a href="#a8f6313a8489058063fbe8c5cc83ca946">More...</a><br /></td></tr>
 <tr class="separator:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4f5e0228c4afd53519a28a3f4744cce7">m_pin_button</a> = nullptr</td></tr>
-<tr class="memdesc:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#a4f5e0228c4afd53519a28a3f4744cce7">More...</a><br /></td></tr>
-<tr class="separator:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae556620ca4eabeefd8922223732712c9">m_pin_button</a> = nullptr</td></tr>
+<tr class="memdesc:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#ae556620ca4eabeefd8922223732712c9">More...</a><br /></td></tr>
+<tr class="separator:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a038d431b0490c0961286e4c46e3619a0">m_pinable</a></td></tr>
 <tr class="memdesc:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be pinned  <a href="#a038d431b0490c0961286e4c46e3619a0">More...</a><br /></td></tr>
 <tr class="separator:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,7 +553,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>when a file is trying to be deleted </p>
 
-<p>References <a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad2bae2eae8c245c6f10bb0893be5dc6c">anonymous_namespace{SaveFileDialog.cpp}::Prompt()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad2bae2eae8c245c6f10bb0893be5dc6c">anonymous_namespace{SaveFileDialog.cpp}::Prompt()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, and <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>.</p>
 
@@ -611,7 +611,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>when m_load_btn button is pressed </p>
 
-<p>References <a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CUIWnd::CloseClicked()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>.</p>
+<p>References <a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CUIWnd::CloseClicked()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, and <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>.</p>
 
@@ -640,7 +640,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Disables confirm if filename invalid. Returns false if not valid. </p>
 
-<p>References <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileListBox.html#ac366edec6e39c1a51295db7be4b045d0">SaveFileListBox::HasFile()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#aff0caf5a6daeaf67d6ef983a8833e4f0">anonymous_namespace{SaveFileDialog.cpp}::HasRow()</a>, <a class="el" href="classSaveFileDialog.html#a1b1d05a2d23cedb28ff82e0289fba63b">m_confirm_btn</a>, <a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#afb73d6ab8615fe33e2f593ac2c523256">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, and <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>.</p>
+<p>References <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#aff0caf5a6daeaf67d6ef983a8833e4f0">anonymous_namespace{SaveFileDialog.cpp}::HasRow()</a>, <a class="el" href="classSaveFileDialog.html#ab8b7fbbd090496f0aab9c25a1ac739fe">m_confirm_btn</a>, <a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#a22d94b7ae83fe83992aec6cdf31915d3">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, and <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="classSaveFileDialog.html#a352b92b71300f6ea2baa4681fa00733e">DirectoryEdited()</a>, <a class="el" href="classSaveFileDialog.html#a991e3c32d2ac3dd854200e74128e8dd6">FileNameEdited()</a>, <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>, <a class="el" href="classSaveFileDialog.html#a20bf9ccefba5fe3cbec26e8567ccc421">SelectionChanged()</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
 
@@ -702,7 +702,7 @@ Additional Inherited Members</h2></td></tr>
 <p>when m_save_btn button is pressed </p>
 <p>Check if we chose a directory </p>
 
-<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CUIWnd::CloseClicked()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31">IsValidUTF8()</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad2bae2eae8c245c6f10bb0893be5dc6c">anonymous_namespace{SaveFileDialog.cpp}::Prompt()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CUIWnd::CloseClicked()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31">IsValidUTF8()</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad2bae2eae8c245c6f10bb0893be5dc6c">anonymous_namespace{SaveFileDialog.cpp}::Prompt()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f">DoubleClickRow()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, and <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>.</p>
 
@@ -732,7 +732,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>On remote directory select. </p>
 
-<p>References <a class="el" href="classSaveFileDialog.html#afb73d6ab8615fe33e2f593ac2c523256">m_remote_dir_dropdown</a>, and <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a22d94b7ae83fe83992aec6cdf31915d3">m_remote_dir_dropdown</a>, and <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>.</p>
 
@@ -806,7 +806,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, and <a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, and <a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>.</p>
 
@@ -865,7 +865,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Gets the current directory path string clean of display decorations. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a>, and <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a>, and <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
 
@@ -892,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, <a class="el" href="classCUIWnd.html#ab74367691680623b6f7394526380e6ec">CUIWnd::BottomBorder()</a>, <a class="el" href="classSaveFileDialog.html#a9d97f089db46d9a223f965a201cf14b0">Cancel()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classSaveFileDialog.html#a90b0584fc3f4904a5044b1128e3a0b62">DirectoryDropdownSelect()</a>, <a class="el" href="classSaveFileDialog.html#a352b92b71300f6ea2baa4681fa00733e">DirectoryEdited()</a>, <a class="el" href="classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f">DoubleClickRow()</a>, <a class="el" href="classSaveFileDialog.html#a991e3c32d2ac3dd854200e74128e8dd6">FileNameEdited()</a>, <a class="el" href="Directories_8cpp.html#a878c6bb4d43be96570e86d3a6a2976bd">FilenameTimestamp()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classClientUI.html#a2b5d1646982a2662880b88ca0ef30e88">ClientUI::GetFont()</a>, <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>, <a class="el" href="classCUIWnd.html#a71c1beba0e0aa1130c618f31ddb3b35d">CUIWnd::LeftBorder()</a>, <a class="el" href="classSaveFileDialog.html#a1b1d05a2d23cedb28ff82e0289fba63b">m_confirm_btn</a>, <a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#a508961efc34955eb245952c26aef461d">m_layout</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#afb73d6ab8615fe33e2f593ac2c523256">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="MultiplayerCommon_8cpp.html#a032d8ffd274039c6c1a3616d0c1eb75a">MP_SAVE_FILE_EXTENSION</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">CUIWnd::ResetDefaultPosition()</a>, <a class="el" href="classCUIWnd.html#acfd4a60669a26d7dd4f31bcce9bb6731">CUIWnd::RightBorder()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a2e6a3ee3638f594a0f6c60ee91e40ed6">anonymous_namespace{SaveFileDialog.cpp}::SAVE_FILE_BUTTON_MARGIN()</a>, <a class="el" href="classSaveFileDialog.html#a20bf9ccefba5fe3cbec26e8567ccc421">SelectionChanged()</a>, <a class="el" href="classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SetDirPath()</a>, <a class="el" href="classHumanClientApp.html#ad534d90468deb4c2bedd67fb1d1771e9">HumanClientApp::SinglePlayerGame()</a>, <a class="el" href="MultiplayerCommon_8cpp.html#a8df2a27573ddeb9deabc50e42b9326bd">SP_SAVE_FILE_EXTENSION</a>, <a class="el" href="classCUIWnd.html#a6ac6c62c72dc775d97b7f6f38dc25df9">CUIWnd::TopBorder()</a>, <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, <a class="el" href="classCUIWnd.html#ab74367691680623b6f7394526380e6ec">CUIWnd::BottomBorder()</a>, <a class="el" href="classSaveFileDialog.html#a9d97f089db46d9a223f965a201cf14b0">Cancel()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classSaveFileDialog.html#a90b0584fc3f4904a5044b1128e3a0b62">DirectoryDropdownSelect()</a>, <a class="el" href="classSaveFileDialog.html#a352b92b71300f6ea2baa4681fa00733e">DirectoryEdited()</a>, <a class="el" href="classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f">DoubleClickRow()</a>, <a class="el" href="classSaveFileDialog.html#a991e3c32d2ac3dd854200e74128e8dd6">FileNameEdited()</a>, <a class="el" href="Directories_8cpp.html#a878c6bb4d43be96570e86d3a6a2976bd">FilenameTimestamp()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classClientUI.html#a2b5d1646982a2662880b88ca0ef30e88">ClientUI::GetFont()</a>, <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>, <a class="el" href="classCUIWnd.html#a71c1beba0e0aa1130c618f31ddb3b35d">CUIWnd::LeftBorder()</a>, <a class="el" href="classSaveFileDialog.html#ab8b7fbbd090496f0aab9c25a1ac739fe">m_confirm_btn</a>, <a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#a947e20a347f4be9411b32bd4688de9a6">m_layout</a>, <a class="el" href="classSaveFileDialog.html#acaaafcc653df454d4e0778154e05522a">m_load_only</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, <a class="el" href="classSaveFileDialog.html#a22d94b7ae83fe83992aec6cdf31915d3">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="MultiplayerCommon_8cpp.html#a032d8ffd274039c6c1a3616d0c1eb75a">MP_SAVE_FILE_EXTENSION</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">CUIWnd::ResetDefaultPosition()</a>, <a class="el" href="classCUIWnd.html#acfd4a60669a26d7dd4f31bcce9bb6731">CUIWnd::RightBorder()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a2e6a3ee3638f594a0f6c60ee91e40ed6">anonymous_namespace{SaveFileDialog.cpp}::SAVE_FILE_BUTTON_MARGIN()</a>, <a class="el" href="classSaveFileDialog.html#a20bf9ccefba5fe3cbec26e8567ccc421">SelectionChanged()</a>, <a class="el" href="classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SetDirPath()</a>, <a class="el" href="classHumanClientApp.html#ad534d90468deb4c2bedd67fb1d1771e9">HumanClientApp::SinglePlayerGame()</a>, <a class="el" href="MultiplayerCommon_8cpp.html#a8df2a27573ddeb9deabc50e42b9326bd">SP_SAVE_FILE_EXTENSION</a>, <a class="el" href="classCUIWnd.html#a6ac6c62c72dc775d97b7f6f38dc25df9">CUIWnd::TopBorder()</a>, <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#ae92a3bcb636947b18e09566a9657514e">CompleteConstruction()</a>.</p>
 
@@ -936,7 +936,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, <a class="el" href="classSaveFileDialog.html#a9d97f089db46d9a223f965a201cf14b0">Cancel()</a>, <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#ad118d283ca16d30206f96b4274fd5fb7">m_loaded_dir</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, <a class="el" href="classSaveFileDialog.html#a9d97f089db46d9a223f965a201cf14b0">Cancel()</a>, <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#ad118d283ca16d30206f96b4274fd5fb7">m_loaded_dir</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1004,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get the chosen save files full path. </p>
 
-<p>References <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>, and <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>.</p>
+<p>References <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>, and <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, and <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>.</p>
 
@@ -1034,7 +1034,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>When file selection changes. </p>
 
-<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classSaveFileRow.html#a7b015d09b2044293ef78a2624a5cd43a">SaveFileRow::Filename()</a>, and <a class="el" href="classSaveFileDialog.html#aefff7544fc25ccdc49aff68c3fb67407">m_name_edit</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classSaveFileRow.html#a7b015d09b2044293ef78a2624a5cd43a">SaveFileRow::Filename()</a>, and <a class="el" href="classSaveFileDialog.html#a4d50260f167a620046c545a9728114d7">m_name_edit</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>.</p>
 
@@ -1064,7 +1064,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Sets the shown directory path, applying decorations if applicable. </p>
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a58af4fa089307b11384560b8c0299c87">anonymous_namespace{SaveFileDialog.cpp}::GenericPathString()</a>, <a class="el" href="classSaveFileDialog.html#a270279294a66a21847217dd0fb29a20c">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, and <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a58af4fa089307b11384560b8c0299c87">anonymous_namespace{SaveFileDialog.cpp}::GenericPathString()</a>, <a class="el" href="classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa">m_current_dir_edit</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, and <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
 
@@ -1121,14 +1121,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="structPreviewInformation.html#a41586add48de3c52db7458b186ffbb9a">PreviewInformation::folder</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileListBox.html#a4004069724e3a3057b7cd4845fd36499">SaveFileListBox::Init()</a>, <a class="el" href="classSaveFileListBox.html#a47ba8625808c9edb26b87906d6b0f0a8">SaveFileListBox::LoadSaveGamePreviews()</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#a3e6d37725184991072653bc54d68ff14">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#afb73d6ab8615fe33e2f593ac2c523256">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="structPreviewInformation.html#a2f0b5ee8dc7cd716c567a391ea21d1a7">PreviewInformation::previews</a>, <a class="el" href="classHumanClientApp.html#a2e4e409e895659bb289d95a7df806aa6">HumanClientApp::RequestSavePreviews()</a>, <a class="el" href="classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SetDirPath()</a>, and <a class="el" href="structPreviewInformation.html#a0b4ea30eaa855225e02ce482860a0a31">PreviewInformation::subdirectories</a>.</p>
+<p>References <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Directories_8cpp.html#a7adbb0746f4e42467a0cc9bf88f36a49">FilenameToPath()</a>, <a class="el" href="structPreviewInformation.html#a41586add48de3c52db7458b186ffbb9a">PreviewInformation::folder</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0">m_extension</a>, <a class="el" href="classSaveFileDialog.html#a8708e2b33131ae53e6bdbd4dc7abdf70">m_file_list</a>, <a class="el" href="classSaveFileDialog.html#a22d94b7ae83fe83992aec6cdf31915d3">m_remote_dir_dropdown</a>, <a class="el" href="classSaveFileDialog.html#a395d610d8c5899bda98d8f378d57388a">m_server_previews</a>, <a class="el" href="structPreviewInformation.html#a2f0b5ee8dc7cd716c567a391ea21d1a7">PreviewInformation::previews</a>, <a class="el" href="classHumanClientApp.html#a2e4e409e895659bb289d95a7df806aa6">HumanClientApp::RequestSavePreviews()</a>, <a class="el" href="classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SetDirPath()</a>, and <a class="el" href="structPreviewInformation.html#a0b4ea30eaa855225e02ce482860a0a31">PreviewInformation::subdirectories</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>, and <a class="el" href="classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665">UpdateDirectory()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1b1d05a2d23cedb28ff82e0289fba63b"></a>
+<a class="anchor" id="ab8b7fbbd090496f0aab9c25a1ac739fe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1136,7 +1136,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::Button* SaveFileDialog::m_confirm_btn</td>
+          <td class="memname">std::shared_ptr&lt;GG::Button&gt; SaveFileDialog::m_confirm_btn</td>
         </tr>
       </table>
   </td>
@@ -1146,13 +1146,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Button to confirm choice. </p>
+<p>Button to confirm choice;. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, and <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a270279294a66a21847217dd0fb29a20c"></a>
+<a class="anchor" id="a0bc88e506b60f187537092f573863dfa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1160,7 +1160,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::Edit* SaveFileDialog::m_current_dir_edit</td>
+          <td class="memname">std::shared_ptr&lt;GG::Edit&gt; SaveFileDialog::m_current_dir_edit</td>
         </tr>
       </table>
   </td>
@@ -1170,7 +1170,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The editor for the save directory. </p>
+<p>The editor for the save directory;. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a2a471045fa72365c2ef058a8f9ea6c72">GetDirPath()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>, and <a class="el" href="classSaveFileDialog.html#a32c6fd0b8912b35c3fa104af8fcc36fd">SetDirPath()</a>.</p>
 
@@ -1200,7 +1200,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3e6d37725184991072653bc54d68ff14"></a>
+<a class="anchor" id="a8708e2b33131ae53e6bdbd4dc7abdf70"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1208,7 +1208,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSaveFileListBox.html">SaveFileListBox</a>* SaveFileDialog::m_file_list</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classSaveFileListBox.html">SaveFileListBox</a>&gt; SaveFileDialog::m_file_list</td>
         </tr>
       </table>
   </td>
@@ -1224,7 +1224,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a508961efc34955eb245952c26aef461d"></a>
+<a class="anchor" id="a947e20a347f4be9411b32bd4688de9a6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1232,7 +1232,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::Layout* SaveFileDialog::m_layout</td>
+          <td class="memname">std::shared_ptr&lt;GG::Layout&gt; SaveFileDialog::m_layout</td>
         </tr>
       </table>
   </td>
@@ -1242,7 +1242,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The layout of the dialog. </p>
+<p>The layout of the dialog;. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>.</p>
 
@@ -1296,7 +1296,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aefff7544fc25ccdc49aff68c3fb67407"></a>
+<a class="anchor" id="a4d50260f167a620046c545a9728114d7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1304,7 +1304,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::Edit* SaveFileDialog::m_name_edit</td>
+          <td class="memname">std::shared_ptr&lt;GG::Edit&gt; SaveFileDialog::m_name_edit</td>
         </tr>
       </table>
   </td>
@@ -1314,13 +1314,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The file name edit control. </p>
+<p>The file name edit control;. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae">AskDelete()</a>, <a class="el" href="classSaveFileDialog.html#a9d97f089db46d9a223f965a201cf14b0">Cancel()</a>, <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">Confirm()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, <a class="el" href="classSaveFileDialog.html#ae4cb3b61ecd8920a0a028cda394da653">KeyPress()</a>, <a class="el" href="classSaveFileDialog.html#af66bd56b0630effe21ad333a162532b9">ModalInit()</a>, <a class="el" href="classSaveFileDialog.html#af6e368fef76528eb6f573f7c9a883d10">Result()</a>, and <a class="el" href="classSaveFileDialog.html#a20bf9ccefba5fe3cbec26e8567ccc421">SelectionChanged()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afb73d6ab8615fe33e2f593ac2c523256"></a>
+<a class="anchor" id="a22d94b7ae83fe83992aec6cdf31915d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1328,7 +1328,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GG::DropDownList* SaveFileDialog::m_remote_dir_dropdown</td>
+          <td class="memname">std::shared_ptr&lt;GG::DropDownList&gt; SaveFileDialog::m_remote_dir_dropdown</td>
         </tr>
       </table>
   </td>
@@ -1338,7 +1338,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Dropdown to select remote dir. </p>
+<p>Dropdown to select remote dir;. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a90b0584fc3f4904a5044b1128e3a0b62">DirectoryDropdownSelect()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">Init()</a>, and <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">UpdatePreviewList()</a>.</p>
 

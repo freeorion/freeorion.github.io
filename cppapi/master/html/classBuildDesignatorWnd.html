@@ -228,12 +228,12 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a547e50ed2e70c232763a7524a3666eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html">BuildSelector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a></td></tr>
-<tr class="separator:a547e50ed2e70c232763a7524a3666eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a366863a9eb92499b6a96cb780814f557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEncyclopediaDetailPanel.html">EncyclopediaDetailPanel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a></td></tr>
-<tr class="separator:a366863a9eb92499b6a96cb780814f557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab92ef491c84e337efb0200589c647bba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSidePanel.html">SidePanel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a></td></tr>
-<tr class="separator:ab92ef491c84e337efb0200589c647bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcf55720b1e239261b591859e60a924"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html">BuildSelector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a></td></tr>
+<tr class="separator:a1dcf55720b1e239261b591859e60a924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2376a73641ef6456ccb9786e215fbe0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEncyclopediaDetailPanel.html">EncyclopediaDetailPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a></td></tr>
+<tr class="separator:ab2376a73641ef6456ccb9786e215fbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857272ef6d6f8eecac2c34b345a6baa8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSidePanel.html">SidePanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a></td></tr>
+<tr class="separator:a857272ef6d6f8eecac2c34b345a6baa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f8823c28c57ff142dbefc0e635a811d"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a></td></tr>
 <tr class="memdesc:a8f8823c28c57ff142dbefc0e635a811d"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from system id to id of planet to auto select when viewing each system  <a href="#a8f8823c28c57ff142dbefc0e635a811d">More...</a><br /></td></tr>
 <tr class="separator:a8f8823c28c57ff142dbefc0e635a811d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,7 +331,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, and <a class="el" href="classSidePanel.html#af2f4116840b83822ac0d6fb0d706f80f">SidePanel::SelectedPlanetID()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a0f5cc6650becf35f369a4d2730ebd766">BuildItemRequested()</a>, and <a class="el" href="classBuildDesignatorWnd.html#ac951d5067900128e8699ad259a291cc4">SelectPlanet()</a>.</p>
 
@@ -398,9 +398,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classMapWnd.html#aa03fd3621db12f0a3821463b2414e322">MapWnd::CenterOnObject()</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classHumanClientApp.html#acd32b52bbd3eabf669f5ba323291371a">HumanClientApp::GetClientUI()</a>, <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classClientUI.html#ac323859536c77eb6727afc37905eb3ca">ClientUI::GetMapWnd()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classBuildDesignatorWnd.html#ac951d5067900128e8699ad259a291cc4">SelectPlanet()</a>, <a class="el" href="classMapWnd.html#aa52b413b4909851a4684747345863119">MapWnd::SelectSystem()</a>, <a class="el" href="classBuildDesignatorWnd.html#a3c1c60a47603783dbcda1377094e0a24">SetBuild()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">ProductionWnd::AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#a58101c6d5c17a87140d6d837900ba042">ProductionWnd::CenterOnBuild()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">ProductionWnd::QueueItemClickedSlot()</a>, and <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">ProductionWnd::QueueItemDoubleClickedSlot()</a>.</p>
+<p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classHumanClientApp.html#acd32b52bbd3eabf669f5ba323291371a">HumanClientApp::GetClientUI()</a>, <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classClientUI.html#aa7f24795204ae6509d1da8f2eb7ca275">ClientUI::GetMapWnd()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classBuildDesignatorWnd.html#ac951d5067900128e8699ad259a291cc4">SelectPlanet()</a>, <a class="el" href="classBuildDesignatorWnd.html#a3c1c60a47603783dbcda1377094e0a24">SetBuild()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 </div>
 </div>
@@ -420,7 +418,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a>, <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>, and <a class="el" href="classSidePanel.html#a13bb159e7813db0e36cd939e91eae1ba">SidePanel::SetSystem()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>, and <a class="el" href="classProductionWnd.html#a18c9ae0c2faf8764b7668669a13f67f4">ProductionWnd::Sanitize()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>.</p>
 
 </div>
 </div>
@@ -445,7 +443,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd.html#a0f5cc6650becf35f369a4d2730ebd766">BuildItemRequested()</a>, <a class="el" href="classBuildDesignatorWnd.html#a96d5e8e2173ee92a81ef092bedc1af7c">Clear()</a>, <a class="el" href="CUIWnd_8h.html#a29939f26526b7869ea5962c54be0edec">CLOSABLE</a>, <a class="el" href="classEncyclopediaDetailPanel.html#abc93f34d1799fe09ebc49485d9743521">EncyclopediaDetailPanel::ClosingSignal</a>, <a class="el" href="classSidePanel.html#a1b5e8a10664ec74463bbc936964faa84">SidePanel::EnableSelection()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1d05db96ef72e12ec6168ede24a630b3">HidePedia()</a>, <a class="el" href="classBuildDesignatorWnd.html#ae8cebf8612819b1ba9bd4b895b994ddd">InitializeWindows()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, <a class="el" href="CUIWnd_8h.html#aea667fffdabf671aa4654cacf52a2123">PINABLE</a>, <a class="el" href="classSidePanel.html#a0add6e344d574f045e78ffc541d7bee3">SidePanel::PlanetSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#a27acc0a48a497f8ecf0c2d435bb6b218">PlanetSelectedSignal</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a2cefd6cae6f2dac8b31b620531c283f5">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_SELECTOR_WND_NAME</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a8f3fd138cc3b49c1d8187375b65adcff">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_SIDEPANEL_WND_NAME</a>, <a class="el" href="classHumanClientApp.html#a9653e1e62e3ab6c23a5d31f2bbed8772">HumanClientApp::RepositionWindowsSignal</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab415b989e320884b3b1874732bf85f24">EncyclopediaDetailPanel::SetItem()</a>, <a class="el" href="classBuildDesignatorWnd.html#a051cf3d9f411541648b84d3ee9d866f0">ShowPedia()</a>, <a class="el" href="classSidePanel.html#ae8ca023c43a820616ee13aaf302f45d3">SidePanel::SystemSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#a8b7209b9d5979dce2771ae039ecba4e5">SystemSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#af22c735e592d87917c82180ecf92934f">ToggleAvailabilitly()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693">ToggleType()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd.html#a0f5cc6650becf35f369a4d2730ebd766">BuildItemRequested()</a>, <a class="el" href="classBuildDesignatorWnd.html#a96d5e8e2173ee92a81ef092bedc1af7c">Clear()</a>, <a class="el" href="CUIWnd_8h.html#a29939f26526b7869ea5962c54be0edec">CLOSABLE</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1d05db96ef72e12ec6168ede24a630b3">HidePedia()</a>, <a class="el" href="classBuildDesignatorWnd.html#ae8cebf8612819b1ba9bd4b895b994ddd">InitializeWindows()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>, <a class="el" href="CUIWnd_8h.html#aea667fffdabf671aa4654cacf52a2123">PINABLE</a>, <a class="el" href="classSidePanel.html#a0add6e344d574f045e78ffc541d7bee3">SidePanel::PlanetSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#a27acc0a48a497f8ecf0c2d435bb6b218">PlanetSelectedSignal</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a2cefd6cae6f2dac8b31b620531c283f5">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_SELECTOR_WND_NAME</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a8f3fd138cc3b49c1d8187375b65adcff">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_SIDEPANEL_WND_NAME</a>, <a class="el" href="classHumanClientApp.html#a9653e1e62e3ab6c23a5d31f2bbed8772">HumanClientApp::RepositionWindowsSignal</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab415b989e320884b3b1874732bf85f24">EncyclopediaDetailPanel::SetItem()</a>, <a class="el" href="classBuildDesignatorWnd.html#a051cf3d9f411541648b84d3ee9d866f0">ShowPedia()</a>, <a class="el" href="classSidePanel.html#ae8ca023c43a820616ee13aaf302f45d3">SidePanel::SystemSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#a8b7209b9d5979dce2771ae039ecba4e5">SystemSelectedSignal</a>, <a class="el" href="classBuildDesignatorWnd.html#af22c735e592d87917c82180ecf92934f">ToggleAvailabilitly()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693">ToggleType()</a>.</p>
 
 </div>
 </div>
@@ -463,7 +461,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>.first -&gt; available items; .second -&gt; unavailable items </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a929efdabef32d188ba2301dc6047eb00">BuildDesignatorWnd::BuildSelector::GetAvailabilitiesShown()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 </div>
 </div>
@@ -481,7 +479,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns set of BulldType shown in this selector </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a6822b015aafa53f6255d582265cfa5e5">BuildDesignatorWnd::BuildSelector::GetBuildTypesShown()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 </div>
 </div>
@@ -500,7 +498,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a6c4ec2d887a374c6e8eb0c9b148c4ba9">BuildDesignatorWnd::BuildSelector::HideAllTypes()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9b65dc440b61500556140b47310a5f9a">BuildDesignatorWnd::BuildSelector::m_build_type_buttons</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, and <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a715d0e22cfb549f330cb35342314c35d">ToggleAllTypes()</a>.</p>
 
@@ -531,7 +529,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a8e9ab22d3021532ac7a7cd36d4270f86">BuildDesignatorWnd::BuildSelector::HideAvailability()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a7119cb69151480fd121ef87547c3adb0">BuildDesignatorWnd::BuildSelector::m_availability_buttons</a>, and <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>, and <a class="el" href="classBuildDesignatorWnd.html#af22c735e592d87917c82180ecf92934f">ToggleAvailabilitly()</a>.</p>
 
@@ -551,9 +549,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classCUIWnd.html#a4b4e7d174932807755f406bf487d3131">CUIWnd::Hide()</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>, <a class="el" href="classProductionWnd.html#ad5ea01b19c973f5eaa63b744d0bb99ed">ProductionWnd::HidePedia()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a5574aee9f089772113dacc03967a8416">TogglePedia()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a5574aee9f089772113dacc03967a8416">TogglePedia()</a>.</p>
 
 </div>
 </div>
@@ -582,7 +580,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#ad70a59a94aa666c768a6f0dc5563fbe5">BuildDesignatorWnd::BuildSelector::HideType()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9b65dc440b61500556140b47310a5f9a">BuildDesignatorWnd::BuildSelector::m_build_type_buttons</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693">ToggleType()</a>.</p>
 
@@ -611,9 +609,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns set of BulldType shown in this selector </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a7f28f25db0e79c05ce4eaafd4065b63d">ProductionWnd::InClient()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>.</p>
 
 </div>
 </div>
@@ -638,7 +634,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">CUIWnd::InitSizeMove()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, and <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a25e20d0ad4c7438f1aa6e1e69c7ef1f3">anonymous_namespace{ClientUI.cpp}::PANEL_HEIGHT()</a>.</p>
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>, and <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a25e20d0ad4c7438f1aa6e1e69c7ef1f3">anonymous_namespace{ClientUI.cpp}::PANEL_HEIGHT()</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>.</p>
 
@@ -667,9 +663,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns set of BulldType shown in this selector </p>
 
-<p>References <a class="el" href="classSidePanel.html#a3af004201484e5b1204f5d79e5b143ca">SidePanel::InWindow()</a>, <a class="el" href="classCUIWnd.html#ae953a6be9f494852e96edc079f9aa36b">CUIWnd::InWindow()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a2f5be531fc8b2894e535532043a016ca">ProductionWnd::InWindow()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>.</p>
 
 </div>
 </div>
@@ -687,9 +681,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns true if the encyclopedia detail panel is visible </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#af7cf6235b08df1d06d9e691ee021b945">ProductionWnd::PediaVisible()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -707,9 +699,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html">BuildSelector</a>'s empire ID to empire of this client, and then calls Update. </p>
 
-<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a5499c05e20cdb32592371e1e111f226d">BuildDesignatorWnd::BuildSelector::SetEmpireID()</a>, and <a class="el" href="classBuildDesignatorWnd.html#aace8614859e306717143c0a327b37986">Update()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">ProductionWnd::Refresh()</a>.</p>
+<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#aace8614859e306717143c0a327b37986">Update()</a>.</p>
 
 </div>
 </div>
@@ -727,7 +717,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets sidepanel to no system, build location to no planet, refreshes build selector and sets encyclopedia to show nothing, and resets shown types and availabilities to default. </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a372f1a7571a942c0f96c9a7e8a99de9a">HideAvailability()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classEncyclopediaDetailPanel.html#aab7caa86128afeb357c7649e92d03a33">EncyclopediaDetailPanel::OnIndex()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#ab83159788d24224c2070970b9b42679a">BuildDesignatorWnd::BuildSelector::Refresh()</a>, <a class="el" href="classBuildDesignatorWnd.html#a7ce95df8ff3208f54f1dd25ad13f43f4">SelectSystem()</a>, <a class="el" href="classBuildDesignatorWnd.html#ad37f8b8daa908bc08de7cdfcf101ae51">ShowAllTypes()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a403fd122e6d86699dff64cbb83a80d0b">ShowAvailability()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a372f1a7571a942c0f96c9a7e8a99de9a">HideAvailability()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#a7ce95df8ff3208f54f1dd25ad13f43f4">SelectSystem()</a>, <a class="el" href="classBuildDesignatorWnd.html#ad37f8b8daa908bc08de7cdfcf101ae51">ShowAllTypes()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a403fd122e6d86699dff64cbb83a80d0b">ShowAvailability()</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a96d5e8e2173ee92a81ef092bedc1af7c">Clear()</a>.</p>
 
@@ -747,9 +737,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Attempts to find a planet to select, and if successful, selects that planet </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classSidePanel.html#a4dfef1212a73b4a4df0683185dd1c71e">SidePanel::PlanetSelectable()</a>, <a class="el" href="classBuildDesignatorWnd.html#ac951d5067900128e8699ad259a291cc4">SelectPlanet()</a>, and <a class="el" href="classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classBuildDesignatorWnd.html#ac951d5067900128e8699ad259a291cc4">SelectPlanet()</a>, and <a class="el" href="classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>.</p>
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a02a68904f1edda53c40f0533aecce2d2">ProductionWnd::SelectDefaultPlanet()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a7ce95df8ff3208f54f1dd25ad13f43f4">SelectSystem()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a7ce95df8ff3208f54f1dd25ad13f43f4">SelectSystem()</a>.</p>
 
 </div>
 </div>
@@ -767,9 +757,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>returns set of BulldType shown in this selector </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, and <a class="el" href="classSidePanel.html#af2f4116840b83822ac0d6fb0d706f80f">SidePanel::SelectedPlanetID()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#afe432b515388738860dc62ba4e73ddb4">ProductionWnd::SelectedPlanetID()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>.</p>
 
 </div>
 </div>
@@ -788,9 +776,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Programatically sets this Wnd's selected planet. Does not emit a PlanetSelectedSignal. </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#afe1aeeafe1a504bc042fb340277b6b29">BuildLocation()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a>, <a class="el" href="classSidePanel.html#acef2febf30c01feb3f351d4fa70ec401">SidePanel::SelectPlanet()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#abbeb0c2a5e53e0566b30a3c250a1dccd">BuildDesignatorWnd::BuildSelector::SetBuildLocation()</a>, and <a class="el" href="classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#afe1aeeafe1a504bc042fb340277b6b29">BuildLocation()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a8f8823c28c57ff142dbefc0e635a811d">m_system_default_planets</a>, <a class="el" href="classSidePanel.html#acef2febf30c01feb3f351d4fa70ec401">SidePanel::SelectPlanet()</a>, and <a class="el" href="classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">CenterOnBuild()</a>, <a class="el" href="classBuildDesignatorWnd.html#a19e3fee1b88acaa21a59d62a44176d18">SelectDefaultPlanet()</a>, and <a class="el" href="classProductionWnd.html#a3434efde4b989d3fd7d196980cb209a8">ProductionWnd::SelectPlanet()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">CenterOnBuild()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a19e3fee1b88acaa21a59d62a44176d18">SelectDefaultPlanet()</a>.</p>
 
 </div>
 </div>
@@ -811,7 +799,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classBuildDesignatorWnd.html#a19e3fee1b88acaa21a59d62a44176d18">SelectDefaultPlanet()</a>, <a class="el" href="classSidePanel.html#a13bb159e7813db0e36cd939e91eae1ba">SidePanel::SetSystem()</a>, and <a class="el" href="classSidePanel.html#a2f02283d1eb24965e298dd2bbe241853">SidePanel::SystemID()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>, and <a class="el" href="classProductionWnd.html#ab09cc4ce286ef301572fb8342b98364b">ProductionWnd::SelectSystem()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>.</p>
 
 </div>
 </div>
@@ -837,7 +825,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f">BuildDesignatorWnd::BuildSelector::DisplayBuildingTypeSignal</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6">BuildDesignatorWnd::BuildSelector::DisplayShipDesignSignal</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classEncyclopediaDetailPanel.html#aab7caa86128afeb357c7649e92d03a33">EncyclopediaDetailPanel::OnIndex()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4bbd38ff2a5921779575748b686ff934">EncyclopediaDetailPanel::Refresh()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">CenterOnBuild()</a>.</p>
 
@@ -858,7 +846,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9b65dc440b61500556140b47310a5f9a">BuildDesignatorWnd::BuildSelector::m_build_type_buttons</a>, and <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a301b17484ac8fdca60da4d12ddaddf68">BuildDesignatorWnd::BuildSelector::ShowAllTypes()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, and <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a715d0e22cfb549f330cb35342314c35d">ToggleAllTypes()</a>.</p>
 
@@ -889,7 +877,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Show or hide indicated availabilities of buildable items. Available items are those which have been unlocked for this selector's emipre. </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a7119cb69151480fd121ef87547c3adb0">BuildDesignatorWnd::BuildSelector::m_availability_buttons</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a2d0750d22bd62c187288bfb7113726d1">BuildDesignatorWnd::BuildSelector::ShowAvailability()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a5ca965a650be8352ef145bdb0a3692af">Reset()</a>, and <a class="el" href="classBuildDesignatorWnd.html#af22c735e592d87917c82180ecf92934f">ToggleAvailabilitly()</a>.</p>
 
@@ -910,9 +898,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Open a pedia entry on the encyclopedia </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#ae7b317b35ba3bd639c183650b17ac90a">EncyclopediaDetailPanel::SetBuildingType()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#ad8f4e2bad01e0007e9c11ca1500b401d">ProductionWnd::ShowBuildingTypeInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -931,9 +917,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a704324dff68b68037b6f032ce9e42006">EncyclopediaDetailPanel::SetEmpire()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#ad6a844e4ac5450a66d1ceead3ea4fd5f">ProductionWnd::ShowEmpireInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -952,9 +936,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a61f0e5bae677e9def8b873a6ea4d29d9">EncyclopediaDetailPanel::SetFieldType()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a8e183fbca0a9b6c85183813fdde3a464">ProductionWnd::ShowFieldTypeInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -973,9 +955,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a46649783ff128018f0c814201db00ec6">EncyclopediaDetailPanel::SetPartType()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#ab07b75f4af5accb612fc0185f9845778">ProductionWnd::ShowPartTypeInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -993,9 +973,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Show or hide the encyclopedia detail panel </p>
 
-<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4bbd38ff2a5921779575748b686ff934">EncyclopediaDetailPanel::Refresh()</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, and <a class="el" href="classCUIWnd.html#afe25d54eb0ee5bc6bf67a4abc9739f8c">CUIWnd::Show()</a>.</p>
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a59d166aafb0980fc0cb0d398e259189c">anonymous_namespace{BuildDesignatorWnd.cpp}::PROD_PEDIA_WND_NAME</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>, <a class="el" href="classProductionWnd.html#aea2be5f283ac845fcf94ad837a308ce7">ProductionWnd::ShowPedia()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a5574aee9f089772113dacc03967a8416">TogglePedia()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>, and <a class="el" href="classBuildDesignatorWnd.html#a5574aee9f089772113dacc03967a8416">TogglePedia()</a>.</p>
 
 </div>
 </div>
@@ -1014,9 +994,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a053b50ebf2da7ea778af8f261d2bc386">EncyclopediaDetailPanel::SetPlanet()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a71f639f47d1a6156d19f22df37db8116">ProductionWnd::ShowPlanetInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -1035,9 +1013,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#ad43c6221970da7aa6e44266e6eb2bd51">EncyclopediaDetailPanel::SetDesign()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a68c34dac56d864b40c1b0c2743f9bdd9">ProductionWnd::ShowShipDesignInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -1056,9 +1032,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#abdfd7492933ad095150755b1a62b672c">EncyclopediaDetailPanel::SetSpecial()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#af2ad6e53b67ee2dc0331b320b5ff7501">ProductionWnd::ShowSpecialInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -1077,9 +1051,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a4ab6064c9b18acda3196e03bb74e216e">EncyclopediaDetailPanel::SetSpecies()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#af3063400df08a52c65b4ae01bbf393b6">ProductionWnd::ShowSpeciesInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -1098,9 +1070,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#a7a5ba06341b0a10b330dc2d50015dbb7">EncyclopediaDetailPanel::SetTech()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a633969c88cc3358d84972d3d757c57e1">ProductionWnd::ShowTechInEncyclopedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1099,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Show or hide indicated types of buildable items </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9b65dc440b61500556140b47310a5f9a">BuildDesignatorWnd::BuildSelector::m_build_type_buttons</a>, and <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#afd2401ee3c4179a7aa16507f9923d5ac">BuildDesignatorWnd::BuildSelector::ShowType()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693">ToggleType()</a>.</p>
 
@@ -1168,7 +1138,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classBuildDesignatorWnd.html#ab92ef491c84e337efb0200589c647bba">m_side_panel</a>, and <a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">CUIWnd::ValidatePosition()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#a857272ef6d6f8eecac2c34b345a6baa8">m_side_panel</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1157,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a6822b015aafa53f6255d582265cfa5e5">BuildDesignatorWnd::BuildSelector::GetBuildTypesShown()</a>, <a class="el" href="classBuildDesignatorWnd.html#a4b568d9e88a427c1ea9c43c476d7a0a9">HideAllTypes()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#ad37f8b8daa908bc08de7cdfcf101ae51">ShowAllTypes()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a4b568d9e88a427c1ea9c43c476d7a0a9">HideAllTypes()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#ad37f8b8daa908bc08de7cdfcf101ae51">ShowAllTypes()</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1186,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a929efdabef32d188ba2301dc6047eb00">BuildDesignatorWnd::BuildSelector::GetAvailabilitiesShown()</a>, <a class="el" href="classBuildDesignatorWnd.html#a372f1a7571a942c0f96c9a7e8a99de9a">HideAvailability()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#a403fd122e6d86699dff64cbb83a80d0b">ShowAvailability()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a372f1a7571a942c0f96c9a7e8a99de9a">HideAvailability()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#a403fd122e6d86699dff64cbb83a80d0b">ShowAvailability()</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>.</p>
 
@@ -1236,9 +1206,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a1d05db96ef72e12ec6168ede24a630b3">HidePedia()</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#a051cf3d9f411541648b84d3ee9d866f0">ShowPedia()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a55ef29fd1fc0063968073060e4b56e60">ProductionWnd::TogglePedia()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1d05db96ef72e12ec6168ede24a630b3">HidePedia()</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="classBuildDesignatorWnd.html#a051cf3d9f411541648b84d3ee9d866f0">ShowPedia()</a>.</p>
 
 </div>
 </div>
@@ -1267,7 +1235,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Centres map wnd on location of item on queue with index <em>queue_idx</em> and displays info about that item in encyclopedia window If <em>open</em> is true, the sidepanel for that planet is opened and it is set as the selected location (so items queued will be built there). </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a6822b015aafa53f6255d582265cfa5e5">BuildDesignatorWnd::BuildSelector::GetBuildTypesShown()</a>, <a class="el" href="classBuildDesignatorWnd.html#a44911961886bbb367a9605f1885bbddb">HideType()</a>, <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#a53158c05d5ae70a26360dbd523ce6eeb">ShowType()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classBuildDesignatorWnd.html#a44911961886bbb367a9605f1885bbddb">HideType()</a>, <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, and <a class="el" href="classBuildDesignatorWnd.html#a53158c05d5ae70a26360dbd523ce6eeb">ShowType()</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#a300d5ef38b8128fdc023e7b1780c9609">CompleteConstruction()</a>.</p>
 
@@ -1287,9 +1255,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Updates sidepanels and refreshes encyclopedia and build selector. </p>
 
-<p>References <a class="el" href="classBuildDesignatorWnd.html#a547e50ed2e70c232763a7524a3666eb7">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#a366863a9eb92499b6a96cb780814f557">m_enc_detail_panel</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4bbd38ff2a5921779575748b686ff934">EncyclopediaDetailPanel::Refresh()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#ab83159788d24224c2070970b9b42679a">BuildDesignatorWnd::BuildSelector::Refresh()</a>, and <a class="el" href="classSidePanel.html#a8ff1cd602e6d268d2473e01e3fc848fb">SidePanel::Update()</a>.</p>
+<p>References <a class="el" href="classBuildDesignatorWnd.html#a1dcf55720b1e239261b591859e60a924">m_build_selector</a>, <a class="el" href="classBuildDesignatorWnd.html#ab2376a73641ef6456ccb9786e215fbe0">m_enc_detail_panel</a>, and <a class="el" href="classSidePanel.html#a8ff1cd602e6d268d2473e01e3fc848fb">SidePanel::Update()</a>.</p>
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a70ac4074243e61885a5e314ff9b87e21">ProductionWnd::ProductionQueueChangedSlot()</a>, <a class="el" href="classBuildDesignatorWnd.html#ab4c905950a26a65579eb256284fa672c">Refresh()</a>, and <a class="el" href="classProductionWnd.html#a5552c0033af1ee060f3e2756fc735a1e">ProductionWnd::Update()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#ab4c905950a26a65579eb256284fa672c">Refresh()</a>.</p>
 
 </div>
 </div>
@@ -1340,7 +1308,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a547e50ed2e70c232763a7524a3666eb7"></a>
+<a class="anchor" id="a1dcf55720b1e239261b591859e60a924"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1348,7 +1316,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html">BuildSelector</a>* BuildDesignatorWnd::m_build_selector</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html">BuildSelector</a>&gt; BuildDesignatorWnd::m_build_selector</td>
         </tr>
       </table>
   </td>
@@ -1362,7 +1330,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a366863a9eb92499b6a96cb780814f557"></a>
+<a class="anchor" id="ab2376a73641ef6456ccb9786e215fbe0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1370,7 +1338,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classEncyclopediaDetailPanel.html">EncyclopediaDetailPanel</a>* BuildDesignatorWnd::m_enc_detail_panel</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classEncyclopediaDetailPanel.html">EncyclopediaDetailPanel</a>&gt; BuildDesignatorWnd::m_enc_detail_panel</td>
         </tr>
       </table>
   </td>
@@ -1384,7 +1352,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab92ef491c84e337efb0200589c647bba"></a>
+<a class="anchor" id="a857272ef6d6f8eecac2c34b345a6baa8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1392,7 +1360,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSidePanel.html">SidePanel</a>* BuildDesignatorWnd::m_side_panel</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classSidePanel.html">SidePanel</a>&gt; BuildDesignatorWnd::m_side_panel</td>
         </tr>
       </table>
   </td>

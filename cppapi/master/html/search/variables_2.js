@@ -34,7 +34,7 @@ var searchData=
   ['building_5ftypes_5fscrapped',['building_types_scrapped',['../structparse_1_1int__complex__parser__rules.html#a6de8f22c917d8b79a458ca0aa948b6f1',1,'parse::int_complex_parser_rules']]],
   ['buildingrightclickedsignal',['BuildingRightClickedSignal',['../classBuildingsPanel.html#aac5c8a59b554ebee27099ce0fe445923',1,'BuildingsPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanel.html#a317e1f5c0628de0a3b70698f64f7ab73',1,'SidePanel::PlanetPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba',1,'SidePanel::PlanetPanelContainer::BuildingRightClickedSignal()'],['../classSidePanel.html#a696b02ce5422ed637d1599946aa3fe33',1,'SidePanel::BuildingRightClickedSignal()']]],
   ['buildquantitychangedsignal',['BuildQuantityChangedSignal',['../classBuildDesignatorWnd.html#a5489bc53eddde4a095210cfce6cd7617',1,'BuildDesignatorWnd']]],
-  ['button',['button',['../structOptionsBar_1_1ToggleData.html#a43f4cf3dc6fdf6580cf5323e9236739d',1,'OptionsBar::ToggleData']]],
+  ['button',['button',['../structOptionsBar_1_1ToggleData.html#aee23b6b3fec1d8d985bbe6658306ec70',1,'OptionsBar::ToggleData']]],
   ['button_5fdimming_5fscale_5ffactor',['BUTTON_DIMMING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a45a9d70db3c01b6b34c6d0cb0bc5e156',1,'anonymous_namespace{CUIWnd.cpp}']]],
   ['button_5fright_5foffset',['BUTTON_RIGHT_OFFSET',['../classCUIWnd.html#a37420ae42e2648783b6479dc5e77837f',1,'CUIWnd']]],
   ['button_5fseparation',['BUTTON_SEPARATION',['../classTechTreeWnd_1_1TechTreeControls.html#a043e30f19e536a29ba3499c31ee78f48',1,'TechTreeWnd::TechTreeControls']]],

@@ -211,8 +211,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af5446ac131c33e3ce40b07df9269c1b7"><td class="memItemLeft" align="right" valign="top">ProdQueueListBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionQueueWnd.html#af5446ac131c33e3ce40b07df9269c1b7">m_queue_lb</a></td></tr>
-<tr class="separator:af5446ac131c33e3ce40b07df9269c1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f20b5d31bbc74cc2e706ff85855b6a9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; ProdQueueListBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionQueueWnd.html#a6f20b5d31bbc74cc2e706ff85855b6a9">m_queue_lb</a></td></tr>
+<tr class="separator:a6f20b5d31bbc74cc2e706ff85855b6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -257,9 +257,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">ResetDefaultPosition</a> ()</td></tr>
 <tr class="memdesc:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">called via signal from the <a class="el" href="classClientUI.html" title="ClientUI Main Module This is the main class of the ClientUI module. it contains objects of many other...">ClientUI</a>, passes the value from <a class="el" href="classCUIWnd.html#a88b783ffa516b66a6df2db24d21745f7" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> to <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a>  <a href="#aec2341f4dd0f771a157b63cd26b6d195">More...</a><br /></td></tr>
 <tr class="separator:aec2341f4dd0f771a157b63cd26b6d195 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3092060e42bf72191de877783f4906cf">SetParent</a> (GG::Wnd *wnd) override</td></tr>
-<tr class="memdesc:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a3092060e42bf72191de877783f4906cf">More...</a><br /></td></tr>
-<tr class="separator:a3092060e42bf72191de877783f4906cf inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5297828be469e40d060500b477b5da49">SetParent</a> (const std::shared_ptr&lt; GG::Wnd &gt; &amp;wnd) override</td></tr>
+<tr class="memdesc:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a5297828be469e40d060500b477b5da49">More...</a><br /></td></tr>
+<tr class="separator:a5297828be469e40d060500b477b5da49 inherit pro_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classCUIWnd"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classCUIWnd')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classCUIWnd.html">CUIWnd</a></td></tr>
 <tr class="memitem:a91ee4fb867a51a8726cd5474cde75269 inherit pro_static_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">AddWindowOptions</a> (const std::string &amp;config_name, int left, int top, int width, int height, bool visible, bool pinned, bool minimized)</td></tr>
 <tr class="memdesc:a91ee4fb867a51a8726cd5474cde75269 inherit pro_static_methods_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <a class="el" href="classOptionsDB.html">OptionsDB</a> entries for a window under a given name along with default values.  <a href="#a91ee4fb867a51a8726cd5474cde75269">More...</a><br /></td></tr>
@@ -276,9 +276,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8b385c28c9d31a58576aac39ca5d916c">m_closable</a></td></tr>
 <tr class="memdesc:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be closed with a button press  <a href="#a8b385c28c9d31a58576aac39ca5d916c">More...</a><br /></td></tr>
 <tr class="separator:a8b385c28c9d31a58576aac39ca5d916c inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Button *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8895f8952291e028ee6028e0aa1795fe">m_close_button</a> = nullptr</td></tr>
-<tr class="memdesc:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#a8895f8952291e028ee6028e0aa1795fe">More...</a><br /></td></tr>
-<tr class="separator:a8895f8952291e028ee6028e0aa1795fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#abe3cf69538f8c5971fffc77a83895cbe">m_close_button</a> = nullptr</td></tr>
+<tr class="memdesc:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the close button  <a href="#abe3cf69538f8c5971fffc77a83895cbe">More...</a><br /></td></tr>
+<tr class="separator:abe3cf69538f8c5971fffc77a83895cbe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a232097f6c41602c0daf367bdba5f21fe">m_config_name</a></td></tr>
 <tr class="memdesc:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name that this window will use to save its properties to the <a class="el" href="classOptionsDB.html">OptionsDB</a>, the default empty string means "do not save"  <a href="#a232097f6c41602c0daf367bdba5f21fe">More...</a><br /></td></tr>
 <tr class="separator:a232097f6c41602c0daf367bdba5f21fe inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,9 +291,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4350162dec0af04d5b5a960e84ade24a">m_minimizable</a></td></tr>
 <tr class="memdesc:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be minimized  <a href="#a4350162dec0af04d5b5a960e84ade24a">More...</a><br /></td></tr>
 <tr class="separator:a4350162dec0af04d5b5a960e84ade24a inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a01263b1c368be3b7a6e267c6c10e5adc">m_minimize_button</a> = nullptr</td></tr>
-<tr class="memdesc:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a01263b1c368be3b7a6e267c6c10e5adc">More...</a><br /></td></tr>
-<tr class="separator:a01263b1c368be3b7a6e267c6c10e5adc inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__MinRestoreButton.html">CUI_MinRestoreButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a102ee1becb10d3ca48a555f6daf33259">m_minimize_button</a> = nullptr</td></tr>
+<tr class="memdesc:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the minimize/restore button  <a href="#a102ee1becb10d3ca48a555f6daf33259">More...</a><br /></td></tr>
+<tr class="separator:a102ee1becb10d3ca48a555f6daf33259 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a> = false</td></tr>
 <tr class="memdesc:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is currently minimized  <a href="#a0ba63b9fa9443f4144f003045083e283">More...</a><br /></td></tr>
 <tr class="separator:a0ba63b9fa9443f4144f003045083e283 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -302,9 +302,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8f6313a8489058063fbe8c5cc83ca946">m_original_size</a></td></tr>
 <tr class="memdesc:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps track of the size of the window before resizing  <a href="#a8f6313a8489058063fbe8c5cc83ca946">More...</a><br /></td></tr>
 <tr class="separator:a8f6313a8489058063fbe8c5cc83ca946 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4f5e0228c4afd53519a28a3f4744cce7">m_pin_button</a> = nullptr</td></tr>
-<tr class="memdesc:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#a4f5e0228c4afd53519a28a3f4744cce7">More...</a><br /></td></tr>
-<tr class="separator:a4f5e0228c4afd53519a28a3f4744cce7 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classCUI__PinButton.html">CUI_PinButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae556620ca4eabeefd8922223732712c9">m_pin_button</a> = nullptr</td></tr>
+<tr class="memdesc:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pin button  <a href="#ae556620ca4eabeefd8922223732712c9">More...</a><br /></td></tr>
+<tr class="separator:ae556620ca4eabeefd8922223732712c9 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a038d431b0490c0961286e4c46e3619a0">m_pinable</a></td></tr>
 <tr class="memdesc:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the window is able to be pinned  <a href="#a038d431b0490c0961286e4c46e3619a0">More...</a><br /></td></tr>
 <tr class="separator:a038d431b0490c0961286e4c46e3619a0 inherit pro_attribs_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -459,8 +459,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">ProductionWnd::AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">ProductionWnd::DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#a38975cdcbcc14b817001759f4963a32a">ProductionWnd::EnableOrderIssuing()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">ProductionWnd::QueueItemClickedSlot()</a>, <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">ProductionWnd::QueueItemDoubleClickedSlot()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">ProductionWnd::QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">ProductionWnd::QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">ProductionWnd::QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">ProductionWnd::QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">ProductionWnd::QueueItemSplit()</a>, <a class="el" href="classProductionWnd.html#addee7cad2f8b4c73856b735a9031328e">ProductionWnd::Reset()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">ProductionWnd::UpdateQueue()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ac24be526c1a86d3afe542516282b2bb6"></a>
@@ -486,8 +484,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
-
-<p>Referenced by <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">ProductionWnd::UpdateQueue()</a>.</p>
 
 </div>
 </div>
@@ -528,7 +524,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af5446ac131c33e3ce40b07df9269c1b7"></a>
+<a class="anchor" id="a6f20b5d31bbc74cc2e706ff85855b6a9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -536,7 +532,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ProdQueueListBox* ProductionQueueWnd::m_queue_lb</td>
+          <td class="memname">std::shared_ptr&lt;ProdQueueListBox&gt; ProductionQueueWnd::m_queue_lb</td>
         </tr>
       </table>
   </td>

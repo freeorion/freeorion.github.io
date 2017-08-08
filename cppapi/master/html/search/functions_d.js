@@ -10,7 +10,7 @@ var searchData=
   ['mainpanel',['MainPanel',['../classDesignWnd_1_1MainPanel.html#a15941f5c9795b7e6b28539b40278d798',1,'DesignWnd::MainPanel']]],
   ['mainsetupandrun',['mainSetupAndRun',['../chmain_8cpp.html#ae70f051fd41b552c641f7752ca7021bd',1,'mainSetupAndRun():&#160;chmain.cpp'],['../chmain_8h.html#ae70f051fd41b552c641f7752ca7021bd',1,'mainSetupAndRun():&#160;chmain.cpp']]],
   ['makebars',['MakeBars',['../classSideBar.html#a61525e2fc9a5d4184221d1722c96c194',1,'SideBar']]],
-  ['makecombatlogpanel',['MakeCombatLogPanel',['../classCombatLogWnd_1_1Impl.html#a86bcae74e148c543d6821d8f00a173d9',1,'CombatLogWnd::Impl']]],
+  ['makecombatlogpanel',['MakeCombatLogPanel',['../classCombatLogWnd_1_1Impl.html#a75a81dad486f23501e6abb4f1fd22e61',1,'CombatLogWnd::Impl']]],
   ['makesenddiplomaticaction',['MakeSendDiplomaticAction',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#ae52be725180a269b9fceeae5e5efeb4c',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['makesummaries',['MakeSummaries',['../classGraphicalSummaryWnd.html#aac8ebb59e60a108396d3d6fd7f636980',1,'GraphicalSummaryWnd']]],
   ['manifest_5frules',['manifest_rules',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__rules.html#af1091ef1c93310098d5968390df6d8b5',1,'anonymous_namespace{ShipDesignsParser.cpp}::manifest_rules']]],

@@ -109,8 +109,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a191c33c34d035535a44e18309e11c43a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipsListBox.html#a191c33c34d035535a44e18309e11c43a">ShipsListBox</a> (int fleet_id, bool order_issuing_enabled)</td></tr>
 <tr class="separator:a191c33c34d035535a44e18309e11c43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ccde8f5cdebbb84e406ba42496eece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipsListBox.html#ab1ccde8f5cdebbb84e406ba42496eece">AcceptDrops</a> (const GG::Pt &amp;pt, const std::vector&lt; GG::Wnd * &gt; &amp;wnds, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="separator:ab1ccde8f5cdebbb84e406ba42496eece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de38f8572398114803321f8133058b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipsListBox.html#a7de38f8572398114803321f8133058b0">AcceptDrops</a> (const GG::Pt &amp;pt, std::vector&lt; std::shared_ptr&lt; GG::Wnd &gt;&gt; wnds, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:a7de38f8572398114803321f8133058b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d7c0e4ad85f12830bb45286316973b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipsListBox.html#a8d7c0e4ad85f12830bb45286316973b5">DropsAcceptable</a> (DropsAcceptableIter first, DropsAcceptableIter last, const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) const override</td></tr>
 <tr class="separator:a8d7c0e4ad85f12830bb45286316973b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac61eb7209a4c37bfb84fae7e4da0673c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipsListBox.html#ac61eb7209a4c37bfb84fae7e4da0673c">EnableOrderIssuing</a> (bool enable)</td></tr>
@@ -174,7 +174,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab1ccde8f5cdebbb84e406ba42496eece"></a>
+<a class="anchor" id="a7de38f8572398114803321f8133058b0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -190,7 +190,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; GG::Wnd * &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; GG::Wnd &gt;&gt;&#160;</td>
           <td class="paramname"><em>wnds</em>, </td>
         </tr>
         <tr>
@@ -286,8 +286,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a33a790f5d5f380157c5ea86d00ef0b56">FleetDetailPanel::EnableOrderIssuing()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab589838b96e1bba37df6fbc7a11b5182"></a>
@@ -338,8 +336,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="classFleetDataPanel.html#a663aab15246c1fbd6d9d198984d2af1d">FleetDataPanel::m_fleet_id</a>.</p>
 
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">FleetDetailPanel::SetFleet()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ac6808a3488e6a4b6e9b2393f45668ad6"></a>
@@ -365,8 +361,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classFleetDataPanel.html#a663aab15246c1fbd6d9d198984d2af1d">FleetDataPanel::m_fleet_id</a>, and <a class="el" href="classFleetDataPanel.html#a00efb19ae26b1c751af8da8ff62e3702">FleetDataPanel::Refresh()</a>.</p>
-
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#aaf66516db01da538fb23d01ab4515dd0">FleetDetailPanel::SetFleet()</a>.</p>
 
 </div>
 </div>
@@ -401,8 +395,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classFleetDetailPanel.html#a21f46c378ddf426736fd4871a0682e30">FleetDetailPanel::DoLayout()</a>.</p>
 
 </div>
 </div>

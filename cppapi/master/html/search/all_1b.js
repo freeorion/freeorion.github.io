@@ -71,6 +71,7 @@ var searchData=
   ['_7efocustype',['~FocusType',['../structCondition_1_1FocusType.html#adcbda1a379bdf47155b8da913f54f8db',1,'Condition::FocusType']]],
   ['_7egeneratesitrepmessage',['~GenerateSitRepMessage',['../classEffect_1_1GenerateSitRepMessage.html#a70c8e8662f6ac83f252f064d9f26c4bf',1,'Effect::GenerateSitRepMessage']]],
   ['_7egiveempiretech',['~GiveEmpireTech',['../classEffect_1_1GiveEmpireTech.html#a189586990695cd2a673492e105c77ae6',1,'Effect::GiveEmpireTech']]],
+  ['_7egraphicalsummarywnd',['~GraphicalSummaryWnd',['../classGraphicalSummaryWnd.html#a780756a123a1a5ee2289c5dcbc0327d0',1,'GraphicalSummaryWnd']]],
   ['_7ehasspecial',['~HasSpecial',['../structCondition_1_1HasSpecial.html#aeeaddb372198dfb1323fbec7a0a8fca8',1,'Condition::HasSpecial']]],
   ['_7ehastag',['~HasTag',['../structCondition_1_1HasTag.html#a893fc87b4ed20c667f38148bb8a0f241',1,'Condition::HasTag']]],
   ['_7ehomeworld',['~Homeworld',['../structCondition_1_1Homeworld.html#a926fd257bc797feb85167cd6b67844b3',1,'Condition::Homeworld']]],
