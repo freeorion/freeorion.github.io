@@ -92,15 +92,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a15e59e2b03a9c8110fb2f6d676fbbaf7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a15e59e2b03a9c8110fb2f6d676fbbaf7">ConnectedWithin</a> (int system1, int system2, int maxLaneJumps, std::vector&lt; std::set&lt; int &gt;&gt; &amp;laneSetArray)</td></tr>
-<tr class="separator:a15e59e2b03a9c8110fb2f6d676fbbaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d394dc3586a3ccd255b4988b96917b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a6d394dc3586a3ccd255b4988b96917b4">CullAngularlyTooCloseLanes</a> (double maxLaneUVectDotProd, std::vector&lt; std::set&lt; int &gt;&gt; &amp;laneSetArray, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;systems)</td></tr>
-<tr class="separator:a6d394dc3586a3ccd255b4988b96917b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8d0587d0d81ad8d90742584f6ba367"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#aeb8d0587d0d81ad8d90742584f6ba367">CullTooLongLanes</a> (double maxLaneLength, std::vector&lt; std::set&lt; int &gt;&gt; &amp;laneSetArray, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;systems)</td></tr>
-<tr class="separator:aeb8d0587d0d81ad8d90742584f6ba367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf7d9d8e4cea59ff45eb658551f4056"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3cf7d9d8e4cea59ff45eb658551f4056">ConnectedWithin</a> (int system1, int system2, int maxLaneJumps, const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;system_lanes)</td></tr>
+<tr class="separator:a3cf7d9d8e4cea59ff45eb658551f4056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b82c1f1f64dac14834e060c2c30b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a83b82c1f1f64dac14834e060c2c30b32">CullAngularlyTooCloseLanes</a> (double max_lane_uvect_dot_product, std::map&lt; int, std::set&lt; int &gt;&gt; &amp;system_lanes, const std::map&lt; int, std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;systems)</td></tr>
+<tr class="separator:a83b82c1f1f64dac14834e060c2c30b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0e2f6643094e609a6d684f1b0dbee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3e0e2f6643094e609a6d684f1b0dbee0">CullTooLongLanes</a> (double max_lane_length, std::map&lt; int, std::set&lt; int &gt;&gt; &amp;system_lanes, const std::map&lt; int, std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;systems)</td></tr>
+<tr class="separator:a3e0e2f6643094e609a6d684f1b0dbee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5cfc927388801acf858072e757d74a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3a5cfc927388801acf858072e757d74a">IntSetMapSizeCount</a> (const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;in)</td></tr>
+<tr class="separator:a3a5cfc927388801acf858072e757d74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a15e59e2b03a9c8110fb2f6d676fbbaf7"></a>
+<a class="anchor" id="a3cf7d9d8e4cea59ff45eb658551f4056"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -125,8 +127,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; int &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>laneSetArray</em>&#160;</td>
+          <td class="paramtype">const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>system_lanes</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -137,11 +139,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Used by GenerateStarlanes. Determines if two systems are connected by maxLaneJumps or less edges on graph. </p>
 
-<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a6d394dc3586a3ccd255b4988b96917b4">CullAngularlyTooCloseLanes()</a>, <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#aeb8d0587d0d81ad8d90742584f6ba367">CullTooLongLanes()</a>, and <a class="el" href="UniverseGenerator_8h.html#ab13fd1b26f1697eb7c4ca52e31c0c0ea">GenerateStarlanes()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a83b82c1f1f64dac14834e060c2c30b32">CullAngularlyTooCloseLanes()</a>, <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3e0e2f6643094e609a6d684f1b0dbee0">CullTooLongLanes()</a>, and <a class="el" href="UniverseGenerator_8h.html#ab13fd1b26f1697eb7c4ca52e31c0c0ea">GenerateStarlanes()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6d394dc3586a3ccd255b4988b96917b4"></a>
+<a class="anchor" id="a83b82c1f1f64dac14834e060c2c30b32"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -149,18 +151,18 @@ Functions</h2></td></tr>
           <td class="memname">void anonymous_namespace{UniverseGenerator.cpp}::CullAngularlyTooCloseLanes </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>maxLaneUVectDotProd</em>, </td>
+          <td class="paramname"><em>max_lane_uvect_dot_product</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; int &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>laneSetArray</em>, </td>
+          <td class="paramtype">std::map&lt; int, std::set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>system_lanes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::map&lt; int, std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>systems</em>&#160;</td>
         </tr>
         <tr>
@@ -172,13 +174,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Removes lanes from passed graph that are angularly too close to each other. </p>
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a15e59e2b03a9c8110fb2f6d676fbbaf7">ConnectedWithin()</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3cf7d9d8e4cea59ff45eb658551f4056">ConnectedWithin()</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="UniverseGenerator_8h.html#ab13fd1b26f1697eb7c4ca52e31c0c0ea">GenerateStarlanes()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aeb8d0587d0d81ad8d90742584f6ba367"></a>
+<a class="anchor" id="a3e0e2f6643094e609a6d684f1b0dbee0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -186,18 +188,18 @@ Functions</h2></td></tr>
           <td class="memname">void anonymous_namespace{UniverseGenerator.cpp}::CullTooLongLanes </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>maxLaneLength</em>, </td>
+          <td class="paramname"><em>max_lane_length</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; int &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>laneSetArray</em>, </td>
+          <td class="paramtype">std::map&lt; int, std::set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>system_lanes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::map&lt; int, std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>systems</em>&#160;</td>
         </tr>
         <tr>
@@ -209,9 +211,27 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Removes lanes from passed graph that are angularly too close to each other. </p>
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a15e59e2b03a9c8110fb2f6d676fbbaf7">ConnectedWithin()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3cf7d9d8e4cea59ff45eb658551f4056">ConnectedWithin()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3a5cfc927388801acf858072e757d74a">IntSetMapSizeCount()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="UniverseGenerator_8h.html#ab13fd1b26f1697eb7c4ca52e31c0c0ea">GenerateStarlanes()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3a5cfc927388801acf858072e757d74a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int anonymous_namespace{UniverseGenerator.cpp}::IntSetMapSizeCount </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3e0e2f6643094e609a6d684f1b0dbee0">CullTooLongLanes()</a>, and <a class="el" href="UniverseGenerator_8h.html#ab13fd1b26f1697eb7c4ca52e31c0c0ea">GenerateStarlanes()</a>.</p>
 
 </div>
 </div>
