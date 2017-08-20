@@ -123,6 +123,7 @@ var searchData=
   ['introscreen',['IntroScreen',['../classIntroScreen.html#a4771f91055620c316de83a7b44efec00',1,'IntroScreen']]],
   ['intrulechanged',['IntRuleChanged',['../classGameRulesPanel.html#a71540ec72ac97a35546e9f54770ada39',1,'GameRulesPanel']]],
   ['intrulewidget',['IntRuleWidget',['../classGameRulesPanel.html#a32498259ac437ee12cdb8662d36231f2',1,'GameRulesPanel']]],
+  ['intsetmapsizecount',['IntSetMapSizeCount',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3a5cfc927388801acf858072e757d74a',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['inttostring',['IntToString',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7bc34e28037a45be89b73c402337a590',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['invadeorder',['InvadeOrder',['../classInvadeOrder.html#a7bdcdf0239af2addfef54ea4162feb98',1,'InvadeOrder::InvadeOrder()'],['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)']]],
   ['invalidateunusedoptions',['InvalidateUnusedOptions',['../classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0',1,'CUIWnd']]],
