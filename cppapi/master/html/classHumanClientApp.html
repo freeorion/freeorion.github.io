@@ -403,13 +403,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a56a9a1ff7c4a41267ede656b6397c54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575ed58245a4100ec2ca224976adae74"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structHumanClientFSM.html">HumanClientFSM</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a></td></tr>
 <tr class="separator:a575ed58245a4100ec2ca224976adae74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d241143905489c56d957e2837ce4905"><td class="memItemLeft" align="right" valign="top">std::queue&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a></td></tr>
+<tr class="separator:a2d241143905489c56d957e2837ce4905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24e35061620ea303baca357c5a33588d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a></td></tr>
 <tr class="memdesc:a24e35061620ea303baca357c5a33588d"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when a game is currently in progress  <a href="#a24e35061620ea303baca357c5a33588d">More...</a><br /></td></tr>
 <tr class="separator:a24e35061620ea303baca357c5a33588d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bdd4e8f53eabdbae157aadb2a68e9f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a3bdd4e8f53eabdbae157aadb2a68e9f1">m_have_window_focus</a></td></tr>
 <tr class="separator:a3bdd4e8f53eabdbae157aadb2a68e9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98bf11125f5d7964f150b126f089d73c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a98bf11125f5d7964f150b126f089d73c">m_save_game_in_progress</a></td></tr>
-<tr class="separator:a98bf11125f5d7964f150b126f089d73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c5d1274ef75bd48107a6fcabf89647b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProcess.html">Process</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a8c5d1274ef75bd48107a6fcabf89647b">m_server_process</a></td></tr>
 <tr class="memdesc:a8c5d1274ef75bd48107a6fcabf89647b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the server process (when hosting a game or playing single player); will be empty when playing multiplayer as a non-host player  <a href="#a8c5d1274ef75bd48107a6fcabf89647b">More...</a><br /></td></tr>
 <tr class="separator:a8c5d1274ef75bd48107a6fcabf89647b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,8 +418,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a17c62991c768c85817b455fe75f62819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67b6bab351751b1787bdf662474ccc58"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classClientUI.html">ClientUI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a67b6bab351751b1787bdf662474ccc58">m_ui</a></td></tr>
 <tr class="separator:a67b6bab351751b1787bdf662474ccc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ba371d0768e469420589e86932013ee"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a2ba371d0768e469420589e86932013ee">SaveGameCompletedSignal</a></td></tr>
-<tr class="separator:a2ba371d0768e469420589e86932013ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1fcf23e41e6220508b3962c98bdb67"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67">SaveGamesCompletedSignal</a></td></tr>
+<tr class="separator:a0c1fcf23e41e6220508b3962c98bdb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -611,7 +611,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>autosaves the current game, iff autosaves are enabled and any turn number requirements are met </p>
 
-<p>References <a class="el" href="classHumanClientApp.html#a21ca2938673fcf2ddaba83386109be1b">AutoTurnsLeft()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp::CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a797cc16a745a803eaa550aca1a96c87b">anonymous_namespace{HumanClientApp.cpp}::RemoveOldestFiles()</a>, and <a class="el" href="classHumanClientApp.html#a857aac67f404489d672e8fc98be0cce9">SaveGame()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp::CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a797cc16a745a803eaa550aca1a96c87b">anonymous_namespace{HumanClientApp.cpp}::RemoveOldestFiles()</a>, and <a class="el" href="classHumanClientApp.html#a857aac67f404489d672e8fc98be0cce9">SaveGame()</a>.</p>
+
+<p>Referenced by <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>.</p>
 
 </div>
 </div>
@@ -631,8 +633,6 @@ Additional Inherited Members</h2></td></tr>
 <p>returns number of turns left to execute automatically </p>
 
 <p>References <a class="el" href="classHumanClientApp.html#a2ed11983e9469361a43a80e85c5d06a9">m_auto_turns</a>.</p>
-
-<p>Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>.</p>
 
 </div>
 </div>
@@ -1553,7 +1553,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Either reset to <a class="el" href="structIntroMenu.html">IntroMenu</a> (<code>reset</code> is true), or exit the application. If <code>skip_savegame</code> is true abort in progress save games. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a98bf11125f5d7964f150b126f089d73c">m_save_game_in_progress</a>, <a class="el" href="classHumanClientApp.html#a8c5d1274ef75bd48107a6fcabf89647b">m_server_process</a>, and <a class="el" href="classHumanClientApp.html#a2ba371d0768e469420589e86932013ee">SaveGameCompletedSignal</a>.</p>
+<p>References <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, <a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a8c5d1274ef75bd48107a6fcabf89647b">m_server_process</a>, and <a class="el" href="classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67">SaveGamesCompletedSignal</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a76464204fc805b57c45584a7e336cf54">ExitApp()</a>, and <a class="el" href="classHumanClientApp.html#ae946db6ce5916480530f6fd3774b25ed">ResetToIntro()</a>.</p>
 
@@ -1596,7 +1596,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>saves the current game; blocks until all save-related network traffic is resolved. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Message_8cpp.html#ace0cf8733ad3adbeaee8c370c9db1458">HostSaveGameInitiateMessage()</a>, <a class="el" href="classClientApp.html#a86c431d29c2aaf82552afbdb0a58ef41">ClientApp::m_networking</a>, and <a class="el" href="classHumanClientApp.html#a98bf11125f5d7964f150b126f089d73c">m_save_game_in_progress</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Message_8cpp.html#ace0cf8733ad3adbeaee8c370c9db1458">HostSaveGameInitiateMessage()</a>, <a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a>, and <a class="el" href="classClientApp.html#a86c431d29c2aaf82552afbdb0a58ef41">ClientApp::m_networking</a>.</p>
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, and <a class="el" href="classInGameMenu.html#a0d4637b994daa3f01f0b8ee8517d6988">InGameMenu::Save()</a>.</p>
 
@@ -1616,7 +1616,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Accepts acknowledgement that server has completed the save. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classHumanClientApp.html#a98bf11125f5d7964f150b126f089d73c">m_save_game_in_progress</a>, and <a class="el" href="classHumanClientApp.html#a2ba371d0768e469420589e86932013ee">SaveGameCompletedSignal</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Message_8cpp.html#ace0cf8733ad3adbeaee8c370c9db1458">HostSaveGameInitiateMessage()</a>, <a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a>, <a class="el" href="classClientApp.html#a86c431d29c2aaf82552afbdb0a58ef41">ClientApp::m_networking</a>, and <a class="el" href="classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67">SaveGamesCompletedSignal</a>.</p>
 
 </div>
 </div>
@@ -1979,6 +1979,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2d241143905489c56d957e2837ce4905"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::queue&lt;std::string&gt; HumanClientApp::m_game_saves_in_progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Filenames of all in progress saves. There maybe multiple saves in progress if a player and an autosave are initiated at the same time. </p>
+
+<p>Referenced by <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>, <a class="el" href="classHumanClientApp.html#a857aac67f404489d672e8fc98be0cce9">SaveGame()</a>, and <a class="el" href="classHumanClientApp.html#a8e0016233f05dbe62376bba2473cb884">SaveGameCompleted()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a24e35061620ea303baca357c5a33588d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1999,7 +2022,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>true when a game is currently in progress </p>
 
-<p>Referenced by <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>, and <a class="el" href="classHumanClientApp.html#abb5800e7a110222994f57001d20130d8">StartGame()</a>.</p>
+<p>Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>, and <a class="el" href="classHumanClientApp.html#abb5800e7a110222994f57001d20130d8">StartGame()</a>.</p>
 
 </div>
 </div>
@@ -2022,28 +2045,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classHumanClientApp.html#a3e1e83a0df48ca7010d9a1f9fe222b42">HandleFocusChange()</a>, and <a class="el" href="classHumanClientApp.html#a3d0a87ba19b3ed02a4808fa962acc4ad">HaveWindowFocus()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a98bf11125f5d7964f150b126f089d73c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool HumanClientApp::m_save_game_in_progress</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>, <a class="el" href="classHumanClientApp.html#a857aac67f404489d672e8fc98be0cce9">SaveGame()</a>, and <a class="el" href="classHumanClientApp.html#a8e0016233f05dbe62376bba2473cb884">SaveGameCompleted()</a>.</p>
 
 </div>
 </div>
@@ -2140,7 +2141,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2ba371d0768e469420589e86932013ee"></a>
+<a class="anchor" id="a0c1fcf23e41e6220508b3962c98bdb67"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2148,7 +2149,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::signals2::signal&lt;void ()&gt; HumanClientApp::SaveGameCompletedSignal</td>
+          <td class="memname">boost::signals2::signal&lt;void ()&gt; HumanClientApp::SaveGamesCompletedSignal</td>
         </tr>
       </table>
   </td>
