@@ -28,6 +28,7 @@ var searchData=
   ['m_5fallocation_5flabel',['m_allocation_label',['../classSystemResourceSummaryBrowseWnd.html#a7c2d1332eb994e88645baeb705e57136',1,'SystemResourceSummaryBrowseWnd']]],
   ['m_5fallocation_5flabels_5fand_5famounts',['m_allocation_labels_and_amounts',['../classSystemResourceSummaryBrowseWnd.html#afbf5f153461bcbbf36f7af2d4a78afb6',1,'SystemResourceSummaryBrowseWnd']]],
   ['m_5falready_5fsetting_5ftext_5fso_5fdont_5flink',['m_already_setting_text_so_dont_link',['../classCUILinkTextMultiEdit.html#aa6978a385953bf6a219433e43fd95693',1,'CUILinkTextMultiEdit']]],
+  ['m_5fany_5fcan_5fedit',['m_any_can_edit',['../classMultiPlayerLobbyWnd.html#a6e2a1d0fa980bf40e100cc874041e85b',1,'MultiPlayerLobbyWnd::m_any_can_edit()'],['../structMultiplayerLobbyData.html#a94cf363a65905d8ec2a7acb6ac886802',1,'MultiplayerLobbyData::m_any_can_edit()']]],
   ['m_5fany_5fpredef_5fdesign_5fok',['m_any_predef_design_ok',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1PredefinedShipDesignSimpleMatch.html#a8c753f8d8cebe227a1ee37e43c06e570',1,'Condition::anonymous_namespace{Condition.cpp}::PredefinedShipDesignSimpleMatch']]],
   ['m_5fany_5ftag_5fok',['m_any_tag_ok',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasTagSimpleMatch.html#aa48998608f5e68c8a6eb4cb9eff312fc',1,'Condition::anonymous_namespace{Condition.cpp}::HasTagSimpleMatch']]],
   ['m_5fappend',['m_append',['../classFleetMoveOrder.html#af8917e5fe72f9f8e960559c199f53dea',1,'FleetMoveOrder']]],

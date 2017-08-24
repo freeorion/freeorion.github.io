@@ -119,6 +119,7 @@ var searchData=
   ['and',['And',['../structCondition_1_1And.html#a802de16e60ba770fe6532000be0d26e0',1,'Condition::And']]],
   ['andcondition',['AndCondition',['../classAndCondition.html#a9b05a5b4859b6cbd3866372c3d9e433e',1,'AndCondition']]],
   ['angledcornerrectangle',['AngledCornerRectangle',['../CUIDrawUtil_8cpp.html#ae859126d9754dcda5f11e3a7a8f05af8',1,'AngledCornerRectangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, GG::Clr color, GG::Clr border, int angle_offset, int thick, bool upper_left_angled, bool lower_right_angled, bool draw_bottom):&#160;CUIDrawUtil.cpp'],['../CUIDrawUtil_8h.html#a12ef98f4bb42e20bf81b4f58c4796335',1,'AngledCornerRectangle(const GG::Pt &amp;ul, const GG::Pt &amp;lr, GG::Clr color, GG::Clr border, int angle_offset, int thick, bool upper_left_angled=true, bool lower_right_angled=true, bool draw_bottom=true):&#160;CUIDrawUtil.cpp']]],
+  ['anycanedit',['AnyCanEdit',['../classMultiPlayerLobbyWnd.html#af97e494538a8b83251cedf82058437d2',1,'MultiPlayerLobbyWnd']]],
   ['anythingcollapsed',['AnythingCollapsed',['../classObjectListBox.html#a0201d6f2f9ec069605c01ae8cce14690',1,'ObjectListBox']]],
   ['apparentname',['ApparentName',['../classSystem.html#a66c301365362aa528c088eeb48513566',1,'System']]],
   ['appendtotext',['AppendToText',['../classXMLDoc.html#ad3f493a1e5cce12c39195da2e2368e67',1,'XMLDoc']]],
