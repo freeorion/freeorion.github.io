@@ -110,6 +110,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3938ed1b49fc11b991677fce12e7c43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea942722372f973db858b8b03d8e3924"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aea942722372f973db858b8b03d8e3924">CreateCombatSitReps</a> (const std::vector&lt; <a class="el" href="structCombatInfo.html">CombatInfo</a> &gt; &amp;combats)</td></tr>
 <tr class="separator:aea942722372f973db858b8b03d8e3924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60571b36905107318930d887ef0e2546"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a60571b36905107318930d887ef0e2546">DeclareThreadSafeLogger</a> (combat)</td></tr>
+<tr class="separator:a60571b36905107318930d887ef0e2546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358259eb8e4b87c9892606c898992c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a358259eb8e4b87c9892606c898992c69">DisseminateSystemCombatInfo</a> (const std::vector&lt; <a class="el" href="structCombatInfo.html">CombatInfo</a> &gt; &amp;combats)</td></tr>
 <tr class="separator:a358259eb8e4b87c9892606c898992c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ff83f6e70720dafb1023d87915d0b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a78ff83f6e70720dafb1023d87915d0b4">EmpireEliminated</a> (int empire_id)</td></tr>
@@ -331,7 +333,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true iff there is an appropriate combination of objects in the system with id <em>system_id</em> for a combat to occur. </p>
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">ServerApp::Empires()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6fac5f1135b21f52515fa837a6695e64">GetEmpireFleetsAtSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a28655c5acffb0424e8618d21f40d361a">GetEmpirePlanetsAtSystem()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0969d2ab95c6fa1677e08646ec22f6f9">GetFleetsVisibleToEmpireAtSystem()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a2deb884458782ed0e6950e368d98e711">GetPlanetsVisibleToEmpireAtSystem()</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">ServerApp::Empires()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6fac5f1135b21f52515fa837a6695e64">GetEmpireFleetsAtSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a28655c5acffb0424e8618d21f40d361a">GetEmpirePlanetsAtSystem()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0969d2ab95c6fa1677e08646ec22f6f9">GetFleetsVisibleToEmpireAtSystem()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a2deb884458782ed0e6950e368d98e711">GetPlanetsVisibleToEmpireAtSystem()</a>, and <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ae6f283c380cd9b4924143b8091edcab9">AssembleSystemCombatInfo()</a>.</p>
 
@@ -355,6 +357,22 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="classCombatLogManager.html#a11dde12f4387d2475cb9fd1ac6ba900b">CombatLogManager::AddNewLog()</a>, <a class="el" href="classEmpire.html#a62a06f5fc7d8704f131169d4569f776d">Empire::AddSitRepEntry()</a>, <a class="el" href="SitRepEntry_8cpp.html#ade577f0878c0ed9037427ad791a130c9">CreateCombatDamagedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#a84fb69d0c229ab486f7eefbd81630825">CreateCombatDestroyedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#a3dc0f8ec90022321cf20eaf4696a9992">CreateCombatSitRep()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3ec85dcd5573036ea8f6fc2b2ef4f7ff">EnemyId()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, and <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ServerApp::ProcessCombats()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60571b36905107318930d887ef0e2546"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous_namespace{ServerApp.cpp}::DeclareThreadSafeLogger </td>
+          <td>(</td>
+          <td class="paramtype">combat&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -520,7 +538,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp::GetUniverse()</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, and <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#aeaf9a196f67674154b8044871e1030d8">GetShip()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp::GetUniverse()</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3938ed1b49fc11b991677fce12e7c43c">CombatConditionsInSystem()</a>.</p>
 
@@ -556,7 +574,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp::GetUniverse()</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, and <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp::GetUniverse()</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3938ed1b49fc11b991677fce12e7c43c">CombatConditionsInSystem()</a>.</p>
 
