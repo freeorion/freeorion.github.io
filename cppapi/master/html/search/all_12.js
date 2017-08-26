@@ -160,7 +160,7 @@ var searchData=
   ['renderscalecircle',['RenderScaleCircle',['../classMapWnd.html#aa24ade1ae19998b67fc30c59899aa9bb',1,'MapWnd']]],
   ['rendersphere',['RenderSphere',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a3c2af69aa4920f3503e152ffd9104f36',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['renderstarfields',['RenderStarfields',['../classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0',1,'MapWnd']]],
-  ['renderstarlanes',['RenderStarlanes',['../classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c',1,'MapWnd::RenderStarlanes()'],['../classMapWnd.html#aef1b94d56d92ccf87eca8e56f6341b1c',1,'MapWnd::RenderStarlanes(GG::GL2DVertexBuffer &amp;vertices, GG::GLRGBAColorBuffer &amp;colours, double thickness, bool coloured, bool doBase)']]],
+  ['renderstarlanes',['RenderStarlanes',['../classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c',1,'MapWnd::RenderStarlanes()'],['../classMapWnd.html#aedc635c1625170df6a4b68ede4b1fe52',1,'MapWnd::RenderStarlanes(GG::GL2DVertexBuffer &amp;vertices, GG::GLRGBAColorBuffer &amp;colours, double thickness, bool coloured, bool do_base_render)']]],
   ['rendersystemoverlays',['RenderSystemOverlays',['../classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624',1,'MapWnd']]],
   ['rendersystems',['RenderSystems',['../classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8',1,'MapWnd']]],
   ['renderunpressed',['RenderUnpressed',['../classCUIButton.html#aede2883ff753523634eb64f60dd1b8d0',1,'CUIButton::RenderUnpressed()'],['../classCUIArrowButton.html#a62e4d349f8753349751724263d346cc6',1,'CUIArrowButton::RenderUnpressed()'],['../classFleetButton.html#ac6ab201aa20f7bb8877876e146f39ce9',1,'FleetButton::RenderUnpressed()']]],
