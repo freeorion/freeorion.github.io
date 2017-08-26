@@ -4,7 +4,7 @@ var searchData=
   ['gal_5fsetup_5fpanel_5fht',['GAL_SETUP_PANEL_HT',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ab8872a3f71a7102e38f0581ed567ffb2',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['galaxy_5fsetup_5fpanel_5fheight',['GALAXY_SETUP_PANEL_HEIGHT',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ad10643c164ff1d35ae1ca5cfb31cb0b3',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['galaxy_5fsetup_5fpanel_5fwidth',['GALAXY_SETUP_PANEL_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae842fe9ad7713f1dc446b7b77a7ac1d7',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['galaxysetupdata',['GalaxySetupData',['../structGalaxySetupData.html#ab3b7260bdf796d24013c39508ea80dd5',1,'GalaxySetupData']]],
+  ['galaxysetupdata',['GalaxySetupData',['../structGalaxySetupData.html#ab3b7260bdf796d24013c39508ea80dd5',1,'GalaxySetupData::GalaxySetupData()'],['../structGalaxySetupData.html#af73fd4300b8456ae4d8d160375b5f294',1,'GalaxySetupData::GalaxySetupData(const GalaxySetupData &amp;)=default'],['../structGalaxySetupData.html#a51209dd62f09fa75c2a273c88a1e1f7b',1,'GalaxySetupData::GalaxySetupData(GalaxySetupData &amp;&amp;base)']]],
   ['galaxysetuppanel',['GalaxySetupPanel',['../classGalaxySetupPanel.html#a4718468bdc4d7471441599fc716cb7a2',1,'GalaxySetupPanel']]],
   ['galaxysetuppanelchanged',['GalaxySetupPanelChanged',['../classMultiPlayerLobbyWnd.html#aa1009d698cda91a7a9ec87d67e16bcee',1,'MultiPlayerLobbyWnd']]],
   ['galaxysetupwnd',['GalaxySetupWnd',['../classGalaxySetupWnd.html#a2d46ab79226639f13f3e7cb1f5fd5a0d',1,'GalaxySetupWnd']]],

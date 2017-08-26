@@ -20,6 +20,7 @@ var searchData=
   ['m_5fai_5faggression_5flabel',['m_ai_aggression_label',['../classGalaxySetupPanel.html#aa94b7f7f96e23c66889d28bcd1c078fe',1,'GalaxySetupPanel']]],
   ['m_5fai_5faggression_5flist',['m_ai_aggression_list',['../classGalaxySetupPanel.html#ab4f6ccd651d43dd1cfea9bd18d0cc626',1,'GalaxySetupPanel']]],
   ['m_5fai_5fclient_5fprocesses',['m_ai_client_processes',['../classServerApp.html#a4637cb75adb27c0bd332efb3f3f94efe',1,'ServerApp']]],
+  ['m_5fai_5fnext_5findex',['m_ai_next_index',['../structMPLobby.html#a634f21d6c76a73f2306f632497497428',1,'MPLobby']]],
   ['m_5fall_5fcat_5fbutton',['m_all_cat_button',['../classTechTreeWnd_1_1TechTreeControls.html#a01ec91df6b9452d421a146bda4063dad',1,'TechTreeWnd::TechTreeControls']]],
   ['m_5fall_5fcolumns',['m_all_columns',['../classSaveFileFileRow.html#a0f4db578c82c69d43959fb3fd9edf662',1,'SaveFileFileRow']]],
   ['m_5fall_5fobjects_5fvisible',['m_all_objects_visible',['../classUniverse.html#af45793b66f2b781419dcb67818f185ff',1,'Universe']]],

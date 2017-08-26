@@ -152,6 +152,7 @@ var searchData=
   ['isempiremetereffect',['IsEmpireMeterEffect',['../classEffect_1_1EffectBase.html#a7bf84592b7dc99c46d063504c796cf68',1,'Effect::EffectBase::IsEmpireMeterEffect()'],['../classEffect_1_1SetEmpireMeter.html#a919619fbfc42f98fc16038c3b28f85e3',1,'Effect::SetEmpireMeter::IsEmpireMeterEffect()']]],
   ['isfinalnode',['IsFinalNode',['../classTechTreeLayout_1_1Node.html#afc8e2b34cdfc3a4de495a7569c7c20d3',1,'TechTreeLayout::Node']]],
   ['isfleetexploring',['IsFleetExploring',['../classMapWnd.html#a793655bf8ecaee4fdba75770dd677bf3',1,'MapWnd']]],
+  ['ishostless',['IsHostless',['../classServerApp.html#a68dc367307c988daf3bfa288531e4a37',1,'ServerApp']]],
   ['isidvalidandunused',['IsIDValidAndUnused',['../classIDAllocator.html#ad6c33a323ecd0aafff1219940ea897e9',1,'IDAllocator']]],
   ['isinside',['IsInside',['../SaveGamePreviewUtils_8cpp.html#a773e21fed4bf9a242c3ddd840fb642ca',1,'IsInside(const fs::path &amp;path, const fs::path &amp;directory):&#160;SaveGamePreviewUtils.cpp'],['../SaveGamePreviewUtils_8h.html#a22c7c46b997c57004d9a96cc60e1240c',1,'IsInside(const boost::filesystem::path &amp;path, const boost::filesystem::path &amp;directory):&#160;SaveGamePreviewUtils.h']]],
   ['isinstringtable',['IsInStringtable',['../classDesignWnd_1_1MainPanel_1_1I18nString.html#a65490ef2a45ba427695d6595fa8484da',1,'DesignWnd::MainPanel::I18nString']]],
