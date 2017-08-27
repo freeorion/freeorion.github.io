@@ -158,6 +158,7 @@ var searchData=
   ['isinstringtable',['IsInStringtable',['../classDesignWnd_1_1MainPanel_1_1I18nString.html#a65490ef2a45ba427695d6595fa8484da',1,'DesignWnd::MainPanel::I18nString']]],
   ['isinternal',['IsInternal',['../structGameRules_1_1Rule.html#a428c751b8cd06c50de723deda1459dee',1,'GameRules::Rule']]],
   ['isknown',['IsKnown',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1CurrentShipDesignManager.html#a8ee996c3a45693f7093180beaf60e369',1,'anonymous_namespace{DesignWnd.cpp}::CurrentShipDesignManager']]],
+  ['isloadgameavailable',['IsLoadGameAvailable',['../classHumanClientApp.html#a98ff567def4f616a40d1b426931b8f51',1,'HumanClientApp']]],
   ['islocalconnection',['IsLocalConnection',['../classPlayerConnection.html#af2c9ceffe5eecbd34a1e6e61a3d67a20',1,'PlayerConnection']]],
   ['islocalhumanplayer',['IsLocalHumanPlayer',['../classServerApp.html#ae56506e5732ae45b0c4d6a47bcb6f83a',1,'ServerApp']]],
   ['ismetereffect',['IsMeterEffect',['../classEffect_1_1EffectBase.html#aff17cc02a0112faa9d4210d90db47dfa',1,'Effect::EffectBase::IsMeterEffect()'],['../classEffect_1_1SetMeter.html#a17f8cceb6de4efb651f19261fa261b64',1,'Effect::SetMeter::IsMeterEffect()'],['../classEffect_1_1SetShipPartMeter.html#a2f905e7b57bf0513c4ddd45cb4337074',1,'Effect::SetShipPartMeter::IsMeterEffect()'],['../classEffect_1_1SetEmpireMeter.html#addc609922ce5cc2faf38e8dc16a701ab',1,'Effect::SetEmpireMeter::IsMeterEffect()'],['../classEffect_1_1Conditional.html#a4d46b9544981c997d399a1a2c1d151a1',1,'Effect::Conditional::IsMeterEffect()']]],

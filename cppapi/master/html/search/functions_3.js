@@ -260,6 +260,7 @@ var searchData=
   ['containsfleet',['ContainsFleet',['../classFleetWnd.html#a125667dca16c1e766ef0ce01884b7fa2',1,'FleetWnd']]],
   ['containssimplematch',['ContainsSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ContainsSimpleMatch.html#af22048f4481471f01970fe9ef932f2f0',1,'Condition::anonymous_namespace{Condition.cpp}::ContainsSimpleMatch']]],
   ['contentchecksummessage',['ContentCheckSumMessage',['../Message_8cpp.html#a48f7c98ff0d9de0426d11f9473a3d192',1,'ContentCheckSumMessage():&#160;Message.cpp'],['../Message_8h.html#af74aee69d72a628e6098a161cb80363e',1,'ContentCheckSumMessage():&#160;Message.cpp']]],
+  ['continuesingleplayergame',['ContinueSinglePlayerGame',['../classHumanClientApp.html#a4e301bceb784a3825ab17210782c8850',1,'HumanClientApp']]],
   ['control_5fheight',['CONTROL_HEIGHT',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#abe0e2c675f96121b549920099b34e600',1,'anonymous_namespace{GalaxySetupWnd.cpp}::CONTROL_HEIGHT()'],['../namespaceanonymous__namespace_02ModeratorActionsWnd_8cpp_03.html#ad6003ead57b2d8a3b72994d79198bb1e',1,'anonymous_namespace{ModeratorActionsWnd.cpp}::CONTROL_HEIGHT()']]],
   ['control_5fmargin',['CONTROL_MARGIN',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ae5c103d523227c1e4ff8591eaa20453b',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['control_5fvmargin',['CONTROL_VMARGIN',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#af3194ec33c6d70bcc94d7180eed74be0',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
