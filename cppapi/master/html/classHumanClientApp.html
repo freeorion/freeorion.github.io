@@ -156,6 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6ded30966032b67b45532a17749aad2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46419f3ed0d3873bfa76c75cd10a957c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a46419f3ed0d3873bfa76c75cd10a957c">StartTurn</a> () override</td></tr>
 <tr class="separator:a46419f3ed0d3873bfa76c75cd10a957c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80363ece7443fd56b1f634b27c77094e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a80363ece7443fd56b1f634b27c77094e">HandleTurnPhaseUpdate</a> (Message::TurnProgressPhase phase_id) override</td></tr>
+<tr class="memdesc:a80363ece7443fd56b1f634b27c77094e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle UI and state updates with changes in turn phase.  <a href="#a80363ece7443fd56b1f634b27c77094e">More...</a><br /></td></tr>
+<tr class="separator:a80363ece7443fd56b1f634b27c77094e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a911082255e9dd34b56ecf1a8a8c2d2db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db">SetSinglePlayerGame</a> (bool sp=true)</td></tr>
 <tr class="separator:a911082255e9dd34b56ecf1a8a8c2d2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa88ce41198c4c1c7311797e8832dfe57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer</a> ()</td></tr>
@@ -616,7 +619,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp::CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa">ClientApp::Networking()</a>, <a class="el" href="Directories_8cpp.html#ab1a92c15eae57e223e7879f000fe6119">PathString()</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="namespaceAIInterface.html#a7645d93b4ce8f92c3b94e6f59fb6bb29">AIInterface::PlayerIsHost()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a797cc16a745a803eaa550aca1a96c87b">anonymous_namespace{HumanClientApp.cpp}::RemoveOldestFiles()</a>, and <a class="el" href="classHumanClientApp.html#a857aac67f404489d672e8fc98be0cce9">SaveGame()</a>.</p>
 
-<p>Referenced by <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>.</p>
+<p>Referenced by <a class="el" href="classHumanClientApp.html#aacb22cb3c7d1581e38cffddbf25517b8">ResetOrExitApp()</a>, and <a class="el" href="classHumanClientApp.html#a46419f3ed0d3873bfa76c75cd10a957c">StartTurn()</a>.</p>
 
 </div>
 </div>
@@ -931,7 +934,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classHumanClientApp.html#ae00f4e7f210b084dc7912de1df5601ea">GLVersion()</a>, <a class="el" href="classHumanClientApp.html#aff51051954870d71f3adde255425066c">HandleSaveGameDataRequest()</a>, <a class="el" href="classHumanClientApp.html#a67b6bab351751b1787bdf662474ccc58">m_ui</a>, <a class="el" href="classHumanClientApp.html#a8e5980b64840120f90a74da819049257">OpenURL()</a>, <a class="el" href="classHumanClientApp.html#adf408f09bbe8b5cb5de7b9b9429c0d5a">Reinitialize()</a>, and <a class="el" href="classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f">UpdateCombatLogs()</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="structWaitingForSPHostAck.html#a989806ec738d00deae151f568fd4d0d5">WaitingForSPHostAck::react()</a>, <a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">WaitingForMPHostAck::react()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">WaitingForMPJoinAck::react()</a>.</p>
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="classHumanClientApp.html#a80363ece7443fd56b1f634b27c77094e">HandleTurnPhaseUpdate()</a>, <a class="el" href="structWaitingForSPHostAck.html#a989806ec738d00deae151f568fd4d0d5">WaitingForSPHostAck::react()</a>, <a class="el" href="structWaitingForMPHostAck.html#a6e089c36c650451b15ec7b70dc9f9a47">WaitingForMPHostAck::react()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">WaitingForMPJoinAck::react()</a>.</p>
 
 </div>
 </div>
@@ -1192,6 +1195,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classHumanClientApp.html#afe578f75aa572cec68700a3cae559e6c">DisconnectedFromServer()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#a23e6728f6d3f9407ff70048e30e6a283">HandleMessage()</a>, <a class="el" href="classHumanClientApp.html#a56a9a1ff7c4a41267ede656b6397c54a">m_connected</a>, <a class="el" href="classClientApp.html#a86c431d29c2aaf82552afbdb0a58ef41">ClientApp::m_networking</a>, and <a class="el" href="classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa">ClientApp::Networking()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80363ece7443fd56b1f634b27c77094e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HumanClientApp::HandleTurnPhaseUpdate </td>
+          <td>(</td>
+          <td class="paramtype">Message::TurnProgressPhase&#160;</td>
+          <td class="paramname"><em>phase_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle UI and state updates with changes in turn phase. </p>
+
+<p>Reimplemented from <a class="el" href="classClientApp.html#aa1cabc85678fcbbefd841900a95079c1">ClientApp</a>.</p>
+
+<p>References <a class="el" href="classHumanClientApp.html#acd32b52bbd3eabf669f5ba323291371a">GetClientUI()</a>, <a class="el" href="classClientUI.html#aa9b630a6bd4c116724ff46956fe16ff8">ClientUI::GetMessageWnd()</a>, and <a class="el" href="classClientApp.html#aa1cabc85678fcbbefd841900a95079c1">ClientApp::HandleTurnPhaseUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1824,7 +1857,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classClientApp.html#a5b9a8d2f63278e4c9db3831fb728296d">ClientApp</a>.</p>
 
-<p>References <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp::CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classClientApp.html#a7c6c281ca788f5f3e6557b5dc810f12d">ClientApp::GetEmpire()</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, and <a class="el" href="classClientApp.html#a5b9a8d2f63278e4c9db3831fb728296d">ClientApp::StartTurn()</a>.</p>
+<p>References <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp::CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="classClientApp.html#a7c6c281ca788f5f3e6557b5dc810f12d">ClientApp::GetEmpire()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, and <a class="el" href="classClientApp.html#a5b9a8d2f63278e4c9db3831fb728296d">ClientApp::StartTurn()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#ad2a37e2ce18fb97a497805424ca3e20f">MapWnd::EndTurn()</a>.</p>
 
@@ -2135,7 +2168,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>true when this game is a single-player game </p>
 
-<p>Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a97b5e2f09c8328e183faba7f6243ce21">MultiPlayerGame()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">NewSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a2e4e409e895659bb289d95a7df806aa6">RequestSavePreviews()</a>, <a class="el" href="classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db">SetSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#ad534d90468deb4c2bedd67fb1d1771e9">SinglePlayerGame()</a>, and <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>.</p>
+<p>Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a97b5e2f09c8328e183faba7f6243ce21">MultiPlayerGame()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">NewSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a2e4e409e895659bb289d95a7df806aa6">RequestSavePreviews()</a>, <a class="el" href="classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db">SetSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#ad534d90468deb4c2bedd67fb1d1771e9">SinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>, and <a class="el" href="classHumanClientApp.html#a46419f3ed0d3873bfa76c75cd10a957c">StartTurn()</a>.</p>
 
 </div>
 </div>
