@@ -263,6 +263,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ad64f21528a5d32d2266e070a96ec1bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c8dfb7b91ada70407343b0f79e9cf5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">GetEffectsAndTargets</a> (<a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">Effect::TargetsCauses</a> &amp;targets_causes, const std::vector&lt; int &gt; &amp;target_objects)</td></tr>
 <tr class="separator:a1c8dfb7b91ada70407343b0f79e9cf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3449a544352968a6c81a6c0be3f2ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#abf3449a544352968a6c81a6c0be3f2ba">GetEffectSpecifiedVisibilities</a> (<a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">EmpireObjectVisibilityMap</a> &amp;effect_specified_empire_object_visibilities, int encoding_empire) const </td></tr>
+<tr class="separator:abf3449a544352968a6c81a6c0be3f2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a7a276d97a76d7740ba797ead940f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#af8a7a276d97a76d7740ba797ead940f0">GetEmpireKnownDestroyedObjects</a> (<a class="el" href="classUniverse.html#a55d6a322dec14b64417909bccb826193">ObjectKnowledgeMap</a> &amp;empire_known_destroyed_object_ids, int encoding_empire) const </td></tr>
 <tr class="separator:af8a7a276d97a76d7740ba797ead940f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59510e1cfaefb7206faea2df9dcd9ce9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a59510e1cfaefb7206faea2df9dcd9ce9">GetEmpireKnownObjectsToSerialize</a> (<a class="el" href="classUniverse.html#ab2e3c288646f6e8e6d20fbc699f179e9">EmpireObjectMap</a> &amp;empire_latest_known_objects, int encoding_empire) const </td></tr>
@@ -1530,6 +1532,44 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abf3449a544352968a6c81a6c0be3f2ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Universe::GetEffectSpecifiedVisibilities </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">EmpireObjectVisibilityMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>effect_specified_empire_object_visibilities</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>encoding_empire</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Universe_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>.</p>
+
+<p>Referenced by <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af8a7a276d97a76d7740ba797ead940f0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2493,7 +2533,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">ObjectMap::Clear()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classUniverse.html#ab413ed7d87180ea708a5005135d8a097">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#af8a7a276d97a76d7740ba797ead940f0">GetEmpireKnownDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a59510e1cfaefb7206faea2df9dcd9ce9">GetEmpireKnownObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#aec455142f70a6fb68d41ed4ab6beb70b">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#ad459138c2b6a70f90d090a5685c56fcc">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#a2dddcf4617e5e27fa55ef313617f939d">GetEmpireStaleKnowledgeObjects()</a>, <a class="el" href="classUniverse.html#a76ba734bf42a8a5dc7633ee2418d8cb2">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a647bc4b7e9ccc8db108ae44740123b6c">GetShipDesignsToSerialize()</a>, <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#afe7c66f52cb1247aa4b708747d77a66e">m_empire_known_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#aeff25698819fadf8378f60b60888f850">m_empire_known_ship_design_ids</a>, <a class="el" href="classUniverse.html#a8df25a337c376fe527a228bbc60c17ee">m_empire_latest_known_objects</a>, <a class="el" href="classUniverse.html#acd2e7ba301695fba7d9c66b54e8bc918">m_empire_object_visibility</a>, <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>, <a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a>, <a class="el" href="classUniverse.html#aa710b6c30ba84fb2cf6408df933b2556">m_encoding_empire</a>, <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, <a class="el" href="classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7">m_stat_records</a>, <a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a>, <a class="el" href="classObjectMap.html#ad76323689535aa2e7e7ba23a8bc1e967">ObjectMap::NumObjects()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="namespaceparse.html#a9896eda62ecb81232233b31bfe5645d8">parse::ship_designs()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">ObjectMap::swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">ObjectMap::UpdateCurrentDestroyedObjects()</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">ObjectMap::Clear()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classUniverse.html#ab413ed7d87180ea708a5005135d8a097">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#abf3449a544352968a6c81a6c0be3f2ba">GetEffectSpecifiedVisibilities()</a>, <a class="el" href="classUniverse.html#af8a7a276d97a76d7740ba797ead940f0">GetEmpireKnownDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a59510e1cfaefb7206faea2df9dcd9ce9">GetEmpireKnownObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#aec455142f70a6fb68d41ed4ab6beb70b">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#ad459138c2b6a70f90d090a5685c56fcc">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#a2dddcf4617e5e27fa55ef313617f939d">GetEmpireStaleKnowledgeObjects()</a>, <a class="el" href="classUniverse.html#a76ba734bf42a8a5dc7633ee2418d8cb2">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a647bc4b7e9ccc8db108ae44740123b6c">GetShipDesignsToSerialize()</a>, <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#a0311ec3a3d0aab6f72abd71e84402b19">m_effect_specified_empire_object_visibilities</a>, <a class="el" href="classUniverse.html#afe7c66f52cb1247aa4b708747d77a66e">m_empire_known_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#aeff25698819fadf8378f60b60888f850">m_empire_known_ship_design_ids</a>, <a class="el" href="classUniverse.html#a8df25a337c376fe527a228bbc60c17ee">m_empire_latest_known_objects</a>, <a class="el" href="classUniverse.html#acd2e7ba301695fba7d9c66b54e8bc918">m_empire_object_visibility</a>, <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>, <a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a>, <a class="el" href="classUniverse.html#aa710b6c30ba84fb2cf6408df933b2556">m_encoding_empire</a>, <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, <a class="el" href="classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7">m_stat_records</a>, <a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a>, <a class="el" href="classObjectMap.html#ad76323689535aa2e7e7ba23a8bc1e967">ObjectMap::NumObjects()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="namespaceparse.html#a9896eda62ecb81232233b31bfe5645d8">parse::ship_designs()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">ObjectMap::swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">ObjectMap::UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -3127,7 +3167,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, and <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
 
 </div>
 </div>
