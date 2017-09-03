@@ -150,6 +150,7 @@ var searchData=
   ['isdepartingfromsystem',['IsDepartingFromSystem',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa14b5c1416e5a889590262c0d1dada4c',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['isdesignnamevalid',['IsDesignNameValid',['../classDesignWnd_1_1MainPanel.html#af85c3f640d755ea1c1d3774e363cdefe',1,'DesignWnd::MainPanel']]],
   ['isempiremetereffect',['IsEmpireMeterEffect',['../classEffect_1_1EffectBase.html#a7bf84592b7dc99c46d063504c796cf68',1,'Effect::EffectBase::IsEmpireMeterEffect()'],['../classEffect_1_1SetEmpireMeter.html#a919619fbfc42f98fc16038c3b28f85e3',1,'Effect::SetEmpireMeter::IsEmpireMeterEffect()']]],
+  ['isestablished',['IsEstablished',['../classPlayerConnection.html#a3d127a10aa734597571b742a747f2f21',1,'PlayerConnection']]],
   ['isfinalnode',['IsFinalNode',['../classTechTreeLayout_1_1Node.html#afc8e2b34cdfc3a4de495a7569c7c20d3',1,'TechTreeLayout::Node']]],
   ['isfleetexploring',['IsFleetExploring',['../classMapWnd.html#a793655bf8ecaee4fdba75770dd677bf3',1,'MapWnd']]],
   ['ishostless',['IsHostless',['../classServerApp.html#a68dc367307c988daf3bfa288531e4a37',1,'ServerApp']]],
