@@ -19,7 +19,6 @@ var searchData=
   ['canceldiplomaticmessage',['CancelDiplomaticMessage',['../Diplomacy_8cpp.html#a5e5de069a7c1d05f7f7658e41e0668ea',1,'CancelDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a3aa626f392a0fe5ca2a3b201c7fc1385',1,'CancelDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['cancellingchilddragdrop',['CancellingChildDragDrop',['../classSlotControl.html#af4c38f645c4900e576cc4ea96f8d0a88',1,'SlotControl']]],
   ['cancelmultiplayergamefromlobby',['CancelMultiplayerGameFromLobby',['../classHumanClientApp.html#aa39d42afedf1ed88afef38a8d696ea13',1,'HumanClientApp']]],
-  ['cancelretries',['CancelRetries',['../classClientNetworking_1_1Impl.html#abd0b5f3badbaa89ac40ca85f7fc21cf0',1,'ClientNetworking::Impl']]],
   ['canchangedirectionenroute',['CanChangeDirectionEnRoute',['../classFleet.html#ab624bf98f96b38ddf7ecfa96e23a7256',1,'Fleet']]],
   ['cancolonize',['CanColonize',['../structCondition_1_1CanColonize.html#a92dce9618501773402e7dc82ca3a36f7',1,'Condition::CanColonize::CanColonize()'],['../classShip.html#a412d73b036eceace07955bba25defa82',1,'Ship::CanColonize()'],['../classShipDesign.html#ae3eca1db2d05f73b829e3c285ea7e24c',1,'ShipDesign::CanColonize()'],['../classSpecies.html#adaf8e5b4fab4eca0f361e3310147f1f8',1,'Species::CanColonize()']]],
   ['cancolonize_5fcondition',['CANCOLONIZE_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab93c366478df07ae2a4324f8c63fb482',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
