@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['savetype',['SaveType',['../classSaveFileDialog.html#af9be8a14a5eaa00daa03267e5064d058',1,'SaveFileDialog']]],
   ['searchdomain',['SearchDomain',['../namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bdde',1,'Condition']]],
   ['shapeorientation',['ShapeOrientation',['../CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546',1,'CUIDrawUtil.h']]],
   ['sizetype',['SizeType',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148',1,'FleetButton']]],

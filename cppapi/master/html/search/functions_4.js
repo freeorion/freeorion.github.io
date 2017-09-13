@@ -80,7 +80,6 @@ var searchData=
   ['diplomaticstatusmessage',['DiplomaticStatusMessage',['../Message_8cpp.html#aa9896ed426180f7cbed2607b7bcdadf4',1,'DiplomaticStatusMessage(const DiplomaticStatusUpdateInfo &amp;diplo_update):&#160;Message.cpp'],['../Message_8h.html#a15c6930c0167ade5ebd8424dbb354794',1,'DiplomaticStatusMessage(const DiplomaticStatusUpdateInfo &amp;diplo_update):&#160;Message.cpp']]],
   ['diplomaticstatusupdateinfo',['DiplomaticStatusUpdateInfo',['../structDiplomaticStatusUpdateInfo.html#a34cf6765e5951cc3861b86e6da3fbc02',1,'DiplomaticStatusUpdateInfo::DiplomaticStatusUpdateInfo()'],['../structDiplomaticStatusUpdateInfo.html#a7941d2820cfab3abb7130cf23b1f6f4f',1,'DiplomaticStatusUpdateInfo::DiplomaticStatusUpdateInfo(int empire1_id_, int empire2_id_, DiplomaticStatus status)']]],
   ['directoryawarecmp',['DirectoryAwareCmp',['../classSaveFileListBox.html#a796ac1478ae7d9145f6672cd9dad04b3',1,'SaveFileListBox']]],
-  ['directorydropdownselect',['DirectoryDropdownSelect',['../classSaveFileDialog.html#a90b0584fc3f4904a5044b1128e3a0b62',1,'SaveFileDialog']]],
   ['directoryedited',['DirectoryEdited',['../classSaveFileDialog.html#a352b92b71300f6ea2baa4681fa00733e',1,'SaveFileDialog']]],
   ['directorynamesize',['DirectoryNameSize',['../classSaveFileDirectoryRow.html#a15148562362762c52c1634f2e308623d',1,'SaveFileDirectoryRow']]],
   ['directoryoption',['DirectoryOption',['../classOptionsWnd.html#a1066458767ded3a8cd887848c2822804',1,'OptionsWnd']]],

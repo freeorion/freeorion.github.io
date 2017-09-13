@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['save',['Save',['../classSaveFileDialog.html#aa2b31c79b3392d10a6228d7e85ddd4c5ac9cc8cce247e49bae79f15173ce97354',1,'SaveFileDialog']]],
   ['saved',['Saved',['../classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a248336101b461380a4b2391a7625493d',1,'DesignWnd::BaseSelector']]],
   ['shape_5fdown',['SHAPE_DOWN',['../CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546a60dc74366a4c0ed7d48d12658e127962',1,'CUIDrawUtil.h']]],
   ['shape_5fleft',['SHAPE_LEFT',['../CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546a75a76da1ac6562178099865f63425f77',1,'CUIDrawUtil.h']]],
@@ -10,6 +11,7 @@ var searchData=
   ['show_5fpreviously_5fvisible',['SHOW_PREVIOUSLY_VISIBLE',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57a01fb0ef4360859af26c1dcf123016172',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['show_5fvisible',['SHOW_VISIBLE',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57a8d8d3c02539606c975511b62afb964b3',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['sine',['SINE',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a1d51b6d07e3afd3878d43c2b5494f088',1,'ValueRef']]],
+  ['singleplayer',['SinglePlayer',['../classSaveFileDialog.html#af9be8a14a5eaa00daa03267e5064d058abaa1d5d7c2a65312fdc5577125de257a',1,'SaveFileDialog']]],
   ['size',['SIZE',['../classMessage.html#aa0ed8a9de9ac2d929d2bee202aeaf397a2c6af741e08a73a02bdd24176150868c',1,'Message']]],
   ['sort_5fmax',['SORT_MAX',['../namespaceCondition.html#a4673fbf090a5b7b97d09b514f06c8dada5ba0db0ec9952e8428db5a2e00db1022',1,'Condition']]],
   ['sort_5fmin',['SORT_MIN',['../namespaceCondition.html#a4673fbf090a5b7b97d09b514f06c8dada310a9de99cec4bd93ba24449db52da1f',1,'Condition']]],

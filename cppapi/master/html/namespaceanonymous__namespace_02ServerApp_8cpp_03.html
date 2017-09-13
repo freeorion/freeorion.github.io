@@ -142,9 +142,11 @@ Functions</h2></td></tr>
 <tr class="separator:ab2eab3949a7d470a8f3c1d90ead1d505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1682703d63df4e62df6ac3b5eda6384d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d">HumanPlayerWithIdConnected</a> (const <a class="el" href="classServerNetworking.html">ServerNetworking</a> &amp;sn, int id)</td></tr>
 <tr class="separator:a1682703d63df4e62df6ac3b5eda6384d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab348652d31bb57ebe8476b437d7812fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab348652d31bb57ebe8476b437d7812fc">ListSaveSubdirectories</a> (std::vector&lt; std::string &gt; &amp;list)</td></tr>
-<tr class="memdesc:ab348652d31bb57ebe8476b437d7812fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates information on the subdirectories of the save directory.  <a href="#ab348652d31bb57ebe8476b437d7812fc">More...</a><br /></td></tr>
-<tr class="separator:ab348652d31bb57ebe8476b437d7812fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd92ffa9acba16cb88565e11be1140e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0cd92ffa9acba16cb88565e11be1140e">IsInServerSaveDir</a> (const fs::path &amp;path)</td></tr>
+<tr class="separator:a0cd92ffa9acba16cb88565e11be1140e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514d4a3e2e93b3a60da14f15d3806c7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a514d4a3e2e93b3a60da14f15d3806c7c">ListSaveSubdirectories</a> (const fs::path &amp;directory)</td></tr>
+<tr class="memdesc:a514d4a3e2e93b3a60da14f15d3806c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates information on the subdirectories of <code>directory</code>.  <a href="#a514d4a3e2e93b3a60da14f15d3806c7c">More...</a><br /></td></tr>
+<tr class="separator:a514d4a3e2e93b3a60da14f15d3806c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad541247e4952efc6226f2c8dec458f02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad541247e4952efc6226f2c8dec458f02">ResolveGroundCombat</a> (std::map&lt; int, double &gt; &amp;empires_troops)</td></tr>
 <tr class="separator:ad541247e4952efc6226f2c8dec458f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f1d30ee4639cae1cb96383e0848cc0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6f1d30ee4639cae1cb96383e0848cc0c">UpdateEmpireCombatDestructionInfo</a> (const std::vector&lt; <a class="el" href="structCombatInfo.html">CombatInfo</a> &gt; &amp;combats)</td></tr>
@@ -814,23 +816,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab348652d31bb57ebe8476b437d7812fc"></a>
+<a class="anchor" id="a0cd92ffa9acba16cb88565e11be1140e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void anonymous_namespace{ServerApp.cpp}::ListSaveSubdirectories </td>
+          <td class="memname">bool anonymous_namespace{ServerApp.cpp}::IsInServerSaveDir </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Check that <code>path</code> is a file or directory in the server save directory. </p>
+
+<p>References <a class="el" href="Directories_8cpp.html#a9f70e6d4cebd7e7c326c89b8f284df27">GetServerSaveDir()</a>, and <a class="el" href="Directories_8cpp.html#aa7086d96bc1cf806064a960322180238">IsInDir()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a514d4a3e2e93b3a60da14f15d3806c7c">ListSaveSubdirectories()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a514d4a3e2e93b3a60da14f15d3806c7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; anonymous_namespace{ServerApp.cpp}::ListSaveSubdirectories </td>
+          <td>(</td>
+          <td class="paramtype">const fs::path &amp;&#160;</td>
+          <td class="paramname"><em>directory</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generates information on the subdirectories of the save directory. </p>
+<p>Generates information on the subdirectories of <code>directory</code>. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>.</p>
+<p>References <a class="el" href="Directories_8cpp.html#a9f70e6d4cebd7e7c326c89b8f284df27">GetServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0cd92ffa9acba16cb88565e11be1140e">IsInServerSaveDir()</a>, <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>.</p>
 

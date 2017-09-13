@@ -9,5 +9,6 @@ var searchData=
   ['minimum',['MINIMUM',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ab4cf8d8c8141ef457e92228d62904082',1,'ValueRef']]],
   ['minus',['MINUS',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a70f20478e62f3f442609ba970823b50e',1,'ValueRef']]],
   ['mode',['MODE',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a89ece983ef5fd1077819f98160ab1344',1,'ValueRef']]],
-  ['monster',['Monster',['../classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a243a3afa44aed85d504dbd53fd9804e9',1,'DesignWnd::BaseSelector']]]
+  ['monster',['Monster',['../classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a243a3afa44aed85d504dbd53fd9804e9',1,'DesignWnd::BaseSelector']]],
+  ['multiplayer',['MultiPlayer',['../classSaveFileDialog.html#af9be8a14a5eaa00daa03267e5064d058ae65be2eece04b72c3fb10d5ec8af6dc3',1,'SaveFileDialog']]]
 ];
