@@ -241,8 +241,8 @@ Functions</h2></td></tr>
 <tr class="separator:a14416151d17df6c3ab9f2cf35e997f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac95589a0e4d6e022d20ed77f5549bfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#aac95589a0e4d6e022d20ed77f5549bfc">ServerSaveGameCompleteMessage</a> (const std::string &amp;save_filename, int bytes_written)</td></tr>
 <tr class="separator:aac95589a0e4d6e022d20ed77f5549bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a193c3b67a59089e2b0ca9b1adb65e7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a193c3b67a59089e2b0ca9b1adb65e7c2">ServerSaveGameDataRequestMessage</a> (bool synchronous_response)</td></tr>
-<tr class="separator:a193c3b67a59089e2b0ca9b1adb65e7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfa426ee12cb2952d376a823a061517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#accfa426ee12cb2952d376a823a061517">ServerSaveGameDataRequestMessage</a> ()</td></tr>
+<tr class="separator:accfa426ee12cb2952d376a823a061517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a374421c12eda8733ce8d99434d2e99c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a374421c12eda8733ce8d99434d2e99c9">ShutdownServerMessage</a> ()</td></tr>
 <tr class="separator:a374421c12eda8733ce8d99434d2e99c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51cfffa4c137206b4039e1612d77951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#ab51cfffa4c137206b4039e1612d77951">StartMPGameMessage</a> ()</td></tr>
@@ -305,7 +305,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Fills in the relevant portions of <em>message</em> with the values in the buffer <em>buffer</em>. </p>
 
-<p>References <a class="el" href="classMessage.html#a20eb45a0f46c311b7e346d6a50ef8423">Message::m_message_size</a>, <a class="el" href="classMessage.html#adc7ed65ced6bc4546737d8e082bda78c">Message::m_synchronous_response</a>, and <a class="el" href="classMessage.html#ad00e422b792e72859a9671b63090a538">Message::m_type</a>.</p>
+<p>References <a class="el" href="classMessage.html#a20eb45a0f46c311b7e346d6a50ef8423">Message::m_message_size</a>, and <a class="el" href="classMessage.html#ad00e422b792e72859a9671b63090a538">Message::m_type</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ab7e3f7cf247548759c76c38d21837939">ClientNetworking::Impl::HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">PlayerConnection::HandleMessageHeaderRead()</a>.</p>
 
@@ -1840,7 +1840,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Fills <em>header_buf</em> from the relevant portions of <em>message</em>. </p>
 
-<p>References <a class="el" href="classMessage.html#a9377a808794641b36e14b5c222fd3116">Message::Size()</a>, <a class="el" href="classMessage.html#ad1193e571c9448fccbef383502cb4bfe">Message::SynchronousResponse()</a>, and <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>.</p>
+<p>References <a class="el" href="classMessage.html#a9377a808794641b36e14b5c222fd3116">Message::Size()</a>, and <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">ClientNetworking::Impl::AsyncWriteMessage()</a>, and <a class="el" href="classPlayerConnection.html#af053f4d9d4ece1bf2d08cbe419195241">PlayerConnection::SyncWriteMessage()</a>.</p>
 
@@ -2368,15 +2368,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a193c3b67a59089e2b0ca9b1adb65e7c2"></a>
+<a class="anchor" id="accfa426ee12cb2952d376a823a061517"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a> ServerSaveGameDataRequestMessage </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>synchronous_response</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2457,7 +2456,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Message::Swap()</a>.</p>
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a04a9d7326e3e2f7228efc2ef7f3ede55">ObjectMap::ExistingFields()</a>, <a class="el" href="classMessageQueue.html#a41f5dabe5cbf68f757eb1f0824311002">MessageQueue::GetFirstSynchronousMessage()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ad184970170c877574e529eb194e2b712">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::GetShuffledValidAttackerIDs()</a>, <a class="el" href="structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851">MessageEventBase::MessageEventBase()</a>, <a class="el" href="classMessageQueue.html#ae6ee0f3d61a7c8ba54a68e1442201605">MessageQueue::PopFront()</a>, <a class="el" href="classMessageQueue.html#a4b851bd107da9ff5793d2632c73d3b06">MessageQueue::PushBack()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ad0d55434741fde1ba412d46acb361c02">ClientNetworking::Impl::SendMessageImpl()</a>, and <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Message::Swap()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a04a9d7326e3e2f7228efc2ef7f3ede55">ObjectMap::ExistingFields()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ad184970170c877574e529eb194e2b712">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::GetShuffledValidAttackerIDs()</a>, <a class="el" href="structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851">MessageEventBase::MessageEventBase()</a>, <a class="el" href="classMessageQueue.html#ae6ee0f3d61a7c8ba54a68e1442201605">MessageQueue::PopFront()</a>, <a class="el" href="classMessageQueue.html#a4b851bd107da9ff5793d2632c73d3b06">MessageQueue::PushBack()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ad0d55434741fde1ba412d46acb361c02">ClientNetworking::Impl::SendMessageImpl()</a>, and <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Message::Swap()</a>.</p>
 
 </div>
 </div>

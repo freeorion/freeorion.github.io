@@ -148,8 +148,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade370d5322c61a3b8e91429d584050c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage</a> ()</td></tr>
 <tr class="separator:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a833873f9b178e1262f85a53018824d73"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a833873f9b178e1262f85a53018824d73">SendSynchronousMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
-<tr class="separator:a833873f9b178e1262f85a53018824d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ae59a8aec857759adaa3ecfd8bca14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer</a> ()</td></tr>
 <tr class="separator:a9ae59a8aec857759adaa3ecfd8bca14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28f0ef07568db37c9f07c9583180fdaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID</a> (int player_id)</td></tr>
@@ -163,10 +161,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7f751b5e5b8242120c39a4e9ccbe6a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates the networking facilities of the client. The client must execute its networking code in a separate thread from its main processing thread, for UI and networking responsiveness, and to process synchronous communication with the server.</p>
+<div class="textblock"><p>Encapsulates the networking facilities of the client. The client must execute its networking code in a separate thread from its main processing thread, for UI and networking responsiveness.</p>
 <p>Because of this, <a class="el" href="classClientNetworking.html">ClientNetworking</a> operates in two threads: the main thread, in which the UI processing operates; the networking thread, which is created and terminates when the client is connected to and disconnected from the server, respectively. The entire public interface is safe to call from the main thread at all times. Note that the main thread must periodically request the next incoming message; the arrival of incoming messages is never explicitly signalled to the main thread. The same applies to unintentional disconnects from the server. The client must periodically check <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>.</p>
-<p>The <a class="el" href="classClientNetworking.html">ClientNetworking</a> has three modes of operation. First, it can discover FreeOrion servers on the local network; this is a blocking operation with a timeout. Second, it can send an asynchronous message to the server (when connected); this is a non-blocking operation. Third, it can send a synchronous message to the server (when connected) and return the server's response; this is a blocking operation.</p>
-<p>Note that the <a class="el" href="classClientNetworking.html#a833873f9b178e1262f85a53018824d73">SendSynchronousMessage()</a> does not interrupt the sending or receiving of asynchronous messages. When <a class="el" href="classClientNetworking.html#a833873f9b178e1262f85a53018824d73">SendSynchronousMessage()</a> is called and the main thread blocks to wait for the response message, regular messages are still being sent and received. Some of these regular messages may arrive before the response message, but <a class="el" href="classClientNetworking.html#a833873f9b178e1262f85a53018824d73">SendSynchronousMessage()</a> will still return the response message first, even if it is not at the front of the queue at the time. This implies that some response messages may be handled out of order with respect to regular messages, but these are in fact the desired semantics. </p>
+<p>The <a class="el" href="classClientNetworking.html">ClientNetworking</a> has two modes of operation. First, it can discover FreeOrion servers on the local network; this is a blocking operation with a timeout. Second, it can send an asynchronous message to the server (when connected); this is a non-blocking operation. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="afae6b43b7b9cbc165c3166a89e01004c"></a>
 <div class="memitem">
@@ -463,25 +460,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a833873f9b178e1262f85a53018824d73"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt; ClientNetworking::SendSynchronousMessage </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Sends <em>message</em> to the server, then blocks until it sees the first synchronous response from the server. </p>
-
-<p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a62e02780051d4f2a51357612141c86ef"></a>
 <div class="memitem">
 <div class="memproto">
@@ -539,7 +517,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a052a7c2446c96ee2df50ca2eae5ad70d">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#a1579d0fc98849f667ef80ada669e4d64">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a0289ef36f1693ebbccd7939163ff77c7">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a9cbdc85dfdc016eef658348e6dfa7cfc">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a833873f9b178e1262f85a53018824d73">SendSynchronousMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a052a7c2446c96ee2df50ca2eae5ad70d">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#a1579d0fc98849f667ef80ada669e4d64">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a0289ef36f1693ebbccd7939163ff77c7">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a9cbdc85dfdc016eef658348e6dfa7cfc">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
 
 </div>
 </div>
