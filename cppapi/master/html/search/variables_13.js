@@ -118,6 +118,8 @@ var searchData=
   ['spawn',['spawn',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1rules.html#a13c37b142c43aee7227fcb862e956e4c',1,'anonymous_namespace{SpecialsParser.cpp}::rules']]],
   ['spawns',['spawns',['../structanonymous__namespace_02MonsterFleetPlansParser_8cpp_03_1_1rules.html#a88ca380272a03aa25ff81746efc33da5',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}::rules']]],
   ['special',['special',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1rules.html#add75264b3f82a93d15cbdf00d2119534',1,'anonymous_namespace{SpecialsParser.cpp}::rules']]],
+  ['special_5fadded_5fon_5fturn',['special_added_on_turn',['../structparse_1_1int__complex__parser__rules.html#aa6f9ceee76d2d6515e3fe586bec28050',1,'parse::int_complex_parser_rules']]],
+  ['special_5fcapacity',['special_capacity',['../structparse_1_1double__complex__parser__rules.html#a001f92de289c01d5149ae69f1add7988',1,'parse::double_complex_parser_rules']]],
   ['special_5fprefix',['special_prefix',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1rules.html#ae233cb6fd217985738f1d44838b27ac9',1,'anonymous_namespace{SpecialsParser.cpp}::rules']]],
   ['special_5ftag',['SPECIAL_TAG',['../classVarText.html#a4ca4a9a3895dc5b0961bfbc2bb58588c',1,'VarText']]],
   ['specialinitialcapacityonobject',['SpecialInitialCapacityOnObject',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a2ae83a97e166c90970962fb0e01d66e1',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
