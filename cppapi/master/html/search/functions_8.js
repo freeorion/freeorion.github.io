@@ -87,6 +87,7 @@ var searchData=
   ['hastroopships',['HasTroopShips',['../classFleet.html#ab08a2ee0f64b81b1beb9546aa444eeae',1,'Fleet']]],
   ['hasunlauchedarmedfighters',['HasUnlauchedArmedFighters',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#a9379b8b235b701fcb5327e27a9365273',1,'anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo']]],
   ['haswormholeto',['HasWormholeTo',['../classSystem.html#a6d92776e154ac1b3ef9c0205fbd21642',1,'System']]],
+  ['hasxships',['HasXShips',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#ac7aa24fefbec306bd8ebfe5a878b187f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['havewindowfocus',['HaveWindowFocus',['../classHumanClientApp.html#a3d0a87ba19b3ed02a4808fa962acc4ad',1,'HumanClientApp']]],
   ['headertobuffer',['HeaderToBuffer',['../Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp'],['../Message_8h.html#a9b4c4e8c8555e3b844a56b99a8c45e52',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp']]],
   ['hiddensitreptemplates',['HiddenSitRepTemplates',['../classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a',1,'SitRepPanel']]],
