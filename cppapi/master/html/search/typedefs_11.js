@@ -5,7 +5,7 @@ var searchData=
   ['servernames',['ServerNames',['../classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c',1,'ClientNetworking']]],
   ['set',['Set',['../classFreeOrionPython_1_1SetWrapper.html#a246fb1ca58bf3863129da2c142f094db',1,'FreeOrionPython::SetWrapper']]],
   ['set_5fmeter_5frule',['set_meter_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#af0334340c9da27e8da1c6fc9764c0203',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
-  ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#ab82e52e3a112e086c012599e3180a809',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
+  ['set_5fstockpile_5for_5fvis_5frule',['set_stockpile_or_vis_rule',['../structanonymous__namespace_02EffectParser2_8cpp_03_1_1effect__parser__rules__2.html#ad7eff44791cc0d69d46c60691c9271ec',1,'anonymous_namespace{EffectParser2.cpp}::effect_parser_rules_2']]],
   ['setiterator',['SetIterator',['../classFreeOrionPython_1_1SetWrapper.html#a56ba736e31c8ca8f89951bdf643aa973',1,'FreeOrionPython::SetWrapper']]],
   ['ship_5fdesign_5fiterator',['ship_design_iterator',['../classUniverse.html#a36b94ff0880cca821a6249edcccc48a0',1,'Universe']]],
   ['shipdesignmap',['ShipDesignMap',['../classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543',1,'Universe']]],

@@ -42,6 +42,7 @@ var searchData=
   ['font_5ffile_5fsuffix',['FONT_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a2e5ad246d3dc8329f311a9bc4ca10e94',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['foo_5fbool',['foo_bool',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#ad80696178454430ffc413054e88f5c37',1,'anonymous_namespace{IntroScreen.cpp}']]],
   ['free_5fvariable',['free_variable',['../structanonymous__namespace_02StringValueRefParser_8cpp_03_1_1string__parser__rules.html#aa5c8f65a3ef74d8cddc5ef8f22592397',1,'anonymous_namespace{StringValueRefParser.cpp}::string_parser_rules::free_variable()'],['../structparse_1_1detail_1_1simple__variable__rules.html#a9d4873e638144b4c66e55d0a1e10ac98',1,'parse::detail::simple_variable_rules::free_variable()']]],
+  ['free_5fvariable_5fexpr',['free_variable_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a5441ef819b8622bff2a0360b9aa1eda6',1,'parse::detail::enum_value_ref_rules']]],
   ['free_5fvariable_5fname',['free_variable_name',['../structparse_1_1detail_1_1simple__variable__rules.html#aee391b8f4f90f02b63dcbcfc66d207a9',1,'parse::detail::simple_variable_rules']]],
   ['freeorion_5fversion',['freeorion_version',['../structSaveGamePreviewData.html#a1340d29b125ea16a7075bc156942d7aa',1,'SaveGamePreviewData']]],
   ['fuel',['fuel',['../structHullTypeStats.html#a61df9951375a6eefb90053495febd8aa',1,'HullTypeStats']]],
