@@ -1,7 +1,7 @@
 var searchData=
 [
   ['bases_5flist_5fbox_5fdrop_5ftype',['BASES_LIST_BOX_DROP_TYPE',['../classBasesListBox.html#a23b2d468e4ee4b88caafb1c344707e07',1,'BasesListBox']]],
-  ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
+  ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../Ship_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
   ['beginner',['BEGINNER',['../Enums_8h.html#a11dca09fa4060634f889cb568180766b',1,'Enums.h']]],
   ['bin_5fdir',['bin_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0',1,'anonymous_namespace{Directories.cpp}']]],
   ['blocker',['blocker',['../structHotkeyManager_1_1ConditionalConnection.html#a6fa4968cbbeb3ec2fad7fe24a0e576c6',1,'HotkeyManager::ConditionalConnection']]],
@@ -29,6 +29,9 @@ var searchData=
   ['building_5fid_5ftag',['BUILDING_ID_TAG',['../classVarText.html#a452056c89102fe936c4389596955944e',1,'VarText']]],
   ['building_5ftype',['building_type',['../structanonymous__namespace_02BuildingsParser_8cpp_03_1_1rules.html#a86f4d11af9a60b45c14ba4d804f96269',1,'anonymous_namespace{BuildingsParser.cpp}::rules']]],
   ['building_5ftype_5ftag',['BUILDING_TYPE_TAG',['../classVarText.html#a81f7f3d59836b10ce8134ab96d816715',1,'VarText']]],
+  ['building_5ftypes_5fowned',['building_types_owned',['../structparse_1_1int__complex__parser__rules.html#a07c4ed915a7b68f309e7220a45c7f0f6',1,'parse::int_complex_parser_rules']]],
+  ['building_5ftypes_5fproduced',['building_types_produced',['../structparse_1_1int__complex__parser__rules.html#a0f666a14926b0782609b8f6b6fa984aa',1,'parse::int_complex_parser_rules']]],
+  ['building_5ftypes_5fscrapped',['building_types_scrapped',['../structparse_1_1int__complex__parser__rules.html#a6de8f22c917d8b79a458ca0aa948b6f1',1,'parse::int_complex_parser_rules']]],
   ['buildingrightclickedsignal',['BuildingRightClickedSignal',['../classBuildingsPanel.html#aac5c8a59b554ebee27099ce0fe445923',1,'BuildingsPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanel.html#a317e1f5c0628de0a3b70698f64f7ab73',1,'SidePanel::PlanetPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba',1,'SidePanel::PlanetPanelContainer::BuildingRightClickedSignal()'],['../classSidePanel.html#a696b02ce5422ed637d1599946aa3fe33',1,'SidePanel::BuildingRightClickedSignal()']]],
   ['buildquantitychangedsignal',['BuildQuantityChangedSignal',['../classBuildDesignatorWnd.html#a5489bc53eddde4a095210cfce6cd7617',1,'BuildDesignatorWnd']]],
   ['button',['button',['../structOptionsBar_1_1ToggleData.html#aee23b6b3fec1d8d985bbe6658306ec70',1,'OptionsBar::ToggleData']]],

@@ -169,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64c94f6cb41c5233d0f108cec0534318"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a64c94f6cb41c5233d0f108cec0534318">ArrivedOnTurn</a> () const </td></tr>
 <tr class="memdesc:a64c94f6cb41c5233d0f108cec0534318"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the turn on which this ship arrived in its current system  <a href="#a64c94f6cb41c5233d0f108cec0534318">More...</a><br /></td></tr>
 <tr class="separator:a64c94f6cb41c5233d0f108cec0534318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9463e8e16f70b047be473471357e23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a6b9463e8e16f70b047be473471357e23">LastResuppliedOnTurn</a> () const </td></tr>
+<tr class="memdesc:a6b9463e8e16f70b047be473471357e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the turn on which this ship was last resupplied / upgraded  <a href="#a6b9463e8e16f70b047be473471357e23">More...</a><br /></td></tr>
+<tr class="separator:a6b9463e8e16f70b047be473471357e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a0ac5123073d2813a71dc901c583c75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a3a0ac5123073d2813a71dc901c583c75">IsMonster</a> () const </td></tr>
 <tr class="separator:a3a0ac5123073d2813a71dc901c583c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41620efecc311e053df9bd83f854aabd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a41620efecc311e053df9bd83f854aabd">IsArmed</a> () const </td></tr>
@@ -393,6 +396,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aad8ae990288b2bc98a63e24d6e25e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9b68870e01a55de6f4e83df0998c746"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#aa9b68870e01a55de6f4e83df0998c746">m_fleet_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:aa9b68870e01a55de6f4e83df0998c746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e90e87a22989b71e0ca79ffc1bb30d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#af9e90e87a22989b71e0ca79ffc1bb30d">m_last_resupplied_on_turn</a> = <a class="el" href="AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832">BEFORE_FIRST_TURN</a></td></tr>
+<tr class="separator:af9e90e87a22989b71e0ca79ffc1bb30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3762f7522df49e1b062eeaad5e3bcd2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#aa3762f7522df49e1b062eeaad5e3bcd2">m_last_turn_active_in_combat</a> = <a class="el" href="AppInterface_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td></tr>
 <tr class="separator:aa3762f7522df49e1b062eeaad5e3bcd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80f092e0a635eec258696a43a7d94377"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a80f092e0a635eec258696a43a7d94377">m_ordered_bombard_planet_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
@@ -691,6 +696,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the turn on which this ship arrived in its current system </p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1006,7 +1013,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject</a>.</p>
 
-<p>References <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="classUniverse.html#a1d727839ae2bcd37a94f0b04e90a5fc0">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="classShip.html#a7e585003966bb2aaa0470863efa28c5d">m_arrived_on_turn</a>, <a class="el" href="classShip.html#aad8ae990288b2bc98a63e24d6e25e9a1">m_design_id</a>, <a class="el" href="classShip.html#aa9b68870e01a55de6f4e83df0998c746">m_fleet_id</a>, <a class="el" href="classShip.html#aa3762f7522df49e1b062eeaad5e3bcd2">m_last_turn_active_in_combat</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">UniverseObject::m_name</a>, <a class="el" href="classShip.html#a80f092e0a635eec258696a43a7d94377">m_ordered_bombard_planet_id</a>, <a class="el" href="classShip.html#ac761ad78499a78769b57471793df8a86">m_ordered_colonize_planet_id</a>, <a class="el" href="classShip.html#a9c68674582ec08bf841b25f1bf78af74">m_ordered_invade_planet_id</a>, <a class="el" href="classShip.html#a78fe9dce217c0f8552f29d17ce79c1e1">m_ordered_scrapped</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="classShip.html#a7b87c82cc599262b1ec2d94a8160bae0">m_produced_by_empire_id</a>, <a class="el" href="classShip.html#aa58e6a05afa6cfdc80165caa08532f21">m_species_name</a>, and <a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
+<p>References <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="classUniverse.html#a1d727839ae2bcd37a94f0b04e90a5fc0">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="classShip.html#a7e585003966bb2aaa0470863efa28c5d">m_arrived_on_turn</a>, <a class="el" href="classShip.html#aad8ae990288b2bc98a63e24d6e25e9a1">m_design_id</a>, <a class="el" href="classShip.html#aa9b68870e01a55de6f4e83df0998c746">m_fleet_id</a>, <a class="el" href="classShip.html#af9e90e87a22989b71e0ca79ffc1bb30d">m_last_resupplied_on_turn</a>, <a class="el" href="classShip.html#aa3762f7522df49e1b062eeaad5e3bcd2">m_last_turn_active_in_combat</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">UniverseObject::m_name</a>, <a class="el" href="classShip.html#a80f092e0a635eec258696a43a7d94377">m_ordered_bombard_planet_id</a>, <a class="el" href="classShip.html#ac761ad78499a78769b57471793df8a86">m_ordered_colonize_planet_id</a>, <a class="el" href="classShip.html#a9c68674582ec08bf841b25f1bf78af74">m_ordered_invade_planet_id</a>, <a class="el" href="classShip.html#a78fe9dce217c0f8552f29d17ce79c1e1">m_ordered_scrapped</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="classShip.html#a7b87c82cc599262b1ec2d94a8160bae0">m_produced_by_empire_id</a>, <a class="el" href="classShip.html#aa58e6a05afa6cfdc80165caa08532f21">m_species_name</a>, and <a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
 
 <p>Referenced by <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Clone()</a>.</p>
 
@@ -1116,7 +1123,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject</a>.</p>
 
-<p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject::Dump()</a>, <a class="el" href="classShip.html#a7e585003966bb2aaa0470863efa28c5d">m_arrived_on_turn</a>, <a class="el" href="classShip.html#aad8ae990288b2bc98a63e24d6e25e9a1">m_design_id</a>, <a class="el" href="classShip.html#aa9b68870e01a55de6f4e83df0998c746">m_fleet_id</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="classShip.html#a7b87c82cc599262b1ec2d94a8160bae0">m_produced_by_empire_id</a>, and <a class="el" href="classShip.html#aa58e6a05afa6cfdc80165caa08532f21">m_species_name</a>.</p>
+<p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject::Dump()</a>, <a class="el" href="classShip.html#a7e585003966bb2aaa0470863efa28c5d">m_arrived_on_turn</a>, <a class="el" href="classShip.html#aad8ae990288b2bc98a63e24d6e25e9a1">m_design_id</a>, <a class="el" href="classShip.html#aa9b68870e01a55de6f4e83df0998c746">m_fleet_id</a>, <a class="el" href="classShip.html#af9e90e87a22989b71e0ca79ffc1bb30d">m_last_resupplied_on_turn</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="classShip.html#a7b87c82cc599262b1ec2d94a8160bae0">m_produced_by_empire_id</a>, and <a class="el" href="classShip.html#aa58e6a05afa6cfdc80165caa08532f21">m_species_name</a>.</p>
 
 </div>
 </div>
@@ -1384,6 +1391,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6b9463e8e16f70b047be473471357e23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ship::LastResuppliedOnTurn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the turn on which this ship was last resupplied / upgraded </p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aefce2deb8657da228114500868a7650d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1406,6 +1440,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the last turn this ship has been actively involved in combat </p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1752,7 +1788,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>sets the ID of the fleet the ship resides in </p>
 
-<p>References <a class="el" href="classMeter.html#a43d2b75c50c697e5032de4a2631440d8">Meter::BackPropagate()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="Enums_8h.html#a137a2d12fd88ae6e2676161980b71222">METER_CAPACITY</a>, <a class="el" href="Enums_8h.html#a836987345be4642ed473bb83bbf2a81d">METER_FUEL</a>, <a class="el" href="Enums_8h.html#a5bc81125da3952f0529e17146793b5c5">METER_MAX_CAPACITY</a>, <a class="el" href="Enums_8h.html#aba29bb05036a666c5abd4c4f1f830f2f">METER_MAX_FUEL</a>, <a class="el" href="Enums_8h.html#a0978ffded89bef3754e41ede46c2ec15">METER_MAX_SECONDARY_STAT</a>, <a class="el" href="Enums_8h.html#acf9f14ebd1048c379d526200c446cbb3">METER_SECONDARY_STAT</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
+<p>References <a class="el" href="classMeter.html#a43d2b75c50c697e5032de4a2631440d8">Meter::BackPropagate()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>, <a class="el" href="classShip.html#af9e90e87a22989b71e0ca79ffc1bb30d">m_last_resupplied_on_turn</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, <a class="el" href="Enums_8h.html#a137a2d12fd88ae6e2676161980b71222">METER_CAPACITY</a>, <a class="el" href="Enums_8h.html#a836987345be4642ed473bb83bbf2a81d">METER_FUEL</a>, <a class="el" href="Enums_8h.html#a5bc81125da3952f0529e17146793b5c5">METER_MAX_CAPACITY</a>, <a class="el" href="Enums_8h.html#aba29bb05036a666c5abd4c4f1f830f2f">METER_MAX_FUEL</a>, <a class="el" href="Enums_8h.html#a0978ffded89bef3754e41ede46c2ec15">METER_MAX_SECONDARY_STAT</a>, <a class="el" href="Enums_8h.html#acf9f14ebd1048c379d526200c446cbb3">METER_SECONDARY_STAT</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
 
 <p>Referenced by <a class="el" href="classFleet.html#a8f5094af5c89412d7a028ea045702bd3">Fleet::MovementPhase()</a>.</p>
 
@@ -2278,6 +2314,28 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classShip.html#ab3a6531284208386442e5468a5a9c98d">ContainedBy()</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Copy()</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Dump()</a>, and <a class="el" href="classShip.html#add20f7448aabe475cbcb85808faf714f">SetFleetID()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9e90e87a22989b71e0ca79ffc1bb30d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ship::m_last_resupplied_on_turn = <a class="el" href="AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832">BEFORE_FIRST_TURN</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Copy()</a>, <a class="el" href="classShip.html#a658d33f365924cf4a6594e07fe593612">Dump()</a>, and <a class="el" href="classShip.html#aa1dd5062738ad6ef80109fecee551a13">Resupply()</a>.</p>
 
 </div>
 </div>

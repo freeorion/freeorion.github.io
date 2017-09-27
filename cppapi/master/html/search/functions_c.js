@@ -12,6 +12,7 @@ var searchData=
   ['language',['Language',['../classStringTable__.html#a5b110d10adebe1af2aa0ae5d0cad382f',1,'StringTable_::Language()'],['../i18n_8cpp.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp'],['../i18n_8h.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp']]],
   ['largemetervalue',['LargeMeterValue',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a0e3a7451f62168912a0cf49c118e7474',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['lastclicked',['LastClicked',['../classSitRepPanel.html#a893639a33cd269e44e365c949b194c4a',1,'SitRepPanel']]],
+  ['lastresuppliedonturn',['LastResuppliedOnTurn',['../classShip.html#a6b9463e8e16f70b047be473471357e23',1,'Ship']]],
   ['lastturnactiveincombat',['LastTurnActiveInCombat',['../classShip.html#aefce2deb8657da228114500868a7650d',1,'Ship']]],
   ['lastturnattackedbyship',['LastTurnAttackedByShip',['../classPlanet.html#a016cc4251b1dc3fcebabab5fc16bb8ca',1,'Planet']]],
   ['lastturnbattlehere',['LastTurnBattleHere',['../classSystem.html#a489a09d4aae2aed87ec656be8275b70a',1,'System']]],
