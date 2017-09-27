@@ -18,7 +18,7 @@ var searchData=
   ['nameok',['NameOK',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a0d86db5f3344993023d376e7d544c048',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
   ['namestring',['NameString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a95f2625eb645a927083398904e94edb3',1,'anonymous_namespace{VarText.cpp}']]],
   ['nametometer',['NameToMeter',['../namespaceValueRef.html#aff1e35bb3b59658f6791170be5d9b0ef',1,'ValueRef']]],
-  ['native',['Native',['../classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b',1,'Species::Native()'],['../structSpeciesParams.html#ae247c95e2d18ae51cba1bb7aa23a2720',1,'SpeciesParams::native()']]],
+  ['native',['native',['../structSpeciesParams.html#ae247c95e2d18ae51cba1bb7aa23a2720',1,'SpeciesParams::native()'],['../classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b',1,'Species::Native()']]],
   ['native_5fbegin',['native_begin',['../classSpeciesManager.html#af902df67e81eb9ad821bdf9e4b2ac6a0',1,'SpeciesManager']]],
   ['native_5fend',['native_end',['../classSpeciesManager.html#aaea4e97e497c524cde835999a0171973',1,'SpeciesManager']]],
   ['native_5fiterator',['native_iterator',['../classSpeciesManager.html#ab82f9cce0c975a41e195b0ee7cdf7ee2',1,'SpeciesManager']]],
