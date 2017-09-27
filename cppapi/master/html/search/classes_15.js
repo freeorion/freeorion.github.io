@@ -13,6 +13,7 @@ var searchData=
   ['valuerefbase_3c_20startype_20_3e',['ValueRefBase&lt; StarType &gt;',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
   ['valuerefbase_3c_20std_3a_3astring_20_3e',['ValueRefBase&lt; std::string &gt;',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
   ['valuerefbase_3c_20universeobjecttype_20_3e',['ValueRefBase&lt; UniverseObjectType &gt;',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
+  ['valuerefbase_3c_20visibility_20_3e',['ValueRefBase&lt; Visibility &gt;',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
   ['valuetest',['ValueTest',['../structCondition_1_1ValueTest.html',1,'Condition']]],
   ['variable',['Variable',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20std_3a_3astring_20_3e',['Variable&lt; std::string &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
@@ -22,6 +23,8 @@ var searchData=
   ['vertex',['Vertex',['../structMapWnd_1_1MovementLineData_1_1Vertex.html',1,'MapWnd::MovementLineData']]],
   ['vertex_5fsystem_5fid_5ft',['vertex_system_id_t',['../structSystemPathing_1_1vertex__system__id__t.html',1,'SystemPathing']]],
   ['victory',['Victory',['../classEffect_1_1Victory.html',1,'Effect']]],
+  ['visibility_5fcomplex_5fparser_5frules',['visibility_complex_parser_rules',['../structparse_1_1visibility__complex__parser__rules.html',1,'parse']]],
+  ['visibility_5fparser_5frules',['visibility_parser_rules',['../structparse_1_1visibility__parser__rules.html',1,'parse']]],
   ['visibletoempire',['VisibleToEmpire',['../structCondition_1_1VisibleToEmpire.html',1,'Condition']]],
   ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1VisibleToEmpireSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['visiblewindowcondition',['VisibleWindowCondition',['../classVisibleWindowCondition.html',1,'']]]

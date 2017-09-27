@@ -6,5 +6,6 @@ var searchData=
   ['valuetype',['ValueType',['../classCUISpin.html#a27a36d969c9c31846166d0368f2e87e0',1,'CUISpin']]],
   ['variable_5frule',['variable_rule',['../ValueRefParserImpl_8h.html#a719198cfc13b236d239f2620be00aa27',1,'ValueRefParserImpl.h']]],
   ['vertex_5fproperty_5ft',['vertex_property_t',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a002a52f105d60e7c2518a848eeba4d73',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
-  ['visibilityturnmap',['VisibilityTurnMap',['../classUniverse.html#aab3a29f357537771eb2c82cae77077ec',1,'Universe']]]
+  ['visibilityturnmap',['VisibilityTurnMap',['../classUniverse.html#aab3a29f357537771eb2c82cae77077ec',1,'Universe']]],
+  ['visvalref',['VisValRef',['../classUniverse.html#a0224e3615f9ceb4a04e9c6d59d4b333c',1,'Universe']]]
 ];

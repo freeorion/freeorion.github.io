@@ -229,7 +229,7 @@ var searchData=
   ['resettodefaults',['ResetToDefaults',['../classGameRules.html#ad81416dd976c9a97c417887432028101',1,'GameRules']]],
   ['resettointro',['ResetToIntro',['../classHumanClientApp.html#ae946db6ce5916480530f6fd3774b25ed',1,'HumanClientApp']]],
   ['resetuniverse',['ResetUniverse',['../classUniverse.html#ae5cbb7218e0372d942b22d24c6538000',1,'Universe']]],
-  ['resize',['Resize',['../classMessage.html#a1dc5035683dbddd73f9525735ea365ba',1,'Message::Resize()'],['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ae30bc7da9d2569e04d28578c5535728c',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage::resize()'],['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#adb2676864e62544c86dbc9a9444b2528',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache::resize()']]],
+  ['resize',['resize',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ae30bc7da9d2569e04d28578c5535728c',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage::resize()'],['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#adb2676864e62544c86dbc9a9444b2528',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache::resize()'],['../classMessage.html#a1dc5035683dbddd73f9525735ea365ba',1,'Message::Resize()']]],
   ['resize_5fhashmark1_5foffset',['RESIZE_HASHMARK1_OFFSET',['../classCUIWnd.html#a7ab09cbca1c71c61dcc674edc987ac98',1,'CUIWnd']]],
   ['resize_5fhashmark2_5foffset',['RESIZE_HASHMARK2_OFFSET',['../classCUIWnd.html#a646b7451d8c0748a56230d168cd4b1d6',1,'CUIWnd']]],
   ['resizedsignal',['ResizedSignal',['../classSidePanel_1_1PlanetPanel.html#a0edc5b9df64671483d4c9733e81384ae',1,'SidePanel::PlanetPanel']]],
