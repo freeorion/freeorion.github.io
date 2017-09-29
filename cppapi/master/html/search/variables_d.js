@@ -1214,7 +1214,7 @@ var searchData=
   ['m_5ftech_5fstatuses_5fshown',['m_tech_statuses_shown',['../classTechTreeWnd_1_1LayoutPanel.html#aa33f010389e434d694c300611f1695f4',1,'TechTreeWnd::LayoutPanel::m_tech_statuses_shown()'],['../classTechTreeWnd_1_1TechListBox.html#a223c2118a5f0f72e3f15e114d4827c97',1,'TechTreeWnd::TechListBox::m_tech_statuses_shown()']]],
   ['m_5ftech_5ftree_5fcontrols',['m_tech_tree_controls',['../classTechTreeWnd.html#a1fb8ec001e34774132d710ec4b7e9cc9',1,'TechTreeWnd']]],
   ['m_5ftech_5ftree_5fwnd',['m_tech_tree_wnd',['../classResearchWnd.html#a633f9b7271b62ed1756e7fc4e2f09f11',1,'ResearchWnd']]],
-  ['m_5ftechs',['m_techs',['../classEmpire.html#a15cfd805da162652497a084907b31b81',1,'Empire::m_techs()'],['../classTechTreeWnd_1_1LayoutPanel.html#a2db362ddd162fa5352d7bf71181bbded',1,'TechTreeWnd::LayoutPanel::m_techs()'],['../classTechManager.html#a449fdd7ebc524e7df7ebeb39c10e52e1',1,'TechManager::m_techs()']]],
+  ['m_5ftechs',['m_techs',['../classEmpire.html#a5ab3a1dd6e429a7423e699d32682b803',1,'Empire::m_techs()'],['../classTechTreeWnd_1_1LayoutPanel.html#a2db362ddd162fa5352d7bf71181bbded',1,'TechTreeWnd::LayoutPanel::m_techs()'],['../classTechManager.html#a449fdd7ebc524e7df7ebeb39c10e52e1',1,'TechManager::m_techs()']]],
   ['m_5ftemp_5fid',['m_temp_id',['../classIDAllocator.html#ac80f670211bc3d0ca1021fc13cb01fda',1,'IDAllocator']]],
   ['m_5ftemplate_5fstring',['m_template_string',['../classVarText.html#ab33be0bd96ef5e3729559b15911ae37e',1,'VarText']]],
   ['m_5ftemporary_5fdisable_5fcount',['m_temporary_disable_count',['../classSound_1_1Impl.html#aa0b51e641a8d40a5787119fffbe4d970',1,'Sound::Impl']]],

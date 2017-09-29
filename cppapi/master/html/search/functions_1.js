@@ -185,7 +185,6 @@ var searchData=
   ['availableshiphulls',['AvailableShipHulls',['../classEmpire.html#a14add621de1a6e9e1fa476ff18f482f7',1,'Empire']]],
   ['availableshipparts',['AvailableShipParts',['../classEmpire.html#aa43df1c629848c35040c3be46de9427e',1,'Empire']]],
   ['availablespeciesnames',['AvailableSpeciesNames',['../classSpeciesSelector.html#a72badb00e85f40293d021e5440e64316',1,'SpeciesSelector']]],
-  ['availabletechs',['AvailableTechs',['../classEmpire.html#adfc0ce9272fa8e38dd5dab5f9a2f88d5',1,'Empire']]],
   ['availabletobombard',['AvailableToBombard',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac5e1d2df91d8927aeea5c1fcdb959562',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletocolonize',['AvailableToColonize',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a80d5daebbb73bf8a562b0dc9c0994bc1',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletoinvade',['AvailableToInvade',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#aeb6449a565afab3bb01da1c8be3c07bd',1,'anonymous_namespace{SidePanel.cpp}']]],

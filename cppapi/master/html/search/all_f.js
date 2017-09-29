@@ -68,7 +68,7 @@ var searchData=
   ['objectvisibilityturnmap',['ObjectVisibilityTurnMap',['../classUniverse.html#ac323c3df181bfaa3de9cc08b1354497d',1,'Universe']]],
   ['observericon',['ObserverIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#acec93f315ea7d6a852596311368c8419',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['obsolete',['Obsolete',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba75e1bfc9f73918d7a18f355a319f2095',1,'Availability']]],
-  ['obstructedstarlanesfunc',['obstructedStarlanesFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a263d33cf10b3288b79bf0ac9ca970655',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['obstructedstarlanesfunc',['obstructedStarlanesFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a96502ba24165417d0c520cc8a34fb8f1',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['obstructedstarlanesp',['obstructedStarlanesP',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a5ec27b13a6a800e17a3d49ec2bed0e7c',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['ofobjectscondition',['OfObjectsCondition',['../classEffect_1_1SetVisibility.html#a44552fce32dc02efad72c5233e9e5e93',1,'Effect::SetVisibility']]],
   ['okclicked',['OkClicked',['../classCUIEditWnd.html#acd4fc49b5c5b489b9a147da10bae2045',1,'CUIEditWnd::OkClicked()'],['../classGalaxySetupWnd.html#ae2d5951541e4c69a0889c805cebabe3a',1,'GalaxySetupWnd::OkClicked()'],['../classServerConnectWnd.html#a91982e2295a77d5611a85c751379f78e',1,'ServerConnectWnd::OkClicked()']]],

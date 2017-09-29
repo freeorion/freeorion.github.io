@@ -27,6 +27,7 @@ var searchData=
   ['research_5fturns',['research_turns',['../structTech_1_1TechInfo.html#ae2f94b9f6e22f9565090672cb1a3edb3',1,'Tech::TechInfo']]],
   ['researchable',['researchable',['../structTech_1_1TechInfo.html#a678b6a68e6a556412cfd723dbeb82e34',1,'Tech::TechInfo']]],
   ['researchqueuechangedsignal',['ResearchQueueChangedSignal',['../structResearchQueue.html#abc47bd77fb7d6f890eaf6f487b32f368',1,'ResearchQueue']]],
+  ['researchtechnamesfunc',['ResearchTechNamesFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a57904b51979989931b3dfe42be47f70d',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['resize_5fhashmark1_5foffset',['RESIZE_HASHMARK1_OFFSET',['../classCUIWnd.html#a7ab09cbca1c71c61dcc674edc987ac98',1,'CUIWnd']]],
   ['resize_5fhashmark2_5foffset',['RESIZE_HASHMARK2_OFFSET',['../classCUIWnd.html#a646b7451d8c0748a56230d168cd4b1d6',1,'CUIWnd']]],
   ['resizedsignal',['ResizedSignal',['../classSidePanel_1_1PlanetPanel.html#a0edc5b9df64671483d4c9733e81384ae',1,'SidePanel::PlanetPanel']]],

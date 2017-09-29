@@ -175,7 +175,7 @@ var searchData=
   ['getempireobjectvisibilityturnmap',['GetEmpireObjectVisibilityTurnMap',['../classUniverse.html#ad459138c2b6a70f90d090a5685c56fcc',1,'Universe']]],
   ['getempireplanetsatsystem',['GetEmpirePlanetsAtSystem',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a28655c5acffb0424e8618d21f40d361a',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['getempiresdetectionstrengths',['GetEmpiresDetectionStrengths',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#ab47051db6be9a853f2957422292e8eeb',1,'anonymous_namespace{Universe.cpp}']]],
-  ['getempiresitrepfunc',['GetEmpireSitRepFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a6256dfba5012cf69016579e583aad8c7',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['getempiresitrepfunc',['GetEmpireSitRepFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a0de6077293daf3500fb1e4f8fd2ea774',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['getempirespositiondetectionranges',['GetEmpiresPositionDetectionRanges',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a837b486374af7c625f27c8acfdc5a984',1,'anonymous_namespace{Universe.cpp}']]],
   ['getempirespositionspotentiallydetectableobjects',['GetEmpiresPositionsPotentiallyDetectableObjects',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a5e7cee9d0cfdb90630a01ab3c7b0e306',1,'anonymous_namespace{Universe.cpp}']]],
   ['getempirestaleknowledgeobjects',['GetEmpireStaleKnowledgeObjects',['../classUniverse.html#a2dddcf4617e5e27fa55ef313617f939d',1,'Universe']]],
