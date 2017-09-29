@@ -10,6 +10,7 @@ var searchData=
   ['empireobjectspecialsmap',['EmpireObjectSpecialsMap',['../classUniverse.html#a0b2abfdbd505010de345a271ee4eb2a6',1,'Universe']]],
   ['empireobjectvisibilitymap',['EmpireObjectVisibilityMap',['../classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d',1,'Universe']]],
   ['empireobjectvisibilityturnmap',['EmpireObjectVisibilityTurnMap',['../classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6',1,'Universe']]],
+  ['empireobjectvisvaluerefmap',['EmpireObjectVisValueRefMap',['../classUniverse.html#aa1425054d5218a2082ae6696c72cfe3c',1,'Universe']]],
   ['empireviewsystemgraph',['EmpireViewSystemGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a883703a28025ca42601efe39f316d971',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['empireviewsystemgraphmap',['EmpireViewSystemGraphMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a36ea2a470cecaaa7f9b252ca7ad81395',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['enum_5frule',['enum_rule',['../namespaceparse.html#a506bda98ed76b10658d53b10a3ad7817',1,'parse']]],

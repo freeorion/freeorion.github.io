@@ -10,7 +10,6 @@ var searchData=
   ['launched',['launched',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo_1_1StateQty.html#af59ee2d376e4b1559f367680ad95b322',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::StateQty']]],
   ['launched_5ffrom_5fid',['launched_from_id',['../structFighterLaunchEvent.html#a7c9d0e586e73c49e5634a4f01661af56',1,'FighterLaunchEvent']]],
   ['layout_5fmargin',['LAYOUT_MARGIN',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aee3c076abc5b315b2481b72cab82b5fe',1,'anonymous_namespace{MapWnd.cpp}::LAYOUT_MARGIN()'],['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a5d6e366f5953d755acb8c85760fdddf2',1,'anonymous_namespace{OptionsWnd.cpp}::LAYOUT_MARGIN()']]],
-  ['least_5fhappy_5fspecies',['least_happy_species',['../structparse_1_1string__complex__parser__rules.html#a949c222fe1664116d13bcd7e26fa8d8c',1,'parse::string_complex_parser_rules']]],
   ['leastjumpsfunc',['LeastJumpsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8064c3e36fd5050cb88870fb9956cdf7',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['leftclickedsignal',['LeftClickedSignal',['../classStatisticIcon.html#acd8ab878264934640756fae97eed78fa',1,'StatisticIcon::LeftClickedSignal()'],['../classFieldIcon.html#a2bc6d54c22f067b5eb1ab7c6d00a1da3',1,'FieldIcon::LeftClickedSignal()'],['../classSidePanel_1_1PlanetPanel.html#a62d35c88dedc9eb3f0205ba8f17f3e3c',1,'SidePanel::PlanetPanel::LeftClickedSignal()'],['../classSystemIcon.html#a4c01a49faf341362c1634c11624eb615',1,'SystemIcon::LeftClickedSignal()']]],
   ['leftdoubleclickedsignal',['LeftDoubleClickedSignal',['../classFieldIcon.html#a538afc5ca68444ee41f0701a6669d7e3',1,'FieldIcon::LeftDoubleClickedSignal()'],['../classSidePanel_1_1PlanetPanel.html#a93c23654750a57221e142fc307575e3d',1,'SidePanel::PlanetPanel::LeftDoubleClickedSignal()'],['../classSystemIcon.html#ab2b425c778f5dd6d8c01567124f6396c',1,'SystemIcon::LeftDoubleClickedSignal()']]],
@@ -28,8 +27,5 @@ var searchData=
   ['log',['log',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#abb296ab3a2fe44ba7a66bd6e1d8490a7',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
   ['log_5flevel_5fnames',['log_level_names',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a3d2f11c522f6b090a88d621d7d675ec6',1,'anonymous_namespace{Logger.cpp}']]],
   ['loggercreatedsignal',['LoggerCreatedSignal',['../Logger_8cpp.html#a17722d9cbbc5effc055819428da658e1',1,'LoggerCreatedSignal():&#160;Logger.cpp'],['../Logger_8h.html#a65235d600b3b6f8c7d0b6dc3fb510dbe',1,'LoggerCreatedSignal():&#160;Logger.cpp']]],
-  ['losingfocussignal',['LosingFocusSignal',['../classCUIEdit.html#a315512d4f69a08e712351a7f473734ca',1,'CUIEdit']]],
-  ['lowest_5fcost_5fenqueued_5ftech',['lowest_cost_enqueued_tech',['../structparse_1_1string__complex__parser__rules.html#a37c10972c0949edfdb5acd06d044eba5',1,'parse::string_complex_parser_rules']]],
-  ['lowest_5fcost_5fresearchable_5ftech',['lowest_cost_researchable_tech',['../structparse_1_1string__complex__parser__rules.html#aad3f3bb6edd6174c1140153208e7db82',1,'parse::string_complex_parser_rules']]],
-  ['lowest_5fcost_5ftransferrable_5ftech',['lowest_cost_transferrable_tech',['../structparse_1_1string__complex__parser__rules.html#a59b533cdc084f1f97301ab212137fc68',1,'parse::string_complex_parser_rules']]]
+  ['losingfocussignal',['LosingFocusSignal',['../classCUIEdit.html#a315512d4f69a08e712351a7f473734ca',1,'CUIEdit']]]
 ];
