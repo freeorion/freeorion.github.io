@@ -191,6 +191,7 @@ var searchData=
   ['resolutionoption',['ResolutionOption',['../classOptionsWnd.html#a4ec8628cd986393ab14ec53989cd9f85',1,'OptionsWnd']]],
   ['resolvefighterbouts',['ResolveFighterBouts',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adfe386f7211c8b1557bdb8ab7285adf8',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['resolvegroundcombat',['ResolveGroundCombat',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad541247e4952efc6226f2c8dec458f02',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['resolvenestedpathtypes',['ResolveNestedPathTypes',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597',1,'anonymous_namespace{LinkText.cpp}']]],
   ['resourceavailable',['ResourceAvailable',['../classEmpire.html#a87ab03ef2c56582beef3bef0113692e5',1,'Empire']]],
   ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html#ae1d5578e13f344762c08a910a0087a91',1,'ResourceBrowseWnd']]],
   ['resourcecenter',['ResourceCenter',['../classResourceCenter.html#ad0eb8df27d3e201f67f539383ff8deaa',1,'ResourceCenter::ResourceCenter()'],['../classResourceCenter.html#a786aab2bdf63be619e530c9ab9acd392',1,'ResourceCenter::ResourceCenter(const ResourceCenter &amp;rhs)']]],

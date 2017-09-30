@@ -8,6 +8,7 @@ var searchData=
   ['recognized',['recognized',['../structOptionsDB_1_1Option.html#a9d86afbb8252f798534ff1280ecd32b7',1,'OptionsDB::Option']]],
   ['rects',['rects',['../structTextLinker_1_1Link.html#acfeb67fbf13e9f06429c6e123ffe663a',1,'TextLinker::Link']]],
   ['reference',['Reference',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ab74a7e9d932422ea58ddc39a5b596b84',1,'anonymous_namespace{XMLDoc.cpp}']]],
+  ['regex_5fnon_5fbracket',['REGEX_NON_BRACKET',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#ac01fbec45297e0c12c7034e8ca7edae0',1,'anonymous_namespace{LinkText.cpp}']]],
   ['remaining',['remaining',['../structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56',1,'ProductionQueue::Element']]],
   ['remove_5fspecial',['remove_special',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#ababb2319bb951c05db7a6ac99ce95325',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],
   ['remove_5fstarlanes',['remove_starlanes',['../structanonymous__namespace_02EffectParser3_8cpp_03_1_1effect__parser__rules__3.html#ac9d076b2b86f2c4075d2a4565ee05197',1,'anonymous_namespace{EffectParser3.cpp}::effect_parser_rules_3']]],

@@ -42,6 +42,8 @@ var searchData=
   ['pathinfo',['PathInfo',['../structGetPathsThroughSupplyLanes_1_1PathInfo.html#a51d8588b946a4cf84297cf47d67a40ba',1,'GetPathsThroughSupplyLanes::PathInfo::PathInfo(int a, int o)'],['../structGetPathsThroughSupplyLanes_1_1PathInfo.html#a8fd438a08be3aa4645aee063dab98278',1,'GetPathsThroughSupplyLanes::PathInfo::PathInfo(int o)']]],
   ['pathlength',['PathLength',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#a0fd1de02ead2f60e4cc23b1db12dd9cb',1,'anonymous_namespace{Fleet.cpp}']]],
   ['pathtostring',['PathToString',['../Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b',1,'PathToString(const fs::path &amp;path):&#160;Directories.cpp'],['../Directories_8h.html#ab3aca236790419c43975c50735c3dce0',1,'PathToString(const boost::filesystem::path &amp;path):&#160;Directories.h']]],
+  ['pathtypestrings',['PathTypeStrings',['../Enums_8cpp.html#a1a6f81bd3b4b9866aa4e08510bedfcf9',1,'PathTypeStrings():&#160;Enums.cpp'],['../Enums_8h.html#a74821e629e3344e01bf4c531bd712610',1,'PathTypeStrings():&#160;Enums.h']]],
+  ['pathtypetostring',['PathTypeToString',['../Enums_8cpp.html#a9730d0eb947d43df82a682eef0e3fb99',1,'Enums.cpp']]],
   ['paused',['Paused',['../structResearchQueue.html#a9833571c3a3ed876e0f6d2750d61a89b',1,'ResearchQueue::Paused(const std::string &amp;tech_name) const '],['../structResearchQueue.html#aca9d54785f3b0354038a617f96c708f5',1,'ResearchQueue::Paused(int idx) const ']]],
   ['pausemusic',['PauseMusic',['../classSound_1_1Impl.html#ac3e367523b15e062243f9d97e10fbb5b',1,'Sound::Impl::PauseMusic()'],['../classSound.html#a40b1a0164cdd4aad08a83a91c29fc088',1,'Sound::PauseMusic()']]],
   ['pauseproduction',['PauseProduction',['../classEmpire.html#a181913adbcb25dfdef009bde43b96e45',1,'Empire']]],
