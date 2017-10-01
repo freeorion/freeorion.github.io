@@ -225,6 +225,7 @@ var searchData=
   ['m_5fdead_5flabel',['m_dead_label',['../classSideBar.html#a8ae78db4f2f008f1b9cc24e77b41b89d',1,'SideBar']]],
   ['m_5fdecorators',['m_decorators',['../classTextLinker.html#a15434dd8d8ddf42419f91c3752b300d6',1,'TextLinker']]],
   ['m_5fdefault_5fcolor',['m_default_color',['../classColorSelector.html#a1195807acd84f2dfdcc445033035e18d',1,'ColorSelector']]],
+  ['m_5fdefaulted_5foptions',['m_defaulted_options',['../classCUIWnd.html#ab71b26a24b19103f78dd905e2ab6e407',1,'CUIWnd']]],
   ['m_5fdeferred_5frefresh_5ffleet_5fbuttons',['m_deferred_refresh_fleet_buttons',['../classMapWnd.html#a6774506379d928808d7fe1ee3c38f068',1,'MapWnd']]],
   ['m_5fdelete_5fdesign_5ffrom_5fempire',['m_delete_design_from_empire',['../classShipDesignOrder.html#a68cd0b9e4aff425055de475b0e2704c9',1,'ShipDesignOrder']]],
   ['m_5fdelete_5fobject_5fbutton',['m_delete_object_button',['../classModeratorActionsWnd.html#ad0a123b54afa24fd3de690b70e7740cf',1,'ModeratorActionsWnd']]],
