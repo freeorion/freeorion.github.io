@@ -104,6 +104,7 @@ var searchData=
   ['anonymous_5fnamespace_7bsavefiledialog_2ecpp_7d',['anonymous_namespace{SaveFileDialog.cpp}',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsavegamepreviewutils_2ecpp_7d',['anonymous_namespace{SaveGamePreviewUtils.cpp}',['../namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsaveload_2ecpp_7d',['anonymous_namespace{SaveLoad.cpp}',['../namespaceanonymous__namespace_02SaveLoad_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bscopedtimer_2ecpp_7d',['anonymous_namespace{ScopedTimer.cpp}',['../namespaceanonymous__namespace_02ScopedTimer_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bserverapp_2ecpp_7d',['anonymous_namespace{ServerApp.cpp}',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bserverconnectwnd_2ecpp_7d',['anonymous_namespace{ServerConnectWnd.cpp}',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bserverframework_2ecpp_7d',['anonymous_namespace{ServerFramework.cpp}',['../namespaceanonymous__namespace_02ServerFramework_8cpp_03.html',1,'']]],
