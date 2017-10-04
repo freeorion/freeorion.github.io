@@ -110,8 +110,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Types</h2></td></tr>
 <tr class="memitem:a5178d29723c5036600eff50c2b1836bc"><td class="memItemLeft" align="right" valign="top">typedef boost::statechart::simple_state&lt; <a class="el" href="structWaitingForMPJoinAck.html">WaitingForMPJoinAck</a>, <a class="el" href="structHumanClientFSM.html">HumanClientFSM</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a5178d29723c5036600eff50c2b1836bc">Base</a></td></tr>
 <tr class="separator:a5178d29723c5036600eff50c2b1836bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d31526201b7831f25fa4d2f0e119d28"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; JoinGame &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &gt;, boost::statechart::custom_reaction&lt; Error &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a1d31526201b7831f25fa4d2f0e119d28">reactions</a></td></tr>
-<tr class="separator:a1d31526201b7831f25fa4d2f0e119d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ed49de4575ca02f5e83247252285d7"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; JoinGame &gt;, boost::statechart::custom_reaction&lt; AuthRequest &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structCancelMPGameClicked.html">CancelMPGameClicked</a> &gt;, boost::statechart::custom_reaction&lt; Error &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a09ed49de4575ca02f5e83247252285d7">reactions</a></td></tr>
+<tr class="separator:a09ed49de4575ca02f5e83247252285d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,10 +121,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac8a899b9085abde48b02e805c360af42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f7ff813ebf251a81b99404c46df171"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a67f7ff813ebf251a81b99404c46df171">react</a> (const JoinGame &amp;a)</td></tr>
 <tr class="separator:a67f7ff813ebf251a81b99404c46df171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2c9a4db0c13b3edf240ac8cfd70c3a"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a6c2c9a4db0c13b3edf240ac8cfd70c3a">react</a> (const AuthRequest &amp;a)</td></tr>
+<tr class="separator:a6c2c9a4db0c13b3edf240ac8cfd70c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac04ba8e16fe7b5e4ccf91bef9d18c467"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#ac04ba8e16fe7b5e4ccf91bef9d18c467">react</a> (const <a class="el" href="structDisconnection.html">Disconnection</a> &amp;d)</td></tr>
 <tr class="separator:ac04ba8e16fe7b5e4ccf91bef9d18c467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ea1bd03c94c1e2fc17ae7140b70158"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#ab0ea1bd03c94c1e2fc17ae7140b70158">react</a> (const <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &amp;msg)</td></tr>
 <tr class="separator:ab0ea1bd03c94c1e2fc17ae7140b70158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819ec794395ff6a847baf42c7f0f7c56"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a819ec794395ff6a847baf42c7f0f7c56">react</a> (const <a class="el" href="structCancelMPGameClicked.html">CancelMPGameClicked</a> &amp;msg)</td></tr>
+<tr class="separator:a819ec794395ff6a847baf42c7f0f7c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ab632be53e1c15b7f46298cbb6ca7a"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForMPJoinAck.html#a53ab632be53e1c15b7f46298cbb6ca7a">react</a> (const Error &amp;msg)</td></tr>
 <tr class="separator:a53ab632be53e1c15b7f46298cbb6ca7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -143,12 +147,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1d31526201b7831f25fa4d2f0e119d28"></a>
+<a class="anchor" id="a09ed49de4575ca02f5e83247252285d7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;JoinGame&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structStartQuittingGame.html">StartQuittingGame</a>&gt;, boost::statechart::custom_reaction&lt;Error&gt; &gt; <a class="el" href="structWaitingForMPJoinAck.html#a1d31526201b7831f25fa4d2f0e119d28">WaitingForMPJoinAck::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;JoinGame&gt;, boost::statechart::custom_reaction&lt;AuthRequest&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structStartQuittingGame.html">StartQuittingGame</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structCancelMPGameClicked.html">CancelMPGameClicked</a>&gt;, boost::statechart::custom_reaction&lt;Error&gt; &gt; <a class="el" href="structWaitingForMPJoinAck.html#a09ed49de4575ca02f5e83247252285d7">WaitingForMPJoinAck::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -209,6 +213,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6c2c9a4db0c13b3edf240ac8cfd70c3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForMPJoinAck::react </td>
+          <td>(</td>
+          <td class="paramtype">const AuthRequest &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Message_8cpp.html#abc4e40f3d9df1c4b22139bd4293350a9">ExtractAuthRequestMessageData()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac04ba8e16fe7b5e4ccf91bef9d18c467"></a>
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +264,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a819ec794395ff6a847baf42c7f0f7c56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForMPJoinAck::react </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCancelMPGameClicked.html">CancelMPGameClicked</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>

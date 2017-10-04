@@ -165,6 +165,8 @@ var searchData=
   ['attackshipship',['AttackShipShip',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a77dc44ff3b7133c0e516499a7dad4138',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['attackstatsp',['AttackStatsP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a041fd2a3fb990edc00e40e5f41a2c46a',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['auditcontainment',['AuditContainment',['../classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3',1,'ObjectMap']]],
+  ['authrequestmessage',['AuthRequestMessage',['../Message_8cpp.html#afadf76da1fd8eec6df50f1ce69c57918',1,'AuthRequestMessage(const std::string &amp;player_name, const std::string &amp;auth):&#160;Message.cpp'],['../Message_8h.html#abaed95f7ff0d04ad2ad2c5d38121c819',1,'AuthRequestMessage(const std::string &amp;player_name, const std::string &amp;auth):&#160;Message.cpp']]],
+  ['authresponsemessage',['AuthResponseMessage',['../Message_8cpp.html#aee4e2397bcb46690ddf48a08c03627ce',1,'AuthResponseMessage(const std::string &amp;player_name, const std::string &amp;auth):&#160;Message.cpp'],['../Message_8h.html#a4047a6dbd80adc13bfd066915b4cd41a',1,'AuthResponseMessage(const std::string &amp;player_name, const std::string &amp;auth):&#160;Message.cpp']]],
   ['autocomplete',['AutoComplete',['../classMessageWndEdit.html#ae99fcf4982dd35a9328a59d3246d621d',1,'MessageWndEdit']]],
   ['autoendturnenabled',['AutoEndTurnEnabled',['../classMapWnd.html#a40464dc26298052550943bbc7d9195c7',1,'MapWnd']]],
   ['automaticallychosenbombardships',['AutomaticallyChosenBombardShips',['../SidePanel_8cpp.html#a10dfea6d5598495c34341d26f48d46b0',1,'SidePanel.cpp']]],
@@ -189,6 +191,7 @@ var searchData=
   ['availabletobombard',['AvailableToBombard',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac5e1d2df91d8927aeea5c1fcdb959562',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletocolonize',['AvailableToColonize',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a80d5daebbb73bf8a562b0dc9c0994bc1',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletoinvade',['AvailableToInvade',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#aeb6449a565afab3bb01da1c8be3c07bd',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['awaitplayer',['AwaitPlayer',['../classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100',1,'PlayerConnection']]],
   ['axialtilt',['AxialTilt',['../classPlanet.html#a09ff7722bf0c3b598057dfa37e4dc7c9',1,'Planet']]],
   ['axis_5fheight',['AXIS_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ab100f21eca477f93626bd263d2c7dd78',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['axis_5fwidth',['AXIS_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a9822cd321f022a86da026c2cbd21fc57',1,'anonymous_namespace{GraphicalSummary.cpp}']]]
