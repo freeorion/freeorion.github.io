@@ -60,6 +60,8 @@ var searchData=
   ['perturncost',['PerTurnCost',['../classBuildingType.html#a159e80761948d4d0b5c87f31c9ccefb0',1,'BuildingType::PerTurnCost()'],['../classShipDesign.html#a107f9a2321871baab65507ab73dd0cc5',1,'ShipDesign::PerTurnCost()'],['../classTech.html#a319d80a5f8ac30e08409606b29a43b74',1,'Tech::PerTurnCost()']]],
   ['pinable',['PINABLE',['../CUIWnd_8cpp.html#ac4d6066f9f21fdb3a5795300eebb0bf7',1,'CUIWnd.cpp']]],
   ['pinclicked',['PinClicked',['../classCUIWnd.html#a11779b177b9e195b0b69d97dbe4ca9bc',1,'CUIWnd']]],
+  ['pinglocalhostserver',['PingLocalHostServer',['../classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d',1,'ClientNetworking']]],
+  ['pingserver',['PingServer',['../classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4',1,'ClientNetworking']]],
   ['place',['Place',['../classTechTreeLayout_1_1Column.html#aa3dc0bc0ad3d8ea96d8fc9a4efe3c27d',1,'TechTreeLayout::Column']]],
   ['placeclosestfreeindex',['PlaceClosestFreeIndex',['../classTechTreeLayout_1_1Column.html#a4751105da7adf04067bb98ac29107bcf',1,'TechTreeLayout::Column']]],
   ['placeproductiononqueue',['PlaceProductionOnQueue',['../classEmpire.html#a9e01a6189de07a2f463152eb3e563428',1,'Empire::PlaceProductionOnQueue(BuildType build_type, const std::string &amp;name, int number, int blocksize, int location, int pos=-1)'],['../classEmpire.html#ab012c1e68ea014ecab14c045e9bbe6ec',1,'Empire::PlaceProductionOnQueue(BuildType build_type, int design_id, int number, int blocksize, int location, int pos=-1)'],['../classEmpire.html#a7b704057431a198ff1020ffa39ee670f',1,'Empire::PlaceProductionOnQueue(const ProductionQueue::ProductionItem &amp;item, int number, int blocksize, int location, int pos=-1)']]],

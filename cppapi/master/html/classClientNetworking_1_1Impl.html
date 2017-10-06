@@ -125,10 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c">ClientNetworking::ServerNames</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames</a> ()</td></tr>
 <tr class="separator:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53eb22aa83e304d2997a485e88e05f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer</a> (const <a class="el" href="classClientNetworking.html">ClientNetworking</a> *const self, const std::string &amp;ip_address, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
-<tr class="separator:aa53eb22aa83e304d2997a485e88e05f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70dbae1a2c687d4719b2cdae56ce9b32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a70dbae1a2c687d4719b2cdae56ce9b32">ConnectToLocalHostServer</a> (const <a class="el" href="classClientNetworking.html">ClientNetworking</a> *const self, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
-<tr class="separator:a70dbae1a2c687d4719b2cdae56ce9b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada080186d8ce53a681fa16ddd686eb14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer</a> (const <a class="el" href="classClientNetworking.html">ClientNetworking</a> *const self, const std::string &amp;ip_address, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10), bool expect_timeout=false)</td></tr>
+<tr class="separator:ada080186d8ce53a681fa16ddd686eb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945493b785f84a4764d8d59d8a5ca921"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a945493b785f84a4764d8d59d8a5ca921">ConnectToLocalHostServer</a> (const <a class="el" href="classClientNetworking.html">ClientNetworking</a> *const self, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10), bool expect_timeout=false)</td></tr>
+<tr class="separator:a945493b785f84a4764d8d59d8a5ca921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa806e7f6af5476b1dd95a2dfa6cd470a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aa806e7f6af5476b1dd95a2dfa6cd470a">SendMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="separator:aa806e7f6af5476b1dd95a2dfa6cd470a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bebf8f2db672c2a4a38396305f258f5"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a0bebf8f2db672c2a4a38396305f258f5">GetMessage</a> ()</td></tr>
@@ -276,7 +276,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a70dbae1a2c687d4719b2cdae56ce9b32"></a>
+<a class="anchor" id="a945493b785f84a4764d8d59d8a5ca921"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -290,7 +290,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::chrono::milliseconds &amp;&#160;</td>
-          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code>&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>expect_timeout</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -299,13 +305,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Connects to the server on the client's host. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
+<p>Connects to the server on the client's host. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. If <code>expect_timeout</code> is true, timeout is not reported as an error. </p>
 
-<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>.</p>
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa53eb22aa83e304d2997a485e88e05f8"></a>
+<a class="anchor" id="ada080186d8ce53a681fa16ddd686eb14"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -325,7 +331,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::chrono::milliseconds &amp;&#160;</td>
-          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code>&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>expect_timeout</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -334,11 +346,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Connects to the server at <em>ip_address</em>. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
+<p>Connects to the server at <em>ip_address</em>. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. If <code>expect_timeout</code> is true, timeout is not reported as an error. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91">HandleConnection()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a70dbae1a2c687d4719b2cdae56ce9b32">ConnectToLocalHostServer()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a945493b785f84a4764d8d59d8a5ca921">ConnectToLocalHostServer()</a>.</p>
 
 </div>
 </div>
@@ -457,7 +469,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>.</p>
 
 </div>
 </div>
@@ -649,7 +661,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames()</a>.</p>
 
 </div>
 </div>
@@ -715,7 +727,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee">AsyncReadMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54">HandleException()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a49cfbf5b1076df85dd411ef6b5357ef8">m_outgoing_messages</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>.</p>
 
 </div>
 </div>
@@ -948,7 +960,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a27b39d4db702e6d781afc6e2f7305659">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aa806e7f6af5476b1dd95a2dfa6cd470a">SendMessage()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a27b39d4db702e6d781afc6e2f7305659">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aa806e7f6af5476b1dd95a2dfa6cd470a">SendMessage()</a>.</p>
 
 </div>
 </div>
@@ -1080,7 +1092,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee">AsyncReadMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa53eb22aa83e304d2997a485e88e05f8">ConnectToServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aff65bf72d525ae61856d493741c023b8">DisconnectFromServerImpl()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54">HandleException()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ab7e3f7cf247548759c76c38d21837939">HandleMessageHeaderRead()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee">AsyncReadMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aff65bf72d525ae61856d493741c023b8">DisconnectFromServerImpl()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54">HandleException()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ab7e3f7cf247548759c76c38d21837939">HandleMessageHeaderRead()</a>.</p>
 
 </div>
 </div>

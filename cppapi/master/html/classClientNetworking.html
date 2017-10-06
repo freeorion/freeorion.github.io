@@ -144,6 +144,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0a8078a0d8a1d510798f05787ec77c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65574c9565cb743012c7fd76ce4287b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer</a> (const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
 <tr class="separator:a65574c9565cb743012c7fd76ce4287b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b90f57a330e3a5d69d098de3fd94c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4">PingServer</a> (const std::string &amp;ip_address, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="separator:ae9b90f57a330e3a5d69d098de3fd94c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ae78d68448d4d948ce9fd29ab9009d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d">PingLocalHostServer</a> (const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="separator:a93ae78d68448d4d948ce9fd29ab9009d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade370d5322c61a3b8e91429d584050c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="separator:ade370d5322c61a3b8e91429d584050c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage</a> ()</td></tr>
@@ -400,6 +404,54 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a93ae78d68448d4d948ce9fd29ab9009d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClientNetworking::PingLocalHostServer </td>
+          <td>(</td>
+          <td class="paramtype">const std::chrono::milliseconds &amp;&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return true if the local server can be connected to within <code>timeout</code> seconds. </p>
+
+<p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9b90f57a330e3a5d69d098de3fd94c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClientNetworking::PingServer </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ip_address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::chrono::milliseconds &amp;&#160;</td>
+          <td class="paramname"><em>timeout</em> = <code>std::chrono::seconds(10)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return true if the server can be connected to within <code>timeout</code> seconds. </p>
+
+<p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0289ef36f1693ebbccd7939163ff77c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +569,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a052a7c2446c96ee2df50ca2eae5ad70d">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#a1579d0fc98849f667ef80ada669e4d64">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a0289ef36f1693ebbccd7939163ff77c7">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a9cbdc85dfdc016eef658348e6dfa7cfc">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
+<p>Referenced by <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a052a7c2446c96ee2df50ca2eae5ad70d">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#a1579d0fc98849f667ef80ada669e4d64">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d">PingLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4">PingServer()</a>, <a class="el" href="classClientNetworking.html#a0289ef36f1693ebbccd7939163ff77c7">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a9cbdc85dfdc016eef658348e6dfa7cfc">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
 
 </div>
 </div>
