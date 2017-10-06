@@ -786,7 +786,7 @@ var searchData=
   ['m_5fpart_5fpalette',['m_part_palette',['../classDesignWnd.html#ae1db049c893fe81939ef7b1bc5f08c3c',1,'DesignWnd']]],
   ['m_5fparticipant',['m_participant',['../classParticipantBar.html#a36c5f0750a934a5815311cfd56f7bd2f',1,'ParticipantBar']]],
   ['m_5fparticipant_5fbars',['m_participant_bars',['../classSideBar.html#a259592f754478d319984280e0c9331e2',1,'SideBar']]],
-  ['m_5fparts',['m_parts',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a78ed7a106d6784614197280af43e40de',1,'BasesListBox::HullAndPartsListBoxRow::m_parts()'],['../classPartTypeManager.html#abcc4183e5683a3d453e1d7418645ef72',1,'PartTypeManager::m_parts()'],['../classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40',1,'ShipDesign::m_parts()'],['../classShipDesignOrder.html#a385cc7a8ef3a554d5390dd47e507296d',1,'ShipDesignOrder::m_parts()']]],
+  ['m_5fparts',['m_parts',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a78ed7a106d6784614197280af43e40de',1,'BasesListBox::HullAndPartsListBoxRow::m_parts()'],['../classPartTypeManager.html#afc0872ab65135ae22aca1966299a356e',1,'PartTypeManager::m_parts()'],['../classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40',1,'ShipDesign::m_parts()'],['../classShipDesignOrder.html#a385cc7a8ef3a554d5390dd47e507296d',1,'ShipDesignOrder::m_parts()']]],
   ['m_5fparts_5flist',['m_parts_list',['../classDesignWnd_1_1PartPalette.html#a3d3e386c815bb7e0fb5c6dd13be62ff1',1,'DesignWnd::PartPalette']]],
   ['m_5fpassword_5fedit',['m_password_edit',['../classPasswordEnterWnd.html#aa09958e14a33ee258563651b2a3a4074',1,'PasswordEnterWnd']]],
   ['m_5fpassword_5fenter_5fwnd',['m_password_enter_wnd',['../classClientUI.html#a495facb598c20f9f012101c59cbe1ec3',1,'ClientUI']]],

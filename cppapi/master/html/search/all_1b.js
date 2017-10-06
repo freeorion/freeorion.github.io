@@ -125,7 +125,6 @@ var searchData=
   ['_7eownerhasshippartavailable',['~OwnerHasShipPartAvailable',['../structCondition_1_1OwnerHasShipPartAvailable.html#ad0e7cf62a6031e15bbee38be9228b74b',1,'Condition::OwnerHasShipPartAvailable']]],
   ['_7eownerhastech',['~OwnerHasTech',['../structCondition_1_1OwnerHasTech.html#ae1b9291a18201d5148157ad50e20d71f',1,'Condition::OwnerHasTech']]],
   ['_7eparttype',['~PartType',['../classPartType.html#a2ba617ca95d294204d9483479d4782e2',1,'PartType']]],
-  ['_7eparttypemanager',['~PartTypeManager',['../classPartTypeManager.html#a2d44658a258d4206971a6d5ca50efa2e',1,'PartTypeManager']]],
   ['_7epathfinder',['~Pathfinder',['../classPathfinder.html#a5b39561ad7375cfdc493d58cbb9fdc1b',1,'Pathfinder']]],
   ['_7eplanet',['~Planet',['../classPlanet.html#aaa1aaed9d4ef90b4836531edb7b18e0a',1,'Planet']]],
   ['_7eplanetenvironment',['~PlanetEnvironment',['../structCondition_1_1PlanetEnvironment.html#abc604e4bbdf02005bf1534fdd28a4ac8',1,'Condition::PlanetEnvironment']]],
