@@ -77,7 +77,6 @@ var searchData=
   ['_7ehomeworld',['~Homeworld',['../structCondition_1_1Homeworld.html#a926fd257bc797feb85167cd6b67844b3',1,'Condition::Homeworld']]],
   ['_7ehotkeymanager',['~HotkeyManager',['../classHotkeyManager.html#aafd4b74e391b28a07129ead6e76e801d',1,'HotkeyManager']]],
   ['_7ehulltype',['~HullType',['../classHullType.html#a1a0032adfa01e5def5c346565ab8d8a7',1,'HullType']]],
-  ['_7ehulltypemanager',['~HullTypeManager',['../classHullTypeManager.html#ae4fedcb5bd5a5f9ebbd03b43d3211a13',1,'HullTypeManager']]],
   ['_7ehumanclientapp',['~HumanClientApp',['../classHumanClientApp.html#aa4ad9ba706633d61a9c00c17f49bd82a',1,'HumanClientApp']]],
   ['_7eiapp',['~IApp',['../classIApp.html#acfcbe730a0998858b0659c1286a126fa',1,'IApp']]],
   ['_7eidle',['~Idle',['../structIdle.html#a311e6fd824c33b1628911db3e2220449',1,'Idle']]],

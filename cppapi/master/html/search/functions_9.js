@@ -87,6 +87,7 @@ var searchData=
   ['inresizetab',['InResizeTab',['../classCUIWnd.html#a75cf1f4318671e35d9f1752beb029d72',1,'CUIWnd']]],
   ['insert',['Insert',['../classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc',1,'ObjectMap::Insert()'],['../classSystem.html#a5dcc42c94d61e9014e26d038437b0f30',1,'System::Insert()'],['../structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d',1,'ResearchQueue::insert()'],['../structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802',1,'ProductionQueue::insert()']]],
   ['insert_5fbuilding',['insert_building',['../namespaceanonymous__namespace_02BuildingsParser_8cpp_03.html#a9cbe4595605ac2b8e3b39c141de3272b',1,'anonymous_namespace{BuildingsParser.cpp}']]],
+  ['insert_5fhulltype',['insert_hulltype',['../namespaceanonymous__namespace_02ShipHullsParser_8cpp_03.html#af4a9e5f59daac3abb7f8818f36064813',1,'anonymous_namespace{ShipHullsParser.cpp}']]],
   ['insert_5fparttype',['insert_parttype',['../namespaceanonymous__namespace_02ShipPartsParser_8cpp_03.html#ab0c8b686e8184c1606a218fac574bafe',1,'anonymous_namespace{ShipPartsParser.cpp}']]],
   ['insert_5fship_5fdesign',['insert_ship_design',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#a557f6104d755ee73f0b65ec3fea0fceb',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['insert_5fspecial',['insert_special',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html#a5931a06e7846142364171a26fa3b2034',1,'anonymous_namespace{SpecialsParser.cpp}']]],
