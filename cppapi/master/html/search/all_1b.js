@@ -56,7 +56,6 @@ var searchData=
   ['_7efield',['~Field',['../classField.html#a45d6e6d09b8f8e46de62b40119d62c60',1,'Field']]],
   ['_7efieldicon',['~FieldIcon',['../classFieldIcon.html#ab9e0e45c0810b37f3a134e302253d2d5',1,'FieldIcon']]],
   ['_7efieldtype',['~FieldType',['../classFieldType.html#ab910cabfef9773183f61a49e30bd82fb',1,'FieldType']]],
-  ['_7efieldtypemanager',['~FieldTypeManager',['../classFieldTypeManager.html#a921f12cc81fc868689218c086f3b285d',1,'FieldTypeManager']]],
   ['_7efighter',['~Fighter',['../classFighter.html#a7c7f2ffa4724887e564af51a6154b703',1,'Fighter']]],
   ['_7efighterlaunchevent',['~FighterLaunchEvent',['../structFighterLaunchEvent.html#a256725d42bd4a5e45222d8e4f98475ab',1,'FighterLaunchEvent']]],
   ['_7efightersattackfightersevent',['~FightersAttackFightersEvent',['../structFightersAttackFightersEvent.html#ab5da7b84d008b928848bcfbfd9c5b1d5',1,'FightersAttackFightersEvent']]],
