@@ -1096,7 +1096,7 @@ var searchData=
   ['m_5fspecials_5ffreq_5flabel',['m_specials_freq_label',['../classGalaxySetupPanel.html#a226a3c05b9ebd10c1337fac4e4247d73',1,'GalaxySetupPanel']]],
   ['m_5fspecials_5ffreq_5flist',['m_specials_freq_list',['../classGalaxySetupPanel.html#a51bf2cf1627937818f83f2bd72aa5ff7',1,'GalaxySetupPanel']]],
   ['m_5fspecials_5fpanel',['m_specials_panel',['../classSidePanel_1_1PlanetPanel.html#a660d61f50f6a59eb14f3a709f1b02c38',1,'SidePanel::PlanetPanel']]],
-  ['m_5fspecies',['m_species',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1PlanetEnvironmentSimpleMatch.html#a52a265a43d80f6ba166b4914df49afbd',1,'Condition::anonymous_namespace{Condition.cpp}::PlanetEnvironmentSimpleMatch::m_species()'],['../classSpeciesManager.html#aa7e5bde06e8e46c619180227e7cd0376',1,'SpeciesManager::m_species()']]],
+  ['m_5fspecies',['m_species',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1PlanetEnvironmentSimpleMatch.html#a52a265a43d80f6ba166b4914df49afbd',1,'Condition::anonymous_namespace{Condition.cpp}::PlanetEnvironmentSimpleMatch::m_species()'],['../classSpeciesManager.html#a526611a9649972aff23c18331b49807d',1,'SpeciesManager::m_species()']]],
   ['m_5fspecies_5fcolonies_5fowned',['m_species_colonies_owned',['../classEmpire.html#afbf4f6f9074f1d603398749df29067a9',1,'Empire']]],
   ['m_5fspecies_5fempire_5fopinions',['m_species_empire_opinions',['../classSpeciesManager.html#af8340a2de7d0acc38a22334a7583cb9d',1,'SpeciesManager']]],
   ['m_5fspecies_5flabel',['m_species_label',['../structanonymous__namespace_02CUIControls_8cpp_03_1_1SpeciesRow.html#aef9b422ebcfaf13c0e72b361f111cf95',1,'anonymous_namespace{CUIControls.cpp}::SpeciesRow']]],

@@ -183,7 +183,6 @@ var searchData=
   ['_7esound',['~Sound',['../classSound.html#a0907389078bf740be2a5763366ad3376',1,'Sound']]],
   ['_7especial',['~Special',['../classSpecial.html#a99165870a77ca8c30f96eb8d431b41d0',1,'Special']]],
   ['_7especies',['~Species',['../structCondition_1_1Species.html#af36f93648e2dedc2f05b6fb0c067f35e',1,'Condition::Species::~Species()'],['../classSpecies.html#af36f93648e2dedc2f05b6fb0c067f35e',1,'Species::~Species()']]],
-  ['_7especiesmanager',['~SpeciesManager',['../classSpeciesManager.html#a57f51972035b2d0cba1469c29b7024f6',1,'SpeciesManager']]],
   ['_7estartype',['~StarType',['../structCondition_1_1StarType.html#ac9bd866b29afed675c595ef244042789',1,'Condition::StarType']]],
   ['_7estaticcast',['~StaticCast',['../structValueRef_1_1StaticCast.html#a2e49fd437521e50c7431a7872cdc1e7e',1,'ValueRef::StaticCast']]],
   ['_7estationaryfleetvisitor',['~StationaryFleetVisitor',['../structStationaryFleetVisitor.html#a7baa062a64418a2396cb94fc46c62654',1,'StationaryFleetVisitor']]],
