@@ -127,7 +127,7 @@ var searchData=
   ['m_5fcapital_5fid',['m_capital_id',['../classEmpire.html#a8da65d39f9bcb04a1e67b9f654da4767',1,'Empire']]],
   ['m_5fcapture_5fresult',['m_capture_result',['../classBuildingType.html#a5581d72b97fd5a2211f5a0a8d4379053',1,'BuildingType']]],
   ['m_5fcat_5fbuttons',['m_cat_buttons',['../classTechTreeWnd_1_1TechTreeControls.html#acba36a2e79af26e2d9f3b7a70ba023ac',1,'TechTreeWnd::TechTreeControls']]],
-  ['m_5fcategories',['m_categories',['../classTechManager.html#a52d250afe08019a17868d806e91b4889',1,'TechManager']]],
+  ['m_5fcategories',['m_categories',['../classTechManager.html#a7ba128df16909d9f0ea5e18371508029',1,'TechManager']]],
   ['m_5fcategories_5fshown',['m_categories_shown',['../classTechTreeWnd_1_1LayoutPanel.html#a8cba37c89fc5d6182a7bd55a6519d7af',1,'TechTreeWnd::LayoutPanel::m_categories_shown()'],['../classTechTreeWnd_1_1TechListBox.html#ab72f983e9158a382c8dca5009932c2f1',1,'TechTreeWnd::TechListBox::m_categories_shown()']]],
   ['m_5fcategory',['m_category',['../classTech.html#acaf072114777160c89a908fcf93fec42',1,'Tech']]],
   ['m_5fcensus_5fval',['m_census_val',['../classCensusRowPanel.html#a2be34886ef2750c2aebe697041cba04a',1,'CensusRowPanel']]],

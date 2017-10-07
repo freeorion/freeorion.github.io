@@ -193,7 +193,6 @@ var searchData=
   ['_7esystem',['~System',['../classSystem.html#a3be70bb338e3f062f821173fd15680d0',1,'System']]],
   ['_7esystemicon',['~SystemIcon',['../classSystemIcon.html#aafc2f16628bbdc4da9c6cd049686664c',1,'SystemIcon']]],
   ['_7etechlistbox',['~TechListBox',['../classTechTreeWnd_1_1TechListBox.html#a25fa3e0d8615d0732d98454dba29169e',1,'TechTreeWnd::TechListBox']]],
-  ['_7etechmanager',['~TechManager',['../classTechManager.html#afa6ba5c2f191c831d18f8d6c3265429d',1,'TechManager']]],
   ['_7etechpanel',['~TechPanel',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a30275014c80ded9add42388fe5534266',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['_7etechtreearcs',['~TechTreeArcs',['../classTechTreeArcs.html#ade0a7031581102264671b159018e3fd0',1,'TechTreeArcs']]],
   ['_7etechtreelayout',['~TechTreeLayout',['../classTechTreeLayout.html#a3c2d10d7a9d7f0e727d368004631616b',1,'TechTreeLayout']]],

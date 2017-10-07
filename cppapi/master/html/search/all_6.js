@@ -187,7 +187,7 @@ var searchData=
   ['fo_5fglobal_5flogger_5fname',['FO_GLOBAL_LOGGER_NAME',['../Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976',1,'Logger.h']]],
   ['fo_5flogger',['FO_LOGGER',['../Logger_8h.html#a0617f308b7fec412eb4f1b6dad9c1236',1,'Logger.h']]],
   ['fo_5fparse_5fapi',['FO_PARSE_API',['../Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5',1,'Parse.h']]],
-  ['foci',['foci',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#a0330a3f6a742aad42858f622e6cc3e49',1,'anonymous_namespace{SpeciesParser.cpp}::rules::foci()'],['../classSpecies.html#a9b1634f7e91230b24b9fc28a5c6a2fc3',1,'Species::Foci()']]],
+  ['foci',['Foci',['../classSpecies.html#a9b1634f7e91230b24b9fc28a5c6a2fc3',1,'Species::Foci()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#a0330a3f6a742aad42858f622e6cc3e49',1,'anonymous_namespace{SpeciesParser.cpp}::rules::foci()']]],
   ['foci_5frule',['foci_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#a67d7f721fd45175e524558325bed5d39',1,'anonymous_namespace{SpeciesParser.cpp}::rules']]],
   ['focus',['Focus',['../classResourceCenter.html#a81aa4e7e1220be6dfa911843a89b9933',1,'ResourceCenter']]],
   ['focus_5ftype',['focus_type',['../structanonymous__namespace_02ConditionParser6_8cpp_03_1_1condition__parser__rules__6.html#a88f3c0957995b5de467ce09e2579c6aa',1,'anonymous_namespace{ConditionParser6.cpp}::condition_parser_rules_6::focus_type()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html#a32ffb2a47cb978393c72e26cf669c192',1,'anonymous_namespace{SpeciesParser.cpp}::rules::focus_type()']]],

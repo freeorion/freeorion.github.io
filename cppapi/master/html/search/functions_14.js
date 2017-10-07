@@ -33,7 +33,7 @@ var searchData=
   ['techrow',['TechRow',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aeee0cba98458b05698af67545a465db1',1,'TechTreeWnd::TechListBox::TechRow']]],
   ['techrowbrowsewnd',['TechRowBrowseWnd',['../TechTreeWnd_8cpp.html#aabcfe0a9f8c4392708fe1f703fe5bb25',1,'TechRowBrowseWnd(const std::string &amp;tech_name, int empire_id):&#160;TechTreeWnd.cpp'],['../TechTreeWnd_8h.html#aabcfe0a9f8c4392708fe1f703fe5bb25',1,'TechRowBrowseWnd(const std::string &amp;tech_name, int empire_id):&#160;TechTreeWnd.cpp']]],
   ['techrowcmp',['TechRowCmp',['../classTechTreeWnd_1_1TechListBox.html#a38c3c4af00200feac061efadfd562b45',1,'TechTreeWnd::TechListBox']]],
-  ['techs',['techs',['../namespaceparse.html#a79d853f78046ab723467cab902d9457d',1,'parse']]],
+  ['techs',['techs',['../namespaceparse.html#a32f8b0833c3e1d818332a195c31e5238',1,'parse']]],
   ['techsresearchablebyempire',['TechsResearchableByEmpire',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#a23ba4d637b8dd80cc6418f393d7823ce',1,'ValueRef::anonymous_namespace{ValueRef.cpp}']]],
   ['techsresearchedbyempire',['TechsResearchedByEmpire',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#ad4269caf7559567e6e0a8dc5389e8166',1,'ValueRef::anonymous_namespace{ValueRef.cpp}']]],
   ['techsthatunlockitem',['TechsThatUnlockItem',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a2b3c8e4deafb1ddcafc4d087847dbad2',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
