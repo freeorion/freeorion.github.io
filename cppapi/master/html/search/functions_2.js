@@ -79,7 +79,7 @@ var searchData=
   ['buildingids',['BuildingIDs',['../classPlanet.html#a588a37ea1106cca7547ac0fb4fbe1d7d',1,'Planet::BuildingIDs()'],['../classSystem.html#a82dd8de09ddfb2b0cdd03169cb1e616f',1,'System::BuildingIDs()'],['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a74f5fea538877c5e9974aedfc490ed8c',1,'anonymous_namespace{UniverseWrapper.cpp}::BuildingIDs()']]],
   ['buildingindicator',['BuildingIndicator',['../classBuildingIndicator.html#a1d782ad376f199945fde2a70aa4c91fe',1,'BuildingIndicator::BuildingIndicator(GG::X w, int building_id)'],['../classBuildingIndicator.html#abe491f72c85a21a414009fbba85324a8',1,'BuildingIndicator::BuildingIndicator(GG::X w, const std::string &amp;building_type, double turns_completed, double total_turns, double total_cost, double turn_spending)']]],
   ['buildingrightclicked',['BuildingRightClicked',['../classMapWnd.html#a14606e7346393a3fe7e39971ccc50ffb',1,'MapWnd']]],
-  ['buildings',['buildings',['../namespaceparse.html#ac8e89d7f2def06b1d972498ba733018e',1,'parse']]],
+  ['buildings',['buildings',['../namespaceparse.html#a7ce512db05e2e852176bc066c9574379',1,'parse']]],
   ['buildingsimplematch',['BuildingSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1BuildingSimpleMatch.html#a5dd8a9a26bdb9a44a6c0a3730c6c5df1',1,'Condition::anonymous_namespace{Condition.cpp}::BuildingSimpleMatch']]],
   ['buildingspanel',['BuildingsPanel',['../classBuildingsPanel.html#aec5fb27bcb51c0d95a0d6adcaa20056f',1,'BuildingsPanel']]],
   ['buildingtype',['BuildingType',['../classBuildingType.html#afeae814876dd6613a9cd7950bfa4ff94',1,'BuildingType']]],
