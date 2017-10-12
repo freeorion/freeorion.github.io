@@ -57,7 +57,6 @@ var searchData=
   ['onexitgame',['OnExitGame',['../classIntroScreen.html#ad011631a22d8bd27deef9cebd7106cc0',1,'IntroScreen']]],
   ['onindex',['OnIndex',['../classEncyclopediaDetailPanel.html#aab7caa86128afeb357c7649e92d03a33',1,'EncyclopediaDetailPanel']]],
   ['onloadgame',['OnLoadGame',['../classIntroScreen.html#abc1ad8031b29505c9c3b5fa4d74cfd1d',1,'IntroScreen']]],
-  ['only_5fship_5fdesigns',['only_ship_designs',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#a23d1ced2c9eb88c0a311d28865c7790a',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['onmultiplayer',['OnMultiPlayer',['../classIntroScreen.html#a405b91387a2ea9bb848b3dbfeef3cc2c',1,'IntroScreen']]],
   ['onnext',['OnNext',['../classEncyclopediaDetailPanel.html#a3e943f5a09557b3855a668026e1953b0',1,'EncyclopediaDetailPanel']]],
   ['onoptions',['OnOptions',['../classIntroScreen.html#a23ff70e3b8a4a2fa0ad9a6f309046bc5',1,'IntroScreen']]],

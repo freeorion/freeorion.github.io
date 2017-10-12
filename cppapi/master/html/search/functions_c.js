@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['label',['label',['../namespaceparse_1_1detail.html#a718e36ca142f692f5a740d9789365f64',1,'parse::detail']]],
   ['label_5fseparator',['LABEL_SEPARATOR',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a5d1b944fcd94cae030ceb82378433dda',1,'anonymous_namespace{VarText.cpp}']]],
   ['labelheight',['LabelHeight',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a054df9e9dfb16b3161dda0843b1278cd',1,'anonymous_namespace{FleetWnd.cpp}']]],
+  ['labeller',['Labeller',['../classparse_1_1detail_1_1Labeller.html#ac6ac6f6a492a9c8cc951dbbbb4f9fb61',1,'parse::detail::Labeller']]],
   ['labelwidth',['LabelWidth',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#a8e8bbad61b996dd99b38284b7f02235e',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],
   ['lanecrossesexistinglane',['LaneCrossesExistingLane',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a7fed7b8aef499bec1ffbbf17535337c1',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['laneendpoints',['LaneEndpoints',['../structLaneEndpoints.html#aeaf7ff9fc073421293e869573a8b2ac6',1,'LaneEndpoints::LaneEndpoints()'],['../structLaneEndpoints.html#ae05fe3c7f7729f7e152f6406494b6caf',1,'LaneEndpoints::LaneEndpoints(float x1, float y1, float x2, float y2)']]],
@@ -90,7 +90,6 @@ var searchData=
   ['localunnamedloggeridentifier',['LocalUnnamedLoggerIdentifier',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a82bce56e40c17d82282337d6ea95eba8',1,'anonymous_namespace{Logger.cpp}']]],
   ['locatelinks',['LocateLinks',['../classTextLinker.html#af1ad8f32f21b45d0606d0185ed1f7055',1,'TextLinker']]],
   ['location',['Location',['../classBuildingType.html#a7fa54721c09cfce448b75c1da41506ff',1,'BuildingType::Location()'],['../structCondition_1_1Location.html#a36240156898de1e4d4dff1db57b72562',1,'Condition::Location::Location()'],['../classPartType.html#ab4d774bfe042dc3b56d0b930b88c6a52',1,'PartType::Location()'],['../classHullType.html#ac0dbd98d3cb943eae48d63bba9bbb054',1,'HullType::Location()'],['../classSpecial.html#a47e0fb5e1b60fba66f5f09e338ed0df5',1,'Special::Location()'],['../classFocusType.html#ab402ceed9ce597131e099ff073745a12',1,'FocusType::Location()'],['../classSpecies.html#aa5718302a56a877002fd3e9a17cd636f',1,'Species::Location()'],['../classMonsterFleetPlan.html#a483023acd5ace38f0188d9b923259775',1,'MonsterFleetPlan::Location()']]],
-  ['location_5fparser',['location_parser',['../namespaceparse_1_1detail.html#afb82ecdbabca2e212c42e6efff4cbb42',1,'parse::detail']]],
   ['locationasubsumeslocationb',['LocationASubsumesLocationB',['../DesignWnd_8cpp.html#a8ae1f2d6fbb7e540cdc5a8a56c2bb623',1,'DesignWnd.cpp']]],
   ['locationconditiondescription',['LocationConditionDescription',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#acc4e531bce0941e7e32a3027cc0db9c9',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['locations',['Locations',['../classanonymous__namespace_02ServerWrapper_8cpp_03_1_1MonsterFleetPlanWrapper.html#ad413eb6c1b2df00191cb1ab9a11f390e',1,'anonymous_namespace{ServerWrapper.cpp}::MonsterFleetPlanWrapper']]],

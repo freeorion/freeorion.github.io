@@ -139,7 +139,7 @@ var searchData=
   ['aredetailsempty',['AreDetailsEmpty',['../structCombatEvent.html#a534fbbb00d3b626e35028f184313c381',1,'CombatEvent::AreDetailsEmpty()'],['../structWeaponFireEvent.html#af0236f7e6d94738bae2e2f513e98b89f',1,'WeaponFireEvent::AreDetailsEmpty()']]],
   ['aresubeventsempty',['AreSubEventsEmpty',['../structCombatEvent.html#a992fce1429e50e224b14a8b5ddd1181c',1,'CombatEvent::AreSubEventsEmpty()'],['../structBoutEvent.html#ad6befacaad98f3415f8169d9dc4b1e79',1,'BoutEvent::AreSubEventsEmpty()'],['../structSimultaneousEvents.html#a7132291f02feee60ae186880d5e88bdf',1,'SimultaneousEvents::AreSubEventsEmpty()'],['../structStealthChangeEvent.html#ae7bc457199c86c7611cedf24f23f9420',1,'StealthChangeEvent::AreSubEventsEmpty()'],['../structWeaponsPlatformEvent.html#ab9df65d58df9b8078e7c3666e4a3fab7',1,'WeaponsPlatformEvent::AreSubEventsEmpty()']]],
   ['aresubeventsordered',['AreSubEventsOrdered',['../structBoutEvent.html#ab8c097bfe69c47343b83a41b08591879',1,'BoutEvent']]],
-  ['arithmetic_5frules',['arithmetic_rules',['../structarithmetic__rules.html#aeb962923e76c7c57db49b1a92d846da1',1,'arithmetic_rules']]],
+  ['arithmetic_5frules',['arithmetic_rules',['../structparse_1_1detail_1_1arithmetic__rules.html#aad0a7515b89f7427ef44226d8450bf89',1,'parse::detail::arithmetic_rules']]],
   ['armed',['Armed',['../structCondition_1_1Armed.html#a245ad6f640b94636f5a05efc7e045d85',1,'Condition::Armed']]],
   ['armed_5fcondition',['ARMED_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab6d86d93b9446950c321c1eef2c51ce6',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['arrivalstarlane',['ArrivalStarlane',['../classFleet.html#a30c4d997cceb2354eecd286c0db86e9b',1,'Fleet']]],

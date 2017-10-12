@@ -9,9 +9,11 @@ var searchData=
   ['uncompressed_5ftext_5fsize',['uncompressed_text_size',['../structSaveGamePreviewData.html#aba363f6da7af5edc0bfceac6f23e75eb',1,'SaveGamePreviewData']]],
   ['unit_5fsummaries',['unit_summaries',['../structCombatSummary.html#a2e9cb9d6e9ecb3987db27c5ecd964a8d',1,'CombatSummary']]],
   ['universe_5fobject',['UNIVERSE_OBJECT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ae44864ad88710f794ad55c198ee2fad8',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['universe_5fobject_5ftype_5frules',['universe_object_type_rules',['../structparse_1_1detail_1_1condition__parser__rules__6.html#a906ca16af1d4ed2ded31f85604c98df2',1,'parse::detail::condition_parser_rules_6']]],
   ['universeobjectdeletesignal',['UniverseObjectDeleteSignal',['../classUniverse.html#a654cddfe81c903c36ec02945ddedb4c1',1,'Universe']]],
   ['unknown_5fui_5fdisplay_5fvalue',['UNKNOWN_UI_DISPLAY_VALUE',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#adde16ad9e6de1e4a1e174ac806e8e118',1,'anonymous_namespace{i18n.cpp}']]],
-  ['unlocks',['unlocks',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1rules.html#a45cf366340942e2791fff8dcb1ca36d3',1,'anonymous_namespace{TechsParser.cpp}::rules']]],
+  ['unlockable_5fitem_5ftype_5fenum',['unlockable_item_type_enum',['../structparse_1_1detail_1_1item__spec__grammar.html#ab4fd47fd3178de8b582d7bb80569065a',1,'parse::detail::item_spec_grammar']]],
+  ['unlocks',['unlocks',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a7cfa034a9f7069b84c9a9271ef11ae4c',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['upper_5fleft_5fpad',['UPPER_LEFT_PAD',['../classTechTreeWnd_1_1TechTreeControls.html#adbd2bc1c683b67769c444ea96444a79b',1,'TechTreeWnd::TechTreeControls']]],
   ['uppressedsignal',['UpPressedSignal',['../classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64',1,'MessageWndEdit']]],
   ['url_5ftag',['URL_TAG',['../classTextLinker.html#aa74a7a1c5a0b3a86f18c83423848a031',1,'TextLinker']]]

@@ -91,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -101,13 +102,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EnumParser_8h.html">EnumParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ValueRefParserImpl_8h.html">ValueRefParserImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="EffectParser_8h.html">EffectParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ConditionParserImpl_8h.html">ConditionParserImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Species_8h.html">../universe/Species.h</a>&quot;</code><br />
 <code>#include &lt;boost/spirit/include/phoenix.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1rules.html">anonymous_namespace{SpeciesParser.cpp}::rules</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html">anonymous_namespace{SpeciesParser.cpp}::grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -123,12 +125,19 @@ Macros</h2></td></tr>
 <tr class="memitem:aa9e2eaded9be950e065ceb1e7829a1f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SpeciesParser_8cpp.html#aa9e2eaded9be950e065ceb1e7829a1f0">DEBUG_PARSERS</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aa9e2eaded9be950e065ceb1e7829a1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2c51354bbe548d2a3744f2486b968170"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a2c51354bbe548d2a3744f2486b968170">anonymous_namespace{SpeciesParser.cpp}::start_rule_payload</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classSpecies.html">Species</a> &gt;&gt;</td></tr>
+<tr class="separator:a2c51354bbe548d2a3744f2486b968170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9791b7f685b014c6b44d2bb25309fe7e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a9791b7f685b014c6b44d2bb25309fe7e">anonymous_namespace{SpeciesParser.cpp}::start_rule_signature</a> = void(start_rule_payload &amp;)</td></tr>
+<tr class="separator:a9791b7f685b014c6b44d2bb25309fe7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a93d6b583bba43dcc15541429d27c78c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a93d6b583bba43dcc15541429d27c78c2">anonymous_namespace{SpeciesParser.cpp}::insert_species</a> (std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classSpecies.html">Species</a> &gt;&gt; &amp;species, const <a class="el" href="structSpeciesStrings.html">SpeciesStrings</a> &amp;strings, const std::vector&lt; <a class="el" href="classFocusType.html">FocusType</a> &gt; &amp;foci, const std::string &amp;preferred_focus, const std::map&lt; PlanetType, PlanetEnvironment &gt; &amp;planet_environments, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;effects, const <a class="el" href="structSpeciesParams.html">SpeciesParams</a> &amp;params, const std::set&lt; std::string &gt; &amp;tags, const std::string &amp;graphic)</td></tr>
 <tr class="separator:a93d6b583bba43dcc15541429d27c78c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c8bee40213ce9d0aab0c19f7486f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classSpecies.html">Species</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a89c8bee40213ce9d0aab0c19f7486f47">parse::species</a> ()</td></tr>
-<tr class="separator:a89c8bee40213ce9d0aab0c19f7486f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088341d4bf644742c7782b53b76aa39f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classSpecies.html">Species</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a088341d4bf644742c7782b53b76aa39f">parse::species</a> ()</td></tr>
+<tr class="separator:a088341d4bf644742c7782b53b76aa39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
