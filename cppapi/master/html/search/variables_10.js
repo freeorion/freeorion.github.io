@@ -46,6 +46,7 @@ var searchData=
   ['pc_5fstealth',['PC_STEALTH',['../Enums_8h.html#a3b333863afd900867b0b8bfe43c5a51d',1,'Enums.h']]],
   ['pc_5ftrade',['PC_TRADE',['../Enums_8h.html#a76d6102bbd78ae954e3c71071661185e',1,'Enums.h']]],
   ['pc_5ftroops',['PC_TROOPS',['../Enums_8h.html#ae6cae5817de03e395b7fa71786ca348b',1,'Enums.h']]],
+  ['pending',['pending',['../structPending_1_1Pending.html#ae7e034b55a1db2a656e0eb7a53792537',1,'Pending::Pending']]],
   ['permanently_5fsnoozed_5fsitreps',['permanently_snoozed_sitreps',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#ad0127c915111d1d99632dec11c99e0ba',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['pf',['pf',['../structJumpDistanceSys2Visitor.html#a1824f07b8b92d80f11d3393cd6f49ca7',1,'JumpDistanceSys2Visitor::pf()'],['../structJumpDistanceSys1Visitor.html#a90a2f872b83ebc35d94298577d07986e',1,'JumpDistanceSys1Visitor::pf()'],['../structWithinJumpsOfOthersObjectVisitor.html#a8bda4738569dd8f79efd3c6a8a47f69d',1,'WithinJumpsOfOthersObjectVisitor::pf()'],['../structWithinJumpsOfOthersOtherVisitor.html#a234f97156f940a380f417d68f97659db',1,'WithinJumpsOfOthersOtherVisitor::pf()']]],
   ['pi',['PI',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#ad517059828ddf4b5d3db9bdf7bde5123',1,'anonymous_namespace{SystemIcon.cpp}::PI()'],['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a863efa38a47105354521777e07b8baa1',1,'anonymous_namespace{TechTreeWnd.cpp}::PI()']]],

@@ -13,6 +13,7 @@ var searchData=
   ['parse_5ffile',['parse_file',['../namespaceparse_1_1detail.html#ab2a90d1fb4cd536f4ab545b70d12098b',1,'parse::detail']]],
   ['parse_5ffile_5fcommon',['parse_file_common',['../namespaceparse_1_1detail.html#a7f5ac85a00e58813f8e02de7fc1f086a',1,'parse::detail']]],
   ['parse_5fuuid',['parse_uuid',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#aeeacd8a1341e7b6abdcda9d21ef13e4c',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
+  ['parsedshipdesign',['ParsedShipDesign',['../structParsedShipDesign.html#a583c4e94b58ab62d1d6bca1e621fed20',1,'ParsedShipDesign']]],
   ['part',['Part',['../classPartControl.html#a41029fe496bd792874673ca0f4abe0b0',1,'PartControl']]],
   ['part_5fcontrol_5fheight',['PART_CONTROL_HEIGHT',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a9fda254b9ebd94cad5cb9f215d1ee6a5',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['part_5fcontrol_5fwidth',['PART_CONTROL_WIDTH',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#aba2ea47c8cd736311181c7568572f41e',1,'anonymous_namespace{DesignWnd.cpp}']]],
@@ -53,6 +54,7 @@ var searchData=
   ['peaceproposaldiplomaticmessage',['PeaceProposalDiplomaticMessage',['../Diplomacy_8cpp.html#a5599e1d9c05597f5970eb03eb3718ffb',1,'PeaceProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a2f2dae39ff0046b3db560b343140e676',1,'PeaceProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['pediadirtext',['PediaDirText',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#aa23b81078cd7023369e027b2711e79fd',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['pediavisible',['PediaVisible',['../classBuildDesignatorWnd.html#a343b0311aad0d595d3ae16bceb43efcd',1,'BuildDesignatorWnd::PediaVisible()'],['../classProductionWnd.html#af7cf6235b08df1d06d9e691ee021b945',1,'ProductionWnd::PediaVisible()'],['../classResearchWnd.html#a1afa38e14664ac9bd83533f103ec3510',1,'ResearchWnd::PediaVisible()'],['../classTechTreeWnd.html#ac4cf63171a2d020dfe65030b2be6c10f',1,'TechTreeWnd::PediaVisible()']]],
+  ['pending',['Pending',['../structPending_1_1Pending.html#aa1b81799d2cad54eb102d8a94efec0e6',1,'Pending::Pending::Pending(boost::optional&lt; std::future&lt; T &gt;&gt; &amp;&amp;pending_, const std::string &amp;name_)'],['../structPending_1_1Pending.html#a48911ba27b52ad57ad9a9c4bc6c967e5',1,'Pending::Pending::Pending(Pending &amp;&amp;other)']]],
   ['pendingbombardorders',['PendingBombardOrders',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a05a440507875b85008bdaf83ea790f2d',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['pendingcolonizationorders',['PendingColonizationOrders',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a188b7dc03ec2ffea5a7619bc913bd2b4',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['pendinginvadeorders',['PendingInvadeOrders',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a9654c7f2bd3bac6e27ef6873376167f1',1,'anonymous_namespace{SidePanel.cpp}']]],
@@ -289,5 +291,6 @@ var searchData=
   ['pythonloggererror',['PythonLoggerError',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a9d8a7d37f0c4da74c3e02f6966d71b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['pythonloggerinfo',['PythonLoggerInfo',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a26bd0730512b1d1e520384df4391aca0',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['pythonloggerwarn',['PythonLoggerWarn',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#acc1322f60b401bcf9910bff3245670e6',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggerwrapper',['PythonLoggerWrapper',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a6e2048a5b67b13fe792d451b98017a74',1,'anonymous_namespace{LoggingWrapper.cpp}']]]
+  ['pythonloggerwrapper',['PythonLoggerWrapper',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a6e2048a5b67b13fe792d451b98017a74',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['techs_3c_20techmanager_3a_3atechparsetuple_20_3e',['techs&lt; TechManager::TechParseTuple &gt;',['../TechsParser_8cpp.html#ae2158ddb7c8906b98cf72798698d7e7e',1,'techs&lt; TechManager::TechParseTuple &gt;(const boost::filesystem::path &amp;path):&#160;TechsParser.cpp'],['../AppInterface_8cpp.html#a41098a56e47e6e2b882d1538264cfa32',1,'techs&lt; TechManager::TechParseTuple &gt;(const boost::filesystem::path &amp;path):&#160;AppInterface.cpp']]]
 ];

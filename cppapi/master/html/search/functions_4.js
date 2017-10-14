@@ -82,7 +82,7 @@ var searchData=
   ['directoryawarecmp',['DirectoryAwareCmp',['../classSaveFileListBox.html#a796ac1478ae7d9145f6672cd9dad04b3',1,'SaveFileListBox']]],
   ['directoryedited',['DirectoryEdited',['../classSaveFileDialog.html#a352b92b71300f6ea2baa4681fa00733e',1,'SaveFileDialog']]],
   ['directorynamesize',['DirectoryNameSize',['../classSaveFileDirectoryRow.html#a15148562362762c52c1634f2e308623d',1,'SaveFileDirectoryRow']]],
-  ['directoryoption',['DirectoryOption',['../classOptionsWnd.html#a1066458767ded3a8cd887848c2822804',1,'OptionsWnd']]],
+  ['directoryoption',['DirectoryOption',['../classOptionsWnd.html#a713f8ecda12ca431536e54ebd3c1df50',1,'OptionsWnd']]],
   ['disable',['Disable',['../classGameRulesPanel.html#a2467aae049b6af530ed20dec27518ce6',1,'GameRulesPanel::Disable()'],['../classGalaxySetupPanel.html#a3c55cf5dbfc1e5e067a9943fb168b92a',1,'GalaxySetupPanel::Disable()'],['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#ac6c8bb7583019f4bf34995bb3f35e24d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::Disable()'],['../classSound_1_1Impl.html#a961a16fe24d8656c0404ceac95494101',1,'Sound::Impl::Disable()'],['../classSound.html#ad31116c5b8f0599949438735de2edcba',1,'Sound::Disable()']]],
   ['disabledroparrow',['DisableDropArrow',['../classCUIDropDownList.html#a1c7df96c6f7c34e2d15d08ec040b40b7',1,'CUIDropDownList']]],
   ['disablenonselectioncandidates',['DisableNonSelectionCandidates',['../classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05',1,'SidePanel::PlanetPanelContainer']]],

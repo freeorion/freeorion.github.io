@@ -39,7 +39,6 @@ var searchData=
   ['armed',['armed',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a6ce46b925d1855ed6175f6af3ab02dee',1,'parse::detail::condition_parser_rules_1']]],
   ['arrow_5fbrightening_5fscale_5ffactor',['ARROW_BRIGHTENING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a5cd3c62d8fc3f4192b558f8212954328',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['article',['article',['../structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1grammar.html#aeb24dca5fe3e69c5dfa0b91065798b83',1,'anonymous_namespace{EncyclopediaParser.cpp}::grammar']]],
-  ['articles',['articles',['../structEncyclopedia.html#a2c7ebca63084dcbd39fb214d2adfb2b5',1,'Encyclopedia']]],
   ['atmospheres',['atmospheres',['../structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData.html#ac2aeb24b46848556da4ddb3d650c13f6',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData']]],
   ['attacker_5fempire_5fid',['attacker_empire_id',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a1fa674fce359a8b8438fb8cb3c05f7b0',1,'StealthChangeEvent::StealthChangeEventDetail']]],
   ['attacker_5fid',['attacker_id',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a844890904053072dd720010d51253d2e',1,'StealthChangeEvent::StealthChangeEventDetail::attacker_id()'],['../structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5',1,'WeaponFireEvent::attacker_id()'],['../structWeaponsPlatformEvent.html#af49d853d7209c866cc6192c8d5fa346d',1,'WeaponsPlatformEvent::attacker_id()']]],

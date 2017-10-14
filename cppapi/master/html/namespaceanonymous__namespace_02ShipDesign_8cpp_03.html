@@ -97,11 +97,14 @@ Functions</h2></td></tr>
 <tr class="separator:af081a129507f9c6e6af4d7d910ad94b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0007dcbe418f5e927e86fe9ef34abe22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a0007dcbe418f5e927e86fe9ef34abe22">AddRules</a> (<a class="el" href="classGameRules.html">GameRules</a> &amp;rules)</td></tr>
 <tr class="separator:a0007dcbe418f5e927e86fe9ef34abe22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a78ea2c2bbcbfa79fa040d16d38ca79"><td class="memTemplParams" colspan="2">template&lt;typename PendingShips , typename Map1 , typename Map2 , typename Ordering &gt; </td></tr>
+<tr class="memitem:a3a78ea2c2bbcbfa79fa040d16d38ca79"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a3a78ea2c2bbcbfa79fa040d16d38ca79">CheckPendingAndFillDesignsOrderingAndNameTables</a> (PendingShips &amp;pending, Map1 &amp;designs, Ordering &amp;ordering, Map2 &amp;name_to_uuid, bool are_monsters)</td></tr>
+<tr class="separator:a3a78ea2c2bbcbfa79fa040d16d38ca79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae665d62a352082d40ab0f853ba381d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08">DesignsTheSame</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;one, const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;two)</td></tr>
 <tr class="separator:ae665d62a352082d40ab0f853ba381d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ef63adf023a469fcebd5b139e29bb0"><td class="memTemplParams" colspan="2">template&lt;typename Map1 , typename Map2 , typename Ordering &gt; </td></tr>
-<tr class="memitem:a79ef63adf023a469fcebd5b139e29bb0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a79ef63adf023a469fcebd5b139e29bb0">FillDesignsOrderingAndNameTables</a> (const boost::filesystem::path &amp;path, Map1 &amp;designs, Ordering &amp;ordering, Map2 &amp;name_to_uuid)</td></tr>
-<tr class="separator:a79ef63adf023a469fcebd5b139e29bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbff61017d86c4a379651bd5134bddcf"><td class="memTemplParams" colspan="2">template&lt;typename Map1 , typename Map2 , typename Ordering &gt; </td></tr>
+<tr class="memitem:adbff61017d86c4a379651bd5134bddcf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#adbff61017d86c4a379651bd5134bddcf">FillDesignsOrderingAndNameTables</a> (<a class="el" href="classPredefinedShipDesignManager.html#ac9d742cf4ded23f7f271b1a1d13b34a0">PredefinedShipDesignManager::ParsedShipDesignsType</a> &amp;parsed_designs, Map1 &amp;designs, Ordering &amp;ordering, Map2 &amp;name_to_uuid)</td></tr>
+<tr class="separator:adbff61017d86c4a379651bd5134bddcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a455a91afdede9fdba6518477979ce20f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a455a91afdede9fdba6518477979ce20f">IncreaseMeter</a> (MeterType meter_type, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *increase_vr)</td></tr>
 <tr class="separator:a455a91afdede9fdba6518477979ce20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742ca510be25866a52b7852545a24e2e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a742ca510be25866a52b7852545a24e2e">IncreaseMeter</a> (MeterType meter_type, float fixed_increase)</td></tr>
@@ -173,6 +176,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3a78ea2c2bbcbfa79fa040d16d38ca79"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PendingShips , typename Map1 , typename Map2 , typename Ordering &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{ShipDesign.cpp}::CheckPendingAndFillDesignsOrderingAndNameTables </td>
+          <td>(</td>
+          <td class="paramtype">PendingShips &amp;&#160;</td>
+          <td class="paramname"><em>pending</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map1 &amp;&#160;</td>
+          <td class="paramname"><em>designs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Ordering &amp;&#160;</td>
+          <td class="paramname"><em>ordering</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map2 &amp;&#160;</td>
+          <td class="paramname"><em>name_to_uuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>are_monsters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#adbff61017d86c4a379651bd5134bddcf">FillDesignsOrderingAndNameTables()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="namespacePending.html#aba7482048c3a01b02770996caf95126e">Pending::WaitForPending()</a>.</p>
+
+<p>Referenced by <a class="el" href="classPredefinedShipDesignManager.html#a8faa5d1b77c8a883edaabc66e1e0cf1e">PredefinedShipDesignManager::CheckPendingDesignsTypes()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae665d62a352082d40ab0f853ba381d08"></a>
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +256,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a79ef63adf023a469fcebd5b139e29bb0"></a>
+<a class="anchor" id="adbff61017d86c4a379651bd5134bddcf"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -212,8 +265,8 @@ template&lt;typename Map1 , typename Map2 , typename Ordering &gt; </div>
         <tr>
           <td class="memname">void anonymous_namespace{ShipDesign.cpp}::FillDesignsOrderingAndNameTables </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
+          <td class="paramtype"><a class="el" href="classPredefinedShipDesignManager.html#ac9d742cf4ded23f7f271b1a1d13b34a0">PredefinedShipDesignManager::ParsedShipDesignsType</a> &amp;&#160;</td>
+          <td class="paramname"><em>parsed_designs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -241,9 +294,9 @@ template&lt;typename Map1 , typename Map2 , typename Ordering &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="ShipDesign_8cpp.html#a97e2c29c7495f703ab4542d3ecc407c9">LoadShipDesignsAndManifestOrderFromFileSystem()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="ShipDesign_8cpp.html#a7c27b94acd6f22068e1ecc4f9068237e">LoadShipDesignsAndManifestOrderFromParseResults()</a>.</p>
 
-<p>Referenced by <a class="el" href="classPredefinedShipDesignManager.html#a34ffcb92537e46938d8b8bc3cbcebcae">PredefinedShipDesignManager::PredefinedShipDesignManager()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a3a78ea2c2bbcbfa79fa040d16d38ca79">CheckPendingAndFillDesignsOrderingAndNameTables()</a>.</p>
 
 </div>
 </div>

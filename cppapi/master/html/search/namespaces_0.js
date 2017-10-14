@@ -104,7 +104,6 @@ var searchData=
   ['anonymous_5fnamespace_7bsitrepentry_2ecpp_7d',['anonymous_namespace{SitRepEntry.cpp}',['../namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsitreppanel_2ecpp_7d',['anonymous_namespace{SitRepPanel.cpp}',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsound_2ecpp_7d',['anonymous_namespace{Sound.cpp}',['../namespaceanonymous__namespace_02Sound_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bspecial_2ecpp_7d',['anonymous_namespace{Special.cpp}',['../namespaceanonymous__namespace_02Special_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bspecialspanel_2ecpp_7d',['anonymous_namespace{SpecialsPanel.cpp}',['../namespaceanonymous__namespace_02SpecialsPanel_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bspecialsparser_2ecpp_7d',['anonymous_namespace{SpecialsParser.cpp}',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bspecies_2ecpp_7d',['anonymous_namespace{Species.cpp}',['../namespaceanonymous__namespace_02Species_8cpp_03.html',1,'']]],

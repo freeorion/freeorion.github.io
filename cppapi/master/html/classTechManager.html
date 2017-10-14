@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -113,11 +114,17 @@ Public Types</h2></td></tr>
 <tr class="separator:ab294e1dbb97eca53238680db2ce1afbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b20585ae3e06f0aa09cc2089e813a2"><td class="memItemLeft" align="right" valign="top">typedef TechContainer::index&lt; <a class="el" href="structTechManager_1_1NameIndex.html">NameIndex</a> &gt;::type::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2">iterator</a></td></tr>
 <tr class="separator:a40b20585ae3e06f0aa09cc2089e813a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572a92a1fd921d329be48c550cb5e7ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechCategoryMap</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structTechCategory.html">TechCategory</a> &gt;&gt;</td></tr>
+<tr class="separator:a572a92a1fd921d329be48c550cb5e7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6428ddad8d8fb9a272679a50cfb8a24b"><td class="memItemLeft" align="right" valign="top">typedef boost::multi_index_container&lt; std::unique_ptr&lt; <a class="el" href="classTech.html">Tech</a> &gt;, boost::multi_index::indexed_by&lt; boost::multi_index::ordered_non_unique&lt; boost::multi_index::tag&lt; <a class="el" href="structTechManager_1_1CategoryIndex.html">CategoryIndex</a> &gt;, boost::multi_index::const_mem_fun&lt; <a class="el" href="classTech.html">Tech</a>, const std::string &amp;,&amp;<a class="el" href="classTech.html#a09855b8e266ad459d405e19ed18604e4">Tech::Category</a> &gt; &gt;, boost::multi_index::ordered_unique&lt; boost::multi_index::tag&lt; <a class="el" href="structTechManager_1_1NameIndex.html">NameIndex</a> &gt;, boost::multi_index::const_mem_fun&lt; <a class="el" href="classTech.html">Tech</a>, const std::string &amp;,&amp;<a class="el" href="classTech.html#a9eed1f317f50355afdceab094a5f16ff">Tech::Name</a> &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechContainer</a></td></tr>
 <tr class="separator:a6428ddad8d8fb9a272679a50cfb8a24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea014f0fe8be17de79674c4439281546"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> = std::tuple&lt; <a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechManager::TechContainer</a>, std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structTechCategory.html">TechCategory</a> &gt;&gt;, std::set&lt; std::string &gt; &gt;</td></tr>
+<tr class="separator:aea014f0fe8be17de79674c4439281546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac86f0286aae062e5f7d5843d1d272241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ac86f0286aae062e5f7d5843d1d272241">SetTechs</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> &gt; &amp;&amp;future)</td></tr>
+<tr class="separator:ac86f0286aae062e5f7d5843d1d272241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:af777f6d0120816367b316229821ce0e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af777f6d0120816367b316229821ce0e6">GetTech</a> (const std::string &amp;name) const </td></tr>
 <tr class="separator:af777f6d0120816367b316229821ce0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,19 +166,23 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a77a2ca98e8df2d840430906c4cc3a5e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a77a2ca98e8df2d840430906c4cc3a5e0">TechManager</a> ()</td></tr>
 <tr class="separator:a77a2ca98e8df2d840430906c4cc3a5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e4bf64de77db72fc44715936103190b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a5e4bf64de77db72fc44715936103190b">AllChildren</a> (const <a class="el" href="classTech.html">Tech</a> *tech, std::map&lt; std::string, std::string &gt; &amp;children)</td></tr>
-<tr class="separator:a5e4bf64de77db72fc44715936103190b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb26fc0d8a4ecbfce3b4468023b256b9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#aeb26fc0d8a4ecbfce3b4468023b256b9">FindFirstDependencyCycle</a> ()</td></tr>
-<tr class="separator:aeb26fc0d8a4ecbfce3b4468023b256b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c2489e615ae7d812dcbdc879498953"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a50c2489e615ae7d812dcbdc879498953">FindIllegalDependencies</a> ()</td></tr>
-<tr class="separator:a50c2489e615ae7d812dcbdc879498953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa89cefdd82851c70976a2cf56135e531"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#aa89cefdd82851c70976a2cf56135e531">FindRedundantDependency</a> ()</td></tr>
-<tr class="separator:aa89cefdd82851c70976a2cf56135e531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d272c0498e60fa84ba6818d750c8b9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a0d272c0498e60fa84ba6818d750c8b9a">AllChildren</a> (const <a class="el" href="classTech.html">Tech</a> *tech, std::map&lt; std::string, std::string &gt; &amp;children) const </td></tr>
+<tr class="separator:a0d272c0498e60fa84ba6818d750c8b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab149695e448b987032c23b6d741cb75f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ab149695e448b987032c23b6d741cb75f">CheckPendingTechs</a> () const </td></tr>
+<tr class="separator:ab149695e448b987032c23b6d741cb75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152729ba4ff80e6064659177b2dff3c2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a152729ba4ff80e6064659177b2dff3c2">FindFirstDependencyCycle</a> () const </td></tr>
+<tr class="separator:a152729ba4ff80e6064659177b2dff3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f84e88494645d2c73da765739fc2b5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af7f84e88494645d2c73da765739fc2b5">FindIllegalDependencies</a> () const </td></tr>
+<tr class="separator:af7f84e88494645d2c73da765739fc2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afccfd2a4597d74cc91164a4a6488593e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#afccfd2a4597d74cc91164a4a6488593e">FindRedundantDependency</a> () const </td></tr>
+<tr class="separator:afccfd2a4597d74cc91164a4a6488593e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7ba128df16909d9f0ea5e18371508029"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structTechCategory.html">TechCategory</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a7ba128df16909d9f0ea5e18371508029">m_categories</a></td></tr>
-<tr class="separator:a7ba128df16909d9f0ea5e18371508029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8e7f072561008e3cd84c30e33f2bab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechCategoryMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a9a8e7f072561008e3cd84c30e33f2bab">m_categories</a></td></tr>
+<tr class="separator:a9a8e7f072561008e3cd84c30e33f2bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af622617dabf8c0b3c9d47b685463ebbe"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af622617dabf8c0b3c9d47b685463ebbe">m_pending_types</a> = boost::none</td></tr>
+<tr class="separator:af622617dabf8c0b3c9d47b685463ebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a449fdd7ebc524e7df7ebeb39c10e52e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a449fdd7ebc524e7df7ebeb39c10e52e1">m_techs</a></td></tr>
 <tr class="separator:a449fdd7ebc524e7df7ebeb39c10e52e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -209,12 +220,36 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a572a92a1fd921d329be48c550cb5e7ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechManager::TechCategoryMap</a> =  std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structTechCategory.html">TechCategory</a>&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6428ddad8d8fb9a272679a50cfb8a24b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">typedef boost::multi_index_container&lt; std::unique_ptr&lt;<a class="el" href="classTech.html">Tech</a>&gt;, boost::multi_index::indexed_by&lt; boost::multi_index::ordered_non_unique&lt; boost::multi_index::tag&lt;<a class="el" href="structTechManager_1_1CategoryIndex.html">CategoryIndex</a>&gt;, boost::multi_index::const_mem_fun&lt; <a class="el" href="classTech.html">Tech</a>, const std::string&amp;, &amp;<a class="el" href="classTech.html#a09855b8e266ad459d405e19ed18604e4">Tech::Category</a> &gt; &gt;, boost::multi_index::ordered_unique&lt; boost::multi_index::tag&lt;<a class="el" href="structTechManager_1_1NameIndex.html">NameIndex</a>&gt;, boost::multi_index::const_mem_fun&lt; <a class="el" href="classTech.html">Tech</a>, const std::string&amp;, &amp;<a class="el" href="classTech.html#a9eed1f317f50355afdceab094a5f16ff">Tech::Name</a> &gt; &gt; &gt; &gt; <a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechManager::TechContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aea014f0fe8be17de79674c4439281546"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechManager::TechParseTuple</a> =  std::tuple&lt; <a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechManager::TechContainer</a>, std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structTechCategory.html">TechCategory</a>&gt;&gt;, std::set&lt;std::string&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -243,12 +278,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="namespaceparse.html#adb7ed502fa7b0cbd11007487ef74da0b">parse::techs()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5e4bf64de77db72fc44715936103190b"></a>
+<a class="anchor" id="a0d272c0498e60fa84ba6818d750c8b9a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -270,7 +303,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -435,6 +468,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab149695e448b987032c23b6d741cb75f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TechManager::CheckPendingTechs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Assigns any m_pending_types to m_specials. </p>
+
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="namespacePending.html#aba7482048c3a01b02770996caf95126e">Pending::WaitForPending()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae3b866aec27ea88ba562567f2c331e87"></a>
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +510,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb26fc0d8a4ecbfce3b4468023b256b9"></a>
+<a class="anchor" id="a152729ba4ff80e6064659177b2dff3c2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -462,7 +521,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">std::string TechManager::FindFirstDependencyCycle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -477,7 +536,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a50c2489e615ae7d812dcbdc879498953"></a>
+<a class="anchor" id="af7f84e88494645d2c73da765739fc2b5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -488,7 +547,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">std::string TechManager::FindIllegalDependencies </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -503,7 +562,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa89cefdd82851c70976a2cf56135e531"></a>
+<a class="anchor" id="afccfd2a4597d74cc91164a4a6488593e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -514,7 +573,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">std::string TechManager::FindRedundantDependency </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -685,6 +744,25 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac86f0286aae062e5f7d5843d1d272241"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TechManager::SetTechs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>future</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets types to the value of <code>future</code>. </p>
+
+<p>Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab50dd3fb39246c7e33da2e756c8834de"></a>
 <div class="memitem">
 <div class="memproto">
@@ -721,7 +799,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a7ba128df16909d9f0ea5e18371508029"></a>
+<a class="anchor" id="a9a8e7f072561008e3cd84c30e33f2bab"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -729,15 +807,36 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structTechCategory.html">TechCategory</a>&gt; &gt; TechManager::m_categories</td>
+          <td class="memname"><a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechCategoryMap</a> TechManager::m_categories</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af622617dabf8c0b3c9d47b685463ebbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;<a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a>&gt; &gt; TechManager::m_pending_types = boost::none</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Future types being parsed by parser. mutable so that it can be assigned to m_species_types when completed. </p>
 
 </div>
 </div>
@@ -754,7 +853,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

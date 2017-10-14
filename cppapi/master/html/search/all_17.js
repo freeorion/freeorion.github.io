@@ -2,6 +2,7 @@ var searchData=
 [
   ['wait',['Wait',['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue']]],
   ['waitfordisconnect',['WaitForDisconnect',['../structWaitForDisconnect.html',1,'']]],
+  ['waitforpending',['WaitForPending',['../namespacePending.html#aba7482048c3a01b02770996caf95126e',1,'Pending']]],
   ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html',1,'WaitingForGameStart'],['../classMapWnd.html#a7e6b1a1935b5112063c85817d4f97dc2',1,'MapWnd::WaitingForGameStart()'],['../structWaitingForGameStart.html#a739a867e3cea42da3174c7c22a76c647',1,'WaitingForGameStart::WaitingForGameStart()']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'WaitingForMPGameJoiners'],['../classServerApp.html#abf7363ef825f47381e909f7b9a3df15c',1,'ServerApp::WaitingForMPGameJoiners()'],['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners::WaitingForMPGameJoiners()']]],

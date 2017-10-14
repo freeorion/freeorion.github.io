@@ -27,7 +27,7 @@ var searchData=
   ['empirestockpilevaluesimplematch',['EmpireStockpileValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireStockpileValueSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['emptyhullslistbox',['EmptyHullsListBox',['../classEmptyHullsListBox.html',1,'']]],
   ['emptyplayerrow',['EmptyPlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1EmptyPlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['encyclopedia',['Encyclopedia',['../structEncyclopedia.html',1,'']]],
+  ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html',1,'']]],
   ['encyclopediaarticle',['EncyclopediaArticle',['../structEncyclopediaArticle.html',1,'']]],
   ['encyclopediadetailpanel',['EncyclopediaDetailPanel',['../classEncyclopediaDetailPanel.html',1,'']]],
   ['enqueued',['Enqueued',['../structCondition_1_1Enqueued.html',1,'Condition']]],

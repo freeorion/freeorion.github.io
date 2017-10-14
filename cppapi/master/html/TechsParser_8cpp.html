@@ -104,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="EffectParser_8h.html">EffectParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ValueRefParser_8h.html">ValueRefParser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Species_8h.html">../universe/Species.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Tech_8h.html">../universe/Tech.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Directories_8h.html">../util/Directories.h</a>&quot;</code><br />
 <code>#include &lt;boost/spirit/include/phoenix.hpp&gt;</code><br />
 </div><table class="memberdecls">
@@ -139,8 +140,11 @@ Functions</h2></td></tr>
 <tr class="separator:a5518744cd8a06ca1db00859e7df7332c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c5fc8ac74d89bbfe943037de32482b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a0c5fc8ac74d89bbfe943037de32482b1">anonymous_namespace{TechsParser.cpp}::insert_tech</a> (<a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechManager::TechContainer</a> &amp;techs, const <a class="el" href="structTech_1_1TechInfo.html">Tech::TechInfo</a> &amp;tech_info, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;effects, const std::set&lt; std::string &gt; &amp;prerequisites, const std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &amp;unlocked_items, const std::string &amp;graphic)</td></tr>
 <tr class="separator:a0c5fc8ac74d89bbfe943037de32482b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb7ed502fa7b0cbd11007487ef74da0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> std::tuple&lt; <a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechManager::TechContainer</a>, std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structTechCategory.html">TechCategory</a> &gt; &gt;, std::set&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#adb7ed502fa7b0cbd11007487ef74da0b">parse::techs</a> ()</td></tr>
-<tr class="separator:adb7ed502fa7b0cbd11007487ef74da0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2158ddb7c8906b98cf72798698d7e7e"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechManager::TechParseTuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="TechsParser_8cpp.html#ae2158ddb7c8906b98cf72798698d7e7e">parse::techs&lt; TechManager::TechParseTuple &gt;</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:ae2158ddb7c8906b98cf72798698d7e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721ef42f5adb8dc29ee28e37e89b61ab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a721ef42f5adb8dc29ee28e37e89b61ab"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a721ef42f5adb8dc29ee28e37e89b61ab">parse::techs</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a721ef42f5adb8dc29ee28e37e89b61ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -158,6 +162,23 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define DEBUG_PARSERS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ae2158ddb7c8906b98cf72798698d7e7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">template <a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechManager::TechParseTuple</a> <a class="el" href="namespaceparse.html#ae9e0a2349e9bd60a27d9267bdd4bd401">parse::techs</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechManager::TechParseTuple</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

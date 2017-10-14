@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pairtotupleconverter',['PairToTupleConverter',['../structanonymous__namespace_02EmpireWrapper_8cpp_03_1_1PairToTupleConverter.html',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
+  ['parsedshipdesign',['ParsedShipDesign',['../structParsedShipDesign.html',1,'']]],
   ['partattackinfo',['PartAttackInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['partcontrol',['PartControl',['../classPartControl.html',1,'']]],
   ['participantbar',['ParticipantBar',['../classParticipantBar.html',1,'']]],
@@ -16,6 +17,7 @@ var searchData=
   ['pathfindingshortcircuitingvisitor',['PathFindingShortCircuitingVisitor',['../structSystemPathing_1_1PathFindingShortCircuitingVisitor.html',1,'SystemPathing']]],
   ['pathinfo',['PathInfo',['../structGetPathsThroughSupplyLanes_1_1PathInfo.html',1,'GetPathsThroughSupplyLanes']]],
   ['pathtypedecorator',['PathTypeDecorator',['../classPathTypeDecorator.html',1,'']]],
+  ['pending',['Pending',['../structPending_1_1Pending.html',1,'Pending']]],
   ['planet',['Planet',['../classPlanet.html',1,'']]],
   ['planet_5fenvironment_5fparser_5frules',['planet_environment_parser_rules',['../structparse_1_1detail_1_1planet__environment__parser__rules.html',1,'parse::detail']]],
   ['planet_5fsize_5fparser_5frules',['planet_size_parser_rules',['../structparse_1_1detail_1_1planet__size__parser__rules.html',1,'parse::detail']]],
