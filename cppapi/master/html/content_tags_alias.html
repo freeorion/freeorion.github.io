@@ -89,19 +89,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h1><a class="anchor" id="alias_content_tags_example"></a>
 Examples</h1>
 <p>Some example code fragments:</p>
-<p>C++ : </p><pre class="fragment">// File: Sample1.h
+<p>C++ : Any c style comment that supports Doxygen special commands</p>
+<pre class="fragment">// File: Sample1.h
 /** @content_tag{CTRL_SAMPLE1} Sample 1 **/
 int SomeFunction(std::string tag = "CTRL_SAMPLE1");
-</pre><p>FOCS : </p><pre class="fragment"># File: Sample2.focs.txt
+</pre><p>FOCS : Use the special c style form of triple slashes ///</p>
+<pre class="fragment">// File: Sample2.focs.txt
 EffectsGroup
     scope = And [
         Ship
-        # @content_tag{CTRL_SAMPLE2} Sample 2
+        /// @content_tag{CTRL_SAMPLE2} Sample 2
         Not HasTag name = "CTRL_SAMPLE2"
         WithinDistance distance = Source.Size condition = Source
     ]
     effects = ...
-</pre><p>Python : With Python, docstring comments do not support special commands.</p>
+</pre><p>Python : With Python, docstring comments do not support special commands, instead use the hash form #</p>
 <pre class="fragment"># File: Sample3.py
 def AnotherFunc(some_object):
     # @content_tag{CTRL_SAMPLE3} Sample 3
