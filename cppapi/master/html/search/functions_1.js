@@ -174,7 +174,7 @@ var searchData=
   ['automaticallychosencolonyship',['AutomaticallyChosenColonyShip',['../SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12',1,'AutomaticallyChosenColonyShip(int target_planet_id):&#160;SidePanel.cpp'],['../SidePanel_8h.html#ad8ceb96a57e2e8c66789d53cc87ebf12',1,'AutomaticallyChosenColonyShip(int target_planet_id):&#160;SidePanel.cpp']]],
   ['automaticallychoseninvasionships',['AutomaticallyChosenInvasionShips',['../SidePanel_8cpp.html#a82081f45973d72dfc143a8f079f87bac',1,'SidePanel.cpp']]],
   ['autoresolvecombat',['AutoResolveCombat',['../CombatSystem_8cpp.html#a7f27420ecf67037df6ef23d9da050864',1,'AutoResolveCombat(CombatInfo &amp;combat_info):&#160;CombatSystem.cpp'],['../CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864',1,'AutoResolveCombat(CombatInfo &amp;combat_info):&#160;CombatSystem.cpp']]],
-  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a9f9b056bb8b718d092195bdf384966fa',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
+  ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#aa64f12a8edec701a7183219bca0589d7',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['autosave',['Autosave',['../classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38',1,'HumanClientApp']]],
   ['autosetrange',['AutoSetRange',['../classGraphControl.html#a04c0995e1c3d09b16f16a1b65d1cf40e',1,'GraphControl']]],
   ['autoturnsleft',['AutoTurnsLeft',['../classHumanClientApp.html#a21ca2938673fcf2ddaba83386109be1b',1,'HumanClientApp']]],

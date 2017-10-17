@@ -1,7 +1,7 @@
 var searchData=
 [
   ['quant',['Quant',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantRow.html#ab5c5c0ec7801d95a874ec315c4b9c74f',1,'anonymous_namespace{ProductionWnd.cpp}::QuantRow']]],
-  ['quantityselector',['QuantitySelector',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a9a935b7ed89a401b22e147cf394a4e05',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
+  ['quantityselector',['QuantitySelector',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#ad83e710c4ca2adc8aa97b15c46430d9a',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['quantlabel',['QuantLabel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantLabel.html#a7f9c3fc29e3c8df3a2730e0c7768ba8b',1,'anonymous_namespace{ProductionWnd.cpp}::QuantLabel']]],
   ['quantrow',['QuantRow',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantRow.html#a094c7f94ae247c3d1aeb67cc57eda862',1,'anonymous_namespace{ProductionWnd.cpp}::QuantRow']]],
   ['queueitemclickedslot',['QueueItemClickedSlot',['../classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211',1,'ProductionWnd::QueueItemClickedSlot()'],['../classResearchWnd.html#a958c6e5d270996962ba58133564a5f87',1,'ResearchWnd::QueueItemClickedSlot()']]],
@@ -13,7 +13,7 @@ var searchData=
   ['queueitemsplit',['QueueItemSplit',['../classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156',1,'ProductionWnd']]],
   ['queuelistbox',['QueueListBox',['../classQueueListBox.html#a71d93eecc6be6bd1e20d5476d0317459',1,'QueueListBox']]],
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9e22b0db58dccc49cb54139277efe439',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
-  ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a305bdc1dff0d35a53885444232df8939',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
+  ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a9dcc39c415e2075a686a8a40e0d0471b',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['quittinggame',['QuittingGame',['../structQuittingGame.html#a46907cba60c808bf52be11c7baa20341',1,'QuittingGame']]]
 ];

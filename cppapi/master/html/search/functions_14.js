@@ -78,7 +78,7 @@ var searchData=
   ['toggleavailability',['ToggleAvailability',['../classDesignWnd_1_1PartPalette.html#ade27dd23dbb46357e2c970bd6b31a5c1',1,'DesignWnd::PartPalette::ToggleAvailability()'],['../classBasesListBox_1_1AvailabilityManager.html#a8264dc877a888252c962544ce604712c',1,'BasesListBox::AvailabilityManager::ToggleAvailability()'],['../classDesignWnd_1_1BaseSelector.html#a8187d1fe6fb6cc97ce15a9c650281d5e',1,'DesignWnd::BaseSelector::ToggleAvailability()']]],
   ['togglebooloption',['ToggleBoolOption',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8630a49cc821a2bdf1dfdc04e447566e',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['toggleclass',['ToggleClass',['../classDesignWnd_1_1PartPalette.html#a4c94effced83af4669a5a240ccce9ffd',1,'DesignWnd::PartPalette']]],
-  ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html#a8d1aa28906755ab578fcb812293fd04c',1,'OptionsBar::ToggleData']]],
+  ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html#ab8fc6ab3a363d761c0a372faaf7599c7',1,'OptionsBar::ToggleData']]],
   ['toggledesign',['ToggleDesign',['../classMapWnd.html#a2157fe3d11f743ae7ee45c4071387349',1,'MapWnd']]],
   ['toggleempires',['ToggleEmpires',['../classMapWnd.html#af902a19648f583beb66cce877cbaa4cf',1,'MapWnd']]],
   ['toggleexpansion',['ToggleExpansion',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a0d6717aae5bc858e876654b83e24b723',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
