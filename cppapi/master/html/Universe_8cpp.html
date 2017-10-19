@@ -125,6 +125,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="ValueRef_8h.html">ValueRef.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Enums_8h.html">Enums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Pathfinder_8h.html">Pathfinder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Encyclopedia_8h.html">Encyclopedia.h</a>&quot;</code><br />
 <code>#include &lt;boost/property_map/property_map.hpp&gt;</code><br />
 <code>#include &lt;boost/timer.hpp&gt;</code><br />
 </div><table class="memberdecls">
@@ -152,6 +153,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5b982a7a46282d61fd2410d1c1a14a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cbc4972aa6eebd6a7e9305d2c424586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a4cbc4972aa6eebd6a7e9305d2c424586">anonymous_namespace{Universe.cpp}::AddRules</a> (<a class="el" href="classGameRules.html">GameRules</a> &amp;rules)</td></tr>
 <tr class="separator:a4cbc4972aa6eebd6a7e9305d2c424586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b6d76cfeaede0f82f7ce903765b177"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Universe_8cpp.html#a16b6d76cfeaede0f82f7ce903765b177">CheckSumContent</a> ()</td></tr>
+<tr class="separator:a16b6d76cfeaede0f82f7ce903765b177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d0a1b08518153fc8cc2380287e0e8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a67d0a1b08518153fc8cc2380287e0e8f">anonymous_namespace{Universe.cpp}::DeclareThreadSafeLogger</a> (effects)</td></tr>
 <tr class="separator:a67d0a1b08518153fc8cc2380287e0e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f3ca79986a1758095171e3ded043823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a8f3ca79986a1758095171e3ded043823">anonymous_namespace{Universe.cpp}::FilterObjectIDsByKnownDestruction</a> (std::vector&lt; int &gt; &amp;object_ids, int empire_id, const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;empire_known_destroyed_object_ids)</td></tr>
@@ -209,6 +212,27 @@ Variables</h2></td></tr>
 <tr class="memitem:a6e4e6e1ffe3ce3e907ea34b95694f8ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a6e4e6e1ffe3ce3e907ea34b95694f8ed">anonymous_namespace{Universe.cpp}::temp_bool2</a> = <a class="el" href="MultiplayerCommon_8h.html#a2ca729ee6791ef4feec84e0011d53c16">RegisterGameRules</a>(&amp;AddRules)</td></tr>
 <tr class="separator:a6e4e6e1ffe3ce3e907ea34b95694f8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a16b6d76cfeaede0f82f7ce903765b177"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, unsigned int&gt; CheckSumContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute a checksum for each of the universe's content managers. Each value will be of the form ("BuildingManager", &lt;checksum&gt;) </p>
+
+<p>References <a class="el" href="Building_8cpp.html#a6c2ae681b60d6cd38918b5a228fcd4f8">GetBuildingTypeManager()</a>, <a class="el" href="classEncyclopedia.html#a46135b1e29524cee9d1b76d067cf552b">Encyclopedia::GetCheckSum()</a>, <a class="el" href="classFieldTypeManager.html#adf7b7c0d7a28eddc5bb8ed3678fdefb3">FieldTypeManager::GetCheckSum()</a>, <a class="el" href="classPartTypeManager.html#a9028377c241cd88679f8d00f0ca80738">PartTypeManager::GetCheckSum()</a>, <a class="el" href="classBuildingTypeManager.html#a93b88c27cca7665f092c9e00e8da18ec">BuildingTypeManager::GetCheckSum()</a>, <a class="el" href="classTechManager.html#ad694d2f3912963e5760e6bfe98bd1f98">TechManager::GetCheckSum()</a>, <a class="el" href="classSpeciesManager.html#adf807ea6d7890b71758087aeac85a42d">SpeciesManager::GetCheckSum()</a>, <a class="el" href="classHullTypeManager.html#a1e89c428fe480673e217a0060275a508">HullTypeManager::GetCheckSum()</a>, <a class="el" href="classPredefinedShipDesignManager.html#a13cfb91b8c6a3b1f8f48dde718246f1e">PredefinedShipDesignManager::GetCheckSum()</a>, <a class="el" href="Encyclopedia_8cpp.html#a4f964986fa3c8e5a092172a3ebab812b">GetEncyclopedia()</a>, <a class="el" href="Field_8cpp.html#a6fc665437f0013c1b69d9eff0a3a1f1e">GetFieldTypeManager()</a>, <a class="el" href="ShipDesign_8cpp.html#adb456649bcd9ca3cd8967eb84298d048">GetHullTypeManager()</a>, <a class="el" href="ShipDesign_8cpp.html#a3acbc11abc442857b78d92367d5e1d3d">GetPartTypeManager()</a>, <a class="el" href="ShipDesign_8cpp.html#ab3ae875c551ac1bff3075f3a2614bade">GetPredefinedShipDesignManager()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, and <a class="el" href="Tech_8cpp.html#a5fb6b34d37fa05a1338d273ae33aa41a">GetTechManager()</a>.</p>
+
+<p>Referenced by <a class="el" href="Message_8h.html#af74aee69d72a628e6098a161cb80363e">ContentCheckSumMessage()</a>, and <a class="el" href="classClientApp.html#a1290e39a7243d72a5742f6355162605a">ClientApp::VerifyCheckSum()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="adf0949728524f517fbcb598686053a86"></a>
 <div class="memitem">

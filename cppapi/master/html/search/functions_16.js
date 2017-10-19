@@ -28,6 +28,7 @@ var searchData=
   ['variable_5fscope',['variable_scope',['../ValueRefParserImpl_8cpp.html#a97f2e480ecbd6d210d510d9a7f40b536',1,'variable_scope(const parse::lexer &amp;tok):&#160;ValueRefParserImpl.cpp'],['../ValueRefParserImpl_8h.html#a97f2e480ecbd6d210d510d9a7f40b536',1,'variable_scope(const parse::lexer &amp;tok):&#160;ValueRefParserImpl.cpp']]],
   ['vartext',['VarText',['../classVarText.html#ab38b8a174f36204ea895b76f574d1cd9',1,'VarText::VarText()'],['../classVarText.html#aa0bd64a1108659d7f65aab06d237df36',1,'VarText::VarText(const std::string &amp;template_string, bool stringtable_lookup_template=true)']]],
   ['vectorindexforplayersavegamedataforempireid',['VectorIndexForPlayerSaveGameDataForEmpireID',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af4a84e58d5ef5792133d7da4f8173db5',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['verifychecksum',['VerifyCheckSum',['../classClientApp.html#a1290e39a7243d72a5742f6355162605a',1,'ClientApp']]],
   ['verifyspgameais',['VerifySPGameAIs',['../classServerApp.html#acec8a6b2dd08b9a9f5f5be87127bb6c0',1,'ServerApp']]],
   ['verifyunusedobjectid',['VerifyUnusedObjectID',['../classUniverse.html#a3a96fb6b17a8b91d84cd477de3952940',1,'Universe']]],
   ['vertex',['Vertex',['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a35ebf8e12e6edbed93853df9e060a46d',1,'MapWnd::MovementLineData::Vertex']]],

@@ -182,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b9a8d2f63278e4c9db3831fb728296d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientApp.html#a5b9a8d2f63278e4c9db3831fb728296d">StartTurn</a> ()</td></tr>
 <tr class="memdesc:a5b9a8d2f63278e4c9db3831fb728296d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the <a class="el" href="classOrderSet.html">OrderSet</a> to the server and start a new turn.  <a href="#a5b9a8d2f63278e4c9db3831fb728296d">More...</a><br /></td></tr>
 <tr class="separator:a5b9a8d2f63278e4c9db3831fb728296d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1290e39a7243d72a5742f6355162605a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientApp.html#a1290e39a7243d72a5742f6355162605a">VerifyCheckSum</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg)</td></tr>
+<tr class="separator:a1290e39a7243d72a5742f6355162605a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a02198e1c832276134e5b9547ff4392a6"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientApp.html#a02198e1c832276134e5b9547ff4392a6">Players</a> ()</td></tr>
 <tr class="memdesc:a02198e1c832276134e5b9547ff4392a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the players in game as <a class="el" href="structPlayerInfo.html">PlayerInfo</a> map.  <a href="#a02198e1c832276134e5b9547ff4392a6">More...</a><br /></td></tr>
@@ -982,7 +984,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classHumanClientApp.html#a6ded30966032b67b45532a17749aad2b">HumanClientApp</a>.</p>
 
-<p>References <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">GetApp()</a>, <a class="el" href="classClientApp.html#a0b32d1315b535bf78c7eb5fd85c743a6">SetPlayerStatus()</a>, and <a class="el" href="classClientApp.html#a48d28412c374c16b909408647f42f7bf">SetSinglePlayerGame()</a>.</p>
+<p>References <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">GetApp()</a>, <a class="el" href="classClientApp.html#a0b32d1315b535bf78c7eb5fd85c743a6">SetPlayerStatus()</a>, <a class="el" href="classClientApp.html#a48d28412c374c16b909408647f42f7bf">SetSinglePlayerGame()</a>, and <a class="el" href="classClientApp.html#a1290e39a7243d72a5742f6355162605a">VerifyCheckSum()</a>.</p>
 
 </div>
 </div>
@@ -1347,6 +1349,27 @@ Additional Inherited Members</h2></td></tr>
 <p>References <a class="el" href="classClientApp.html#a86c431d29c2aaf82552afbdb0a58ef41">m_networking</a>, <a class="el" href="classClientApp.html#a73ba1995abcbc3f9af4cb25cf63eb7c7">m_orders</a>, and <a class="el" href="Message_8cpp.html#a145991a82e053ba9a795913c1cb30168">TurnOrdersMessage()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceAIInterface.html#af7dfb28c39dc077e360cfbe983129d1b">AIInterface::DoneTurn()</a>, and <a class="el" href="classHumanClientApp.html#a46419f3ed0d3873bfa76c75cd10a957c">HumanClientApp::StartTurn()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1290e39a7243d72a5742f6355162605a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClientApp::VerifyCheckSum </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compare content checksum from server with client content checksum. </p>
+
+<p>References <a class="el" href="Universe_8cpp.html#a16b6d76cfeaede0f82f7ce903765b177">CheckSumContent()</a>, <a class="el" href="Message_8cpp.html#a5cedb83a0ba2116c6bf08b65c2a5858d">ExtractContentCheckSumMessageData()</a>, <a class="el" href="Logger_8h.html#aef58f34adf9f1de44115a06ce0f555cb">InfoLogger</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, and <a class="el" href="classClientApp.html#ac6aa42514919cab9b42cd828fe6a328f">HandleTurnUpdate()</a>.</p>
 
 </div>
 </div>

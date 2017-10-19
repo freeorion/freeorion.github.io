@@ -128,7 +128,7 @@ var searchData=
   ['destinationfleet',['DestinationFleet',['../classFleetTransferOrder.html#a8393c6da83d038b9df37a12b801dd32d',1,'FleetTransferOrder']]],
   ['destinationsystemid',['DestinationSystemID',['../classFleetMoveOrder.html#a442a2e4efd863d707f23146c3445a81c',1,'FleetMoveOrder']]],
   ['destroy',['Destroy',['../classEffect_1_1Destroy.html',1,'Effect']]],
-  ['destroy',['Destroy',['../classEffect_1_1Destroy.html#a6d1033968c2b9baef3e433a704a1b369',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()'],['../structparse_1_1detail_1_1effect__parser__rules__3.html#a66bbdf59b1811533ba5efece756741c6',1,'parse::detail::effect_parser_rules_3::destroy()']]],
+  ['destroy',['destroy',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a66bbdf59b1811533ba5efece756741c6',1,'parse::detail::effect_parser_rules_3::destroy()'],['../classEffect_1_1Destroy.html#a6d1033968c2b9baef3e433a704a1b369',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()']]],
   ['destroyed',['Destroyed',['../classFighter.html#a5a22ad0d59e457ab45054a992f0ee17f',1,'Fighter']]],
   ['destroyed_5fobject_5fids',['destroyed_object_ids',['../structCombatLog.html#a17c4e6445d8e155d6ea4d32c7db26d1e',1,'CombatLog::destroyed_object_ids()'],['../structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa',1,'CombatInfo::destroyed_object_ids()']]],
   ['destroyed_5fobject_5fknowers',['destroyed_object_knowers',['../structCombatInfo.html#a664a8b629e2155c0d5a84dc6fcc38582',1,'CombatInfo']]],
