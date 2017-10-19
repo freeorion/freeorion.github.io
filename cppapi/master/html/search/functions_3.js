@@ -28,6 +28,7 @@ var searchData=
   ['canpartbeadded',['CanPartBeAdded',['../classDesignWnd_1_1MainPanel.html#a3e7d316861a0886b25d8534318157ff4',1,'DesignWnd::MainPanel']]],
   ['canproduceships',['CanProduceShips',['../structCondition_1_1CanProduceShips.html#a80be62c2342eef61480738c3a7b275ef',1,'Condition::CanProduceShips::CanProduceShips()'],['../classSpecies.html#a15c8df7818b4bdbe6e7f3824b1f2ebd3',1,'Species::CanProduceShips()']]],
   ['canproduceships_5fcondition',['CANPRODUCESHIPS_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ac997ede03732e0deb85296973734da65',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['canresupplyafterdestination',['CanResupplyAfterDestination',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a458783c7e8af5e6b7768b6f08307e93c',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['cansavenow',['CanSaveNow',['../classHumanClientApp.html#a6323adbd2cf6e36ca3948c8e2d86d3ae',1,'HumanClientApp']]],
   ['cansomeoneattacksomething',['CanSomeoneAttackSomething',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a9a5c30e2ed9d8076a560416336a41d48',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['canstart',['CanStart',['../classMultiPlayerLobbyWnd.html#a47ab76522f1aeef00f567b7e17c164c4',1,'MultiPlayerLobbyWnd']]],

@@ -10,6 +10,7 @@ var searchData=
   ['jumpdistancesys2visitor',['JumpDistanceSys2Visitor',['../structJumpDistanceSys2Visitor.html',1,'JumpDistanceSys2Visitor'],['../structJumpDistanceSys2Visitor.html#ae9a7334b2e50f4045a699eeaf05c449f',1,'JumpDistanceSys2Visitor::JumpDistanceSys2Visitor()']]],
   ['jumps',['jumps',['../structWithinJumpsOfOthersObjectVisitor.html#ab924a376c7e0a4a84ebd3066430f90da',1,'WithinJumpsOfOthersObjectVisitor::jumps()'],['../structWithinJumpsOfOthersOtherVisitor.html#a12b671085a45edc94b5abc3987b5092e',1,'WithinJumpsOfOthersOtherVisitor::jumps()']]],
   ['jumps_5fbetween',['jumps_between',['../structparse_1_1int__complex__parser__grammar.html#a30ff188170cd0085feca54e54989dd2e',1,'parse::int_complex_parser_grammar']]],
+  ['jumpsforroute',['JumpsForRoute',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6ba4b06d091e0077a2c6e6417d0266fc',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['jumpstosuppliedsystemfunc',['jumpsToSuppliedSystemFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#af634a53eba3e7c5155ca605eb93e8428',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['jumpstosuppliedsystemp',['jumpsToSuppliedSystemP',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a43c907510ffdb2e154d4b1ba7c830661',1,'anonymous_namespace{EmpireWrapper.cpp}']]]
 ];

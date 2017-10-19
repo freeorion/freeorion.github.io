@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52cfd77f8bd8813cf545e55cc993c49f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f">GenerateFleetName</a> ()</td></tr>
 <tr class="separator:a52cfd77f8bd8813cf545e55cc993c49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
+<tr class="memitem:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#afd1780753f1c5ec9d0ed0e6f24bf39f8">HostileToEmpire</a> (int empire_id) const override</td></tr>
+<tr class="memdesc:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of IDs of ships in fleet.  <a href="#afd1780753f1c5ec9d0ed0e6f24bf39f8">More...</a><br /></td></tr>
+<tr class="separator:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88be04337f3301fff4779296243bad10"><td class="memItemLeft" align="right" valign="top">UniverseObjectType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a88be04337f3301fff4779296243bad10">ObjectType</a> () const override</td></tr>
 <tr class="memdesc:a88be04337f3301fff4779296243bad10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of IDs of ships in fleet.  <a href="#a88be04337f3301fff4779296243bad10">More...</a><br /></td></tr>
 <tr class="separator:a88be04337f3301fff4779296243bad10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1434,6 +1437,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afd1780753f1c5ec9d0ed0e6f24bf39f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Fleet::HostileToEmpire </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns set of IDs of ships in fleet. </p>
+
+<p>Reimplemented from <a class="el" href="classUniverseObject.html#aa552905abeb21a07897d4938e6c8f485">UniverseObject</a>.</p>
+
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, and <a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a77a51c773c21b5b87ea7548d9c46ff36"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2223,7 +2256,7 @@ template&lt;class T &gt; </div>
 
 <p>returned by ETA when fleet can't reach destination due to lack of route or inability to move </p>
 
-<p>Referenced by <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetDestination.html#a435798be05afad8d93c6f86243b0caf7">Effect::SetDestination::Execute()</a>, <a class="el" href="classFleetMoveOrder.html#ae82efd33ecefd0936c6243be2fd4f5ac">FleetMoveOrder::ExecuteImpl()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>, and <a class="el" href="classFleet.html#af49fd756ed8b0a62420100a3e884a419">MovePath()</a>.</p>
+<p>Referenced by <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetDestination.html#a435798be05afad8d93c6f86243b0caf7">Effect::SetDestination::Execute()</a>, <a class="el" href="classFleetMoveOrder.html#ae82efd33ecefd0936c6243be2fd4f5ac">FleetMoveOrder::ExecuteImpl()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a7eaee599d632ef58d03f77b8b4e4b52e">anonymous_namespace{MapWnd.cpp}::FleetRouteInRange()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>, and <a class="el" href="classFleet.html#af49fd756ed8b0a62420100a3e884a419">MovePath()</a>.</p>
 
 </div>
 </div>
@@ -2247,7 +2280,7 @@ template&lt;class T &gt; </div>
 
 <p>returned by ETA when fleet can't reach destination due to insufficient fuel capacity and lack of fleet resupply on route </p>
 
-<p>Referenced by <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetDestination.html#a435798be05afad8d93c6f86243b0caf7">Effect::SetDestination::Execute()</a>, <a class="el" href="classFleetMoveOrder.html#ae82efd33ecefd0936c6243be2fd4f5ac">FleetMoveOrder::ExecuteImpl()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>, and <a class="el" href="classFleet.html#af49fd756ed8b0a62420100a3e884a419">MovePath()</a>.</p>
+<p>Referenced by <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetDestination.html#a435798be05afad8d93c6f86243b0caf7">Effect::SetDestination::Execute()</a>, <a class="el" href="classFleetMoveOrder.html#ae82efd33ecefd0936c6243be2fd4f5ac">FleetMoveOrder::ExecuteImpl()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a7eaee599d632ef58d03f77b8b4e4b52e">anonymous_namespace{MapWnd.cpp}::FleetRouteInRange()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>, and <a class="el" href="classFleet.html#af49fd756ed8b0a62420100a3e884a419">MovePath()</a>.</p>
 
 </div>
 </div>
@@ -2271,7 +2304,7 @@ template&lt;class T &gt; </div>
 
 <p>returned when ETA can't be determined </p>
 
-<p>Referenced by <a class="el" href="classFleet.html#a87e00b7152d451547ca3b0c6e6a12145">ETA()</a>, <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, and <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>.</p>
+<p>Referenced by <a class="el" href="classFleet.html#a87e00b7152d451547ca3b0c6e6a12145">ETA()</a>, <a class="el" href="structValueRef_1_1StringCast.html#a73614fc29729d1a91d9aee4c01e0837f">ValueRef::StringCast&lt; FromType &gt;::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a4f7fc94f51fb742178b68a9da0eb4202">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a7eaee599d632ef58d03f77b8b4e4b52e">anonymous_namespace{MapWnd.cpp}::FleetRouteInRange()</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a687fd46b93e3cb3b5c91bc8ed991b0a3">anonymous_namespace{Fleet.cpp}::InsertFleetWithShips()</a>, and <a class="el" href="structMapWnd_1_1MovementLineData.html#a8c891b6803420893d39bf75d055da824">MapWnd::MovementLineData::MovementLineData()</a>.</p>
 
 </div>
 </div>

@@ -6,5 +6,6 @@ var searchData=
   ['jumpdistancebetweensystems',['JumpDistanceBetweenSystems',['../classPathfinder_1_1PathfinderImpl.html#a243fd47414215410d5041a38989a0c34',1,'Pathfinder::PathfinderImpl::JumpDistanceBetweenSystems()'],['../classPathfinder.html#a6908cc41dde16d4f6aef75e64a0eb185',1,'Pathfinder::JumpDistanceBetweenSystems()'],['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aba99439c8ac5cfbc27b8a0005dd1fc53',1,'anonymous_namespace{ServerWrapper.cpp}::JumpDistanceBetweenSystems()']]],
   ['jumpdistancesys1visitor',['JumpDistanceSys1Visitor',['../structJumpDistanceSys1Visitor.html#acd8dbb77071bca253c4fc8f77873c586',1,'JumpDistanceSys1Visitor']]],
   ['jumpdistancesys2visitor',['JumpDistanceSys2Visitor',['../structJumpDistanceSys2Visitor.html#ae9a7334b2e50f4045a699eeaf05c449f',1,'JumpDistanceSys2Visitor']]],
+  ['jumpsforroute',['JumpsForRoute',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6ba4b06d091e0077a2c6e6417d0266fc',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['jumpstosuppliedsystemp',['jumpsToSuppliedSystemP',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a43c907510ffdb2e154d4b1ba7c830661',1,'anonymous_namespace{EmpireWrapper.cpp}']]]
 ];

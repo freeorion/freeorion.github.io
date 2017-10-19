@@ -47,8 +47,13 @@ var searchData=
   ['stringref_5fand_5fdoubleref_5frule',['stringref_and_doubleref_rule',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a67c929b993fb67b2e9dbec8ada3243d2',1,'parse::detail::effect_parser_rules_1']]],
   ['strings_5frule',['strings_rule',['../structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1grammar.html#a8216f0a22154d827ceca7465bca2ec3c',1,'anonymous_namespace{EncyclopediaParser.cpp}::grammar']]],
   ['supplylanemmap',['SupplyLaneMMap',['../namespaceGetPathsThroughSupplyLanes.html#a2480ddc06966cba3cc631a826fd2fd3e',1,'GetPathsThroughSupplyLanes']]],
+  ['systemexclusionpredicatetype',['SystemExclusionPredicateType',['../classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932',1,'Pathfinder']]],
+  ['systemfleetmap',['SystemFleetMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ad2f637539214891aa154d11e61cd6b80',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['systemgraph',['SystemGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['systemiditr',['SystemIDItr',['../classEmpire.html#a9f867ba7719e671cbe75c56608cfbfd0',1,'Empire']]],
+  ['systemidlisttype',['SystemIDListType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a89df9f4f00554f4bdd0595969c22a186',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['systemidpropertymap',['SystemIDPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a67f2170fb3192fd67a966c3cd1595f0c',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['systempredicategraph',['SystemPredicateGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a28163b427eae39d1d65cbbf4102a6a2c',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['systempredicategraphmap',['SystemPredicateGraphMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aa2062b417bd97752be92c1fdff8ab4bc',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['systemxempiretofleetsmap',['SystemXEmpireToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6e4acb9075731f8c6c7fc02d2c7d63f2',1,'anonymous_namespace{MapWnd.cpp}']]]
 ];

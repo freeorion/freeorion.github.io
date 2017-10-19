@@ -114,6 +114,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
+<tr class="memitem:a2aff51171926fec1878d61015f856149"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#a2aff51171926fec1878d61015f856149">HostileToEmpire</a> (int empire_id) const override</td></tr>
+<tr class="separator:a2aff51171926fec1878d61015f856149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae40d0405c5ee370ec55f18699a89e8d9"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Tags</a> () const override</td></tr>
 <tr class="separator:ae40d0405c5ee370ec55f18699a89e8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d3a671ff0a4263bf40a60321b605e49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">HasTag</a> (const std::string &amp;name) const override</td></tr>
@@ -1348,7 +1350,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>.</p>
 
-<p>Referenced by <a class="el" href="classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630">Colonize()</a>, <a class="el" href="classPlanet.html#ae7db84264c28a0e961215dd136cf3782">Conquer()</a>, <a class="el" href="classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de">Depopulate()</a>, <a class="el" href="classPlanet.html#a9237bb99735b627f7c8b4687a7453aee">NextTurnCurrentMeterValue()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">PopGrowthProductionResearchPhase()</a>, <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Reset()</a>, and <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">ResetTargetMaxUnpairedMeters()</a>.</p>
+<p>Referenced by <a class="el" href="classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630">Colonize()</a>, <a class="el" href="classPlanet.html#ae7db84264c28a0e961215dd136cf3782">Conquer()</a>, <a class="el" href="classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de">Depopulate()</a>, <a class="el" href="classPlanet.html#a2aff51171926fec1878d61015f856149">HostileToEmpire()</a>, <a class="el" href="classPlanet.html#a9237bb99735b627f7c8b4687a7453aee">NextTurnCurrentMeterValue()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">PopGrowthProductionResearchPhase()</a>, <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Reset()</a>, and <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">ResetTargetMaxUnpairedMeters()</a>.</p>
 
 </div>
 </div>
@@ -1440,6 +1442,35 @@ Additional Inherited Members</h2></td></tr>
 <p>References <a class="el" href="PopCenter_8cpp.html#af509425d37ab97fd5d602781a5b334e4">GetSpecies()</a>, <a class="el" href="namespaceparse.html#ad76d8ba8ab3f5e20e3034cbe6e4acd55">parse::species()</a>, <a class="el" href="classPopCenter.html#abd4e4412d3f35193e9e7153ea82ea8a8">PopCenter::SpeciesName()</a>, and <a class="el" href="classSpecies.html#a43795c7ff6d9ee49ff1e21cd970da103">Species::Tags()</a>.</p>
 
 <p>Referenced by <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">PopGrowthProductionResearchPhase()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2aff51171926fec1878d61015f856149"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Planet::HostileToEmpire </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>An orbital period is equal to a planets "year". A "year" is arbitrarily defined to be 4 turns. </p>
+
+<p>Reimplemented from <a class="el" href="classUniverseObject.html#aa552905abeb21a07897d4938e6c8f485">UniverseObject</a>.</p>
+
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="classPlanet.html#ac08dec6f01d12f6bc008cd5c554fcc5b">GetMeter()</a>, <a class="el" href="Enums_8h.html#aaca2ed45b5aaa9a8a6405ea0aeffb3a9">METER_TARGET_POPULATION</a>, <a class="el" href="classUniverseObject.html#a2d77efe12046b83a85008905eeac3336">UniverseObject::OwnedBy()</a>, <a class="el" href="classUniverseObject.html#a97f8421bb37f62ea24e737e8e3f2490d">UniverseObject::Owner()</a>, and <a class="el" href="classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026">UniverseObject::Unowned()</a>.</p>
 
 </div>
 </div>

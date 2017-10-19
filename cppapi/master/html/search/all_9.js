@@ -160,11 +160,11 @@ var searchData=
   ['insertshipdesignid',['InsertShipDesignID',['../classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd',1,'Universe']]],
   ['inserttemp',['InsertTemp',['../classUniverse.html#a2227d27dda8c6816bcbbd76d5ed038fb',1,'Universe']]],
   ['instrument_5fmessage_5fhandling',['INSTRUMENT_MESSAGE_HANDLING',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a091aad2dc4df49a6c125e6d70c53696a',1,'anonymous_namespace{HumanClientApp.cpp}']]],
-  ['insystem',['InSystem',['../structCondition_1_1InSystem.html#a909c42fe495cc1d4591bc240efd21b90',1,'Condition::InSystem']]],
   ['insystem',['InSystem',['../structCondition_1_1InSystem.html',1,'Condition']]],
+  ['insystem',['InSystem',['../structCondition_1_1InSystem.html#a909c42fe495cc1d4591bc240efd21b90',1,'Condition::InSystem']]],
   ['insystem_5fcondition',['INSYSTEM_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aa0855d8cb8aac73e9a9c0df683058dbd',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['insystemsimplematch',['InSystemSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1InSystemSimpleMatch.html#a38bc2b1f7bb4711d3d8a5d46663dd20e',1,'Condition::anonymous_namespace{Condition.cpp}::InSystemSimpleMatch']]],
   ['insystemsimplematch',['InSystemSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1InSystemSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['insystemsimplematch',['InSystemSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1InSystemSimpleMatch.html#a38bc2b1f7bb4711d3d8a5d46663dd20e',1,'Condition::anonymous_namespace{Condition.cpp}::InSystemSimpleMatch']]],
   ['int',['INT',['../classGameRules.html#ac8d86cd6599721cc483504f7e97361e1a04d9dfca6b410868f4f005c68f06751d',1,'GameRules']]],
   ['int_5f',['int_',['../structparse_1_1lexer.html#a0a4f5fb173a1e189255f828de30719a1',1,'parse::lexer::int_()'],['../structparse_1_1detail_1_1int__grammar.html#ab3eb06782ca55f3d85accc601fce07ca',1,'parse::detail::int_grammar::int_()']]],
   ['int_5farithmetic_5frules',['int_arithmetic_rules',['../structparse_1_1int__arithmetic__rules.html',1,'parse']]],
@@ -310,7 +310,10 @@ var searchData=
   ['issueenqueuebuildingproductionorder',['IssueEnqueueBuildingProductionOrder',['../namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862',1,'AIInterface']]],
   ['issueenqueueshipproductionorder',['IssueEnqueueShipProductionOrder',['../namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e',1,'AIInterface']]],
   ['issueenqueuetechorder',['IssueEnqueueTechOrder',['../namespaceAIInterface.html#a371cdfab39fc1aca7f4248519498cda3',1,'AIInterface']]],
+  ['issueexploringfleetorders',['IssueExploringFleetOrders',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a828b17addc94e07e9b2d6cd5056a26a5',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['issuefleetexploreorder',['IssueFleetExploreOrder',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a76e521dafd9d3b559801384f4c8c72c7',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['issuefleetmoveorder',['IssueFleetMoveOrder',['../namespaceAIInterface.html#a3ef9aace0a5ca3e6fe70eb9d17cd898c',1,'AIInterface']]],
+  ['issuefleetresupplyorder',['IssueFleetResupplyOrder',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a944069a8e793d79b24a5c8e8e209e491',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['issuefleettransferorder',['IssueFleetTransferOrder',['../namespaceAIInterface.html#ac00c9d3d70212c2578149aac9e7d640a',1,'AIInterface']]],
   ['issuegiveobjecttoempireorder',['IssueGiveObjectToEmpireOrder',['../namespaceAIInterface.html#a6574d509aaf90775930f92a376e9597a',1,'AIInterface']]],
   ['issueinvadeorder',['IssueInvadeOrder',['../namespaceAIInterface.html#a9a7d2628cb80ce13a5c1375a5b4e35c0',1,'AIInterface']]],
@@ -335,6 +338,6 @@ var searchData=
   ['items',['items',['../namespaceparse.html#a049bdf8902cc3205a4140f135da425f8',1,'parse']]],
   ['itemsparser_2ecpp',['ItemsParser.cpp',['../ItemsParser_8cpp.html',1,'']]],
   ['itemspec',['ItemSpec',['../structItemSpec.html',1,'ItemSpec'],['../structItemSpec.html#a0e17326d26d61a63d45504cbc25769c0',1,'ItemSpec::ItemSpec()'],['../structItemSpec.html#a2e6c0ca7e026207ccb768dcb7c576941',1,'ItemSpec::ItemSpec(UnlockableItemType type_, const std::string &amp;name_)']]],
-  ['iterator',['iterator',['../structObjectMap_1_1iterator.html',1,'ObjectMap']]],
-  ['iterator',['iterator',['../structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0',1,'ResearchQueue::iterator()'],['../structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878',1,'ProductionQueue::iterator()'],['../classEmpireManager.html#ae20d884313b27f49528989897da9da91',1,'EmpireManager::iterator()'],['../classServerNetworking.html#a792528ec3040557bd1b7ed6d4911c44f',1,'ServerNetworking::iterator()'],['../classBuildingTypeManager.html#a0150066742ec2db03ccb2fa8c80d8549',1,'BuildingTypeManager::iterator()'],['../classFieldTypeManager.html#ac82b5fe67419be901d0595ac7870eca2',1,'FieldTypeManager::iterator()'],['../classPartTypeManager.html#a41b6b512a22a4a80375a338d768c2be5',1,'PartTypeManager::iterator()'],['../classHullTypeManager.html#af28464614827bff89ce97e2bea3ee98e',1,'HullTypeManager::iterator()'],['../classSpeciesManager.html#abe48ade357575b0d44c4aec453634851',1,'SpeciesManager::iterator()'],['../classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2',1,'TechManager::iterator()'],['../structObjectMap_1_1iterator.html#ad40e3c6a9e1b8d88964da978e9d2ace2',1,'ObjectMap::iterator::iterator()']]]
+  ['iterator',['iterator',['../structResearchQueue.html#a6d6451018f464be3d55cdd73c6c4abd0',1,'ResearchQueue::iterator()'],['../structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878',1,'ProductionQueue::iterator()'],['../classEmpireManager.html#ae20d884313b27f49528989897da9da91',1,'EmpireManager::iterator()'],['../classServerNetworking.html#a792528ec3040557bd1b7ed6d4911c44f',1,'ServerNetworking::iterator()'],['../classBuildingTypeManager.html#a0150066742ec2db03ccb2fa8c80d8549',1,'BuildingTypeManager::iterator()'],['../classFieldTypeManager.html#ac82b5fe67419be901d0595ac7870eca2',1,'FieldTypeManager::iterator()'],['../classPartTypeManager.html#a41b6b512a22a4a80375a338d768c2be5',1,'PartTypeManager::iterator()'],['../classHullTypeManager.html#af28464614827bff89ce97e2bea3ee98e',1,'HullTypeManager::iterator()'],['../classSpeciesManager.html#abe48ade357575b0d44c4aec453634851',1,'SpeciesManager::iterator()'],['../classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2',1,'TechManager::iterator()'],['../structObjectMap_1_1iterator.html#ad40e3c6a9e1b8d88964da978e9d2ace2',1,'ObjectMap::iterator::iterator()']]],
+  ['iterator',['iterator',['../structObjectMap_1_1iterator.html',1,'ObjectMap']]]
 ];

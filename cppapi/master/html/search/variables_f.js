@@ -39,5 +39,6 @@ var searchData=
   ['owned_5fby_5f5',['owned_by_5',['../structparse_1_1detail_1_1condition__parser__rules__1.html#af7613635fa6b24c98a3541c540ec9dae',1,'parse::detail::condition_parser_rules_1']]],
   ['owner_5fhas_5fshippart_5favailable',['owner_has_shippart_available',['../structparse_1_1detail_1_1condition__parser__rules__7.html#a61ac907b22b52f0bfe604d60d1bc6e9f',1,'parse::detail::condition_parser_rules_7']]],
   ['owner_5fhas_5ftech',['owner_has_tech',['../structparse_1_1detail_1_1condition__parser__rules__5.html#aa87fe1bd9e1c5f4a55a0f654d5ca3bc2',1,'parse::detail::condition_parser_rules_5']]],
-  ['owner_5fstockpile',['owner_stockpile',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a97b760a7aa769e705e70ec6847b18a53',1,'parse::detail::condition_parser_rules_3']]]
+  ['owner_5fstockpile',['owner_stockpile',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a97b760a7aa769e705e70ec6847b18a53',1,'parse::detail::condition_parser_rules_3']]],
+  ['owning_5fempire_5fid',['owning_empire_id',['../structHostileVisitor.html#a52e7216d2d04b0deecd02a9aee155b64',1,'HostileVisitor']]]
 ];

@@ -92,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -102,6 +103,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1EdgeVisibilityFilter.html">EdgeVisibilityFilter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1SystemPredicateFilter.html">SystemPredicateFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -117,6 +120,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a56ce98d3066ee85ffdb1d3abfb4cffd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdae48cf8a7ebe471b24f1f1e603daaf"><td class="memItemLeft" align="right" valign="top">typedef boost::property_map&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, boost::edge_weight_t &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#afdae48cf8a7ebe471b24f1f1e603daaf">EdgeWeightPropertyMap</a></td></tr>
 <tr class="separator:afdae48cf8a7ebe471b24f1f1e603daaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfcd6e04aad2f07ea82f298b0f45b56"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; int, std::shared_ptr&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a28163b427eae39d1d65cbbf4102a6a2c">SystemPredicateGraph</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aadfcd6e04aad2f07ea82f298b0f45b56">EmpireSystemPredicateMap</a></td></tr>
+<tr class="separator:aadfcd6e04aad2f07ea82f298b0f45b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a883703a28025ca42601efe39f316d971"><td class="memItemLeft" align="right" valign="top">typedef boost::filtered_graph&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1EdgeVisibilityFilter.html">EdgeVisibilityFilter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a883703a28025ca42601efe39f316d971">EmpireViewSystemGraph</a></td></tr>
 <tr class="separator:a883703a28025ca42601efe39f316d971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36ea2a470cecaaa7f9b252ca7ad81395"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; int, std::shared_ptr&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a883703a28025ca42601efe39f316d971">EmpireViewSystemGraph</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a36ea2a470cecaaa7f9b252ca7ad81395">EmpireViewSystemGraphMap</a></td></tr>
@@ -127,9 +132,18 @@ Public Types</h2></td></tr>
 <tr class="separator:a29c3520e021953ba9902abed8a034c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f2170fb3192fd67a966c3cd1595f0c"><td class="memItemLeft" align="right" valign="top">typedef boost::property_map&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, <a class="el" href="structSystemPathing_1_1vertex__system__id__t.html">vertex_system_id_t</a> &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a67f2170fb3192fd67a966c3cd1595f0c">SystemIDPropertyMap</a></td></tr>
 <tr class="separator:a67f2170fb3192fd67a966c3cd1595f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28163b427eae39d1d65cbbf4102a6a2c"><td class="memItemLeft" align="right" valign="top">typedef boost::filtered_graph&lt; <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1SystemPredicateFilter.html">SystemPredicateFilter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a28163b427eae39d1d65cbbf4102a6a2c">SystemPredicateGraph</a></td></tr>
+<tr class="separator:a28163b427eae39d1d65cbbf4102a6a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2062b417bd97752be92c1fdff8ab4bc"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a>, <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aadfcd6e04aad2f07ea82f298b0f45b56">EmpireSystemPredicateMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aa2062b417bd97752be92c1fdff8ab4bc">SystemPredicateGraphMap</a></td></tr>
+<tr class="separator:aa2062b417bd97752be92c1fdff8ab4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a002a52f105d60e7c2518a848eeba4d73"><td class="memItemLeft" align="right" valign="top">typedef boost::property&lt; <a class="el" href="structSystemPathing_1_1vertex__system__id__t.html">vertex_system_id_t</a>, int, boost::property&lt; boost::vertex_index_t, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a002a52f105d60e7c2518a848eeba4d73">vertex_property_t</a></td></tr>
 <tr class="memdesc:a002a52f105d60e7c2518a848eeba4d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">a system graph property map type  <a href="#a002a52f105d60e7c2518a848eeba4d73">More...</a><br /></td></tr>
 <tr class="separator:a002a52f105d60e7c2518a848eeba4d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0c3614382d949203715224eb82cc47a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a0c3614382d949203715224eb82cc47a4">AddSystemPredicate</a> (const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a> &amp;pred)</td></tr>
+<tr class="separator:a0c3614382d949203715224eb82cc47a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -139,6 +153,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1e78301bc7ba6183cda9287ca0ee432e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a1e78301bc7ba6183cda9287ca0ee432e">system_graph</a></td></tr>
 <tr class="memdesc:a1e78301bc7ba6183cda9287ca0ee432e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a graph in which the systems are vertices and the starlanes are edges  <a href="#a1e78301bc7ba6183cda9287ca0ee432e">More...</a><br /></td></tr>
 <tr class="separator:a1e78301bc7ba6183cda9287ca0ee432e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec7c962dcccbc47cf23bcc75a59708e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aa2062b417bd97752be92c1fdff8ab4bc">SystemPredicateGraphMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a6ec7c962dcccbc47cf23bcc75a59708e">system_pred_graph_views</a></td></tr>
+<tr class="separator:a6ec7c962dcccbc47cf23bcc75a59708e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69d2defdae9e2ed18d28b804c03c9c6"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#af69d2defdae9e2ed18d28b804c03c9c6">system_predicates</a></td></tr>
+<tr class="separator:af69d2defdae9e2ed18d28b804c03c9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a48a7c67583c5567c28ec077c97900b1b"></a>
@@ -197,6 +215,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef boost::property_map&lt;<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, boost::edge_weight_t&gt;::type anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#afdae48cf8a7ebe471b24f1f1e603daaf">GraphImpl::EdgeWeightPropertyMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aadfcd6e04aad2f07ea82f298b0f45b56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;int, std::shared_ptr&lt;<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a28163b427eae39d1d65cbbf4102a6a2c">SystemPredicateGraph</a>&gt; &gt; anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aadfcd6e04aad2f07ea82f298b0f45b56">GraphImpl::EmpireSystemPredicateMap</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -263,6 +293,30 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a28163b427eae39d1d65cbbf4102a6a2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef boost::filtered_graph&lt;<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a29c3520e021953ba9902abed8a034c31">SystemGraph</a>, <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl_1_1SystemPredicateFilter.html">SystemPredicateFilter</a>&gt; anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a28163b427eae39d1d65cbbf4102a6a2c">GraphImpl::SystemPredicateGraph</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2062b417bd97752be92c1fdff8ab4bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a>, <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aadfcd6e04aad2f07ea82f298b0f45b56">EmpireSystemPredicateMap</a>&gt; anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aa2062b417bd97752be92c1fdff8ab4bc">GraphImpl::SystemPredicateGraphMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a002a52f105d60e7c2518a848eeba4d73"></a>
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +328,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>a system graph property map type </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0c3614382d949203715224eb82cc47a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{Pathfinder.cpp}::GraphImpl::AddSystemPredicate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a> &amp;&#160;</td>
+          <td class="paramname"><em>pred</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>.</p>
 
 </div>
 </div>
@@ -303,6 +384,31 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>a graph in which the systems are vertices and the starlanes are edges </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ec7c962dcccbc47cf23bcc75a59708e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aa2062b417bd97752be92c1fdff8ab4bc">SystemPredicateGraphMap</a> anonymous_namespace{Pathfinder.cpp}::GraphImpl::system_pred_graph_views</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="classEmpire.html">Empire</a> system graphs indexed by object predicate </p>
+
+</div>
+</div>
+<a class="anchor" id="af69d2defdae9e2ed18d28b804c03c9c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt;<a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a>&gt; anonymous_namespace{Pathfinder.cpp}::GraphImpl::system_predicates</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

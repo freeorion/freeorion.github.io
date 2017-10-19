@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a64d3d1c28b954ca7095e98f017c7844b"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr&lt; const <a class="el" href="classPathfinder.html">Pathfinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a64d3d1c28b954ca7095e98f017c7844b">ConstPtr</a></td></tr>
 <tr class="separator:a64d3d1c28b954ca7095e98f017c7844b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e5a8db838d0e320371a2e696fd0932"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr&lt; <a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a></td></tr>
+<tr class="separator:a42e5a8db838d0e320371a2e696fd0932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -123,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9a84f9fd1daa484a34459b4c13546240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba38da0712e8772acf5de61231379978"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aba38da0712e8772acf5de61231379978">ShortestPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const </td></tr>
 <tr class="separator:aba38da0712e8772acf5de61231379978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cfa04730b591c4371f6083a898afeb4"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a8cfa04730b591c4371f6083a898afeb4">ShortestPath</a> (int system1_id, int system2_id, int empire_id, const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a> &amp;system_predicate) const </td></tr>
+<tr class="separator:a8cfa04730b591c4371f6083a898afeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7e50bdade53a84d1921705dd1e832d4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#ae7e50bdade53a84d1921705dd1e832d4">ShortestPathDistance</a> (int object1_id, int object2_id) const </td></tr>
 <tr class="separator:ae7e50bdade53a84d1921705dd1e832d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a514a152b8fe2b65256f8da3cfe7cf5c9"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a514a152b8fe2b65256f8da3cfe7cf5c9">LeastJumpsPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, int max_jumps=INT_MAX) const </td></tr>
@@ -159,6 +163,18 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef std::shared_ptr&lt;const <a class="el" href="classPathfinder.html">Pathfinder</a>&gt; <a class="el" href="classPathfinder.html#a64d3d1c28b954ca7095e98f017c7844b">Pathfinder::ConstPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42e5a8db838d0e320371a2e696fd0932"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a>&gt; <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">Pathfinder::SystemExclusionPredicateType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -483,6 +499,56 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
 <p>Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a70904262f1b62e79b18a365e219723ab">Pathfinder::PathfinderImpl::ShortestPathDistance()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8cfa04730b591c4371f6083a898afeb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; std::list&lt; int &gt;, double &gt; Pathfinder::ShortestPath </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>system1_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>system2_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a> &amp;&#160;</td>
+          <td class="paramname"><em>system_predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shortest path known to an empire between two systems, excluding routes for systems containing objects for <code>system_predicate</code>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">system1_id</td><td>source <a class="el" href="classSystem.html">System</a> id </td></tr>
+    <tr><td class="paramname">system2_id</td><td>destination <a class="el" href="classSystem.html">System</a> id </td></tr>
+    <tr><td class="paramname">empire_id</td><td>ID of viewing <a class="el" href="classEmpire.html">Empire</a> </td></tr>
+    <tr><td class="paramname">system_predicate</td><td><a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a>, A <a class="el" href="classSystem.html">System</a> is excluded as a potential node in any route if it is or contains a matched object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>list of <a class="el" href="classSystem.html">System</a> ids, distance between systems </dd></dl>
+
+<p>References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
 </div>
 </div>

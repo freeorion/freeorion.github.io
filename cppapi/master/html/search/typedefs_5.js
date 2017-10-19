@@ -6,6 +6,8 @@ var searchData=
   ['fighterlauncheseventptr',['FighterLaunchesEventPtr',['../CombatEvents_8h.html#a0577afe61b0d2c63fe02a6833576d72c',1,'CombatEvents.h']]],
   ['fighterlauncheventptr',['FighterLaunchEventPtr',['../structFighterLaunchEvent.html#a159dbdcdaa6e86c7e7681db854374f9a',1,'FighterLaunchEvent']]],
   ['fleet_5fplan_5frule',['fleet_plan_rule',['../structanonymous__namespace_02FleetPlansParser_8cpp_03_1_1grammar.html#af926f4a5e7cd3e72328fc8a05e349379',1,'anonymous_namespace{FleetPlansParser.cpp}::grammar']]],
+  ['fleetidlisttype',['FleetIDListType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5417be711ed7af52ad22932cd9de500c',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['fleetroutetype',['FleetRouteType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a60397165c4c6aa262ede96e173f3b904',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['floatintpair',['FloatIntPair',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a9106d29c9767b87468bf3e57a398df85',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['floatintpairconverter',['FloatIntPairConverter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a60fc39de55148fff464d3f9e78da79a5',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['foci_5frule',['foci_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ad72e75570e0ff864ea55a509652ac478',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],

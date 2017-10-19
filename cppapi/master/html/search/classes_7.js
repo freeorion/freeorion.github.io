@@ -6,6 +6,7 @@ var searchData=
   ['hastagsimplematch',['HasTagSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasTagSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['homeworld',['Homeworld',['../structCondition_1_1Homeworld.html',1,'Condition']]],
   ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['hostilevisitor',['HostileVisitor',['../structHostileVisitor.html',1,'']]],
   ['hostless',['Hostless',['../structHostless.html',1,'']]],
   ['hostmpgamerequested',['HostMPGameRequested',['../structHostMPGameRequested.html',1,'']]],
   ['hostspgamerequested',['HostSPGameRequested',['../structHostSPGameRequested.html',1,'']]],
