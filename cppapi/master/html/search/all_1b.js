@@ -173,7 +173,7 @@ var searchData=
   ['_7esetvisibility',['~SetVisibility',['../classEffect_1_1SetVisibility.html#a69f77e8912ca84797af1663089b9810f',1,'Effect::SetVisibility']]],
   ['_7eshaderprogram',['~ShaderProgram',['../classShaderProgram.html#a2d2eadcfc48cc2e2ddb82aba70553a9f',1,'ShaderProgram']]],
   ['_7eship',['~Ship',['../classShip.html#a43cd6eeaffc11b49239b091621963a65',1,'Ship']]],
-  ['_7eshipdatapanel',['~ShipDataPanel',['../classShipDataPanel.html#a914fe0b32d0082941c1052fc4b230501',1,'ShipDataPanel']]],
+  ['_7eshipdatapanel',['~ShipDataPanel',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#af91bece1cd6cda9f1ab42d04453797e0',1,'anonymous_namespace{FleetWnd.cpp}::ShipDataPanel']]],
   ['_7eshipdesignmanager',['~ShipDesignManager',['../classShipDesignManager.html#a1533ce61339917e7e4be97e59659d263',1,'ShipDesignManager']]],
   ['_7eshippartmetervalue',['~ShipPartMeterValue',['../structCondition_1_1ShipPartMeterValue.html#a66285b042ae5d5a8acbd2755749bb2bc',1,'Condition::ShipPartMeterValue']]],
   ['_7eshuttingdownserver',['~ShuttingDownServer',['../structShuttingDownServer.html#a1f438e4aaaa6e5be80b4238f6ec80e18',1,'ShuttingDownServer']]],
