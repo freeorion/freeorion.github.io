@@ -134,6 +134,7 @@ var searchData=
   ['forcedthreshold',['ForcedThreshold',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a06020d1e1c355f85f2cfb5a325d88884',1,'anonymous_namespace{Logger.cpp}']]],
   ['forcevaliddesignorthrow',['ForceValidDesignOrThrow',['../classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e',1,'ShipDesign']]],
   ['forgetknownobject',['ForgetKnownObject',['../classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
+  ['forgetobject',['ForgetObject',['../classMapWnd.html#a24447a614ee682e9c5c17222d326ab56',1,'MapWnd']]],
   ['forgetorder',['ForgetOrder',['../classForgetOrder.html#acb2979db910936c954bd73d4e07adf81',1,'ForgetOrder::ForgetOrder()'],['../classForgetOrder.html#a6cac205cf0dc6b6a8733fc58257c235c',1,'ForgetOrder::ForgetOrder(int empire, int object_id)']]],
   ['formatduration',['FormatDuration',['../classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c',1,'ScopedTimer::Impl']]],
   ['formateddescriptionpropertynames',['FormatedDescriptionPropertyNames',['../namespaceValueRef.html#a4c672aa3b70b55b5b50a1752d12c282f',1,'ValueRef']]],
