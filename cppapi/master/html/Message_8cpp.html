@@ -120,6 +120,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;boost/serialization/vector.hpp&gt;</code><br />
 <code>#include &lt;boost/serialization/weak_ptr.hpp&gt;</code><br />
 <code>#include &lt;boost/timer.hpp&gt;</code><br />
+<code>#include &lt;boost/date_time/posix_time/time_serialize.hpp&gt;</code><br />
 <code>#include &lt;zlib.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
@@ -203,8 +204,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5701bdba58856f97235efb9ae204d443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa217b165aa328b6eb5450c3150e168f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#aa217b165aa328b6eb5450c3150e168f3">ExtractRequestSavePreviewsMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::string &amp;directory)</td></tr>
 <tr class="separator:aa217b165aa328b6eb5450c3150e168f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d7d7f9f9a26942946a0ae28146c6cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#aa0d7d7f9f9a26942946a0ae28146c6cc">ExtractServerPlayerChatMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, int &amp;sender, std::string &amp;data)</td></tr>
-<tr class="separator:aa0d7d7f9f9a26942946a0ae28146c6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7aa0dce0a0f964ed70175500b42cbe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#af7aa0dce0a0f964ed70175500b42cbe9">ExtractServerPlayerChatMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, int &amp;sender, boost::posix_time::ptime &amp;timestamp, std::string &amp;data)</td></tr>
+<tr class="separator:af7aa0dce0a0f964ed70175500b42cbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41002e911a42cf4111e0d6c67edd7574"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a41002e911a42cf4111e0d6c67edd7574">ExtractServerSaveGameCompleteMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::string &amp;save_filename, int &amp;bytes_written)</td></tr>
 <tr class="separator:a41002e911a42cf4111e0d6c67edd7574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069b9d5d3f95d0aabf0ecfdb13982f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a069b9d5d3f95d0aabf0ecfdb13982f7e">ExtractTurnOrdersMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="classOrderSet.html">OrderSet</a> &amp;orders)</td></tr>
@@ -261,8 +262,8 @@ Functions</h2></td></tr>
 <tr class="separator:aef2f4762853bd92272ef818727a145d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2525935fc573da94172f4d9106de506e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a2525935fc573da94172f4d9106de506e">ServerLobbyUpdateMessage</a> (const <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;lobby_data)</td></tr>
 <tr class="separator:a2525935fc573da94172f4d9106de506e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd916aff18dd55943d05d05695e04d6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#abd916aff18dd55943d05d05695e04d6f">ServerPlayerChatMessage</a> (int sender, const std::string &amp;data)</td></tr>
-<tr class="separator:abd916aff18dd55943d05d05695e04d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a2d652df06154da216abb1e150a7fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a45a2d652df06154da216abb1e150a7fa">ServerPlayerChatMessage</a> (int sender, const boost::posix_time::ptime &amp;timestamp, const std::string &amp;data)</td></tr>
+<tr class="separator:a45a2d652df06154da216abb1e150a7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04821b0ad4cf06d76b1e52ad036a1752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a04821b0ad4cf06d76b1e52ad036a1752">ServerSaveGameCompleteMessage</a> (const std::string &amp;save_filename, int bytes_written)</td></tr>
 <tr class="separator:a04821b0ad4cf06d76b1e52ad036a1752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7e52b9be3debabac5a9ae15c3ed9d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#acd7e52b9be3debabac5a9ae15c3ed9d9">ServerSaveGameDataRequestMessage</a> ()</td></tr>
@@ -1363,7 +1364,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#ae03f52a51c389fa69f19c26cfbf577d2">Message::Text()</a>.</p>
 
-<p>Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structPlayingGame.html#abda611cdd1f5146eac1e996465e6e507">PlayingGame::react()</a>, and <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>.</p>
+<p>Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, and <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>.</p>
 
 </div>
 </div>
@@ -1463,7 +1464,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa0d7d7f9f9a26942946a0ae28146c6cc"></a>
+<a class="anchor" id="af7aa0dce0a0f964ed70175500b42cbe9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1482,6 +1483,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boost::posix_time::ptime &amp;&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string &amp;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
@@ -1495,7 +1502,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#ae03f52a51c389fa69f19c26cfbf577d2">Message::Text()</a>.</p>
 
-<p>Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, and <a class="el" href="structMPLobby.html#abef75a03e77eac2c0d104040cc3f63a9">MPLobby::react()</a>.</p>
+<p>Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="structMPLobby.html#abef75a03e77eac2c0d104040cc3f63a9">MPLobby::react()</a>, and <a class="el" href="structPlayingGame.html#abda611cdd1f5146eac1e996465e6e507">PlayingGame::react()</a>.</p>
 
 </div>
 </div>
@@ -2468,7 +2475,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abd916aff18dd55943d05d05695e04d6f"></a>
+<a class="anchor" id="a45a2d652df06154da216abb1e150a7fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2477,6 +2484,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::posix_time::ptime &amp;&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2491,7 +2504,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates an PLAYER_CHAT message containing a chat string from <em>sender</em> to be displayed in chat. This message should only be sent by the server. </p>
+<p>creates an PLAYER_CHAT message containing a chat string from <em>sender</em> at <em>timestamp</em> to be displayed in chat. This message should only be sent by the server. </p>
 
 <p>References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 

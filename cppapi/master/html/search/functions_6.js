@@ -138,6 +138,7 @@ var searchData=
   ['forgetorder',['ForgetOrder',['../classForgetOrder.html#acb2979db910936c954bd73d4e07adf81',1,'ForgetOrder::ForgetOrder()'],['../classForgetOrder.html#a6cac205cf0dc6b6a8733fc58257c235c',1,'ForgetOrder::ForgetOrder(int empire, int object_id)']]],
   ['formatduration',['FormatDuration',['../classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c',1,'ScopedTimer::Impl']]],
   ['formateddescriptionpropertynames',['FormatedDescriptionPropertyNames',['../namespaceValueRef.html#a4c672aa3b70b55b5b50a1752d12c282f',1,'ValueRef']]],
+  ['formattimestamp',['FormatTimestamp',['../classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca',1,'ClientUI']]],
   ['fpsindicator',['FPSIndicator',['../classFPSIndicator.html#a358b3e72e1717b6a6ec0ec232a331721',1,'FPSIndicator']]],
   ['fractionaldistancebetweenpoints',['FractionalDistanceBetweenPoints',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aeb4e8aa449093304b8dca374cc001c17',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fragmentshaderinfolog',['FragmentShaderInfoLog',['../classShaderProgram.html#af3de817c562e90ba30d8341fe8cd4569',1,'ShaderProgram']]],
