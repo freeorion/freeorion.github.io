@@ -135,10 +135,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a237955581a6296257048e593547add06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196af3a93d75e006cb79d9bb41d32ae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiPlayerLobbyWnd.html#a196af3a93d75e006cb79d9bb41d32ae8">ChatMessage</a> (int player_id, const boost::posix_time::ptime &amp;timestamp, const std::string &amp;msg)</td></tr>
 <tr class="separator:a196af3a93d75e006cb79d9bb41d32ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518e555d617f23686f4ea64a2d06d706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiPlayerLobbyWnd.html#a518e555d617f23686f4ea64a2d06d706">ChatMessage</a> (const std::string &amp;player_name, const boost::posix_time::ptime &amp;timestamp, const std::string &amp;msg)</td></tr>
+<tr class="separator:a518e555d617f23686f4ea64a2d06d706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a3ff6f556bbcba85b5629f2deecc045"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiPlayerLobbyWnd.html#a8a3ff6f556bbcba85b5629f2deecc045">LobbyUpdate</a> (const <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;lobby_data)</td></tr>
 <tr class="separator:a8a3ff6f556bbcba85b5629f2deecc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9195407226ff9422842cb49ca3b8d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiPlayerLobbyWnd.html#ab9195407226ff9422842cb49ca3b8d94">Refresh</a> ()</td></tr>
 <tr class="separator:ab9195407226ff9422842cb49ca3b8d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d4b46d85bc267f04329ca6f2250088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiPlayerLobbyWnd.html#a13d4b46d85bc267f04329ca6f2250088">CleanupChat</a> ()</td></tr>
+<tr class="separator:a13d4b46d85bc267f04329ca6f2250088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classCUIWnd"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCUIWnd')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classCUIWnd.html">CUIWnd</a></td></tr>
 <tr class="memitem:a534b23149a1e8f625d9f79dc2b9e524a inherit pub_methods_classCUIWnd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a534b23149a1e8f625d9f79dc2b9e524a">CUIWnd</a> (const std::string &amp;wnd_name, GG::X x, GG::Y y, GG::X w, GG::Y h, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)</td></tr>
 <tr class="separator:a534b23149a1e8f625d9f79dc2b9e524a inherit pub_methods_classCUIWnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -581,7 +585,58 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca">ClientUI::FormatTimestamp()</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a4c3e2e7e96acfb00dcd8d37b7881d6ad">m_chat_box</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9cf2756ee99b9cb0cf3c274bd924a047">m_lobby_data</a>, and <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>.</p>
+<p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9cf2756ee99b9cb0cf3c274bd924a047">m_lobby_data</a>, and <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a518e555d617f23686f4ea64a2d06d706"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiPlayerLobbyWnd::ChatMessage </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>player_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::posix_time::ptime &amp;&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca">ClientUI::FormatTimestamp()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a4c3e2e7e96acfb00dcd8d37b7881d6ad">m_chat_box</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13d4b46d85bc267f04329ca6f2250088"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MultiPlayerLobbyWnd::CleanupChat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classMultiPlayerLobbyWnd.html#a4c3e2e7e96acfb00dcd8d37b7881d6ad">m_chat_box</a>.</p>
 
 </div>
 </div>
@@ -869,7 +924,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>repopulate list with rows built from current m_lobby_data. returns true iff something in the lobby data was changed during population and an update should be sent back to the server </p>
 
-<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="structMultiplayerLobbyData.html#a94cf363a65905d8ec2a7acb6ac886802">MultiplayerLobbyData::m_any_can_edit</a>, <a class="el" href="structPlayerSetupData.html#a6200e9a837a98c25b0c1d655997f6143">PlayerSetupData::m_client_type</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9cf2756ee99b9cb0cf3c274bd924a047">m_lobby_data</a>, <a class="el" href="structMultiplayerLobbyData.html#a47b83bf222153958c025f69d6313f83c">MultiplayerLobbyData::m_new_game</a>, <a class="el" href="structPlayerSetupData.html#a0f9984ab8dfff342b9b5d2e2f09f71fb">PlayerSetupData::m_player_ready</a>, <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ac17117f5defb54a7bf3840ee9fab8c45">m_players_lb</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a197a65c8799be1d3e5d14f7c291a734d">m_players_lb_headers</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a2ddd03c26615c989e0d8fd0a7e6e74f4">m_ready_bn</a>, <a class="el" href="structMultiplayerLobbyData.html#ae55d3e1d805bb90eb9e7e386bb6b16f1">MultiplayerLobbyData::m_save_game_empire_data</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#aa76999a62f9dc3cd04abb59a532aed64">PlayerDataChangedLocally()</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">AIInterface::PlayerID()</a>, <a class="el" href="namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a5c6f663b8b51872eec6380374e83cbb4">anonymous_namespace{MultiplayerLobbyWnd.cpp}::PlayerRowColWidths()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ab9195407226ff9422842cb49ca3b8d94">Refresh()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a0b4a94a52a6740778760159df23b2ed2">ThisClientIsHost()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="structMultiplayerLobbyData.html#a94cf363a65905d8ec2a7acb6ac886802">MultiplayerLobbyData::m_any_can_edit</a>, <a class="el" href="structPlayerSetupData.html#a6200e9a837a98c25b0c1d655997f6143">PlayerSetupData::m_client_type</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9cf2756ee99b9cb0cf3c274bd924a047">m_lobby_data</a>, <a class="el" href="structMultiplayerLobbyData.html#a47b83bf222153958c025f69d6313f83c">MultiplayerLobbyData::m_new_game</a>, <a class="el" href="structPlayerSetupData.html#a0f9984ab8dfff342b9b5d2e2f09f71fb">PlayerSetupData::m_player_ready</a>, <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ac17117f5defb54a7bf3840ee9fab8c45">m_players_lb</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a197a65c8799be1d3e5d14f7c291a734d">m_players_lb_headers</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a2ddd03c26615c989e0d8fd0a7e6e74f4">m_ready_bn</a>, <a class="el" href="structMultiplayerLobbyData.html#ae55d3e1d805bb90eb9e7e386bb6b16f1">MultiplayerLobbyData::m_save_game_empire_data</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a84a31458218d1ebb467b0514835f3b48">m_start_conditions_text</a>, <a class="el" href="structMultiplayerLobbyData.html#ad52c30c4e1a103edeea1a562ae848b47">MultiplayerLobbyData::m_start_lock_cause</a>, <a class="el" href="structMultiplayerLobbyData.html#aea1477494dbc85c3fcc4bbf4bb228f27">MultiplayerLobbyData::m_start_locked</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#aa76999a62f9dc3cd04abb59a532aed64">PlayerDataChangedLocally()</a>, <a class="el" href="classClientApp.html#ab496ecd482257407f2ce1f4504fc8c0b">ClientApp::PlayerID()</a>, <a class="el" href="namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">AIInterface::PlayerID()</a>, <a class="el" href="namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a5c6f663b8b51872eec6380374e83cbb4">anonymous_namespace{MultiplayerLobbyWnd.cpp}::PlayerRowColWidths()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ab9195407226ff9422842cb49ca3b8d94">Refresh()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a0b4a94a52a6740778760159df23b2ed2">ThisClientIsHost()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#a8a3ff6f556bbcba85b5629f2deecc045">LobbyUpdate()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a8eb4cfa6bb2e4229a1a4ed29e6ed50a0">NewLoadClicked()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9fd967d69de048e7699aca49b3f470db">ReadyClicked()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a83ccfd5c16fff0de8e5ea380e024b9c8">SaveGameBrowse()</a>.</p>
 
@@ -1176,7 +1231,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#a196af3a93d75e006cb79d9bb41d32ae8">ChatMessage()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">CompleteConstruction()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a9b95fe615bdfdbd746691da8f8836ec3">DoLayout()</a>.</p>
+<p>Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#a518e555d617f23686f4ea64a2d06d706">ChatMessage()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a13d4b46d85bc267f04329ca6f2250088">CleanupChat()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">CompleteConstruction()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a9b95fe615bdfdbd746691da8f8836ec3">DoLayout()</a>.</p>
 
 </div>
 </div>
@@ -1398,7 +1453,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">CompleteConstruction()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a9b95fe615bdfdbd746691da8f8836ec3">DoLayout()</a>.</p>
+<p>Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">CompleteConstruction()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a9b95fe615bdfdbd746691da8f8836ec3">DoLayout()</a>, and <a class="el" href="classMultiPlayerLobbyWnd.html#a2540863f607806a730cc87ab514fb913">PopulatePlayerList()</a>.</p>
 
 </div>
 </div>
