@@ -118,7 +118,6 @@ var searchData=
   ['uppressedsignal',['UpPressedSignal',['../classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64',1,'MessageWndEdit']]],
   ['url_5ftag',['URL_TAG',['../classTextLinker.html#aa74a7a1c5a0b3a86f18c83423848a031',1,'TextLinker']]],
   ['use',['Use',['../classShaderProgram.html#a772b912025cf7c55cfeeb876fa6ee414',1,'ShaderProgram']]],
-  ['use_5fimperial_5fpp',['USE_IMPERIAL_PP',['../classProductionQueueOrder.html#a5842bf1c77dcd18e116d615cf66c3b61',1,'ProductionQueueOrder']]],
   ['userstring',['UserString',['../i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38',1,'UserString(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a00cd1c862739b9c139b983fc28f689a7',1,'UserString(const std::string &amp;str):&#160;i18n.cpp']]],
   ['userstringcastedvalueref',['UserStringCastedValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a9b59530af08f2c06765afb87ca45ad10',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringexists',['UserStringExists',['../Condition_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../ValueRef_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a4e4904cf855ebc7d475c211d2ad68fba',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp']]],

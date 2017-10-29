@@ -62,7 +62,6 @@ var searchData=
   ['doctypedecl',['doctypedecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a4418585c8c3ba2eca9ae574eac333016',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['document',['document',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2a453246d4337c7a71c85219b8973c65',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['donetypingsignal',['DoneTypingSignal',['../classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de',1,'MessageWnd']]],
-  ['dont_5fuse_5fimperial_5fpp',['DONT_USE_IMPERIAL_PP',['../classProductionQueueOrder.html#aad9657ebdd1a8eaa54ded2384025391f',1,'ProductionQueueOrder']]],
   ['dot_5fstar_5ftexture_5fcoords',['dot_star_texture_coords',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a358d76e2c84b2e58a7a49e8f01c09b8d',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['dot_5fvertices_5fbuffer',['dot_vertices_buffer',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9746f6e8ddbd0d77a575ac265382f041',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['double_5f',['double_',['../structparse_1_1lexer.html#a882e572a1d75c582e35983c9d330a4af',1,'parse::lexer::double_()'],['../structparse_1_1detail_1_1double__grammar.html#ae824f8cf9058aae11a2a4d1aee74765c',1,'parse::detail::double_grammar::double_()']]],
