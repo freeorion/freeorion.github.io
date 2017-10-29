@@ -29,7 +29,7 @@ var searchData=
   ['validsoundfile',['ValidSoundFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validstringtablefile',['ValidStringtableFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validtargetsforattackertype',['ValidTargetsForAttackerType',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a8a21ea601fe7b2eef1e63d6dbbecf88c',1,'anonymous_namespace{CombatSystem.cpp}']]],
-  ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()'],['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()']]],
+  ['value',['Value',['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()'],['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()']]],
   ['value_5fref_5fgrammar',['value_ref_grammar',['../namespaceparse.html#a89dac1bcb3af2ed1b3d4ff7024b9a047',1,'parse']]],
   ['value_5fref_5frule',['value_ref_rule',['../namespaceparse.html#a676f9aa65cf42236d6ff845de0b0ed65',1,'parse']]],
   ['value_5fref_5fsignature',['value_ref_signature',['../namespaceparse.html#adfcf0d5921105b55197613b7bd98ed60',1,'parse']]],
