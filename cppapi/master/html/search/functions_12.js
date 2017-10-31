@@ -202,6 +202,7 @@ var searchData=
   ['resourcecenternextturnmetervalue',['ResourceCenterNextTurnMeterValue',['../classResourceCenter.html#a31be2aeda7481c4a4dbd813b71bf870c',1,'ResourceCenter']]],
   ['resourcecenterpopgrowthproductionresearchphase',['ResourceCenterPopGrowthProductionResearchPhase',['../classResourceCenter.html#a9fae3e9e50bc907b9af09240975fac1e',1,'ResourceCenter']]],
   ['resourcecenterresettargetmaxunpairedmeters',['ResourceCenterResetTargetMaxUnpairedMeters',['../classResourceCenter.html#a64c84ec505975562705b3f96571d0b48',1,'ResourceCenter']]],
+  ['resourceinfopanel',['ResourceInfoPanel',['../classResourceInfoPanel.html#adbb8aa6f3035ee0c7b2b7601cbc00c97',1,'ResourceInfoPanel']]],
   ['resourceoutput',['ResourceOutput',['../classEmpire.html#aa5c00ea0a56d839637d712077b20c4ca',1,'Empire::ResourceOutput()'],['../classFleet.html#a9c2791d6b0b3a7b5d60d61bd6b6416b7',1,'Fleet::ResourceOutput()']]],
   ['resourcepanel',['ResourcePanel',['../classResourcePanel.html#a68c7747ce8c50f76c97426d3d731fe79',1,'ResourcePanel']]],
   ['resourcepool',['ResourcePool',['../classResourcePool.html#adb03de285089524fab4fea93229d294c',1,'ResourcePool::ResourcePool(ResourceType type)'],['../classResourcePool.html#a98338fde99a478e4750e00f2dae5a44c',1,'ResourcePool::ResourcePool()']]],

@@ -61,7 +61,6 @@ var searchData=
   ['prodqueuelistbox',['ProdQueueListBox',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['producedbyempire',['ProducedByEmpire',['../structCondition_1_1ProducedByEmpire.html',1,'Condition']]],
   ['producedbyempiresimplematch',['ProducedByEmpireSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ProducedByEmpireSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
-  ['productioninfopanel',['ProductionInfoPanel',['../classProductionInfoPanel.html',1,'']]],
   ['productionitem',['ProductionItem',['../structProductionQueue_1_1ProductionItem.html',1,'ProductionQueue']]],
   ['productionitempanel',['ProductionItemPanel',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemPanel.html',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['productionitemrow',['ProductionItemRow',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemRow.html',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
