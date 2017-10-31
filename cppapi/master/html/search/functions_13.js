@@ -284,7 +284,7 @@ var searchData=
   ['setpopcenters',['SetPopCenters',['../classPopulationPool.html#afe278de843b60f11c4ae40652479330c',1,'PopulationPool']]],
   ['setpreviewlist',['SetPreviewList',['../classSaveFileDialog.html#a56c9b26990b7b9335bcb69782840d771',1,'SaveFileDialog::SetPreviewList(const PreviewInformation &amp;preview_info)'],['../classSaveFileDialog.html#a01bfaa8c15c93fe713a53ec06bc2c0a0',1,'SaveFileDialog::SetPreviewList(const boost::filesystem::path &amp;path)']]],
   ['setpreviewlistcore',['SetPreviewListCore',['../classSaveFileDialog.html#ae3be6bb77704e03a6722b4f46eed1acf',1,'SaveFileDialog']]],
-  ['setprodqueueelementspending',['SetProdQueueElementSpending',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#aae2b1f688c16335bd28113f82a75731f',1,'anonymous_namespace{Empire.cpp}']]],
+  ['setprodqueueelementspending',['SetProdQueueElementSpending',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#add298baad5372d4ce7dbb8a0b98d7b31',1,'anonymous_namespace{Empire.cpp}']]],
   ['setproductionquantity',['SetProductionQuantity',['../classEmpire.html#a1101bec137817c8c32401d01ad403962',1,'Empire']]],
   ['setproductionquantityandblocksize',['SetProductionQuantityAndBlocksize',['../classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d',1,'Empire']]],
   ['setproductionrallypoint',['SetProductionRallyPoint',['../classEmpire.html#ae2a751f9c71a102c484f38075553c541',1,'Empire']]],
