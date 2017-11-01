@@ -11,7 +11,6 @@ var searchData=
   ['queueitempaused',['QueueItemPaused',['../classProductionWnd.html#a541dc28620ea244719e43713dba468eb',1,'ProductionWnd::QueueItemPaused()'],['../classResearchWnd.html#a49fe5a2c5d65c54ecc293436eb41e74b',1,'ResearchWnd::QueueItemPaused()']]],
   ['queueitemrallied',['QueueItemRallied',['../classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1',1,'ProductionWnd']]],
   ['queueitemsplit',['QueueItemSplit',['../classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156',1,'ProductionWnd']]],
-  ['queueitemuseimperialpp',['QueueItemUseImperialPP',['../classProductionWnd.html#a3fea949dae2c4934b7ac7e844f24fa48',1,'ProductionWnd']]],
   ['queuelistbox',['QueueListBox',['../classQueueListBox.html#a71d93eecc6be6bd1e20d5476d0317459',1,'QueueListBox']]],
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9e22b0db58dccc49cb54139277efe439',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a9dcc39c415e2075a686a8a40e0d0471b',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],

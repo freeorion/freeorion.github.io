@@ -9,7 +9,6 @@ var searchData=
   ['queueitempausedsignal',['QueueItemPausedSignal',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#a61a34ff63f717b1978f6437e194b509c',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::QueueItemPausedSignal()'],['../classResearchQueueListBox.html#ae90ffc3ae794429a9fdc4673ec677caf',1,'ResearchQueueListBox::QueueItemPausedSignal()']]],
   ['queueitemralliedtosignal',['QueueItemRalliedToSignal',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#a74df783813ca5e5b868a774d1747f713',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox']]],
   ['queueitemsplitsignal',['QueueItemSplitSignal',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#a6a5125c9807274f305607710b8cd79ff',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox']]],
-  ['queueitemuseimperialppsignal',['QueueItemUseImperialPPSignal',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abf05849c100fe1d6d4cdd941fc0cc1eb',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox']]],
   ['quitting_5fpolling_5finterval',['QUITTING_POLLING_INTERVAL',['../HumanClientFSM_8cpp.html#a7884c3995b8c8e539a09893924d855c5',1,'HumanClientFSM.cpp']]],
   ['quitting_5ftimeout',['QUITTING_TIMEOUT',['../HumanClientFSM_8cpp.html#a53607606cff6c405f16b20a6c7d130c8',1,'HumanClientFSM.cpp']]]
 ];
