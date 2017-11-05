@@ -47,7 +47,6 @@ var searchData=
   ['invalid_5fsplit_5fincomplete',['INVALID_SPLIT_INCOMPLETE',['../classProductionQueueOrder.html#a1b167a2fad77a46ef9c5d7e1c1d80aca',1,'ProductionQueueOrder']]],
   ['invalid_5fstar_5ftype',['INVALID_STAR_TYPE',['../Enums_8h.html#afd200f978053d19e33d61aeb0ed44ac9',1,'Enums.h']]],
   ['invalid_5funlockable_5fitem_5ftype',['INVALID_UNLOCKABLE_ITEM_TYPE',['../Enums_8h.html#ad741b39eef92773f0600b66697f77fb8',1,'Enums.h']]],
-  ['invalid_5fuse_5fimperial_5fpp',['INVALID_USE_IMPERIAL_PP',['../classProductionQueueOrder.html#ae0e9834fad52717517fc1c5a92576ffd',1,'ProductionQueueOrder']]],
   ['invalid_5fvalue',['INVALID_VALUE',['../classMeter.html#ae9583963fa0f26d0b4b0279d80ef9b68',1,'Meter']]],
   ['invalid_5fx',['INVALID_X',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#af4ef4821b6d016f038dc2d760e167754',1,'anonymous_namespace{CUIWnd.cpp}']]],
   ['invalid_5fy',['INVALID_Y',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a4efd67985c7d386d8d626acdd31f6aee',1,'anonymous_namespace{CUIWnd.cpp}']]],

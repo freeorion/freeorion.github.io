@@ -16,6 +16,5 @@ var searchData=
   ['unlocks',['unlocks',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a7cfa034a9f7069b84c9a9271ef11ae4c',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['upper_5fleft_5fpad',['UPPER_LEFT_PAD',['../classTechTreeWnd_1_1TechTreeControls.html#adbd2bc1c683b67769c444ea96444a79b',1,'TechTreeWnd::TechTreeControls']]],
   ['uppressedsignal',['UpPressedSignal',['../classMessageWndEdit.html#a91c599191a87fd155accd020d947ca64',1,'MessageWndEdit']]],
-  ['url_5ftag',['URL_TAG',['../classTextLinker.html#aa74a7a1c5a0b3a86f18c83423848a031',1,'TextLinker']]],
-  ['use_5fimperial_5fpp',['USE_IMPERIAL_PP',['../classProductionQueueOrder.html#a5842bf1c77dcd18e116d615cf66c3b61',1,'ProductionQueueOrder']]]
+  ['url_5ftag',['URL_TAG',['../classTextLinker.html#aa74a7a1c5a0b3a86f18c83423848a031',1,'TextLinker']]]
 ];
