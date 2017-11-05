@@ -134,6 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a644a5a1857c13b5752117ccbf08afb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7469b3384cedb91ddb4bbbac7883cf"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::set&lt; int &gt;, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">AllocatedPP</a> () const </td></tr>
 <tr class="separator:aff7469b3384cedb91ddb4bbbac7883cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ecf53c5444f647b53b7de463157de6"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::set&lt; int &gt;, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ad4ecf53c5444f647b53b7de463157de6">AllocatedStockpilePP</a> () const </td></tr>
+<tr class="separator:ad4ecf53c5444f647b53b7de463157de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c659c7b99b5b773c1c902ecee251c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a53c659c7b99b5b773c1c902ecee251c0">ExpectedNewStockpileAmount</a> () const </td></tr>
+<tr class="separator:a53c659c7b99b5b773c1c902ecee251c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404f902a7ac21ffeef54efde0d06d983"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::set&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a404f902a7ac21ffeef54efde0d06d983">ObjectsWithWastedPP</a> (const std::shared_ptr&lt; <a class="el" href="classResourcePool.html">ResourcePool</a> &gt; &amp;industry_pool) const </td></tr>
 <tr class="separator:a404f902a7ac21ffeef54efde0d06d983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f8a52bc789e8e7b99a0e6bda4d9ba5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a84f8a52bc789e8e7b99a0e6bda4d9ba5">empty</a> () const </td></tr>
@@ -165,8 +169,12 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a77c58f7c939c49e698d31062596ea4b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a77c58f7c939c49e698d31062596ea4b8">m_empire_id</a></td></tr>
 <tr class="separator:a77c58f7c939c49e698d31062596ea4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e38cec41f7bae73e994e7730254b9ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a5e38cec41f7bae73e994e7730254b9ec">m_expected_new_stockpile_amount</a></td></tr>
+<tr class="separator:a5e38cec41f7bae73e994e7730254b9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f91501b7dccf2ff68fdfaa2c892096c"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::set&lt; int &gt;, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a></td></tr>
 <tr class="separator:a5f91501b7dccf2ff68fdfaa2c892096c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0546331a23236b441b5c609bae33e4"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::set&lt; int &gt;, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aea0546331a23236b441b5c609bae33e4">m_object_group_allocated_stockpile_pp</a></td></tr>
+<tr class="separator:aea0546331a23236b441b5c609bae33e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa51cb1399683f58208cba9b988c2ec27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27">m_projects_in_progress</a></td></tr>
 <tr class="separator:aa51cb1399683f58208cba9b988c2ec27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fda557789052a7787affdb2cfa6e295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue.html#ac81d9056d61895945b13081b4c83336e">QueueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a></td></tr>
@@ -279,6 +287,26 @@ Mutators</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad4ecf53c5444f647b53b7de463157de6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt; std::set&lt; int &gt;, float &gt; &amp; ProductionQueue::AllocatedStockpilePP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns map from sets of object ids that can share resources to amount of stockpile PP allocated to production queue elements that have build locations in systems in the group. </p>
+
+<p>References <a class="el" href="structProductionQueue.html#aea0546331a23236b441b5c609bae33e4">m_object_group_allocated_stockpile_pp</a>.</p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a086cd1399fa67cc8d7cf5b52181ad832">MapWnd::RefreshIndustryResourceIndicator()</a>, and <a class="el" href="classProductionWnd.html#aa9029b7be070956c57706822ee1f682f">ProductionWnd::UpdateInfoPanel()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a644a5a1857c13b5752117ccbf08afb89"></a>
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +320,8 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns map from sets of object ids that can share resources to amount of PP available in those groups of objects </p>
+<p>Returns map from sets of object ids that can share resources to amount of PP available in those groups of objects ; does not include stockpile</p>
+<p>TODO: Is there any reason to keep this method in addition to the more specific information directly available from the empire? This should probably at least be renamed to clarify it is non-stockpile output </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
 
@@ -381,8 +410,6 @@ Mutators</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the number of production projects currently (perhaps partially) funded. </p>
-
-<p>References <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaParser_8cpp_03.html#a2b4f391cf082f8540152151b865cec6d">anonymous_namespace{EncyclopediaParser.cpp}::insert</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -485,6 +512,34 @@ Mutators</h2></td></tr>
 <p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a6588f519561d78518c568cff0d4978d8">end()</a>, and <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a53c659c7b99b5b773c1c902ecee251c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ProductionQueue::ExpectedNewStockpileAmount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the value expected for the Imperial Stockpile for the next turn, based on the current <a class="el" href="structProductionQueue.html">ProductionQueue</a> allocations. </p>
+
+<p>References <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaParser_8cpp_03.html#a2b4f391cf082f8540152151b865cec6d">anonymous_namespace{EncyclopediaParser.cpp}::insert</a>.</p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a086cd1399fa67cc8d7cf5b52181ad832">MapWnd::RefreshIndustryResourceIndicator()</a>.</p>
 
 </div>
 </div>
@@ -654,7 +709,7 @@ Mutators</h2></td></tr>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
-<p>Referenced by <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">Empire::ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">Empire::PlaceProductionOnQueue()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">Empire::ConquerProductionQueueItemsAtLocation()</a>, and <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">Empire::PlaceProductionOnQueue()</a>.</p>
 
 </div>
 </div>
@@ -713,7 +768,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">Empire::DuplicateProductionItem()</a>, <a class="el" href="structProductionQueue.html#aca38e1b4673eca540e857b7ebb0443b7">erase()</a>, <a class="el" href="structProductionQueue.html#a4ce20cc86347efead4a2325e3fda8d75">find()</a>, <a class="el" href="namespaceAIInterface.html#a46b7a82943fe52870471e53eb15ecf5d">AIInterface::IssueChangeProductionQuantityOrder()</a>, <a class="el" href="namespaceAIInterface.html#a408ba18a1b140f987a44e82a002aad70">AIInterface::IssueDequeueProductionOrder()</a>, <a class="el" href="namespaceAIInterface.html#a12202f0ccff80e91ecf738d565e0f681">AIInterface::IssueRequeueProductionOrder()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">Empire::MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">Empire::PauseProduction()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">Empire::PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a9f843ebdef01ba6224b22e418c8f1b99">Empire::ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">Empire::RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">Empire::ResumeProduction()</a>, <a class="el" href="classBuildDesignatorWnd.html#a3c1c60a47603783dbcda1377094e0a24">BuildDesignatorWnd::SetBuild()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">Empire::SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">Empire::SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">Empire::SetProductionRallyPoint()</a>, <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">Empire::SplitIncompleteProductionItem()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#a247d0555a940675e082cb579d5b24c86">Empire::AllowUseImperialPP()</a>, <a class="el" href="classBuildDesignatorWnd.html#adb8124439e5cb17c1cd467059b7063e5">BuildDesignatorWnd::CenterOnBuild()</a>, <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">Empire::DuplicateProductionItem()</a>, <a class="el" href="structProductionQueue.html#aca38e1b4673eca540e857b7ebb0443b7">erase()</a>, <a class="el" href="structProductionQueue.html#a4ce20cc86347efead4a2325e3fda8d75">find()</a>, <a class="el" href="namespaceAIInterface.html#a46b7a82943fe52870471e53eb15ecf5d">AIInterface::IssueChangeProductionQuantityOrder()</a>, <a class="el" href="namespaceAIInterface.html#a408ba18a1b140f987a44e82a002aad70">AIInterface::IssueDequeueProductionOrder()</a>, <a class="el" href="namespaceAIInterface.html#a12202f0ccff80e91ecf738d565e0f681">AIInterface::IssueRequeueProductionOrder()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">Empire::MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">Empire::PauseProduction()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">Empire::PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a9f843ebdef01ba6224b22e418c8f1b99">Empire::ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">Empire::RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">Empire::ResumeProduction()</a>, <a class="el" href="classBuildDesignatorWnd.html#a3c1c60a47603783dbcda1377094e0a24">BuildDesignatorWnd::SetBuild()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">Empire::SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">Empire::SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">Empire::SetProductionRallyPoint()</a>, <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">Empire::SplitIncompleteProductionItem()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
 </div>
 </div>
@@ -752,7 +807,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
-<p>References <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">AvailablePP()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a4ec1e765b8e8b2d9eee2b830be5a16f1">anonymous_namespace{Empire.cpp}::CalculateProductionPerTurnLimit()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#acad8eeba6da4069fc789612d56f81be1">anonymous_namespace{Empire.cpp}::EPSILON</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="structProductionQueue.html#a77c58f7c939c49e698d31062596ea4b8">m_empire_id</a>, <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>, <a class="el" href="structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27">m_projects_in_progress</a>, <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>, <a class="el" href="classEmpire.html#ad3fe900d65362244c2d821f429a0c320">Empire::ProductionCostAndTime()</a>, <a class="el" href="classEmpire.html#adf6a4c914d6fd84d357d927a47f5bb29">Empire::ProductionPoints()</a>, <a class="el" href="structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueueChangedSignal</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">push_back()</a>, and <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a58c1c9fd3a7c4b38042f3c943fc1160b">anonymous_namespace{Empire.cpp}::SetProdQueueElementSpending()</a>.</p>
+<p>References <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">AvailablePP()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a76fb16f75967fa5fdf4ce1f940f892b0">anonymous_namespace{Empire.cpp}::CalculateNewStockpile()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#acad8eeba6da4069fc789612d56f81be1">anonymous_namespace{Empire.cpp}::EPSILON</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a7f58f3a6cae0f62eb2822cdbc4be6134">Empire::GetMeter()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="structProductionQueue.html#a77c58f7c939c49e698d31062596ea4b8">m_empire_id</a>, <a class="el" href="structProductionQueue.html#a5e38cec41f7bae73e994e7730254b9ec">m_expected_new_stockpile_amount</a>, <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>, <a class="el" href="structProductionQueue.html#aea0546331a23236b441b5c609bae33e4">m_object_group_allocated_stockpile_pp</a>, <a class="el" href="structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27">m_projects_in_progress</a>, <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">Empire::ProducibleItem()</a>, <a class="el" href="classEmpire.html#ad3fe900d65362244c2d821f429a0c320">Empire::ProductionCostAndTime()</a>, <a class="el" href="classEmpire.html#adf6a4c914d6fd84d357d927a47f5bb29">Empire::ProductionPoints()</a>, <a class="el" href="structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueueChangedSignal</a>, <a class="el" href="structProductionQueue_1_1Element.html#aaeeb3ba58e8832febbd2d253bc1b710a">ProductionQueue::Element::progress</a>, <a class="el" href="structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56">ProductionQueue::Element::remaining</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#add298baad5372d4ce7dbb8a0b98d7b31">anonymous_namespace{Empire.cpp}::SetProdQueueElementSpending()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="structProductionQueue_1_1Element.html#ab583956a29cf04dee9deacb78b154a90">ProductionQueue::Element::turns_left_to_completion</a>, and <a class="el" href="structProductionQueue_1_1Element.html#a56ebf5a068cbaf68009e82b194ff1fb7">ProductionQueue::Element::turns_left_to_next_item</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">Empire::UpdateProductionQueue()</a>.</p>
 
@@ -802,6 +857,28 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a5e38cec41f7bae73e994e7730254b9ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ProductionQueue::m_expected_new_stockpile_amount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5f91501b7dccf2ff68fdfaa2c892096c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -821,6 +898,28 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">AllocatedPP()</a>, <a class="el" href="structProductionQueue.html#a66901e20bfb61724a6cbf6c05fde383b">clear()</a>, <a class="el" href="structProductionQueue.html#a404f902a7ac21ffeef54efde0d06d983">ObjectsWithWastedPP()</a>, <a class="el" href="structProductionQueue.html#a484e93301d7a6ca111500a23d19a35c3">TotalPPsSpent()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea0546331a23236b441b5c609bae33e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::set&lt;int&gt;, float&gt; ProductionQueue::m_object_group_allocated_stockpile_pp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structProductionQueue.html#ad4ecf53c5444f647b53b7de463157de6">AllocatedStockpilePP()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update()</a>.</p>
 
 </div>
 </div>

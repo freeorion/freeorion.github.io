@@ -15,6 +15,7 @@ var searchData=
   ['researchwnd',['ResearchWnd',['../classResearchWnd.html',1,'']]],
   ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html',1,'']]],
   ['resourcecenter',['ResourceCenter',['../classResourceCenter.html',1,'']]],
+  ['resourceinfopanel',['ResourceInfoPanel',['../classResourceInfoPanel.html',1,'']]],
   ['resourcepanel',['ResourcePanel',['../classResourcePanel.html',1,'']]],
   ['resourcepool',['ResourcePool',['../classResourcePool.html',1,'']]],
   ['resourcesupplyconnectedbyempire',['ResourceSupplyConnectedByEmpire',['../structCondition_1_1ResourceSupplyConnectedByEmpire.html',1,'Condition']]],
