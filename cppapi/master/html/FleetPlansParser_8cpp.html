@@ -99,9 +99,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Parse_8h.html">Parse.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MovableEnvelope_8h.html">MovableEnvelope.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="UniverseGenerator_8h.html">../universe/UniverseGenerator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Directories_8h.html">../util/Directories.h</a>&quot;</code><br />
 <code>#include &lt;boost/spirit/include/phoenix.hpp&gt;</code><br />
+<code>#include &lt;boost/smart_ptr/make_unique.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -123,15 +125,17 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aa957700d2ce9107897cf698fbb832bb7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html#aa957700d2ce9107897cf698fbb832bb7">anonymous_namespace{FleetPlansParser.cpp}::start_rule_payload</a> = std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt;</td></tr>
-<tr class="separator:aa957700d2ce9107897cf698fbb832bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac450a10462c45edd3b08298a054ea681"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html#ac450a10462c45edd3b08298a054ea681">anonymous_namespace{FleetPlansParser.cpp}::start_rule_payload</a> = std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt;&gt;</td></tr>
+<tr class="separator:ac450a10462c45edd3b08298a054ea681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277b44eaee0b17c1bae28d4168a84ea1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html#a277b44eaee0b17c1bae28d4168a84ea1">anonymous_namespace{FleetPlansParser.cpp}::start_rule_signature</a> = void(start_rule_payload &amp;)</td></tr>
 <tr class="separator:a277b44eaee0b17c1bae28d4168a84ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5ffe4068be6f05e6a3c3b25998057242"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a5ffe4068be6f05e6a3c3b25998057242">parse::fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
-<tr class="separator:a5ffe4068be6f05e6a3c3b25998057242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d283017da65f69d39594ed7196d10ea"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a2d283017da65f69d39594ed7196d10ea">parse::fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a2d283017da65f69d39594ed7196d10ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712e0b1fab91b5f9d99b18978d5ef9f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html#a712e0b1fab91b5f9d99b18978d5ef9f5">anonymous_namespace{FleetPlansParser.cpp}::insert_fleet_plan</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt;&gt; &amp;plans, const std::string &amp;fleet_name, const std::vector&lt; std::string &gt; &amp;ship_design_names, bool lookup_names)</td></tr>
+<tr class="separator:a712e0b1fab91b5f9d99b18978d5ef9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="aa9e2eaded9be950e065ceb1e7829a1f0"></a>

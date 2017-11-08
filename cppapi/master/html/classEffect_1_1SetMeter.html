@@ -115,10 +115,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71ffd5af06799b36ce4382545aa7a144"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a71ffd5af06799b36ce4382545aa7a144">SetMeter</a> (MeterType meter, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *value)</td></tr>
-<tr class="separator:a71ffd5af06799b36ce4382545aa7a144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff44efb76054665df337e5f1e92c7a01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#aff44efb76054665df337e5f1e92c7a01">SetMeter</a> (MeterType meter, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *value, const std::string &amp;accounting_label)</td></tr>
-<tr class="separator:aff44efb76054665df337e5f1e92c7a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6928f8cee3812710b16b19ec2b4d4c87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a6928f8cee3812710b16b19ec2b4d4c87">SetMeter</a> (MeterType meter, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;value)</td></tr>
+<tr class="separator:a6928f8cee3812710b16b19ec2b4d4c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c402ad840a99e14a99e510592064752"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a8c402ad840a99e14a99e510592064752">SetMeter</a> (MeterType meter, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;value, const std::string &amp;accounting_label)</td></tr>
+<tr class="separator:a8c402ad840a99e14a99e510592064752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac5b6c3ed82cf270737f47b9a3ee7ff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a9ac5b6c3ed82cf270737f47b9a3ee7ff">~SetMeter</a> ()</td></tr>
 <tr class="separator:a9ac5b6c3ed82cf270737f47b9a3ee7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afccdefdf5e773607d8688b4c05af68a1"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#afccdefdf5e773607d8688b4c05af68a1">AccountingLabel</a> () const </td></tr>
@@ -165,8 +165,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7fc3e7e9c03bf966f7c57fa6a163a74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9277355e22dafcd89e7106117e68ca9d"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a></td></tr>
 <tr class="separator:a9277355e22dafcd89e7106117e68ca9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3544359a304155099026111617b8e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a></td></tr>
-<tr class="separator:a9c3544359a304155099026111617b8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c80961e090bb2737ceeb5ac5116673"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a></td></tr>
+<tr class="separator:a40c80961e090bb2737ceeb5ac5116673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -176,7 +176,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sets the meter of the given kind to <em>value</em>. The max value of the meter is set if <em>max</em> == true; otherwise the current value of the meter is set. If the target of the <a class="el" href="namespaceEffect.html">Effect</a> does not have the requested meter, nothing is done. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a71ffd5af06799b36ce4382545aa7a144"></a>
+<a class="anchor" id="a6928f8cee3812710b16b19ec2b4d4c87"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -189,7 +189,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -202,7 +202,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff44efb76054665df337e5f1e92c7a01"></a>
+<a class="anchor" id="a8c402ad840a99e14a99e510592064752"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -215,7 +215,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -254,8 +254,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>.</p>
 
 </div>
 </div>
@@ -306,7 +304,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a0bfa1e5ff314cc33a1d34a9286f7f744">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, <a class="el" href="Enums_8h.html#a137a2d12fd88ae6e2676161980b71222">METER_CAPACITY</a>, <a class="el" href="Enums_8h.html#a7d6b576966c332c4b11fbd71d90a9159">METER_CONSTRUCTION</a>, <a class="el" href="Enums_8h.html#a16cbead915fdcdac066aeda1d93e78e6">METER_DEFENSE</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="Enums_8h.html#a836987345be4642ed473bb83bbf2a81d">METER_FUEL</a>, <a class="el" href="Enums_8h.html#aa227629ae8deb3a4ca072f9cee8db872">METER_HAPPINESS</a>, <a class="el" href="Enums_8h.html#ad145587252418c6b15f907851879064f">METER_INDUSTRY</a>, <a class="el" href="Enums_8h.html#a5bc81125da3952f0529e17146793b5c5">METER_MAX_CAPACITY</a>, <a class="el" href="Enums_8h.html#a39affe74d849ea8be4e549d11283e89b">METER_MAX_DEFENSE</a>, <a class="el" href="Enums_8h.html#aba29bb05036a666c5abd4c4f1f830f2f">METER_MAX_FUEL</a>, <a class="el" href="Enums_8h.html#a731586e8d8edaa64f7540b2ab4365634">METER_MAX_SHIELD</a>, <a class="el" href="Enums_8h.html#a72cad5e8fd0f3ae7e595f0a6d179d253">METER_MAX_STRUCTURE</a>, <a class="el" href="Enums_8h.html#a5bd007487a77bf74f68186c8ee5b9e36">METER_MAX_SUPPLY</a>, <a class="el" href="Enums_8h.html#a7e55ae1d4cd562e67e4ed77e549726e9">METER_MAX_TROOPS</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="Enums_8h.html#a7d2deb6d771f15ee1c9c39a0cfc94737">METER_REBEL_TROOPS</a>, <a class="el" href="Enums_8h.html#a7cd22bb22736846f6905f35ed9470e90">METER_RESEARCH</a>, <a class="el" href="Enums_8h.html#a0556c7d8980f2c2e96a833e89afc7c6e">METER_SHIELD</a>, <a class="el" href="Enums_8h.html#a0a62a15ee738e08872f553eea22cefba">METER_SIZE</a>, <a class="el" href="Enums_8h.html#af251f52083823b54cc82052767f52b9f">METER_SPEED</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, <a class="el" href="Enums_8h.html#a0220af11db83710c34df01bf4af9646d">METER_STRUCTURE</a>, <a class="el" href="Enums_8h.html#a11d452e451804c8b934a324c4eff6206">METER_SUPPLY</a>, <a class="el" href="Enums_8h.html#ac101c3afa565258a9e98152630d4999c">METER_TARGET_CONSTRUCTION</a>, <a class="el" href="Enums_8h.html#a53144925d46bd3d19aaad82aedbbd388">METER_TARGET_HAPPINESS</a>, <a class="el" href="Enums_8h.html#a35bb11ca58298fce8b18c80d2dacb1d7">METER_TARGET_INDUSTRY</a>, <a class="el" href="Enums_8h.html#aaca2ed45b5aaa9a8a6405ea0aeffb3a9">METER_TARGET_POPULATION</a>, <a class="el" href="Enums_8h.html#a7130cb1f757a55310d84b53878401480">METER_TARGET_RESEARCH</a>, <a class="el" href="Enums_8h.html#aacc8e0cef62fd6ede2c0c594725bf111">METER_TARGET_TRADE</a>, <a class="el" href="Enums_8h.html#a7c5c6f785df9091383054d66d9b84bee">METER_TRADE</a>, and <a class="el" href="Enums_8h.html#aea565e6dcba4c806e27b1b58f750716d">METER_TROOPS</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a>, <a class="el" href="Enums_8h.html#a137a2d12fd88ae6e2676161980b71222">METER_CAPACITY</a>, <a class="el" href="Enums_8h.html#a7d6b576966c332c4b11fbd71d90a9159">METER_CONSTRUCTION</a>, <a class="el" href="Enums_8h.html#a16cbead915fdcdac066aeda1d93e78e6">METER_DEFENSE</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="Enums_8h.html#a836987345be4642ed473bb83bbf2a81d">METER_FUEL</a>, <a class="el" href="Enums_8h.html#aa227629ae8deb3a4ca072f9cee8db872">METER_HAPPINESS</a>, <a class="el" href="Enums_8h.html#ad145587252418c6b15f907851879064f">METER_INDUSTRY</a>, <a class="el" href="Enums_8h.html#a5bc81125da3952f0529e17146793b5c5">METER_MAX_CAPACITY</a>, <a class="el" href="Enums_8h.html#a39affe74d849ea8be4e549d11283e89b">METER_MAX_DEFENSE</a>, <a class="el" href="Enums_8h.html#aba29bb05036a666c5abd4c4f1f830f2f">METER_MAX_FUEL</a>, <a class="el" href="Enums_8h.html#a731586e8d8edaa64f7540b2ab4365634">METER_MAX_SHIELD</a>, <a class="el" href="Enums_8h.html#a72cad5e8fd0f3ae7e595f0a6d179d253">METER_MAX_STRUCTURE</a>, <a class="el" href="Enums_8h.html#a5bd007487a77bf74f68186c8ee5b9e36">METER_MAX_SUPPLY</a>, <a class="el" href="Enums_8h.html#a7e55ae1d4cd562e67e4ed77e549726e9">METER_MAX_TROOPS</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="Enums_8h.html#a7d2deb6d771f15ee1c9c39a0cfc94737">METER_REBEL_TROOPS</a>, <a class="el" href="Enums_8h.html#a7cd22bb22736846f6905f35ed9470e90">METER_RESEARCH</a>, <a class="el" href="Enums_8h.html#a0556c7d8980f2c2e96a833e89afc7c6e">METER_SHIELD</a>, <a class="el" href="Enums_8h.html#a0a62a15ee738e08872f553eea22cefba">METER_SIZE</a>, <a class="el" href="Enums_8h.html#af251f52083823b54cc82052767f52b9f">METER_SPEED</a>, <a class="el" href="Enums_8h.html#a5616cf7fede5d7f594edbd9e7e8be67b">METER_STEALTH</a>, <a class="el" href="Enums_8h.html#a0220af11db83710c34df01bf4af9646d">METER_STRUCTURE</a>, <a class="el" href="Enums_8h.html#a11d452e451804c8b934a324c4eff6206">METER_SUPPLY</a>, <a class="el" href="Enums_8h.html#ac101c3afa565258a9e98152630d4999c">METER_TARGET_CONSTRUCTION</a>, <a class="el" href="Enums_8h.html#a53144925d46bd3d19aaad82aedbbd388">METER_TARGET_HAPPINESS</a>, <a class="el" href="Enums_8h.html#a35bb11ca58298fce8b18c80d2dacb1d7">METER_TARGET_INDUSTRY</a>, <a class="el" href="Enums_8h.html#aaca2ed45b5aaa9a8a6405ea0aeffb3a9">METER_TARGET_POPULATION</a>, <a class="el" href="Enums_8h.html#a7130cb1f757a55310d84b53878401480">METER_TARGET_RESEARCH</a>, <a class="el" href="Enums_8h.html#aacc8e0cef62fd6ede2c0c594725bf111">METER_TARGET_TRADE</a>, <a class="el" href="Enums_8h.html#a7c5c6f785df9091383054d66d9b84bee">METER_TRADE</a>, and <a class="el" href="Enums_8h.html#aea565e6dcba4c806e27b1b58f750716d">METER_TROOPS</a>.</p>
 
 <p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a4ce4db2862099e06dfca5ba03e3b8fe7">Execute()</a>.</p>
 
@@ -336,7 +334,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
+<p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
 
 <p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a4ce4db2862099e06dfca5ba03e3b8fe7">Execute()</a>.</p>
 
@@ -376,7 +374,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a28d3ce84cdead0a2d03dba12f24f2b55">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classMeter.html#a4cbad077fb77f618cb03a8565614f4ff">Meter::AddToCurrent()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase::Execute()</a>, <a class="el" href="structValueRef_1_1Operation.html#ae4768d45c7f1abd1390f93326526110c">ValueRef::Operation&lt; T &gt;::GetOpType()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a70f20478e62f3f442609ba970823b50e">ValueRef::MINUS</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a13121804bef7bbb55b8d260b11ed2a25">ValueRef::PLUS</a>, <a class="el" href="structValueRef_1_1Operation.html#ac46296720679b020ff6342d815b13312">ValueRef::Operation&lt; T &gt;::RHS()</a>, <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a55f88a480f8b043876002ad791ec3a33">ValueRef::ValueRefBase&lt; T &gt;::SimpleIncrement()</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a3473e918db58082f93656f5ede4fafa6">ValueRef::ValueRefBase&lt; T &gt;::TargetInvariant()</a>.</p>
+<p>References <a class="el" href="classMeter.html#a4cbad077fb77f618cb03a8565614f4ff">Meter::AddToCurrent()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase::Execute()</a>, <a class="el" href="structValueRef_1_1Operation.html#ae4768d45c7f1abd1390f93326526110c">ValueRef::Operation&lt; T &gt;::GetOpType()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a70f20478e62f3f442609ba970823b50e">ValueRef::MINUS</a>, <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a13121804bef7bbb55b8d260b11ed2a25">ValueRef::PLUS</a>, <a class="el" href="structValueRef_1_1Operation.html#ac46296720679b020ff6342d815b13312">ValueRef::Operation&lt; T &gt;::RHS()</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
 
 </div>
 </div>
@@ -477,7 +475,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a7fc3e7e9c03bf966f7c57fa6a163a74d">m_accounting_label</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a7fc3e7e9c03bf966f7c57fa6a163a74d">m_accounting_label</a>, <a class="el" href="classEffect_1_1SetMeter.html#a9277355e22dafcd89e7106117e68ca9d">m_meter</a>, <a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -589,7 +587,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a35f4a5ada0cf34243d8c5c3c9cc2fd26">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classEffect_1_1SetMeter.html#a9c3544359a304155099026111617b8e0">m_value</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
+<p>References <a class="el" href="classEffect_1_1SetMeter.html#a40c80961e090bb2737ceeb5ac5116673">m_value</a>.</p>
 
 </div>
 </div>
@@ -659,7 +657,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9c3544359a304155099026111617b8e0"></a>
+<a class="anchor" id="a40c80961e090bb2737ceeb5ac5116673"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -667,7 +665,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt;* Effect::SetMeter::m_value</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt; &gt; Effect::SetMeter::m_value</td>
         </tr>
       </table>
   </td>
@@ -677,7 +675,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a56efc9a1abe0d5a1f8642be7e9975650">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a9ac5b6c3ed82cf270737f47b9a3ee7ff">~SetMeter()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a37bff894915f7f5e61768e29cfc7733b">Dump()</a>, <a class="el" href="classEffect_1_1SetMeter.html#acfd28941782d4ed8924735ae69d57e50">Execute()</a>, <a class="el" href="classEffect_1_1SetMeter.html#a869bd87e307ad0092a2b6a56c318dedf">GetCheckSum()</a>, and <a class="el" href="classEffect_1_1SetMeter.html#a56efc9a1abe0d5a1f8642be7e9975650">SetTopLevelContent()</a>.</p>
 
 </div>
 </div>

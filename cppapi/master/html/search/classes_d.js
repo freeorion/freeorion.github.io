@@ -3,7 +3,6 @@ var searchData=
   ['nameindex',['NameIndex',['../structTechManager_1_1NameIndex.html',1,'TechManager']]],
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html',1,'ValueRef']]],
   ['nativespecies',['NativeSpecies',['../structSpeciesManager_1_1NativeSpecies.html',1,'SpeciesManager']]],
-  ['new_5fmonster_5ffleet_5fplan_5f',['new_monster_fleet_plan_',['../structanonymous__namespace_02MonsterFleetPlansParser_8cpp_03_1_1new__monster__fleet__plan__.html',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}']]],
   ['newfleetorder',['NewFleetOrder',['../classNewFleetOrder.html',1,'']]],
   ['newgameplayerrow',['NewGamePlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1NewGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['node',['Node',['../classTechTreeLayout_1_1Node.html',1,'TechTreeLayout']]],

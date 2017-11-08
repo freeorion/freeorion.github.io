@@ -97,7 +97,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ReportParseError_8h.html">ReportParseError.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Tech_8h.html">../universe/Tech.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ScopedTimer_8h.html">../util/ScopedTimer.h</a>&quot;</code><br />
 <code>#include &lt;boost/filesystem/path.hpp&gt;</code><br />
@@ -110,9 +109,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1color__parser__grammar.html">parse::detail::color_parser_grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1double__grammar.html">parse::detail::double_grammar</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1insert.html">parse::detail::insert</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A functor to insert a <code>value</code> with key <code>key</code> into <code>map</code>.  <a href="structparse_1_1detail_1_1insert.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1int__grammar.html">parse::detail::int_grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,12 +163,20 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a5f4ec8eed5ce6da53802e726e2b793f7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:a5f4ec8eed5ce6da53802e726e2b793f7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a5f4ec8eed5ce6da53802e726e2b793f7">parse::detail::emplace_back_1</a> (std::vector&lt; T &gt; &amp;vect, U &amp;&amp;item)</td></tr>
+<tr class="separator:a5f4ec8eed5ce6da53802e726e2b793f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a90d1fb4cd536f4ab545b70d12098b"><td class="memTemplParams" colspan="2">template&lt;typename Grammar , typename Arg1 &gt; </td></tr>
 <tr class="memitem:ab2a90d1fb4cd536f4ab545b70d12098b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#ab2a90d1fb4cd536f4ab545b70d12098b">parse::detail::parse_file</a> (const lexer &amp;lexer, const boost::filesystem::path &amp;path, Arg1 &amp;arg1)</td></tr>
 <tr class="separator:ab2a90d1fb4cd536f4ab545b70d12098b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7f54a7e7d397f7e1738dde7fe1df22"><td class="memTemplParams" colspan="2">template&lt;typename Grammar , typename Arg1 , typename Arg2 &gt; </td></tr>
+<tr class="memitem:a2c7f54a7e7d397f7e1738dde7fe1df22"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a2c7f54a7e7d397f7e1738dde7fe1df22">parse::detail::parse_file</a> (const lexer &amp;lexer, const boost::filesystem::path &amp;path, Arg1 &amp;arg1, Arg2 &amp;arg2)</td></tr>
+<tr class="separator:a2c7f54a7e7d397f7e1738dde7fe1df22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5ac85a00e58813f8e02de7fc1f086a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a7f5ac85a00e58813f8e02de7fc1f086a">parse::detail::parse_file_common</a> (const boost::filesystem::path &amp;path, const <a class="el" href="structparse_1_1lexer.html">parse::lexer</a> &amp;lexer, std::string &amp;filename, std::string &amp;file_contents, <a class="el" href="namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8">parse::text_iterator</a> &amp;first, <a class="el" href="namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8">parse::text_iterator</a> &amp;last, <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a> &amp;it)</td></tr>
 <tr class="memdesc:a7f5ac85a00e58813f8e02de7fc1f086a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load and parse script file(s) from given path.  <a href="namespaceparse_1_1detail.html#a7f5ac85a00e58813f8e02de7fc1f086a">More...</a><br /></td></tr>
 <tr class="separator:a7f5ac85a00e58813f8e02de7fc1f086a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f84a2ae48c7b1ce614b47481ec792b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a18f84a2ae48c7b1ce614b47481ec792b">parse::detail::parse_file_end_of_file_warnings</a> (const boost::filesystem::path &amp;path, bool parser_success, std::string &amp;file_contents, text_iterator &amp;first, text_iterator &amp;last)</td></tr>
+<tr class="separator:a18f84a2ae48c7b1ce614b47481ec792b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

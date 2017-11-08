@@ -4,7 +4,6 @@ var searchData=
   ['name_5fproperty_5frule',['name_property_rule',['../structparse_1_1double__complex__parser__grammar.html#a0e14d153e26316eeeadce035b8f946e3',1,'parse::double_complex_parser_grammar']]],
   ['namechar',['NameChar',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a743c109d5b78fbcf4b3ac567ed0ca420',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['native',['native',['../structSpeciesParams.html#ae247c95e2d18ae51cba1bb7aa23a2720',1,'SpeciesParams']]],
-  ['new_5fmonster_5ffleet_5fplan',['new_monster_fleet_plan',['../namespaceanonymous__namespace_02MonsterFleetPlansParser_8cpp_03.html#a8da5abad8d1c227e04ada9df095fb51a',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}']]],
   ['newfleetfromshipssignal',['NewFleetFromShipsSignal',['../classFleetDataPanel.html#a343ccd85ce07c152835915905f91aa5f',1,'FleetDataPanel']]],
   ['next_5ffighter_5fid',['next_fighter_id',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#aff3cbe6355031d5d35b8e5542da84116',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['noactionselectedsignal',['NoActionSelectedSignal',['../classModeratorActionsWnd.html#ad364fa4193e75ab4a8b8722e210a527d',1,'ModeratorActionsWnd']]],

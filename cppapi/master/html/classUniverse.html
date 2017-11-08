@@ -108,8 +108,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:a23949d8e3af38bbd1610c535c8814b6d"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; int, <a class="el" href="classUniverse.html#a3322480b6001c43b6dbcf84d2336900e">ObjectVisibilityMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">EmpireObjectVisibilityMap</a></td></tr>
 <tr class="memdesc:a23949d8e3af38bbd1610c535c8814b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from empire id to ObjectVisibilityMap for that empire  <a href="#a23949d8e3af38bbd1610c535c8814b6d">More...</a><br /></td></tr>
 <tr class="separator:a23949d8e3af38bbd1610c535c8814b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f825235b78e5ec765113fb6467df861"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> = std::map&lt; std::string, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; * &gt;</td></tr>
-<tr class="separator:a6f825235b78e5ec765113fb6467df861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541b8c8f157adefb12b1c1b107362f71"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt;&gt;</td></tr>
+<tr class="separator:a541b8c8f157adefb12b1c1b107362f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b646011c48ad5f1c6faec3ce4935aa8"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; int, std::set&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a1b646011c48ad5f1c6faec3ce4935aa8">ObjectSpecialsMap</a></td></tr>
 <tr class="memdesc:a1b646011c48ad5f1c6faec3ce4935aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from object id to names of specials on an object  <a href="#a1b646011c48ad5f1c6faec3ce4935aa8">More...</a><br /></td></tr>
 <tr class="separator:a1b646011c48ad5f1c6faec3ce4935aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,24 +137,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adba843a964a08c6d890f485ffc5dde0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d93b1aff01c33299710f5d248a0201"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#af8d93b1aff01c33299710f5d248a0201">InitiallyUnlockedBuildings</a> () const </td></tr>
 <tr class="separator:af8d93b1aff01c33299710f5d248a0201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f9ecf55939a01df7493a43c9cfe047"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a83f9ecf55939a01df7493a43c9cfe047">InitiallyUnlockedFleetPlans</a> () const </td></tr>
-<tr class="separator:a83f9ecf55939a01df7493a43c9cfe047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0fe4576c1655a39c7c75a4a91ae9cc6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ab0fe4576c1655a39c7c75a4a91ae9cc6">InitiallyUnlockedFleetPlans</a> () const </td></tr>
+<tr class="separator:ab0fe4576c1655a39c7c75a4a91ae9cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0156220650c746e945f84bba357285"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aed0156220650c746e945f84bba357285">InitiallyUnlockedItems</a> () const </td></tr>
 <tr class="separator:aed0156220650c746e945f84bba357285"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae38ce4282f659d25012a4f7ef69cc31b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ae38ce4282f659d25012a4f7ef69cc31b">MonsterFleetPlans</a> () const </td></tr>
-<tr class="separator:ae38ce4282f659d25012a4f7ef69cc31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b31766e8b56f7190a8211974b12246"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a56b31766e8b56f7190a8211974b12246">MonsterFleetPlans</a> () const </td></tr>
+<tr class="separator:a56b31766e8b56f7190a8211974b12246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291b43e67efac8dc0d16bd505cb68cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">ObfuscateIDGenerator</a> ()</td></tr>
 <tr class="separator:a291b43e67efac8dc0d16bd505cb68cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff337e78dd0813a2bedaf6d37f221c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aff337e78dd0813a2bedaf6d37f221c14">SetEmpireStats</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> &gt; future)</td></tr>
+<tr class="memitem:aff337e78dd0813a2bedaf6d37f221c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aff337e78dd0813a2bedaf6d37f221c14">SetEmpireStats</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> &gt; future)</td></tr>
 <tr class="separator:aff337e78dd0813a2bedaf6d37f221c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b7721bb90726b1de9917ed529104451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a1b7721bb90726b1de9917ed529104451">SetInitiallyUnlockedBuildings</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt;&gt; &amp;&amp;future)</td></tr>
 <tr class="separator:a1b7721bb90726b1de9917ed529104451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c2121b3cf547979926f17d10ff53d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a52c2121b3cf547979926f17d10ff53d3">SetInitiallyUnlockedFleetPlans</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt;&gt; &amp;&amp;future)</td></tr>
-<tr class="separator:a52c2121b3cf547979926f17d10ff53d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a661c8b8b35d334c876928b297e61087a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a661c8b8b35d334c876928b297e61087a">SetInitiallyUnlockedFleetPlans</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt;&gt;&gt; &amp;&amp;future)</td></tr>
+<tr class="separator:a661c8b8b35d334c876928b297e61087a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d1a875d058d05462773a0a20eef48df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a0d1a875d058d05462773a0a20eef48df">SetInitiallyUnlockedItems</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt;&gt; &amp;&amp;future)</td></tr>
 <tr class="separator:a0d1a875d058d05462773a0a20eef48df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b2cafca6118d6fc1b13e029aa7c279a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a8b2cafca6118d6fc1b13e029aa7c279a">SetMonsterFleetPlans</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt;&gt; &amp;&amp;future)</td></tr>
-<tr class="separator:a8b2cafca6118d6fc1b13e029aa7c279a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc7f257e12bce1e0a74d276efe21e1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#addc7f257e12bce1e0a74d276efe21e1b">SetMonsterFleetPlans</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> &gt;&gt;&gt; &amp;&amp;future)</td></tr>
+<tr class="separator:addc7f257e12bce1e0a74d276efe21e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af278143fbd33401bb2bb644de66b44d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#af278143fbd33401bb2bb644de66b44d7">SetUniverseWidth</a> (double width)</td></tr>
 <tr class="separator:af278143fbd33401bb2bb644de66b44d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ceb73fea2093799e47fdb47c3b78341"><td class="memItemLeft" align="right" valign="top">const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a4ceb73fea2093799e47fdb47c3b78341">UniverseObjectSignalsInhibited</a> ()</td></tr>
@@ -279,7 +279,7 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a21825be83ef424b8ac4c55eeb7088f1a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a21825be83ef424b8ac4c55eeb7088f1a">EmpireStats</a> () const </td></tr>
+<tr class="memitem:a21825be83ef424b8ac4c55eeb7088f1a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a21825be83ef424b8ac4c55eeb7088f1a">EmpireStats</a> () const </td></tr>
 <tr class="separator:a21825be83ef424b8ac4c55eeb7088f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a916e810287a0374d2d2a4a444828d298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">ExecuteEffects</a> (const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">Effect::TargetsCauses</a> &amp;targets_causes, bool update_effect_accounting, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false)</td></tr>
 <tr class="separator:a916e810287a0374d2d2a4a444828d298"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,21 +389,21 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2ee4ab10300871e266956dde44b59585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9295e841edb27bffeb61a8e35f0b8ce0"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a9295e841edb27bffeb61a8e35f0b8ce0">m_pending_buildings</a> = boost::none</td></tr>
 <tr class="separator:a9295e841edb27bffeb61a8e35f0b8ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fe1f1b3ec1fbff22b277a4b7a2c30f9"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6fe1f1b3ec1fbff22b277a4b7a2c30f9">m_pending_fleet_plans</a> = boost::none</td></tr>
-<tr class="separator:a6fe1f1b3ec1fbff22b277a4b7a2c30f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72c767fec558496f0f2026036160d979"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a72c767fec558496f0f2026036160d979">m_pending_monster_fleet_plans</a> = boost::none</td></tr>
-<tr class="separator:a72c767fec558496f0f2026036160d979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e0c4e38e22792fe9932c2161aa1a8b5"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a8e0c4e38e22792fe9932c2161aa1a8b5">m_pending_empire_stats</a> = boost::none</td></tr>
+<tr class="memitem:a3fcfb674a8d046f19ced8e3595ea2596"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a3fcfb674a8d046f19ced8e3595ea2596">m_pending_fleet_plans</a> = boost::none</td></tr>
+<tr class="separator:a3fcfb674a8d046f19ced8e3595ea2596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06762ae278a3dd6264139a071ed4d27f"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a06762ae278a3dd6264139a071ed4d27f">m_pending_monster_fleet_plans</a> = boost::none</td></tr>
+<tr class="separator:a06762ae278a3dd6264139a071ed4d27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0c4e38e22792fe9932c2161aa1a8b5"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a8e0c4e38e22792fe9932c2161aa1a8b5">m_pending_empire_stats</a> = boost::none</td></tr>
 <tr class="separator:a8e0c4e38e22792fe9932c2161aa1a8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b1ae88d868f1cc928bb47a4ff43a2e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a74b1ae88d868f1cc928bb47a4ff43a2e">m_unlocked_items</a></td></tr>
 <tr class="separator:a74b1ae88d868f1cc928bb47a4ff43a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3a22fa4f34c85476050017f23255d4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a9e3a22fa4f34c85476050017f23255d4">m_unlocked_buildings</a></td></tr>
 <tr class="separator:a9e3a22fa4f34c85476050017f23255d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2ad873e00b41222c7bccb7aa279699"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a9b2ad873e00b41222c7bccb7aa279699">m_unlocked_fleet_plans</a></td></tr>
-<tr class="separator:a9b2ad873e00b41222c7bccb7aa279699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c993879f7bf71b30b60a984c5d184d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a02c993879f7bf71b30b60a984c5d184d">m_monster_fleet_plans</a></td></tr>
-<tr class="separator:a02c993879f7bf71b30b60a984c5d184d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e66d411dd8c320feae5b54a48d6ba96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6e66d411dd8c320feae5b54a48d6ba96">m_empire_stats</a></td></tr>
+<tr class="memitem:aba577938e148c5b7d2eb5fde1f1b0f7e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aba577938e148c5b7d2eb5fde1f1b0f7e">m_unlocked_fleet_plans</a></td></tr>
+<tr class="separator:aba577938e148c5b7d2eb5fde1f1b0f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5e31e3600d7b380d5b2cfe7907b060"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a1a5e31e3600d7b380d5b2cfe7907b060">m_monster_fleet_plans</a></td></tr>
+<tr class="separator:a1a5e31e3600d7b380d5b2cfe7907b060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e66d411dd8c320feae5b54a48d6ba96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6e66d411dd8c320feae5b54a48d6ba96">m_empire_stats</a></td></tr>
 <tr class="separator:a6e66d411dd8c320feae5b54a48d6ba96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -560,12 +560,12 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6f825235b78e5ec765113fb6467df861"></a>
+<a class="anchor" id="a541b8c8f157adefb12b1c1b107362f71"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">Universe::EmpireStatsMap</a> =  std::map&lt;std::string, <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt;*&gt;</td>
+          <td class="memname">using <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">Universe::EmpireStatsMap</a> =  std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt;&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -797,7 +797,7 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a6e66d411dd8c320feae5b54a48d6ba96">m_empire_stats</a>, <a class="el" href="classUniverse.html#a02c993879f7bf71b30b60a984c5d184d">m_monster_fleet_plans</a>, and <a class="el" href="classUniverse.html#a9b2ad873e00b41222c7bccb7aa279699">m_unlocked_fleet_plans</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>.</p>
 
 </div>
 </div>
@@ -1343,7 +1343,7 @@ Accessors</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">Universe::EmpireStatsMap</a> &amp; Universe::EmpireStats </td>
+          <td class="memname">const <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">Universe::EmpireStatsMap</a> &amp; Universe::EmpireStats </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2220,12 +2220,12 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83f9ecf55939a01df7493a43c9cfe047"></a>
+<a class="anchor" id="ab0fe4576c1655a39c7c75a4a91ae9cc6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt; &amp; Universe::InitiallyUnlockedFleetPlans </td>
+          <td class="memname">const std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt; Universe::InitiallyUnlockedFleetPlans </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2234,7 +2234,7 @@ Accessors</h2></td></tr>
 </div><div class="memdoc">
 <p>Fleets unlocked before turn 1. </p>
 
-<p>References <a class="el" href="classUniverse.html#a6fe1f1b3ec1fbff22b277a4b7a2c30f9">m_pending_fleet_plans</a>, <a class="el" href="classUniverse.html#a9b2ad873e00b41222c7bccb7aa279699">m_unlocked_fleet_plans</a>, and <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a3fcfb674a8d046f19ced8e3595ea2596">m_pending_fleet_plans</a>, <a class="el" href="classUniverse.html#aba577938e148c5b7d2eb5fde1f1b0f7e">m_unlocked_fleet_plans</a>, and <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#aebb98b1e4163068cfe36bce42731e805">anonymous_namespace{ServerWrapper.cpp}::LoadFleetPlanList()</a>.</p>
 
@@ -2517,12 +2517,12 @@ template&lt;typename T , typename... Args&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae38ce4282f659d25012a4f7ef69cc31b"></a>
+<a class="anchor" id="a56b31766e8b56f7190a8211974b12246"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt; &amp; Universe::MonsterFleetPlans </td>
+          <td class="memname">const std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt; Universe::MonsterFleetPlans </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2531,7 +2531,7 @@ template&lt;typename T , typename... Args&gt; </div>
 </div><div class="memdoc">
 <p>Items unlocked before turn 1. </p>
 
-<p>References <a class="el" href="classUniverse.html#a02c993879f7bf71b30b60a984c5d184d">m_monster_fleet_plans</a>, <a class="el" href="classUniverse.html#a72c767fec558496f0f2026036160d979">m_pending_monster_fleet_plans</a>, and <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a1a5e31e3600d7b380d5b2cfe7907b060">m_monster_fleet_plans</a>, <a class="el" href="classUniverse.html#a06762ae278a3dd6264139a071ed4d27f">m_pending_monster_fleet_plans</a>, and <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ac7eebd576ecd23ba0642ca41ddf00144">anonymous_namespace{ServerWrapper.cpp}::LoadMonsterFleetPlanList()</a>.</p>
 
@@ -2940,7 +2940,7 @@ template&lt;class Archive &gt; </div>
         <tr>
           <td class="memname">void Universe::SetEmpireStats </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> &gt;&#160;</td>
           <td class="paramname"><em>future</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2974,14 +2974,14 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a52c2121b3cf547979926f17d10ff53d3"></a>
+<a class="anchor" id="a661c8b8b35d334c876928b297e61087a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Universe::SetInitiallyUnlockedFleetPlans </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> * &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classFleetPlan.html">FleetPlan</a> &gt;&gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>future</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2989,7 +2989,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Set fleets unlocked before turn 1 from <code>future</code>. </p>
 
-<p>References <a class="el" href="classUniverse.html#a6fe1f1b3ec1fbff22b277a4b7a2c30f9">m_pending_fleet_plans</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a3fcfb674a8d046f19ced8e3595ea2596">m_pending_fleet_plans</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
 
@@ -3016,14 +3016,14 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8b2cafca6118d6fc1b13e029aa7c279a"></a>
+<a class="anchor" id="addc7f257e12bce1e0a74d276efe21e1b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Universe::SetMonsterFleetPlans </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> * &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a> &gt;&gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>future</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3031,7 +3031,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Set items unlocked before turn 1 from <code>future</code>.. </p>
 
-<p>References <a class="el" href="classUniverse.html#a72c767fec558496f0f2026036160d979">m_pending_monster_fleet_plans</a>.</p>
+<p>References <a class="el" href="classUniverse.html#a06762ae278a3dd6264139a071ed4d27f">m_pending_monster_fleet_plans</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
 
@@ -3288,7 +3288,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Inserts <em>ship_design</em> into the universe. Return true on success. The ship design's id will be the newly assigned id. </p><dl class="section note"><dt>Note</dt><dd><a class="el" href="classUniverse.html">Universe</a> gains ownership of <em>ship_design</em> once inserted. </dd></dl>
 
-<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#af7e45408ef93c099fadda8d3986b549e">ValueRef::ValueRefBase&lt; T &gt;::SourceInvariant()</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">ServerApp::NewGameInitConcurrentWithJoiners()</a>, and <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>.</p>
 
@@ -3668,7 +3668,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a> Universe::m_empire_stats</td>
+          <td class="memname"><a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a> Universe::m_empire_stats</td>
         </tr>
       </table>
   </td>
@@ -3678,7 +3678,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a21825be83ef424b8ac4c55eeb7088f1a">EmpireStats()</a>, and <a class="el" href="classUniverse.html#a7723438c7fa497defb4c82ac975152b2">~Universe()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a21825be83ef424b8ac4c55eeb7088f1a">EmpireStats()</a>.</p>
 
 </div>
 </div>
@@ -3750,7 +3750,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a02c993879f7bf71b30b60a984c5d184d"></a>
+<a class="anchor" id="a1a5e31e3600d7b380d5b2cfe7907b060"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3758,7 +3758,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a>*&gt; Universe::m_monster_fleet_plans</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a>&gt; &gt; Universe::m_monster_fleet_plans</td>
         </tr>
       </table>
   </td>
@@ -3768,7 +3768,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#ae38ce4282f659d25012a4f7ef69cc31b">MonsterFleetPlans()</a>, and <a class="el" href="classUniverse.html#a7723438c7fa497defb4c82ac975152b2">~Universe()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a56b31766e8b56f7190a8211974b12246">MonsterFleetPlans()</a>.</p>
 
 </div>
 </div>
@@ -3869,7 +3869,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;<a class="el" href="classUniverse.html#a6f825235b78e5ec765113fb6467df861">EmpireStatsMap</a>&gt; &gt; Universe::m_pending_empire_stats = boost::none</td>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;<a class="el" href="classUniverse.html#a541b8c8f157adefb12b1c1b107362f71">EmpireStatsMap</a>&gt; &gt; Universe::m_pending_empire_stats = boost::none</td>
         </tr>
       </table>
   </td>
@@ -3883,7 +3883,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6fe1f1b3ec1fbff22b277a4b7a2c30f9"></a>
+<a class="anchor" id="a3fcfb674a8d046f19ced8e3595ea2596"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3891,7 +3891,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;std::vector&lt;<a class="el" href="classFleetPlan.html">FleetPlan</a>*&gt; &gt; &gt; Universe::m_pending_fleet_plans = boost::none</td>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;std::vector&lt;std::unique_ptr&lt;<a class="el" href="classFleetPlan.html">FleetPlan</a>&gt; &gt; &gt; &gt; Universe::m_pending_fleet_plans = boost::none</td>
         </tr>
       </table>
   </td>
@@ -3901,7 +3901,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a83f9ecf55939a01df7493a43c9cfe047">InitiallyUnlockedFleetPlans()</a>, and <a class="el" href="classUniverse.html#a52c2121b3cf547979926f17d10ff53d3">SetInitiallyUnlockedFleetPlans()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#ab0fe4576c1655a39c7c75a4a91ae9cc6">InitiallyUnlockedFleetPlans()</a>, and <a class="el" href="classUniverse.html#a661c8b8b35d334c876928b297e61087a">SetInitiallyUnlockedFleetPlans()</a>.</p>
 
 </div>
 </div>
@@ -3927,7 +3927,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a72c767fec558496f0f2026036160d979"></a>
+<a class="anchor" id="a06762ae278a3dd6264139a071ed4d27f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3935,7 +3935,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;std::vector&lt;<a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a>*&gt; &gt; &gt; Universe::m_pending_monster_fleet_plans = boost::none</td>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;std::vector&lt;std::unique_ptr&lt;<a class="el" href="classMonsterFleetPlan.html">MonsterFleetPlan</a>&gt; &gt; &gt; &gt; Universe::m_pending_monster_fleet_plans = boost::none</td>
         </tr>
       </table>
   </td>
@@ -3945,7 +3945,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#ae38ce4282f659d25012a4f7ef69cc31b">MonsterFleetPlans()</a>, and <a class="el" href="classUniverse.html#a8b2cafca6118d6fc1b13e029aa7c279a">SetMonsterFleetPlans()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a56b31766e8b56f7190a8211974b12246">MonsterFleetPlans()</a>, and <a class="el" href="classUniverse.html#addc7f257e12bce1e0a74d276efe21e1b">SetMonsterFleetPlans()</a>.</p>
 
 </div>
 </div>
@@ -4041,7 +4041,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9b2ad873e00b41222c7bccb7aa279699"></a>
+<a class="anchor" id="aba577938e148c5b7d2eb5fde1f1b0f7e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4049,7 +4049,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classFleetPlan.html">FleetPlan</a>*&gt; Universe::m_unlocked_fleet_plans</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classFleetPlan.html">FleetPlan</a>&gt; &gt; Universe::m_unlocked_fleet_plans</td>
         </tr>
       </table>
   </td>
@@ -4059,7 +4059,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a83f9ecf55939a01df7493a43c9cfe047">InitiallyUnlockedFleetPlans()</a>, and <a class="el" href="classUniverse.html#a7723438c7fa497defb4c82ac975152b2">~Universe()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#ab0fe4576c1655a39c7c75a4a91ae9cc6">InitiallyUnlockedFleetPlans()</a>.</p>
 
 </div>
 </div>

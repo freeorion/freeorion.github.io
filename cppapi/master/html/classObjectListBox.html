@@ -134,8 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a969af360b29dd1237823b19ac9683204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177c5d4566ce3510d7cc0df7e890987d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#a177c5d4566ce3510d7cc0df7e890987d">Refresh</a> ()</td></tr>
 <tr class="separator:a177c5d4566ce3510d7cc0df7e890987d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df82561f81e13f500e3c3c7c7c08461"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#a4df82561f81e13f500e3c3c7c7c08461">SetFilterCondition</a> (<a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> *condition)</td></tr>
-<tr class="separator:a4df82561f81e13f500e3c3c7c7c08461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bc86a08d7a80206320324e76722faf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#aa2bc86a08d7a80206320324e76722faf">SetFilterCondition</a> (std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> &gt; &amp;&amp;condition)</td></tr>
+<tr class="separator:aa2bc86a08d7a80206320324e76722faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ad5c7fd25be34e3ebfaa718eb56af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#ae5ad5c7fd25be34e3ebfaa718eb56af8">SetVisibilityFilters</a> (const std::map&lt; UniverseObjectType, std::set&lt; VIS_DISPLAY &gt;&gt; &amp;vis)</td></tr>
 <tr class="separator:ae5ad5c7fd25be34e3ebfaa718eb56af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab74f46ca40aaa3ef3184e090cf641d7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#ab74f46ca40aaa3ef3184e090cf641d7b">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
@@ -183,8 +183,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aff2c2865079f80c7da2fb3d69021fc82"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#aff2c2865079f80c7da2fb3d69021fc82">m_collapsed_objects</a></td></tr>
 <tr class="separator:aff2c2865079f80c7da2fb3d69021fc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c3ac578098205191d9cae87c3f5c57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#ae1c3ac578098205191d9cae87c3f5c57">m_filter_condition</a></td></tr>
-<tr class="separator:ae1c3ac578098205191d9cae87c3f5c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f09213bc481bbccf2c20768afb9fd2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#ac7f09213bc481bbccf2c20768afb9fd2">m_filter_condition</a></td></tr>
+<tr class="separator:ac7f09213bc481bbccf2c20768afb9fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c15fee742dba76ee7d56e7008ace996"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classObjectHeaderRow.html">ObjectHeaderRow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#a2c15fee742dba76ee7d56e7008ace996">m_header_row</a></td></tr>
 <tr class="separator:a2c15fee742dba76ee7d56e7008ace996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed39ffb6c5d0c2b3964b27f6e6fa42d9"><td class="memItemLeft" align="right" valign="top">boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectListBox.html#aed39ffb6c5d0c2b3964b27f6e6fa42d9">m_obj_deleted_connection</a></td></tr>
@@ -735,7 +735,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4df82561f81e13f500e3c3c7c7c08461"></a>
+<a class="anchor" id="aa2bc86a08d7a80206320324e76722faf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -745,7 +745,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void ObjectListBox::SetFilterCondition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>condition</em></td><td>)</td>
           <td></td>
         </tr>
@@ -961,7 +961,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae1c3ac578098205191d9cae87c3f5c57"></a>
+<a class="anchor" id="ac7f09213bc481bbccf2c20768afb9fd2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -969,7 +969,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a>* ObjectListBox::m_filter_condition</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a>&gt; ObjectListBox::m_filter_condition</td>
         </tr>
       </table>
   </td>

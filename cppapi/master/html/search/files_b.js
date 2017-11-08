@@ -17,6 +17,7 @@ var searchData=
   ['moderatoractionswnd_2ecpp',['ModeratorActionsWnd.cpp',['../ModeratorActionsWnd_8cpp.html',1,'']]],
   ['moderatoractionswnd_2eh',['ModeratorActionsWnd.h',['../ModeratorActionsWnd_8h.html',1,'']]],
   ['monsterfleetplansparser_2ecpp',['MonsterFleetPlansParser.cpp',['../MonsterFleetPlansParser_8cpp.html',1,'']]],
+  ['movableenvelope_2eh',['MovableEnvelope.h',['../MovableEnvelope_8h.html',1,'']]],
   ['multiiconvalueindicator_2ecpp',['MultiIconValueIndicator.cpp',['../MultiIconValueIndicator_8cpp.html',1,'']]],
   ['multiiconvalueindicator_2eh',['MultiIconValueIndicator.h',['../MultiIconValueIndicator_8h.html',1,'']]],
   ['multimeterstatusbar_2ecpp',['MultiMeterStatusBar.cpp',['../MultiMeterStatusBar_8cpp.html',1,'']]],

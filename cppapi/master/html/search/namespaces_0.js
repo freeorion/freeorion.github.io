@@ -24,6 +24,7 @@ var searchData=
   ['anonymous_5fnamespace_7bdesignwnd_2ecpp_7d',['anonymous_namespace{DesignWnd.cpp}',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdirectories_2ecpp_7d',['anonymous_namespace{Directories.cpp}',['../namespaceanonymous__namespace_02Directories_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7beffect_2ecpp_7d',['anonymous_namespace{Effect.cpp}',['../namespaceanonymous__namespace_02Effect_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7beffectparser1_2ecpp_7d',['anonymous_namespace{EffectParser1.cpp}',['../namespaceanonymous__namespace_02EffectParser1_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempire_2ecpp_7d',['anonymous_namespace{Empire.cpp}',['../namespaceanonymous__namespace_02Empire_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempiremanager_2ecpp_7d',['anonymous_namespace{EmpireManager.cpp}',['../namespaceanonymous__namespace_02EmpireManager_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempirestatsparser_2ecpp_7d',['anonymous_namespace{EmpireStatsParser.cpp}',['../namespaceanonymous__namespace_02EmpireStatsParser_8cpp_03.html',1,'']]],

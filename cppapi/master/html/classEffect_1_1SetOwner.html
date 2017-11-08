@@ -115,8 +115,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ada5d0a5c725dffdd5f8f5f89fc7a3924"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#ada5d0a5c725dffdd5f8f5f89fc7a3924">SetOwner</a> (<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *empire_id)</td></tr>
-<tr class="separator:ada5d0a5c725dffdd5f8f5f89fc7a3924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac197557463f43204dfc765d1b9b11b5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#ac197557463f43204dfc765d1b9b11b5c">SetOwner</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt;&gt; &amp;&amp;empire_id)</td></tr>
+<tr class="separator:ac197557463f43204dfc765d1b9b11b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae005a5003a81c09e5785221a54e375a3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#ae005a5003a81c09e5785221a54e375a3">~SetOwner</a> ()</td></tr>
 <tr class="separator:ae005a5003a81c09e5785221a54e375a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6ac7c5f87ceab99538e1299708830d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#afc6ac7c5f87ceab99538e1299708830d">Dump</a> () const override</td></tr>
@@ -155,8 +155,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a9d4dd7759d4a2af3fe47e25a0753b2bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a></td></tr>
-<tr class="separator:a9d4dd7759d4a2af3fe47e25a0753b2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465ad787a1e05b133efd1ac82d70059f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetOwner.html#a465ad787a1e05b133efd1ac82d70059f">m_empire_id</a></td></tr>
+<tr class="separator:a465ad787a1e05b133efd1ac82d70059f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -166,7 +166,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sets empire <em>empire_id</em> as the owner of the target. This has no effect if <em>empire_id</em> was already the owner of the target object. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ada5d0a5c725dffdd5f8f5f89fc7a3924"></a>
+<a class="anchor" id="ac197557463f43204dfc765d1b9b11b5c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -176,7 +176,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Effect::SetOwner::SetOwner </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>empire_id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -211,8 +211,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +237,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a0bfa1e5ff314cc33a1d34a9286f7f744">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetOwner.html#a465ad787a1e05b133efd1ac82d70059f">m_empire_id</a>.</p>
 
 </div>
 </div>
@@ -267,7 +265,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02Effect_8cpp_03.html#ae8fa0a55da5be773d5a68a20398cdcb4">anonymous_namespace{Effect.cpp}::CreateNewFleet()</a>, <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="classUniverse.html#ad34d9df63f5785cd1a4aa3c5872c4e50">Universe::EffectDestroy()</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, and <a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02Effect_8cpp_03.html#ae8fa0a55da5be773d5a68a20398cdcb4">anonymous_namespace{Effect.cpp}::CreateNewFleet()</a>, <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="classUniverse.html#ad34d9df63f5785cd1a4aa3c5872c4e50">Universe::EffectDestroy()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, and <a class="el" href="classEffect_1_1SetOwner.html#a465ad787a1e05b133efd1ac82d70059f">m_empire_id</a>.</p>
 
 </div>
 </div>
@@ -294,7 +292,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a465ad787a1e05b133efd1ac82d70059f">m_empire_id</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -358,7 +356,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a35f4a5ada0cf34243d8c5c3c9cc2fd26">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classEffect_1_1SetOwner.html#a9d4dd7759d4a2af3fe47e25a0753b2bd">m_empire_id</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
+<p>References <a class="el" href="classEffect_1_1SetOwner.html#a465ad787a1e05b133efd1ac82d70059f">m_empire_id</a>.</p>
 
 </div>
 </div>
@@ -384,7 +382,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a9d4dd7759d4a2af3fe47e25a0753b2bd"></a>
+<a class="anchor" id="a465ad787a1e05b133efd1ac82d70059f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -392,7 +390,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;int&gt;* Effect::SetOwner::m_empire_id</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;int&gt; &gt; Effect::SetOwner::m_empire_id</td>
         </tr>
       </table>
   </td>
@@ -402,7 +400,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetOwner.html#afc6ac7c5f87ceab99538e1299708830d">Dump()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a7ad90dd946367d34ad871426d06810b3">Execute()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a36dd299652498d23a779869221b575f2">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a25f5d5f75a65793ccb542479ecb97d60">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetOwner.html#ae005a5003a81c09e5785221a54e375a3">~SetOwner()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetOwner.html#afc6ac7c5f87ceab99538e1299708830d">Dump()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a7ad90dd946367d34ad871426d06810b3">Execute()</a>, <a class="el" href="classEffect_1_1SetOwner.html#a36dd299652498d23a779869221b575f2">GetCheckSum()</a>, and <a class="el" href="classEffect_1_1SetOwner.html#a25f5d5f75a65793ccb542479ecb97d60">SetTopLevelContent()</a>.</p>
 
 </div>
 </div>

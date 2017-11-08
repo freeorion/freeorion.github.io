@@ -115,8 +115,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad52033c68e9ffe2a6089c894ac76950f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#ad52033c68e9ffe2a6089c894ac76950f">WithinDistance</a> (<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *distance, <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> *condition)</td></tr>
-<tr class="separator:ad52033c68e9ffe2a6089c894ac76950f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691f6c28be763aacf83d8584a6ff61db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#a691f6c28be763aacf83d8584a6ff61db">WithinDistance</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;distance, std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt; &amp;&amp;condition)</td></tr>
+<tr class="separator:a691f6c28be763aacf83d8584a6ff61db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7afb13d9b420d2577c25fff3a65ad31"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#ac7afb13d9b420d2577c25fff3a65ad31">~WithinDistance</a> ()</td></tr>
 <tr class="separator:ac7afb13d9b420d2577c25fff3a65ad31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c888bfa6c88b7296eb9d4a2dbf37aa2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#a7c888bfa6c88b7296eb9d4a2dbf37aa2">Description</a> (bool negated=false) const override</td></tr>
@@ -165,10 +165,10 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac083a15434bca5bc1c4a98bebc87897d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#ac083a15434bca5bc1c4a98bebc87897d">m_condition</a></td></tr>
-<tr class="separator:ac083a15434bca5bc1c4a98bebc87897d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add413a845c75aaf4f1d7ecb659f44e67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#add413a845c75aaf4f1d7ecb659f44e67">m_distance</a></td></tr>
-<tr class="separator:add413a845c75aaf4f1d7ecb659f44e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2ee9a105a4a10048df6d119ba49342"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a></td></tr>
+<tr class="separator:a3f2ee9a105a4a10048df6d119ba49342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e48b30a22b2e2022fac43cc28914ba"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a></td></tr>
+<tr class="separator:ad8e48b30a22b2e2022fac43cc28914ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -188,23 +188,20 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Matches all objects that are within <em>distance</em> units of at least one object that meets <em>condition</em>. Warning: this <a class="el" href="namespaceCondition.html">Condition</a> can slow things down considerably if overused. It is best to use Conditions that yield relatively few matches. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad52033c68e9ffe2a6089c894ac76950f"></a>
+<a class="anchor" id="a691f6c28be763aacf83d8584a6ff61db"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Condition::WithinDistance::WithinDistance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>distance</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>condition</em>&#160;</td>
         </tr>
         <tr>
@@ -213,14 +210,7 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceEffect.html#af0b96b1934550de1d695a0296be7a96b">Effect::Dump()</a>, <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddeaf4d3d872aa8619edc455b49275f22eb8">Condition::NON_MATCHES</a>, and <a class="el" href="Diplomacy_8cpp.html#ac05500118a1809dd4fda854691b1327c">operator==()</a>.</p>
 
 </div>
 </div>
@@ -272,7 +262,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a1abf3708796be32ce41b7d21d10dd38e">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -299,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a1956c151bbb0ecced72f5ccef40ab572">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
 
 </div>
 </div>
@@ -349,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#ae6ec5873c31f495d7c1ac1cb7c75381e">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd">ScriptingContext::condition_root_candidate</a>, <a class="el" href="structCondition_1_1ConditionBase.html#ae6ec5873c31f495d7c1ac1cb7c75381e">Condition::ConditionBase::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02Condition_8cpp_03.html#a59a953efd6361ce8701f4fec56adddab">anonymous_namespace{Condition.cpp}::EvalImpl()</a>, and <a class="el" href="structCondition_1_1OwnerHasShipPartAvailable.html#a0d7306fcb645f1c9868a4a1f9d33339e">Condition::OwnerHasShipPartAvailable::RootCandidateInvariant()</a>.</p>
+<p>References <a class="el" href="structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd">ScriptingContext::condition_root_candidate</a>, <a class="el" href="structCondition_1_1ConditionBase.html#ae6ec5873c31f495d7c1ac1cb7c75381e">Condition::ConditionBase::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02Condition_8cpp_03.html#a59a953efd6361ce8701f4fec56adddab">anonymous_namespace{Condition.cpp}::EvalImpl()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#aa72b93b775b3d3245cefcbc848d81202">RootCandidateInvariant()</a>.</p>
 
 </div>
 </div>
@@ -376,7 +366,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#ad76475c04f5bfff81f36c3e5e9a606f9">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -404,7 +394,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a310e1c5a73649073a6cc6d020a58dba9">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="structScriptingContext.html#aaeab49b837f0eb00620aeb17d0099f68">ScriptingContext::condition_local_candidate</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p>References <a class="el" href="structScriptingContext.html#aaeab49b837f0eb00620aeb17d0099f68">ScriptingContext::condition_local_candidate</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
 
 </div>
 </div>
@@ -432,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a21d5dfe7a6486484f120b4a4a77ef73f">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="Condition_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>.</p>
+<p>References <a class="el" href="Condition_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
 
 </div>
 </div>
@@ -459,6 +449,10 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true iff this condition's evaluation does not reference the <a class="el" href="structCondition_1_1RootCandidate.html">RootCandidate</a> objects. This requirement ensures that if this condition is a subcondition to another <a class="el" href="namespaceCondition.html">Condition</a> or a <a class="el" href="namespaceValueRef.html">ValueRef</a>, this condition may be evaluated once and its result used to match all local candidates to that condition. </p>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a20060b45ef73be8a1e6f44768b874c9b">Condition::ConditionBase</a>.</p>
+
+<p>References <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
+
+<p>Referenced by <a class="el" href="structCondition_1_1WithinDistance.html#a851ea888ca8718201f53ce84f933dba8">Eval()</a>.</p>
 
 </div>
 </div>
@@ -522,6 +516,8 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a9c327bae385900a57f3b4dcdbf74692e">Condition::ConditionBase</a>.</p>
 
+<p>References <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a90d87851444b56f2d12f03d3de1fcb11"></a>
@@ -547,6 +543,8 @@ template&lt;class Archive &gt; </div>
 <p>Returns true iff this condition's evaluation does not reference the source object. </p>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#aaa8dc2def9c08d374cedd84ab23188c6">Condition::ConditionBase</a>.</p>
+
+<p>References <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
 
 </div>
 </div>
@@ -574,6 +572,8 @@ template&lt;class Archive &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a822f8b614d924223078730fcf0a822f7">Condition::ConditionBase</a>.</p>
 
+<p>References <a class="el" href="structCondition_1_1WithinDistance.html#a3f2ee9a105a4a10048df6d119ba49342">m_condition</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#ad8e48b30a22b2e2022fac43cc28914ba">m_distance</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -598,7 +598,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac083a15434bca5bc1c4a98bebc87897d"></a>
+<a class="anchor" id="a3f2ee9a105a4a10048df6d119ba49342"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -606,7 +606,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a>* Condition::WithinDistance::m_condition</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a>&gt; Condition::WithinDistance::m_condition</td>
         </tr>
       </table>
   </td>
@@ -616,9 +616,11 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="structCondition_1_1WithinDistance.html#a7c888bfa6c88b7296eb9d4a2dbf37aa2">Description()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a73bc7885c7ee23a51fd0c1c6bce8074e">Dump()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a851ea888ca8718201f53ce84f933dba8">Eval()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a0b930fbd2a2fc723d18739a96270337e">GetCheckSum()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#ad4cc77dbcf32893c30171a88c887df04">Match()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a1f1c3d51e260c26dad60561d9dedaf6c">operator==()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#aa72b93b775b3d3245cefcbc848d81202">RootCandidateInvariant()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#addd1997b302e31ccbf73cba2fddd92f6">SetTopLevelContent()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a90d87851444b56f2d12f03d3de1fcb11">SourceInvariant()</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#a11de6d7893bd420b33c5d7fdf8c43384">TargetInvariant()</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="add413a845c75aaf4f1d7ecb659f44e67"></a>
+<a class="anchor" id="ad8e48b30a22b2e2022fac43cc28914ba"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -626,7 +628,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt;* Condition::WithinDistance::m_distance</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;double&gt; &gt; Condition::WithinDistance::m_distance</td>
         </tr>
       </table>
   </td>
@@ -635,6 +637,8 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structCondition_1_1WithinDistance.html#a7c888bfa6c88b7296eb9d4a2dbf37aa2">Description()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a73bc7885c7ee23a51fd0c1c6bce8074e">Dump()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a851ea888ca8718201f53ce84f933dba8">Eval()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a0b930fbd2a2fc723d18739a96270337e">GetCheckSum()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#ad4cc77dbcf32893c30171a88c887df04">Match()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a1f1c3d51e260c26dad60561d9dedaf6c">operator==()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#aa72b93b775b3d3245cefcbc848d81202">RootCandidateInvariant()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#addd1997b302e31ccbf73cba2fddd92f6">SetTopLevelContent()</a>, <a class="el" href="structCondition_1_1WithinDistance.html#a90d87851444b56f2d12f03d3de1fcb11">SourceInvariant()</a>, and <a class="el" href="structCondition_1_1WithinDistance.html#a11de6d7893bd420b33c5d7fdf8c43384">TargetInvariant()</a>.</p>
 
 </div>
 </div>

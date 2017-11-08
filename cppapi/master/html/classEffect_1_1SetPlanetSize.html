@@ -115,8 +115,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae17a21c24a684340064c3158993fb7f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#ae17a21c24a684340064c3158993fb7f5">SetPlanetSize</a> (<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt; *size)</td></tr>
-<tr class="separator:ae17a21c24a684340064c3158993fb7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a4ac1ce6bc255bac8ae5e864a6e662"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#a83a4ac1ce6bc255bac8ae5e864a6e662">SetPlanetSize</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt;&gt; &amp;&amp;size)</td></tr>
+<tr class="separator:a83a4ac1ce6bc255bac8ae5e864a6e662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41a902078d58246558ba5406190727ee"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#a41a902078d58246558ba5406190727ee">~SetPlanetSize</a> ()</td></tr>
 <tr class="separator:a41a902078d58246558ba5406190727ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5375f39e4eae6d529d94ce475a865fcf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#a5375f39e4eae6d529d94ce475a865fcf">Dump</a> () const override</td></tr>
@@ -155,8 +155,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0c5ca76d51209f94db626d275cce7e0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a></td></tr>
-<tr class="separator:a0c5ca76d51209f94db626d275cce7e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a74939888da6199089f1c66fa180cc4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetPlanetSize.html#a3a74939888da6199089f1c66fa180cc4">m_size</a></td></tr>
+<tr class="separator:a3a74939888da6199089f1c66fa180cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -166,7 +166,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sets the planet size of the target to <em>size</em>. This has no effect on non- <a class="el" href="classPlanet.html">Planet</a> targets. Note that changing the size of a PT_ASTEROID or PT_GASGIANT planet will also change its type to PT_BARREN. Similarly, changing size to SZ_ASTEROID or SZ_GASGIANT will also cause the type to change to PT_ASTEROID or PT_GASGIANT, respectively. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae17a21c24a684340064c3158993fb7f5"></a>
+<a class="anchor" id="a83a4ac1ce6bc255bac8ae5e864a6e662"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -176,7 +176,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Effect::SetPlanetSize::SetPlanetSize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; PlanetSize &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
           <td></td>
         </tr>
@@ -211,8 +211,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +237,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a0bfa1e5ff314cc33a1d34a9286f7f744">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetPlanetSize.html#a3a74939888da6199089f1c66fa180cc4">m_size</a>.</p>
 
 </div>
 </div>
@@ -267,7 +265,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a>, <a class="el" href="Enums_8h.html#ad6ff5e547557982988b153db8968753b">SZ_ASTEROIDS</a>, and <a class="el" href="Enums_8h.html#aa006f6da4280969801e34bacf87a8212">SZ_GASGIANT</a>.</p>
+<p>References <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a3a74939888da6199089f1c66fa180cc4">m_size</a>, <a class="el" href="Enums_8h.html#ad6ff5e547557982988b153db8968753b">SZ_ASTEROIDS</a>, and <a class="el" href="Enums_8h.html#aa006f6da4280969801e34bacf87a8212">SZ_GASGIANT</a>.</p>
 
 </div>
 </div>
@@ -294,7 +292,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a3a74939888da6199089f1c66fa180cc4">m_size</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -358,7 +356,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a35f4a5ada0cf34243d8c5c3c9cc2fd26">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classEffect_1_1SetPlanetSize.html#a0c5ca76d51209f94db626d275cce7e0d">m_size</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
+<p>References <a class="el" href="classEffect_1_1SetPlanetSize.html#a3a74939888da6199089f1c66fa180cc4">m_size</a>.</p>
 
 </div>
 </div>
@@ -384,7 +382,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a0c5ca76d51209f94db626d275cce7e0d"></a>
+<a class="anchor" id="a3a74939888da6199089f1c66fa180cc4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -392,7 +390,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;PlanetSize&gt;* Effect::SetPlanetSize::m_size</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;PlanetSize&gt; &gt; Effect::SetPlanetSize::m_size</td>
         </tr>
       </table>
   </td>
@@ -402,7 +400,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetPlanetSize.html#a5375f39e4eae6d529d94ce475a865fcf">Dump()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a2a3159e0a3e11ab5d981195e67a9f19d">Execute()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a2d3ae4aba451aa6de34c88edd5be0ab0">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#af43c55c49a70de58ee38fb4c68013644">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetPlanetSize.html#a41a902078d58246558ba5406190727ee">~SetPlanetSize()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetPlanetSize.html#a5375f39e4eae6d529d94ce475a865fcf">Dump()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a2a3159e0a3e11ab5d981195e67a9f19d">Execute()</a>, <a class="el" href="classEffect_1_1SetPlanetSize.html#a2d3ae4aba451aa6de34c88edd5be0ab0">GetCheckSum()</a>, and <a class="el" href="classEffect_1_1SetPlanetSize.html#af43c55c49a70de58ee38fb4c68013644">SetTopLevelContent()</a>.</p>
 
 </div>
 </div>

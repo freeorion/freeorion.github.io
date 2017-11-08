@@ -115,8 +115,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abddf54a0d2a0bf2dc5f8100e6425ca63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#abddf54a0d2a0bf2dc5f8100e6425ca63">SetStarType</a> (<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt; *type)</td></tr>
-<tr class="separator:abddf54a0d2a0bf2dc5f8100e6425ca63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b20bbab6c397997c6f8831da49a7927"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#a6b20bbab6c397997c6f8831da49a7927">SetStarType</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt;&gt; &amp;&amp;type)</td></tr>
+<tr class="separator:a6b20bbab6c397997c6f8831da49a7927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ffcc6f98058b78059ae80556b188d13"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#a0ffcc6f98058b78059ae80556b188d13">~SetStarType</a> ()</td></tr>
 <tr class="separator:a0ffcc6f98058b78059ae80556b188d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcca55be2ac5085db700cf85cd28be94"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#adcca55be2ac5085db700cf85cd28be94">Dump</a> () const override</td></tr>
@@ -155,8 +155,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0b3c0e2c58e16c0ddd7a45f5dedafdc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a></td></tr>
-<tr class="separator:a0b3c0e2c58e16c0ddd7a45f5dedafdc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c122c5c5da2f98a10a843ee0db61aa"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1SetStarType.html#a30c122c5c5da2f98a10a843ee0db61aa">m_type</a></td></tr>
+<tr class="separator:a30c122c5c5da2f98a10a843ee0db61aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -166,7 +166,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sets the star type of the target to <em>type</em>. This has no effect on non-System targets. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abddf54a0d2a0bf2dc5f8100e6425ca63"></a>
+<a class="anchor" id="a6b20bbab6c397997c6f8831da49a7927"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -176,7 +176,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Effect::SetStarType::SetStarType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt; *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; StarType &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -187,6 +187,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
 
 </div>
 </div>
@@ -210,8 +212,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a>.</p>
 
 </div>
 </div>
@@ -239,7 +239,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a0bfa1e5ff314cc33a1d34a9286f7f744">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="classEffect_1_1SetStarType.html#a30c122c5c5da2f98a10a843ee0db61aa">m_type</a>.</p>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a3e483bf52864dd710956408141c3a107">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, and <a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a>.</p>
+<p>References <a class="el" href="structScriptingContext.html#a48b61af1c1b6a7853d7d4cfba4bfbf98">ScriptingContext::effect_target</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classEffect_1_1SetStarType.html#a30c122c5c5da2f98a10a843ee0db61aa">m_type</a>.</p>
 
 </div>
 </div>
@@ -294,7 +294,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classEffect_1_1EffectBase.html#a42641bc8bb157dcc1a9f2320f7319563">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classEffect_1_1SetStarType.html#a30c122c5c5da2f98a10a843ee0db61aa">m_type</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="classEffect_1_1EffectBase.html#a35f4a5ada0cf34243d8c5c3c9cc2fd26">Effect::EffectBase</a>.</p>
 
-<p>References <a class="el" href="classEffect_1_1SetStarType.html#a0b3c0e2c58e16c0ddd7a45f5dedafdc0">m_type</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
+<p>References <a class="el" href="classEffect_1_1SetStarType.html#a30c122c5c5da2f98a10a843ee0db61aa">m_type</a>.</p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a0b3c0e2c58e16c0ddd7a45f5dedafdc0"></a>
+<a class="anchor" id="a30c122c5c5da2f98a10a843ee0db61aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -392,7 +392,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;StarType&gt;* Effect::SetStarType::m_type</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt;StarType&gt; &gt; Effect::SetStarType::m_type</td>
         </tr>
       </table>
   </td>
@@ -402,7 +402,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEffect_1_1SetStarType.html#adcca55be2ac5085db700cf85cd28be94">Dump()</a>, <a class="el" href="classEffect_1_1SetStarType.html#a77aba8ed8da461f3a674affe757671d7">Execute()</a>, <a class="el" href="classEffect_1_1SetStarType.html#acbf116d327005f89d0efbbf4d53bc6a5">GetCheckSum()</a>, <a class="el" href="classEffect_1_1SetStarType.html#adda4bd0da17b872e53b1834f2647b09e">SetTopLevelContent()</a>, and <a class="el" href="classEffect_1_1SetStarType.html#a0ffcc6f98058b78059ae80556b188d13">~SetStarType()</a>.</p>
+<p>Referenced by <a class="el" href="classEffect_1_1SetStarType.html#adcca55be2ac5085db700cf85cd28be94">Dump()</a>, <a class="el" href="classEffect_1_1SetStarType.html#a77aba8ed8da461f3a674affe757671d7">Execute()</a>, <a class="el" href="classEffect_1_1SetStarType.html#acbf116d327005f89d0efbbf4d53bc6a5">GetCheckSum()</a>, and <a class="el" href="classEffect_1_1SetStarType.html#adda4bd0da17b872e53b1834f2647b09e">SetTopLevelContent()</a>.</p>
 
 </div>
 </div>

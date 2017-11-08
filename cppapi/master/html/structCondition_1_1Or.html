@@ -115,8 +115,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6424e46755f98040946d18d88ba94583"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a6424e46755f98040946d18d88ba94583">Or</a> (const std::vector&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> * &gt; &amp;operands)</td></tr>
-<tr class="separator:a6424e46755f98040946d18d88ba94583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af0b5fee6184a939dcf6c534ffadb6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a6af0b5fee6184a939dcf6c534ffadb6f">Or</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt;&gt; &amp;&amp;operands)</td></tr>
+<tr class="separator:a6af0b5fee6184a939dcf6c534ffadb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b6dab80352008a9d0144bff5967bb7d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a0b6dab80352008a9d0144bff5967bb7d">~Or</a> ()</td></tr>
 <tr class="separator:a0b6dab80352008a9d0144bff5967bb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d3668530a0a732071dc7862f41e6f75"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a8d3668530a0a732071dc7862f41e6f75">Description</a> (bool negated=false) const override</td></tr>
@@ -163,8 +163,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a6b6e8544b21800f9d40097271d2b17f4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a6b6e8544b21800f9d40097271d2b17f4">m_operands</a></td></tr>
-<tr class="separator:a6b6e8544b21800f9d40097271d2b17f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15106959f612a9781eb5dba812bd8244"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a></td></tr>
+<tr class="separator:a15106959f612a9781eb5dba812bd8244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -184,29 +184,19 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Matches all objects that match at least one <a class="el" href="namespaceCondition.html">Condition</a> in <em>operands</em>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a6424e46755f98040946d18d88ba94583"></a>
+<a class="anchor" id="a6af0b5fee6184a939dcf6c534ffadb6f"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Condition::Or::Or </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> * &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &gt;&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>operands</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="namespaceEffect.html#af0b96b1934550de1d695a0296be7a96b">Effect::Dump()</a>, <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddeaf4d3d872aa8619edc455b49275f22eb8">Condition::NON_MATCHES</a>, and <a class="el" href="Diplomacy_8cpp.html#ac05500118a1809dd4fda854691b1327c">operator==()</a>.</p>
 
 </div>
 </div>
@@ -258,9 +248,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a1abf3708796be32ce41b7d21d10dd38e">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
-
-<p>Referenced by <a class="el" href="classConditionWidget.html#aa587e08c8bf874dc169e48b9f8dd6b4b">ConditionWidget::GetCondition()</a>.</p>
+<p>References <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -287,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a1956c151bbb0ecced72f5ccef40ab572">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, and <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>.</p>
+<p>References <a class="el" href="Logger_8cpp.html#a47dbe4d05d4ce283e874d4abfc867862">DumpIndent()</a>, <a class="el" href="Condition_8cpp.html#a086ec287e328d60e1d016a1c6f1a052c">g_indent</a>, and <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>.</p>
 
 </div>
 </div>
@@ -337,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#ae6ec5873c31f495d7c1ac1cb7c75381e">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddea3a8b923ef42520f853af080125ac76c0">Condition::MATCHES</a>, and <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddeaf4d3d872aa8619edc455b49275f22eb8">Condition::NON_MATCHES</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddea3a8b923ef42520f853af080125ac76c0">Condition::MATCHES</a>, and <a class="el" href="namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddeaf4d3d872aa8619edc455b49275f22eb8">Condition::NON_MATCHES</a>.</p>
 
 </div>
 </div>
@@ -364,7 +352,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#ad76475c04f5bfff81f36c3e5e9a606f9">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -392,7 +380,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a21d5dfe7a6486484f120b4a4a77ef73f">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="Condition_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>, and <a class="el" href="structCondition_1_1Or.html#a6b6e8544b21800f9d40097271d2b17f4">m_operands</a>.</p>
+<p>References <a class="el" href="Condition_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>, and <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>.</p>
 
 </div>
 </div>
@@ -420,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a20060b45ef73be8a1e6f44768b874c9b">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1ConditionBase.html#a7693f2c3be519cb859828bd9392bcf00">Condition::ConditionBase::m_root_candidate_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
+<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, <a class="el" href="structCondition_1_1ConditionBase.html#a7693f2c3be519cb859828bd9392bcf00">Condition::ConditionBase::m_root_candidate_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
 
 </div>
 </div>
@@ -484,6 +472,8 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="structCondition_1_1ConditionBase.html#a9c327bae385900a57f3b4dcdbf74692e">Condition::ConditionBase</a>.</p>
 
+<p>References <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a24d313f442f3a14a8dd95d393630b7c6"></a>
@@ -510,7 +500,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#aaa8dc2def9c08d374cedd84ab23188c6">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1ConditionBase.html#ab3e279c135d9fd6afd715aadd5293e88">Condition::ConditionBase::m_source_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
+<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, <a class="el" href="structCondition_1_1ConditionBase.html#ab3e279c135d9fd6afd715aadd5293e88">Condition::ConditionBase::m_source_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
 
 </div>
 </div>
@@ -538,7 +528,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a822f8b614d924223078730fcf0a822f7">Condition::ConditionBase</a>.</p>
 
-<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1ConditionBase.html#aa8502b7c08a427ee48dd9e446298f49d">Condition::ConditionBase::m_target_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
+<p>References <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa138d37da152a9b2acdb168d8d49dad6e">Condition::INVARIANT</a>, <a class="el" href="structCondition_1_1Or.html#a15106959f612a9781eb5dba812bd8244">m_operands</a>, <a class="el" href="structCondition_1_1ConditionBase.html#aa8502b7c08a427ee48dd9e446298f49d">Condition::ConditionBase::m_target_invariant</a>, <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315">Condition::UNKNOWN_INVARIANCE</a>, and <a class="el" href="namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aa7eee593e55e57ebecb73b7e38ecca4b3">Condition::VARIANT</a>.</p>
 
 </div>
 </div>
@@ -564,7 +554,7 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6b6e8544b21800f9d40097271d2b17f4"></a>
+<a class="anchor" id="a15106959f612a9781eb5dba812bd8244"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -572,7 +562,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a>*&gt; Condition::Or::m_operands</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a>&gt; &gt; Condition::Or::m_operands</td>
         </tr>
       </table>
   </td>
@@ -582,7 +572,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structCondition_1_1Or.html#a20b9d6bb0369f7d0b15ded931462b3a4">operator==()</a>.</p>
+<p>Referenced by <a class="el" href="structCondition_1_1Or.html#a8d3668530a0a732071dc7862f41e6f75">Description()</a>, <a class="el" href="structCondition_1_1Or.html#abc89a4a5662ee4fd010625198e338112">Dump()</a>, <a class="el" href="structCondition_1_1Or.html#ae99d6c9c6a2201503fc0b5f1dee2d74d">Eval()</a>, <a class="el" href="structCondition_1_1Or.html#a5c5a68921dedd6907e63add7143ddb4b">GetCheckSum()</a>, <a class="el" href="structCondition_1_1Or.html#a20b9d6bb0369f7d0b15ded931462b3a4">operator==()</a>, <a class="el" href="structCondition_1_1Or.html#abec0f92bcb1576c0022fb7eb84cc5126">RootCandidateInvariant()</a>, <a class="el" href="structCondition_1_1Or.html#a28ad70a75f24e3bba88b226484bbe63c">SetTopLevelContent()</a>, <a class="el" href="structCondition_1_1Or.html#a24d313f442f3a14a8dd95d393630b7c6">SourceInvariant()</a>, and <a class="el" href="structCondition_1_1Or.html#ace9296ba5906cf6ba92f24eb0b420742">TargetInvariant()</a>.</p>
 
 </div>
 </div>

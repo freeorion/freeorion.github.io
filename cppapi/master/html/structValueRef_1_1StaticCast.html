@@ -116,10 +116,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aded4d18fcd12092ef060be5abfb246fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#aded4d18fcd12092ef060be5abfb246fc">StaticCast</a> (<a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt; *value_ref)</td></tr>
-<tr class="separator:aded4d18fcd12092ef060be5abfb246fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb247f1043223c4db6e610cf295a683a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#abb247f1043223c4db6e610cf295a683a">StaticCast</a> (<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt; *value_ref)</td></tr>
-<tr class="separator:abb247f1043223c4db6e610cf295a683a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6115ea5f44f53fae95ff70c673f98b7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af6115ea5f44f53fae95ff70c673f98b7"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#af6115ea5f44f53fae95ff70c673f98b7">StaticCast</a> (T &amp;&amp;value_ref, typename std::enable_if&lt; std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt;&gt;&gt;::value &gt;::type *=nullptr)</td></tr>
+<tr class="separator:af6115ea5f44f53fae95ff70c673f98b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dee3989f96e860e409e32dce0bd70b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a21dee3989f96e860e409e32dce0bd70b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#a21dee3989f96e860e409e32dce0bd70b">StaticCast</a> (T &amp;&amp;value_ref, typename std::enable_if&lt; std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt;&gt;&gt;::value &amp;&amp;!std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt;&gt;&gt;::value &gt;::type *=nullptr)</td></tr>
+<tr class="separator:a21dee3989f96e860e409e32dce0bd70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e49fd437521e50c7431a7872cdc1e7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#a2e49fd437521e50c7431a7872cdc1e7e">~StaticCast</a> ()</td></tr>
 <tr class="separator:a2e49fd437521e50c7431a7872cdc1e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a664f94f9a034b2769b8b504624a46fa2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#a664f94f9a034b2769b8b504624a46fa2">Description</a> () const override</td></tr>
@@ -193,8 +195,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a262ad80eb031d38f27f7b35191a31d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">m_value_ref</a></td></tr>
-<tr class="separator:a262ad80eb031d38f27f7b35191a31d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a886029c2353d63eed58ce357345a22cd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">m_value_ref</a></td></tr>
+<tr class="separator:a886029c2353d63eed58ce357345a22cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -215,36 +217,60 @@ struct ValueRef::StaticCast&lt; FromType, ToType &gt;</h3>
 
 <p>The variable static_cast class. The value returned by this node is taken from the ctor <em>value_ref</em> parameter's FromType value, static_cast to ToType. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aded4d18fcd12092ef060be5abfb246fc"></a>
+<a class="anchor" id="af6115ea5f44f53fae95ff70c673f98b7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class FromType , class ToType &gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structValueRef_1_1StaticCast.html">ValueRef::StaticCast</a>&lt; FromType, ToType &gt;::<a class="el" href="structValueRef_1_1StaticCast.html">StaticCast</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt; *&#160;</td>
-          <td class="paramname"><em>value_ref</em></td><td>)</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>value_ref</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">typename std::enable_if&lt; std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt;&gt;&gt;::value &gt;::type *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="abb247f1043223c4db6e610cf295a683a"></a>
+<a class="anchor" id="a21dee3989f96e860e409e32dce0bd70b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class FromType , class ToType &gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structValueRef_1_1StaticCast.html">ValueRef::StaticCast</a>&lt; FromType, ToType &gt;::<a class="el" href="structValueRef_1_1StaticCast.html">StaticCast</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt; *&#160;</td>
-          <td class="paramname"><em>value_ref</em></td><td>)</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>value_ref</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">typename std::enable_if&lt; std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; FromType &gt;&gt;&gt;::value &amp;&amp;!std::is_convertible&lt; T, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1Variable.html">Variable</a>&lt; FromType &gt;&gt;&gt;::value &gt;::type *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,8 +291,6 @@ template&lt;class FromType , class ToType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -296,7 +320,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRefBase.html#a0bf14820d9ac7a3342f94dddce25cb9e">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#a0bf14820d9ac7a3342f94dddce25cb9e">ValueRef::ValueRefBase&lt; T &gt;::Description()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -326,7 +350,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#afd4e0d7e7e0fcfbc3c6a8a788433a547">ValueRef::ValueRefBase&lt; T &gt;::Dump()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -357,7 +381,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRefBase.html#a40420414dcd3e41c33c45bee12c0e82b">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#a158097f2b1a5113f3133d4246b043c56">ValueRef::ValueRefBase&lt; T &gt;::Eval()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -386,7 +410,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#a879a9385cb3b9d222a4c32365731f0fe">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -440,7 +464,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#a611f6c19ba54cdddbc2c58ddbd954ffb">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1ValueRefBase.html#a611f6c19ba54cdddbc2c58ddbd954ffb">ValueRef::ValueRefBase&lt; T &gt;::LocalCandidateInvariant()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -468,7 +492,7 @@ template&lt;class FromType , class ToType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -497,7 +521,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#abae570c1444cedca2b374c265a9087d9">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#abae570c1444cedca2b374c265a9087d9">ValueRef::ValueRefBase&lt; T &gt;::RootCandidateInvariant()</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -537,7 +561,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -567,7 +591,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a8363323a1a51b323f89cad8641da7469">ValueRef::ValueRefBase&lt; T &gt;::SetTopLevelContent()</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -596,7 +620,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#af7e45408ef93c099fadda8d3986b549e">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#af7e45408ef93c099fadda8d3986b549e">ValueRef::ValueRefBase&lt; T &gt;::SourceInvariant()</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -625,7 +649,7 @@ template&lt;class FromType , class ToType &gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#a3473e918db58082f93656f5ede4fafa6">ValueRef::ValueRefBase&lt; T &gt;</a>.</p>
 
-<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a262ad80eb031d38f27f7b35191a31d64">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>, and <a class="el" href="structValueRef_1_1ValueRefBase.html#a3473e918db58082f93656f5ede4fafa6">ValueRef::ValueRefBase&lt; T &gt;::TargetInvariant()</a>.</p>
+<p>References <a class="el" href="structValueRef_1_1StaticCast.html#a886029c2353d63eed58ce357345a22cd">ValueRef::StaticCast&lt; FromType, ToType &gt;::m_value_ref</a>.</p>
 
 </div>
 </div>
@@ -653,7 +677,7 @@ template&lt;class FromType, class ToType&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a262ad80eb031d38f27f7b35191a31d64"></a>
+<a class="anchor" id="a886029c2353d63eed58ce357345a22cd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -663,7 +687,7 @@ template&lt;class FromType, class ToType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt;FromType&gt;* <a class="el" href="structValueRef_1_1StaticCast.html">ValueRef::StaticCast</a>&lt; FromType, ToType &gt;::m_value_ref</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt;FromType&gt; &gt; <a class="el" href="structValueRef_1_1StaticCast.html">ValueRef::StaticCast</a>&lt; FromType, ToType &gt;::m_value_ref</td>
         </tr>
       </table>
   </td>
@@ -673,7 +697,7 @@ template&lt;class FromType, class ToType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structValueRef_1_1StaticCast.html#a664f94f9a034b2769b8b504624a46fa2">ValueRef::StaticCast&lt; FromType, ToType &gt;::Description()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#abef53b7681c33e893eefcd6b7abb2669">ValueRef::StaticCast&lt; FromType, ToType &gt;::Dump()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#addacb9541c98a99eb75c15dcb988868d">ValueRef::StaticCast&lt; FromType, ToType &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a61a5f324155abc1d0fa921863cbe84a6">ValueRef::StaticCast&lt; FromType, ToType &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#af4f580125c5aa89f86be716ad3573cb2">ValueRef::StaticCast&lt; FromType, ToType &gt;::LocalCandidateInvariant()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a5a194d021f3a36bc23155016e49b46d0">ValueRef::StaticCast&lt; FromType, ToType &gt;::operator==()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a21df9df5a9c8cdbbea74d8594ad9dc98">ValueRef::StaticCast&lt; FromType, ToType &gt;::RootCandidateInvariant()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a7949826d4e968bb6fde092975fbdbc28">ValueRef::StaticCast&lt; FromType, ToType &gt;::serialize()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a80810909df0b85faab6eacf97fdd4d2c">ValueRef::StaticCast&lt; FromType, ToType &gt;::SetTopLevelContent()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#acde54ac5c2193c7b4a9934f72ce92023">ValueRef::StaticCast&lt; FromType, ToType &gt;::SourceInvariant()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a3aaaa5d4c2b51f9f3815f475469c3c4f">ValueRef::StaticCast&lt; FromType, ToType &gt;::TargetInvariant()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a2e49fd437521e50c7431a7872cdc1e7e">ValueRef::StaticCast&lt; FromType, ToType &gt;::~StaticCast()</a>.</p>
+<p>Referenced by <a class="el" href="structValueRef_1_1StaticCast.html#a664f94f9a034b2769b8b504624a46fa2">ValueRef::StaticCast&lt; FromType, ToType &gt;::Description()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#abef53b7681c33e893eefcd6b7abb2669">ValueRef::StaticCast&lt; FromType, ToType &gt;::Dump()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#addacb9541c98a99eb75c15dcb988868d">ValueRef::StaticCast&lt; FromType, ToType &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a61a5f324155abc1d0fa921863cbe84a6">ValueRef::StaticCast&lt; FromType, ToType &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#af4f580125c5aa89f86be716ad3573cb2">ValueRef::StaticCast&lt; FromType, ToType &gt;::LocalCandidateInvariant()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a5a194d021f3a36bc23155016e49b46d0">ValueRef::StaticCast&lt; FromType, ToType &gt;::operator==()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a21df9df5a9c8cdbbea74d8594ad9dc98">ValueRef::StaticCast&lt; FromType, ToType &gt;::RootCandidateInvariant()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a7949826d4e968bb6fde092975fbdbc28">ValueRef::StaticCast&lt; FromType, ToType &gt;::serialize()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#a80810909df0b85faab6eacf97fdd4d2c">ValueRef::StaticCast&lt; FromType, ToType &gt;::SetTopLevelContent()</a>, <a class="el" href="structValueRef_1_1StaticCast.html#acde54ac5c2193c7b4a9934f72ce92023">ValueRef::StaticCast&lt; FromType, ToType &gt;::SourceInvariant()</a>, and <a class="el" href="structValueRef_1_1StaticCast.html#a3aaaa5d4c2b51f9f3815f475469c3c4f">ValueRef::StaticCast&lt; FromType, ToType &gt;::TargetInvariant()</a>.</p>
 
 </div>
 </div>
