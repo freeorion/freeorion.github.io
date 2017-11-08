@@ -114,7 +114,6 @@ var searchData=
   ['transferrabletechs',['TransferrableTechs',['../namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#ae5bbd4e4c4e2ea31e522a22b63baa21b',1,'ValueRef::anonymous_namespace{ValueRef.cpp}']]],
   ['transferrandomobjects',['TransferRandomObjects',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#acc0816e233afa538f8800d176b027025',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['transfersortedobjects',['TransferSortedObjects',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a69a0ede2a436ff685a30650862146ee8',1,'Condition::anonymous_namespace{Condition.cpp}']]],
-  ['transform_5ft_5fand_5fu_5fptr_5fvector_5fto_5funique_5fptr',['transform_T_and_U_ptr_vector_to_unique_ptr',['../namespaceanonymous__namespace_02EffectParser1_8cpp_03.html#a0e4b20a34de2e16b96b669908598296e',1,'anonymous_namespace{EffectParser1.cpp}']]],
   ['translate',['Translate',['../classCUIStyle.html#a58e04699a25a0af1ebe73d10262adecc',1,'CUIStyle']]],
   ['travelroute',['TravelRoute',['../classFleet.html#af5880a9334019d8fee8bd286f2552e7d',1,'Fleet']]],
   ['tree_5fedge',['tree_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#acb9b23c48ba1c5c88f4274e68c1e3444',1,'SystemPathing::BFSVisitorImpl']]],
