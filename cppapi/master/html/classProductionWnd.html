@@ -215,6 +215,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2d2b7d45187bd15d1758f3d5937e4fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0981db3d424a21477b5e3263bf16b156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit</a> (GG::ListBox::iterator it)</td></tr>
 <tr class="separator:a0981db3d424a21477b5e3263bf16b156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fea949dae2c4934b7ac7e844f24fa48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#a3fea949dae2c4934b7ac7e844f24fa48">QueueItemUseImperialPP</a> (GG::ListBox::iterator it, bool allow)</td></tr>
+<tr class="separator:a3fea949dae2c4934b7ac7e844f24fa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9029b7be070956c57706822ee1f682f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#aa9029b7be070956c57706822ee1f682f">UpdateInfoPanel</a> ()</td></tr>
 <tr class="memdesc:aa9029b7be070956c57706822ee1f682f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates production summary at top left of production screen, and signals that the empire's minerals resource pool has changed (propagates to the mapwnd to update indicator)  <a href="#aa9029b7be070956c57706822ee1f682f">More...</a><br /></td></tr>
 <tr class="separator:aa9029b7be070956c57706822ee1f682f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,8 +234,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9ee1dff5b611d3734a9323563c78264a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9de347993949f038fa01df102d163c4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#a9de347993949f038fa01df102d163c4a">m_order_issuing_enabled</a></td></tr>
 <tr class="separator:a9de347993949f038fa01df102d163c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8b65d56ec0487b55c53f26c88cf95aa"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProductionInfoPanel.html">ProductionInfoPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a></td></tr>
-<tr class="separator:ab8b65d56ec0487b55c53f26c88cf95aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad011998caa539f077fdd57fc2820dc27"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classResourceInfoPanel.html">ResourceInfoPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a></td></tr>
+<tr class="separator:ad011998caa539f077fdd57fc2820dc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357a356d2d57117ec51c379173a86f93"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProductionQueueWnd.html">ProductionQueueWnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a></td></tr>
 <tr class="separator:a357a356d2d57117ec51c379173a86f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -474,7 +476,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a>, <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">QueueItemClickedSlot()</a>, <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">QueueItemDoubleClickedSlot()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>, <a class="el" href="classProductionWnd.html#aea2be5f283ac845fcf94ad837a308ce7">ShowPedia()</a>, <a class="el" href="classProductionWnd.html#ae141ab21d74ebd321daf4c8a5299e272">SystemSelectedSignal</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a>, <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">QueueItemClickedSlot()</a>, <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">QueueItemDoubleClickedSlot()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>, <a class="el" href="classProductionWnd.html#a3fea949dae2c4934b7ac7e844f24fa48">QueueItemUseImperialPP()</a>, <a class="el" href="classProductionWnd.html#aea2be5f283ac845fcf94ad837a308ce7">ShowPedia()</a>, <a class="el" href="classProductionWnd.html#ae141ab21d74ebd321daf4c8a5299e272">SystemSelectedSignal</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
@@ -527,7 +529,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a>, <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>, and <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>.</p>
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a>, <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>, and <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>.</p>
 
 <p>Referenced by <a class="el" href="classProductionWnd.html#a28b20e7abbf2fc67f29ac5f574e08bff">SizeMove()</a>.</p>
 
@@ -593,7 +595,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Shows <em>building_type</em> in production encyclopedia window </p>
 
-<p>References <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a>, and <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>.</p>
+<p>References <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a>, and <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>.</p>
 
 </div>
 </div>
@@ -620,7 +622,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Shows <em>building_type</em> in production encyclopedia window </p>
 
-<p>References <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a>, and <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>.</p>
+<p>References <a class="el" href="classProductionWnd.html#a3587dff9b410cb137e05742078f5d910">m_build_designator_wnd</a>, <a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a>, and <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>.</p>
 
 </div>
 </div>
@@ -927,6 +929,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3fea949dae2c4934b7ac7e844f24fa48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProductionWnd::QueueItemUseImperialPP </td>
+          <td>(</td>
+          <td class="paramtype">GG::ListBox::iterator&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classOrderSet.html#ad68aec153c597cd6d1148d5949da0e7c">OrderSet::IssueOrder()</a>, <a class="el" href="classProductionWnd.html#a9de347993949f038fa01df102d163c4a">m_order_issuing_enabled</a>, <a class="el" href="classProductionWnd.html#a357a356d2d57117ec51c379173a86f93">m_queue_wnd</a>, <a class="el" href="classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df">ClientApp::Orders()</a>, and <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">Empire::UpdateProductionQueue()</a>.</p>
+
+<p>Referenced by <a class="el" href="classProductionWnd.html#a46bf489b124fb21d626c0803a6a625eb">CompleteConstruction()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a035605de1321a8eecc63bd25028a68cc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1171,6 +1211,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>References <a class="el" href="classProductionWnd.html#a9ee1dff5b611d3734a9323563c78264a">m_empire_shown_id</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab07b75f4af5accb612fc0185f9845778"></a>
@@ -1405,7 +1447,7 @@ Private Attributes</h2></td></tr>
 
 <p>Updates production summary at top left of production screen, and signals that the empire's minerals resource pool has changed (propagates to the mapwnd to update indicator) </p>
 
-<p>References <a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">ProductionQueue::AllocatedPP()</a>, <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">ProductionQueue::AvailablePP()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classProductionWnd.html#a9ee1dff5b611d3734a9323563c78264a">m_empire_shown_id</a>, <a class="el" href="classProductionWnd.html#ab8b65d56ec0487b55c53f26c88cf95aa">m_production_info_panel</a>, <a class="el" href="classEmpire.html#adf6a4c914d6fd84d357d927a47f5bb29">Empire::ProductionPoints()</a>, <a class="el" href="classProductionWnd.html#afe432b515388738860dc62ba4e73ddb4">SelectedPlanetID()</a>, <a class="el" href="structProductionQueue.html#a484e93301d7a6ca111500a23d19a35c3">ProductionQueue::TotalPPsSpent()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">ProductionQueue::AllocatedPP()</a>, <a class="el" href="structProductionQueue.html#ad4ecf53c5444f647b53b7de463157de6">ProductionQueue::AllocatedStockpilePP()</a>, <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">ProductionQueue::AvailablePP()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a7f58f3a6cae0f62eb2822cdbc4be6134">Empire::GetMeter()</a>, <a class="el" href="classEmpire.html#a1203e86b8b01b836ce150ffcd38d89d1">Empire::GetProductionQueue()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classProductionWnd.html#a9ee1dff5b611d3734a9323563c78264a">m_empire_shown_id</a>, <a class="el" href="classProductionWnd.html#ad011998caa539f077fdd57fc2820dc27">m_production_info_panel</a>, <a class="el" href="classEmpire.html#adf6a4c914d6fd84d357d927a47f5bb29">Empire::ProductionPoints()</a>, <a class="el" href="classProductionWnd.html#afe432b515388738860dc62ba4e73ddb4">SelectedPlanetID()</a>, <a class="el" href="structProductionQueue.html#a484e93301d7a6ca111500a23d19a35c3">ProductionQueue::TotalPPsSpent()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classProductionWnd.html#a70ac4074243e61885a5e314ff9b87e21">ProductionQueueChangedSlot()</a>, <a class="el" href="classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">Refresh()</a>, <a class="el" href="classProductionWnd.html#a3434efde4b989d3fd7d196980cb209a8">SelectPlanet()</a>, and <a class="el" href="classProductionWnd.html#a5552c0033af1ee060f3e2756fc735a1e">Update()</a>.</p>
 
@@ -1503,7 +1545,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">Refresh()</a>, <a class="el" href="classProductionWnd.html#addee7cad2f8b4c73856b735a9031328e">Reset()</a>, <a class="el" href="classProductionWnd.html#a2f8d8978af377969ee894c7b0f253764">SetEmpireShown()</a>, <a class="el" href="classProductionWnd.html#aa9029b7be070956c57706822ee1f682f">UpdateInfoPanel()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">UpdateQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classProductionWnd.html#a035605de1321a8eecc63bd25028a68cc">Refresh()</a>, <a class="el" href="classProductionWnd.html#addee7cad2f8b4c73856b735a9031328e">Reset()</a>, <a class="el" href="classProductionWnd.html#a2f8d8978af377969ee894c7b0f253764">SetEmpireShown()</a>, <a class="el" href="classProductionWnd.html#aa4ff1976471e18275a46f961fcf2b00e">ShownEmpireID()</a>, <a class="el" href="classProductionWnd.html#aa9029b7be070956c57706822ee1f682f">UpdateInfoPanel()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">UpdateQueue()</a>.</p>
 
 </div>
 </div>
@@ -1525,11 +1567,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ad0e2f3690826f8f4632066b6d1fde52d">ChangeBuildQuantityBlockSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#a38975cdcbcc14b817001759f4963a32a">EnableOrderIssuing()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, and <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>.</p>
+<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#ad0e2f3690826f8f4632066b6d1fde52d">ChangeBuildQuantityBlockSlot()</a>, <a class="el" href="classProductionWnd.html#ac6dba3b9dd338e50486688c9352db812">ChangeBuildQuantitySlot()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#a38975cdcbcc14b817001759f4963a32a">EnableOrderIssuing()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>, and <a class="el" href="classProductionWnd.html#a3fea949dae2c4934b7ac7e844f24fa48">QueueItemUseImperialPP()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab8b65d56ec0487b55c53f26c88cf95aa"></a>
+<a class="anchor" id="ad011998caa539f077fdd57fc2820dc27"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1537,7 +1579,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classProductionInfoPanel.html">ProductionInfoPanel</a>&gt; ProductionWnd::m_production_info_panel</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classResourceInfoPanel.html">ResourceInfoPanel</a>&gt; ProductionWnd::m_production_info_panel</td>
         </tr>
       </table>
   </td>
@@ -1569,7 +1611,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#a46bf489b124fb21d626c0803a6a625eb">CompleteConstruction()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#a23b81cc685f7647c34c102ebf9df3610">DoLayout()</a>, <a class="el" href="classProductionWnd.html#a38975cdcbcc14b817001759f4963a32a">EnableOrderIssuing()</a>, <a class="el" href="classProductionWnd.html#a7f28f25db0e79c05ce4eaafd4065b63d">InClient()</a>, <a class="el" href="classProductionWnd.html#a2f5be531fc8b2894e535532043a016ca">InWindow()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">QueueItemClickedSlot()</a>, <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">QueueItemDoubleClickedSlot()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>, <a class="el" href="classProductionWnd.html#addee7cad2f8b4c73856b735a9031328e">Reset()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">UpdateQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classProductionWnd.html#a226eee7309f137eeb82d0a052db96236">AddBuildToQueueSlot()</a>, <a class="el" href="classProductionWnd.html#a46bf489b124fb21d626c0803a6a625eb">CompleteConstruction()</a>, <a class="el" href="classProductionWnd.html#a5be10003adb63e1eeb2c4cf5aa2a1dca">DeleteQueueItem()</a>, <a class="el" href="classProductionWnd.html#a23b81cc685f7647c34c102ebf9df3610">DoLayout()</a>, <a class="el" href="classProductionWnd.html#a38975cdcbcc14b817001759f4963a32a">EnableOrderIssuing()</a>, <a class="el" href="classProductionWnd.html#a7f28f25db0e79c05ce4eaafd4065b63d">InClient()</a>, <a class="el" href="classProductionWnd.html#a2f5be531fc8b2894e535532043a016ca">InWindow()</a>, <a class="el" href="classProductionWnd.html#a2115996dc8d0e5796b065eb1a866f211">QueueItemClickedSlot()</a>, <a class="el" href="classProductionWnd.html#a0dee68b0592b794f451230257249dad4">QueueItemDoubleClickedSlot()</a>, <a class="el" href="classProductionWnd.html#adccc20596ed8bf305339771e494dbc4c">QueueItemDuped()</a>, <a class="el" href="classProductionWnd.html#ac3bf0cb7bc60ea41c8cd9c670f562d9b">QueueItemMoved()</a>, <a class="el" href="classProductionWnd.html#a541dc28620ea244719e43713dba468eb">QueueItemPaused()</a>, <a class="el" href="classProductionWnd.html#a2d2b7d45187bd15d1758f3d5937e4fc1">QueueItemRallied()</a>, <a class="el" href="classProductionWnd.html#a0981db3d424a21477b5e3263bf16b156">QueueItemSplit()</a>, <a class="el" href="classProductionWnd.html#a3fea949dae2c4934b7ac7e844f24fa48">QueueItemUseImperialPP()</a>, <a class="el" href="classProductionWnd.html#addee7cad2f8b4c73856b735a9031328e">Reset()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">UpdateQueue()</a>.</p>
 
 </div>
 </div>
