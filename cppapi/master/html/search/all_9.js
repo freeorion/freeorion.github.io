@@ -141,7 +141,7 @@ var searchData=
   ['insert_5fkey_5fpair',['insert_key_pair',['../namespaceanonymous__namespace_02KeymapParser_8cpp_03.html#a7cad4343f492af07222be5931e3baa85',1,'anonymous_namespace{KeymapParser.cpp}']]],
   ['insert_5fkey_5fpair_5f',['insert_key_pair_',['../structanonymous__namespace_02KeymapParser_8cpp_03_1_1insert__key__pair__.html',1,'anonymous_namespace{KeymapParser.cpp}']]],
   ['insert_5fmonster_5ffleet_5fplan',['insert_monster_fleet_plan',['../namespaceanonymous__namespace_02MonsterFleetPlansParser_8cpp_03.html#a780b329c6af79b3d4bde57983f65fc69',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}']]],
-  ['insert_5fparttype',['insert_parttype',['../namespaceanonymous__namespace_02ShipPartsParser_8cpp_03.html#aaeed1bac7834031018a9f981f9f554f5',1,'anonymous_namespace{ShipPartsParser.cpp}']]],
+  ['insert_5fparttype',['insert_parttype',['../namespaceanonymous__namespace_02ShipPartsParser_8cpp_03.html#aabae01473c87436a60d0f0636acfc569',1,'anonymous_namespace{ShipPartsParser.cpp}']]],
   ['insert_5frule_5f',['insert_rule_',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1insert__rule__.html',1,'anonymous_namespace{GameRulesParser.cpp}']]],
   ['insert_5fship_5fdesign',['insert_ship_design',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#ab45edeeefacbeb87cd4a0a5997bdec32',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['insert_5fspecial',['insert_special',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html#ad482574f070fdb46039daabf1ff9cbeb',1,'anonymous_namespace{SpecialsParser.cpp}']]],
