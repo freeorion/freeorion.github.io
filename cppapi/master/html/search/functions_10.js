@@ -23,7 +23,6 @@ var searchData=
   ['partbackgroundtexture',['PartBackgroundTexture',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a6a91de2faa1db4cd0cde48ac5b5d0804',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['partclasscount',['PartClassCount',['../classShipDesign.html#afd6320187e31c919eb3da249a9116216',1,'ShipDesign']]],
   ['partcontrol',['PartControl',['../classPartControl.html#a67f28427da1857154a8b749f0d3d8bd8',1,'PartControl']]],
-  ['participant_5fbar_5fup_5fmargin',['PARTICIPANT_BAR_UP_MARGIN',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ac674b1c31c8200b7b30848ec9fc9be37',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['participantbar',['ParticipantBar',['../classParticipantBar.html#a099e91a4a9b1cd0f58e4238a4754aa85',1,'ParticipantBar']]],
   ['participantcompare',['ParticipantCompare',['../CombatReportData_8cpp.html#a9074fb3c79426cbfc5a9c35ec7c74ed2',1,'CombatReportData.cpp']]],
   ['participantsummary',['ParticipantSummary',['../structParticipantSummary.html#a925d8cc15a1f5492413280429ee2c045',1,'ParticipantSummary::ParticipantSummary()'],['../structParticipantSummary.html#af999687c52350fd714ef1b8c3c4717f7',1,'ParticipantSummary::ParticipantSummary(int object_id, int empire_id, const CombatParticipantState &amp;state)']]],

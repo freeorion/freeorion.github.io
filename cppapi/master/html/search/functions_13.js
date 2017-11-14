@@ -489,6 +489,7 @@ var searchData=
   ['shutdownservermessage',['ShutdownServerMessage',['../Message_8cpp.html#aae92863ded0949e98dc8973a99b5dcd8',1,'ShutdownServerMessage():&#160;Message.cpp'],['../Message_8h.html#a374421c12eda8733ce8d99434d2e99c9',1,'ShutdownServerMessage():&#160;Message.cpp']]],
   ['shutdowntimedouthandler',['ShutdownTimedoutHandler',['../classServerApp.html#a6d473d970c44c24d704715f786ed3169',1,'ServerApp']]],
   ['shuttingdownserver',['ShuttingDownServer',['../structShuttingDownServer.html#a0292871689f21c7c82c69724a2d0b3c8',1,'ShuttingDownServer']]],
+  ['side_5fbar_5fup_5fmargin',['SIDE_BAR_UP_MARGIN',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a5cba7ad278e688d0e6e52ed1d7922d39',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['side_5fbox_5fmargin',['SIDE_BOX_MARGIN',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#aa9e792d5ca981b88d53a966048a19c1c',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['sidebar',['SideBar',['../classSideBar.html#a9e4481f5a95db625e514b15154f95a3c',1,'SideBar']]],
   ['sidecolor',['SideColor',['../structCombatSummary.html#a89d9fb61cd1a70c65373f0d5b9d8ee03',1,'CombatSummary']]],
