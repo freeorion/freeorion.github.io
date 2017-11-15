@@ -1394,6 +1394,7 @@ var searchData=
   ['m_5fwin_5fstatus',['m_win_status',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a1ffa6668bb15143f77a1a6809541f963',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fwin_5fstatus_5ficon_5ful',['m_win_status_icon_ul',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a64029129b7279888083232a41cbb91e8',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fwnd',['m_wnd',['../classCombatLogWnd_1_1Impl.html#a6cf44a2f258d50707885c081ba088022',1,'CombatLogWnd::Impl::m_wnd()'],['../classCombatReportWnd_1_1Impl.html#a46613b80df713b6d1fcbd13e5cde6ca1',1,'CombatReportWnd::Impl::m_wnd()']]],
+  ['m_5fwnd_5fstack',['m_wnd_stack',['../classMapWnd.html#a664d48604eb6fb36782cbb8b1ca1b484',1,'MapWnd']]],
   ['m_5fwork_5favailable',['m_work_available',['../classRunQueue.html#a17984101020522012bddc8b3e45f5c79',1,'RunQueue']]],
   ['m_5fwork_5fdone',['m_work_done',['../classRunQueue.html#ada1f73a77f29ba0bcee755a89fd190b3',1,'RunQueue']]],
   ['m_5fwound_5fcolor',['m_wound_color',['../classParticipantBar.html#a1a3c69d7742268714c76517735b78914',1,'ParticipantBar']]],
