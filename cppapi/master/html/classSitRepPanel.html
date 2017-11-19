@@ -234,11 +234,13 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2394f5e181e1922415d966ee5e13152c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d99d2fc2e81adeb6883a74ccca6ee73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#a3d99d2fc2e81adeb6883a74ccca6ee73">FilterClicked</a> ()</td></tr>
 <tr class="separator:a3d99d2fc2e81adeb6883a74ccca6ee73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a2d172527008f10510312f31575216"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#a04a2d172527008f10510312f31575216">GetNextNonEmptySitrepsTurn</a> (const std::map&lt; int, std::list&lt; <a class="el" href="classSitRepEntry.html">SitRepEntry</a> &gt;&gt; &amp;turns, int turn, bool forward) const </td></tr>
-<tr class="memdesc:a04a2d172527008f10510312f31575216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return next turn with sitreps.  <a href="#a04a2d172527008f10510312f31575216">More...</a><br /></td></tr>
-<tr class="separator:a04a2d172527008f10510312f31575216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877ac402468a31493b82b0f6ad6e8297"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#a877ac402468a31493b82b0f6ad6e8297">GetNextNonEmptySitrepsTurn</a> (std::map&lt; int, std::list&lt; <a class="el" href="classSitRepEntry.html">SitRepEntry</a> &gt;&gt; &amp;turns, int turn, bool forward) const </td></tr>
+<tr class="memdesc:a877ac402468a31493b82b0f6ad6e8297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return next turn with sitreps.  <a href="#a877ac402468a31493b82b0f6ad6e8297">More...</a><br /></td></tr>
+<tr class="separator:a877ac402468a31493b82b0f6ad6e8297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcc16377904d26c60e77276a63664764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#adcc16377904d26c60e77276a63664764">IgnoreSitRep</a> (GG::ListBox::iterator it, const GG::Pt &amp;pt, const GG::Flags&lt; GG::ModKey &gt; &amp;mod)</td></tr>
 <tr class="separator:adcc16377904d26c60e77276a63664764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a0224061b2ebc88489d6146852cad1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#aa3a0224061b2ebc88489d6146852cad1">IsSitRepInvalid</a> (<a class="el" href="classSitRepEntry.html">SitRepEntry</a> &amp;sitrep) const </td></tr>
+<tr class="separator:aa3a0224061b2ebc88489d6146852cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a893639a33cd269e44e365c949b194c4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#a893639a33cd269e44e365c949b194c4a">LastClicked</a> ()</td></tr>
 <tr class="separator:a893639a33cd269e44e365c949b194c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a686af07b7bb5f48aae37ca1a5db023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSitRepPanel.html#a0a686af07b7bb5f48aae37ca1a5db023">NextClicked</a> ()</td></tr>
@@ -567,7 +569,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a04a2d172527008f10510312f31575216"></a>
+<a class="anchor" id="a877ac402468a31493b82b0f6ad6e8297"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -577,7 +579,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">int SitRepPanel::GetNextNonEmptySitrepsTurn </td>
           <td>(</td>
-          <td class="paramtype">const std::map&lt; int, std::list&lt; <a class="el" href="classSitRepEntry.html">SitRepEntry</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">std::map&lt; int, std::list&lt; <a class="el" href="classSitRepEntry.html">SitRepEntry</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>turns</em>, </td>
         </tr>
         <tr>
@@ -606,8 +608,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return next turn with sitreps. </p>
+<p>Search <code>forward</code> from <code>turn</code> for the next turn with valid sitreps. Remove turns from <code>turns</code> that have all invalid or otherwise filtered out sitreps. </p>
 
-<p>References <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>.</p>
+<p>References <a class="el" href="chmain_8cpp.html#ad8e174832b19a61373d92d81f4a0b639">if()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, and <a class="el" href="classSitRepPanel.html#aa3a0224061b2ebc88489d6146852cad1">IsSitRepInvalid()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#a0a686af07b7bb5f48aae37ca1a5db023">NextClicked()</a>, <a class="el" href="classSitRepPanel.html#a946bcdcf856bfa5618cfb024b61d63ab">PrevClicked()</a>, and <a class="el" href="classSitRepPanel.html#a019d6b2e0a25429683504064829ab6e7">Update()</a>.</p>
 
@@ -679,6 +682,35 @@ Additional Inherited Members</h2></td></tr>
 <p>References <a class="el" href="classVarText.html#a9a036a8f72c0eb9c99cfb8aa0643752c">VarText::GetText()</a>, <a class="el" href="classSitRepEntry.html#a93c6d8da29058f6ae1bb96d4370c5faa">SitRepEntry::GetTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a736dd14eb1c28a9d9538f70032873b07">anonymous_namespace{SitRepPanel.cpp}::snoozed_sitreps</a>, and <a class="el" href="classSitRepPanel.html#a019d6b2e0a25429683504064829ab6e7">Update()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#af84f0a2c0e768838fb133857a61394bb">CompleteConstruction()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa3a0224061b2ebc88489d6146852cad1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SitRepPanel::IsSitRepInvalid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSitRepEntry.html">SitRepEntry</a> &amp;&#160;</td>
+          <td class="paramname"><em>sitrep</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if the sitrep is not hidden, validates and is not snoozed. </p>
+
+<p>References <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="classSitRepEntry.html#abff709364bc75103a7beffffaee46018">SitRepEntry::GetLabelString()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classVarText.html#a050b18e16047a31bb5908073c30c4052">VarText::GetTemplateString()</a>, <a class="el" href="classVarText.html#a9a036a8f72c0eb9c99cfb8aa0643752c">VarText::GetText()</a>, <a class="el" href="classSitRepEntry.html#a93c6d8da29058f6ae1bb96d4370c5faa">SitRepEntry::GetTurn()</a>, <a class="el" href="classSitRepPanel.html#a031a3c5113156aca4f52cb899236326a">m_hidden_sitrep_templates</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#ad0127c915111d1d99632dec11c99e0ba">anonymous_namespace{SitRepPanel.cpp}::permanently_snoozed_sitreps</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a736dd14eb1c28a9d9538f70032873b07">anonymous_namespace{SitRepPanel.cpp}::snoozed_sitreps</a>, and <a class="el" href="classVarText.html#a8be67270738c558ac7f38825fd315172">VarText::Validate()</a>.</p>
+
+<p>Referenced by <a class="el" href="classSitRepPanel.html#a877ac402468a31493b82b0f6ad6e8297">GetNextNonEmptySitrepsTurn()</a>, and <a class="el" href="classSitRepPanel.html#af4bd0e6ae24ed501d713e335fc74b77d">NumVisibleSitrepsThisTurn()</a>.</p>
 
 </div>
 </div>
@@ -776,7 +808,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a04a2d172527008f10510312f31575216">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6b6c71c776d4183bc2336800cbaabb1d">anonymous_namespace{SitRepPanel.cpp}::GetSitRepsSortedByTurn()</a>, <a class="el" href="classSitRepPanel.html#a031a3c5113156aca4f52cb899236326a">m_hidden_sitrep_templates</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, and <a class="el" href="classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">ShowSitRepsForTurn()</a>.</p>
+<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a877ac402468a31493b82b0f6ad6e8297">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50">anonymous_namespace{SitRepPanel.cpp}::GetUnvalidatedSitRepsSortedByTurn()</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, and <a class="el" href="classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">ShowSitRepsForTurn()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#af84f0a2c0e768838fb133857a61394bb">CompleteConstruction()</a>.</p>
 
@@ -795,7 +827,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6b6c71c776d4183bc2336800cbaabb1d">anonymous_namespace{SitRepPanel.cpp}::GetSitRepsSortedByTurn()</a>, and <a class="el" href="classSitRepPanel.html#a031a3c5113156aca4f52cb899236326a">m_hidden_sitrep_templates</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50">anonymous_namespace{SitRepPanel.cpp}::GetUnvalidatedSitRepsSortedByTurn()</a>, and <a class="el" href="classSitRepPanel.html#aa3a0224061b2ebc88489d6146852cad1">IsSitRepInvalid()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a">HiddenSitRepTemplates()</a>.</p>
 
@@ -822,7 +854,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a04a2d172527008f10510312f31575216">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6b6c71c776d4183bc2336800cbaabb1d">anonymous_namespace{SitRepPanel.cpp}::GetSitRepsSortedByTurn()</a>, <a class="el" href="classSitRepPanel.html#a031a3c5113156aca4f52cb899236326a">m_hidden_sitrep_templates</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, and <a class="el" href="classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">ShowSitRepsForTurn()</a>.</p>
+<p>References <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a877ac402468a31493b82b0f6ad6e8297">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50">anonymous_namespace{SitRepPanel.cpp}::GetUnvalidatedSitRepsSortedByTurn()</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, and <a class="el" href="classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">ShowSitRepsForTurn()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#af84f0a2c0e768838fb133857a61394bb">CompleteConstruction()</a>.</p>
 
@@ -927,7 +959,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>loads all the relevant SitReps into the window </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a04a2d172527008f10510312f31575216">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6b6c71c776d4183bc2336800cbaabb1d">anonymous_namespace{SitRepPanel.cpp}::GetSitRepsSortedByTurn()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="classSitRepPanel.html#a031a3c5113156aca4f52cb899236326a">m_hidden_sitrep_templates</a>, <a class="el" href="classSitRepPanel.html#a2a7dd1617fb8251392a5598838c6c685">m_last_turn_button</a>, <a class="el" href="classSitRepPanel.html#a88f6b964497ea18cff40a45f42ed1913">m_next_turn_button</a>, <a class="el" href="classSitRepPanel.html#ab2458960d594bc38eee7c472c594ca39">m_prev_turn_button</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, <a class="el" href="classSitRepPanel.html#ab914cb66cea7eac69787c41d747387ed">m_sitreps_lb</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#addc4c512deb8e08955f38c012f3ffb90">anonymous_namespace{SitRepPanel.cpp}::OrderedSitrepTemplateStrings()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceAIInterface.html#ac17b0216d3c9ce491897bee65c7ac8e0">AIInterface::EmpireID()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classSitRepPanel.html#a877ac402468a31493b82b0f6ad6e8297">GetNextNonEmptySitrepsTurn()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50">anonymous_namespace{SitRepPanel.cpp}::GetUnvalidatedSitRepsSortedByTurn()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="classSitRepPanel.html#a2a7dd1617fb8251392a5598838c6c685">m_last_turn_button</a>, <a class="el" href="classSitRepPanel.html#a88f6b964497ea18cff40a45f42ed1913">m_next_turn_button</a>, <a class="el" href="classSitRepPanel.html#ab2458960d594bc38eee7c472c594ca39">m_prev_turn_button</a>, <a class="el" href="classSitRepPanel.html#a830f8bc64bd8202fdb09912c0142fa88">m_showing_turn</a>, <a class="el" href="classSitRepPanel.html#ab914cb66cea7eac69787c41d747387ed">m_sitreps_lb</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#addc4c512deb8e08955f38c012f3ffb90">anonymous_namespace{SitRepPanel.cpp}::OrderedSitrepTemplateStrings()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSitRepPanel.html#ad81a488af7867f950af5a4076a874ead">DismissalMenu()</a>, <a class="el" href="classSitRepPanel.html#a3d99d2fc2e81adeb6883a74ccca6ee73">FilterClicked()</a>, <a class="el" href="classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a">HiddenSitRepTemplates()</a>, <a class="el" href="classSitRepPanel.html#adcc16377904d26c60e77276a63664764">IgnoreSitRep()</a>, <a class="el" href="classSitRepPanel.html#a8dab051d1293f762344031a4177de01d">SetHiddenSitRepTemplates()</a>, <a class="el" href="classSitRepPanel.html#a16c79302642b7fc21e6221edd6619aa0">ShowSitRepsForTurn()</a>, and <a class="el" href="classSitRepPanel.html#a1564d18d20e5fe02c38edf5adbc7e8a5">SizeMove()</a>.</p>
 
@@ -996,7 +1028,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSitRepPanel.html#ad81a488af7867f950af5a4076a874ead">DismissalMenu()</a>, <a class="el" href="classSitRepPanel.html#a3d99d2fc2e81adeb6883a74ccca6ee73">FilterClicked()</a>, <a class="el" href="classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a">HiddenSitRepTemplates()</a>, <a class="el" href="classSitRepPanel.html#a0a686af07b7bb5f48aae37ca1a5db023">NextClicked()</a>, <a class="el" href="classSitRepPanel.html#af4bd0e6ae24ed501d713e335fc74b77d">NumVisibleSitrepsThisTurn()</a>, <a class="el" href="classSitRepPanel.html#a946bcdcf856bfa5618cfb024b61d63ab">PrevClicked()</a>, <a class="el" href="classSitRepPanel.html#a8dab051d1293f762344031a4177de01d">SetHiddenSitRepTemplates()</a>, and <a class="el" href="classSitRepPanel.html#a019d6b2e0a25429683504064829ab6e7">Update()</a>.</p>
+<p>Referenced by <a class="el" href="classSitRepPanel.html#ad81a488af7867f950af5a4076a874ead">DismissalMenu()</a>, <a class="el" href="classSitRepPanel.html#a3d99d2fc2e81adeb6883a74ccca6ee73">FilterClicked()</a>, <a class="el" href="classSitRepPanel.html#a2e7cd0c37b5d99051f6fd4a1fee32d9a">HiddenSitRepTemplates()</a>, <a class="el" href="classSitRepPanel.html#aa3a0224061b2ebc88489d6146852cad1">IsSitRepInvalid()</a>, and <a class="el" href="classSitRepPanel.html#a8dab051d1293f762344031a4177de01d">SetHiddenSitRepTemplates()</a>.</p>
 
 </div>
 </div>

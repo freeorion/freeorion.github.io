@@ -187,6 +187,7 @@ var searchData=
   ['isrequireauth',['IsRequireAuth',['../classPythonServer.html#a2ec173e637e70db407b0874f8ff0e8f4',1,'PythonServer']]],
   ['isrxconnected',['IsRxConnected',['../classClientNetworking_1_1Impl.html#ab07d8d6d7a0df6fc2e9163ef45dc2378',1,'ClientNetworking::Impl::IsRxConnected()'],['../classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5',1,'ClientNetworking::IsRxConnected()']]],
   ['issitrepeffect',['IsSitrepEffect',['../classEffect_1_1EffectBase.html#a53624e3e3909c26dd1fa7810df3ed5dd',1,'Effect::EffectBase::IsSitrepEffect()'],['../classEffect_1_1GenerateSitRepMessage.html#a04c00cb095714d8cd6c610b74ae276c4',1,'Effect::GenerateSitRepMessage::IsSitrepEffect()'],['../classEffect_1_1Conditional.html#a666421d65e920e54852beb8bf0c0ef65',1,'Effect::Conditional::IsSitrepEffect()']]],
+  ['issitrepinvalid',['IsSitRepInvalid',['../classSitRepPanel.html#aa3a0224061b2ebc88489d6146852cad1',1,'SitRepPanel']]],
   ['isstartnode',['IsStartNode',['../classTechTreeLayout_1_1Node.html#a25c4a7b1e559e99afc74aba4bee39f69',1,'TechTreeLayout::Node']]],
   ['isstationaryinsystem',['IsStationaryInSystem',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a868ef29f441be31fc060c3d96c56b464',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['issuccessauth',['IsSuccessAuth',['../classPythonServer.html#a426a7c8570bbf8a3e5efc8476fc3a803',1,'PythonServer']]],
