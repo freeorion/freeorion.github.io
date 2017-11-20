@@ -49,7 +49,7 @@ var searchData=
   ['objects',['objects',['../structCombatInfo.html#a987bd4800cfa124198d9006848835fc3',1,'CombatInfo::objects()'],['../classUniverse.html#a1863f61fdd9603ce49b20b1929bada86',1,'Universe::Objects() const '],['../classUniverse.html#a6d45af29659736778a3ddd5134e01e34',1,'Universe::Objects()'],['../AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c',1,'Objects():&#160;AppInterface.h']]],
   ['objectselectionchanged',['ObjectSelectionChanged',['../classObjectListWnd.html#aeb35c6cc90c6d2b0a844ec1c1b30f2f9',1,'ObjectListWnd']]],
   ['objectset',['ObjectSet',['../namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52',1,'Condition']]],
-  ['objectsgetsystems',['ObjectsGetSystems',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ab627f85230b30e45a6c176b676611494',1,'anonymous_namespace{ServerWrapper.cpp}']]],
+  ['objectsgetsystems',['ObjectsGetSystems',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a15b39515c513316302ed5ae6ff310578',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['objectshown',['ObjectShown',['../classObjectListBox.html#a969af360b29dd1237823b19ac9683204',1,'ObjectListBox']]],
   ['objectspecials',['ObjectSpecials',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad19f1aaa3d8d3576a9134d7de0f4fa0a',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['objectspecialsmap',['ObjectSpecialsMap',['../classUniverse.html#a1b646011c48ad5f1c6faec3ce4935aa8',1,'Universe']]],
