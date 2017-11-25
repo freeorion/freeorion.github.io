@@ -14,6 +14,5 @@ var searchData=
   ['orderedroutetype',['OrderedRouteType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a86288350fe1110cbf6c435a7a5dada31',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['ordermap',['OrderMap',['../classOrderSet.html#a0f89d4c4abbc834309c1d959c4d1cce5',1,'OrderSet']]],
   ['orderptr',['OrderPtr',['../OrderSet_8h.html#ab997ff2c737caa27e3d5efd20aaec215',1,'OrderSet.h']]],
-  ['ordervec',['OrderVec',['../classOrderSet.html#a0d1808360c948e8fa135a77128a3eaf9',1,'OrderSet']]],
   ['owned_5fby_5frule',['owned_by_rule',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a010f3aa5c0e29594a8968e85daf2e95f',1,'parse::detail::condition_parser_rules_1']]]
 ];

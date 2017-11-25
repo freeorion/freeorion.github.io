@@ -119,7 +119,6 @@ var searchData=
   ['orderedsitreptemplatestrings',['OrderedSitrepTemplateStrings',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#addc4c512deb8e08955f38c012f3ffb90',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['orderissuingenabled',['OrderIssuingEnabled',['../classQueueListBox.html#ae8bda8c069905a216756715177ff2045',1,'QueueListBox']]],
   ['orders',['Orders',['../classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df',1,'ClientApp::Orders()'],['../classClientApp.html#a47adf7b0a0e0dfb84b28b88e5e110406',1,'ClientApp::Orders() const ']]],
-  ['orderset',['OrderSet',['../classOrderSet.html#af7532a212e25083f25dde3bd89c79c38',1,'OrderSet']]],
   ['originaltype',['OriginalType',['../classPlanet.html#ac775edb1a0500b43abcb8897f9661f09',1,'Planet']]],
   ['orvalidator',['OrValidator',['../structOrValidator.html#aed12fd6230333d4e6b48a194af79889d',1,'OrValidator']]],
   ['otherspeciesopinions',['OtherSpeciesOpinions',['../classSpecies.html#a6de9a6ce11cee8bd92861ca5373a6f2b',1,'Species']]],

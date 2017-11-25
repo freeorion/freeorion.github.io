@@ -121,7 +121,6 @@ var searchData=
   ['examine_5fedge',['examine_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#ac04623abfb363d5758c6b73edcb85c35',1,'SystemPathing::BFSVisitorImpl']]],
   ['examine_5frow',['examine_row',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#ae5f57f22b95c4b4c52bb41303fbfb771',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['examine_5fvertex',['examine_vertex',['../classSystemPathing_1_1BFSVisitorImpl.html#ae430e9750ea3a8ae54014d1826f2a96c',1,'SystemPathing::BFSVisitorImpl']]],
-  ['examineorder',['ExamineOrder',['../classOrderSet.html#aaedfbc6207bf45ec6e65acf82ab0abbf',1,'OrderSet']]],
   ['exception',['Exception',['../classXMLElement_1_1Exception.html#a5427f5c67d5a8dfee9e95694cfae8803',1,'XMLElement::Exception']]],
   ['exclusions',['Exclusions',['../classPartType.html#acd2c2358de5248ea5eb27032227934a9',1,'PartType::Exclusions()'],['../classHullType.html#ac49bd34b1df9a3f1719d3a6e02be7e67',1,'HullType::Exclusions()']]],
   ['exec_5fname_5fregex',['exec_name_regex',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#a3727b475c8dcb09b09847dc54aae3a57',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
