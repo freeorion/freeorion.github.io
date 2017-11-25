@@ -133,9 +133,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a21a1596b61f1f5bf040079c23ba07b47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html#a21a1596b61f1f5bf040079c23ba07b47">m_reset_to_intro</a></td></tr>
-<tr class="separator:a21a1596b61f1f5bf040079c23ba07b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4aed2dc97964157dbb684084ec880cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProcess.html">Process</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a></td></tr>
+<tr class="memitem:a4b4ebc0e48cb0824928f9952f71ba44a"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html#a4b4ebc0e48cb0824928f9952f71ba44a">m_after_server_shutdown_action</a> = std::function&lt;void()&gt;()</td></tr>
+<tr class="memdesc:a4b4ebc0e48cb0824928f9952f71ba44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">An action to be completed after disconnecting from the server.  <a href="#a4b4ebc0e48cb0824928f9952f71ba44a">More...</a><br /></td></tr>
+<tr class="separator:a4b4ebc0e48cb0824928f9952f71ba44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4aed2dc97964157dbb684084ec880cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProcess.html">Process</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a> = nullptr</td></tr>
 <tr class="separator:aa4aed2dc97964157dbb684084ec880cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ddfc58cbc6ce1fba297bd6e77bb179"><td class="memItemLeft" align="right" valign="top">std::chrono::steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuittingGame.html#a53ddfc58cbc6ce1fba297bd6e77bb179">m_start_time</a></td></tr>
 <tr class="separator:a53ddfc58cbc6ce1fba297bd6e77bb179"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,7 +220,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structStartQuittingGame.html#aaf90d012c33fee4af3fbf9728f04f082">StartQuittingGame::m_reset_to_intro</a>, <a class="el" href="structQuittingGame.html#a21a1596b61f1f5bf040079c23ba07b47">m_reset_to_intro</a>, <a class="el" href="structStartQuittingGame.html#a1047f4442c1ec5263c43ee045c08853e">StartQuittingGame::m_server</a>, <a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="structStartQuittingGame.html#a40b2b8b6e257d59318cab5bddea5370a">StartQuittingGame::m_after_server_shutdown_action</a>, <a class="el" href="structQuittingGame.html#a4b4ebc0e48cb0824928f9952f71ba44a">m_after_server_shutdown_action</a>, <a class="el" href="structStartQuittingGame.html#a1047f4442c1ec5263c43ee045c08853e">StartQuittingGame::m_server</a>, <a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -291,20 +292,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classProcess.html#a4aad3b1a81c05f47d99224751f7b8f64">Process::Empty()</a>, <a class="el" href="structQuittingGame.html#a21a1596b61f1f5bf040079c23ba07b47">m_reset_to_intro</a>, <a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a>, <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">Process::RequestTermination()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classProcess.html#a4aad3b1a81c05f47d99224751f7b8f64">Process::Empty()</a>, <a class="el" href="structQuittingGame.html#a4b4ebc0e48cb0824928f9952f71ba44a">m_after_server_shutdown_action</a>, <a class="el" href="structQuittingGame.html#aa4aed2dc97964157dbb684084ec880cc">m_server_process</a>, <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">Process::RequestTermination()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a21a1596b61f1f5bf040079c23ba07b47"></a>
+<a class="anchor" id="a4b4ebc0e48cb0824928f9952f71ba44a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool QuittingGame::m_reset_to_intro</td>
+          <td class="memname">std::function&lt;void()&gt; QuittingGame::m_after_server_shutdown_action = std::function&lt;void()&gt;()</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>An action to be completed after disconnecting from the server. </p>
 
 <p>Referenced by <a class="el" href="structQuittingGame.html#a5cc189e6231b5400f42c62fb5d17d14b">react()</a>.</p>
 
@@ -315,7 +318,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classProcess.html">Process</a>* QuittingGame::m_server_process</td>
+          <td class="memname"><a class="el" href="classProcess.html">Process</a>* QuittingGame::m_server_process = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

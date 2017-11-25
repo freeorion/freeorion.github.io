@@ -19,7 +19,6 @@ var searchData=
   ['checkendconditions',['CheckEndConditions',['../structCheckEndConditions.html',1,'']]],
   ['checkstartconditions',['CheckStartConditions',['../structCheckStartConditions.html',1,'']]],
   ['checkturnendconditions',['CheckTurnEndConditions',['../structCheckTurnEndConditions.html',1,'']]],
-  ['cleanquit',['CleanQuit',['../classHumanClientApp_1_1CleanQuit.html',1,'HumanClientApp']]],
   ['clientapp',['ClientApp',['../classClientApp.html',1,'']]],
   ['clientnetworking',['ClientNetworking',['../classClientNetworking.html',1,'']]],
   ['clientui',['ClientUI',['../classClientUI.html',1,'']]],
