@@ -114,8 +114,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e537f53905945abb751f662aac2cd2e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#a0e537f53905945abb751f662aac2cd2e">DesignID</a> () const </td></tr>
 <tr class="separator:a0e537f53905945abb751f662aac2cd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a60778fb3b5f15846c67901aff32e0d28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#a60778fb3b5f15846c67901aff32e0d28">ShipDesignOrder</a> ()</td></tr>
-<tr class="separator:a60778fb3b5f15846c67901aff32e0d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace478034af2fc4f12168a22acead05f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#ace478034af2fc4f12168a22acead05f2">ShipDesignOrder</a> (int empire, int existing_design_id_to_remember)</td></tr>
 <tr class="separator:ace478034af2fc4f12168a22acead05f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb362a87692390b0f18e9083fbf0b95c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#acb362a87692390b0f18e9083fbf0b95c">ShipDesignOrder</a> (int empire, int design_id_to_erase, bool dummy)</td></tr>
@@ -140,6 +138,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a60778fb3b5f15846c67901aff32e0d28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#a60778fb3b5f15846c67901aff32e0d28">ShipDesignOrder</a> ()</td></tr>
+<tr class="separator:a60778fb3b5f15846c67901aff32e0d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1079978ee37995af9e191c8d3033140"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesignOrder.html#ac1079978ee37995af9e191c8d3033140">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:ac1079978ee37995af9e191c8d3033140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6f3981ab6496830a0e116e9bdde78fe"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -194,21 +194,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classOrder.html">Order</a> subclass that represents manipulating an empire's ship designs. The 2-arg ctor adds the existing ship design to the <em>empire's</em> set of designs - remembering, or "keeping" the design and enabling the <em>empire</em> to produce ships of that design (if all design prerequisites are met) The 3-arg ctor taking a bool removes the indicated design from the empire's set of remembered designs. The 3-arg ctor taking a <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> argument creates a new shipdesign in the universe's catalog of shipdesigns with the passed new design id, and adds this design to the <em>empire's</em> set of remembered designs. The new design must be marked as designed by this <em>empire</em>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a60778fb3b5f15846c67901aff32e0d28"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ShipDesignOrder::ShipDesignOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ace478034af2fc4f12168a22acead05f2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -327,6 +312,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60778fb3b5f15846c67901aff32e0d28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ShipDesignOrder::ShipDesignOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

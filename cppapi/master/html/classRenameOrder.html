@@ -111,8 +111,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a4c667becbe89854b4eeef92d30c98a24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#a4c667becbe89854b4eeef92d30c98a24">RenameOrder</a> ()</td></tr>
-<tr class="separator:a4c667becbe89854b4eeef92d30c98a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada35293872198a41bc1fb953d830a61b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#ada35293872198a41bc1fb953d830a61b">RenameOrder</a> (int empire, int object, const std::string &amp;name)</td></tr>
 <tr class="separator:ada35293872198a41bc1fb953d830a61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
@@ -136,6 +134,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a0d4c1360921cff7ddb45dda827d1dbd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#a0d4c1360921cff7ddb45dda827d1dbd1">RenameOrder</a> ()=default</td></tr>
+<tr class="separator:a0d4c1360921cff7ddb45dda827d1dbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b77d2f0fe6db7d986905878a1b78815"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#a0b77d2f0fe6db7d986905878a1b78815">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:a0b77d2f0fe6db7d986905878a1b78815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e45179b14dc1818dd3cbbe4e2396a45"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -146,7 +146,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a076014a84af069afebbe7e8075b628e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#a076014a84af069afebbe7e8075b628e7">m_name</a></td></tr>
 <tr class="separator:a076014a84af069afebbe7e8075b628e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c320ea47f22b7d6157a2fc1998803f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a></td></tr>
+<tr class="memitem:af3c320ea47f22b7d6157a2fc1998803f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:af3c320ea47f22b7d6157a2fc1998803f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -165,21 +165,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the <a class="el" href="classOrder.html">Order</a> subclass that represents the renaming of a <a class="el" href="classUniverseObject.html">UniverseObject</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4c667becbe89854b4eeef92d30c98a24"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RenameOrder::RenameOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ada35293872198a41bc1fb953d830a61b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +196,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classRenameOrder.html#a076014a84af069afebbe7e8075b628e7">m_name</a>, and <a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d4c1360921cff7ddb45dda827d1dbd1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RenameOrder::RenameOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -388,7 +396,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int RenameOrder::m_object</td>
+          <td class="memname">int RenameOrder::m_object = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>

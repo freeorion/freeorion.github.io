@@ -207,7 +207,7 @@ var searchData=
   ['intsetmapsizecount',['IntSetMapSizeCount',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3a5cfc927388801acf858072e757d74a',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['inttostring',['IntToString',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7bc34e28037a45be89b73c402337a590',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['intvaluerefparser_2ecpp',['IntValueRefParser.cpp',['../IntValueRefParser_8cpp.html',1,'']]],
-  ['invadeorder',['InvadeOrder',['../classInvadeOrder.html',1,'InvadeOrder'],['../classInvadeOrder.html#a7bdcdf0239af2addfef54ea4162feb98',1,'InvadeOrder::InvadeOrder()'],['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)']]],
+  ['invadeorder',['InvadeOrder',['../classInvadeOrder.html',1,'InvadeOrder'],['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)'],['../classInvadeOrder.html#a1edcbd51289faa8e194c6ab47f253e8c',1,'InvadeOrder::InvadeOrder()=default']]],
   ['invalid_5faggression',['INVALID_AGGRESSION',['../Enums_8h.html#a5d918305b84703f6935c6f1fb5d442f7',1,'Enums.h']]],
   ['invalid_5fbuild_5ftype',['INVALID_BUILD_TYPE',['../Enums_8h.html#a59ba63676553058e5577e8e7fcea208c',1,'Enums.h']]],
   ['invalid_5fcapture_5fresult',['INVALID_CAPTURE_RESULT',['../Enums_8h.html#ab50059892f378d711f1b314656108ad8',1,'Enums.h']]],

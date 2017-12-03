@@ -111,8 +111,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a93bd73e81c7b1b805275ee1e5fb2b29a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a93bd73e81c7b1b805275ee1e5fb2b29a">AggressiveOrder</a> ()</td></tr>
-<tr class="separator:a93bd73e81c7b1b805275ee1e5fb2b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97d95321ecc9b6fb50f826d3bb4e440c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a97d95321ecc9b6fb50f826d3bb4e440c">AggressiveOrder</a> (int empire, int object_id, bool aggression=true)</td></tr>
 <tr class="separator:a97d95321ecc9b6fb50f826d3bb4e440c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
@@ -136,6 +134,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a7a0a69d6ec8d2fa51c981dfa4e11ac20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a7a0a69d6ec8d2fa51c981dfa4e11ac20">AggressiveOrder</a> ()=default</td></tr>
+<tr class="separator:a7a0a69d6ec8d2fa51c981dfa4e11ac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7bf82728a88eb2405c53539bfbeb3ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#ab7bf82728a88eb2405c53539bfbeb3ee">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:ab7bf82728a88eb2405c53539bfbeb3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab3ac11a3bc491f35a4ce89093476be"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -144,9 +144,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a31a47ad5b40a371263b18480c72fb5bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a31a47ad5b40a371263b18480c72fb5bb">m_aggression</a></td></tr>
+<tr class="memitem:a31a47ad5b40a371263b18480c72fb5bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a31a47ad5b40a371263b18480c72fb5bb">m_aggression</a> = false</td></tr>
 <tr class="separator:a31a47ad5b40a371263b18480c72fb5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33f9b3846be7f8418f4b66ce97e9d368"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a33f9b3846be7f8418f4b66ce97e9d368">m_object_id</a></td></tr>
+<tr class="memitem:a33f9b3846be7f8418f4b66ce97e9d368"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAggressiveOrder.html#a33f9b3846be7f8418f4b66ce97e9d368">m_object_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:a33f9b3846be7f8418f4b66ce97e9d368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -165,21 +165,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the <a class="el" href="classOrder.html">Order</a> subclass that represents setting the aggression state of objects controlled by an empire. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a93bd73e81c7b1b805275ee1e5fb2b29a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">AggressiveOrder::AggressiveOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a97d95321ecc9b6fb50f826d3bb4e440c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -208,6 +193,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a0a69d6ec8d2fa51c981dfa4e11ac20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AggressiveOrder::AggressiveOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -363,7 +371,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AggressiveOrder::m_aggression</td>
+          <td class="memname">bool AggressiveOrder::m_aggression = false</td>
         </tr>
       </table>
   </td>
@@ -385,7 +393,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AggressiveOrder::m_object_id</td>
+          <td class="memname">int AggressiveOrder::m_object_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>

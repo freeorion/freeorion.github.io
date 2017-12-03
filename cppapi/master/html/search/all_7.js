@@ -453,7 +453,7 @@ var searchData=
   ['give_5fempire_5ftech',['give_empire_tech',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a31a6a8b27b930b893054f368af3c2bfe',1,'parse::detail::effect_parser_rules_1']]],
   ['giveempiretech',['GiveEmpireTech',['../classEffect_1_1GiveEmpireTech.html#a5eb214e54e4120894308be074f68547c',1,'Effect::GiveEmpireTech']]],
   ['giveempiretech',['GiveEmpireTech',['../classEffect_1_1GiveEmpireTech.html',1,'Effect']]],
-  ['giveobjecttoempireorder',['GiveObjectToEmpireOrder',['../classGiveObjectToEmpireOrder.html',1,'GiveObjectToEmpireOrder'],['../classGiveObjectToEmpireOrder.html#a9a883fcfdbaa5e87cfb58a6f5a39329f',1,'GiveObjectToEmpireOrder::GiveObjectToEmpireOrder()'],['../classGiveObjectToEmpireOrder.html#aa773faf643302d312c64291d59993c17',1,'GiveObjectToEmpireOrder::GiveObjectToEmpireOrder(int empire, int object_id, int recipient)']]],
+  ['giveobjecttoempireorder',['GiveObjectToEmpireOrder',['../classGiveObjectToEmpireOrder.html',1,'GiveObjectToEmpireOrder'],['../classGiveObjectToEmpireOrder.html#aa773faf643302d312c64291d59993c17',1,'GiveObjectToEmpireOrder::GiveObjectToEmpireOrder(int empire, int object_id, int recipient)'],['../classGiveObjectToEmpireOrder.html#a1d49869df32223b96f70409f85f8c7bd',1,'GiveObjectToEmpireOrder::GiveObjectToEmpireOrder()=default']]],
   ['global_5fqueue',['global_queue',['../structThreadQueue.html#ac6221d0bf56b64fd1d929504698b161a',1,'ThreadQueue']]],
   ['glversion',['GLVersion',['../classHumanClientApp.html#ae00f4e7f210b084dc7912de1df5601ea',1,'HumanClientApp']]],
   ['grammar',['grammar',['../structanonymous__namespace_02FieldsParser_8cpp_03_1_1grammar.html',1,'anonymous_namespace{FieldsParser.cpp}']]],

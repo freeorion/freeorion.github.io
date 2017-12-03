@@ -133,7 +133,7 @@ var searchData=
   ['intrulewidget',['IntRuleWidget',['../classGameRulesPanel.html#a32498259ac437ee12cdb8662d36231f2',1,'GameRulesPanel']]],
   ['intsetmapsizecount',['IntSetMapSizeCount',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3a5cfc927388801acf858072e757d74a',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['inttostring',['IntToString',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7bc34e28037a45be89b73c402337a590',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
-  ['invadeorder',['InvadeOrder',['../classInvadeOrder.html#a7bdcdf0239af2addfef54ea4162feb98',1,'InvadeOrder::InvadeOrder()'],['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)']]],
+  ['invadeorder',['InvadeOrder',['../classInvadeOrder.html#a5ed97fdf4ea437cf67900df3d4eac7de',1,'InvadeOrder::InvadeOrder(int empire, int ship, int planet)'],['../classInvadeOrder.html#a1edcbd51289faa8e194c6ab47f253e8c',1,'InvadeOrder::InvadeOrder()=default']]],
   ['invalidateunusedoptions',['InvalidateUnusedOptions',['../classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0',1,'CUIWnd']]],
   ['invalidatewindowoptions',['InvalidateWindowOptions',['../classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472',1,'CUIWnd']]],
   ['invalidloglevelwarning',['InvalidLogLevelWarning',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a0311bc1de6385a367058e7a13621b453',1,'anonymous_namespace{Logger.cpp}']]],

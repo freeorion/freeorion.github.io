@@ -111,8 +111,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a6cb11abd2c8e1ee4238afb2cb41efd05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#a6cb11abd2c8e1ee4238afb2cb41efd05">ScrapOrder</a> ()</td></tr>
-<tr class="separator:a6cb11abd2c8e1ee4238afb2cb41efd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0a7f33e869d3295d6883a9f1e3176d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#aaf0a7f33e869d3295d6883a9f1e3176d">ScrapOrder</a> (int empire, int object_id)</td></tr>
 <tr class="separator:aaf0a7f33e869d3295d6883a9f1e3176d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
@@ -134,6 +132,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a39be8995e0cd7b1d1dd62881dfca2e07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#a39be8995e0cd7b1d1dd62881dfca2e07">ScrapOrder</a> ()=default</td></tr>
+<tr class="separator:a39be8995e0cd7b1d1dd62881dfca2e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c78fcdb709764ee03994bcd9871eb6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#a2c78fcdb709764ee03994bcd9871eb6f">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:a2c78fcdb709764ee03994bcd9871eb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae1b4a3ef143fb038d3852d5f90b41d"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -144,7 +144,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af01898362ffe79e810c782120cf34223"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#af01898362ffe79e810c782120cf34223">m_object_id</a></td></tr>
+<tr class="memitem:af01898362ffe79e810c782120cf34223"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrapOrder.html#af01898362ffe79e810c782120cf34223">m_object_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:af01898362ffe79e810c782120cf34223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -163,21 +163,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the <a class="el" href="classOrder.html">Order</a> subclass that represents the scrapping / recycling / destroying a building or ship owned by an empire. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a6cb11abd2c8e1ee4238afb2cb41efd05"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScrapOrder::ScrapOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="aaf0a7f33e869d3295d6883a9f1e3176d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -200,6 +185,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a39be8995e0cd7b1d1dd62881dfca2e07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ScrapOrder::ScrapOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -358,7 +366,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ScrapOrder::m_object_id</td>
+          <td class="memname">int ScrapOrder::m_object_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>

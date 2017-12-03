@@ -44,7 +44,7 @@ var searchData=
   ['blocking_5fcombiner_2eh',['blocking_combiner.h',['../blocking__combiner_8h.html',1,'']]],
   ['blocksize',['blocksize',['../structProductionQueue_1_1Element.html#a4b9437375c2ecfa15ddfc4238e1a44dd',1,'ProductionQueue::Element::blocksize()'],['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a5c4f80a996ded543e21f917f535a11c0',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector::blocksize()']]],
   ['blocksize_5fmemory',['blocksize_memory',['../structProductionQueue_1_1Element.html#a180cc1a9c613971fdbdf8b8e1abe0bae',1,'ProductionQueue::Element']]],
-  ['bombardorder',['BombardOrder',['../classBombardOrder.html',1,'BombardOrder'],['../classBombardOrder.html#a3d2f425b955fb763feff9d33d376096b',1,'BombardOrder::BombardOrder()'],['../classBombardOrder.html#a2c096fff3f9d5b6dc1a9b90600d61fb2',1,'BombardOrder::BombardOrder(int empire, int ship, int planet)']]],
+  ['bombardorder',['BombardOrder',['../classBombardOrder.html',1,'BombardOrder'],['../classBombardOrder.html#a2c096fff3f9d5b6dc1a9b90600d61fb2',1,'BombardOrder::BombardOrder(int empire, int ship, int planet)'],['../classBombardOrder.html#a262f200e1122b2296b3130ae9a2f44cc',1,'BombardOrder::BombardOrder()=default']]],
   ['bombardtagsforship',['BombardTagsForShip',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#af86310ac7695ac0c550ceb12bffb25b8',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['bool_5f',['bool_',['../structparse_1_1lexer.html#a299522536178522781c2f5285f6644e7',1,'parse::lexer']]],
   ['bool_5fregex',['bool_regex',['../structparse_1_1lexer.html#a56920f62eb1844a89c13887ffb7f97f5',1,'parse::lexer']]],

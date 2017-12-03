@@ -111,8 +111,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a073a5e1aac70165ebf2e8f607574a668"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#a073a5e1aac70165ebf2e8f607574a668">ChangeFocusOrder</a> ()</td></tr>
-<tr class="separator:a073a5e1aac70165ebf2e8f607574a668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a046ac43fd2b7f627b525bee25a2e8556"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#a046ac43fd2b7f627b525bee25a2e8556">ChangeFocusOrder</a> (int empire, int planet, const std::string &amp;focus)</td></tr>
 <tr class="separator:a046ac43fd2b7f627b525bee25a2e8556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
@@ -134,6 +132,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a2356b55374ce85ec1e96c25a3918e2f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#a2356b55374ce85ec1e96c25a3918e2f1">ChangeFocusOrder</a> ()=default</td></tr>
+<tr class="separator:a2356b55374ce85ec1e96c25a3918e2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e2b2e52892b4e60b386f05afaf611eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#a3e2b2e52892b4e60b386f05afaf611eb">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:a3e2b2e52892b4e60b386f05afaf611eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35619c9662189d9aef92d40573f7240"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -144,7 +144,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a1aa9aec1117a0e2cc4c4849232eddae6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#a1aa9aec1117a0e2cc4c4849232eddae6">m_focus</a></td></tr>
 <tr class="separator:a1aa9aec1117a0e2cc4c4849232eddae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af91099976e0bad382b1734317faaf9fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#af91099976e0bad382b1734317faaf9fa">m_planet</a></td></tr>
+<tr class="memitem:af91099976e0bad382b1734317faaf9fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeFocusOrder.html#af91099976e0bad382b1734317faaf9fa">m_planet</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:af91099976e0bad382b1734317faaf9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -163,21 +163,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the <a class="el" href="classOrder.html">Order</a> subclass that represents changing a planet focus </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a073a5e1aac70165ebf2e8f607574a668"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ChangeFocusOrder::ChangeFocusOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a046ac43fd2b7f627b525bee25a2e8556"></a>
 <div class="memitem">
 <div class="memproto">
@@ -206,6 +191,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2356b55374ce85ec1e96c25a3918e2f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ChangeFocusOrder::ChangeFocusOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -359,7 +367,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ChangeFocusOrder::m_planet</td>
+          <td class="memname">int ChangeFocusOrder::m_planet = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>

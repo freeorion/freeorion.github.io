@@ -28,7 +28,7 @@ var searchData=
   ['blockaded',['Blockaded',['../classFleet.html#ac4f20881b74edb3b2b30fbd32eb3ae9c',1,'Fleet']]],
   ['blockadedatsystem',['BlockadedAtSystem',['../classFleet.html#aa99103c87d1b08e42cb85f42629a8833',1,'Fleet']]],
   ['blocking_5fcombiner',['blocking_combiner',['../structblocking__combiner.html#afdac49c5d473abd522ec847464533195',1,'blocking_combiner']]],
-  ['bombardorder',['BombardOrder',['../classBombardOrder.html#a3d2f425b955fb763feff9d33d376096b',1,'BombardOrder::BombardOrder()'],['../classBombardOrder.html#a2c096fff3f9d5b6dc1a9b90600d61fb2',1,'BombardOrder::BombardOrder(int empire, int ship, int planet)']]],
+  ['bombardorder',['BombardOrder',['../classBombardOrder.html#a2c096fff3f9d5b6dc1a9b90600d61fb2',1,'BombardOrder::BombardOrder(int empire, int ship, int planet)'],['../classBombardOrder.html#a262f200e1122b2296b3130ae9a2f44cc',1,'BombardOrder::BombardOrder()=default']]],
   ['bombardtagsforship',['BombardTagsForShip',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#af86310ac7695ac0c550ceb12bffb25b8',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['booloption',['BoolOption',['../classOptionsWnd.html#a88fa5fa4fd640d64a32b6af8785152b2',1,'OptionsWnd']]],
   ['boolrulechanged',['BoolRuleChanged',['../classGameRulesPanel.html#afd1f6eb26b03dae30f7902b51866403c',1,'GameRulesPanel']]],

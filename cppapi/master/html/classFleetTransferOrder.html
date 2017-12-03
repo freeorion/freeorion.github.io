@@ -111,8 +111,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
-<tr class="memitem:a2319cc5878bb74fed74b5b7818286134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#a2319cc5878bb74fed74b5b7818286134">FleetTransferOrder</a> ()</td></tr>
-<tr class="separator:a2319cc5878bb74fed74b5b7818286134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c1339372a420e5d2c113c76579a864"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#a48c1339372a420e5d2c113c76579a864">FleetTransferOrder</a> (int empire, int dest_fleet, const std::vector&lt; int &gt; &amp;ships)</td></tr>
 <tr class="separator:a48c1339372a420e5d2c113c76579a864"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
@@ -136,6 +134,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a99410fe011381dafdc3533c35d5a9bcd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#a99410fe011381dafdc3533c35d5a9bcd">FleetTransferOrder</a> ()=default</td></tr>
+<tr class="separator:a99410fe011381dafdc3533c35d5a9bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa600807156c209cd9a6d7efb58effbd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#aa600807156c209cd9a6d7efb58effbd6">ExecuteImpl</a> () const override</td></tr>
 <tr class="separator:aa600807156c209cd9a6d7efb58effbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322effc5f598b3c436f4e33d541a4e95"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
@@ -146,7 +146,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad793d004a33192b27b20e403b11a69f6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#ad793d004a33192b27b20e403b11a69f6">m_add_ships</a></td></tr>
 <tr class="separator:ad793d004a33192b27b20e403b11a69f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011f1fcaf99cc58d68e2ba209a13a195"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#a011f1fcaf99cc58d68e2ba209a13a195">m_dest_fleet</a></td></tr>
+<tr class="memitem:a011f1fcaf99cc58d68e2ba209a13a195"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetTransferOrder.html#a011f1fcaf99cc58d68e2ba209a13a195">m_dest_fleet</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="separator:a011f1fcaf99cc58d68e2ba209a13a195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -165,21 +165,6 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classOrder.html">Order</a> subclass that represents transfer of ships between existing fleets A <a class="el" href="classFleetTransferOrder.html">FleetTransferOrder</a> is used to transfer ships from one existing fleet to another. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2319cc5878bb74fed74b5b7818286134"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">FleetTransferOrder::FleetTransferOrder </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a48c1339372a420e5d2c113c76579a864"></a>
 <div class="memitem">
 <div class="memproto">
@@ -208,6 +193,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99410fe011381dafdc3533c35d5a9bcd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FleetTransferOrder::FleetTransferOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -388,7 +396,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int FleetTransferOrder::m_dest_fleet</td>
+          <td class="memname">int FleetTransferOrder::m_dest_fleet = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
         </tr>
       </table>
   </td>
