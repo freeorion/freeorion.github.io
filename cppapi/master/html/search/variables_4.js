@@ -75,5 +75,6 @@ var searchData=
   ['downpressedsignal',['DownPressedSignal',['../classMessageWndEdit.html#ab9f022adc3498aaf50a6e154ffa3281d',1,'MessageWndEdit']]],
   ['draggedsignal',['DraggedSignal',['../classTechTreeWnd_1_1LayoutPanel_1_1LayoutSurface.html#a539794ded3fb8e2e1a2c484e4621f9ca',1,'TechTreeWnd::LayoutPanel::LayoutSurface']]],
   ['dummy',['dummy',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44',1,'anonymous_namespace{CUIWnd.cpp}::dummy()'],['../namespaceanonymous__namespace_02ValueRef_8cpp_03.html#a8f2a1f8f424b1a519f40c3d85f3685e6',1,'anonymous_namespace{ValueRef.cpp}::dummy()']]],
-  ['dummy_5fempty_5fmessage',['DUMMY_EMPTY_MESSAGE',['../namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74',1,'anonymous_namespace{Message.cpp}']]]
+  ['dummy_5fempty_5fmessage',['DUMMY_EMPTY_MESSAGE',['../namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74',1,'anonymous_namespace{Message.cpp}']]],
+  ['dummy_5ffloat',['DUMMY_FLOAT',['../namespaceanonymous__namespace_02AIInterface_8cpp_03.html#ad1f759a327ba1c23e6f9f3bb9a82a75f',1,'anonymous_namespace{AIInterface.cpp}']]]
 ];
