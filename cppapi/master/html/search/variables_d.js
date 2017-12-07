@@ -810,7 +810,7 @@ var searchData=
   ['m_5fpassword_5fedit',['m_password_edit',['../classPasswordEnterWnd.html#aa09958e14a33ee258563651b2a3a4074',1,'PasswordEnterWnd']]],
   ['m_5fpassword_5fenter_5fwnd',['m_password_enter_wnd',['../classClientUI.html#a495facb598c20f9f012101c59cbe1ec3',1,'ClientUI']]],
   ['m_5fpath',['m_path',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a3fa4ac7062f2542e07e9202aecb19d70',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
-  ['m_5fpathfinder',['m_pathfinder',['../classUniverse.html#a1961dfdd20093da2355b24d8a267ed24',1,'Universe']]],
+  ['m_5fpathfinder',['m_pathfinder',['../classUniverse.html#a6d4ede3e95c2e9f4230f875de5c4d9d8',1,'Universe']]],
   ['m_5fpause',['m_pause',['../classResearchQueueOrder.html#afe9681f441c9975ca754d73245e78c0d',1,'ResearchQueueOrder::m_pause()'],['../classProductionQueueOrder.html#a7848a16466b2c2c295fceadde0c326e3',1,'ProductionQueueOrder::m_pause()']]],
   ['m_5fpaused',['m_paused',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a7ecfc60707cf2b4578d809f5cd73564f',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
   ['m_5fpedia',['m_pedia',['../classIntroScreen.html#a5345c7d68ae7c203666948fa20280803',1,'IntroScreen']]],

@@ -171,8 +171,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aadf6035c11b8b13e965e0ccf45b8678a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa77efa7358e8c65bcc3d3c41b31866dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd">InsertShipDesignID</a> (<a class="el" href="classShipDesign.html">ShipDesign</a> *ship_design, boost::optional&lt; int &gt; empire_id, int id)</td></tr>
 <tr class="separator:aa77efa7358e8c65bcc3d3c41b31866dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5cbb7218e0372d942b22d24c6538000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ae5cbb7218e0372d942b22d24c6538000">ResetUniverse</a> ()</td></tr>
-<tr class="separator:ae5cbb7218e0372d942b22d24c6538000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0375f7a806588ff1cfb45590c5e60b84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation</a> (const std::vector&lt; int &gt; &amp;empire_ids=std::vector&lt; int &gt;())</td></tr>
 <tr class="separator:a0375f7a806588ff1cfb45590c5e60b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a89fc4b3d5798b75a5cb49c7d9820ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear</a> ()</td></tr>
@@ -372,8 +370,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acfaea7299d768dd0941baeab59a04261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a></td></tr>
 <tr class="memdesc:acfaea7299d768dd0941baeab59a04261"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from object id to UniverseObjects in the universe. for the server: all of them, up to date and true information about object is stored; for clients, only limited information based on what the client knows about is sent.  <a href="#acfaea7299d768dd0941baeab59a04261">More...</a><br /></td></tr>
 <tr class="separator:acfaea7299d768dd0941baeab59a04261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1961dfdd20093da2355b24d8a267ed24"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classPathfinder.html">Pathfinder</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a1961dfdd20093da2355b24d8a267ed24">m_pathfinder</a></td></tr>
-<tr class="separator:a1961dfdd20093da2355b24d8a267ed24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4ede3e95c2e9f4230f875de5c4d9d8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classPathfinder.html">Pathfinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6d4ede3e95c2e9f4230f875de5c4d9d8">m_pathfinder</a></td></tr>
+<tr class="separator:a6d4ede3e95c2e9f4230f875de5c4d9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e4d09a8651b89e59a3098b1ffe3fd13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html#ab0e0cd30dd4c0095bc8de7a2f5aca543">ShipDesignMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a></td></tr>
 <tr class="memdesc:a8e4d09a8651b89e59a3098b1ffe3fd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">ship designs in the universe  <a href="#a8e4d09a8651b89e59a3098b1ffe3fd13">More...</a><br /></td></tr>
 <tr class="separator:a8e4d09a8651b89e59a3098b1ffe3fd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1074,9 +1072,9 @@ Accessors</h2></td></tr>
 </div><div class="memdoc">
 <p>Clears main <a class="el" href="classObjectMap.html">ObjectMap</a>, empires' latest known objects map, and <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> map. </p>
 
-<p>References <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">ObjectMap::Clear()</a>, <a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#a770e650e8e48019722452135ce96be74">m_effect_accounting_map</a>, <a class="el" href="classUniverse.html#a9d1bee645b1792a651e2aaa8c3f39a3b">m_effect_discrepancy_map</a>, <a class="el" href="classUniverse.html#afe7c66f52cb1247aa4b708747d77a66e">m_empire_known_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#aeff25698819fadf8378f60b60888f850">m_empire_known_ship_design_ids</a>, <a class="el" href="classUniverse.html#a8df25a337c376fe527a228bbc60c17ee">m_empire_latest_known_objects</a>, <a class="el" href="classUniverse.html#acd2e7ba301695fba7d9c66b54e8bc918">m_empire_object_visibility</a>, <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>, <a class="el" href="classUniverse.html#aeccaf7cfe01d032f06894b90ad3c1ccb">m_empire_object_visible_specials</a>, <a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a>, <a class="el" href="classUniverse.html#a11da821841f623337fdb42e791bb9cdf">m_marked_destroyed</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, and <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>.</p>
+<p>References <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">ObjectMap::Clear()</a>, <a class="el" href="classSpeciesManager.html#af5f4517596ba2277867baf70e4225b83">SpeciesManager::ClearSpeciesHomeworlds()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#a770e650e8e48019722452135ce96be74">m_effect_accounting_map</a>, <a class="el" href="classUniverse.html#a9d1bee645b1792a651e2aaa8c3f39a3b">m_effect_discrepancy_map</a>, <a class="el" href="classUniverse.html#acd23809b3548b865839984cab39123c2">m_effect_specified_empire_object_visibilities</a>, <a class="el" href="classUniverse.html#afe7c66f52cb1247aa4b708747d77a66e">m_empire_known_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#aeff25698819fadf8378f60b60888f850">m_empire_known_ship_design_ids</a>, <a class="el" href="classUniverse.html#a8df25a337c376fe527a228bbc60c17ee">m_empire_latest_known_objects</a>, <a class="el" href="classUniverse.html#acd2e7ba301695fba7d9c66b54e8bc918">m_empire_object_visibility</a>, <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>, <a class="el" href="classUniverse.html#aeccaf7cfe01d032f06894b90ad3c1ccb">m_empire_object_visible_specials</a>, <a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a>, <a class="el" href="classUniverse.html#a11da821841f623337fdb42e791bb9cdf">m_marked_destroyed</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a6d4ede3e95c2e9f4230f875de5c4d9d8">m_pathfinder</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, <a class="el" href="classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7">m_stat_records</a>, <a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a>, and <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>.</p>
 
-<p>Referenced by <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="classHumanClientApp.html#a82c1d63c6ab53380b3f45a8ea0248d82">HumanClientApp::ResetClientData()</a>, <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>, and <a class="el" href="classUniverse.html#a7723438c7fa497defb4c82ac975152b2">~Universe()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="classHumanClientApp.html#a82c1d63c6ab53380b3f45a8ea0248d82">HumanClientApp::ResetClientData()</a>, <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>, and <a class="el" href="classUniverse.html#a7723438c7fa497defb4c82ac975152b2">~Universe()</a>.</p>
 
 </div>
 </div>
@@ -2690,26 +2688,6 @@ template&lt;typename T , typename... Args&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae5cbb7218e0372d942b22d24c6538000"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Universe::ResetUniverse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Inserts <em>ship_design</em> into the universe. Return true on success. The ship design's id will be the newly assigned id. </p><dl class="section note"><dt>Note</dt><dd><a class="el" href="classUniverse.html">Universe</a> gains ownership of <em>ship_design</em> once inserted. </dd></dl>
-
-<p>References <a class="el" href="classSpeciesManager.html#af5f4517596ba2277867baf70e4225b83">SpeciesManager::ClearSpeciesHomeworlds()</a>, and <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>.</p>
-
-<p>Referenced by <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a0d9e8c0ff6a3c34baf2101aedac6ecce"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3488,7 +3466,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, and <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>.</p>
 
 </div>
 </div>
@@ -3819,7 +3797,7 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1961dfdd20093da2355b24d8a267ed24"></a>
+<a class="anchor" id="a6d4ede3e95c2e9f4230f875de5c4d9d8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3827,7 +3805,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classPathfinder.html">Pathfinder</a>&gt; const Universe::m_pathfinder</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classPathfinder.html">Pathfinder</a>&gt; Universe::m_pathfinder</td>
         </tr>
       </table>
   </td>
@@ -3836,6 +3814,8 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>.</p>
 
 </div>
 </div>
@@ -3993,7 +3973,7 @@ template&lt;class Archive &gt; </div>
 
 <p>storage for statistics calculated for empires. Indexed by stat name (string), contains a map indexed by empire id, contains a map from turn number (int) to stat value (double). </p>
 
-<p>Referenced by <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, and <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
 
 </div>
 </div>
@@ -4015,7 +3995,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
+<p>Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, and <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">serialize()</a>.</p>
 
 </div>
 </div>
