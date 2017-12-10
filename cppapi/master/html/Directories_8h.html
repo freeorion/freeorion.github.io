@@ -138,6 +138,8 @@ Functions</h2></td></tr>
 <tr class="separator:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adca65662bde86375b3da3b61e33184ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt; boost::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#adca65662bde86375b3da3b61e33184ca">ListDir</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:adca65662bde86375b3da3b61e33184ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac49d1a6f7c928ebef75f76f710ef2bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt; boost::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aac49d1a6f7c928ebef75f76f710ef2bd">PathsInDir</a> (const boost::filesystem::path &amp;abs_dir_path, std::function&lt; bool(const boost::filesystem::path &amp;)&gt; pred, bool recursive_search)</td></tr>
+<tr class="separator:aac49d1a6f7c928ebef75f76f710ef2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3aca236790419c43975c50735c3dce0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ab3aca236790419c43975c50735c3dce0">PathToString</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ab3aca236790419c43975c50735c3dce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2f9f81693b103e2318e01c52872ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ade2f9f81693b103e2318e01c52872ad7">RelativePath</a> (const boost::filesystem::path &amp;from, const boost::filesystem::path &amp;to)</td></tr>
@@ -521,6 +523,48 @@ This directory can be considered writable!</li>
       </table>
 </div><div class="memdoc">
 <p>Returns a vector of files within <em>path</em> including a recursive search though sub-dirs </p>
+
+</div>
+</div>
+<a class="anchor" id="aac49d1a6f7c928ebef75f76f710ef2bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt;boost::filesystem::path&gt; PathsInDir </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>abs_dir_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const boost::filesystem::path &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>pred</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>recursive_search</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>All paths contained in a directory filtered by a functor</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">abs_dir_path</td><td>Absolute path to directory </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pred</td><td>Predicate functor accepting a boost::filesystem::path constant reference </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">recursive_search</td><td>If true, recurses into sub-directories</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector List of filesytem objects found in <code>abs_dir_path</code> which satisfy <code>pred</code> </dd></dl>
 
 </div>
 </div>

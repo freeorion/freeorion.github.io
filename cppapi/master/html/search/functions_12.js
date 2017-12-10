@@ -140,6 +140,7 @@ var searchData=
   ['replaceinstring',['ReplaceInString',['../Hotkeys_8cpp.html#ab485cdbcc88e89b003506bb60cb2a16d',1,'Hotkeys.cpp']]],
   ['replotprojectedfleetmovement',['ReplotProjectedFleetMovement',['../classMapWnd.html#a36ad17ac4ba434c1009ecc7127ef4c35',1,'MapWnd']]],
   ['reportattackabilityoftarget',['ReportAttackabilityOfTarget',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a32325e09d3df3344cb67add7e88868c6',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
+  ['reportedspeciesforplanet',['ReportedSpeciesForPlanet',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a4c0b0e3973c743e5d54b4fcfc97ef1a0',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['reportfileerror',['ReportFileError',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#aec642a6443d959bf182eeee4b98c24f8',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['reportinvalidtargets',['ReportInvalidTargets',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a80f5e95bfc29dfff6872775950311340',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['reportinvisibleobjects',['ReportInvisibleObjects',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ac98770249a6b0fa1661632654ac28c2c',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
