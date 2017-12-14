@@ -103,7 +103,6 @@ var searchData=
   ['clampcurrenttorange',['ClampCurrentToRange',['../classMeter.html#a8fc3766418a70e847f44b48474c206d3',1,'Meter']]],
   ['clampmeters',['ClampMeters',['../classField.html#ad5246efb7ddede8d78f65ae7708b8440',1,'Field::ClampMeters()'],['../classPlanet.html#ad6ab924f74acf9fb4d4edf66469efe14',1,'Planet::ClampMeters()'],['../classShip.html#a60fb51787881cee2a86211db08e100b4',1,'Ship::ClampMeters()'],['../classUniverseObject.html#a2203c0775de60b7b65c6d7fc73493888',1,'UniverseObject::ClampMeters()']]],
   ['class',['Class',['../classPartType.html#a6440ff70867319b77150c2eb9df4875a',1,'PartType']]],
-  ['classifyhotkeys',['ClassifyHotkeys',['../classHotkey.html#ae9cbf1dd6147c3718bc7980a27ff86f7',1,'Hotkey']]],
   ['cleanempires',['CleanEmpires',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8886135120ec2f44d042e19f5bb75ce3',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['cleanemptyfleets',['CleanEmptyFleets',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a03537e796e3f57e091175edab2863c0d',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['cleanupais',['CleanupAIs',['../classServerApp.html#a494b4b725c695e6e1578879f84279341',1,'ServerApp']]],
