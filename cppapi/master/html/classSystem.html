@@ -315,8 +315,8 @@ Accessors</h2></td></tr>
 <tr class="separator:a6daaaf61a170d74b1a969777c5dd9e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4579332df4e1f4a838c5fe65fe081a7"><td class="memItemLeft" align="right" valign="top">UniverseObjectType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#af4579332df4e1f4a838c5fe65fe081a7">ObjectType</a> () const override</td></tr>
 <tr class="separator:af4579332df4e1f4a838c5fe65fe081a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7931415c35cf6c53d6dc9c9952a9b77e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump</a> () const override</td></tr>
-<tr class="separator:a7931415c35cf6c53d6dc9c9952a9b77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7985ab2cf269bb6cb8609f7bbe2a847"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump</a> (unsigned short ntabs=0) const override</td></tr>
+<tr class="separator:ac7985ab2cf269bb6cb8609f7bbe2a847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74b758846323682f2a3381f84c3c24b"><td class="memItemLeft" align="right" valign="top">const std::set&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">ContainedObjectIDs</a> () const override</td></tr>
 <tr class="separator:af74b758846323682f2a3381f84c3c24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaecfbbbe9c0e6d6308483fbf96b6fc7f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">Contains</a> (int object_id) const override</td></tr>
@@ -894,7 +894,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7931415c35cf6c53d6dc9c9952a9b77e"></a>
+<a class="anchor" id="ac7985ab2cf269bb6cb8609f7bbe2a847"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -904,7 +904,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">std::string System::Dump </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>ntabs</em> = <code>0</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -916,9 +917,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>fleets are inserted into system </p>
 
-<p>Reimplemented from <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject</a>.</p>
+<p>Reimplemented from <a class="el" href="classUniverseObject.html#a5941904fa39256e021ea9124bc6f65d3">UniverseObject</a>.</p>
 
-<p>References <a class="el" href="classUniverseObject.html#a1061eab5c22f3f3e245f2a093d478e63">UniverseObject::Dump()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classSystem.html#a8fe17deecfa92c96e17f43579025fe81">m_last_turn_battle_here</a>, <a class="el" href="classSystem.html#aa3cf1d27b8e4bf67599e79beb08a2846">m_objects</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, and <a class="el" href="classSystem.html#ab2288e3c8f22560d28bb6bb427514ee4">m_starlanes_wormholes</a>.</p>
+<p>References <a class="el" href="classUniverseObject.html#a5941904fa39256e021ea9124bc6f65d3">UniverseObject::Dump()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classSystem.html#a8fe17deecfa92c96e17f43579025fe81">m_last_turn_battle_here</a>, <a class="el" href="classSystem.html#aa3cf1d27b8e4bf67599e79beb08a2846">m_objects</a>, <a class="el" href="classSystem.html#a761f7008f4316b1cf57a9245973c5629">m_orbits</a>, <a class="el" href="classSystem.html#a5c06b5dd285057590bfc3ec312130500">m_star</a>, and <a class="el" href="classSystem.html#ab2288e3c8f22560d28bb6bb427514ee4">m_starlanes_wormholes</a>.</p>
 
 </div>
 </div>
@@ -2009,7 +2010,7 @@ template&lt;class T &gt; </div>
 
 <p>the turn on which there was last a battle in this system </p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, and <a class="el" href="classSystem.html#a6b72fb5eb4ca3c8a2edf8bddeb37aaf8">SetLastTurnBattleHere()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump()</a>, and <a class="el" href="classSystem.html#a6b72fb5eb4ca3c8a2edf8bddeb37aaf8">SetLastTurnBattleHere()</a>.</p>
 
 </div>
 </div>
@@ -2031,7 +2032,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">ContainedObjectIDs()</a>, <a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">Contains()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, and <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a72dd25883aeee177c3e20c58dde87ec3">ObjectMap::AuditContainment()</a>, <a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">ContainedObjectIDs()</a>, <a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">Contains()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, and <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>.</p>
 
 </div>
 </div>
@@ -2055,7 +2056,7 @@ template&lt;class T &gt; </div>
 
 <p>indexed by orbit number, indicates the id of the planet in that orbit </p>
 
-<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#a15130528b2222715e927d4507379d4e9">FreeOrbits()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, <a class="el" href="classSystem.html#a66738619c2727a1ccf83d93abab192b9">OrbitOccupied()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">OrbitOfPlanet()</a>, <a class="el" href="classSystem.html#acdb5fcfe86a736fb92b4cf1707fe9dc3">PlanetInOrbit()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#a45dd76c3c215e5253ab112d8d40ec0ff">System()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump()</a>, <a class="el" href="classSystem.html#a15130528b2222715e927d4507379d4e9">FreeOrbits()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">Insert()</a>, <a class="el" href="classSystem.html#a66738619c2727a1ccf83d93abab192b9">OrbitOccupied()</a>, <a class="el" href="classSystem.html#a2645d7ac54bc3e48a68ff5875bc0f66d">OrbitOfPlanet()</a>, <a class="el" href="classSystem.html#acdb5fcfe86a736fb92b4cf1707fe9dc3">PlanetInOrbit()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">Remove()</a>, and <a class="el" href="classSystem.html#a45dd76c3c215e5253ab112d8d40ec0ff">System()</a>.</p>
 
 </div>
 </div>
@@ -2165,7 +2166,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSystem.html#a66c301365362aa528c088eeb48513566">ApparentName()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#a07f8a0b42355fa05b68b10007d53d5c6">NextOlderStarType()</a>, <a class="el" href="classSystem.html#a6a6ecfaab1c461b4fd9635d2f8e20ec0">NextYoungerStarType()</a>, <a class="el" href="classSystem.html#ab797738fadfd5ff409cf7b82f41738eb">SetStarType()</a>, and <a class="el" href="classSystem.html#a45dd76c3c215e5253ab112d8d40ec0ff">System()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#a66c301365362aa528c088eeb48513566">ApparentName()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump()</a>, <a class="el" href="classSystem.html#a07f8a0b42355fa05b68b10007d53d5c6">NextOlderStarType()</a>, <a class="el" href="classSystem.html#a6a6ecfaab1c461b4fd9635d2f8e20ec0">NextYoungerStarType()</a>, <a class="el" href="classSystem.html#ab797738fadfd5ff409cf7b82f41738eb">SetStarType()</a>, and <a class="el" href="classSystem.html#a45dd76c3c215e5253ab112d8d40ec0ff">System()</a>.</p>
 
 </div>
 </div>
@@ -2189,7 +2190,7 @@ template&lt;class T &gt; </div>
 
 <p>the ints represent the IDs of other connected systems; the bools indicate whether the connection is a wormhole (true) or a starlane (false) </p>
 
-<p>Referenced by <a class="el" href="classSystem.html#aed8292158983992b44abd2efc5bec4bf">AddStarlane()</a>, <a class="el" href="classSystem.html#a59813624c3676074d6b977eedeb42219">AddWormhole()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#a7931415c35cf6c53d6dc9c9952a9b77e">Dump()</a>, <a class="el" href="classSystem.html#aca7093e0278c7bc740326e2b14c2fde0">HasStarlaneTo()</a>, <a class="el" href="classSystem.html#a6d92776e154ac1b3ef9c0205fbd21642">HasWormholeTo()</a>, <a class="el" href="classSystem.html#a8d89fde00bada266184c8d55cad71cf2">NumStarlanes()</a>, <a class="el" href="classSystem.html#a4b85d8ceca07daa4a33800c1d16b6d68">NumWormholes()</a>, <a class="el" href="classSystem.html#a5ac819186255df2cf5cacaf5370a4603">RemoveStarlane()</a>, <a class="el" href="classSystem.html#a6a5d1d56b9dbc1663d557d741b7fd2d9">RemoveWormhole()</a>, <a class="el" href="classSystem.html#a3a5ebcaf96b64579704899a4cdbcec83">StarlanesWormholes()</a>, and <a class="el" href="classSystem.html#a2efb9cffc9d0206031ea94eaebf46d3c">VisibleStarlanesWormholes()</a>.</p>
+<p>Referenced by <a class="el" href="classSystem.html#aed8292158983992b44abd2efc5bec4bf">AddStarlane()</a>, <a class="el" href="classSystem.html#a59813624c3676074d6b977eedeb42219">AddWormhole()</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">Copy()</a>, <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">Dump()</a>, <a class="el" href="classSystem.html#aca7093e0278c7bc740326e2b14c2fde0">HasStarlaneTo()</a>, <a class="el" href="classSystem.html#a6d92776e154ac1b3ef9c0205fbd21642">HasWormholeTo()</a>, <a class="el" href="classSystem.html#a8d89fde00bada266184c8d55cad71cf2">NumStarlanes()</a>, <a class="el" href="classSystem.html#a4b85d8ceca07daa4a33800c1d16b6d68">NumWormholes()</a>, <a class="el" href="classSystem.html#a5ac819186255df2cf5cacaf5370a4603">RemoveStarlane()</a>, <a class="el" href="classSystem.html#a6a5d1d56b9dbc1663d557d741b7fd2d9">RemoveWormhole()</a>, <a class="el" href="classSystem.html#a3a5ebcaf96b64579704899a4cdbcec83">StarlanesWormholes()</a>, and <a class="el" href="classSystem.html#a2efb9cffc9d0206031ea94eaebf46d3c">VisibleStarlanesWormholes()</a>.</p>
 
 </div>
 </div>

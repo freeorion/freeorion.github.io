@@ -197,8 +197,8 @@ Accessors</h2></td></tr>
 <tr class="memitem:a7c7dc50e5f78cc7fc96253de97a3fbfc"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#a7c7dc50e5f78cc7fc96253de97a3fbfc">FocusIcon</a> (const std::string &amp;focus_name) const </td></tr>
 <tr class="memdesc:a7c7dc50e5f78cc7fc96253de97a3fbfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">icon representing focus with name <em>focus_name</em> for this <a class="el" href="classResourceCenter.html">ResourceCenter</a>  <a href="#a7c7dc50e5f78cc7fc96253de97a3fbfc">More...</a><br /></td></tr>
 <tr class="separator:a7c7dc50e5f78cc7fc96253de97a3fbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23a9d08750354be03722e04be5d34cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#ab23a9d08750354be03722e04be5d34cb">Dump</a> () const </td></tr>
-<tr class="separator:ab23a9d08750354be03722e04be5d34cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa9d5e6cccac892956ed4f34407ab158"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#afa9d5e6cccac892956ed4f34407ab158">Dump</a> (unsigned short ntabs=0) const </td></tr>
+<tr class="separator:afa9d5e6cccac892956ed4f34407ab158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac067b9deb80554ca5b9d0d588cc66436"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#ac067b9deb80554ca5b9d0d588cc66436">InitialMeterValue</a> (MeterType type) const =0</td></tr>
 <tr class="memdesc:ac067b9deb80554ca5b9d0d588cc66436"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the initial value of the specified meter <em>type</em>  <a href="#ac067b9deb80554ca5b9d0d588cc66436">More...</a><br /></td></tr>
 <tr class="separator:ac067b9deb80554ca5b9d0d588cc66436"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,14 +425,15 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab23a9d08750354be03722e04be5d34cb"></a>
+<a class="anchor" id="afa9d5e6cccac892956ed4f34407ab158"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">std::string ResourceCenter::Dump </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>ntabs</em> = <code>0</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -441,7 +442,7 @@ Accessors</h2></td></tr>
 
 <p>References <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, and <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>.</p>
 
-<p>Referenced by <a class="el" href="classPlanet.html#ab8be07fa72564cf6b9c5e4e2d48239f9">Planet::Dump()</a>, and <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
+<p>Referenced by <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Planet::Dump()</a>, and <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
 
 </div>
 </div>
@@ -861,7 +862,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>Resets the meters, etc. This should be called when a <a class="el" href="classResourceCenter.html">ResourceCenter</a> is wiped out due to starvation, etc. </p>
 
-<p>References <a class="el" href="classResourceCenter.html#ac6953caf25ee60712cafb930ac313ce5">AvailableFoci()</a>, <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="classResourceCenter.html#ab23a9d08750354be03722e04be5d34cb">Dump()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>, and <a class="el" href="classResourceCenter.html#a23d9be45aea97bbbd4fe58b04f79c1c4">ResourceCenterChangedSignal</a>.</p>
+<p>References <a class="el" href="classResourceCenter.html#ac6953caf25ee60712cafb930ac313ce5">AvailableFoci()</a>, <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="classResourceCenter.html#afa9d5e6cccac892956ed4f34407ab158">Dump()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>, and <a class="el" href="classResourceCenter.html#a23d9be45aea97bbbd4fe58b04f79c1c4">ResourceCenterChangedSignal</a>.</p>
 
 <p>Referenced by <a class="el" href="classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630">Planet::Colonize()</a>.</p>
 
@@ -946,7 +947,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ab23a9d08750354be03722e04be5d34cb">Dump()</a>, <a class="el" href="classResourceCenter.html#a81aa4e7e1220be6dfa911843a89b9933">Focus()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p>Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#afa9d5e6cccac892956ed4f34407ab158">Dump()</a>, <a class="el" href="classResourceCenter.html#a81aa4e7e1220be6dfa911843a89b9933">Focus()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>
@@ -990,7 +991,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ab23a9d08750354be03722e04be5d34cb">Dump()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, <a class="el" href="classResourceCenter.html#aae36c3769040b99b4fee6095eca31d2a">TurnsSinceFocusChange()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p>Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#afa9d5e6cccac892956ed4f34407ab158">Dump()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, <a class="el" href="classResourceCenter.html#aae36c3769040b99b4fee6095eca31d2a">TurnsSinceFocusChange()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>
