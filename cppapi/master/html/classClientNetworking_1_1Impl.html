@@ -122,6 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a690d38e6554452959f5eacefbd0e1dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af102b2e4e6d95ea76a61bfce6d182b08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#af102b2e4e6d95ea76a61bfce6d182b08">PlayerIsHost</a> (int player_id) const </td></tr>
 <tr class="separator:af102b2e4e6d95ea76a61bfce6d182b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab05b8e24cc318bb7d105ca7c9e48ad3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aab05b8e24cc318bb7d105ca7c9e48ad3">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
+<tr class="separator:aab05b8e24cc318bb7d105ca7c9e48ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c">ClientNetworking::ServerNames</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames</a> ()</td></tr>
 <tr class="separator:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace8da404447a6ccc0dc207433c7582a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73f0b072dce2b23af04b81e7a2613fb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a73f0b072dce2b23af04b81e7a2613fb0">SetHostPlayerID</a> (int host_player_id)</td></tr>
 <tr class="separator:a73f0b072dce2b23af04b81e7a2613fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94859f2f3b7b7f90300c7fdded626516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a94859f2f3b7b7f90300c7fdded626516">AuthorizationRoles</a> ()</td></tr>
+<tr class="separator:a94859f2f3b7b7f90300c7fdded626516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -183,6 +187,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a49cfbf5b1076df85dd411ef6b5357ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e7b2d9b5bfd937792ea2d254e536f1c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a6e7b2d9b5bfd937792ea2d254e536f1c">m_player_id</a></td></tr>
 <tr class="separator:a6e7b2d9b5bfd937792ea2d254e536f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfdec872723fcd7409d80e52f4211eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aadfdec872723fcd7409d80e52f4211eb">m_roles</a></td></tr>
+<tr class="separator:aadfdec872723fcd7409d80e52f4211eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b7901805295a2df41e31447b98d3a0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a></td></tr>
 <tr class="separator:a8b7901805295a2df41e31447b98d3a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b04c714787953eeb24e79d809470017"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::tcp::socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a></td></tr>
@@ -273,6 +279,24 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a4676eeb2dc1bbd77051305fe3d2d91e9">HandleMessageWrite()</a>, <a class="el" href="Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac">HeaderToBuffer()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a13834ccd3824ebb00877d41e58773cdb">m_outgoing_header</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a49cfbf5b1076df85dd411ef6b5357ef8">m_outgoing_messages</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a4676eeb2dc1bbd77051305fe3d2d91e9">HandleMessageWrite()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ad0d55434741fde1ba412d46acb361c02">SendMessageImpl()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94859f2f3b7b7f90300c7fdded626516"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp; ClientNetworking::Impl::AuthorizationRoles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get authorization roles access. </p>
+
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aadfdec872723fcd7409d80e52f4211eb">m_roles</a>.</p>
 
 </div>
 </div>
@@ -624,6 +648,25 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aff65bf72d525ae61856d493741c023b8">DisconnectFromServerImpl()</a>, <a class="el" href="classMessage.html#ab3961b2922cc639cca899fb01b98bd29">Message::HeaderBufferSize</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a13834ccd3824ebb00877d41e58773cdb">m_outgoing_header</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a49cfbf5b1076df85dd411ef6b5357ef8">m_outgoing_messages</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab05b8e24cc318bb7d105ca7c9e48ad3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ClientNetworking::Impl::HasAuthRole </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a>&#160;</td>
+          <td class="paramname"><em>role</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if the client has some authorization <em>role</em>. </p>
+
+<p>References <a class="el" href="classNetworking_1_1AuthRoles.html#ad0b848787420b63c38898cab737163e3">Networking::AuthRoles::HasRole()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aadfdec872723fcd7409d80e52f4211eb">m_roles</a>.</p>
 
 </div>
 </div>
@@ -1049,6 +1092,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a6fcdcfce6ee00a44af11624af78f42ca">PlayerID()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ace8da404447a6ccc0dc207433c7582a2">SetPlayerID()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aadfdec872723fcd7409d80e52f4211eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> ClientNetworking::Impl::m_roles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a94859f2f3b7b7f90300c7fdded626516">AuthorizationRoles()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#aab05b8e24cc318bb7d105ca7c9e48ad3">HasAuthRole()</a>.</p>
 
 </div>
 </div>

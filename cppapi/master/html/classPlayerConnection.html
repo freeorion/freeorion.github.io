@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d127a10aa734597571b742a747f2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a078b87bd1d7e216687553b4b7a482e45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a078b87bd1d7e216687553b4b7a482e45">IsAuthenticated</a> () const </td></tr>
 <tr class="separator:a078b87bd1d7e216687553b4b7a482e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938924cb298a61d971b66b9842b25e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a938924cb298a61d971b66b9842b25e93">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
+<tr class="separator:a938924cb298a61d971b66b9842b25e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607">Start</a> ()</td></tr>
 <tr class="separator:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +149,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7cf28d963ce614a1f835325ecb53ebf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf074ba70f1e32188760ad20c8c28570"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#acf074ba70f1e32188760ad20c8c28570">SetAuthenticated</a> ()</td></tr>
 <tr class="separator:acf074ba70f1e32188760ad20c8c28570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34dd0e63389447fba12729d3136118b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad34dd0e63389447fba12729d3136118b">SetAuthRoles</a> (const std::initializer_list&lt; <a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> &gt; &amp;roles)</td></tr>
+<tr class="separator:ad34dd0e63389447fba12729d3136118b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role, bool value=true)</td></tr>
+<tr class="separator:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -197,6 +203,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1a00db9760ab9eda7a63eb388a7f3e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3baefcd4f354ee8b0fb8d253cb16a8b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ab3baefcd4f354ee8b0fb8d253cb16a8b">m_player_name</a></td></tr>
 <tr class="separator:ab3baefcd4f354ee8b0fb8d253cb16a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5dbfada4795d274f55f1c27dd513e10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a></td></tr>
+<tr class="separator:ac5dbfada4795d274f55f1c27dd513e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00409a3c89b919b8f9869f4abd36e280"><td class="memItemLeft" align="right" valign="top">boost::asio::io_service &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a00409a3c89b919b8f9869f4abd36e280">m_service</a></td></tr>
 <tr class="separator:a00409a3c89b919b8f9869f4abd36e280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389b5835690ae325bb2a33c7448c462d"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::tcp::socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a389b5835690ae325bb2a33c7448c462d">m_socket</a></td></tr>
@@ -563,6 +571,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a938924cb298a61d971b66b9842b25e93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerConnection::HasAuthRole </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a>&#160;</td>
+          <td class="paramname"><em>role</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if the player has a some role </p>
+
+<p>References <a class="el" href="classNetworking_1_1AuthRoles.html#ad0b848787420b63c38898cab737163e3">Networking::AuthRoles::HasRole()</a>, and <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a078b87bd1d7e216687553b4b7a482e45"></a>
 <div class="memitem">
 <div class="memproto">
@@ -723,6 +750,8 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classPlayerConnection.html#af053f4d9d4ece1bf2d08cbe419195241">SyncWriteMessage()</a>.</p>
 
+<p>Referenced by <a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole()</a>, and <a class="el" href="classPlayerConnection.html#ad34dd0e63389447fba12729d3136118b">SetAuthRoles()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="acf074ba70f1e32188760ad20c8c28570"></a>
@@ -740,6 +769,54 @@ Friends</h2></td></tr>
 <p>Sets authenticated status for connection. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8">m_authenticated</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6bccdbcb49052b7cc4e300ad184584d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::SetAuthRole </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a>&#160;</td>
+          <td class="paramname"><em>role</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets or unset authorizaion role and send message to client. </p>
+
+<p>References <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>, <a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage()</a>, <a class="el" href="Message_8cpp.html#aee3ccc1b6073d3fbcfad380d4244b0d1">SetAuthorizationRolesMessage()</a>, and <a class="el" href="classNetworking_1_1AuthRoles.html#aefd14af89568c244b2d7846d77f40183">Networking::AuthRoles::SetRole()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad34dd0e63389447fba12729d3136118b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::SetAuthRoles </td>
+          <td>(</td>
+          <td class="paramtype">const std::initializer_list&lt; <a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>roles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets authorization roles and send message to client. </p>
+
+<p>References <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>, <a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage()</a>, and <a class="el" href="Message_8cpp.html#aee3ccc1b6073d3fbcfad380d4244b0d1">SetAuthorizationRolesMessage()</a>.</p>
 
 </div>
 </div>
@@ -1091,6 +1168,28 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>, <a class="el" href="classPlayerConnection.html#a3d127a10aa734597571b742a747f2f21">IsEstablished()</a>, and <a class="el" href="classPlayerConnection.html#af995de267d22012908cee219278afbb4">PlayerName()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5dbfada4795d274f55f1c27dd513e10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> PlayerConnection::m_roles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPlayerConnection.html#a938924cb298a61d971b66b9842b25e93">HasAuthRole()</a>, <a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole()</a>, and <a class="el" href="classPlayerConnection.html#ad34dd0e63389447fba12729d3136118b">SetAuthRoles()</a>.</p>
 
 </div>
 </div>
