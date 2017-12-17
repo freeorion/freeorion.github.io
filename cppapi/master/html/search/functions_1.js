@@ -75,6 +75,7 @@ var searchData=
   ['addsystemset',['AddSystemSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#a4bd731680c560b92b768a61cfc9267f3',1,'anonymous_namespace{Condition.cpp}']]],
   ['addtech',['AddTech',['../classEmpire.html#a1c302cac63ca56f77fafcceea0328afe',1,'Empire']]],
   ['addtechstoqueueslot',['AddTechsToQueueSlot',['../classResearchWnd.html#a4dee0002e1aaed1e577462e2e0a65fd7',1,'ResearchWnd']]],
+  ['addtechtoresearchqueue',['AddTechToResearchQueue',['../classTechTreeWnd.html#ac210470e8cc2fc71750063b9c98af821',1,'TechTreeWnd']]],
   ['addtocurrent',['AddToCurrent',['../classMeter.html#a4cbad077fb77f618cb03a8565614f4ff',1,'Meter']]],
   ['addtosyspath',['AddToSysPath',['../classPythonBase.html#a030c412ce60b196602141b2fa36218e6',1,'PythonBase']]],
   ['addtraitbypassoption',['AddTraitBypassOption',['../namespaceanonymous__namespace_02AIClientApp_8cpp_03.html#a687da3967183a555d80389eb0c59efda',1,'anonymous_namespace{AIClientApp.cpp}']]],

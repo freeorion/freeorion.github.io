@@ -89,7 +89,6 @@ var searchData=
   ['buildingtypesowned',['BuildingTypesOwned',['../classEmpire.html#a9c51d1ca3bf3f478aa2d585dac8b13ce',1,'Empire']]],
   ['buildingtypesproduced',['BuildingTypesProduced',['../classEmpire.html#a16fcab579b0b2bd13072b3a73dbc0f39',1,'Empire']]],
   ['buildingtypesscrapped',['BuildingTypesScrapped',['../classEmpire.html#afaa6f398d6621ac8e69c826f0f020695',1,'Empire']]],
-  ['builditemdoubleclicked',['BuildItemDoubleClicked',['../classBuildDesignatorWnd_1_1BuildSelector.html#a005d28fc8ccf588d513e6c6bc71bb1fe',1,'BuildDesignatorWnd::BuildSelector']]],
   ['builditemleftclicked',['BuildItemLeftClicked',['../classBuildDesignatorWnd_1_1BuildSelector.html#a539d1b61479c5e33243e70a032e84eb1',1,'BuildDesignatorWnd::BuildSelector']]],
   ['builditemrequested',['BuildItemRequested',['../classBuildDesignatorWnd.html#a0f5cc6650becf35f369a4d2730ebd766',1,'BuildDesignatorWnd']]],
   ['builditemrightclicked',['BuildItemRightClicked',['../classBuildDesignatorWnd_1_1BuildSelector.html#a07601ae660ef7b67cbc470d65f5a2600',1,'BuildDesignatorWnd::BuildSelector']]],
