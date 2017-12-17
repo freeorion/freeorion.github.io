@@ -54,7 +54,6 @@ var searchData=
   ['empireopinions',['EmpireOpinions',['../classSpecies.html#a43874f5a0559a8ab1d64614a69f6e4eb',1,'Species']]],
   ['empireplayerid',['EmpirePlayerID',['../classClientApp.html#ac4c44fec479bd569908190eb88d16060',1,'ClientApp::EmpirePlayerID()'],['../classServerApp.html#a5d9d715e7853b50f18335f283b2c43f0',1,'ServerApp::EmpirePlayerID()'],['../namespaceAIInterface.html#aaefe5e46ff368b3b4e70ef5ed8da49eb',1,'AIInterface::EmpirePlayerID()']]],
   ['empires',['Empires',['../classClientApp.html#ace12714f0d2893d5ea07b3f640c9d471',1,'ClientApp::Empires()'],['../classServerApp.html#a414402b5d6615059625a71dc71206c5a',1,'ServerApp::Empires()'],['../classIApp.html#a4ce53c9a73c5f85be203b99ffb238165',1,'IApp::Empires()'],['../AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5',1,'Empires():&#160;AppInterface.h']]],
-  ['empireselected',['EmpireSelected',['../classModeratorActionsWnd.html#a1d6fcd57b804ce24f380bced6d76dfbb',1,'ModeratorActionsWnd']]],
   ['empiresethomeworld',['EmpireSetHomeworld',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a5fc3011563784b260f1a77aee92cf224',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['empiresetname',['EmpireSetName',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a6dfd6f066b277871622db45fd49b3b60',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['empireshipsdestroyed',['EmpireShipsDestroyed',['../classEmpire.html#a10196cd4def2c732cb5960ec6c46a2df',1,'Empire']]],
