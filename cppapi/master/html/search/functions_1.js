@@ -155,6 +155,7 @@ var searchData=
   ['assemblesystemcombatinfo',['AssembleSystemCombatInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ae6f283c380cd9b4924143b8091edcab9',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['assigningempireforid',['AssigningEmpireForID',['../classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901',1,'IDAllocator']]],
   ['associatedmetertype',['AssociatedMeterType',['../Enums_8cpp.html#a262e030d1b4b9aa5a88ae59ef8923d05',1,'AssociatedMeterType(MeterType meter_type):&#160;Enums.cpp'],['../Enums_8h.html#a2dffec8667d9f83622e9998332b3f859',1,'AssociatedMeterType(MeterType meter_type):&#160;Enums.cpp']]],
+  ['associatedmetertypes',['AssociatedMeterTypes',['../Enums_8cpp.html#aabd5e00ce2c80341aee0011f2e7a8e95',1,'AssociatedMeterTypes():&#160;Enums.cpp'],['../Enums_8h.html#a7c6f1fcb0a3ecb66c5753576862e76fb',1,'AssociatedMeterTypes():&#160;Enums.cpp']]],
   ['astwithptype_5fcondition',['ASTWITHPTYPE_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae0ddd2495b50adfec44f6e4dd48b6b98',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['asyncerrorhandler',['AsyncErrorHandler',['../classPlayerConnection.html#a1501b7691439fce46dc6cb72dfa2fdb2',1,'PlayerConnection']]],
   ['asyncreadmessage',['AsyncReadMessage',['../classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee',1,'ClientNetworking::Impl::AsyncReadMessage()'],['../classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265',1,'PlayerConnection::AsyncReadMessage()']]],
