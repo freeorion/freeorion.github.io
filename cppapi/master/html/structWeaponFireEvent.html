@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>An event that describes a single attack by one object or fighter against another object or fighter.  
+ <a href="structWeaponFireEvent.html#details">More...</a></p>
+
 <p><code>#include &lt;CombatEvents.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for WeaponFireEvent:</div>
@@ -121,8 +124,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a42caa58b319036dec1fe48eaaf89440a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a42caa58b319036dec1fe48eaaf89440a">WeaponFireEvent</a> ()</td></tr>
 <tr class="separator:a42caa58b319036dec1fe48eaaf89440a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e34c081cd1abcc1a449521c3e8d85c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a99e34c081cd1abcc1a449521c3e8d85c">WeaponFireEvent</a> (int <a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a>, int <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, int <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, int <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, const std::string &amp;<a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>, const std::tuple&lt; float, float, float, float &gt; &amp;power_shield_damage_noise, int attacker_owner_id_, int target_owner_id_)</td></tr>
-<tr class="separator:a99e34c081cd1abcc1a449521c3e8d85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a91367e63c062ec031923786308397"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#ac8a91367e63c062ec031923786308397">WeaponFireEvent</a> (int <a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a>, int <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, int <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, int <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, const std::string &amp;<a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>, const std::tuple&lt; float, float, float &gt; &amp;power_shield_damage, int attacker_owner_id_, int target_owner_id_)</td></tr>
+<tr class="separator:ac8a91367e63c062ec031923786308397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf5e9db6c29f997bba0e840b8b4de46e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#adf5e9db6c29f997bba0e840b8b4de46e">~WeaponFireEvent</a> ()</td></tr>
 <tr class="separator:adf5e9db6c29f997bba0e840b8b4de46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0236f7e6d94738bae2e2f513e98b89f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#af0236f7e6d94738bae2e2f513e98b89f">AreDetailsEmpty</a> (int viewing_empire_id) const override</td></tr>
@@ -149,27 +152,25 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afc19192d857a16a49f5e2eab5eb123e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
+<tr class="memitem:afc19192d857a16a49f5e2eab5eb123e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a></td></tr>
 <tr class="separator:afc19192d857a16a49f5e2eab5eb123e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c03e60fd76b4f482ea884e333567d0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a> = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
+<tr class="memitem:a8c03e60fd76b4f482ea884e333567d0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a></td></tr>
 <tr class="separator:a8c03e60fd76b4f482ea884e333567d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902d2f96ee03fe7c2801fcc26dfdb7d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a> = -1</td></tr>
+<tr class="memitem:a902d2f96ee03fe7c2801fcc26dfdb7d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a></td></tr>
 <tr class="separator:a902d2f96ee03fe7c2801fcc26dfdb7d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46f93c8cd5cad77225bbcc73e323164d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a> = 0.0f</td></tr>
+<tr class="memitem:a46f93c8cd5cad77225bbcc73e323164d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a></td></tr>
 <tr class="separator:a46f93c8cd5cad77225bbcc73e323164d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9226ade257ac5241837bab3df5189020"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a9226ade257ac5241837bab3df5189020">noise</a> = 0.0f</td></tr>
-<tr class="separator:a9226ade257ac5241837bab3df5189020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c958e25390ab202c1d2558b277ab504"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a> = 0.0f</td></tr>
+<tr class="memitem:a5c958e25390ab202c1d2558b277ab504"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a></td></tr>
 <tr class="separator:a5c958e25390ab202c1d2558b277ab504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6efb6f6b0e41381f8c49d28d589fae9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a> = -1</td></tr>
+<tr class="memitem:a6efb6f6b0e41381f8c49d28d589fae9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a></td></tr>
 <tr class="separator:a6efb6f6b0e41381f8c49d28d589fae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3522af9f021b31cecc4f615ead146987"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a> = 0.0f</td></tr>
+<tr class="memitem:a3522af9f021b31cecc4f615ead146987"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a></td></tr>
 <tr class="separator:a3522af9f021b31cecc4f615ead146987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54214c37125bfdb280b1a318700f0459"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a> = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
+<tr class="memitem:a54214c37125bfdb280b1a318700f0459"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a></td></tr>
 <tr class="separator:a54214c37125bfdb280b1a318700f0459"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a719c6b538f8c7fddd35cda7e60138a5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a719c6b538f8c7fddd35cda7e60138a5b">target_owner_id</a> = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
+<tr class="memitem:a719c6b538f8c7fddd35cda7e60138a5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a719c6b538f8c7fddd35cda7e60138a5b">target_owner_id</a></td></tr>
 <tr class="separator:a719c6b538f8c7fddd35cda7e60138a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0525165365cad81751d91e148c88181f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a> = &quot;&quot;</td></tr>
+<tr class="memitem:a0525165365cad81751d91e148c88181f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a></td></tr>
 <tr class="separator:a0525165365cad81751d91e148c88181f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -184,7 +185,7 @@ Friends</h2></td></tr>
 <tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="structWeaponFireEvent.html">WeaponFireEvent</a> describes a single attack by one object or fighter against another object or fighter </p>
+<div class="textblock"><p>An event that describes a single attack by one object or fighter against another object or fighter. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a6d331e555fe53397056e972d590e9d80"></a>
 <div class="memitem">
@@ -226,7 +227,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a99e34c081cd1abcc1a449521c3e8d85c"></a>
+<a class="anchor" id="ac8a91367e63c062ec031923786308397"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -263,8 +264,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::tuple&lt; float, float, float, float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>power_shield_damage_noise</em>, </td>
+          <td class="paramtype">const std::tuple&lt; float, float, float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>power_shield_damage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -285,11 +286,11 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="structWeaponFireEvent.html">WeaponFireEvent</a> encodes a single attack in <code>bout</code>, <code>round</code> by <code>attacker_id</code> owned by <code>attacker_owner_id</code> on <code>target_id</code> with <code>weapon_name</code> of <code>power</code> against <code>shield</code> doing <code>damage</code>.</p>
+<p><a class="el" href="structWeaponFireEvent.html" title="An event that describes a single attack by one object or fighter against another object or fighter...">WeaponFireEvent</a> encodes a single attack in <code>bout</code>, <code>round</code> by <code>attacker_id</code> owned by <code>attacker_owner_id</code> on <code>target_id</code> with <code>weapon_name</code> of <code>power</code> against <code>shield</code> doing <code>damage</code>.</p>
 <p>If <code>shield</code> is negative that implies the weapon is shield piercing.</p>
 <p>The use of tuple in the constructor is to keep the number of parameters below 10 which is the maximum that some compilers that emulate variadic templates support. </p>
 
-<p>References <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a9226ade257ac5241837bab3df5189020">noise</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, and <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>.</p>
+<p>References <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, and <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>.</p>
 
 </div>
 </div>
@@ -398,7 +399,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCombatEvent.html#a0823071cf4d12e42a6d73d12511a0b7a">CombatEvent</a>.</p>
 
-<p>References <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="structWeaponFireEvent.html#a9226ade257ac5241837bab3df5189020">noise</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad014727f2e31b9b2fa3af23e35c719fc">anonymous_namespace{CombatEvents.cpp}::ShipPartLink()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
+<p>References <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad014727f2e31b9b2fa3af23e35c719fc">anonymous_namespace{CombatEvents.cpp}::ShipPartLink()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
 
 </div>
 </div>
@@ -425,7 +426,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="structCombatEvent.html#af4996a6c6e365e472476e99f77ce7b52">CombatEvent</a>.</p>
 
-<p>References <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, <a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a>, <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a9226ade257ac5241837bab3df5189020">noise</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
+<p>References <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, <a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a>, <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
 
 </div>
 </div>
@@ -493,7 +494,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, <a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a>, <a class="el" href="CombatLogManager_8h.html#a6dcaa9ea3b22fc89b442edbc084e0ced">BOOST_CLASS_VERSION()</a>, <a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a>, <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a9226ade257ac5241837bab3df5189020">noise</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, <a class="el" href="structWeaponFireEvent.html#a719c6b538f8c7fddd35cda7e60138a5b">target_owner_id</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
+<p>References <a class="el" href="structWeaponFireEvent.html#afc19192d857a16a49f5e2eab5eb123e5">attacker_id</a>, <a class="el" href="structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f">attacker_owner_id</a>, <a class="el" href="CombatLogManager_8h.html#a6dcaa9ea3b22fc89b442edbc084e0ced">BOOST_CLASS_VERSION()</a>, <a class="el" href="structWeaponFireEvent.html#a902d2f96ee03fe7c2801fcc26dfdb7d0">bout</a>, <a class="el" href="structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d">damage</a>, <a class="el" href="structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504">power</a>, <a class="el" href="structWeaponFireEvent.html#a6efb6f6b0e41381f8c49d28d589fae9d">round</a>, <a class="el" href="structWeaponFireEvent.html#a3522af9f021b31cecc4f615ead146987">shield</a>, <a class="el" href="structWeaponFireEvent.html#a54214c37125bfdb280b1a318700f0459">target_id</a>, <a class="el" href="structWeaponFireEvent.html#a719c6b538f8c7fddd35cda7e60138a5b">target_owner_id</a>, and <a class="el" href="structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f">weapon_name</a>.</p>
 
 </div>
 </div>
@@ -524,7 +525,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::attacker_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
+          <td class="memname">int WeaponFireEvent::attacker_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -538,7 +539,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::attacker_owner_id = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td>
+          <td class="memname">int WeaponFireEvent::attacker_owner_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -552,7 +553,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::bout = -1</td>
+          <td class="memname">int WeaponFireEvent::bout</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,26 +567,12 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float WeaponFireEvent::damage = 0.0f</td>
+          <td class="memname">float WeaponFireEvent::damage</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structWeaponFireEvent.html#aa6c56e2e82f3d989b46215f352820b81">CombatLogDescription()</a>, <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#a99e34c081cd1abcc1a449521c3e8d85c">WeaponFireEvent()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9226ade257ac5241837bab3df5189020"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float WeaponFireEvent::noise = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#a99e34c081cd1abcc1a449521c3e8d85c">WeaponFireEvent()</a>.</p>
+<p>Referenced by <a class="el" href="structWeaponFireEvent.html#aa6c56e2e82f3d989b46215f352820b81">CombatLogDescription()</a>, <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#ac8a91367e63c062ec031923786308397">WeaponFireEvent()</a>.</p>
 
 </div>
 </div>
@@ -594,12 +581,12 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float WeaponFireEvent::power = 0.0f</td>
+          <td class="memname">float WeaponFireEvent::power</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#a99e34c081cd1abcc1a449521c3e8d85c">WeaponFireEvent()</a>.</p>
+<p>Referenced by <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#ac8a91367e63c062ec031923786308397">WeaponFireEvent()</a>.</p>
 
 </div>
 </div>
@@ -608,7 +595,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::round = -1</td>
+          <td class="memname">int WeaponFireEvent::round</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -622,12 +609,12 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float WeaponFireEvent::shield = 0.0f</td>
+          <td class="memname">float WeaponFireEvent::shield</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#a99e34c081cd1abcc1a449521c3e8d85c">WeaponFireEvent()</a>.</p>
+<p>Referenced by <a class="el" href="structWeaponFireEvent.html#ab3ebfa51aa2a6ea16af47d41e9db2db2">CombatLogDetails()</a>, <a class="el" href="structWeaponFireEvent.html#a7951e839f997147c94dcdcadf0dc126a">DebugString()</a>, <a class="el" href="structWeaponFireEvent.html#af09e95a9d80830b5f2515a6878feb2f3">serialize()</a>, and <a class="el" href="structWeaponFireEvent.html#ac8a91367e63c062ec031923786308397">WeaponFireEvent()</a>.</p>
 
 </div>
 </div>
@@ -636,7 +623,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::target_id = <a class="el" href="UniverseObject_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td>
+          <td class="memname">int WeaponFireEvent::target_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -650,7 +637,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int WeaponFireEvent::target_owner_id = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td>
+          <td class="memname">int WeaponFireEvent::target_owner_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -664,7 +651,7 @@ template&lt;class Archive &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string WeaponFireEvent::weapon_name = &quot;&quot;</td>
+          <td class="memname">std::string WeaponFireEvent::weapon_name</td>
         </tr>
       </table>
 </div><div class="memdoc">
