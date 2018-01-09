@@ -50,6 +50,7 @@ var searchData=
   ['destroyed_5fobject_5fids',['destroyed_object_ids',['../structCombatLog.html#a17c4e6445d8e155d6ea4d32c7db26d1e',1,'CombatLog::destroyed_object_ids()'],['../structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa',1,'CombatInfo::destroyed_object_ids()']]],
   ['destroyed_5fobject_5fknowers',['destroyed_object_knowers',['../structCombatInfo.html#a664a8b629e2155c0d5a84dc6fcc38582',1,'CombatInfo']]],
   ['details',['details',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#ae0ab97bc5e76c1acb89145d684a5bbb2',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
+  ['detector_5fempire_5fid',['detector_empire_id',['../structVisibilityChangeEvent_1_1VisibilityChangeEventDetail.html#a1b9f330f0acf85cdb0515101eb3c3d5b',1,'VisibilityChangeEvent::VisibilityChangeEventDetail']]],
   ['diplo_5fstatus',['diplo_status',['../structDiplomaticStatusUpdateInfo.html#afd06d278f1b3dd18dc2cdce8f8771c20',1,'DiplomaticStatusUpdateInfo']]],
   ['diplomaticmessagechangedsignal',['DiplomaticMessageChangedSignal',['../classEmpireManager.html#acefdd8a720608334f2a95e2c257f8096',1,'EmpireManager']]],
   ['diplomaticstatuschangedsignal',['DiplomaticStatusChangedSignal',['../classEmpireManager.html#ab1abd73a20ffdc95a0ae3869489796cb',1,'EmpireManager']]],
