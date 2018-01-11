@@ -18,6 +18,7 @@ var searchData=
   ['operated_5fexpr',['operated_expr',['../structparse_1_1string__parser__grammar.html#ab4b0549fb8a0010cd699773a9dbc120b',1,'parse::string_parser_grammar::operated_expr()'],['../namespaceparse.html#a74099d5502550b093f956dfca23d71b4',1,'parse::operated_expr()']]],
   ['option_5fchanged_5fsig_5fptr',['option_changed_sig_ptr',['../structOptionsDB_1_1Option.html#a965e25701c17fc16668a3007f9e54927',1,'OptionsDB::Option']]],
   ['option_5fkey',['option_key',['../structOptionsBar_1_1ToggleData.html#af9c3bd804086d378f4166f6266320681',1,'OptionsBar::ToggleData']]],
+  ['option_5fpredicate',['option_predicate',['../structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270',1,'OptionsDB::OptionSection']]],
   ['optionaddedsignal',['OptionAddedSignal',['../classOptionsDB.html#ab7a6ec2d9a61f88d9d37cce2a0046dc3',1,'OptionsDB']]],
   ['optionremovedsignal',['OptionRemovedSignal',['../classOptionsDB.html#aede5bb12b315bf9574543a5f8e99a194',1,'OptionsDB']]],
   ['options_5froot',['OPTIONS_ROOT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ad87f96f6c2fe0e8844981ed9fcc47644',1,'anonymous_namespace{GraphicalSummary.cpp}']]],

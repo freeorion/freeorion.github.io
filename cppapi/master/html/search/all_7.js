@@ -421,7 +421,7 @@ var searchData=
   ['getuniversewidth',['GetUniverseWidth',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a517dbb92fb3aef765a1a8fcb4a38d1bb',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['getunusedempirecolour',['GetUnusedEmpireColour',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a0d57e3276da3741906855d8b847d86f6',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['getunvalidatedsitrepssortedbyturn',['GetUnvalidatedSitRepsSortedByTurn',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50',1,'anonymous_namespace{SitRepPanel.cpp}']]],
-  ['getusage',['GetUsage',['../classOptionsDB.html#a754274d4df099b93dfbbbc9d243e7142',1,'OptionsDB']]],
+  ['getusage',['GetUsage',['../classOptionsDB.html#a3cce362f51d94c0303a3413b7f1f8649',1,'OptionsDB']]],
   ['getuserconfigdir',['GetUserConfigDir',['../Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820',1,'Directories.h']]],
   ['getuserconfigdirwrapper',['GetUserConfigDirWrapper',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4100a304c4e76a99b4a82df542ea8f86',1,'anonymous_namespace{AIWrapper.cpp}::GetUserConfigDirWrapper()'],['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#acf049ae1a7cd25f8d54c1bc8110ed115',1,'anonymous_namespace{ServerWrapper.cpp}::GetUserConfigDirWrapper()']]],
   ['getuserdatadir',['GetUserDataDir',['../Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f',1,'Directories.h']]],

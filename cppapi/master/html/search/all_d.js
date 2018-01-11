@@ -1032,7 +1032,7 @@ var searchData=
   ['m_5fsecondary_5fstat',['m_secondary_stat',['../classPartType.html#a011e0b6dbd8aeec9df2758c2f1a5cd5d',1,'PartType']]],
   ['m_5fsection_5fnames',['m_section_names',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a12c03e4c8533ab7260101c32df25e0ba',1,'SectionedScopedTimer::Impl::Sections']]],
   ['m_5fsection_5fstart',['m_section_start',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a0d2c03957ded242db630c7b534e79e14',1,'SectionedScopedTimer::Impl::Sections']]],
-  ['m_5fsections',['m_sections',['../classSectionedScopedTimer_1_1Impl.html#a33f5611c8becb3e011968318ec5a26c9',1,'SectionedScopedTimer::Impl']]],
+  ['m_5fsections',['m_sections',['../classOptionsDB.html#af1ec4c779ad3307b25b4c9af255677b0',1,'OptionsDB::m_sections()'],['../classSectionedScopedTimer_1_1Impl.html#a33f5611c8becb3e011968318ec5a26c9',1,'SectionedScopedTimer::Impl::m_sections()']]],
   ['m_5fseed',['m_seed',['../structGalaxySetupData.html#a0b9b65f075717f1b334fe1f07edc42f5',1,'GalaxySetupData']]],
   ['m_5fseed_5fedit',['m_seed_edit',['../classGalaxySetupPanel.html#ae31940aa4d9e32ab5c78994ba0dd3069',1,'GalaxySetupPanel']]],
   ['m_5fseed_5flabel',['m_seed_label',['../classGalaxySetupPanel.html#a4835ff85d7b7d4bb6cb7469acfc83121',1,'GalaxySetupPanel']]],

@@ -35,6 +35,7 @@ var searchData=
   ['schedule_5fqueue',['schedule_queue',['../structThreadQueue.html#a950f7d289c0f9b36e624d4fc68373dad',1,'ThreadQueue']]],
   ['schedule_5fqueue_5fsize',['schedule_queue_size',['../structThreadQueue.html#a65744d730f6eb7d1041f461103eda828',1,'ThreadQueue']]],
   ['sddecl',['SDDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a528aa49877734b1a32ce6836e7b194f1',1,'anonymous_namespace{XMLDoc.cpp}']]],
+  ['sections',['sections',['../structOptionsDB_1_1Option.html#aa1bc0fd5461b33e5034bd332ef8085f8',1,'OptionsDB::Option']]],
   ['selectedfleetschangedsignal',['SelectedFleetsChangedSignal',['../classFleetWnd.html#ab13b98adf2681f18cef26567df591e39',1,'FleetWnd']]],
   ['selectedobjectschangedsignal',['SelectedObjectsChangedSignal',['../classObjectListWnd.html#ae43e68c92497dc980c390fe3ef6e73dc',1,'ObjectListWnd']]],
   ['selectedplayerschangedsignal',['SelectedPlayersChangedSignal',['../classPlayerListWnd.html#a1765722e2f4fa01329d646e62bc41dda',1,'PlayerListWnd']]],
