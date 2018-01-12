@@ -1200,7 +1200,6 @@ var searchData=
   ['m_5fstockpile_5fmax_5fuse',['m_stockpile_max_use',['../classResourceInfoPanel.html#a7cd21c70c620de10cf74779ae0ecb051',1,'ResourceInfoPanel']]],
   ['m_5fstockpile_5fmax_5fuse_5flabel',['m_stockpile_max_use_label',['../classResourceInfoPanel.html#a311126c5e84783f0099bb72a7bd345c5',1,'ResourceInfoPanel']]],
   ['m_5fstockpile_5fmax_5fuse_5fp_5flabel',['m_stockpile_max_use_P_label',['../classResourceInfoPanel.html#ad12078a2200c729542a0e607c883a0f0',1,'ResourceInfoPanel']]],
-  ['m_5fstockpile_5fobject_5fid',['m_stockpile_object_id',['../classResourcePool.html#a6368c54b509839a517e94df7956753a0',1,'ResourcePool']]],
   ['m_5fstockpile_5fp_5flabel',['m_stockpile_P_label',['../classWastedStockpiledResourceBrowseWnd.html#a4b413024279457f0ddf53a5b3757a403',1,'WastedStockpiledResourceBrowseWnd']]],
   ['m_5fstockpile_5fpoints',['m_stockpile_points',['../classResourceInfoPanel.html#a79e07a16b96128d6cd9b70dcb933d33e',1,'ResourceInfoPanel::m_stockpile_points()'],['../classResourceBrowseWnd.html#a8bb21d5b19263f9768961afeadfb20cd',1,'ResourceBrowseWnd::m_stockpile_points()']]],
   ['m_5fstockpile_5fpoints_5flabel',['m_stockpile_points_label',['../classResourceInfoPanel.html#af5809894f0b18dc83223867e3b71a99d',1,'ResourceInfoPanel::m_stockpile_points_label()'],['../classResourceBrowseWnd.html#a5256b92fae3802152062ce7bb8fee923',1,'ResourceBrowseWnd::m_stockpile_points_label()']]],
