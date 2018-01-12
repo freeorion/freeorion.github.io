@@ -187,8 +187,8 @@ Public Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a06d16ea080275820c9642fae8f45b3d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPLobby.html#a06d16ea080275820c9642fae8f45b3d4">EstablishPlayer</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection, const std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type, const std::string &amp;client_version_string)</td></tr>
 <tr class="separator:a06d16ea080275820c9642fae8f45b3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a247521760b3e899585c81c4e76dd6137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPLobby.html#a247521760b3e899585c81c4e76dd6137">TestHumanPlayers</a> ()</td></tr>
-<tr class="separator:a247521760b3e899585c81c4e76dd6137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69952e5cbd12428a9ea2a47255255be3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">ValidateClientLimits</a> ()</td></tr>
+<tr class="separator:a69952e5cbd12428a9ea2a47255255be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The human client state in which the multiplayer lobby is active.</p>
@@ -556,7 +556,7 @@ Private Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00">ClientUI::MessageBox()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
-<p>Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">react()</a>, and <a class="el" href="structMPLobby.html#a247521760b3e899585c81c4e76dd6137">TestHumanPlayers()</a>.</p>
+<p>Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">react()</a>, and <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">ValidateClientLimits()</a>.</p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a247521760b3e899585c81c4e76dd6137"></a>
+<a class="anchor" id="a69952e5cbd12428a9ea2a47255255be3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -748,7 +748,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MPLobby::TestHumanPlayers </td>
+          <td class="memname">void MPLobby::ValidateClientLimits </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -761,7 +761,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a41e0c2452995721521bb4a0926cb3d57">ServerNetworking::empty()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classServerApp.html#a68dc367307c988daf3bfa288531e4a37">ServerApp::IsHostless()</a>, <a class="el" href="classServerApp.html#a4637cb75adb27c0bd332efb3f3f94efe">ServerApp::m_ai_client_processes</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="structDisconnection.html#a8c4425e775de8167d44936b6a6ca5e47">Disconnection::m_player_connection</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">ServerNetworking::NumEstablishedPlayers()</a>, <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>, <a class="el" href="structMPLobby.html#a8ac3c99e32f332e786f7b6355e85c54e">react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="Message_8cpp.html#a2525935fc573da94172f4d9106de506e">ServerLobbyUpdateMessage()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
+<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a41e0c2452995721521bb4a0926cb3d57">ServerNetworking::empty()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classServerApp.html#a68dc367307c988daf3bfa288531e4a37">ServerApp::IsHostless()</a>, <a class="el" href="classServerApp.html#a4637cb75adb27c0bd332efb3f3f94efe">ServerApp::m_ai_client_processes</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="structDisconnection.html#a8c4425e775de8167d44936b6a6ca5e47">Disconnection::m_player_connection</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">ServerNetworking::NumEstablishedPlayers()</a>, <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>, <a class="el" href="structMPLobby.html#a8ac3c99e32f332e786f7b6355e85c54e">react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="Message_8cpp.html#a2525935fc573da94172f4d9106de506e">ServerLobbyUpdateMessage()</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
 
 </div>
 </div>
