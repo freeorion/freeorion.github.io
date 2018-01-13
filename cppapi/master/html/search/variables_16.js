@@ -20,7 +20,7 @@ var searchData=
   ['verts',['verts',['../classDelauney_1_1DTTriangle.html#a9a1e2c14bb2e56a332c63a56656302c7',1,'Delauney::DTTriangle']]],
   ['victory',['victory',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a48e9f0e8b4d48f35f56c7c838501b229',1,'parse::detail::effect_parser_rules_3']]],
   ['viewing_5fempire_5fid',['viewing_empire_id',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a6d5f3513eb1ffa5d1272ec6b510dbe8d',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::viewing_empire_id()'],['../structHostileVisitor.html#ad93f0433a68e22ea6125f8c89781dfb2',1,'HostileVisitor::viewing_empire_id()']]],
-  ['visibility',['visibility',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html#a2896a33e7294b9f364525aa527c97296',1,'StealthChangeEvent::StealthChangeEventDetail']]],
+  ['visibility',['visibility',['../structVisibilityChangeEvent_1_1VisibilityChangeEventDetail.html#a290c95e4df19381257c93a1cc4bad8b7',1,'VisibilityChangeEvent::VisibilityChangeEventDetail']]],
   ['visibility_5frules',['visibility_rules',['../structparse_1_1detail_1_1effect__parser__rules__2.html#a7b264e4b3d17c2ba849209fcf68d2a87',1,'parse::detail::effect_parser_rules_2']]],
   ['visibility_5fvar_5fcomplex_5fgrammar',['visibility_var_complex_grammar',['../structparse_1_1detail_1_1visibility__parser__rules.html#ab0fca40ed1a736408d41e103e77ccc12',1,'parse::detail::visibility_parser_rules']]],
   ['visible_5fto_5fempire',['visible_to_empire',['../structparse_1_1detail_1_1condition__parser__rules__5.html#a89b7bb33db3e2c68a9b2fa7f57d32a43',1,'parse::detail::condition_parser_rules_5']]]
