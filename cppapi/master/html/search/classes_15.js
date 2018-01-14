@@ -6,6 +6,7 @@ var searchData=
   ['valuerefbase',['ValueRefBase',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
   ['valuetest',['ValueTest',['../structCondition_1_1ValueTest.html',1,'Condition']]],
   ['variable',['Variable',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
+  ['variable_3c_20double_20_3e',['Variable&lt; double &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20std_3a_3astring_20_3e',['Variable&lt; std::string &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20totype_20_3e',['Variable&lt; ToType &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['vartext',['VarText',['../classVarText.html',1,'']]],
@@ -14,8 +15,6 @@ var searchData=
   ['victory',['Victory',['../classEffect_1_1Victory.html',1,'Effect']]],
   ['visibility_5fcomplex_5fparser_5fgrammar',['visibility_complex_parser_grammar',['../structparse_1_1detail_1_1visibility__complex__parser__grammar.html',1,'parse::detail']]],
   ['visibility_5fparser_5frules',['visibility_parser_rules',['../structparse_1_1detail_1_1visibility__parser__rules.html',1,'parse::detail']]],
-  ['visibilitychangeevent',['VisibilityChangeEvent',['../structVisibilityChangeEvent.html',1,'']]],
-  ['visibilitychangeeventdetail',['VisibilityChangeEventDetail',['../structVisibilityChangeEvent_1_1VisibilityChangeEventDetail.html',1,'VisibilityChangeEvent']]],
   ['visibletoempire',['VisibleToEmpire',['../structCondition_1_1VisibleToEmpire.html',1,'Condition']]],
   ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1VisibleToEmpireSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['visiblewindowcondition',['VisibleWindowCondition',['../classVisibleWindowCondition.html',1,'']]]
