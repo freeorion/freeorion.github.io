@@ -984,6 +984,7 @@ var searchData=
   ['m_5fresource_5fsupply_5fgroups',['m_resource_supply_groups',['../classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70',1,'SupplyManager']]],
   ['m_5fresource_5ftype',['m_resource_type',['../classSystemResourceSummaryBrowseWnd.html#a65369288e902d789aeeda9857b65a2fc',1,'SystemResourceSummaryBrowseWnd']]],
   ['m_5fresult',['m_result',['../classCUIEditWnd.html#abfc5cc99c6130125cec985e9e04871cf',1,'CUIEditWnd::m_result()'],['../classServerConnectWnd.html#a639705e7b983d678b3de169ebfce2297',1,'ServerConnectWnd::m_result()']]],
+  ['m_5freturn_5fimmediate_5fvalue',['m_return_immediate_value',['../structValueRef_1_1Variable.html#ac98c741e7b202a9637673e6b94e0fdaf',1,'ValueRef::Variable']]],
   ['m_5freturn_5frelative_5fpath',['m_return_relative_path',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a1754a80ca1c9262ab31f2da54dfdd9b2',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
   ['m_5froles',['m_roles',['../classClientNetworking_1_1Impl.html#aadfdec872723fcd7409d80e52f4211eb',1,'ClientNetworking::Impl::m_roles()'],['../classNetworking_1_1AuthRoles.html#a344dc991466990abc54df57d381d270f',1,'Networking::AuthRoles::m_roles()'],['../classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10',1,'PlayerConnection::m_roles()']]],
   ['m_5frollover_5flink',['m_rollover_link',['../classTextLinker.html#a8085e108a8989876252d7f245b21403a',1,'TextLinker']]],

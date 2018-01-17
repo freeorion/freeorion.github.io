@@ -6,7 +6,6 @@ var searchData=
   ['valuerefbase',['ValueRefBase',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
   ['valuetest',['ValueTest',['../structCondition_1_1ValueTest.html',1,'Condition']]],
   ['variable',['Variable',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
-  ['variable_3c_20double_20_3e',['Variable&lt; double &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20std_3a_3astring_20_3e',['Variable&lt; std::string &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20totype_20_3e',['Variable&lt; ToType &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['vartext',['VarText',['../classVarText.html',1,'']]],
