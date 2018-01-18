@@ -707,7 +707,6 @@ var searchData=
   ['systemgetstartype',['SystemGetStarType',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ad6e5d53c485c0866a857c71374a7fa5a',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['systemhaloscalefactor',['SystemHaloScaleFactor',['../classMapWnd.html#a1073602a03af8f8b02da47aa878de4a9',1,'MapWnd']]],
   ['systemhasfleetsupply',['SystemHasFleetSupply',['../classSupplyManager.html#a4a6f2527472a22a10374f7e848350fcc',1,'SupplyManager::SystemHasFleetSupply(int system_id, int empire_id) const '],['../classSupplyManager.html#a1922bd1028e7153c1b3f512f45460d65',1,'SupplyManager::SystemHasFleetSupply(int system_id, int empire_id, bool include_allies) const ']]],
-  ['systemhasnovisiblestarlanes',['SystemHasNoVisibleStarlanes',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#aaeffe6b6badf2ebcd84ed4ea07f7584a',1,'anonymous_namespace{Fleet.cpp}']]],
   ['systemhasvisiblestarlanes',['SystemHasVisibleStarlanes',['../classPathfinder_1_1PathfinderImpl.html#ad4eddca1d3a58c8fbc630065e6bad4ca',1,'Pathfinder::PathfinderImpl::SystemHasVisibleStarlanes()'],['../classPathfinder.html#a566ea1b92d661e09b78c4f2adf8a1c65',1,'Pathfinder::SystemHasVisibleStarlanes()']]],
   ['systemhasvisiblestarlanesp',['SystemHasVisibleStarlanesP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#aedd87cdd2d02da96c7ababfc0fd78e56',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['systemicon',['SystemIcon',['../classSystemIcon.html#a4aae63811413af1ce47a50e929fc0e29',1,'SystemIcon']]],
