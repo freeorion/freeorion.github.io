@@ -138,5 +138,5 @@ var searchData=
   ['multiturnprogressbar',['MultiTurnProgressBar',['../classMultiTurnProgressBar.html#a98395b000ef9cd6d3f52e86786ff2534',1,'MultiTurnProgressBar']]],
   ['musicclicked',['MusicClicked',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a3f7cad7704a6dbd8c45733de9a3547d4',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['musicvolumeoption',['MusicVolumeOption',['../classOptionsWnd.html#a55f2888141fcd824a9196aff369ed130',1,'OptionsWnd']]],
-  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a7fa0fb6335c2b21a3ea7731d9b9bd3d6',1,'OptionsWnd::SoundOptionsFeedback']]]
+  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a80113074ccdb48c414a8cc47c1317051',1,'OptionsWnd::SoundOptionsFeedback']]]
 ];
