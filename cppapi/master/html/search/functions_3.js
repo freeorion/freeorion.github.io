@@ -125,6 +125,7 @@ var searchData=
   ['clearlocalinfo',['ClearLocalInfo',['../classResourceInfoPanel.html#a53c425b49de8a666c15ec0cab95db8bb',1,'ResourceInfoPanel']]],
   ['clearmap',['ClearMap',['../classObjectMap.html#a503c7aa78d04115de973882c3a3ea1d3',1,'ObjectMap']]],
   ['clearparts',['ClearParts',['../classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438',1,'DesignWnd::MainPanel']]],
+  ['clearpreviouspendingsaves',['ClearPreviousPendingSaves',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#adec6bc74ffd0b1ae5ed5c933e8da8972',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['clearprojectedfleetmovementlines',['ClearProjectedFleetMovementLines',['../classMapWnd.html#a8667d5ed6ac2648f52a5b6a4ad78c669',1,'MapWnd']]],
   ['clearscalecirclerenderingbuffer',['ClearScaleCircleRenderingBuffer',['../classMapWnd.html#aebd849991f0a3c442916cd3f97a71487',1,'MapWnd']]],
   ['clearselected',['ClearSelected',['../classCensoredCUIEdit.html#aee3de6b6570d685f26d058b45cab0065',1,'CensoredCUIEdit']]],
