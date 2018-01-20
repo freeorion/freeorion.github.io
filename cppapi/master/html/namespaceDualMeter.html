@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>FreeOrion: Export.h File Reference</title>
+<title>FreeOrion: DualMeter Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,9 +40,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -63,8 +63,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
+      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -81,36 +81,55 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_23ec12649285f9fabf3a6b7380226c28.html">util</a></li>  </ul>
-</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Export.h File Reference</div>  </div>
+<div class="title">DualMeter Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a29444d64721c1ceddc12dab3edbd1ef6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a></td></tr>
-<tr class="separator:a29444d64721c1ceddc12dab3edbd1ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a43a69bcdb8008a9ae196801b5b9ff064"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; float, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceDualMeter.html#a43a69bcdb8008a9ae196801b5b9ff064">CurrentProjectedTarget</a> (const <a class="el" href="classUniverseObject.html">UniverseObject</a> &amp;obj, const MeterType &amp;actual_meter_type, const MeterType &amp;target_meter_type)</td></tr>
+<tr class="separator:a43a69bcdb8008a9ae196801b5b9ff064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a29444d64721c1ceddc12dab3edbd1ef6"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a43a69bcdb8008a9ae196801b5b9ff064"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FO_COMMON_API</td>
+          <td class="memname">std::tuple&lt; float, float, float &gt; DualMeter::CurrentProjectedTarget </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classUniverseObject.html">UniverseObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeterType &amp;&#160;</td>
+          <td class="paramname"><em>actual_meter_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeterType &amp;&#160;</td>
+          <td class="paramname"><em>target_meter_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Return the triplet of {Current, Projected, Target} meter value for the pair of meters <code>actual_meter_type</code> and <code>target_meter_type</code> associated with <code>obj</code>. </p>
 
-<p>Referenced by <a class="el" href="structValidator.html#aa69e89583173a22515871769a8b1b947">Validator&lt; T &gt;::Clone()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a64fb5dd97a4f1ab490fb5a81e65057ac">Deserialize()</a>, <a class="el" href="AppInterface_8h.html#ad04c142100ab65dc7d8b3eb94cef4b81">EffectsProcessingThreads()</a>, <a class="el" href="structValueRef_1_1UserStringLookup.html#a0c4a91de978a103e2e6030551f1ecce7">ValueRef::UserStringLookup&lt; FromType &gt;::Eval()</a>, <a class="el" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get()</a>, <a class="el" href="structValueRef_1_1Constant.html#a07fb81af6ebc7d11655afe50cc03b8a2">ValueRef::Constant&lt; T &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1Variable.html#a2a23beef99e64bb80abd34f2e5323311">ValueRef::Variable&lt; T &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1Statistic.html#aa75c6e1079d93f04043ed7660f7d38da">ValueRef::Statistic&lt; T &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#af05940a894db81c84cbbc6787c98e623">ValueRef::ComplexVariable&lt; T &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1StringCast.html#af285b7c2d6c12e3ae81d7abad4e3c000">ValueRef::StringCast&lt; FromType &gt;::GetCheckSum()</a>, <a class="el" href="structValueRef_1_1Operation.html#a183ed26574ae5675ab2be0bf60962c54">ValueRef::Operation&lt; T &gt;::GetCheckSum()</a>, <a class="el" href="classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc">ObjectMap::Insert()</a>, <a class="el" href="classShipDesign.html#afd6320187e31c919eb3da249a9116216">ShipDesign::PartClassCount()</a>, <a class="el" href="classHullType.html#a696ab2478ca2bf63091df376f947fc99">HullType::serialize()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a5fec1b5d343a5570f799e9c17a795e58">Serialize()</a>, <a class="el" href="structValueRef_1_1Variable.html#a447b62241a48e5342d30310b554989e6">ValueRef::Variable&lt; T &gt;::SourceInvariant()</a>, and <a class="el" href="namespaceparse.html#a721ef42f5adb8dc29ee28e37e89b61ab">parse::techs()</a>.</p>
+<p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a4083593781a59dd27f47bbf600690b19">anonymous_namespace{MeterBrowseWnd.cpp}::GetAccountingInfo()</a>, <a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">UniverseObject::GetMeter()</a>, <a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">UniverseObject::ID()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acaf9b6b99962bf5c2264824231d7a40c">info</a>, <a class="el" href="classMeter.html#a51ea0c030ad51c9b03968c16344143bb">Meter::Initial()</a>, <a class="el" href="classMeter.html#ae9583963fa0f26d0b4b0279d80ef9b68">Meter::INVALID_VALUE</a>, and <a class="el" href="classUniverseObject.html#af6afd098a10f3fbcec2a998e72a46c0b">UniverseObject::NextTurnCurrentMeterValue()</a>.</p>
+
+<p>Referenced by <a class="el" href="classMultiMeterStatusBar.html#a067c66c076de47edf9f049f86288d540">MultiMeterStatusBar::Update()</a>, and <a class="el" href="classMeterBrowseWnd.html#a3bd3621955d450d3b5cc062346f3a14a">MeterBrowseWnd::UpdateSummary()</a>.</p>
 
 </div>
 </div>
