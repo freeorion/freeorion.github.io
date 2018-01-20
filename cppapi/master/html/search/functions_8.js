@@ -45,6 +45,7 @@ var searchData=
   ['handlesavegamedatarequest',['HandleSaveGameDataRequest',['../classHumanClientApp.html#aff51051954870d71f3adde255425066c',1,'HumanClientApp']]],
   ['handlesavegamepreviews',['HandleSaveGamePreviews',['../classHumanClientApp.html#addb492c28bd5fddaefb6c905defa14cf',1,'HumanClientApp']]],
   ['handlescrapping',['HandleScrapping',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1cab1aa2267ac8e18beb53a951835eec',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['handlescrolledandstopped',['HandleScrolledAndStopped',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html#a524e84c4fa26a26c75450b021595b154',1,'anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText']]],
   ['handlesearchtextentered',['HandleSearchTextEntered',['../classEncyclopediaDetailPanel.html#abe1ca9109c73732a6c9bdb509c08d495',1,'EncyclopediaDetailPanel']]],
   ['handlesetauthroles',['HandleSetAuthRoles',['../classHumanClientApp.html#a4b2e96ec34bad384e5e23e0bc55c605b',1,'HumanClientApp']]],
   ['handlesethotkeyoption',['HandleSetHotkeyOption',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aeceeb90216400cb9f1aff32ebac2c712',1,'anonymous_namespace{OptionsWnd.cpp}']]],

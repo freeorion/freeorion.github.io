@@ -1704,6 +1704,6 @@ var searchData=
   ['music_5ffile_5fsuffix',['MUSIC_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a4d3ba627e574863e6efa378344600469',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['musicclicked',['MusicClicked',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a3f7cad7704a6dbd8c45733de9a3547d4',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['musicvolumeoption',['MusicVolumeOption',['../classOptionsWnd.html#a55f2888141fcd824a9196aff369ed130',1,'OptionsWnd']]],
-  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a80113074ccdb48c414a8cc47c1317051',1,'OptionsWnd::SoundOptionsFeedback']]],
+  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a7fa0fb6335c2b21a3ea7731d9b9bd3d6',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['myintintpairconverter',['myIntIntPairConverter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a51ebafd3bde859444d68ef8b88ea7b2f',1,'anonymous_namespace{EmpireWrapper.cpp}']]]
 ];

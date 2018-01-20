@@ -142,8 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac49741c942ca85dd77f1f95cafef124e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a096b157f134a423e3932946a51b78b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a9a096b157f134a423e3932946a51b78b">WithinJumpsOfOthers</a> (int jumps, int system_id, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;others) const </td></tr>
 <tr class="separator:a9a096b157f134a423e3932946a51b78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c474f0a937bcc4e789fff5abce31edf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a5c474f0a937bcc4e789fff5abce31edf">WithinJumpsOfOthersCacheHit</a> (int jumps, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;others, size_t ii, distance_matrix_storage&lt; short &gt;::row_ref row) const </td></tr>
-<tr class="separator:a5c474f0a937bcc4e789fff5abce31edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ab1debd7c116b48b50bbc67361e8c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#aa6ab1debd7c116b48b50bbc67361e8c7">WithinJumpsOfOthersCacheHit</a> (bool &amp;answer, int jumps, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;others, size_t ii, distance_matrix_storage&lt; short &gt;::row_ref row) const </td></tr>
+<tr class="separator:aa6ab1debd7c116b48b50bbc67361e8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -208,6 +208,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>When a cache miss occurs fill <code>row</code> with the distances from index <code>ii</code> to every other index.</p>
 <p>HandleCacheMiss requires that <code>row</code> be locked by exterior context. </p>
+
+<p>Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a243fd47414215410d5041a38989a0c34">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a2d198ca05efd6101d5557997d28bbec0">WithinJumps()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a9a096b157f134a423e3932946a51b78b">WithinJumpsOfOthers()</a>.</p>
 
 </div>
 </div>
@@ -319,7 +321,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#af95bc1a8b1dd047d46c0ec22fd3ff1e8">HandleCacheMiss()</a>.</p>
 
 </div>
 </div>
@@ -702,7 +704,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPathfinder_1_1PathfinderImpl.html#af95bc1a8b1dd047d46c0ec22fd3ff1e8">HandleCacheMiss()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a86ca9f3bdfc4be40ee8f6d8dba9fbdd7">WithinJumpsCacheHit()</a>.</p>
 
 </div>
 </div>
@@ -741,6 +743,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a2d198ca05efd6101d5557997d28bbec0">WithinJumps()</a>.</p>
 
 </div>
 </div>
@@ -809,17 +813,23 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return true if <code>system_id</code> is within <code>jumps</code> of any of <code>others</code> </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPathfinder_1_1PathfinderImpl.html#af95bc1a8b1dd047d46c0ec22fd3ff1e8">HandleCacheMiss()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aa6ab1debd7c116b48b50bbc67361e8c7">WithinJumpsOfOthersCacheHit()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c474f0a937bcc4e789fff5abce31edf"></a>
+<a class="anchor" id="aa6ab1debd7c116b48b50bbc67361e8c7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Pathfinder::PathfinderImpl::WithinJumpsOfOthersCacheHit </td>
+          <td class="memname">void Pathfinder::PathfinderImpl::WithinJumpsOfOthersCacheHit </td>
           <td>(</td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>answer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>jumps</em>, </td>
         </tr>
@@ -848,9 +858,12 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If any of <code>others</code> are within <code>jumps</code> of <code>ii</code> return true in <code>answer</code>. </p>
+<p>If any of <code>others</code> are within <code>jumps</code> of <code>ii</code> return true in <code>answer</code>.</p>
+<p>The return value must be in a parameter so that after being bound to <code>answer</code> and <code>jumps</code> the function signature is that required by the cache_hit_handler type. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#aea5e92eebe487e65ad2c12e8ffd3998b">anonymous_namespace{Pathfinder.cpp}::GeneralizedLocation()</a>.</p>
+
+<p>Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a9a096b157f134a423e3932946a51b78b">WithinJumpsOfOthers()</a>.</p>
 
 </div>
 </div>
