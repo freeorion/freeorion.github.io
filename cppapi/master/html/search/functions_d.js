@@ -34,7 +34,7 @@ var searchData=
   ['message_5fpanel_5fwidth',['MESSAGE_PANEL_WIDTH',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a724586eb76b0e3858fb74c9a9430fc95',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['messagebox',['MessageBox',['../classClientUI.html#abb8d11bc865775cc4dfb7ce5b3430f00',1,'ClientUI']]],
   ['messageentered',['MessageEntered',['../classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a',1,'MessageWnd']]],
-  ['messageeventbase',['MessageEventBase',['../structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851',1,'MessageEventBase::MessageEventBase(Message &amp;message)'],['../structMessageEventBase.html#a687e32a8524a305b17e6085fc9094fea',1,'MessageEventBase::MessageEventBase(const Message &amp;message, PlayerConnectionPtr &amp;player_connection)']]],
+  ['messageeventbase',['MessageEventBase',['../structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851',1,'MessageEventBase::MessageEventBase(Message &amp;message)'],['../structMessageEventBase.html#a4dc963513887b17e32a860fa71a4e601',1,'MessageEventBase::MessageEventBase(const Message &amp;message, const PlayerConnectionPtr &amp;player_connection)']]],
   ['messagehistorydownrequested',['MessageHistoryDownRequested',['../classMessageWnd.html#a6180da556d44f97bf2cd2c0bd3515c82',1,'MessageWnd']]],
   ['messagehistoryuprequested',['MessageHistoryUpRequested',['../classMessageWnd.html#aa9fc742f9b25d4f982579eb903958eb9',1,'MessageWnd']]],
   ['messageparameters',['MessageParameters',['../classEffect_1_1GenerateSitRepMessage.html#a69a1a4ed460b95969a4ea80e35142217',1,'Effect::GenerateSitRepMessage']]],
