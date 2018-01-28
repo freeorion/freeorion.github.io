@@ -36,7 +36,6 @@ var searchData=
   ['statistic_5fpayload',['statistic_payload',['../namespaceparse_1_1detail.html#a5536db4ae7628876b220a3937d6296b3',1,'parse::detail']]],
   ['statistic_5frule',['statistic_rule',['../namespaceparse_1_1detail.html#a2d0944191860ebaf9027a95e9e3318dd',1,'parse::detail']]],
   ['statistic_5fsignature',['statistic_signature',['../namespaceparse_1_1detail.html#a39fad82b0b773e36ca88d49f9f38f975',1,'parse::detail']]],
-  ['stealthchangeeventdetailptr',['StealthChangeEventDetailPtr',['../structStealthChangeEvent.html#ad7b85c4761cc4099a623b882c7fcc3af',1,'StealthChangeEvent']]],
   ['stealthinvisblemap',['StealthInvisbleMap',['../structInitialStealthEvent.html#a30218e86889d908615b4e255617672bd',1,'InitialStealthEvent']]],
   ['string',['string',['../structparse_1_1detail_1_1info__visitor.html#af6d7e7e8caf684d209528b5a0d3d11ed',1,'parse::detail::info_visitor']]],
   ['string_5fand_5fintref_5fand_5fintref_5frule',['string_and_intref_and_intref_rule',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a6f158edb1b7af3a24f745c6a3d49dcec',1,'parse::detail::effect_parser_rules_1']]],
