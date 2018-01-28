@@ -10,7 +10,6 @@ var searchData=
   ['variable_5frule',['variable_rule',['../namespaceparse_1_1detail.html#aff3eadd737550fe433d34616d963b129',1,'parse::detail']]],
   ['variable_5fsignature',['variable_signature',['../namespaceparse_1_1detail.html#a1e3dacc695c803466763109bdb888c16',1,'parse::detail']]],
   ['vertex_5fproperty_5ft',['vertex_property_t',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a002a52f105d60e7c2518a848eeba4d73',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
-  ['visibilitychangeeventdetailptr',['VisibilityChangeEventDetailPtr',['../structVisibilityChangeEvent.html#aa89837aeb4b71bbf686ed6193ad8e4cb',1,'VisibilityChangeEvent']]],
   ['visibilityturnmap',['VisibilityTurnMap',['../classUniverse.html#aab3a29f357537771eb2c82cae77077ec',1,'Universe']]],
   ['visvalref',['VisValRef',['../classUniverse.html#a0224e3615f9ceb4a04e9c6d59d4b333c',1,'Universe']]]
 ];
