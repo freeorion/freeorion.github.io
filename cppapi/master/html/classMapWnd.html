@@ -219,6 +219,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6d3d6ad00d3feb7e410f67232bb342f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82c5bc539fc027b3cc39b7590748c4f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a82c5bc539fc027b3cc39b7590748c4f4">FleetButtonRightClicked</a> (const <a class="el" href="classFleetButton.html">FleetButton</a> *fleet_btn)</td></tr>
 <tr class="separator:a82c5bc539fc027b3cc39b7590748c4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913a64050302ec2dbc0e4643ca1b99f7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping</a> (int fleet_id) const </td></tr>
+<tr class="separator:a913a64050302ec2dbc0e4643ca1b99f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6cbe2bd2cd15df9aab2a786acfc2389"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#af6cbe2bd2cd15df9aab2a786acfc2389">FleetIDsOfFleetButtonsOverlapping</a> (const <a class="el" href="classFleetButton.html">FleetButton</a> &amp;fleet_btn) const </td></tr>
+<tr class="separator:af6cbe2bd2cd15df9aab2a786acfc2389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d08553f6b8e24f3e2e3d7bb7827ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a84d08553f6b8e24f3e2e3d7bb7827ead">FleetRightClicked</a> (int fleet_id)</td></tr>
 <tr class="separator:a84d08553f6b8e24f3e2e3d7bb7827ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77fc9182c1464e187f91bed1f2bba24f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a77fc9182c1464e187f91bed1f2bba24f">FleetsInsertedSignalHandler</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classFleet.html">Fleet</a> &gt;&gt; &amp;fleets)</td></tr>
@@ -551,11 +555,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a367faf0e8f8f483efa5176fdadcb2604"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classModeratorActionsWnd.html">ModeratorActionsWnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a367faf0e8f8f483efa5176fdadcb2604">m_moderator_wnd</a></td></tr>
 <tr class="memdesc:a367faf0e8f8f483efa5176fdadcb2604"><td class="mdescLeft">&#160;</td><td class="mdescRight">buttons to select moderator actions  <a href="#a367faf0e8f8f483efa5176fdadcb2604">More...</a><br /></td></tr>
 <tr class="separator:a367faf0e8f8f483efa5176fdadcb2604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c1dbcd2eba43c8135f5311a42d355f5"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; double, double &gt;, std::unordered_set&lt; std::shared_ptr&lt; <a class="el" href="classFleetButton.html">FleetButton</a> &gt; &gt;, boost::hash&lt; std::pair&lt; double, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a8c1dbcd2eba43c8135f5311a42d355f5">m_moving_fleet_buttons</a></td></tr>
-<tr class="separator:a8c1dbcd2eba43c8135f5311a42d355f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858ae8a9567d325d9b87023ca73b7feb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; int, int &gt;, std::unordered_set&lt; std::shared_ptr&lt; <a class="el" href="classFleetButton.html">FleetButton</a> &gt; &gt;, boost::hash&lt; std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a></td></tr>
+<tr class="separator:a858ae8a9567d325d9b87023ca73b7feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510c537488ac7497a3ed92b65c809cff"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; int &gt;, boost::hash&lt; std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a510c537488ac7497a3ed92b65c809cff">m_moving_fleets</a></td></tr>
+<tr class="separator:a510c537488ac7497a3ed92b65c809cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a710180f16a0b985a9c76ebc87188d1dc"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classObjectListWnd.html">ObjectListWnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a710180f16a0b985a9c76ebc87188d1dc">m_object_list_wnd</a></td></tr>
 <tr class="memdesc:a710180f16a0b985a9c76ebc87188d1dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">filterable list of objects in universe  <a href="#a710180f16a0b985a9c76ebc87188d1dc">More...</a><br /></td></tr>
 <tr class="separator:a710180f16a0b985a9c76ebc87188d1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337221d3780e17f2fd47a6d576148723"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; double, double &gt;, std::unordered_set&lt; std::shared_ptr&lt; <a class="el" href="classFleetButton.html">FleetButton</a> &gt; &gt;, boost::hash&lt; std::pair&lt; double, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a337221d3780e17f2fd47a6d576148723">m_offroad_fleet_buttons</a></td></tr>
+<tr class="separator:a337221d3780e17f2fd47a6d576148723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15a185f4a5376ab91438d6272720e303"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classEncyclopediaDetailPanel.html">EncyclopediaDetailPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMapWnd.html#a15a185f4a5376ab91438d6272720e303">m_pedia_panel</a></td></tr>
 <tr class="memdesc:a15a185f4a5376ab91438d6272720e303"><td class="mdescLeft">&#160;</td><td class="mdescRight">encyclpedia panel  <a href="#a15a185f4a5376ab91438d6272720e303">More...</a><br /></td></tr>
 <tr class="separator:a15a185f4a5376ab91438d6272720e303"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1430,7 +1438,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 </div><div class="memdoc">
 <p>Removes old / existing and create new fleet buttons. Only called once per render interval. </p>
 
-<p>References <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa14b5c1416e5a889590262c0d1dada4c">anonymous_namespace{MapWnd.cpp}::IsDepartingFromSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a393a2750a62633299d569e90187428cf">anonymous_namespace{MapWnd.cpp}::IsMoving()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a48386a2070937c7d4555e05e98269afa">anonymous_namespace{MapWnd.cpp}::IsQualifiedFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a868ef29f441be31fc060c3d96c56b464">anonymous_namespace{MapWnd.cpp}::IsStationaryInSystem()</a>, <a class="el" href="classMapWnd.html#a6774506379d928808d7fe1ee3c38f068">m_deferred_refresh_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a8c1dbcd2eba43c8135f5311a42d355f5">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="classMapWnd.html#aacdc6aa12c125723ad72117a57180ca5">SetFleetMovementLine()</a>.</p>
+<p>References <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#ace3bff266273fde22c3aa19f59717d91">Universe::EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa14b5c1416e5a889590262c0d1dada4c">anonymous_namespace{MapWnd.cpp}::IsDepartingFromSystem()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1898ee90c6aa2bd56dc290465c6ba9a2">anonymous_namespace{MapWnd.cpp}::IsMovingOnStarlane()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af3747267cc16dede4a91e57900b9b86c">anonymous_namespace{MapWnd.cpp}::IsOffRoad()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a48386a2070937c7d4555e05e98269afa">anonymous_namespace{MapWnd.cpp}::IsQualifiedFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a868ef29f441be31fc060c3d96c56b464">anonymous_namespace{MapWnd.cpp}::IsStationaryInSystem()</a>, <a class="el" href="classMapWnd.html#a6774506379d928808d7fe1ee3c38f068">m_deferred_refresh_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a510c537488ac7497a3ed92b65c809cff">m_moving_fleets</a>, <a class="el" href="classMapWnd.html#a337221d3780e17f2fd47a6d576148723">m_offroad_fleet_buttons</a>, <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="classMapWnd.html#aacdc6aa12c125723ad72117a57180ca5">SetFleetMovementLine()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a49217aa1b9b51a2fa44f4107c504fabf">PreRender()</a>.</p>
 
@@ -1458,7 +1466,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 </div><div class="memdoc">
 <p>Delete all fleet buttons. </p>
 
-<p>References <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a8c1dbcd2eba43c8135f5311a42d355f5">m_moving_fleet_buttons</a>, and <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>.</p>
+<p>References <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a337221d3780e17f2fd47a6d576148723">m_offroad_fleet_buttons</a>, and <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="classMapWnd.html#a087ca17ff8a9fb79a3192413e4d1365e">Sanitize()</a>.</p>
 
@@ -1538,7 +1546,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 
 <p>does layout of fleet buttons </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a8c1dbcd2eba43c8135f5311a42d355f5">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a5bce8d36a005c3dc236373b537b3a49d">m_system_icons</a>, <a class="el" href="classMapWnd.html#aca237583b6066315de50ffa981ccac4d">MovingFleetMapPositionOnLane()</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, and <a class="el" href="classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a337221d3780e17f2fd47a6d576148723">m_offroad_fleet_buttons</a>, <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a5bce8d36a005c3dc236373b537b3a49d">m_system_icons</a>, <a class="el" href="classMapWnd.html#aca237583b6066315de50ffa981ccac4d">MovingFleetMapPositionOnLane()</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, and <a class="el" href="classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
 
@@ -1691,7 +1699,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, <a class="el" href="classMapWnd.html#af454290d31c1a8883558a185f76a1f0b">HideProduction()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classMapWnd.html#a4aa28dfcda043db4ca2f7bd607f72572">m_in_production_view_mode</a>, and <a class="el" href="classMapWnd.html#a082a3f732109b78b9d319a1393562e43">SelectFleet()</a>.</p>
+<p>References <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, <a class="el" href="classMapWnd.html#af454290d31c1a8883558a185f76a1f0b">HideProduction()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classMapWnd.html#a4aa28dfcda043db4ca2f7bd607f72572">m_in_production_view_mode</a>, and <a class="el" href="classMapWnd.html#a082a3f732109b78b9d319a1393562e43">SelectFleet()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>.</p>
 
@@ -1719,7 +1727,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>, <a class="el" href="classMapWnd.html#aea99e10734a00fbda5c68079bce5038c">FleetsRightClicked()</a>, <a class="el" href="classMapWnd.html#a24447a614ee682e9c5c17222d326ab56">ForgetObject()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p>References <a class="el" href="classClientApp.html#ac3a95cc1b0f817f92324d82fd718b683">ClientApp::EmpireID()</a>, <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, <a class="el" href="classMapWnd.html#aea99e10734a00fbda5c68079bce5038c">FleetsRightClicked()</a>, <a class="el" href="classMapWnd.html#a24447a614ee682e9c5c17222d326ab56">ForgetObject()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>.</p>
 
@@ -1742,6 +1750,62 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 <p>References <a class="el" href="classFleetButton.html#a811dc066057f740e7a00f0b5803f5148a3c91084ce407b9ba3309e2ef42f06be2">FleetButton::FLEET_BUTTON_MEDIUM</a>, <a class="el" href="classFleetButton.html#a811dc066057f740e7a00f0b5803f5148a66619571e1812d95d5cbf9fa347bfe5b">FleetButton::FLEET_BUTTON_NONE</a>, <a class="el" href="classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ae2c82a5a5e597ad0351e991a52a423f2">FleetButton::FLEET_BUTTON_SMALL</a>, <a class="el" href="classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ab161470ee9f8678dea92ef604f96c0e1">FleetButton::FLEET_BUTTON_TINY</a>, <a class="el" href="classClientUI.html#a833c2485fb4da8e057ec65afc627051b">ClientUI::MediumFleetButtonZoomThreshold()</a>, <a class="el" href="classClientUI.html#a32a0642c287afc27239379fd48c75d82">ClientUI::SmallFleetButtonZoomThreshold()</a>, <a class="el" href="classClientUI.html#a33e8ea276caf1f1a3219e0d3239201fb">ClientUI::TinyFleetButtonZoomThreshold()</a>, and <a class="el" href="classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a913a64050302ec2dbc0e4643ca1b99f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; MapWnd::FleetIDsOfFleetButtonsOverlapping </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fleet_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return fleets ids of all fleet buttons containing or overlapping the fleet button for <code>fleet_id</code>. </p>
+
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acda83f6cb1ab9a7c2329add44de20fc2">GetFleet()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1898ee90c6aa2bd56dc290465c6ba9a2">anonymous_namespace{MapWnd.cpp}::IsMovingOnStarlane()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af3747267cc16dede4a91e57900b9b86c">anonymous_namespace{MapWnd.cpp}::IsOffRoad()</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a>, and <a class="el" href="classMapWnd.html#a337221d3780e17f2fd47a6d576148723">m_offroad_fleet_buttons</a>.</p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a6d3d6ad00d3feb7e410f67232bb342f7">FleetButtonLeftClicked()</a>, <a class="el" href="classMapWnd.html#a82c5bc539fc027b3cc39b7590748c4f4">FleetButtonRightClicked()</a>, <a class="el" href="classMapWnd.html#af6cbe2bd2cd15df9aab2a786acfc2389">FleetIDsOfFleetButtonsOverlapping()</a>, and <a class="el" href="classMapWnd.html#a829613adf3c09ab8143624b8a2009680">SelectFleet()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af6cbe2bd2cd15df9aab2a786acfc2389"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; MapWnd::FleetIDsOfFleetButtonsOverlapping </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFleetButton.html">FleetButton</a> &amp;&#160;</td>
+          <td class="paramname"><em>fleet_btn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return fleets ids of all fleet buttons containing or overlapping <code>fleet_btn</code>. </p>
+
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, and <a class="el" href="classFleetButton.html#a345f2fa52a36255da24583799420f302">FleetButton::Fleets()</a>.</p>
 
 </div>
 </div>
@@ -3344,7 +3408,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 
 <p>marks (only) selected fleets' buttons as selected </p>
 
-<p>References <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a8c1dbcd2eba43c8135f5311a42d355f5">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, and <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>.</p>
+<p>References <a class="el" href="classMapWnd.html#a4f2710c2368332e12b9d60a2981f68c2">m_departing_fleet_buttons</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a858ae8a9567d325d9b87023ca73b7feb">m_moving_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, and <a class="el" href="classMapWnd.html#af9c33b3e512adce4b178e4863b6ff22c">m_stationary_fleet_buttons</a>.</p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, and <a class="el" href="classMapWnd.html#af997cdb4c6ee3011451837fa08b2c9b6">SelectedFleetsChanged()</a>.</p>
 
@@ -4457,7 +4521,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 </div><div class="memdoc">
 <p>Programatically selects fleets. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="classFleetButton.html#aeec04a5f4541a48316a3d07ee493bb8e">FleetButton::PlayFleetButtonOpenSound()</a>, and <a class="el" href="classMapWnd.html#a72770b15d9e9952aedbf0d9e92d320da">PushWndStack()</a>.</p>
+<p>References <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, <a class="el" href="classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f">m_fleet_buttons</a>, <a class="el" href="classMapWnd.html#a95dd32616fc570a1a7f0d45db59d7e43">m_selected_fleet_ids</a>, <a class="el" href="classFleetButton.html#aeec04a5f4541a48316a3d07ee493bb8e">FleetButton::PlayFleetButtonOpenSound()</a>, <a class="el" href="classMapWnd.html#a72770b15d9e9952aedbf0d9e92d320da">PushWndStack()</a>, and <a class="el" href="classMapWnd.html#adc5afabd8ce732ffce2994560ad5874c">ZoomFactor()</a>.</p>
 
 </div>
 </div>
@@ -5983,7 +6047,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 
 <p>References <a class="el" href="classMapWnd.html#a9390c694ee616bebf09a98a67441a144">m_zoom_steps_in</a>, and <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#abc9c6c3a8d43784d3038b55ebe66b0c8">anonymous_namespace{MapWnd.cpp}::ZoomScaleFactor()</a>.</p>
 
-<p>Referenced by <a class="el" href="classMapWnd.html#affc6426ee4d4091ff5d806c039caed69">CenterOnMapCoord()</a>, <a class="el" href="classMapWnd.html#a9230f71d9da794c4b27c6cc6528a1262">CompleteConstruction()</a>, <a class="el" href="classMapWnd.html#a412259f2a2abdd962f8b1dee4ef33a65">CorrectMapPosition()</a>, <a class="el" href="classMapWnd.html#ae6abe1427bea2a6f60b6dabe6d19a3d1">DoFieldIconsLayout()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a">DoSystemIconsLayout()</a>, <a class="el" href="classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="classMapWnd.html#ac882dd8d9cc5cbcd8f1e80f6bcda62b6">MidTurnUpdate()</a>, <a class="el" href="classMapWnd.html#a427fc9e2f6aff5016dbd29834d06b247">Render()</a>, <a class="el" href="classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">RenderFleetMovementLines()</a>, <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">RenderStarfields()</a>, <a class="el" href="classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">RenderStarlanes()</a>, <a class="el" href="classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624">RenderSystemOverlays()</a>, <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">RenderSystems()</a>, <a class="el" href="classMapWnd.html#a622957938d16a8e362cde649bd64c837">ScreenCoordsFromUniversePosition()</a>, <a class="el" href="classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>, <a class="el" href="classMapWnd.html#a1073602a03af8f8b02da47aa878de4a9">SystemHaloScaleFactor()</a>, <a class="el" href="classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="classMapWnd.html#aa7a08621bb5b03599818018201de1ed6">SystemNamePts()</a>, and <a class="el" href="classMapWnd.html#af8736a5951607c5b4d5686b4f4339684">UniversePositionFromScreenCoords()</a>.</p>
+<p>Referenced by <a class="el" href="classMapWnd.html#affc6426ee4d4091ff5d806c039caed69">CenterOnMapCoord()</a>, <a class="el" href="classMapWnd.html#a9230f71d9da794c4b27c6cc6528a1262">CompleteConstruction()</a>, <a class="el" href="classMapWnd.html#a412259f2a2abdd962f8b1dee4ef33a65">CorrectMapPosition()</a>, <a class="el" href="classMapWnd.html#ae6abe1427bea2a6f60b6dabe6d19a3d1">DoFieldIconsLayout()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a">DoSystemIconsLayout()</a>, <a class="el" href="classMapWnd.html#ab557238a80bf1e29056d592deb5c76e1">FleetButtonSizeType()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="classMapWnd.html#ac882dd8d9cc5cbcd8f1e80f6bcda62b6">MidTurnUpdate()</a>, <a class="el" href="classMapWnd.html#a427fc9e2f6aff5016dbd29834d06b247">Render()</a>, <a class="el" href="classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">RenderFleetMovementLines()</a>, <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">RenderStarfields()</a>, <a class="el" href="classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">RenderStarlanes()</a>, <a class="el" href="classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624">RenderSystemOverlays()</a>, <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">RenderSystems()</a>, <a class="el" href="classMapWnd.html#a622957938d16a8e362cde649bd64c837">ScreenCoordsFromUniversePosition()</a>, <a class="el" href="classMapWnd.html#a829613adf3c09ab8143624b8a2009680">SelectFleet()</a>, <a class="el" href="classMapWnd.html#a97e26e93d426b80eba64cfb2adc534f1">SetZoom()</a>, <a class="el" href="classMapWnd.html#a1073602a03af8f8b02da47aa878de4a9">SystemHaloScaleFactor()</a>, <a class="el" href="classMapWnd.html#ab214f886f48adf2498d0845ee8b594b7">SystemIconSize()</a>, <a class="el" href="classMapWnd.html#aa7a08621bb5b03599818018201de1ed6">SystemNamePts()</a>, and <a class="el" href="classMapWnd.html#af8736a5951607c5b4d5686b4f4339684">UniversePositionFromScreenCoords()</a>.</p>
 
 </div>
 </div>
@@ -6995,7 +7059,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 
 <p>fleet icons, index by fleet </p>
 
-<p>Referenced by <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>, <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="classMapWnd.html#a829613adf3c09ab8143624b8a2009680">SelectFleet()</a>.</p>
+<p>Referenced by <a class="el" href="classMapWnd.html#a759265903c77b4b8191d1abf0199170b">CreateFleetButtonsOfType()</a>, <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>, and <a class="el" href="classMapWnd.html#a829613adf3c09ab8143624b8a2009680">SelectFleet()</a>.</p>
 
 </div>
 </div>
@@ -7271,7 +7335,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8c1dbcd2eba43c8135f5311a42d355f5"></a>
+<a class="anchor" id="a858ae8a9567d325d9b87023ca73b7feb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -7279,7 +7343,7 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::pair&lt;double, double&gt;, std::unordered_set&lt;std::shared_ptr&lt;<a class="el" href="classFleetButton.html">FleetButton</a>&gt; &gt;, boost::hash&lt;std::pair&lt;double, double&gt; &gt; &gt; MapWnd::m_moving_fleet_buttons</td>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;int, int&gt;, std::unordered_set&lt;std::shared_ptr&lt;<a class="el" href="classFleetButton.html">FleetButton</a>&gt; &gt;, boost::hash&lt;std::pair&lt;int, int&gt; &gt; &gt; MapWnd::m_moving_fleet_buttons</td>
         </tr>
       </table>
   </td>
@@ -7288,9 +7352,32 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Icons representing fleets not at a system. </p>
+<p>Icons representing fleets moving on a starlane, keyed by starlane end system ids. </p>
 
-<p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, and <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>.</p>
+<p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>, and <a class="el" href="classMapWnd.html#a78879a001f9b60f65bbc3a07bf6aca91">RefreshFleetButtonSelectionIndicators()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a510c537488ac7497a3ed92b65c809cff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;int, int&gt;, std::vector&lt;int&gt;, boost::hash&lt;std::pair&lt;int, int&gt; &gt; &gt; MapWnd::m_moving_fleets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets of fleet ids of fleets moving on a starlane, keyed by starlane end system ids. </p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>.</p>
 
 </div>
 </div>
@@ -7315,6 +7402,29 @@ template&lt;typename FleetButtonMap , typename FleetsMap &gt; </div>
 <p>filterable list of objects in universe </p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a9230f71d9da794c4b27c6cc6528a1262">CompleteConstruction()</a>, <a class="el" href="classMapWnd.html#a784fbd43cbe2ac2c966e97a7b1683ee0">DoLayout()</a>, <a class="el" href="classMapWnd.html#abc698957b10940ad981a6d64c0fa6fae">HideObjects()</a>, <a class="el" href="classMapWnd.html#a80f86feb23979ba95840a1a46411c243">InitializeWindows()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">InitTurn()</a>, <a class="el" href="classMapWnd.html#a843319bbce7e883920510595ed55d164">RegisterWindows()</a>, <a class="el" href="classMapWnd.html#af10857cdb532cfd36f4afb9e1d3ed92e">RemoveWindows()</a>, <a class="el" href="classMapWnd.html#a51d061f54c252a588126f8b11f42181c">ReturnToMap()</a>, <a class="el" href="classMapWnd.html#a607a2922150839b38888ca1684bfcd08">ShowObjects()</a>, and <a class="el" href="classMapWnd.html#a7c121728f728aa39f944b06854efb076">ToggleObjects()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a337221d3780e17f2fd47a6d576148723"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;double, double&gt;, std::unordered_set&lt;std::shared_ptr&lt;<a class="el" href="classFleetButton.html">FleetButton</a>&gt; &gt;, boost::hash&lt;std::pair&lt;double, double&gt; &gt; &gt; MapWnd::m_offroad_fleet_buttons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Icons representing fleets moving and not on a starlane, indexed by (x,y) location. </p>
+
+<p>Referenced by <a class="el" href="classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b">DeferredRefreshFleetButtons()</a>, <a class="el" href="classMapWnd.html#a32a6df0382bac4e9a57b58cdd77b7e80">DeleteFleetButtons()</a>, <a class="el" href="classMapWnd.html#a10495c5962ac7d70810097e35cd97a8f">DoFleetButtonsLayout()</a>, and <a class="el" href="classMapWnd.html#a913a64050302ec2dbc0e4643ca1b99f7">FleetIDsOfFleetButtonsOverlapping()</a>.</p>
 
 </div>
 </div>
