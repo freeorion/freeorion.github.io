@@ -181,6 +181,7 @@ var searchData=
   ['popcenterclampmeters',['PopCenterClampMeters',['../classPopCenter.html#acbe09bf2453c1e2220cb2fab9a1e33a0',1,'PopCenter']]],
   ['popcenterid',['PopCenterID',['../classPopulationPanel.html#a4450b24a4563fd4578632b0f12b52e37',1,'PopulationPanel']]],
   ['popcenterids',['PopCenterIDs',['../classPopulationPool.html#a80d1ca0c2c136e8b3e3c8bd0fe2f758e',1,'PopulationPool']]],
+  ['popcenternextturnmetervalue',['PopCenterNextTurnMeterValue',['../classPopCenter.html#a3f2208acd55ca65ed983f7204b616c27',1,'PopCenter']]],
   ['popcenterpopgrowthproductionresearchphase',['PopCenterPopGrowthProductionResearchPhase',['../classPopCenter.html#ac176338ee877461c95eed6d992fceedc',1,'PopCenter']]],
   ['popcenterresettargetmaxunpairedmeters',['PopCenterResetTargetMaxUnpairedMeters',['../classPopCenter.html#af1f5d888fae68a82e5d8f95aed36fb2a',1,'PopCenter']]],
   ['popelem',['PopElem',['../classXMLDoc.html#aa49bf97140a48eee7af9f73df9536f97',1,'XMLDoc']]],
