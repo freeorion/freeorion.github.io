@@ -138,6 +138,7 @@ var searchData=
   ['applyeffectderivedvisibilities',['ApplyEffectDerivedVisibilities',['../classUniverse.html#ae2efd3dda133681c91e7502609c11de0',1,'Universe']]],
   ['applygeneratesitrepeffects',['ApplyGenerateSitRepEffects',['../classUniverse.html#a4e996a54669745cbb48a3b5ece0a2031',1,'Universe']]],
   ['applymetereffectsandupdatemeters',['ApplyMeterEffectsAndUpdateMeters',['../classUniverse.html#a5b2b74781cf8a9f49b632bf4d53b6257',1,'Universe::ApplyMeterEffectsAndUpdateMeters(const std::vector&lt; int &gt; &amp;object_ids, bool do_accounting=true)'],['../classUniverse.html#a407e223736f907577c4855f8b7676828',1,'Universe::ApplyMeterEffectsAndUpdateMeters(bool do_accounting=true)']]],
+  ['applymetereffectsandupdatetargetmaxunpairedmeters',['ApplyMeterEffectsAndUpdateTargetMaxUnpairedMeters',['../classUniverse.html#a690fc0499190914f3d827866487c6ce0',1,'Universe']]],
   ['applyorders',['ApplyOrders',['../classOrderSet.html#a2d1f0140e2853bff3542b8196e2406b3',1,'OrderSet']]],
   ['appwidth',['AppWidth',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5de1cb32df6cfddc86b71492ea10f807',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['aredetailsempty',['AreDetailsEmpty',['../structCombatEvent.html#a534fbbb00d3b626e35028f184313c381',1,'CombatEvent::AreDetailsEmpty()'],['../structWeaponFireEvent.html#af0236f7e6d94738bae2e2f513e98b89f',1,'WeaponFireEvent::AreDetailsEmpty()']]],
