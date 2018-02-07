@@ -299,6 +299,7 @@ var searchData=
   ['getresourcedirwrapper',['GetResourceDirWrapper',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a439a7fe4152a235fab731c683167bbd5',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['getresourcepool',['GetResourcePool',['../classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367',1,'Empire']]],
   ['getrespoollaneinfo',['GetResPoolLaneInfo',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a136cf2a16e7370548f3c1efece4676d2',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['getresult',['GetResult',['../classServerConnectWnd.html#a1eb9130a51e4b732a7569b07d5e2cdf9',1,'ServerConnectWnd']]],
   ['getrootdatadir',['GetRootDataDir',['../Directories_8h.html#aa957484f40aa4a5e48123f27b8e56a7d',1,'Directories.h']]],
   ['getrotatingplanetambientintensity',['GetRotatingPlanetAmbientIntensity',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a558fad6a50be0ccaaeb183ceeb10f3ab',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['getrotatingplanetdata',['GetRotatingPlanetData',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#aade6d9c1074c429734399b9763b64c30',1,'anonymous_namespace{SidePanel.cpp}']]],

@@ -41,6 +41,7 @@ var searchData=
   ['selectedplayerschangedsignal',['SelectedPlayersChangedSignal',['../classPlayerListWnd.html#a1765722e2f4fa01329d646e62bc41dda',1,'PlayerListWnd']]],
   ['selectedshipschangedsignal',['SelectedShipsChangedSignal',['../classFleetDetailPanel.html#a886e92f9777439c2c4fa656c646e2c62',1,'FleetDetailPanel::SelectedShipsChangedSignal()'],['../classFleetWnd.html#ad8b0f9af63a03493a8a527f802cadf4d',1,'FleetWnd::SelectedShipsChangedSignal()']]],
   ['send_5ferror_5fstring',['send_error_string',['../structparse_1_1report__error__.html#a71b72f917f6032119c13557750a4e094',1,'parse::report_error_']]],
+  ['server_5fdest',['server_dest',['../structServerConnectWnd_1_1Result.html#aa4d7802557d509c0009f32d7e13fe06b',1,'ServerConnectWnd::Result']]],
   ['server_5flabel',['SERVER_LABEL',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad44b5f6c2cf6f3bb381bd44134d477e6',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['set_5faggression',['set_aggression',['../structparse_1_1detail_1_1effect__parser__rules__3.html#aa4622ac956ddd522a74f84f9830e9c56',1,'parse::detail::effect_parser_rules_3']]],
   ['set_5fdestination',['set_destination',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a1976159a685eff9eb3206d62c25dd356',1,'parse::detail::effect_parser_rules_3']]],

@@ -73,6 +73,7 @@ var searchData=
   ['playable',['playable',['../structSpeciesParams.html#a617bd3e428414618423ae090aa70c418',1,'SpeciesParams']]],
   ['player_5fdisconnect',['PLAYER_DISCONNECT',['../classMessage.html#a34b7a6ea13762f032d39c5086f60f895',1,'Message']]],
   ['player_5flist_5fwnd_5fname',['PLAYER_LIST_WND_NAME',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#ad727841e65aa3ebc14ab5de4c9c46387',1,'anonymous_namespace{ClientUI.cpp}']]],
+  ['player_5fname',['player_name',['../structServerConnectWnd_1_1Result.html#a9d2f09a7b95d4324b3fe8c119bd84299',1,'ServerConnectWnd::Result']]],
   ['playerdoubleclickedsignal',['PlayerDoubleClickedSignal',['../classPlayerListWnd.html#a1e8c5a99df8723447c7752f4b0bcdd00',1,'PlayerListWnd']]],
   ['post_5fblockade',['post_blockade',['../structMovePathNode.html#a46c7ed91bc0f0b5f48651523ab4bd1e1',1,'MovePathNode']]],
   ['power',['power',['../structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504',1,'WeaponFireEvent']]],

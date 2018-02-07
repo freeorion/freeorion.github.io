@@ -272,7 +272,7 @@ var searchData=
   ['established_5fiterator',['established_iterator',['../classServerNetworking.html#a2be56e1eb6a2d1e0044adf5bbc168825',1,'ServerNetworking']]],
   ['establishedplayer',['EstablishedPlayer',['../structServerNetworking_1_1EstablishedPlayer.html',1,'ServerNetworking']]],
   ['establishedplayer',['EstablishedPlayer',['../classPlayerConnection.html#a83a790d26d15539584efa9409994f991',1,'PlayerConnection']]],
-  ['establishplayer',['EstablishPlayer',['../classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec',1,'PlayerConnection::EstablishPlayer()'],['../structMPLobby.html#a06d16ea080275820c9642fae8f45b3d4',1,'MPLobby::EstablishPlayer()']]],
+  ['establishplayer',['EstablishPlayer',['../classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec',1,'PlayerConnection::EstablishPlayer()'],['../structMPLobby.html#aa9ac9ca2dd2d2d4578406ef3aa16689e',1,'MPLobby::EstablishPlayer()']]],
   ['eta',['ETA',['../classFleet.html#ac90f56b078bb8b02f0d0dd7e61586846',1,'Fleet::ETA() const '],['../classFleet.html#a87e00b7152d451547ca3b0c6e6a12145',1,'Fleet::ETA(const std::list&lt; MovePathNode &gt; &amp;move_path) const '],['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a6f6c561fa45f455b463e8392c6be928a',1,'MapWnd::MovementLineData::Vertex::eta()'],['../structMovePathNode.html#a139cefb1ae8da63588bf5f7cec950f73',1,'MovePathNode::eta()']]],
   ['eta_5fnever',['ETA_NEVER',['../classFleet.html#a368ffb2ba972be8cf92c4ad6744b2f1b',1,'Fleet']]],
   ['eta_5fout_5fof_5frange',['ETA_OUT_OF_RANGE',['../classFleet.html#a1df2c09222077ba72e1909772a4366f7',1,'Fleet']]],
