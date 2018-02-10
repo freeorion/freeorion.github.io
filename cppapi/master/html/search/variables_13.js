@@ -102,7 +102,7 @@ var searchData=
   ['sitrep_5fwnd_5fname',['SITREP_WND_NAME',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5a5bced4138e207e195aa317f44c4227',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['sizer',['sizer',['../structOptionsBar_1_1ToggleData.html#aab07a055c14af06f2c99f8c2b6a4982b',1,'OptionsBar::ToggleData']]],
   ['slot',['slot',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a8eb7783c19eb9b56d57930d07e00d9df',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
-  ['slotcontentsalteredsignal',['SlotContentsAlteredSignal',['../classSlotControl.html#a500f3b76e54cbbb155a7df8c64244356',1,'SlotControl']]],
+  ['slotcontentsalteredsignal',['SlotContentsAlteredSignal',['../classSlotControl.html#a36fdcd8de64b1472e0b2923cdf8bd932',1,'SlotControl']]],
   ['slots',['slots',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a39e72625f7f6a3f3d9593fffa32ef06f',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar::slots()'],['../structanonymous__namespace_02ShipPartsParser_8cpp_03_1_1grammar.html#a50e5ebc2395f431d18a97582d82efa84',1,'anonymous_namespace{ShipPartsParser.cpp}::grammar::slots()']]],
   ['slots_5fin_5fhull',['slots_in_hull',['../structparse_1_1int__complex__parser__grammar.html#acf4873965842a2aed5abf6310204f929',1,'parse::int_complex_parser_grammar']]],
   ['slots_5fin_5fship_5fdesign',['slots_in_ship_design',['../structparse_1_1int__complex__parser__grammar.html#a0686aed15727abd8d25d09db06236f4d',1,'parse::int_complex_parser_grammar']]],

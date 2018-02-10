@@ -124,13 +124,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30aaa7911b0ee4d4710af19fb1f1fe99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac75646437545e4ce67e8407646d7d263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#ac75646437545e4ce67e8407646d7d263">LDoubleClick</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:ac75646437545e4ce67e8407646d7d263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb68d43bbcfbabf3a01dd5f00e88edb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#affb68d43bbcfbabf3a01dd5f00e88edb">RClick</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:affb68d43bbcfbabf3a01dd5f00e88edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49bac9173042346bd5945f9e83cdd778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#a49bac9173042346bd5945f9e83cdd778">SetAvailability</a> (const <a class="el" href="structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8b">Availability::Enum</a> type)</td></tr>
+<tr class="separator:a49bac9173042346bd5945f9e83cdd778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a83b9aaaf6d3090773384431af1bdb299"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#a83b9aaaf6d3090773384431af1bdb299">ClickedSignal</a></td></tr>
-<tr class="separator:a83b9aaaf6d3090773384431af1bdb299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4637ddb2875717530c40c21fe2b8c727"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *, GG::Flags&lt; GG::ModKey &gt;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#a4637ddb2875717530c40c21fe2b8c727">ClickedSignal</a></td></tr>
+<tr class="separator:a4637ddb2875717530c40c21fe2b8c727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9460e852000911862e1be7ca7b63f4"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#a1a9460e852000911862e1be7ca7b63f4">DoubleClickedSignal</a></td></tr>
 <tr class="separator:a1a9460e852000911862e1be7ca7b63f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d62194d208f50f5dfa3bed7626c528"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *, const GG::Pt &amp;pt)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartControl.html#a51d62194d208f50f5dfa3bed7626c528">RightClickedSignal</a></td></tr>
+<tr class="separator:a51d62194d208f50f5dfa3bed7626c528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -218,7 +224,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classPartControl.html#a83b9aaaf6d3090773384431af1bdb299">ClickedSignal</a>, and <a class="el" href="classPartControl.html#a7e8a3a387c3d7419725b00bbcc1b6c51">m_part</a>.</p>
+<p>References <a class="el" href="classPartControl.html#a4637ddb2875717530c40c21fe2b8c727">ClickedSignal</a>, and <a class="el" href="classPartControl.html#a7e8a3a387c3d7419725b00bbcc1b6c51">m_part</a>.</p>
 
 </div>
 </div>
@@ -279,7 +285,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSlotControl.html#aa52e93b780a6b2dab4eb08dcc9fae96d">SlotControl::AcceptDrops()</a>, and <a class="el" href="classPartsListBox_1_1PartsListBoxRow.html#afd31bcebd39f32dff10f2243ab49d72f">PartsListBox::PartsListBoxRow::ChildrenDraggedAway()</a>.</p>
+<p>Referenced by <a class="el" href="classPartsListBox.html#a54080a3347d48b03020a19455d05f511">PartsListBox::AcceptDrops()</a>, <a class="el" href="classSlotControl.html#aa52e93b780a6b2dab4eb08dcc9fae96d">SlotControl::AcceptDrops()</a>, and <a class="el" href="classPartsListBox_1_1PartsListBoxRow.html#afd31bcebd39f32dff10f2243ab49d72f">PartsListBox::PartsListBoxRow::ChildrenDraggedAway()</a>.</p>
 
 </div>
 </div>
@@ -308,6 +314,42 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="affb68d43bbcfbabf3a01dd5f00e88edb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PartControl::RClick </td>
+          <td>(</td>
+          <td class="paramtype">const GG::Pt &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GG::Flags&lt; GG::ModKey &gt;&#160;</td>
+          <td class="paramname"><em>mod_keys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classPartControl.html#a7e8a3a387c3d7419725b00bbcc1b6c51">m_part</a>, and <a class="el" href="classPartControl.html#a51d62194d208f50f5dfa3bed7626c528">RightClickedSignal</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="acb2da8475b9dba26bd7d7ee9e49cf561"></a>
 <div class="memitem">
 <div class="memproto">
@@ -331,8 +373,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a49bac9173042346bd5945f9e83cdd778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PartControl::SetAvailability </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8b">Availability::Enum</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classPartControl.html#a4ac48291c7b767d730c9db572da13ded">m_background</a>, <a class="el" href="classPartControl.html#a31743efb6dbb61f585cc6696fa3ad01a">m_icon</a>, and <a class="el" href="structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba75e1bfc9f73918d7a18f355a319f2095">Availability::Obsolete</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a83b9aaaf6d3090773384431af1bdb299"></a>
+<a class="anchor" id="a4637ddb2875717530c40c21fe2b8c727"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -340,7 +400,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="classPartType.html">PartType</a>*)&gt; PartControl::ClickedSignal</td>
+          <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="classPartType.html">PartType</a>*, GG::Flags&lt;GG::ModKey&gt;)&gt; PartControl::ClickedSignal</td>
         </tr>
       </table>
   </td>
@@ -394,7 +454,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>.</p>
+<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>, and <a class="el" href="classPartControl.html#a49bac9173042346bd5945f9e83cdd778">SetAvailability()</a>.</p>
 
 </div>
 </div>
@@ -416,7 +476,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>.</p>
+<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>, and <a class="el" href="classPartControl.html#a49bac9173042346bd5945f9e83cdd778">SetAvailability()</a>.</p>
 
 </div>
 </div>
@@ -438,7 +498,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>, <a class="el" href="classPartControl.html#a30aaa7911b0ee4d4710af19fb1f1fe99">LClick()</a>, and <a class="el" href="classPartControl.html#ac75646437545e4ce67e8407646d7d263">LDoubleClick()</a>.</p>
+<p>Referenced by <a class="el" href="classPartControl.html#a2dff76865992e93cee84b2db766795e2">CompleteConstruction()</a>, <a class="el" href="classPartControl.html#a30aaa7911b0ee4d4710af19fb1f1fe99">LClick()</a>, <a class="el" href="classPartControl.html#ac75646437545e4ce67e8407646d7d263">LDoubleClick()</a>, and <a class="el" href="classPartControl.html#affb68d43bbcfbabf3a01dd5f00e88edb">RClick()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51d62194d208f50f5dfa3bed7626c528"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="classPartType.html">PartType</a>*, const GG::Pt&amp; pt)&gt; PartControl::RightClickedSignal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPartControl.html#affb68d43bbcfbabf3a01dd5f00e88edb">RClick()</a>.</p>
 
 </div>
 </div>

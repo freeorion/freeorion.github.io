@@ -107,8 +107,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a418f7c65e14f1f25831790325a2fa2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf34e9cfb994834aafd6b759fa64d38f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGameUIData.html#aaf34e9cfb994834aafd6b759fa64d38f">map_zoom_steps_in</a></td></tr>
 <tr class="separator:aaf34e9cfb994834aafd6b759fa64d38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24500aaddb0647318717ca93d2c48f3a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGameUIData.html#a24500aaddb0647318717ca93d2c48f3a">ordered_ship_design_ids_and_obsolete</a></td></tr>
-<tr class="separator:a24500aaddb0647318717ca93d2c48f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8640d02206734708fc693cbda7e6dfdf"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGameUIData.html#a8640d02206734708fc693cbda7e6dfdf">obsolete_ship_parts</a></td></tr>
+<tr class="separator:a8640d02206734708fc693cbda7e6dfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c764ac38fbafb5b892308dc8e843aa8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, boost::optional&lt; bool &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGameUIData.html#a7c764ac38fbafb5b892308dc8e843aa8">ordered_ship_design_ids_and_obsolete</a></td></tr>
+<tr class="separator:a7c764ac38fbafb5b892308dc8e843aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5af1eea826c2b19299018e3c326d719"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGameUIData.html#aa5af1eea826c2b19299018e3c326d719">ordered_ship_hull_and_obsolete</a></td></tr>
+<tr class="separator:aa5af1eea826c2b19299018e3c326d719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -238,12 +242,40 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a24500aaddb0647318717ca93d2c48f3a"></a>
+<a class="anchor" id="a8640d02206734708fc693cbda7e6dfdf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;int, bool&gt; &gt; SaveGameUIData::ordered_ship_design_ids_and_obsolete</td>
+          <td class="memname">std::unordered_set&lt;std::string&gt; SaveGameUIData::obsolete_ship_parts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShipDesignManager.html#ab333f4e10149f4935cb96dd133382eda">ShipDesignManager::Load()</a>, and <a class="el" href="classShipDesignManager.html#ab8f8ae40b8a2886da8521538be5dfa83">ShipDesignManager::Save()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c764ac38fbafb5b892308dc8e843aa8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;int, boost::optional&lt;bool&gt; &gt; &gt; SaveGameUIData::ordered_ship_design_ids_and_obsolete</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classShipDesignManager.html#ab333f4e10149f4935cb96dd133382eda">ShipDesignManager::Load()</a>, and <a class="el" href="classShipDesignManager.html#ab8f8ae40b8a2886da8521538be5dfa83">ShipDesignManager::Save()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5af1eea826c2b19299018e3c326d719"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;std::string, bool&gt; &gt; SaveGameUIData::ordered_ship_hull_and_obsolete</td>
         </tr>
       </table>
 </div><div class="memdoc">

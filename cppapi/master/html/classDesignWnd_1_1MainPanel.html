@@ -169,9 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad035551a3e719172848d37a35f6187d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#ad035551a3e719172848d37a35f6187d7">SetPart</a> (const std::string &amp;part_name, unsigned int slot)</td></tr>
 <tr class="memdesc:ad035551a3e719172848d37a35f6187d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">puts specified part in specified slot. does nothing if slot is out of range of available slots for current hull  <a href="#ad035551a3e719172848d37a35f6187d7">More...</a><br /></td></tr>
 <tr class="separator:ad035551a3e719172848d37a35f6187d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8f93cd7132c0884c531dbf89c5a9d8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#ae8f93cd7132c0884c531dbf89c5a9d8c">SetPart</a> (const <a class="el" href="classPartType.html">PartType</a> *part, unsigned int slot, bool emit_signal=false)</td></tr>
-<tr class="memdesc:ae8f93cd7132c0884c531dbf89c5a9d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">puts specified part in specified slot. does nothing if slot is out of range of available slots for current hull  <a href="#ae8f93cd7132c0884c531dbf89c5a9d8c">More...</a><br /></td></tr>
-<tr class="separator:ae8f93cd7132c0884c531dbf89c5a9d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb57d8964e5ffae9f94039cbda031db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#adbb57d8964e5ffae9f94039cbda031db">SetPart</a> (const <a class="el" href="classPartType.html">PartType</a> *part, unsigned int slot, bool emit_signal=false, bool change_all_similar_parts=false)</td></tr>
+<tr class="separator:adbb57d8964e5ffae9f94039cbda031db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee114e0b815b04c30bbefbed119ef39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#afee114e0b815b04c30bbefbed119ef39">SetParts</a> (const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
 <tr class="memdesc:afee114e0b815b04c30bbefbed119ef39"><td class="mdescLeft">&#160;</td><td class="mdescRight">puts specified parts in slots. attempts to put each part into the slot corresponding to its place in the passed vector. if a part cannot be placed, it is ignored. more parts than there are slots available are ignored, and slots for which there are insufficient parts in the passed vector are unmodified  <a href="#afee114e0b815b04c30bbefbed119ef39">More...</a><br /></td></tr>
 <tr class="separator:afee114e0b815b04c30bbefbed119ef39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46e7164d685cb9e7bf38da3f54032438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438">ClearParts</a> ()</td></tr>
 <tr class="memdesc:a46e7164d685cb9e7bf38da3f54032438"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes all parts from design. hull is not altered  <a href="#a46e7164d685cb9e7bf38da3f54032438">More...</a><br /></td></tr>
 <tr class="separator:a46e7164d685cb9e7bf38da3f54032438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282bb1c4f3fbabcfe9137f61bf8264ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a282bb1c4f3fbabcfe9137f61bf8264ab">ClearPart</a> (const std::string &amp;part_name)</td></tr>
+<tr class="separator:a282bb1c4f3fbabcfe9137f61bf8264ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51dee0f592295511cddd0eac068b332f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a51dee0f592295511cddd0eac068b332f">SetHull</a> (const std::string &amp;hull_name, bool signal=true)</td></tr>
 <tr class="separator:a51dee0f592295511cddd0eac068b332f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e7818018468b02c0352053872f9d31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#ac5e7818018468b02c0352053872f9d31">SetHull</a> (const <a class="el" href="classHullType.html">HullType</a> *hull, bool signal=true)</td></tr>
@@ -309,8 +310,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a666d24816e0a5b3f93c2d9832a7518aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a904de24d03fd1ec78ad40d56d5c7a31f"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classHullType.html">HullType</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a904de24d03fd1ec78ad40d56d5c7a31f">HullTypeClickedSignal</a></td></tr>
 <tr class="separator:a904de24d03fd1ec78ad40d56d5c7a31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca807a00d367912687d782fe7475ab95"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#aca807a00d367912687d782fe7475ab95">PartTypeClickedSignal</a></td></tr>
-<tr class="separator:aca807a00d367912687d782fe7475ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab436faac01dbe5803dec7451b7d7f642"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void(const <a class="el" href="classPartType.html">PartType</a> *, GG::Flags&lt; GG::ModKey &gt;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#ab436faac01dbe5803dec7451b7d7f642">PartTypeClickedSignal</a></td></tr>
+<tr class="separator:ab436faac01dbe5803dec7451b7d7f642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -720,6 +721,27 @@ Additional Inherited Members</h2></td></tr>
 <p>puts specified part in specified slot. does nothing if slot is out of range of available slots for current hull </p>
 
 <p>References <a class="el" href="classDesignWnd_1_1MainPanel.html#afd5866084d8129fb8ea86e047ced97dd">FindEmptySlotForPart()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#ae0c4ca54b987e004bcfb88453c8bc5c5">FindSlotForPartWithSwapping()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a282bb1c4f3fbabcfe9137f61bf8264ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DesignWnd::MainPanel::ClearPart </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>part_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Remove parts called <code>part_name</code> </p>
+
+<p>References <a class="el" href="classDesignWnd_1_1MainPanel.html#aacd80d0d5b4689dfc3f264d399ff6817">DesignChangedSignal</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#acf8f21af7fcf7fb1e0c8fb5bb18182d4">m_slots</a>, and <a class="el" href="classPartType.html#ac9244b6b9f2ad766b081e5697b8c18fa">PartType::Name()</a>.</p>
+
+<p>Referenced by <a class="el" href="classDesignWnd.html#af69b9149f678e68a6d2593cc120ab489">DesignWnd::CompleteConstruction()</a>.</p>
 
 </div>
 </div>
@@ -1306,7 +1328,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>creates and places SlotControls for current hull </p>
 
-<p>References <a class="el" href="classDesignWnd_1_1MainPanel.html#a73089db51249f58882c4564dd40bad16">m_hull</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#acf8f21af7fcf7fb1e0c8fb5bb18182d4">m_slots</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aca807a00d367912687d782fe7475ab95">PartTypeClickedSignal</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ad035551a3e719172848d37a35f6187d7">SetPart()</a>, <a class="el" href="classHullType.html#afecb040cd2bd9f98091f9a631bc9521e">HullType::Slots()</a>, <a class="el" href="structHullType_1_1Slot.html#ac1c42c1541c80f5a8d8b25e5b6433ddb">HullType::Slot::type</a>, <a class="el" href="structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90">HullType::Slot::x</a>, and <a class="el" href="structHullType_1_1Slot.html#a49c7d30965fd89edd4b65fc1e29526d4">HullType::Slot::y</a>.</p>
+<p>References <a class="el" href="classDesignWnd_1_1MainPanel.html#a73089db51249f58882c4564dd40bad16">m_hull</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#acf8f21af7fcf7fb1e0c8fb5bb18182d4">m_slots</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ab436faac01dbe5803dec7451b7d7f642">PartTypeClickedSignal</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ad035551a3e719172848d37a35f6187d7">SetPart()</a>, <a class="el" href="classHullType.html#afecb040cd2bd9f98091f9a631bc9521e">HullType::Slots()</a>, <a class="el" href="structHullType_1_1Slot.html#ac1c42c1541c80f5a8d8b25e5b6433ddb">HullType::Slot::type</a>, <a class="el" href="structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90">HullType::Slot::x</a>, and <a class="el" href="structHullType_1_1Slot.html#a49c7d30965fd89edd4b65fc1e29526d4">HullType::Slot::y</a>.</p>
 
 <p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#ac5e7818018468b02c0352053872f9d31">SetHull()</a>.</p>
 
@@ -1605,7 +1627,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae8f93cd7132c0884c531dbf89c5a9d8c"></a>
+<a class="anchor" id="adbb57d8964e5ffae9f94039cbda031db"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1625,7 +1647,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>emit_signal</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>emit_signal</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>change_all_similar_parts</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1634,10 +1662,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets the part in <code>slot</code> to <code>part</code> and emits and signal if requested. Changes all similar parts if <code>change_all_similar_parts</code>. </p>
 
-<p>puts specified part in specified slot. does nothing if slot is out of range of available slots for current hull </p>
-
-<p>References <a class="el" href="classDesignWnd_1_1MainPanel.html#aacd80d0d5b4689dfc3f264d399ff6817">DesignChangedSignal</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#acf8f21af7fcf7fb1e0c8fb5bb18182d4">m_slots</a>.</p>
+<p>References <a class="el" href="classPartType.html#a4429d3b8be9f4aac45ebb68200a3a66e">PartType::CanMountInSlotType()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aacd80d0d5b4689dfc3f264d399ff6817">DesignChangedSignal</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#acf8f21af7fcf7fb1e0c8fb5bb18182d4">m_slots</a>.</p>
 
 </div>
 </div>
@@ -1783,7 +1810,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>emitted when the design is changed (by adding or removing parts, not name or description changes) </p>
 
-<p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#a251ec98c7a2afd90a529310b5078cfa7">AddDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a5e810abc1406c976dfb983b863cb7dc0">AddPartEmptySlot()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401">AddPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438">ClearParts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a11d1d1c64395c14a8545e25b875fefa1">DesignNameChanged()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a8b48e0b7e83c64230e7362689cdea91e">ReplaceDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#abf5b0c90aece28af8f0fb80def439a51">SetDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ac5e7818018468b02c0352053872f9d31">SetHull()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ae8f93cd7132c0884c531dbf89c5a9d8c">SetPart()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#afee114e0b815b04c30bbefbed119ef39">SetParts()</a>.</p>
+<p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#a251ec98c7a2afd90a529310b5078cfa7">AddDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a5e810abc1406c976dfb983b863cb7dc0">AddPartEmptySlot()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401">AddPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a282bb1c4f3fbabcfe9137f61bf8264ab">ClearPart()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438">ClearParts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a11d1d1c64395c14a8545e25b875fefa1">DesignNameChanged()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a8b48e0b7e83c64230e7362689cdea91e">ReplaceDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#abf5b0c90aece28af8f0fb80def439a51">SetDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ac5e7818018468b02c0352053872f9d31">SetHull()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adbb57d8964e5ffae9f94039cbda031db">SetPart()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#afee114e0b815b04c30bbefbed119ef39">SetParts()</a>.</p>
 
 </div>
 </div>
@@ -2226,7 +2253,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401">AddPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438">ClearParts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a93905b941ac5d906bee97a3b93e8ad6c">DoLayout()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#afd5866084d8129fb8ea86e047ced97dd">FindEmptySlotForPart()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ae0c4ca54b987e004bcfb88453c8bc5c5">FindSlotForPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a17fb25514a1a8a582b6c17172b790e22">HighlightSlotType()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aed847771dde70a9725d92ba1b1c50409">Parts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a9137fed01bcf0626250e9304176d1132">Populate()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ae8f93cd7132c0884c531dbf89c5a9d8c">SetPart()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#afee114e0b815b04c30bbefbed119ef39">SetParts()</a>.</p>
+<p>Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401">AddPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a282bb1c4f3fbabcfe9137f61bf8264ab">ClearPart()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438">ClearParts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a93905b941ac5d906bee97a3b93e8ad6c">DoLayout()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#afd5866084d8129fb8ea86e047ced97dd">FindEmptySlotForPart()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ae0c4ca54b987e004bcfb88453c8bc5c5">FindSlotForPartWithSwapping()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a17fb25514a1a8a582b6c17172b790e22">HighlightSlotType()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aed847771dde70a9725d92ba1b1c50409">Parts()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a9137fed01bcf0626250e9304176d1132">Populate()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adbb57d8964e5ffae9f94039cbda031db">SetPart()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#afee114e0b815b04c30bbefbed119ef39">SetParts()</a>.</p>
 
 </div>
 </div>
@@ -2253,7 +2280,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca807a00d367912687d782fe7475ab95"></a>
+<a class="anchor" id="ab436faac01dbe5803dec7451b7d7f642"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2261,7 +2288,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="classPartType.html">PartType</a>*)&gt; DesignWnd::MainPanel::PartTypeClickedSignal</td>
+          <td class="memname">boost::signals2::signal&lt;void (const <a class="el" href="classPartType.html">PartType</a>*, GG::Flags&lt;GG::ModKey&gt;)&gt; DesignWnd::MainPanel::PartTypeClickedSignal</td>
         </tr>
       </table>
   </td>

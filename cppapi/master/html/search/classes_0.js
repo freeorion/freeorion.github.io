@@ -23,5 +23,5 @@ var searchData=
   ['authroles',['AuthRoles',['../classNetworking_1_1AuthRoles.html',1,'Networking']]],
   ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['availability',['Availability',['../structAvailability.html',1,'']]],
-  ['availabilitymanager',['AvailabilityManager',['../classBasesListBox_1_1AvailabilityManager.html',1,'BasesListBox']]]
+  ['availabilitymanager',['AvailabilityManager',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1AvailabilityManager.html',1,'anonymous_namespace{DesignWnd.cpp}']]]
 ];
