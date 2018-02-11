@@ -148,8 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1edf913412946fb18d03f8089921cd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f950838985cf46b1c275fbdbc7d887e"><td class="memItemLeft" align="right" valign="top">PlanetSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#a7f950838985cf46b1c275fbdbc7d887e">Size</a> () const </td></tr>
 <tr class="separator:a7f950838985cf46b1c275fbdbc7d887e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e5e7fcebac0c65440ddfdd064d5650"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#ad0e5e7fcebac0c65440ddfdd064d5650">SizeAsInt</a> () const </td></tr>
-<tr class="separator:ad0e5e7fcebac0c65440ddfdd064d5650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14f772889d425efcd82d55f67f31014"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#ab14f772889d425efcd82d55f67f31014">HabitableSize</a> () const </td></tr>
+<tr class="separator:ab14f772889d425efcd82d55f67f31014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aff51171926fec1878d61015f856149"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#a2aff51171926fec1878d61015f856149">HostileToEmpire</a> (int empire_id) const override</td></tr>
 <tr class="separator:a2aff51171926fec1878d61015f856149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a112f66366be9e3ef1390de57d6292fd6"><td class="memItemLeft" align="right" valign="top">PlanetEnvironment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlanet.html#a112f66366be9e3ef1390de57d6292fd6">EnvironmentForSpecies</a> (const std::string &amp;species_name=&quot;&quot;) const </td></tr>
@@ -1409,6 +1409,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab14f772889d425efcd82d55f67f31014"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Planet::HabitableSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>An orbital period is equal to a planets "year". A "year" is arbitrarily defined to be 4 turns. </p>
+
+<p>References <a class="el" href="MultiplayerCommon_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="classPlanet.html#a648169717e74a82027aa93740e5fd165">m_size</a>, <a class="el" href="Enums_8h.html#ad6ff5e547557982988b153db8968753b">SZ_ASTEROIDS</a>, <a class="el" href="Enums_8h.html#aa006f6da4280969801e34bacf87a8212">SZ_GASGIANT</a>, <a class="el" href="Enums_8h.html#aeb62fe9b23e4a2ed88e4294cf8b6f526">SZ_HUGE</a>, <a class="el" href="Enums_8h.html#acb64be2ff0e8855cb5463b32a92c093e">SZ_LARGE</a>, <a class="el" href="Enums_8h.html#a3729da5f7b6b87f4e70302cf05ac4786">SZ_MEDIUM</a>, <a class="el" href="Enums_8h.html#ab3a3b077d4935938abf3c676052067ce">SZ_SMALL</a>, and <a class="el" href="Enums_8h.html#ab11c33835b81723043b6ae4267ba87df">SZ_TINY</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a1d3a671ff0a4263bf40a60321b605e49"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2345,24 +2365,6 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ad0e5e7fcebac0c65440ddfdd064d5650"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Planet::SizeAsInt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>An orbital period is equal to a planets "year". A "year" is arbitrarily defined to be 4 turns. </p>
-
-<p>References <a class="el" href="classPlanet.html#a648169717e74a82027aa93740e5fd165">m_size</a>, <a class="el" href="Enums_8h.html#ad6ff5e547557982988b153db8968753b">SZ_ASTEROIDS</a>, <a class="el" href="Enums_8h.html#aa006f6da4280969801e34bacf87a8212">SZ_GASGIANT</a>, <a class="el" href="Enums_8h.html#aeb62fe9b23e4a2ed88e4294cf8b6f526">SZ_HUGE</a>, <a class="el" href="Enums_8h.html#acb64be2ff0e8855cb5463b32a92c093e">SZ_LARGE</a>, <a class="el" href="Enums_8h.html#a3729da5f7b6b87f4e70302cf05ac4786">SZ_MEDIUM</a>, <a class="el" href="Enums_8h.html#ab3a3b077d4935938abf3c676052067ce">SZ_SMALL</a>, and <a class="el" href="Enums_8h.html#ab11c33835b81723043b6ae4267ba87df">SZ_TINY</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a54a300d255fae127da7143e602a500a6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2826,7 +2828,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Copy()</a>, <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Dump()</a>, <a class="el" href="classPlanet.html#adeeef8cc3b56fe9ffed8ce5f4deef7fc">NextLargerPlanetSize()</a>, <a class="el" href="classPlanet.html#a2a7310a2ccb748c1e402a5ae65b27c0b">NextSmallerPlanetSize()</a>, <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet()</a>, <a class="el" href="classPlanet.html#a5c7a69c5ae088817f6da3e8fe955f90d">SetSize()</a>, and <a class="el" href="classPlanet.html#ad0e5e7fcebac0c65440ddfdd064d5650">SizeAsInt()</a>.</p>
+<p>Referenced by <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Copy()</a>, <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Dump()</a>, <a class="el" href="classPlanet.html#ab14f772889d425efcd82d55f67f31014">HabitableSize()</a>, <a class="el" href="classPlanet.html#adeeef8cc3b56fe9ffed8ce5f4deef7fc">NextLargerPlanetSize()</a>, <a class="el" href="classPlanet.html#a2a7310a2ccb748c1e402a5ae65b27c0b">NextSmallerPlanetSize()</a>, <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet()</a>, and <a class="el" href="classPlanet.html#a5c7a69c5ae088817f6da3e8fe955f90d">SetSize()</a>.</p>
 
 </div>
 </div>

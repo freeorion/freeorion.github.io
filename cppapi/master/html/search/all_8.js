@@ -1,6 +1,7 @@
 var searchData=
 [
   ['h',['h',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a122890cbcfc1d84f901c137bd204c7f0',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
+  ['habitablesize',['HabitableSize',['../classPlanet.html#ab14f772889d425efcd82d55f67f31014',1,'Planet']]],
   ['halostartypefileprefixes',['HaloStarTypeFilePrefixes',['../classClientUI.html#aac8b94c6d36abb7aecb85a2a2db1d966',1,'ClientUI']]],
   ['halotexture',['HaloTexture',['../classSystemIcon.html#ae8a54e4c2e80a73b84ba119a99a1c7ec',1,'SystemIcon']]],
   ['handleappquitting',['HandleAppQuitting',['../classHumanClientApp.html#af39fe1d839945679bf238141e8342ce4',1,'HumanClientApp']]],
@@ -175,8 +176,8 @@ var searchData=
   ['hull_5fstats_5frule',['hull_stats_rule',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#afbac019a4f6b826431c3308df301f897',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
   ['hullandnamepanel',['HullAndNamePanel',['../classBasesListBox_1_1HullAndNamePanel.html#a79facaf0741e07069bc01448ab86595f',1,'BasesListBox::HullAndNamePanel']]],
   ['hullandnamepanel',['HullAndNamePanel',['../classBasesListBox_1_1HullAndNamePanel.html',1,'BasesListBox']]],
-  ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html',1,'BasesListBox']]],
   ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a476d5345eca72273628b98faf8951ad9',1,'BasesListBox::HullAndPartsListBoxRow']]],
+  ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html',1,'BasesListBox']]],
   ['hullclickedsignal',['HullClickedSignal',['../classBasesListBox.html#a54fb580ca942a604ae5e0783c6c35298',1,'BasesListBox::HullClickedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a166e4a87e726467f50d4d9c95b5c11cf',1,'DesignWnd::BaseSelector::HullClickedSignal()']]],
   ['hullicon',['HullIcon',['../classClientUI.html#a58402bc53f69bcacfdde4bfc7aff30d1',1,'ClientUI']]],
   ['hullslots',['HullSlots',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a12656fd02cd281d54c596d23b7ed64ec',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
