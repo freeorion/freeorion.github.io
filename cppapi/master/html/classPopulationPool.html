@@ -109,9 +109,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d67912d84bf7325ece246620a5a66ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a7d67912d84bf7325ece246620a5a66ec">Population</a> () const </td></tr>
 <tr class="memdesc:a7d67912d84bf7325ece246620a5a66ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current total population  <a href="#a7d67912d84bf7325ece246620a5a66ec">More...</a><br /></td></tr>
 <tr class="separator:a7d67912d84bf7325ece246620a5a66ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a917e70ab69b2036517c2d87b3ca3210a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a917e70ab69b2036517c2d87b3ca3210a">Growth</a> () const </td></tr>
-<tr class="memdesc:a917e70ab69b2036517c2d87b3ca3210a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns predicted growth for next turn  <a href="#a917e70ab69b2036517c2d87b3ca3210a">More...</a><br /></td></tr>
-<tr class="separator:a917e70ab69b2036517c2d87b3ca3210a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -121,13 +118,10 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a340a8cfee7a97175edef07ef283e730b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a340a8cfee7a97175edef07ef283e730b">m_growth</a></td></tr>
-<tr class="memdesc:a340a8cfee7a97175edef07ef283e730b"><td class="mdescLeft">&#160;</td><td class="mdescRight">total predicted population growth for next turn for all PopCenters in pool  <a href="#a340a8cfee7a97175edef07ef283e730b">More...</a><br /></td></tr>
-<tr class="separator:a340a8cfee7a97175edef07ef283e730b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b3440da15418d402701abd24b0f3680"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a1b3440da15418d402701abd24b0f3680">m_pop_center_ids</a></td></tr>
 <tr class="memdesc:a1b3440da15418d402701abd24b0f3680"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classUniverseObject.html">UniverseObject</a> ids of PopCenters that contribute to the pool.  <a href="#a1b3440da15418d402701abd24b0f3680">More...</a><br /></td></tr>
 <tr class="separator:a1b3440da15418d402701abd24b0f3680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ea61a4448f6e9a4d2b9b0caaa432cf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a19ea61a4448f6e9a4d2b9b0caaa432cf">m_population</a></td></tr>
+<tr class="memitem:a19ea61a4448f6e9a4d2b9b0caaa432cf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopulationPool.html#a19ea61a4448f6e9a4d2b9b0caaa432cf">m_population</a> = 0.0f</td></tr>
 <tr class="memdesc:a19ea61a4448f6e9a4d2b9b0caaa432cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">total population of all PopCenters in pool  <a href="#a19ea61a4448f6e9a4d2b9b0caaa432cf">More...</a><br /></td></tr>
 <tr class="separator:a19ea61a4448f6e9a4d2b9b0caaa432cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -165,25 +159,6 @@ Mutators</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a917e70ab69b2036517c2d87b3ca3210a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float PopulationPool::Growth </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns predicted growth for next turn </p>
-
-<p>References <a class="el" href="classPopulationPool.html#a340a8cfee7a97175edef07ef283e730b">m_growth</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a80d1ca0c2c136e8b3e3c8bd0fe2f758e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -225,8 +200,6 @@ Mutators</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns current total population </p>
-
-<p>References <a class="el" href="classPopulationPool.html#a19ea61a4448f6e9a4d2b9b0caaa432cf">m_population</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#ab32f7d22e0b0d444f4d88acd6c26f284">Empire::Population()</a>, and <a class="el" href="classMapWnd.html#acabb897ee39015e8403df817784e2bcc">MapWnd::RefreshPopulationIndicator()</a>.</p>
 
@@ -283,8 +256,6 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>emitted after updating population and growth numbers </p>
 
-<p>References <a class="el" href="classPopulationPool.html#a1b3440da15418d402701abd24b0f3680">m_pop_center_ids</a>.</p>
-
 <p>Referenced by <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Empire::Eliminate()</a>, and <a class="el" href="classEmpire.html#aca2f54b2d9e3e7e467fdada3b2db64eb">Empire::InitResourcePools()</a>.</p>
 
 </div>
@@ -304,7 +275,7 @@ template&lt;class Archive &gt; </div>
 
 <p>recalculates total population and growth </p>
 
-<p>References <a class="el" href="classPopulationPool.html#af39f373b6cd89f6798f43cd4ed25a5a6">ChangedSignal</a>, <a class="el" href="AppInterface_8h.html#a6cd3b7b4f691ce6a14b64d170aaedecd">GetPopCenter()</a>, <a class="el" href="classPopulationPool.html#a340a8cfee7a97175edef07ef283e730b">m_growth</a>, <a class="el" href="classPopulationPool.html#a1b3440da15418d402701abd24b0f3680">m_pop_center_ids</a>, <a class="el" href="classPopulationPool.html#a19ea61a4448f6e9a4d2b9b0caaa432cf">m_population</a>, and <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>.</p>
+<p>References <a class="el" href="classResourcePool.html#ab5a012d7ad712f56c44f5e9ed64f621d">ResourcePool::ChangedSignal</a>, <a class="el" href="AppInterface_8h.html#a6cd3b7b4f691ce6a14b64d170aaedecd">GetPopCenter()</a>, and <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#a13fd32e13222d8b6dd8175c60d101412">Empire::UpdatePopulationGrowth()</a>.</p>
 
@@ -351,31 +322,7 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 <p>emitted after updating population and growth numbers </p>
 
-<p>Referenced by <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, and <a class="el" href="classPopulationPool.html#a910b84675bb9be9befa72efdd552a9ae">Update()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a340a8cfee7a97175edef07ef283e730b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float PopulationPool::m_growth</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>total predicted population growth for next turn for all PopCenters in pool </p>
-
-<p>Referenced by <a class="el" href="classPopulationPool.html#a917e70ab69b2036517c2d87b3ca3210a">Growth()</a>, and <a class="el" href="classPopulationPool.html#a910b84675bb9be9befa72efdd552a9ae">Update()</a>.</p>
+<p>Referenced by <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>.</p>
 
 </div>
 </div>
@@ -399,8 +346,6 @@ template&lt;class Archive &gt; </div>
 
 <p><a class="el" href="classUniverseObject.html">UniverseObject</a> ids of PopCenters that contribute to the pool. </p>
 
-<p>Referenced by <a class="el" href="classPopulationPool.html#afe278de843b60f11c4ae40652479330c">SetPopCenters()</a>, and <a class="el" href="classPopulationPool.html#a910b84675bb9be9befa72efdd552a9ae">Update()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a19ea61a4448f6e9a4d2b9b0caaa432cf"></a>
@@ -411,7 +356,7 @@ template&lt;class Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float PopulationPool::m_population</td>
+          <td class="memname">float PopulationPool::m_population = 0.0f</td>
         </tr>
       </table>
   </td>
@@ -422,8 +367,6 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 
 <p>total population of all PopCenters in pool </p>
-
-<p>Referenced by <a class="el" href="classPopulationPool.html#a7d67912d84bf7325ece246620a5a66ec">Population()</a>, and <a class="el" href="classPopulationPool.html#a910b84675bb9be9befa72efdd552a9ae">Update()</a>.</p>
 
 </div>
 </div>
