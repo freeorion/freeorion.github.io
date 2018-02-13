@@ -90,7 +90,7 @@ var searchData=
   ['inrect',['InRect',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#adcb5e318b3f889031cce9f4aa0bd8280',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['inresearchviewmode',['InResearchViewMode',['../classMapWnd.html#af37404835fe5c0fc3455f8ffb54bc38e',1,'MapWnd']]],
   ['inresizetab',['InResizeTab',['../classCUIWnd.html#a75cf1f4318671e35d9f1752beb029d72',1,'CUIWnd']]],
-  ['insert',['Insert',['../classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc',1,'ObjectMap::Insert()'],['../classSystem.html#a5dcc42c94d61e9014e26d038437b0f30',1,'System::Insert()'],['../structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d',1,'ResearchQueue::insert()'],['../structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802',1,'ProductionQueue::insert()']]],
+  ['insert',['insert',['../structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d',1,'ResearchQueue::insert()'],['../structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802',1,'ProductionQueue::insert()'],['../classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc',1,'ObjectMap::Insert()'],['../classSystem.html#a5dcc42c94d61e9014e26d038437b0f30',1,'System::Insert()']]],
   ['insert_5fbuilding',['insert_building',['../namespaceanonymous__namespace_02BuildingsParser_8cpp_03.html#a01ad75203486732eb91addacbd656f49',1,'anonymous_namespace{BuildingsParser.cpp}']]],
   ['insert_5fcategory',['insert_category',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a5518744cd8a06ca1db00859e7df7332c',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['insert_5ffieldtype',['insert_fieldtype',['../namespaceanonymous__namespace_02FieldsParser_8cpp_03.html#a5de40b12724bfae80207bb9754cd4f3a',1,'anonymous_namespace{FieldsParser.cpp}']]],
