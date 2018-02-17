@@ -109,8 +109,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad3d9444d8f54f2feadbcca6db9f3c2e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#ad3d9444d8f54f2feadbcca6db9f3c2e1">CensusBrowseWnd</a> (const std::string &amp;title_text, const std::map&lt; std::string, float &gt; &amp;population_counts, const std::map&lt; std::string, float &gt; &amp;tag_counts)</td></tr>
-<tr class="separator:ad3d9444d8f54f2feadbcca6db9f3c2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae385b8710217444dd6ed2eff6426f380"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#ae385b8710217444dd6ed2eff6426f380">CensusBrowseWnd</a> (const std::string &amp;title_text, const std::map&lt; std::string, float &gt; &amp;population_counts, const std::map&lt; std::string, float &gt; &amp;tag_counts, const std::vector&lt; std::string &gt; &amp;census_order)</td></tr>
+<tr class="separator:ae385b8710217444dd6ed2eff6426f380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b8f35157840582eeececeeea54c81d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#aa2b8f35157840582eeececeeea54c81d">CompleteConstruction</a> () override</td></tr>
 <tr class="separator:aa2b8f35157840582eeececeeea54c81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bbb204328ec91ae2a6b5e9278e949ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#a4bbb204328ec91ae2a6b5e9278e949ba">Render</a> () override</td></tr>
@@ -129,6 +129,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a68c3c69ce6cb4ea7aee2936f6e554bc2"><td class="memItemLeft" align="right" valign="top">GG::GL2DVertexBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#a68c3c69ce6cb4ea7aee2936f6e554bc2">m_buffer</a></td></tr>
 <tr class="separator:a68c3c69ce6cb4ea7aee2936f6e554bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae831ca4f97f1bd8272ca367ce4e34072"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#ae831ca4f97f1bd8272ca367ce4e34072">m_census_order</a></td></tr>
+<tr class="separator:ae831ca4f97f1bd8272ca367ce4e34072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f25676bd109729588fa2111659d703a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::ListBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#a7f25676bd109729588fa2111659d703a">m_list</a></td></tr>
 <tr class="separator:a7f25676bd109729588fa2111659d703a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3f7c18726fbbbb107acafb02ffffbde"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCensusBrowseWnd.html#ac3f7c18726fbbbb107acafb02ffffbde">m_offset</a></td></tr>
@@ -149,7 +151,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A popup tooltop for display when mousing over in-game icons. A title and some detail text. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad3d9444d8f54f2feadbcca6db9f3c2e1"></a>
+<a class="anchor" id="ae385b8710217444dd6ed2eff6426f380"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -169,7 +171,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::map&lt; std::string, float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tag_counts</em>&#160;</td>
+          <td class="paramname"><em>tag_counts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>census_order</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -203,7 +211,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a6732637a66e9601466bfaaecc1d8fb25">anonymous_namespace{CensusBrowseWnd.cpp}::BrowseTextWidth()</a>, <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a2f3fa5a28d8fd51bbfff7ea6fb0d5b00">anonymous_namespace{CensusBrowseWnd.cpp}::EDGE_PAD()</a>, <a class="el" href="classClientUI.html#a09aec067773ead4b358caa4fac1e2b3e">ClientUI::GetBoldFont()</a>, <a class="el" href="classCensusBrowseWnd.html#a941d1fc880ae2d7c9fa0d25c5fea7913">InitBuffer()</a>, <a class="el" href="classCensusBrowseWnd.html#a7f25676bd109729588fa2111659d703a">m_list</a>, <a class="el" href="classCensusBrowseWnd.html#ac3f7c18726fbbbb107acafb02ffffbde">m_offset</a>, <a class="el" href="classCensusBrowseWnd.html#acadf77208b8bb71cd6ba5af8fbe5a54f">m_population_counts</a>, <a class="el" href="classCensusBrowseWnd.html#ac585d4ebbe420cdd9869cb7e9c2f5399">m_species_text</a>, <a class="el" href="classCensusBrowseWnd.html#a1f31da0624a361a38d4262a61a54cb29">m_tag_counts</a>, <a class="el" href="classCensusBrowseWnd.html#a0f88af9c7d33012a66c6803627d9bf95">m_tags_list</a>, <a class="el" href="classCensusBrowseWnd.html#a9df2a976f365a506be0cce4fd09fe53f">m_tags_text</a>, <a class="el" href="classCensusBrowseWnd.html#a285a3678396eaabd4c3a4efa5547b5b1">m_title_text</a>, <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a610fef96015efa92b71a8d402f6a7723">anonymous_namespace{CensusBrowseWnd.cpp}::MeterIconSize()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>.</p>
+<p>References <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a6732637a66e9601466bfaaecc1d8fb25">anonymous_namespace{CensusBrowseWnd.cpp}::BrowseTextWidth()</a>, <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a2f3fa5a28d8fd51bbfff7ea6fb0d5b00">anonymous_namespace{CensusBrowseWnd.cpp}::EDGE_PAD()</a>, <a class="el" href="classClientUI.html#a09aec067773ead4b358caa4fac1e2b3e">ClientUI::GetBoldFont()</a>, <a class="el" href="classCensusBrowseWnd.html#a941d1fc880ae2d7c9fa0d25c5fea7913">InitBuffer()</a>, <a class="el" href="classCensusBrowseWnd.html#ae831ca4f97f1bd8272ca367ce4e34072">m_census_order</a>, <a class="el" href="classCensusBrowseWnd.html#a7f25676bd109729588fa2111659d703a">m_list</a>, <a class="el" href="classCensusBrowseWnd.html#ac3f7c18726fbbbb107acafb02ffffbde">m_offset</a>, <a class="el" href="classCensusBrowseWnd.html#acadf77208b8bb71cd6ba5af8fbe5a54f">m_population_counts</a>, <a class="el" href="classCensusBrowseWnd.html#ac585d4ebbe420cdd9869cb7e9c2f5399">m_species_text</a>, <a class="el" href="classCensusBrowseWnd.html#a1f31da0624a361a38d4262a61a54cb29">m_tag_counts</a>, <a class="el" href="classCensusBrowseWnd.html#a0f88af9c7d33012a66c6803627d9bf95">m_tags_list</a>, <a class="el" href="classCensusBrowseWnd.html#a9df2a976f365a506be0cce4fd09fe53f">m_tags_text</a>, <a class="el" href="classCensusBrowseWnd.html#a285a3678396eaabd4c3a4efa5547b5b1">m_title_text</a>, <a class="el" href="namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a610fef96015efa92b71a8d402f6a7723">anonymous_namespace{CensusBrowseWnd.cpp}::MeterIconSize()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, and <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>.</p>
 
 </div>
 </div>
@@ -336,6 +344,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classCensusBrowseWnd.html#a941d1fc880ae2d7c9fa0d25c5fea7913">InitBuffer()</a>, and <a class="el" href="classCensusBrowseWnd.html#a4bbb204328ec91ae2a6b5e9278e949ba">Render()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae831ca4f97f1bd8272ca367ce4e34072"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; CensusBrowseWnd::m_census_order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classCensusBrowseWnd.html#aa2b8f35157840582eeececeeea54c81d">CompleteConstruction()</a>.</p>
 
 </div>
 </div>
