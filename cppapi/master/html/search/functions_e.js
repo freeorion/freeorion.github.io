@@ -63,7 +63,6 @@ var searchData=
   ['nextsystemid',['NextSystemID',['../classFleet.html#aad5605290c66e2e77949af350c4dd677',1,'Fleet']]],
   ['nexttechs',['NextTechs',['../namespaceanonymous__namespace_02Tech_8cpp_03.html#a5ea6d68c1b4311a693944e43c8879603',1,'anonymous_namespace{Tech.cpp}']]],
   ['nexttechstowards',['NextTechsTowards',['../classTechManager.html#ae14c6dc1a517420dadfe49a71b67c6e6',1,'TechManager']]],
-  ['nextturncurrentmetervalue',['NextTurnCurrentMeterValue',['../classShip.html#a6c6ff45d74c4c51dfb4aaee73089fc38',1,'Ship::NextTurnCurrentMeterValue()'],['../classUniverseObject.html#af6afd098a10f3fbcec2a998e72a46c0b',1,'UniverseObject::NextTurnCurrentMeterValue()']]],
   ['nextyoungerstartype',['NextYoungerStarType',['../classSystem.html#a6a6ecfaab1c461b4fd9635d2f8e20ec0',1,'System']]],
   ['noaction',['NoAction',['../classModeratorActionsWnd.html#a07083fbb8926197469b83428b32d8443',1,'ModeratorActionsWnd']]],
   ['node',['Node',['../classTechTreeLayout_1_1Node.html#a4ea810a375f12691a374a148832c8d23',1,'TechTreeLayout::Node::Node(const std::string &amp;tech, GG::X width, GG::Y height)'],['../classTechTreeLayout_1_1Node.html#ace24db810c00e9aae2a129a288a37d42',1,'TechTreeLayout::Node::Node(Node *parent, Node *child, std::vector&lt; Node * &gt; &amp;nodes)']]],

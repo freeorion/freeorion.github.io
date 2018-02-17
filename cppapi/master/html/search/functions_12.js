@@ -203,7 +203,6 @@ var searchData=
   ['resourcecenterchanged',['ResourceCenterChanged',['../classObjectPanel.html#a984f7835989a3febda69384d57c6e4f4',1,'ObjectPanel']]],
   ['resourcecenterclampmeters',['ResourceCenterClampMeters',['../classResourceCenter.html#aa84478ea1aa92f89be3731eead3d291f',1,'ResourceCenter']]],
   ['resourcecenterid',['ResourceCenterID',['../classResourcePanel.html#a0005917884b731a09ba07c37d6675af0',1,'ResourcePanel']]],
-  ['resourcecenterpopgrowthproductionresearchphase',['ResourceCenterPopGrowthProductionResearchPhase',['../classResourceCenter.html#a9fae3e9e50bc907b9af09240975fac1e',1,'ResourceCenter']]],
   ['resourcecenterresettargetmaxunpairedmeters',['ResourceCenterResetTargetMaxUnpairedMeters',['../classResourceCenter.html#a64c84ec505975562705b3f96571d0b48',1,'ResourceCenter']]],
   ['resourceinfopanel',['ResourceInfoPanel',['../classResourceInfoPanel.html#adbb8aa6f3035ee0c7b2b7601cbc00c97',1,'ResourceInfoPanel']]],
   ['resourceoutput',['ResourceOutput',['../classEmpire.html#aa5c00ea0a56d839637d712077b20c4ca',1,'Empire::ResourceOutput()'],['../classFleet.html#a9c2791d6b0b3a7b5d60d61bd6b6416b7',1,'Fleet::ResourceOutput()']]],
