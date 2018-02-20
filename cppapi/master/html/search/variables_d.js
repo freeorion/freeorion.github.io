@@ -457,6 +457,7 @@ var searchData=
   ['m_5fgame_5frules_5fpanel',['m_game_rules_panel',['../classGalaxySetupWnd.html#a9f382ee23d2412aeb7dfa215afa7b5c0',1,'GalaxySetupWnd']]],
   ['m_5fgame_5fsaves_5fin_5fprogress',['m_game_saves_in_progress',['../classHumanClientApp.html#a2d241143905489c56d957e2837ce4905',1,'HumanClientApp']]],
   ['m_5fgame_5fstarted',['m_game_started',['../classHumanClientApp.html#a24e35061620ea303baca357c5a33588d',1,'HumanClientApp']]],
+  ['m_5fgame_5fuid',['m_game_uid',['../structGalaxySetupData.html#ad2873c52af2c43a2c4703610a20f97c6',1,'GalaxySetupData']]],
   ['m_5fgame_5fwords',['m_game_words',['../classMessageWndEdit.html#aff5ae0cb93d1afa20e02b3d46d85e425',1,'MessageWndEdit']]],
   ['m_5fgameplay_5fdescription',['m_gameplay_description',['../classSpecies.html#a35db9e68d66218e18d2056b0944c30d4',1,'Species']]],
   ['m_5fglobal_5fmutex',['m_global_mutex',['../classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a7a49efc215e9ec6c5e273fd0ee8ee41c',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem']]],

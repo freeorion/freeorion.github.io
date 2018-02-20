@@ -188,7 +188,7 @@ var searchData=
   ['rescindorder',['RescindOrder',['../classOrderSet.html#aa5bc1797ffaa71ee5c831d3c50af1be2',1,'OrderSet']]],
   ['research_5fcost',['research_cost',['../structTech_1_1TechInfo.html#afcb3ec0a7427eb7795cab4cf016fab11',1,'Tech::TechInfo']]],
   ['research_5fturns',['research_turns',['../structTech_1_1TechInfo.html#a26b81da5c8ee1817e8caf19a2816be5c',1,'Tech::TechInfo']]],
-  ['researchable',['researchable',['../structTech_1_1TechInfo.html#a678b6a68e6a556412cfd723dbeb82e34',1,'Tech::TechInfo::researchable()'],['../classTech.html#af92d3ac0b82d563f00f1da6527872e95',1,'Tech::Researchable()']]],
+  ['researchable',['Researchable',['../classTech.html#af92d3ac0b82d563f00f1da6527872e95',1,'Tech::Researchable()'],['../structTech_1_1TechInfo.html#a678b6a68e6a556412cfd723dbeb82e34',1,'Tech::TechInfo::researchable()']]],
   ['researchabletech',['ResearchableTech',['../classEmpire.html#ae00fa8e45b67334b3b7c3d4f6f823fb4',1,'Empire']]],
   ['researchabletechfillcolor',['ResearchableTechFillColor',['../classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda',1,'ClientUI']]],
   ['researchabletechtextandbordercolor',['ResearchableTechTextAndBorderColor',['../classClientUI.html#acd4877f62014b16c307ab7b13628d736',1,'ClientUI']]],
