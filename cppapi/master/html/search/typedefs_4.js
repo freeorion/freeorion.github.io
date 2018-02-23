@@ -2,7 +2,7 @@ var searchData=
 [
   ['edge_5fproperty_5ft',['edge_property_t',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a56ce98d3066ee85ffdb1d3abfb4cffd1',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['edgeweightpropertymap',['EdgeWeightPropertyMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#afdae48cf8a7ebe471b24f1f1e603daaf',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
-  ['effect_5fgroup_5frule',['effect_group_rule',['../structparse_1_1effects__group__grammar.html#a9ab6f1d305c9cb1f829e5bd01a0f123f',1,'parse::effects_group_grammar']]],
+  ['effect_5fgroup_5frule',['effect_group_rule',['../structparse_1_1effects__group__grammar.html#ab886f20d3849d1f1b723a4544d14bf97',1,'parse::effects_group_grammar']]],
   ['effect_5fparser_5fgrammar',['effect_parser_grammar',['../namespaceparse_1_1detail.html#a282e5001cfe0b6880331c63ad1643d41',1,'parse::detail']]],
   ['effect_5fparser_5frule',['effect_parser_rule',['../namespaceparse_1_1detail.html#a6eb3f7faf1a2cfdcbbcc5cac637f8771',1,'parse::detail']]],
   ['effect_5fpayload',['effect_payload',['../namespaceparse_1_1detail.html#a7815112d1df354639c927a3260feb68c',1,'parse::detail']]],
@@ -10,8 +10,6 @@ var searchData=
   ['effects_5fgroup_5fpayload',['effects_group_payload',['../namespaceparse.html#a7de69842e3d5fa61057f5c0abb581f4d',1,'parse']]],
   ['effects_5fgroup_5frule',['effects_group_rule',['../namespaceparse.html#ac2049eff358b6886007fe1214aeffd76',1,'parse']]],
   ['effects_5fgroup_5fsignature',['effects_group_signature',['../namespaceparse.html#ad3dd24a751f42c67ef705b01309e5f36',1,'parse']]],
-  ['effects_5frule',['effects_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a134d71a34b22958660634f55bcb26f89',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
-  ['empire_5fmeter_5fvalue_5frule',['empire_meter_value_rule',['../structparse_1_1detail_1_1condition__parser__rules__4.html#aa0cfb2d4b68bcdef41d87274813ae8d8',1,'parse::detail::condition_parser_rules_4']]],
   ['empireobjectmap',['EmpireObjectMap',['../classUniverse.html#ab2e3c288646f6e8e6d20fbc699f179e9',1,'Universe']]],
   ['empireobjectspecialsmap',['EmpireObjectSpecialsMap',['../classUniverse.html#a0b2abfdbd505010de345a271ee4eb2a6',1,'Universe']]],
   ['empireobjectvisibilitymap',['EmpireObjectVisibilityMap',['../classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d',1,'Universe']]],
@@ -24,12 +22,10 @@ var searchData=
   ['enum_5fgrammar',['enum_grammar',['../namespaceparse_1_1detail.html#a1855fcd758973a742c5d0d3482b2feff',1,'parse::detail']]],
   ['enum_5frule',['enum_rule',['../namespaceparse_1_1detail.html#abc9ab20f6ec07526102bd7d8e54b727a',1,'parse::detail']]],
   ['enveloped_5ftype',['enveloped_type',['../classparse_1_1detail_1_1MovableEnvelope.html#adc714f9bfdd11fe818bc21f47152404f',1,'parse::detail::MovableEnvelope']]],
-  ['environment_5fmap_5felement_5frule',['environment_map_element_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ac644fdfe4da1e5fd9aecd56f4794c06e',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
-  ['environment_5fmap_5frule',['environment_map_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a484403df1a368536dc67f72835334559',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
-  ['environments_5frule',['environments_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a7fb34c0525694ce713899e982a96e06f',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
+  ['environment_5fmap_5felement_5frule',['environment_map_element_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#aab503eb1450e681d399750967bf70e75',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
+  ['environment_5fmap_5frule',['environment_map_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a17aef5efc78f5fa3215cfc73a0814ddb',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
   ['established_5fiterator',['established_iterator',['../classServerNetworking.html#a2be56e1eb6a2d1e0044adf5bbc168825',1,'ServerNetworking']]],
   ['event_5ffilter',['event_filter',['../structSystemPathing_1_1PathFindingShortCircuitingVisitor.html#ae737e089d0afcd988f9493f3b6221b48',1,'SystemPathing::PathFindingShortCircuitingVisitor']]],
-  ['exclusions_5frule',['exclusions_rule',['../structparse_1_1detail_1_1common__params__rules.html#a1724a47d7776e004a0f2f8ef5b9859c8',1,'parse::detail::common_params_rules']]],
   ['expandcollapsesignaltype',['ExpandCollapseSignalType',['../classAccordionPanel.html#a9a1ba01138a4f5a1083ef0bfa3be5348',1,'AccordionPanel']]],
   ['expression_5frule',['expression_rule',['../namespaceparse_1_1detail.html#a935df2d99443cc0bc40f076f1d75e0a5',1,'parse::detail']]]
 ];

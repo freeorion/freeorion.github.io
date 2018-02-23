@@ -17,7 +17,7 @@ var searchData=
   ['generate_5fsitrep_5fmessage',['generate_sitrep_message',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a2e6d15c3ae7b9152d820e67a8d6f9286',1,'parse::detail::effect_parser_rules_1']]],
   ['generating_5funiverse',['GENERATING_UNIVERSE',['../classMessage.html#a6bee315a53a4a1663394d1bf5329caab',1,'Message']]],
   ['getempiresitrepfunc',['GetEmpireSitRepFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a0de6077293daf3500fb1e4f8fd2ea774',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['give_5fempire_5ftech',['give_empire_tech',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a31a6a8b27b930b893054f368af3c2bfe',1,'parse::detail::effect_parser_rules_1']]],
+  ['give_5fempire_5ftech',['give_empire_tech',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a043088b099dfb7b997015972f33efb3c',1,'parse::detail::effect_parser_rules_1']]],
   ['global_5fqueue',['global_queue',['../structThreadQueue.html#ac6221d0bf56b64fd1d929504698b161a',1,'ThreadQueue']]],
   ['graph',['GRAPH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a3e94f3d1c43497e2bcafa6b3e651991c',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['graph_5ftag',['GRAPH_TAG',['../classTextLinker.html#a7e93d3f45a84ce78eb337553ead14e04',1,'TextLinker']]],

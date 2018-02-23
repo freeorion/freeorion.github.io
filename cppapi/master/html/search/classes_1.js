@@ -9,6 +9,8 @@ var searchData=
   ['bombardorder',['BombardOrder',['../classBombardOrder.html',1,'']]],
   ['boutbeginevent',['BoutBeginEvent',['../structBoutBeginEvent.html',1,'']]],
   ['boutevent',['BoutEvent',['../structBoutEvent.html',1,'']]],
+  ['bracketedparsersignature',['BracketedParserSignature',['../structparse_1_1detail_1_1BracketedParserSignature.html',1,'parse::detail']]],
+  ['bracketedparsersignature_3c_20synthesized_28inherited_2e_2e_2e_29_3e',['BracketedParserSignature&lt; Synthesized(Inherited...)&gt;',['../structparse_1_1detail_1_1BracketedParserSignature_3_01Synthesized_07Inherited_8_8_8_08_4.html',1,'parse::detail']]],
   ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['buildableitemslistbox',['BuildableItemsListBox',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1BuildableItemsListBox.html',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['builddesignatorwnd',['BuildDesignatorWnd',['../classBuildDesignatorWnd.html',1,'']]],

@@ -11,6 +11,5 @@ var searchData=
   ['techtreewnd_2eh',['TechTreeWnd.h',['../TechTreeWnd_8h.html',1,'']]],
   ['textbrowsewnd_2ecpp',['TextBrowseWnd.cpp',['../TextBrowseWnd_8cpp.html',1,'']]],
   ['textbrowsewnd_2eh',['TextBrowseWnd.h',['../TextBrowseWnd_8h.html',1,'']]],
-  ['tokens_2ecpp',['Tokens.cpp',['../Tokens_8cpp.html',1,'']]],
   ['tokens_2eh',['Tokens.h',['../Tokens_8h.html',1,'']]]
 ];

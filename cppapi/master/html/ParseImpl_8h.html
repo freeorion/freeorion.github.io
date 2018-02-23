@@ -99,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="ReportParseError_8h.html">ReportParseError.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ScopedTimer_8h.html">../util/ScopedTimer.h</a>&quot;</code><br />
+<code>#include &lt;boost/algorithm/string/case_conv.hpp&gt;</code><br />
 <code>#include &lt;boost/filesystem/path.hpp&gt;</code><br />
 <code>#include &lt;boost/spirit/include/qi.hpp&gt;</code><br />
 <code>#include &lt;boost/timer.hpp&gt;</code><br />
@@ -106,6 +107,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1BracketedParserSignature.html">parse::detail::BracketedParserSignature&lt; Signature &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1BracketedParserSignature_3_01Synthesized_07Inherited_8_8_8_08_4.html">parse::detail::BracketedParserSignature&lt; Synthesized(Inherited...)&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1color__parser__grammar.html">parse::detail::color_parser_grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1double__grammar.html">parse::detail::double_grammar</a></td></tr>
@@ -116,6 +121,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A functor to determine if <code>key</code> will be unique in <code>map</code> of <code>type</code>, and log an error otherwise.  <a href="structparse_1_1detail_1_1is__unique.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparse_1_1detail_1_1Labeller.html">parse::detail::Labeller</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1single__or__bracketed__repeat.html">parse::detail::single_or_bracketed_repeat&lt; Parser &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1single__or__repeated__string.html">parse::detail::single_or_repeated_string&lt; SynthesizedContainer &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1detail_1_1tags__grammar.html">parse::detail::tags_grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,14 +143,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a455cbffb207e305aa26b331049b856e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a455cbffb207e305aa26b331049b856e8">parse::detail::color_grammar_type</a> = grammar&lt; color_parser_signature, color_parser_locals &gt;</td></tr>
-<tr class="separator:a455cbffb207e305aa26b331049b856e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dce0f823b5952283abec66906294b10"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a5dce0f823b5952283abec66906294b10">parse::detail::color_parser_locals</a> = boost::spirit::qi::locals&lt; unsigned int, unsigned int, unsigned int &gt;</td></tr>
-<tr class="separator:a5dce0f823b5952283abec66906294b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797be4015c2d9b3fd4474a7ca69c5f07"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a797be4015c2d9b3fd4474a7ca69c5f07">parse::detail::color_grammar_type</a> = grammar&lt; color_parser_signature &gt;</td></tr>
+<tr class="separator:a797be4015c2d9b3fd4474a7ca69c5f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c529dc1bf5568aaed1bd05c19d554fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a0c529dc1bf5568aaed1bd05c19d554fe">parse::detail::color_parser_signature</a>) = GG::Clr(</td></tr>
 <tr class="separator:a0c529dc1bf5568aaed1bd05c19d554fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad094aeb6f9051c1da48b21e00c4cb158"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#ad094aeb6f9051c1da48b21e00c4cb158">parse::detail::color_rule_type</a> = rule&lt; color_parser_signature, color_parser_locals &gt;</td></tr>
-<tr class="separator:ad094aeb6f9051c1da48b21e00c4cb158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6d5cd15d10df23d40ecc73a26c32d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a8a6d5cd15d10df23d40ecc73a26c32d9">parse::detail::color_rule_type</a> = rule&lt; color_parser_signature &gt;</td></tr>
+<tr class="separator:a8a6d5cd15d10df23d40ecc73a26c32d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1855fcd758973a742c5d0d3482b2feff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1855fcd758973a742c5d0d3482b2feff"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a1855fcd758973a742c5d0d3482b2feff">parse::detail::enum_grammar</a> = grammar&lt; T()&gt;</td></tr>
 <tr class="separator:a1855fcd758973a742c5d0d3482b2feff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,10 +163,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a329c1219adbbb74345b57c6eb29cda83"><td class="memTemplParams" colspan="2">template&lt;typename signature  = boost::spirit::qi::unused_type, typename locals  = boost::spirit::qi::unused_type&gt; </td></tr>
 <tr class="memitem:a329c1219adbbb74345b57c6eb29cda83"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a329c1219adbbb74345b57c6eb29cda83">parse::detail::rule</a> = boost::spirit::qi::rule&lt; <a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a>, <a class="el" href="namespaceparse.html#a73ed2f3013a63e67745571a738847cb7">parse::skipper_type</a>, signature, locals &gt;</td></tr>
 <tr class="separator:a329c1219adbbb74345b57c6eb29cda83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f7e865f750f75f536de2ba3d43c9c7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a99f7e865f750f75f536de2ba3d43c9c7">parse::detail::tags_grammar_type</a> = grammar&lt; void(std::set&lt; std::string &gt; &amp;)&gt;</td></tr>
-<tr class="separator:a99f7e865f750f75f536de2ba3d43c9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0735dc55d727ca4dd3ffbfb1e24b3a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#ad0735dc55d727ca4dd3ffbfb1e24b3a6">parse::detail::tags_rule_type</a> = rule&lt; void(std::set&lt; std::string &gt; &amp;)&gt;</td></tr>
-<tr class="separator:ad0735dc55d727ca4dd3ffbfb1e24b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25bb81e15abc286d1dcdd2d67a6a4a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#aa25bb81e15abc286d1dcdd2d67a6a4a3">parse::detail::tags_grammar_type</a> = grammar&lt; std::set&lt; std::string &gt;()&gt;</td></tr>
+<tr class="separator:aa25bb81e15abc286d1dcdd2d67a6a4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a6aac9cf5302089c0c01849f2dcf82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse_1_1detail.html#a71a6aac9cf5302089c0c01849f2dcf82">parse::detail::tags_rule_type</a> = rule&lt; std::set&lt; std::string &gt;()&gt;</td></tr>
+<tr class="separator:a71a6aac9cf5302089c0c01849f2dcf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

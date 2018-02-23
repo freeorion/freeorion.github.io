@@ -15,5 +15,6 @@ var searchData=
   ['all_5ftags_2edox',['all_tags.dox',['../all__tags_8dox.html',1,'']]],
   ['appinterface_2ecpp',['AppInterface.cpp',['../AppInterface_8cpp.html',1,'']]],
   ['appinterface_2eh',['AppInterface.h',['../AppInterface_8h.html',1,'']]],
+  ['arithmeticrules_2ecpp',['ArithmeticRules.cpp',['../ArithmeticRules_8cpp.html',1,'']]],
   ['cmakelists_2etxt',['CMakeLists.txt',['../AI_2CMakeLists_8txt.html',1,'']]]
 ];

@@ -103,8 +103,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1spirit_1_1traits_1_1assign__to__attribute__from__iterators_3_01const_01char_01_5_9646e198ece14bf25b04a06c62f41f9f.html">boost::spirit::traits::assign_to_attribute_from_iterators&lt; const char *, parse::text_iterator, void &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1lexer.html">parse::lexer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,7 +125,7 @@ Macros</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Keyword tokens. These should be kept in lexicographically</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>sorted order, so that finding, adding, and removing tokens is a bit easier. See the note above the Enum tokens section. </p>
 </div></td></tr>
-<tr class="memitem:a7f92cebf46754c6c2bd742f33c212b0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Lexer_8h.html#a7f92cebf46754c6c2bd742f33c212b0a">DECLARE_TOKEN</a>(r,  _,  name)&#160;&#160;&#160;boost::spirit::lex::token_def&lt;const char*&gt; BOOST_PP_CAT(name, _);</td></tr>
+<tr class="memitem:a7f92cebf46754c6c2bd742f33c212b0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Lexer_8h.html#a7f92cebf46754c6c2bd742f33c212b0a">DECLARE_TOKEN</a>(r,  _,  name)&#160;&#160;&#160;string_token_def BOOST_PP_CAT(name, _);</td></tr>
 <tr class="separator:a7f92cebf46754c6c2bd742f33c212b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -142,8 +140,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a2fdb910565cb5bbca5362a46e70273d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54761cd4a2934527cbe8bd2a7af87e76"><td class="memItemLeft" align="right" valign="top">typedef lexer::iterator_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76">parse::token_iterator</a></td></tr>
 <tr class="separator:a54761cd4a2934527cbe8bd2a7af87e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa16dc9ec1d8b560de0d405beb0fafd5c"><td class="memItemLeft" align="right" valign="top">typedef boost::spirit::lex::lexertl::position_token&lt; text_iterator, boost::mpl::vector&lt; bool, int, double, const char *, std::string &gt;&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#aa16dc9ec1d8b560de0d405beb0fafd5c">parse::token_type</a></td></tr>
-<tr class="separator:aa16dc9ec1d8b560de0d405beb0fafd5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03fc11a7097a23ee17a2a5277c8f14b"><td class="memItemLeft" align="right" valign="top">typedef boost::spirit::lex::lexertl::position_token&lt; text_iterator, boost::mpl::vector&lt; bool, int, double, std::string &gt;&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac03fc11a7097a23ee17a2a5277c8f14b">parse::token_type</a></td></tr>
+<tr class="separator:ac03fc11a7097a23ee17a2a5277c8f14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="afd994602a1d960a01dd5200ad164f12b"></a>
@@ -183,7 +181,7 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;boost::spirit::lex::token_def&lt;const char*&gt; BOOST_PP_CAT(name, _);</td>
+          <td></td><td>&#160;&#160;&#160;string_token_def BOOST_PP_CAT(name, _);</td>
         </tr>
       </table>
 </div><div class="memdoc">
