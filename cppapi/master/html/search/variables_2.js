@@ -23,6 +23,7 @@ var searchData=
   ['bt_5fnot_5fbuilding',['BT_NOT_BUILDING',['../Enums_8h.html#ab50889e430c41c0094ab201209fd5ab2',1,'Enums.h']]],
   ['bt_5fproject',['BT_PROJECT',['../Enums_8h.html#a6d6e57e057e19e8fd3503322accf592a',1,'Enums.h']]],
   ['bt_5fship',['BT_SHIP',['../Enums_8h.html#a984a0db15120b45c7a40336c74053516',1,'Enums.h']]],
+  ['bt_5fstockpile',['BT_STOCKPILE',['../Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd',1,'Enums.h']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736',1,'anonymous_namespace{Sound.cpp}']]],
   ['build_5ftype',['build_type',['../structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd',1,'ProductionQueue::ProductionItem']]],
   ['buildableitembuilding',['BuildableItemBuilding',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aac551565af0c3680c64da2f6a5ca83e2',1,'anonymous_namespace{EmpireWrapper.cpp}']]],

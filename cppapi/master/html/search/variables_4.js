@@ -58,6 +58,7 @@ var searchData=
   ['discovery_5fquestion',['DISCOVERY_QUESTION',['../namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2',1,'Networking']]],
   ['displaybuildingtypesignal',['DisplayBuildingTypeSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
+  ['displaystockpileprojectsignal',['DisplayStockpileProjectSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a6453179144625b82bac2da17d02de877',1,'BuildDesignatorWnd::BuildSelector']]],
   ['docked',['docked',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo_1_1StateQty.html#ac192772b981b9b105868bfde58ed3203',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::StateQty']]],
   ['doctypedecl',['doctypedecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a4418585c8c3ba2eca9ae574eac333016',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['document',['document',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2a453246d4337c7a71c85219b8973c65',1,'anonymous_namespace{XMLDoc.cpp}']]],

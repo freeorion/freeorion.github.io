@@ -240,6 +240,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72afae7d87346b032f6dae39b0fb624d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; float, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a72afae7d87346b032f6dae39b0fb624d">ProductionCostAndTime</a> (const <a class="el" href="structProductionQueue_1_1ProductionItem.html">ProductionQueue::ProductionItem</a> &amp;item, int location_id) const </td></tr>
 <tr class="memdesc:a72afae7d87346b032f6dae39b0fb624d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classEmpire.html">Empire</a>'s name.  <a href="#a72afae7d87346b032f6dae39b0fb624d">More...</a><br /></td></tr>
 <tr class="separator:a72afae7d87346b032f6dae39b0fb624d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a837b4ca9b0ea92df46b40ffe0b01e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem</a> (BuildType build_type, int location) const </td></tr>
+<tr class="memdesc:a81a837b4ca9b0ea92df46b40ffe0b01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this empire can produce the specified item at the specified location.  <a href="#a81a837b4ca9b0ea92df46b40ffe0b01e">More...</a><br /></td></tr>
+<tr class="separator:a81a837b4ca9b0ea92df46b40ffe0b01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeaeccc8b6e8a860f3402065d7378eb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem</a> (BuildType build_type, const std::string &amp;name, int location) const </td></tr>
 <tr class="memdesc:aaeaeccc8b6e8a860f3402065d7378eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this empire can produce the specified item at the specified location.  <a href="#aaeaeccc8b6e8a860f3402065d7378eb1">More...</a><br /></td></tr>
 <tr class="separator:aaeaeccc8b6e8a860f3402065d7378eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,6 +332,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e01a6189de07a2f463152eb3e563428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab012c1e68ea014ecab14c045e9bbe6ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#ab012c1e68ea014ecab14c045e9bbe6ec">PlaceProductionOnQueue</a> (BuildType build_type, int design_id, int number, int blocksize, int location, int pos=-1)</td></tr>
 <tr class="separator:ab012c1e68ea014ecab14c045e9bbe6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fffea697c8941612da66d9981366aeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a7fffea697c8941612da66d9981366aeb">PlaceProductionOnQueue</a> (BuildType build_type, BuildType dummy, int number, int blocksize, int location, int pos=-1)</td></tr>
+<tr class="separator:a7fffea697c8941612da66d9981366aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b704057431a198ff1020ffa39ee670f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a7b704057431a198ff1020ffa39ee670f">PlaceProductionOnQueue</a> (const <a class="el" href="structProductionQueue_1_1ProductionItem.html">ProductionQueue::ProductionItem</a> &amp;item, int number, int blocksize, int location, int pos=-1)</td></tr>
 <tr class="separator:a7b704057431a198ff1020ffa39ee670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1101bec137817c8c32401d01ad403962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity</a> (int index, int quantity)</td></tr>
@@ -1242,7 +1247,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Checks for production projects that have been completed, and places them at their respective production sites. Which projects have been completed is determined by the results of previously-called Update() on the production queue (which determines how much PP each project receives but does not actually spend them). This function spends the PP, removes complete items from the queue and creates the results in the universe. </p>
 
-<p>References <a class="el" href="classEmpire.html#a62a06f5fc7d8704f131169d4569f776d">AddSitRepEntry()</a>, <a class="el" href="classMeter.html#a43d2b75c50c697e5032de4a2631440d8">Meter::BackPropagate()</a>, <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classEmpire.html#ac1b44101f0bfe24ac69659cbba6e291d">CapitalID()</a>, <a class="el" href="SitRepEntry_8cpp.html#a4e99d35a15bfd086053c6ef842fbd00d">CreateBuildingBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#a00e6a4f7b4e2a36aafe7214d10c463aa">CreateShipBlockBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#af16bd336b576e3797d7d468b22306b94">CreateShipBuiltSitRep()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#acad8eeba6da4069fc789612d56f81be1">anonymous_namespace{Empire.cpp}::EPSILON</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="chmain_8cpp.html#a48125e50ef0f46107a5ac162b0b61b3a">if()</a>, <a class="el" href="classUniverse.html#aeec32c560c9a8619aa99018e8d8e7e3a">Universe::InsertNew()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classEmpire.html#a42440fffcbda7f82c6d8c316260bbc4f">m_building_types_produced</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#af6eab3cb9bbeb1c351543823e29f45f4">m_ship_designs_produced</a>, <a class="el" href="classEmpire.html#a2eac59ddd046ee63a5449f40ce23a20c">m_species_ships_produced</a>, <a class="el" href="classEmpire.html#aa537f012aeeb201d992ab16e81a02a50">NewShipName()</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>, <a class="el" href="classEmpire.html#ad3fe900d65362244c2d821f429a0c320">ProductionCostAndTime()</a>, <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>, <a class="el" href="classFleet.html#a9c46767d9d26e0e47c6caa55ecbd674e">Fleet::SetNextAndPreviousSystems()</a>, <a class="el" href="classBuilding.html#a1872c77cf34e36c9b66e54e103ca16dd">Building::SetPlanetID()</a>, <a class="el" href="classEmpire.html#a173981d37cbddda94b86073dc9ee99c3">SetResourceStockpile()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a62a06f5fc7d8704f131169d4569f776d">AddSitRepEntry()</a>, <a class="el" href="classMeter.html#a43d2b75c50c697e5032de4a2631440d8">Meter::BackPropagate()</a>, <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="classEmpire.html#ac1b44101f0bfe24ac69659cbba6e291d">CapitalID()</a>, <a class="el" href="SitRepEntry_8cpp.html#a4e99d35a15bfd086053c6ef842fbd00d">CreateBuildingBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#a00e6a4f7b4e2a36aafe7214d10c463aa">CreateShipBlockBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#af16bd336b576e3797d7d468b22306b94">CreateShipBuiltSitRep()</a>, <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#acad8eeba6da4069fc789612d56f81be1">anonymous_namespace{Empire.cpp}::EPSILON</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="chmain_8cpp.html#a48125e50ef0f46107a5ac162b0b61b3a">if()</a>, <a class="el" href="classUniverse.html#aeec32c560c9a8619aa99018e8d8e7e3a">Universe::InsertNew()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classEmpire.html#a42440fffcbda7f82c6d8c316260bbc4f">m_building_types_produced</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#af6eab3cb9bbeb1c351543823e29f45f4">m_ship_designs_produced</a>, <a class="el" href="classEmpire.html#a2eac59ddd046ee63a5449f40ce23a20c">m_species_ships_produced</a>, <a class="el" href="classEmpire.html#aa537f012aeeb201d992ab16e81a02a50">NewShipName()</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>, <a class="el" href="classEmpire.html#ad3fe900d65362244c2d821f429a0c320">ProductionCostAndTime()</a>, <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>, <a class="el" href="classFleet.html#a9c46767d9d26e0e47c6caa55ecbd674e">Fleet::SetNextAndPreviousSystems()</a>, <a class="el" href="classBuilding.html#a1872c77cf34e36c9b66e54e103ca16dd">Building::SetPlanetID()</a>, <a class="el" href="classEmpire.html#a173981d37cbddda94b86073dc9ee99c3">SetResourceStockpile()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>.</p>
 
@@ -1559,7 +1564,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can enqueue the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>.</p>
 
 </div>
 </div>
@@ -1955,7 +1960,7 @@ Friends</h2></td></tr>
 
 <p>Returns the <a class="el" href="classEmpire.html">Empire</a>'s name. </p>
 
-<p>References <a class="el" href="classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d">EmpireManager::BackPropagateMeters()</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, <a class="el" href="Empire_8h.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, <a class="el" href="namespaceAIInterface.html#afe73a221b3aa8a5c5aea2178c33e9358">AIInterface::UpdateProductionQueue()</a>, <a class="el" href="namespaceAIInterface.html#a9f8b2fd7d1297f628b5356f0b2a85127">AIInterface::UpdateResearchQueue()</a>, and <a class="el" href="namespaceAIInterface.html#a3c78be44f6569c40142111676165756d">AIInterface::UpdateResourcePools()</a>.</p>
+<p>References <a class="el" href="classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d">EmpireManager::BackPropagateMeters()</a>, <a class="el" href="namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44">anonymous_namespace{CUIWnd.cpp}::dummy</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, <a class="el" href="Empire_8h.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a7909ee147cd787f4e24dae3037685827">anonymous_namespace{ServerWrapper.cpp}::SetName()</a>, <a class="el" href="namespaceAIInterface.html#afe73a221b3aa8a5c5aea2178c33e9358">AIInterface::UpdateProductionQueue()</a>, <a class="el" href="namespaceAIInterface.html#a9f8b2fd7d1297f628b5356f0b2a85127">AIInterface::UpdateResearchQueue()</a>, and <a class="el" href="namespaceAIInterface.html#a3c78be44f6569c40142111676165756d">AIInterface::UpdateResourcePools()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a23b2dacd96474cbc4da8079096a1a386">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelEmpireTag()</a>.</p>
 
@@ -2290,7 +2295,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Adds the indicated build to the production queue, placing it before position <em>pos</em>. If <em>pos</em> &lt; 0 or queue.size() &lt;= pos, the build is placed at the end of the queue. </p>
 
-<p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem()</a>, <a class="el" href="classEmpire.html#a7b704057431a198ff1020ffa39ee670f">PlaceProductionOnQueue()</a>, and <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem()</a>.</p>
 
@@ -2345,7 +2350,60 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Adds the indicated build to the production queue, placing it before position <em>pos</em>. If <em>pos</em> &lt; 0 or queue.size() &lt;= pos, the build is placed at the end of the queue. </p>
 
-<p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+<p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7fffea697c8941612da66d9981366aeb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Empire::PlaceProductionOnQueue </td>
+          <td>(</td>
+          <td class="paramtype">BuildType&#160;</td>
+          <td class="paramname"><em>build_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BuildType&#160;</td>
+          <td class="paramname"><em>dummy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>blocksize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds the indicated build to the production queue, placing it before position <em>pos</em>. If <em>pos</em> &lt; 0 or queue.size() &lt;= pos, the build is placed at the end of the queue. The second parameter is there for overloading resolution and gets ignored. </p>
+
+<p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">ProductionQueue::begin()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">ProductionQueue::insert()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f">MAX_PROD_QUEUE_SIZE</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>, <a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">ProductionQueue::push_back()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">ProductionQueue::size()</a>.</p>
 
 </div>
 </div>
@@ -2392,7 +2450,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Adds the indicated build to the production queue, placing it before position <em>pos</em>. If <em>pos</em> &lt; 0 or queue.size() &lt;= pos, the build is placed at the end of the queue. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>.</p>
 
 </div>
 </div>
@@ -2498,6 +2556,38 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a81a837b4ca9b0ea92df46b40ffe0b01e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Empire::ProducibleItem </td>
+          <td>(</td>
+          <td class="paramtype">BuildType&#160;</td>
+          <td class="paramname"><em>build_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff this empire can produce the specified item at the specified location. </p>
+
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a50ce8eea4dccd8c38b14e55958802748">BuildDesignatorWnd::BuildSelector::BuildableItemVisible()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a29ff8c721b4c259e06ff75d97452a120">EnqueuableItem()</a>, <a class="el" href="namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862">AIInterface::IssueEnqueueBuildingProductionOrder()</a>, <a class="el" href="namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e">AIInterface::IssueEnqueueShipProductionOrder()</a>, <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#ac0c0d3348fb4ab80f2f3f92317fb22e6">ProducibleItem()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">ProductionQueue::Update()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aaeaeccc8b6e8a860f3402065d7378eb1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2530,9 +2620,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can produce the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="classEmpire.html#a0abc34d913a6d4b96a6ed012086381ca">BuildingTypeAvailable()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, and <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>.</p>
-
-<p>Referenced by <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a50ce8eea4dccd8c38b14e55958802748">BuildDesignatorWnd::BuildSelector::BuildableItemVisible()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a29ff8c721b4c259e06ff75d97452a120">EnqueuableItem()</a>, <a class="el" href="namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862">AIInterface::IssueEnqueueBuildingProductionOrder()</a>, <a class="el" href="namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e">AIInterface::IssueEnqueueShipProductionOrder()</a>, <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#ac0c0d3348fb4ab80f2f3f92317fb22e6">ProducibleItem()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">ProductionQueue::Update()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="classEmpire.html#a0abc34d913a6d4b96a6ed012086381ca">BuildingTypeAvailable()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, and <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>.</p>
 
 </div>
 </div>
@@ -2568,7 +2656,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can produce the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ShipDesign::ProductionLocation()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="classShipDesign.html#a907ed7c0ca60eed9bd5b1bcde1f77399">ShipDesign::Producible()</a>, <a class="el" href="classShipDesign.html#abfb723f154627f23f6705495d67db60d">ShipDesign::ProductionLocation()</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 </div>
 </div>
@@ -2598,7 +2686,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can produce the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, and <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>.</p>
 
 </div>
 </div>
@@ -2649,7 +2737,7 @@ Friends</h2></td></tr>
 
 <p>Returns the <a class="el" href="classEmpire.html">Empire</a>'s name. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, <a class="el" href="classBuildingType.html#add4f4016e1e3405193a6151573935c69">BuildingType::ProductionCost()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ShipDesign::ProductionCost()</a>, <a class="el" href="classBuildingType.html#acfd842c1c82bc0752213e34e1f7c795e">BuildingType::ProductionTime()</a>, and <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ShipDesign::ProductionTime()</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Building_8cpp.html#a3d0eac1b8eb148f06bf8ec9d9bff3d7b">GetBuildingType()</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a5737fe6deb62b979d970ef6573cbb744">ProductionQueue::ProductionItem::name</a>, <a class="el" href="classBuildingType.html#add4f4016e1e3405193a6151573935c69">BuildingType::ProductionCost()</a>, <a class="el" href="classShipDesign.html#a19c8807d14d40cb026b43632f063c767">ShipDesign::ProductionCost()</a>, <a class="el" href="classBuildingType.html#acfd842c1c82bc0752213e34e1f7c795e">BuildingType::ProductionTime()</a>, and <a class="el" href="classShipDesign.html#acdda26026a1143a0ebfcecd650385d41">ShipDesign::ProductionTime()</a>.</p>
 
 </div>
 </div>
@@ -4784,7 +4872,7 @@ template&lt;class Archive &gt; </div>
 
 <p><a class="el" href="classEmpire.html">Empire</a>'s unique numeric id. </p>
 
-<p>Referenced by <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a70317d7fc0328a5c33db8bbfddd9b9d8">Dump()</a>, <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">EmpireID()</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="classEmpire.html#aca2f54b2d9e3e7e467fdada3b2db64eb">InitResourcePools()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#aaeaeccc8b6e8a860f3402065d7378eb1">ProducibleItem()</a>, <a class="el" href="classEmpire.html#a72afae7d87346b032f6dae39b0fb624d">ProductionCostAndTime()</a>, <a class="el" href="classEmpire.html#aef9ed40c21d0c5d11c3d0e95f936ad6d">ResearchProgress()</a>, <a class="el" href="classEmpire.html#af9ddcc3896f324a6fabf764f6049d035">SetCapitalID()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">SetTechResearchProgress()</a>, <a class="el" href="classEmpire.html#a013ceb99c2f15ec6ef45ad59c678b47a">Source()</a>, <a class="el" href="classEmpire.html#a05068e36c497b4bb42446bf47844cc65">UpdateSupplyUnobstructedSystems()</a>, <a class="el" href="classEmpire.html#ababc96fb8897fff640d32353ab3fd04f">UpdateUnobstructedFleets()</a>, and <a class="el" href="classEmpire.html#a65b69e4ce51a70f3d91395f963d1f770">VisibleStarlanes()</a>.</p>
+<p>Referenced by <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a70317d7fc0328a5c33db8bbfddd9b9d8">Dump()</a>, <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">EmpireID()</a>, <a class="el" href="classEmpire.html#aababaa2e3bc3cfc95b4d73ee8aedf5c8">EnqueuableItem()</a>, <a class="el" href="classEmpire.html#aca2f54b2d9e3e7e467fdada3b2db64eb">InitResourcePools()</a>, <a class="el" href="classEmpire.html#a34a609efa1429b5893646d809db12233">LeastExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a99021364929c965e6a29ef940e100891">MostExpensiveEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a1e627c5e252bc8c6c94e910c3c0a26db">MostRPCostLeftEnqueuedTech()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">ProducibleItem()</a>, <a class="el" href="classEmpire.html#a72afae7d87346b032f6dae39b0fb624d">ProductionCostAndTime()</a>, <a class="el" href="classEmpire.html#aef9ed40c21d0c5d11c3d0e95f936ad6d">ResearchProgress()</a>, <a class="el" href="classEmpire.html#af9ddcc3896f324a6fabf764f6049d035">SetCapitalID()</a>, <a class="el" href="classEmpire.html#aec59c181d057aa853f77e9eafd16954e">SetTechResearchProgress()</a>, <a class="el" href="classEmpire.html#a013ceb99c2f15ec6ef45ad59c678b47a">Source()</a>, <a class="el" href="classEmpire.html#a05068e36c497b4bb42446bf47844cc65">UpdateSupplyUnobstructedSystems()</a>, <a class="el" href="classEmpire.html#ababc96fb8897fff640d32353ab3fd04f">UpdateUnobstructedFleets()</a>, and <a class="el" href="classEmpire.html#a65b69e4ce51a70f3d91395f963d1f770">VisibleStarlanes()</a>.</p>
 
 </div>
 </div>
