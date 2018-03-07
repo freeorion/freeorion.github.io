@@ -30,7 +30,7 @@ var searchData=
   ['path_5fsave_5fstr',['PATH_SAVE_STR',['../namespaceanonymous__namespace_02Enums_8cpp_03.html#a89def8d05e9a2894206a7f52f2b0cbf0',1,'anonymous_namespace{Enums.cpp}']]],
   ['path_5ftemp_5fstr',['PATH_TEMP_STR',['../namespaceanonymous__namespace_02Enums_8cpp_03.html#a00b2e1aa1ab52c778ed7a128c6861422',1,'anonymous_namespace{Enums.cpp}']]],
   ['pause',['PAUSE',['../classResearchQueueOrder.html#a94de4e3021f68b75ddebdf019278e4e3',1,'ResearchQueueOrder::PAUSE()'],['../classProductionQueueOrder.html#a29100c8021272e308eb05378d407a17b',1,'ProductionQueueOrder::PAUSE()']]],
-  ['paused',['paused',['../structResearchQueue_1_1Element.html#abe3db0ad1cf946fdf3673f3e6729ca11',1,'ResearchQueue::Element::paused()'],['../structProductionQueue_1_1Element.html#a4754464d69c6b56aa87887778215f0cc',1,'ProductionQueue::Element::paused()']]],
+  ['paused',['paused',['../structProductionQueue_1_1Element.html#a4754464d69c6b56aa87887778215f0cc',1,'ProductionQueue::Element::paused()'],['../structResearchQueue_1_1Element.html#abe3db0ad1cf946fdf3673f3e6729ca11',1,'ResearchQueue::Element::paused()']]],
   ['pc_5farmour',['PC_ARMOUR',['../Enums_8h.html#a206edc7a8aefc8126ad312e05dae8767',1,'Enums.h']]],
   ['pc_5fbombard',['PC_BOMBARD',['../Enums_8h.html#a62df7b9bc5f683079fa94ae43e1145f9',1,'Enums.h']]],
   ['pc_5fcolony',['PC_COLONY',['../Enums_8h.html#a74db0f02fbbea1d9a1e1d37f8a470df8',1,'Enums.h']]],

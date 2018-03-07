@@ -36,7 +36,7 @@ var searchData=
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
-  ['queuetype',['QueueType',['../structResearchQueue.html#aee3a5747de917c41072562a2508c158a',1,'ResearchQueue::QueueType()'],['../structProductionQueue.html#ac81d9056d61895945b13081b4c83336e',1,'ProductionQueue::QueueType()']]],
+  ['queuetype',['QueueType',['../structProductionQueue.html#ac81d9056d61895945b13081b4c83336e',1,'ProductionQueue::QueueType()'],['../structResearchQueue.html#aee3a5747de917c41072562a2508c158a',1,'ResearchQueue::QueueType()']]],
   ['quitting_5fpolling_5finterval',['QUITTING_POLLING_INTERVAL',['../HumanClientFSM_8cpp.html#a7884c3995b8c8e539a09893924d855c5',1,'HumanClientFSM.cpp']]],
   ['quitting_5ftimeout',['QUITTING_TIMEOUT',['../HumanClientFSM_8cpp.html#a53607606cff6c405f16b20a6c7d130c8',1,'HumanClientFSM.cpp']]],
   ['quittinggame',['QuittingGame',['../structQuittingGame.html',1,'QuittingGame'],['../structQuittingGame.html#a46907cba60c808bf52be11c7baa20341',1,'QuittingGame::QuittingGame()']]]

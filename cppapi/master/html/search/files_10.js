@@ -4,6 +4,8 @@ var searchData=
   ['random_2eh',['Random.h',['../Random_8h.html',1,'']]],
   ['reportparseerror_2ecpp',['ReportParseError.cpp',['../ReportParseError_8cpp.html',1,'']]],
   ['reportparseerror_2eh',['ReportParseError.h',['../ReportParseError_8h.html',1,'']]],
+  ['researchqueue_2ecpp',['ResearchQueue.cpp',['../ResearchQueue_8cpp.html',1,'']]],
+  ['researchqueue_2eh',['ResearchQueue.h',['../ResearchQueue_8h.html',1,'']]],
   ['researchwnd_2ecpp',['ResearchWnd.cpp',['../ResearchWnd_8cpp.html',1,'']]],
   ['researchwnd_2eh',['ResearchWnd.h',['../ResearchWnd_8h.html',1,'']]],
   ['resourcebrowsewnd_2ecpp',['ResourceBrowseWnd.cpp',['../ResourceBrowseWnd_8cpp.html',1,'']]],
