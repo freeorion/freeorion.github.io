@@ -107,7 +107,7 @@ var searchData=
   ['serializeforempire',['SerializeForEmpire',['../classIDAllocator.html#a5e51cae26c5545794be685d43d1dd8ff',1,'IDAllocator']]],
   ['serializeincompletelogs',['SerializeIncompleteLogs',['../classCombatLogManager_1_1Impl.html#a87f2d72e820c4db52df25c4b85ce4c62',1,'CombatLogManager::Impl::SerializeIncompleteLogs()'],['../classCombatLogManager.html#ab2f3069f8ce43207505d1eb50c72cb5a',1,'CombatLogManager::SerializeIncompleteLogs()']]],
   ['server',['Server',['../structServerFSM.html#a7c5873249aecd6a66fc290a9b17914e3',1,'ServerFSM']]],
-  ['serverapp',['ServerApp',['../classServerApp.html#a47e4d249b0100076dfb862665888935f',1,'ServerApp::ServerApp()'],['../classServerApp.html#af87f6fabab54d7bee1a7bab3d7fdcc67',1,'ServerApp::ServerApp(const ServerApp &amp;)']]],
+  ['serverapp',['ServerApp',['../classServerApp.html#a47e4d249b0100076dfb862665888935f',1,'ServerApp::ServerApp()'],['../classServerApp.html#af9720ee631e6d7891c16e13bcffaab80',1,'ServerApp::ServerApp(const ServerApp &amp;)=delete'],['../classServerApp.html#a6ea2bc794463fdc2ad6be40c2f41549d',1,'ServerApp::ServerApp(ServerApp &amp;&amp;)=delete']]],
   ['serverclientexe',['ServerClientExe',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae2382efc15d9775f6aacd62dbe716316',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['serverconnectwnd',['ServerConnectWnd',['../classServerConnectWnd.html#aebb97cf72865658885b9599461283768',1,'ServerConnectWnd']]],
   ['serverdiscoverer',['ServerDiscoverer',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#a186151c124eaa211ee83b9726b774e08',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer']]],

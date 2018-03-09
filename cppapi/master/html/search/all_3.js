@@ -203,7 +203,7 @@ var searchData=
   ['client_5ftype_5fhuman_5fmoderator',['CLIENT_TYPE_HUMAN_MODERATOR',['../namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891',1,'Networking']]],
   ['client_5ftype_5fhuman_5fobserver',['CLIENT_TYPE_HUMAN_OBSERVER',['../namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880',1,'Networking']]],
   ['client_5ftype_5fhuman_5fplayer',['CLIENT_TYPE_HUMAN_PLAYER',['../namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e',1,'Networking']]],
-  ['clientapp',['ClientApp',['../classClientApp.html',1,'ClientApp'],['../classEmpireManager.html#a2a6fd8b1d06ffad67ba0c7ad4f97a0ed',1,'EmpireManager::ClientApp()'],['../classClientApp.html#a7f2185ff0c77af0b9d3751f9014ae3aa',1,'ClientApp::ClientApp()'],['../classClientApp.html#a83491b6911394e0d3399eadcce9d170a',1,'ClientApp::ClientApp(const ClientApp &amp;)']]],
+  ['clientapp',['ClientApp',['../classClientApp.html',1,'ClientApp'],['../classEmpireManager.html#a2a6fd8b1d06ffad67ba0c7ad4f97a0ed',1,'EmpireManager::ClientApp()'],['../classClientApp.html#a7f2185ff0c77af0b9d3751f9014ae3aa',1,'ClientApp::ClientApp()'],['../classClientApp.html#afce4eafb2cd697c703cf71d8897dfa1c',1,'ClientApp::ClientApp(const ClientApp &amp;)=delete'],['../classClientApp.html#a7beca00e2c543b679dc10bc61c87713b',1,'ClientApp::ClientApp(ClientApp &amp;&amp;)=delete']]],
   ['clientapp_2ecpp',['ClientApp.cpp',['../ClientApp_8cpp.html',1,'']]],
   ['clientapp_2eh',['ClientApp.h',['../ClientApp_8h.html',1,'']]],
   ['clientfsmevents_2ecpp',['ClientFSMEvents.cpp',['../ClientFSMEvents_8cpp.html',1,'']]],

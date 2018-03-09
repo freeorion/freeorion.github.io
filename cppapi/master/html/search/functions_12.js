@@ -96,7 +96,6 @@ var searchData=
   ['removeparttype',['RemovePartType',['../classEmpire.html#a4f9cf8fb8eddf2c6ead0f0a7c8c7e362',1,'Empire']]],
   ['removepopup',['RemovePopup',['../classMapWnd.html#ab4f6331c9dfe6e7683869e14b4dae95c',1,'MapWnd']]],
   ['removeproductionfromqueue',['RemoveProductionFromQueue',['../classEmpire.html#a501bd666e94e12db2b880f05e95950e2',1,'Empire']]],
-  ['removeship',['RemoveShip',['../classFleet.html#a53ed5d8b9750b2b7ab7b44dfa833cc75',1,'Fleet']]],
   ['removeshipdesign',['RemoveShipDesign',['../classEmpire.html#af8d9cc41f34ee46b26dba81c6b0cf6b2',1,'Empire']]],
   ['removeships',['RemoveShips',['../classFleet.html#ae5dd22af5de795bec9f97f98d5f1a8cb',1,'Fleet']]],
   ['removespecial',['RemoveSpecial',['../classEffect_1_1RemoveSpecial.html#aa39a116a7d572f3cf728597ff695447f',1,'Effect::RemoveSpecial::RemoveSpecial(const std::string &amp;name)'],['../classEffect_1_1RemoveSpecial.html#ab8a7f312217b9553815b3afad7c55b8c',1,'Effect::RemoveSpecial::RemoveSpecial(std::unique_ptr&lt; ValueRef::ValueRefBase&lt; std::string &gt;&gt; &amp;&amp;name)'],['../classUniverseObject.html#add83d612c4f52b90acb224a36be83172',1,'UniverseObject::RemoveSpecial()'],['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a3fc9c852aec448a4b9800a2e944dcf07',1,'anonymous_namespace{ServerWrapper.cpp}::RemoveSpecial()']]],
