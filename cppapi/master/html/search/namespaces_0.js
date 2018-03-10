@@ -112,7 +112,6 @@ var searchData=
   ['anonymous_5fnamespace_7bspecialsparser_2ecpp_7d',['anonymous_namespace{SpecialsParser.cpp}',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bspecies_2ecpp_7d',['anonymous_namespace{Species.cpp}',['../namespaceanonymous__namespace_02Species_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bspeciesparser_2ecpp_7d',['anonymous_namespace{SpeciesParser.cpp}',['../namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bstringtable_2ecpp_7d',['anonymous_namespace{StringTable.cpp}',['../namespaceanonymous__namespace_02StringTable_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsupply_2ecpp_7d',['anonymous_namespace{Supply.cpp}',['../namespaceanonymous__namespace_02Supply_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsystem_2eh_7d',['anonymous_namespace{System.h}',['../namespaceanonymous__namespace_02System_8h_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsystemicon_2ecpp_7d',['anonymous_namespace{SystemIcon.cpp}',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html',1,'']]],
