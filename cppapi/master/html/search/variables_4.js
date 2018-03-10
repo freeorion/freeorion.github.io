@@ -7,6 +7,7 @@ var searchData=
   ['data_5fpanel_5ftext_5fpad',['DATA_PANEL_TEXT_PAD',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ad6beea5a11eedddae67690f71a8821d2',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['datachangedsignal',['DataChangedSignal',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1PlayerRow.html#a104113fa6051b4f18a3f866dc34363f6',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PlayerRow']]],
   ['default_5fdecorator',['DEFAULT_DECORATOR',['../classTextLinker.html#a76d3304fbc1402830c2f4afe891568dd',1,'TextLinker']]],
+  ['default_5ffilename',['DEFAULT_FILENAME',['../namespaceanonymous__namespace_02StringTable_8cpp_03.html#abcd278f3a6ec87ea6b4b06f749fdde9c',1,'anonymous_namespace{StringTable.cpp}']]],
   ['default_5fheight',['DEFAULT_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a9132d5e6621e6626f6d4de6a8579511c',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['default_5fleft',['DEFAULT_LEFT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a95c28b5aba66177c7545430bfa5dfa66',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['default_5flog_5flevel_5fthreshold',['default_log_level_threshold',['../Logger_8h.html#a5b570a064704e27839d00bbe995a1023',1,'Logger.h']]],

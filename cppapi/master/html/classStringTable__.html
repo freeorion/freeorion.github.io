@@ -98,11 +98,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:af488885530bf1abf23e5268d9aa4f72e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#af488885530bf1abf23e5268d9aa4f72e">StringTable_</a> ()</td></tr>
-<tr class="memdesc:af488885530bf1abf23e5268d9aa4f72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction, uses S_DEFAULT_FILENAME  <a href="#af488885530bf1abf23e5268d9aa4f72e">More...</a><br /></td></tr>
+<tr class="memdesc:af488885530bf1abf23e5268d9aa4f72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction, uses default stringtable filename  <a href="#af488885530bf1abf23e5268d9aa4f72e">More...</a><br /></td></tr>
 <tr class="separator:af488885530bf1abf23e5268d9aa4f72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1b7fa5ab8051f418ebcd1d317e9047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#abd1b7fa5ab8051f418ebcd1d317e9047">StringTable_</a> (const std::string &amp;filename, const <a class="el" href="classStringTable__.html">StringTable_</a> *lookups_fallback_table=nullptr)</td></tr>
-<tr class="separator:abd1b7fa5ab8051f418ebcd1d317e9047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57295312d62460d14eee20cdb3be1f98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a57295312d62460d14eee20cdb3be1f98">StringTable_</a> (const std::string &amp;filename, std::shared_ptr&lt; const <a class="el" href="classStringTable__.html">StringTable_</a> &gt; lookups_fallback_table=nullptr)</td></tr>
+<tr class="separator:a57295312d62460d14eee20cdb3be1f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480ea9c2858eb0aefc4364f2f2b0f68f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a480ea9c2858eb0aefc4364f2f2b0f68f">~StringTable_</a> ()</td></tr>
+<tr class="memdesc:a480ea9c2858eb0aefc4364f2f2b0f68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction, uses default stringtable filename  <a href="#a480ea9c2858eb0aefc4364f2f2b0f68f">More...</a><br /></td></tr>
 <tr class="separator:a480ea9c2858eb0aefc4364f2f2b0f68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><dl class="params"><dt>Parameters</dt><dd>
@@ -117,10 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0bbf1fc98ee2151944f9f1b3e23f8bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a string at index and returns it.  <a href="#a0bbf1fc98ee2151944f9f1b3e23f8bc5">More...</a><br /></td></tr>
 <tr class="separator:a0bbf1fc98ee2151944f9f1b3e23f8bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb1ec10c8c420dddd21fbc54ab542e6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#aeb1ec10c8c420dddd21fbc54ab542e6c">StringExists</a> (const std::string &amp;index) const </td></tr>
-<tr class="memdesc:aeb1ec10c8c420dddd21fbc54ab542e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a string at index and returns if the string is present.  <a href="#aeb1ec10c8c420dddd21fbc54ab542e6c">More...</a><br /></td></tr>
 <tr class="separator:aeb1ec10c8c420dddd21fbc54ab542e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0964da5b951db19f0531394cf30d6475"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a0964da5b951db19f0531394cf30d6475">Empty</a> () const </td></tr>
-<tr class="memdesc:a0964da5b951db19f0531394cf30d6475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this stringtable contains any entries.  <a href="#a0964da5b951db19f0531394cf30d6475">More...</a><br /></td></tr>
 <tr class="separator:a0964da5b951db19f0531394cf30d6475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75864afc020fc467233d68a22f17c716"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a75864afc020fc467233d68a22f17c716">String</a> (const std::string &amp;index) const </td></tr>
 <tr class="memdesc:a75864afc020fc467233d68a22f17c716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to operator()  <a href="#a75864afc020fc467233d68a22f17c716">More...</a><br /></td></tr>
@@ -130,15 +129,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b110d10adebe1af2aa0ae5d0cad382f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91587bd5aac6dcde68c709a6cdbc8a93"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93">Filename</a> () const </td></tr>
 <tr class="separator:a91587bd5aac6dcde68c709a6cdbc8a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Constants</div></td></tr>
-<tr class="memitem:a653127aa82f9024564d2172f05a845de"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a653127aa82f9024564d2172f05a845de">S_DEFAULT_FILENAME</a> = &quot;en.txt&quot;</td></tr>
-<tr class="memdesc:a653127aa82f9024564d2172f05a845de"><td class="mdescLeft">&#160;</td><td class="mdescRight">the default file used if none specified  <a href="#a653127aa82f9024564d2172f05a845de">More...</a><br /></td></tr>
-<tr class="separator:a653127aa82f9024564d2172f05a845de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285444d23bc641e693cf462b9c83c755"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a285444d23bc641e693cf462b9c83c755">S_ERROR_STRING</a> = &quot;ERROR: &quot;</td></tr>
-<tr class="separator:a285444d23bc641e693cf462b9c83c755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -150,24 +140,30 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 </div></td></tr>
-<tr class="memitem:ac2ee3056becf19a8b4edf6b38caa04b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load</a> (const <a class="el" href="classStringTable__.html">StringTable_</a> *lookups_fallback_table=nullptr)</td></tr>
-<tr class="memdesc:ac2ee3056becf19a8b4edf6b38caa04b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a const reference to the strings in this table  <a href="#ac2ee3056becf19a8b4edf6b38caa04b7">More...</a><br /></td></tr>
-<tr class="separator:ac2ee3056becf19a8b4edf6b38caa04b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f09847b1a598c73a3dc57ba0f1e7c13"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a1f09847b1a598c73a3dc57ba0f1e7c13">GetStrings</a> () const </td></tr>
-<tr class="memdesc:a1f09847b1a598c73a3dc57ba0f1e7c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a const reference to the strings in this table  <a href="#a1f09847b1a598c73a3dc57ba0f1e7c13">More...</a><br /></td></tr>
-<tr class="separator:a1f09847b1a598c73a3dc57ba0f1e7c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e04816744c095313cbf4f2ad48b210e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load</a> (std::shared_ptr&lt; const <a class="el" href="classStringTable__.html">StringTable_</a> &gt; lookups_fallback_table=nullptr)</td></tr>
+<tr class="separator:a5e04816744c095313cbf4f2ad48b210e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Data Members</div></td></tr>
-<tr class="memitem:aa89c7782b5a133b18191f3c2e7bbd1c5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a></td></tr>
+<tr class="memitem:aa89c7782b5a133b18191f3c2e7bbd1c5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:aa89c7782b5a133b18191f3c2e7bbd1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with  <a href="#aa89c7782b5a133b18191f3c2e7bbd1c5">More...</a><br /></td></tr>
 <tr class="separator:aa89c7782b5a133b18191f3c2e7bbd1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b599e883cfd03dd463a013801bdc25"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#af2b599e883cfd03dd463a013801bdc25">m_language</a></td></tr>
+<tr class="memitem:af2b599e883cfd03dd463a013801bdc25"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#af2b599e883cfd03dd463a013801bdc25">m_language</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:af2b599e883cfd03dd463a013801bdc25"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string containing the name of the language used.  <a href="#af2b599e883cfd03dd463a013801bdc25">More...</a><br /></td></tr>
 <tr class="separator:af2b599e883cfd03dd463a013801bdc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e94901fef1b254716be4a97a077e6d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a></td></tr>
+<tr class="memdesc:a85e94901fef1b254716be4a97a077e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with  <a href="#a85e94901fef1b254716be4a97a077e6d">More...</a><br /></td></tr>
 <tr class="separator:a85e94901fef1b254716be4a97a077e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945c6021a11dc29c3d1e8aaf04925296"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a945c6021a11dc29c3d1e8aaf04925296">m_error_strings</a></td></tr>
+<tr class="memdesc:a945c6021a11dc29c3d1e8aaf04925296"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with  <a href="#a945c6021a11dc29c3d1e8aaf04925296">More...</a><br /></td></tr>
+<tr class="separator:a945c6021a11dc29c3d1e8aaf04925296"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb383c41c62cd1a6006f556649e426b"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#a4eb383c41c62cd1a6006f556649e426b">m_mutex</a></td></tr>
+<tr class="memdesc:a4eb383c41c62cd1a6006f556649e426b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with  <a href="#a4eb383c41c62cd1a6006f556649e426b">More...</a><br /></td></tr>
+<tr class="separator:a4eb383c41c62cd1a6006f556649e426b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad616b894414e2bc85beffc21eb736a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable__.html#aad616b894414e2bc85beffc21eb736a0">m_initialized</a> = false</td></tr>
+<tr class="memdesc:aad616b894414e2bc85beffc21eb736a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with  <a href="#aad616b894414e2bc85beffc21eb736a0">More...</a><br /></td></tr>
+<tr class="separator:aad616b894414e2bc85beffc21eb736a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is an implementation of a String Table for internationalization purposes. The table is built from a file of the following format:<br />
@@ -216,13 +212,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default construction, uses S_DEFAULT_FILENAME </p>
+<p>default construction, uses default stringtable filename </p>
 
-<p>References <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
+<p>References <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abd1b7fa5ab8051f418ebcd1d317e9047"></a>
+<a class="anchor" id="a57295312d62460d14eee20cdb3be1f98"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -235,7 +231,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classStringTable__.html">StringTable_</a> *&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classStringTable__.html">StringTable_</a> &gt;&#160;</td>
           <td class="paramname"><em>lookups_fallback_table</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -253,7 +249,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
+<p>References <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +265,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>default destructor </p>
+
+<p>default construction, uses default stringtable filename </p>
 
 </div>
 </div>
@@ -286,11 +283,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Checks if this stringtable contains any entries. </p>
 <dl class="section return"><dt>Returns</dt><dd>true iff this stringtable contain no entries </dd></dl>
 
-<p>References <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
+<p>References <a class="el" href="classStringTable__.html#a4eb383c41c62cd1a6006f556649e426b">m_mutex</a>, and <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
 
 </div>
 </div>
@@ -316,38 +311,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>accessor to the filename </p>
 
-<p>References <a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a>.</p>
-
-<p>Referenced by <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1f09847b1a598c73a3dc57ba0f1e7c13"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::map&lt;std::string, std::string&gt;&amp; StringTable_::GetStrings </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns a const reference to the strings in this table </p>
-
-<p>References <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
-
-<p>Referenced by <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
+<p>References <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>, and <a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a>.</p>
 
 </div>
 </div>
@@ -380,7 +344,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2ee3056becf19a8b4edf6b38caa04b7"></a>
+<a class="anchor" id="a5e04816744c095313cbf4f2ad48b210e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -390,7 +354,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void StringTable_::Load </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classStringTable__.html">StringTable_</a> *&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classStringTable__.html">StringTable_</a> &gt;&#160;</td>
           <td class="paramname"><em>lookups_fallback_table</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
@@ -402,11 +366,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns a const reference to the strings in this table </p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">parse::file_substitution()</a>, <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a>, <a class="el" href="classStringTable__.html#aad616b894414e2bc85beffc21eb736a0">m_initialized</a>, <a class="el" href="classStringTable__.html#af2b599e883cfd03dd463a013801bdc25">m_language</a>, <a class="el" href="classStringTable__.html#a4eb383c41c62cd1a6006f556649e426b">m_mutex</a>, <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>, and <a class="el" href="namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">parse::read_file()</a>.</p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">parse::file_substitution()</a>, <a class="el" href="classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93">Filename()</a>, <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classStringTable__.html#a1f09847b1a598c73a3dc57ba0f1e7c13">GetStrings()</a>, <a class="el" href="classStringTable__.html#aa89c7782b5a133b18191f3c2e7bbd1c5">m_filename</a>, <a class="el" href="classStringTable__.html#af2b599e883cfd03dd463a013801bdc25">m_language</a>, <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>, and <a class="el" href="namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">parse::read_file()</a>.</p>
-
-<p>Referenced by <a class="el" href="classStringTable__.html#af488885530bf1abf23e5268d9aa4f72e">StringTable_()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93">Filename()</a>, and <a class="el" href="classStringTable__.html#af488885530bf1abf23e5268d9aa4f72e">StringTable_()</a>.</p>
 
 </div>
 </div>
@@ -426,7 +388,7 @@ Private Attributes</h2></td></tr>
 
 <p>Looks up a string at index and returns it. </p>
 
-<p>References <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>, and <a class="el" href="classStringTable__.html#a285444d23bc641e693cf462b9c83c755">S_ERROR_STRING</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="namespaceanonymous__namespace_02StringTable_8cpp_03.html#a20fd72e4318fe3c4682be55cab0bc630">anonymous_namespace{StringTable.cpp}::ERROR_STRING</a>, <a class="el" href="classStringTable__.html#a945c6021a11dc29c3d1e8aaf04925296">m_error_strings</a>, <a class="el" href="classStringTable__.html#a4eb383c41c62cd1a6006f556649e426b">m_mutex</a>, and <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
 
 <p>Referenced by <a class="el" href="classStringTable__.html#a75864afc020fc467233d68a22f17c716">String()</a>.</p>
 
@@ -483,8 +445,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Looks up a string at index and returns if the string is present. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of the string to check for </td></tr>
@@ -493,13 +453,37 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true iff a string exists with that index, false otherwise </dd></dl>
 
-<p>References <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
+<p>References <a class="el" href="classStringTable__.html#a4eb383c41c62cd1a6006f556649e426b">m_mutex</a>, and <a class="el" href="classStringTable__.html#a85e94901fef1b254716be4a97a077e6d">m_strings</a>.</p>
 
 <p>Referenced by <a class="el" href="i18n_8h.html#a4e4904cf855ebc7d475c211d2ad68fba">UserStringExists()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a945c6021a11dc29c3d1e8aaf04925296"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt;std::string&gt; StringTable_::m_error_strings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with </p>
+
+<p>Referenced by <a class="el" href="classStringTable__.html#a0bbf1fc98ee2151944f9f1b3e23f8bc5">operator[]()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa89c7782b5a133b18191f3c2e7bbd1c5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -508,7 +492,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string StringTable_::m_filename</td>
+          <td class="memname">std::string StringTable_::m_filename = &quot;&quot;</td>
         </tr>
       </table>
   </td>
@@ -520,7 +504,31 @@ Private Attributes</h2></td></tr>
 
 <p>the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with </p>
 
-<p>Referenced by <a class="el" href="classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93">Filename()</a>, and <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable__.html#a91587bd5aac6dcde68c709a6cdbc8a93">Filename()</a>, and <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad616b894414e2bc85beffc21eb736a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool StringTable_::m_initialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with </p>
+
+<p>Referenced by <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>.</p>
 
 </div>
 </div>
@@ -532,7 +540,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string StringTable_::m_language</td>
+          <td class="memname">std::string StringTable_::m_language = &quot;&quot;</td>
         </tr>
       </table>
   </td>
@@ -544,7 +552,31 @@ Private Attributes</h2></td></tr>
 
 <p>A string containing the name of the language used. </p>
 
-<p>Referenced by <a class="el" href="classStringTable__.html#a5b110d10adebe1af2aa0ae5d0cad382f">Language()</a>, and <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable__.html#a5b110d10adebe1af2aa0ae5d0cad382f">Language()</a>, and <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4eb383c41c62cd1a6006f556649e426b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex StringTable_::m_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with </p>
+
+<p>Referenced by <a class="el" href="classStringTable__.html#a0964da5b951db19f0531394cf30d6475">Empty()</a>, <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>, <a class="el" href="classStringTable__.html#a0bbf1fc98ee2151944f9f1b3e23f8bc5">operator[]()</a>, and <a class="el" href="classStringTable__.html#aeb1ec10c8c420dddd21fbc54ab542e6c">StringExists()</a>.</p>
 
 </div>
 </div>
@@ -565,54 +597,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The strings in the table </p>
 
-<p>Referenced by <a class="el" href="classStringTable__.html#a0964da5b951db19f0531394cf30d6475">Empty()</a>, <a class="el" href="classStringTable__.html#a1f09847b1a598c73a3dc57ba0f1e7c13">GetStrings()</a>, <a class="el" href="classStringTable__.html#ac2ee3056becf19a8b4edf6b38caa04b7">Load()</a>, <a class="el" href="classStringTable__.html#a0bbf1fc98ee2151944f9f1b3e23f8bc5">operator[]()</a>, and <a class="el" href="classStringTable__.html#aeb1ec10c8c420dddd21fbc54ab542e6c">StringExists()</a>.</p>
+<p>the name of the file this <a class="el" href="classStringTable__.html">StringTable_</a> was constructed with </p>
 
-</div>
-</div>
-<a class="anchor" id="a653127aa82f9024564d2172f05a845de"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string StringTable_::S_DEFAULT_FILENAME = &quot;en.txt&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the default file used if none specified </p>
-
-</div>
-</div>
-<a class="anchor" id="a285444d23bc641e693cf462b9c83c755"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string StringTable_::S_ERROR_STRING = &quot;ERROR: &quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>A string that gets returned when invalid indices are used </p>
-
-<p>Referenced by <a class="el" href="classStringTable__.html#a0bbf1fc98ee2151944f9f1b3e23f8bc5">operator[]()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable__.html#a0964da5b951db19f0531394cf30d6475">Empty()</a>, <a class="el" href="classStringTable__.html#a5e04816744c095313cbf4f2ad48b210e">Load()</a>, <a class="el" href="classStringTable__.html#a0bbf1fc98ee2151944f9f1b3e23f8bc5">operator[]()</a>, and <a class="el" href="classStringTable__.html#aeb1ec10c8c420dddd21fbc54ab542e6c">StringExists()</a>.</p>
 
 </div>
 </div>

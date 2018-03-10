@@ -360,7 +360,6 @@ var searchData=
   ['getstatistictype',['GetStatisticType',['../structValueRef_1_1Statistic.html#a3e9f899d1ac87bccb146584675423033',1,'ValueRef::Statistic']]],
   ['getstatrecords',['GetStatRecords',['../classUniverse.html#a6f1787421c949e2982517b3d30cf53ee',1,'Universe']]],
   ['getstring',['GetString',['../classConditionWidget.html#abff4e7023fb9fd22a6caa3bd96fdfca8',1,'ConditionWidget']]],
-  ['getstrings',['GetStrings',['../classStringTable__.html#a1f09847b1a598c73a3dc57ba0f1e7c13',1,'StringTable_']]],
   ['getstringtable',['GetStringTable',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#aca12a01bebef2796267f76d6d0eeb9f2',1,'anonymous_namespace{i18n.cpp}']]],
   ['getstringtablefilename',['GetStringTableFileName',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#a4b6014f92305305df48329632d8c7c1b',1,'anonymous_namespace{i18n.cpp}']]],
   ['getstringtablelookupflag',['GetStringtableLookupFlag',['../classVarText.html#a870d6fdd4d10ffc26af8a05240a73206',1,'VarText']]],
