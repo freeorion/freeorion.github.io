@@ -19,6 +19,7 @@ var searchData=
   ['planettypevaluerefparser_2ecpp',['PlanetTypeValueRefParser.cpp',['../PlanetTypeValueRefParser_8cpp.html',1,'']]],
   ['playerlistwnd_2ecpp',['PlayerListWnd.cpp',['../PlayerListWnd_8cpp.html',1,'']]],
   ['playerlistwnd_2eh',['PlayerListWnd.h',['../PlayerListWnd_8h.html',1,'']]],
+  ['policiesparser_2ecpp',['PoliciesParser.cpp',['../PoliciesParser_8cpp.html',1,'']]],
   ['popcenter_2ecpp',['PopCenter.cpp',['../PopCenter_8cpp.html',1,'']]],
   ['popcenter_2eh',['PopCenter.h',['../PopCenter_8h.html',1,'']]],
   ['populationpanel_2ecpp',['PopulationPanel.cpp',['../PopulationPanel_8cpp.html',1,'']]],
