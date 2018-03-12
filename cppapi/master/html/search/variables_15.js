@@ -1,7 +1,6 @@
 var searchData=
 [
   ['uit_5fbuilding',['UIT_BUILDING',['../Enums_8h.html#a871dcef0162307b5f338887268d0e9e3',1,'Enums.h']]],
-  ['uit_5fpolicy',['UIT_POLICY',['../Enums_8h.html#a8d9ab14a76d1b87cae1a6b7e60d2b8b8',1,'Enums.h']]],
   ['uit_5fship_5fdesign',['UIT_SHIP_DESIGN',['../Enums_8h.html#ab8dcd758dffc1f670c4ad1b3d9c396c8',1,'Enums.h']]],
   ['uit_5fship_5fhull',['UIT_SHIP_HULL',['../Enums_8h.html#acd1167e2a39af44addfcc48919e29ff2',1,'Enums.h']]],
   ['uit_5fship_5fpart',['UIT_SHIP_PART',['../Enums_8h.html#abe5d8f2c10b87b984266536bdefd4d95',1,'Enums.h']]],
