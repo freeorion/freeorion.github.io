@@ -346,7 +346,7 @@ var searchData=
   ['itemquantitychanged',['ItemQuantityChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af596281e2ccdad61623b1dd0043b9548',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemrightclicked',['ItemRightClicked',['../classQueueListBox.html#a66645ad462b6806073a05fa302333849',1,'QueueListBox']]],
   ['itemrightclickedimpl',['ItemRightClickedImpl',['../classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f',1,'BasesListBox::ItemRightClickedImpl()'],['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::ItemRightClickedImpl()'],['../classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522',1,'QueueListBox::ItemRightClickedImpl()'],['../classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2',1,'ResearchQueueListBox::ItemRightClickedImpl()']]],
-  ['items',['items',['../namespaceparse.html#a95161b7ba1f7ff550c97770f6ba108ef',1,'parse']]],
+  ['items',['items',['../namespaceparse.html#a049bdf8902cc3205a4140f135da425f8',1,'parse']]],
   ['itemsparser_2ecpp',['ItemsParser.cpp',['../ItemsParser_8cpp.html',1,'']]],
   ['itemspec',['ItemSpec',['../structItemSpec.html',1,'ItemSpec'],['../structItemSpec.html#a0e17326d26d61a63d45504cbc25769c0',1,'ItemSpec::ItemSpec()'],['../structItemSpec.html#a2e6c0ca7e026207ccb768dcb7c576941',1,'ItemSpec::ItemSpec(UnlockableItemType type_, const std::string &amp;name_)']]],
   ['iterator',['iterator',['../structObjectMap_1_1iterator.html',1,'ObjectMap']]],
