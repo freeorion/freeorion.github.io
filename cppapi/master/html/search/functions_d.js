@@ -27,6 +27,7 @@ var searchData=
   ['maxhealth',['MaxHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#a428d8636f888dc555ceb996d78ae2074',1,'anonymous_namespace{CombatLogManager.cpp}']]],
   ['maxmaxhealth',['MaxMaxHealth',['../classSideBar.html#ad934d5dba338fb57bdd56a4dd818ae8b',1,'SideBar']]],
   ['maxplanetdiameter',['MaxPlanetDiameter',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a54d7c6efe8659684861a5d88c21222f5',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['maxshipageinturns',['MaxShipAgeInTurns',['../classFleet.html#a0d3b6ac70fbe02dfd3813e43b0ffc279',1,'Fleet']]],
   ['maybeinvaliddesign',['MaybeInvalidDesign',['../classShipDesign.html#a9bd858e82b4edb502997492a35546361',1,'ShipDesign']]],
   ['mediumfleetbuttonzoomthreshold',['MediumFleetButtonZoomThreshold',['../classClientUI.html#a833c2485fb4da8e057ec65afc627051b',1,'ClientUI']]],
   ['mergefleetsintofleet',['MergeFleetsIntoFleet',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a2e65eb4ceaa59baebec4d4cee0d4263a',1,'anonymous_namespace{FleetWnd.cpp}']]],
