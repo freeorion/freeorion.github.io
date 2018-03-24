@@ -179,6 +179,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7df980a4219a193118f710249723a5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371f3a05d555954c35f53137c1c3ceb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection)</td></tr>
 <tr class="separator:a371f3a05d555954c35f53137c1c3ceb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc0e3fb214ba11946527c3cc5bb88e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a8fc0e3fb214ba11946527c3cc5bb88e0">DropPlayerEmpireLink</a> (int planet_id)</td></tr>
+<tr class="separator:a8fc0e3fb214ba11946527c3cc5bb88e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00d334a144386d898d40aad1d661ca9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection)</td></tr>
+<tr class="separator:ac00d334a144386d898d40aad1d661ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classIApp"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classIApp')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classIApp.html">IApp</a></td></tr>
 <tr class="memitem:a18e29295bc62aaba1ceb08d6464bf187 inherit pub_methods_classIApp"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a18e29295bc62aaba1ceb08d6464bf187">IApp</a> (const <a class="el" href="classIApp.html">IApp</a> &amp;)=delete</td></tr>
 <tr class="separator:a18e29295bc62aaba1ceb08d6464bf187 inherit pub_methods_classIApp"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,6 +501,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac00d334a144386d898d40aad1d661ca9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerApp::AddPlayerIntoGame </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>player_connection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds new player to running game. Search empire by player's name and return true if success and false if no empire found. Simply sends GAME_START message so established player knows he is in the game. </p>
+
+<p>References <a class="el" href="namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44">anonymous_namespace{CUIWnd.cpp}::dummy</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="Message_8cpp.html#a3a4b5d326132c644667ab9e617fc9cf5">GameStartMessage()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, <a class="el" href="classServerApp.html#adf2f6a14ca303fa7760e25e24a78a954">m_turn_sequence</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="structPlayingGame.html#a31332de34efc5f8c35eec075960c1a35">PlayingGame::EstablishPlayer()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5539a03d0233eabe70a6f812d2357bbe"></a>
 <div class="memitem">
 <div class="memproto">
@@ -645,6 +670,27 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8fc0e3fb214ba11946527c3cc5bb88e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerApp::DropPlayerEmpireLink </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>planet_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Drop link between player with <em>player_id</em> and his empire. </p>
+
+<p>References <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>.</p>
+
+<p>Referenced by <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa0d9df8cdd6d45ecc9df785a190cce29"></a>
 <div class="memitem">
 <div class="memproto">
@@ -790,7 +836,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>.</p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6">CheckForEmpireElimination()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3938ed1b49fc11b991677fce12e7c43c">anonymous_namespace{ServerApp.cpp}::CombatConditionsInSystem()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">GenerateUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af356e69c04e0e99ba6b7e5fb3626d1cb">anonymous_namespace{ServerApp.cpp}::HandleColonization()</a>, <a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">HandleDiplomaticMessageChange()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>, and <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6">CheckForEmpireElimination()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3938ed1b49fc11b991677fce12e7c43c">anonymous_namespace{ServerApp.cpp}::CombatConditionsInSystem()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">GenerateUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af356e69c04e0e99ba6b7e5fb3626d1cb">anonymous_namespace{ServerApp.cpp}::HandleColonization()</a>, <a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">HandleDiplomaticMessageChange()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>, and <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp()</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1116,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, and <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>.</p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
 </div>
 </div>
@@ -1100,7 +1146,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classServerApp.html#ab0a99f0d69c8a37677cd2f4b18b2cb53">m_supply_manager</a>.</p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
 </div>
 </div>
@@ -2690,7 +2736,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>current turn number </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
 </div>
 </div>
@@ -2712,7 +2758,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
 </div>
 </div>
@@ -2758,7 +2804,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>stored setup data for the game currently being played </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForSPGameJoiners.html#abd0f8045fa83490ec627ac3ab4e5a301">WaitingForSPGameJoiners::react()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForSPGameJoiners.html#abd0f8045fa83490ec627ac3ab4e5a301">WaitingForSPGameJoiners::react()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
 </div>
 </div>
@@ -2826,7 +2872,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>map from player id to empire id that the player controls. </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a5d9d715e7853b50f18335f283b2c43f0">EmpirePlayerID()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, and <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a8fc0e3fb214ba11946527c3cc5bb88e0">DropPlayerEmpireLink()</a>, <a class="el" href="classServerApp.html#a5d9d715e7853b50f18335f283b2c43f0">EmpirePlayerID()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, and <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>.</p>
 
 </div>
 </div>
@@ -2894,7 +2940,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>true when the game being played is single-player </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="structIdle.html#ae890e2e104b11b51dc7f5dc118754763">Idle::react()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="structIdle.html#ae890e2e104b11b51dc7f5dc118754763">Idle::react()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews()</a>.</p>
 
 </div>
 </div>
@@ -2939,7 +2985,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Turn sequence map is used for turn processing. Each empire is added at the start of a game or reload and then the map maintains OrderSets for that turn. </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, <a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn()</a>, and <a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">SetEmpireTurnOrders()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, <a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn()</a>, and <a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">SetEmpireTurnOrders()</a>.</p>
 
 </div>
 </div>
@@ -2961,7 +3007,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a345fd2ca4d5b9a760cbbd8670c0f3d51">EmpireKnownObject()</a>, <a class="el" href="classServerApp.html#a6ca950fbbd3d79a5e98cc230a9730cb9">EmpireKnownObjects()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">GetUniverse()</a>, <a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">GetUniverseObject()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ProcessCombats()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>, <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#adcfda5d272bd714ca9c3ca0f6f1cc2fc">UpdateMonsterTravelRestrictions()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a345fd2ca4d5b9a760cbbd8670c0f3d51">EmpireKnownObject()</a>, <a class="el" href="classServerApp.html#a6ca950fbbd3d79a5e98cc230a9730cb9">EmpireKnownObjects()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">GetUniverse()</a>, <a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">GetUniverseObject()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ProcessCombats()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>, <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#adcfda5d272bd714ca9c3ca0f6f1cc2fc">UpdateMonsterTravelRestrictions()</a>.</p>
 
 </div>
 </div>
