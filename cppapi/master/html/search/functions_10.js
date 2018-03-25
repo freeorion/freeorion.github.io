@@ -188,6 +188,7 @@ var searchData=
   ['policyavailable',['PolicyAvailable',['../classEmpire.html#ac6b1453617d543d954d5115b83440e7f',1,'Empire']]],
   ['policybackgroundtexture',['PolicyBackgroundTexture',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html#a0d79f7c3282a35d85e65c09d0da85f21',1,'anonymous_namespace{GovernmentWnd.cpp}']]],
   ['policycategories',['PolicyCategories',['../classPolicyManager.html#a5004b989df46d4f3c608036d1c9a11a4',1,'PolicyManager']]],
+  ['policycategoriesslotsmeters',['PolicyCategoriesSlotsMeters',['../namespaceanonymous__namespace_02Empire_8cpp_03.html#a75025dc01d7daa31f4b2459904aaa19d',1,'anonymous_namespace{Empire.cpp}']]],
   ['policycontrol',['PolicyControl',['../classPolicyControl.html#ae609a7e6e504aa1f9e181a0d30819be8',1,'PolicyControl']]],
   ['policyicon',['PolicyIcon',['../classClientUI.html#aa62045f6577f8f23e189e1ba11963e7e',1,'ClientUI']]],
   ['policymanager',['PolicyManager',['../classPolicyManager.html#a08796abd42dd79cc70d43fc062435d7a',1,'PolicyManager']]],
