@@ -43,7 +43,7 @@ var searchData=
   ['messagequeue',['MessageQueue',['../classMessageQueue.html#a44611ce4de9bb09554fd4d0da32a9907',1,'MessageQueue']]],
   ['messagestring',['MessageString',['../classEffect_1_1GenerateSitRepMessage.html#a9b633c6056cc04e28a34f7dcf3ed2065',1,'Effect::GenerateSitRepMessage']]],
   ['messagetypename',['MessageTypeName',['../namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a21174e15d5cd91274abbef26f4d0ac93',1,'anonymous_namespace{ServerNetworking.cpp}']]],
-  ['messagewnd',['MessageWnd',['../classMessageWnd.html#ad5ad40515e233abe49b385d258107e10',1,'MessageWnd']]],
+  ['messagewnd',['MessageWnd',['../classMessageWnd.html#a239a2f571f0cf7e61565e68128a6c190',1,'MessageWnd']]],
   ['messagewndedit',['MessageWndEdit',['../classMessageWndEdit.html#a9a8c3c158844e7fa69e3ab901402d4b1',1,'MessageWndEdit']]],
   ['meter',['Meter',['../classMeter.html#a2af268d76057a35b0ca984b0d801566d',1,'Meter::Meter()'],['../classMeter.html#add12ce0b2cd8d77298b63a28dbb604c6',1,'Meter::Meter(float current_value)'],['../classMeter.html#a1c7124e80b1276203e74079d2bd2a3a1',1,'Meter::Meter(float current_value, float initial_value)']]],
   ['meter_5fbegin',['meter_begin',['../classEmpire.html#adf1e59e259560940f4a0c6e59fb4dc10',1,'Empire']]],

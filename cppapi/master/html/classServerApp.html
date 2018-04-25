@@ -126,8 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adb0853c9b46d9cf02fdd0fe07dd6311d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c6d8329d21239f94b8679b41dd615f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerApp.html">ServerApp</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aa9c6d8329d21239f94b8679b41dd615f">operator=</a> (<a class="el" href="classIApp.html">IApp</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:aa9c6d8329d21239f94b8679b41dd615f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf6e2f19d16fc5a0722313117f7abc37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#adf6e2f19d16fc5a0722313117f7abc37">PushChatMessage</a> (const boost::posix_time::ptime &amp;timestamp, const std::string &amp;player_name, const std::string &amp;msg)</td></tr>
-<tr class="separator:adf6e2f19d16fc5a0722313117f7abc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360e94b2ad1538791467999f67129452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">PushChatMessage</a> (const std::string &amp;text, const std::string &amp;player_name, GG::Clr text_color, const boost::posix_time::ptime &amp;timestamp)</td></tr>
+<tr class="separator:a360e94b2ad1538791467999f67129452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb17c60a51723729b6750b7e60a15814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aeb17c60a51723729b6750b7e60a15814">UpdateCombatLogs</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
 <tr class="separator:aeb17c60a51723729b6750b7e60a15814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f27b7992c853c39483653abe86db8a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
@@ -2047,15 +2047,15 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adf6e2f19d16fc5a0722313117f7abc37"></a>
+<a class="anchor" id="a360e94b2ad1538791467999f67129452"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void ServerApp::PushChatMessage </td>
           <td>(</td>
-          <td class="paramtype">const boost::posix_time::ptime &amp;&#160;</td>
-          <td class="paramname"><em>timestamp</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2066,8 +2066,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em>&#160;</td>
+          <td class="paramtype">GG::Clr&#160;</td>
+          <td class="paramname"><em>text_color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::posix_time::ptime &amp;&#160;</td>
+          <td class="paramname"><em>timestamp</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2077,7 +2083,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classServerApp.html#a52aaa3147d99019d958e613c292c624f">m_chat_history</a>, <a class="el" href="structChatHistoryEntity.html#a5c3294c04ef74275866409ec91ed2a79">ChatHistoryEntity::m_player_name</a>, <a class="el" href="structChatHistoryEntity.html#a8bfa0a59dc8df5a2118d9a66bb87787f">ChatHistoryEntity::m_text</a>, and <a class="el" href="structChatHistoryEntity.html#a03aedf5b83a3be8bc75a1608754c58b5">ChatHistoryEntity::m_timestamp</a>.</p>
+<p>References <a class="el" href="classServerApp.html#a52aaa3147d99019d958e613c292c624f">m_chat_history</a>, <a class="el" href="structChatHistoryEntity.html#a5c3294c04ef74275866409ec91ed2a79">ChatHistoryEntity::m_player_name</a>, <a class="el" href="structChatHistoryEntity.html#a8bfa0a59dc8df5a2118d9a66bb87787f">ChatHistoryEntity::m_text</a>, <a class="el" href="structChatHistoryEntity.html#acf5df317675d57db7ac9e7f2ac8e8f5e">ChatHistoryEntity::m_text_color</a>, and <a class="el" href="structChatHistoryEntity.html#a03aedf5b83a3be8bc75a1608754c58b5">ChatHistoryEntity::m_timestamp</a>.</p>
 
 <p>Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, and <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>.</p>
 
@@ -2712,7 +2718,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Stored last chat messages. </p>
 
-<p>Referenced by <a class="el" href="classServerApp.html#a244f4bd73029d2215c2d18080ec95d4a">GetChatHistory()</a>, and <a class="el" href="classServerApp.html#adf6e2f19d16fc5a0722313117f7abc37">PushChatMessage()</a>.</p>
+<p>Referenced by <a class="el" href="classServerApp.html#a244f4bd73029d2215c2d18080ec95d4a">GetChatHistory()</a>, and <a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">PushChatMessage()</a>.</p>
 
 </div>
 </div>
