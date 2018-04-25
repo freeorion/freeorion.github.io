@@ -124,6 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af102b2e4e6d95ea76a61bfce6d182b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab05b8e24cc318bb7d105ca7c9e48ad3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aab05b8e24cc318bb7d105ca7c9e48ad3">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
 <tr class="separator:aab05b8e24cc318bb7d105ca7c9e48ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2a089b30d8f34078eab25b4d9f548c"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a2a2a089b30d8f34078eab25b4d9f548c">Destination</a> () const </td></tr>
+<tr class="separator:a2a2a089b30d8f34078eab25b4d9f548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c">ClientNetworking::ServerNames</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006">DiscoverLANServerNames</a> ()</td></tr>
 <tr class="separator:aa0858fcff497e3d994e8ea8f8d2d0006"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +171,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a43ee5fc1ecf2884d3bd38a3c761798b0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a43ee5fc1ecf2884d3bd38a3c761798b0">m_destination</a></td></tr>
+<tr class="separator:a43ee5fc1ecf2884d3bd38a3c761798b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad11aa7dc7bfe19e482358c1014199a0d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#ad11aa7dc7bfe19e482358c1014199a0d">m_host_player_id</a></td></tr>
 <tr class="separator:ad11aa7dc7bfe19e482358c1014199a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a224ab85e5023032684bb48f2f2f74adf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html#a8c70d718bffea6d801633a54e34217b0">Message::HeaderBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a224ab85e5023032684bb48f2f2f74adf">m_incoming_header</a></td></tr>
@@ -372,9 +376,27 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Connects to the server at <em>ip_address</em>. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. If <code>expect_timeout</code> is true, timeout is not reported as an error. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91">HandleConnection()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91">HandleConnection()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a43ee5fc1ecf2884d3bd38a3c761798b0">m_destination</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a945493b785f84a4764d8d59d8a5ca921">ConnectToLocalHostServer()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a2a089b30d8f34078eab25b4d9f548c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; ClientNetworking::Impl::Destination </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns destination address of server. </p>
+
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#a43ee5fc1ecf2884d3bd38a3c761798b0">m_destination</a>.</p>
 
 </div>
 </div>
@@ -897,6 +919,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a43ee5fc1ecf2884d3bd38a3c761798b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ClientNetworking::Impl::m_destination</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a2a2a089b30d8f34078eab25b4d9f548c">Destination()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad11aa7dc7bfe19e482358c1014199a0d"></a>
 <div class="memitem">
 <div class="memproto">

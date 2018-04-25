@@ -30,6 +30,7 @@ var searchData=
   ['updatecombatlogmanager',['UpdateCombatLogManager',['../classHumanClientApp.html#a0780e0222e00579d1d38eedca8e86dbe',1,'HumanClientApp']]],
   ['updatecombatlogs',['UpdateCombatLogs',['../classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f',1,'HumanClientApp::UpdateCombatLogs()'],['../classServerApp.html#aeb17c60a51723729b6750b7e60a15814',1,'ServerApp::UpdateCombatLogs()']]],
   ['updateconnection',['UpdateConnection',['../structHotkeyManager_1_1ConditionalConnection.html#a903d1aa381a62396c83499afc5ddf86f',1,'HotkeyManager::ConditionalConnection']]],
+  ['updatecookie',['UpdateCookie',['../classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37',1,'ServerNetworking']]],
   ['updatecurrentdestroyedobjects',['UpdateCurrentDestroyedObjects',['../classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685',1,'ObjectMap']]],
   ['updatedirectory',['UpdateDirectory',['../classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665',1,'SaveFileDialog']]],
   ['updateeffectlabelsandvalues',['UpdateEffectLabelsAndValues',['../classMeterBrowseWnd.html#a2fb960bfb262e9900f8456f986a126ca',1,'MeterBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipDamageBrowseWnd.html#ac05ae893d71d4804654897e7d858c280',1,'ShipDamageBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipFightersBrowseWnd.html#ad9985fb76a1cd05ef8f01d2fe1852bc8',1,'ShipFightersBrowseWnd::UpdateEffectLabelsAndValues()']]],

@@ -136,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a078b87bd1d7e216687553b4b7a482e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a938924cb298a61d971b66b9842b25e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a938924cb298a61d971b66b9842b25e93">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
 <tr class="separator:a938924cb298a61d971b66b9842b25e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908202f00196cb4108f597254f2531aa"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a908202f00196cb4108f597254f2531aa">Cookie</a> () const </td></tr>
+<tr class="separator:a908202f00196cb4108f597254f2531aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607">Start</a> ()</td></tr>
 <tr class="separator:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab04f68c772240bf035cd27f99ee73350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role, bool value=true)</td></tr>
 <tr class="separator:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d73829c715918ee5d7d2885729e24e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad2d73829c715918ee5d7d2885729e24e">SetCookie</a> (boost::uuids::uuid cookie)</td></tr>
+<tr class="separator:ad2d73829c715918ee5d7d2885729e24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -189,6 +193,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a630abfa93286436dba2e1aac90bc3213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf07161cdd0152b9ea3cbe2f73c68b63"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a></td></tr>
 <tr class="separator:abf07161cdd0152b9ea3cbe2f73c68b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf101cfb0cdfe4cea356afe1c9d0dd2"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2">m_cookie</a></td></tr>
+<tr class="separator:aecf101cfb0cdfe4cea356afe1c9d0dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30a5d93740a3344746399a49f76d6d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395">ConnectionFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a30a5d93740a3344746399a49f76d6d19">m_disconnected_callback</a></td></tr>
 <tr class="separator:a30a5d93740a3344746399a49f76d6d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be9f0c61542a08b3124a6ff8f03aac6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a></td></tr>
@@ -415,6 +421,24 @@ Friends</h2></td></tr>
 <p>Returns true iff the client's specified version string matches the version string of this server process. </p>
 
 <p>References <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, and <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a908202f00196cb4108f597254f2531aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::uuids::uuid PlayerConnection::Cookie </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get cookie associated with this connection. </p>
+
+<p>References <a class="el" href="classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2">m_cookie</a>.</p>
 
 </div>
 </div>
@@ -860,6 +884,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad2d73829c715918ee5d7d2885729e24e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::SetCookie </td>
+          <td>(</td>
+          <td class="paramtype">boost::uuids::uuid&#160;</td>
+          <td class="paramname"><em>cookie</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets cookie value to this connection to update expire date. </p>
+
+<p>References <a class="el" href="classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2">m_cookie</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a3d3a216b5c493e5c5119d5526f3a9607"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1013,6 +1056,28 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100">AwaitPlayer()</a>, <a class="el" href="classPlayerConnection.html#a2139cfb1df340ccf7ba67601bde41500">ClientVersionString()</a>, <a class="el" href="classPlayerConnection.html#a6d4486cf9373b7c029ec1900f2f761cd">ClientVersionStringMatchesThisServer()</a>, and <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecf101cfb0cdfe4cea356afe1c9d0dd2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::uuids::uuid PlayerConnection::m_cookie</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classPlayerConnection.html#a908202f00196cb4108f597254f2531aa">Cookie()</a>, and <a class="el" href="classPlayerConnection.html#ad2d73829c715918ee5d7d2885729e24e">SetCookie()</a>.</p>
 
 </div>
 </div>

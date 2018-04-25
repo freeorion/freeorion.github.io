@@ -154,6 +154,7 @@ var searchData=
   ['isauthsuccessandfillroles',['IsAuthSuccessAndFillRoles',['../classServerApp.html#a7df980a4219a193118f710249723a5bb',1,'ServerApp']]],
   ['isavailable',['IsAvailable',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a7d36d4fa8475144c9f8528487f80b3da',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['isavailablename',['IsAvailableName',['../classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288',1,'ServerApp']]],
+  ['isavailablenameincookies',['IsAvailableNameInCookies',['../classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07',1,'ServerNetworking']]],
   ['iscollapsed',['IsCollapsed',['../classAccordionPanel.html#abe68a2c877489e370050f25b87e79707',1,'AccordionPanel']]],
   ['isconditionaleffect',['IsConditionalEffect',['../classEffect_1_1EffectBase.html#a2234d1649ac9c4981ede16158897bf34',1,'Effect::EffectBase::IsConditionalEffect()'],['../classEffect_1_1Conditional.html#aca26b4a7b3a5bb8bec3e0245f734c339',1,'Effect::Conditional::IsConditionalEffect()']]],
   ['isconnected',['IsConnected',['../classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48',1,'ClientNetworking::Impl::IsConnected()'],['../classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463',1,'ClientNetworking::IsConnected()']]],

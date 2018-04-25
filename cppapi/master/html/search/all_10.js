@@ -249,7 +249,7 @@ var searchData=
   ['player_5fdisconnect',['PLAYER_DISCONNECT',['../classMessage.html#a34b7a6ea13762f032d39c5086f60f895',1,'Message']]],
   ['player_5flist_5fpanel_5fwidth',['PLAYER_LIST_PANEL_WIDTH',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a94eddac8da30afd20648f033e0bd0567',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['player_5flist_5fwnd_5fname',['PLAYER_LIST_WND_NAME',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#ad727841e65aa3ebc14ab5de4c9c46387',1,'anonymous_namespace{ClientUI.cpp}']]],
-  ['player_5fname',['player_name',['../structServerConnectWnd_1_1Result.html#a9d2f09a7b95d4324b3fe8c119bd84299',1,'ServerConnectWnd::Result']]],
+  ['player_5fname',['player_name',['../structCookieData.html#a7bcafaa1299762373a6035ec99fbf99f',1,'CookieData::player_name()'],['../structServerConnectWnd_1_1Result.html#a9d2f09a7b95d4324b3fe8c119bd84299',1,'ServerConnectWnd::Result::player_name()']]],
   ['playerchatmessage',['PlayerChatMessage',['../Message_8cpp.html#a2daeedb3187fd204df0a17da3b1af5ce',1,'PlayerChatMessage(const std::string &amp;data, int receiver):&#160;Message.cpp'],['../Message_8h.html#a412304f8188be8fb29b39ddf81370260',1,'PlayerChatMessage(const std::string &amp;text, int receiver=Networking::INVALID_PLAYER_ID):&#160;Message.cpp']]],
   ['playerconnection',['PlayerConnection',['../classPlayerConnection.html',1,'PlayerConnection'],['../classPlayerConnection.html#ad48849d38c0410902b25c504579cb354',1,'PlayerConnection::PlayerConnection()']]],
   ['playerconnectionptr',['PlayerConnectionPtr',['../ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d',1,'PlayerConnectionPtr():&#160;ServerNetworking.h'],['../ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d',1,'PlayerConnectionPtr():&#160;ServerFSM.h']]],

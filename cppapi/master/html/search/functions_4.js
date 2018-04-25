@@ -62,6 +62,7 @@ var searchData=
   ['designsthesame',['DesignsTheSame',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['designuuid',['DesignUUID',['../classSavedDesignsListBox_1_1SavedDesignListBoxRow.html#a9c8f9a5ecab4a82fa97c4e9832d776ed',1,'SavedDesignsListBox::SavedDesignListBoxRow']]],
   ['designwnd',['DesignWnd',['../classDesignWnd.html#a046371b04fb78b9b43728f39fe5f0d5a',1,'DesignWnd']]],
+  ['destination',['Destination',['../classClientNetworking_1_1Impl.html#a2a2a089b30d8f34078eab25b4d9f548c',1,'ClientNetworking::Impl::Destination()'],['../classClientNetworking.html#aad785ec591c5d4e98af73a7b03fae9f5',1,'ClientNetworking::Destination()']]],
   ['destinationfleet',['DestinationFleet',['../classFleetTransferOrder.html#a8393c6da83d038b9df37a12b801dd32d',1,'FleetTransferOrder']]],
   ['destinationsystemid',['DestinationSystemID',['../classFleetMoveOrder.html#a442a2e4efd863d707f23146c3445a81c',1,'FleetMoveOrder']]],
   ['destroy',['Destroy',['../classEffect_1_1Destroy.html#a6d1033968c2b9baef3e433a704a1b369',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()']]],

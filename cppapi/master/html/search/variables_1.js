@@ -49,5 +49,6 @@ var searchData=
   ['attackstatsfunc',['AttackStatsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad7b30970c0175e3e20e155f9595118b7',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['attribute',['Attribute',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a5acb9267e0ae8390341dbc104f6e518a',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['attributes',['attributes',['../classXMLElement.html#a8e179c0a44ce98c4aceab0675b913484',1,'XMLElement']]],
-  ['attvalue',['AttValue',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae5e39ffb573f211fa63db3eaceac79f5',1,'anonymous_namespace{XMLDoc.cpp}']]]
+  ['attvalue',['AttValue',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae5e39ffb573f211fa63db3eaceac79f5',1,'anonymous_namespace{XMLDoc.cpp}']]],
+  ['authenticated',['authenticated',['../structCookieData.html#a19c832a076f7a697a0522d6ccb50b0ba',1,'CookieData']]]
 ];

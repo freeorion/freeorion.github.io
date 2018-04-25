@@ -67,6 +67,7 @@ var searchData=
   ['containedbysimplematch',['ContainedBySimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ContainedBySimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['contains',['Contains',['../structCondition_1_1Contains.html',1,'Condition']]],
   ['containssimplematch',['ContainsSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ContainsSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['cookiedata',['CookieData',['../structCookieData.html',1,'']]],
   ['createbuilding',['CreateBuilding',['../classEffect_1_1CreateBuilding.html',1,'Effect']]],
   ['createdonturn',['CreatedOnTurn',['../structCondition_1_1CreatedOnTurn.html',1,'Condition']]],
   ['createdonturnsimplematch',['CreatedOnTurnSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1CreatedOnTurnSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
@@ -105,6 +106,6 @@ var searchData=
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html',1,'']]],
   ['currentshipdesignmanager',['CurrentShipDesignManager',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1CurrentShipDesignManager.html',1,'anonymous_namespace{DesignWnd.cpp}']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]]
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]]
 ];

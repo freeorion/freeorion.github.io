@@ -147,6 +147,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f9abe342868f51cfc983cb749626d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7945a8dcd73eeefa06359c493744003d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a7945a8dcd73eeefa06359c493744003d">ModeratorsInGame</a> () const </td></tr>
 <tr class="separator:a7945a8dcd73eeefa06359c493744003d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ab8f49226bc3ba0e5c7257e46c7d07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">IsAvailableNameInCookies</a> (const std::string &amp;player_name) const </td></tr>
+<tr class="separator:a19ab8f49226bc3ba0e5c7257e46c7d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc89f30ff2572019ad6331bbf73213a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie</a> (boost::uuids::uuid cookie, const std::string &amp;player_name, <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles, bool &amp;authenticated) const </td></tr>
+<tr class="separator:abfc89f30ff2572019ad6331bbf73213a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a1d9a98eb2e7dd93890f98081882ac929"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="separator:a1d9a98eb2e7dd93890f98081882ac929"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +174,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f524eb0aff3de3ba87ff173ddae731f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2d4700adfbf37123b562dabc0af793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a8e2d4700adfbf37123b562dabc0af793">SetHostPlayerID</a> (int host_player_id)</td></tr>
 <tr class="separator:a8e2d4700adfbf37123b562dabc0af793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535a38af70a0728b8b8d4298b47a6397"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397">GenerateCookie</a> (const std::string &amp;player_name, const <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles, bool authenticated)</td></tr>
+<tr class="separator:a535a38af70a0728b8b8d4298b47a6397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a833aa1a9b8553197a84140ef21c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">UpdateCookie</a> (boost::uuids::uuid cookie)</td></tr>
+<tr class="separator:a90a833aa1a9b8553197a84140ef21c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbd8d1314621c1151ff63cc6fe3413c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies</a> ()</td></tr>
+<tr class="separator:acbd8d1314621c1151ff63cc6fe3413c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -191,6 +201,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a60905f9c045934ffe8adb189aa2f3bff"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; boost::uuids::uuid, <a class="el" href="structCookieData.html">CookieData</a>, boost::hash&lt; boost::uuids::uuid &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a></td></tr>
+<tr class="separator:a60905f9c045934ffe8adb189aa2f3bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d371ad1d61df277660bc8af62191f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395">ConnectionFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a7d371ad1d61df277660bc8af62191f61">m_disconnected_callback</a></td></tr>
 <tr class="separator:a7d371ad1d61df277660bc8af62191f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd41b64098c63069d9635fe1415c2f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDiscoveryServer.html">DiscoveryServer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#acdd41b64098c63069d9635fe1415c2f1">m_discovery_server</a></td></tr>
@@ -439,6 +451,69 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abfc89f30ff2572019ad6331bbf73213a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerNetworking::CheckCookie </td>
+          <td>(</td>
+          <td class="paramtype">boost::uuids::uuid&#160;</td>
+          <td class="paramname"><em>cookie</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>player_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;&#160;</td>
+          <td class="paramname"><em>roles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>authenticated</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns whether player have non-expired cookie with this player name. Fills roles and authentication status on success. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="structMPLobby.html#a1d794c06e7a937fc9688ca0f31a90ff9">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, and <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acbd8d1314621c1151ff63cc6fe3413c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerNetworking::CleanupCookies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clean up expired cookies. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>, and <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5d42d2640bf6640e8cf7fc91005d6e5b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +704,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e">anonymous_namespace{ServerApp.cpp}::AIPlayerIDWithName()</a>, <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="structMPLobby.html#aa9ac9ca2dd2d2d4578406ef3aa16689e">MPLobby::EstablishPlayer()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">ServerApp::GetPlayerInfoMap()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">ServerApp::HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">ServerApp::HandleLoggerConfig()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505">anonymous_namespace{ServerApp.cpp}::HumanControlledEmpires()</a>, <a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">ServerApp::IsAvailableName()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">ServerApp::LoadGameInit()</a>, <a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">ServerApp::LoadSPGameInit()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">ServerApp::NewGameInitVerifyJoiners()</a>, <a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">ServerApp::NewMPGameInit()</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">NumEstablishedPlayers()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ae324fb8ba9082e67f07133de5af7821a">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">anonymous_namespace{ServerFSM.cpp}::SendMessageToAllPlayers()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">ServerApp::SendNewGameStartMessages()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, and <a class="el" href="structWaitingForSaveData.html#aa1d7aaaf5b8755024914d89847e45af1">WaitingForSaveData::WaitingForSaveData()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e">anonymous_namespace{ServerApp.cpp}::AIPlayerIDWithName()</a>, <a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies()</a>, <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="structMPLobby.html#aa9ac9ca2dd2d2d4578406ef3aa16689e">MPLobby::EstablishPlayer()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">ServerApp::GetPlayerInfoMap()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">ServerApp::HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">ServerApp::HandleLoggerConfig()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505">anonymous_namespace{ServerApp.cpp}::HumanControlledEmpires()</a>, <a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">ServerApp::IsAvailableName()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">ServerApp::LoadGameInit()</a>, <a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">ServerApp::LoadSPGameInit()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">ServerApp::NewGameInitVerifyJoiners()</a>, <a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">ServerApp::NewMPGameInit()</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">NumEstablishedPlayers()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">anonymous_namespace{ServerFSM.cpp}::SendMessageToAllPlayers()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">ServerApp::SendNewGameStartMessages()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, and <a class="el" href="structWaitingForSaveData.html#aa1d7aaaf5b8755024914d89847e45af1">WaitingForSaveData::WaitingForSaveData()</a>.</p>
 
 </div>
 </div>
@@ -667,7 +742,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e">anonymous_namespace{ServerApp.cpp}::AIPlayerIDWithName()</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">Disconnect()</a>, <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="structMPLobby.html#aa9ac9ca2dd2d2d4578406ef3aa16689e">MPLobby::EstablishPlayer()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer()</a>, <a class="el" href="classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6">ServerApp::GetPlayerClientType()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">ServerApp::GetPlayerInfoMap()</a>, <a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">ServerApp::HandleDiplomaticMessageChange()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">ServerApp::HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">ServerApp::HandleLoggerConfig()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505">anonymous_namespace{ServerApp.cpp}::HumanControlledEmpires()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d">anonymous_namespace{ServerApp.cpp}::HumanPlayerWithIdConnected()</a>, <a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">ServerApp::IsAvailableName()</a>, <a class="el" href="classServerApp.html#ae56506e5732ae45b0c4d6a47bcb6f83a">ServerApp::IsLocalHumanPlayer()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">ServerApp::LoadGameInit()</a>, <a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">ServerApp::LoadSPGameInit()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">ServerApp::NewGameInitVerifyJoiners()</a>, <a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">ServerApp::NewMPGameInit()</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">NumEstablishedPlayers()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ae324fb8ba9082e67f07133de5af7821a">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">anonymous_namespace{ServerFSM.cpp}::SendMessageToAllPlayers()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a7ae61427b90b07dfb362639a7d92f611">anonymous_namespace{ServerFSM.cpp}::SendMessageToHost()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">ServerApp::SendNewGameStartMessages()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, and <a class="el" href="structWaitingForSaveData.html#aa1d7aaaf5b8755024914d89847e45af1">WaitingForSaveData::WaitingForSaveData()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aa041c038d739879b4eac41e8f2dc063e">anonymous_namespace{ServerApp.cpp}::AIPlayerIDWithName()</a>, <a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies()</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">Disconnect()</a>, <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="structMPLobby.html#aa9ac9ca2dd2d2d4578406ef3aa16689e">MPLobby::EstablishPlayer()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer()</a>, <a class="el" href="classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6">ServerApp::GetPlayerClientType()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">ServerApp::GetPlayerInfoMap()</a>, <a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">ServerApp::HandleDiplomaticMessageChange()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">ServerApp::HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">ServerApp::HandleLoggerConfig()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505">anonymous_namespace{ServerApp.cpp}::HumanControlledEmpires()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d">anonymous_namespace{ServerApp.cpp}::HumanPlayerWithIdConnected()</a>, <a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">ServerApp::IsAvailableName()</a>, <a class="el" href="classServerApp.html#ae56506e5732ae45b0c4d6a47bcb6f83a">ServerApp::IsLocalHumanPlayer()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">ServerApp::LoadGameInit()</a>, <a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">ServerApp::LoadSPGameInit()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">ServerApp::NewGameInitVerifyJoiners()</a>, <a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">ServerApp::NewMPGameInit()</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">NumEstablishedPlayers()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">ServerApp::SelectNewHost()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">anonymous_namespace{ServerFSM.cpp}::SendMessageToAllPlayers()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a7ae61427b90b07dfb362639a7d92f611">anonymous_namespace{ServerFSM.cpp}::SendMessageToHost()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">ServerApp::SendNewGameStartMessages()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, and <a class="el" href="structWaitingForSaveData.html#aa1d7aaaf5b8755024914d89847e45af1">WaitingForSaveData::WaitingForSaveData()</a>.</p>
 
 </div>
 </div>
@@ -686,6 +761,43 @@ Private Attributes</h2></td></tr>
 <p>Returns an iterator to the one-past-the-last established <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a535a38af70a0728b8b8d4298b47a6397"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::uuids::uuid ServerNetworking::GenerateCookie </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>player_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;&#160;</td>
+          <td class="paramname"><em>roles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>authenticated</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generate cookies for player's name, roles, and authentication status. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>.</p>
 
 </div>
 </div>
@@ -793,6 +905,27 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classServerNetworking.html#a063fae905437a39ea5a86d85626fef75">AcceptNextConnection()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classServerNetworking.html#a9f84e675ddf13835c3fcce94e136c19c">m_player_connection_acceptor</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, and <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerNetworking.html#ac42908e1af2c3896411d67f4aef5701e">ServerNetworking()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a19ab8f49226bc3ba0e5c7257e46c7d07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerNetworking::IsAvailableNameInCookies </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>player_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns whether there no non-expired cookie with this player name. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">ServerApp::IsAvailableName()</a>.</p>
 
 </div>
 </div>
@@ -939,7 +1072,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a90a833aa1a9b8553197a84140ef21c37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerNetworking::UpdateCookie </td>
+          <td>(</td>
+          <td class="paramtype">boost::uuids::uuid&#160;</td>
+          <td class="paramname"><em>cookie</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bump cookie's expired date. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">ServerApp::HandleMessage()</a>, and <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a60905f9c045934ffe8adb189aa2f3bff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;boost::uuids::uuid, <a class="el" href="structCookieData.html">CookieData</a>, boost::hash&lt;boost::uuids::uuid&gt; &gt; ServerNetworking::m_cookies</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie()</a>, <a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies()</a>, <a class="el" href="classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397">GenerateCookie()</a>, <a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">IsAvailableNameInCookies()</a>, and <a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">UpdateCookie()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7d371ad1d61df277660bc8af62191f61"></a>
 <div class="memitem">
 <div class="memproto">

@@ -100,6 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &lt;GG/Enum.h&gt;</code><br />
 <code>#include &lt;boost/shared_array.hpp&gt;</code><br />
 <code>#include &lt;boost/date_time/posix_time/posix_time_types.hpp&gt;</code><br />
+<code>#include &lt;boost/uuid/uuid.hpp&gt;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
@@ -176,8 +177,10 @@ Functions</h2></td></tr>
 <tr class="separator:a126770417fb001b1a8a51d09eadd0b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882113689d83b28ed76ea354b4aa0041"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a882113689d83b28ed76ea354b4aa0041">ExtractHostSPGameMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="structSinglePlayerSetupData.html">SinglePlayerSetupData</a> &amp;setup_data, std::string &amp;client_version_string)</td></tr>
 <tr class="separator:a882113689d83b28ed76ea354b4aa0041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d12af9270095e5dd06ef139391d3ec1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a4d12af9270095e5dd06ef139391d3ec1">ExtractJoinGameMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> &amp;client_type, std::string &amp;version_string)</td></tr>
-<tr class="separator:a4d12af9270095e5dd06ef139391d3ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a037878cb2014b01f52d2730a25206d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a6a037878cb2014b01f52d2730a25206d">ExtractJoinAckMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, int &amp;player_id, boost::uuids::uuid &amp;cookie)</td></tr>
+<tr class="separator:a6a037878cb2014b01f52d2730a25206d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99835812c0713481b9309f1892ffce35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a99835812c0713481b9309f1892ffce35">ExtractJoinGameMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> &amp;client_type, std::string &amp;version_string, boost::uuids::uuid &amp;cookie)</td></tr>
+<tr class="separator:a99835812c0713481b9309f1892ffce35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cd9f213c531e26ac1cf99f1d7a8f124"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a1cd9f213c531e26ac1cf99f1d7a8f124">ExtractLobbyUpdateMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;lobby_data)</td></tr>
 <tr class="separator:a1cd9f213c531e26ac1cf99f1d7a8f124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b110b41fe2ae93d22e5fa27bf3d676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a72b110b41fe2ae93d22e5fa27bf3d676">ExtractLoggerConfigMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::set&lt; std::tuple&lt; std::string, std::string, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9">LogLevel</a> &gt;&gt; &amp;options)</td></tr>
@@ -226,10 +229,10 @@ Functions</h2></td></tr>
 <tr class="separator:af1d5d024a8f0d935bb33330b90a48900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9deebba5a79b0da50d02a288e29a4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a1b9deebba5a79b0da50d02a288e29a4c">HostSPGameMessage</a> (const <a class="el" href="structSinglePlayerSetupData.html">SinglePlayerSetupData</a> &amp;setup_data)</td></tr>
 <tr class="separator:a1b9deebba5a79b0da50d02a288e29a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4f28ea6b13c94aaf3cbb2621133203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a9f4f28ea6b13c94aaf3cbb2621133203">JoinAckMessage</a> (int player_id)</td></tr>
-<tr class="separator:a9f4f28ea6b13c94aaf3cbb2621133203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f012e8dfb80dcbe4ecb890c5f267687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a2f012e8dfb80dcbe4ecb890c5f267687">JoinGameMessage</a> (const std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type)</td></tr>
-<tr class="separator:a2f012e8dfb80dcbe4ecb890c5f267687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9bd3a7314b5ed72bef84521952e1a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a0a9bd3a7314b5ed72bef84521952e1a7">JoinAckMessage</a> (int player_id, boost::uuids::uuid cookie)</td></tr>
+<tr class="separator:a0a9bd3a7314b5ed72bef84521952e1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea2976b254770f2912233c044f69a618"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#aea2976b254770f2912233c044f69a618">JoinGameMessage</a> (const std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type, boost::uuids::uuid cookie)</td></tr>
+<tr class="separator:aea2976b254770f2912233c044f69a618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931542dc6192d4537b389ca6676156f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a931542dc6192d4537b389ca6676156f8">LobbyUpdateMessage</a> (const <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;lobby_data)</td></tr>
 <tr class="separator:a931542dc6192d4537b389ca6676156f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26eec301e4f12c5a5da0ce85a90a0703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a26eec301e4f12c5a5da0ce85a90a0703">LoggerConfigMessage</a> (int sender, const std::set&lt; std::tuple&lt; std::string, std::string, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9">LogLevel</a> &gt;&gt; &amp;options)</td></tr>
@@ -1238,7 +1241,43 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4d12af9270095e5dd06ef139391d3ec1"></a>
+<a class="anchor" id="a6a037878cb2014b01f52d2730a25206d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void ExtractJoinAckMessageData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>player_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::uuids::uuid &amp;&#160;</td>
+          <td class="paramname"><em>cookie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#ae03f52a51c389fa69f19c26cfbf577d2">Message::Text()</a>.</p>
+
+<p>Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a67f7ff813ebf251a81b99404c46df171">WaitingForMPJoinAck::react()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99835812c0713481b9309f1892ffce35"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1264,7 +1303,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>version_string</em>&#160;</td>
+          <td class="paramname"><em>version_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::uuids::uuid &amp;&#160;</td>
+          <td class="paramname"><em>cookie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2210,7 +2255,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f4f28ea6b13c94aaf3cbb2621133203"></a>
+<a class="anchor" id="a0a9bd3a7314b5ed72bef84521952e1a7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2218,20 +2263,30 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a> JoinAckMessage </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>player_id</em></td><td>)</td>
+          <td class="paramname"><em>player_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boost::uuids::uuid&#160;</td>
+          <td class="paramname"><em>cookie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a JOIN_GAME acknowledgement message. The <em>player_id</em> is the ID of the receiving player. This message should only be sent by the server. </p>
+<p>creates a JOIN_GAME acknowledgement message. The <em>player_id</em> is the ID of the receiving player and <em>cookie</em> is a token to quickly authenticate player. This message should only be sent by the server. </p>
 
-<p>References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
+<p>References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 
 <p>Referenced by <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="structWaitingForSPGameJoiners.html#aa8d3fb33cb44845f928c71cc367d6bd0">WaitingForSPGameJoiners::react()</a>, and <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2f012e8dfb80dcbe4ecb890c5f267687"></a>
+<a class="anchor" id="aea2976b254770f2912233c044f69a618"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2245,7 +2300,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td>
-          <td class="paramname"><em>client_type</em>&#160;</td>
+          <td class="paramname"><em>client_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::uuids::uuid&#160;</td>
+          <td class="paramname"><em>cookie</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2254,7 +2315,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a JOIN_GAME message. The sender's player name and client type are sent in the message. </p>
+<p>creates a JOIN_GAME message. The sender's player name, client type, and cookie are sent in the message. </p>
 
 <p>References <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, and <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 

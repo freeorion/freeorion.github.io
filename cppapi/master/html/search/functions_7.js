@@ -21,6 +21,7 @@ var searchData=
   ['generalizedlocation',['GeneralizedLocation',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a1b3772a42dc4169939777e2fae440125',1,'anonymous_namespace{Pathfinder.cpp}::GeneralizedLocation(std::shared_ptr&lt; const UniverseObject &gt; obj)'],['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#aea5e92eebe487e65ad2c12e8ffd3998b',1,'anonymous_namespace{Pathfinder.cpp}::GeneralizedLocation(int object_id)']]],
   ['generaltypeofobject',['GeneralTypeOfObject',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a160d79ac380ae8f37c5ba755d4f4d439',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['generate_5ferror_5fstring',['generate_error_string',['../structparse_1_1report__error__.html#a76cf3083364f2665146a49d9232eec98',1,'parse::report_error_']]],
+  ['generatecookie',['GenerateCookie',['../classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397',1,'ServerNetworking']]],
   ['generatedesignid',['GenerateDesignID',['../classUniverse.html#aadf53884305456c05b6950bdbd3e97a4',1,'Universe']]],
   ['generateempirename',['GenerateEmpireName',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a846fe22c382e2d5eeb795943bd98d53a',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['generatefleetname',['GenerateFleetName',['../classFleet.html#a52cfd77f8bd8813cf545e55cc993c49f',1,'Fleet']]],
