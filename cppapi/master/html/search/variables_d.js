@@ -388,6 +388,7 @@ var searchData=
   ['m_5fexpected_5fai_5fnames_5fand_5fids',['m_expected_ai_names_and_ids',['../structWaitingForSPGameJoiners.html#a72ef519b6d18f40a50783d4535ddec46',1,'WaitingForSPGameJoiners']]],
   ['m_5fexpected_5fai_5fplayer_5fnames',['m_expected_ai_player_names',['../structWaitingForMPGameJoiners.html#ac21c429a6fa430783e9471dc444db821',1,'WaitingForMPGameJoiners']]],
   ['m_5fexpected_5fnew_5fstockpile_5famount',['m_expected_new_stockpile_amount',['../structProductionQueue.html#a5e38cec41f7bae73e994e7730254b9ec',1,'ProductionQueue']]],
+  ['m_5fexpected_5fproject_5ftransfer_5fto_5fstockpile',['m_expected_project_transfer_to_stockpile',['../structProductionQueue.html#a42b8e50f19a5b5eefd7894fd34bab036',1,'ProductionQueue']]],
   ['m_5fexplored_5fsystems',['m_explored_systems',['../classEmpire.html#a2b3493e4352a14a55e570810ddaabecb',1,'Empire']]],
   ['m_5fextension',['m_extension',['../classSaveFileDialog.html#a09fa935630bcff87899513eeee880ea0',1,'SaveFileDialog']]],
   ['m_5ffailed_5finit',['m_failed_init',['../classScanlineRenderer_1_1Impl.html#acb208b19a738d783cd39fdd1f4f092d6',1,'ScanlineRenderer::Impl']]],
