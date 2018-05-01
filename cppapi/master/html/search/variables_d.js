@@ -1104,6 +1104,7 @@ var searchData=
   ['m_5fshow_5fscale',['m_show_scale',['../classGraphControl.html#abc6cf28ab7f24277c027d4d364a3621b',1,'GraphControl']]],
   ['m_5fshow_5fsigns',['m_show_signs',['../classStatisticIcon.html#a7eecbbfc3d9832b1ab9878ca9d60eea5',1,'StatisticIcon']]],
   ['m_5fshow_5fstockpile',['m_show_stockpile',['../classResourceBrowseWnd.html#a5f773a62baf9f29e167044e6af148192',1,'ResourceBrowseWnd::m_show_stockpile()'],['../classWastedStockpiledResourceBrowseWnd.html#afa37239f59290dbbbcc635f0e63f1fee',1,'WastedStockpiledResourceBrowseWnd::m_show_stockpile()']]],
+  ['m_5fshow_5fstockpile_5flimit',['m_show_stockpile_limit',['../classResourceBrowseWnd.html#af913ab8b063a1694de7c3fc189c793df',1,'ResourceBrowseWnd']]],
   ['m_5fshow_5fsuperfluous_5fparts',['m_show_superfluous_parts',['../classPartsListBox.html#a215f670509c6151153196f16845d2afd',1,'PartsListBox']]],
   ['m_5fshowing_5fname',['m_showing_name',['../classSystemIcon.html#a7edbb77872af609baac7c19d692ee97b',1,'SystemIcon']]],
   ['m_5fshowing_5fprompt',['m_showing_prompt',['../classQueueListBox.html#ad04d3fb3190373e64cc18f68219727d6',1,'QueueListBox']]],

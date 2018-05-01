@@ -246,7 +246,7 @@ var searchData=
   ['resolvenestedpathtypes',['ResolveNestedPathTypes',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597',1,'anonymous_namespace{LinkText.cpp}']]],
   ['resource_5fsupply_5fconnected',['resource_supply_connected',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a79d1d6c80f5dd916f3f37f9f6a2fd521',1,'parse::detail::condition_parser_rules_3']]],
   ['resourceavailable',['ResourceAvailable',['../classEmpire.html#a87ab03ef2c56582beef3bef0113692e5',1,'Empire']]],
-  ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html',1,'ResourceBrowseWnd'],['../classResourceBrowseWnd.html#a96b1aba87209c5fd980d9c7634afbfb5',1,'ResourceBrowseWnd::ResourceBrowseWnd()']]],
+  ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html',1,'ResourceBrowseWnd'],['../classResourceBrowseWnd.html#ac98e2f92c71847a618d8a4a52dfb4105',1,'ResourceBrowseWnd::ResourceBrowseWnd()']]],
   ['resourcebrowsewnd_2ecpp',['ResourceBrowseWnd.cpp',['../ResourceBrowseWnd_8cpp.html',1,'']]],
   ['resourcebrowsewnd_2eh',['ResourceBrowseWnd.h',['../ResourceBrowseWnd_8h.html',1,'']]],
   ['resourcecenter',['ResourceCenter',['../classResourceCenter.html',1,'ResourceCenter'],['../classResourceCenter.html#ad0eb8df27d3e201f67f539383ff8deaa',1,'ResourceCenter::ResourceCenter()'],['../classResourceCenter.html#a786aab2bdf63be619e530c9ab9acd392',1,'ResourceCenter::ResourceCenter(const ResourceCenter &amp;rhs)']]],

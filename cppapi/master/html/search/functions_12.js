@@ -198,7 +198,7 @@ var searchData=
   ['resolvegroundcombat',['ResolveGroundCombat',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad541247e4952efc6226f2c8dec458f02',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['resolvenestedpathtypes',['ResolveNestedPathTypes',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597',1,'anonymous_namespace{LinkText.cpp}']]],
   ['resourceavailable',['ResourceAvailable',['../classEmpire.html#a87ab03ef2c56582beef3bef0113692e5',1,'Empire']]],
-  ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html#a96b1aba87209c5fd980d9c7634afbfb5',1,'ResourceBrowseWnd']]],
+  ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html#ac98e2f92c71847a618d8a4a52dfb4105',1,'ResourceBrowseWnd']]],
   ['resourcecenter',['ResourceCenter',['../classResourceCenter.html#ad0eb8df27d3e201f67f539383ff8deaa',1,'ResourceCenter::ResourceCenter()'],['../classResourceCenter.html#a786aab2bdf63be619e530c9ab9acd392',1,'ResourceCenter::ResourceCenter(const ResourceCenter &amp;rhs)']]],
   ['resourcecenterchanged',['ResourceCenterChanged',['../classObjectPanel.html#a984f7835989a3febda69384d57c6e4f4',1,'ObjectPanel']]],
   ['resourcecenterclampmeters',['ResourceCenterClampMeters',['../classResourceCenter.html#aa84478ea1aa92f89be3731eead3d291f',1,'ResourceCenter']]],
