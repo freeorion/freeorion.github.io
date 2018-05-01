@@ -107,8 +107,6 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a76292467268eb19fa3654fc88365cf2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d">IDAllocator</a> (const int server_id, const std::vector&lt; int &gt; &amp;client_ids, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> invalid_id, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> temp_id, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> highest_pre_allocated_id)</td></tr>
 <tr class="separator:a76292467268eb19fa3654fc88365cf2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57bc16af174785af1fa39eebe57b2064"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a57bc16af174785af1fa39eebe57b2064">FixLegacyOrderIDs</a> (const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> id)</td></tr>
-<tr class="separator:a57bc16af174785af1fa39eebe57b2064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c33a323ecd0aafff1219940ea897e9"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#ad6c33a323ecd0aafff1219940ea897e9">IsIDValidAndUnused</a> (const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> id, const int empire_id)</td></tr>
 <tr class="separator:ad6c33a323ecd0aafff1219940ea897e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c2005edf427a63380cade908a6738f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#ae2c2005edf427a63380cade908a6738f">NewID</a> ()</td></tr>
@@ -223,7 +221,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><code>client_ids</code> are all the player ids in the game. <code>highest_pre_allocated_id</code> is the used for legacy loads to offset the newly allocated id to after the ones from the save game. TODO: Remove the extra code legacy loading before v0.4.8, which will be a save game compatibility break. </p>
+<p><code>client_ids</code> are all the player ids in the game. <code>highest_pre_allocated_id</code> is the used for legacy loads to offset the newly allocated id to after the ones from the save game. </p>
 
 <p>References <a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID()</a>, <a class="el" href="classIDAllocator.html#acd270b473eab79734aa318c89b1bc317">m_empire_id</a>, <a class="el" href="classIDAllocator.html#a3259a15398ae3b0f2798df0d75bbb2b0">m_empire_id_to_next_assigned_object_id</a>, <a class="el" href="classIDAllocator.html#a7637aa6c770e85e554db37e07ccd7822">m_exhausted_threshold</a>, <a class="el" href="classIDAllocator.html#af12744c510bf9982f78a7ee613a30018">m_invalid_id</a>, <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>, <a class="el" href="classIDAllocator.html#a4073337448ac3b4998988a30e776e6ed">m_random_generator</a>, <a class="el" href="classIDAllocator.html#af898bcbd3a16e7c303a8fb2be7055fad">m_server_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, <a class="el" href="classIDAllocator.html#ac80f670211bc3d0ca1021fc13cb01fda">m_temp_id</a>, <a class="el" href="classIDAllocator.html#a26c21399f6b199888d2bcc7c4497ab4c">m_warn_threshold</a>, <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
@@ -256,25 +254,6 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, and <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>.</p>
 
 <p>Referenced by <a class="el" href="classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d">IDAllocator()</a>, <a class="el" href="classIDAllocator.html#ad6c33a323ecd0aafff1219940ea897e9">IsIDValidAndUnused()</a>, <a class="el" href="classIDAllocator.html#ae2c2005edf427a63380cade908a6738f">NewID()</a>, <a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">ObfuscateBeforeSerialization()</a>, and <a class="el" href="classIDAllocator.html#a30aae0b452643d9150e47f885a7c95dd">UpdateIDAndCheckIfOwned()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a57bc16af174785af1fa39eebe57b2064"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IDAllocator::FixLegacyOrderIDs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>On the server advance all client's next_ids so they won't conflict with <code>id</code>. On the client do nothing. </p>
-
-<p>References <a class="el" href="classIDAllocator.html#a8b2e3c3edf08b4942087712c5623852c">IncrementNextAssignedId()</a>, and <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>.</p>
 
 </div>
 </div>
@@ -314,7 +293,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classIDAllocator.html#a3259a15398ae3b0f2798df0d75bbb2b0">m_empire_id_to_next_assigned_object_id</a>, <a class="el" href="classIDAllocator.html#a7637aa6c770e85e554db37e07ccd7822">m_exhausted_threshold</a>, <a class="el" href="classIDAllocator.html#af12744c510bf9982f78a7ee613a30018">m_invalid_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
-<p>Referenced by <a class="el" href="classIDAllocator.html#a57bc16af174785af1fa39eebe57b2064">FixLegacyOrderIDs()</a>, and <a class="el" href="classIDAllocator.html#a30aae0b452643d9150e47f885a7c95dd">UpdateIDAndCheckIfOwned()</a>.</p>
+<p>Referenced by <a class="el" href="classIDAllocator.html#a30aae0b452643d9150e47f885a7c95dd">UpdateIDAndCheckIfOwned()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +566,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID()</a>, <a class="el" href="classIDAllocator.html#a57bc16af174785af1fa39eebe57b2064">FixLegacyOrderIDs()</a>, <a class="el" href="classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d">IDAllocator()</a>, <a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">ObfuscateBeforeSerialization()</a>, <a class="el" href="classIDAllocator.html#a5e51cae26c5545794be685d43d1dd8ff">SerializeForEmpire()</a>, and <a class="el" href="classIDAllocator.html#a66bc1f66fe00a8483e511202c334f3b6">StateString()</a>.</p>
+<p>Referenced by <a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID()</a>, <a class="el" href="classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d">IDAllocator()</a>, <a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">ObfuscateBeforeSerialization()</a>, <a class="el" href="classIDAllocator.html#a5e51cae26c5545794be685d43d1dd8ff">SerializeForEmpire()</a>, and <a class="el" href="classIDAllocator.html#a66bc1f66fe00a8483e511202c334f3b6">StateString()</a>.</p>
 
 </div>
 </div>

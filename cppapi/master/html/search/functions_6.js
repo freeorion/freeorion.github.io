@@ -60,7 +60,6 @@ var searchData=
   ['fit',['Fit',['../classTechTreeLayout_1_1Column.html#aa341f198d3aab0f9860b97f83fd5fbad',1,'TechTreeLayout::Column']]],
   ['fixed',['Fixed',['../classSaveFileColumn.html#af33e84bdd5866030a7e8abec815834db',1,'SaveFileColumn']]],
   ['fixedwidth',['FixedWidth',['../classSaveFileColumn.html#a772525779b5eb90d97265a56ec4c05fa',1,'SaveFileColumn']]],
-  ['fixlegacyorderids',['FixLegacyOrderIDs',['../classIDAllocator.html#a57bc16af174785af1fa39eebe57b2064',1,'IDAllocator']]],
   ['flattenandnestedconditions',['FlattenAndNestedConditions',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#a53d8956578b818025985a9fd557f633c',1,'anonymous_namespace{Condition.cpp}']]],
   ['flattensubevents',['FlattenSubEvents',['../structCombatEvent.html#a7417dfdd6ec39e0904161eae10918dac',1,'CombatEvent::FlattenSubEvents()'],['../structBoutEvent.html#ad15474b712a1d0568b1de45a59627f32',1,'BoutEvent::FlattenSubEvents()'],['../structSimultaneousEvents.html#acb2cef61c130c44a9e6aec8524717a18',1,'SimultaneousEvents::FlattenSubEvents()']]],
   ['fleet',['Fleet',['../classFleet.html#aeb9f154a826ae9abcc0feccf56667735',1,'Fleet::Fleet()'],['../classFleet.html#a0b41faec10ac71189bd484ce089fd4ed',1,'Fleet::Fleet(const std::string &amp;name, double x, double y, int owner)']]],
