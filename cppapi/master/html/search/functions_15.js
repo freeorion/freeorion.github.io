@@ -40,6 +40,7 @@ var searchData=
   ['updateempireobjectvisibilities',['UpdateEmpireObjectVisibilities',['../classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d',1,'Universe']]],
   ['updateempireresourcepools',['UpdateEmpireResourcePools',['../classMapWnd.html#abed0219d3262a22704cb4b533c804543',1,'MapWnd']]],
   ['updateempirestaleobjectknowledge',['UpdateEmpireStaleObjectKnowledge',['../classUniverse.html#a59636a6bec866af2ed535ff64b7f6502',1,'Universe']]],
+  ['updateempiresupply',['UpdateEmpireSupply',['../ServerApp_8cpp.html#a226bc19330cf5390b0517b11abe9a990',1,'ServerApp.cpp']]],
   ['updateempirevisibilityfilteredsystemgraphs',['UpdateEmpireVisibilityFilteredSystemGraphs',['../classPathfinder_1_1PathfinderImpl.html#aaf474198f7232eacc38ed42ca519b1ca',1,'Pathfinder::PathfinderImpl::UpdateEmpireVisibilityFilteredSystemGraphs()'],['../classPathfinder.html#acc255822d2587ec94022230d380f1cc2',1,'Pathfinder::UpdateEmpireVisibilityFilteredSystemGraphs()'],['../classUniverse.html#a8ea1fa4180099290a25ec3cd5a146173',1,'Universe::UpdateEmpireVisibilityFilteredSystemGraphs()']]],
   ['updateenabled',['UpdateEnabled',['../classFPSIndicator.html#a699e2044f5d4ff8fbfb020c6fb93e2bd',1,'FPSIndicator::UpdateEnabled()'],['../classMapWnd_1_1MapScaleLine.html#a7d1ed27dc720a9c303c5707b8fd243e6',1,'MapWnd::MapScaleLine::UpdateEnabled()']]],
   ['updatefleetroute',['UpdateFleetRoute',['../namespaceanonymous__namespace_02Effect_8cpp_03.html#a53780d25f5d8cbb0228f200c56d874f7',1,'anonymous_namespace{Effect.cpp}']]],
