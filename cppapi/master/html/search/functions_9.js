@@ -15,6 +15,7 @@ var searchData=
   ['id',['ID',['../classShipDesign.html#a113672ff15f81a297e497e2ed472ebc2',1,'ShipDesign::ID()'],['../classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e',1,'UniverseObject::ID()']]],
   ['idallocator',['IDAllocator',['../classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d',1,'IDAllocator']]],
   ['idle',['Idle',['../structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle']]],
+  ['idstring',['IDString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#aafcfbfafefe29c50b0b2cd9ca031099c',1,'anonymous_namespace{VarText.cpp}']]],
   ['if',['if',['../chmain_8cpp.html#a48125e50ef0f46107a5ac162b0b61b3a',1,'if(help_arg!=&quot;NOOP&quot;):&#160;chmain.cpp'],['../chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#af3bbeb989258eb61497d32f99c9f342c',1,'if(mainSetupAndRun()!=0):&#160;chmain.cpp']]],
   ['ignoresitrep',['IgnoreSitRep',['../classSitRepPanel.html#adcc16377904d26c60e77276a63664764',1,'SitRepPanel']]],
   ['immediateneighbors',['ImmediateNeighbors',['../classPathfinder_1_1PathfinderImpl.html#a5005ce23bd339f39efb9a614248b8d0e',1,'Pathfinder::PathfinderImpl::ImmediateNeighbors()'],['../classPathfinder.html#acdeabfa6075cba98675c5d55567dff4c',1,'Pathfinder::ImmediateNeighbors()']]],

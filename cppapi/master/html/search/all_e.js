@@ -15,7 +15,7 @@ var searchData=
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html',1,'ValueRef']]],
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html#a71d35b36173b962bdddd571db125d283',1,'ValueRef::NameLookup']]],
   ['nameok',['NameOK',['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a0d86db5f3344993023d376e7d544c048',1,'anonymous_namespace{ServerConnectWnd.cpp}']]],
-  ['namestring',['NameString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a95f2625eb645a927083398904e94edb3',1,'anonymous_namespace{VarText.cpp}']]],
+  ['namestring',['NameString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#a313f0306799233080640b5ed90e129f4',1,'anonymous_namespace{VarText.cpp}']]],
   ['nametometer',['NameToMeter',['../namespaceValueRef.html#aff1e35bb3b59658f6791170be5d9b0ef',1,'ValueRef']]],
   ['native',['native',['../structSpeciesParams.html#ae247c95e2d18ae51cba1bb7aa23a2720',1,'SpeciesParams::native()'],['../classSpecies.html#a1454c74f71465bf335e8f3336ea62f4b',1,'Species::Native()']]],
   ['native_5fbegin',['native_begin',['../classSpeciesManager.html#af902df67e81eb9ad821bdf9e4b2ac6a0',1,'SpeciesManager']]],
