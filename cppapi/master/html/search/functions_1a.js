@@ -22,6 +22,7 @@ var searchData=
   ['zoomtoobject',['ZoomToObject',['../classClientUI.html#afe51c3e353598aef13e2058b307d7f99',1,'ClientUI::ZoomToObject(const std::string &amp;name)'],['../classClientUI.html#ab019c50cf41364951f3c3d9cc6513460',1,'ClientUI::ZoomToObject(int id)']]],
   ['zoomtoplanet',['ZoomToPlanet',['../classClientUI.html#aba4ff3108b27f1e21d5aac33d441584d',1,'ClientUI']]],
   ['zoomtoplanetpedia',['ZoomToPlanetPedia',['../classClientUI.html#adac3630523be593babfbaca2d04e4bd6',1,'ClientUI']]],
+  ['zoomtopolicy',['ZoomToPolicy',['../classClientUI.html#ad5ca0ed1e0f579da479b4f07e53b2ff6',1,'ClientUI']]],
   ['zoomtoprevfleet',['ZoomToPrevFleet',['../classMapWnd.html#acaeab829d03ea094a09b05627197b94b',1,'MapWnd']]],
   ['zoomtoprevidlefleet',['ZoomToPrevIdleFleet',['../classMapWnd.html#a0f69b554da1a0759bf84ff1ce9701ebb',1,'MapWnd']]],
   ['zoomtoprevownedsystem',['ZoomToPrevOwnedSystem',['../classMapWnd.html#acdb8a44a7ddb7a23a633e6c5e17c61ac',1,'MapWnd']]],

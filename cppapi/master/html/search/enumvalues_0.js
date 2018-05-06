@@ -4,5 +4,5 @@ var searchData=
   ['accept_5fallies_5fproposal',['ACCEPT_ALLIES_PROPOSAL',['../classDiplomaticMessage.html#a331092de5beff651222985a999fa796cae01029b3b88e3fb77528a0de610517d3',1,'DiplomaticMessage']]],
   ['accept_5fpeace_5fproposal',['ACCEPT_PEACE_PROPOSAL',['../classDiplomaticMessage.html#a331092de5beff651222985a999fa796ca4c0459df2add4078f3e45b5aa2b0c731',1,'DiplomaticMessage']]],
   ['allies_5fproposal',['ALLIES_PROPOSAL',['../classDiplomaticMessage.html#a331092de5beff651222985a999fa796ca33bb7000da1e77feb79f520fe1c9acdf',1,'DiplomaticMessage']]],
-  ['available',['Available',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba691d21a5ad5d90d0fd8bdcbedb0b7f71',1,'Availability']]]
+  ['available',['Available',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba55903af984975d53e7c3861df2ba6c60',1,'Availability']]]
 ];
