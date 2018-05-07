@@ -8,8 +8,6 @@ var searchData=
   ['additive_5fexpr',['additive_expr',['../structparse_1_1detail_1_1arithmetic__rules.html#a0a3a6f78b0b4326743726835479174cf',1,'parse::detail::arithmetic_rules']]],
   ['addstarlaneactionselectedsignal',['AddStarlaneActionSelectedSignal',['../classModeratorActionsWnd.html#a92c5ca0600a7d37e3e062fccb2dd5b21',1,'ModeratorActionsWnd']]],
   ['addtechstoqueuesignal',['AddTechsToQueueSignal',['../classTechTreeWnd.html#a2a8401c57596380fa92d8abaff19d5f5',1,'TechTreeWnd']]],
-  ['adoption_5fcost',['adoption_cost',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1policy__pod.html#a520519f379d0d0116fcba8054ed767f1',1,'anonymous_namespace{PoliciesParser.cpp}::policy_pod']]],
-  ['adoption_5fturn',['adoption_turn',['../structEmpire_1_1PolicyAdoptionInfo.html#adfa6bea49e7ac93f137ea22e0b6215ed',1,'Empire::PolicyAdoptionInfo']]],
   ['affil_5fally',['AFFIL_ALLY',['../Enums_8h.html#a4889693a1d149b5c613f33a17f4893e7',1,'Enums.h']]],
   ['affil_5fany',['AFFIL_ANY',['../Enums_8h.html#a509a55dfdbd56cc408b7f5a09ac8c86a',1,'Enums.h']]],
   ['affil_5fcan_5fsee',['AFFIL_CAN_SEE',['../Enums_8h.html#ae0735daa4846c7bdc8c3a6f6e01f7884',1,'Enums.h']]],
