@@ -66,6 +66,7 @@ var searchData=
   ['finalize',['Finalize',['../classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c',1,'PythonBase']]],
   ['find',['Find',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html#ad8d0c6523627223dec5c36e6a05d279c',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::ConditionCache::Find()'],['../structProductionQueue.html#a4ce20cc86347efead4a2325e3fda8d75',1,'ProductionQueue::find(int i) const '],['../structProductionQueue.html#a6180bf5b8d0ff5f78f698c9f54ddc511',1,'ProductionQueue::find(int i)'],['../structResearchQueue.html#a27ec8b15adbfec2fff21d4929ec1d256',1,'ResearchQueue::find(const std::string &amp;tech_name) const '],['../structResearchQueue.html#ad6aac5c05a86d1bb659bbd1926da73b3',1,'ResearchQueue::find(const std::string &amp;tech_name)']]],
   ['findemptyslotforpart',['FindEmptySlotForPart',['../classDesignWnd_1_1MainPanel.html#afd5866084d8129fb8ea86e047ced97dd',1,'DesignWnd::MainPanel']]],
+  ['findemptyslotforpolicy',['FindEmptySlotForPolicy',['../classGovernmentWnd_1_1MainPanel.html#a5355a81a65fe122541e8478457b98222',1,'GovernmentWnd::MainPanel']]],
   ['findexistingobjectids',['FindExistingObjectIDs',['../classObjectMap.html#a431e38f828c3ecce758a77fe412ee993',1,'ObjectMap']]],
   ['findfirstdependencycycle',['FindFirstDependencyCycle',['../classTechManager.html#a152729ba4ff80e6064659177b2dff3c2',1,'TechManager']]],
   ['findgamewords',['FindGameWords',['../classMessageWndEdit.html#a78da5e4e86d0200aa17411c51d5ee18c',1,'MessageWndEdit']]],
@@ -170,8 +171,8 @@ var searchData=
   ['fleetsrightclicked',['FleetsRightClicked',['../classMapWnd.html#aea99e10734a00fbda5c68079bce5038c',1,'MapWnd']]],
   ['fleetsupplyablebyempire',['FleetSupplyableByEmpire',['../structCondition_1_1FleetSupplyableByEmpire.html#abf7a4a77968180270cd2254474914ca2',1,'Condition::FleetSupplyableByEmpire']]],
   ['fleetsupplyablebyempire',['FleetSupplyableByEmpire',['../structCondition_1_1FleetSupplyableByEmpire.html',1,'Condition']]],
-  ['fleetsupplyablesimplematch',['FleetSupplyableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FleetSupplyableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['fleetsupplyablesimplematch',['FleetSupplyableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FleetSupplyableSimpleMatch.html#a0b95082326640a458f1392a6ad136b56',1,'Condition::anonymous_namespace{Condition.cpp}::FleetSupplyableSimpleMatch']]],
+  ['fleetsupplyablesimplematch',['FleetSupplyableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FleetSupplyableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['fleetsupplyablesystemids',['FleetSupplyableSystemIDs',['../classSupplyManager.html#a9c090b1bf40bf05def3affef48a9dcfe',1,'SupplyManager::FleetSupplyableSystemIDs() const '],['../classSupplyManager.html#a5cc25c82cbfa1188ac6746c1950ec9b9',1,'SupplyManager::FleetSupplyableSystemIDs(int empire_id) const '],['../classSupplyManager.html#a80d73e7ae782f0be9b9200e836ebf38a',1,'SupplyManager::FleetSupplyableSystemIDs(int empire_id, bool include_allies) const ']]],
   ['fleettransferorder',['FleetTransferOrder',['../classFleetTransferOrder.html',1,'FleetTransferOrder'],['../classFleetTransferOrder.html#a48c1339372a420e5d2c113c76579a864',1,'FleetTransferOrder::FleetTransferOrder(int empire, int dest_fleet, const std::vector&lt; int &gt; &amp;ships)'],['../classFleetTransferOrder.html#a99410fe011381dafdc3533c35d5a9bcd',1,'FleetTransferOrder::FleetTransferOrder()=default']]],
   ['fleetuimanager',['FleetUIManager',['../classFleetWnd.html#afbaa71b90035aedd073657c76440350d',1,'FleetWnd']]],
@@ -223,8 +224,8 @@ var searchData=
   ['formatduration',['FormatDuration',['../classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c',1,'ScopedTimer::Impl']]],
   ['formateddescriptionpropertynames',['FormatedDescriptionPropertyNames',['../namespaceValueRef.html#a3086226bbfd2bf95db297251b666db57',1,'ValueRef']]],
   ['formattimestamp',['FormatTimestamp',['../classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca',1,'ClientUI']]],
-  ['founddestination',['FoundDestination',['../structSystemPathing_1_1PathFindingShortCircuitingVisitor_1_1FoundDestination.html',1,'SystemPathing::PathFindingShortCircuitingVisitor']]],
   ['founddestination',['FoundDestination',['../classSystemPathing_1_1BFSVisitorImpl_1_1FoundDestination.html',1,'SystemPathing::BFSVisitorImpl']]],
+  ['founddestination',['FoundDestination',['../structSystemPathing_1_1PathFindingShortCircuitingVisitor_1_1FoundDestination.html',1,'SystemPathing::PathFindingShortCircuitingVisitor']]],
   ['fpsindicator',['FPSIndicator',['../classFPSIndicator.html',1,'FPSIndicator'],['../classFPSIndicator.html#a358b3e72e1717b6a6ec0ec232a331721',1,'FPSIndicator::FPSIndicator()']]],
   ['fractionaldistancebetweenpoints',['FractionalDistanceBetweenPoints',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aeb4e8aa449093304b8dca374cc001c17',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fragmentshaderinfolog',['FragmentShaderInfoLog',['../classShaderProgram.html#af3de817c562e90ba30d8341fe8cd4569',1,'ShaderProgram']]],
@@ -250,5 +251,5 @@ var searchData=
   ['fullscreenswitchsignaltype',['FullscreenSwitchSignalType',['../classHumanClientApp.html#a90d7bd32aa44b3879694676eb3b0484a',1,'HumanClientApp']]],
   ['function_5fexpr',['function_expr',['../structparse_1_1string__parser__grammar.html#a544410bfb80b436b660eb5c132ee8d94',1,'parse::string_parser_grammar::function_expr()'],['../namespaceparse.html#a054ed9ba8ee2cd452891c6891e9771ad',1,'parse::function_expr()']]],
   ['functional_5fexpr',['functional_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a6c76621aab0a737bf78e563d9cc0467c',1,'parse::detail::enum_value_ref_rules::functional_expr()'],['../structparse_1_1detail_1_1arithmetic__rules.html#a3166d41e019c2488aa20968e0d0a7ede',1,'parse::detail::arithmetic_rules::functional_expr()']]],
-  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba4f491fa55ca9fe3f143054b6daa56920',1,'Availability']]]
+  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baf7b305c2f1f59e93d1ed2103a4f1c92d',1,'Availability']]]
 ];
