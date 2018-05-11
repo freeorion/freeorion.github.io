@@ -19,9 +19,7 @@ var searchData=
   ['getempiresitrepfunc',['GetEmpireSitRepFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a0de6077293daf3500fb1e4f8fd2ea774',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['give_5fempire_5ftech',['give_empire_tech',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a043088b099dfb7b997015972f33efb3c',1,'parse::detail::effect_parser_rules_1']]],
   ['global_5fqueue',['global_queue',['../structThreadQueue.html#ac6221d0bf56b64fd1d929504698b161a',1,'ThreadQueue']]],
-  ['gov_5fmain_5fwnd_5fname',['GOV_MAIN_WND_NAME',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html#a5a064002ec74953d9c330012c1a5c30e',1,'anonymous_namespace{GovernmentWnd.cpp}']]],
-  ['gov_5fpolicy_5fpalette_5fwnd_5fname',['GOV_POLICY_PALETTE_WND_NAME',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html#a8ef12aca4b8e2d75b434fd4077b7d083',1,'anonymous_namespace{GovernmentWnd.cpp}']]],
   ['graph',['GRAPH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a3e94f3d1c43497e2bcafa6b3e651991c',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['graph_5ftag',['GRAPH_TAG',['../classTextLinker.html#a7e93d3f45a84ce78eb337553ead14e04',1,'TextLinker']]],
-  ['graphic',['graphic',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1policy__pod.html#a95fffb03c1d4b7d8fb7ab2b10548090d',1,'anonymous_namespace{PoliciesParser.cpp}::policy_pod::graphic()'],['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#a21eefa104af36247620e872fefdad9c6',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod::graphic()'],['../structTechCategory.html#a9fc6bf74bd846c735726f6ba389176d3',1,'TechCategory::graphic()']]]
+  ['graphic',['graphic',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#a21eefa104af36247620e872fefdad9c6',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod::graphic()'],['../structTechCategory.html#a9fc6bf74bd846c735726f6ba389176d3',1,'TechCategory::graphic()']]]
 ];
