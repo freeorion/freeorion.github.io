@@ -5,5 +5,5 @@ var searchData=
   ['fleet_5fbutton_5fnone',['FLEET_BUTTON_NONE',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148a66619571e1812d95d5cbf9fa347bfe5b',1,'FleetButton']]],
   ['fleet_5fbutton_5fsmall',['FLEET_BUTTON_SMALL',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ae2c82a5a5e597ad0351e991a52a423f2',1,'FleetButton']]],
   ['fleet_5fbutton_5ftiny',['FLEET_BUTTON_TINY',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ab161470ee9f8678dea92ef604f96c0e1',1,'FleetButton']]],
-  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba4f491fa55ca9fe3f143054b6daa56920',1,'Availability']]]
+  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baf7b305c2f1f59e93d1ed2103a4f1c92d',1,'Availability']]]
 ];
