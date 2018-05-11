@@ -1,6 +1,7 @@
 var searchData=
 [
   ['aiinterface',['AIInterface',['../namespaceAIInterface.html',1,'']]],
+  ['anonymous_5fnamespace_7baccordionpanel_2ecpp_7d',['anonymous_namespace{AccordionPanel.cpp}',['../namespaceanonymous__namespace_02AccordionPanel_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7baiclientapp_2ecpp_7d',['anonymous_namespace{AIClientApp.cpp}',['../namespaceanonymous__namespace_02AIClientApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7baiinterface_2ecpp_7d',['anonymous_namespace{AIInterface.cpp}',['../namespaceanonymous__namespace_02AIInterface_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7baiwrapper_2ecpp_7d',['anonymous_namespace{AIWrapper.cpp}',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html',1,'']]],
@@ -43,8 +44,6 @@ var searchData=
   ['anonymous_5fnamespace_7bgalaxysetupwnd_2ecpp_7d',['anonymous_namespace{GalaxySetupWnd.cpp}',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgamerules_2ecpp_7d',['anonymous_namespace{GameRules.cpp}',['../namespaceanonymous__namespace_02GameRules_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgamerulesparser_2ecpp_7d',['anonymous_namespace{GameRulesParser.cpp}',['../namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bgovernment_2ecpp_7d',['anonymous_namespace{Government.cpp}',['../namespaceanonymous__namespace_02Government_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bgovernmentwnd_2ecpp_7d',['anonymous_namespace{GovernmentWnd.cpp}',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgraphicalsummary_2ecpp_7d',['anonymous_namespace{GraphicalSummary.cpp}',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bhumanclientapp_2ecpp_7d',['anonymous_namespace{HumanClientApp.cpp}',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bhumanclientfsm_2ecpp_7d',['anonymous_namespace{HumanClientFSM.cpp}',['../namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html',1,'']]],
@@ -79,7 +78,6 @@ var searchData=
   ['anonymous_5fnamespace_7bpathfinder_2ecpp_7d',['anonymous_namespace{Pathfinder.cpp}',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bplanet_2ecpp_7d',['anonymous_namespace{Planet.cpp}',['../namespaceanonymous__namespace_02Planet_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bplayerlistwnd_2ecpp_7d',['anonymous_namespace{PlayerListWnd.cpp}',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bpoliciesparser_2ecpp_7d',['anonymous_namespace{PoliciesParser.cpp}',['../namespaceanonymous__namespace_02PoliciesParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpopcenter_2ecpp_7d',['anonymous_namespace{PopCenter.cpp}',['../namespaceanonymous__namespace_02PopCenter_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpopulationpanel_2ecpp_7d',['anonymous_namespace{PopulationPanel.cpp}',['../namespaceanonymous__namespace_02PopulationPanel_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bproductionqueue_2ecpp_7d',['anonymous_namespace{ProductionQueue.cpp}',['../namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html',1,'']]],
