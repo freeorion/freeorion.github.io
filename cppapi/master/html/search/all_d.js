@@ -1479,7 +1479,7 @@ var searchData=
   ['matches',['MATCHES',['../namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddea3a8b923ef42520f853af080125ac76c0',1,'Condition']]],
   ['matchhelper',['MatchHelper',['../structCondition_1_1ConditionBase.html#a38a75063e619d2c981a64b489c263b95',1,'Condition::ConditionBase::MatchHelper()'],['../structCondition_1_1ConditionBase_1_1MatchHelper.html#a3b877dad0109a4abf761f020d4962a01',1,'Condition::ConditionBase::MatchHelper::MatchHelper()']]],
   ['matchhelper',['MatchHelper',['../structCondition_1_1ConditionBase_1_1MatchHelper.html',1,'Condition::ConditionBase']]],
-  ['max',['MAX',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3afbcba25186b5f012f805c9b1ed801696',1,'ValueRef::MAX()'],['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114',1,'max():&#160;Logger.h']]],
+  ['max',['max',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114',1,'max():&#160;Logger.h'],['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3afbcba25186b5f012f805c9b1ed801696',1,'ValueRef::MAX()']]],
   ['max_5fai_5fplayers',['MAX_AI_PLAYERS',['../classIApp.html#a633571e519070e406ae37b8044163595',1,'IApp']]],
   ['max_5fcurrent_5fhealth',['max_current_health',['../structCombatSummary.html#aef4bcb2cd76894ba774844a03c56c6f0',1,'CombatSummary']]],
   ['max_5fhealth',['max_health',['../structCombatParticipantState.html#ab98773dc4e7a408c47ab5c05330c1233',1,'CombatParticipantState::max_health()'],['../structParticipantSummary.html#ac165bc735d48f809942572094f345e23',1,'ParticipantSummary::max_health()']]],
