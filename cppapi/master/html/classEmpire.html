@@ -575,6 +575,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aaf91ef1c6804bae8c76b4473db4baf9a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a> = <a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
 <tr class="memdesc:aaf91ef1c6804bae8c76b4473db4baf9a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classEmpire.html">Empire</a>'s unique numeric id.  <a href="#aaf91ef1c6804bae8c76b4473db4baf9a">More...</a><br /></td></tr>
 <tr class="separator:aaf91ef1c6804bae8c76b4473db4baf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237023aab06f5f327ddc88960ec7c8ac"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a></td></tr>
+<tr class="memdesc:a237023aab06f5f327ddc88960ec7c8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ids of ship designs in the universe that this empire knows about  <a href="#a237023aab06f5f327ddc88960ec7c8ac">More...</a><br /></td></tr>
+<tr class="separator:a237023aab06f5f327ddc88960ec7c8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bb18f9529ed1d852cb85e5a849c13ef"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classMeter.html">Meter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a0bb18f9529ed1d852cb85e5a849c13ef">m_meters</a></td></tr>
 <tr class="memdesc:a0bb18f9529ed1d852cb85e5a849c13ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">empire meters, including ratings scales used by species to judge empires  <a href="#a0bb18f9529ed1d852cb85e5a849c13ef">More...</a><br /></td></tr>
 <tr class="separator:a0bb18f9529ed1d852cb85e5a849c13ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -606,9 +609,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a486f4d418b8653e2706121ffc12977d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67e07f691d1b44f7a70720f6e0e32e9"><td class="memItemLeft" align="right" valign="top">std::map&lt; ResourceType, std::shared_ptr&lt; <a class="el" href="classResourcePool.html">ResourcePool</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#af67e07f691d1b44f7a70720f6e0e32e9">m_resource_pools</a></td></tr>
 <tr class="separator:af67e07f691d1b44f7a70720f6e0e32e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d41cba399ed1680d4b900e6d8c1486c"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a></td></tr>
-<tr class="memdesc:a7d41cba399ed1680d4b900e6d8c1486c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classEmpire.html">Empire</a>'s ship designs ids.  <a href="#a7d41cba399ed1680d4b900e6d8c1486c">More...</a><br /></td></tr>
-<tr class="separator:a7d41cba399ed1680d4b900e6d8c1486c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a3b02d5c9ca4b818fdf333fa2346e8e36">m_ship_designs_destroyed</a></td></tr>
 <tr class="memdesc:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many ships of each design has this empire destroyed?  <a href="#a3b02d5c9ca4b818fdf333fa2346e8e36">More...</a><br /></td></tr>
 <tr class="separator:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -913,7 +913,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>inserts given design id into the empire's set of designs in front of next design </p>
 
-<p>References <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classUniverse.html#a6d2b0361cba49a600fe47c9385faba29">Universe::GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="classEmpire.html#acf5cf44d8fa161e5d8a05cbb4793b535">ShipDesignsChangedSignal</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classUniverse.html#a6d2b0361cba49a600fe47c9385faba29">Universe::GetShipDesign()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a>, <a class="el" href="classShipDesign.html#ae139d20759297b75d503d7635c3362a4">ShipDesign::Name()</a>, <a class="el" href="classEmpire.html#acf5cf44d8fa161e5d8a05cbb4793b535">ShipDesignsChangedSignal</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#a0c19635ff83ab5b68f48a7a0cea94c71">AddShipDesign()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a2645076633dffda53c78ee034c3541db">anonymous_namespace{ServerWrapper.cpp}::EmpireAddShipDesign()</a>, and <a class="el" href="classEmpire.html#a781233870b4d63ce3ed15d0a6a5a470f">UnlockItem()</a>.</p>
 
@@ -1046,7 +1046,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns the set of <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> IDs available for this empire to build. </p>
 
-<p>References <a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a>, and <a class="el" href="classEmpire.html#aefe4679354c15b45267df7aac00772d4">ShipDesignAvailable()</a>.</p>
 
 <p>Referenced by <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -2582,7 +2582,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff this empire can produce the specified item at the specified location. </p>
 
-<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
+<p>References <a class="el" href="Enums_8h.html#a7058f1ba05145652343673d37708c9db">BT_BUILDING</a>, <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd">BT_STOCKPILE</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classEmpire.html#aaf91ef1c6804bae8c76b4473db4baf9a">m_id</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a3a8b7db9eb521d0bc563ddefab6b6e33">BuildDesignatorWnd::BuildSelector::BuildableItemVisible()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a29ff8c721b4c259e06ff75d97452a120">EnqueuableItem()</a>, <a class="el" href="namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862">AIInterface::IssueEnqueueBuildingProductionOrder()</a>, <a class="el" href="namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e">AIInterface::IssueEnqueueShipProductionOrder()</a>, <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#ac0c0d3348fb4ab80f2f3f92317fb22e6">ProducibleItem()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">ProductionQueue::Update()</a>.</p>
 
@@ -2917,7 +2917,7 @@ Friends</h2></td></tr>
 
 <p>Removes the <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> with the given id from the empire's set. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a>, and <a class="el" href="classEmpire.html#acf5cf44d8fa161e5d8a05cbb4793b535">ShipDesignsChangedSignal</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a>, and <a class="el" href="classEmpire.html#acf5cf44d8fa161e5d8a05cbb4793b535">ShipDesignsChangedSignal</a>.</p>
 
 <p>Referenced by <a class="el" href="classEmpire.html#a4e79f2885b3d851cc9636afda273ad28">LockItem()</a>.</p>
 
@@ -3488,7 +3488,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Returns true iff the given ship design id is in the set of design ids of this empire. That is, it has been added to this empire. </p>
 
-<p>References <a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a>.</p>
 
 </div>
 </div>
@@ -3507,7 +3507,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Returns the set of all ship design ids of this empire. </p>
 
-<p>References <a class="el" href="classEmpire.html#a7d41cba399ed1680d4b900e6d8c1486c">m_ship_designs</a>.</p>
+<p>References <a class="el" href="classEmpire.html#a237023aab06f5f327ddc88960ec7c8ac">m_known_ship_designs</a>.</p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
 
@@ -4876,6 +4876,30 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a237023aab06f5f327ddc88960ec7c8ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;int&gt; Empire::m_known_ship_designs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ids of ship designs in the universe that this empire knows about </p>
+
+<p>Referenced by <a class="el" href="classEmpire.html#a2d05e32e1cc05973196fc8f3e73138df">AddShipDesign()</a>, <a class="el" href="classEmpire.html#aab4fb5519716951e41e00c7ec3239e8b">AvailableShipDesigns()</a>, <a class="el" href="classEmpire.html#af8d9cc41f34ee46b26dba81c6b0cf6b2">RemoveShipDesign()</a>, <a class="el" href="classEmpire.html#aa0fd72b4e9ce21573c6cf0ec6481c8ae">ShipDesignKept()</a>, and <a class="el" href="classEmpire.html#aba7be5edd006cc4a8e0aeb5449814a6a">ShipDesigns()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0bb18f9529ed1d852cb85e5a849c13ef"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5133,30 +5157,6 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a1f3e10d22f4a69464b4e78e4e06880b4">CheckTradeSocialProgress()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">GetResourcePool()</a>, <a class="el" href="classEmpire.html#af5c282298019434a556502f094c3fd2f">Init()</a>, <a class="el" href="classEmpire.html#aca2f54b2d9e3e7e467fdada3b2db64eb">InitResourcePools()</a>, <a class="el" href="classEmpire.html#a87ab03ef2c56582beef3bef0113692e5">ResourceAvailable()</a>, <a class="el" href="classEmpire.html#aa5c00ea0a56d839637d712077b20c4ca">ResourceOutput()</a>, <a class="el" href="classEmpire.html#af38f8b602bb44acbda307227a015eb20">ResourceStockpile()</a>, <a class="el" href="classEmpire.html#a173981d37cbddda94b86073dc9ee99c3">SetResourceStockpile()</a>, <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">UpdateProductionQueue()</a>, <a class="el" href="classEmpire.html#a44dbf32de030f1902775745307feaad6">UpdateResearchQueue()</a>, and <a class="el" href="classEmpire.html#a0285190d491d478e6d4d0f4eea80f721">UpdateTradeSpending()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7d41cba399ed1680d4b900e6d8c1486c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;int&gt; Empire::m_ship_designs</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The <a class="el" href="classEmpire.html">Empire</a>'s ship designs ids. </p>
-
-<p>Referenced by <a class="el" href="classEmpire.html#a2d05e32e1cc05973196fc8f3e73138df">AddShipDesign()</a>, <a class="el" href="classEmpire.html#aab4fb5519716951e41e00c7ec3239e8b">AvailableShipDesigns()</a>, <a class="el" href="classEmpire.html#af8d9cc41f34ee46b26dba81c6b0cf6b2">RemoveShipDesign()</a>, <a class="el" href="classEmpire.html#aa0fd72b4e9ce21573c6cf0ec6481c8ae">ShipDesignKept()</a>, and <a class="el" href="classEmpire.html#aba7be5edd006cc4a8e0aeb5449814a6a">ShipDesigns()</a>.</p>
 
 </div>
 </div>
