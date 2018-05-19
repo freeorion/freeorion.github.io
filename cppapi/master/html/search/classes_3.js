@@ -21,6 +21,7 @@ var searchData=
   ['disconnection',['Disconnection',['../structDisconnection.html',1,'']]],
   ['discoveryserver',['DiscoveryServer',['../classDiscoveryServer.html',1,'']]],
   ['discretevalidator',['DiscreteValidator',['../structDiscreteValidator.html',1,'']]],
+  ['displayedshipdesignmanager',['DisplayedShipDesignManager',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['distance_5fmatrix_5fcache',['distance_matrix_cache',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['distance_5fmatrix_5fstorage',['distance_matrix_storage',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['double_5fcomplex_5fparser_5fgrammar',['double_complex_parser_grammar',['../structparse_1_1double__complex__parser__grammar.html',1,'parse']]],
