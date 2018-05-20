@@ -222,6 +222,7 @@ var searchData=
   ['completionspecialconsumption',['CompletionSpecialConsumption',['../structProductionQueue_1_1ProductionItem.html#ab6d3eb13892f1851a3eb5a9dc3566859',1,'ProductionQueue::ProductionItem']]],
   ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html#aa6be6cbf4a990c440baab47eb14d7646',1,'ValueRef::ComplexVariable']]],
   ['computefixedwidth',['ComputeFixedWidth',['../classSaveFileColumn.html#af62defa9b6bf94e2ef8ff7b7f9da793c',1,'SaveFileColumn']]],
+  ['concede',['Concede',['../classInGameMenu.html#aa8de4a4004bd2505c8cacea943bf1198',1,'InGameMenu']]],
   ['condition_5fparser_5frules_5f1',['condition_parser_rules_1',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a2d55f8b7830e220430240f286dfaa449',1,'parse::detail::condition_parser_rules_1']]],
   ['condition_5fparser_5frules_5f2',['condition_parser_rules_2',['../structparse_1_1detail_1_1condition__parser__rules__2.html#a08c382c9f6fc00b6fc13efd4189d41a2',1,'parse::detail::condition_parser_rules_2']]],
   ['condition_5fparser_5frules_5f3',['condition_parser_rules_3',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a5f672058ed397b94565a18a80682ae96',1,'parse::detail::condition_parser_rules_3']]],
