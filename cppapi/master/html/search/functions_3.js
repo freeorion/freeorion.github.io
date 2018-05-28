@@ -221,6 +221,8 @@ var searchData=
   ['completionmeterconsumption',['CompletionMeterConsumption',['../structProductionQueue_1_1ProductionItem.html#a45b624ec29bd1bad1b8d96ff50fdc069',1,'ProductionQueue::ProductionItem']]],
   ['completionspecialconsumption',['CompletionSpecialConsumption',['../structProductionQueue_1_1ProductionItem.html#ab6d3eb13892f1851a3eb5a9dc3566859',1,'ProductionQueue::ProductionItem']]],
   ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html#aa6be6cbf4a990c440baab47eb14d7646',1,'ValueRef::ComplexVariable']]],
+  ['complexvariabledescription',['ComplexVariableDescription',['../namespaceValueRef.html#aba67e86b3f0f4c460883aba99872946f',1,'ValueRef']]],
+  ['complexvariabledump',['ComplexVariableDump',['../namespaceValueRef.html#ab0554d1d1f776725fa70e84620a9a7b3',1,'ValueRef']]],
   ['computefixedwidth',['ComputeFixedWidth',['../classSaveFileColumn.html#af62defa9b6bf94e2ef8ff7b7f9da793c',1,'SaveFileColumn']]],
   ['concede',['Concede',['../classInGameMenu.html#aa8de4a4004bd2505c8cacea943bf1198',1,'InGameMenu']]],
   ['condition_5fparser_5frules_5f1',['condition_parser_rules_1',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a2d55f8b7830e220430240f286dfaa449',1,'parse::detail::condition_parser_rules_1']]],
