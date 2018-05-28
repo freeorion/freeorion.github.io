@@ -280,6 +280,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0de2a67ebbf569e458f4830f2a9b608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaff0eaf7bd34cb457e6942c35c4b1a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#abaff0eaf7bd34cb457e6942c35c4b1a4">TurnUpdateMessage</a> (int empire_id, int current_turn, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, const <a class="el" href="classUniverse.html">Universe</a> &amp;universe, const <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;species, <a class="el" href="classCombatLogManager.html">CombatLogManager</a> &amp;combat_logs, const <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;supply, const std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;players, bool use_binary_serialization)</td></tr>
 <tr class="separator:abaff0eaf7bd34cb457e6942c35c4b1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbb2c6810b37dd9b46eb16264422031"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a4dbb2c6810b37dd9b46eb16264422031">UnreadyMessage</a> ()</td></tr>
+<tr class="separator:a4dbb2c6810b37dd9b46eb16264422031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a4aec1f6297520f9256c7267cb35cb8ee"></a>
@@ -2957,6 +2959,26 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="classUniverse.html#adba843a964a08c6d890f485ffc5dde0f">Universe::EncodingEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>, <a class="el" href="Serialize_8h.html#ab5359b402405ad7133b680082f4174c7">Serialize()</a>, and <a class="el" href="classCombatLogManager.html#ab2f3069f8ce43207505d1eb50c72cb5a">CombatLogManager::SerializeIncompleteLogs()</a>.</p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dbb2c6810b37dd9b46eb16264422031"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a> UnreadyMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates a UNREADY message to revoke ready state of turn orders or acknowledge it </p>
+
+<p>References <a class="el" href="namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74">anonymous_namespace{Message.cpp}::DUMMY_EMPTY_MESSAGE</a>, and <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
+
+<p>Referenced by <a class="el" href="classHumanClientApp.html#afbad23bfa6e7a57c29e30b1b38fd32f5">HumanClientApp::UnreadyTurn()</a>.</p>
 
 </div>
 </div>

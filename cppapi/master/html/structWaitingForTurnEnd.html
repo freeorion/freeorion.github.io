@@ -109,8 +109,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a18653cc0c97d9fd3bacaaefdf46e0e8a"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::custom_reaction&lt; TurnOrders &gt;, sc::custom_reaction&lt; <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a18653cc0c97d9fd3bacaaefdf46e0e8a">reactions</a></td></tr>
-<tr class="separator:a18653cc0c97d9fd3bacaaefdf46e0e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a49fd6496715e5dc90c2a3412da099"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::custom_reaction&lt; TurnOrders &gt;, sc::custom_reaction&lt; RevokeReadiness &gt;, sc::custom_reaction&lt; <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a08a49fd6496715e5dc90c2a3412da099">reactions</a></td></tr>
+<tr class="separator:a08a49fd6496715e5dc90c2a3412da099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeec7f2f71a7edd51a0ea5628af13f557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad58e613a5a4ec7f7680109bc48f62136"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">react</a> (const TurnOrders &amp;msg)</td></tr>
 <tr class="separator:ad58e613a5a4ec7f7680109bc48f62136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b94328f885cefb328e5af152ff7be9"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#ab4b94328f885cefb328e5af152ff7be9">react</a> (const RevokeReadiness &amp;msg)</td></tr>
+<tr class="separator:ab4b94328f885cefb328e5af152ff7be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e5a90039e95b907a29478661416f66"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a19e5a90039e95b907a29478661416f66">react</a> (const <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &amp;c)</td></tr>
 <tr class="separator:a19e5a90039e95b907a29478661416f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -131,12 +133,12 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The substate of <a class="el" href="structPlayingGame.html">PlayingGame</a> in which players are playing their turns and the server is waiting for all players to finish their moves, after which the server will process the turn. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a18653cc0c97d9fd3bacaaefdf46e0e8a"></a>
+<a class="anchor" id="a08a49fd6496715e5dc90c2a3412da099"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; sc::custom_reaction&lt;TurnOrders&gt;, sc::custom_reaction&lt;<a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a>&gt; &gt; <a class="el" href="structWaitingForTurnEnd.html#a18653cc0c97d9fd3bacaaefdf46e0e8a">WaitingForTurnEnd::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; sc::custom_reaction&lt;TurnOrders&gt;, sc::custom_reaction&lt;RevokeReadiness&gt;, sc::custom_reaction&lt;<a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a>&gt; &gt; <a class="el" href="structWaitingForTurnEnd.html#a08a49fd6496715e5dc90c2a3412da099">WaitingForTurnEnd::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -195,6 +197,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">Empire::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#a069b9d5d3f95d0aabf0ecfdb13982f7e">ExtractTurnOrdersMessageData()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, <a class="el" href="classServerApp.html#ae56506e5732ae45b0c4d6a47bcb6f83a">ServerApp::IsLocalHumanPlayer()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">ServerApp::PlayerEmpireID()</a>, <a class="el" href="classEmpire.html#ade233770d48509451b8d2ab2de1b5495">Empire::PlayerName()</a>, <a class="el" href="Message_8cpp.html#a31699073a06d6d0eb09db9b407ebc5cd">PlayerStatusMessage()</a>, <a class="el" href="classServerApp.html#a43bcfc85f8507ca82d65be03d91adde9">ServerApp::SetAIsProcessPriorityToLow()</a>, <a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">ServerApp::SetEmpireTurnOrders()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>, <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>, and <a class="el" href="classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17">Message::WAITING_FOR_PLAYERS</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4b94328f885cefb328e5af152ff7be9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sc::result WaitingForTurnEnd::react </td>
+          <td>(</td>
+          <td class="paramtype">const RevokeReadiness &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="classEmpire.html#a381d88b261fd96d57e9e71537ccf74dd">Empire::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">ServerApp::PlayerEmpireID()</a>, <a class="el" href="Message_8cpp.html#a31699073a06d6d0eb09db9b407ebc5cd">PlayerStatusMessage()</a>, <a class="el" href="classServerApp.html#a70ce812f38051a5ebf7d5502cbd0820c">ServerApp::RevokeEmpireTurnReadyness()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
 </div>
 </div>

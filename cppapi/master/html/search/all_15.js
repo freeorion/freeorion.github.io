@@ -55,6 +55,8 @@ var searchData=
   ['unlocks',['unlocks',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a7cfa034a9f7069b84c9a9271ef11ae4c',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['unlocks_5frule',['unlocks_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a22797b7b38147a5f5f34d7d4830888b8',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['unowned',['Unowned',['../classUniverseObject.html#afe2518fe88d91e8d0fb752ce7d0c5026',1,'UniverseObject']]],
+  ['unreadymessage',['UnreadyMessage',['../Message_8cpp.html#a6381f9376afb9ec97338fda9679c06c0',1,'UnreadyMessage():&#160;Message.cpp'],['../Message_8h.html#a4dbb2c6810b37dd9b46eb16264422031',1,'UnreadyMessage():&#160;Message.cpp']]],
+  ['unreadyturn',['UnreadyTurn',['../classHumanClientApp.html#afbad23bfa6e7a57c29e30b1b38fd32f5',1,'HumanClientApp']]],
   ['unresearchabletechfillcolor',['UnresearchableTechFillColor',['../classClientUI.html#a0afab5005ed265c7a4730ee217b85cd4',1,'ClientUI']]],
   ['unresearchabletechtextandbordercolor',['UnresearchableTechTextAndBorderColor',['../classClientUI.html#a5f4ed22bae90aa5645567bda2907502a',1,'ClientUI']]],
   ['unwrapped_5fbound_5fvariable',['unwrapped_bound_variable',['../structparse_1_1detail_1_1simple__variable__rules.html#a345f17d066aea466835e7f2b9db32790',1,'parse::detail::simple_variable_rules::unwrapped_bound_variable()'],['../structparse_1_1string__parser__grammar.html#a4bd7ced0a4fad0c937ca44609e5decab',1,'parse::string_parser_grammar::unwrapped_bound_variable()']]],
