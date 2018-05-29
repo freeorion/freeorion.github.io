@@ -131,6 +131,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae9d0c7301b19363d6b21b362f6e1bbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb79c5895f33a6557dd0561904a2ae2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8cpp.html#acb79c5895f33a6557dd0561904a2ae2c">LoadSaveGamePreviews</a> (const fs::path &amp;orig_path, const std::string &amp;extension, std::vector&lt; <a class="el" href="structFullPreview.html">FullPreview</a> &gt; &amp;previews)</td></tr>
 <tr class="separator:acb79c5895f33a6557dd0561904a2ae2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1daaeac8dc5bd625b2ea8b8dc26f6ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8cpp.html#ac1daaeac8dc5bd625b2ea8b8dc26f6ce">SaveFileWithValidHeader</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:ac1daaeac8dc5bd625b2ea8b8dc26f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fe739e58ad79463fbc01ab3beaedb63"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a4fe739e58ad79463fbc01ab3beaedb63">anonymous_namespace{SaveGamePreviewUtils.cpp}::split_time</a> (const std::string &amp;time)</td></tr>
 <tr class="memdesc:a4fe739e58ad79463fbc01ab3beaedb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits time and date on separate lines for an ISO datetime string.  <a href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a4fe739e58ad79463fbc01ab3beaedb63">More...</a><br /></td></tr>
 <tr class="separator:a4fe739e58ad79463fbc01ab3beaedb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,6 +219,32 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">anonymous_namespace{SaveGamePreviewUtils.cpp}::LoadSaveGamePreviewData()</a>, and <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classSaveFileListBox.html#afa6a7b8ed276ca43633f79f74f416bfe">SaveFileListBox::LoadLocalSaveGamePreviews()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1daaeac8dc5bd625b2ea8b8dc26f6ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SaveFileWithValidHeader </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Attempts to load headers of a save file. Returns true on success, false if header data could not be loaded </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Filename to load headers of </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aeacb8db1a21d733515f3a2280913391d">anonymous_namespace{HumanClientApp.cpp}::NewestSinglePlayerSavegame()</a>.</p>
 
 </div>
 </div>
