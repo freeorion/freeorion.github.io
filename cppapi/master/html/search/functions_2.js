@@ -25,6 +25,7 @@ var searchData=
   ['bindint',['BindInt',['../classShaderProgram.html#a4fe980e60c20cd97912e21abe1f63638',1,'ShaderProgram']]],
   ['bindints',['BindInts',['../classShaderProgram.html#a3d8cd1dd16a6807c1ce64367b838c694',1,'ShaderProgram::BindInts(const std::string &amp;name, int i0, int i1)'],['../classShaderProgram.html#a66f4c042acd273849e85499f6f6d1ba4',1,'ShaderProgram::BindInts(const std::string &amp;name, int i0, int i1, int i2)'],['../classShaderProgram.html#a5b62dacd236042e398225773329e3a58',1,'ShaderProgram::BindInts(const std::string &amp;name, int i0, int i1, int i2, int i3)'],['../classShaderProgram.html#a511ccb27f67743711b8725d085be8719',1,'ShaderProgram::BindInts(const std::string &amp;name, std::size_t element_size, const std::vector&lt; GLint &gt; &amp;ints)']]],
   ['black_5ftarget',['black_target',['../classSystemPathing_1_1BFSVisitorImpl.html#a0e975e7a05d612126fd37427431c2a4d',1,'SystemPathing::BFSVisitorImpl']]],
+  ['block_5fsize',['block_size',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#ac8e4ce68645aa1f91f54b6fbc20cded4',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['blockaded',['Blockaded',['../classFleet.html#ac4f20881b74edb3b2b30fbd32eb3ae9c',1,'Fleet']]],
   ['blockadedatsystem',['BlockadedAtSystem',['../classFleet.html#aa99103c87d1b08e42cb85f42629a8833',1,'Fleet']]],
   ['blocking_5fcombiner',['blocking_combiner',['../structblocking__combiner.html#afdac49c5d473abd522ec847464533195',1,'blocking_combiner']]],

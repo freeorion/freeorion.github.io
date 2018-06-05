@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['objectmap',['ObjectMap',['../classFleet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Fleet::ObjectMap()'],['../classPlanet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Planet::ObjectMap()'],['../classSystem.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'System::ObjectMap()'],['../classUniverseObject.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'UniverseObject::ObjectMap()']]],
-  ['operator_3d_3d',['operator==',['../classShipDesign.html#a2c2c8697e16a625a7abbe85279b64679',1,'ShipDesign']]]
+  ['idle',['Idle',['../classServerApp.html#a381f211de22c597319a6787cf5eef5da',1,'ServerApp']]],
+  ['impl',['Impl',['../classCombatLogWnd.html#ae708b2c3f144ba0c31bb444c4efe8ccf',1,'CombatLogWnd']]],
+  ['intromenu',['IntroMenu',['../classMapWnd.html#aa8bd7c565bd1b6ed91468bdb4fce2937',1,'MapWnd']]]
 ];

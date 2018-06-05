@@ -15,6 +15,7 @@ var searchData=
   ['designwnd',['DesignWnd',['../classDesignWnd.html',1,'']]],
   ['destroy',['Destroy',['../classEffect_1_1Destroy.html',1,'Effect']]],
   ['destroyuniverseobject',['DestroyUniverseObject',['../classModerator_1_1DestroyUniverseObject.html',1,'Moderator']]],
+  ['device_5foperations',['device_operations',['../structboost_1_1iostreams_1_1core__access_1_1device__operations.html',1,'boost::iostreams::core_access']]],
   ['diplomaticmessage',['DiplomaticMessage',['../classDiplomaticMessage.html',1,'']]],
   ['diplomaticstatusupdateinfo',['DiplomaticStatusUpdateInfo',['../structDiplomaticStatusUpdateInfo.html',1,'']]],
   ['disconnectclients',['DisconnectClients',['../structDisconnectClients.html',1,'']]],

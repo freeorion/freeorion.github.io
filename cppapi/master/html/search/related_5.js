@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['idle',['Idle',['../classServerApp.html#a381f211de22c597319a6787cf5eef5da',1,'ServerApp']]],
-  ['impl',['Impl',['../classCombatLogWnd.html#ae708b2c3f144ba0c31bb444c4efe8ccf',1,'CombatLogWnd']]],
-  ['intromenu',['IntroMenu',['../classMapWnd.html#aa8bd7c565bd1b6ed91468bdb4fce2937',1,'MapWnd']]]
+  ['filter_5foperations',['filter_operations',['../classboost_1_1iostreams_1_1core__access.html#aed6ac85955356a2609792caf2b74a086',1,'boost::iostreams::core_access']]],
+  ['fleetuimanager',['FleetUIManager',['../classFleetWnd.html#afbaa71b90035aedd073657c76440350d',1,'FleetWnd']]]
 ];

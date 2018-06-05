@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['base64_5ffilter_2eh',['base64_filter.h',['../base64__filter_8h.html',1,'']]],
   ['binreloc_2ec',['binreloc.c',['../binreloc_8c.html',1,'']]],
   ['binreloc_2eh',['binreloc.h',['../binreloc_8h.html',1,'']]],
   ['blocking_5fcombiner_2eh',['blocking_combiner.h',['../blocking__combiner_8h.html',1,'']]],
