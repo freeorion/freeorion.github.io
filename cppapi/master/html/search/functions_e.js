@@ -16,6 +16,7 @@ var searchData=
   ['neighborscachehit',['NeighborsCacheHit',['../classPathfinder_1_1PathfinderImpl.html#adc5c671d03057a1f1b57b71256846c03',1,'Pathfinder::PathfinderImpl']]],
   ['networking',['Networking',['../classClientApp.html#a2636e04933b84f4e752ca581b6e5ffaa',1,'ClientApp::Networking()'],['../classClientApp.html#a96f48e670bd77ec0fc0725a4965ca659',1,'ClientApp::Networking() const '],['../classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2',1,'ServerApp::Networking()']]],
   ['networkingthread',['NetworkingThread',['../classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c',1,'ClientNetworking::Impl']]],
+  ['newbutton',['NewButton',['../classCUIStyle.html#a0582bd62f3e469ab031364c0ee5e0858',1,'CUIStyle']]],
   ['newconnection',['NewConnection',['../classPlayerConnection.html#a97b118389ea07da19428c54350e77c87',1,'PlayerConnection']]],
   ['newdropdownlist',['NewDropDownList',['../classCUIStyle.html#a3821453c3d76662dc20dc1ee191b4655',1,'CUIStyle']]],
   ['newedit',['NewEdit',['../classCUIStyle.html#a620c51f1c9d2868d98cef196b0d223d7',1,'CUIStyle']]],

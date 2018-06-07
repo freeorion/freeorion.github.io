@@ -11,7 +11,6 @@ var searchData=
   ['savefilelistbox',['SaveFileListBox',['../classSaveFileListBox.html',1,'']]],
   ['savefilerow',['SaveFileRow',['../classSaveFileRow.html',1,'']]],
   ['savegameempiredata',['SaveGameEmpireData',['../structSaveGameEmpireData.html',1,'']]],
-  ['savegamependingdialog',['SaveGamePendingDialog',['../classanonymous__namespace_02HumanClientApp_8cpp_03_1_1SaveGamePendingDialog.html',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['savegamepreviewdata',['SaveGamePreviewData',['../structSaveGamePreviewData.html',1,'']]],
   ['savegameuidata',['SaveGameUIData',['../structSaveGameUIData.html',1,'']]],
   ['scanlinecontrol',['ScanlineControl',['../classScanlineControl.html',1,'']]],
