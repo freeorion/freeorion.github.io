@@ -142,7 +142,7 @@ var searchData=
   ['stringappend',['StringAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1StringAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['stringcast',['StringCast',['../structValueRef_1_1StringCast.html',1,'ValueRef']]],
   ['stringrow',['StringRow',['../classConditionWidget_1_1StringRow.html',1,'ConditionWidget']]],
-  ['stringtable_5f',['StringTable_',['../classStringTable__.html',1,'']]],
+  ['stringtable',['StringTable',['../classStringTable.html',1,'']]],
   ['strip_5fquotes_5f',['strip_quotes_',['../structanonymous__namespace_02Lexer_8cpp_03_1_1strip__quotes__.html',1,'anonymous_namespace{Lexer.cpp}']]],
   ['substitute',['Substitute',['../structanonymous__namespace_02VarText_8cpp_03_1_1Substitute.html',1,'anonymous_namespace{VarText.cpp}']]],
   ['supplymanager',['SupplyManager',['../classSupplyManager.html',1,'']]],

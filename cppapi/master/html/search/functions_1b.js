@@ -104,7 +104,7 @@ var searchData=
   ['_7especialsmanager',['~SpecialsManager',['../classSpecialsManager.html#aadcde8215270b3bfe5cd21f70f57a877',1,'SpecialsManager']]],
   ['_7especies',['~Species',['../classSpecies.html#af36f93648e2dedc2f05b6fb0c067f35e',1,'Species']]],
   ['_7estationaryfleetvisitor',['~StationaryFleetVisitor',['../structStationaryFleetVisitor.html#a7baa062a64418a2396cb94fc46c62654',1,'StationaryFleetVisitor']]],
-  ['_7estringtable_5f',['~StringTable_',['../classStringTable__.html#a480ea9c2858eb0aefc4364f2f2b0f68f',1,'StringTable_']]],
+  ['_7estringtable',['~StringTable',['../classStringTable.html#a1772239d39a3e9c1a190774d827c276a',1,'StringTable']]],
   ['_7esystem',['~System',['../classSystem.html#a3be70bb338e3f062f821173fd15680d0',1,'System']]],
   ['_7esystemicon',['~SystemIcon',['../classSystemIcon.html#aafc2f16628bbdc4da9c6cd049686664c',1,'SystemIcon']]],
   ['_7etech',['~Tech',['../classTech.html#a5a0bcd59c7a4cd69aad2edd16a3531b4',1,'Tech']]],

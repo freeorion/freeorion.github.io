@@ -173,7 +173,7 @@ var searchData=
   ['stringtable_5faccess_5fmutex',['stringtable_access_mutex',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#af3edba2cece46f8254f6e19cdfa3dd44',1,'anonymous_namespace{i18n.cpp}']]],
   ['stringtable_5ffile_5fsuffix',['STRINGTABLE_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a62c9d2a99af39f6cd077bb9c4c64a7c8',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['stringtable_5ffilename_5finit',['stringtable_filename_init',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#a6f9e0cebcaa424e5ef6f9a30989e7519',1,'anonymous_namespace{i18n.cpp}']]],
-  ['stringtables',['stringtables',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#ae92543d5afca782caff95fe3d847c842',1,'anonymous_namespace{i18n.cpp}']]],
+  ['stringtables',['stringtables',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#ae7d221ed3954cb2d8a49303f168bf528',1,'anonymous_namespace{i18n.cpp}']]],
   ['strip_5fquotes',['strip_quotes',['../namespaceanonymous__namespace_02Lexer_8cpp_03.html#a2448483122eb62fa0c84ca2175ed6841',1,'anonymous_namespace{Lexer.cpp}']]],
   ['structure',['structure',['../structHullTypeStats.html#a3751abbef7d0f5a62212365dd5721a90',1,'HullTypeStats']]],
   ['subdirectories',['subdirectories',['../structPreviewInformation.html#a0b4ea30eaa855225e02ce482860a0a31',1,'PreviewInformation']]],
