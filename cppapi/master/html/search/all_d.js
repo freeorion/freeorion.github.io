@@ -230,7 +230,7 @@ var searchData=
   ['m_5fdata',['m_data',['../classGraphControl.html#a770ee4b8f102f1ac82d1deb62c51b913',1,'GraphControl::m_data()'],['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ad16a135e17a761d6833ee17a411c29e7',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage::m_data()']]],
   ['m_5fdead_5fcolor',['m_dead_color',['../classParticipantBar.html#abc6c510482c58c7e8505e99575367353',1,'ParticipantBar']]],
   ['m_5fdead_5flabel',['m_dead_label',['../classSideBar.html#a8ae78db4f2f008f1b9cc24e77b41b89d',1,'SideBar']]],
-  ['m_5fdecorators',['m_decorators',['../classTextLinker.html#a15434dd8d8ddf42419f91c3752b300d6',1,'TextLinker']]],
+  ['m_5fdecorators',['m_decorators',['../classTextLinker.html#a6ebd94abf3b29117db798c2df2195dc4',1,'TextLinker']]],
   ['m_5fdefault_5fcolor',['m_default_color',['../classColorSelector.html#a1195807acd84f2dfdcc445033035e18d',1,'ColorSelector']]],
   ['m_5fdefaulted_5foptions',['m_defaulted_options',['../classCUIWnd.html#ab71b26a24b19103f78dd905e2ab6e407',1,'CUIWnd']]],
   ['m_5fdeferred_5frefresh_5ffleet_5fbuttons',['m_deferred_refresh_fleet_buttons',['../classMapWnd.html#a6774506379d928808d7fe1ee3c38f068',1,'MapWnd']]],

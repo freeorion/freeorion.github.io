@@ -319,6 +319,7 @@ var searchData=
   ['issuecreateshipdesignorderwrapper',['IssueCreateShipDesignOrderWrapper',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae0d244f5300c8029601415adf31cbab1',1,'anonymous_namespace{AIWrapper.cpp}']]],
   ['issuedequeueproductionorder',['IssueDequeueProductionOrder',['../namespaceAIInterface.html#a408ba18a1b140f987a44e82a002aad70',1,'AIInterface']]],
   ['issuedequeuetechorder',['IssueDequeueTechOrder',['../namespaceAIInterface.html#ae3388bc3271076787d1b430a1a40a1d7',1,'AIInterface']]],
+  ['issuedorders',['IssuedOrders',['../namespaceAIInterface.html#adeb67db5e97ca461c147b465bcd2b066',1,'AIInterface']]],
   ['issueenqueuebuildingproductionorder',['IssueEnqueueBuildingProductionOrder',['../namespaceAIInterface.html#a02067e86681fe3200c1e4691e017b862',1,'AIInterface']]],
   ['issueenqueueshipproductionorder',['IssueEnqueueShipProductionOrder',['../namespaceAIInterface.html#a1dfb05db23c6ea8cecf4a52c3440fd5e',1,'AIInterface']]],
   ['issueenqueuetechorder',['IssueEnqueueTechOrder',['../namespaceAIInterface.html#a371cdfab39fc1aca7f4248519498cda3',1,'AIInterface']]],
