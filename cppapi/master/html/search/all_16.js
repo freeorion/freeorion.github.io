@@ -81,7 +81,7 @@ var searchData=
   ['vertices',['vertices',['../structMapWnd_1_1MovementLineData.html#a79350bf1132793ca4a27114a0e9e0b59',1,'MapWnd::MovementLineData']]],
   ['verts',['verts',['../classDelauney_1_1DTTriangle.html#a9a1e2c14bb2e56a332c63a56656302c7',1,'Delauney::DTTriangle::verts()'],['../classDelauney_1_1DTTriangle.html#a8916366f2d2b7da2cd0833d530d2ac64',1,'Delauney::DTTriangle::Verts()']]],
   ['victory',['Victory',['../classEffect_1_1Victory.html',1,'Effect']]],
-  ['victory',['victory',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a48e9f0e8b4d48f35f56c7c838501b229',1,'parse::detail::effect_parser_rules_3::victory()'],['../classEffect_1_1Victory.html#aa9650ecce822ba564eeaa10628f20fd9',1,'Effect::Victory::Victory()']]],
+  ['victory',['Victory',['../classEffect_1_1Victory.html#aa9650ecce822ba564eeaa10628f20fd9',1,'Effect::Victory::Victory()'],['../structparse_1_1detail_1_1effect__parser__rules__3.html#a48e9f0e8b4d48f35f56c7c838501b229',1,'parse::detail::effect_parser_rules_3::victory()']]],
   ['viewing_5fempire_5fid',['viewing_empire_id',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a6d5f3513eb1ffa5d1272ec6b510dbe8d',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::viewing_empire_id()'],['../structHostileVisitor.html#ad93f0433a68e22ea6125f8c89781dfb2',1,'HostileVisitor::viewing_empire_id()']]],
   ['vis_5fdisplay',['VIS_DISPLAY',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['visibilities',['Visibilities',['../classObjectListBox.html#af68f1b68dabaa26034d3e0eb8cab690f',1,'ObjectListBox']]],
