@@ -2,6 +2,7 @@ var searchData=
 [
   ['design_5fprefix_5frule',['design_prefix_rule',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1grammar.html#a30a1119dc345a1f6e48500a0066d026d',1,'anonymous_namespace{ShipDesignsParser.cpp}::grammar']]],
   ['design_5frule',['design_rule',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1grammar.html#ad0fa692fff3fe4e85518925d4b871434',1,'anonymous_namespace{ShipDesignsParser.cpp}::grammar']]],
+  ['difference_5ftype',['difference_type',['../classOrderSet.html#a286ffce15efac513b38ab7ede8540993',1,'OrderSet']]],
   ['diplosignaltype',['DiploSignalType',['../classEmpireManager.html#ae58c4ffc873a1890ce67bf156bbf0879',1,'EmpireManager']]],
   ['discrepancymap',['DiscrepancyMap',['../namespaceEffect.html#ae1d4d73aa564f38667e1bacf6b44daf3',1,'Effect']]],
   ['displayedavailabilies',['DisplayedAvailabilies',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1AvailabilityManager.html#ab63e9b27704f2f7547fd52e4de240d9c',1,'anonymous_namespace{DesignWnd.cpp}::AvailabilityManager']]],

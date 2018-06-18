@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['key_5fcomp',['key_comp',['../classOrderSet.html#a62d5c66046358c3e1d6c132c43fb274e',1,'OrderSet']]],
   ['keyboardzoomin',['KeyboardZoomIn',['../classMapWnd.html#a8f4865c1645797250a5258b7429aa9f2',1,'MapWnd']]],
   ['keyboardzoomout',['KeyboardZoomOut',['../classMapWnd.html#a35c93fddba7b3733a339cd1ea3aaa607',1,'MapWnd']]],
   ['keymaps',['keymaps',['../namespaceparse.html#a1c3e12325d49505ccca4fa81eff017f8',1,'parse']]],

@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['key_5ftype',['key_type',['../structboost_1_1property__traits_3_01constant__property_3_01Key_00_01Value_01_4_01_4.html#a6d856ec22527951e698db734fa2fb033',1,'boost::property_traits&lt; constant_property&lt; Key, Value &gt; &gt;']]],
+  ['key_5fcomp',['key_comp',['../classOrderSet.html#a62d5c66046358c3e1d6c132c43fb274e',1,'OrderSet']]],
+  ['key_5fcompare',['key_compare',['../classOrderSet.html#a50ec9553db930757539ed47431661202',1,'OrderSet']]],
+  ['key_5ftype',['key_type',['../structboost_1_1property__traits_3_01constant__property_3_01Key_00_01Value_01_4_01_4.html#a6d856ec22527951e698db734fa2fb033',1,'boost::property_traits&lt; constant_property&lt; Key, Value &gt; &gt;::key_type()'],['../classOrderSet.html#a824b3c18c9c6caacd08fbfc37d7546d0',1,'OrderSet::key_type()']]],
   ['keyboardzoomin',['KeyboardZoomIn',['../classMapWnd.html#a8f4865c1645797250a5258b7429aa9f2',1,'MapWnd']]],
   ['keyboardzoomout',['KeyboardZoomOut',['../classMapWnd.html#a35c93fddba7b3733a339cd1ea3aaa607',1,'MapWnd']]],
   ['keymap',['keymap',['../structanonymous__namespace_02KeymapParser_8cpp_03_1_1grammar.html#aad66abce08a500dbeb8f31d37509ca4b',1,'anonymous_namespace{KeymapParser.cpp}::grammar::keymap()'],['../namespaceanonymous__namespace_02KeymapParser_8cpp_03.html#acd4879184c34b4dffea7225d1eb12819',1,'anonymous_namespace{KeymapParser.cpp}::Keymap()']]],

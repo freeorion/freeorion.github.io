@@ -74,6 +74,7 @@ var searchData=
   ['anonymous_5fnamespace_7bobjectlistwnd_2ecpp_7d',['anonymous_namespace{ObjectListWnd.cpp}',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7boptionsdb_2ecpp_7d',['anonymous_namespace{OptionsDB.cpp}',['../namespaceanonymous__namespace_02OptionsDB_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7boptionswnd_2ecpp_7d',['anonymous_namespace{OptionsWnd.cpp}',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7borderset_2ecpp_7d',['anonymous_namespace{OrderSet.cpp}',['../namespaceanonymous__namespace_02OrderSet_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpasswordenterwnd_2ecpp_7d',['anonymous_namespace{PasswordEnterWnd.cpp}',['../namespaceanonymous__namespace_02PasswordEnterWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpathfinder_2ecpp_7d',['anonymous_namespace{Pathfinder.cpp}',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bplanet_2ecpp_7d',['anonymous_namespace{Planet.cpp}',['../namespaceanonymous__namespace_02Planet_8cpp_03.html',1,'']]],

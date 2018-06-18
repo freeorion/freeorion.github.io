@@ -13,6 +13,7 @@ var searchData=
   ['signature_5ft',['Signature_t',['../structparse_1_1detail_1_1BracketedParserSignature_3_01Synthesized_07Inherited_8_8_8_08_4.html#ac3d27b6bb61ce702f4306be685a36c73',1,'parse::detail::BracketedParserSignature&lt; Synthesized(Inherited...)&gt;']]],
   ['simultaneouseventsptr',['SimultaneousEventsPtr',['../structSimultaneousEvents.html#aac1832dc79c1513a0858eaf7d1636ab1',1,'SimultaneousEvents']]],
   ['sitrepitr',['SitRepItr',['../classEmpire.html#a5fddec02770125e339370c5886be9bcd',1,'Empire']]],
+  ['size_5ftype',['size_type',['../classOrderSet.html#a3b029af6ea82c96a3b3c83ee012e6187',1,'OrderSet']]],
   ['skipper_5ftype',['skipper_type',['../namespaceparse.html#a73ed2f3013a63e67745571a738847cb7',1,'parse']]],
   ['slot_5frule',['slot_rule',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#acec2cef12833663fa9ab7d9a109d35dd',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
   ['smallintdisttype',['SmallIntDistType',['../Random_8h.html#a5d8e1e9d4af1678d05d189ef094e9560',1,'Random.h']]],
