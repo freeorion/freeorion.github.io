@@ -11,5 +11,8 @@ var searchData=
   ['role_5fclient_5ftype_5fplayer',['ROLE_CLIENT_TYPE_PLAYER',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaa9fe0dedc98ae575c5049bbf6c6e9703e',1,'Networking']]],
   ['role_5fgalaxy_5fsetup',['ROLE_GALAXY_SETUP',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaaf2f41618ed3215d7da04a0ea6b3de0c9',1,'Networking']]],
   ['role_5fhost',['ROLE_HOST',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaa92d43868708aefda9577369f46911aad',1,'Networking']]],
-  ['roles_5fcount',['Roles_Count',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaae0f9107c9d0fdbb44224e3f79280468d',1,'Networking']]]
+  ['roles_5fcount',['Roles_Count',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaae0f9107c9d0fdbb44224e3f79280468d',1,'Networking']]],
+  ['round_5fdown',['ROUND_DOWN',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a2ba4b89fdfee9d57653e6f790eae59a4',1,'ValueRef']]],
+  ['round_5fnearest',['ROUND_NEAREST',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407add13b3322d92bc493b4e319082863938',1,'ValueRef']]],
+  ['round_5fup',['ROUND_UP',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407aa0738e5cd7141feb8d25b70c189f814f',1,'ValueRef']]]
 ];
