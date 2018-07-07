@@ -96,21 +96,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>encasulates the data for a single FreeOrion technology  
+ <a href="classTech.html#details">More...</a></p>
+
 <p><code>#include &lt;Tech.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTech_1_1TechInfo.html">TechInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct for parsing tech definitions.  <a href="structTech_1_1TechInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:abe9d143687202f512def6aff0bce035d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#abe9d143687202f512def6aff0bce035d">Tech</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;short_description, const std::string &amp;category, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; double &gt;&gt; &amp;&amp;research_cost, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt;&gt; &amp;&amp;research_turns, bool researchable, const std::set&lt; std::string &gt; &amp;tags, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;effects, const std::set&lt; std::string &gt; &amp;prerequisites, const std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &amp;unlocked_items, const std::string &amp;graphic)</td></tr>
+<tr class="memdesc:abe9d143687202f512def6aff0bce035d"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work.  <a href="#abe9d143687202f512def6aff0bce035d">More...</a><br /></td></tr>
 <tr class="separator:abe9d143687202f512def6aff0bce035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa358bfcb9588b82eec34fac1407531d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#aa358bfcb9588b82eec34fac1407531d2">Tech</a> (<a class="el" href="structTech_1_1TechInfo.html">TechInfo</a> &amp;tech_info, std::vector&lt; std::unique_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;&amp;effects, const std::set&lt; std::string &gt; &amp;prerequisites, const std::vector&lt; <a class="el" href="structItemSpec.html">ItemSpec</a> &gt; &amp;unlocked_items, const std::string &amp;graphic)</td></tr>
+<tr class="memdesc:aa358bfcb9588b82eec34fac1407531d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work.  <a href="#aa358bfcb9588b82eec34fac1407531d2">More...</a><br /></td></tr>
 <tr class="separator:aa358bfcb9588b82eec34fac1407531d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a0bcd59c7a4cd69aad2edd16a3531b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#a5a0bcd59c7a4cd69aad2edd16a3531b4">~Tech</a> ()</td></tr>
+<tr class="memdesc:a5a0bcd59c7a4cd69aad2edd16a3531b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work.  <a href="#a5a0bcd59c7a4cd69aad2edd16a3531b4">More...</a><br /></td></tr>
 <tr class="separator:a5a0bcd59c7a4cd69aad2edd16a3531b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a9eed1f317f50355afdceab094a5f16ff"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#a9eed1f317f50355afdceab094a5f16ff">Name</a> () const </td></tr>
@@ -144,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae0876ee952aef019432877e8cf6da945"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns name of this tech  <a href="#ae0876ee952aef019432877e8cf6da945">More...</a><br /></td></tr>
 <tr class="separator:ae0876ee952aef019432877e8cf6da945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7db01fbdc81ef74fc13f57d51a947b1d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#a7db01fbdc81ef74fc13f57d51a947b1d">Effects</a> () const </td></tr>
+<tr class="memdesc:a7db01fbdc81ef74fc13f57d51a947b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the effects that are applied to the discovering empire's capital when this tech is researched; not all techs have effects, in which case this returns 0  <a href="#a7db01fbdc81ef74fc13f57d51a947b1d">More...</a><br /></td></tr>
 <tr class="separator:a7db01fbdc81ef74fc13f57d51a947b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00306bb7c5534690836e51469535889"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#ac00306bb7c5534690836e51469535889">Prerequisites</a> () const </td></tr>
 <tr class="memdesc:ac00306bb7c5534690836e51469535889"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of names of all techs required before this one can be researched  <a href="#ac00306bb7c5534690836e51469535889">More...</a><br /></td></tr>
@@ -158,6 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a43577a1d1bc83bb58536e3ec9bf6e557"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of names of all techs for which this one is a prerequisite  <a href="#a43577a1d1bc83bb58536e3ec9bf6e557">More...</a><br /></td></tr>
 <tr class="separator:a43577a1d1bc83bb58536e3ec9bf6e557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8497d39c778ffa6cbb393f95c153271"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTech.html#ab8497d39c778ffa6cbb393f95c153271">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:ab8497d39c778ffa6cbb393f95c153271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#ab8497d39c778ffa6cbb393f95c153271">More...</a><br /></td></tr>
 <tr class="separator:ab8497d39c778ffa6cbb393f95c153271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -289,6 +298,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work. </p>
 
 <p>References <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>, and <a class="el" href="classTech.html#ac2fcb3ebaef778c3d072cdaf705c3a16">m_tags</a>.</p>
@@ -336,6 +346,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work. </p>
 
 <p>References <a class="el" href="classTech.html#a2f68e0b8c259b8170314b0bdfe25da4c">Init()</a>, <a class="el" href="classTech.html#a9badb85d307a75175d8aad816a76e13b">m_effects</a>, <a class="el" href="classTech.html#ac2fcb3ebaef778c3d072cdaf705c3a16">m_tags</a>, and <a class="el" href="structTech_1_1TechInfo.html#a9825c7fd7078cb0f524b1e5f982d6964">Tech::TechInfo::tags</a>.</p>
@@ -354,6 +365,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>basic ctor taking helper struct to reduce number of direct parameters in order to making parsing work. </p>
 
 </div>
@@ -477,6 +489,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns the effects that are applied to the discovering empire's capital when this tech is researched; not all techs have effects, in which case this returns 0 </p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelTechTag()</a>.</p>
@@ -495,7 +508,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classTech.html#acaf072114777160c89a908fcf93fec42">m_category</a>, <a class="el" href="classTech.html#afa12228ddd39c72461f13f62abf76f16">m_description</a>, <a class="el" href="classTech.html#a9badb85d307a75175d8aad816a76e13b">m_effects</a>, <a class="el" href="classTech.html#a3b37195f2b98158d6a8bde7adb7c7bcf">m_graphic</a>, <a class="el" href="classTech.html#ac2c51e593211aac719ff4d8f75709340">m_name</a>, <a class="el" href="classTech.html#a34d8f3b9fc57150b1a7741ea1cd52b15">m_prerequisites</a>, <a class="el" href="classTech.html#ade5326e4bc93cb2fab8565e5762ce52d">m_research_cost</a>, <a class="el" href="classTech.html#a7f9da0fb698e3b340683cad69f05381b">m_research_turns</a>, <a class="el" href="classTech.html#ab6ec0165d8f5df85d72950cd6be3a01c">m_researchable</a>, <a class="el" href="classTech.html#ae8a9481a306685744d13d68e81f9c33c">m_short_description</a>, <a class="el" href="classTech.html#ac2fcb3ebaef778c3d072cdaf705c3a16">m_tags</a>, <a class="el" href="classTech.html#abe94227fe5f3fa449fc5b7f4d65e6956">m_unlocked_items</a>, and <a class="el" href="classTech.html#a0b3e467ca1076fb53168a6ee4e1def94">m_unlocked_techs</a>.</p>
 

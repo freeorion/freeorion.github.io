@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Logs period during which a this object or named sub sections existed.  
+ <a href="classSectionedScopedTimer.html#details">More...</a></p>
+
 <p><code>#include &lt;ScopedTimer.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -111,6 +114,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a63bad1a11fc01af8a76f8cdaeb0570b0">~SectionedScopedTimer</a> ()</td></tr>
 <tr class="separator:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb3eebdb3c4e3c9b3f1dbe3905a25ba3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3">EnterSection</a> (const std::string &amp;section_name)</td></tr>
+<tr class="memdesc:aeb3eebdb3c4e3c9b3f1dbe3905a25ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start recording times for <code>section_name</code>.  <a href="#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3">More...</a><br /></td></tr>
 <tr class="separator:aeb3eebdb3c4e3c9b3f1dbe3905a25ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -119,40 +123,16 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5330e058ed9987af018a2624bdc39ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Similar to <a class="el" href="classScopedTimer.html">ScopedTimer</a> <a class="el" href="classSectionedScopedTimer.html">SectionedScopedTimer</a> times the duration of its own existence. It also allows the creation of sub section timers. Timers are created by calling EnterSection(name).</p>
+<div class="textblock"><p>Logs period during which a this object or named sub sections existed. </p>
+<p>Similar to <a class="el" href="classScopedTimer.html" title="Logs period during which this object existed. ">ScopedTimer</a> <a class="el" href="classSectionedScopedTimer.html" title="Logs period during which a this object or named sub sections existed. ">SectionedScopedTimer</a> times the duration of its own existence. It also allows the creation of sub section timers. Timers are created by calling <a class="el" href="classSectionedScopedTimer.html#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3" title="Start recording times for section_name. ">EnterSection()</a>.</p>
 <p>Only one sub-section timer is active at any time.</p>
 <p>Timers can be re-entered, which is effective to profile looping structures.</p>
 <p>Any name is valid except an empty string. Calling EnterSection("") will stop the currently running sub section timer. The total time will still keep running.</p>
-<p>When <a class="el" href="classSectionedScopedTimer.html">SectionedScopedTimer</a> goes out of scope it will print a table of its elapsed time and the sub sections.</p>
+<p>When <a class="el" href="classSectionedScopedTimer.html" title="Logs period during which a this object or named sub sections existed. ">SectionedScopedTimer</a> goes out of scope it will print a table of its elapsed time and the sub sections.</p>
 <p>It only prints times if the time is greater than the threshold. Each section is only printed if its time is greater than the threshold. The whole table is only printed if the total time is greater than the threshold.</p>
-<p>The tables of times will look like the following:</p>
-<p>Title - Section time: xxxx ms Title - Section2 time: xxxx ms Title time: xxxx ms</p>
 <p>The following is a usage example. It shows how to create timer with a section before a loop, two sections in a loop, a section after a loop and a section that will not be timed.</p>
-<p>Usage:</p>
-<p>void function_to_profile () { </p><pre class="fragment">SectionedScopedTimer timer("Title", std::chrono::milliseconds(1));
-timer.EnterSection("initial section");
-
-profiled_code();
-
-for () {
-    timer.EnterSection("for loop 1 section");
-
-    more_code();
-
-    timer.EnterSection("for loop 2 section");
-
-    even_more_code();
-}
-
-timer.EnterSection(""); // don't time this section
-
-untimed_code();
-
-timer.EnterSection("final section");
-
-final_timed_code()
-</pre><p> } </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> function_to_profile () {</div><div class="line"></div><div class="line">    <a class="code" href="classSectionedScopedTimer.html">SectionedScopedTimer</a> timer(<span class="stringliteral">&quot;Title&quot;</span>, std::chrono::milliseconds(1));</div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;initial section&quot;</span>);</div><div class="line"></div><div class="line">    profiled_code();</div><div class="line"></div><div class="line">    <span class="keywordflow">for</span> () {</div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 1 section&quot;</span>);</div><div class="line"></div><div class="line">        more_code();</div><div class="line"></div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 2 section&quot;</span>);</div><div class="line"></div><div class="line">        even_more_code();</div><div class="line">    }</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;&quot;</span>); <span class="comment">// don&#39;t time this section</span></div><div class="line"></div><div class="line">    untimed_code();</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;final section&quot;</span>);</div><div class="line"></div><div class="line">    final_timed_code()</div><div class="line">}</div></div><!-- fragment --><p>The tables of times will look like the following:</p>
+<div class="fragment"><div class="line">Title - initial section    time: xxxx ms</div><div class="line">Title - <span class="keywordflow">for</span> loop 1 section time: xxxx ms</div><div class="line">Title - <span class="keywordflow">for</span> loop 2 section time: xxxx ms</div><div class="line">Title - <span class="keyword">final</span> section      time: xxxx ms</div><div class="line">Title                      time: xxxx ms</div></div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a72057de120ec4924101cb2c8b1d7e8f4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +220,9 @@ final_timed_code()
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Start recording times for <code>section_name</code>. This can be called multiple times to add more time to a previously created section. Use this feature to profile separate parts of loop strucures. </p>
+
+<p>Start recording times for <code>section_name</code>. </p>
+<p>This can be called multiple times to add more time to a previously created section. Use this feature to profile separate parts of loop strucures. </p>
 
 <p>References <a class="el" href="classSectionedScopedTimer.html#a5330e058ed9987af018a2624bdc39ae8">m_impl</a>.</p>
 

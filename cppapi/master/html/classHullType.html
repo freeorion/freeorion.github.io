@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Specification for the hull, or base, on which ship designs are created by adding parts.  
+ <a href="classHullType.html#details">More...</a></p>
+
 <p><code>#include &lt;ShipDesign.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -183,6 +186,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac49bd34b1df9a3f1719d3a6e02be7e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the names of other content that cannot be used in the same ship design as this part  <a href="#ac49bd34b1df9a3f1719d3a6e02be7e67">More...</a><br /></td></tr>
 <tr class="separator:ac49bd34b1df9a3f1719d3a6e02be7e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb9ddb36679efec50edf69074cfa4104"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullType.html#afb9ddb36679efec50edf69074cfa4104">Effects</a> () const </td></tr>
+<tr class="memdesc:afb9ddb36679efec50edf69074cfa4104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the EffectsGroups that encapsulate the effects this part hull has.  <a href="#afb9ddb36679efec50edf69074cfa4104">More...</a><br /></td></tr>
 <tr class="separator:afb9ddb36679efec50edf69074cfa4104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4acc231778cf3d8eb8256232c289b84a"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullType.html#a4acc231778cf3d8eb8256232c289b84a">Graphic</a> () const </td></tr>
 <tr class="memdesc:a4acc231778cf3d8eb8256232c289b84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the image that represents the hull on the design screen  <a href="#a4acc231778cf3d8eb8256232c289b84a">More...</a><br /></td></tr>
@@ -191,6 +195,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4ee814fda53990cdabb83d72dbae2081"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the small icon to represent hull  <a href="#a4ee814fda53990cdabb83d72dbae2081">More...</a><br /></td></tr>
 <tr class="separator:a4ee814fda53990cdabb83d72dbae2081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a302cee3faafa36f72fb370bda05fb095"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullType.html#a302cee3faafa36f72fb370bda05fb095">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:a302cee3faafa36f72fb370bda05fb095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#a302cee3faafa36f72fb370bda05fb095">More...</a><br /></td></tr>
 <tr class="separator:a302cee3faafa36f72fb370bda05fb095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -246,7 +251,8 @@ Friends</h2></td></tr>
 <tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Specification for the hull, or base, on which ship designs are created by adding parts. The hull determines some final design characteristics directly, and also determine how many parts can be added to the design. </p>
+<div class="textblock"><p>Specification for the hull, or base, on which ship designs are created by adding parts. </p>
+<p>The hull determines some final design characteristics directly, and also determine how many parts can be added to the design. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a24ee2fabb43077b5537daca8f592d267"></a>
 <div class="memitem">
@@ -432,6 +438,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the EffectsGroups that encapsulate the effects this part hull has. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a29d833ce08232f14de4e69270f0a7473">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelShipHullTag()</a>.</p>
@@ -504,7 +511,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="classHullType.html#a3b5a39a0d872f3fcccf62a8eb7fb0c8b">m_description</a>, <a class="el" href="classHullType.html#aa78f9995c5061e81db47931a5ec6d7c7">m_effects</a>, <a class="el" href="classHullType.html#a80b0c9842048e0b312a8ed3a5bfe611f">m_exclusions</a>, <a class="el" href="classHullType.html#ac17d872fc0be12914d106d4fefccd16f">m_fuel</a>, <a class="el" href="classHullType.html#a58d564238c2f9838189b5e3d15dea6ea">m_graphic</a>, <a class="el" href="classHullType.html#a630355e2b85dbd7bb6250f36b7ab1f67">m_icon</a>, <a class="el" href="classHullType.html#a9bd88c574bba8fbda6280ea0a93859c8">m_location</a>, <a class="el" href="classHullType.html#afc51b7d4a767922b89e00b69cdde7db5">m_name</a>, <a class="el" href="classHullType.html#ae8f48ce90a39998ec93d840e53569dbe">m_producible</a>, <a class="el" href="classHullType.html#ae0fc0c60c44216dd7827a983fb7f6b7d">m_production_cost</a>, <a class="el" href="classHullType.html#a54ccd3802df2b64698ee3609e4ff2018">m_production_meter_consumption</a>, <a class="el" href="classHullType.html#a97f0a09446cbdcf036221a8d8202fac2">m_production_special_consumption</a>, <a class="el" href="classHullType.html#a86f767e961b7f8a33e5dd123b906d6c0">m_production_time</a>, <a class="el" href="classHullType.html#afb3b35e7a0ed0dafc89d2933044ad152">m_slots</a>, <a class="el" href="classHullType.html#a372b65e9b29b86ae2d50b9a5c4650af9">m_speed</a>, <a class="el" href="classHullType.html#aef38f9070cb7d83c3e1a3caa4b9872c1">m_stealth</a>, <a class="el" href="classHullType.html#a7ba2628e085eeb99f0e2ec067e658012">m_structure</a>, <a class="el" href="classHullType.html#a64878ee4b677c1116e079e6d437a08a6">m_tags</a>, and <a class="el" href="classHullTypeManager.html#a530c13a3335d188d5e2ac3661ecff316">HullTypeManager::s_instance</a>.</p>
 

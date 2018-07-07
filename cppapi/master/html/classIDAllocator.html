@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> coordinates the allocation of new IDs between the server and a number of empires, id consumers.  
+ <a href="classIDAllocator.html#details">More...</a></p>
+
 <p><code>#include &lt;IDAllocator.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -106,23 +109,29 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a76292467268eb19fa3654fc88365cf2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d">IDAllocator</a> (const int server_id, const std::vector&lt; int &gt; &amp;client_ids, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> invalid_id, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> temp_id, const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> highest_pre_allocated_id)</td></tr>
+<tr class="memdesc:a76292467268eb19fa3654fc88365cf2d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>client_ids</code> are all the player ids in the game.  <a href="#a76292467268eb19fa3654fc88365cf2d">More...</a><br /></td></tr>
 <tr class="separator:a76292467268eb19fa3654fc88365cf2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c33a323ecd0aafff1219940ea897e9"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#ad6c33a323ecd0aafff1219940ea897e9">IsIDValidAndUnused</a> (const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> id, const int empire_id)</td></tr>
+<tr class="memdesc:ad6c33a323ecd0aafff1219940ea897e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return {hard_success, soft_success} where <code>hard_success</code> determines if <code>id</code> is unused and valid and <code>soft_success</code> determines if <code>id</code> is in the id space of <code>empire_id</code>.  <a href="#ad6c33a323ecd0aafff1219940ea897e9">More...</a><br /></td></tr>
 <tr class="separator:ad6c33a323ecd0aafff1219940ea897e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c2005edf427a63380cade908a6738f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#ae2c2005edf427a63380cade908a6738f">NewID</a> ()</td></tr>
 <tr class="memdesc:ae2c2005edf427a63380cade908a6738f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a valid new id. This is used by both clients and servers.  <a href="#ae2c2005edf427a63380cade908a6738f">More...</a><br /></td></tr>
 <tr class="separator:ae2c2005edf427a63380cade908a6738f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa274adad372b06131e8fe8201a42e7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">ObfuscateBeforeSerialization</a> ()</td></tr>
+<tr class="memdesc:afa274adad372b06131e8fe8201a42e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ObfuscateBeforeSerialization randomizes which client is using which modulus each turn before <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> is serialized and sent to the clients.  <a href="#afa274adad372b06131e8fe8201a42e7d">More...</a><br /></td></tr>
 <tr class="separator:afa274adad372b06131e8fe8201a42e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e51cae26c5545794be685d43d1dd8ff"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
 <tr class="memitem:a5e51cae26c5545794be685d43d1dd8ff"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a5e51cae26c5545794be685d43d1dd8ff">SerializeForEmpire</a> (Archive &amp;ar, const unsigned int version, int empire_id)</td></tr>
+<tr class="memdesc:a5e51cae26c5545794be685d43d1dd8ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize while stripping out information not known to <code>empire_id</code>.  <a href="#a5e51cae26c5545794be685d43d1dd8ff">More...</a><br /></td></tr>
 <tr class="separator:a5e51cae26c5545794be685d43d1dd8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30aae0b452643d9150e47f885a7c95dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a30aae0b452643d9150e47f885a7c95dd">UpdateIDAndCheckIfOwned</a> (const <a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> id)</td></tr>
+<tr class="memdesc:a30aae0b452643d9150e47f885a7c95dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">UpdateIDAndCheckIfOwned behaves differently on the server and clients.  <a href="#a30aae0b452643d9150e47f885a7c95dd">More...</a><br /></td></tr>
 <tr class="separator:a30aae0b452643d9150e47f885a7c95dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:afc3de973b0d3d00e318f8866c761b901"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID</a> (<a class="el" href="classIDAllocator.html#ab4485ea938807cff674b704cd792615a">ID_t</a> id)</td></tr>
+<tr class="memdesc:afc3de973b0d3d00e318f8866c761b901"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire that should have assigned <code>id</code>.  <a href="#afc3de973b0d3d00e318f8866c761b901">More...</a><br /></td></tr>
 <tr class="separator:afc3de973b0d3d00e318f8866c761b901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b2e3c3edf08b4942087712c5623852c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDAllocator.html#a8b2e3c3edf08b4942087712c5623852c">IncrementNextAssignedId</a> (const int assigning_empire, const int checked_id)</td></tr>
 <tr class="memdesc:a8b2e3c3edf08b4942087712c5623852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the next assigned id for an empire until it is past checked_id.  <a href="#a8b2e3c3edf08b4942087712c5623852c">More...</a><br /></td></tr>
@@ -162,10 +171,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a47ef43e07e8649af3d388b61459e5baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classIDAllocator.html">IDAllocator</a> coordinates the allocation of new IDs between the server and a number of empires, id consumers.</p>
+<div class="textblock"><p>The <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> coordinates the allocation of new IDs between the server and a number of empires, id consumers. </p>
 <p>IDs are ints. The id consumers have disjoint id spaces. All consumers have a common m_stride and a unique initial offset modulo m_stride. Each id consumer only receives new ids from the set number of numbers x, where (x % m_stride == consumer's initial offset).</p>
-<p>The <a class="el" href="classIDAllocator.html">IDAllocator</a> is associated with a single empire id. The constructor creates the server association. Once serialized for another empire_id then it is associated with that new (lesser) empire id, and will no longer have the complete table.</p>
-<p>TODO: Replace <a class="el" href="classIDAllocator.html">IDAllocator</a> with using UUID as the id type ID_t instead of int. This does not require coordination between clients and servers and does not leak any information to clients about other client's allocations. </p>
+<p>The <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> is associated with a single empire id. The constructor creates the server association. Once serialized for another empire_id then it is associated with that new (lesser) empire id, and will no longer have the complete table.</p>
+<p>TODO: Replace <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> with using UUID as the id type ID_t instead of int. This does not require coordination between clients and servers and does not leak any information to clients about other client's allocations. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="ab4485ea938807cff674b704cd792615a"></a>
 <div class="memitem">
@@ -221,7 +230,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><code>client_ids</code> are all the player ids in the game. <code>highest_pre_allocated_id</code> is the used for legacy loads to offset the newly allocated id to after the ones from the save game. </p>
+
+<p><code>client_ids</code> are all the player ids in the game. </p>
+<p><code>highest_pre_allocated_id</code> is the used for legacy loads to offset the newly allocated id to after the ones from the save game. </p>
 
 <p>References <a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID()</a>, <a class="el" href="classIDAllocator.html#acd270b473eab79734aa318c89b1bc317">m_empire_id</a>, <a class="el" href="classIDAllocator.html#a3259a15398ae3b0f2798df0d75bbb2b0">m_empire_id_to_next_assigned_object_id</a>, <a class="el" href="classIDAllocator.html#a7637aa6c770e85e554db37e07ccd7822">m_exhausted_threshold</a>, <a class="el" href="classIDAllocator.html#af12744c510bf9982f78a7ee613a30018">m_invalid_id</a>, <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>, <a class="el" href="classIDAllocator.html#a4073337448ac3b4998988a30e776e6ed">m_random_generator</a>, <a class="el" href="classIDAllocator.html#af898bcbd3a16e7c303a8fb2be7055fad">m_server_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, <a class="el" href="classIDAllocator.html#ac80f670211bc3d0ca1021fc13cb01fda">m_temp_id</a>, <a class="el" href="classIDAllocator.html#a26c21399f6b199888d2bcc7c4497ab4c">m_warn_threshold</a>, <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
@@ -249,6 +260,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the empire that should have assigned <code>id</code>. </p>
 
 <p>References <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, and <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>.</p>
@@ -320,7 +332,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return {hard_success, soft_success} where <code>hard_success</code> determines if <code>id</code> is unused and valid and <code>soft_success</code> determines if <code>id</code> is in the id space of <code>empire_id</code>. This allows errors that are probably due to legacy loading and order processing to be ignored for now. </p>
+
+<p>Return {hard_success, soft_success} where <code>hard_success</code> determines if <code>id</code> is unused and valid and <code>soft_success</code> determines if <code>id</code> is in the id space of <code>empire_id</code>. </p>
+<p>This allows errors that are probably due to legacy loading and order processing to be ignored for now. </p>
 
 <p>References <a class="el" href="classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901">AssigningEmpireForID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classIDAllocator.html#acd270b473eab79734aa318c89b1bc317">m_empire_id</a>, <a class="el" href="classIDAllocator.html#a3259a15398ae3b0f2798df0d75bbb2b0">m_empire_id_to_next_assigned_object_id</a>, <a class="el" href="classIDAllocator.html#a7637aa6c770e85e554db37e07ccd7822">m_exhausted_threshold</a>, <a class="el" href="classIDAllocator.html#af12744c510bf9982f78a7ee613a30018">m_invalid_id</a>, <a class="el" href="classIDAllocator.html#af898bcbd3a16e7c303a8fb2be7055fad">m_server_id</a>, <a class="el" href="classIDAllocator.html#ac80f670211bc3d0ca1021fc13cb01fda">m_temp_id</a>, <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
@@ -359,7 +373,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>ObfuscateBeforeSerialization randomizes which client is using which modulus each turn before <a class="el" href="classIDAllocator.html">IDAllocator</a> is serialized and sent to the clients. </p>
+
+<p>ObfuscateBeforeSerialization randomizes which client is using which modulus each turn before <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> is serialized and sent to the clients. </p>
 <p>Do three things to obfuscate the number of ids allocated by each client:</p><ol type="1">
 <li>Randomize the association of modulus and client id.</li>
 <li>Advance all clients to the same offset plus their new modulus.</li>
@@ -401,6 +416,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Serialize while stripping out information not known to <code>empire_id</code>. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classIDAllocator.html#acd270b473eab79734aa318c89b1bc317">m_empire_id</a>, <a class="el" href="classIDAllocator.html#a3259a15398ae3b0f2798df0d75bbb2b0">m_empire_id_to_next_assigned_object_id</a>, <a class="el" href="classIDAllocator.html#a7637aa6c770e85e554db37e07ccd7822">m_exhausted_threshold</a>, <a class="el" href="classIDAllocator.html#af12744c510bf9982f78a7ee613a30018">m_invalid_id</a>, <a class="el" href="classIDAllocator.html#a6afd02cc63196d5512b3d28bca5e184a">m_offset_to_empire_id</a>, <a class="el" href="classIDAllocator.html#af898bcbd3a16e7c303a8fb2be7055fad">m_server_id</a>, <a class="el" href="classIDAllocator.html#a9c038c8679cdd7cff316a715fc3d501d">m_stride</a>, <a class="el" href="classIDAllocator.html#ac80f670211bc3d0ca1021fc13cb01fda">m_temp_id</a>, <a class="el" href="classIDAllocator.html#a26c21399f6b199888d2bcc7c4497ab4c">m_warn_threshold</a>, and <a class="el" href="classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf">m_zero</a>.</p>
@@ -449,7 +465,8 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>UpdateIDAndCheckIfOwned behaves differently on the server and clients.</p>
+
+<p>UpdateIDAndCheckIfOwned behaves differently on the server and clients. </p>
 <p>On the server, it determines which client allocated <code>id</code> and updates the next allocated id of that client. It then returns true. This means that the server has a master list of the maximum id used by each client and can use all ids as valid ids when executing orders.</p>
 <p>On the client it returns true iff this client allocated <code>id</code> and does nothing else. That means that id modulo m_stride == client's offset. </p>
 

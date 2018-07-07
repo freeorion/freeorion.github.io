@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Holds FreeOrion ship part types.  
+ <a href="classPartTypeManager.html#details">More...</a></p>
+
 <p><code>#include &lt;ShipDesign.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -109,6 +112,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a28d117700fde2e3759b0b1eea8c4509e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a28d117700fde2e3759b0b1eea8c4509e">SetPartTypes</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classPartTypeManager.html#a13deb64a7f2b7ec677076fec5a2cf1f1">PartTypeMap</a> &gt; &amp;&amp;pending_part_types)</td></tr>
+<tr class="memdesc:a28d117700fde2e3759b0b1eea8c4509e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets part types to the future value of <code>pending_part_types</code>.  <a href="#a28d117700fde2e3759b0b1eea8c4509e">More...</a><br /></td></tr>
 <tr class="separator:a28d117700fde2e3759b0b1eea8c4509e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -116,13 +120,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:af2392b1c6b9432bececdbe74c0113721"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#af2392b1c6b9432bececdbe74c0113721">PartTypeManager</a> ()</td></tr>
 <tr class="separator:af2392b1c6b9432bececdbe74c0113721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708451924bb640fc8108cf963d3ddae2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a708451924bb640fc8108cf963d3ddae2">CheckPendingPartTypes</a> () const </td></tr>
+<tr class="memdesc:a708451924bb640fc8108cf963d3ddae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns any m_pending_part_types to m_bulding_types.  <a href="#a708451924bb640fc8108cf963d3ddae2">More...</a><br /></td></tr>
 <tr class="separator:a708451924bb640fc8108cf963d3ddae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:afc0872ab65135ae22aca1966299a356e"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classPartType.html">PartType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#afc0872ab65135ae22aca1966299a356e">m_parts</a></td></tr>
+<tr class="memdesc:afc0872ab65135ae22aca1966299a356e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of part types.  <a href="#afc0872ab65135ae22aca1966299a356e">More...</a><br /></td></tr>
 <tr class="separator:afc0872ab65135ae22aca1966299a356e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2ee9f40f08aec90c1d92743b6c9d7a"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classPartTypeManager.html#a13deb64a7f2b7ec677076fec5a2cf1f1">PartTypeMap</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a7f2ee9f40f08aec90c1d92743b6c9d7a">m_pending_part_types</a> = boost::none</td></tr>
+<tr class="memdesc:a7f2ee9f40f08aec90c1d92743b6c9d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Future part type being parsed by parser.  <a href="#a7f2ee9f40f08aec90c1d92743b6c9d7a">More...</a><br /></td></tr>
 <tr class="separator:a7f2ee9f40f08aec90c1d92743b6c9d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -133,18 +140,23 @@ Static Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
 <tr class="memitem:a2d7bc09f052d621d995e19ee6f54a324"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classPartType.html">PartType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a2d7bc09f052d621d995e19ee6f54a324">GetPartType</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:a2d7bc09f052d621d995e19ee6f54a324"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the part type with the name <em>name</em>; you should use the free function <a class="el" href="classPartTypeManager.html#a2d7bc09f052d621d995e19ee6f54a324" title="returns the part type with the name name; you should use the free function GetPartType() instead ...">GetPartType()</a> instead  <a href="#a2d7bc09f052d621d995e19ee6f54a324">More...</a><br /></td></tr>
 <tr class="separator:a2d7bc09f052d621d995e19ee6f54a324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad235743c7eeb6bdac0c480b43b0daf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPartTypeManager.html#a41b6b512a22a4a80375a338d768c2be5">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#aad235743c7eeb6bdac0c480b43b0daf1">begin</a> () const </td></tr>
+<tr class="memdesc:aad235743c7eeb6bdac0c480b43b0daf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first part type  <a href="#aad235743c7eeb6bdac0c480b43b0daf1">More...</a><br /></td></tr>
 <tr class="separator:aad235743c7eeb6bdac0c480b43b0daf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9371fea1451b020964ef7da7ada5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPartTypeManager.html#a41b6b512a22a4a80375a338d768c2be5">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a6a9371fea1451b020964ef7da7ada5cf">end</a> () const </td></tr>
+<tr class="memdesc:a6a9371fea1451b020964ef7da7ada5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1th part type  <a href="#a6a9371fea1451b020964ef7da7ada5cf">More...</a><br /></td></tr>
 <tr class="separator:a6a9371fea1451b020964ef7da7ada5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9028377c241cd88679f8d00f0ca80738"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a9028377c241cd88679f8d00f0ca80738">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:a9028377c241cd88679f8d00f0ca80738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#a9028377c241cd88679f8d00f0ca80738">More...</a><br /></td></tr>
 <tr class="separator:a9028377c241cd88679f8d00f0ca80738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a63f9b98336679f466947dcf7a3adb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classPartTypeManager.html">PartTypeManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPartTypeManager.html#a35a63f9b98336679f466947dcf7a3adb">GetPartTypeManager</a> ()</td></tr>
+<tr class="memdesc:a35a63f9b98336679f466947dcf7a3adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the instance of this singleton class; you should use the free function <a class="el" href="classPartTypeManager.html#a35a63f9b98336679f466947dcf7a3adb" title="returns the instance of this singleton class; you should use the free function GetPartTypeManager() i...">GetPartTypeManager()</a> instead  <a href="#a35a63f9b98336679f466947dcf7a3adb">More...</a><br /></td></tr>
 <tr class="separator:a35a63f9b98336679f466947dcf7a3adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Holds FreeOrion ship part types </p>
+<div class="textblock"><p>Holds FreeOrion ship part types. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a41b6b512a22a4a80375a338d768c2be5"></a>
 <div class="memitem">
@@ -207,6 +219,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the first part type </p>
 
 </div>
@@ -231,6 +244,7 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Assigns any m_pending_part_types to m_bulding_types. </p>
 
 <p>References <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
@@ -249,6 +263,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the last + 1th part type </p>
 
 </div>
@@ -265,7 +280,9 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
 
@@ -286,7 +303,8 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the part type with the name <em>name</em>; you should use the free function <a class="el" href="classPartTypeManager.html#a2d7bc09f052d621d995e19ee6f54a324">GetPartType()</a> instead </p>
+
+<p>returns the part type with the name <em>name</em>; you should use the free function <a class="el" href="classPartTypeManager.html#a2d7bc09f052d621d995e19ee6f54a324" title="returns the part type with the name name; you should use the free function GetPartType() instead ...">GetPartType()</a> instead </p>
 
 <p>Referenced by <a class="el" href="classShipDesign.html#a6416a963c8afc838a575846a372406a0">ShipDesign::Defense()</a>, and <a class="el" href="ShipDesign_8h.html#a43adebddc1f8ee54594037117ff53fd8">GetPartType()</a>.</p>
 
@@ -312,7 +330,8 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classPartTypeManager.html#a35a63f9b98336679f466947dcf7a3adb">GetPartTypeManager()</a> instead </p>
+
+<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classPartTypeManager.html#a35a63f9b98336679f466947dcf7a3adb" title="returns the instance of this singleton class; you should use the free function GetPartTypeManager() i...">GetPartTypeManager()</a> instead </p>
 
 <p>Referenced by <a class="el" href="ShipDesign_8h.html#a00aee87574cf97e013e59fdaee6c3bea">GetPartTypeManager()</a>.</p>
 
@@ -331,6 +350,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets part types to the future value of <code>pending_part_types</code>. </p>
 
 <p>Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
@@ -355,7 +375,9 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set of part types. mutable so that when the parse completes it can be updated. </p>
+
+<p>Set of part types. </p>
+<p>mutable so that when the parse completes it can be updated. </p>
 
 </div>
 </div>
@@ -376,7 +398,9 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Future part type being parsed by parser. mutable so that it can be assigned to m_part_types when completed. </p>
+
+<p>Future part type being parsed by parser. </p>
+<p>mutable so that it can be assigned to m_part_types when completed. </p>
 
 </div>
 </div>

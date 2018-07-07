@@ -106,7 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.png" usemap="#anonymous_5Fnamespace_7BDesignWnd.cpp_7D::SavedDesignsManager_map" alt=""/>
   <map id="anonymous_5Fnamespace_7BDesignWnd.cpp_7D::SavedDesignsManager_map" name="anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager_map">
-<area href="classShipDesignManager_1_1Designs.html" alt="ShipDesignManager::Designs" shape="rect" coords="0,0,382,24"/>
+<area href="classShipDesignManager_1_1Designs.html" title="Designs provides ordered lists of designs for display in the UI. " alt="ShipDesignManager::Designs" shape="rect" coords="0,0,382,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -136,10 +136,13 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:af94a0d6650e1c2827397b9587651ccbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#af94a0d6650e1c2827397b9587651ccbd">SaveDesign</a> (const boost::uuids::uuid &amp;uuid)</td></tr>
+<tr class="memdesc:af94a0d6650e1c2827397b9587651ccbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the design with the original filename or throw out_of_range.  <a href="#af94a0d6650e1c2827397b9587651ccbd">More...</a><br /></td></tr>
 <tr class="separator:af94a0d6650e1c2827397b9587651ccbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2781c78222a2480c05222635f0779e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#ac2781c78222a2480c05222635f0779e6">SaveDesignConst</a> (const boost::uuids::uuid &amp;uuid) const </td></tr>
+<tr class="memdesc:ac2781c78222a2480c05222635f0779e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">SaveDesignConst allows CheckPendingDesigns to correct the designs in the saved directory.  <a href="#ac2781c78222a2480c05222635f0779e6">More...</a><br /></td></tr>
 <tr class="separator:ac2781c78222a2480c05222635f0779e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776997671fb809064a6db52a68d20294"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a776997671fb809064a6db52a68d20294">SaveManifestConst</a> () const </td></tr>
+<tr class="memdesc:a776997671fb809064a6db52a68d20294"><td class="mdescLeft">&#160;</td><td class="mdescRight">A const version of SaveManifest to allow CheckPendingDesigns to correct and save the loaded designs.  <a href="#a776997671fb809064a6db52a68d20294">More...</a><br /></td></tr>
 <tr class="separator:a776997671fb809064a6db52a68d20294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -149,6 +152,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acb904f9080bdd25b8d8721ee114721d0"><td class="memItemLeft" align="right" valign="top">std::list&lt; boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#acb904f9080bdd25b8d8721ee114721d0">m_ordered_uuids</a></td></tr>
 <tr class="separator:acb904f9080bdd25b8d8721ee114721d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea5338531908118ee6099fda1c28a96a"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; std::future&lt; <a class="el" href="classPredefinedShipDesignManager.html#ac9d742cf4ded23f7f271b1a1d13b34a0">PredefinedShipDesignManager::ParsedShipDesignsType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#aea5338531908118ee6099fda1c28a96a">m_pending_designs</a> = boost::none</td></tr>
+<tr class="memdesc:aea5338531908118ee6099fda1c28a96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Future ship design type being parsed by parser.  <a href="#aea5338531908118ee6099fda1c28a96a">More...</a><br /></td></tr>
 <tr class="separator:aea5338531908118ee6099fda1c28a96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a9ce2a8ca6866906ee618510dabf4be"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; boost::uuids::uuid, std::pair&lt; std::unique_ptr&lt; <a class="el" href="classShipDesign.html">ShipDesign</a> &gt;, boost::filesystem::path &gt;, boost::hash&lt; boost::uuids::uuid &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a3a9ce2a8ca6866906ee618510dabf4be">m_saved_designs</a></td></tr>
 <tr class="memdesc:a3a9ce2a8ca6866906ee618510dabf4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saved designs with filename.  <a href="#a3a9ce2a8ca6866906ee618510dabf4be">More...</a><br /></td></tr>
@@ -351,6 +355,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Save the design with the original filename or throw out_of_range. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a093ca1c6ddc7e885fa55c26e6a06deb6">anonymous_namespace{DesignWnd.cpp}::WriteToFile()</a>.</p>
@@ -378,6 +383,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>SaveDesignConst allows CheckPendingDesigns to correct the designs in the saved directory. </p>
 
 </div>
@@ -417,6 +423,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>A const version of SaveManifest to allow CheckPendingDesigns to correct and save the loaded designs. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a5ed6a5f2797bc44fb41d90ab0c291041">anonymous_namespace{DesignWnd.cpp}::DESIGN_FILENAME_EXTENSION</a>, <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a656bd1e63fcbd955d546bc673be38bad">anonymous_namespace{DesignWnd.cpp}::GetDesignsDir()</a>, <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>, and <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a093ca1c6ddc7e885fa55c26e6a06deb6">anonymous_namespace{DesignWnd.cpp}::WriteToFile()</a>.</p>
@@ -499,7 +506,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Future ship design type being parsed by parser. mutable so that it can be assigned to m_saved_designs when completed. </p>
+
+<p>Future ship design type being parsed by parser. </p>
+<p>mutable so that it can be assigned to m_saved_designs when completed. </p>
 
 </div>
 </div>

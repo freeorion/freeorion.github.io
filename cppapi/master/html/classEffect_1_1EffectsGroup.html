@@ -100,6 +100,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Contains one or more Effects, a <a class="el" href="namespaceCondition.html" title="this namespace holds ConditionBase and its subclasses; these classes represent predicates about Unive...">Condition</a> which indicates the objects in the scope of the Effect(s), and a <a class="el" href="namespaceCondition.html" title="this namespace holds ConditionBase and its subclasses; these classes represent predicates about Unive...">Condition</a> which indicates whether or not the Effect(s) will be executed on the objects in scope during the current turn.  
+ <a href="classEffect_1_1EffectsGroup.html#details">More...</a></p>
+
 <p><code>#include &lt;Effect.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -117,6 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a62e819bc68a8e1bfac3ac3d83cfb962e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classEffect_1_1EffectBase.html">EffectBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a62e819bc68a8e1bfac3ac3d83cfb962e">EffectsList</a> () const </td></tr>
 <tr class="separator:a62e819bc68a8e1bfac3ac3d83cfb962e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3ac4dc6afad363d19757a7f56921b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a7a3ac4dc6afad363d19757a7f56921b6">Execute</a> (const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">TargetsCauses</a> &amp;targets_causes, <a class="el" href="namespaceEffect.html#a0417b92714c94e22f690125299de4d43">AccountingMap</a> *accounting_map=nullptr, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false) const </td></tr>
+<tr class="memdesc:a7a3ac4dc6afad363d19757a7f56921b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">execute all effects in group  <a href="#a7a3ac4dc6afad363d19757a7f56921b6">More...</a><br /></td></tr>
 <tr class="separator:a7a3ac4dc6afad363d19757a7f56921b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad913a99185eb68806666dec89bbb0df9"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#ad913a99185eb68806666dec89bbb0df9">GetCheckSum</a> () const </td></tr>
 <tr class="separator:ad913a99185eb68806666dec89bbb0df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +174,8 @@ Friends</h2></td></tr>
 <tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains one or more Effects, a <a class="el" href="namespaceCondition.html">Condition</a> which indicates the objects in the scope of the Effect(s), and a <a class="el" href="namespaceCondition.html">Condition</a> which indicates whether or not the Effect(s) will be executed on the objects in scope during the current turn. Since Conditions operate on sets of objects (usually all objects in the universe), the activation condition bears some explanation. It exists to allow an <a class="el" href="classEffect_1_1EffectsGroup.html">EffectsGroup</a> to be activated or suppressed based on the source object only (the object to which the <a class="el" href="classEffect_1_1EffectsGroup.html">EffectsGroup</a> is attached). It does this by considering the "universe" containing only the source object. If the source object meets the activation condition, the <a class="el" href="classEffect_1_1EffectsGroup.html">EffectsGroup</a> will be active in the current turn. </p>
+<div class="textblock"><p>Contains one or more Effects, a <a class="el" href="namespaceCondition.html" title="this namespace holds ConditionBase and its subclasses; these classes represent predicates about Unive...">Condition</a> which indicates the objects in the scope of the Effect(s), and a <a class="el" href="namespaceCondition.html" title="this namespace holds ConditionBase and its subclasses; these classes represent predicates about Unive...">Condition</a> which indicates whether or not the Effect(s) will be executed on the objects in scope during the current turn. </p>
+<p>Since Conditions operate on sets of objects (usually all objects in the universe), the activation condition bears some explanation. It exists to allow an <a class="el" href="classEffect_1_1EffectsGroup.html" title="Contains one or more Effects, a Condition which indicates the objects in the scope of the Effect(s)...">EffectsGroup</a> to be activated or suppressed based on the source object only (the object to which the <a class="el" href="classEffect_1_1EffectsGroup.html" title="Contains one or more Effects, a Condition which indicates the objects in the scope of the Effect(s)...">EffectsGroup</a> is attached). It does this by considering the "universe" containing only the source object. If the source object meets the activation condition, the <a class="el" href="classEffect_1_1EffectsGroup.html" title="Contains one or more Effects, a Condition which indicates the objects in the scope of the Effect(s)...">EffectsGroup</a> will be active in the current turn. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aaf6b13c33a55a6226f677e2c0f06a7b4"></a>
 <div class="memitem">
@@ -388,6 +393,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>execute all effects in group </p>
 
 <p>References <a class="el" href="classEffect_1_1EffectsGroup.html#a1b673be2b0b71f10c19f5023a64ce113">m_effects</a>.</p>

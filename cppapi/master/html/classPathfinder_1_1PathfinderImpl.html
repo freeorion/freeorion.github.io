@@ -103,6 +103,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a27ab5f83b24f00fec2533fb5b23396ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a27ab5f83b24f00fec2533fb5b23396ac">PathfinderImpl</a> ()</td></tr>
 <tr class="separator:a27ab5f83b24f00fec2533fb5b23396ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af95bc1a8b1dd047d46c0ec22fd3ff1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#af95bc1a8b1dd047d46c0ec22fd3ff1e8">HandleCacheMiss</a> (size_t ii, distance_matrix_storage&lt; short &gt;::row_ref row) const </td></tr>
+<tr class="memdesc:af95bc1a8b1dd047d46c0ec22fd3ff1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">When a cache miss occurs fill <code>row</code> with the distances from index <code>ii</code> to every other index.  <a href="#af95bc1a8b1dd047d46c0ec22fd3ff1e8">More...</a><br /></td></tr>
 <tr class="separator:af95bc1a8b1dd047d46c0ec22fd3ff1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5005ce23bd339f39efb9a614248b8d0e"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; double, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a5005ce23bd339f39efb9a614248b8d0e">ImmediateNeighbors</a> (int system_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const </td></tr>
 <tr class="separator:a5005ce23bd339f39efb9a614248b8d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,6 +122,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ba86d74d4e0f19cc16dfd371c12b4f7"><td class="memItemLeft" align="right" valign="top">boost::unordered_multimap&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a2ba86d74d4e0f19cc16dfd371c12b4f7">Neighbors</a> (int system_id, size_t n_outer=1, size_t n_inner=0) const </td></tr>
 <tr class="separator:a2ba86d74d4e0f19cc16dfd371c12b4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5c671d03057a1f1b57b71256846c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#adc5c671d03057a1f1b57b71256846c03">NeighborsCacheHit</a> (boost::unordered_multimap&lt; int, int &gt; &amp;result, size_t _n_outer, size_t _n_inner, size_t ii, distance_matrix_storage&lt; short &gt;::row_ref row) const </td></tr>
+<tr class="memdesc:adc5c671d03057a1f1b57b71256846c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">When a cache hit occurs use <code>row</code> to populate and return the multimap for Neighbors.  <a href="#adc5c671d03057a1f1b57b71256846c03">More...</a><br /></td></tr>
 <tr class="separator:adc5c671d03057a1f1b57b71256846c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acff04da85154a2f1c63c86f8d9d68884"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#acff04da85154a2f1c63c86f8d9d68884">ShortestPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const </td></tr>
 <tr class="separator:acff04da85154a2f1c63c86f8d9d68884"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,8 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac49741c942ca85dd77f1f95cafef124e"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt;, std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#ac49741c942ca85dd77f1f95cafef124e">WithinJumpsOfOthers</a> (int jumps, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;candidates, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;stationary) const </td></tr>
 <tr class="separator:ac49741c942ca85dd77f1f95cafef124e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a096b157f134a423e3932946a51b78b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#a9a096b157f134a423e3932946a51b78b">WithinJumpsOfOthers</a> (int jumps, int system_id, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;others) const </td></tr>
+<tr class="memdesc:a9a096b157f134a423e3932946a51b78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if <code>system_id</code> is within <code>jumps</code> of any of <code>others</code>.  <a href="#a9a096b157f134a423e3932946a51b78b">More...</a><br /></td></tr>
 <tr class="separator:a9a096b157f134a423e3932946a51b78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6ab1debd7c116b48b50bbc67361e8c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder_1_1PathfinderImpl.html#aa6ab1debd7c116b48b50bbc67361e8c7">WithinJumpsOfOthersCacheHit</a> (bool &amp;answer, int jumps, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;others, size_t ii, distance_matrix_storage&lt; short &gt;::row_ref row) const </td></tr>
+<tr class="memdesc:aa6ab1debd7c116b48b50bbc67361e8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any of <code>others</code> are within <code>jumps</code> of <code>ii</code> return true in <code>answer</code>.  <a href="#aa6ab1debd7c116b48b50bbc67361e8c7">More...</a><br /></td></tr>
 <tr class="separator:aa6ab1debd7c116b48b50bbc67361e8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -206,8 +210,9 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>When a cache miss occurs fill <code>row</code> with the distances from index <code>ii</code> to every other index.</p>
-<p>HandleCacheMiss requires that <code>row</code> be locked by exterior context. </p>
+
+<p>When a cache miss occurs fill <code>row</code> with the distances from index <code>ii</code> to every other index. </p>
+<p>HandleCacheMiss requires that <code>row</code> be locked by exterior context.</p>
 
 <p>Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a243fd47414215410d5041a38989a0c34">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a2d198ca05efd6101d5557997d28bbec0">WithinJumps()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a9a096b157f134a423e3932946a51b78b">WithinJumpsOfOthers()</a>.</p>
 
@@ -494,6 +499,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>When a cache hit occurs use <code>row</code> to populate and return the multimap for Neighbors. </p>
 
 </div>
@@ -811,7 +817,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return true if <code>system_id</code> is within <code>jumps</code> of any of <code>others</code> </p>
+
+<p>Return true if <code>system_id</code> is within <code>jumps</code> of any of <code>others</code>. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPathfinder_1_1PathfinderImpl.html#af95bc1a8b1dd047d46c0ec22fd3ff1e8">HandleCacheMiss()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aa6ab1debd7c116b48b50bbc67361e8c7">WithinJumpsOfOthersCacheHit()</a>.</p>
 
@@ -858,7 +865,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If any of <code>others</code> are within <code>jumps</code> of <code>ii</code> return true in <code>answer</code>.</p>
+
+<p>If any of <code>others</code> are within <code>jumps</code> of <code>ii</code> return true in <code>answer</code>. </p>
 <p>The return value must be in a parameter so that after being bound to <code>answer</code> and <code>jumps</code> the function signature is that required by the cache_hit_handler type. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#aea5e92eebe487e65ad2c12e8ffd3998b">anonymous_namespace{Pathfinder.cpp}::GeneralizedLocation()</a>.</p>

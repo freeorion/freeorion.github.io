@@ -98,6 +98,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html" title="distance_matrix_storage implements the storage and the mutexes for distance in number of hops from sy...">distance_matrix_storage</a> implements the storage and the mutexes for distance in number of hops from system to system.  
+ <a href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -115,24 +118,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92c120672d57d146e78d1a14ab1f2f73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a92c120672d57d146e78d1a14ab1f2f73">distance_matrix_storage</a> (const <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a>&lt; T &gt; &amp;src)</td></tr>
 <tr class="separator:a92c120672d57d146e78d1a14ab1f2f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae30bc7da9d2569e04d28578c5535728c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ae30bc7da9d2569e04d28578c5535728c">resize</a> (size_t a_size)</td></tr>
+<tr class="memdesc:ae30bc7da9d2569e04d28578c5535728c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize and clear all mutexes.  <a href="#ae30bc7da9d2569e04d28578c5535728c">More...</a><br /></td></tr>
 <tr class="separator:ae30bc7da9d2569e04d28578c5535728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a518560de5fb3d49441fdaf5efb3c8bae"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a518560de5fb3d49441fdaf5efb3c8bae">size</a> ()</td></tr>
+<tr class="memdesc:a518560de5fb3d49441fdaf5efb3c8bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of rows and columns.  <a href="#a518560de5fb3d49441fdaf5efb3c8bae">More...</a><br /></td></tr>
 <tr class="separator:a518560de5fb3d49441fdaf5efb3c8bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad16a135e17a761d6833ee17a411c29e7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ad16a135e17a761d6833ee17a411c29e7">m_data</a></td></tr>
+<tr class="memdesc:ad16a135e17a761d6833ee17a411c29e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">N x N table of hop distances in row column form.  <a href="#ad16a135e17a761d6833ee17a411c29e7">More...</a><br /></td></tr>
 <tr class="separator:ad16a135e17a761d6833ee17a411c29e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f603f616a0487b3d625c1f47a83a47f"><td class="memItemLeft" align="right" valign="top">boost::shared_mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a8f603f616a0487b3d625c1f47a83a47f">m_mutex</a></td></tr>
+<tr class="memdesc:a8f603f616a0487b3d625c1f47a83a47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table mutex.  <a href="#a8f603f616a0487b3d625c1f47a83a47f">More...</a><br /></td></tr>
 <tr class="separator:a8f603f616a0487b3d625c1f47a83a47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2840cd1faccc226be8a163c083c39fde"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; boost::shared_mutex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a2840cd1faccc226be8a163c083c39fde">m_row_mutexes</a></td></tr>
+<tr class="memdesc:a2840cd1faccc226be8a163c083c39fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per row mutexes.  <a href="#a2840cd1faccc226be8a163c083c39fde">More...</a><br /></td></tr>
 <tr class="separator:a2840cd1faccc226be8a163c083c39fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
 struct anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage&lt; T &gt;</h3>
 
-<p><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a> implements the storage and the mutexes for distance in number of hops from system to system.</p>
+<p><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html" title="distance_matrix_storage implements the storage and the mutexes for distance in number of hops from sy...">distance_matrix_storage</a> implements the storage and the mutexes for distance in number of hops from system to system. </p>
 <p>For N systems there are N rows of N integer types T. Each row has a mutex and the whole table has a mutex.</p>
 <p>The table is assumed symmetric. If present row i element j will equal row j element i. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -246,7 +254,9 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Resize and clear all mutexes. Assumes that table is locked. </p>
+
+<p>Resize and clear all mutexes. </p>
+<p>Assumes that table is locked. </p>
 
 </div>
 </div>
@@ -272,7 +282,9 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Number of rows and columns. (N) </p>
+
+<p>Number of rows and columns. </p>
+<p>(N) </p>
 
 </div>
 </div>
@@ -288,6 +300,7 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>N x N table of hop distances in row column form. </p>
 
 <p>Referenced by <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a92c120672d57d146e78d1a14ab1f2f73">anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage&lt; T &gt;::distance_matrix_storage()</a>.</p>
@@ -305,7 +318,8 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Table mutex </p>
+
+<p>Table mutex. </p>
 
 </div>
 </div>
@@ -320,6 +334,7 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Per row mutexes. </p>
 
 </div>

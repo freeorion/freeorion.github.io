@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>the application framework class for the FreeOrion server.  
+ <a href="classServerApp.html#details">More...</a></p>
+
 <p><code>#include &lt;ServerApp.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ServerApp:</div>
@@ -129,6 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a360e94b2ad1538791467999f67129452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">PushChatMessage</a> (const std::string &amp;text, const std::string &amp;player_name, GG::Clr text_color, const boost::posix_time::ptime &amp;timestamp)</td></tr>
 <tr class="separator:a360e94b2ad1538791467999f67129452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb17c60a51723729b6750b7e60a15814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aeb17c60a51723729b6750b7e60a15814">UpdateCombatLogs</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:aeb17c60a51723729b6750b7e60a15814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the requested combat logs to the client.  <a href="#aeb17c60a51723729b6750b7e60a15814">More...</a><br /></td></tr>
 <tr class="separator:aeb17c60a51723729b6750b7e60a15814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f27b7992c853c39483653abe86db8a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
 <tr class="separator:a4f27b7992c853c39483653abe86db8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,52 +144,76 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:add44f1d465c80297b5a3426b81d559a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">external interface to <a class="el" href="classServerApp.html#affc92776946a023a5cbdb3cf88a91132" title="initializes app state, then executes main event handler/render loop (Poll()) ">Run()</a>  <a href="#add44f1d465c80297b5a3426b81d559a2">More...</a><br /></td></tr>
 <tr class="separator:add44f1d465c80297b5a3426b81d559a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e54217bf7294435383b7a2f0bcc538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#af6e54217bf7294435383b7a2f0bcc538">GetGalaxySetupData</a> ()</td></tr>
+<tr class="memdesc:af6e54217bf7294435383b7a2f0bcc538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the galaxy setup data used for the current game.  <a href="#af6e54217bf7294435383b7a2f0bcc538">More...</a><br /></td></tr>
 <tr class="separator:af6e54217bf7294435383b7a2f0bcc538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad70ebd8709b1c055f549d6d944319687"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ad70ebd8709b1c055f549d6d944319687">CreateAIClients</a> (const std::vector&lt; <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &gt; &amp;player_setup_data, int max_aggression=4)</td></tr>
+<tr class="memdesc:ad70ebd8709b1c055f549d6d944319687"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an AI client child process for each element of <em>AIs</em>  <a href="#ad70ebd8709b1c055f549d6d944319687">More...</a><br /></td></tr>
 <tr class="separator:ad70ebd8709b1c055f549d6d944319687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3662deee68012f1bc01b07d71c51f6c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn</a> (int empire_id)</td></tr>
+<tr class="memdesc:a3662deee68012f1bc01b07d71c51f6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an existing empire to turn processing.  <a href="#a3662deee68012f1bc01b07d71c51f6c5">More...</a><br /></td></tr>
 <tr class="separator:a3662deee68012f1bc01b07d71c51f6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5108df36cf2f33c3c3d0fe2c9ad5f027"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn</a> (int empire_id)</td></tr>
+<tr class="memdesc:a5108df36cf2f33c3c3d0fe2c9ad5f027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an empire from turn processing.  <a href="#a5108df36cf2f33c3c3d0fe2c9ad5f027">More...</a><br /></td></tr>
 <tr class="separator:a5108df36cf2f33c3c3d0fe2c9ad5f027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaccd6949e01ac3a3357fd9f3dc78e268"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">SetEmpireTurnOrders</a> (int empire_id, std::unique_ptr&lt; <a class="el" href="classOrderSet.html">OrderSet</a> &gt; &amp;&amp;order_set)</td></tr>
+<tr class="memdesc:aaccd6949e01ac3a3357fd9f3dc78e268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds turn orders for the given empire for the current turn.  <a href="#aaccd6949e01ac3a3357fd9f3dc78e268">More...</a><br /></td></tr>
 <tr class="separator:aaccd6949e01ac3a3357fd9f3dc78e268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ce812f38051a5ebf7d5502cbd0820c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a70ce812f38051a5ebf7d5502cbd0820c">RevokeEmpireTurnReadyness</a> (int empire_id)</td></tr>
+<tr class="memdesc:a70ce812f38051a5ebf7d5502cbd0820c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revokes turn order's ready state for the given empire.  <a href="#a70ce812f38051a5ebf7d5502cbd0820c">More...</a><br /></td></tr>
 <tr class="separator:a70ce812f38051a5ebf7d5502cbd0820c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb1239d98a6b339dcf34c86cb7d6f4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders</a> ()</td></tr>
+<tr class="memdesc:abeb1239d98a6b339dcf34c86cb7d6f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all empire turn orders to an empty set.  <a href="#abeb1239d98a6b339dcf34c86cb7d6f4d">More...</a><br /></td></tr>
 <tr class="separator:abeb1239d98a6b339dcf34c86cb7d6f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5539a03d0233eabe70a6f812d2357bbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived</a> ()</td></tr>
+<tr class="memdesc:a5539a03d0233eabe70a6f812d2357bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if all empired have submitted their orders for this turn It will loop the turn squence vector and check for a set order_set.  <a href="#a5539a03d0233eabe70a6f812d2357bbe">More...</a><br /></td></tr>
 <tr class="separator:a5539a03d0233eabe70a6f812d2357bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad8e14179d548168080fb8744abaccf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns</a> ()</td></tr>
+<tr class="memdesc:aad8e14179d548168080fb8744abaccf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes player orders, does colonization, does ordered scrapping, does fleet movements, and updates visibility before combats are handled.  <a href="#aad8e14179d548168080fb8744abaccf7">More...</a><br /></td></tr>
 <tr class="separator:aad8e14179d548168080fb8744abaccf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eaae912c39ba638a2b2c1a811e0f4d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ProcessCombats</a> ()</td></tr>
+<tr class="memdesc:a5eaae912c39ba638a2b2c1a811e0f4d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which combats will occur, handles running the combats and updating the universe after the results are available.  <a href="#a5eaae912c39ba638a2b2c1a811e0f4d2">More...</a><br /></td></tr>
 <tr class="separator:a5eaae912c39ba638a2b2c1a811e0f4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcfda5d272bd714ca9c3ca0f6f1cc2fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#adcfda5d272bd714ca9c3ca0f6f1cc2fc">UpdateMonsterTravelRestrictions</a> ()</td></tr>
+<tr class="memdesc:adcfda5d272bd714ca9c3ca0f6f1cc2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used post combat, to selectively clear the m_arrival_starlane flag of monsters so that they can impose blockades.  <a href="#adcfda5d272bd714ca9c3ca0f6f1cc2fc">More...</a><br /></td></tr>
 <tr class="separator:adcfda5d272bd714ca9c3ca0f6f1cc2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c64940da984600f09a6628ab40cb8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns</a> ()</td></tr>
+<tr class="memdesc:ad7c64940da984600f09a6628ab40cb8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines resource and supply distribution pathes and connections, updates research, production, trade spending, does population growth, updates current turn number, checks for eliminated or victorious empires / players, sends new turn updates.  <a href="#ad7c64940da984600f09a6628ab40cb8f">More...</a><br /></td></tr>
 <tr class="separator:ad7c64940da984600f09a6628ab40cb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60ee19b873469889cbe8b7b8a6563e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6">CheckForEmpireElimination</a> ()</td></tr>
+<tr class="memdesc:af60ee19b873469889cbe8b7b8a6563e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if any empires are eliminated (for the first time this turn, skipping any which were also eliminated previously) and if any empires are thereby victorious.  <a href="#af60ee19b873469889cbe8b7b8a6563e6">More...</a><br /></td></tr>
 <tr class="separator:af60ee19b873469889cbe8b7b8a6563e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bf65cce53d8e17a34b9dee9b5a1767"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a05bf65cce53d8e17a34b9dee9b5a1767">NewSPGameInit</a> (const <a class="el" href="structSinglePlayerSetupData.html">SinglePlayerSetupData</a> &amp;single_player_setup_data)</td></tr>
+<tr class="memdesc:a05bf65cce53d8e17a34b9dee9b5a1767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intializes single player game universe.  <a href="#a05bf65cce53d8e17a34b9dee9b5a1767">More...</a><br /></td></tr>
 <tr class="separator:a05bf65cce53d8e17a34b9dee9b5a1767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acec8a6b2dd08b9a9f5f5be87127bb6c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#acec8a6b2dd08b9a9f5f5be87127bb6c0">VerifySPGameAIs</a> (const <a class="el" href="structSinglePlayerSetupData.html">SinglePlayerSetupData</a> &amp;single_player_setup_data)</td></tr>
+<tr class="memdesc:acec8a6b2dd08b9a9f5f5be87127bb6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if single player game AIs are compatible with created universe and are ready to start a new game.  <a href="#acec8a6b2dd08b9a9f5f5be87127bb6c0">More...</a><br /></td></tr>
 <tr class="separator:acec8a6b2dd08b9a9f5f5be87127bb6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adced89fb43cf148891cea186cb3aceba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">NewMPGameInit</a> (const <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;multiplayer_lobby_data)</td></tr>
+<tr class="memdesc:adced89fb43cf148891cea186cb3aceba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intializes multi player game universe, sends out initial game state to clients, and signals clients to start first turn.  <a href="#adced89fb43cf148891cea186cb3aceba">More...</a><br /></td></tr>
 <tr class="separator:adced89fb43cf148891cea186cb3aceba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38d1202c9cc787b4e6e3ce12cf6c7876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">LoadSPGameInit</a> (const std::vector&lt; <a class="el" href="structPlayerSaveGameData.html">PlayerSaveGameData</a> &gt; &amp;player_save_game_data, std::shared_ptr&lt; <a class="el" href="structServerSaveGameData.html">ServerSaveGameData</a> &gt; server_save_game_data)</td></tr>
+<tr class="memdesc:a38d1202c9cc787b4e6e3ce12cf6c7876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores saved single player gamestate and human and AI client state information.  <a href="#a38d1202c9cc787b4e6e3ce12cf6c7876">More...</a><br /></td></tr>
 <tr class="separator:a38d1202c9cc787b4e6e3ce12cf6c7876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ad01a33b8c19289fac3377d275e92f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a6ad01a33b8c19289fac3377d275e92f1">LoadMPGameInit</a> (const <a class="el" href="structMultiplayerLobbyData.html">MultiplayerLobbyData</a> &amp;lobby_data, const std::vector&lt; <a class="el" href="structPlayerSaveGameData.html">PlayerSaveGameData</a> &gt; &amp;player_save_game_data, std::shared_ptr&lt; <a class="el" href="structServerSaveGameData.html">ServerSaveGameData</a> &gt; server_save_game_data)</td></tr>
+<tr class="memdesc:a6ad01a33b8c19289fac3377d275e92f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores saved multiplayer gamestate and human and AI client state information.  <a href="#a6ad01a33b8c19289fac3377d275e92f1">More...</a><br /></td></tr>
 <tr class="separator:a6ad01a33b8c19289fac3377d275e92f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf2d635efbb3cfff3ec4a80b4cb03782"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782">IsAuthRequiredOrFillRoles</a> (const std::string &amp;player_name, <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles)</td></tr>
+<tr class="memdesc:acf2d635efbb3cfff3ec4a80b4cb03782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if <em>player_name</em> requires auth to login and fill <em>roles</em> if not.  <a href="#acf2d635efbb3cfff3ec4a80b4cb03782">More...</a><br /></td></tr>
 <tr class="separator:acf2d635efbb3cfff3ec4a80b4cb03782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df980a4219a193118f710249723a5bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a7df980a4219a193118f710249723a5bb">IsAuthSuccessAndFillRoles</a> (const std::string &amp;player_name, const std::string &amp;auth, <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles)</td></tr>
+<tr class="memdesc:a7df980a4219a193118f710249723a5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if <em>auth</em> match <em>player_name</em> and fill <em>roles</em> if successed.  <a href="#a7df980a4219a193118f710249723a5bb">More...</a><br /></td></tr>
 <tr class="separator:a7df980a4219a193118f710249723a5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371f3a05d555954c35f53137c1c3ceb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection)</td></tr>
+<tr class="memdesc:a371f3a05d555954c35f53137c1c3ceb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new observing player to running game.  <a href="#a371f3a05d555954c35f53137c1c3ceb1">More...</a><br /></td></tr>
 <tr class="separator:a371f3a05d555954c35f53137c1c3ceb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89fa6f53a6953a76f6aca919e7aab37e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">EliminatePlayer</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection)</td></tr>
+<tr class="memdesc:a89fa6f53a6953a76f6aca919e7aab37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eliminate player's empire by <em>player_connection</em>.  <a href="#a89fa6f53a6953a76f6aca919e7aab37e">More...</a><br /></td></tr>
 <tr class="separator:a89fa6f53a6953a76f6aca919e7aab37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fc0e3fb214ba11946527c3cc5bb88e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a8fc0e3fb214ba11946527c3cc5bb88e0">DropPlayerEmpireLink</a> (int planet_id)</td></tr>
+<tr class="memdesc:a8fc0e3fb214ba11946527c3cc5bb88e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop link between player with <em>player_id</em> and his empire.  <a href="#a8fc0e3fb214ba11946527c3cc5bb88e0">More...</a><br /></td></tr>
 <tr class="separator:a8fc0e3fb214ba11946527c3cc5bb88e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00d334a144386d898d40aad1d661ca9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame</a> (const <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> &amp;player_connection)</td></tr>
+<tr class="memdesc:ac00d334a144386d898d40aad1d661ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new player to running game.  <a href="#ac00d334a144386d898d40aad1d661ca9">More...</a><br /></td></tr>
 <tr class="separator:ac00d334a144386d898d40aad1d661ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classIApp"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classIApp')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classIApp.html">IApp</a></td></tr>
 <tr class="memitem:a18e29295bc62aaba1ceb08d6464bf187 inherit pub_methods_classIApp"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a18e29295bc62aaba1ceb08d6464bf187">IApp</a> (const <a class="el" href="classIApp.html">IApp</a> &amp;)=delete</td></tr>
@@ -205,45 +233,64 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a494b4b725c695e6e1578879f84279341"><td class="mdescLeft">&#160;</td><td class="mdescRight">cleans up AI processes: kills the process and empties the container of AI processes  <a href="#a494b4b725c695e6e1578879f84279341">More...</a><br /></td></tr>
 <tr class="separator:a494b4b725c695e6e1578879f84279341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f08612e40e5bd3298b9b1a994df3d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ExecuteScriptedTurnEvents</a> ()</td></tr>
+<tr class="memdesc:a30f08612e40e5bd3298b9b1a994df3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls Python turn events script.  <a href="#a30f08612e40e5bd3298b9b1a994df3d0">More...</a><br /></td></tr>
 <tr class="separator:a30f08612e40e5bd3298b9b1a994df3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85276af261855472e7c7efb53ff077e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">GenerateUniverse</a> (std::map&lt; int, <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &gt; &amp;player_setup_data)</td></tr>
+<tr class="memdesc:a85276af261855472e7c7efb53ff077e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls Python universe generator script.  <a href="#a85276af261855472e7c7efb53ff077e9">More...</a><br /></td></tr>
 <tr class="separator:a85276af261855472e7c7efb53ff077e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5107f22449e9780841144349053cd215"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap</a> () const </td></tr>
+<tr class="memdesc:a5107f22449e9780841144349053cd215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get players info map to send it in GameStart message.  <a href="#a5107f22449e9780841144349053cd215">More...</a><br /></td></tr>
 <tr class="separator:a5107f22449e9780841144349053cd215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbb8cb9ed1aea617a8bb09d18bf88cda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">HandleDiplomaticMessageChange</a> (int empire1_id, int empire2_id)</td></tr>
+<tr class="memdesc:acbb8cb9ed1aea617a8bb09d18bf88cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this sever's <a class="el" href="classEmpireManager.html" title="Maintains all of the Empire objects that exist in the application. ">EmpireManager</a> changes the diplmatic message between two empires.  <a href="#acbb8cb9ed1aea617a8bb09d18bf88cda">More...</a><br /></td></tr>
 <tr class="separator:acbb8cb9ed1aea617a8bb09d18bf88cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eb80d1107f7dede1629d8d46cbe46eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">HandleDiplomaticStatusChange</a> (int empire1_id, int empire2_id)</td></tr>
+<tr class="memdesc:a4eb80d1107f7dede1629d8d46cbe46eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this server's <a class="el" href="classEmpireManager.html" title="Maintains all of the Empire objects that exist in the application. ">EmpireManager</a> changes the diplomatic status between two empires.  <a href="#a4eb80d1107f7dede1629d8d46cbe46eb">More...</a><br /></td></tr>
 <tr class="separator:a4eb80d1107f7dede1629d8d46cbe46eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f5ac1ee4c8aa895687af91baec22dc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">HandleLoggerConfig</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:a8f5ac1ee4c8aa895687af91baec22dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks validity of logger config message and then update logger and loggers of all AIs.  <a href="#a8f5ac1ee4c8aa895687af91baec22dc7">More...</a><br /></td></tr>
 <tr class="separator:a8f5ac1ee4c8aa895687af91baec22dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4c5f008d630921624e0fe2ef2d1151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">HandleMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:acf4c5f008d630921624e0fe2ef2d1151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles an incoming message from the server with the appropriate action or response.  <a href="#acf4c5f008d630921624e0fe2ef2d1151">More...</a><br /></td></tr>
 <tr class="separator:acf4c5f008d630921624e0fe2ef2d1151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d7decdddec5dd7957bb74129b316d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">HandleNonPlayerMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:a7d7decdddec5dd7957bb74129b316d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">When Messages arrive from connections that are not established players, they arrive via a call to this function.  <a href="#a7d7decdddec5dd7957bb74129b316d91">More...</a><br /></td></tr>
 <tr class="separator:a7d7decdddec5dd7957bb74129b316d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c1c0dc4eca9e8e9488db385c0dea48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a66c1c0dc4eca9e8e9488db385c0dea48">HandleShutdownMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:a66c1c0dc4eca9e8e9488db385c0dea48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks validity of shut down message from player, then attempts to cleanly shut down this server process.  <a href="#a66c1c0dc4eca9e8e9488db385c0dea48">More...</a><br /></td></tr>
 <tr class="separator:a66c1c0dc4eca9e8e9488db385c0dea48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aade4f1bf48914ec40757128314f6b244"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aade4f1bf48914ec40757128314f6b244">InitializePython</a> ()</td></tr>
+<tr class="memdesc:aade4f1bf48914ec40757128314f6b244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the python engine if not already running.  <a href="#aade4f1bf48914ec40757128314f6b244">More...</a><br /></td></tr>
 <tr class="separator:aade4f1bf48914ec40757128314f6b244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33f03516e56e1bfb88508d2baf6a468"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit</a> (const std::vector&lt; <a class="el" href="structPlayerSaveGameData.html">PlayerSaveGameData</a> &gt; &amp;player_save_game_data, const std::vector&lt; std::pair&lt; int, int &gt;&gt; &amp;player_id_to_save_game_data_index, std::shared_ptr&lt; <a class="el" href="structServerSaveGameData.html">ServerSaveGameData</a> &gt; server_save_game_data)</td></tr>
+<tr class="memdesc:ae33f03516e56e1bfb88508d2baf6a468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears any old game stored orders, victors or eliminated players, ads empires to turn processing list, does start-of-turn empire supply and resource pool determination, regenerates pathfinding graphc, restores any UI or AI state information players had saved, and compiles info about all players to send out to all other players are part of game start messages.  <a href="#ae33f03516e56e1bfb88508d2baf6a468">More...</a><br /></td></tr>
 <tr class="separator:ae33f03516e56e1bfb88508d2baf6a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae68b66fba476dbeda48020ec3739dd70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners</a> (const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;galaxy_setup_data, const std::vector&lt; <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &gt; &amp;player_setup_data)</td></tr>
+<tr class="memdesc:ae68b66fba476dbeda48020ec3739dd70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears any old game stored orders, victors or eliminated players, ads empires to turn processing list, does start-of-turn empire supply and resource pool determination.  <a href="#ae68b66fba476dbeda48020ec3739dd70">More...</a><br /></td></tr>
 <tr class="separator:ae68b66fba476dbeda48020ec3739dd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d85e5348f5b32029f22928f54dc2c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">NewGameInitVerifyJoiners</a> (const std::vector&lt; <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &gt; &amp;player_setup_data)</td></tr>
+<tr class="memdesc:a30d85e5348f5b32029f22928f54dc2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if player data is consistent with starting a new game.  <a href="#a30d85e5348f5b32029f22928f54dc2c8">More...</a><br /></td></tr>
 <tr class="separator:a30d85e5348f5b32029f22928f54dc2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab936ee02bb1e797bbab6589493fcc359"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ab936ee02bb1e797bbab6589493fcc359">PlayerDisconnected</a> (<a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:ab936ee02bb1e797bbab6589493fcc359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="classServerNetworking.html" title="Encapsulates the networking facilities of the server. ">ServerNetworking</a> when a player's TCP connection is closed.  <a href="#ab936ee02bb1e797bbab6589493fcc359">More...</a><br /></td></tr>
 <tr class="separator:ab936ee02bb1e797bbab6589493fcc359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affc92776946a023a5cbdb3cf88a91132"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#affc92776946a023a5cbdb3cf88a91132">Run</a> ()</td></tr>
 <tr class="memdesc:affc92776946a023a5cbdb3cf88a91132"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes app state, then executes main event handler/render loop (Poll())  <a href="#affc92776946a023a5cbdb3cf88a91132">More...</a><br /></td></tr>
 <tr class="separator:affc92776946a023a5cbdb3cf88a91132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e73de1a18eeea62f7cb93ed5816666f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">SelectNewHost</a> ()</td></tr>
+<tr class="memdesc:a6e73de1a18eeea62f7cb93ed5816666f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the host player has disconnected.  <a href="#a6e73de1a18eeea62f7cb93ed5816666f">More...</a><br /></td></tr>
 <tr class="separator:a6e73de1a18eeea62f7cb93ed5816666f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78cdeb764c6d51e2d206e5884cadc503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages</a> ()</td></tr>
+<tr class="memdesc:a78cdeb764c6d51e2d206e5884cadc503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends out initial new game state to clients, and signals clients to start first turn.  <a href="#a78cdeb764c6d51e2d206e5884cadc503">More...</a><br /></td></tr>
 <tr class="separator:a78cdeb764c6d51e2d206e5884cadc503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bcfc85f8507ca82d65be03d91adde9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a43bcfc85f8507ca82d65be03d91adde9">SetAIsProcessPriorityToLow</a> (bool set_to_low)</td></tr>
+<tr class="memdesc:a43bcfc85f8507ca82d65be03d91adde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the priority for all AI processes.  <a href="#a43bcfc85f8507ca82d65be03d91adde9">More...</a><br /></td></tr>
 <tr class="separator:a43bcfc85f8507ca82d65be03d91adde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d473d970c44c24d704715f786ed3169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a6d473d970c44c24d704715f786ed3169">ShutdownTimedoutHandler</a> (boost::system::error_code <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>)</td></tr>
+<tr class="memdesc:a6d473d970c44c24d704715f786ed3169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle shutdown timeout by killing all ais.  <a href="#a6d473d970c44c24d704715f786ed3169">More...</a><br /></td></tr>
 <tr class="separator:a6d473d970c44c24d704715f786ed3169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98e27702a28add0fef27b7d2a8c6b201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a98e27702a28add0fef27b7d2a8c6b201">SignalHandler</a> (const boost::system::error_code &amp;<a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, int signal_number)</td></tr>
+<tr class="memdesc:a98e27702a28add0fef27b7d2a8c6b201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when server process receive termination signal.  <a href="#a98e27702a28add0fef27b7d2a8c6b201">More...</a><br /></td></tr>
 <tr class="separator:a98e27702a28add0fef27b7d2a8c6b201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -281,6 +328,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab0a99f0d69c8a37677cd2f4b18b2cb53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSupplyManager.html">SupplyManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ab0a99f0d69c8a37677cd2f4b18b2cb53">m_supply_manager</a></td></tr>
 <tr class="separator:ab0a99f0d69c8a37677cd2f4b18b2cb53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af768a11c4d46c8cd5c6dcaca5f1abad0"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::pair&lt; bool, std::unique_ptr&lt; <a class="el" href="classOrderSet.html">OrderSet</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a></td></tr>
+<tr class="memdesc:af768a11c4d46c8cd5c6dcaca5f1abad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn sequence map is used for turn processing.  <a href="#af768a11c4d46c8cd5c6dcaca5f1abad0">More...</a><br /></td></tr>
 <tr class="separator:af768a11c4d46c8cd5c6dcaca5f1abad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58ad28ffda15a992b9734fec154782ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html">Universe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a></td></tr>
 <tr class="separator:a58ad28ffda15a992b9734fec154782ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,50 +361,71 @@ Friends</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
 <tr class="memitem:adbc788372ec24760b687eff03802302e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">GetUniverse</a> () override</td></tr>
+<tr class="memdesc:adbc788372ec24760b687eff03802302e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#adbc788372ec24760b687eff03802302e">More...</a><br /></td></tr>
 <tr class="separator:adbc788372ec24760b687eff03802302e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414402b5d6615059625a71dc71206c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires</a> () override</td></tr>
+<tr class="memdesc:a414402b5d6615059625a71dc71206c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a414402b5d6615059625a71dc71206c5a">More...</a><br /></td></tr>
 <tr class="separator:a414402b5d6615059625a71dc71206c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f7fae51d622bb9db38146508f06ca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire</a> (int id) override</td></tr>
+<tr class="memdesc:a96f7fae51d622bb9db38146508f06ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a96f7fae51d622bb9db38146508f06ca8">More...</a><br /></td></tr>
 <tr class="separator:a96f7fae51d622bb9db38146508f06ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a455cfc7b3786adfc08840c2bdeff898c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager</a> () override</td></tr>
+<tr class="memdesc:a455cfc7b3786adfc08840c2bdeff898c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a455cfc7b3786adfc08840c2bdeff898c">More...</a><br /></td></tr>
 <tr class="separator:a455cfc7b3786adfc08840c2bdeff898c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a431820331839f89e365a41a542298664"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">GetUniverseObject</a> (int object_id) override</td></tr>
+<tr class="memdesc:a431820331839f89e365a41a542298664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a431820331839f89e365a41a542298664">More...</a><br /></td></tr>
 <tr class="separator:a431820331839f89e365a41a542298664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ca950fbbd3d79a5e98cc230a9730cb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a6ca950fbbd3d79a5e98cc230a9730cb9">EmpireKnownObjects</a> (int empire_id) override</td></tr>
+<tr class="memdesc:a6ca950fbbd3d79a5e98cc230a9730cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a6ca950fbbd3d79a5e98cc230a9730cb9">More...</a><br /></td></tr>
 <tr class="separator:a6ca950fbbd3d79a5e98cc230a9730cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345fd2ca4d5b9a760cbbd8670c0f3d51"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a345fd2ca4d5b9a760cbbd8670c0f3d51">EmpireKnownObject</a> (int object_id, int empire_id) override</td></tr>
+<tr class="memdesc:a345fd2ca4d5b9a760cbbd8670c0f3d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a345fd2ca4d5b9a760cbbd8670c0f3d51">More...</a><br /></td></tr>
 <tr class="separator:a345fd2ca4d5b9a760cbbd8670c0f3d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4326c75072cfafb6cba063d82b06ddbc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a4326c75072cfafb6cba063d82b06ddbc">GetVisibleObjectName</a> (std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; object) override</td></tr>
+<tr class="memdesc:a4326c75072cfafb6cba063d82b06ddbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a4326c75072cfafb6cba063d82b06ddbc">More...</a><br /></td></tr>
 <tr class="separator:a4326c75072cfafb6cba063d82b06ddbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c48b7f3eb97d7008d4d4eecc839eac2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">CurrentTurn</a> () const override</td></tr>
+<tr class="memdesc:a3c48b7f3eb97d7008d4d4eecc839eac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a3c48b7f3eb97d7008d4d4eecc839eac2">More...</a><br /></td></tr>
 <tr class="separator:a3c48b7f3eb97d7008d4d4eecc839eac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee0cf6d0d5dfe90e2e19a60bc911721"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a7ee0cf6d0d5dfe90e2e19a60bc911721">GetGalaxySetupData</a> () const override</td></tr>
+<tr class="memdesc:a7ee0cf6d0d5dfe90e2e19a60bc911721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#a7ee0cf6d0d5dfe90e2e19a60bc911721">More...</a><br /></td></tr>
 <tr class="separator:a7ee0cf6d0d5dfe90e2e19a60bc911721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae56506e5732ae45b0c4d6a47bcb6f83a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ae56506e5732ae45b0c4d6a47bcb6f83a">IsLocalHumanPlayer</a> (int player_id)</td></tr>
+<tr class="memdesc:ae56506e5732ae45b0c4d6a47bcb6f83a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if player with ID <em>player_id</em> is a human player who's client runs on the same machine as the server.  <a href="#ae56506e5732ae45b0c4d6a47bcb6f83a">More...</a><br /></td></tr>
 <tr class="separator:ae56506e5732ae45b0c4d6a47bcb6f83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1634af674d3150bdd2f340b4da361aea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a1634af674d3150bdd2f340b4da361aea">GetEmpireClientType</a> (int empire_id) const override</td></tr>
+<tr class="memdesc:a1634af674d3150bdd2f340b4da361aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the networking client type for the given empire_id.  <a href="#a1634af674d3150bdd2f340b4da361aea">More...</a><br /></td></tr>
 <tr class="separator:a1634af674d3150bdd2f340b4da361aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e3a08b1fa665203c27f868ab533a9b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6">GetPlayerClientType</a> (int player_id) const override</td></tr>
+<tr class="memdesc:a3e3a08b1fa665203c27f868ab533a9b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the networking client type for the given player_id.  <a href="#a3e3a08b1fa665203c27f868ab533a9b6">More...</a><br /></td></tr>
 <tr class="separator:a3e3a08b1fa665203c27f868ab533a9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d9df8cdd6d45ecc9df785a190cce29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#aa0d9df8cdd6d45ecc9df785a190cce29">EffectsProcessingThreads</a> () const override</td></tr>
+<tr class="memdesc:aa0d9df8cdd6d45ecc9df785a190cce29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server's map for known objects of specified empire.  <a href="#aa0d9df8cdd6d45ecc9df785a190cce29">More...</a><br /></td></tr>
 <tr class="separator:aa0d9df8cdd6d45ecc9df785a190cce29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fcf0576ae114451a9f0b4c3cd62e736"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID</a> (int player_id) const </td></tr>
+<tr class="memdesc:a0fcf0576ae114451a9f0b4c3cd62e736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the empire ID for the player with ID <em>player_id</em>.  <a href="#a0fcf0576ae114451a9f0b4c3cd62e736">More...</a><br /></td></tr>
 <tr class="separator:a0fcf0576ae114451a9f0b4c3cd62e736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9d715e7853b50f18335f283b2c43f0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5d9d715e7853b50f18335f283b2c43f0">EmpirePlayerID</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a5d9d715e7853b50f18335f283b2c43f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the player ID for the player controlling the empire with id <em>empire_id</em>.  <a href="#a5d9d715e7853b50f18335f283b2c43f0">More...</a><br /></td></tr>
 <tr class="separator:a5d9d715e7853b50f18335f283b2c43f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5693615a4c79f2b5cf1bd286ed54c288"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a5693615a4c79f2b5cf1bd286ed54c288">IsAvailableName</a> (const std::string &amp;player_name) const </td></tr>
+<tr class="memdesc:a5693615a4c79f2b5cf1bd286ed54c288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if <em>player_name</em> are not used by other players.  <a href="#a5693615a4c79f2b5cf1bd286ed54c288">More...</a><br /></td></tr>
 <tr class="separator:a5693615a4c79f2b5cf1bd286ed54c288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68dc367307c988daf3bfa288531e4a37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a68dc367307c988daf3bfa288531e4a37">IsHostless</a> () const </td></tr>
+<tr class="memdesc:a68dc367307c988daf3bfa288531e4a37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if server runs in a hostless mode.  <a href="#a68dc367307c988daf3bfa288531e4a37">More...</a><br /></td></tr>
 <tr class="separator:a68dc367307c988daf3bfa288531e4a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a244f4bd73029d2215c2d18080ec95d4a"><td class="memItemLeft" align="right" valign="top">const boost::circular_buffer&lt; <a class="el" href="structChatHistoryEntity.html">ChatHistoryEntity</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a244f4bd73029d2215c2d18080ec95d4a">GetChatHistory</a> () const </td></tr>
+<tr class="memdesc:a244f4bd73029d2215c2d18080ec95d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns chat history buffer.  <a href="#a244f4bd73029d2215c2d18080ec95d4a">More...</a><br /></td></tr>
 <tr class="separator:a244f4bd73029d2215c2d18080ec95d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7c14663443d7ece719fea0dedd090f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classServerApp.html">ServerApp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#afa7c14663443d7ece719fea0dedd090f">GetApp</a> ()</td></tr>
+<tr class="memdesc:afa7c14663443d7ece719fea0dedd090f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classClientApp.html" title="Abstract base class for the application framework classes. ">ClientApp</a> pointer to the singleton instance of the app.  <a href="#afa7c14663443d7ece719fea0dedd090f">More...</a><br /></td></tr>
 <tr class="separator:afa7c14663443d7ece719fea0dedd090f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_classIApp"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classIApp')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classIApp.html">IApp</a></td></tr>
 <tr class="memitem:ac65e8f2e3d507b2a432949965eacfeb6 inherit pub_static_methods_classIApp"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classIApp.html">IApp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#ac65e8f2e3d507b2a432949965eacfeb6">GetApp</a> ()</td></tr>
+<tr class="memdesc:ac65e8f2e3d507b2a432949965eacfeb6 inherit pub_static_methods_classIApp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classIApp.html">IApp</a> pointer to the singleton instance of the app.  <a href="#ac65e8f2e3d507b2a432949965eacfeb6">More...</a><br /></td></tr>
 <tr class="separator:ac65e8f2e3d507b2a432949965eacfeb6 inherit pub_static_methods_classIApp"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a633571e519070e406ae37b8044163595 inherit pub_static_methods_classIApp"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a633571e519070e406ae37b8044163595">MAX_AI_PLAYERS</a> ()</td></tr>
 <tr class="memdesc:a633571e519070e406ae37b8044163595 inherit pub_static_methods_classIApp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of AIs.  <a href="#a633571e519070e406ae37b8044163595">More...</a><br /></td></tr>
@@ -476,7 +545,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds an existing empire to turn processing. The position the empire is in the vector is it's position in the turn processing. </p>
+
+<p>Adds an existing empire to turn processing. </p>
+<p>The position the empire is in the vector is it's position in the turn processing. </p>
 
 <p>References <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
 
@@ -497,7 +568,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds new observing player to running game. Simply sends GAME_START message so established player knows he is in the game. </p>
+
+<p>Adds new observing player to running game. </p>
+<p>Simply sends GAME_START message so established player knows he is in the game. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a3a4b5d326132c644667ab9e617fc9cf5">GameStartMessage()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, and <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>.</p>
 
@@ -518,7 +591,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds new player to running game. Search empire by player's name and return true if success and false if no empire found. Simply sends GAME_START message so established player knows he is in the game. </p>
+
+<p>Adds new player to running game. </p>
+<p>Search empire by player's name and return true if success and false if no empire found. Simply sends GAME_START message so established player knows he is in the game. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44">anonymous_namespace{CUIWnd.cpp}::dummy</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="Message_8cpp.html#a3a4b5d326132c644667ab9e617fc9cf5">GameStartMessage()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
 
@@ -538,7 +613,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Determines if all empired have submitted their orders for this turn It will loop the turn squence vector and check for a set order_set. A order_set of 0 indicates that the empire has not yet submitted their orders for the given turn </p>
+
+<p>Determines if all empired have submitted their orders for this turn It will loop the turn squence vector and check for a set order_set. </p>
+<p>A order_set of 0 indicates that the empire has not yet submitted their orders for the given turn </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, and <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
 
@@ -558,6 +635,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Determines if any empires are eliminated (for the first time this turn, skipping any which were also eliminated previously) and if any empires are thereby victorious. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a78ff83f6e70720dafb1023d87915d0b4">anonymous_namespace{ServerApp.cpp}::EmpireEliminated()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classGameRules.html#a50df260f47c0ba1bc3fbcba880115d8a">GameRules::Get()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="classServerApp.html#a1634af674d3150bdd2f340b4da361aea">GetEmpireClientType()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -607,6 +685,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets all empire turn orders to an empty set. </p>
 
 <p>References <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
@@ -638,6 +717,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>creates an AI client child process for each element of <em>AIs</em> </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad9dee4fe7851cbde13f44a55e4d0368b">anonymous_namespace{ServerApp.cpp}::AIClientExe()</a>, <a class="el" href="classServerApp.html#a494b4b725c695e6e1578879f84279341">CleanupAIs()</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classServerApp.html#a4637cb75adb27c0bd332efb3f3f94efe">m_ai_client_processes</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classServerApp.html#a43bcfc85f8507ca82d65be03d91adde9">SetAIsProcessPriorityToLow()</a>, and <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>.</p>
@@ -666,6 +746,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#ab62973eb4ed089ec38b6a058bd0c74ed">IApp</a>.</p>
@@ -689,6 +770,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Drop link between player with <em>player_id</em> and his empire. </p>
 
 <p>References <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>.</p>
@@ -717,6 +799,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a1fc73ff4e2635c19c518ab4bdbef617e">IApp</a>.</p>
@@ -740,7 +823,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Eliminate player's empire by <em>player_connection</em>. Return true if player was eliminated. </p>
+
+<p>Eliminate player's empire by <em>player_connection</em>. </p>
+<p>Return true if player was eliminated. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Empire::Eliminate()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classObjectMap.html#a849144b92f2f13095807942c6eda9461">ObjectMap::FindObjectIDs()</a>, <a class="el" href="classGameRules.html#a50df260f47c0ba1bc3fbcba880115d8a">GameRules::Get()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire()</a>, <a class="el" href="classServerApp.html#a1634af674d3150bdd2f340b4da361aea">GetEmpireClientType()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="AppInterface_8h.html#a959b700df6a6b0d1705f41b629b2cc95">GetPlanet()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">GetUniverse()</a>, <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, <a class="el" href="classUniverse.html#a3806b3c06880390b4ea536af2507e5c5">Universe::RecursiveDestroy()</a>, <a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
@@ -779,6 +864,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a83447d0874e2a7c8766c8f116d4b7673">IApp</a>.</p>
@@ -808,6 +894,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a1f804bd085724c07dc2e3a67ab6d1f2b">IApp</a>.</p>
@@ -831,7 +918,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the player ID for the player controlling the empire with id <em>empire_id</em> </p>
+
+<p>Returns the player ID for the player controlling the empire with id <em>empire_id</em>. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>.</p>
 
@@ -859,6 +947,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a4ce53c9a73c5f85be203b99ffb238165">IApp</a>.</p>
@@ -889,7 +978,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calls Python turn events script. Supposed to be called every turn so it can be used by content scripters to implement user customizable turn events. </p>
+
+<p>Calls Python turn events script. </p>
+<p>Supposed to be called every turn so it can be used by content scripters to implement user customizable turn events. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classPythonServer.html#adc87721bf1523e3eab9fe148f0378738">PythonServer::ExecuteTurnEvents()</a>, <a class="el" href="classServerApp.html#afa7c14663443d7ece719fea0dedd090f">GetApp()</a>, <a class="el" href="ServerFramework_8cpp.html#a381f00a3e03bdcc6eb5656af1b7cd694">GetPythonTurnEventsDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">PythonBase::Initialize()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a65d3a0d514440c9faf3b1ee3cbd2d11c">m_python_server</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">Networking()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">PythonBase::SetCurrentDir()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
@@ -918,7 +1009,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calls Python universe generator script. Supposed to be called to create a new universe so it can be used by content scripters to customize universe generation. </p>
+
+<p>Calls Python universe generator script. </p>
+<p>Supposed to be called to create a new universe so it can be used by content scripters to customize universe generation. </p>
 
 <p>References <a class="el" href="classPredefinedShipDesignManager.html#ab19b7187717384439dfcfc2341c5bd43">PredefinedShipDesignManager::AddShipDesignsToUniverse()</a>, <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">Universe::ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#a5b2b74781cf8a9f49b632bf4d53b6257">Universe::ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d">EmpireManager::BackPropagateMeters()</a>, <a class="el" href="classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7">Universe::BackPropagateObjectMeters()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Universe::Clear()</a>, <a class="el" href="classSpeciesManager.html#af5f4517596ba2277867baf70e4225b83">SpeciesManager::ClearSpeciesHomeworlds()</a>, <a class="el" href="classPythonServer.html#a6b5a2341408dd8e2695c1756737ce113">PythonServer::CreateUniverse()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classObjectMap.html#aef7b8f377f491fab9f017a36f6ec1eb5">ObjectMap::Dump()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerApp.html#afa7c14663443d7ece719fea0dedd090f">GetApp()</a>, <a class="el" href="classServerApp.html#a7ee0cf6d0d5dfe90e2e19a60bc911721">GetGalaxySetupData()</a>, <a class="el" href="ShipDesign_8cpp.html#ab3ae875c551ac1bff3075f3a2614bade">GetPredefinedShipDesignManager()</a>, <a class="el" href="ServerFramework_8cpp.html#a04fba3e29c4fbed4b374604bffb78718">GetPythonUniverseGeneratorDir()</a>, <a class="el" href="structGalaxySetupData.html#a9ce0c7eecdd6cec63519b26351c4737d">GalaxySetupData::GetSeed()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">GetUniverse()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="UniverseGenerator_8cpp.html#aea3300a9c631076af3ccc43f7cfd556c">InitEmpires()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a65d3a0d514440c9faf3b1ee3cbd2d11c">m_python_server</a>, <a class="el" href="structGalaxySetupData.html#a0b9b65f075717f1b334fe1f07edc42f5">GalaxySetupData::m_seed</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">Networking()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">Universe::ResetAllIDAllocation()</a>, <a class="el" href="ServerApp_8cpp.html#a576fe3f301419e355d3cef0d93f52dea">Seed()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="UniverseGenerator_8cpp.html#a9bed4e6145c00eb004f27ad363a0bd79">SetActiveMetersToTargetMaxCurrentValues()</a>, <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">PythonBase::SetCurrentDir()</a>, <a class="el" href="UniverseGenerator_8cpp.html#a45c268357658c98a08eeebffba355455">SetNativePopulationValues()</a>, <a class="el" href="structGalaxySetupData.html#a2bed73541e9b2da3bb3ed5f44a6a95fe">GalaxySetupData::SetSeed()</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>, <a class="el" href="classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
@@ -946,6 +1039,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns a <a class="el" href="classClientApp.html" title="Abstract base class for the application framework classes. ">ClientApp</a> pointer to the singleton instance of the app. </p>
 
 <p>References <a class="el" href="classIApp.html#a00c4b39bf40bbecbc309f6bb72223c0f">IApp::s_app</a>.</p>
@@ -966,6 +1060,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns chat history buffer. </p>
 
 <p>References <a class="el" href="classServerApp.html#a52aaa3147d99019d958e613c292c624f">m_chat_history</a>.</p>
@@ -995,6 +1090,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a0fc89f2cd5824a2dd8e4c3d7e14c7877">IApp</a>.</p>
@@ -1026,6 +1122,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the networking client type for the given empire_id. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a41f47dc1deb6f367321a8c7eaa58a3f6">IApp</a>.</p>
@@ -1056,6 +1153,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a68d7111d52c4c2d5bed2f681e4fee355">IApp</a>.</p>
@@ -1086,7 +1184,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the galaxy setup data used for the current game </p>
+
+<p>Returns the galaxy setup data used for the current game. </p>
 
 <p>References <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="classServerApp.html#a371f3a05d555954c35f53137c1c3ceb1">AddObserverPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6">CheckForEmpireElimination()</a>, <a class="el" href="classServerApp.html#a494b4b725c695e6e1578879f84279341">CleanupAIs()</a>, <a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders()</a>, <a class="el" href="classServerApp.html#ad70ebd8709b1c055f549d6d944319687">CreateAIClients()</a>, <a class="el" href="classServerApp.html#a8fc0e3fb214ba11946527c3cc5bb88e0">DropPlayerEmpireLink()</a>, <a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">EliminatePlayer()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ExecuteScriptedTurnEvents()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">GenerateUniverse()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda">HandleDiplomaticMessageChange()</a>, <a class="el" href="classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb">HandleDiplomaticStatusChange()</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">HandleLoggerConfig()</a>, <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">HandleMessage()</a>, <a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">HandleNonPlayerMessage()</a>, <a class="el" href="classServerApp.html#a66c1c0dc4eca9e8e9488db385c0dea48">HandleShutdownMessage()</a>, <a class="el" href="classServerApp.html#aade4f1bf48914ec40757128314f6b244">InitializePython()</a>, <a class="el" href="classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782">IsAuthRequiredOrFillRoles()</a>, <a class="el" href="classServerApp.html#a7df980a4219a193118f710249723a5bb">IsAuthSuccessAndFillRoles()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#a6ad01a33b8c19289fac3377d275e92f1">LoadMPGameInit()</a>, <a class="el" href="classServerApp.html#a38d1202c9cc787b4e6e3ce12cf6c7876">LoadSPGameInit()</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">Networking()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">NewGameInitVerifyJoiners()</a>, <a class="el" href="classServerApp.html#adced89fb43cf148891cea186cb3aceba">NewMPGameInit()</a>, <a class="el" href="classServerApp.html#a05bf65cce53d8e17a34b9dee9b5a1767">NewSPGameInit()</a>, <a class="el" href="classServerApp.html#ab936ee02bb1e797bbab6589493fcc359">PlayerDisconnected()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ProcessCombats()</a>, <a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">PushChatMessage()</a>, <a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn()</a>, <a class="el" href="classServerApp.html#a70ce812f38051a5ebf7d5502cbd0820c">RevokeEmpireTurnReadyness()</a>, <a class="el" href="classServerApp.html#affc92776946a023a5cbdb3cf88a91132">Run()</a>, <a class="el" href="classServerApp.html#a6e73de1a18eeea62f7cb93ed5816666f">SelectNewHost()</a>, <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>, <a class="el" href="classServerApp.html#a43bcfc85f8507ca82d65be03d91adde9">SetAIsProcessPriorityToLow()</a>, <a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">SetEmpireTurnOrders()</a>, <a class="el" href="classServerApp.html#a6d473d970c44c24d704715f786ed3169">ShutdownTimedoutHandler()</a>, <a class="el" href="classServerApp.html#a98e27702a28add0fef27b7d2a8c6b201">SignalHandler()</a>, <a class="el" href="classServerApp.html#aeb17c60a51723729b6750b7e60a15814">UpdateCombatLogs()</a>, <a class="el" href="classServerApp.html#adcfda5d272bd714ca9c3ca0f6f1cc2fc">UpdateMonsterTravelRestrictions()</a>, <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews()</a>, and <a class="el" href="classServerApp.html#acec8a6b2dd08b9a9f5f5be87127bb6c0">VerifySPGameAIs()</a>.</p>
 
@@ -1113,6 +1212,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the networking client type for the given player_id. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a149471521477e0530ffde55b2b6282e9">IApp</a>.</p>
@@ -1143,7 +1243,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get players info map to send it in GameStart message </p>
+
+<p>Get players info map to send it in GameStart message. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, and <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>.</p>
 
@@ -1171,6 +1272,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a99fbceb67b271eb8d4178555394abca3">IApp</a>.</p>
@@ -1201,6 +1303,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a96e7b315d57b4e61ace7e5ecb6800644">IApp</a>.</p>
@@ -1232,6 +1335,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#a7e91415f70b1665dc5bd43748d5c1e3e">IApp</a>.</p>
@@ -1263,6 +1367,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the server's map for known objects of specified empire. </p>
 
 <p>Implements <a class="el" href="classIApp.html#ac554f82c935f836626c10b64c6de9b1d">IApp</a>.</p>
@@ -1302,7 +1407,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when this sever's <a class="el" href="classEmpireManager.html">EmpireManager</a> changes the diplmatic message between two empires. Updates those empires of the change. </p>
+
+<p>Called when this sever's <a class="el" href="classEmpireManager.html" title="Maintains all of the Empire objects that exist in the application. ">EmpireManager</a> changes the diplmatic message between two empires. </p>
+<p>Updates those empires of the change. </p>
 
 <p>References <a class="el" href="Message_8cpp.html#a6a9d7b9d7e40aaaa5dd005b93ce46def">DiplomacyMessage()</a>, <a class="el" href="classServerApp.html#a5d9d715e7853b50f18335f283b2c43f0">EmpirePlayerID()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classEmpireManager.html#a3458b80a6062aec66d6738d8979dce63">EmpireManager::GetDiplomaticMessage()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">ServerNetworking::GetPlayer()</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>.</p>
 
@@ -1341,7 +1448,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when this server's <a class="el" href="classEmpireManager.html">EmpireManager</a> changes the diplomatic status between two empires. Updates those empires of the change. </p>
+
+<p>Called when this server's <a class="el" href="classEmpireManager.html" title="Maintains all of the Empire objects that exist in the application. ">EmpireManager</a> changes the diplomatic status between two empires. </p>
+<p>Updates those empires of the change. </p>
 
 <p>References <a class="el" href="Message_8cpp.html#aa9896ed426180f7cbed2607b7bcdadf4">DiplomaticStatusMessage()</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, and <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>.</p>
 
@@ -1380,6 +1489,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Checks validity of logger config message and then update logger and loggers of all AIs. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#a72b110b41fe2ae93d22e5fa27bf3d676">ExtractLoggerConfigMessageData()</a>, <a class="el" href="classServerNetworking.html#a892b82f58218c80fd5e8264c0c5e82bf">ServerNetworking::HostPlayerID()</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="Message_8cpp.html#ad529496598b3f458d3fdbf9b0f1ec19b">LoggerConfigMessage()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>, <a class="el" href="LoggerWithOptionsDB_8cpp.html#a0e1e3df1aeb2043a9a70b6677d9b9b9d">SetLoggerThresholds()</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
@@ -1419,7 +1529,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Handles an incoming message from the server with the appropriate action or response </p>
+
+<p>Handles an incoming message from the server with the appropriate action or response. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">ServerNetworking::Disconnect()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7">HandleLoggerConfig()</a>, <a class="el" href="classServerApp.html#a66c1c0dc4eca9e8e9488db385c0dea48">HandleShutdownMessage()</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>, <a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">ServerNetworking::UpdateCookie()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">UpdateSavePreviews()</a>.</p>
 
@@ -1458,7 +1569,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>When Messages arrive from connections that are not established players, they arrive via a call to this function </p>
+
+<p>When Messages arrive from connections that are not established players, they arrive via a call to this function. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">ServerNetworking::Disconnect()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerNetworking.html#a50754d78f32ea02f707f003e2cd25353">ServerNetworking::size()</a>, and <a class="el" href="classMessage.html#a28a11a6303845db1d8efb12fddb16814">Message::Type()</a>.</p>
 
@@ -1497,6 +1609,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Checks validity of shut down message from player, then attempts to cleanly shut down this server process. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, and <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>.</p>
@@ -1525,7 +1638,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Initialize the python engine if not already running. Return true on success. </p>
+
+<p>Initialize the python engine if not already running. </p>
+<p>Return true on success. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">PythonBase::Initialize()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, and <a class="el" href="classServerApp.html#a65d3a0d514440c9faf3b1ee3cbd2d11c">m_python_server</a>.</p>
 
@@ -1556,6 +1671,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if <em>player_name</em> requires auth to login and fill <em>roles</em> if not. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerApp.html#afa7c14663443d7ece719fea0dedd090f">GetApp()</a>, <a class="el" href="ServerFramework_8cpp.html#a34f46e21989ce38891370adb4a4af464">GetPythonAuthDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">PythonBase::Initialize()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classPythonServer.html#a7f95cc5b21e9d79ca93ab26d4252716a">PythonServer::IsRequireAuthOrReturnRoles()</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a65d3a0d514440c9faf3b1ee3cbd2d11c">m_python_server</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">Networking()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">PythonBase::SetCurrentDir()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -1593,6 +1709,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if <em>auth</em> match <em>player_name</em> and fill <em>roles</em> if successed. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerApp.html#afa7c14663443d7ece719fea0dedd090f">GetApp()</a>, <a class="el" href="ServerFramework_8cpp.html#a34f46e21989ce38891370adb4a4af464">GetPythonAuthDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">PythonBase::Initialize()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classPythonServer.html#a56758ce95342eeab8f8ea33594431618">PythonServer::IsSuccessAuthAndReturnRoles()</a>, <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>, <a class="el" href="classServerApp.html#a65d3a0d514440c9faf3b1ee3cbd2d11c">m_python_server</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">Networking()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">PythonBase::SetCurrentDir()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -1614,6 +1731,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if <em>player_name</em> are not used by other players. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">ServerNetworking::IsAvailableNameInCookies()</a>, and <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>.</p>
@@ -1634,6 +1752,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if server runs in a hostless mode. </p>
 
 <p>References <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
@@ -1655,7 +1774,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Checks if player with ID <em>player_id</em> is a human player who's client runs on the same machine as the server </p>
+
+<p>Checks if player with ID <em>player_id</em> is a human player who's client runs on the same machine as the server. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">ServerNetworking::GetPlayer()</a>, and <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>.</p>
 
@@ -1700,6 +1820,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Clears any old game stored orders, victors or eliminated players, ads empires to turn processing list, does start-of-turn empire supply and resource pool determination, regenerates pathfinding graphc, restores any UI or AI state information players had saved, and compiles info about all players to send out to all other players are part of game start messages. </p>
 
 <p>References <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#a3a4b5d326132c644667ab9e617fc9cf5">GameStartMessage()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="structGalaxySetupData.html#a61818fe70071dc1f60abb22df77febb7">GalaxySetupData::GetGameRules()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c">Universe::InitializeSystemGraph()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="structPlayerSaveHeaderData.html#a99dcc412cc2fb769a9278518c64ccc43">PlayerSaveHeaderData::m_empire_id</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="structPlayerSaveGameData.html#aae626680f7587c416b264a6158ab0b6a">PlayerSaveGameData::m_orders</a>, <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>, <a class="el" href="structPlayerSaveGameData.html#ad8ab840cb4b5a05c1911b0f885779092">PlayerSaveGameData::m_save_state_string</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>, <a class="el" href="structPlayerSaveGameData.html#a64df313f65883f8640817e330d785cee">PlayerSaveGameData::m_ui_data</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">ServerNetworking::NumEstablishedPlayers()</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classGameRules.html#a370759fa27dd8a99876cedc9f23ee50e">GameRules::SetFromStrings()</a>, <a class="el" href="ServerApp_8cpp.html#a95e7688885e287889be41b89583be690">UpdateEmpireSupply()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -1737,6 +1858,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Restores saved multiplayer gamestate and human and AI client state information. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a8cd8226d08b64b5d4cbe54bfca3f7dca">anonymous_namespace{ServerApp.cpp}::GetSaveGameDataIndexForAIPlayer()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6155dd0126cace11240ce1bf360cd741">anonymous_namespace{ServerApp.cpp}::GetSaveGameDataIndexForHumanPlayer()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="structPlayerSetupData.html#a6200e9a837a98c25b0c1d655997f6143">PlayerSetupData::m_client_type</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, and <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>.</p>
@@ -1768,6 +1890,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Restores saved single player gamestate and human and AI client state information. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerNetworking.html#a892b82f58218c80fd5e8264c0c5e82bf">ServerNetworking::HostPlayerID()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="structPlayerSaveHeaderData.html#a5dd1bebb9dd2cedbea3aa91802905a3f">PlayerSaveHeaderData::m_client_type</a>, and <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>.</p>
@@ -1828,6 +1951,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Clears any old game stored orders, victors or eliminated players, ads empires to turn processing list, does start-of-turn empire supply and resource pool determination. </p>
 
 <p>References <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="classUniverse.html#a4e996a54669745cbb48a3b5ece0a2031">Universe::ApplyGenerateSitRepEffects()</a>, <a class="el" href="Ship_8h.html#ad1545860e730fa15fa02dd91bc42c832">BEFORE_FIRST_TURN</a>, <a class="el" href="classEmpireManager.html#a08e1266e3cc4f6a668a835a7a96df5b7">EmpireManager::Clear()</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">GenerateUniverse()</a>, <a class="el" href="classMessage.html#a6bee315a53a4a1663394d1bf5329caab">Message::GENERATING_UNIVERSE</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">GetEmpire()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="structGalaxySetupData.html#a61818fe70071dc1f60abb22df77febb7">GalaxySetupData::GetGameRules()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>, <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classGameRules.html#a370759fa27dd8a99876cedc9f23ee50e">GameRules::SetFromStrings()</a>, <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="ServerApp_8cpp.html#a95e7688885e287889be41b89583be690">UpdateEmpireSupply()</a>, <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">Universe::UpdateStatRecords()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -1857,6 +1981,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return true if player data is consistent with starting a new game. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerNetworking.html#a892b82f58218c80fd5e8264c0c5e82bf">ServerNetworking::HostPlayerID()</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, <a class="el" href="classServerApp.html#a68dc367307c988daf3bfa288531e4a37">IsHostless()</a>, <a class="el" href="structPlayerSetupData.html#a6200e9a837a98c25b0c1d655997f6143">PlayerSetupData::m_client_type</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="structPlayerSetupData.html#ae015792f141055bae6ca63c5be37ada6">PlayerSetupData::m_player_name</a>, <a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">ServerNetworking::NumEstablishedPlayers()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
@@ -1878,7 +2003,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Intializes multi player game universe, sends out initial game state to clients, and signals clients to start first turn </p>
+
+<p>Intializes multi player game universe, sends out initial game state to clients, and signals clients to start first turn. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09abb8a65f7bd637daa5761dbe99df2e7da">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="structPlayerSetupData.html#a6200e9a837a98c25b0c1d655997f6143">PlayerSetupData::m_client_type</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="structPlayerSetupData.html#ae015792f141055bae6ca63c5be37ada6">PlayerSetupData::m_player_name</a>, <a class="el" href="structMultiplayerLobbyData.html#abd2ede29d38bebde6ae1d3ba2149a66e">MultiplayerLobbyData::m_players</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">NewGameInitVerifyJoiners()</a>, and <a class="el" href="classServerApp.html#a78cdeb764c6d51e2d206e5884cadc503">SendNewGameStartMessages()</a>.</p>
 
@@ -1899,6 +2025,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Intializes single player game universe. </p>
 
 <p>References <a class="el" href="structSinglePlayerSetupData.html#a2c522cb19b91c1d4d9976bf285bedb77">SinglePlayerSetupData::m_players</a>, and <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>.</p>
@@ -1997,7 +2124,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called by <a class="el" href="classServerNetworking.html">ServerNetworking</a> when a player's TCP connection is closed </p>
+
+<p>Called by <a class="el" href="classServerNetworking.html" title="Encapsulates the networking facilities of the server. ">ServerNetworking</a> when a player's TCP connection is closed. </p>
 
 <p>References <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>.</p>
 
@@ -2018,7 +2146,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the empire ID for the player with ID <em>player_id</em> </p>
+
+<p>Returns the empire ID for the player with ID <em>player_id</em>. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="classServerApp.html#acaa6f3e2a0c920dab20ff81d2e2c4888">m_player_empire_ids</a>.</p>
 
@@ -2038,6 +2167,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Determines resource and supply distribution pathes and connections, updates research, production, trade spending, does population growth, updates current turn number, checks for eliminated or victorious empires / players, sends new turn updates. </p>
 
 <p>References <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">Universe::ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#a5b2b74781cf8a9f49b632bf4d53b6257">Universe::ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7">Universe::BackPropagateObjectMeters()</a>, <a class="el" href="classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6">CheckForEmpireElimination()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">Empire::CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#ac9dd90e2ad3859369b308ad0a2ddc0f5">Empire::CheckResearchProgress()</a>, <a class="el" href="classEmpire.html#a1f3e10d22f4a69464b4e78e4e06880b4">Empire::CheckTradeSocialProgress()</a>, <a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classMessage.html#a9d82bfdabf715e9dad053935918f40e5">Message::DOWNLOADING</a>, <a class="el" href="classObjectMap.html#aef7b8f377f491fab9f017a36f6ec1eb5">ObjectMap::Dump()</a>, <a class="el" href="classEmpire.html#a7cc7ddcbb0c1be3037c56c366493261f">Empire::Eliminated()</a>, <a class="el" href="classMessage.html#ad3734738d4a908d130c320c36bba526a">Message::EMPIRE_PRODUCTION</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ExecuteScriptedTurnEvents()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classServerApp.html#a431820331839f89e365a41a542298664">GetUniverseObject()</a>, <a class="el" href="classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c">Universe::InitializeSystemGraph()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="structGalaxySetupData.html#a0b9b65f075717f1b334fe1f07edc42f5">GalaxySetupData::m_seed</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, <a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">Universe::ObfuscateIDGenerator()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>, <a class="el" href="ServerApp_8cpp.html#a576fe3f301419e355d3cef0d93f52dea">Seed()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>, <a class="el" href="Message_8cpp.html#af7d5fe8408d4d09271696586e9c843e5">TurnUpdateMessage()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="ServerApp_8cpp.html#a95e7688885e287889be41b89583be690">UpdateEmpireSupply()</a>, <a class="el" href="classUniverse.html#a8ea1fa4180099290a25ec3cd5a146173">Universe::UpdateEmpireVisibilityFilteredSystemGraphs()</a>, <a class="el" href="classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">Universe::UpdateMeterEstimates()</a>, <a class="el" href="classServerApp.html#adcfda5d272bd714ca9c3ca0f6f1cc2fc">UpdateMonsterTravelRestrictions()</a>, <a class="el" href="classSpeciesManager.html#af05efa26a64d251bfbb8a7b630cafda6">SpeciesManager::UpdatePopulationCounter()</a>, <a class="el" href="classEmpire.html#a3b8ee5ff437cd7440e86b3212091f538">Empire::UpdatePreservedLanes()</a>, <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">Universe::UpdateStatRecords()</a>, and <a class="el" href="classEmpire.html#ababc96fb8897fff640d32353ab3fd04f">Empire::UpdateUnobstructedFleets()</a>.</p>
@@ -2058,6 +2188,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Executes player orders, does colonization, does ordered scrapping, does fleet movements, and updates visibility before combats are handled. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a03537e796e3f57e091175edab2863c0d">anonymous_namespace{ServerApp.cpp}::CleanEmptyFleets()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a809421668c8326a02b2d559feff51e11">anonymous_namespace{ServerApp.cpp}::CleanUpBombardmentStateInfo()</a>, <a class="el" href="classFleet.html#af887a7768b626eafefc2a13f406c1110">Fleet::ClearArrivalFlag()</a>, <a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders()</a>, <a class="el" href="classMessage.html#ab545e3a47d910cb9a356e138e0534ed5">Message::COLONIZE_AND_SCRAP</a>, <a class="el" href="SitRepEntry_8cpp.html#aec04a828ed73dc023afade18afd749ab">CreateFleetArrivedAtDestinationSitRep()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classMessage.html#a9d82bfdabf715e9dad053935918f40e5">Message::DOWNLOADING</a>, <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">Empires()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="classMessage.html#a90ee2c9e1514d56ac511fcb111e1ccb9">Message::FLEET_MOVEMENT</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af356e69c04e0e99ba6b7e5fb3626d1cb">anonymous_namespace{ServerApp.cpp}::HandleColonization()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad2ac9277fcc0cd84949db37be555acd5">anonymous_namespace{ServerApp.cpp}::HandleGifting()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a965f23e2b3a7c4585a2bc8cb19f41490">anonymous_namespace{ServerApp.cpp}::HandleInvasion()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1cab1aa2267ac8e18beb53a951835eec">anonymous_namespace{ServerApp.cpp}::HandleScrapping()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>, <a class="el" href="classMessage.html#ad4480e58e60597e3a375ce02f2807bcd">Message::PROCESSING_ORDERS</a>, <a class="el" href="classUniverse.html#a62e81f4816a7286ee92bdfb1b954e09a">Universe::ResetAllObjectMeters()</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="Message_8cpp.html#a8ca58363c6a569dfd43ddbe490157cac">TurnPartialUpdateMessage()</a>, <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>, <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>, <a class="el" href="classUniverse.html#a8ea1fa4180099290a25ec3cd5a146173">Universe::UpdateEmpireVisibilityFilteredSystemGraphs()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad234f19d034e2eb80b0891795b536caf">anonymous_namespace{ServerApp.cpp}::UpdateResourceCenterFocusHistoryInfo()</a>.</p>
@@ -2078,6 +2209,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Determines which combats will occur, handles running the combats and updating the universe after the results are available. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ae6f283c380cd9b4924143b8091edcab9">anonymous_namespace{ServerApp.cpp}::AssembleSystemCombatInfo()</a>, <a class="el" href="CombatSystem_8cpp.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ac812c376a4ee5dc901b557e5435a6f65">anonymous_namespace{ServerApp.cpp}::BackProjectSystemCombatInfoObjectMeters()</a>, <a class="el" href="classMessage.html#a610fbee50432e477d952db733608e2e6">Message::COMBAT</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aea942722372f973db858b8b03d8e3924">anonymous_namespace{ServerApp.cpp}::CreateCombatSitReps()</a>, <a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a358259eb8e4b87c9892606c898992c69">anonymous_namespace{ServerApp.cpp}::DisseminateSystemCombatInfo()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505">anonymous_namespace{ServerApp.cpp}::HumanControlledEmpires()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="Message_8cpp.html#ae0122c780528400d0af3eb0322089e46">TurnProgressMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6f1d30ee4639cae1cb96383e0848cc0c">anonymous_namespace{ServerApp.cpp}::UpdateEmpireCombatDestructionInfo()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>.</p>
@@ -2141,7 +2273,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes an empire from turn processing. This is most likely called when an empire is eliminated from the game </p>
+
+<p>Removes an empire from turn processing. </p>
+<p>This is most likely called when an empire is eliminated from the game </p>
 
 <p>References <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
 
@@ -2162,6 +2296,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Revokes turn order's ready state for the given empire. </p>
 
 <p>References <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
@@ -2219,7 +2354,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when the host player has disconnected. Select a new host player </p>
+
+<p>Called when the host player has disconnected. </p>
+<p>Select a new host player </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a858b2109835ced596d08954a22ffa880">Networking::CLIENT_TYPE_HUMAN_OBSERVER</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a038fb5ce4dd8062e206d8459255de04e">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#aae46a48fc3c9be999466a53c3aa1223c">HostIDMessage()</a>, <a class="el" href="classServerNetworking.html#a892b82f58218c80fd5e8264c0c5e82bf">ServerNetworking::HostPlayerID()</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">ServerNetworking::SendMessageAll()</a>, <a class="el" href="classServerNetworking.html#a8e2d4700adfbf37123b562dabc0af793">ServerNetworking::SetHostPlayerID()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
@@ -2247,6 +2384,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Sends out initial new game state to clients, and signals clients to start first turn. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#a3a4b5d326132c644667ab9e617fc9cf5">GameStartMessage()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a5107f22449e9780841144349053cd215">GetPlayerInfoMap()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="classServerApp.html#a455cfc7b3786adfc08840c2bdeff898c">GetSupplyManager()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a>, <a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">m_networking</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, and <a class="el" href="classServerApp.html#a0fcf0576ae114451a9f0b4c3cd62e736">PlayerEmpireID()</a>.</p>
@@ -2276,7 +2414,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets the priority for all AI processes </p>
+
+<p>Sets the priority for all AI processes. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classServerApp.html#a4637cb75adb27c0bd332efb3f3f94efe">m_ai_client_processes</a>.</p>
 
@@ -2307,7 +2446,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds turn orders for the given empire for the current turn. order_set will be freed when all processing is done for the turn </p>
+
+<p>Adds turn orders for the given empire for the current turn. </p>
+<p>order_set will be freed when all processing is done for the turn </p>
 
 <p>References <a class="el" href="classServerApp.html#af768a11c4d46c8cd5c6dcaca5f1abad0">m_turn_sequence</a>.</p>
 
@@ -2336,6 +2477,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Handle shutdown timeout by killing all ais. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>.</p>
@@ -2375,7 +2517,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when server process receive termination signal </p>
+
+<p>Called when server process receive termination signal. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classServerApp.html#aa4d40c1d40aa1a129c1c9db37a70d101">m_fsm</a>.</p>
 
@@ -2437,6 +2580,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Send the requested combat logs to the client. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Message_8cpp.html#a26fe3c52c14320ad2ad08e6f108d6ab1">DispatchCombatLogsMessage()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a5701bdba58856f97235efb9ae204d443">ExtractRequestCombatLogsMessageData()</a>, <a class="el" href="AIClientApp_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, and <a class="el" href="classCombatLogManager.html#a1f164c164964e92e2a88a70e37e535c0">CombatLogManager::GetLog()</a>.</p>
@@ -2457,7 +2601,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Used post combat, to selectively clear the m_arrival_starlane flag of monsters so that they can impose blockades </p>
+
+<p>Used post combat, to selectively clear the m_arrival_starlane flag of monsters so that they can impose blockades. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classObjectMap.html#afbe3db1b5769fcf94fb7ad752468a963">ObjectMap::ExistingSystems()</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classServerApp.html#a58ad28ffda15a992b9734fec154782ba">m_universe</a>, and <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>.</p>
 
@@ -2508,6 +2653,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return true if single player game AIs are compatible with created universe and are ready to start a new game. </p>
 
 <p>References <a class="el" href="structSinglePlayerSetupData.html#a2c522cb19b91c1d4d9976bf285bedb77">SinglePlayerSetupData::m_players</a>, and <a class="el" href="classServerApp.html#a30d85e5348f5b32029f22928f54dc2c8">NewGameInitVerifyJoiners()</a>.</p>
@@ -3053,7 +3199,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Turn sequence map is used for turn processing. Each empire is added at the start of a game or reload and then the map maintains OrderSets for that turn. The map contains ready state which should be true to advance turn and pointer to orders from empire. </p>
+
+<p>Turn sequence map is used for turn processing. </p>
+<p>Each empire is added at the start of a game or reload and then the map maintains OrderSets for that turn. The map contains ready state which should be true to advance turn and pointer to orders from empire. </p>
 
 <p>Referenced by <a class="el" href="classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5">AddEmpireTurn()</a>, <a class="el" href="classServerApp.html#ac00d334a144386d898d40aad1d661ca9">AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#abeb1239d98a6b339dcf34c86cb7d6f4d">ClearEmpireTurnOrders()</a>, <a class="el" href="classServerApp.html#ae33f03516e56e1bfb88508d2baf6a468">LoadGameInit()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">PreCombatProcessTurns()</a>, <a class="el" href="structWaitingForSaveData.html#abc1fb6d13a7f6ddca58bedddd9af0c46">WaitingForSaveData::react()</a>, <a class="el" href="classServerApp.html#a5108df36cf2f33c3c3d0fe2c9ad5f027">RemoveEmpireTurn()</a>, <a class="el" href="classServerApp.html#a70ce812f38051a5ebf7d5502cbd0820c">RevokeEmpireTurnReadyness()</a>, and <a class="el" href="classServerApp.html#aaccd6949e01ac3a3357fd9f3dc78e268">SetEmpireTurnOrders()</a>.</p>
 

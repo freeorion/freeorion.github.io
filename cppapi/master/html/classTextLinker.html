@@ -109,9 +109,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="classTextLinker.png" usemap="#TextLinker_map" alt=""/>
   <map id="TextLinker_map" name="TextLinker_map">
-<area href="classCUILinkTextMultiEdit.html" alt="CUILinkTextMultiEdit" shape="rect" coords="0,56,392,80"/>
-<area href="classLinkText.html" alt="LinkText" shape="rect" coords="402,56,794,80"/>
-<area href="classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html" alt="anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText" shape="rect" coords="201,112,593,136"/>
+<area href="classCUILinkTextMultiEdit.html" title="a FreeOrion MultiEdit control that parses its text and makes links within clickable ..." alt="CUILinkTextMultiEdit" shape="rect" coords="0,56,392,80"/>
+<area href="classLinkText.html" title="Allows text that the user sees to emit signals when clicked, and indicates to the user visually which..." alt="LinkText" shape="rect" coords="402,56,794,80"/>
+<area href="classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html" title="LazyScrollerLinkText is a link text that initially populates itself with an ellipsis. " alt="anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText" shape="rect" coords="201,112,593,136"/>
 <area href="classanonymous__namespace_02SitRepPanel_8cpp_03_1_1SitRepLinkText.html" alt="anonymous_namespace{SitRepPanel.cpp}::SitRepLinkText" shape="rect" coords="603,112,995,136"/>
 </map>
  </div></div>
@@ -124,7 +124,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2dad3e796dc7b3c4524724e2d4d2402d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextLinker.html#a2dad3e796dc7b3c4524724e2d4d2402d">SetDecorator</a> (const std::string &amp;link_type, <a class="el" href="classLinkDecorator.html">LinkDecorator</a> *decorator)</td></tr>
-<tr class="memdesc:a2dad3e796dc7b3c4524724e2d4d2402d"><td class="mdescLeft">&#160;</td><td class="mdescRight">link clicked signals: first string is the link type, second string is the specific item clicked  <a href="#a2dad3e796dc7b3c4524724e2d4d2402d">More...</a><br /></td></tr>
+<tr class="memdesc:a2dad3e796dc7b3c4524724e2d4d2402d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the link decorator for a link type.  <a href="#a2dad3e796dc7b3c4524724e2d4d2402d">More...</a><br /></td></tr>
 <tr class="separator:a2dad3e796dc7b3c4524724e2d4d2402d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:a39574bc2af6b1458d2c7bd2ff90269bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextLinker.html#a39574bc2af6b1458d2c7bd2ff90269bb">TextLinker</a> ()</td></tr>
@@ -144,6 +144,7 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a9c31c8532c140cbf8b9cfb77a60bee50"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextLinker.html#a9c31c8532c140cbf8b9cfb77a60bee50">BROWSE_PATH_TAG</a></td></tr>
+<tr class="memdesc:a9c31c8532c140cbf8b9cfb77a60bee50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag for clickable link to open users file manager at a specified directory.  <a href="#a9c31c8532c140cbf8b9cfb77a60bee50">More...</a><br /></td></tr>
 <tr class="separator:a9c31c8532c140cbf8b9cfb77a60bee50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3447f6179c7780fd6ea8f79bfdb999da"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextLinker.html#a3447f6179c7780fd6ea8f79bfdb999da">ENCYCLOPEDIA_TAG</a></td></tr>
 <tr class="separator:a3447f6179c7780fd6ea8f79bfdb999da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -759,11 +760,11 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>link clicked signals: first string is the link type, second string is the specific item clicked </p>
-<p>Sets the link decorator for a link type. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Sets the link decorator for a link type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">link_type</td><td>The link type (tag) to be decorated. Eg. "planet" </td></tr>
-    <tr><td class="paramname">decorator</td><td>The decorator to use. Assumes ownership. </td></tr>
+    <tr><td class="paramname">decorator</td><td>The decorator to use. Assumes ownership. link clicked signals: first string is the link type, second string is the specific item clicked </td></tr>
   </table>
   </dd>
 </dl>
@@ -872,7 +873,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Tag for clickable link to open users file manager at a specified directory </p>
+
+<p>Tag for clickable link to open users file manager at a specified directory. </p>
 
 <p>Referenced by <a class="el" href="classanonymous__namespace_02SitRepPanel_8cpp_03_1_1SitRepDataPanel.html#a96aeeeef7477abcfcf17d464be9bc4c4">anonymous_namespace{SitRepPanel.cpp}::SitRepDataPanel::CompleteConstruction()</a>, <a class="el" href="classCUILinkTextBlock_1_1Factory.html#ab30a255d5fc87327064e79005d66ceaa">CUILinkTextBlock::Factory::CreateFromTag()</a>, <a class="el" href="classTextLinker.html#a404a402865df4281971774c4332337c4">FindLinks()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a715fd94bb37e9c0d48614b244bcacf9c">anonymous_namespace{SitRepPanel.cpp}::HandleLinkClick()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a6fc0b1ee16aab6cfeae30d6cc698626e">EncyclopediaDetailPanel::HandleLinkClick()</a>, and <a class="el" href="LinkText_8h.html#a8355095b52f01351971392431c3fb60c">RegisterLinkTags()</a>.</p>
 

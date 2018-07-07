@@ -94,6 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>A control that allows interaction with a field.  
+ <a href="classFieldIcon.html#details">More...</a></p>
+
 <p><code>#include &lt;FieldIcon.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for FieldIcon:</div>
@@ -115,11 +118,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9e0e45c0810b37f3a134e302253d2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors //!@{</div></td></tr>
 <tr class="memitem:a8bf99866453a3ac58644c5fa8eb72d75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#a8bf99866453a3ac58644c5fa8eb72d75">InWindow</a> (const GG::Pt &amp;pt) const override</td></tr>
+<tr class="memdesc:a8bf99866453a3ac58644c5fa8eb72d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if point lies inside in-system fleet buttons before checking parent InWindow method.  <a href="#a8bf99866453a3ac58644c5fa8eb72d75">More...</a><br /></td></tr>
 <tr class="separator:a8bf99866453a3ac58644c5fa8eb72d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d4978514ead4848d8f40bd6d9badc2a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#a1d4978514ead4848d8f40bd6d9badc2a">FieldID</a> () const </td></tr>
 <tr class="memdesc:a1d4978514ead4848d8f40bd6d9badc2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns ID of system this icon represents  <a href="#a1d4978514ead4848d8f40bd6d9badc2a">More...</a><br /></td></tr>
 <tr class="separator:a1d4978514ead4848d8f40bd6d9badc2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d501c01ffd64fbee8d981513c8e721d"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; GG::Texture &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#a2d501c01ffd64fbee8d981513c8e721d">FieldTexture</a> () const </td></tr>
+<tr class="memdesc:a2d501c01ffd64fbee8d981513c8e721d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the field texture.  <a href="#a2d501c01ffd64fbee8d981513c8e721d">More...</a><br /></td></tr>
 <tr class="separator:a2d501c01ffd64fbee8d981513c8e721d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -130,7 +135,7 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aab7082b35ef416dcd67519cd75dcb1bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#aab7082b35ef416dcd67519cd75dcb1bd">m_field_id</a></td></tr>
-<tr class="memdesc:aab7082b35ef416dcd67519cd75dcb1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the <a class="el" href="classField.html">Field</a> associated with this <a class="el" href="classFieldIcon.html">FieldIcon</a>  <a href="#aab7082b35ef416dcd67519cd75dcb1bd">More...</a><br /></td></tr>
+<tr class="memdesc:aab7082b35ef416dcd67519cd75dcb1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the <a class="el" href="classField.html" title="a class representing a region of space ">Field</a> associated with this <a class="el" href="classFieldIcon.html" title="A control that allows interaction with a field. ">FieldIcon</a>  <a href="#aab7082b35ef416dcd67519cd75dcb1bd">More...</a><br /></td></tr>
 <tr class="separator:aab7082b35ef416dcd67519cd75dcb1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc6e7567b3721300d9cc1bd246b89021"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::StaticGraphic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#acc6e7567b3721300d9cc1bd246b89021">m_mouseover_indicator</a></td></tr>
 <tr class="memdesc:acc6e7567b3721300d9cc1bd246b89021"><td class="mdescLeft">&#160;</td><td class="mdescRight">shown when the mouse cursor is over the system;  <a href="#acc6e7567b3721300d9cc1bd246b89021">More...</a><br /></td></tr>
@@ -145,6 +150,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a97d3da40439aa4a23aff4fd962d67051"><td class="mdescLeft">&#160;</td><td class="mdescRight">shown to indicate system is selected in sidepanel;  <a href="#a97d3da40439aa4a23aff4fd962d67051">More...</a><br /></td></tr>
 <tr class="separator:a97d3da40439aa4a23aff4fd962d67051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0460cac8dc4c7a1156602c73f5a99a3e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Texture &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldIcon.html#a0460cac8dc4c7a1156602c73f5a99a3e">m_texture</a></td></tr>
+<tr class="memdesc:a0460cac8dc4c7a1156602c73f5a99a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classField.html" title="a class representing a region of space ">Field</a> texture.  <a href="#a0460cac8dc4c7a1156602c73f5a99a3e">More...</a><br /></td></tr>
 <tr class="separator:a0460cac8dc4c7a1156602c73f5a99a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
@@ -211,7 +217,8 @@ Mutators //!@{</h2></td></tr>
 <tr class="separator:a2a2bb2c81990c5ed92c067eace93ea06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A control that allows interaction with a field. This class allows user interaction with fields on the galaxy map. It contains the graphic to display the field, along with the object ID of the <a class="el" href="classUniverseObject.html">UniverseObject</a> associated with it. </p>
+<div class="textblock"><p>A control that allows interaction with a field. </p>
+<p>This class allows user interaction with fields on the galaxy map. It contains the graphic to display the field, along with the object ID of the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> associated with it. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a18553bf0220f307666956e08f9701e63"></a>
 <div class="memitem">
@@ -278,6 +285,7 @@ Mutators //!@{</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the field texture. </p>
 
 <p>References <a class="el" href="classFieldIcon.html#a0460cac8dc4c7a1156602c73f5a99a3e">m_texture</a>.</p>
@@ -305,6 +313,7 @@ Mutators //!@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Checks to see if point lies inside in-system fleet buttons before checking parent InWindow method. </p>
 
 </div>
@@ -872,7 +881,7 @@ Mutators //!@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the <a class="el" href="classField.html">Field</a> associated with this <a class="el" href="classFieldIcon.html">FieldIcon</a> </p>
+<p>the <a class="el" href="classField.html" title="a class representing a region of space ">Field</a> associated with this <a class="el" href="classFieldIcon.html" title="A control that allows interaction with a field. ">FieldIcon</a> </p>
 
 <p>Referenced by <a class="el" href="classFieldIcon.html#a1d4978514ead4848d8f40bd6d9badc2a">FieldID()</a>, <a class="el" href="classFieldIcon.html#af8632dc2a02907ff086e8cb373851d56">LClick()</a>, <a class="el" href="classFieldIcon.html#a89b1d07e5fcee75565f1b1f4e2407b0b">LDoubleClick()</a>, <a class="el" href="classFieldIcon.html#a522b20613563dabe3527aa35caf78e8b">RClick()</a>, <a class="el" href="classFieldIcon.html#a8a6e9b9d48cb730bcd2a21390e0d3801">RDoubleClick()</a>, and <a class="el" href="classFieldIcon.html#a8e6fb31e97dcbd479fe7a402c1dc6c4f">Refresh()</a>.</p>
 
@@ -989,7 +998,8 @@ Mutators //!@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="classField.html">Field</a> texture. </p>
+
+<p><a class="el" href="classField.html" title="a class representing a region of space ">Field</a> texture. </p>
 
 <p>Referenced by <a class="el" href="classFieldIcon.html#a2d501c01ffd64fbee8d981513c8e721d">FieldTexture()</a>, and <a class="el" href="classFieldIcon.html#a8e6fb31e97dcbd479fe7a402c1dc6c4f">Refresh()</a>.</p>
 

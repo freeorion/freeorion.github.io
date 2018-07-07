@@ -94,8 +94,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemPathing_1_1BFSVisitorImpl.html">BFSVisitorImpl</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complete BFS visitor implementing:  <a href="classSystemPathing_1_1BFSVisitorImpl.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSystemPathing_1_1PathFindingShortCircuitingVisitor.html">PathFindingShortCircuitingVisitor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to short-circuit the use of BFS (breadth-first search) or Dijkstra's algorithm for pathfinding when it finds the desired destination system.  <a href="structSystemPathing_1_1PathFindingShortCircuitingVisitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSystemPathing_1_1vertex__system__id__t.html">vertex_system_id_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a system graph property map type  <a href="structSystemPathing_1_1vertex__system__id__t.html#details">More...</a><br /></td></tr>
@@ -108,9 +110,11 @@ Functions</h2></td></tr>
 <tr class="separator:a1b87e83630a9ab77052000d3a3575681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1735a012c7aae74ef922cffb4ae0b098"><td class="memTemplParams" colspan="2">template&lt;class Graph &gt; </td></tr>
 <tr class="memitem:a1735a012c7aae74ef922cffb4ae0b098"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, int &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceSystemPathing.html#a1735a012c7aae74ef922cffb4ae0b098">LeastJumpsPathImpl</a> (const Graph &amp;graph, int system1_id, int system2_id, const boost::unordered_map&lt; int, size_t &gt; &amp;id_to_graph_index, int max_jumps=INT_MAX)</td></tr>
+<tr class="memdesc:a1735a012c7aae74ef922cffb4ae0b098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that takes the fewest number of jumps (edge traversals), and the number of jumps this path takes.  <a href="#a1735a012c7aae74ef922cffb4ae0b098">More...</a><br /></td></tr>
 <tr class="separator:a1735a012c7aae74ef922cffb4ae0b098"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac420a952d776aead49f0f8e62852b38b"><td class="memTemplParams" colspan="2">template&lt;class Graph &gt; </td></tr>
 <tr class="memitem:ac420a952d776aead49f0f8e62852b38b"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceSystemPathing.html#ac420a952d776aead49f0f8e62852b38b">ShortestPathImpl</a> (const Graph &amp;graph, int system1_id, int system2_id, double linear_distance, const boost::unordered_map&lt; int, size_t &gt; &amp;id_to_graph_index)</td></tr>
+<tr class="memdesc:ac420a952d776aead49f0f8e62852b38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that travels the shorest distance on starlanes, and the path length.  <a href="#ac420a952d776aead49f0f8e62852b38b">More...</a><br /></td></tr>
 <tr class="separator:ac420a952d776aead49f0f8e62852b38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -195,7 +199,9 @@ template&lt;class Graph &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that takes the fewest number of jumps (edge traversals), and the number of jumps this path takes. If system1_id is the same vertex as system2_id, the path has just that system in it, and the path lenth is 0. If there is no path between the two vertices, then the list is empty and the path length is -1 </p>
+
+<p>Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that takes the fewest number of jumps (edge traversals), and the number of jumps this path takes. </p>
+<p>If system1_id is the same vertex as system2_id, the path has just that system in it, and the path lenth is 0. If there is no path between the two vertices, then the list is empty and the path length is -1 </p>
 
 <p>References <a class="el" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get()</a>.</p>
 
@@ -246,7 +252,9 @@ template&lt;class Graph &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that travels the shorest distance on starlanes, and the path length. If system1_id is the same vertex as system2_id, the path has just that system in it, and the path lenth is 0. If there is no path between the two vertices, then the list is empty and the path length is -1.0 </p>
+
+<p>Returns the path between vertices <em>system1_id</em> and <em>system2_id</em> of <em>graph</em> that travels the shorest distance on starlanes, and the path length. </p>
+<p>If system1_id is the same vertex as system2_id, the path has just that system in it, and the path lenth is 0. If there is no path between the two vertices, then the list is empty and the path length is -1.0 </p>
 
 <p>References <a class="el" href="namespaceboost.html#a677288c30d31a73203e4948991386ed5">boost::get()</a>.</p>
 

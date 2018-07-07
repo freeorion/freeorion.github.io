@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Encapsulates the connection to a single player.  
+ <a href="classPlayerConnection.html#details">More...</a></p>
+
 <p><code>#include &lt;ServerNetworking.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for PlayerConnection:</div>
@@ -117,52 +120,74 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aad60b0651a1a29da313f75ac92db53b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a83a790d26d15539584efa9409994f991"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a83a790d26d15539584efa9409994f991">EstablishedPlayer</a> () const </td></tr>
+<tr class="memdesc:a83a790d26d15539584efa9409994f991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec" title="Establishes a connection as a player with a specific name and id. ">EstablishPlayer()</a> successfully has been called on this connection.  <a href="#a83a790d26d15539584efa9409994f991">More...</a><br /></td></tr>
 <tr class="separator:a83a790d26d15539584efa9409994f991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada83ba4582d466869e64b88a1b2e7a72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ada83ba4582d466869e64b88a1b2e7a72">PlayerID</a> () const </td></tr>
+<tr class="memdesc:ada83ba4582d466869e64b88a1b2e7a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the player associated with this connection, if any.  <a href="#ada83ba4582d466869e64b88a1b2e7a72">More...</a><br /></td></tr>
 <tr class="separator:ada83ba4582d466869e64b88a1b2e7a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af995de267d22012908cee219278afbb4"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#af995de267d22012908cee219278afbb4">PlayerName</a> () const </td></tr>
+<tr class="memdesc:af995de267d22012908cee219278afbb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the player associated with this connection, if any.  <a href="#af995de267d22012908cee219278afbb4">More...</a><br /></td></tr>
 <tr class="separator:af995de267d22012908cee219278afbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc8db12208c413ac59031ae0413fea11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#afc8db12208c413ac59031ae0413fea11">GetClientType</a> () const </td></tr>
+<tr class="memdesc:afc8db12208c413ac59031ae0413fea11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of client associated with this connection (AI client, human client, ...)  <a href="#afc8db12208c413ac59031ae0413fea11">More...</a><br /></td></tr>
 <tr class="separator:afc8db12208c413ac59031ae0413fea11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2139cfb1df340ccf7ba67601bde41500"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a2139cfb1df340ccf7ba67601bde41500">ClientVersionString</a> () const </td></tr>
+<tr class="memdesc:a2139cfb1df340ccf7ba67601bde41500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version string the client provided when joining.  <a href="#a2139cfb1df340ccf7ba67601bde41500">More...</a><br /></td></tr>
 <tr class="separator:a2139cfb1df340ccf7ba67601bde41500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4486cf9373b7c029ec1900f2f761cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6d4486cf9373b7c029ec1900f2f761cd">ClientVersionStringMatchesThisServer</a> () const </td></tr>
+<tr class="memdesc:a6d4486cf9373b7c029ec1900f2f761cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the client's specified version string matches the version string of this server process.  <a href="#a6d4486cf9373b7c029ec1900f2f761cd">More...</a><br /></td></tr>
 <tr class="separator:a6d4486cf9373b7c029ec1900f2f761cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#af2c9ceffe5eecbd34a1e6e61a3d67a20">IsLocalConnection</a> () const </td></tr>
+<tr class="memdesc:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if client associated with this connection runs on the same physical machine as the server.  <a href="#af2c9ceffe5eecbd34a1e6e61a3d67a20">More...</a><br /></td></tr>
 <tr class="separator:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d127a10aa734597571b742a747f2f21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a3d127a10aa734597571b742a747f2f21">IsEstablished</a> () const </td></tr>
+<tr class="memdesc:a3d127a10aa734597571b742a747f2f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the player is established, has a valid name, id and client type.  <a href="#a3d127a10aa734597571b742a747f2f21">More...</a><br /></td></tr>
 <tr class="separator:a3d127a10aa734597571b742a747f2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a078b87bd1d7e216687553b4b7a482e45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a078b87bd1d7e216687553b4b7a482e45">IsAuthenticated</a> () const </td></tr>
+<tr class="memdesc:a078b87bd1d7e216687553b4b7a482e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the player was authenticated.  <a href="#a078b87bd1d7e216687553b4b7a482e45">More...</a><br /></td></tr>
 <tr class="separator:a078b87bd1d7e216687553b4b7a482e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a938924cb298a61d971b66b9842b25e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a938924cb298a61d971b66b9842b25e93">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
+<tr class="memdesc:a938924cb298a61d971b66b9842b25e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the player has a some role.  <a href="#a938924cb298a61d971b66b9842b25e93">More...</a><br /></td></tr>
 <tr class="separator:a938924cb298a61d971b66b9842b25e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a908202f00196cb4108f597254f2531aa"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a908202f00196cb4108f597254f2531aa">Cookie</a> () const </td></tr>
+<tr class="memdesc:a908202f00196cb4108f597254f2531aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get cookie associated with this connection.  <a href="#a908202f00196cb4108f597254f2531aa">More...</a><br /></td></tr>
 <tr class="separator:a908202f00196cb4108f597254f2531aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607">Start</a> ()</td></tr>
+<tr class="memdesc:a3d3a216b5c493e5c5119d5526f3a9607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the connection reading incoming messages on its socket.  <a href="#a3d3a216b5c493e5c5119d5526f3a9607">More...</a><br /></td></tr>
 <tr class="separator:a3d3a216b5c493e5c5119d5526f3a9607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a286931f6c024015660e361ac844c9b38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
+<tr class="memdesc:a286931f6c024015660e361ac844c9b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends <em>synchronous</em> message to out on the connection and return true on success.  <a href="#a286931f6c024015660e361ac844c9b38">More...</a><br /></td></tr>
 <tr class="separator:a286931f6c024015660e361ac844c9b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d2464ecb7bcc2b1d19953ee8246f100"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100">AwaitPlayer</a> (<a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type, const std::string &amp;client_version_string)</td></tr>
+<tr class="memdesc:a8d2464ecb7bcc2b1d19953ee8246f100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set player properties to use them after authentication successed.  <a href="#a8d2464ecb7bcc2b1d19953ee8246f100">More...</a><br /></td></tr>
 <tr class="separator:a8d2464ecb7bcc2b1d19953ee8246f100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af51170a4eff900c31fbdd030f9a30bec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer</a> (int id, const std::string &amp;player_name, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type, const std::string &amp;client_version_string)</td></tr>
+<tr class="memdesc:af51170a4eff900c31fbdd030f9a30bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Establishes a connection as a player with a specific name and id.  <a href="#af51170a4eff900c31fbdd030f9a30bec">More...</a><br /></td></tr>
 <tr class="separator:af51170a4eff900c31fbdd030f9a30bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cf28d963ce614a1f835325ecb53ebf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a7cf28d963ce614a1f835325ecb53ebf5">SetClientType</a> (<a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a> client_type)</td></tr>
+<tr class="memdesc:a7cf28d963ce614a1f835325ecb53ebf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this connection's client type.  <a href="#a7cf28d963ce614a1f835325ecb53ebf5">More...</a><br /></td></tr>
 <tr class="separator:a7cf28d963ce614a1f835325ecb53ebf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf074ba70f1e32188760ad20c8c28570"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#acf074ba70f1e32188760ad20c8c28570">SetAuthenticated</a> ()</td></tr>
+<tr class="memdesc:acf074ba70f1e32188760ad20c8c28570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets authenticated status for connection.  <a href="#acf074ba70f1e32188760ad20c8c28570">More...</a><br /></td></tr>
 <tr class="separator:acf074ba70f1e32188760ad20c8c28570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad34dd0e63389447fba12729d3136118b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad34dd0e63389447fba12729d3136118b">SetAuthRoles</a> (const std::initializer_list&lt; <a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> &gt; &amp;roles)</td></tr>
+<tr class="memdesc:ad34dd0e63389447fba12729d3136118b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets authorization roles and send message to client.  <a href="#ad34dd0e63389447fba12729d3136118b">More...</a><br /></td></tr>
 <tr class="separator:ad34dd0e63389447fba12729d3136118b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04f68c772240bf035cd27f99ee73350"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ab04f68c772240bf035cd27f99ee73350">SetAuthRoles</a> (const <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles)</td></tr>
+<tr class="memdesc:ab04f68c772240bf035cd27f99ee73350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the connection reading incoming messages on its socket.  <a href="#ab04f68c772240bf035cd27f99ee73350">More...</a><br /></td></tr>
 <tr class="separator:ab04f68c772240bf035cd27f99ee73350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role, bool value=true)</td></tr>
+<tr class="memdesc:a6bccdbcb49052b7cc4e300ad184584d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets or unset authorizaion role and send message to client.  <a href="#a6bccdbcb49052b7cc4e300ad184584d6">More...</a><br /></td></tr>
 <tr class="separator:a6bccdbcb49052b7cc4e300ad184584d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2d73829c715918ee5d7d2885729e24e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad2d73829c715918ee5d7d2885729e24e">SetCookie</a> (boost::uuids::uuid cookie)</td></tr>
+<tr class="memdesc:ad2d73829c715918ee5d7d2885729e24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets cookie value to this connection to update expire date.  <a href="#ad2d73829c715918ee5d7d2885729e24e">More...</a><br /></td></tr>
 <tr class="separator:ad2d73829c715918ee5d7d2885729e24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a97b118389ea07da19428c54350e77c87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a97b118389ea07da19428c54350e77c87">NewConnection</a> (boost::asio::io_service &amp;io_service, <a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a> nonplayer_message_callback, <a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a> player_message_callback, <a class="el" href="ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395">ConnectionFn</a> disconnected_callback)</td></tr>
+<tr class="memdesc:a97b118389ea07da19428c54350e77c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> and returns it as a shared_ptr.  <a href="#a97b118389ea07da19428c54350e77c87">More...</a><br /></td></tr>
 <tr class="separator:a97b118389ea07da19428c54350e77c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -224,7 +249,8 @@ Friends</h2></td></tr>
 <tr class="separator:a7f7e479ceff6e9cb34c8f88b084a3fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates the connection to a single player. This object should have nearly the same lifetime as the socket it represents, except that the object is constructed just before the socket connection is made. A newly-constructed <a class="el" href="classPlayerConnection.html">PlayerConnection</a> has no associated player ID, player name, nor host-player status. Once a <a class="el" href="classPlayerConnection.html">PlayerConnection</a> is accepted by the server as an actual player in a game, <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a> should be called. This establishes the aforementioned properties. </p>
+<div class="textblock"><p>Encapsulates the connection to a single player. </p>
+<p>This object should have nearly the same lifetime as the socket it represents, except that the object is constructed just before the socket connection is made. A newly-constructed <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> has no associated player ID, player name, nor host-player status. Once a <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> is accepted by the server as an actual player in a game, <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec" title="Establishes a connection as a player with a specific name and id. ">EstablishPlayer()</a> should be called. This establishes the aforementioned properties. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aad60b0651a1a29da313f75ac92db53b1"></a>
 <div class="memitem">
@@ -382,6 +408,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set player properties to use them after authentication successed. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, <a class="el" href="classPlayerConnection.html#a630abfa93286436dba2e1aac90bc3213">m_client_type</a>, <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a9d435ce986b694c2dbcb1a07d0142439">Networking::NUM_CLIENT_TYPES</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
@@ -400,6 +427,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the version string the client provided when joining. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>.</p>
@@ -418,6 +446,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns true iff the client's specified version string matches the version string of this server process. </p>
 
 <p>References <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, and <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>.</p>
@@ -436,6 +465,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Get cookie associated with this connection. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2">m_cookie</a>.</p>
@@ -454,7 +484,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a> successfully has been called on this connection. </p>
+
+<p>Returns true if <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec" title="Establishes a connection as a player with a specific name and id. ">EstablishPlayer()</a> successfully has been called on this connection. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>.</p>
 
@@ -497,7 +528,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Establishes a connection as a player with a specific name and id. This function must only be called once. </p>
+
+<p>Establishes a connection as a player with a specific name and id. </p>
+<p>This function must only be called once. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, <a class="el" href="classPlayerConnection.html#a3d127a10aa734597571b742a747f2f21">IsEstablished()</a>, <a class="el" href="classPlayerConnection.html#a630abfa93286436dba2e1aac90bc3213">m_client_type</a>, <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>, <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>, <a class="el" href="classPlayerConnection.html#ab3baefcd4f354ee8b0fb8d253cb16a8b">m_player_name</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a9d435ce986b694c2dbcb1a07d0142439">Networking::NUM_CLIENT_TYPES</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
@@ -515,6 +548,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the type of client associated with this connection (AI client, human client, ...) </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a630abfa93286436dba2e1aac90bc3213">m_client_type</a>.</p>
@@ -610,7 +644,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Checks if the player has a some role </p>
+
+<p>Checks if the player has a some role. </p>
 
 <p>References <a class="el" href="classNetworking_1_1AuthRoles.html#ad0b848787420b63c38898cab737163e3">Networking::AuthRoles::HasRole()</a>, and <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>.</p>
 
@@ -628,6 +663,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if the player was authenticated. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8">m_authenticated</a>.</p>
@@ -646,6 +682,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if the player is established, has a valid name, id and client type. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="classPlayerConnection.html#a630abfa93286436dba2e1aac90bc3213">m_client_type</a>, <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>, and <a class="el" href="classPlayerConnection.html#ab3baefcd4f354ee8b0fb8d253cb16a8b">m_player_name</a>.</p>
@@ -666,7 +703,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Checks if client associated with this connection runs on the same physical machine as the server </p>
+
+<p>Checks if client associated with this connection runs on the same physical machine as the server. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a389b5835690ae325bb2a33c7448c462d">m_socket</a>.</p>
 
@@ -715,7 +753,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Creates a new <a class="el" href="classPlayerConnection.html">PlayerConnection</a> and returns it as a shared_ptr. </p>
+
+<p>Creates a new <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> and returns it as a shared_ptr. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#ad48849d38c0410902b25c504579cb354">PlayerConnection()</a>.</p>
 
@@ -735,6 +774,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the ID of the player associated with this connection, if any. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>.</p>
@@ -753,6 +793,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the name of the player associated with this connection, if any. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#ab3baefcd4f354ee8b0fb8d253cb16a8b">m_player_name</a>.</p>
@@ -772,6 +813,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sends <em>synchronous</em> message to out on the connection and return true on success. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#af053f4d9d4ece1bf2d08cbe419195241">SyncWriteMessage()</a>.</p>
@@ -792,6 +834,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets authenticated status for connection. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8">m_authenticated</a>, <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>, <a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage()</a>, <a class="el" href="Message_8cpp.html#aee3ccc1b6073d3fbcfad380d4244b0d1">SetAuthorizationRolesMessage()</a>, and <a class="el" href="classPlayerConnection.html#ad34dd0e63389447fba12729d3136118b">SetAuthRoles()</a>.</p>
@@ -821,6 +864,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets or unset authorizaion role and send message to client. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>, <a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage()</a>, <a class="el" href="Message_8cpp.html#aee3ccc1b6073d3fbcfad380d4244b0d1">SetAuthorizationRolesMessage()</a>, and <a class="el" href="classNetworking_1_1AuthRoles.html#aefd14af89568c244b2d7846d77f40183">Networking::AuthRoles::SetRole()</a>.</p>
@@ -840,6 +884,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets authorization roles and send message to client. </p>
 
 <p>Referenced by <a class="el" href="classPlayerConnection.html#acf074ba70f1e32188760ad20c8c28570">SetAuthenticated()</a>.</p>
@@ -859,6 +904,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Starts the connection reading incoming messages on its socket. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#ac5dbfada4795d274f55f1c27dd513e10">m_roles</a>, <a class="el" href="classPlayerConnection.html#a286931f6c024015660e361ac844c9b38">SendMessage()</a>, and <a class="el" href="Message_8cpp.html#aee3ccc1b6073d3fbcfad380d4244b0d1">SetAuthorizationRolesMessage()</a>.</p>
@@ -878,7 +924,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets this connection's client type. Useful for already-connected players changing type such as in the multiplayer lobby. </p>
+
+<p>Sets this connection's client type. </p>
+<p>Useful for already-connected players changing type such as in the multiplayer lobby. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09a2320e99d1491dc24c83a02f4e0c961a3">Networking::INVALID_CLIENT_TYPE</a>, and <a class="el" href="classPlayerConnection.html#a630abfa93286436dba2e1aac90bc3213">m_client_type</a>.</p>
 
@@ -897,6 +945,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets cookie value to this connection to update expire date. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2">m_cookie</a>.</p>
@@ -915,6 +964,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Starts the connection reading incoming messages on its socket. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265">AsyncReadMessage()</a>.</p>

@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Contains information about the state of a combat before or after the combat occurs.  
+ <a href="structCombatInfo.html#details">More...</a></p>
+
 <p><code>#include &lt;CombatSystem.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -108,11 +111,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00c1f481f05f6d95f189bbd561c1bd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:ae578d86c256aec78da22f75c9c9c879d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classSystem.html">System</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#ae578d86c256aec78da22f75c9c9c879d">GetSystem</a> () const </td></tr>
+<tr class="memdesc:ae578d86c256aec78da22f75c9c9c879d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id.  <a href="#ae578d86c256aec78da22f75c9c9c879d">More...</a><br /></td></tr>
 <tr class="separator:ae578d86c256aec78da22f75c9c9c879d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a44441e8b69f19ee3cea6b9dc9eed3799"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a44441e8b69f19ee3cea6b9dc9eed3799">GetSystem</a> ()</td></tr>
+<tr class="memdesc:a44441e8b69f19ee3cea6b9dc9eed3799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id.  <a href="#a44441e8b69f19ee3cea6b9dc9eed3799">More...</a><br /></td></tr>
 <tr class="separator:a44441e8b69f19ee3cea6b9dc9eed3799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79a7dae29685fd8fb3ef8872745162f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3">ForceAtLeastBasicVisibility</a> (int attacker_id, int target_id)</td></tr>
+<tr class="memdesc:a79a7dae29685fd8fb3ef8872745162f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reveal stealthed attacker to their target's empires.  <a href="#a79a7dae29685fd8fb3ef8872745162f3">More...</a><br /></td></tr>
 <tr class="separator:a79a7dae29685fd8fb3ef8872745162f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -167,6 +173,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a22b2f612917b30a87ce5c9f03f4e7685"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a22b2f612917b30a87ce5c9f03f4e7685">GetObjectsToSerialize</a> (<a class="el" href="classObjectMap.html">ObjectMap</a> &amp;filtered_objects, int encoding_empire) const </td></tr>
 <tr class="separator:a22b2f612917b30a87ce5c9f03f4e7685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afec35bd66a212e46496d9f577f6b8ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility</a> ()</td></tr>
+<tr class="memdesc:afec35bd66a212e46496d9f577f6b8ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requires system_id, empire_ids are initialized.  <a href="#afec35bd66a212e46496d9f577f6b8ab8">More...</a><br /></td></tr>
 <tr class="separator:afec35bd66a212e46496d9f577f6b8ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa41c2cc3a7eaaa8b7f1c9880e34eefdb"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
 <tr class="memitem:aa41c2cc3a7eaaa8b7f1c9880e34eefdb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#aa41c2cc3a7eaaa8b7f1c9880e34eefdb">load</a> (Archive &amp;ar, const unsigned int version)</td></tr>
@@ -254,6 +261,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Reveal stealthed attacker to their target's empires. </p>
 
 <p>References <a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, and <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>.</p>
@@ -578,7 +586,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns <a class="el" href="classSystem.html">System</a> object in this <a class="el" href="structCombatInfo.html">CombatInfo</a>'s objects if one exists with id system_id. </p>
+
+<p>Returns <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id. </p>
 
 <p>References <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 
@@ -598,7 +607,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns <a class="el" href="classSystem.html">System</a> object in this <a class="el" href="structCombatInfo.html">CombatInfo</a>'s objects if one exists with id system_id. </p>
+
+<p>Returns <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id. </p>
 
 <p>References <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">ObjectMap::Object()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 
@@ -624,7 +634,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Requires system_id, empire_ids are initialized </p>
+
+<p>Requires system_id, empire_ids are initialized. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>, <a class="el" href="structCombatInfo.html#ac0889eecf60168ca9394462ba4bb8b81">empire_known_objects</a>, <a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a>, <a class="el" href="AppInterface_8h.html#a758df24b2f29c4ee138b1c262f041fb2">GetEmpireKnownSystem()</a>, <a class="el" href="classUniverse.html#a1e172ee7c188c7c4c70b44b6b71dfbc5">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="structCombatInfo.html#ae578d86c256aec78da22f75c9c9c879d">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 

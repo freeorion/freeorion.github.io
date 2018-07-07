@@ -94,6 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Encapsulates a spawned child process in a platform-independent manner.  
+ <a href="classProcess.html#details">More...</a></p>
+
 <p><code>#include &lt;Process.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -105,8 +108,10 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:a9f4553eac74c657bb451f390c17d6bea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a9f4553eac74c657bb451f390c17d6bea">Process</a> ()</td></tr>
+<tr class="memdesc:a9f4553eac74c657bb451f390c17d6bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> with no associated child process.  <a href="#a9f4553eac74c657bb451f390c17d6bea">More...</a><br /></td></tr>
 <tr class="separator:a9f4553eac74c657bb451f390c17d6bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6940c595796616a5fc11025714c8b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#adb6940c595796616a5fc11025714c8b0">Process</a> (const std::string &amp;cmd, const std::vector&lt; std::string &gt; &amp;argv)</td></tr>
+<tr class="memdesc:adb6940c595796616a5fc11025714c8b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ctor requiring a command and a full argv-style command line.  <a href="#adb6940c595796616a5fc11025714c8b0">More...</a><br /></td></tr>
 <tr class="separator:adb6940c595796616a5fc11025714c8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a4aad3b1a81c05f47d99224751f7b8f64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a4aad3b1a81c05f47d99224751f7b8f64">Empty</a> () const </td></tr>
@@ -117,20 +122,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab5035a3c7741b146dd45ec492b3b285f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a15091f4fe2919f0d30419ebaf7c3413c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a15091f4fe2919f0d30419ebaf7c3413c">SetLowPriority</a> (bool low)</td></tr>
+<tr class="memdesc:a15091f4fe2919f0d30419ebaf7c3413c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets process priority  <a href="#a15091f4fe2919f0d30419ebaf7c3413c">More...</a><br /></td></tr>
 <tr class="separator:a15091f4fe2919f0d30419ebaf7c3413c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae10e07f87db5169c1000fbb978578775"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775">Kill</a> ()</td></tr>
+<tr class="memdesc:ae10e07f87db5169c1000fbb978578775"><td class="mdescLeft">&#160;</td><td class="mdescRight">kills the controlled process immediately.  <a href="#ae10e07f87db5169c1000fbb978578775">More...</a><br /></td></tr>
 <tr class="separator:ae10e07f87db5169c1000fbb978578775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a385bdcac3953da18a49a97251a732c61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a385bdcac3953da18a49a97251a732c61">Terminate</a> ()</td></tr>
+<tr class="memdesc:a385bdcac3953da18a49a97251a732c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">terminate the controlled process and wait for finish.  <a href="#a385bdcac3953da18a49a97251a732c61">More...</a><br /></td></tr>
 <tr class="separator:a385bdcac3953da18a49a97251a732c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a3837cb5482468a0ccdecd25d4bfbd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination</a> ()</td></tr>
+<tr class="memdesc:a0a3837cb5482468a0ccdecd25d4bfbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">kills the controlled process iff it has not been freed.  <a href="#a0a3837cb5482468a0ccdecd25d4bfbd9">More...</a><br /></td></tr>
 <tr class="separator:a0a3837cb5482468a0ccdecd25d4bfbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add80a1596ceaa9ebc524514159dc9e98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#add80a1596ceaa9ebc524514159dc9e98">Free</a> ()</td></tr>
+<tr class="memdesc:add80a1596ceaa9ebc524514159dc9e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">frees the controlled process from auto-deletion when this <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> object is destroyed.  <a href="#add80a1596ceaa9ebc524514159dc9e98">More...</a><br /></td></tr>
 <tr class="separator:add80a1596ceaa9ebc524514159dc9e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aafa9cbf484fb422117257984ce51e297"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a></td></tr>
-<tr class="memdesc:aafa9cbf484fb422117257984ce51e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">true iff this is a default-constructed <a class="el" href="classProcess.html">Process</a> (no associated process exists)  <a href="#aafa9cbf484fb422117257984ce51e297">More...</a><br /></td></tr>
+<tr class="memdesc:aafa9cbf484fb422117257984ce51e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">true iff this is a default-constructed <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> (no associated process exists)  <a href="#aafa9cbf484fb422117257984ce51e297">More...</a><br /></td></tr>
 <tr class="separator:aafa9cbf484fb422117257984ce51e297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6030688924d83428b405f80519062747"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProcess_1_1Impl.html">Impl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a></td></tr>
 <tr class="separator:a6030688924d83428b405f80519062747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,10 +149,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a95ebd51f0d25711b428f1ab52f6be802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates a spawned child process in a platform-independent manner. A <a class="el" href="classProcess.html">Process</a> object holds a shared_ptr to the data on the process it creates; therefore <a class="el" href="classProcess.html">Process</a> objects can be freely copied, with the same copy semantics as a shared_ptr. In addition, the created process is automatically killed when its owning <a class="el" href="classProcess.html">Process</a> object is destroyed, unless it is explicitly <a class="el" href="classProcess.html#add80a1596ceaa9ebc524514159dc9e98">Free()</a>d. Note that whether or not the process is explicitly <a class="el" href="classProcess.html#add80a1596ceaa9ebc524514159dc9e98">Free()</a>d, it may be explicitly <a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775">Kill()</a>ed at any time. <br />
+<div class="textblock"><p>Encapsulates a spawned child process in a platform-independent manner. </p>
+<p>A <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> object holds a shared_ptr to the data on the process it creates; therefore <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> objects can be freely copied, with the same copy semantics as a shared_ptr. In addition, the created process is automatically killed when its owning <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> object is destroyed, unless it is explicitly <a class="el" href="classProcess.html#add80a1596ceaa9ebc524514159dc9e98" title="frees the controlled process from auto-deletion when this Process object is destroyed. ">Free()</a>d. Note that whether or not the process is explicitly <a class="el" href="classProcess.html#add80a1596ceaa9ebc524514159dc9e98" title="frees the controlled process from auto-deletion when this Process object is destroyed. ">Free()</a>d, it may be explicitly <a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775" title="kills the controlled process immediately. ">Kill()</a>ed at any time. <br />
  Currently, creating processes is supported on these operating systems:</p><ul>
 <li>Linux (this is the default): requires definition of FREEORION_LINUX</li>
-<li>Win32 (use for MinGW apps as well): requires definition of FREEORION_WIN32 one of them <em>must</em> be used. Note that the Win32 version of <a class="el" href="classProcess.html">Process</a> calls TerminateProcess(), and so the killed process does minimal cleanup; in particular, it will not terminate any of its child processes and may not release DLLs it may be using. </li>
+<li>Win32 (use for MinGW apps as well): requires definition of FREEORION_WIN32 one of them <em>must</em> be used. Note that the Win32 version of <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> calls TerminateProcess(), and so the killed process does minimal cleanup; in particular, it will not terminate any of its child processes and may not release DLLs it may be using. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9f4553eac74c657bb451f390c17d6bea"></a>
@@ -157,7 +168,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates a <a class="el" href="classProcess.html">Process</a> with no associated child process. A child process will never be associated with this default-constructed <a class="el" href="classProcess.html">Process</a> unless another <a class="el" href="classProcess.html">Process</a> is assigned to it. </p>
+
+<p>Creates a <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> with no associated child process. </p>
+<p>A child process will never be associated with this default-constructed <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> unless another <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> is assigned to it. </p>
 
 </div>
 </div>
@@ -184,7 +197,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Ctor requiring a command and a full argv-style command line. The command may be a relative or an absolute path name. The first token on the command line must be the name of the executable of the process to be created.</p>
+
+<p>Ctor requiring a command and a full argv-style command line. </p>
+<p>The command may be a relative or an absolute path name. The first token on the command line must be the name of the executable of the process to be created.</p>
 <p>Example: cmd: "/usr/bin/cvs", argv: "cvs update -C project_file.cpp".</p>
 <p>Of course, each arg should be in its own string within argv, and argv strings containing spaces must be enclosed in quotes.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
@@ -193,7 +208,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p><a class="el" href="classProcess.html">Process</a> returns immediately. </p>
+<p><a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> returns immediately. </p>
 
 </div>
 </div>
@@ -237,7 +252,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>frees the controlled process from auto-deletion when this <a class="el" href="classProcess.html">Process</a> object is destroyed. </p>
+
+<p>frees the controlled process from auto-deletion when this <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> object is destroyed. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classProcess_1_1Impl.html#aa1017b4f8328aff4dfd1c05b032379f1">Process::Impl::Impl()</a>, <a class="el" href="classProcess_1_1Impl.html#a11f7e0b297bb25d9b867fac566775895">Process::Impl::Kill()</a>, <a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775">Kill()</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, <a class="el" href="classProcess_1_1Impl.html#a7e8c21d0d19e98101fd440264bec2ca4">Process::Impl::SetLowPriority()</a>, <a class="el" href="classProcess_1_1Impl.html#ab60de64ac5adb8f8a2b6b939900e518b">Process::Impl::Terminate()</a>, and <a class="el" href="classProcess_1_1Impl.html#aa0b41299e8c567ffe5a72eac88bdf4ca">Process::Impl::~Impl()</a>.</p>
 
@@ -282,6 +298,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>kills the controlled process immediately. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>, and <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination()</a>.</p>
@@ -302,6 +319,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>kills the controlled process iff it has not been freed. </p>
 
 <p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
@@ -323,6 +341,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>sets process priority </p>
 
 <p>References <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, and <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>.</p>
@@ -341,7 +360,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>terminate the controlled process and wait for finish. Return true if exit status was 0. </p>
+
+<p>terminate the controlled process and wait for finish. </p>
+<p>Return true if exit status was 0. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classProcess.html#aafa9cbf484fb422117257984ce51e297">m_empty</a>, <a class="el" href="classProcess.html#a6030688924d83428b405f80519062747">m_impl</a>, <a class="el" href="classProcess.html#a95ebd51f0d25711b428f1ab52f6be802">m_low_priority</a>, and <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination()</a>.</p>
 
@@ -366,7 +387,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>true iff this is a default-constructed <a class="el" href="classProcess.html">Process</a> (no associated process exists) </p>
+<p>true iff this is a default-constructed <a class="el" href="classProcess.html" title="Encapsulates a spawned child process in a platform-independent manner. ">Process</a> (no associated process exists) </p>
 
 <p>Referenced by <a class="el" href="classProcess.html#ae10e07f87db5169c1000fbb978578775">Kill()</a>, <a class="el" href="classProcess.html#a0a3837cb5482468a0ccdecd25d4bfbd9">RequestTermination()</a>, <a class="el" href="classProcess.html#a15091f4fe2919f0d30419ebaf7c3413c">SetLowPriority()</a>, and <a class="el" href="classProcess.html#a385bdcac3953da18a49a97251a732c61">Terminate()</a>.</p>
 

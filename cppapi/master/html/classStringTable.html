@@ -86,119 +86,93 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classStringTable-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">StringTable Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Provides a key based translation string lookup with fallback.  
+ <a href="classStringTable.html#details">More...</a></p>
+
 <p><code>#include &lt;StringTable.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:a0e18ab7bcd59dfc3e2ac78b85a60e659"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a0e18ab7bcd59dfc3e2ac78b85a60e659">StringTable</a> ()</td></tr>
-<tr class="memdesc:a0e18ab7bcd59dfc3e2ac78b85a60e659"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction, uses default stringtable filename  <a href="#a0e18ab7bcd59dfc3e2ac78b85a60e659">More...</a><br /></td></tr>
+<tr class="memdesc:a0e18ab7bcd59dfc3e2ac78b85a60e659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> instance by loading translations from the default translation file.  <a href="#a0e18ab7bcd59dfc3e2ac78b85a60e659">More...</a><br /></td></tr>
 <tr class="separator:a0e18ab7bcd59dfc3e2ac78b85a60e659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9830d2f7dce3947f2c1dac808945e39a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a9830d2f7dce3947f2c1dac808945e39a">StringTable</a> (const std::string &amp;filename, std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt; lookups_fallback_table=nullptr)</td></tr>
-<tr class="separator:a9830d2f7dce3947f2c1dac808945e39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b616c19b6be3a4ce2b81671865e9a45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a4b616c19b6be3a4ce2b81671865e9a45">StringTable</a> (const std::string &amp;filename, std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt; fallback=nullptr)</td></tr>
+<tr class="memdesc:a4b616c19b6be3a4ce2b81671865e9a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> from the given <code>filename</code>.  <a href="#a4b616c19b6be3a4ce2b81671865e9a45">More...</a><br /></td></tr>
+<tr class="separator:a4b616c19b6be3a4ce2b81671865e9a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1772239d39a3e9c1a190774d827c276a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a1772239d39a3e9c1a190774d827c276a">~StringTable</a> ()</td></tr>
-<tr class="memdesc:a1772239d39a3e9c1a190774d827c276a"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction, uses default stringtable filename  <a href="#a1772239d39a3e9c1a190774d827c276a">More...</a><br /></td></tr>
 <tr class="separator:a1772239d39a3e9c1a190774d827c276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>The index of the string to lookup </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The string found at index in the table, or S_ERROR_STRING if it fails </dd></dl>
-</div></td></tr>
-<tr class="memitem:aabf2e01d44fda9ec4126ed321dc9cb47"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47">operator[]</a> (const std::string &amp;index) const </td></tr>
-<tr class="memdesc:aabf2e01d44fda9ec4126ed321dc9cb47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a string at index and returns it.  <a href="#aabf2e01d44fda9ec4126ed321dc9cb47">More...</a><br /></td></tr>
-<tr class="separator:aabf2e01d44fda9ec4126ed321dc9cb47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae662dc3f7a22df37c1fe0cd3c88bbc08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#ae662dc3f7a22df37c1fe0cd3c88bbc08">StringExists</a> (const std::string &amp;index) const </td></tr>
-<tr class="separator:ae662dc3f7a22df37c1fe0cd3c88bbc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf65da5f971cc9aece30045e31f51f94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#abf65da5f971cc9aece30045e31f51f94">Empty</a> () const </td></tr>
-<tr class="separator:abf65da5f971cc9aece30045e31f51f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfc7b7232cca328a43b59e18cad09c21"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#adfc7b7232cca328a43b59e18cad09c21">String</a> (const std::string &amp;index) const </td></tr>
-<tr class="memdesc:adfc7b7232cca328a43b59e18cad09c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to operator()  <a href="#adfc7b7232cca328a43b59e18cad09c21">More...</a><br /></td></tr>
-<tr class="separator:adfc7b7232cca328a43b59e18cad09c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a6cdc2ac4bc4e632ef8eb5c151894adfc">Language</a> () const </td></tr>
-<tr class="memdesc:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the language of this <a class="el" href="classStringTable.html">StringTable</a>.  <a href="#a6cdc2ac4bc4e632ef8eb5c151894adfc">More...</a><br /></td></tr>
-<tr class="separator:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6e53919efa13d5c687d5ebe5175022"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#aba6e53919efa13d5c687d5ebe5175022">Filename</a> () const </td></tr>
+<tr class="memdesc:aba6e53919efa13d5c687d5ebe5175022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the translation file name this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was loaded from.  <a href="#aba6e53919efa13d5c687d5ebe5175022">More...</a><br /></td></tr>
 <tr class="separator:aba6e53919efa13d5c687d5ebe5175022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a6cdc2ac4bc4e632ef8eb5c151894adfc">Language</a> () const </td></tr>
+<tr class="memdesc:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the native language name of this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a>.  <a href="#a6cdc2ac4bc4e632ef8eb5c151894adfc">More...</a><br /></td></tr>
+<tr class="separator:a6cdc2ac4bc4e632ef8eb5c151894adfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1bb2db68eb7d606e6556c0ff3dc17f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#aae1bb2db68eb7d606e6556c0ff3dc17f">operator[]</a> (const std::string &amp;key) const </td></tr>
+<tr class="memdesc:aae1bb2db68eb7d606e6556c0ff3dc17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a translation for <code>key</code>.  <a href="#aae1bb2db68eb7d606e6556c0ff3dc17f">More...</a><br /></td></tr>
+<tr class="separator:aae1bb2db68eb7d606e6556c0ff3dc17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a43527941a3ab20e3f72d073d8a52f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a27a43527941a3ab20e3f72d073d8a52f">StringExists</a> (const std::string &amp;key) const </td></tr>
+<tr class="memdesc:a27a43527941a3ab20e3f72d073d8a52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a translation for <code>key</code> exists.  <a href="#a27a43527941a3ab20e3f72d073d8a52f">More...</a><br /></td></tr>
+<tr class="separator:a27a43527941a3ab20e3f72d073d8a52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Internal Functions</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Loads the String table file from m_filename </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lookups_fallback_table</td><td>A <a class="el" href="classStringTable.html">StringTable</a> to be used as fallback expansions lookup </td></tr>
-  </table>
-  </dd>
-</dl>
-</div></td></tr>
-<tr class="memitem:a3e83dad28416a53a5332bcabca91f11a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load</a> (std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt; lookups_fallback_table=nullptr)</td></tr>
-<tr class="separator:a3e83dad28416a53a5332bcabca91f11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cee088f31a2313fdccfd35b854053cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load</a> (std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt; fallback=nullptr)</td></tr>
+<tr class="memdesc:a3cee088f31a2313fdccfd35b854053cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> from <a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465" title="The filename this StringTable was loaded from. ">m_filename</a>.  <a href="#a3cee088f31a2313fdccfd35b854053cd">More...</a><br /></td></tr>
+<tr class="separator:a3cee088f31a2313fdccfd35b854053cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Data Members</div></td></tr>
-<tr class="memitem:a4e25b67d6f3779359b54625ff734d465"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465">m_filename</a> = &quot;&quot;</td></tr>
-<tr class="memdesc:a4e25b67d6f3779359b54625ff734d465"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with  <a href="#a4e25b67d6f3779359b54625ff734d465">More...</a><br /></td></tr>
-<tr class="separator:a4e25b67d6f3779359b54625ff734d465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b7d5b7919e08dbc80133974d164cc2f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a3b7d5b7919e08dbc80133974d164cc2f">m_language</a> = &quot;&quot;</td></tr>
-<tr class="memdesc:a3b7d5b7919e08dbc80133974d164cc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string containing the name of the language used.  <a href="#a3b7d5b7919e08dbc80133974d164cc2f">More...</a><br /></td></tr>
-<tr class="separator:a3b7d5b7919e08dbc80133974d164cc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56982500919c086f3a54a511c8422f46"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a></td></tr>
-<tr class="memdesc:a56982500919c086f3a54a511c8422f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with  <a href="#a56982500919c086f3a54a511c8422f46">More...</a><br /></td></tr>
-<tr class="separator:a56982500919c086f3a54a511c8422f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0faa5252d53133195f790a0ee7a4edd"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#ab0faa5252d53133195f790a0ee7a4edd">m_error_strings</a></td></tr>
-<tr class="memdesc:ab0faa5252d53133195f790a0ee7a4edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with  <a href="#ab0faa5252d53133195f790a0ee7a4edd">More...</a><br /></td></tr>
+<tr class="memdesc:ab0faa5252d53133195f790a0ee7a4edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for missing translation keys to ensure the returned error reference string is not destroyed due local scope.  <a href="#ab0faa5252d53133195f790a0ee7a4edd">More...</a><br /></td></tr>
 <tr class="separator:ab0faa5252d53133195f790a0ee7a4edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0557acf8a5c672d849d386add61736fe"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a></td></tr>
-<tr class="memdesc:a0557acf8a5c672d849d386add61736fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with  <a href="#a0557acf8a5c672d849d386add61736fe">More...</a><br /></td></tr>
-<tr class="separator:a0557acf8a5c672d849d386add61736fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e25b67d6f3779359b54625ff734d465"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465">m_filename</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a4e25b67d6f3779359b54625ff734d465"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filename this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was loaded from.  <a href="#a4e25b67d6f3779359b54625ff734d465">More...</a><br /></td></tr>
+<tr class="separator:a4e25b67d6f3779359b54625ff734d465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad342fb4d181ca7a32ca319315701bb5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#ad342fb4d181ca7a32ca319315701bb5e">m_initialized</a> = false</td></tr>
-<tr class="memdesc:ad342fb4d181ca7a32ca319315701bb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with  <a href="#ad342fb4d181ca7a32ca319315701bb5e">More...</a><br /></td></tr>
+<tr class="memdesc:ad342fb4d181ca7a32ca319315701bb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was completely loaded and all references were successfully resolved.  <a href="#ad342fb4d181ca7a32ca319315701bb5e">More...</a><br /></td></tr>
 <tr class="separator:ad342fb4d181ca7a32ca319315701bb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7d5b7919e08dbc80133974d164cc2f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a3b7d5b7919e08dbc80133974d164cc2f">m_language</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a3b7d5b7919e08dbc80133974d164cc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The native language name of the <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> translations.  <a href="#a3b7d5b7919e08dbc80133974d164cc2f">More...</a><br /></td></tr>
+<tr class="separator:a3b7d5b7919e08dbc80133974d164cc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0557acf8a5c672d849d386add61736fe"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a></td></tr>
+<tr class="memdesc:a0557acf8a5c672d849d386add61736fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that multithreaded access to a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> is done in an orderly fashion.  <a href="#a0557acf8a5c672d849d386add61736fe">More...</a><br /></td></tr>
+<tr class="separator:a0557acf8a5c672d849d386add61736fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56982500919c086f3a54a511c8422f46"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a></td></tr>
+<tr class="memdesc:a56982500919c086f3a54a511c8422f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping of translation entry keys to translated strings.  <a href="#a56982500919c086f3a54a511c8422f46">More...</a><br /></td></tr>
+<tr class="separator:a56982500919c086f3a54a511c8422f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is an implementation of a String Table for internationalization purposes. The table is built from a file of the following format:<br />
- name_of_language<br />
- ID1<br />
- STRING1&lt;br&gt;<br />
- comments are also allowed, preceded by a pound '#' sign These will not be added to the table. Any number of blank lines may separate strings, but an identifier <b>MUST</b> be followed by its string on the next line. Newlines sequences ("\n") within strings are converted to newlines when the string is loaded.</p>
-<p>An example:<br />
- English<br />
- <br />
- WELCOME<br />
- Welcome to FreeOrion<br />
- <br />
- EXIT<br />
- Exit the program<br />
- <br />
- </p><h1>These are comments<br />
-</h1>
-<h1>these are more comments<br />
-</h1>
-<p>TEST_ONE<br />
- test one<br />
- TEST TWO<br />
- test two<br />
- <br />
- TEST THREE<br />
- test three<br />
- #<br />
- <br />
- <br />
- <br />
- TESTFOUR<br />
- test four<br />
- </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p>Provides a key based translation string lookup with fallback. </p>
+<p><a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> is a map to look up translations based on key representing a translation entry. When a translation for a key is not found the <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> delegates the lookup to another fallback <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a>, which is filled with entries from another language. When no fallback <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> contains the requested translation entry an error string is returned, pointing out the missing translation entry.</p>
+<p>StringTables are loaded from text files which contain the translation entries for a specific language. Those translation files are named like</p>
+<div class="fragment"><div class="line">&lt;LANG ISO 639-1&gt;.txt</div></div><!-- fragment --><p>where &lt;LANG ISO 639-1&gt; is the two letter language identifier for a language according to ISO 639-1 (e.g English=en, Russian=ru, German=de, ...).</p>
+<p>The format of those translation files consists of newline separated entries where:</p>
+<ul>
+<li>The first line is the native language name.</li>
+<li>Linse starting with a hash sign <code>#</code> are considered comments and are ignored when loading the file.</li>
+<li>Empty lines are ignored when loading the file.</li>
+<li>The translation entries consist of an key followed by a newline, followed by the translated text followed by a newline.</li>
+<li>An identifer must be unique within an translation file.</li>
+<li>Identifiers consist of the any latin character, digits or an underscore. Spaces or other characters are not allowed.</li>
+<li>The translated text is a valid UTF-8 based string, which will either be terminated by a newline, trimming of any whitespace at the begining or end of the translated string or a multi-line string.</li>
+<li>A multi-line string starts and ends with three single quotes `'''`. As the name implies a multi-line string can span over multiple lines and any whitespace inside the string will be preseved.</li>
+</ul>
+<p>A minimal example translation file for the english language <code>en.txt</code> should look like:</p>
+<div class="fragment"><div class="line">English</div><div class="line"><span class="preprocessor"># This line is a comment, the line above is the native language name.</span></div><div class="line"></div><div class="line"><span class="preprocessor"># The two lines below are an translation entry consisting of an identifer</span></div><div class="line"><span class="preprocessor"># and a single line of translated text.</span></div><div class="line">A_SINGLE_LINE</div><div class="line">This is the translated text associated with A_SINGLE_LINE</div><div class="line"></div><div class="line"><span class="preprocessor"># The line below is a translation entry with multiple lines of translated</span></div><div class="line"><span class="preprocessor"># text.</span></div><div class="line">A_MULTI_LINE</div><div class="line"><span class="charliteral">&#39;&#39;&#39;</span>This text</div><div class="line">spans over</div><div class="line">multiple lines.</div><div class="line">    The whitespace before <span class="keyword">this</span> line is preseved, same goes <span class="keywordflow">for</span> the newlines</div><div class="line">after <span class="keyword">this</span> line up to the triple single quotes.</div><div class="line"></div><div class="line"></div><div class="line"><span class="charliteral">&#39;&#39;&#39;</span></div><div class="line"></div><div class="line"># This translation entry doesn<span class="stringliteral">&#39;t preserve whitespace</span></div><div class="line"><span class="stringliteral">SINGLE_LINE_WS_TRIM</span></div><div class="line"><span class="stringliteral">         This text is intended in the translation file, but the whitespace will be trimmed.</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral"># This translation entry preseves whitespace</span></div><div class="line"><span class="stringliteral">SINGLE_LINE_WS_PRESERVE</span></div><div class="line"><span class="stringliteral">&#39;</span><span class="stringliteral">&#39;&#39;</span>      This text will keep its leading and trailing whitespace   <span class="charliteral">&#39;&#39;&#39;</span></div></div><!-- fragment --><p>StringTables implement multiple string substitution mechanism.</p>
+<p>The first substitution mechanism replaces references to a translation entry with the text of another translation entry. The syntax for a reference consist of two opening square brackets <code>[[</code>, the referenced key and two closing brackets <code>]]</code>. For example:</p>
+<div class="fragment"><div class="line">REFERENCE</div><div class="line">I am the replaced text</div><div class="line"></div><div class="line">TRANSLATION_ENTRY</div><div class="line">This translation embeds another translation right here &gt; [[REFERENCE]]</div></div><!-- fragment --><p>would return</p>
+<div class="fragment"><div class="line">This translation embeds another translaion right here &gt; I am the replaced text</div></div><!-- fragment --><p>The second substitution mechanism replaces typed references with type links and the translation text. The syntax for a typed reference consists of two opening square brackets <code>[[</code>, a type key, a space, the referenced key and two closing brackets <code>]]</code>`. For example:</p>
+<div class="fragment"><div class="line">REFERENCE</div><div class="line">I am referenced</div><div class="line"></div><div class="line">TRANSLATION_ENTRY</div><div class="line">This translation links to [[foo_type REFERENCE]]</div></div><!-- fragment --><p>would return</p>
+<div class="fragment"><div class="line">This translation links to &lt;foo_type REFERENCE&gt;I am referenced&lt;/foo_type&gt;</div></div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0e18ab7bcd59dfc3e2ac78b85a60e659"></a>
 <div class="memitem">
 <div class="memproto">
@@ -212,13 +186,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default construction, uses default stringtable filename </p>
+<p>Create a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> instance by loading translations from the default translation file. </p>
 
-<p>References <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>.</p>
+<p>References <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9830d2f7dce3947f2c1dac808945e39a"></a>
+<a class="anchor" id="a4b616c19b6be3a4ce2b81671865e9a45"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -232,7 +206,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt;&#160;</td>
-          <td class="paramname"><em>lookups_fallback_table</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>fallback</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -241,15 +215,17 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>construct a <a class="el" href="classStringTable.html">StringTable</a> from the given filename </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Create a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> from the given <code>filename</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filename</td><td>A file containing the data for this <a class="el" href="classStringTable.html">StringTable</a> </td></tr>
-    <tr><td class="paramname">lookups_fallback_table</td><td>A <a class="el" href="classStringTable.html">StringTable</a> to be used as fallback expansions lookup </td></tr>
+    <tr><td class="paramname">filename</td><td>The file name of the translation file to load. </td></tr>
+    <tr><td class="paramname">fallback</td><td>A <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> that should be used look up unknown translation entries. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>.</p>
+<p>References <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>.</p>
 
 </div>
 </div>
@@ -266,29 +242,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default construction, uses default stringtable filename </p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abf65da5f971cc9aece30045e31f51f94"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool StringTable::Empty </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>true iff this stringtable contain no entries </dd></dl>
-
-<p>References <a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a>, and <a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aba6e53919efa13d5c687d5ebe5175022"></a>
 <div class="memitem">
 <div class="memproto">
@@ -309,9 +265,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>accessor to the filename </p>
 
-<p>References <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>, and <a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465">m_filename</a>.</p>
+<p>Returns the translation file name this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was loaded from. </p>
+
+<p>References <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>, and <a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465">m_filename</a>.</p>
 
 </div>
 </div>
@@ -336,7 +293,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the language of this <a class="el" href="classStringTable.html">StringTable</a>. </p>
+<p>Returns the native language name of this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a>. </p>
 
 <p>References <a class="el" href="classStringTable.html#a3b7d5b7919e08dbc80133974d164cc2f">m_language</a>.</p>
 
@@ -344,7 +301,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3e83dad28416a53a5332bcabca91f11a"></a>
+<a class="anchor" id="a3cee088f31a2313fdccfd35b854053cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -355,7 +312,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void StringTable::Load </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classStringTable.html">StringTable</a> &gt;&#160;</td>
-          <td class="paramname"><em>lookups_fallback_table</em> = <code>nullptr</code></td><td>)</td>
+          <td class="paramname"><em>fallback</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -366,13 +323,21 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Loads this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> from <a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465" title="The filename this StringTable was loaded from. ">m_filename</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fallback</td><td>A <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> that should be used look up unknown translation entries. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">parse::file_substitution()</a>, <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classStringTable.html#a4e25b67d6f3779359b54625ff734d465">m_filename</a>, <a class="el" href="classStringTable.html#ad342fb4d181ca7a32ca319315701bb5e">m_initialized</a>, <a class="el" href="classStringTable.html#a3b7d5b7919e08dbc80133974d164cc2f">m_language</a>, <a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a>, <a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a>, and <a class="el" href="namespaceparse.html#a83fe60f28029027e0861cf36ce8e631c">parse::read_file()</a>.</p>
 
 <p>Referenced by <a class="el" href="classStringTable.html#aba6e53919efa13d5c687d5ebe5175022">Filename()</a>, and <a class="el" href="classStringTable.html#a0e18ab7bcd59dfc3e2ac78b85a60e659">StringTable()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aabf2e01d44fda9ec4126ed321dc9cb47"></a>
+<a class="anchor" id="aae1bb2db68eb7d606e6556c0ff3dc17f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -380,59 +345,26 @@ Private Attributes</h2></td></tr>
           <td class="memname">const std::string &amp; StringTable::operator[] </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Looks up a string at index and returns it. </p>
-
-<p>References <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="namespaceanonymous__namespace_02StringTable_8cpp_03.html#a20fd72e4318fe3c4682be55cab0bc630">anonymous_namespace{StringTable.cpp}::ERROR_STRING</a>, <a class="el" href="classStringTable.html#ab0faa5252d53133195f790a0ee7a4edd">m_error_strings</a>, <a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a>, and <a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a>.</p>
-
-<p>Referenced by <a class="el" href="classStringTable.html#adfc7b7232cca328a43b59e18cad09c21">String()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adfc7b7232cca328a43b59e18cad09c21"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string&amp; StringTable::String </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Interface to operator() </p>
+<p>Returns a translation for <code>key</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>The index of the string to lookup </td></tr>
+    <tr><td class="paramname">key</td><td>The identifying key of a translation entry.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The string found at index in the table </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47" title="Looks up a string at index and returns it. ">StringTable::operator[]</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The translation for <code>key</code> or S_ERROR_STRING if no translation was found. </dd></dl>
 
-<p>References <a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47">operator[]()</a>.</p>
-
-<p>Referenced by <a class="el" href="i18n_8h.html#a00cd1c862739b9c139b983fc28f689a7">UserString()</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="namespaceanonymous__namespace_02StringTable_8cpp_03.html#a20fd72e4318fe3c4682be55cab0bc630">anonymous_namespace{StringTable.cpp}::ERROR_STRING</a>, <a class="el" href="classStringTable.html#ab0faa5252d53133195f790a0ee7a4edd">m_error_strings</a>, <a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a>, and <a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae662dc3f7a22df37c1fe0cd3c88bbc08"></a>
+<a class="anchor" id="a27a43527941a3ab20e3f72d073d8a52f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -440,18 +372,20 @@ Private Attributes</h2></td></tr>
           <td class="memname">bool StringTable::StringExists </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns if a translation for <code>key</code> exists. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">index</td><td>The index of the string to check for </td></tr>
+    <tr><td class="paramname">key</td><td>The identifying key of a translation entry.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true iff a string exists with that index, false otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True iff a translation with that key exists, false otherwise. </dd></dl>
 
 <p>References <a class="el" href="classStringTable.html#a0557acf8a5c672d849d386add61736fe">m_mutex</a>, and <a class="el" href="classStringTable.html#a56982500919c086f3a54a511c8422f46">m_strings</a>.</p>
 
@@ -478,9 +412,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with </p>
+<p>Cache for missing translation keys to ensure the returned error reference string is not destroyed due local scope. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47">operator[]()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#aae1bb2db68eb7d606e6556c0ff3dc17f">operator[]()</a>.</p>
 
 </div>
 </div>
@@ -502,9 +436,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with </p>
+<p>The filename this <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was loaded from. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#aba6e53919efa13d5c687d5ebe5175022">Filename()</a>, and <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#aba6e53919efa13d5c687d5ebe5175022">Filename()</a>, and <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>.</p>
 
 </div>
 </div>
@@ -526,9 +460,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with </p>
+<p>True if the <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> was completely loaded and all references were successfully resolved. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>.</p>
 
 </div>
 </div>
@@ -550,9 +484,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A string containing the name of the language used. </p>
+<p>The native language name of the <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> translations. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#a6cdc2ac4bc4e632ef8eb5c151894adfc">Language()</a>, and <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#a6cdc2ac4bc4e632ef8eb5c151894adfc">Language()</a>, and <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>.</p>
 
 </div>
 </div>
@@ -574,9 +508,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with </p>
+<p>Ensure that multithreaded access to a <a class="el" href="classStringTable.html" title="Provides a key based translation string lookup with fallback. ">StringTable</a> is done in an orderly fashion. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#abf65da5f971cc9aece30045e31f51f94">Empty()</a>, <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>, <a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47">operator[]()</a>, and <a class="el" href="classStringTable.html#ae662dc3f7a22df37c1fe0cd3c88bbc08">StringExists()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>, <a class="el" href="classStringTable.html#aae1bb2db68eb7d606e6556c0ff3dc17f">operator[]()</a>, and <a class="el" href="classStringTable.html#a27a43527941a3ab20e3f72d073d8a52f">StringExists()</a>.</p>
 
 </div>
 </div>
@@ -598,9 +532,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the name of the file this <a class="el" href="classStringTable.html">StringTable</a> was constructed with </p>
+<p>Mapping of translation entry keys to translated strings. </p>
 
-<p>Referenced by <a class="el" href="classStringTable.html#abf65da5f971cc9aece30045e31f51f94">Empty()</a>, <a class="el" href="classStringTable.html#a3e83dad28416a53a5332bcabca91f11a">Load()</a>, <a class="el" href="classStringTable.html#aabf2e01d44fda9ec4126ed321dc9cb47">operator[]()</a>, and <a class="el" href="classStringTable.html#ae662dc3f7a22df37c1fe0cd3c88bbc08">StringExists()</a>.</p>
+<p>Referenced by <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">Load()</a>, <a class="el" href="classStringTable.html#aae1bb2db68eb7d606e6556c0ff3dc17f">operator[]()</a>, and <a class="el" href="classStringTable.html#a27a43527941a3ab20e3f72d073d8a52f">StringExists()</a>.</p>
 
 </div>
 </div>

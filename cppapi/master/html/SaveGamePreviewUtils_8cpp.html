@@ -126,12 +126,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a158b883415207b42e57721b1673c3bc3"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a158b883415207b42e57721b1673c3bc3">anonymous_namespace{SaveGamePreviewUtils.cpp}::BIN_SAVE_FILE_DESCRIPTION</a> (&quot;This is binary archive FreeOrion saved game.&quot;)</td></tr>
 <tr class="separator:a158b883415207b42e57721b1673c3bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d2c27b14c26bb29ca9a6c5416a5c6c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8cpp.html#a73d2c27b14c26bb29ca9a6c5416a5c6c">ColumnInPreview</a> (const <a class="el" href="structFullPreview.html">FullPreview</a> &amp;full, const std::string &amp;name, bool thin)</td></tr>
+<tr class="memdesc:a73d2c27b14c26bb29ca9a6c5416a5c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of column name in this preview.  <a href="#a73d2c27b14c26bb29ca9a6c5416a5c6c">More...</a><br /></td></tr>
 <tr class="separator:a73d2c27b14c26bb29ca9a6c5416a5c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9d0c7301b19363d6b21b362f6e1bbfe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">anonymous_namespace{SaveGamePreviewUtils.cpp}::LoadSaveGamePreviewData</a> (const fs::path &amp;path, <a class="el" href="structFullPreview.html">FullPreview</a> &amp;full)</td></tr>
+<tr class="memdesc:ae9d0c7301b19363d6b21b362f6e1bbfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates a <a class="el" href="structSaveGamePreviewData.html" title="Contains preview information about a savegame. ">SaveGamePreviewData</a> from a given file returns true on success, false if preview data could not be found.  <a href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">More...</a><br /></td></tr>
 <tr class="separator:ae9d0c7301b19363d6b21b362f6e1bbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb79c5895f33a6557dd0561904a2ae2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8cpp.html#acb79c5895f33a6557dd0561904a2ae2c">LoadSaveGamePreviews</a> (const fs::path &amp;orig_path, const std::string &amp;extension, std::vector&lt; <a class="el" href="structFullPreview.html">FullPreview</a> &gt; &amp;previews)</td></tr>
 <tr class="separator:acb79c5895f33a6557dd0561904a2ae2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1daaeac8dc5bd625b2ea8b8dc26f6ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8cpp.html#ac1daaeac8dc5bd625b2ea8b8dc26f6ce">SaveFileWithValidHeader</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:ac1daaeac8dc5bd625b2ea8b8dc26f6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to load headers of a save file.  <a href="#ac1daaeac8dc5bd625b2ea8b8dc26f6ce">More...</a><br /></td></tr>
 <tr class="separator:ac1daaeac8dc5bd625b2ea8b8dc26f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fe739e58ad79463fbc01ab3beaedb63"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a4fe739e58ad79463fbc01ab3beaedb63">anonymous_namespace{SaveGamePreviewUtils.cpp}::split_time</a> (const std::string &amp;time)</td></tr>
 <tr class="memdesc:a4fe739e58ad79463fbc01ab3beaedb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits time and date on separate lines for an ISO datetime string.  <a href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a4fe739e58ad79463fbc01ab3beaedb63">More...</a><br /></td></tr>
@@ -173,9 +176,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get the value of column name in this preview </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Get the value of column name in this preview. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">full</td><td><a class="el" href="structFullPreview.html">FullPreview</a> to match for column <code>name</code> </td></tr>
+    <tr><td class="paramname">full</td><td><a class="el" href="structFullPreview.html" title="Stores all aggregated information about a save file. ">FullPreview</a> to match for column <code>name</code> </td></tr>
     <tr><td class="paramname">name</td><td>The name of the column </td></tr>
     <tr><td class="paramname">thin</td><td>If true, tries to make the value less wide </td></tr>
   </table>
@@ -237,7 +242,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Attempts to load headers of a save file. Returns true on success, false if header data could not be loaded </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Attempts to load headers of a save file. </p>
+<p>Returns true on success, false if header data could not be loaded </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Filename to load headers of </td></tr>
   </table>

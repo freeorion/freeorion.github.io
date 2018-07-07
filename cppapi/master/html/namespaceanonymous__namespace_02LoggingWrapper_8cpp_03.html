@@ -112,6 +112,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6e2048a5b67b13fe792d451b98017a74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a6e2048a5b67b13fe792d451b98017a74">PythonLoggerWrapper</a> (const <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9">LogLevel</a> log_level, const std::string &amp;msg, const std::string &amp;logger_name, const std::string &amp;filename, const std::string &amp;lineno)</td></tr>
 <tr class="separator:a6e2048a5b67b13fe792d451b98017a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c0d00528c495b24d1c3f538a222e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a72c0d00528c495b24d1c3f538a222e52">send_to_log</a> (std::stringstream &amp;ss, const std::string &amp;input, const std::function&lt; void(const std::string &amp;)&gt; &amp;logger)</td></tr>
+<tr class="memdesc:a72c0d00528c495b24d1c3f538a222e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Python streams text as strings which need to be concatenated before they are output to the logger.  <a href="#a72c0d00528c495b24d1c3f538a222e52">More...</a><br /></td></tr>
 <tr class="separator:a72c0d00528c495b24d1c3f538a222e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -509,7 +510,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Python streams text as strings which need to be concatenated before they are output to the logger. Each <code>input</code> may end with an incomplete line that is continued in the next <code>input</code> from the python executable. <code>ss</code> should be a persistent stringstream per output sink to persist the incomplete line of text. <code>is</code> a logger associated with the sink that <code>ss</code> represents. </p>
+
+<p>Python streams text as strings which need to be concatenated before they are output to the logger. </p>
+<p>Each <code>input</code> may end with an incomplete line that is continued in the next <code>input</code> from the python executable. <code>ss</code> should be a persistent stringstream per output sink to persist the incomplete line of text. <code>is</code> a logger associated with the sink that <code>ss</code> represents. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#af21a52550d46e817b1ae7e7b7be24a36">MAX_SINGLE_CHUNK_TEXT_SIZE</a>.</p>
 

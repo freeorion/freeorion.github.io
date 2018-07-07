@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Functions like a StaticGraphic, except can have multiple textures rendered on top of eachother, rather than just a single texture.  
+ <a href="classMultiTextureStaticGraphic.html#details">More...</a></p>
+
 <p><code>#include &lt;CUIControls.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MultiTextureStaticGraphic:</div>
@@ -111,11 +114,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:a9349d4311bace576f0d2259975c0dcaf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#a9349d4311bace576f0d2259975c0dcaf">MultiTextureStaticGraphic</a> (const std::vector&lt; std::shared_ptr&lt; GG::Texture &gt;&gt; &amp;textures, const std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt;&gt; &amp;styles=std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt;&gt;())</td></tr>
+<tr class="memdesc:a9349d4311bace576f0d2259975c0dcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMultiTextureStaticGraphic.html" title="Functions like a StaticGraphic, except can have multiple textures rendered on top of eachother...">MultiTextureStaticGraphic</a> from multiple pre-existing Textures which are rendered back-to-front in the order they are specified in <em>textures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>.  <a href="#a9349d4311bace576f0d2259975c0dcaf">More...</a><br /></td></tr>
 <tr class="separator:a9349d4311bace576f0d2259975c0dcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54f1f0dd75634042172106c0033a3efc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#a54f1f0dd75634042172106c0033a3efc">MultiTextureStaticGraphic</a> (const std::vector&lt; GG::SubTexture &gt; &amp;subtextures, const std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt;&gt; &amp;styles=std::vector&lt; GG::Flags&lt; GG::GraphicStyle &gt;&gt;())</td></tr>
+<tr class="memdesc:a54f1f0dd75634042172106c0033a3efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMultiTextureStaticGraphic.html" title="Functions like a StaticGraphic, except can have multiple textures rendered on top of eachother...">MultiTextureStaticGraphic</a> from multiple pre-existing SubTextures which are rendered back-to-front in the order they are specified in <em>subtextures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>.  <a href="#a54f1f0dd75634042172106c0033a3efc">More...</a><br /></td></tr>
 <tr class="separator:a54f1f0dd75634042172106c0033a3efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a9132d6d4e75b0acd8098c084ecae0351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render</a> () override</td></tr>
+<tr class="memdesc:a9132d6d4e75b0acd8098c084ecae0351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders textures in order specified in constructor, back-to-front.  <a href="#a9132d6d4e75b0acd8098c084ecae0351">More...</a><br /></td></tr>
 <tr class="separator:a9132d6d4e75b0acd8098c084ecae0351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -123,6 +129,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa0a487638c4592aac67192bd03dc4c56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#aa0a487638c4592aac67192bd03dc4c56">MultiTextureStaticGraphic</a> ()</td></tr>
 <tr class="separator:aa0a487638c4592aac67192bd03dc4c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa13c963718ef9f333d944347e7009b71"><td class="memItemLeft" align="right" valign="top">GG::Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiTextureStaticGraphic.html#aa13c963718ef9f333d944347e7009b71">RenderedArea</a> (const GG::SubTexture &amp;subtexture, GG::Flags&lt; GG::GraphicStyle &gt; style) const </td></tr>
+<tr class="memdesc:aa13c963718ef9f333d944347e7009b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the area in which the graphic is actually rendered, in UpperLeft()-relative coordinates.  <a href="#aa13c963718ef9f333d944347e7009b71">More...</a><br /></td></tr>
 <tr class="separator:aa13c963718ef9f333d944347e7009b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -167,7 +174,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a <a class="el" href="classMultiTextureStaticGraphic.html">MultiTextureStaticGraphic</a> from multiple pre-existing Textures which are rendered back-to-front in the order they are specified in <em>textures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>. if <em>styles</em> is not specified or contains fewer entres than <em>textures</em>, entries in <em>textures</em> without associated styles use the style GRAPHIC_CENTER. </p>
+
+<p>creates a <a class="el" href="classMultiTextureStaticGraphic.html" title="Functions like a StaticGraphic, except can have multiple textures rendered on top of eachother...">MultiTextureStaticGraphic</a> from multiple pre-existing Textures which are rendered back-to-front in the order they are specified in <em>textures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>. </p>
+<p>if <em>styles</em> is not specified or contains fewer entres than <em>textures</em>, entries in <em>textures</em> without associated styles use the style GRAPHIC_CENTER. </p>
 
 <p>References <a class="el" href="classMultiTextureStaticGraphic.html#a76b4985808276502f79a98950b3f4a21">Init()</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#acf60c6fe7ccea694263f1a11f20e0272">m_graphics</a>.</p>
 
@@ -196,7 +205,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a <a class="el" href="classMultiTextureStaticGraphic.html">MultiTextureStaticGraphic</a> from multiple pre-existing SubTextures which are rendered back-to-front in the order they are specified in <em>subtextures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>. if <em>styles</em> is not specified or contains fewer entres than <em>subtextures</em>, entries in <em>subtextures</em> without associated styles use the style GRAPHIC_CENTER. </p>
+
+<p>creates a <a class="el" href="classMultiTextureStaticGraphic.html" title="Functions like a StaticGraphic, except can have multiple textures rendered on top of eachother...">MultiTextureStaticGraphic</a> from multiple pre-existing SubTextures which are rendered back-to-front in the order they are specified in <em>subtextures</em> with GraphicStyles specified in the same-indexed value of <em>styles</em>. </p>
+<p>if <em>styles</em> is not specified or contains fewer entres than <em>subtextures</em>, entries in <em>subtextures</em> without associated styles use the style GRAPHIC_CENTER. </p>
 
 <p>References <a class="el" href="classMultiTextureStaticGraphic.html#a76b4985808276502f79a98950b3f4a21">Init()</a>.</p>
 
@@ -273,6 +284,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Renders textures in order specified in constructor, back-to-front. </p>
 
 <p>References <a class="el" href="classMultiTextureStaticGraphic.html#acf60c6fe7ccea694263f1a11f20e0272">m_graphics</a>, <a class="el" href="classMultiTextureStaticGraphic.html#a0de553630807b1432d3524fd9fdaad20">m_styles</a>, and <a class="el" href="classMultiTextureStaticGraphic.html#aa13c963718ef9f333d944347e7009b71">RenderedArea()</a>.</p>
@@ -310,7 +322,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the area in which the graphic is actually rendered, in UpperLeft()-relative coordinates. This may not be the entire area of the StaticGraphic, based on the style being used. </p>
+
+<p>Returns the area in which the graphic is actually rendered, in UpperLeft()-relative coordinates. </p>
+<p>This may not be the entire area of the StaticGraphic, based on the style being used. </p>
 
 <p>Referenced by <a class="el" href="classMultiTextureStaticGraphic.html#a9132d6d4e75b0acd8098c084ecae0351">Render()</a>.</p>
 

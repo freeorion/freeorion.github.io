@@ -117,36 +117,50 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5b66cfd221278b2d72c8d02ee479b59e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a5b66cfd221278b2d72c8d02ee479b59e">AdjustBrightness</a> (GG::Clr &amp;color, int amount, bool jointly_capped)</td></tr>
+<tr class="memdesc:a5b66cfd221278b2d72c8d02ee479b59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjusts the intensity of the color up or down by <em>amount</em> units per color channel; leaves alpha unchanged if <em>jointly_capped</em> is true then, if the original <em>amount</em> would out any of the rgb channel values above 255, <em>amount</em> for all channels is reduced so that the highest resulting rgb channel value is 255.  <a href="#a5b66cfd221278b2d72c8d02ee479b59e">More...</a><br /></td></tr>
 <tr class="separator:a5b66cfd221278b2d72c8d02ee479b59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac82a501c2e106852abe11dfb6520c1c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#ac82a501c2e106852abe11dfb6520c1c2">AdjustBrightness</a> (GG::Clr &amp;color, double amount, bool jointly_capped)</td></tr>
+<tr class="memdesc:ac82a501c2e106852abe11dfb6520c1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjusts the intensity of the color up or down by multiplying the non-alpa channels by <em>amount</em> if <em>jointly_capped</em> is true then, if the original <em>amount</em> would out any of the rgb channel values above 255, <em>amount</em> for all channels is reduced so that the highest resulting rgb channel value is 255.  <a href="#ac82a501c2e106852abe11dfb6520c1c2">More...</a><br /></td></tr>
 <tr class="separator:ac82a501c2e106852abe11dfb6520c1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae859126d9754dcda5f11e3a7a8f05af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#ae859126d9754dcda5f11e3a7a8f05af8">AngledCornerRectangle</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr, GG::Clr color, GG::Clr border, int angle_offset, int thick, bool upper_left_angled, bool lower_right_angled, bool draw_bottom)</td></tr>
+<tr class="memdesc:ae859126d9754dcda5f11e3a7a8f05af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using immediate GL calls, renders a rectangle whose upper left and lower right corners are angled.  <a href="#ae859126d9754dcda5f11e3a7a8f05af8">More...</a><br /></td></tr>
 <tr class="separator:ae859126d9754dcda5f11e3a7a8f05af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afabaa60c9b52c4335e64da998bf267f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#afabaa60c9b52c4335e64da998bf267f5">BufferStoreAngledCornerRectangleVertices</a> (GG::GL2DVertexBuffer &amp;buffer, const GG::Pt &amp;ul, const GG::Pt &amp;lr, int angle_offset, bool upper_left_angled, bool lower_right_angled, bool connect_bottom_line)</td></tr>
+<tr class="memdesc:afabaa60c9b52c4335e64da998bf267f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores, in <em>buffer</em> verticies in CCW order that outline a rectangle with upper left and lower right corners are angled.  <a href="#afabaa60c9b52c4335e64da998bf267f5">More...</a><br /></td></tr>
 <tr class="separator:afabaa60c9b52c4335e64da998bf267f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc2660ecb18d1c4b7eb17631a1b1380b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#abc2660ecb18d1c4b7eb17631a1b1380b">BufferStoreCircleArcVertices</a> (GG::GL2DVertexBuffer &amp;buffer, const GG::Pt &amp;ul, const GG::Pt &amp;lr, double theta1, double theta2, bool filled_shape, int num_slices, bool fan)</td></tr>
+<tr class="memdesc:abc2660ecb18d1c4b7eb17631a1b1380b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores, in <em>buffer</em> vertices in CCW order that outline a circular arc or <em>num_slices</em> indicates how many triangles to use to compose the circle, or if 0, indicates that the function should auto-determine how many slices.  <a href="#abc2660ecb18d1c4b7eb17631a1b1380b">More...</a><br /></td></tr>
 <tr class="separator:abc2660ecb18d1c4b7eb17631a1b1380b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7f80c663516bc3bbf5a25009190b98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a5d7f80c663516bc3bbf5a25009190b98">BufferStoreIsoscelesTriangle</a> (GG::GL2DVertexBuffer &amp;buffer, const GG::Pt &amp;ul, const GG::Pt &amp;lr, <a class="el" href="CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546">ShapeOrientation</a> orientation)</td></tr>
+<tr class="memdesc:a5d7f80c663516bc3bbf5a25009190b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores, in <em>buffer</em>, vertices in CCW order that outline an isosceles triangle.  <a href="#a5d7f80c663516bc3bbf5a25009190b98">More...</a><br /></td></tr>
 <tr class="separator:a5d7f80c663516bc3bbf5a25009190b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9499fe7f46dcf4377230c09860490009"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a9499fe7f46dcf4377230c09860490009">BufferStorePartlyRoundedRectVertices</a> (GG::GL2DVertexBuffer &amp;buffer, const GG::Pt &amp;ul, const GG::Pt &amp;lr, int radius, bool ur_round, bool ul_round, bool ll_round, bool lr_round)</td></tr>
+<tr class="memdesc:a9499fe7f46dcf4377230c09860490009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores, in <em>buffer</em> verticies in CCW order that outline rectangle with corners rounded with radius <em>radrius</em> as determined by the <em>*_round</em> parameters.  <a href="#a9499fe7f46dcf4377230c09860490009">More...</a><br /></td></tr>
 <tr class="separator:a9499fe7f46dcf4377230c09860490009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae76adf9eeb52efb1705eb2bf0a4a8553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#ae76adf9eeb52efb1705eb2bf0a4a8553">BufferStoreRectangle</a> (GG::GL2DVertexBuffer &amp;buffer, const GG::Rect &amp;area, const GG::Rect &amp;border_thickness)</td></tr>
+<tr class="memdesc:ae76adf9eeb52efb1705eb2bf0a4a8553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores verticies in CCW order that outline a rectangle.  <a href="#ae76adf9eeb52efb1705eb2bf0a4a8553">More...</a><br /></td></tr>
 <tr class="separator:ae76adf9eeb52efb1705eb2bf0a4a8553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8da8140eb1ac1308489ed0a43fed2de8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a8da8140eb1ac1308489ed0a43fed2de8">CircleArc</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr, double theta1, double theta2, bool filled_shape)</td></tr>
+<tr class="memdesc:a8da8140eb1ac1308489ed0a43fed2de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a filled portion of a circle when <em>filled_shape</em> is true or an unfilled portion when <em>filled_shape</em> is false.  <a href="#a8da8140eb1ac1308489ed0a43fed2de8">More...</a><br /></td></tr>
 <tr class="separator:a8da8140eb1ac1308489ed0a43fed2de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad71deaa6147df187bd17f74664d20301"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html#ad71deaa6147df187bd17f74664d20301">anonymous_namespace{CUIDrawUtil.cpp}::FindIsoscelesTriangleVertices</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr, <a class="el" href="CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546">ShapeOrientation</a> orientation, double &amp;x1_, double &amp;y1_, double &amp;x2_, double &amp;y2_, double &amp;x3_, double &amp;y3_)</td></tr>
 <tr class="separator:ad71deaa6147df187bd17f74664d20301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb2271b2450a63394d2c52c3c4301b3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#acb2271b2450a63394d2c52c3c4301b3b">InAngledCornerRect</a> (const GG::Pt &amp;pt, const GG::Pt &amp;ul, const GG::Pt &amp;lr, int angle_offset, bool upper_left_angled, bool lower_right_angled)</td></tr>
+<tr class="memdesc:acb2271b2450a63394d2c52c3c4301b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff <em>pt</em> falls within <em>rect</em>, with the missing bits of the angled corners not catching the point.  <a href="#acb2271b2450a63394d2c52c3c4301b3b">More...</a><br /></td></tr>
 <tr class="separator:acb2271b2450a63394d2c52c3c4301b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd9cb1f9c1325430f828f18f1380d7d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#acd9cb1f9c1325430f828f18f1380d7d9">InIsoscelesTriangle</a> (const GG::Pt &amp;pt, const GG::Pt &amp;ul, const GG::Pt &amp;lr, <a class="el" href="CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546">ShapeOrientation</a> orientation)</td></tr>
+<tr class="memdesc:acd9cb1f9c1325430f828f18f1380d7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff <em>pt</em> falls within the isosceles triangle described by the other parameters  <a href="#acd9cb1f9c1325430f828f18f1380d7d9">More...</a><br /></td></tr>
 <tr class="separator:acd9cb1f9c1325430f828f18f1380d7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b005632df6a6b1de60317051477bcea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a9b005632df6a6b1de60317051477bcea">InTriangle</a> (const GG::Pt &amp;pt, double x1, double y1, double x2, double y2, double x3, double y3)</td></tr>
 <tr class="separator:a9b005632df6a6b1de60317051477bcea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefb45f1aabac1f5c8302ed210223193"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#afefb45f1aabac1f5c8302ed210223193">IsoscelesTriangle</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr, <a class="el" href="CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546">ShapeOrientation</a> orientation, GG::Clr color, bool border)</td></tr>
+<tr class="memdesc:afefb45f1aabac1f5c8302ed210223193"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders a triangle with two equal-length sides, oriented in the desired direction.  <a href="#afefb45f1aabac1f5c8302ed210223193">More...</a><br /></td></tr>
 <tr class="separator:afefb45f1aabac1f5c8302ed210223193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba0a96f88dfefe3fcce2e11e10a3916"><td class="memItemLeft" align="right" valign="top">GG::Clr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#aaba0a96f88dfefe3fcce2e11e10a3916">OpaqueColor</a> (const GG::Clr &amp;color)</td></tr>
+<tr class="memdesc:aaba0a96f88dfefe3fcce2e11e10a3916"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns fully opaque (max alpha channel) version of the color  <a href="#aaba0a96f88dfefe3fcce2e11e10a3916">More...</a><br /></td></tr>
 <tr class="separator:aaba0a96f88dfefe3fcce2e11e10a3916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c6a8e3ee79f06787ea6f8d860e84eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#ac6c6a8e3ee79f06787ea6f8d860e84eb">PartlyRoundedRect</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr, int radius, bool ur_round, bool ul_round, bool ll_round, bool lr_round, bool fill)</td></tr>
+<tr class="memdesc:ac6c6a8e3ee79f06787ea6f8d860e84eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a rectangle whose corners are rounded with radius <em>radius</em> as indicated by the <em>*_round</em> parameters.  <a href="#ac6c6a8e3ee79f06787ea6f8d860e84eb">More...</a><br /></td></tr>
 <tr class="separator:ac6c6a8e3ee79f06787ea6f8d860e84eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f664c55bb3190a32e5f1f8c016deb2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CUIDrawUtil_8cpp.html#a3f664c55bb3190a32e5f1f8c016deb2b">Triangle</a> (double x1, double y1, double x2, double y2, double x3, double y3, GG::Clr color, bool border)</td></tr>
 <tr class="separator:a3f664c55bb3190a32e5f1f8c016deb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +200,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>adjusts the intensity of the color up or down by <em>amount</em> units per color channel; leaves alpha unchanged if <em>jointly_capped</em> is true then, if the original <em>amount</em> would out any of the rgb channel values above 255, <em>amount</em> for all channels is reduced so that the highest resulting rgb channel value is 255. </p>
 
 <p>Referenced by <a class="el" href="classClientUI.html#a481db4845437636f495bca4e3238bd1d">ClientUI::ButtonHiliteBorderColor()</a>, <a class="el" href="classClientUI.html#a9966092be816e1440829d7b7645ce1f2">ClientUI::ButtonHiliteColor()</a>, <a class="el" href="classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">MapWnd::InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="classCUI__MinRestoreButton.html#af85b66e0070708a2fe261f8480992ffb">CUI_MinRestoreButton::Render()</a>, <a class="el" href="classCUICheckBoxRepresenter.html#ae93c2585f974d151d0ae81f1eb228789">CUICheckBoxRepresenter::Render()</a>, <a class="el" href="classCUIRadioRepresenter.html#a02a48d21f36b172045bfbd89d03227e5">CUIRadioRepresenter::Render()</a>, <a class="el" href="classCUITabRepresenter.html#a00f15b07c0662d868888753c92438079">CUITabRepresenter::Render()</a>, <a class="el" href="classCUILabelButtonRepresenter.html#af0f75d784fa71e60d003e804452e63c1">CUILabelButtonRepresenter::Render()</a>, <a class="el" href="classCUIIconButtonRepresenter.html#aa0540da46573e3ac918b9869ba074aef">CUIIconButtonRepresenter::Render()</a>, <a class="el" href="classCUIScroll_1_1ScrollTab.html#ac42b442d015f0feaef5b65a197d9b7d3">CUIScroll::ScrollTab::Render()</a>, <a class="el" href="classCUIDropDownList.html#adc6b6683c1441fecff1d26f245818b79">CUIDropDownList::Render()</a>, <a class="el" href="classCUIButton.html#ad2a8ee8d3d9cb4c58e08f7163d048cc6">CUIButton::RenderPressed()</a>, <a class="el" href="classCUIButton.html#a226e989422cf01b7fccb0ae422edeeab">CUIButton::RenderRollover()</a>, <a class="el" href="classCUIArrowButton.html#aaf3a0a0e0bb8d993db52e149db87380a">CUIArrowButton::RenderRollover()</a>, <a class="el" href="CUIDrawUtil_8cpp.html#a3f664c55bb3190a32e5f1f8c016deb2b">Triangle()</a>, and <a class="el" href="classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a60aac700a7b509ea9eb690ed21b38c7a">TechTreeWnd::TechListBox::TechRow::Update()</a>.</p>
@@ -221,6 +236,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>adjusts the intensity of the color up or down by multiplying the non-alpa channels by <em>amount</em> if <em>jointly_capped</em> is true then, if the original <em>amount</em> would out any of the rgb channel values above 255, <em>amount</em> for all channels is reduced so that the highest resulting rgb channel value is 255. </p>
 
 </div>
@@ -290,7 +306,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Using immediate GL calls, renders a rectangle whose upper left and lower right corners are angled. If <em>upper_left_angled</em> == false, the upper left corner is drawn as a normal corner </p>
+
+<p>Using immediate GL calls, renders a rectangle whose upper left and lower right corners are angled. </p>
+<p>If <em>upper_left_angled</em> == false, the upper left corner is drawn as a normal corner </p>
 
 <p>References <a class="el" href="CUIDrawUtil_8cpp.html#afabaa60c9b52c4335e64da998bf267f5">BufferStoreAngledCornerRectangleVertices()</a>.</p>
 
@@ -351,6 +369,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Stores, in <em>buffer</em> verticies in CCW order that outline a rectangle with upper left and lower right corners are angled. </p>
 
 <p>Referenced by <a class="el" href="CUIDrawUtil_8h.html#a12ef98f4bb42e20bf81b4f58c4796335">AngledCornerRectangle()</a>, and <a class="el" href="classCUIDropDownList.html#a2504c2fef698557425c56f378dec7314">CUIDropDownList::InitBuffer()</a>.</p>
@@ -416,7 +435,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores, in <em>buffer</em> vertices in CCW order that outline a circular arc or <em>num_slices</em> indicates how many triangles to use to compose the circle, or if 0, indicates that the function should auto-determine how many slices. if <em>fan</em> is true, the vertices are stored as a triangle fan- compatible list, while false indicates a triangle list (where each triangle has all 3 vertices specified explicitly. <em>filled_shape</em> indicates that a vertex at the centre of the circle should be present and shared with all triangles. </p>
+
+<p>Stores, in <em>buffer</em> vertices in CCW order that outline a circular arc or <em>num_slices</em> indicates how many triangles to use to compose the circle, or if 0, indicates that the function should auto-determine how many slices. </p>
+<p>if <em>fan</em> is true, the vertices are stored as a triangle fan- compatible list, while false indicates a triangle list (where each triangle has all 3 vertices specified explicitly. <em>filled_shape</em> indicates that a vertex at the centre of the circle should be present and shared with all triangles. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#ad517059828ddf4b5d3db9bdf7bde5123">anonymous_namespace{SystemIcon.cpp}::PI</a>.</p>
 
@@ -459,6 +480,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Stores, in <em>buffer</em>, vertices in CCW order that outline an isosceles triangle. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html#ad71deaa6147df187bd17f74664d20301">anonymous_namespace{CUIDrawUtil.cpp}::FindIsoscelesTriangleVertices()</a>.</p>
@@ -526,6 +548,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Stores, in <em>buffer</em> verticies in CCW order that outline rectangle with corners rounded with radius <em>radrius</em> as determined by the <em>*_round</em> parameters. </p>
 
 <p>References <a class="el" href="CUIDrawUtil_8cpp.html#abc2660ecb18d1c4b7eb17631a1b1380b">BufferStoreCircleArcVertices()</a>, and <a class="el" href="namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#ad517059828ddf4b5d3db9bdf7bde5123">anonymous_namespace{SystemIcon.cpp}::PI</a>.</p>
@@ -563,7 +586,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stores verticies in CCW order that outline a rectangle </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Stores verticies in CCW order that outline a rectangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Buffer to store verticies </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">area</td><td>Outside corners of rectangle </td></tr>
@@ -617,6 +642,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Draws a filled portion of a circle when <em>filled_shape</em> is true or an unfilled portion when <em>filled_shape</em> is false. </p>
 
 <p>References <a class="el" href="CUIDrawUtil_8cpp.html#abc2660ecb18d1c4b7eb17631a1b1380b">BufferStoreCircleArcVertices()</a>.</p>
@@ -672,7 +698,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true iff <em>pt</em> falls within <em>rect</em>, with the missing bits of the angled corners not catching the point. If <em>upper_left_angled</em> == false, the upper left corner is treated as a normal corner. </p>
+
+<p>returns true iff <em>pt</em> falls within <em>rect</em>, with the missing bits of the angled corners not catching the point. </p>
+<p>If <em>upper_left_angled</em> == false, the upper left corner is treated as a normal corner. </p>
 
 <p>Referenced by <a class="el" href="classCUIButton.html#adf69d6fb54d667faf3f6b52ee37779ab">CUIButton::InWindow()</a>.</p>
 
@@ -713,6 +741,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns true iff <em>pt</em> falls within the isosceles triangle described by the other parameters </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html#ad71deaa6147df187bd17f74664d20301">anonymous_namespace{CUIDrawUtil.cpp}::FindIsoscelesTriangleVertices()</a>, and <a class="el" href="CUIDrawUtil_8cpp.html#a9b005632df6a6b1de60317051477bcea">InTriangle()</a>.</p>
@@ -820,7 +849,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>renders a triangle with two equal-length sides, oriented in the desired direction. The triangle will have a base length of one of (<em>x2</em> - <em>x1</em>) and (<em>y2</em> - <em>y1</em>), depending on <em>orientation</em>, and a height of the other. </p>
+
+<p>renders a triangle with two equal-length sides, oriented in the desired direction. </p>
+<p>The triangle will have a base length of one of (<em>x2</em> - <em>x1</em>) and (<em>y2</em> - <em>y1</em>), depending on <em>orientation</em>, and a height of the other. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html#ad71deaa6147df187bd17f74664d20301">anonymous_namespace{CUIDrawUtil.cpp}::FindIsoscelesTriangleVertices()</a>, and <a class="el" href="CUIDrawUtil_8cpp.html#a3f664c55bb3190a32e5f1f8c016deb2b">Triangle()</a>.</p>
 
@@ -841,6 +872,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns fully opaque (max alpha channel) version of the color </p>
 
 <p>Referenced by <a class="el" href="classSystemResourceSummaryBrowseWnd.html#ae68b45060322ef3dc21327cddbf52e2f">SystemResourceSummaryBrowseWnd::Render()</a>, <a class="el" href="classMeterBrowseWnd.html#a8ff6620b5676c510d2fadae0ae6d6684">MeterBrowseWnd::Render()</a>, and <a class="el" href="classanonymous__namespace_02SidePanel_8cpp_03_1_1SystemMeterBrowseWnd.html#a528825fdfe559dc3275ad5cc1c192fe5">anonymous_namespace{SidePanel.cpp}::SystemMeterBrowseWnd::Render()</a>.</p>
@@ -906,7 +938,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Draws a rectangle whose corners are rounded with radius <em>radius</em> as indicated by the <em>*_round</em> parameters. If <em>fill</em> is true, the resulting rectangle is solid; it is drawn in outline otherwise. </p>
+
+<p>Draws a rectangle whose corners are rounded with radius <em>radius</em> as indicated by the <em>*_round</em> parameters. </p>
+<p>If <em>fill</em> is true, the resulting rectangle is solid; it is drawn in outline otherwise. </p>
 
 <p>References <a class="el" href="CUIDrawUtil_8cpp.html#a9499fe7f46dcf4377230c09860490009">BufferStorePartlyRoundedRectVertices()</a>.</p>
 

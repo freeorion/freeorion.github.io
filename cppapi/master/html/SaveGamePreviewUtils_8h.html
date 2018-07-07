@@ -106,10 +106,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFullPreview.html">FullPreview</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores all aggregated information about a save file.  <a href="structFullPreview.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPreviewInformation.html">PreviewInformation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The preview information the server sends to the client.  <a href="structPreviewInformation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html">SaveGamePreviewData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains preview information about a savegame.  <a href="structSaveGamePreviewData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -117,10 +120,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad6a819de280b6bb7c6276838a02da261"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8h.html#ad6a819de280b6bb7c6276838a02da261">BOOST_CLASS_VERSION</a> (<a class="el" href="structSaveGamePreviewData.html">SaveGamePreviewData</a>, 4)</td></tr>
 <tr class="separator:ad6a819de280b6bb7c6276838a02da261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f558a5fded2fe5c4f8cfa51d7aa9291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8h.html#a1f558a5fded2fe5c4f8cfa51d7aa9291">ColumnInPreview</a> (const <a class="el" href="structFullPreview.html">FullPreview</a> &amp;full, const std::string &amp;name, bool thin=true)</td></tr>
+<tr class="memdesc:a1f558a5fded2fe5c4f8cfa51d7aa9291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of column name in this preview.  <a href="#a1f558a5fded2fe5c4f8cfa51d7aa9291">More...</a><br /></td></tr>
 <tr class="separator:a1f558a5fded2fe5c4f8cfa51d7aa9291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af14787538946d3358015d21b315e0092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8h.html#af14787538946d3358015d21b315e0092">LoadSaveGamePreviews</a> (const boost::filesystem::path &amp;path, const std::string &amp;extension, std::vector&lt; <a class="el" href="structFullPreview.html">FullPreview</a> &gt; &amp;previews)</td></tr>
+<tr class="memdesc:af14787538946d3358015d21b315e0092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load previews from files.  <a href="#af14787538946d3358015d21b315e0092">More...</a><br /></td></tr>
 <tr class="separator:af14787538946d3358015d21b315e0092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b9af05720f32c6dc1dcd72f95e313f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SaveGamePreviewUtils_8h.html#a65b9af05720f32c6dc1dcd72f95e313f">SaveFileWithValidHeader</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:a65b9af05720f32c6dc1dcd72f95e313f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to load headers of a save file.  <a href="#a65b9af05720f32c6dc1dcd72f95e313f">More...</a><br /></td></tr>
 <tr class="separator:a65b9af05720f32c6dc1dcd72f95e313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -179,9 +185,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get the value of column name in this preview </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Get the value of column name in this preview. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">full</td><td><a class="el" href="structFullPreview.html">FullPreview</a> to match for column <code>name</code> </td></tr>
+    <tr><td class="paramname">full</td><td><a class="el" href="structFullPreview.html" title="Stores all aggregated information about a save file. ">FullPreview</a> to match for column <code>name</code> </td></tr>
     <tr><td class="paramname">name</td><td>The name of the column </td></tr>
     <tr><td class="paramname">thin</td><td>If true, tries to make the value less wide </td></tr>
   </table>
@@ -223,7 +231,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Load previews from files </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Load previews from files. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">path</td><td>Directory where to look for files </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">extension</td><td>File name extension to filter by </td></tr>
@@ -247,7 +257,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Attempts to load headers of a save file. Returns true on success, false if header data could not be loaded </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Attempts to load headers of a save file. </p>
+<p>Returns true on success, false if header data could not be loaded </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Filename to load headers of </td></tr>
   </table>

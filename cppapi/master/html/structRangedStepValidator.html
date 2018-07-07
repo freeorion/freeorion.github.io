@@ -94,6 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>a <a class="el" href="structValidator.html" title="determines if a string is a valid value for an OptionsDB option ">Validator</a> similar to a <a class="el" href="structStepValidator.html" title="a Validator that constrains valid values to certain step-values (eg: 0, 25, 50, ...). ">StepValidator</a>, but that further constrains the valid values to be within a certain range (eg: [25, 50, ..., 200]).  
+ <a href="structRangedStepValidator.html#details">More...</a></p>
+
 <p><code>#include &lt;OptionValidators.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for RangedStepValidator&lt; T &gt;:</div>
@@ -103,8 +106,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="structRangedStepValidator.png" usemap="#RangedStepValidator_3C_20T_20_3E_map" alt=""/>
   <map id="RangedStepValidator_3C_20T_20_3E_map" name="RangedStepValidator&lt; T &gt;_map">
-<area href="structValidator.html" alt="Validator&lt; T &gt;" shape="rect" coords="0,56,162,80"/>
-<area href="structValidatorBase.html" alt="ValidatorBase" shape="rect" coords="0,0,162,24"/>
+<area href="structValidator.html" title="determines if a string is a valid value for an OptionsDB option " alt="Validator&lt; T &gt;" shape="rect" coords="0,56,162,80"/>
+<area href="structValidatorBase.html" title="base class for all OptionsDB validators. " alt="ValidatorBase" shape="rect" coords="0,0,162,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -115,11 +118,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ec87f8585ffe9f9952bfd3b160e0c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRangedStepValidator.html#a5ec87f8585ffe9f9952bfd3b160e0c6a">RangedStepValidator</a> (const T &amp;step, const T &amp;origin, const T &amp;<a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a">min</a>, const T &amp;<a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>)</td></tr>
 <tr class="separator:a5ec87f8585ffe9f9952bfd3b160e0c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82bc049b7ec93ba36a919869f5add9ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRangedStepValidator.html">RangedStepValidator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRangedStepValidator.html#a82bc049b7ec93ba36a919869f5add9ad">Clone</a> () const override</td></tr>
+<tr class="memdesc:a82bc049b7ec93ba36a919869f5add9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a dynamically allocated copy of the object.  <a href="#a82bc049b7ec93ba36a919869f5add9ad">More...</a><br /></td></tr>
 <tr class="separator:a82bc049b7ec93ba36a919869f5add9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade0ab6fe07f35a0c173279d2183dbf8b"><td class="memItemLeft" align="right" valign="top">boost::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRangedStepValidator.html#ade0ab6fe07f35a0c173279d2183dbf8b">Validate</a> (const std::string &amp;str) const override</td></tr>
+<tr class="memdesc:ade0ab6fe07f35a0c173279d2183dbf8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns normally if <em>str</em> is a valid value, or throws otherwise  <a href="#ade0ab6fe07f35a0c173279d2183dbf8b">More...</a><br /></td></tr>
 <tr class="separator:ade0ab6fe07f35a0c173279d2183dbf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structValidator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structValidator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structValidator.html">Validator&lt; T &gt;</a></td></tr>
 <tr class="memitem:ab738926886d5e53a3fd0c3fbed97277f inherit pub_methods_structValidator"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidator.html#ab738926886d5e53a3fd0c3fbed97277f">String</a> (const boost::any &amp;value) const override</td></tr>
+<tr class="memdesc:ab738926886d5e53a3fd0c3fbed97277f inherit pub_methods_structValidator"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the string representation of <em>value</em>  <a href="#ab738926886d5e53a3fd0c3fbed97277f">More...</a><br /></td></tr>
 <tr class="separator:ab738926886d5e53a3fd0c3fbed97277f inherit pub_methods_structValidator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structValidatorBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structValidatorBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structValidatorBase.html">ValidatorBase</a></td></tr>
 <tr class="memitem:a73e4868f40dcc2da9198ba3cfdb4e618 inherit pub_methods_structValidatorBase"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidatorBase.html#a73e4868f40dcc2da9198ba3cfdb4e618">~ValidatorBase</a> ()</td></tr>
@@ -140,7 +146,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
 struct RangedStepValidator&lt; T &gt;</h3>
 
-<p>a <a class="el" href="structValidator.html">Validator</a> similar to a <a class="el" href="structStepValidator.html">StepValidator</a>, but that further constrains the valid values to be within a certain range (eg: [25, 50, ..., 200]). </p>
+<p>a <a class="el" href="structValidator.html" title="determines if a string is a valid value for an OptionsDB option ">Validator</a> similar to a <a class="el" href="structStepValidator.html" title="a Validator that constrains valid values to certain step-values (eg: 0, 25, 50, ...). ">StepValidator</a>, but that further constrains the valid values to be within a certain range (eg: [25, 50, ..., 200]). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a306399d1d0648c13b22735911aa1611e"></a>
 <div class="memitem">
@@ -255,6 +261,7 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns a dynamically allocated copy of the object. </p>
 
 <p>Reimplemented from <a class="el" href="structValidator.html#aa69e89583173a22515871769a8b1b947">Validator&lt; T &gt;</a>.</p>
@@ -284,6 +291,7 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns normally if <em>str</em> is a valid value, or throws otherwise </p>
 
 <p>Reimplemented from <a class="el" href="structValidator.html#a3edb94415e5330e375320e38cd1e1041">Validator&lt; T &gt;</a>.</p>

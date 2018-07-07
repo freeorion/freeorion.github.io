@@ -93,6 +93,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>base class for all <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> validators.  
+ <a href="structValidatorBase.html#details">More...</a></p>
+
 <p><code>#include &lt;OptionValidators.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ValidatorBase:</div>
@@ -102,13 +105,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="structValidatorBase.png" usemap="#ValidatorBase_map" alt=""/>
   <map id="ValidatorBase_map" name="ValidatorBase_map">
-<area href="structValidator.html" alt="Validator&lt; T &gt;" shape="rect" coords="464,56,686,80"/>
+<area href="structValidator.html" title="determines if a string is a valid value for an OptionsDB option " alt="Validator&lt; T &gt;" shape="rect" coords="464,56,686,80"/>
 <area href="structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html" alt="Validator&lt; std::vector&lt; std::string &gt; &gt;" shape="rect" coords="696,56,918,80"/>
 <area href="structDiscreteValidator.html" title="a Validator that specifies a finite number of valid values. " alt="DiscreteValidator&lt; T &gt;" shape="rect" coords="0,112,222,136"/>
 <area href="structOrValidator.html" title="a Validator that performs a logical OR of two validators. " alt="OrValidator&lt; T &gt;" shape="rect" coords="232,112,454,136"/>
-<area href="structRangedStepValidator.html" alt="RangedStepValidator&lt; T &gt;" shape="rect" coords="464,112,686,136"/>
-<area href="structRangedValidator.html" alt="RangedValidator&lt; T &gt;" shape="rect" coords="696,112,918,136"/>
-<area href="structStepValidator.html" alt="StepValidator&lt; T &gt;" shape="rect" coords="928,112,1150,136"/>
+<area href="structRangedStepValidator.html" title="a Validator similar to a StepValidator, but that further constrains the valid values to be within a c..." alt="RangedStepValidator&lt; T &gt;" shape="rect" coords="464,112,686,136"/>
+<area href="structRangedValidator.html" title="a Validator that constrains the range of valid values " alt="RangedValidator&lt; T &gt;" shape="rect" coords="696,112,918,136"/>
+<area href="structStepValidator.html" title="a Validator that constrains valid values to certain step-values (eg: 0, 25, 50, ...). " alt="StepValidator&lt; T &gt;" shape="rect" coords="928,112,1150,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -117,14 +120,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73e4868f40dcc2da9198ba3cfdb4e618"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidatorBase.html#a73e4868f40dcc2da9198ba3cfdb4e618">~ValidatorBase</a> ()</td></tr>
 <tr class="separator:a73e4868f40dcc2da9198ba3cfdb4e618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5028254dccd21a3238d9bdf7ecadd83c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structValidatorBase.html">ValidatorBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidatorBase.html#a5028254dccd21a3238d9bdf7ecadd83c">Clone</a> () const =0</td></tr>
+<tr class="memdesc:a5028254dccd21a3238d9bdf7ecadd83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a dynamically allocated copy of the object.  <a href="#a5028254dccd21a3238d9bdf7ecadd83c">More...</a><br /></td></tr>
 <tr class="separator:a5028254dccd21a3238d9bdf7ecadd83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf89f89a03d74037a0f13ccb2feb9d74"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidatorBase.html#abf89f89a03d74037a0f13ccb2feb9d74">String</a> (const boost::any &amp;value) const =0</td></tr>
+<tr class="memdesc:abf89f89a03d74037a0f13ccb2feb9d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the string representation of <em>value</em>  <a href="#abf89f89a03d74037a0f13ccb2feb9d74">More...</a><br /></td></tr>
 <tr class="separator:abf89f89a03d74037a0f13ccb2feb9d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491b06fb7347d9d584d99c754648b6c8"><td class="memItemLeft" align="right" valign="top">virtual boost::any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValidatorBase.html#a491b06fb7347d9d584d99c754648b6c8">Validate</a> (const std::string &amp;str) const =0</td></tr>
+<tr class="memdesc:a491b06fb7347d9d584d99c754648b6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns normally if <em>str</em> is a valid value, or throws otherwise  <a href="#a491b06fb7347d9d584d99c754648b6c8">More...</a><br /></td></tr>
 <tr class="separator:a491b06fb7347d9d584d99c754648b6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>base class for all <a class="el" href="classOptionsDB.html">OptionsDB</a> validators. Simply provides the basic interface. </p>
+<div class="textblock"><p>base class for all <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> validators. </p>
+<p>Simply provides the basic interface. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a73e4868f40dcc2da9198ba3cfdb4e618"></a>
 <div class="memitem">
@@ -170,6 +177,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns a dynamically allocated copy of the object. </p>
 
 <p>Implemented in <a class="el" href="structOrValidator.html#aaa9ed6ef30c2595e9dcf8e3d4337c501">OrValidator&lt; T &gt;</a>, <a class="el" href="structDiscreteValidator.html#ac7ddc3c6c81e165be79a88c5eea578e1">DiscreteValidator&lt; T &gt;</a>, <a class="el" href="structRangedStepValidator.html#a82bc049b7ec93ba36a919869f5add9ad">RangedStepValidator&lt; T &gt;</a>, <a class="el" href="structStepValidator.html#a552f648384440a8b8a188f19e7e0a7c2">StepValidator&lt; T &gt;</a>, <a class="el" href="structRangedValidator.html#aedef9101bb326dc21cf3f2d114b50736">RangedValidator&lt; T &gt;</a>, <a class="el" href="structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a5eb22b657b1a123004607ee05ca7ea98">Validator&lt; std::vector&lt; std::string &gt; &gt;</a>, and <a class="el" href="structValidator.html#aa69e89583173a22515871769a8b1b947">Validator&lt; T &gt;</a>.</p>
@@ -197,6 +205,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns the string representation of <em>value</em> </p>
 
 <p>Implemented in <a class="el" href="structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a6a57eb04f697f3f7d62c4f7eadef257a">Validator&lt; std::vector&lt; std::string &gt; &gt;</a>, and <a class="el" href="structValidator.html#ab738926886d5e53a3fd0c3fbed97277f">Validator&lt; T &gt;</a>.</p>
@@ -224,6 +233,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns normally if <em>str</em> is a valid value, or throws otherwise </p>
 
 <p>Implemented in <a class="el" href="structOrValidator.html#af2b9f853e61b8bed2ca71827ebbbb09d">OrValidator&lt; T &gt;</a>, <a class="el" href="structDiscreteValidator.html#a3e0272debab5264de1694f2bd51c0b60">DiscreteValidator&lt; T &gt;</a>, <a class="el" href="structRangedStepValidator.html#ade0ab6fe07f35a0c173279d2183dbf8b">RangedStepValidator&lt; T &gt;</a>, <a class="el" href="structStepValidator.html#a9b48c6658f54fbea1bc7dbeaa7046212">StepValidator&lt; T &gt;</a>, <a class="el" href="structRangedValidator.html#a99d9670afd110ef889539f92ff82ba01">RangedValidator&lt; T &gt;</a>, <a class="el" href="structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a3cc2e2697960e7cf2a0342010dd292a9">Validator&lt; std::vector&lt; std::string &gt; &gt;</a>, and <a class="el" href="structValidator.html#a3edb94415e5330e375320e38cd1e1041">Validator&lt; T &gt;</a>.</p>

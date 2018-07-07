@@ -107,9 +107,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <img src="classIApp.png" usemap="#IApp_map" alt=""/>
   <map id="IApp_map" name="IApp_map">
 <area href="classClientApp.html" title="Abstract base class for the application framework classes. " alt="ClientApp" shape="rect" coords="58,56,164,80"/>
-<area href="classServerApp.html" alt="ServerApp" shape="rect" coords="174,56,280,80"/>
-<area href="classAIClientApp.html" alt="AIClientApp" shape="rect" coords="0,112,106,136"/>
-<area href="classHumanClientApp.html" alt="HumanClientApp" shape="rect" coords="116,112,222,136"/>
+<area href="classServerApp.html" title="the application framework class for the FreeOrion server. " alt="ServerApp" shape="rect" coords="174,56,280,80"/>
+<area href="classAIClientApp.html" title="the application framework for an AI player FreeOrion client. " alt="AIClientApp" shape="rect" coords="0,112,106,136"/>
+<area href="classHumanClientApp.html" title="the application framework class for the human player FreeOrion client. " alt="HumanClientApp" shape="rect" coords="116,112,222,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -127,26 +127,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acfcbe730a0998858b0659c1286a126fa"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#acfcbe730a0998858b0659c1286a126fa">~IApp</a> ()</td></tr>
 <tr class="separator:acfcbe730a0998858b0659c1286a126fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab62973eb4ed089ec38b6a058bd0c74ed"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#ab62973eb4ed089ec38b6a058bd0c74ed">CurrentTurn</a> () const =0</td></tr>
+<tr class="memdesc:ab62973eb4ed089ec38b6a058bd0c74ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current game turn.  <a href="#ab62973eb4ed089ec38b6a058bd0c74ed">More...</a><br /></td></tr>
 <tr class="separator:ab62973eb4ed089ec38b6a058bd0c74ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fc73ff4e2635c19c518ab4bdbef617e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a1fc73ff4e2635c19c518ab4bdbef617e">EffectsProcessingThreads</a> () const =0</td></tr>
 <tr class="separator:a1fc73ff4e2635c19c518ab4bdbef617e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83447d0874e2a7c8766c8f116d4b7673"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a83447d0874e2a7c8766c8f116d4b7673">EmpireKnownObject</a> (int object_id, int empire_id)=0</td></tr>
 <tr class="separator:a83447d0874e2a7c8766c8f116d4b7673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f804bd085724c07dc2e3a67ab6d1f2b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a1f804bd085724c07dc2e3a67ab6d1f2b">EmpireKnownObjects</a> (int empire_id)=0</td></tr>
+<tr class="memdesc:a1f804bd085724c07dc2e3a67ab6d1f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor for known objects of specified empire.  <a href="#a1f804bd085724c07dc2e3a67ab6d1f2b">More...</a><br /></td></tr>
 <tr class="separator:a1f804bd085724c07dc2e3a67ab6d1f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ce53c9a73c5f85be203b99ffb238165"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a4ce53c9a73c5f85be203b99ffb238165">Empires</a> ()=0</td></tr>
+<tr class="memdesc:a4ce53c9a73c5f85be203b99ffb238165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of known Empires for this application.  <a href="#a4ce53c9a73c5f85be203b99ffb238165">More...</a><br /></td></tr>
 <tr class="separator:a4ce53c9a73c5f85be203b99ffb238165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fc89f2cd5824a2dd8e4c3d7e14c7877"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a0fc89f2cd5824a2dd8e4c3d7e14c7877">GetEmpire</a> (int id)=0</td></tr>
 <tr class="separator:a0fc89f2cd5824a2dd8e4c3d7e14c7877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41f47dc1deb6f367321a8c7eaa58a3f6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a41f47dc1deb6f367321a8c7eaa58a3f6">GetEmpireClientType</a> (int empire_id) const =0</td></tr>
+<tr class="memdesc:a41f47dc1deb6f367321a8c7eaa58a3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the networking client type for the given empire_id.  <a href="#a41f47dc1deb6f367321a8c7eaa58a3f6">More...</a><br /></td></tr>
 <tr class="separator:a41f47dc1deb6f367321a8c7eaa58a3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68d7111d52c4c2d5bed2f681e4fee355"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a68d7111d52c4c2d5bed2f681e4fee355">GetGalaxySetupData</a> () const =0</td></tr>
+<tr class="memdesc:a68d7111d52c4c2d5bed2f681e4fee355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the galaxy setup data used for the current game.  <a href="#a68d7111d52c4c2d5bed2f681e4fee355">More...</a><br /></td></tr>
 <tr class="separator:a68d7111d52c4c2d5bed2f681e4fee355"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149471521477e0530ffde55b2b6282e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a149471521477e0530ffde55b2b6282e9">GetPlayerClientType</a> (int player_id) const =0</td></tr>
+<tr class="memdesc:a149471521477e0530ffde55b2b6282e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the networking client type for the given player_id.  <a href="#a149471521477e0530ffde55b2b6282e9">More...</a><br /></td></tr>
 <tr class="separator:a149471521477e0530ffde55b2b6282e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99fbceb67b271eb8d4178555394abca3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a99fbceb67b271eb8d4178555394abca3">GetSupplyManager</a> ()=0</td></tr>
 <tr class="separator:a99fbceb67b271eb8d4178555394abca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e7b315d57b4e61ace7e5ecb6800644"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a96e7b315d57b4e61ace7e5ecb6800644">GetUniverse</a> ()=0</td></tr>
+<tr class="memdesc:a96e7b315d57b4e61ace7e5ecb6800644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns applications copy of <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>.  <a href="#a96e7b315d57b4e61ace7e5ecb6800644">More...</a><br /></td></tr>
 <tr class="separator:a96e7b315d57b4e61ace7e5ecb6800644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e91415f70b1665dc5bd43748d5c1e3e"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a7e91415f70b1665dc5bd43748d5c1e3e">GetUniverseObject</a> (int object_id)=0</td></tr>
 <tr class="separator:a7e91415f70b1665dc5bd43748d5c1e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,11 +164,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79e78ff5609d8bfc05c5d59f4650460c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIApp.html">IApp</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a79e78ff5609d8bfc05c5d59f4650460c">operator=</a> (<a class="el" href="classIApp.html">IApp</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a79e78ff5609d8bfc05c5d59f4650460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41a2230241035bccaa4e61fb1daf351"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">StartBackgroundParsing</a> ()</td></tr>
+<tr class="memdesc:ab41a2230241035bccaa4e61fb1daf351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start parsing universe object types on a separate thread.  <a href="#ab41a2230241035bccaa4e61fb1daf351">More...</a><br /></td></tr>
 <tr class="separator:ab41a2230241035bccaa4e61fb1daf351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac65e8f2e3d507b2a432949965eacfeb6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classIApp.html">IApp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#ac65e8f2e3d507b2a432949965eacfeb6">GetApp</a> ()</td></tr>
+<tr class="memdesc:ac65e8f2e3d507b2a432949965eacfeb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classIApp.html">IApp</a> pointer to the singleton instance of the app.  <a href="#ac65e8f2e3d507b2a432949965eacfeb6">More...</a><br /></td></tr>
 <tr class="separator:ac65e8f2e3d507b2a432949965eacfeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a633571e519070e406ae37b8044163595"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a633571e519070e406ae37b8044163595">MAX_AI_PLAYERS</a> ()</td></tr>
 <tr class="memdesc:a633571e519070e406ae37b8044163595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of AIs.  <a href="#a633571e519070e406ae37b8044163595">More...</a><br /></td></tr>
@@ -298,6 +307,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the current game turn. </p>
 
 <p>Implemented in <a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">ServerApp</a>, and <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp</a>.</p>
@@ -392,6 +402,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Accessor for known objects of specified empire. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#ade3d6cc55473130469b730688dea73f3">ClientApp</a>, and <a class="el" href="classServerApp.html#a6ca950fbbd3d79a5e98cc230a9730cb9">ServerApp</a>.</p>
@@ -420,6 +431,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the set of known Empires for this application. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#ace12714f0d2893d5ea07b3f640c9d471">ClientApp</a>, and <a class="el" href="classServerApp.html#a414402b5d6615059625a71dc71206c5a">ServerApp</a>.</p>
@@ -448,6 +460,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns a <a class="el" href="classIApp.html">IApp</a> pointer to the singleton instance of the app. </p>
 
 <p>References <a class="el" href="classIApp.html#a00c4b39bf40bbecbc309f6bb72223c0f">s_app</a>.</p>
@@ -505,6 +518,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the networking client type for the given empire_id. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#a296ae746407f6ad1242bb25eadc7535c">ClientApp</a>, and <a class="el" href="classServerApp.html#a1634af674d3150bdd2f340b4da361aea">ServerApp</a>.</p>
@@ -533,7 +547,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the galaxy setup data used for the current game </p>
+
+<p>Returns the galaxy setup data used for the current game. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#ac00c7bba316e361832853914a9deb5d2">ClientApp</a>, and <a class="el" href="classServerApp.html#a7ee0cf6d0d5dfe90e2e19a60bc911721">ServerApp</a>.</p>
 
@@ -562,6 +577,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the networking client type for the given player_id. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#a2dbd9100baba4a3d5b49ad2d12123bc9">ClientApp</a>, and <a class="el" href="classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6">ServerApp</a>.</p>
@@ -617,7 +633,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns applications copy of <a class="el" href="classUniverse.html">Universe</a>. </p>
+
+<p>Returns applications copy of <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>. </p>
 
 <p>Implemented in <a class="el" href="classClientApp.html#a4fa1d1f1ba778c814b8ce0a3b39cc784">ClientApp</a>, and <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp</a>.</p>
 
@@ -776,6 +793,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Start parsing universe object types on a separate thread. </p>
 
 <p>Reimplemented in <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp</a>.</p>

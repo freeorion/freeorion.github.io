@@ -103,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="classSaveFileListBox.png" usemap="#SaveFileListBox_map" alt=""/>
   <map id="SaveFileListBox_map" name="SaveFileListBox_map">
-<area href="classCUIListBox.html" alt="CUIListBox" shape="rect" coords="0,56,102,80"/>
+<area href="classCUIListBox.html" title="a FreeOrion ListBox control " alt="CUIListBox" shape="rect" coords="0,56,102,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -112,6 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a69049037907aec7885cd2eb59c438944"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#a69049037907aec7885cd2eb59c438944">SaveFileListBox</a> ()</td></tr>
 <tr class="separator:a69049037907aec7885cd2eb59c438944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a223368e2806996aa035ecac1e9c337f6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#a223368e2806996aa035ecac1e9c337f6">FindLocalRelativeDirs</a> (const fs::path &amp;path)</td></tr>
+<tr class="memdesc:a223368e2806996aa035ecac1e9c337f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find local sub directories of <code>path</code>.  <a href="#a223368e2806996aa035ecac1e9c337f6">More...</a><br /></td></tr>
 <tr class="separator:a223368e2806996aa035ecac1e9c337f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac366edec6e39c1a51295db7be4b045d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#ac366edec6e39c1a51295db7be4b045d0">HasFile</a> (const std::string &amp;filename)</td></tr>
 <tr class="separator:ac366edec6e39c1a51295db7be4b045d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,8 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18e3468ed66f1af50551d0ed5109f4c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#a18e3468ed66f1af50551d0ed5109f4c8">LoadDirectories</a> (const std::vector&lt; std::string &gt; &amp;dirs)</td></tr>
 <tr class="separator:a18e3468ed66f1af50551d0ed5109f4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa6a7b8ed276ca43633f79f74f416bfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#afa6a7b8ed276ca43633f79f74f416bfe">LoadLocalSaveGamePreviews</a> (const fs::path &amp;path, const std::string &amp;extension)</td></tr>
+<tr class="memdesc:afa6a7b8ed276ca43633f79f74f416bfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads preview data on all save files in a directory specidifed by path.  <a href="#afa6a7b8ed276ca43633f79f74f416bfe">More...</a><br /></td></tr>
 <tr class="separator:afa6a7b8ed276ca43633f79f74f416bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd3aa997f3bb6b4187415c281c193a75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#abd3aa997f3bb6b4187415c281c193a75">LoadSaveGamePreviews</a> (const std::vector&lt; <a class="el" href="structFullPreview.html">FullPreview</a> &gt; &amp;previews)</td></tr>
+<tr class="memdesc:abd3aa997f3bb6b4187415c281c193a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads preview data on all save files in a directory specidifed by path.  <a href="#abd3aa997f3bb6b4187415c281c193a75">More...</a><br /></td></tr>
 <tr class="separator:abd3aa997f3bb6b4187415c281c193a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adea349d520946ed92892909e1bc61c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#adea349d520946ed92892909e1bc61c69">ResetColHeaders</a> ()</td></tr>
 <tr class="separator:adea349d520946ed92892909e1bc61c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +144,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a796ac1478ae7d9145f6672cd9dad04b3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#a796ac1478ae7d9145f6672cd9dad04b3">DirectoryAwareCmp</a> (const Row &amp;row1, const Row &amp;row2, int column_int)</td></tr>
+<tr class="memdesc:a796ac1478ae7d9145f6672cd9dad04b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">We want the timestamps to be sorted in ascending order to get the latest save first, but we want the directories to a) always be first b) be sorted alphabetically This custom comparer achieves these goals.  <a href="#a796ac1478ae7d9145f6672cd9dad04b3">More...</a><br /></td></tr>
 <tr class="separator:a796ac1478ae7d9145f6672cd9dad04b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25ae888aaff28664796f4ff1bc69b948"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; std::vector&lt; <a class="el" href="classSaveFileColumn.html">SaveFileColumn</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSaveFileListBox.html#a25ae888aaff28664796f4ff1bc69b948">FilterColumns</a> (const std::shared_ptr&lt; std::vector&lt; <a class="el" href="classSaveFileColumn.html">SaveFileColumn</a> &gt;&gt; &amp;all_cols)</td></tr>
 <tr class="separator:a25ae888aaff28664796f4ff1bc69b948"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,6 +218,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>We want the timestamps to be sorted in ascending order to get the latest save first, but we want the directories to a) always be first b) be sorted alphabetically This custom comparer achieves these goals. </p>
 
 <p>Referenced by <a class="el" href="classSaveFileListBox.html#a4004069724e3a3057b7cd4845fd36499">Init()</a>.</p>
@@ -267,6 +272,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Find local sub directories of <code>path</code>. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31">IsValidUTF8()</a>, and <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>.</p>
@@ -429,7 +435,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Loads preview data on all save files in a directory specidifed by path. </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Loads preview data on all save files in a directory specidifed by path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path of the directory </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">extension</td><td>File name extension to filter by </td></tr>
@@ -462,7 +470,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Loads preview data on all save files in a directory specidifed by path. </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Loads preview data on all save files in a directory specidifed by path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">previews</td><td>The preview data </td></tr>
   </table>

@@ -103,12 +103,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a076a8d20286df42141cfd65fd2f89957"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#a076a8d20286df42141cfd65fd2f89957">Impl</a> (<a class="el" href="classCombatLogWnd.html">CombatLogWnd</a> &amp;_log)</td></tr>
 <tr class="separator:a076a8d20286df42141cfd65fd2f89957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac21029ad0591ba32ebdc56dea1d10405"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classLinkText.html">LinkText</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#ac21029ad0591ba32ebdc56dea1d10405">DecorateLinkText</a> (const std::string &amp;text)</td></tr>
+<tr class="memdesc:ac21029ad0591ba32ebdc56dea1d10405"><td class="mdescLeft">&#160;</td><td class="mdescRight">DecorateLinkText creates a <a class="el" href="classCUILinkTextMultiEdit.html" title="a FreeOrion MultiEdit control that parses its text and makes links within clickable ...">CUILinkTextMultiEdit</a> using <em>text</em> and attaches it to handlers <em>and_flags</em> are anded to the default flags.  <a href="#ac21029ad0591ba32ebdc56dea1d10405">More...</a><br /></td></tr>
 <tr class="separator:ac21029ad0591ba32ebdc56dea1d10405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a573735eb8b9ec7fc6ee5b714cb5995be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#a573735eb8b9ec7fc6ee5b714cb5995be">HandleWndChanged</a> ()</td></tr>
+<tr class="memdesc:a573735eb8b9ec7fc6ee5b714cb5995be"><td class="mdescLeft">&#160;</td><td class="mdescRight">When windows changes forces a re-layout.  <a href="#a573735eb8b9ec7fc6ee5b714cb5995be">More...</a><br /></td></tr>
 <tr class="separator:a573735eb8b9ec7fc6ee5b714cb5995be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a81dad486f23501e6abb4f1fd22e61"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; GG::Wnd &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#a75a81dad486f23501e6abb4f1fd22e61">MakeCombatLogPanel</a> (GG::X w, int viewing_empire_id, <a class="el" href="CombatEvent_8h.html#a3a909ea50e13f8617589f6231730c8a2">ConstCombatEventPtr</a> event)</td></tr>
 <tr class="separator:a75a81dad486f23501e6abb4f1fd22e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31fa405ff90e5c443bfc934b47ea8344"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#a31fa405ff90e5c443bfc934b47ea8344">PopulateWithFlatLogs</a> (GG::X w, int viewing_empire_id, std::vector&lt; std::shared_ptr&lt; GG::Wnd &gt;&gt; &amp;new_logs, <a class="el" href="CombatEvent_8h.html#a3a909ea50e13f8617589f6231730c8a2">ConstCombatEventPtr</a> &amp;event, std::string &amp;details)</td></tr>
+<tr class="memdesc:a31fa405ff90e5c443bfc934b47ea8344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill <code>new_logs</code> with pointers to the flat log contents of <code>event</code> using the pre-calculated <code>details</code>.  <a href="#a31fa405ff90e5c443bfc934b47ea8344">More...</a><br /></td></tr>
 <tr class="separator:a31fa405ff90e5c443bfc934b47ea8344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:af6a25d8d8642ff68dadb9fe7e5af318a"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#af6a25d8d8642ff68dadb9fe7e5af318a">MinUsableSize</a> () const </td></tr>
@@ -121,6 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa1ad3d77c00712ed5a247824130b2c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set which log to show.  <a href="#aa1ad3d77c00712ed5a247824130b2c65">More...</a><br /></td></tr>
 <tr class="separator:aa1ad3d77c00712ed5a247824130b2c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d0e40173ad8d5b0c663b9f9f80a7e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogWnd_1_1Impl.html#a44d0e40173ad8d5b0c663b9f9f80a7e5">AddRow</a> (std::shared_ptr&lt; GG::Wnd &gt; wnd)</td></tr>
+<tr class="memdesc:a44d0e40173ad8d5b0c663b9f9f80a7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a row <code>wnd</code> at the end of the combat report.  <a href="#a44d0e40173ad8d5b0c663b9f9f80a7e5">More...</a><br /></td></tr>
 <tr class="separator:a44d0e40173ad8d5b0c663b9f9f80a7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -163,6 +167,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Add a row <code>wnd</code> at the end of the combat report. </p>
 
 <p>References <a class="el" href="classCombatLogWnd_1_1Impl.html#a6cf44a2f258d50707885c081ba088022">m_wnd</a>.</p>
@@ -184,7 +189,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DecorateLinkText creates a <a class="el" href="classCUILinkTextMultiEdit.html">CUILinkTextMultiEdit</a> using <em>text</em> and attaches it to handlers <em>and_flags</em> are anded to the default flags. </p>
+
+<p>DecorateLinkText creates a <a class="el" href="classCUILinkTextMultiEdit.html" title="a FreeOrion MultiEdit control that parses its text and makes links within clickable ...">CUILinkTextMultiEdit</a> using <em>text</em> and attaches it to handlers <em>and_flags</em> are anded to the default flags. </p>
 
 <p>References <a class="el" href="classVarText.html#a5e4ffd61eb914f1aa88cdca78921194e">VarText::EMPIRE_ID_TAG</a>, <a class="el" href="classCombatLogWnd_1_1Impl.html#a573735eb8b9ec7fc6ee5b714cb5995be">HandleWndChanged()</a>, <a class="el" href="classCombatLogWnd_1_1Impl.html#aa0cb0069f58559ca6beedf5fc7696a3b">m_font</a>, <a class="el" href="classCombatLogWnd_1_1Impl.html#a0b2ac8adb83cfbe5c89b3656cdbaeeb7">m_text_format_flags</a>, <a class="el" href="classCombatLogWnd_1_1Impl.html#a6cf44a2f258d50707885c081ba088022">m_wnd</a>, <a class="el" href="classVarText.html#a8f4bbfa8f5d7f656d6d7d5427f47ee93">VarText::PLANET_ID_TAG</a>, <a class="el" href="classVarText.html#a5c0324b4833eb85085184c4c967d09ec">VarText::SHIP_ID_TAG</a>, and <a class="el" href="classVarText.html#a1903f851e6b56625a44006cb1bc1d252">VarText::SYSTEM_ID_TAG</a>.</p>
 
@@ -204,7 +210,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>When windows changes forces a re-layout </p>
+
+<p>When windows changes forces a re-layout. </p>
 
 <p>References <a class="el" href="classCombatLogWnd_1_1Impl.html#a6cf44a2f258d50707885c081ba088022">m_wnd</a>.</p>
 
@@ -306,6 +313,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Fill <code>new_logs</code> with pointers to the flat log contents of <code>event</code> using the pre-calculated <code>details</code>. </p>
 
 <p>References <a class="el" href="classCombatLogWnd_1_1Impl.html#ac21029ad0591ba32ebdc56dea1d10405">DecorateLinkText()</a>, and <a class="el" href="classCombatLogWnd_1_1Impl.html#a75a81dad486f23501e6abb4f1fd22e61">MakeCombatLogPanel()</a>.</p>

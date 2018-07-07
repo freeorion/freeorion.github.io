@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Implementation of a combiner to block or unblock signals emitted by boost::signals calls.  
+ <a href="structblocking__combiner.html#details">More...</a></p>
+
 <p><code>#include &lt;blocking_combiner.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -121,9 +124,10 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename inner_combiner&gt;<br />
 struct blocking_combiner&lt; inner_combiner &gt;</h3>
 
-<p>Implementation of a combiner to block or unblock signals emitted by boost::signals calls. Sample usage:</p>
+<p>Implementation of a combiner to block or unblock signals emitted by boost::signals calls. </p>
+<p>Sample usage:</p>
 <p>bool the_control = true;</p>
-<p>boost::signals&lt;void (), <a class="el" href="structblocking__combiner.html">blocking_combiner</a>&lt;boost::last_value&lt;void&gt;&gt;&gt; the_signal(blocking_combiner&lt;boost::last_value&lt;void&gt;(the_control));</p>
+<p>boost::signals&lt;void (), <a class="el" href="structblocking__combiner.html" title="Implementation of a combiner to block or unblock signals emitted by boost::signals calls...">blocking_combiner</a>&lt;boost::last_value&lt;void&gt;&gt;&gt; the_signal(blocking_combiner&lt;boost::last_value&lt;void&gt;(the_control));</p>
 <p>the_signal(); // signal is propagated. the_control = true; // blocking future signals the_signal(); // signal is blocked. the_control = false; // propagate future signals the_signal(); // signal is propagated. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a2e46067cb898077626154f94948e2afa"></a>

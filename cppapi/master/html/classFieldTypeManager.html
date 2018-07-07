@@ -109,6 +109,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab91937df1766e61f74d4fcd175f32abb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#ab91937df1766e61f74d4fcd175f32abb">SetFieldTypes</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classFieldTypeManager.html#a3ff2b7a577c146fc1f25ea8a0c5b9c05">FieldTypeMap</a> &gt; &amp;&amp;future)</td></tr>
+<tr class="memdesc:ab91937df1766e61f74d4fcd175f32abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets types to the value of <code>future</code>.  <a href="#ab91937df1766e61f74d4fcd175f32abb">More...</a><br /></td></tr>
 <tr class="separator:ab91937df1766e61f74d4fcd175f32abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -116,6 +117,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a766ea4c02a52ce6b0dd45de4f6faebf9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#a766ea4c02a52ce6b0dd45de4f6faebf9">FieldTypeManager</a> ()</td></tr>
 <tr class="separator:a766ea4c02a52ce6b0dd45de4f6faebf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1e173777d7c13516880bd2d449dc8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#a5f1e173777d7c13516880bd2d449dc8a">CheckPendingFieldTypes</a> () const </td></tr>
+<tr class="memdesc:a5f1e173777d7c13516880bd2d449dc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns any m_pending_types to m_field_types.  <a href="#a5f1e173777d7c13516880bd2d449dc8a">More...</a><br /></td></tr>
 <tr class="separator:a5f1e173777d7c13516880bd2d449dc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -123,6 +125,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae170cff0794fe8d6efde82273763722c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFieldTypeManager.html#a3ff2b7a577c146fc1f25ea8a0c5b9c05">FieldTypeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#ae170cff0794fe8d6efde82273763722c">m_field_types</a></td></tr>
 <tr class="separator:ae170cff0794fe8d6efde82273763722c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa7282bf94204f482c3c0c58780fe35c"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classFieldTypeManager.html#a3ff2b7a577c146fc1f25ea8a0c5b9c05">FieldTypeMap</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#aaa7282bf94204f482c3c0c58780fe35c">m_pending_types</a> = boost::none</td></tr>
+<tr class="memdesc:aaa7282bf94204f482c3c0c58780fe35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Future types being parsed by parser.  <a href="#aaa7282bf94204f482c3c0c58780fe35c">More...</a><br /></td></tr>
 <tr class="separator:aaa7282bf94204f482c3c0c58780fe35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -133,14 +136,19 @@ Static Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
 <tr class="memitem:aa5e138784a51053585c02a67b61f84ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classFieldType.html">FieldType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#aa5e138784a51053585c02a67b61f84ab">GetFieldType</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:aa5e138784a51053585c02a67b61f84ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the field type with the name <em>name</em>; you should use the free function GetFieldType(...) instead, mainly to save some typing.  <a href="#aa5e138784a51053585c02a67b61f84ab">More...</a><br /></td></tr>
 <tr class="separator:aa5e138784a51053585c02a67b61f84ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2676078048cddce82287db53adac5e22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classFieldTypeManager.html#ac82b5fe67419be901d0595ac7870eca2">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#a2676078048cddce82287db53adac5e22">begin</a> () const </td></tr>
+<tr class="memdesc:a2676078048cddce82287db53adac5e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first field type  <a href="#a2676078048cddce82287db53adac5e22">More...</a><br /></td></tr>
 <tr class="separator:a2676078048cddce82287db53adac5e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a622e0ef7ca5274c096971340acfa0a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classFieldTypeManager.html#ac82b5fe67419be901d0595ac7870eca2">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#a622e0ef7ca5274c096971340acfa0a42">end</a> () const </td></tr>
+<tr class="memdesc:a622e0ef7ca5274c096971340acfa0a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1th field type  <a href="#a622e0ef7ca5274c096971340acfa0a42">More...</a><br /></td></tr>
 <tr class="separator:a622e0ef7ca5274c096971340acfa0a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf7b7c0d7a28eddc5bb8ed3678fdefb3"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#adf7b7c0d7a28eddc5bb8ed3678fdefb3">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:adf7b7c0d7a28eddc5bb8ed3678fdefb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#adf7b7c0d7a28eddc5bb8ed3678fdefb3">More...</a><br /></td></tr>
 <tr class="separator:adf7b7c0d7a28eddc5bb8ed3678fdefb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dfe8f2bca8fc9a0ee65d2b27ffb56bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFieldTypeManager.html">FieldTypeManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldTypeManager.html#a9dfe8f2bca8fc9a0ee65d2b27ffb56bd">GetFieldTypeManager</a> ()</td></tr>
+<tr class="memdesc:a9dfe8f2bca8fc9a0ee65d2b27ffb56bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the instance of this singleton class; you should use the free function <a class="el" href="classFieldTypeManager.html#a9dfe8f2bca8fc9a0ee65d2b27ffb56bd" title="returns the instance of this singleton class; you should use the free function GetFieldTypeManager() ...">GetFieldTypeManager()</a> instead  <a href="#a9dfe8f2bca8fc9a0ee65d2b27ffb56bd">More...</a><br /></td></tr>
 <tr class="separator:a9dfe8f2bca8fc9a0ee65d2b27ffb56bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
@@ -205,6 +213,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the first field type </p>
 
 </div>
@@ -229,6 +238,7 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Assigns any m_pending_types to m_field_types. </p>
 
 <p>References <a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending()</a>.</p>
@@ -247,6 +257,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the last + 1th field type </p>
 
 </div>
@@ -263,7 +274,9 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>.</p>
 
@@ -284,6 +297,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns the field type with the name <em>name</em>; you should use the free function GetFieldType(...) instead, mainly to save some typing. </p>
 
 <p>Referenced by <a class="el" href="VarText_8cpp.html#ad7d1419eafc4dfec0ca4ddc3b7b7db41">GetFieldType()</a>.</p>
@@ -310,7 +324,8 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classFieldTypeManager.html#a9dfe8f2bca8fc9a0ee65d2b27ffb56bd">GetFieldTypeManager()</a> instead </p>
+
+<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classFieldTypeManager.html#a9dfe8f2bca8fc9a0ee65d2b27ffb56bd" title="returns the instance of this singleton class; you should use the free function GetFieldTypeManager() ...">GetFieldTypeManager()</a> instead </p>
 
 <p>Referenced by <a class="el" href="VarText_8cpp.html#ad7d1419eafc4dfec0ca4ddc3b7b7db41">GetFieldType()</a>, and <a class="el" href="Field_8h.html#a9c596e51a47fce97ce104ad356713f54">GetFieldTypeManager()</a>.</p>
 
@@ -329,6 +344,7 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets types to the value of <code>future</code>. </p>
 
 <p>Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
@@ -373,7 +389,9 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Future types being parsed by parser. mutable so that it can be assigned to m_field_types when completed. </p>
+
+<p>Future types being parsed by parser. </p>
+<p>mutable so that it can be assigned to m_field_types when completed. </p>
 
 </div>
 </div>

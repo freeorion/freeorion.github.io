@@ -94,6 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Random.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A collection of robust and portable random number generation functors and functions.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;boost/random/mersenne_twister.hpp&gt;</code><br />
 <code>#include &lt;boost/random/uniform_smallint.hpp&gt;</code><br />
 <code>#include &lt;boost/random/uniform_int.hpp&gt;</code><br />
@@ -120,32 +123,43 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0a2e7a1dc73fd8afd62c8e57e72720b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a0a2e7a1dc73fd8afd62c8e57e72720b4">ClockSeed</a> ()</td></tr>
+<tr class="memdesc:a0a2e7a1dc73fd8afd62c8e57e72720b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">seeds the underlying random number generator used to drive all random number distributions with the current clock time  <a href="#a0a2e7a1dc73fd8afd62c8e57e72720b4">More...</a><br /></td></tr>
 <tr class="separator:a0a2e7a1dc73fd8afd62c8e57e72720b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfec0ca254593c19ca76d23f6a9142c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="Random_8h.html#a4aee11bf4a711d3d2e94e4a09a717ed7">DoubleDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#abfec0ca254593c19ca76d23f6a9142c7">DoubleDist</a> (double min, double max)</td></tr>
+<tr class="memdesc:abfec0ca254593c19ca76d23f6a9142c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>)  <a href="#abfec0ca254593c19ca76d23f6a9142c7">More...</a><br /></td></tr>
 <tr class="separator:abfec0ca254593c19ca76d23f6a9142c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c019071f4bc38ba82b665f1000aa69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="Random_8h.html#aa34a1eeb1dff8f97af3fccf32831831e">GaussianDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a86c019071f4bc38ba82b665f1000aa69">GaussianDist</a> (double mean, double sigma)</td></tr>
+<tr class="memdesc:a86c019071f4bc38ba82b665f1000aa69"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em>  <a href="#a86c019071f4bc38ba82b665f1000aa69">More...</a><br /></td></tr>
 <tr class="separator:a86c019071f4bc38ba82b665f1000aa69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719c3a193fd6a4cb77f98e869c758672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#aca6df8e5eccce199002746ca5a198630">IntDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672">IntDist</a> (int min, int max)</td></tr>
+<tr class="memdesc:a719c3a193fd6a4cb77f98e869c758672"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7" title="returns a functor that provides a uniform distribution of small integers in the range [min...">SmallIntDist()</a> may be used instead  <a href="#a719c3a193fd6a4cb77f98e869c758672">More...</a><br /></td></tr>
 <tr class="separator:a719c3a193fd6a4cb77f98e869c758672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994725c7132152ece4dfff0bccdfc6a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a994725c7132152ece4dfff0bccdfc6a8">RandDouble</a> (double min, double max)</td></tr>
+<tr class="memdesc:a994725c7132152ece4dfff0bccdfc6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>)  <a href="#a994725c7132152ece4dfff0bccdfc6a8">More...</a><br /></td></tr>
 <tr class="separator:a994725c7132152ece4dfff0bccdfc6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b91c62340fcd743eb74143b414bc09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a78b91c62340fcd743eb74143b414bc09">RandGaussian</a> (double mean, double sigma)</td></tr>
+<tr class="memdesc:a78b91c62340fcd743eb74143b414bc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em>  <a href="#a78b91c62340fcd743eb74143b414bc09">More...</a><br /></td></tr>
 <tr class="separator:a78b91c62340fcd743eb74143b414bc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ecd7de2046c9c73673bfb6c0e88ef16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16">RandInt</a> (int min, int max)</td></tr>
+<tr class="memdesc:a5ecd7de2046c9c73673bfb6c0e88ef16"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded" title="returns an int from a uniform distribution of small integers in the range [min, max]; if the integers...">RandSmallInt()</a> may be used instead  <a href="#a5ecd7de2046c9c73673bfb6c0e88ef16">More...</a><br /></td></tr>
 <tr class="separator:a5ecd7de2046c9c73673bfb6c0e88ef16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af864dd7b498310fc3757473df96b7ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded">RandSmallInt</a> (int min, int max)</td></tr>
+<tr class="memdesc:af864dd7b498310fc3757473df96b7ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an int from a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16" title="returns an int from a uniform distribution of integers in the range [min, max]; if the integers desir...">RandInt()</a> instead  <a href="#af864dd7b498310fc3757473df96b7ded">More...</a><br /></td></tr>
 <tr class="separator:af864dd7b498310fc3757473df96b7ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5597841773d936e7f8ba2ee2c15d9acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a5597841773d936e7f8ba2ee2c15d9acc">RandZeroToOne</a> ()</td></tr>
+<tr class="memdesc:a5597841773d936e7f8ba2ee2c15d9acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a uniform distribution of doubles in the range [0.0, 1.0)  <a href="#a5597841773d936e7f8ba2ee2c15d9acc">More...</a><br /></td></tr>
 <tr class="separator:a5597841773d936e7f8ba2ee2c15d9acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542dcf22f6cfb5bbdaff992bbba12584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a542dcf22f6cfb5bbdaff992bbba12584">Seed</a> (unsigned int seed)</td></tr>
+<tr class="memdesc:a542dcf22f6cfb5bbdaff992bbba12584"><td class="mdescLeft">&#160;</td><td class="mdescRight">seeds the underlying random number generator used to drive all random number distributions  <a href="#a542dcf22f6cfb5bbdaff992bbba12584">More...</a><br /></td></tr>
 <tr class="separator:a542dcf22f6cfb5bbdaff992bbba12584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a101f6c591b561b1d153116c68fba30d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="Random_8h.html#a5d8e1e9d4af1678d05d189ef094e9560">SmallIntDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7">SmallIntDist</a> (int min, int max)</td></tr>
+<tr class="memdesc:a101f6c591b561b1d153116c68fba30d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672" title="returns a functor that provides a uniform distribution of integers in the range [min, max]; if the integers desired are smaller than 10000, SmallIntDist() may be used instead ">IntDist()</a> instead  <a href="#a101f6c591b561b1d153116c68fba30d7">More...</a><br /></td></tr>
 <tr class="separator:a101f6c591b561b1d153116c68fba30d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A collection of robust and portable random number generation functors and functions.</p>
+<div class="textblock"><p>A collection of robust and portable random number generation functors and functions. </p>
 <p>If you need to generate one or two random numbers, prefer the functions (e.g. RandomInt()).</p>
-<p>If you need to generate a large volume of random numbers with the same parameterization, generate a functor (e.g. with a call to <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672">IntDist()</a>) and then call the functor repeatedly to generate the numbers. This eliminates the overhead associated with repeatedly contructing distributions, when you call the Random*() functions. </p>
+<p>If you need to generate a large volume of random numbers with the same parameterization, generate a functor (e.g. with a call to <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672" title="returns a functor that provides a uniform distribution of integers in the range [min, max]; if the integers desired are smaller than 10000, SmallIntDist() may be used instead ">IntDist()</a>) and then call the functor repeatedly to generate the numbers. This eliminates the overhead associated with repeatedly contructing distributions, when you call the Random*() functions. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a4aee11bf4a711d3d2e94e4a09a717ed7"></a>
 <div class="memitem">
@@ -220,6 +234,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>seeds the underlying random number generator used to drive all random number distributions with the current clock time </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
@@ -251,6 +266,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns a functor that provides a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>) </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
@@ -282,6 +298,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns a functor that provides a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em> </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
@@ -313,7 +330,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a functor that provides a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7">SmallIntDist()</a> may be used instead </p>
+
+<p>returns a functor that provides a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7" title="returns a functor that provides a uniform distribution of small integers in the range [min...">SmallIntDist()</a> may be used instead </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
@@ -344,6 +362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns a double from a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>) </p>
 
 <p>References <a class="el" href="Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e">DoubleDist()</a>.</p>
@@ -375,6 +394,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns a double from a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em> </p>
 
 <p>References <a class="el" href="Random_8cpp.html#a7ef0875ed979ffd5ffec57a3a919a051">GaussianDist()</a>.</p>
@@ -406,7 +426,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded">RandSmallInt()</a> may be used instead </p>
+
+<p>returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded" title="returns an int from a uniform distribution of small integers in the range [min, max]; if the integers...">RandSmallInt()</a> may be used instead </p>
 
 <p>References <a class="el" href="Random_8cpp.html#a719c3a193fd6a4cb77f98e869c758672">IntDist()</a>.</p>
 
@@ -437,7 +458,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns an int from a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16">RandInt()</a> instead </p>
+
+<p>returns an int from a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16" title="returns an int from a uniform distribution of integers in the range [min, max]; if the integers desir...">RandInt()</a> instead </p>
 
 <p>References <a class="el" href="Random_8cpp.html#ad684e1261da0cca745e098039d9f73f4">SmallIntDist()</a>.</p>
 
@@ -457,6 +479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns a double from a uniform distribution of doubles in the range [0.0, 1.0) </p>
 
 <p>References <a class="el" href="Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e">DoubleDist()</a>.</p>
@@ -478,6 +501,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>seeds the underlying random number generator used to drive all random number distributions </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
@@ -507,7 +531,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a functor that provides a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672">IntDist()</a> instead </p>
+
+<p>returns a functor that provides a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672" title="returns a functor that provides a uniform distribution of integers in the range [min, max]; if the integers desired are smaller than 10000, SmallIntDist() may be used instead ">IntDist()</a> instead </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 

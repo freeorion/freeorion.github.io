@@ -95,11 +95,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02VarText_8cpp_03_1_1Substitute.html">Substitute</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up the given match in the <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> and returns the <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> entities value.  <a href="structanonymous__namespace_02VarText_8cpp_03_1_1Substitute.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a9a9142de83798b7c97d5c0feed5cd758"><td class="memItemLeft" align="right" valign="top">typedef boost::optional&lt; std::string &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a9a9142de83798b7c97d5c0feed5cd758">TagString</a>) (const std::string &amp;data)</td></tr>
+<tr class="memdesc:a9a9142de83798b7c97d5c0feed5cd758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function signature of tag substitution functions.  <a href="#a9a9142de83798b7c97d5c0feed5cd758">More...</a><br /></td></tr>
 <tr class="separator:a9a9142de83798b7c97d5c0feed5cd758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -112,6 +114,7 @@ Functions</h2></td></tr>
 <tr class="separator:a4f4ef00fc426cc78f3da1df9045d172b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a313f0306799233080640b5ed90e129f4"><td class="memTemplParams" colspan="2">template&lt;typename T , const T *(*)(const std::string &amp;) GetByName&gt; </td></tr>
 <tr class="memitem:a313f0306799233080640b5ed90e129f4"><td class="memTemplItemLeft" align="right" valign="top">boost::optional&lt; std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a313f0306799233080640b5ed90e129f4">NameString</a> (const std::string &amp;data, const std::string &amp;tag)</td></tr>
+<tr class="memdesc:a313f0306799233080640b5ed90e129f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns substitution string for an empire tag Interprets value of data as a name.  <a href="#a313f0306799233080640b5ed90e129f4">More...</a><br /></td></tr>
 <tr class="separator:a313f0306799233080640b5ed90e129f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a355ded0b3066f4da1cdd830eec590f03"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a355ded0b3066f4da1cdd830eec590f03">PredefinedShipDesignString</a> (const std::string &amp;data)</td></tr>
 <tr class="memdesc:a355ded0b3066f4da1cdd830eec590f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns substitution string for a predefined ship design tag.  <a href="#a355ded0b3066f4da1cdd830eec590f03">More...</a><br /></td></tr>
@@ -123,7 +126,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae425b850b4e67dc45c23fc7aa6362c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get string substitute for a tag that is a universe object.  <a href="#ae425b850b4e67dc45c23fc7aa6362c5b">More...</a><br /></td></tr>
 <tr class="separator:ae425b850b4e67dc45c23fc7aa6362c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4676a192cca52d28e43da15d69fde051"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a4676a192cca52d28e43da15d69fde051">WithTags</a> (const std::string &amp;content, const std::string &amp;tag, const std::string &amp;data)</td></tr>
-<tr class="memdesc:a4676a192cca52d28e43da15d69fde051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surround content with approprite tags based on tag_of.  <a href="#a4676a192cca52d28e43da15d69fde051">More...</a><br /></td></tr>
+<tr class="memdesc:a4676a192cca52d28e43da15d69fde051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code>content</code> surrounded by the given <code>tags</code>.  <a href="#a4676a192cca52d28e43da15d69fde051">More...</a><br /></td></tr>
 <tr class="separator:a4676a192cca52d28e43da15d69fde051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -136,7 +139,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The signature of functions that generate substitution strings for tags. </p>
+
+<p>Function signature of tag substitution functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Data values The signature of functions that generate substitution strings for tags. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -218,7 +228,9 @@ template&lt;typename T , const T *(*)(const std::string &amp;) GetByName&gt; </d
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns substitution string for an empire tag Interprets value of data as a name. Returns translation of name, if Get says that a thing by that name exists, otherwise boost::none. </p>
+
+<p>Returns substitution string for an empire tag Interprets value of data as a name. </p>
+<p>Returns translation of name, if Get says that a thing by that name exists, otherwise boost::none. </p>
 
 <p>References <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a4676a192cca52d28e43da15d69fde051">WithTags()</a>.</p>
 
@@ -329,7 +341,16 @@ template&lt;typename T , const T *(*)(const std::string &amp;) GetByName&gt; </d
       </table>
 </div><div class="memdoc">
 
-<p>Surround content with approprite tags based on tag_of. </p>
+<p>Return <code>content</code> surrounded by the given <code>tags</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">content</td><td>The text that should be wrapped into <code>tags</code>. </td></tr>
+    <tr><td class="paramname">tag</td><td>The tags that should be wrapping the given <code>content</code>. The tag shouldn't contain whitespace. </td></tr>
+    <tr><td class="paramname">data</td><td>Additional data assigned to the <code>tag</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The tagged content. </dd></dl>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#aafcfbfafefe29c50b0b2cd9ca031099c">IDString()</a>, <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a4f4ef00fc426cc78f3da1df9045d172b">MeterTypeString()</a>, <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a313f0306799233080640b5ed90e129f4">NameString()</a>, <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a355ded0b3066f4da1cdd830eec590f03">PredefinedShipDesignString()</a>, <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#a7140a46d84a7617b5725caba632da07a">SubstitutionMap()</a>, and <a class="el" href="namespaceanonymous__namespace_02VarText_8cpp_03.html#ae425b850b4e67dc45c23fc7aa6362c5b">UniverseObjectString()</a>.</p>
 

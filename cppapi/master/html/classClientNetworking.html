@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Encapsulates the networking facilities of the client.  
+ <a href="classClientNetworking.html#details">More...</a></p>
+
 <p><code>#include &lt;ClientNetworking.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ClientNetworking:</div>
@@ -115,6 +118,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:afae6b43b7b9cbc165c3166a89e01004c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c">ServerNames</a> = std::vector&lt; std::string &gt;</td></tr>
+<tr class="memdesc:afae6b43b7b9cbc165c3166a89e01004c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of list returned by a call to DiscoverLANServers().  <a href="#afae6b43b7b9cbc165c3166a89e01004c">More...</a><br /></td></tr>
 <tr class="separator:afae6b43b7b9cbc165c3166a89e01004c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -126,43 +130,62 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7991eef52f70736431cacee9ac10fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a549a50cded3a936c643bc7c6a5015463"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected</a> () const </td></tr>
+<tr class="memdesc:a549a50cded3a936c643bc7c6a5015463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the client is full duplex connected to the server.  <a href="#a549a50cded3a936c643bc7c6a5015463">More...</a><br /></td></tr>
 <tr class="separator:a549a50cded3a936c643bc7c6a5015463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3039f466559625c1180cb4a56b0555a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a3039f466559625c1180cb4a56b0555a5">IsRxConnected</a> () const </td></tr>
+<tr class="memdesc:a3039f466559625c1180cb4a56b0555a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the client is connected to receive from the server.  <a href="#a3039f466559625c1180cb4a56b0555a5">More...</a><br /></td></tr>
 <tr class="separator:a3039f466559625c1180cb4a56b0555a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1579d0fc98849f667ef80ada669e4d64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a1579d0fc98849f667ef80ada669e4d64">IsTxConnected</a> () const </td></tr>
+<tr class="memdesc:a1579d0fc98849f667ef80ada669e4d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the client is connected to send to the server.  <a href="#a1579d0fc98849f667ef80ada669e4d64">More...</a><br /></td></tr>
 <tr class="separator:a1579d0fc98849f667ef80ada669e4d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0289ef36f1693ebbccd7939163ff77c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a0289ef36f1693ebbccd7939163ff77c7">PlayerID</a> () const </td></tr>
+<tr class="memdesc:a0289ef36f1693ebbccd7939163ff77c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the player on this client.  <a href="#a0289ef36f1693ebbccd7939163ff77c7">More...</a><br /></td></tr>
 <tr class="separator:a0289ef36f1693ebbccd7939163ff77c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a052a7c2446c96ee2df50ca2eae5ad70d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a052a7c2446c96ee2df50ca2eae5ad70d">HostPlayerID</a> () const </td></tr>
+<tr class="memdesc:a052a7c2446c96ee2df50ca2eae5ad70d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the host player, or INVALID_PLAYER_ID if there is no host player.  <a href="#a052a7c2446c96ee2df50ca2eae5ad70d">More...</a><br /></td></tr>
 <tr class="separator:a052a7c2446c96ee2df50ca2eae5ad70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cbdc85dfdc016eef658348e6dfa7cfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a9cbdc85dfdc016eef658348e6dfa7cfc">PlayerIsHost</a> (int player_id) const </td></tr>
+<tr class="memdesc:a9cbdc85dfdc016eef658348e6dfa7cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the indicated player ID is the host.  <a href="#a9cbdc85dfdc016eef658348e6dfa7cfc">More...</a><br /></td></tr>
 <tr class="separator:a9cbdc85dfdc016eef658348e6dfa7cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389b2c92575fc508a5abcba817a45dfe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a389b2c92575fc508a5abcba817a45dfe">HasAuthRole</a> (<a class="el" href="namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefea">Networking::RoleType</a> role) const </td></tr>
+<tr class="memdesc:a389b2c92575fc508a5abcba817a45dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the client has some authorization <em>role</em>.  <a href="#a389b2c92575fc508a5abcba817a45dfe">More...</a><br /></td></tr>
 <tr class="separator:a389b2c92575fc508a5abcba817a45dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad785ec591c5d4e98af73a7b03fae9f5"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#aad785ec591c5d4e98af73a7b03fae9f5">Destination</a> () const </td></tr>
+<tr class="memdesc:aad785ec591c5d4e98af73a7b03fae9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns address of multiplayer server entered by player.  <a href="#aad785ec591c5d4e98af73a7b03fae9f5">More...</a><br /></td></tr>
 <tr class="separator:aad785ec591c5d4e98af73a7b03fae9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:acb11f553723ec1ff55abadb7516421a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClientNetworking.html#afae6b43b7b9cbc165c3166a89e01004c">ServerNames</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames</a> ()</td></tr>
+<tr class="memdesc:acb11f553723ec1ff55abadb7516421a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the addresses and names of all servers on the Local Area Network.  <a href="#acb11f553723ec1ff55abadb7516421a8">More...</a><br /></td></tr>
 <tr class="separator:acb11f553723ec1ff55abadb7516421a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8078a0d8a1d510798f05787ec77c7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer</a> (const std::string &amp;ip_address, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="memdesc:a0a8078a0d8a1d510798f05787ec77c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the server at <em>ip_address</em>.  <a href="#a0a8078a0d8a1d510798f05787ec77c7d">More...</a><br /></td></tr>
 <tr class="separator:a0a8078a0d8a1d510798f05787ec77c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65574c9565cb743012c7fd76ce4287b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer</a> (const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="memdesc:a65574c9565cb743012c7fd76ce4287b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the server on the client's host.  <a href="#a65574c9565cb743012c7fd76ce4287b8">More...</a><br /></td></tr>
 <tr class="separator:a65574c9565cb743012c7fd76ce4287b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9b90f57a330e3a5d69d098de3fd94c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4">PingServer</a> (const std::string &amp;ip_address, const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="memdesc:ae9b90f57a330e3a5d69d098de3fd94c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the server can be connected to within <code>timeout</code> seconds.  <a href="#ae9b90f57a330e3a5d69d098de3fd94c4">More...</a><br /></td></tr>
 <tr class="separator:ae9b90f57a330e3a5d69d098de3fd94c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93ae78d68448d4d948ce9fd29ab9009d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d">PingLocalHostServer</a> (const std::chrono::milliseconds &amp;timeout=std::chrono::seconds(10))</td></tr>
+<tr class="memdesc:a93ae78d68448d4d948ce9fd29ab9009d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the local server can be connected to within <code>timeout</code> seconds.  <a href="#a93ae78d68448d4d948ce9fd29ab9009d">More...</a><br /></td></tr>
 <tr class="separator:a93ae78d68448d4d948ce9fd29ab9009d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade370d5322c61a3b8e91429d584050c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
+<tr class="memdesc:ade370d5322c61a3b8e91429d584050c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends <em>message</em> to the server.  <a href="#ade370d5322c61a3b8e91429d584050c4">More...</a><br /></td></tr>
 <tr class="separator:ade370d5322c61a3b8e91429d584050c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage</a> ()</td></tr>
+<tr class="memdesc:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the next incoming message from the server if available or boost::none.  <a href="#a99b0e00e2574b05bf3b3b346b0ad8452">More...</a><br /></td></tr>
 <tr class="separator:a99b0e00e2574b05bf3b3b346b0ad8452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ae59a8aec857759adaa3ecfd8bca14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer</a> ()</td></tr>
+<tr class="memdesc:a9ae59a8aec857759adaa3ecfd8bca14d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects the client from the server.  <a href="#a9ae59a8aec857759adaa3ecfd8bca14d">More...</a><br /></td></tr>
 <tr class="separator:a9ae59a8aec857759adaa3ecfd8bca14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28f0ef07568db37c9f07c9583180fdaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID</a> (int player_id)</td></tr>
+<tr class="memdesc:a28f0ef07568db37c9f07c9583180fdaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets player ID for this client.  <a href="#a28f0ef07568db37c9f07c9583180fdaf">More...</a><br /></td></tr>
 <tr class="separator:a28f0ef07568db37c9f07c9583180fdaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62e02780051d4f2a51357612141c86ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID</a> (int host_player_id)</td></tr>
+<tr class="memdesc:a62e02780051d4f2a51357612141c86ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets Host player ID.  <a href="#a62e02780051d4f2a51357612141c86ef">More...</a><br /></td></tr>
 <tr class="separator:a62e02780051d4f2a51357612141c86ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fdd45b2705c2212e799ad5de8711f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a2fdd45b2705c2212e799ad5de8711f3f">AuthorizationRoles</a> ()</td></tr>
+<tr class="memdesc:a2fdd45b2705c2212e799ad5de8711f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to client's authorization roles.  <a href="#a2fdd45b2705c2212e799ad5de8711f3f">More...</a><br /></td></tr>
 <tr class="separator:a2fdd45b2705c2212e799ad5de8711f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -171,9 +194,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7f751b5e5b8242120c39a4e9ccbe6a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates the networking facilities of the client. The client must execute its networking code in a separate thread from its main processing thread, for UI and networking responsiveness.</p>
-<p>Because of this, <a class="el" href="classClientNetworking.html">ClientNetworking</a> operates in two threads: the main thread, in which the UI processing operates; the networking thread, which is created and terminates when the client is connected to and disconnected from the server, respectively. The entire public interface is safe to call from the main thread at all times. Note that the main thread must periodically request the next incoming message; the arrival of incoming messages is never explicitly signalled to the main thread. The same applies to unintentional disconnects from the server. The client must periodically check <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463">IsConnected()</a>.</p>
-<p>The <a class="el" href="classClientNetworking.html">ClientNetworking</a> has two modes of operation. First, it can discover FreeOrion servers on the local network; this is a blocking operation with a timeout. Second, it can send an asynchronous message to the server (when connected); this is a non-blocking operation. </p>
+<div class="textblock"><p>Encapsulates the networking facilities of the client. </p>
+<p>The client must execute its networking code in a separate thread from its main processing thread, for UI and networking responsiveness.</p>
+<p>Because of this, <a class="el" href="classClientNetworking.html" title="Encapsulates the networking facilities of the client. ">ClientNetworking</a> operates in two threads: the main thread, in which the UI processing operates; the networking thread, which is created and terminates when the client is connected to and disconnected from the server, respectively. The entire public interface is safe to call from the main thread at all times. Note that the main thread must periodically request the next incoming message; the arrival of incoming messages is never explicitly signalled to the main thread. The same applies to unintentional disconnects from the server. The client must periodically check <a class="el" href="classClientNetworking.html#a549a50cded3a936c643bc7c6a5015463" title="Returns true iff the client is full duplex connected to the server. ">IsConnected()</a>.</p>
+<p>The <a class="el" href="classClientNetworking.html" title="Encapsulates the networking facilities of the client. ">ClientNetworking</a> has two modes of operation. First, it can discover FreeOrion servers on the local network; this is a blocking operation with a timeout. Second, it can send an asynchronous message to the server (when connected); this is a non-blocking operation. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="afae6b43b7b9cbc165c3166a89e01004c"></a>
 <div class="memitem">
@@ -184,6 +208,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>The type of list returned by a call to DiscoverLANServers(). </p>
 
 </div>
@@ -244,7 +269,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Access to client's authorization roles </p>
+
+<p>Access to client's authorization roles. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -263,7 +289,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Connects to the server on the client's host. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
+
+<p>Connects to the server on the client's host. </p>
+<p>On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -292,7 +320,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Connects to the server at <em>ip_address</em>. On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
+
+<p>Connects to the server at <em>ip_address</em>. </p>
+<p>On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -310,6 +340,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns address of multiplayer server entered by player. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -328,7 +359,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Disconnects the client from the server. First tries to send any pending transmit messages. </p>
+
+<p>Disconnects the client from the server. </p>
+<p>First tries to send any pending transmit messages. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -348,6 +381,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns a list of the addresses and names of all servers on the Local Area Network. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -368,7 +402,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the next incoming message from the server if available or boost::none. Remove the message from the incoming message queue. </p>
+
+<p>Return the next incoming message from the server if available or boost::none. </p>
+<p>Remove the message from the incoming message queue. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -387,6 +423,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if the client has some authorization <em>role</em>. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -407,6 +444,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the ID of the host player, or INVALID_PLAYER_ID if there is no host player. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -425,6 +463,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns true iff the client is full duplex connected to the server. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -443,6 +482,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns true iff the client is connected to receive from the server. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -461,6 +501,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns true iff the client is connected to send to the server. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -480,6 +521,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return true if the local server can be connected to within <code>timeout</code> seconds. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -509,6 +551,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return true if the server can be connected to within <code>timeout</code> seconds. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -527,6 +570,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the ID of the player on this client. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -546,6 +590,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns whether the indicated player ID is the host. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -565,7 +610,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sends <em>message</em> to the server. This function actually just enqueues the message for sending and returns immediately. </p>
+
+<p>Sends <em>message</em> to the server. </p>
+<p>This function actually just enqueues the message for sending and returns immediately. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
@@ -586,6 +633,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets Host player ID. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
@@ -605,6 +653,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets player ID for this client. </p>
 
 <p>References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>

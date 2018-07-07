@@ -98,6 +98,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>The abstract base class for all objects in the universe The <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> class itself has an ID number, a name, a position, an ID of the system in which it is, a list of zero or more owners, and other common object data.  
+ <a href="classUniverseObject.html#details">More...</a></p>
+
 <p><code>#include &lt;UniverseObject.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for UniverseObject:</div>
@@ -107,13 +110,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <div class="center">
   <img src="classUniverseObject.png" usemap="#UniverseObject_map" alt=""/>
   <map id="UniverseObject_map" name="UniverseObject_map">
-<area href="classBuilding.html" alt="Building" shape="rect" coords="0,112,287,136"/>
-<area href="classField.html" alt="Field" shape="rect" coords="297,112,584,136"/>
-<area href="classFighter.html" alt="Fighter" shape="rect" coords="594,112,881,136"/>
-<area href="classFleet.html" alt="Fleet" shape="rect" coords="891,112,1178,136"/>
-<area href="classPlanet.html" alt="Planet" shape="rect" coords="1188,112,1475,136"/>
-<area href="classShip.html" alt="Ship" shape="rect" coords="1485,112,1772,136"/>
-<area href="classSystem.html" alt="System" shape="rect" coords="1782,112,2069,136"/>
+<area href="classBuilding.html" title="A Building UniverseObject type. " alt="Building" shape="rect" coords="0,112,287,136"/>
+<area href="classField.html" title="a class representing a region of space " alt="Field" shape="rect" coords="297,112,584,136"/>
+<area href="classFighter.html" title="a class representing a Fighter in combat. " alt="Fighter" shape="rect" coords="594,112,881,136"/>
+<area href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. " alt="Fleet" shape="rect" coords="891,112,1178,136"/>
+<area href="classPlanet.html" title="a class representing a FreeOrion planet. " alt="Planet" shape="rect" coords="1188,112,1475,136"/>
+<area href="classShip.html" title="a class representing a single FreeOrion ship " alt="Ship" shape="rect" coords="1485,112,1772,136"/>
+<area href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). " alt="System" shape="rect" coords="1782,112,2069,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -130,6 +133,7 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a2d95898656b20120765947ccac26c97c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">Copy</a> (std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; copied_object, int empire_id)=0</td></tr>
+<tr class="memdesc:a2d95898656b20120765947ccac26c97c"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies data from <em>copied_object</em> to this object, limited to only copy data about the copied object that is known to the empire with id <em>empire_id</em> (or all data if empire_id is ALL_EMPIRES)  <a href="#a2d95898656b20120765947ccac26c97c">More...</a><br /></td></tr>
 <tr class="separator:a2d95898656b20120765947ccac26c97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c96a3c2ab418bda978e99cbec24859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#af4c96a3c2ab418bda978e99cbec24859">SetID</a> (int id)</td></tr>
 <tr class="memdesc:af4c96a3c2ab418bda978e99cbec24859"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ID number of the object to <em>id</em>  <a href="#af4c96a3c2ab418bda978e99cbec24859">More...</a><br /></td></tr>
@@ -138,43 +142,55 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a252cf0279d9b9cc72ea0dd735ebf39ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">renames this object to <em>name</em>  <a href="#a252cf0279d9b9cc72ea0dd735ebf39ea">More...</a><br /></td></tr>
 <tr class="separator:a252cf0279d9b9cc72ea0dd735ebf39ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae0c810c351c6bebb2eff984b1a60ed4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#aae0c810c351c6bebb2eff984b1a60ed4">Move</a> (double x, double y)</td></tr>
+<tr class="memdesc:aae0c810c351c6bebb2eff984b1a60ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves this object by relative displacements x and y.  <a href="#aae0c810c351c6bebb2eff984b1a60ed4">More...</a><br /></td></tr>
 <tr class="separator:aae0c810c351c6bebb2eff984b1a60ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a6358b41b0b7a8ab7486159ce6f7bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a27a6358b41b0b7a8ab7486159ce6f7bd">MoveTo</a> (int object_id)</td></tr>
+<tr class="memdesc:a27a6358b41b0b7a8ab7486159ce6f7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classUniverseObject.html#a5f20f5f0a35f0a133ceabaaade563784" title="moves this object to exact map coordinates of specified object. ">MoveTo(std::shared_ptr&lt;const UniverseObject&gt;)</a> with the object pointed to by <em>object_id</em>.  <a href="#a27a6358b41b0b7a8ab7486159ce6f7bd">More...</a><br /></td></tr>
 <tr class="separator:a27a6358b41b0b7a8ab7486159ce6f7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f20f5f0a35f0a133ceabaaade563784"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a5f20f5f0a35f0a133ceabaaade563784">MoveTo</a> (std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; object)</td></tr>
+<tr class="memdesc:a5f20f5f0a35f0a133ceabaaade563784"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves this object to exact map coordinates of specified <em>object</em>.  <a href="#a5f20f5f0a35f0a133ceabaaade563784">More...</a><br /></td></tr>
 <tr class="separator:a5f20f5f0a35f0a133ceabaaade563784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69de22eda19d60b8d51cb301b8c1acf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a69de22eda19d60b8d51cb301b8c1acf0">MoveTo</a> (double x, double y)</td></tr>
+<tr class="memdesc:a69de22eda19d60b8d51cb301b8c1acf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves this object to map coordinates (x, y).  <a href="#a69de22eda19d60b8d51cb301b8c1acf0">More...</a><br /></td></tr>
 <tr class="separator:a69de22eda19d60b8d51cb301b8c1acf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c1ff622e94d2f0bf4f8a3a3f6ec340"><td class="memItemLeft" align="right" valign="top">std::map&lt; MeterType, <a class="el" href="classMeter.html">Meter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ae3c1ff622e94d2f0bf4f8a3a3f6ec340">Meters</a> ()</td></tr>
-<tr class="memdesc:ae3c1ff622e94d2f0bf4f8a3a3f6ec340"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns this <a class="el" href="classUniverseObject.html">UniverseObject</a>'s meters  <a href="#ae3c1ff622e94d2f0bf4f8a3a3f6ec340">More...</a><br /></td></tr>
+<tr class="memdesc:ae3c1ff622e94d2f0bf4f8a3a3f6ec340"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters  <a href="#ae3c1ff622e94d2f0bf4f8a3a3f6ec340">More...</a><br /></td></tr>
 <tr class="separator:ae3c1ff622e94d2f0bf4f8a3a3f6ec340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7dcc35a679a8ff80137505cc5ef412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2b7dcc35a679a8ff80137505cc5ef412">GetMeter</a> (MeterType type)</td></tr>
-<tr class="memdesc:a2b7dcc35a679a8ff80137505cc5ef412"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the requested <a class="el" href="classMeter.html">Meter</a>, or 0 if no such <a class="el" href="classMeter.html">Meter</a> of that type is found in this object  <a href="#a2b7dcc35a679a8ff80137505cc5ef412">More...</a><br /></td></tr>
+<tr class="memdesc:a2b7dcc35a679a8ff80137505cc5ef412"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a2b7dcc35a679a8ff80137505cc5ef412">More...</a><br /></td></tr>
 <tr class="separator:a2b7dcc35a679a8ff80137505cc5ef412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f45c3192e989aee988ef4c8eeb35d02"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a5f45c3192e989aee988ef4c8eeb35d02">BackPropagateMeters</a> ()</td></tr>
+<tr class="memdesc:a5f45c3192e989aee988ef4c8eeb35d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters' initial values equal to their current values.  <a href="#a5f45c3192e989aee988ef4c8eeb35d02">More...</a><br /></td></tr>
 <tr class="separator:a5f45c3192e989aee988ef4c8eeb35d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f6412dac94ed34e42d253dbbcfa655"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a74f6412dac94ed34e42d253dbbcfa655">SetOwner</a> (int id)</td></tr>
+<tr class="memdesc:a74f6412dac94ed34e42d253dbbcfa655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the empire that owns this object.  <a href="#a74f6412dac94ed34e42d253dbbcfa655">More...</a><br /></td></tr>
 <tr class="separator:a74f6412dac94ed34e42d253dbbcfa655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e20dea09882fefcfd77324086bacf2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2e20dea09882fefcfd77324086bacf2f">SetSystem</a> (int sys)</td></tr>
-<tr class="memdesc:a2e20dea09882fefcfd77324086bacf2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">assigns this object to a <a class="el" href="classSystem.html">System</a>. does not actually move object in universe  <a href="#a2e20dea09882fefcfd77324086bacf2f">More...</a><br /></td></tr>
+<tr class="memdesc:a2e20dea09882fefcfd77324086bacf2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">assigns this object to a <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a>. does not actually move object in universe  <a href="#a2e20dea09882fefcfd77324086bacf2f">More...</a><br /></td></tr>
 <tr class="separator:a2e20dea09882fefcfd77324086bacf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add6c00f29880df7996865e7f5ea7f485"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#add6c00f29880df7996865e7f5ea7f485">AddSpecial</a> (const std::string &amp;name, float capacity=0.0f)</td></tr>
-<tr class="memdesc:add6c00f29880df7996865e7f5ea7f485"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds the <a class="el" href="classSpecial.html">Special</a> <em>name</em> to this object, if it is not already present  <a href="#add6c00f29880df7996865e7f5ea7f485">More...</a><br /></td></tr>
+<tr class="memdesc:add6c00f29880df7996865e7f5ea7f485"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds the <a class="el" href="classSpecial.html" title="A predefined set of EffectsGroups that can be attached to a UniverseObject (often referred to as the ...">Special</a> <em>name</em> to this object, if it is not already present  <a href="#add6c00f29880df7996865e7f5ea7f485">More...</a><br /></td></tr>
 <tr class="separator:add6c00f29880df7996865e7f5ea7f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add83d612c4f52b90acb224a36be83172"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#add83d612c4f52b90acb224a36be83172">RemoveSpecial</a> (const std::string &amp;name)</td></tr>
-<tr class="memdesc:add83d612c4f52b90acb224a36be83172"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the <a class="el" href="classSpecial.html">Special</a> <em>name</em> from this object, if it is already present  <a href="#add83d612c4f52b90acb224a36be83172">More...</a><br /></td></tr>
+<tr class="memdesc:add83d612c4f52b90acb224a36be83172"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the <a class="el" href="classSpecial.html" title="A predefined set of EffectsGroups that can be attached to a UniverseObject (often referred to as the ...">Special</a> <em>name</em> from this object, if it is already present  <a href="#add83d612c4f52b90acb224a36be83172">More...</a><br /></td></tr>
 <tr class="separator:add83d612c4f52b90acb224a36be83172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adad9dbd89891afa631f056b33f8a94ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#adad9dbd89891afa631f056b33f8a94ed">SetSpecialCapacity</a> (const std::string &amp;name, float capacity)</td></tr>
+<tr class="memdesc:adad9dbd89891afa631f056b33f8a94ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies data from <em>copied_object</em> to this object, limited to only copy data about the copied object that is known to the empire with id <em>empire_id</em> (or all data if empire_id is ALL_EMPIRES)  <a href="#adad9dbd89891afa631f056b33f8a94ed">More...</a><br /></td></tr>
 <tr class="separator:adad9dbd89891afa631f056b33f8a94ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeebd3c6af797d0021ec88fa3645b8c1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#aeebd3c6af797d0021ec88fa3645b8c1a">MovementPhase</a> ()</td></tr>
+<tr class="memdesc:aeebd3c6af797d0021ec88fa3645b8c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the movement that this object is responsible for this object's actions during the movement phase of a turn.  <a href="#aeebd3c6af797d0021ec88fa3645b8c1a">More...</a><br /></td></tr>
 <tr class="separator:aeebd3c6af797d0021ec88fa3645b8c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae44a30e3a97fc6676b003b8435b76843"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ae44a30e3a97fc6676b003b8435b76843">ResetTargetMaxUnpairedMeters</a> ()</td></tr>
+<tr class="memdesc:ae44a30e3a97fc6676b003b8435b76843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current value of max, target and unpaired meters in in this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> to <a class="el" href="classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad" title="value assigned to current or initial when resetting or when no value is specified in a constructor ...">Meter::DEFAULT_VALUE</a>.  <a href="#ae44a30e3a97fc6676b003b8435b76843">More...</a><br /></td></tr>
 <tr class="separator:ae44a30e3a97fc6676b003b8435b76843"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e93fc3110c87f0aa3af4f6249085ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a56e93fc3110c87f0aa3af4f6249085ab">ResetPairedActiveMeters</a> ()</td></tr>
+<tr class="memdesc:a56e93fc3110c87f0aa3af4f6249085ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current value of active paired meters (the non-max non-target meters that have a max or target meter associated with them) back to the initial value the meter had at the start of this turn.  <a href="#a56e93fc3110c87f0aa3af4f6249085ab">More...</a><br /></td></tr>
 <tr class="separator:a56e93fc3110c87f0aa3af4f6249085ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2203c0775de60b7b65c6d7fc73493888"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2203c0775de60b7b65c6d7fc73493888">ClampMeters</a> ()</td></tr>
+<tr class="memdesc:a2203c0775de60b7b65c6d7fc73493888"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls Clamp(min, max) on meters each meter in this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, to ensure that meter current values aren't outside the valid range for each meter.  <a href="#a2203c0775de60b7b65c6d7fc73493888">More...</a><br /></td></tr>
 <tr class="separator:a2203c0775de60b7b65c6d7fc73493888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b46ee56808d050ff445a81c8ce4fc30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a1b46ee56808d050ff445a81c8ce4fc30">PopGrowthProductionResearchPhase</a> ()</td></tr>
+<tr class="memdesc:a1b46ee56808d050ff445a81c8ce4fc30"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs the movement that this object is responsible for this object's actions during the pop growth/production/research phase of a turn.  <a href="#a1b46ee56808d050ff445a81c8ce4fc30">More...</a><br /></td></tr>
 <tr class="separator:a1b46ee56808d050ff445a81c8ce4fc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -195,6 +211,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a1e557e3eb07f95a13e0a7fb9da2b41c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts a meter into object as the <em>meter_type</em> meter. Should be used by derived classes to add their specialized meters to objects  <a href="#a1e557e3eb07f95a13e0a7fb9da2b41c2">More...</a><br /></td></tr>
 <tr class="separator:a1e557e3eb07f95a13e0a7fb9da2b41c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af809db0550aaf7c4a9e977b20781998e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">Copy</a> (std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; copied_object, Visibility vis, const std::set&lt; std::string &gt; &amp;visible_specials)</td></tr>
+<tr class="memdesc:af809db0550aaf7c4a9e977b20781998e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by public <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c" title="copies data from copied_object to this object, limited to only copy data about the copied object that...">UniverseObject::Copy</a> and derived classes' ::Copy methods.  <a href="#af809db0550aaf7c4a9e977b20781998e">More...</a><br /></td></tr>
 <tr class="separator:af809db0550aaf7c4a9e977b20781998e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4857a527fb226674266306d670337f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a9c4857a527fb226674266306d670337f">Init</a> ()</td></tr>
 <tr class="memdesc:a9c4857a527fb226674266306d670337f"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds stealth meter  <a href="#a9c4857a527fb226674266306d670337f">More...</a><br /></td></tr>
@@ -245,7 +262,7 @@ Friends</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Accessors</h2></td></tr>
 <tr class="memitem:a2c280579c7102c17005af3d28513f086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverseObject.html#aa1ddd5cc5f77cc5c43f2e73957b7149e">StateChangedSignalType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2c280579c7102c17005af3d28513f086">StateChangedSignal</a></td></tr>
-<tr class="memdesc:a2c280579c7102c17005af3d28513f086"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way  <a href="#a2c280579c7102c17005af3d28513f086">More...</a><br /></td></tr>
+<tr class="memdesc:a2c280579c7102c17005af3d28513f086"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way  <a href="#a2c280579c7102c17005af3d28513f086">More...</a><br /></td></tr>
 <tr class="separator:a2c280579c7102c17005af3d28513f086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c246f52ce5375e3e0953d9a23f6b90e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a3c246f52ce5375e3e0953d9a23f6b90e">ID</a> () const </td></tr>
 <tr class="memdesc:a3c246f52ce5375e3e0953d9a23f6b90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ID number of this object. Each object in FreeOrion has a unique ID number.  <a href="#a3c246f52ce5375e3e0953d9a23f6b90e">More...</a><br /></td></tr>
@@ -269,6 +286,7 @@ Accessors</h2></td></tr>
 <tr class="memdesc:a2d77efe12046b83a85008905eeac3336"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with id <em>empire</em> owns this object; unowned objects always return false;  <a href="#a2d77efe12046b83a85008905eeac3336">More...</a><br /></td></tr>
 <tr class="separator:a2d77efe12046b83a85008905eeac3336"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa552905abeb21a07897d4938e6c8f485"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#aa552905abeb21a07897d4938e6c8f485">HostileToEmpire</a> (int empire_id) const </td></tr>
+<tr class="memdesc:aa552905abeb21a07897d4938e6c8f485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object owner is at war with empire <code>empire_id</code>.  <a href="#aa552905abeb21a07897d4938e6c8f485">More...</a><br /></td></tr>
 <tr class="separator:aa552905abeb21a07897d4938e6c8f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7170ff7ab96e939731ad7257fe07d556"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a7170ff7ab96e939731ad7257fe07d556">SystemID</a> () const </td></tr>
 <tr class="memdesc:a7170ff7ab96e939731ad7257fe07d556"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ID number of the system in which this object can be found, or INVALID_OBJECT_ID if the object is not within any system  <a href="#a7170ff7ab96e939731ad7257fe07d556">More...</a><br /></td></tr>
@@ -283,7 +301,7 @@ Accessors</h2></td></tr>
 <tr class="memdesc:a2bae77735f69829d33def9be39329a10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the turn on which the special with name <em>name</em> was added to this object, or INVALID_GAME_TURN if that special is not present  <a href="#a2bae77735f69829d33def9be39329a10">More...</a><br /></td></tr>
 <tr class="separator:a2bae77735f69829d33def9be39329a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0f954ef6baa68efdd631430f85533e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a7b0f954ef6baa68efdd631430f85533e">SpecialCapacity</a> (const std::string &amp;name) const </td></tr>
-<tr class="memdesc:a7b0f954ef6baa68efdd631430f85533e"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way  <a href="#a7b0f954ef6baa68efdd631430f85533e">More...</a><br /></td></tr>
+<tr class="memdesc:a7b0f954ef6baa68efdd631430f85533e"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way  <a href="#a7b0f954ef6baa68efdd631430f85533e">More...</a><br /></td></tr>
 <tr class="separator:a7b0f954ef6baa68efdd631430f85533e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b81d4395b4d8b27d1639d64efc9b0e"><td class="memItemLeft" align="right" valign="top">virtual std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a82b81d4395b4d8b27d1639d64efc9b0e">Tags</a> () const </td></tr>
 <tr class="memdesc:a82b81d4395b4d8b27d1639d64efc9b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
@@ -292,29 +310,34 @@ Accessors</h2></td></tr>
  <a href="#a82b81d4395b4d8b27d1639d64efc9b0e">More...</a><br /></td></tr>
 <tr class="separator:a82b81d4395b4d8b27d1639d64efc9b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab10885eb9070a3d5a3176d70be73635c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ab10885eb9070a3d5a3176d70be73635c">HasTag</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:ab10885eb9070a3d5a3176d70be73635c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this object has the tag with the indicated <em>name</em>.  <a href="#ab10885eb9070a3d5a3176d70be73635c">More...</a><br /></td></tr>
 <tr class="separator:ab10885eb9070a3d5a3176d70be73635c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5f93ca43643a2770429732547ebb907"><td class="memItemLeft" align="right" valign="top">virtual UniverseObjectType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ab5f93ca43643a2770429732547ebb907">ObjectType</a> () const </td></tr>
-<tr class="memdesc:ab5f93ca43643a2770429732547ebb907"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way  <a href="#ab5f93ca43643a2770429732547ebb907">More...</a><br /></td></tr>
+<tr class="memdesc:ab5f93ca43643a2770429732547ebb907"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way  <a href="#ab5f93ca43643a2770429732547ebb907">More...</a><br /></td></tr>
 <tr class="separator:ab5f93ca43643a2770429732547ebb907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5941904fa39256e021ea9124bc6f65d3"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a5941904fa39256e021ea9124bc6f65d3">Dump</a> (unsigned short ntabs=0) const </td></tr>
+<tr class="memdesc:a5941904fa39256e021ea9124bc6f65d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return human readable string description of object offset <code>ntabs</code> from margin.  <a href="#a5941904fa39256e021ea9124bc6f65d3">More...</a><br /></td></tr>
 <tr class="separator:a5941904fa39256e021ea9124bc6f65d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a9316b6f605c459c5b5504f3f6649c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a27a9316b6f605c459c5b5504f3f6649c">ContainerObjectID</a> () const </td></tr>
+<tr class="memdesc:a27a9316b6f605c459c5b5504f3f6649c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns id of the object that directly contains this object, if any, or INVALID_OBJECT_ID if this object is not contained by any other.  <a href="#a27a9316b6f605c459c5b5504f3f6649c">More...</a><br /></td></tr>
 <tr class="separator:a27a9316b6f605c459c5b5504f3f6649c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bac34ca3484ad8c119c6ae5fddde359"><td class="memItemLeft" align="right" valign="top">virtual const std::set&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a6bac34ca3484ad8c119c6ae5fddde359">ContainedObjectIDs</a> () const </td></tr>
+<tr class="memdesc:a6bac34ca3484ad8c119c6ae5fddde359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns ids of objects contained within this object.  <a href="#a6bac34ca3484ad8c119c6ae5fddde359">More...</a><br /></td></tr>
 <tr class="separator:a6bac34ca3484ad8c119c6ae5fddde359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79650e33b24717acae60abdb965d51f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#af79650e33b24717acae60abdb965d51f">Contains</a> (int object_id) const </td></tr>
+<tr class="memdesc:af79650e33b24717acae60abdb965d51f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is an object with id <em>object_id</em> is contained within this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>.  <a href="#af79650e33b24717acae60abdb965d51f">More...</a><br /></td></tr>
 <tr class="separator:af79650e33b24717acae60abdb965d51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e7b42a88c1e1a646da1e526181e4b9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#ae0e7b42a88c1e1a646da1e526181e4b9">ContainedBy</a> (int object_id) const </td></tr>
-<tr class="memdesc:ae0e7b42a88c1e1a646da1e526181e4b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way  <a href="#ae0e7b42a88c1e1a646da1e526181e4b9">More...</a><br /></td></tr>
+<tr class="memdesc:ae0e7b42a88c1e1a646da1e526181e4b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way  <a href="#ae0e7b42a88c1e1a646da1e526181e4b9">More...</a><br /></td></tr>
 <tr class="separator:ae0e7b42a88c1e1a646da1e526181e4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47bab128ba57d639bd19eaaf16a025b9"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a47bab128ba57d639bd19eaaf16a025b9">VisibleContainedObjectIDs</a> (int empire_id) const </td></tr>
 <tr class="memdesc:a47bab128ba57d639bd19eaaf16a025b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the subset of contained object IDs that is visible to empire with id <em>empire_id</em>  <a href="#a47bab128ba57d639bd19eaaf16a025b9">More...</a><br /></td></tr>
 <tr class="separator:a47bab128ba57d639bd19eaaf16a025b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331ea70dde0a36f7d32c6ec72c6dd8ff"><td class="memItemLeft" align="right" valign="top">const std::map&lt; MeterType, <a class="el" href="classMeter.html">Meter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a331ea70dde0a36f7d32c6ec72c6dd8ff">Meters</a> () const </td></tr>
-<tr class="memdesc:a331ea70dde0a36f7d32c6ec72c6dd8ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns this <a class="el" href="classUniverseObject.html">UniverseObject</a>'s meters  <a href="#a331ea70dde0a36f7d32c6ec72c6dd8ff">More...</a><br /></td></tr>
+<tr class="memdesc:a331ea70dde0a36f7d32c6ec72c6dd8ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters  <a href="#a331ea70dde0a36f7d32c6ec72c6dd8ff">More...</a><br /></td></tr>
 <tr class="separator:a331ea70dde0a36f7d32c6ec72c6dd8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e7aa8397a4d9c5e6b23dbf5920b1b3f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">GetMeter</a> (MeterType type) const </td></tr>
-<tr class="memdesc:a1e7aa8397a4d9c5e6b23dbf5920b1b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the requested <a class="el" href="classMeter.html">Meter</a>, or 0 if no such <a class="el" href="classMeter.html">Meter</a> of that type is found in this object  <a href="#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">More...</a><br /></td></tr>
+<tr class="memdesc:a1e7aa8397a4d9c5e6b23dbf5920b1b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a1e7aa8397a4d9c5e6b23dbf5920b1b3f">More...</a><br /></td></tr>
 <tr class="separator:a1e7aa8397a4d9c5e6b23dbf5920b1b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3899829536fedb7fb49428a976fa61e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a3899829536fedb7fb49428a976fa61e0">CurrentMeterValue</a> (MeterType type) const </td></tr>
 <tr class="memdesc:a3899829536fedb7fb49428a976fa61e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current value of the specified meter <em>type</em>  <a href="#a3899829536fedb7fb49428a976fa61e0">More...</a><br /></td></tr>
@@ -326,8 +349,10 @@ Accessors</h2></td></tr>
 <tr class="memdesc:a533deb17c823ca6903f1f1edb8c5b0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the visibility status of this universe object relative to the input empire.  <a href="#a533deb17c823ca6903f1f1edb8c5b0ef">More...</a><br /></td></tr>
 <tr class="separator:a533deb17c823ca6903f1f1edb8c5b0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b123db572348334117ba66d78165abd"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a2b123db572348334117ba66d78165abd">PublicName</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a2b123db572348334117ba66d78165abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this objectas it appears to empire <em>empire_id</em> .  <a href="#a2b123db572348334117ba66d78165abd">More...</a><br /></td></tr>
 <tr class="separator:a2b123db572348334117ba66d78165abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1883e8e3f1d1548eabc9946643f106e0"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a1883e8e3f1d1548eabc9946643f106e0">Accept</a> (const <a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a> &amp;visitor) const </td></tr>
+<tr class="memdesc:a1883e8e3f1d1548eabc9946643f106e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts a visitor object.  <a href="#a1883e8e3f1d1548eabc9946643f106e0">More...</a><br /></td></tr>
 <tr class="separator:a1883e8e3f1d1548eabc9946643f106e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21391d4a3ce20f8634d0033990fd1cc3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a21391d4a3ce20f8634d0033990fd1cc3">CreationTurn</a> () const </td></tr>
 <tr class="memdesc:a21391d4a3ce20f8634d0033990fd1cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns game turn on which object was created  <a href="#a21391d4a3ce20f8634d0033990fd1cc3">More...</a><br /></td></tr>
@@ -340,18 +365,24 @@ Accessors</h2></td></tr>
 Structors</h2></td></tr>
 <tr class="memitem:a9d93de3057fec4a751843298ac72b37b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a9d93de3057fec4a751843298ac72b37b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a9d93de3057fec4a751843298ac72b37b">boost::python::detail::value_destroyer</a> (T const volatile *p)</td></tr>
+<tr class="memdesc:a9d93de3057fec4a751843298ac72b37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system.  <a href="#a9d93de3057fec4a751843298ac72b37b">More...</a><br /></td></tr>
 <tr class="separator:a9d93de3057fec4a751843298ac72b37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bcf5f711f4c2524ca6a6f040438aea8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a4bcf5f711f4c2524ca6a6f040438aea8">~UniverseObject</a> ()</td></tr>
+<tr class="memdesc:a4bcf5f711f4c2524ca6a6f040438aea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system.  <a href="#a4bcf5f711f4c2524ca6a6f040438aea8">More...</a><br /></td></tr>
 <tr class="separator:a4bcf5f711f4c2524ca6a6f040438aea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83c3092cd13df5f48b3e2d5d7df325de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a83c3092cd13df5f48b3e2d5d7df325de">UniverseObject</a> ()</td></tr>
+<tr class="memdesc:a83c3092cd13df5f48b3e2d5d7df325de"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system.  <a href="#a83c3092cd13df5f48b3e2d5d7df325de">More...</a><br /></td></tr>
 <tr class="separator:a83c3092cd13df5f48b3e2d5d7df325de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fbae16016512b3da1b2c63332e01f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a42fbae16016512b3da1b2c63332e01f7">UniverseObject</a> (const std::string name, double x, double y)</td></tr>
+<tr class="memdesc:a42fbae16016512b3da1b2c63332e01f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system.  <a href="#a42fbae16016512b3da1b2c63332e01f7">More...</a><br /></td></tr>
 <tr class="separator:a42fbae16016512b3da1b2c63332e01f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964bf6d3617b688554a0c6022c85a452"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classUniverseObject.html">UniverseObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverseObject.html#a964bf6d3617b688554a0c6022c85a452">Clone</a> (int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const =0</td></tr>
+<tr class="memdesc:a964bf6d3617b688554a0c6022c85a452"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system.  <a href="#a964bf6d3617b688554a0c6022c85a452">More...</a><br /></td></tr>
 <tr class="separator:a964bf6d3617b688554a0c6022c85a452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The abstract base class for all objects in the universe The <a class="el" href="classUniverseObject.html">UniverseObject</a> class itself has an ID number, a name, a position, an ID of the system in which it is, a list of zero or more owners, and other common object data. Position in the <a class="el" href="classUniverse.html">Universe</a> can range from 0 (left) to 1000 (right) in X, and 0 (top) to 1000 (bottom) in Y. This coordinate system was chosen to help with conversion to and from screen coordinates, which originate at the upper-left corner of the screen and increase down and to the right. Each UniverseObject-derived class inherits several pure virtual members that perform its actions during various game phases, such as the movement phase. These subclasses must define what actions to perform during those phases. UniverseObjects advertise changes to themselves via the StateChanged Signal. This means that all mutators on <a class="el" href="classUniverseObject.html">UniverseObject</a> and its subclasses need to emit this signal. This is how the UI becomes aware that an object that is being displayed has changed. </p>
+<div class="textblock"><p>The abstract base class for all objects in the universe The <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> class itself has an ID number, a name, a position, an ID of the system in which it is, a list of zero or more owners, and other common object data. </p>
+<p>Position in the <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> can range from 0 (left) to 1000 (right) in X, and 0 (top) to 1000 (bottom) in Y. This coordinate system was chosen to help with conversion to and from screen coordinates, which originate at the upper-left corner of the screen and increase down and to the right. Each UniverseObject-derived class inherits several pure virtual members that perform its actions during various game phases, such as the movement phase. These subclasses must define what actions to perform during those phases. UniverseObjects advertise changes to themselves via the StateChanged Signal. This means that all mutators on <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> and its subclasses need to emit this signal. This is how the UI becomes aware that an object that is being displayed has changed. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa1ddd5cc5f77cc5c43f2e73957b7149e"></a>
 <div class="memitem">
@@ -398,7 +429,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
+
+<p>returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. </p>
+<p>Caller takes ownership of returned pointee. </p>
 
 </div>
 </div>
@@ -439,7 +472,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
+
+<p>returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. </p>
+<p>Caller takes ownership of returned pointee. </p>
 
 </div>
 </div>
@@ -463,7 +498,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
+
+<p>returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. </p>
+<p>Caller takes ownership of returned pointee. </p>
 
 </div>
 </div>
@@ -489,7 +526,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Accepts a visitor object </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a> </dd></dl>
+
+<p>Accepts a visitor object. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structUniverseObjectVisitor.html" title="the base class for UniverseObject visitor classes. ">UniverseObjectVisitor</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#a29eafe3b29e683ed8bd9c4d93c0bb617">System</a>, <a class="el" href="classFleet.html#a2caf5f00fe32d78de663573988a745b6">Fleet</a>, <a class="el" href="classBuilding.html#a05754abe7b031ea9fd866ea98f745410">Building</a>, <a class="el" href="classPlanet.html#a26c62246e5d5a0b2979361ff3e1ce46e">Planet</a>, <a class="el" href="classShip.html#ac28d6621b90013bc191e8c5ede4a074b">Ship</a>, <a class="el" href="classField.html#af8b06ee6d68fff38adab72b5afd26d8f">Field</a>, and <a class="el" href="classFighter.html#a4e147041653c95ded1251ff1094d4ccc">Fighter</a>.</p>
 
@@ -561,7 +600,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>adds the <a class="el" href="classSpecial.html">Special</a> <em>name</em> to this object, if it is not already present </p>
+<p>adds the <a class="el" href="classSpecial.html" title="A predefined set of EffectsGroups that can be attached to a UniverseObject (often referred to as the ...">Special</a> <em>name</em> to this object, if it is not already present </p>
 
 <p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, and <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>.</p>
 
@@ -610,7 +649,8 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets all this <a class="el" href="classUniverseObject.html">UniverseObject</a>'s meters' initial values equal to their current values. </p>
+
+<p>Sets all this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters' initial values equal to their current values. </p>
 
 <p>Reimplemented in <a class="el" href="classShip.html#a0dd6c93c13a2b705c73c2dff1c1d14c2">Ship</a>.</p>
 
@@ -668,7 +708,8 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>calls Clamp(min, max) on meters each meter in this <a class="el" href="classUniverseObject.html">UniverseObject</a>, to ensure that meter current values aren't outside the valid range for each meter. </p>
+
+<p>calls Clamp(min, max) on meters each meter in this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, to ensure that meter current values aren't outside the valid range for each meter. </p>
 
 <p>Reimplemented in <a class="el" href="classPlanet.html#ad6ab924f74acf9fb4d4edf66469efe14">Planet</a>, <a class="el" href="classShip.html#a60fb51787881cee2a86211db08e100b4">Ship</a>, and <a class="el" href="classField.html#ad5246efb7ddede8d78f65ae7708b8440">Field</a>.</p>
 
@@ -699,7 +740,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
+
+<p>returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. </p>
+<p>Caller takes ownership of returned pointee. </p>
 
 <p>Implemented in <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Fleet</a>, <a class="el" href="classSystem.html#aeaef9e40cbf66b4eefc054732e85975d">System</a>, <a class="el" href="classPlanet.html#a5526518aaf4308e51b27878166511a3c">Planet</a>, <a class="el" href="classBuilding.html#a2f53addb77540c76e191dee3cf447b73">Building</a>, <a class="el" href="classField.html#acf7a818ed36ce6c7af15843f254ce929">Field</a>, <a class="el" href="classShip.html#a9ae9fa38f93b1b26fe371508461f7190">Ship</a>, and <a class="el" href="classFighter.html#a99959f3e066ba01242942c3d60ad5eaa">Fighter</a>.</p>
 
@@ -729,7 +772,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
+<p>emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#a3f1f7fe0a75c7c9c5825f2d78cda85df">System</a>, <a class="el" href="classFleet.html#afcb40556528a1d9aaa615b25534b7810">Fleet</a>, <a class="el" href="classBuilding.html#a92a47aa4f13336ee85fbee4f52e6be4c">Building</a>, <a class="el" href="classShip.html#ab3a6531284208386442e5468a5a9c98d">Ship</a>, <a class="el" href="classPlanet.html#a53faa1442b279df428de54a2aa7f65ab">Planet</a>, and <a class="el" href="classField.html#abbece90f8282257eddc18621cefa051d">Field</a>.</p>
 
@@ -757,6 +800,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns ids of objects contained within this object. </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#af74b758846323682f2a3381f84c3c24b">System</a>, <a class="el" href="classFleet.html#a010e26947514fe90ac78903d2f338b79">Fleet</a>, and <a class="el" href="classPlanet.html#a069604de29db90e62eb37cd2e67315a9">Planet</a>.</p>
@@ -787,6 +831,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns id of the object that directly contains this object, if any, or INVALID_OBJECT_ID if this object is not contained by any other. </p>
 
 <p>Reimplemented in <a class="el" href="classFleet.html#af4bc3a0f9f1b7fe21cca22742349daa6">Fleet</a>, <a class="el" href="classBuilding.html#a39cd9a08ed2a55d8dc4a724c1512f0bd">Building</a>, <a class="el" href="classShip.html#a7cf3f21fc8f4ad3ad1fa79735ba2d77f">Ship</a>, <a class="el" href="classField.html#a9f05e68727c08060c575262a9f088f8f">Field</a>, and <a class="el" href="classPlanet.html#ac63a1fc339ec6212f52586cd68651da2">Planet</a>.</p>
@@ -818,7 +863,8 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns true if there is an object with id <em>object_id</em> is contained within this <a class="el" href="classUniverseObject.html">UniverseObject</a>. </p>
+
+<p>Returns true if there is an object with id <em>object_id</em> is contained within this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>. </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#aaecfbbbe9c0e6d6308483fbf96b6fc7f">System</a>, <a class="el" href="classFleet.html#ad8e5fd59327ce8fcce2586eb6994df66">Fleet</a>, and <a class="el" href="classPlanet.html#acfadf4bf0d5c4c596c0d16acd87b15d0">Planet</a>.</p>
 
@@ -857,6 +903,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>copies data from <em>copied_object</em> to this object, limited to only copy data about the copied object that is known to the empire with id <em>empire_id</em> (or all data if empire_id is ALL_EMPIRES) </p>
 
 <p>Implemented in <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet</a>, <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet</a>, <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship</a>, <a class="el" href="classBuilding.html#aba9df09ba084ca182a5abdd7ef020275">Building</a>, <a class="el" href="classField.html#ad0f231b110884a447946e7101bc9bc51">Field</a>, and <a class="el" href="classFighter.html#aa8fcc41a9c7f3bde4d7bfdee511c4110">Fighter</a>.</p>
@@ -902,7 +949,8 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Used by public <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy</a> and derived classes' ::Copy methods. </p>
+
+<p>Used by public <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c" title="copies data from copied_object to this object, limited to only copy data about the copied object that...">UniverseObject::Copy</a> and derived classes' ::Copy methods. </p>
 
 <p>References <a class="el" href="classMeter.html#adb74eb14910f668de4ba1413e159abd8">Meter::Current()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMeter.html#a51ea0c030ad51c9b03968c16344143bb">Meter::Initial()</a>, <a class="el" href="classMeter.html#ad432ea4da9115c778a3d07d0c755a7ae">Meter::LARGE_VALUE</a>, <a class="el" href="classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c">m_created_on_turn</a>, <a class="el" href="classUniverseObject.html#a46342d0d76ab74ff6431173bef45ca8b">m_id</a>, <a class="el" href="classUniverseObject.html#ab7b34f56884fd5cd459c2fab1e49ee88">m_meters</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">m_name</a>, <a class="el" href="classUniverseObject.html#a105892ecef9ba211d748256dc40a881b">m_owner_empire_id</a>, <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>, <a class="el" href="classUniverseObject.html#a1dd1fab3adcc5cb44dd3507c4f9dffcb">m_system_id</a>, <a class="el" href="classUniverseObject.html#aeb4559b9133c1714c9f8450a982dd008">m_x</a>, and <a class="el" href="classUniverseObject.html#a9c0ca599f43050c34c981496f0511872">m_y</a>.</p>
 
@@ -972,6 +1020,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return human readable string description of object offset <code>ntabs</code> from margin. </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#ac7985ab2cf269bb6cb8609f7bbe2a847">System</a>, <a class="el" href="classFleet.html#abefb5783af0a87510707e3c9db4d1d13">Fleet</a>, <a class="el" href="classBuilding.html#a9e4816d865a5609316f589103ba881ff">Building</a>, <a class="el" href="classShip.html#a7acec959d87b888332c730a86c80b813">Ship</a>, <a class="el" href="classField.html#a171670d1f7707baf66d4b909a8a98735">Field</a>, <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Planet</a>, and <a class="el" href="classFighter.html#a4dc5669589a07a94d166ad585ae5e8da">Fighter</a>.</p>
@@ -996,7 +1045,7 @@ Structors</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the requested <a class="el" href="classMeter.html">Meter</a>, or 0 if no such <a class="el" href="classMeter.html">Meter</a> of that type is found in this object </p>
+<p>returns the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
 
 <p>References <a class="el" href="classUniverseObject.html#ab7b34f56884fd5cd459c2fab1e49ee88">m_meters</a>.</p>
 
@@ -1018,7 +1067,7 @@ Structors</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the requested <a class="el" href="classMeter.html">Meter</a>, or 0 if no such <a class="el" href="classMeter.html">Meter</a> of that type is found in this object </p>
+<p>returns the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
 
 <p>References <a class="el" href="classUniverseObject.html#ab7b34f56884fd5cd459c2fab1e49ee88">m_meters</a>.</p>
 
@@ -1089,6 +1138,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns true iff this object has the tag with the indicated <em>name</em>. </p>
 
 <p>Reimplemented in <a class="el" href="classBuilding.html#a4175be934cbdce81ccb32de79ff3a452">Building</a>, <a class="el" href="classShip.html#aaa86ff250a33c3660c95aaedd787b307">Ship</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet</a>, and <a class="el" href="classField.html#a9b4c6a7c2433f025dd62ce752b040697">Field</a>.</p>
@@ -1118,7 +1168,8 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Object owner is at war with empire <code>empire_id</code> </p>
+
+<p>Object owner is at war with empire <code>empire_id</code>. </p>
 
 <p>Reimplemented in <a class="el" href="classPlanet.html#a2aff51171926fec1878d61015f856149">Planet</a>, <a class="el" href="classFleet.html#afd1780753f1c5ec9d0ed0e6f24bf39f8">Fleet</a>, <a class="el" href="classBuilding.html#a3fc050d19642d1a6a3591c16aed55769">Building</a>, <a class="el" href="classShip.html#a384357fee210b8bb556daff096265f93">Ship</a>, and <a class="el" href="classFighter.html#a4f1dbeaaa3e73686b27dab5b16e886d4">Fighter</a>.</p>
 
@@ -1219,7 +1270,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns this <a class="el" href="classUniverseObject.html">UniverseObject</a>'s meters </p>
+<p>returns this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters </p>
 
 </div>
 </div>
@@ -1244,7 +1295,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns this <a class="el" href="classUniverseObject.html">UniverseObject</a>'s meters </p>
+<p>returns this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>'s meters </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a1337d86740ae157c408aafc106675bfd">anonymous_namespace{ServerWrapper.cpp}::AddSpecial()</a>, and <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a3fc9c852aec448a4b9800a2e944dcf07">anonymous_namespace{ServerWrapper.cpp}::RemoveSpecial()</a>.</p>
 
@@ -1273,6 +1324,7 @@ Structors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>moves this object by relative displacements x and y. </p>
 
 <p>References <a class="el" href="classUniverseObject.html#aeb4559b9133c1714c9f8450a982dd008">m_x</a>, <a class="el" href="classUniverseObject.html#a9c0ca599f43050c34c981496f0511872">m_y</a>, and <a class="el" href="classUniverseObject.html#a27a6358b41b0b7a8ab7486159ce6f7bd">MoveTo()</a>.</p>
@@ -1299,6 +1351,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Performs the movement that this object is responsible for this object's actions during the movement phase of a turn. </p>
 
 <p>Reimplemented in <a class="el" href="classFleet.html#a8f5094af5c89412d7a028ea045702bd3">Fleet</a>.</p>
@@ -1318,7 +1371,8 @@ Structors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calls <a class="el" href="classUniverseObject.html#a5f20f5f0a35f0a133ceabaaade563784">MoveTo(std::shared_ptr&lt;const UniverseObject&gt;)</a> with the object pointed to by <em>object_id</em>. </p>
+
+<p>calls <a class="el" href="classUniverseObject.html#a5f20f5f0a35f0a133ceabaaade563784" title="moves this object to exact map coordinates of specified object. ">MoveTo(std::shared_ptr&lt;const UniverseObject&gt;)</a> with the object pointed to by <em>object_id</em>. </p>
 
 <p>References <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>.</p>
 
@@ -1339,6 +1393,7 @@ Structors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>moves this object to exact map coordinates of specified <em>object</em>. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classUniverseObject.html#a27a6358b41b0b7a8ab7486159ce6f7bd">MoveTo()</a>.</p>
@@ -1368,6 +1423,7 @@ Structors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>moves this object to map coordinates (x, y). </p>
 
 <p>References <a class="el" href="classUniverseObject.html#aeb4559b9133c1714c9f8450a982dd008">m_x</a>, <a class="el" href="classUniverseObject.html#a9c0ca599f43050c34c981496f0511872">m_y</a>, and <a class="el" href="classUniverseObject.html#a2c280579c7102c17005af3d28513f086">StateChangedSignal</a>.</p>
@@ -1416,7 +1472,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
+<p>emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#af4579332df4e1f4a838c5fe65fe081a7">System</a>, <a class="el" href="classFleet.html#a88be04337f3301fff4779296243bad10">Fleet</a>, <a class="el" href="classBuilding.html#ae375b206f9fd4b170ba4d7f18aaa0734">Building</a>, <a class="el" href="classShip.html#aa0dc0cc3dd121058aa37fd6235fb5748">Ship</a>, <a class="el" href="classField.html#a773f28bb1df3940cabee155bb29c6758">Field</a>, <a class="el" href="classPlanet.html#a66901f7cd2f6231dfed61524fc68794e">Planet</a>, and <a class="el" href="classFighter.html#aefa739920bb974f533ac983d1a467770">Fighter</a>.</p>
 
@@ -1497,6 +1553,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>performs the movement that this object is responsible for this object's actions during the pop growth/production/research phase of a turn. </p>
 
 <p>Reimplemented in <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet</a>.</p>
@@ -1526,6 +1583,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the name of this objectas it appears to empire <em>empire_id</em> . </p>
 
 <p>Reimplemented in <a class="el" href="classFleet.html#a4b410135ec99d8f92b644326f9125b24">Fleet</a>, <a class="el" href="classShip.html#a33a77cbd2851565fa9e91a7da5ddecca">Ship</a>, and <a class="el" href="classField.html#ab3725902b81e899be95a8435e18e3e0c">Field</a>.</p>
@@ -1558,7 +1616,7 @@ Structors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>removes the <a class="el" href="classSpecial.html">Special</a> <em>name</em> from this object, if it is already present </p>
+<p>removes the <a class="el" href="classSpecial.html" title="A predefined set of EffectsGroups that can be attached to a UniverseObject (often referred to as the ...">Special</a> <em>name</em> from this object, if it is already present </p>
 
 <p>References <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>.</p>
 
@@ -1606,6 +1664,7 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Sets current value of active paired meters (the non-max non-target meters that have a max or target meter associated with them) back to the initial value the meter had at the start of this turn. </p>
 
 <p>Reimplemented in <a class="el" href="classShip.html#a782041ceed7e81fba8159155fefc80b4">Ship</a>.</p>
@@ -1636,7 +1695,9 @@ Structors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets current value of max, target and unpaired meters in in this <a class="el" href="classUniverseObject.html">UniverseObject</a> to <a class="el" href="classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad" title="value assigned to current or initial when resetting or when no value is specified in a constructor ...">Meter::DEFAULT_VALUE</a>. This should be done before any Effects that alter these meter(s) act on the object. </p>
+
+<p>Sets current value of max, target and unpaired meters in in this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> to <a class="el" href="classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad" title="value assigned to current or initial when resetting or when no value is specified in a constructor ...">Meter::DEFAULT_VALUE</a>. </p>
+<p>This should be done before any Effects that alter these meter(s) act on the object. </p>
 
 <p>Reimplemented in <a class="el" href="classFleet.html#afd848ca2fbe27863aee9248ca2bc8345">Fleet</a>, <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet</a>, <a class="el" href="classSystem.html#abb57e11567815b85b413f31510cd7d25">System</a>, <a class="el" href="classBuilding.html#a56bff71ab40c1a16dc076dfb7641f956">Building</a>, <a class="el" href="classField.html#ac5ea8bf4ab722517ff23378e7ef32899">Field</a>, and <a class="el" href="classShip.html#a402566e50f79ea6101ed6d313dd9de17">Ship</a>.</p>
 
@@ -1723,6 +1784,7 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Sets the empire that owns this object. </p>
 
 <p>Reimplemented in <a class="el" href="classSystem.html#aa17076e2fdad81d2aae88e335d8b7bb6">System</a>.</p>
@@ -1756,6 +1818,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>copies data from <em>copied_object</em> to this object, limited to only copy data about the copied object that is known to the empire with id <em>empire_id</em> (or all data if empire_id is ALL_EMPIRES) </p>
 
 <p>References <a class="el" href="classUniverseObject.html#add6c00f29880df7996865e7f5ea7f485">AddSpecial()</a>, and <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>.</p>
@@ -1776,7 +1839,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>assigns this object to a <a class="el" href="classSystem.html">System</a>. does not actually move object in universe </p>
+<p>assigns this object to a <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a>. does not actually move object in universe </p>
 
 <p>References <a class="el" href="classUniverseObject.html#a1dd1fab3adcc5cb44dd3507c4f9dffcb">m_system_id</a>, and <a class="el" href="classUniverseObject.html#a2c280579c7102c17005af3d28513f086">StateChangedSignal</a>.</p>
 
@@ -1820,7 +1883,7 @@ template&lt;class Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
+<p>emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way </p>
 
 <p>References <a class="el" href="classUniverseObject.html#a3ac292b32e162a57491ccce52ea7b488">m_specials</a>.</p>
 
@@ -2032,7 +2095,9 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns new copy of this <a class="el" href="classUniverseObject.html">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. Caller takes ownership of returned pointee. </p>
+
+<p>returns new copy of this <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>, limited to only copy data that is visible to the empire with the specified <em>empire_id</em> as determined by the detection and visibility system. </p>
+<p>Caller takes ownership of returned pointee. </p>
 
 </div>
 </div>
@@ -2385,7 +2450,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>emitted when the <a class="el" href="classUniverseObject.html">UniverseObject</a> is altered in any way </p>
+<p>emitted when the <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> is altered in any way </p>
 
 <p>Referenced by <a class="el" href="classPlanet.html#ae403e4b0a88678aa50b638ed99492ac5">Planet::AddBuilding()</a>, <a class="el" href="classFleet.html#aeef48dbf5e684f6c9f3d18adf8decb4b">Fleet::AddShips()</a>, <a class="el" href="classSystem.html#aed8292158983992b44abd2efc5bec4bf">System::AddStarlane()</a>, <a class="el" href="classSystem.html#a59813624c3676074d6b977eedeb42219">System::AddWormhole()</a>, <a class="el" href="classSystem.html#a5dcc42c94d61e9014e26d038437b0f30">System::Insert()</a>, <a class="el" href="classUniverseObject.html#a69de22eda19d60b8d51cb301b8c1acf0">MoveTo()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="classSystem.html#a1f170e5475f340759f6fe64a22e90901">System::Remove()</a>, <a class="el" href="classPlanet.html#ad1427797c6ac7aafc2607b84e6fde36d">Planet::RemoveBuilding()</a>, <a class="el" href="classFleet.html#ae5dd22af5de795bec9f97f98d5f1a8cb">Fleet::RemoveShips()</a>, <a class="el" href="classSystem.html#a5ac819186255df2cf5cacaf5370a4603">System::RemoveStarlane()</a>, <a class="el" href="classSystem.html#a6a5d1d56b9dbc1663d557d741b7fd2d9">System::RemoveWormhole()</a>, <a class="el" href="classUniverseObject.html#a252cf0279d9b9cc72ea0dd735ebf39ea">Rename()</a>, <a class="el" href="classFleet.html#abc1af4e7c7d141158d835fda80ebad2d">Fleet::SetAggressive()</a>, <a class="el" href="classShip.html#a1e0ba112e81ae2eb534311032b2fd7bf">Ship::SetArrivedOnTurn()</a>, <a class="el" href="classShip.html#a569dafd450708fff10a08d132e73ecd0">Ship::SetBombardPlanet()</a>, <a class="el" href="classShip.html#af18e2a956ec183f1882939c7cd837190">Ship::SetColonizePlanet()</a>, <a class="el" href="classShip.html#add20f7448aabe475cbcb85808faf714f">Ship::SetFleetID()</a>, <a class="el" href="classPlanet.html#a5dd6a8bb291a6ee290d871c77b9f75c4">Planet::SetGiveToEmpire()</a>, <a class="el" href="classFleet.html#a3ef3ca4997b37fd987c4b643f0eec724">Fleet::SetGiveToEmpire()</a>, <a class="el" href="classUniverseObject.html#af4c96a3c2ab418bda978e99cbec24859">SetID()</a>, <a class="el" href="classShip.html#af2be48c54a32f83ea17fb3b1b6d31c2d">Ship::SetInvadePlanet()</a>, <a class="el" href="classPlanet.html#a6ecb0bb5140b231329a1eb76c6e1d42f">Planet::SetIsAboutToBeBombarded()</a>, <a class="el" href="classPlanet.html#ac48c4c0a5269812b69aaef9b1bf38b91">Planet::SetIsAboutToBeColonized()</a>, <a class="el" href="classPlanet.html#ab05e7868931b3c9d06ab5f679640897f">Planet::SetIsAboutToBeInvaded()</a>, <a class="el" href="classBuilding.html#ac53139de725086ec3026aec8a06adf14">Building::SetOrderedScrapped()</a>, <a class="el" href="classShip.html#af87731294716d830c099702a89e1b9fe">Ship::SetOrderedScrapped()</a>, <a class="el" href="classPlanet.html#abb98b089d9c9a12f2a337cc61d59889e">Planet::SetOriginalType()</a>, <a class="el" href="classSystem.html#a0907f6c0ba0c2bfb4080d330e750ea97">System::SetOverlayTexture()</a>, <a class="el" href="classUniverseObject.html#a74f6412dac94ed34e42d253dbbcfa655">SetOwner()</a>, <a class="el" href="classBuilding.html#a1872c77cf34e36c9b66e54e103ca16dd">Building::SetPlanetID()</a>, <a class="el" href="classFleet.html#a9eae12ea33018a5915888f9dc29fbdf6">Fleet::SetRoute()</a>, <a class="el" href="classPlanet.html#a5c7a69c5ae088817f6da3e8fe955f90d">Planet::SetSize()</a>, <a class="el" href="classSystem.html#ab797738fadfd5ff409cf7b82f41738eb">System::SetStarType()</a>, <a class="el" href="classPlanet.html#a94b0e195e806594fa976208892dd976a">Planet::SetSurfaceTexture()</a>, <a class="el" href="classUniverseObject.html#a2e20dea09882fefcfd77324086bacf2f">SetSystem()</a>, and <a class="el" href="classPlanet.html#a48e814cf5f523cc8f33256884ac6f124">Planet::SetType()</a>.</p>
 

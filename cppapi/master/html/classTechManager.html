@@ -99,6 +99,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>holds all FreeOrion techs.  
+ <a href="classTechManager.html#details">More...</a></p>
+
 <p><code>#include &lt;Tech.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -111,8 +114,10 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab294e1dbb97eca53238680db2ce1afbf"><td class="memItemLeft" align="right" valign="top">typedef TechContainer::index&lt; <a class="el" href="structTechManager_1_1CategoryIndex.html">CategoryIndex</a> &gt;::type::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf">category_iterator</a></td></tr>
+<tr class="memdesc:ab294e1dbb97eca53238680db2ce1afbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator that runs over techs within a category  <a href="#ab294e1dbb97eca53238680db2ce1afbf">More...</a><br /></td></tr>
 <tr class="separator:ab294e1dbb97eca53238680db2ce1afbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b20585ae3e06f0aa09cc2089e813a2"><td class="memItemLeft" align="right" valign="top">typedef TechContainer::index&lt; <a class="el" href="structTechManager_1_1NameIndex.html">NameIndex</a> &gt;::type::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2">iterator</a></td></tr>
+<tr class="memdesc:a40b20585ae3e06f0aa09cc2089e813a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator that runs over all techs  <a href="#a40b20585ae3e06f0aa09cc2089e813a2">More...</a><br /></td></tr>
 <tr class="separator:a40b20585ae3e06f0aa09cc2089e813a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a572a92a1fd921d329be48c550cb5e7ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechCategoryMap</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structTechCategory.html">TechCategory</a> &gt;&gt;</td></tr>
 <tr class="separator:a572a92a1fd921d329be48c550cb5e7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,42 +129,59 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac86f0286aae062e5f7d5843d1d272241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ac86f0286aae062e5f7d5843d1d272241">SetTechs</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> &gt; &amp;&amp;future)</td></tr>
+<tr class="memdesc:ac86f0286aae062e5f7d5843d1d272241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets types to the value of <code>future</code>.  <a href="#ac86f0286aae062e5f7d5843d1d272241">More...</a><br /></td></tr>
 <tr class="separator:ac86f0286aae062e5f7d5843d1d272241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:af777f6d0120816367b316229821ce0e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af777f6d0120816367b316229821ce0e6">GetTech</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:af777f6d0120816367b316229821ce0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the tech with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#af777f6d0120816367b316229821ce0e6" title="returns the tech with the name name; you should use the free function GetTech() instead ...">GetTech()</a> instead  <a href="#af777f6d0120816367b316229821ce0e6">More...</a><br /></td></tr>
 <tr class="separator:af777f6d0120816367b316229821ce0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18fba98717e696947d0bbb8a89f0ad8c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structTechCategory.html">TechCategory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a18fba98717e696947d0bbb8a89f0ad8c">GetTechCategory</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:a18fba98717e696947d0bbb8a89f0ad8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the tech category with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#a18fba98717e696947d0bbb8a89f0ad8c" title="returns the tech category with the name name; you should use the free function GetTechCategory() inst...">GetTechCategory()</a> instead  <a href="#a18fba98717e696947d0bbb8a89f0ad8c">More...</a><br /></td></tr>
 <tr class="separator:a18fba98717e696947d0bbb8a89f0ad8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b0a9f9403f7e33e93e1642e864d95a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ab8b0a9f9403f7e33e93e1642e864d95a">CategoryNames</a> () const </td></tr>
+<tr class="memdesc:ab8b0a9f9403f7e33e93e1642e864d95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the list of category names  <a href="#ab8b0a9f9403f7e33e93e1642e864d95a">More...</a><br /></td></tr>
 <tr class="separator:ab8b0a9f9403f7e33e93e1642e864d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab50dd3fb39246c7e33da2e756c8834de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ab50dd3fb39246c7e33da2e756c8834de">TechNames</a> () const </td></tr>
+<tr class="memdesc:ab50dd3fb39246c7e33da2e756c8834de"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns list of all tech names  <a href="#ab50dd3fb39246c7e33da2e756c8834de">More...</a><br /></td></tr>
 <tr class="separator:ab50dd3fb39246c7e33da2e756c8834de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50501fbed935aa94ab71f0ad1b2237ca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a50501fbed935aa94ab71f0ad1b2237ca">TechNames</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:a50501fbed935aa94ab71f0ad1b2237ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns list of names of techs in specified category  <a href="#a50501fbed935aa94ab71f0ad1b2237ca">More...</a><br /></td></tr>
 <tr class="separator:a50501fbed935aa94ab71f0ad1b2237ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3577d3d0d38a299bd298dc84b2ba848c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classTech.html">Tech</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a3577d3d0d38a299bd298dc84b2ba848c">AllNextTechs</a> (const std::set&lt; std::string &gt; &amp;known_techs)</td></tr>
+<tr class="memdesc:a3577d3d0d38a299bd298dc84b2ba848c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all researchable techs  <a href="#a3577d3d0d38a299bd298dc84b2ba848c">More...</a><br /></td></tr>
 <tr class="separator:a3577d3d0d38a299bd298dc84b2ba848c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a651f663b0f7eb4cf5983c227fcd0b0a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a651f663b0f7eb4cf5983c227fcd0b0a3">CheapestNextTech</a> (const std::set&lt; std::string &gt; &amp;known_techs, int empire_id)</td></tr>
+<tr class="memdesc:a651f663b0f7eb4cf5983c227fcd0b0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the cheapest researchable tech  <a href="#a651f663b0f7eb4cf5983c227fcd0b0a3">More...</a><br /></td></tr>
 <tr class="separator:a651f663b0f7eb4cf5983c227fcd0b0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14c6dc1a517420dadfe49a71b67c6e6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classTech.html">Tech</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ae14c6dc1a517420dadfe49a71b67c6e6">NextTechsTowards</a> (const std::set&lt; std::string &gt; &amp;known_techs, const std::string &amp;desired_tech, int empire_id)</td></tr>
+<tr class="memdesc:ae14c6dc1a517420dadfe49a71b67c6e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all researchable techs that progress from the given known techs to the given desired tech  <a href="#ae14c6dc1a517420dadfe49a71b67c6e6">More...</a><br /></td></tr>
 <tr class="separator:ae14c6dc1a517420dadfe49a71b67c6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a132e83ede50ffa681fcd26de88ff9e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTech.html">Tech</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a7a132e83ede50ffa681fcd26de88ff9e">CheapestNextTechTowards</a> (const std::set&lt; std::string &gt; &amp;known_techs, const std::string &amp;desired_tech, int empire_id)</td></tr>
+<tr class="memdesc:a7a132e83ede50ffa681fcd26de88ff9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the cheapest researchable tech that progresses from the given known techs to the given desired tech  <a href="#a7a132e83ede50ffa681fcd26de88ff9e">More...</a><br /></td></tr>
 <tr class="separator:a7a132e83ede50ffa681fcd26de88ff9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c0beaba4929ecc584247676353c614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a74c0beaba4929ecc584247676353c614">begin</a> () const </td></tr>
+<tr class="memdesc:a74c0beaba4929ecc584247676353c614"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first tech  <a href="#a74c0beaba4929ecc584247676353c614">More...</a><br /></td></tr>
 <tr class="separator:a74c0beaba4929ecc584247676353c614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b866aec27ea88ba562567f2c331e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a40b20585ae3e06f0aa09cc2089e813a2">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ae3b866aec27ea88ba562567f2c331e87">end</a> () const </td></tr>
+<tr class="memdesc:ae3b866aec27ea88ba562567f2c331e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1th tech  <a href="#ae3b866aec27ea88ba562567f2c331e87">More...</a><br /></td></tr>
 <tr class="separator:ae3b866aec27ea88ba562567f2c331e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a3363d43484044c53e682248653759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf">category_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ac5a3363d43484044c53e682248653759">category_begin</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:ac5a3363d43484044c53e682248653759"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the first tech in category <em>name</em>  <a href="#ac5a3363d43484044c53e682248653759">More...</a><br /></td></tr>
 <tr class="separator:ac5a3363d43484044c53e682248653759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03656eefd73c53e345d2d72fd77fdaee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf">category_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a03656eefd73c53e345d2d72fd77fdaee">category_end</a> (const std::string &amp;name) const </td></tr>
+<tr class="memdesc:a03656eefd73c53e345d2d72fd77fdaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1th tech in category <em>name</em>  <a href="#a03656eefd73c53e345d2d72fd77fdaee">More...</a><br /></td></tr>
 <tr class="separator:a03656eefd73c53e345d2d72fd77fdaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1549f3af02c6213e7022f0dedbfb352"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#aa1549f3af02c6213e7022f0dedbfb352">RecursivePrereqs</a> (const std::string &amp;tech_name, int empire_id, bool min_required=true) const </td></tr>
+<tr class="memdesc:aa1549f3af02c6213e7022f0dedbfb352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of indicated tech's prerequisites, and all prereqs of those techs, etc.  <a href="#aa1549f3af02c6213e7022f0dedbfb352">More...</a><br /></td></tr>
 <tr class="separator:aa1549f3af02c6213e7022f0dedbfb352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad694d2f3912963e5760e6bfe98bd1f98"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ad694d2f3912963e5760e6bfe98bd1f98">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:ad694d2f3912963e5760e6bfe98bd1f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#ad694d2f3912963e5760e6bfe98bd1f98">More...</a><br /></td></tr>
 <tr class="separator:ad694d2f3912963e5760e6bfe98bd1f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4ebc1c49eb0609d59462863ebd5a00b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTechManager.html">TechManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ae4ebc1c49eb0609d59462863ebd5a00b">GetTechManager</a> ()</td></tr>
+<tr class="memdesc:ae4ebc1c49eb0609d59462863ebd5a00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the instance of this singleton class; you should use the free function <a class="el" href="classTechManager.html#ae4ebc1c49eb0609d59462863ebd5a00b" title="returns the instance of this singleton class; you should use the free function GetTechManager() inste...">GetTechManager()</a> instead  <a href="#ae4ebc1c49eb0609d59462863ebd5a00b">More...</a><br /></td></tr>
 <tr class="separator:ae4ebc1c49eb0609d59462863ebd5a00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -169,12 +191,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a0d272c0498e60fa84ba6818d750c8b9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a0d272c0498e60fa84ba6818d750c8b9a">AllChildren</a> (const <a class="el" href="classTech.html">Tech</a> *tech, std::map&lt; std::string, std::string &gt; &amp;children) const </td></tr>
 <tr class="separator:a0d272c0498e60fa84ba6818d750c8b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab149695e448b987032c23b6d741cb75f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#ab149695e448b987032c23b6d741cb75f">CheckPendingTechs</a> () const </td></tr>
+<tr class="memdesc:ab149695e448b987032c23b6d741cb75f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns any m_pending_types to m_techs.  <a href="#ab149695e448b987032c23b6d741cb75f">More...</a><br /></td></tr>
 <tr class="separator:ab149695e448b987032c23b6d741cb75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152729ba4ff80e6064659177b2dff3c2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a152729ba4ff80e6064659177b2dff3c2">FindFirstDependencyCycle</a> () const </td></tr>
+<tr class="memdesc:a152729ba4ff80e6064659177b2dff3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an error string indicating the first prerequisite dependency cycle found in m_techs, or an empty string if there are no dependency cycles  <a href="#a152729ba4ff80e6064659177b2dff3c2">More...</a><br /></td></tr>
 <tr class="separator:a152729ba4ff80e6064659177b2dff3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f84e88494645d2c73da765739fc2b5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af7f84e88494645d2c73da765739fc2b5">FindIllegalDependencies</a> () const </td></tr>
+<tr class="memdesc:af7f84e88494645d2c73da765739fc2b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an error string indicating the first instance of an illegal prerequisite relationship between two techs in m_techs, or an empty string if there are no illegal dependencies  <a href="#af7f84e88494645d2c73da765739fc2b5">More...</a><br /></td></tr>
 <tr class="separator:af7f84e88494645d2c73da765739fc2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afccfd2a4597d74cc91164a4a6488593e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#afccfd2a4597d74cc91164a4a6488593e">FindRedundantDependency</a> () const </td></tr>
+<tr class="memdesc:afccfd2a4597d74cc91164a4a6488593e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an error string indicating the first instance of a redundant dependency, or an empty string if there are no redundant dependencies.  <a href="#afccfd2a4597d74cc91164a4a6488593e">More...</a><br /></td></tr>
 <tr class="separator:afccfd2a4597d74cc91164a4a6488593e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -182,6 +208,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9a8e7f072561008e3cd84c30e33f2bab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a572a92a1fd921d329be48c550cb5e7ae">TechCategoryMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a9a8e7f072561008e3cd84c30e33f2bab">m_categories</a></td></tr>
 <tr class="separator:a9a8e7f072561008e3cd84c30e33f2bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af622617dabf8c0b3c9d47b685463ebbe"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classTechManager.html#aea014f0fe8be17de79674c4439281546">TechParseTuple</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#af622617dabf8c0b3c9d47b685463ebbe">m_pending_types</a> = boost::none</td></tr>
+<tr class="memdesc:af622617dabf8c0b3c9d47b685463ebbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Future types being parsed by parser.  <a href="#af622617dabf8c0b3c9d47b685463ebbe">More...</a><br /></td></tr>
 <tr class="separator:af622617dabf8c0b3c9d47b685463ebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a449fdd7ebc524e7df7ebeb39c10e52e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTechManager.html#a6428ddad8d8fb9a272679a50cfb8a24b">TechContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTechManager.html#a449fdd7ebc524e7df7ebeb39c10e52e1">m_techs</a></td></tr>
 <tr class="separator:a449fdd7ebc524e7df7ebeb39c10e52e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,7 +219,8 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a297cc65e89fbafdd4bd9a40c1182ca1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>holds all FreeOrion techs. Techs may be looked up by name and by category, and the next researchable techs can be querried, given a set of currently-known techs. </p>
+<div class="textblock"><p>holds all FreeOrion techs. </p>
+<p>Techs may be looked up by name and by category, and the next researchable techs can be querried, given a set of currently-known techs. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="ab294e1dbb97eca53238680db2ce1afbf"></a>
 <div class="memitem">
@@ -203,6 +231,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator that runs over techs within a category </p>
 
 </div>
@@ -216,6 +245,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator that runs over all techs </p>
 
 </div>
@@ -330,6 +360,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns all researchable techs </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#a5ea6d68c1b4311a693944e43c8879603">anonymous_namespace{Tech.cpp}::NextTechs()</a>.</p>
@@ -348,6 +379,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the first tech </p>
 
 </div>
@@ -365,6 +397,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the first tech in category <em>name</em> </p>
 
 </div>
@@ -382,6 +415,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the last + 1th tech in category <em>name</em> </p>
 
 </div>
@@ -398,6 +432,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns the list of category names </p>
 
 <p>Referenced by <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a72976add43387b5d5c2d4374fe89455f">TechTreeWnd::LayoutPanel::ShowAllCategories()</a>, <a class="el" href="classTechTreeWnd_1_1TechListBox.html#a6dd5e8751683bf0a8ac56a7241a27e89">TechTreeWnd::TechListBox::ShowAllCategories()</a>, <a class="el" href="classTechTreeWnd.html#a6c1411867b78ba044d5a95a6ed9b8115">TechTreeWnd::ToggleAllCategories()</a>, and <a class="el" href="namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34">FreeOrionPython::WrapEmpire()</a>.</p>
@@ -427,6 +462,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns the cheapest researchable tech </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#ac7c41cfb43b4c512cfa1bc55343cfa3b">anonymous_namespace{Tech.cpp}::Cheapest()</a>.</p>
@@ -462,6 +498,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns the cheapest researchable tech that progresses from the given known techs to the given desired tech </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#ac7c41cfb43b4c512cfa1bc55343cfa3b">anonymous_namespace{Tech.cpp}::Cheapest()</a>.</p>
@@ -488,6 +525,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Assigns any m_pending_types to m_techs. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="namespacePending.html#aba7482048c3a01b02770996caf95126e">Pending::WaitForPending()</a>.</p>
@@ -506,6 +544,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>iterator to the last + 1th tech </p>
 
 </div>
@@ -530,6 +569,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns an error string indicating the first prerequisite dependency cycle found in m_techs, or an empty string if there are no dependency cycles </p>
 
 <p>References <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="classTech.html#a9eed1f317f50355afdceab094a5f16ff">Tech::Name()</a>, and <a class="el" href="classTech.html#ac00306bb7c5534690836e51469535889">Tech::Prerequisites()</a>.</p>
@@ -556,6 +596,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>returns an error string indicating the first instance of an illegal prerequisite relationship between two techs in m_techs, or an empty string if there are no illegal dependencies </p>
 
 <p>References <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>.</p>
@@ -582,7 +623,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns an error string indicating the first instance of a redundant dependency, or an empty string if there are no redundant dependencies. An example of a redundant dependency is A &ndash;&gt; C, if A &ndash;&gt; B and B &ndash;&gt; C. </p>
+
+<p>returns an error string indicating the first instance of a redundant dependency, or an empty string if there are no redundant dependencies. </p>
+<p>An example of a redundant dependency is A &ndash;&gt; C, if A &ndash;&gt; B and B &ndash;&gt; C. </p>
 
 <p>References <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>.</p>
 
@@ -600,7 +643,9 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
 
@@ -621,7 +666,8 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the tech with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#af777f6d0120816367b316229821ce0e6">GetTech()</a> instead </p>
+
+<p>returns the tech with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#af777f6d0120816367b316229821ce0e6" title="returns the tech with the name name; you should use the free function GetTech() instead ...">GetTech()</a> instead </p>
 
 <p>Referenced by <a class="el" href="VarText_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, and <a class="el" href="classClientUI.html#a8a0ba3fb2146b27f81b68d1290be9fa2">ClientUI::TechIcon()</a>.</p>
 
@@ -640,7 +686,8 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the tech category with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#a18fba98717e696947d0bbb8a89f0ad8c">GetTechCategory()</a> instead </p>
+
+<p>returns the tech category with the name <em>name</em>; you should use the free function <a class="el" href="classTechManager.html#a18fba98717e696947d0bbb8a89f0ad8c" title="returns the tech category with the name name; you should use the free function GetTechCategory() inst...">GetTechCategory()</a> instead </p>
 
 <p>Referenced by <a class="el" href="Tech_8h.html#a85d71a81ca014119f91f0e1056fd7a10">GetTechCategory()</a>.</p>
 
@@ -666,7 +713,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classTechManager.html#ae4ebc1c49eb0609d59462863ebd5a00b">GetTechManager()</a> instead </p>
+
+<p>returns the instance of this singleton class; you should use the free function <a class="el" href="classTechManager.html#ae4ebc1c49eb0609d59462863ebd5a00b" title="returns the instance of this singleton class; you should use the free function GetTechManager() inste...">GetTechManager()</a> instead </p>
 
 <p>Referenced by <a class="el" href="VarText_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, and <a class="el" href="Tech_8h.html#a7586333f95afc5b86dcaedcb2e76662d">GetTechManager()</a>.</p>
 
@@ -701,6 +749,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns all researchable techs that progress from the given known techs to the given desired tech </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#a5ea6d68c1b4311a693944e43c8879603">anonymous_namespace{Tech.cpp}::NextTechs()</a>.</p>
@@ -736,7 +785,9 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns names of indicated tech's prerequisites, and all prereqs of those techs, etc. recursively. If <em>min_required</em> is false then prereqs will be included and recursed into even if already known to the empire. </p>
+
+<p>Returns names of indicated tech's prerequisites, and all prereqs of those techs, etc. </p>
+<p>recursively. If <em>min_required</em> is false then prereqs will be included and recursed into even if already known to the empire. </p>
 
 <p>References <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="Tech_8cpp.html#abfd8c8424a8e64e4d1096dc05264e5e6">GetTech()</a>, <a class="el" href="classTech.html#ac00306bb7c5534690836e51469535889">Tech::Prerequisites()</a>, and <a class="el" href="classTech.html#ab0ad48ede76c3e79785b7cb546d27ab5">Tech::ResearchCost()</a>.</p>
 
@@ -757,6 +808,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets types to the value of <code>future</code>. </p>
 
 <p>Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
@@ -775,6 +827,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns list of all tech names </p>
 
 <p>Referenced by <a class="el" href="classMessageWndEdit.html#a78da5e4e86d0200aa17411c51d5ee18c">MessageWndEdit::FindGameWords()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>.</p>
@@ -794,6 +847,7 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>returns list of names of techs in specified category </p>
 
 </div>
@@ -836,7 +890,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Future types being parsed by parser. mutable so that it can be assigned to m_species_types when completed. </p>
+
+<p>Future types being parsed by parser. </p>
+<p>mutable so that it can be assigned to m_species_types when completed. </p>
 
 </div>
 </div>

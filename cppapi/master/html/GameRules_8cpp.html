@@ -106,8 +106,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ad59b3f60242107cdf814a82ec6b34a40"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="GameRules_8h.html#ad998a3d848607a9af0256385c425d2d8">GameRulesFn</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02GameRules_8cpp_03.html#ad59b3f60242107cdf814a82ec6b34a40">anonymous_namespace{GameRules.cpp}::GameRulesRegistry</a> ()</td></tr>
 <tr class="separator:ad59b3f60242107cdf814a82ec6b34a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a596d14b3b4a5f93dca44041d7df32117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGameRules.html">GameRules</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules</a> ()</td></tr>
+<tr class="memdesc:a596d14b3b4a5f93dca44041d7df32117"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the single instance of the <a class="el" href="classGameRules.html" title="Database of values that control how the game mechanics function. ">GameRules</a> class  <a href="#a596d14b3b4a5f93dca44041d7df32117">More...</a><br /></td></tr>
 <tr class="separator:a596d14b3b4a5f93dca44041d7df32117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d93999c392a8d7dcef7f2443d3922e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GameRules_8cpp.html#a2d93999c392a8d7dcef7f2443d3922e0">RegisterGameRules</a> (<a class="el" href="GameRules_8h.html#ad998a3d848607a9af0256385c425d2d8">GameRulesFn</a> function)</td></tr>
+<tr class="memdesc:a2d93999c392a8d7dcef7f2443d3922e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds <em>function</em> to a vector of pointers to functions that add Rules to the <a class="el" href="classGameRules.html" title="Database of values that control how the game mechanics function. ">GameRules</a>.  <a href="#a2d93999c392a8d7dcef7f2443d3922e0">More...</a><br /></td></tr>
 <tr class="separator:a2d93999c392a8d7dcef7f2443d3922e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -123,7 +125,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the single instance of the <a class="el" href="classGameRules.html">GameRules</a> class </p>
+
+<p>returns the single instance of the <a class="el" href="classGameRules.html" title="Database of values that control how the game mechanics function. ">GameRules</a> class </p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceparse.html#ad057eac26ac25ccd7d00f1cbc83274bc">parse::game_rules()</a>, and <a class="el" href="namespaceanonymous__namespace_02GameRules_8cpp_03.html#ad59b3f60242107cdf814a82ec6b34a40">anonymous_namespace{GameRules.cpp}::GameRulesRegistry()</a>.</p>
 
@@ -144,7 +147,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds <em>function</em> to a vector of pointers to functions that add Rules to the <a class="el" href="classGameRules.html">GameRules</a>. This function returns a boolean so that it can be used to declare a dummy static variable that causes <em>function</em> to be registered as a side effect (e.g. at file scope: "bool unused_bool = RegisterGameRules(&amp;foo)"). </p>
+
+<p>adds <em>function</em> to a vector of pointers to functions that add Rules to the <a class="el" href="classGameRules.html" title="Database of values that control how the game mechanics function. ">GameRules</a>. </p>
+<p>This function returns a boolean so that it can be used to declare a dummy static variable that causes <em>function</em> to be registered as a side effect (e.g. at file scope: "bool unused_bool = RegisterGameRules(&amp;foo)"). </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02GameRules_8cpp_03.html#ad59b3f60242107cdf814a82ec6b34a40">anonymous_namespace{GameRules.cpp}::GameRulesRegistry()</a>.</p>
 

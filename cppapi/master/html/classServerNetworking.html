@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Encapsulates the networking facilities of the server.  
+ <a href="classServerNetworking.html#details">More...</a></p>
+
 <p><code>#include &lt;ServerNetworking.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -124,61 +127,89 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a53194fa6a590effa53b8e6e2a11330cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a41e0c2452995721521bb4a0926cb3d57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a41e0c2452995721521bb4a0926cb3d57">empty</a> () const </td></tr>
+<tr class="memdesc:a41e0c2452995721521bb4a0926cb3d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <a class="el" href="classServerNetworking.html#a50754d78f32ea02f707f003e2cd25353" title="Returns the total number of PlayerConnections (not just established ones). ">size()</a> == 0.  <a href="#a41e0c2452995721521bb4a0926cb3d57">More...</a><br /></td></tr>
 <tr class="separator:a41e0c2452995721521bb4a0926cb3d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50754d78f32ea02f707f003e2cd25353"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a50754d78f32ea02f707f003e2cd25353">size</a> () const </td></tr>
+<tr class="memdesc:a50754d78f32ea02f707f003e2cd25353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <em>total</em> number of PlayerConnections (not just established ones).  <a href="#a50754d78f32ea02f707f003e2cd25353">More...</a><br /></td></tr>
 <tr class="separator:a50754d78f32ea02f707f003e2cd25353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf941fbfd33fba3f74573cda0edfc31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#ab36329899e2540862914630e4743a68b">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a9cf941fbfd33fba3f74573cda0edfc31">begin</a> () const </td></tr>
+<tr class="memdesc:a9cf941fbfd33fba3f74573cda0edfc31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a9cf941fbfd33fba3f74573cda0edfc31">More...</a><br /></td></tr>
 <tr class="separator:a9cf941fbfd33fba3f74573cda0edfc31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588322bd296e4db17a43d9fb67063c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#ab36329899e2540862914630e4743a68b">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a588322bd296e4db17a43d9fb67063c4d">end</a> () const </td></tr>
+<tr class="memdesc:a588322bd296e4db17a43d9fb67063c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a588322bd296e4db17a43d9fb67063c4d">More...</a><br /></td></tr>
 <tr class="separator:a588322bd296e4db17a43d9fb67063c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4dca612d2b179829b283158e99b56f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a2d4dca612d2b179829b283158e99b56f">NumEstablishedPlayers</a> () const </td></tr>
+<tr class="memdesc:a2d4dca612d2b179829b283158e99b56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of established-player PlayerConnections.  <a href="#a2d4dca612d2b179829b283158e99b56f">More...</a><br /></td></tr>
 <tr class="separator:a2d4dca612d2b179829b283158e99b56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f8c34353ffbd6926d34fd8ea0192092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a8154c6d8862d0647c5b5e35cb6120600">const_established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer</a> (int id) const </td></tr>
+<tr class="memdesc:a2f8c34353ffbd6926d34fd8ea0192092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#a76b69f5380246925cb09d723e0aaa79e" title="Returns an iterator to the one-past-the-last established PlayerConnection object. ...">established_end()</a> if none is found.  <a href="#a2f8c34353ffbd6926d34fd8ea0192092">More...</a><br /></td></tr>
 <tr class="separator:a2f8c34353ffbd6926d34fd8ea0192092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91608f8c643c80d50672b056eee9c5d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a8154c6d8862d0647c5b5e35cb6120600">const_established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin</a> () const </td></tr>
+<tr class="memdesc:a91608f8c643c80d50672b056eee9c5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first <em>established</em> <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a91608f8c643c80d50672b056eee9c5d9">More...</a><br /></td></tr>
 <tr class="separator:a91608f8c643c80d50672b056eee9c5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6e05cb4d8f81d96ff22441e93465ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a8154c6d8862d0647c5b5e35cb6120600">const_established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end</a> () const </td></tr>
+<tr class="memdesc:ac6e05cb4d8f81d96ff22441e93465ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the one-past-the-last <em>established</em> <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#ac6e05cb4d8f81d96ff22441e93465ee2">More...</a><br /></td></tr>
 <tr class="separator:ac6e05cb4d8f81d96ff22441e93465ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab708a1309b63f5264041e6b31faf1c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a3ab708a1309b63f5264041e6b31faf1c">NewPlayerID</a> () const </td></tr>
+<tr class="memdesc:a3ab708a1309b63f5264041e6b31faf1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID number for new player, which will be larger than the ID of all the established players.  <a href="#a3ab708a1309b63f5264041e6b31faf1c">More...</a><br /></td></tr>
 <tr class="separator:a3ab708a1309b63f5264041e6b31faf1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a892b82f58218c80fd5e8264c0c5e82bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a892b82f58218c80fd5e8264c0c5e82bf">HostPlayerID</a> () const </td></tr>
+<tr class="memdesc:a892b82f58218c80fd5e8264c0c5e82bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the host player, or INVALID_PLAYER_ID if there is no host player.  <a href="#a892b82f58218c80fd5e8264c0c5e82bf">More...</a><br /></td></tr>
 <tr class="separator:a892b82f58218c80fd5e8264c0c5e82bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f9abe342868f51cfc983cb749626d58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">PlayerIsHost</a> (int player_id) const </td></tr>
+<tr class="memdesc:a0f9abe342868f51cfc983cb749626d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the indicated player ID is the host.  <a href="#a0f9abe342868f51cfc983cb749626d58">More...</a><br /></td></tr>
 <tr class="separator:a0f9abe342868f51cfc983cb749626d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7945a8dcd73eeefa06359c493744003d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a7945a8dcd73eeefa06359c493744003d">ModeratorsInGame</a> () const </td></tr>
+<tr class="memdesc:a7945a8dcd73eeefa06359c493744003d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether there are any moderators in the game.  <a href="#a7945a8dcd73eeefa06359c493744003d">More...</a><br /></td></tr>
 <tr class="separator:a7945a8dcd73eeefa06359c493744003d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ab8f49226bc3ba0e5c7257e46c7d07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">IsAvailableNameInCookies</a> (const std::string &amp;player_name) const </td></tr>
+<tr class="memdesc:a19ab8f49226bc3ba0e5c7257e46c7d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether there no non-expired cookie with this player name.  <a href="#a19ab8f49226bc3ba0e5c7257e46c7d07">More...</a><br /></td></tr>
 <tr class="separator:a19ab8f49226bc3ba0e5c7257e46c7d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfc89f30ff2572019ad6331bbf73213a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie</a> (boost::uuids::uuid cookie, const std::string &amp;player_name, <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles, bool &amp;authenticated) const </td></tr>
+<tr class="memdesc:abfc89f30ff2572019ad6331bbf73213a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether player have non-expired cookie with this player name.  <a href="#abfc89f30ff2572019ad6331bbf73213a">More...</a><br /></td></tr>
 <tr class="separator:abfc89f30ff2572019ad6331bbf73213a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a1d9a98eb2e7dd93890f98081882ac929"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
+<tr class="memdesc:a1d9a98eb2e7dd93890f98081882ac929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a synchronous message <em>message</em> to the player indicated in the message and returns true on success.  <a href="#a1d9a98eb2e7dd93890f98081882ac929">More...</a><br /></td></tr>
 <tr class="separator:a1d9a98eb2e7dd93890f98081882ac929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d42d2640bf6640e8cf7fc91005d6e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">Disconnect</a> (int id)</td></tr>
+<tr class="memdesc:a5d42d2640bf6640e8cf7fc91005d6e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects the server from player <em>id</em>.  <a href="#a5d42d2640bf6640e8cf7fc91005d6e5b">More...</a><br /></td></tr>
 <tr class="separator:a5d42d2640bf6640e8cf7fc91005d6e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08aefe2c51e336e3b31d144a71389f12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12">Disconnect</a> (<a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="memdesc:a08aefe2c51e336e3b31d144a71389f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects the server from the client represented by <em>player_connection</em>.  <a href="#a08aefe2c51e336e3b31d144a71389f12">More...</a><br /></td></tr>
 <tr class="separator:a08aefe2c51e336e3b31d144a71389f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accbe746af7ee6b3181a2f3a78fc2c892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892">DisconnectAll</a> ()</td></tr>
+<tr class="memdesc:accbe746af7ee6b3181a2f3a78fc2c892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects the server from all clients.  <a href="#accbe746af7ee6b3181a2f3a78fc2c892">More...</a><br /></td></tr>
 <tr class="separator:accbe746af7ee6b3181a2f3a78fc2c892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ef7a2da0b9e8c5c445ba024355c187e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a792528ec3040557bd1b7ed6d4911c44f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a0ef7a2da0b9e8c5c445ba024355c187e">begin</a> ()</td></tr>
+<tr class="memdesc:a0ef7a2da0b9e8c5c445ba024355c187e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a0ef7a2da0b9e8c5c445ba024355c187e">More...</a><br /></td></tr>
 <tr class="separator:a0ef7a2da0b9e8c5c445ba024355c187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade69e1bfa7f7e1d6ad3eb51d3d0a1e93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a792528ec3040557bd1b7ed6d4911c44f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#ade69e1bfa7f7e1d6ad3eb51d3d0a1e93">end</a> ()</td></tr>
+<tr class="memdesc:ade69e1bfa7f7e1d6ad3eb51d3d0a1e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#ade69e1bfa7f7e1d6ad3eb51d3d0a1e93">More...</a><br /></td></tr>
 <tr class="separator:ade69e1bfa7f7e1d6ad3eb51d3d0a1e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00968f62df4d0c9d4acd593eb0b2cef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a2be56e1eb6a2d1e0044adf5bbc168825">established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a00968f62df4d0c9d4acd593eb0b2cef9">GetPlayer</a> (int id)</td></tr>
+<tr class="memdesc:a00968f62df4d0c9d4acd593eb0b2cef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#ade69e1bfa7f7e1d6ad3eb51d3d0a1e93" title="Returns an iterator to the one-past-the-last PlayerConnection object. ">end()</a> if none is found.  <a href="#a00968f62df4d0c9d4acd593eb0b2cef9">More...</a><br /></td></tr>
 <tr class="separator:a00968f62df4d0c9d4acd593eb0b2cef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06359b67896c79a848e1c95b51e6702b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a2be56e1eb6a2d1e0044adf5bbc168825">established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a06359b67896c79a848e1c95b51e6702b">established_begin</a> ()</td></tr>
+<tr class="memdesc:a06359b67896c79a848e1c95b51e6702b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a06359b67896c79a848e1c95b51e6702b">More...</a><br /></td></tr>
 <tr class="separator:a06359b67896c79a848e1c95b51e6702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b69f5380246925cb09d723e0aaa79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classServerNetworking.html#a2be56e1eb6a2d1e0044adf5bbc168825">established_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a76b69f5380246925cb09d723e0aaa79e">established_end</a> ()</td></tr>
+<tr class="memdesc:a76b69f5380246925cb09d723e0aaa79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the one-past-the-last established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object.  <a href="#a76b69f5380246925cb09d723e0aaa79e">More...</a><br /></td></tr>
 <tr class="separator:a76b69f5380246925cb09d723e0aaa79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f524eb0aff3de3ba87ff173ddae731f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a9f524eb0aff3de3ba87ff173ddae731f">HandleNextEvent</a> ()</td></tr>
+<tr class="memdesc:a9f524eb0aff3de3ba87ff173ddae731f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dequeues and executes the next event in the queue.  <a href="#a9f524eb0aff3de3ba87ff173ddae731f">More...</a><br /></td></tr>
 <tr class="separator:a9f524eb0aff3de3ba87ff173ddae731f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2d4700adfbf37123b562dabc0af793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a8e2d4700adfbf37123b562dabc0af793">SetHostPlayerID</a> (int host_player_id)</td></tr>
+<tr class="memdesc:a8e2d4700adfbf37123b562dabc0af793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets Host player ID.  <a href="#a8e2d4700adfbf37123b562dabc0af793">More...</a><br /></td></tr>
 <tr class="separator:a8e2d4700adfbf37123b562dabc0af793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535a38af70a0728b8b8d4298b47a6397"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397">GenerateCookie</a> (const std::string &amp;player_name, const <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles, bool authenticated)</td></tr>
+<tr class="memdesc:a535a38af70a0728b8b8d4298b47a6397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate cookies for player's name, roles, and authentication status.  <a href="#a535a38af70a0728b8b8d4298b47a6397">More...</a><br /></td></tr>
 <tr class="separator:a535a38af70a0728b8b8d4298b47a6397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a833aa1a9b8553197a84140ef21c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">UpdateCookie</a> (boost::uuids::uuid cookie)</td></tr>
+<tr class="memdesc:a90a833aa1a9b8553197a84140ef21c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bump cookie's expired date.  <a href="#a90a833aa1a9b8553197a84140ef21c37">More...</a><br /></td></tr>
 <tr class="separator:a90a833aa1a9b8553197a84140ef21c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd8d1314621c1151ff63cc6fe3413c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies</a> ()</td></tr>
+<tr class="memdesc:acbd8d1314621c1151ff63cc6fe3413c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up expired cookies.  <a href="#acbd8d1314621c1151ff63cc6fe3413c0">More...</a><br /></td></tr>
 <tr class="separator:acbd8d1314621c1151ff63cc6fe3413c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
@@ -221,7 +252,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab4ffadf17d25aba9e584f2e77442d617"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encapsulates the networking facilities of the server. This class listens for incoming UDP LAN server-discovery requests and TCP player connections. The server also sends and receives messages over the TCP player connections. </p>
+<div class="textblock"><p>Encapsulates the networking facilities of the server. </p>
+<p>This class listens for incoming UDP LAN server-discovery requests and TCP player connections. The server also sends and receives messages over the TCP player connections. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a8154c6d8862d0647c5b5e35cb6120600"></a>
 <div class="memitem">
@@ -427,7 +459,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the first <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the first <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -445,7 +478,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the first <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the first <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -486,7 +520,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns whether player have non-expired cookie with this player name. Fills roles and authentication status on success. </p>
+
+<p>Returns whether player have non-expired cookie with this player name. </p>
+<p>Fills roles and authentication status on success. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
 
@@ -506,6 +542,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Clean up expired cookies. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>, and <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
@@ -527,6 +564,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Disconnects the server from player <em>id</em>. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>, and <a class="el" href="classServerNetworking.html#a2f8c34353ffbd6926d34fd8ea0192092">GetPlayer()</a>.</p>
@@ -548,6 +586,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Disconnects the server from the client represented by <em>player_connection</em>. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
@@ -566,6 +605,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Disconnects the server from all clients. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
@@ -614,7 +654,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if <a class="el" href="classServerNetworking.html#a50754d78f32ea02f707f003e2cd25353">size()</a> == 0. </p>
+
+<p>Returns true if <a class="el" href="classServerNetworking.html#a50754d78f32ea02f707f003e2cd25353" title="Returns the total number of PlayerConnections (not just established ones). ">size()</a> == 0. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -634,7 +675,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -654,7 +696,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -700,7 +743,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the first <em>established</em> <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the first <em>established</em> <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -720,7 +764,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the first established <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the first established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -738,7 +783,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the one-past-the-last <em>established</em> <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the one-past-the-last <em>established</em> <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -758,7 +804,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the one-past-the-last established <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object. </p>
+
+<p>Returns an iterator to the one-past-the-last established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
 
@@ -793,6 +840,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Generate cookies for player's name, roles, and authentication status. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
@@ -814,7 +862,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the established <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#a76b69f5380246925cb09d723e0aaa79e">established_end()</a> if none is found. </p>
+
+<p>Returns an iterator to the established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#a76b69f5380246925cb09d723e0aaa79e" title="Returns an iterator to the one-past-the-last established PlayerConnection object. ...">established_end()</a> if none is found. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>, and <a class="el" href="namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">AIInterface::PlayerID()</a>.</p>
 
@@ -835,7 +884,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns an iterator to the established <a class="el" href="classPlayerConnection.html">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#ade69e1bfa7f7e1d6ad3eb51d3d0a1e93">end()</a> if none is found. </p>
+
+<p>Returns an iterator to the established <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object with ID <em>id</em>, or <a class="el" href="classServerNetworking.html#ade69e1bfa7f7e1d6ad3eb51d3d0a1e93" title="Returns an iterator to the one-past-the-last PlayerConnection object. ">end()</a> if none is found. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>, and <a class="el" href="namespaceAIInterface.html#aab9dbb02392842fce5e24cebf3d810b1">AIInterface::PlayerID()</a>.</p>
 
@@ -853,7 +903,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Dequeues and executes the next event in the queue. Results in a noop if the queue is empty. </p>
+
+<p>Dequeues and executes the next event in the queue. </p>
+<p>Results in a noop if the queue is empty. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a926a91d96765002424deeb6ef5c1a72d">m_event_queue</a>.</p>
 
@@ -873,6 +925,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the ID of the host player, or INVALID_PLAYER_ID if there is no host player. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a932f79f5ae99596a7430c8a518955184">m_host_player_id</a>.</p>
@@ -921,6 +974,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns whether there no non-expired cookie with this player name. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
@@ -941,6 +995,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns whether there are any moderators in the game. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#af712b01422694e7cb9a7c523300ffc09ac9a57a9f0db984c59b97ffbd4e4cb891">Networking::CLIENT_TYPE_HUMAN_MODERATOR</a>, and <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
@@ -961,6 +1016,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the ID number for new player, which will be larger than the ID of all the established players. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
@@ -981,6 +1037,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the number of established-player PlayerConnections. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, and <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>.</p>
@@ -1002,6 +1059,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns whether the indicated player ID is the host. </p>
 
 <p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classServerNetworking.html#a932f79f5ae99596a7430c8a518955184">m_host_player_id</a>.</p>
@@ -1023,6 +1081,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sends a synchronous message <em>message</em> to the player indicated in the message and returns true on success. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a91608f8c643c80d50672b056eee9c5d9">established_begin()</a>, and <a class="el" href="classServerNetworking.html#ac6e05cb4d8f81d96ff22441e93465ee2">established_end()</a>.</p>
@@ -1044,6 +1103,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Sets Host player ID. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a932f79f5ae99596a7430c8a518955184">m_host_player_id</a>.</p>
@@ -1064,6 +1124,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the <em>total</em> number of PlayerConnections (not just established ones). </p>
 
 <p>References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
@@ -1085,6 +1146,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Bump cookie's expired date. </p>
 
 <p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>

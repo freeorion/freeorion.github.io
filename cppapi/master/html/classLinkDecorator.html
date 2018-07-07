@@ -94,6 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>A class that can be subclassed to give types of links decorations in link text.  
+ <a href="classLinkDecorator.html#details">More...</a></p>
+
 <p><code>#include &lt;LinkText.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for LinkDecorator:</div>
@@ -112,8 +115,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abecfc4c3c963d808530a3b58e1def050"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkDecorator.html#abecfc4c3c963d808530a3b58e1def050">Decorate</a> (const std::string &amp;target, const std::string &amp;content) const </td></tr>
+<tr class="memdesc:abecfc4c3c963d808530a3b58e1def050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets called for each link of the type this decorator is assigned to.  <a href="#abecfc4c3c963d808530a3b58e1def050">More...</a><br /></td></tr>
 <tr class="separator:abecfc4c3c963d808530a3b58e1def050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72820e38d14314bb2c26883b8fb75bb4"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkDecorator.html#a72820e38d14314bb2c26883b8fb75bb4">DecorateRollover</a> (const std::string &amp;target, const std::string &amp;content) const </td></tr>
+<tr class="memdesc:a72820e38d14314bb2c26883b8fb75bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets called when the mouse hovers over a link of the type this decorator is assigned to.  <a href="#a72820e38d14314bb2c26883b8fb75bb4">More...</a><br /></td></tr>
 <tr class="separator:a72820e38d14314bb2c26883b8fb75bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structors</div></td></tr>
 <tr class="memitem:aa47cb119e16e3d2a5c23d4b92a03ad30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkDecorator.html#aa47cb119e16e3d2a5c23d4b92a03ad30">LinkDecorator</a> ()</td></tr>
@@ -124,10 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2f46633a5a1a694d5b613a1d3a13fad0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkDecorator.html#a2f46633a5a1a694d5b613a1d3a13fad0">CastStringToInt</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a2f46633a5a1a694d5b613a1d3a13fad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to convert str to int.  <a href="#a2f46633a5a1a694d5b613a1d3a13fad0">More...</a><br /></td></tr>
 <tr class="separator:a2f46633a5a1a694d5b613a1d3a13fad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class that can be subclassed to give types of links decorations in link text. "Decorations" here mean mostly wrapping the text in some styling tag or other, but a decorator is free to manipulate the decorated text in any way. </p>
+<div class="textblock"><p>A class that can be subclassed to give types of links decorations in link text. </p>
+<p>"Decorations" here mean mostly wrapping the text in some styling tag or other, but a decorator is free to manipulate the decorated text in any way. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa47cb119e16e3d2a5c23d4b92a03ad30"></a>
 <div class="memitem">
@@ -199,7 +206,9 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Try to convert str to int. Returns -1 if </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Try to convert str to int. </p>
+<p>Returns -1 if </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>conversion to an int fails. Helper for interpreting </td></tr>
     <tr><td class="paramname">str</td><td>as an ID of an object in the game universe. </td></tr>
@@ -242,7 +251,9 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets called for each link of the type this decorator is assigned to. The return value is shown to the user as the link. The default implementation wraps content in an rgba tag that colors it by <a class="el" href="classClientUI.html#a7598ede279fab4960b5b65a041028faf" title="default color of UI links ">ClientUI::DefaultLinkColor</a> </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Gets called for each link of the type this decorator is assigned to. </p>
+<p>The return value is shown to the user as the link. The default implementation wraps content in an rgba tag that colors it by <a class="el" href="classClientUI.html#a7598ede279fab4960b5b65a041028faf" title="default color of UI links ">ClientUI::DefaultLinkColor</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>The target of the link. Usually an id of something or the name of an encyclopedia entry. </td></tr>
     <tr><td class="paramname">content</td><td>The text the link tag was wrapped around. </td></tr>
@@ -290,7 +301,9 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets called when the mouse hovers over a link of the type this decorator is assigned to. The return value is shown to the user as the link. The default implementation wraps content in an rgba tag that colors it by <a class="el" href="classClientUI.html#a040225832e0f5f94835d39a6ec808a66" title="rollover color of UI links ">ClientUI::RolloverLinkColor</a> </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Gets called when the mouse hovers over a link of the type this decorator is assigned to. </p>
+<p>The return value is shown to the user as the link. The default implementation wraps content in an rgba tag that colors it by <a class="el" href="classClientUI.html#a040225832e0f5f94835d39a6ec808a66" title="rollover color of UI links ">ClientUI::RolloverLinkColor</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>The target of the link. Usually an id of something or the name of an encyclopedia entry. </td></tr>
     <tr><td class="paramname">content</td><td>The text the link tag was wrapped around. </td></tr>

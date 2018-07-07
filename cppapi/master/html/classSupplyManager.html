@@ -95,6 +95,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Used to calcuate all empires' supply distributions.  
+ <a href="classSupplyManager.html#details">More...</a></p>
+
 <p><code>#include &lt;Supply.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -106,41 +109,59 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acc0a512bb8c8cc2570c7aa3523b9a9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:ad8eadf99262ffb3a09af0eff6511f67b"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, std::set&lt; std::pair&lt; int, int &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ad8eadf99262ffb3a09af0eff6511f67b">SupplyStarlaneTraversals</a> () const </td></tr>
+<tr class="memdesc:ad8eadf99262ffb3a09af0eff6511f67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#ad8eadf99262ffb3a09af0eff6511f67b">More...</a><br /></td></tr>
 <tr class="separator:ad8eadf99262ffb3a09af0eff6511f67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbab0160dfde925f09cab59a7fb6aee"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::pair&lt; int, int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a2fbab0160dfde925f09cab59a7fb6aee">SupplyStarlaneTraversals</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a2fbab0160dfde925f09cab59a7fb6aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a2fbab0160dfde925f09cab59a7fb6aee">More...</a><br /></td></tr>
 <tr class="separator:a2fbab0160dfde925f09cab59a7fb6aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ddcfe6d4e1077a9cbe077e20b2efe60"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, std::set&lt; std::pair&lt; int, int &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a9ddcfe6d4e1077a9cbe077e20b2efe60">SupplyObstructedStarlaneTraversals</a> () const </td></tr>
+<tr class="memdesc:a9ddcfe6d4e1077a9cbe077e20b2efe60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply could flow for this empire, but which can't due to some obstruction in one of the systems.  <a href="#a9ddcfe6d4e1077a9cbe077e20b2efe60">More...</a><br /></td></tr>
 <tr class="separator:a9ddcfe6d4e1077a9cbe077e20b2efe60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2e8d54452328a270d3e0f5ce3443691"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::pair&lt; int, int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ac2e8d54452328a270d3e0f5ce3443691">SupplyObstructedStarlaneTraversals</a> (int empire_id) const </td></tr>
+<tr class="memdesc:ac2e8d54452328a270d3e0f5ce3443691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#ac2e8d54452328a270d3e0f5ce3443691">More...</a><br /></td></tr>
 <tr class="separator:ac2e8d54452328a270d3e0f5ce3443691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c090b1bf40bf05def3affef48a9dcfe"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, std::set&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a9c090b1bf40bf05def3affef48a9dcfe">FleetSupplyableSystemIDs</a> () const </td></tr>
+<tr class="memdesc:a9c090b1bf40bf05def3affef48a9dcfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of system ids where fleets can be supplied by this empire (as determined by object supply meters and rules of supply propagation and blockade).  <a href="#a9c090b1bf40bf05def3affef48a9dcfe">More...</a><br /></td></tr>
 <tr class="separator:a9c090b1bf40bf05def3affef48a9dcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cc25c82cbfa1188ac6746c1950ec9b9"><td class="memItemLeft" align="right" valign="top">const std::set&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a5cc25c82cbfa1188ac6746c1950ec9b9">FleetSupplyableSystemIDs</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a5cc25c82cbfa1188ac6746c1950ec9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a5cc25c82cbfa1188ac6746c1950ec9b9">More...</a><br /></td></tr>
 <tr class="separator:a5cc25c82cbfa1188ac6746c1950ec9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d73e7ae782f0be9b9200e836ebf38a"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a80d73e7ae782f0be9b9200e836ebf38a">FleetSupplyableSystemIDs</a> (int empire_id, bool include_allies) const </td></tr>
+<tr class="memdesc:a80d73e7ae782f0be9b9200e836ebf38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a80d73e7ae782f0be9b9200e836ebf38a">More...</a><br /></td></tr>
 <tr class="separator:a80d73e7ae782f0be9b9200e836ebf38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53cb663175dca19a0a05c3e69fe46f0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a53cb663175dca19a0a05c3e69fe46f0f">EmpireThatCanSupplyAt</a> (int system_id) const </td></tr>
+<tr class="memdesc:a53cb663175dca19a0a05c3e69fe46f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a53cb663175dca19a0a05c3e69fe46f0f">More...</a><br /></td></tr>
 <tr class="separator:a53cb663175dca19a0a05c3e69fe46f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d59e5cfb6021fb80e1bcc4fcdc9312"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, std::set&lt; std::set&lt; int &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a93d59e5cfb6021fb80e1bcc4fcdc9312">ResourceSupplyGroups</a> () const </td></tr>
+<tr class="memdesc:a93d59e5cfb6021fb80e1bcc4fcdc9312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of sets of systems that can share industry (systems in separate groups are blockaded or otherwise separated).  <a href="#a93d59e5cfb6021fb80e1bcc4fcdc9312">More...</a><br /></td></tr>
 <tr class="separator:a93d59e5cfb6021fb80e1bcc4fcdc9312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b6e2e2594bf4320ce81536d62fae30"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::set&lt; int &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ad5b6e2e2594bf4320ce81536d62fae30">ResourceSupplyGroups</a> (int empire_id) const </td></tr>
+<tr class="memdesc:ad5b6e2e2594bf4320ce81536d62fae30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#ad5b6e2e2594bf4320ce81536d62fae30">More...</a><br /></td></tr>
 <tr class="separator:ad5b6e2e2594bf4320ce81536d62fae30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b485b1c65f62fec5afb222423473cdc"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a9b485b1c65f62fec5afb222423473cdc">PropagatedSupplyRanges</a> () const </td></tr>
+<tr class="memdesc:a9b485b1c65f62fec5afb222423473cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range from each system some empire can propagate supply.  <a href="#a9b485b1c65f62fec5afb222423473cdc">More...</a><br /></td></tr>
 <tr class="separator:a9b485b1c65f62fec5afb222423473cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371c1c119c69801e56f8da1845fb524a"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a371c1c119c69801e56f8da1845fb524a">PropagatedSupplyRanges</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a371c1c119c69801e56f8da1845fb524a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range from each system that the empire with id <em>empire_id</em> can propagate supply.  <a href="#a371c1c119c69801e56f8da1845fb524a">More...</a><br /></td></tr>
 <tr class="separator:a371c1c119c69801e56f8da1845fb524a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1b6e1a72e3bbaf94a3578ee24c9500b"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ac1b6e1a72e3bbaf94a3578ee24c9500b">PropagatedSupplyDistances</a> () const </td></tr>
+<tr class="memdesc:ac1b6e1a72e3bbaf94a3578ee24c9500b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance from each system some empire is away from its closest source of supply without passing through obstructed systems for that empire.  <a href="#ac1b6e1a72e3bbaf94a3578ee24c9500b">More...</a><br /></td></tr>
 <tr class="separator:ac1b6e1a72e3bbaf94a3578ee24c9500b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f867ef9523ff5163c4f29d2a7a4993"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a61f867ef9523ff5163c4f29d2a7a4993">PropagatedSupplyDistances</a> (int empire_id) const </td></tr>
+<tr class="memdesc:a61f867ef9523ff5163c4f29d2a7a4993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance from each system for the empire with id <em>empire_id</em> to the closest source of supply without passing through obstructed systems for that empire.  <a href="#a61f867ef9523ff5163c4f29d2a7a4993">More...</a><br /></td></tr>
 <tr class="separator:a61f867ef9523ff5163c4f29d2a7a4993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a6f2527472a22a10374f7e848350fcc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a4a6f2527472a22a10374f7e848350fcc">SystemHasFleetSupply</a> (int system_id, int empire_id) const </td></tr>
+<tr class="memdesc:a4a6f2527472a22a10374f7e848350fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if system with id <em>system_id</em> is fleet supplyable or in one of the resource supply groups for empire with id <em>empire_id</em>.  <a href="#a4a6f2527472a22a10374f7e848350fcc">More...</a><br /></td></tr>
 <tr class="separator:a4a6f2527472a22a10374f7e848350fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1922bd1028e7153c1b3f512f45460d65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a1922bd1028e7153c1b3f512f45460d65">SystemHasFleetSupply</a> (int system_id, int empire_id, bool include_allies) const </td></tr>
+<tr class="memdesc:a1922bd1028e7153c1b3f512f45460d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a1922bd1028e7153c1b3f512f45460d65">More...</a><br /></td></tr>
 <tr class="separator:a1922bd1028e7153c1b3f512f45460d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e33cf511615d6389c11982ddc24a176"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a6e33cf511615d6389c11982ddc24a176">Dump</a> (int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const </td></tr>
+<tr class="memdesc:a6e33cf511615d6389c11982ddc24a176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns set of directed starlane traversals along which supply can flow.  <a href="#a6e33cf511615d6389c11982ddc24a176">More...</a><br /></td></tr>
 <tr class="separator:a6e33cf511615d6389c11982ddc24a176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:ac461e3705431914ce2720644327b060c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update</a> ()</td></tr>
+<tr class="memdesc:ac461e3705431914ce2720644327b060c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates systems at which fleets of empires can be supplied, and groups of systems that can exchange resources, and the starlane traversals used to do so.  <a href="#ac461e3705431914ce2720644327b060c">More...</a><br /></td></tr>
 <tr class="separator:ac461e3705431914ce2720644327b060c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -152,20 +173,28 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa48fcfcb246dc5f2f6c8c185cce3a1f5"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::map&lt; int, float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#aa48fcfcb246dc5f2f6c8c185cce3a1f5">m_empire_propagated_supply_distances</a></td></tr>
+<tr class="memdesc:aa48fcfcb246dc5f2f6c8c185cce3a1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each empire, what systems it can propagate supply into, and how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie.  <a href="#aa48fcfcb246dc5f2f6c8c185cce3a1f5">More...</a><br /></td></tr>
 <tr class="separator:aa48fcfcb246dc5f2f6c8c185cce3a1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88e2cda911e3fae1a2e184d77464b5e5"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::map&lt; int, float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a88e2cda911e3fae1a2e184d77464b5e5">m_empire_propagated_supply_ranges</a></td></tr>
+<tr class="memdesc:a88e2cda911e3fae1a2e184d77464b5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each empire, what systems it can propagate supply into, and how many further supply jumps it could propagate past this system, if not blocked from doing so by supply obstructions.  <a href="#a88e2cda911e3fae1a2e184d77464b5e5">More...</a><br /></td></tr>
 <tr class="separator:a88e2cda911e3fae1a2e184d77464b5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad47f351db11cd8371f92db9e46217b69"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a></td></tr>
+<tr class="memdesc:ad47f351db11cd8371f92db9e46217b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">ids of systems where fleets can be resupplied.  <a href="#ad47f351db11cd8371f92db9e46217b69">More...</a><br /></td></tr>
 <tr class="separator:ad47f351db11cd8371f92db9e46217b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50a7902e13be295d758c25ee51352aea"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a50a7902e13be295d758c25ee51352aea">m_propagated_supply_distances</a></td></tr>
+<tr class="memdesc:a50a7902e13be295d758c25ee51352aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">for whichever empire can propagate supply into this system, how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie.  <a href="#a50a7902e13be295d758c25ee51352aea">More...</a><br /></td></tr>
 <tr class="separator:a50a7902e13be295d758c25ee51352aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fe0a962923adc3ea627347f6514ca78"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a0fe0a962923adc3ea627347f6514ca78">m_propagated_supply_ranges</a></td></tr>
+<tr class="memdesc:a0fe0a962923adc3ea627347f6514ca78"><td class="mdescLeft">&#160;</td><td class="mdescRight">for whichever empire can propagate supply into this system, what is the additional range from this system that empire can propagate supply  <a href="#a0fe0a962923adc3ea627347f6514ca78">More...</a><br /></td></tr>
 <tr class="separator:a0fe0a962923adc3ea627347f6514ca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6f82fadc5604b9d0fe42ea5d9c77b70"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set&lt; std::set&lt; int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70">m_resource_supply_groups</a></td></tr>
+<tr class="memdesc:ac6f82fadc5604b9d0fe42ea5d9c77b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets of system ids that are connected by supply lines and are able to share resources between systems or between objects in systems.  <a href="#ac6f82fadc5604b9d0fe42ea5d9c77b70">More...</a><br /></td></tr>
 <tr class="separator:ac6f82fadc5604b9d0fe42ea5d9c77b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0f0a290eaa246a607807629ed6a1629"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set&lt; std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#ab0f0a290eaa246a607807629ed6a1629">m_supply_starlane_obstructed_traversals</a></td></tr>
+<tr class="memdesc:ab0f0a290eaa246a607807629ed6a1629"><td class="mdescLeft">&#160;</td><td class="mdescRight">ordered pairs of system ids between which a starlane could be used to convey resources between system, but is not because something is obstructing the resource flow.  <a href="#ab0f0a290eaa246a607807629ed6a1629">More...</a><br /></td></tr>
 <tr class="separator:ab0f0a290eaa246a607807629ed6a1629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d54a6e863e3d3738bb7dcc6e8151bf4"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set&lt; std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSupplyManager.html#a8d54a6e863e3d3738bb7dcc6e8151bf4">m_supply_starlane_traversals</a></td></tr>
+<tr class="memdesc:a8d54a6e863e3d3738bb7dcc6e8151bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ordered pairs of system ids between which a starlane runs that can be used to convey resources between systems.  <a href="#a8d54a6e863e3d3738bb7dcc6e8151bf4">More...</a><br /></td></tr>
 <tr class="separator:a8d54a6e863e3d3738bb7dcc6e8151bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -205,7 +234,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>, <a class="el" href="classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70">m_resource_supply_groups</a>, <a class="el" href="classSupplyManager.html#ab0f0a290eaa246a607807629ed6a1629">m_supply_starlane_obstructed_traversals</a>, <a class="el" href="classSupplyManager.html#a8d54a6e863e3d3738bb7dcc6e8151bf4">m_supply_starlane_traversals</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
@@ -224,7 +255,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>.</p>
 
@@ -244,6 +277,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns set of system ids where fleets can be supplied by this empire (as determined by object supply meters and rules of supply propagation and blockade). </p>
 
 <p>References <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>.</p>
@@ -265,7 +299,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#ae5d260cd06103063cf0386de2e94cd16">anonymous_namespace{Supply.cpp}::EMPTY_INT_SET</a>, and <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>.</p>
 
@@ -294,7 +330,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classSupplyManager.html#a9c090b1bf40bf05def3affef48a9dcfe">FleetSupplyableSystemIDs()</a>, <a class="el" href="classEmpireManager.html#aee81bfa374efc0729096b24803857981">EmpireManager::GetDiplomaticStatus()</a>, and <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>.</p>
 
@@ -330,6 +368,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the distance from each system some empire is away from its closest source of supply without passing through obstructed systems for that empire. </p>
 
 <p>References <a class="el" href="classSupplyManager.html#a50a7902e13be295d758c25ee51352aea">m_propagated_supply_distances</a>.</p>
@@ -351,6 +390,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the distance from each system for the empire with id <em>empire_id</em> to the closest source of supply without passing through obstructed systems for that empire. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#ac8f5c0292080d56a1079afebac59980a">anonymous_namespace{Supply.cpp}::EMPTY_INT_FLOAT_MAP</a>, and <a class="el" href="classSupplyManager.html#aa48fcfcb246dc5f2f6c8c185cce3a1f5">m_empire_propagated_supply_distances</a>.</p>
@@ -369,6 +409,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the range from each system some empire can propagate supply. </p>
 
 <p>References <a class="el" href="classSupplyManager.html#a0fe0a962923adc3ea627347f6514ca78">m_propagated_supply_ranges</a>.</p>
@@ -390,6 +431,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns the range from each system that the empire with id <em>empire_id</em> can propagate supply. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#ac8f5c0292080d56a1079afebac59980a">anonymous_namespace{Supply.cpp}::EMPTY_INT_FLOAT_MAP</a>, and <a class="el" href="classSupplyManager.html#a88e2cda911e3fae1a2e184d77464b5e5">m_empire_propagated_supply_ranges</a>.</p>
@@ -408,6 +450,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns set of sets of systems that can share industry (systems in separate groups are blockaded or otherwise separated). </p>
 
 <p>References <a class="el" href="classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70">m_resource_supply_groups</a>.</p>
@@ -429,7 +472,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#a5c6e11070ca73b28899b1f7299716fe7">anonymous_namespace{Supply.cpp}::EMPTY_INT_SET_SET</a>, and <a class="el" href="classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70">m_resource_supply_groups</a>.</p>
 
@@ -483,6 +528,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns set of directed starlane traversals along which supply could flow for this empire, but which can't due to some obstruction in one of the systems. </p>
 
 <p>References <a class="el" href="classSupplyManager.html#ab0f0a290eaa246a607807629ed6a1629">m_supply_starlane_obstructed_traversals</a>.</p>
@@ -504,7 +550,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#a80156d0946fed4b940a55e7fa5693c8e">anonymous_namespace{Supply.cpp}::EMPTY_INT_PAIR_SET</a>, and <a class="el" href="classSupplyManager.html#ab0f0a290eaa246a607807629ed6a1629">m_supply_starlane_obstructed_traversals</a>.</p>
 
@@ -522,7 +570,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="classSupplyManager.html#a8d54a6e863e3d3738bb7dcc6e8151bf4">m_supply_starlane_traversals</a>.</p>
 
@@ -543,7 +593,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#a80156d0946fed4b940a55e7fa5693c8e">anonymous_namespace{Supply.cpp}::EMPTY_INT_PAIR_SET</a>, and <a class="el" href="classSupplyManager.html#a8d54a6e863e3d3738bb7dcc6e8151bf4">m_supply_starlane_traversals</a>.</p>
 
@@ -572,7 +624,8 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if system with id <em>system_id</em> is fleet supplyable or in one of the resource supply groups for empire with id <em>empire_id</em> </p>
+
+<p>Returns true if system with id <em>system_id</em> is fleet supplyable or in one of the resource supply groups for empire with id <em>empire_id</em>. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, and <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>.</p>
 
@@ -609,7 +662,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns set of directed starlane traversals along which supply can flow. Results are pairs of system ids of start and end system of traversal. </p>
+
+<p>Returns set of directed starlane traversals along which supply can flow. </p>
+<p>Results are pairs of system ids of start and end system of traversal. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#a340d47d12a838ec4868ec00093438906">EmpireManager::GetEmpireIDsWithDiplomaticStatusWithEmpire()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>, and <a class="el" href="classSupplyManager.html#a4a6f2527472a22a10374f7e848350fcc">SystemHasFleetSupply()</a>.</p>
 
@@ -627,6 +682,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Calculates systems at which fleets of empires can be supplied, and groups of systems that can exchange resources, and the starlane traversals used to do so. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#a349e11c1a6411fcecbd87e9a0332cc17">anonymous_namespace{Supply.cpp}::DistanceBetweenObjects()</a>, <a class="el" href="classUniverse.html#a2d1bf92422a8c83b354a98359f4b8568">Universe::EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="namespaceanonymous__namespace_02Supply_8cpp_03.html#a8ae839ca985faf22891511b952b22c3d">anonymous_namespace{Supply.cpp}::EmpireTotalSupplyRangeSumInSystem()</a>, <a class="el" href="classObjectMap.html#aa66dd95deca5673cfe4cdfbae55d0bf1">ObjectMap::FindObjects()</a>, <a class="el" href="classEmpireManager.html#a340d47d12a838ec4868ec00093438906">EmpireManager::GetEmpireIDsWithDiplomaticStatusWithEmpire()</a>, <a class="el" href="AppInterface_8h.html#a1e899e7ea6791b42cc7c4039d23b2957">GetSystem()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classEmpire.html#a105c5d95d972a970c68ed309d0229119">Empire::KnownStarlanes()</a>, <a class="el" href="classSupplyManager.html#aa48fcfcb246dc5f2f6c8c185cce3a1f5">m_empire_propagated_supply_distances</a>, <a class="el" href="classSupplyManager.html#a88e2cda911e3fae1a2e184d77464b5e5">m_empire_propagated_supply_ranges</a>, <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">m_fleet_supplyable_system_ids</a>, <a class="el" href="classSupplyManager.html#a50a7902e13be295d758c25ee51352aea">m_propagated_supply_distances</a>, <a class="el" href="classSupplyManager.html#a0fe0a962923adc3ea627347f6514ca78">m_propagated_supply_ranges</a>, <a class="el" href="classSupplyManager.html#ac6f82fadc5604b9d0fe42ea5d9c77b70">m_resource_supply_groups</a>, <a class="el" href="classSupplyManager.html#ab0f0a290eaa246a607807629ed6a1629">m_supply_starlane_obstructed_traversals</a>, <a class="el" href="classSupplyManager.html#a8d54a6e863e3d3738bb7dcc6e8151bf4">m_supply_starlane_traversals</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classUniverse.html#a1863f61fdd9603ce49b20b1929bada86">Universe::Objects()</a>, <a class="el" href="classEmpire.html#ab0aa2545479f3edfef06a0cb8c168199">Empire::SupplyUnobstructedSystems()</a>, and <a class="el" href="classEmpire.html#a1813df41fcc7343e5ac8a99bf1af3e8b">Empire::SystemSupplyRanges()</a>.</p>
@@ -674,7 +730,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>for each empire, what systems it can propagate supply into, and how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie. not though a supply obstructed system) </p>
+
+<p>for each empire, what systems it can propagate supply into, and how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie. </p>
+<p>not though a supply obstructed system) </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a61f867ef9523ff5163c4f29d2a7a4993">PropagatedSupplyDistances()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 
@@ -697,6 +755,7 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>for each empire, what systems it can propagate supply into, and how many further supply jumps it could propagate past this system, if not blocked from doing so by supply obstructions. </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a371c1c119c69801e56f8da1845fb524a">PropagatedSupplyRanges()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
@@ -720,7 +779,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>ids of systems where fleets can be resupplied. indexed by empire id. </p>
+
+<p>ids of systems where fleets can be resupplied. </p>
+<p>indexed by empire id. </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a6e33cf511615d6389c11982ddc24a176">Dump()</a>, <a class="el" href="classSupplyManager.html#a53cb663175dca19a0a05c3e69fe46f0f">EmpireThatCanSupplyAt()</a>, <a class="el" href="classSupplyManager.html#a9c090b1bf40bf05def3affef48a9dcfe">FleetSupplyableSystemIDs()</a>, <a class="el" href="classSupplyManager.html#acc0a512bb8c8cc2570c7aa3523b9a9a9">operator=()</a>, <a class="el" href="classSupplyManager.html#a4a6f2527472a22a10374f7e848350fcc">SystemHasFleetSupply()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 
@@ -743,7 +804,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>for whichever empire can propagate supply into this system, how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie. not though a supply obstructed system for that empire) </p>
+
+<p>for whichever empire can propagate supply into this system, how far that system is from the closest source of supply for that empire, along possible supply propgation connections (ie. </p>
+<p>not though a supply obstructed system for that empire) </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#ac1b6e1a72e3bbaf94a3578ee24c9500b">PropagatedSupplyDistances()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 
@@ -766,6 +829,7 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>for whichever empire can propagate supply into this system, what is the additional range from this system that empire can propagate supply </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a9b485b1c65f62fec5afb222423473cdc">PropagatedSupplyRanges()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
@@ -789,7 +853,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>sets of system ids that are connected by supply lines and are able to share resources between systems or between objects in systems. indexed by empire id. </p>
+
+<p>sets of system ids that are connected by supply lines and are able to share resources between systems or between objects in systems. </p>
+<p>indexed by empire id. </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a6e33cf511615d6389c11982ddc24a176">Dump()</a>, <a class="el" href="classSupplyManager.html#acc0a512bb8c8cc2570c7aa3523b9a9a9">operator=()</a>, <a class="el" href="classSupplyManager.html#a93d59e5cfb6021fb80e1bcc4fcdc9312">ResourceSupplyGroups()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 
@@ -812,7 +878,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>ordered pairs of system ids between which a starlane could be used to convey resources between system, but is not because something is obstructing the resource flow. That is, the resource flow isn't limited by range, but by something blocking its flow. </p>
+
+<p>ordered pairs of system ids between which a starlane could be used to convey resources between system, but is not because something is obstructing the resource flow. </p>
+<p>That is, the resource flow isn't limited by range, but by something blocking its flow. </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a6e33cf511615d6389c11982ddc24a176">Dump()</a>, <a class="el" href="classSupplyManager.html#acc0a512bb8c8cc2570c7aa3523b9a9a9">operator=()</a>, <a class="el" href="classSupplyManager.html#a9ddcfe6d4e1077a9cbe077e20b2efe60">SupplyObstructedStarlaneTraversals()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 
@@ -835,7 +903,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>ordered pairs of system ids between which a starlane runs that can be used to convey resources between systems. indexed first by empire id. </p>
+
+<p>ordered pairs of system ids between which a starlane runs that can be used to convey resources between systems. </p>
+<p>indexed first by empire id. </p>
 
 <p>Referenced by <a class="el" href="classSupplyManager.html#a6e33cf511615d6389c11982ddc24a176">Dump()</a>, <a class="el" href="classSupplyManager.html#acc0a512bb8c8cc2570c7aa3523b9a9a9">operator=()</a>, <a class="el" href="classSupplyManager.html#ad8eadf99262ffb3a09af0eff6511f67b">SupplyStarlaneTraversals()</a>, and <a class="el" href="classSupplyManager.html#ac461e3705431914ce2720644327b060c">Update()</a>.</p>
 

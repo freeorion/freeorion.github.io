@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Stores and retreives combat logs.  
+ <a href="classCombatLogManager.html#details">More...</a></p>
+
 <p><code>#include &lt;CombatLogManager.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -108,18 +111,24 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a1f164c164964e92e2a88a70e37e535c0"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; const <a class="el" href="structCombatLog.html">CombatLog</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a1f164c164964e92e2a88a70e37e535c0">GetLog</a> (int log_id) const </td></tr>
+<tr class="memdesc:a1f164c164964e92e2a88a70e37e535c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the requested combat log or boost::none.  <a href="#a1f164c164964e92e2a88a70e37e535c0">More...</a><br /></td></tr>
 <tr class="separator:a1f164c164964e92e2a88a70e37e535c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e259a97a85079feb3af36001b0be23a"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a6e259a97a85079feb3af36001b0be23a">IncompleteLogIDs</a> () const </td></tr>
+<tr class="memdesc:a6e259a97a85079feb3af36001b0be23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ids of all incomplete logs or boost::none if they are all complete.  <a href="#a6e259a97a85079feb3af36001b0be23a">More...</a><br /></td></tr>
 <tr class="separator:a6e259a97a85079feb3af36001b0be23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a11dde12f4387d2475cb9fd1ac6ba900b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a11dde12f4387d2475cb9fd1ac6ba900b">AddNewLog</a> (const <a class="el" href="structCombatLog.html">CombatLog</a> &amp;log)</td></tr>
+<tr class="memdesc:a11dde12f4387d2475cb9fd1ac6ba900b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace incomplete log with <code>id</code> with <code>log</code>.  <a href="#a11dde12f4387d2475cb9fd1ac6ba900b">More...</a><br /></td></tr>
 <tr class="separator:a11dde12f4387d2475cb9fd1ac6ba900b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e5c6cd6dffdf1e119e8c401c224af0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a20e5c6cd6dffdf1e119e8c401c224af0">CompleteLog</a> (int id, const <a class="el" href="structCombatLog.html">CombatLog</a> &amp;log)</td></tr>
+<tr class="memdesc:a20e5c6cd6dffdf1e119e8c401c224af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace incomplete log with <code>id</code> with <code>log</code>.  <a href="#a20e5c6cd6dffdf1e119e8c401c224af0">More...</a><br /></td></tr>
 <tr class="separator:a20e5c6cd6dffdf1e119e8c401c224af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a543c335f37e884ed736a2c20e56b1c0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#a543c335f37e884ed736a2c20e56b1c0e">Clear</a> ()</td></tr>
+<tr class="memdesc:a543c335f37e884ed736a2c20e56b1c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace incomplete log with <code>id</code> with <code>log</code>.  <a href="#a543c335f37e884ed736a2c20e56b1c0e">More...</a><br /></td></tr>
 <tr class="separator:a543c335f37e884ed736a2c20e56b1c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f3069f8ce43207505d1eb50c72cb5a"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
 <tr class="memitem:ab2f3069f8ce43207505d1eb50c72cb5a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCombatLogManager.html#ab2f3069f8ce43207505d1eb50c72cb5a">SerializeIncompleteLogs</a> (Archive &amp;ar, const unsigned int version)</td></tr>
+<tr class="memdesc:ab2f3069f8ce43207505d1eb50c72cb5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize log headers so that the receiving LogManager can then request complete logs in the background.  <a href="#ab2f3069f8ce43207505d1eb50c72cb5a">More...</a><br /></td></tr>
 <tr class="separator:ab2f3069f8ce43207505d1eb50c72cb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -210,7 +219,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
+
+<p>Replace incomplete log with <code>id</code> with <code>log</code>. </p>
+<p>An incomplete log is a partially downloaded log where only the log id is known. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
@@ -230,7 +241,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
+
+<p>Replace incomplete log with <code>id</code> with <code>log</code>. </p>
+<p>An incomplete log is a partially downloaded log where only the log id is known. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
@@ -261,7 +274,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Replace incomplete log with <code>id</code> with <code>log</code>. An incomplete log is a partially downloaded log where only the log id is known. </p>
+
+<p>Replace incomplete log with <code>id</code> with <code>log</code>. </p>
+<p>An incomplete log is a partially downloaded log where only the log id is known. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
 
@@ -307,6 +322,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the requested combat log or boost::none. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
@@ -327,6 +343,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the ids of all incomplete logs or boost::none if they are all complete. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>
@@ -398,6 +415,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Serialize log headers so that the receiving LogManager can then request complete logs in the background. </p>
 
 <p>References <a class="el" href="classCombatLogManager.html#a39681da635f0913c3eca5fb33d2d4779">m_impl</a>.</p>

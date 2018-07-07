@@ -102,15 +102,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1Element.html">Element</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of a single element in the production queue.  <a href="structProductionQueue_1_1Element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue_1_1ProductionItem.html">ProductionItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type that specifies a single production item (BuildType and name string).  <a href="structProductionQueue_1_1ProductionItem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a2dbfa6b3b17cac438e5fc1696011a374"><td class="memItemLeft" align="right" valign="top">typedef QueueType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a2dbfa6b3b17cac438e5fc1696011a374">const_iterator</a></td></tr>
+<tr class="memdesc:a2dbfa6b3b17cac438e5fc1696011a374"><td class="mdescLeft">&#160;</td><td class="mdescRight">The const <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type.  <a href="#a2dbfa6b3b17cac438e5fc1696011a374">More...</a><br /></td></tr>
 <tr class="separator:a2dbfa6b3b17cac438e5fc1696011a374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03fd4a217f06a1eeae786e3bbf7cc878"><td class="memItemLeft" align="right" valign="top">typedef QueueType::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a></td></tr>
+<tr class="memdesc:a03fd4a217f06a1eeae786e3bbf7cc878"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type.  <a href="#a03fd4a217f06a1eeae786e3bbf7cc878">More...</a><br /></td></tr>
 <tr class="separator:a03fd4a217f06a1eeae786e3bbf7cc878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81d9056d61895945b13081b4c83336e"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="structProductionQueue_1_1Element.html">Element</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ac81d9056d61895945b13081b4c83336e">QueueType</a></td></tr>
 <tr class="separator:ac81d9056d61895945b13081b4c83336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,18 +135,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c10cee5ad47ba957c8fe009b9bae5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of production projects currently (perhaps partially) funded.  <a href="#a4c10cee5ad47ba957c8fe009b9bae5f0">More...</a><br /></td></tr>
 <tr class="separator:a4c10cee5ad47ba957c8fe009b9bae5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644a5a1857c13b5752117ccbf08afb89"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::set&lt; int &gt;, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">AvailablePP</a> (const std::shared_ptr&lt; <a class="el" href="classResourcePool.html">ResourcePool</a> &gt; &amp;industry_pool) const </td></tr>
+<tr class="memdesc:a644a5a1857c13b5752117ccbf08afb89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns map from sets of object ids that can share resources to amount of PP available in those groups of objects ; does not include stockpile.  <a href="#a644a5a1857c13b5752117ccbf08afb89">More...</a><br /></td></tr>
 <tr class="separator:a644a5a1857c13b5752117ccbf08afb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7469b3384cedb91ddb4bbbac7883cf"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::set&lt; int &gt;, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aff7469b3384cedb91ddb4bbbac7883cf">AllocatedPP</a> () const </td></tr>
+<tr class="memdesc:aff7469b3384cedb91ddb4bbbac7883cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns map from sets of object ids that can share resources to amount of PP allocated to production queue elements that have build locations in systems in the group.  <a href="#aff7469b3384cedb91ddb4bbbac7883cf">More...</a><br /></td></tr>
 <tr class="separator:aff7469b3384cedb91ddb4bbbac7883cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ecf53c5444f647b53b7de463157de6"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::set&lt; int &gt;, float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ad4ecf53c5444f647b53b7de463157de6">AllocatedStockpilePP</a> () const </td></tr>
+<tr class="memdesc:ad4ecf53c5444f647b53b7de463157de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns map from sets of object ids that can share resources to amount of stockpile PP allocated to production queue elements that have build locations in systems in the group.  <a href="#ad4ecf53c5444f647b53b7de463157de6">More...</a><br /></td></tr>
 <tr class="separator:ad4ecf53c5444f647b53b7de463157de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae93afc63ea8533f89b8c84d8d61ced09"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ae93afc63ea8533f89b8c84d8d61ced09">StockpileCapacity</a> () const </td></tr>
+<tr class="memdesc:ae93afc63ea8533f89b8c84d8d61ced09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns sum of stockpile meters of empire-owned objects.  <a href="#ae93afc63ea8533f89b8c84d8d61ced09">More...</a><br /></td></tr>
 <tr class="separator:ae93afc63ea8533f89b8c84d8d61ced09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53c659c7b99b5b773c1c902ecee251c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a53c659c7b99b5b773c1c902ecee251c0">ExpectedNewStockpileAmount</a> () const </td></tr>
+<tr class="memdesc:a53c659c7b99b5b773c1c902ecee251c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value expected for the Imperial Stockpile for the next turn, based on the current <a class="el" href="structProductionQueue.html">ProductionQueue</a> allocations.  <a href="#a53c659c7b99b5b773c1c902ecee251c0">More...</a><br /></td></tr>
 <tr class="separator:a53c659c7b99b5b773c1c902ecee251c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19b198f750199a8a628ae8d59d5f86c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ae19b198f750199a8a628ae8d59d5f86c">ExpectedProjectTransferToStockpile</a> () const </td></tr>
+<tr class="memdesc:ae19b198f750199a8a628ae8d59d5f86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the PP amount expected to be transferred via stockpiling projects to the Imperial Stockpile for the next turn, based on the current <a class="el" href="structProductionQueue.html">ProductionQueue</a> allocations.  <a href="#ae19b198f750199a8a628ae8d59d5f86c">More...</a><br /></td></tr>
 <tr class="separator:ae19b198f750199a8a628ae8d59d5f86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404f902a7ac21ffeef54efde0d06d983"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::set&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a404f902a7ac21ffeef54efde0d06d983">ObjectsWithWastedPP</a> (const std::shared_ptr&lt; <a class="el" href="classResourcePool.html">ResourcePool</a> &gt; &amp;industry_pool) const </td></tr>
+<tr class="memdesc:a404f902a7ac21ffeef54efde0d06d983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns sets of object ids that have more available than allocated PP.  <a href="#a404f902a7ac21ffeef54efde0d06d983">More...</a><br /></td></tr>
 <tr class="separator:a404f902a7ac21ffeef54efde0d06d983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f8a52bc789e8e7b99a0e6bda4d9ba5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a84f8a52bc789e8e7b99a0e6bda4d9ba5">empty</a> () const </td></tr>
 <tr class="memdesc:a84f8a52bc789e8e7b99a0e6bda4d9ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of production projects currently (perhaps partially) funded.  <a href="#a84f8a52bc789e8e7b99a0e6bda4d9ba5">More...</a><br /></td></tr>
@@ -194,26 +205,37 @@ Friends</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Mutators</h2></td></tr>
 <tr class="memitem:ad4f0e78e6fdc5edf1743b3dccbbfbd9d"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueueChangedSignal</a></td></tr>
+<tr class="memdesc:ad4f0e78e6fdc5edf1743b3dccbbfbd9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">More...</a><br /></td></tr>
 <tr class="separator:ad4f0e78e6fdc5edf1743b3dccbbfbd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e45259d2fbfa76c33c6ac674d9703cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update</a> ()</td></tr>
+<tr class="memdesc:a8e45259d2fbfa76c33c6ac674d9703cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#a8e45259d2fbfa76c33c6ac674d9703cd">More...</a><br /></td></tr>
 <tr class="separator:a8e45259d2fbfa76c33c6ac674d9703cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2fc7809546297c911fbeac41fa48aff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ae2fc7809546297c911fbeac41fa48aff">push_back</a> (const <a class="el" href="structProductionQueue_1_1Element.html">Element</a> &amp;element)</td></tr>
+<tr class="memdesc:ae2fc7809546297c911fbeac41fa48aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#ae2fc7809546297c911fbeac41fa48aff">More...</a><br /></td></tr>
 <tr class="separator:ae2fc7809546297c911fbeac41fa48aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0c0f6b38bbd6bdbe84a3f122a50e802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802">insert</a> (<a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a> it, const <a class="el" href="structProductionQueue_1_1Element.html">Element</a> &amp;element)</td></tr>
+<tr class="memdesc:ae0c0f6b38bbd6bdbe84a3f122a50e802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#ae0c0f6b38bbd6bdbe84a3f122a50e802">More...</a><br /></td></tr>
 <tr class="separator:ae0c0f6b38bbd6bdbe84a3f122a50e802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca38e1b4673eca540e857b7ebb0443b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aca38e1b4673eca540e857b7ebb0443b7">erase</a> (int i)</td></tr>
+<tr class="memdesc:aca38e1b4673eca540e857b7ebb0443b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#aca38e1b4673eca540e857b7ebb0443b7">More...</a><br /></td></tr>
 <tr class="separator:aca38e1b4673eca540e857b7ebb0443b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec8836f95cf3498e12377db9c55b5c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#aec8836f95cf3498e12377db9c55b5c9e">erase</a> (<a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a> it)</td></tr>
+<tr class="memdesc:aec8836f95cf3498e12377db9c55b5c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#aec8836f95cf3498e12377db9c55b5c9e">More...</a><br /></td></tr>
 <tr class="separator:aec8836f95cf3498e12377db9c55b5c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d450d2424170096c452a9e44de3e196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a9d450d2424170096c452a9e44de3e196">begin</a> ()</td></tr>
+<tr class="memdesc:a9d450d2424170096c452a9e44de3e196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#a9d450d2424170096c452a9e44de3e196">More...</a><br /></td></tr>
 <tr class="separator:a9d450d2424170096c452a9e44de3e196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b7020fd04c745a99cd4b25760a5060b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a3b7020fd04c745a99cd4b25760a5060b">end</a> ()</td></tr>
+<tr class="memdesc:a3b7020fd04c745a99cd4b25760a5060b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#a3b7020fd04c745a99cd4b25760a5060b">More...</a><br /></td></tr>
 <tr class="separator:a3b7020fd04c745a99cd4b25760a5060b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6180bf5b8d0ff5f78f698c9f54ddc511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue.html#a03fd4a217f06a1eeae786e3bbf7cc878">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a6180bf5b8d0ff5f78f698c9f54ddc511">find</a> (int i)</td></tr>
+<tr class="memdesc:a6180bf5b8d0ff5f78f698c9f54ddc511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#a6180bf5b8d0ff5f78f698c9f54ddc511">More...</a><br /></td></tr>
 <tr class="separator:a6180bf5b8d0ff5f78f698c9f54ddc511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af902576dc272bc335d1705979351a4d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProductionQueue_1_1Element.html">Element</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#af902576dc272bc335d1705979351a4d1">operator[]</a> (int i)</td></tr>
+<tr class="memdesc:af902576dc272bc335d1705979351a4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#af902576dc272bc335d1705979351a4d1">More...</a><br /></td></tr>
 <tr class="separator:af902576dc272bc335d1705979351a4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66901e20bfb61724a6cbf6c05fde383b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProductionQueue.html#a66901e20bfb61724a6cbf6c05fde383b">clear</a> ()</td></tr>
+<tr class="memdesc:a66901e20bfb61724a6cbf6c05fde383b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the PPs spent on and number of turns left for each project in the queue.  <a href="#a66901e20bfb61724a6cbf6c05fde383b">More...</a><br /></td></tr>
 <tr class="separator:a66901e20bfb61724a6cbf6c05fde383b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
@@ -226,7 +248,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The const <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type. Dereference yields a <a class="el" href="structProductionQueue_1_1Element.html">Element</a>. </p>
+
+<p>The const <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type. </p>
+<p>Dereference yields a <a class="el" href="structProductionQueue_1_1Element.html" title="The type of a single element in the production queue. ">Element</a>. </p>
 
 </div>
 </div>
@@ -239,7 +263,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type. Dereference yields a <a class="el" href="structProductionQueue_1_1Element.html">Element</a>. </p>
+
+<p>The <a class="el" href="structProductionQueue.html">ProductionQueue</a> iterator type. </p>
+<p>Dereference yields a <a class="el" href="structProductionQueue_1_1Element.html" title="The type of a single element in the production queue. ">Element</a>. </p>
 
 </div>
 </div>
@@ -285,6 +311,7 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns map from sets of object ids that can share resources to amount of PP allocated to production queue elements that have build locations in systems in the group. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>.</p>
@@ -305,6 +332,7 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns map from sets of object ids that can share resources to amount of stockpile PP allocated to production queue elements that have build locations in systems in the group. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#aea0546331a23236b441b5c609bae33e4">m_object_group_allocated_stockpile_pp</a>.</p>
@@ -326,8 +354,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns map from sets of object ids that can share resources to amount of PP available in those groups of objects ; does not include stockpile</p>
-<p>TODO: Is there any reason to keep this method in addition to the more specific information directly available from the empire? This should probably at least be renamed to clarify it is non-stockpile output </p>
+
+<p>Returns map from sets of object ids that can share resources to amount of PP available in those groups of objects ; does not include stockpile. </p>
+<p>TODO: Is there any reason to keep this method in addition to the more specific information directly available from the empire? This should probably at least be renamed to clarify it is non-stockpile output. </p>
 
 <p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
 
@@ -368,7 +397,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -386,7 +417,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>, <a class="el" href="structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27">m_projects_in_progress</a>, <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>, and <a class="el" href="structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueueChangedSignal</a>.</p>
 
@@ -475,7 +508,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -494,7 +529,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">begin()</a>, <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">size()</a>.</p>
 
@@ -515,7 +552,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a6588f519561d78518c568cff0d4978d8">end()</a>, and <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -541,6 +580,7 @@ Mutators</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the value expected for the Imperial Stockpile for the next turn, based on the current <a class="el" href="structProductionQueue.html">ProductionQueue</a> allocations. </p>
 
 <p>Referenced by <a class="el" href="classMapWnd.html#a086cd1399fa67cc8d7cf5b52181ad832">MapWnd::RefreshIndustryResourceIndicator()</a>.</p>
@@ -567,6 +607,7 @@ Mutators</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the PP amount expected to be transferred via stockpiling projects to the Imperial Stockpile for the next turn, based on the current <a class="el" href="structProductionQueue.html">ProductionQueue</a> allocations. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaParser_8cpp_03.html#a2b4f391cf082f8540152151b865cec6d">anonymous_namespace{EncyclopediaParser.cpp}::insert</a>.</p>
@@ -608,7 +649,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a7f0e749a9eb2ef75b9739968576ca500">begin()</a>, <a class="el" href="structProductionQueue.html#a6588f519561d78518c568cff0d4978d8">end()</a>, and <a class="el" href="structProductionQueue.html#ae7e4f76e1f0a1b7cfe646abd0ad9d786">size()</a>.</p>
 
@@ -637,7 +680,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -658,7 +703,8 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns sets of object ids that have more available than allocated PP </p>
+
+<p>Returns sets of object ids that have more available than allocated PP. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">AvailablePP()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>.</p>
 
@@ -699,7 +745,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -737,7 +785,9 @@ Mutators</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>.</p>
 
@@ -816,6 +866,7 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Returns sum of stockpile meters of empire-owned objects. </p>
 
 <p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="structProductionQueue.html#a77c58f7c939c49e698d31062596ea4b8">m_empire_id</a>, <a class="el" href="Enums_8h.html#a1985f11676d3d18564f9b4d1e2130830">METER_STOCKPILE</a>, and <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
@@ -857,7 +908,9 @@ template&lt;class Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>References <a class="el" href="structProductionQueue.html#a644a5a1857c13b5752117ccbf08afb89">AvailablePP()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html#a2a38cc8a0ae25c4dbd11f135cd22a0de">anonymous_namespace{ProductionQueue.cpp}::CalculateNewStockpile()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a7d160ad061ba737f3b598fa0743165ba">anonymous_namespace{XMLDoc.cpp}::element</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html#a5596fb74a20baa1cc9bcbae92645234d">anonymous_namespace{ProductionQueue.cpp}::EPSILON</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="classEmpire.html#a2fb2b8350a6c01eb22e6975d8202d367">Empire::GetResourcePool()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="structProductionQueue.html#a77c58f7c939c49e698d31062596ea4b8">m_empire_id</a>, <a class="el" href="structProductionQueue.html#a5e38cec41f7bae73e994e7730254b9ec">m_expected_new_stockpile_amount</a>, <a class="el" href="structProductionQueue.html#a42b8e50f19a5b5eefd7894fd34bab036">m_expected_project_transfer_to_stockpile</a>, <a class="el" href="structProductionQueue.html#a5f91501b7dccf2ff68fdfaa2c892096c">m_object_group_allocated_pp</a>, <a class="el" href="structProductionQueue.html#aea0546331a23236b441b5c609bae33e4">m_object_group_allocated_stockpile_pp</a>, <a class="el" href="structProductionQueue.html#aa51cb1399683f58208cba9b988c2ec27">m_projects_in_progress</a>, <a class="el" href="structProductionQueue.html#a8fda557789052a7787affdb2cfa6e295">m_queue</a>, <a class="el" href="classEmpire.html#a81a837b4ca9b0ea92df46b40ffe0b01e">Empire::ProducibleItem()</a>, <a class="el" href="classEmpire.html#ad3fe900d65362244c2d821f429a0c320">Empire::ProductionCostAndTime()</a>, <a class="el" href="classEmpire.html#adf6a4c914d6fd84d357d927a47f5bb29">Empire::ProductionPoints()</a>, <a class="el" href="structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d">ProductionQueueChangedSignal</a>, <a class="el" href="structProductionQueue_1_1Element.html#aaeeb3ba58e8832febbd2d253bc1b710a">ProductionQueue::Element::progress</a>, <a class="el" href="structProductionQueue_1_1Element.html#ac466bd763912d92b0066f62d86a02b56">ProductionQueue::Element::remaining</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html#a3f745dd416a9ba708557f8aeda146456">anonymous_namespace{ProductionQueue.cpp}::SetProdQueueElementSpending()</a>, <a class="el" href="structProductionQueue.html#ae93afc63ea8533f89b8c84d8d61ced09">StockpileCapacity()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, <a class="el" href="structProductionQueue_1_1Element.html#ab583956a29cf04dee9deacb78b154a90">ProductionQueue::Element::turns_left_to_completion</a>, and <a class="el" href="structProductionQueue_1_1Element.html#a56ebf5a068cbaf68009e82b194ff1fb7">ProductionQueue::Element::turns_left_to_next_item</a>.</p>
 
@@ -1058,7 +1111,9 @@ template&lt;class Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Recalculates the PPs spent on and number of turns left for each project in the queue. Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
+
+<p>Recalculates the PPs spent on and number of turns left for each project in the queue. </p>
+<p>Also determines the number of projects in progress, and the industry consumed by projects in each resource-sharing group of systems. Does not actually "spend" the PP; a later call to empire-&gt;CheckProductionProgress() will actually spend PP, remove items from queue and create them in the universe. </p>
 
 <p>Referenced by <a class="el" href="structProductionQueue.html#a66901e20bfb61724a6cbf6c05fde383b">clear()</a>, <a class="el" href="classBuildingsPanel.html#a4673ca0d8e6d98ebce6bfc4a775f5c56">BuildingsPanel::CompleteConstruction()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, and <a class="el" href="structProductionQueue.html#a8e45259d2fbfa76c33c6ac674d9703cd">Update()</a>.</p>
 

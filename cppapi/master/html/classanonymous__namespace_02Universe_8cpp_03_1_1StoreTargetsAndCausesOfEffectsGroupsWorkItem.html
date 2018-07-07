@@ -99,6 +99,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Used by GetEffectsAndTargets to process a vector of effects groups.  
+ <a href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -110,6 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0807bca63560321104c49102fc2d6021"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a0807bca63560321104c49102fc2d6021">StoreTargetsAndCausesOfEffectsGroupsWorkItem</a> (const std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt; &amp;the_effects_group, const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&gt; &amp;the_sources, EffectsCauseType the_effect_cause_type, const std::string &amp;the_specific_cause_name, <a class="el" href="namespaceEffect.html#a61e9596c8574aacbe980390fd91b8f7a">Effect::TargetSet</a> &amp;the_target_objects, <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">Effect::TargetsCauses</a> &amp;the_targets_causes, std::map&lt; int, std::shared_ptr&lt; <a class="el" href="structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html">ConditionCache</a> &gt;&gt; &amp;the_source_cached_condition_matches, <a class="el" href="structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html">ConditionCache</a> &amp;the_invariant_cached_condition_matches, boost::shared_mutex &amp;the_global_mutex)</td></tr>
 <tr class="separator:a0807bca63560321104c49102fc2d6021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2655d5205375a2f72c470132ab414d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#afd2655d5205375a2f72c470132ab414d">GenerateReport</a> () const </td></tr>
+<tr class="memdesc:afd2655d5205375a2f72c470132ab414d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a report of that state of this work item.  <a href="#afd2655d5205375a2f72c470132ab414d">More...</a><br /></td></tr>
 <tr class="separator:afd2655d5205375a2f72c470132ab414d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542086b1ac42aa5ae19165e3cd7b52e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a542086b1ac42aa5ae19165e3cd7b52e5">operator()</a> ()</td></tr>
 <tr class="separator:a542086b1ac42aa5ae19165e3cd7b52e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,7 +145,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a75bee42f0e3df0d9b6225246c118f4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Used by GetEffectsAndTargets to process a vector of effects groups. Stores target set of specified <em>effects_groups</em> and <em>source_object_id</em> in <em>targets_causes</em> NOTE: this method will modify target_objects temporarily, but restore its contents before returning. This is a calleable class instead of an ordinary method so that we can use it as work item in parallel scheduling. </p>
+<div class="textblock"><p>Used by GetEffectsAndTargets to process a vector of effects groups. </p>
+<p>Stores target set of specified <em>effects_groups</em> and <em>source_object_id</em> in <em>targets_causes</em> NOTE: this method will modify target_objects temporarily, but restore its contents before returning. This is a calleable class instead of an ordinary method so that we can use it as work item in parallel scheduling. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0807bca63560321104c49102fc2d6021"></a>
 <div class="memitem">
@@ -226,6 +231,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return a report of that state of this work item. </p>
 
 <p>References <a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a85c331d65b37dfebd4afc1cf53c72bac">m_effects_group</a>, <a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a7a49efc215e9ec6c5e273fd0ee8ee41c">m_global_mutex</a>, <a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a864360bae06dd9a671e782884ccc7768">m_sources</a>, <a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#aca65d121ccb26ff9c30af4ad900101f6">m_specific_cause_name</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>

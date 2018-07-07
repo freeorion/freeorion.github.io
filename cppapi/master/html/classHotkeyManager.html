@@ -104,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHotkeyManager_1_1ConditionalConnection.html">ConditionalConnection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper class that stores both a connection and the conditions in which it should be on.  <a href="structHotkeyManager_1_1ConditionalConnection.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -114,6 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad8c1e0a915120af327d83eaa4432477c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects a named shortcut to the target slot in the target instance.  <a href="#ad8c1e0a915120af327d83eaa4432477c">More...</a><br /></td></tr>
 <tr class="separator:ad8c1e0a915120af327d83eaa4432477c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ef2bd61cdcfbbc07aa2f2dec2c09f9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">RebuildShortcuts</a> ()</td></tr>
+<tr class="memdesc:a3ef2bd61cdcfbbc07aa2f2dec2c09f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds all shortcuts/connections.  <a href="#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">More...</a><br /></td></tr>
 <tr class="separator:a3ef2bd61cdcfbbc07aa2f2dec2c09f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -137,6 +139,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ae15d158ce3573e1f7cbff0e9c711df39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the given conditional connection.  <a href="#ae15d158ce3573e1f7cbff0e9c711df39">More...</a><br /></td></tr>
 <tr class="separator:ae15d158ce3573e1f7cbff0e9c711df39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae740b29742b8ab56116511b8403a5f5d"><td class="memItemLeft" align="right" valign="top">GG::GUI::AcceleratorSignalType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#ae740b29742b8ab56116511b8403a5f5d">NamedSignal</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:ae740b29742b8ab56116511b8403a5f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the signal for the given named accelerator, creating it if necessary.  <a href="#ae740b29742b8ab56116511b8403a5f5d">More...</a><br /></td></tr>
 <tr class="separator:ae740b29742b8ab56116511b8403a5f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a278a1afc3b70bb5d071164bd403730e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#a278a1afc3b70bb5d071164bd403730e9">ProcessNamedShortcut</a> (const std::string &amp;name, GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)</td></tr>
 <tr class="memdesc:a278a1afc3b70bb5d071164bd403730e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shortcut processing function. Passed using boost::bind.  <a href="#a278a1afc3b70bb5d071164bd403730e9">More...</a><br /></td></tr>
@@ -374,6 +377,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Returns the signal for the given named accelerator, creating it if necessary. </p>
 <p>Unsure why GG::AcceleratorSignal implementation uses shared pointers. Maybe I should, too ? </p>
 
@@ -437,7 +441,9 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Rebuilds all shortcuts/connections. Should be called again at the end of every function that registers new connections (just once, though cause calling it every time would get expensive), and every time as well a shortcut is changed. </p>
+
+<p>Rebuilds all shortcuts/connections. </p>
+<p>Should be called again at the end of every function that registers new connections (just once, though cause calling it every time would get expensive), and every time as well a shortcut is changed. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Disable the shortcuts that we've enabled so far ? Is it really necessary ? An unconnected signal should simply be ignored. </dd></dl>
 
 <p>References <a class="el" href="classHotkey.html#a516393e69769a51b9f81ebe72e6d8edf">Hotkey::m_key</a>, <a class="el" href="classHotkey.html#a6ef0a3dde9b52792c514868d45c06a9f">Hotkey::m_mod_keys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">Hotkey::m_name</a>, <a class="el" href="classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2">Hotkey::NamedHotkey()</a>, and <a class="el" href="classHotkeyManager.html#a278a1afc3b70bb5d071164bd403730e9">ProcessNamedShortcut()</a>.</p>

@@ -93,6 +93,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>A specification for a type of field.  
+ <a href="classFieldType.html#details">More...</a></p>
+
 <p><code>#include &lt;Field.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -119,11 +122,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af271aed3c2cfd25fa0f5c608ccb0cfa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the unique name for this type of field  <a href="#af271aed3c2cfd25fa0f5c608ccb0cfa6">More...</a><br /></td></tr>
 <tr class="separator:af271aed3c2cfd25fa0f5c608ccb0cfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc4554f27b2001b80ec6650a554dc951"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldType.html#acc4554f27b2001b80ec6650a554dc951">Effects</a> () const </td></tr>
+<tr class="memdesc:acc4554f27b2001b80ec6650a554dc951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the EffectsGroups that encapsulate the effects of thisi <a class="el" href="classFieldType.html" title="A specification for a type of field. ">FieldType</a>.  <a href="#acc4554f27b2001b80ec6650a554dc951">More...</a><br /></td></tr>
 <tr class="separator:acc4554f27b2001b80ec6650a554dc951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d853fc1945689413d5cc6b23258c241"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldType.html#a8d853fc1945689413d5cc6b23258c241">Graphic</a> () const </td></tr>
 <tr class="memdesc:a8d853fc1945689413d5cc6b23258c241"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of the grapic file for this field type  <a href="#a8d853fc1945689413d5cc6b23258c241">More...</a><br /></td></tr>
 <tr class="separator:a8d853fc1945689413d5cc6b23258c241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96224ece11903170ad5a3fc497df0f4a"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFieldType.html#a96224ece11903170ad5a3fc497df0f4a">GetCheckSum</a> () const </td></tr>
+<tr class="memdesc:a96224ece11903170ad5a3fc497df0f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#a96224ece11903170ad5a3fc497df0f4a">More...</a><br /></td></tr>
 <tr class="separator:a96224ece11903170ad5a3fc497df0f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -283,7 +288,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the EffectsGroups that encapsulate the effects of thisi <a class="el" href="classFieldType.html">FieldType</a>. </p>
+
+<p>Returns the EffectsGroups that encapsulate the effects of thisi <a class="el" href="classFieldType.html" title="A specification for a type of field. ">FieldType</a>. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a9bb0dd4442d6978d18e8b9f28a9ef507">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelFieldTypeTag()</a>.</p>
 
@@ -301,7 +307,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
+
+<p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
+<p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classFieldType.html#a9d1cbfe0f43d0c27b522011085622753">m_description</a>, <a class="el" href="classFieldType.html#a74dd4586ba56e36b55aca620397207de">m_effects</a>, <a class="el" href="classFieldType.html#ade9b3b2fe2b5c9d0d8c7471bc4490638">m_graphic</a>, <a class="el" href="classFieldType.html#abc42fb9da6d866d060549a1851c6fe68">m_name</a>, <a class="el" href="classFieldType.html#a98d0c9ad5c59e1a6886d04a3947decaf">m_stealth</a>, <a class="el" href="classFieldType.html#ac7d83f01834f77abde0892dd747ac6c1">m_tags</a>, and <a class="el" href="classFieldTypeManager.html#ad667702d562e851170b0c50d7daa8200">FieldTypeManager::s_instance</a>.</p>
 

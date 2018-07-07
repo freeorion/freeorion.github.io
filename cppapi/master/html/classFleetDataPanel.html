@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">FleetDataPanel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a single fleet.  
+ <a href="classFleetDataPanel.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for FleetDataPanel:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -120,8 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c6e93a0e6fe0b2a488bfe87e812a8a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a1c6e93a0e6fe0b2a488bfe87e812a8a1">CheckDrops</a> (const GG::Pt &amp;pt, std::map&lt; const Wnd *, bool &gt; &amp;drop_wnds_acceptable, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:a1c6e93a0e6fe0b2a488bfe87e812a8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac075cf66ac67024fb612f7f79922ab6c"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#ac075cf66ac67024fb612f7f79922ab6c">ClientLowerRight</a> () const override</td></tr>
+<tr class="memdesc:ac075cf66ac67024fb612f7f79922ab6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower right minus border insets.  <a href="#ac075cf66ac67024fb612f7f79922ab6c">More...</a><br /></td></tr>
 <tr class="separator:ac075cf66ac67024fb612f7f79922ab6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed5d7ec8de00304689d20b4f3823860"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a0ed5d7ec8de00304689d20b4f3823860">ClientUpperLeft</a> () const override</td></tr>
+<tr class="memdesc:a0ed5d7ec8de00304689d20b4f3823860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper left plus border insets.  <a href="#a0ed5d7ec8de00304689d20b4f3823860">More...</a><br /></td></tr>
 <tr class="separator:a0ed5d7ec8de00304689d20b4f3823860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c80708c6fe338491f41a03fa2eeecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a55c80708c6fe338491f41a03fa2eeecb">DragDropHere</a> (const GG::Pt &amp;pt, std::map&lt; const Wnd *, bool &gt; &amp;drop_wnds_acceptable, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:a55c80708c6fe338491f41a03fa2eeecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +139,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a607def42cc8945793967e32dc5341f52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a607def42cc8945793967e32dc5341f52">Render</a> () override</td></tr>
 <tr class="separator:a607def42cc8945793967e32dc5341f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820f06f97415118e37029aac281ee30a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a820f06f97415118e37029aac281ee30a">RequireRefresh</a> ()</td></tr>
+<tr class="memdesc:a820f06f97415118e37029aac281ee30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate fleet data has changed and needs refresh.  <a href="#a820f06f97415118e37029aac281ee30a">More...</a><br /></td></tr>
 <tr class="separator:a820f06f97415118e37029aac281ee30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f5d4c289c24f269ab1c009ceb248510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleetDataPanel.html#a9f5d4c289c24f269ab1c009ceb248510">Select</a> (bool b)</td></tr>
 <tr class="separator:a9f5d4c289c24f269ab1c009ceb248510"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +217,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae04b84599f86902a6c46129b08a3f81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Represents a single fleet. This class is used as the drop-target in <a class="el" href="classFleetWnd.html">FleetWnd</a> or as the sole Control in each FleetRow. </p>
+<div class="textblock"><p>Represents a single fleet. </p>
+<p>This class is used as the drop-target in <a class="el" href="classFleetWnd.html" title="This is the top level Fleet UI element. ">FleetWnd</a> or as the sole Control in each FleetRow. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a102b57cdedbdf2b9aaf43ac048c15c30"></a>
 <div class="memitem">
@@ -405,6 +412,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Lower right minus border insets. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a531a98b8cc530a34d08e656ebf6179f3">anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER</a>.</p>
@@ -431,6 +439,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Upper left plus border insets. </p>
 
 <p>References <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a531a98b8cc530a34d08e656ebf6179f3">anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER</a>.</p>
@@ -806,6 +815,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Indicate fleet data has changed and needs refresh. </p>
 
 <p>References <a class="el" href="classFleetDataPanel.html#a8f2d9512c082745cacea7ef9ee0d2bc7">m_needs_refresh</a>.</p>
