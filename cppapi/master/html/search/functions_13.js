@@ -512,7 +512,6 @@ var searchData=
   ['single_5fresult',['single_result',['../structWithinJumpsOfOthersOtherVisitor.html#abcbea1817f65ba4da757825e31881f1e',1,'WithinJumpsOfOthersOtherVisitor']]],
   ['singleplayergame',['SinglePlayerGame',['../classHumanClientApp.html#ad534d90468deb4c2bedd67fb1d1771e9',1,'HumanClientApp']]],
   ['singleplayersetupdata',['SinglePlayerSetupData',['../structSinglePlayerSetupData.html#a0d92ef3205e229b9887d3e1a09a73e3f',1,'SinglePlayerSetupData']]],
-  ['singletabextent',['SingleTabExtent',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#aa7838aabe98fa88a68492c8a5068b488',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['sitrep_5fedge_5fto_5fcontent_5fspacing',['sitrep_edge_to_content_spacing',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a9ee702d73c915666d386dc03b17698da',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['sitrep_5fedge_5fto_5foutline_5fspacing',['sitrep_edge_to_outline_spacing',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#afad58fe2289fc7288c489babc6c3a2f7',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['sitrep_5fpanel_5fheight',['SITREP_PANEL_HEIGHT',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8aa8eb95a1ac45c87bbffddb77b13d42',1,'anonymous_namespace{MapWnd.cpp}']]],

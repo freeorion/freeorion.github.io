@@ -1,6 +1,7 @@
 var searchData=
 [
   ['habitablesize',['HabitableSize',['../classPlanet.html#ab14f772889d425efcd82d55f67f31014',1,'Planet']]],
+  ['hairspaceextent',['HairSpaceExtent',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#aa45d39e034136c2281e5ba9a9aa748f9',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['halostartypefileprefixes',['HaloStarTypeFilePrefixes',['../classClientUI.html#aac8b94c6d36abb7aecb85a2a2db1d966',1,'ClientUI']]],
   ['halotexture',['HaloTexture',['../classSystemIcon.html#ae8a54e4c2e80a73b84ba119a99a1c7ec',1,'SystemIcon']]],
   ['handleappquitting',['HandleAppQuitting',['../classHumanClientApp.html#af39fe1d839945679bf238141e8342ce4',1,'HumanClientApp']]],
