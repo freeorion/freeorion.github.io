@@ -82,7 +82,7 @@ var searchData=
   ['initstarlanerenderingbuffers',['InitStarlaneRenderingBuffers',['../classMapWnd.html#a2b5e53f4f0a80c3cdde61922936ff856',1,'MapWnd']]],
   ['initstringtablefilename',['InitStringtableFileName',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#aefe5528dc226f9a9ab90d7a68ba78aaa',1,'anonymous_namespace{i18n.cpp}']]],
   ['initsystemrenderingbuffers',['InitSystemRenderingBuffers',['../classMapWnd.html#a494c76c47b0153e5d5164cbe9aba4815',1,'MapWnd']]],
-  ['initturn',['InitTurn',['../classMapWnd.html#ab94274c277727155c865f82e35c7a7df',1,'MapWnd::InitTurn()'],['../namespaceAIInterface.html#a52dc427085b23aecd88c60abf4848788',1,'AIInterface::InitTurn()']]],
+  ['initturn',['InitTurn',['../classMapWnd.html#ab94274c277727155c865f82e35c7a7df',1,'MapWnd']]],
   ['initturnrendering',['InitTurnRendering',['../classMapWnd.html#a0bd9908e117b1378d6dac8583e2d2d65',1,'MapWnd']]],
   ['initvisibilityradiirenderingbuffers',['InitVisibilityRadiiRenderingBuffers',['../classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397',1,'MapWnd']]],
   ['innerborderangleoffset',['InnerBorderAngleOffset',['../classCUIWnd.html#aa8f0197800ba79caba9444664b23b528',1,'CUIWnd']]],
