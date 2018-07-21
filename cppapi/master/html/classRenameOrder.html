@@ -86,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -145,6 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a33c27a2994a946b440dc4c02afc2a19f inherit pub_methods_classOrder"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOrder.html#a33c27a2994a946b440dc4c02afc2a19f">Executed</a> () const </td></tr>
 <tr class="memdesc:a33c27a2994a946b440dc4c02afc2a19f inherit pub_methods_classOrder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this order has been executed (a second execution indicates server-side execution).  <a href="#a33c27a2994a946b440dc4c02afc2a19f">More...</a><br /></td></tr>
 <tr class="separator:a33c27a2994a946b440dc4c02afc2a19f inherit pub_methods_classOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1ba9128ccac275ec97951bedfb157d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenameOrder.html#a1ba9128ccac275ec97951bedfb157d00">Check</a> (int empire, int object, const std::string &amp;new_name)</td></tr>
+<tr class="memdesc:a1ba9128ccac275ec97951bedfb157d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true when the <a class="el" href="classOrder.html" title="The abstract base class for serializable player actions. ">Order</a> parameters are valid.  <a href="#a1ba9128ccac275ec97951bedfb157d00">More...</a><br /></td></tr>
+<tr class="separator:a1ba9128ccac275ec97951bedfb157d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -209,7 +216,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classRenameOrder.html#a076014a84af069afebbe7e8075b628e7">m_name</a>, and <a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a>.</p>
+<p>References <a class="el" href="classRenameOrder.html#a1ba9128ccac275ec97951bedfb157d00">Check()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, and <a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a>.</p>
 
 </div>
 </div>
@@ -237,6 +244,52 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1ba9128ccac275ec97951bedfb157d00"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RenameOrder::Check </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>new_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true when the <a class="el" href="classOrder.html" title="The abstract base class for serializable player actions. ">Order</a> parameters are valid. </p>
+
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>.</p>
+
+<p>Referenced by <a class="el" href="classRenameOrder.html#a0b77d2f0fe6db7d986905878a1b78815">ExecuteImpl()</a>, <a class="el" href="classFleetWnd.html#ad8b5f91a20c4daef5b8beb5ec7e71cc9">FleetWnd::FleetRightClicked()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#ac2b4ad65f0cadb9f14489ee1178bdd43">SidePanel::PlanetPanel::RClick()</a>, <a class="el" href="classSidePanel_1_1SystemNameDropDownList.html#a0657bee0f9d1f7e925b618c77bb76916">SidePanel::SystemNameDropDownList::RClick()</a>, <a class="el" href="classRenameOrder.html#ada35293872198a41bc1fb953d830a61b">RenameOrder()</a>, and <a class="el" href="classFleetDetailPanel.html#a5288325aea4908b46e227a238f40d899">FleetDetailPanel::ShipRightClicked()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0b77d2f0fe6db7d986905878a1b78815"></a>
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classOrder.html#abea87712266010dccf5a31205fd524d0">Order</a>.</p>
 
-<p>References <a class="el" href="classOrder.html#a50b3733f6c24df3563916ded158e612e">Order::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classOrder.html#a64e990fd149522e8494f43c3e82072cc">Order::GetValidatedEmpire()</a>, <a class="el" href="classRenameOrder.html#a076014a84af069afebbe7e8075b628e7">m_name</a>, and <a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a>.</p>
+<p>References <a class="el" href="classRenameOrder.html#a1ba9128ccac275ec97951bedfb157d00">Check()</a>, <a class="el" href="classOrder.html#a50b3733f6c24df3563916ded158e612e">Order::EmpireID()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classOrder.html#a64e990fd149522e8494f43c3e82072cc">Order::GetValidatedEmpire()</a>, <a class="el" href="classRenameOrder.html#a076014a84af069afebbe7e8075b628e7">m_name</a>, and <a class="el" href="classRenameOrder.html#af3c320ea47f22b7d6157a2fc1998803f">m_object</a>.</p>
 
 </div>
 </div>
@@ -402,7 +455,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classRenameOrder.html#a0b77d2f0fe6db7d986905878a1b78815">ExecuteImpl()</a>, <a class="el" href="classRenameOrder.html#ada35293872198a41bc1fb953d830a61b">RenameOrder()</a>, <a class="el" href="classRenameOrder.html#a7e45179b14dc1818dd3cbbe4e2396a45">serialize()</a>, and <a class="el" href="classShipDesignOrder.html#ad6f3981ab6496830a0e116e9bdde78fe">ShipDesignOrder::serialize()</a>.</p>
+<p>Referenced by <a class="el" href="classRenameOrder.html#a0b77d2f0fe6db7d986905878a1b78815">ExecuteImpl()</a>, <a class="el" href="classRenameOrder.html#a7e45179b14dc1818dd3cbbe4e2396a45">serialize()</a>, and <a class="el" href="classShipDesignOrder.html#ad6f3981ab6496830a0e116e9bdde78fe">ShipDesignOrder::serialize()</a>.</p>
 
 </div>
 </div>
