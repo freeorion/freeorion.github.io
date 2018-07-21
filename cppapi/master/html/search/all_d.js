@@ -1597,7 +1597,7 @@ var searchData=
   ['militarypanel',['MilitaryPanel',['../classMilitaryPanel.html',1,'MilitaryPanel'],['../classMilitaryPanel.html#a00ada95c2d742e550d1adcfb5cad4449',1,'MilitaryPanel::MilitaryPanel()']]],
   ['militarypanel_2ecpp',['MilitaryPanel.cpp',['../MilitaryPanel_8cpp.html',1,'']]],
   ['militarypanel_2eh',['MilitaryPanel.h',['../MilitaryPanel_8h.html',1,'']]],
-  ['min',['min',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a',1,'min():&#160;Logger.h'],['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3abad5d7cc40d325401088b80e586c8484',1,'ValueRef::MIN()']]],
+  ['min',['MIN',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3abad5d7cc40d325401088b80e586c8484',1,'ValueRef::MIN()'],['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a',1,'min():&#160;Logger.h']]],
   ['min_5fheight',['MIN_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a458cedf344766c1a245e0d7c5d901268',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['min_5fparticipant_5fbar_5fheight',['MIN_PARTICIPANT_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#abdc682b349cfdd98a12d28e2e356f2e7',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['min_5fscale',['MIN_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a00aee4a0732934fcf787f9981457a497',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
