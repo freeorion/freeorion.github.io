@@ -942,6 +942,7 @@ var searchData=
   ['m_5fproperty_5fname',['m_property_name',['../structValueRef_1_1Variable.html#a3cdbb80d2761f836ea1c649fe71ef175',1,'ValueRef::Variable']]],
   ['m_5fpython_5fmodule_5fai',['m_python_module_ai',['../classPythonAI.html#a928df74c5a9100f0ddab1474714270ab',1,'PythonAI']]],
   ['m_5fpython_5fmodule_5fauth',['m_python_module_auth',['../classPythonServer.html#ae4867e7bfddac955d85193168cecb92c',1,'PythonServer']]],
+  ['m_5fpython_5fmodule_5fchat',['m_python_module_chat',['../classPythonServer.html#afa7de7d6916c37ea265cf6f17f0e82f1',1,'PythonServer']]],
   ['m_5fpython_5fmodule_5ferror',['m_python_module_error',['../classPythonBase.html#a18e9ff6cd98657130be6dbc446934e78',1,'PythonBase']]],
   ['m_5fpython_5fmodule_5fturn_5fevents',['m_python_module_turn_events',['../classPythonServer.html#a5dea5f2951ab0c2783220d948666a084',1,'PythonServer']]],
   ['m_5fpython_5fmodule_5funiverse_5fgenerator',['m_python_module_universe_generator',['../classPythonServer.html#acaee06490cc6c7e0c2f1c0eabffaf404',1,'PythonServer']]],
