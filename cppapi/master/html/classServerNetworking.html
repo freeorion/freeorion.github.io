@@ -168,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abfc89f30ff2572019ad6331bbf73213a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie</a> (boost::uuids::uuid cookie, const std::string &amp;player_name, <a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;roles, bool &amp;authenticated) const </td></tr>
 <tr class="memdesc:abfc89f30ff2572019ad6331bbf73213a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether player have non-expired cookie with this player name.  <a href="#abfc89f30ff2572019ad6331bbf73213a">More...</a><br /></td></tr>
 <tr class="separator:abfc89f30ff2572019ad6331bbf73213a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d977761cd32f2fe055aaa8551ea407d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a0d977761cd32f2fe055aaa8551ea407d">GetCookiesSize</a> () const </td></tr>
+<tr class="memdesc:a0d977761cd32f2fe055aaa8551ea407d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns count of stored cookies so we don't collide with reserved player names.  <a href="#a0d977761cd32f2fe055aaa8551ea407d">More...</a><br /></td></tr>
+<tr class="separator:a0d977761cd32f2fe055aaa8551ea407d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a1d9a98eb2e7dd93890f98081882ac929"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a1d9a98eb2e7dd93890f98081882ac929">SendMessageAll</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="memdesc:a1d9a98eb2e7dd93890f98081882ac929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a synchronous message <em>message</em> to the player indicated in the message and returns true on success.  <a href="#a1d9a98eb2e7dd93890f98081882ac929">More...</a><br /></td></tr>
@@ -849,6 +852,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0d977761cd32f2fe055aaa8551ea407d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ServerNetworking::GetCookiesSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns count of stored cookies so we don't collide with reserved player names. </p>
+
+<p>References <a class="el" href="classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff">m_cookies</a>.</p>
+
+<p>Referenced by <a class="el" href="structMPLobby.html#a1d794c06e7a937fc9688ca0f31a90ff9">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, and <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a2f8c34353ffbd6926d34fd8ea0192092"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1174,7 +1198,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie()</a>, <a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies()</a>, <a class="el" href="classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397">GenerateCookie()</a>, <a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">IsAvailableNameInCookies()</a>, and <a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">UpdateCookie()</a>.</p>
+<p>Referenced by <a class="el" href="classServerNetworking.html#abfc89f30ff2572019ad6331bbf73213a">CheckCookie()</a>, <a class="el" href="classServerNetworking.html#acbd8d1314621c1151ff63cc6fe3413c0">CleanupCookies()</a>, <a class="el" href="classServerNetworking.html#a535a38af70a0728b8b8d4298b47a6397">GenerateCookie()</a>, <a class="el" href="classServerNetworking.html#a0d977761cd32f2fe055aaa8551ea407d">GetCookiesSize()</a>, <a class="el" href="classServerNetworking.html#a19ab8f49226bc3ba0e5c7257e46c7d07">IsAvailableNameInCookies()</a>, and <a class="el" href="classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37">UpdateCookie()</a>.</p>
 
 </div>
 </div>

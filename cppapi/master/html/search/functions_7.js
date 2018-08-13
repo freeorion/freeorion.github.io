@@ -89,6 +89,7 @@ var searchData=
   ['getconditionmatches',['GetConditionMatches',['../classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a3b0c3eec2abd668df76992c001131479',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::GetConditionMatches()'],['../structValueRef_1_1Statistic.html#ac3b410043677e729014b13a6ec04b731',1,'ValueRef::Statistic::GetConditionMatches()']]],
   ['getconfigpath',['GetConfigPath',['../Directories_8cpp.html#a408e3f25b8084b54401020ae0a1743cd',1,'GetConfigPath():&#160;Directories.cpp'],['../Directories_8h.html#a32fb8e93e665f9e8cf2050d7ec2ade6b',1,'GetConfigPath():&#160;Directories.cpp']]],
   ['getcontrols',['GetControls',['../classObjectPanel.html#a2dadc55b74e0734dec43888038e979ad',1,'ObjectPanel::GetControls()'],['../classObjectHeaderPanel.html#a5f2d986b87fa2d4e4850ae049b8e985f',1,'ObjectHeaderPanel::GetControls()']]],
+  ['getcookiessize',['GetCookiesSize',['../classServerNetworking.html#a0d977761cd32f2fe055aaa8551ea407d',1,'ServerNetworking']]],
   ['getdamagedobjectstoserialize',['GetDamagedObjectsToSerialize',['../structCombatInfo.html#abb8e30013abf8f24d70c917e4c4b7493',1,'CombatInfo']]],
   ['getdataidnumber',['GetDataIDNumber',['../classSitRepEntry.html#a46080ced20f3b4cc391dd011bf3cd161',1,'SitRepEntry']]],
   ['getdatastring',['GetDataString',['../classSitRepEntry.html#a9a409a83e2d4c33d2c29d8e9f63e6f77',1,'SitRepEntry']]],
