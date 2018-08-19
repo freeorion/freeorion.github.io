@@ -182,7 +182,7 @@ var searchData=
   ['alpha',['alpha',['../structparse_1_1detail_1_1color__parser__grammar.html#ae8490888e84eeaf5658435d7dd747d7f',1,'parse::detail::color_parser_grammar::alpha()'],['../structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html#aa059c4e7a9df02120cf0044d9a328a53',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::Atmosphere::alpha()']]],
   ['alphanum',['alphanum',['../namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a163ee9df67286d39329e1c585dee5803',1,'anonymous_namespace{MultiplayerCommon.cpp}']]],
   ['amblocktype',['amBlockType',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a9541136198802c23597f4675df3f3e94',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
-  ['and',['And',['../structCondition_1_1And.html#a8d1f697612ba88829bf7322ba30f3182',1,'Condition::And']]],
+  ['and',['And',['../structCondition_1_1And.html#a8d1f697612ba88829bf7322ba30f3182',1,'Condition::And::And(std::vector&lt; std::unique_ptr&lt; ConditionBase &gt;&gt; &amp;&amp;operands)'],['../structCondition_1_1And.html#a13e6e7f5c7b0055f8243924177c9633b',1,'Condition::And::And(std::unique_ptr&lt; ConditionBase &gt; &amp;&amp;operand1, std::unique_ptr&lt; ConditionBase &gt; &amp;&amp;operand2)']]],
   ['and',['And',['../structCondition_1_1And.html',1,'Condition']]],
   ['and_5f',['and_',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a1f4f013c0429443fd0c2dba962705071',1,'parse::detail::condition_parser_rules_1']]],
   ['andcondition',['AndCondition',['../classAndCondition.html',1,'AndCondition'],['../classAndCondition.html#a9b05a5b4859b6cbd3866372c3d9e433e',1,'AndCondition::AndCondition()']]],
