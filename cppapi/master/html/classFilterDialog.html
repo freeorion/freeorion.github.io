@@ -274,17 +274,17 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aad389f46253ba529e25f4c7bd8326085"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#aad389f46253ba529e25f4c7bd8326085">m_accept_changes</a></td></tr>
+<tr class="memitem:aad389f46253ba529e25f4c7bd8326085"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#aad389f46253ba529e25f4c7bd8326085">m_accept_changes</a> = false</td></tr>
 <tr class="separator:aad389f46253ba529e25f4c7bd8326085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e04ecf498adf088ed3d131fa0f74bf8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a3e04ecf498adf088ed3d131fa0f74bf8">m_apply_button</a></td></tr>
+<tr class="memitem:a3e04ecf498adf088ed3d131fa0f74bf8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a3e04ecf498adf088ed3d131fa0f74bf8">m_apply_button</a> = nullptr</td></tr>
 <tr class="separator:a3e04ecf498adf088ed3d131fa0f74bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e45097a6c62ec01b26d2b65e7f0e07"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a13e45097a6c62ec01b26d2b65e7f0e07">m_cancel_button</a></td></tr>
+<tr class="memitem:a13e45097a6c62ec01b26d2b65e7f0e07"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Button &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a13e45097a6c62ec01b26d2b65e7f0e07">m_cancel_button</a> = nullptr</td></tr>
 <tr class="separator:a13e45097a6c62ec01b26d2b65e7f0e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d05f2e80a8cb172f1ba309576dc6ed"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classConditionWidget.html">ConditionWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a86d05f2e80a8cb172f1ba309576dc6ed">m_condition_widget</a></td></tr>
+<tr class="memitem:a86d05f2e80a8cb172f1ba309576dc6ed"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classConditionWidget.html">ConditionWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a86d05f2e80a8cb172f1ba309576dc6ed">m_condition_widget</a> = nullptr</td></tr>
 <tr class="separator:a86d05f2e80a8cb172f1ba309576dc6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a521fc803649e5861570ad51ff9dcf9e5"><td class="memItemLeft" align="right" valign="top">std::map&lt; UniverseObjectType, std::map&lt; VIS_DISPLAY, std::shared_ptr&lt; GG::StateButton &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a521fc803649e5861570ad51ff9dcf9e5">m_filter_buttons</a></td></tr>
 <tr class="separator:a521fc803649e5861570ad51ff9dcf9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a589268ab6a67167f5332ba56c60580b0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Layout &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a589268ab6a67167f5332ba56c60580b0">m_filters_layout</a></td></tr>
+<tr class="memitem:a589268ab6a67167f5332ba56c60580b0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; GG::Layout &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a589268ab6a67167f5332ba56c60580b0">m_filters_layout</a> = nullptr</td></tr>
 <tr class="separator:a589268ab6a67167f5332ba56c60580b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a753ebbebf2637e05d7a24a37892b0dfb"><td class="memItemLeft" align="right" valign="top">std::map&lt; UniverseObjectType, std::set&lt; VIS_DISPLAY &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterDialog.html#a753ebbebf2637e05d7a24a37892b0dfb">m_vis_filters</a></td></tr>
 <tr class="separator:a753ebbebf2637e05d7a24a37892b0dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -684,7 +684,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool FilterDialog::m_accept_changes</td>
+          <td class="memname">bool FilterDialog::m_accept_changes = false</td>
         </tr>
       </table>
   </td>
@@ -706,7 +706,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;GG::Button&gt; FilterDialog::m_apply_button</td>
+          <td class="memname">std::shared_ptr&lt;GG::Button&gt; FilterDialog::m_apply_button = nullptr</td>
         </tr>
       </table>
   </td>
@@ -728,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;GG::Button&gt; FilterDialog::m_cancel_button</td>
+          <td class="memname">std::shared_ptr&lt;GG::Button&gt; FilterDialog::m_cancel_button = nullptr</td>
         </tr>
       </table>
   </td>
@@ -750,7 +750,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classConditionWidget.html">ConditionWidget</a>&gt; FilterDialog::m_condition_widget</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classConditionWidget.html">ConditionWidget</a>&gt; FilterDialog::m_condition_widget = nullptr</td>
         </tr>
       </table>
   </td>
@@ -794,7 +794,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;GG::Layout&gt; FilterDialog::m_filters_layout</td>
+          <td class="memname">std::shared_ptr&lt;GG::Layout&gt; FilterDialog::m_filters_layout = nullptr</td>
         </tr>
       </table>
   </td>
