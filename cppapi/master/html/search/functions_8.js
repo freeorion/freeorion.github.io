@@ -125,6 +125,8 @@ var searchData=
   ['hidesuperfluousparts',['HideSuperfluousParts',['../classPartsListBox.html#af100a68beba1670234e3abf694e7396e',1,'PartsListBox']]],
   ['hidesystemnames',['HideSystemNames',['../classMapWnd.html#ad8fb854b6c6a43ab234b7e5a300d09c0',1,'MapWnd']]],
   ['hidetype',['HideType',['../classBuildDesignatorWnd_1_1BuildSelector.html#ad70a59a94aa666c768a6f0dc5563fbe5',1,'BuildDesignatorWnd::BuildSelector::HideType()'],['../classBuildDesignatorWnd.html#a44911961886bbb367a9605f1885bbddb',1,'BuildDesignatorWnd::HideType()']]],
+  ['highestdestroyedobjectid',['HighestDestroyedObjectID',['../classUniverse.html#ac6eddc3332519d38adcaf9d8f6635382',1,'Universe']]],
+  ['highestobjectid',['HighestObjectID',['../classObjectMap.html#ac8490e68f191eda81d8062a13c16c9f7',1,'ObjectMap']]],
   ['highlight',['Highlight',['../classSlotControl.html#ad3b502d6a01d382346d149684191a9e0',1,'SlotControl']]],
   ['highlightrow',['HighlightRow',['../classFleetsListBox.html#af817ca40e480a9ee896664030e1ab308',1,'FleetsListBox']]],
   ['highlightslottype',['HighlightSlotType',['../classDesignWnd_1_1MainPanel.html#a17fb25514a1a8a582b6c17172b790e22',1,'DesignWnd::MainPanel']]],
