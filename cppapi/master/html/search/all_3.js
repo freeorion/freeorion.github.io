@@ -696,7 +696,7 @@ var searchData=
   ['current_5fturn',['current_turn',['../structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d',1,'SaveGamePreviewData']]],
   ['current_5fvalue',['current_value',['../structScriptingContext.html#a32befe8da9ef0718c943db401b3b3021',1,'ScriptingContext']]],
   ['currentcolor',['CurrentColor',['../classEmpireColorSelector.html#a027b64d53f09628f6e77f78a9d5285c1',1,'EmpireColorSelector']]],
-  ['currentdesignisregistered',['CurrentDesignIsRegistered',['../classDesignWnd_1_1MainPanel.html#a1ccc651bd497f04ca0a5f04bfae6d520',1,'DesignWnd::MainPanel']]],
+  ['currentdesignisregistered',['CurrentDesignIsRegistered',['../classDesignWnd_1_1MainPanel.html#ad3d2a5590a27c57e4056ea40ccc27b9c',1,'DesignWnd::MainPanel']]],
   ['currenthealth',['CurrentHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#ad5ca9dd1c7d834a07f4c0234cc2f90ce',1,'anonymous_namespace{CombatLogManager.cpp}']]],
   ['currentmetervalue',['CurrentMeterValue',['../classPlanet.html#a299c3560d59afb6e28424d6ca49f02bf',1,'Planet::CurrentMeterValue()'],['../classPopCenter.html#a076797490beda2442f9e7749a04bc5e0',1,'PopCenter::CurrentMeterValue()'],['../classResourceCenter.html#a530e0b7b19f75bdb08bee8b67d55ec6d',1,'ResourceCenter::CurrentMeterValue()'],['../classUniverseObject.html#a3899829536fedb7fb49428a976fa61e0',1,'UniverseObject::CurrentMeterValue()']]],
   ['currentpartmetervalue',['CurrentPartMeterValue',['../classShip.html#acc0b0fbb10206a0fd2c9cdbe04148671',1,'Ship']]],
