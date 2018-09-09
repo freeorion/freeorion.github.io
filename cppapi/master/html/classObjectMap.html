@@ -597,7 +597,7 @@ template&lt;class T &gt; </div>
 
 <p>Empties map, removing shared ownership by this map of all previously contained objects. </p>
 
-<p>References <a class="el" href="classObjectMap.html#a503c7aa78d04115de973882c3a3ea1d3">ClearMap()</a>, and <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>.</p>
+<p>References <a class="el" href="classObjectMap.html#a503c7aa78d04115de973882c3a3ea1d3">ClearMap()</a>, <a class="el" href="ObjectMap_8cpp.html#ae42d96c2af8186dbf6694ade26fffb41">FOR_EACH_EXISTING_MAP</a>, and <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>.</p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Universe::Clear()</a>, <a class="el" href="classUniverse.html#ac36126ad30f086cebfbebb6f0be13b8d">Universe::EmpireKnownObjects()</a>, <a class="el" href="structCombatInfo.html#a22b2f612917b30a87ce5c9f03f4e7685">CombatInfo::GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a76ba734bf42a8a5dc7633ee2418d8cb2">Universe::GetObjectsToSerialize()</a>, and <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">Universe::serialize()</a>.</p>
 
@@ -627,7 +627,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">Clear()</a>, and <a class="el" href="classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107">CopyObjectsToSpecializedMaps()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a30835795275ba2b88083052899b3521e">Clear()</a>, <a class="el" href="classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107">CopyObjectsToSpecializedMaps()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2478,7 +2478,7 @@ template&lt;class T &gt; </div>
 <p>Removes object with id <em>id</em> from map, and returns that object, if there was an object under that ID in the map. </p>
 <p>If no such object existed in the map, a null shared_ptr is returned and nothing is removed. The <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a> will no longer share ownership of the returned object. </p>
 
-<p>References <a class="el" href="classObjectMap.html#a947283d7c944d3afc8b440058642f631">EraseFromMap()</a>, <a class="el" href="ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7">FOR_EACH_SPECIALIZED_MAP</a>, <a class="el" href="classObjectMap.html#ad7e0512fc7fe2dc2c11c342cc8c93c38">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#a8150d1027a5a8bad8912b9c24e8e7940">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a8a1047b4939a22b7ee311c27030f1c5d">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#af1872b200f06d5d7d1413b36a6913977">m_existing_objects</a>, <a class="el" href="classObjectMap.html#acfc2a57ae1a230b2af9ac35ecd6dafea">m_existing_planets</a>, <a class="el" href="classObjectMap.html#ac5ca66e45a12cc1923929d5965098db4">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a79ecd36a46e914bdba5b75b852be737e">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac">m_existing_ships</a>, <a class="el" href="classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c">m_existing_systems</a>, and <a class="el" href="classObjectMap.html#a417468c6a766e2571c37905d9e171875">m_objects</a>.</p>
+<p>References <a class="el" href="classObjectMap.html#a947283d7c944d3afc8b440058642f631">EraseFromMap()</a>, <a class="el" href="ObjectMap_8cpp.html#ae42d96c2af8186dbf6694ade26fffb41">FOR_EACH_EXISTING_MAP</a>, <a class="el" href="ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7">FOR_EACH_SPECIALIZED_MAP</a>, and <a class="el" href="classObjectMap.html#a417468c6a766e2571c37905d9e171875">m_objects</a>.</p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b">Universe::ForgetKnownObject()</a>.</p>
 
@@ -2536,7 +2536,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Swaps the contents of *this with <em>rhs</em>. </p>
 
-<p>References <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>, and <a class="el" href="classObjectMap.html#a29d413049beb51a691e0bc67328c084f">SwapMap()</a>.</p>
+<p>References <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>, <a class="el" href="classObjectMap.html#ad7e0512fc7fe2dc2c11c342cc8c93c38">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#a8150d1027a5a8bad8912b9c24e8e7940">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a8a1047b4939a22b7ee311c27030f1c5d">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#af1872b200f06d5d7d1413b36a6913977">m_existing_objects</a>, <a class="el" href="classObjectMap.html#acfc2a57ae1a230b2af9ac35ecd6dafea">m_existing_planets</a>, <a class="el" href="classObjectMap.html#ac5ca66e45a12cc1923929d5965098db4">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a79ecd36a46e914bdba5b75b852be737e">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac">m_existing_ships</a>, <a class="el" href="classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c">m_existing_systems</a>, and <a class="el" href="classObjectMap.html#a29d413049beb51a691e0bc67328c084f">SwapMap()</a>.</p>
 
 <p>Referenced by <a class="el" href="structCombatInfo.html#aa41c2cc3a7eaaa8b7f1c9880e34eefdb">CombatInfo::load()</a>, and <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">Universe::serialize()</a>.</p>
 
@@ -2637,7 +2637,7 @@ template&lt;class T &gt; </div>
 <p>Copies the contents of the <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a> <em>copied_map</em> into this <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a>. </p>
 <p>Each object in <em>copied_map</em> has information transferred to this map. If there already is a version of an object in <em>copied_map</em> in this map then information is copied onto this map's version of the object using the <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c" title="copies data from copied_object to this object, limited to only copy data about the copied object that...">UniverseObject::Copy</a> function. If there is no corresponding object in this map, a new object is created using the UinverseObject::Clone function. The copied objects are complete copies if <em>empire_id</em> is ALL_EMPIRES, but if another <em>empire_id</em> is specified, the copied information is limited by passing <em>empire_id</em> to are limited to the Copy or Clone functions of the copied UniverseObjects. Any objects in this <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a> that have no corresponding object in <em>copied_map</em> are left unchanged. </p>
 
-<p>References <a class="el" href="classObjectMap.html#ad7e0512fc7fe2dc2c11c342cc8c93c38">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#a8150d1027a5a8bad8912b9c24e8e7940">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a8a1047b4939a22b7ee311c27030f1c5d">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#af1872b200f06d5d7d1413b36a6913977">m_existing_objects</a>, <a class="el" href="classObjectMap.html#acfc2a57ae1a230b2af9ac35ecd6dafea">m_existing_planets</a>, <a class="el" href="classObjectMap.html#ac5ca66e45a12cc1923929d5965098db4">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a79ecd36a46e914bdba5b75b852be737e">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac">m_existing_ships</a>, <a class="el" href="classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c">m_existing_systems</a>, <a class="el" href="classObjectMap.html#a417468c6a766e2571c37905d9e171875">m_objects</a>, and <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">Object()</a>.</p>
+<p>References <a class="el" href="classObjectMap.html#a503c7aa78d04115de973882c3a3ea1d3">ClearMap()</a>, <a class="el" href="ObjectMap_8cpp.html#ae42d96c2af8186dbf6694ade26fffb41">FOR_EACH_EXISTING_MAP</a>, <a class="el" href="classObjectMap.html#ad7e0512fc7fe2dc2c11c342cc8c93c38">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#a8150d1027a5a8bad8912b9c24e8e7940">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a8a1047b4939a22b7ee311c27030f1c5d">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#af1872b200f06d5d7d1413b36a6913977">m_existing_objects</a>, <a class="el" href="classObjectMap.html#acfc2a57ae1a230b2af9ac35ecd6dafea">m_existing_planets</a>, <a class="el" href="classObjectMap.html#ac5ca66e45a12cc1923929d5965098db4">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a79ecd36a46e914bdba5b75b852be737e">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac">m_existing_ships</a>, <a class="el" href="classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c">m_existing_systems</a>, <a class="el" href="classObjectMap.html#a417468c6a766e2571c37905d9e171875">m_objects</a>, and <a class="el" href="classObjectMap.html#a646be434e992737853f99fb4adc1e24b">Object()</a>.</p>
 
 <p>Referenced by <a class="el" href="classUniverse.html#a0d9e8c0ff6a3c34baf2101aedac6ecce">Universe::serialize()</a>.</p>
 
@@ -2705,7 +2705,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2727,7 +2727,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2749,7 +2749,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2771,7 +2771,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a816bb5ca68f24ed8e216d9f415da5262">ExistingObject()</a>, <a class="el" href="classObjectMap.html#a431e38f828c3ecce758a77fe412ee993">FindExistingObjectIDs()</a>, <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a816bb5ca68f24ed8e216d9f415da5262">ExistingObject()</a>, <a class="el" href="classObjectMap.html#a431e38f828c3ecce758a77fe412ee993">FindExistingObjectIDs()</a>, <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2793,7 +2793,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2815,7 +2815,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2837,7 +2837,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2859,7 +2859,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
@@ -2881,7 +2881,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a8f9bb035b7f2314261a978bd6f9c02fe">Remove()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
+<p>Referenced by <a class="el" href="classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8">InsertCore()</a>, <a class="el" href="classObjectMap.html#a18249f8d879822a528ea1ca681dfff8f">swap()</a>, and <a class="el" href="classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685">UpdateCurrentDestroyedObjects()</a>.</p>
 
 </div>
 </div>
