@@ -19,6 +19,7 @@ var searchData=
   ['anonymous_5fnamespace_7bcombatreportdata_2ecpp_7d',['anonymous_namespace{CombatReportData.cpp}',['../namespaceanonymous__namespace_02CombatReportData_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatsystem_2ecpp_7d',['anonymous_namespace{CombatSystem.cpp}',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcondition_2ecpp_7d',['anonymous_namespace{Condition.cpp}',['../namespaceanonymous__namespace_02Condition_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bconfigwrapper_2ecpp_7d',['anonymous_namespace{ConfigWrapper.cpp}',['../namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuicontrols_2ecpp_7d',['anonymous_namespace{CUIControls.cpp}',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuidrawutil_2ecpp_7d',['anonymous_namespace{CUIDrawUtil.cpp}',['../namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuiwnd_2ecpp_7d',['anonymous_namespace{CUIWnd.cpp}',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html',1,'']]],

@@ -48,6 +48,7 @@ var searchData=
   ['wrap',['Wrap',['../classFreeOrionPython_1_1SetWrapper.html#a67186798e6b21a51bda55817dd1051ee',1,'FreeOrionPython::SetWrapper']]],
   ['wrapai',['WrapAI',['../namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e',1,'FreeOrionPython']]],
   ['wrapcolortag',['WrapColorTag',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad5c8d8ac890cfb42d80be24ff0f49516',1,'anonymous_namespace{CombatEvents.cpp}']]],
+  ['wrapconfig',['WrapConfig',['../namespaceFreeOrionPython.html#a81aba7428767ee8b6c652bcaf427bb43',1,'FreeOrionPython']]],
   ['wrapempire',['WrapEmpire',['../namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34',1,'FreeOrionPython']]],
   ['wrapgalaxysetupdata',['WrapGalaxySetupData',['../namespaceFreeOrionPython.html#aadeee0b90799a0dbeb16daa367444452',1,'FreeOrionPython']]],
   ['wrapgamestateenums',['WrapGameStateEnums',['../namespaceFreeOrionPython.html#a0f270805d11911dfa739c0b9a37d1a3c',1,'FreeOrionPython']]],
