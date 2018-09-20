@@ -195,7 +195,6 @@ var searchData=
   ['colwidths',['ColWidths',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html#aaa124bb7ececbb4e0e6a7bb147102b72',1,'TechTreeWnd::TechListBox::TechRow']]],
   ['combatconditionsinsystem',['CombatConditionsInSystem',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3938ed1b49fc11b991677fce12e7c43c',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['combatevent',['CombatEvent',['../structCombatEvent.html#a21536bd67cbfb8626868a51f932d7345',1,'CombatEvent']]],
-  ['combaticon',['CombatIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a53f42bc9de42cbd5b36b41ebe9e30ce3',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['combatinfo',['CombatInfo',['../structCombatInfo.html#a5e9a449aa433d423b69cda2df285e8a5',1,'CombatInfo::CombatInfo()'],['../structCombatInfo.html#a00c1f481f05f6d95f189bbd561c1bd73',1,'CombatInfo::CombatInfo(int system_id_, int turn_)']]],
   ['combatlog',['CombatLog',['../structCombatLog.html#a966f37f790cbd8af30b5820cfd5642e8',1,'CombatLog::CombatLog()'],['../structCombatLog.html#a1af067bb23ebba7681a53c767ae35045',1,'CombatLog::CombatLog(const CombatInfo &amp;combat_info)']]],
   ['combatlogaccordionpanel',['CombatLogAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a70202d19516870fc9855753477986df5',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
