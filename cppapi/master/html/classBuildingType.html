@@ -150,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7fa54721c09cfce448b75c1da41506ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the condition that determines the locations where this building can be produced  <a href="#a7fa54721c09cfce448b75c1da41506ff">More...</a><br /></td></tr>
 <tr class="separator:a7fa54721c09cfce448b75c1da41506ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15c5e7a5e93428b641072b05571e3739"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structCondition_1_1ConditionBase.html">Condition::ConditionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#a15c5e7a5e93428b641072b05571e3739">EnqueueLocation</a> () const </td></tr>
-<tr class="memdesc:a15c5e7a5e93428b641072b05571e3739"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the condition that determines the locations where this building can be enqueued (ie. put onto the production queue)  <a href="#a15c5e7a5e93428b641072b05571e3739">More...</a><br /></td></tr>
+<tr class="memdesc:a15c5e7a5e93428b641072b05571e3739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a condition that can be used by the UI to further filter (beyond the <a class="el" href="classBuildingType.html#a7fa54721c09cfce448b75c1da41506ff" title="returns the condition that determines the locations where this building can be produced ...">Location()</a> requirement) where this building will be presented for enqueuing onto the production queue, to avoid clutter in the <a class="el" href="classBuildDesignatorWnd.html">BuildDesignatorWnd</a>.  <a href="#a15c5e7a5e93428b641072b05571e3739">More...</a><br /></td></tr>
 <tr class="separator:a15c5e7a5e93428b641072b05571e3739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff5c664337d36977476475418d3b4050"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#aff5c664337d36977476475418d3b4050">Effects</a> () const </td></tr>
 <tr class="memdesc:aff5c664337d36977476475418d3b4050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the EffectsGroups that encapsulate the effects that buildings ofi this type have when operational.  <a href="#aff5c664337d36977476475418d3b4050">More...</a><br /></td></tr>
@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7d22cf19edfff77e9857266a69f9cba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with ID empire_id can produce this building at the location with location_id  <a href="#a7d22cf19edfff77e9857266a69f9cba2">More...</a><br /></td></tr>
 <tr class="separator:a7d22cf19edfff77e9857266a69f9cba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad91b11e15da1058c43fa21ceb01c0d35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#ad91b11e15da1058c43fa21ceb01c0d35">EnqueueLocation</a> (int empire_id, int location_id) const </td></tr>
-<tr class="memdesc:ad91b11e15da1058c43fa21ceb01c0d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with ID empire_id can enqueue this building at the location with location_id  <a href="#ad91b11e15da1058c43fa21ceb01c0d35">More...</a><br /></td></tr>
+<tr class="memdesc:ad91b11e15da1058c43fa21ceb01c0d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with ID empire_id meets the requirements of the <a class="el" href="classBuildingType.html#a15c5e7a5e93428b641072b05571e3739" title="Returns a condition that can be used by the UI to further filter (beyond the Location() requirement) ...">EnqueueLocation()</a> UI filter method for this building at the location with location_id  <a href="#ad91b11e15da1058c43fa21ceb01c0d35">More...</a><br /></td></tr>
 <tr class="separator:ad91b11e15da1058c43fa21ceb01c0d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c34415521c8cc7893405dbc15820fc"><td class="memItemLeft" align="right" valign="top">CaptureResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingType.html#a66c34415521c8cc7893405dbc15820fc">GetCaptureResult</a> (int from_empire_id, int to_empire_id, int location_id, bool as_production_item) const </td></tr>
 <tr class="memdesc:a66c34415521c8cc7893405dbc15820fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns CaptureResult for empire with ID <em>to_empire_id</em> capturing from empire with IDs <em>from_empire_id</em> the planet (or other <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>) with id <em>location_id</em> on which this type of <a class="el" href="classBuilding.html" title="A Building UniverseObject type. ">Building</a> is located (if <em>as_production_item</em> is false) or which is the location of a Production Queue BuildItem for a building of this type (otherwise)  <a href="#a66c34415521c8cc7893405dbc15820fc">More...</a><br /></td></tr>
@@ -397,7 +397,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the condition that determines the locations where this building can be enqueued (ie. put onto the production queue) </p>
+<p>Returns a condition that can be used by the UI to further filter (beyond the <a class="el" href="classBuildingType.html#a7fa54721c09cfce448b75c1da41506ff" title="returns the condition that determines the locations where this building can be produced ...">Location()</a> requirement) where this building will be presented for enqueuing onto the production queue, to avoid clutter in the <a class="el" href="classBuildDesignatorWnd.html">BuildDesignatorWnd</a>. </p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a752427c9396052997aacbc9b60a85b26">anonymous_namespace{UniverseWrapper.cpp}::EnqueueLocationTest()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a00dce387b50f4d35667439d61b6475e2">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelBuildingTypeTag()</a>.</p>
 
@@ -427,9 +427,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns true iff the empire with ID empire_id can enqueue this building at the location with location_id </p>
+<p>returns true iff the empire with ID empire_id meets the requirements of the <a class="el" href="classBuildingType.html#a15c5e7a5e93428b641072b05571e3739" title="Returns a condition that can be used by the UI to further filter (beyond the Location() requirement) ...">EnqueueLocation()</a> UI filter method for this building at the location with location_id </p>
 
-<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, <a class="el" href="classBuildingType.html#a3478172f8ebe3e97f32cae89999ace13">m_enqueue_location</a>, and <a class="el" href="classBuildingType.html#a7d22cf19edfff77e9857266a69f9cba2">ProductionLocation()</a>.</p>
+<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, and <a class="el" href="classBuildingType.html#a3478172f8ebe3e97f32cae89999ace13">m_enqueue_location</a>.</p>
 
 </div>
 </div>
@@ -751,7 +751,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#aac029623850b099cd913ab4cff614ac6">EmpireManager::GetSource()</a>, <a class="el" href="AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65">GetUniverseObject()</a>, and <a class="el" href="classBuildingType.html#afe00a2da50327ce5266319b4db3f4ad3">m_location</a>.</p>
 
-<p>Referenced by <a class="el" href="classBuildingType.html#ad91b11e15da1058c43fa21ceb01c0d35">EnqueueLocation()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af2716ca942ff9ec5e588fd812d5e7819">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af2716ca942ff9ec5e588fd812d5e7819">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
