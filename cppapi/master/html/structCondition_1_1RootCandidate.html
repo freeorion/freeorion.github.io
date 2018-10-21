@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a30ce6704f2d9af65ade1a3e3214ec32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae416ae941590302aae71980078500579"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1RootCandidate.html#ae416ae941590302aae71980078500579">GetCheckSum</a> () const override</td></tr>
 <tr class="separator:ae416ae941590302aae71980078500579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c9a6f0d2291f963adbf5d06740a1a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1RootCandidate.html#a89c9a6f0d2291f963adbf5d06740a1a5">GetDefaultInitialCandidateObjects</a> (const <a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;parent_context, <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">ObjectSet</a> &amp;condition_non_targets) const override</td></tr>
+<tr class="separator:a89c9a6f0d2291f963adbf5d06740a1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b09147e3aaa732cc0287e8b9dc338b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1RootCandidate.html#a8b09147e3aaa732cc0287e8b9dc338b8">operator==</a> (const <a class="el" href="structCondition_1_1ConditionBase.html">ConditionBase</a> &amp;rhs) const override</td></tr>
 <tr class="separator:a8b09147e3aaa732cc0287e8b9dc338b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d7f66b3f9273b4918ab7b5a62b2c501"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1RootCandidate.html#a0d7f66b3f9273b4918ab7b5a62b2c501">RootCandidateInvariant</a> () const override</td></tr>
@@ -154,8 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82764636a10c877b67b7994409755530 inherit pub_methods_structCondition_1_1ConditionBase"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1ConditionBase.html#a82764636a10c877b67b7994409755530">Eval</a> (std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; candidate) const </td></tr>
 <tr class="memdesc:a82764636a10c877b67b7994409755530 inherit pub_methods_structCondition_1_1ConditionBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests single candidate object, returning true iff it matches condition with empty <a class="el" href="structScriptingContext.html">ScriptingContext</a>.  <a href="#a82764636a10c877b67b7994409755530">More...</a><br /></td></tr>
 <tr class="separator:a82764636a10c877b67b7994409755530 inherit pub_methods_structCondition_1_1ConditionBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11f4b18b2263fd5cfd5db949d6fc5ef8 inherit pub_methods_structCondition_1_1ConditionBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1ConditionBase.html#a11f4b18b2263fd5cfd5db949d6fc5ef8">GetDefaultInitialCandidateObjects</a> (const <a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;parent_context, <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">ObjectSet</a> &amp;condition_non_targets) const </td></tr>
-<tr class="separator:a11f4b18b2263fd5cfd5db949d6fc5ef8 inherit pub_methods_structCondition_1_1ConditionBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62a82e64dfbba5b26cd20217d976597b inherit pub_methods_structCondition_1_1ConditionBase"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1ConditionBase.html#a62a82e64dfbba5b26cd20217d976597b">LocalCandidateInvariant</a> () const </td></tr>
 <tr class="memdesc:a62a82e64dfbba5b26cd20217d976597b inherit pub_methods_structCondition_1_1ConditionBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Almost) all conditions are varying with local candidates; this is the point of evaluating a condition.  <a href="#a62a82e64dfbba5b26cd20217d976597b">More...</a><br /></td></tr>
 <tr class="separator:a62a82e64dfbba5b26cd20217d976597b inherit pub_methods_structCondition_1_1ConditionBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +295,44 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#ad76475c04f5bfff81f36c3e5e9a606f9">Condition::ConditionBase</a>.</p>
 
 <p>References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89c9a6f0d2291f963adbf5d06740a1a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Condition::RootCandidate::GetDefaultInitialCandidateObjects </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>parent_context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">ObjectSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>condition_non_targets</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="structCondition_1_1ConditionBase.html#a11f4b18b2263fd5cfd5db949d6fc5ef8">Condition::ConditionBase</a>.</p>
+
+<p>References <a class="el" href="structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd">ScriptingContext::condition_root_candidate</a>.</p>
 
 </div>
 </div>
