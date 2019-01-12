@@ -46,7 +46,7 @@ var searchData=
   ['objectresourceconsumption',['ObjectResourceConsumption',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#abc6a364bdc0c6aeb2ad401c9dc088116',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],
   ['objectrightclicked',['ObjectRightClicked',['../classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb',1,'ObjectListWnd']]],
   ['objectrow',['ObjectRow',['../classObjectRow.html',1,'ObjectRow'],['../classObjectRow.html#ae1931e060cfbf81054717d37b7b7ab5a',1,'ObjectRow::ObjectRow()']]],
-  ['objects',['Objects',['../classUniverse.html#a1863f61fdd9603ce49b20b1929bada86',1,'Universe::Objects() const '],['../classUniverse.html#a6d45af29659736778a3ddd5134e01e34',1,'Universe::Objects()'],['../structCombatInfo.html#a987bd4800cfa124198d9006848835fc3',1,'CombatInfo::objects()'],['../AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c',1,'Objects():&#160;AppInterface.h']]],
+  ['objects',['objects',['../structCombatInfo.html#a987bd4800cfa124198d9006848835fc3',1,'CombatInfo::objects()'],['../classUniverse.html#a1863f61fdd9603ce49b20b1929bada86',1,'Universe::Objects() const '],['../classUniverse.html#a6d45af29659736778a3ddd5134e01e34',1,'Universe::Objects()'],['../AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c',1,'Objects():&#160;AppInterface.h']]],
   ['objectselectionchanged',['ObjectSelectionChanged',['../classObjectListWnd.html#aeb35c6cc90c6d2b0a844ec1c1b30f2f9',1,'ObjectListWnd']]],
   ['objectset',['ObjectSet',['../namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52',1,'Condition']]],
   ['objectsgetsystems',['ObjectsGetSystems',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a15b39515c513316302ed5ae6ff310578',1,'anonymous_namespace{ServerWrapper.cpp}']]],

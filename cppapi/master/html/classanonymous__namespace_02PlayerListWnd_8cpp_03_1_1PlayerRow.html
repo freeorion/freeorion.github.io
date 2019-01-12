@@ -110,10 +110,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ef16f28660eb23353b17a1d50de423d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#a5ef16f28660eb23353b17a1d50de423d">PlayerRow</a> (GG::X w, GG::Y h, int player_id)</td></tr>
-<tr class="separator:a5ef16f28660eb23353b17a1d50de423d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b3d85c2f70e4a19ebcfb4f06d2ac5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#a37b3d85c2f70e4a19ebcfb4f06d2ac5d">PlayerRow</a> (GG::X w, GG::Y h, int player_id, int empire_id)</td></tr>
+<tr class="separator:a37b3d85c2f70e4a19ebcfb4f06d2ac5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87e84ad0fafc9449aeb4dccac0cc1a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#ab87e84ad0fafc9449aeb4dccac0cc1a2">CompleteConstruction</a> () override</td></tr>
 <tr class="separator:ab87e84ad0fafc9449aeb4dccac0cc1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe77d57ab0a3197150a0597c9b69156"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#aabe77d57ab0a3197150a0597c9b69156">EmpireID</a> () const </td></tr>
+<tr class="separator:aabe77d57ab0a3197150a0597c9b69156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa55fe8277af88cb98efc50e35eeb85ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#aa55fe8277af88cb98efc50e35eeb85ea">PlayerID</a> () const </td></tr>
 <tr class="separator:aa55fe8277af88cb98efc50e35eeb85ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1237c216afcd13f1eb192ea587d4d3ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#a1237c216afcd13f1eb192ea587d4d3ec">SetStatus</a> (Message::PlayerStatus player_status)</td></tr>
@@ -126,13 +128,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:abee3275307bfc709c9ec6ab9ee7a95aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#abee3275307bfc709c9ec6ab9ee7a95aa">m_empire_id</a></td></tr>
+<tr class="separator:abee3275307bfc709c9ec6ab9ee7a95aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe764db6cc29954f7aaec0db8f127628"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html">PlayerDataPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#afe764db6cc29954f7aaec0db8f127628">m_panel</a></td></tr>
 <tr class="separator:afe764db6cc29954f7aaec0db8f127628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabc9ccc1f912056a5ccb872875cf5476"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerRow.html#aabc9ccc1f912056a5ccb872875cf5476">m_player_id</a></td></tr>
 <tr class="separator:aabc9ccc1f912056a5ccb872875cf5476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5ef16f28660eb23353b17a1d50de423d"></a>
+<a class="anchor" id="a37b3d85c2f70e4a19ebcfb4f06d2ac5d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -155,7 +159,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>player_id</em>&#160;</td>
+          <td class="paramname"><em>player_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire_id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -192,6 +202,29 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aabe77d57ab0a3197150a0597c9b69156"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int anonymous_namespace{PlayerListWnd.cpp}::PlayerRow::EmpireID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -305,6 +338,26 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="abee3275307bfc709c9ec6ab9ee7a95aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int anonymous_namespace{PlayerListWnd.cpp}::PlayerRow::m_empire_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="afe764db6cc29954f7aaec0db8f127628"></a>
 <div class="memitem">
 <div class="memproto">
