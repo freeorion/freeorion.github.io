@@ -390,7 +390,7 @@ var searchData=
   ['getuniverseobject',['GetUniverseObject',['../classClientApp.html#a09b86ee410d1372dea6a4393d4fc51f3',1,'ClientApp::GetUniverseObject()'],['../classServerApp.html#a431820331839f89e365a41a542298664',1,'ServerApp::GetUniverseObject()'],['../classIApp.html#a7e91415f70b1665dc5bd43748d5c1e3e',1,'IApp::GetUniverseObject()'],['../AppInterface_8h.html#aa077f43fab46a3974a8adea2dd6b2e65',1,'GetUniverseObject():&#160;AppInterface.h']]],
   ['getuniverseobjectp',['GetUniverseObjectP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#aed8fcc5129a7225cd293b5acb81016d3',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['getuniversewidth',['GetUniverseWidth',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a517dbb92fb3aef765a1a8fcb4a38d1bb',1,'anonymous_namespace{ServerWrapper.cpp}']]],
-  ['getunusedempirecolour',['GetUnusedEmpireColour',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a0d57e3276da3741906855d8b847d86f6',1,'anonymous_namespace{ServerFSM.cpp}']]],
+  ['getunusedempirecolour',['GetUnusedEmpireColour',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#acb43c4e6bee98c65a54328500d2661ec',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['getunvalidatedsitrepssortedbyturn',['GetUnvalidatedSitRepsSortedByTurn',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['getusage',['GetUsage',['../classOptionsDB.html#a3cce362f51d94c0303a3413b7f1f8649',1,'OptionsDB']]],
   ['getuserconfigdir',['GetUserConfigDir',['../Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820',1,'Directories.h']]],
