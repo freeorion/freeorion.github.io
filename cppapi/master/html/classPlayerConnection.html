@@ -134,9 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2139cfb1df340ccf7ba67601bde41500"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a2139cfb1df340ccf7ba67601bde41500">ClientVersionString</a> () const </td></tr>
 <tr class="memdesc:a2139cfb1df340ccf7ba67601bde41500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version string the client provided when joining.  <a href="#a2139cfb1df340ccf7ba67601bde41500">More...</a><br /></td></tr>
 <tr class="separator:a2139cfb1df340ccf7ba67601bde41500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d4486cf9373b7c029ec1900f2f761cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6d4486cf9373b7c029ec1900f2f761cd">ClientVersionStringMatchesThisServer</a> () const </td></tr>
-<tr class="memdesc:a6d4486cf9373b7c029ec1900f2f761cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the client's specified version string matches the version string of this server process.  <a href="#a6d4486cf9373b7c029ec1900f2f761cd">More...</a><br /></td></tr>
-<tr class="separator:a6d4486cf9373b7c029ec1900f2f761cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e41c9c6d23638a6b5dd04b9d979def"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a64e41c9c6d23638a6b5dd04b9d979def">IsBinarySerializationUsed</a> () const </td></tr>
+<tr class="memdesc:a64e41c9c6d23638a6b5dd04b9d979def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the server will enable binary serialization for this client's connection.  <a href="#a64e41c9c6d23638a6b5dd04b9d979def">More...</a><br /></td></tr>
+<tr class="separator:a64e41c9c6d23638a6b5dd04b9d979def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#af2c9ceffe5eecbd34a1e6e61a3d67a20">IsLocalConnection</a> () const </td></tr>
 <tr class="memdesc:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if client associated with this connection runs on the same physical machine as the server.  <a href="#af2c9ceffe5eecbd34a1e6e61a3d67a20">More...</a><br /></td></tr>
 <tr class="separator:af2c9ceffe5eecbd34a1e6e61a3d67a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,25 +434,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d4486cf9373b7c029ec1900f2f761cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool PlayerConnection::ClientVersionStringMatchesThisServer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true iff the client's specified version string matches the version string of this server process. </p>
-
-<p>References <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, and <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a908202f00196cb4108f597254f2531aa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -667,6 +648,25 @@ Friends</h2></td></tr>
 <p>Checks if the player was authenticated. </p>
 
 <p>References <a class="el" href="classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8">m_authenticated</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64e41c9c6d23638a6b5dd04b9d979def"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerConnection::IsBinarySerializationUsed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the server will enable binary serialization for this client's connection. </p>
+
+<p>References <a class="el" href="Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801">FreeOrionVersionString()</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classPlayerConnection.html#abf07161cdd0152b9ea3cbe2f73c68b63">m_client_version_string</a>.</p>
 
 </div>
 </div>
@@ -1105,7 +1105,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100">AwaitPlayer()</a>, <a class="el" href="classPlayerConnection.html#a2139cfb1df340ccf7ba67601bde41500">ClientVersionString()</a>, <a class="el" href="classPlayerConnection.html#a6d4486cf9373b7c029ec1900f2f761cd">ClientVersionStringMatchesThisServer()</a>, and <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>.</p>
+<p>Referenced by <a class="el" href="classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100">AwaitPlayer()</a>, <a class="el" href="classPlayerConnection.html#a2139cfb1df340ccf7ba67601bde41500">ClientVersionString()</a>, <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>, and <a class="el" href="classPlayerConnection.html#a64e41c9c6d23638a6b5dd04b9d979def">IsBinarySerializationUsed()</a>.</p>
 
 </div>
 </div>
