@@ -71,7 +71,7 @@ var searchData=
   ['addparttype',['AddPartType',['../classEmpire.html#a84bd6772b2b4247248cd8364b83f6419',1,'Empire']]],
   ['addpartwithswapping',['AddPartWithSwapping',['../classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401',1,'DesignWnd::MainPanel']]],
   ['addplanetset',['AddPlanetSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#aae898688466ae2c4bc9d5d452d0ad6c0',1,'anonymous_namespace{Condition.cpp}']]],
-  ['addplayerintogame',['AddPlayerIntoGame',['../classServerApp.html#ac00d334a144386d898d40aad1d661ca9',1,'ServerApp']]],
+  ['addplayerintogame',['AddPlayerIntoGame',['../classServerApp.html#ae38f99524661e6fd7b87da6f8536ac7a',1,'ServerApp']]],
   ['addpoint',['AddPoint',['../classTechTreeLayout_1_1Edge.html#a9ff24989de564433a30c72f8399bd61c',1,'TechTreeLayout::Edge']]],
   ['addpopcenterset',['AddPopCenterSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#ac7fcdbb408acec421e5f91972865d790',1,'anonymous_namespace{Condition.cpp}']]],
   ['addrescenterset',['AddResCenterSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#a2584520a5612180f46c5e2e52aefa272',1,'anonymous_namespace{Condition.cpp}']]],

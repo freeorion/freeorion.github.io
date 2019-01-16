@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators //@{</div></td></tr>
 <tr class="memitem:a4b8f26cd2683f57fed7be2eda8ae5e8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerListWnd.html#a4b8f26cd2683f57fed7be2eda8ae5e8b">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
 <tr class="separator:a4b8f26cd2683f57fed7be2eda8ae5e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de50aa95c092637bb86bb9e710077a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerListWnd.html#a1de50aa95c092637bb86bb9e710077a7">HandlePlayerStatusUpdate</a> (Message::PlayerStatus player_status, int about_player_id)</td></tr>
-<tr class="separator:a1de50aa95c092637bb86bb9e710077a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab602e0bb29103079d416577b154f5783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerListWnd.html#ab602e0bb29103079d416577b154f5783">HandleEmpireStatusUpdate</a> (Message::PlayerStatus player_status, int about_empire_id)</td></tr>
+<tr class="separator:ab602e0bb29103079d416577b154f5783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f2e05d9bc3892494a1cd54b6da1d53e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerListWnd.html#a3f2e05d9bc3892494a1cd54b6da1d53e">Update</a> ()</td></tr>
 <tr class="separator:a3f2e05d9bc3892494a1cd54b6da1d53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b8cb8fa44920d799e5e5c610043170d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerListWnd.html#a7b8cb8fa44920d799e5e5c610043170d">Refresh</a> ()</td></tr>
@@ -527,12 +527,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1de50aa95c092637bb86bb9e710077a7"></a>
+<a class="anchor" id="ab602e0bb29103079d416577b154f5783"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void PlayerListWnd::HandlePlayerStatusUpdate </td>
+          <td class="memname">void PlayerListWnd::HandleEmpireStatusUpdate </td>
           <td>(</td>
           <td class="paramtype">Message::PlayerStatus&#160;</td>
           <td class="paramname"><em>player_status</em>, </td>
@@ -541,7 +541,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>about_player_id</em>&#160;</td>
+          <td class="paramname"><em>about_empire_id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -551,7 +551,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, and <a class="el" href="classPlayerListWnd.html#a5ab8f4af242fda305ea7532b733ad09d">m_player_list</a>.</p>
+<p>References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classPlayerListWnd.html#a5ab8f4af242fda305ea7532b733ad09d">m_player_list</a>, and <a class="el" href="Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345">WarnLogger</a>.</p>
 
 </div>
 </div>
@@ -853,7 +853,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classPlayerListWnd.html#a297c0f19dab929a4f1d97a018bd5170a">Clear()</a>, <a class="el" href="classPlayerListWnd.html#a30cc4211a1a4f2223db57f8f3c5ae914">CompleteConstruction()</a>, <a class="el" href="classPlayerListWnd.html#a989ddb8c638777cbe53bc22e893085c9">DoLayout()</a>, <a class="el" href="classPlayerListWnd.html#ae14359a00504e61cc6b4e1c0a5f8b832">EmpireInRow()</a>, <a class="el" href="classPlayerListWnd.html#a1de50aa95c092637bb86bb9e710077a7">HandlePlayerStatusUpdate()</a>, <a class="el" href="classPlayerListWnd.html#a91661601a3cc17a627995e7d3085b402">PlayerInRow()</a>, <a class="el" href="classPlayerListWnd.html#ad232c814ff8f3bcb1be2f2f943715e23">PlayerSelectionChanged()</a>, <a class="el" href="classPlayerListWnd.html#a7b8cb8fa44920d799e5e5c610043170d">Refresh()</a>, <a class="el" href="classPlayerListWnd.html#a9489ca879de1e7d85fc24c73eb9fb00a">SelectedPlayerIDs()</a>, <a class="el" href="classPlayerListWnd.html#ab1d9533a3db4a900d1a0f5652795e221">SetSelectedPlayers()</a>, and <a class="el" href="classPlayerListWnd.html#a3f2e05d9bc3892494a1cd54b6da1d53e">Update()</a>.</p>
+<p>Referenced by <a class="el" href="classPlayerListWnd.html#a297c0f19dab929a4f1d97a018bd5170a">Clear()</a>, <a class="el" href="classPlayerListWnd.html#a30cc4211a1a4f2223db57f8f3c5ae914">CompleteConstruction()</a>, <a class="el" href="classPlayerListWnd.html#a989ddb8c638777cbe53bc22e893085c9">DoLayout()</a>, <a class="el" href="classPlayerListWnd.html#ae14359a00504e61cc6b4e1c0a5f8b832">EmpireInRow()</a>, <a class="el" href="classPlayerListWnd.html#ab602e0bb29103079d416577b154f5783">HandleEmpireStatusUpdate()</a>, <a class="el" href="classPlayerListWnd.html#a91661601a3cc17a627995e7d3085b402">PlayerInRow()</a>, <a class="el" href="classPlayerListWnd.html#ad232c814ff8f3bcb1be2f2f943715e23">PlayerSelectionChanged()</a>, <a class="el" href="classPlayerListWnd.html#a7b8cb8fa44920d799e5e5c610043170d">Refresh()</a>, <a class="el" href="classPlayerListWnd.html#a9489ca879de1e7d85fc24c73eb9fb00a">SelectedPlayerIDs()</a>, <a class="el" href="classPlayerListWnd.html#ab1d9533a3db4a900d1a0f5652795e221">SetSelectedPlayers()</a>, and <a class="el" href="classPlayerListWnd.html#a3f2e05d9bc3892494a1cd54b6da1d53e">Update()</a>.</p>
 
 </div>
 </div>
