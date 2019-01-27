@@ -10,6 +10,7 @@ var searchData=
   ['part_5fclass_5fas_5fint',['part_class_as_int',['../structparse_1_1int__complex__parser__grammar.html#a27e45d1819fb160e4b32bf55230d865f',1,'parse::int_complex_parser_grammar']]],
   ['part_5fclass_5fin_5fship_5fdesign',['part_class_in_ship_design',['../structparse_1_1int__complex__parser__grammar.html#a35ebfcad228a1cca0083cb7e0981fc28',1,'parse::int_complex_parser_grammar']]],
   ['part_5fcontrol_5fdrop_5ftype_5fstring',['PART_CONTROL_DROP_TYPE_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a43ded13fff38724aae8ef1504c281654',1,'anonymous_namespace{DesignWnd.cpp}']]],
+  ['part_5fmeter',['part_meter',['../structparse_1_1double__complex__parser__grammar.html#a63b85a524828aaa3369a8dce25c6cc8e',1,'parse::double_complex_parser_grammar']]],
   ['part_5ftype',['part_type',['../structanonymous__namespace_02ShipPartsParser_8cpp_03_1_1grammar.html#acb838d915a76c9be941cde164c536445',1,'anonymous_namespace{ShipPartsParser.cpp}::grammar']]],
   ['part_5ftype_5fname',['part_type_name',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#ac32e6d27f086be0ebb2a94deef7273a0',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
   ['participant_5fstates',['participant_states',['../structCombatLog.html#a8136c9b517f13046f37fde3ee639497c',1,'CombatLog']]],
