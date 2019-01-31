@@ -138,7 +138,7 @@ var searchData=
   ['destroy',['Destroy',['../classEffect_1_1Destroy.html',1,'Effect']]],
   ['destroy',['destroy',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a66bbdf59b1811533ba5efece756741c6',1,'parse::detail::effect_parser_rules_3::destroy()'],['../classEffect_1_1Destroy.html#a6d1033968c2b9baef3e433a704a1b369',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()']]],
   ['destroyed',['Destroyed',['../classFighter.html#a5a22ad0d59e457ab45054a992f0ee17f',1,'Fighter']]],
-  ['destroyed_5fobject_5fids',['destroyed_object_ids',['../structCombatLog.html#a17c4e6445d8e155d6ea4d32c7db26d1e',1,'CombatLog::destroyed_object_ids()'],['../structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa',1,'CombatInfo::destroyed_object_ids()']]],
+  ['destroyed_5fobject_5fids',['destroyed_object_ids',['../structCombatLog.html#a17c4e6445d8e155d6ea4d32c7db26d1e',1,'CombatLog::destroyed_object_ids()'],['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a2836e3902a01147764627c97e2444664',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::destroyed_object_ids()'],['../structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa',1,'CombatInfo::destroyed_object_ids()']]],
   ['destroyed_5fobject_5fknowers',['destroyed_object_knowers',['../structCombatInfo.html#a664a8b629e2155c0d5a84dc6fcc38582',1,'CombatInfo']]],
   ['destroyedobjectids',['DestroyedObjectIds',['../classUniverse.html#a7400367b4c45aecc0535736eb5b9b822',1,'Universe']]],
   ['destroyedunits',['DestroyedUnits',['../structCombatSummary.html#af895c5c574a78e98fcd8453fde44dd60',1,'CombatSummary']]],

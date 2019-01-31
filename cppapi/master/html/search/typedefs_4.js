@@ -17,6 +17,7 @@ var searchData=
   ['empireobjectvisvaluerefmap',['EmpireObjectVisValueRefMap',['../classUniverse.html#aa1425054d5218a2082ae6696c72cfe3c',1,'Universe']]],
   ['empirestatsmap',['EmpireStatsMap',['../classUniverse.html#a541b8c8f157adefb12b1c1b107362f71',1,'Universe']]],
   ['empiresystempredicatemap',['EmpireSystemPredicateMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#aadfcd6e04aad2f07ea82f298b0f45b56',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['empiretoobjectvisibilitymap',['EmpireToObjectVisibilityMap',['../structInitialStealthEvent.html#af2c5e8c96dedb9771d5fb87264423e67',1,'InitialStealthEvent']]],
   ['empireviewsystemgraph',['EmpireViewSystemGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a883703a28025ca42601efe39f316d971',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['empireviewsystemgraphmap',['EmpireViewSystemGraphMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a36ea2a470cecaaa7f9b252ca7ad81395',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['enum_5fgrammar',['enum_grammar',['../namespaceparse_1_1detail.html#a1855fcd758973a742c5d0d3482b2feff',1,'parse::detail']]],

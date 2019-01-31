@@ -21,11 +21,12 @@ var searchData=
   ['fieldtypemanager',['FieldTypeManager',['../classFieldTypeManager.html',1,'FieldTypeManager'],['../classFieldTypeManager.html#a766ea4c02a52ce6b0dd45de4f6faebf9',1,'FieldTypeManager::FieldTypeManager()']]],
   ['fieldtypemap',['FieldTypeMap',['../classFieldTypeManager.html#a3ff2b7a577c146fc1f25ea8a0c5b9c05',1,'FieldTypeManager']]],
   ['fieldtypename',['FieldTypeName',['../classField.html#a676f6ad5831da6f47efc19554fe8ad11',1,'Field']]],
-  ['fighter',['Fighter',['../classFighter.html',1,'Fighter'],['../classFighter.html#a09899f8d6fa6a099c912cabc5c6a6cb8',1,'Fighter::Fighter(int empire_id, int launched_from_id, const std::string &amp;species_name, float damage)'],['../classFighter.html#ae1d4ac29ed8dac91af41e6396ee00dda',1,'Fighter::Fighter()']]],
+  ['fighter',['Fighter',['../classFighter.html',1,'Fighter'],['../classFighter.html#a44c32892e156762ff7e3d911dd61c7e7',1,'Fighter::Fighter(int empire_id, int launched_from_id, const std::string &amp;species_name, float damage, const ::Condition::ConditionBase *combat_targets)'],['../classFighter.html#ae1d4ac29ed8dac91af41e6396ee00dda',1,'Fighter::Fighter()']]],
   ['fighter_2ecpp',['Fighter.cpp',['../Fighter_8cpp.html',1,'']]],
   ['fighter_2eh',['Fighter.h',['../Fighter_8h.html',1,'']]],
   ['fighter_5fdamage',['fighter_damage',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#abd15d47d234727eedde3f8d74749320d',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
   ['fighter_5fowner_5fempire_5fid',['fighter_owner_empire_id',['../structFighterLaunchEvent.html#a192ad340a7cf371d891bfff767475fd1',1,'FighterLaunchEvent']]],
+  ['fighter_5ftype_5fname',['fighter_type_name',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#ad16db30c6d5ea4f4319e5bb846f16662',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
   ['fighterboutinfo',['FighterBoutInfo',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo.html',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['fighterbrowselabelwidth',['FighterBrowseLabelWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7ded8b30e0b84d37181505ea1a5ed393',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['fighterbrowselistwidth',['FighterBrowseListWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#ad7211dd64e6715b9ad3b006e3eae42ba',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
@@ -212,7 +213,6 @@ var searchData=
   ['for_5feach_5fexisting_5fmap',['FOR_EACH_EXISTING_MAP',['../ObjectMap_8cpp.html#ae42d96c2af8186dbf6694ade26fffb41',1,'ObjectMap.cpp']]],
   ['for_5feach_5fmap',['FOR_EACH_MAP',['../ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca',1,'ObjectMap.cpp']]],
   ['for_5feach_5fspecialized_5fmap',['FOR_EACH_SPECIALIZED_MAP',['../ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7',1,'ObjectMap.cpp']]],
-  ['forceatleastbasicvisibility',['ForceAtLeastBasicVisibility',['../structCombatInfo.html#a79a7dae29685fd8fb3ef8872745162f3',1,'CombatInfo']]],
   ['forcedthreshold',['ForcedThreshold',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a06020d1e1c355f85f2cfb5a325d88884',1,'anonymous_namespace{Logger.cpp}']]],
   ['forcevaliddesignorthrow',['ForceValidDesignOrThrow',['../classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e',1,'ShipDesign']]],
   ['forgetknownobject',['ForgetKnownObject',['../classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
@@ -248,5 +248,6 @@ var searchData=
   ['fullscreenswitchsignaltype',['FullscreenSwitchSignalType',['../classHumanClientApp.html#a90d7bd32aa44b3879694676eb3b0484a',1,'HumanClientApp']]],
   ['function_5fexpr',['function_expr',['../structparse_1_1string__parser__grammar.html#a544410bfb80b436b660eb5c132ee8d94',1,'parse::string_parser_grammar::function_expr()'],['../namespaceparse.html#a054ed9ba8ee2cd452891c6891e9771ad',1,'parse::function_expr()']]],
   ['functional_5fexpr',['functional_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a6c76621aab0a737bf78e563d9cc0467c',1,'parse::detail::enum_value_ref_rules::functional_expr()'],['../structparse_1_1detail_1_1arithmetic__rules.html#a3166d41e019c2488aa20968e0d0a7ede',1,'parse::detail::arithmetic_rules::functional_expr()']]],
+  ['fusion_5fmax_5fvector_5fsize',['FUSION_MAX_VECTOR_SIZE',['../ShipPartsParser_8cpp.html#a82aed586e2f879ce29b52ad5deed238e',1,'ShipPartsParser.cpp']]],
   ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba4f491fa55ca9fe3f143054b6daa56920',1,'Availability']]]
 ];
