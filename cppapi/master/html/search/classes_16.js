@@ -5,7 +5,6 @@ var searchData=
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'']]],
   ['waitingformphostack',['WaitingForMPHostAck',['../structWaitingForMPHostAck.html',1,'']]],
   ['waitingformpjoinack',['WaitingForMPJoinAck',['../structWaitingForMPJoinAck.html',1,'']]],
-  ['waitingforsavedata',['WaitingForSaveData',['../structWaitingForSaveData.html',1,'']]],
   ['waitingforspgamejoiners',['WaitingForSPGameJoiners',['../structWaitingForSPGameJoiners.html',1,'']]],
   ['waitingforsphostack',['WaitingForSPHostAck',['../structWaitingForSPHostAck.html',1,'']]],
   ['waitingforturndata',['WaitingForTurnData',['../structWaitingForTurnData.html',1,'']]],

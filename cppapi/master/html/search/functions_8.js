@@ -46,7 +46,6 @@ var searchData=
   ['handlereceive',['HandleReceive',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#ad43119fc5b276f148739e2456fd9482f',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer::HandleReceive()'],['../classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9',1,'DiscoveryServer::HandleReceive()']]],
   ['handleresethotkeyoption',['HandleResetHotkeyOption',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#ac16918c53594f159e2831737ca5bf0a3',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['handleresouredirchange',['HandleResoureDirChange',['../classHumanClientApp.html#ad4c076d2e3420ece850c05841a8e9af0',1,'HumanClientApp']]],
-  ['handlesavegamedatarequest',['HandleSaveGameDataRequest',['../classHumanClientApp.html#aff51051954870d71f3adde255425066c',1,'HumanClientApp']]],
   ['handlesavegamepreviews',['HandleSaveGamePreviews',['../classHumanClientApp.html#addb492c28bd5fddaefb6c905defa14cf',1,'HumanClientApp']]],
   ['handlescrapping',['HandleScrapping',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1cab1aa2267ac8e18beb53a951835eec',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlescrolledandstopped',['HandleScrolledAndStopped',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1LazyScrollerLinkText.html#a524e84c4fa26a26c75450b021595b154',1,'anonymous_namespace{CombatLogWnd.cpp}::LazyScrollerLinkText']]],

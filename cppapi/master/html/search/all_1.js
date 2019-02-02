@@ -42,7 +42,7 @@ var searchData=
   ['adddesign',['AddDesign',['../classDesignWnd_1_1MainPanel.html#a251ec98c7a2afd90a529310b5078cfa7',1,'DesignWnd::MainPanel']]],
   ['adddesigntouniverse',['AddDesignToUniverse',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#af081a129507f9c6e6af4d7d910ad94b2',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['addedge',['AddEdge',['../classTechTreeLayout.html#ae2eb6d5979bfff6347709013315aa78f',1,'TechTreeLayout']]],
-  ['addempireturn',['AddEmpireTurn',['../classServerApp.html#a3662deee68012f1bc01b07d71c51f6c5',1,'ServerApp']]],
+  ['addempireturn',['AddEmpireTurn',['../classServerApp.html#aa549f5c8c03b0fcd38f2677afb7a5e3c',1,'ServerApp']]],
   ['addevent',['AddEvent',['../structBoutEvent.html#a576c7ac4cedfe752c187eeaa7d318579',1,'BoutEvent::AddEvent()'],['../structSimultaneousEvents.html#a155c0c9cb9774334623f6b07331bbe3c',1,'SimultaneousEvents::AddEvent()'],['../structStealthChangeEvent.html#a3e712a95eb1a6dc77ae35da95de8cb2e',1,'StealthChangeEvent::AddEvent()'],['../structFightersAttackFightersEvent.html#a5e132a74b955e3ff5254148d61749b95',1,'FightersAttackFightersEvent::AddEvent()'],['../structFightersDestroyedEvent.html#a1c03cc9c18ebf341c8e2705129d08b4e',1,'FightersDestroyedEvent::AddEvent()'],['../structWeaponsPlatformEvent.html#a2e5b698b955667601fc3af5b710fe154',1,'WeaponsPlatformEvent::AddEvent()']]],
   ['addexploredsystem',['AddExploredSystem',['../classEmpire.html#a9553ca4fa51803b0335c761a15469f7b',1,'Empire']]],
   ['addfieldset',['AddFieldSet',['../namespaceanonymous__namespace_02Condition_8cpp_03.html#a0ac1c1613add7162f1b6d33b63b7b31d',1,'anonymous_namespace{Condition.cpp}']]],

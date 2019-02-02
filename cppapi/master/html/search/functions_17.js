@@ -6,7 +6,6 @@ var searchData=
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners']]],
   ['waitingformphostack',['WaitingForMPHostAck',['../structWaitingForMPHostAck.html#ad424f09803044626ce9be1efd3175d4b',1,'WaitingForMPHostAck']]],
   ['waitingformpjoinack',['WaitingForMPJoinAck',['../structWaitingForMPJoinAck.html#a51e279ea818b8bb711cd98b53d593fff',1,'WaitingForMPJoinAck']]],
-  ['waitingforsavedata',['WaitingForSaveData',['../structWaitingForSaveData.html#aa1d7aaaf5b8755024914d89847e45af1',1,'WaitingForSaveData']]],
   ['waitingforspgamejoiners',['WaitingForSPGameJoiners',['../structWaitingForSPGameJoiners.html#a099b045f8aa9f9f5c41850634b7e2b09',1,'WaitingForSPGameJoiners']]],
   ['waitingforsphostack',['WaitingForSPHostAck',['../structWaitingForSPHostAck.html#a92e282089ff62c905515c81d4c129a4d',1,'WaitingForSPHostAck']]],
   ['waitingforturndata',['WaitingForTurnData',['../structWaitingForTurnData.html#a2074aedbb0375c785d0a9e4db189bfbc',1,'WaitingForTurnData']]],

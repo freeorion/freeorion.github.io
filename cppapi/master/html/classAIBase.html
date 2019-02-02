@@ -117,9 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a253e1443719b4246cd59a803d8c883d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAIBase.html#a253e1443719b4246cd59a803d8c883d4">GenerateOrders</a> ()</td></tr>
 <tr class="memdesc:a253e1443719b4246cd59a803d8c883d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call when the server has sent a new turn update.  <a href="#a253e1443719b4246cd59a803d8c883d4">More...</a><br /></td></tr>
 <tr class="separator:a253e1443719b4246cd59a803d8c883d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c63bbb41c99653d894e8c93c529dbbf"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAIBase.html#a2c63bbb41c99653d894e8c93c529dbbf">GetSaveStateString</a> ()</td></tr>
-<tr class="memdesc:a2c63bbb41c99653d894e8c93c529dbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the server is saving the game.  <a href="#a2c63bbb41c99653d894e8c93c529dbbf">More...</a><br /></td></tr>
-<tr class="separator:a2c63bbb41c99653d894e8c93c529dbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b010a1f3d74a8489ee98f8314c34991"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAIBase.html#a6b010a1f3d74a8489ee98f8314c34991">GetSaveStateString</a> () const </td></tr>
+<tr class="memdesc:a6b010a1f3d74a8489ee98f8314c34991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the server is saving the game.  <a href="#a6b010a1f3d74a8489ee98f8314c34991">More...</a><br /></td></tr>
+<tr class="separator:a6b010a1f3d74a8489ee98f8314c34991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ce75a215bfaf4f833f9aa353027c43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAIBase.html#ae8ce75a215bfaf4f833f9aa353027c43">HandleChatMessage</a> (int sender_id, const std::string &amp;msg)</td></tr>
 <tr class="memdesc:ae8ce75a215bfaf4f833f9aa353027c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another player sends a chat message to this AI.  <a href="#ae8ce75a215bfaf4f833f9aa353027c43">More...</a><br /></td></tr>
 <tr class="separator:ae8ce75a215bfaf4f833f9aa353027c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,7 +203,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2c63bbb41c99653d894e8c93c529dbbf"></a>
+<a class="anchor" id="a6b010a1f3d74a8489ee98f8314c34991"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -214,7 +214,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">const std::string &amp; AIBase::GetSaveStateString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -228,9 +228,11 @@ Protected Attributes</h2></td></tr>
 <p>The AI should store any state information it will need to resume at any later time, and return this information.</p>
 <dl class="section return"><dt>Returns</dt><dd>The serialized state information of the game running. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classPythonAI.html#af503b7fc97316cf9c4a3b4cae8606d80">PythonAI</a>.</p>
+<p>Reimplemented in <a class="el" href="classPythonAI.html#aad4df6be8a3b862ad62f1ae4312966af">PythonAI</a>.</p>
 
 <p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceAIInterface.html#af7dfb28c39dc077e360cfbe983129d1b">AIInterface::DoneTurn()</a>.</p>
 
 </div>
 </div>

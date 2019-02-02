@@ -101,6 +101,7 @@ var searchData=
   ['updateobjectpanel',['UpdateObjectPanel',['../classObjectListBox.html#a5c22ed2b56cc59303908ec6113ad73db',1,'ObjectListBox']]],
   ['updateownedobjectcounters',['UpdateOwnedObjectCounters',['../classEmpire.html#acc3d7a06905373a54b6286965eae6745',1,'Empire']]],
   ['updateparametercontrols',['UpdateParameterControls',['../classConditionWidget.html#a91804585f3dc0e6ff69b70e1d80132ad',1,'ConditionWidget']]],
+  ['updatepartialorders',['UpdatePartialOrders',['../classServerApp.html#a39bfdd185ca05c8607a3c848261dfccc',1,'ServerApp']]],
   ['updatepopulationcounter',['UpdatePopulationCounter',['../classSpeciesManager.html#af05efa26a64d251bfbb8a7b630cafda6',1,'SpeciesManager']]],
   ['updatepopulationgrowth',['UpdatePopulationGrowth',['../classEmpire.html#a13fd32e13222d8b6dd8175c60d101412',1,'Empire']]],
   ['updatepreservedlanes',['UpdatePreservedLanes',['../classEmpire.html#a3b8ee5ff437cd7440e86b3212091f538',1,'Empire']]],
@@ -141,8 +142,8 @@ var searchData=
   ['userstringnop',['UserStringNop',['../i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77',1,'i18n.h']]],
   ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html#a9222949fb53bd505461938732e298891',1,'anonymous_namespace{GalaxySetupWnd.cpp}::UserStringRow']]],
-  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#a816ff0fe328c904529644b5d953cf28a',1,'anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend']]],
   ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
+  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#a816ff0fe328c904529644b5d953cf28a',1,'anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5c114abbcaa728fe98631cefc6ad51c9',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5f6ac0f4025d308fb7c7a79846e10721',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['uuid',['UUID',['../classShipDesign.html#a4d66bef3a07521432710df9ab6ed3c76',1,'ShipDesign']]]

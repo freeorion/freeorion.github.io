@@ -63,6 +63,7 @@ var searchData=
   ['updateobjectpanel',['UpdateObjectPanel',['../classObjectListBox.html#a5c22ed2b56cc59303908ec6113ad73db',1,'ObjectListBox']]],
   ['updateownedobjectcounters',['UpdateOwnedObjectCounters',['../classEmpire.html#acc3d7a06905373a54b6286965eae6745',1,'Empire']]],
   ['updateparametercontrols',['UpdateParameterControls',['../classConditionWidget.html#a91804585f3dc0e6ff69b70e1d80132ad',1,'ConditionWidget']]],
+  ['updatepartialorders',['UpdatePartialOrders',['../classServerApp.html#a39bfdd185ca05c8607a3c848261dfccc',1,'ServerApp']]],
   ['updatepopulationcounter',['UpdatePopulationCounter',['../classSpeciesManager.html#af05efa26a64d251bfbb8a7b630cafda6',1,'SpeciesManager']]],
   ['updatepopulationgrowth',['UpdatePopulationGrowth',['../classEmpire.html#a13fd32e13222d8b6dd8175c60d101412',1,'Empire']]],
   ['updatepreservedlanes',['UpdatePreservedLanes',['../classEmpire.html#a3b8ee5ff437cd7440e86b3212091f538',1,'Empire']]],
