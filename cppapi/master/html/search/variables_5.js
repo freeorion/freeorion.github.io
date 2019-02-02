@@ -18,7 +18,6 @@ var searchData=
   ['empire_5fid_5ftag',['EMPIRE_ID_TAG',['../classVarText.html#a5e4ffd61eb914f1aa88cdca78921194e',1,'VarText']]],
   ['empire_5fids',['empire_ids',['../structCombatLog.html#aa72b1149ac4a0f6475be88da3dafd94d',1,'CombatLog::empire_ids()'],['../structCombatInfo.html#ab76e27683927a0191969197b4065f844',1,'CombatInfo::empire_ids()']]],
   ['empire_5finfos',['empire_infos',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ae8086cdabf0022774130682490e7db43',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
-  ['empire_5fknown_5fobjects',['empire_known_objects',['../structCombatInfo.html#ac0889eecf60168ca9394462ba4bb8b81',1,'CombatInfo']]],
   ['empire_5fmeter_5fvalue',['empire_meter_value',['../structparse_1_1detail_1_1condition__parser__rules__4.html#a5719340a2cc1563ba0234fee34a14634',1,'parse::detail::condition_parser_rules_4::empire_meter_value()'],['../structparse_1_1double__complex__parser__grammar.html#ad3dbf9ce97a04742872e84fc37db208b',1,'parse::double_complex_parser_grammar::empire_meter_value()']]],
   ['empire_5fmeter_5fvalue1',['empire_meter_value1',['../structparse_1_1detail_1_1condition__parser__rules__4.html#ae85abebd357c32f769622a7b3ed42280',1,'parse::detail::condition_parser_rules_4']]],
   ['empire_5fmeter_5fvalue2',['empire_meter_value2',['../structparse_1_1detail_1_1condition__parser__rules__4.html#a0cdeaae00a8a8c64ccdcf6e4672abe31',1,'parse::detail::condition_parser_rules_4']]],

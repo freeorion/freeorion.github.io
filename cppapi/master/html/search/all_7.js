@@ -161,7 +161,7 @@ var searchData=
   ['getempireknownfield',['GetEmpireKnownField',['../AppInterface_8h.html#af11202112f6a7077a095cfe500771216',1,'AppInterface.h']]],
   ['getempireknownfleet',['GetEmpireKnownFleet',['../AppInterface_8h.html#aa3bb35f99baaf05c3f6d616aa0da4a9e',1,'AppInterface.h']]],
   ['getempireknownobject',['GetEmpireKnownObject',['../AppInterface_8h.html#ad3352b59425374606cafcbb4d969be02',1,'AppInterface.h']]],
-  ['getempireknownobjectstoserialize',['GetEmpireKnownObjectsToSerialize',['../structCombatInfo.html#ae09a940c691c1702632fd2f95e8e1dd3',1,'CombatInfo::GetEmpireKnownObjectsToSerialize()'],['../classUniverse.html#a59510e1cfaefb7206faea2df9dcd9ce9',1,'Universe::GetEmpireKnownObjectsToSerialize()']]],
+  ['getempireknownobjectstoserialize',['GetEmpireKnownObjectsToSerialize',['../classUniverse.html#a59510e1cfaefb7206faea2df9dcd9ce9',1,'Universe']]],
   ['getempireknownplanet',['GetEmpireKnownPlanet',['../AppInterface_8h.html#aaf19019f4f5a31ec937d76abb5bcae3b',1,'AppInterface.h']]],
   ['getempireknownpopcenter',['GetEmpireKnownPopCenter',['../AppInterface_8h.html#a411f544b626896c68d37d92fa84d390f',1,'AppInterface.h']]],
   ['getempireknownresourcecenter',['GetEmpireKnownResourceCenter',['../AppInterface_8h.html#ad09d5f7fa956e32eae311777d3ce8cb6',1,'AppInterface.h']]],
