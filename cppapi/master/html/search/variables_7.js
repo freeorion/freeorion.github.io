@@ -21,5 +21,5 @@ var searchData=
   ['global_5fqueue',['global_queue',['../structThreadQueue.html#ac6221d0bf56b64fd1d929504698b161a',1,'ThreadQueue']]],
   ['graph',['GRAPH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a3e94f3d1c43497e2bcafa6b3e651991c',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['graph_5ftag',['GRAPH_TAG',['../classTextLinker.html#a7e93d3f45a84ce78eb337553ead14e04',1,'TextLinker']]],
-  ['graphic',['graphic',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#a21eefa104af36247620e872fefdad9c6',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod::graphic()'],['../structTechCategory.html#a9fc6bf74bd846c735726f6ba389176d3',1,'TechCategory::graphic()']]]
+  ['graphic',['graphic',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#a21eefa104af36247620e872fefdad9c6',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod::graphic()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStuff.html#a1b6d9879335ced616f4e2d5c460ef124',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesStuff::graphic()'],['../structTechCategory.html#a9fc6bf74bd846c735726f6ba389176d3',1,'TechCategory::graphic()']]]
 ];

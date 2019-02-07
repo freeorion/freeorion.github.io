@@ -84,6 +84,7 @@ var searchData=
   ['power',['power',['../structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504',1,'WeaponFireEvent']]],
   ['predefined_5fdesign',['predefined_design',['../structparse_1_1detail_1_1condition__parser__rules__5.html#a825cf04ed52225b1dd1553388c5726be',1,'parse::detail::condition_parser_rules_5']]],
   ['predefined_5fdesign_5ftag',['PREDEFINED_DESIGN_TAG',['../classVarText.html#a564e5bd8fdecf2c2b968d1976f060feb',1,'VarText']]],
+  ['preferred_5ffocus',['preferred_focus',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStuff.html#a915f1dc4b12af49f5ec9f9d9289f4112',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesStuff']]],
   ['prerequisites',['prerequisites',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#af6a4bd1508476dde43494a814b55d52f',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['prev',['prev',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a700296c4f0a8911501274b796e736768',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['prevblocksize',['prevBlocksize',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#afdb6fde212827e04ea0f2b7333b15bf8',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],

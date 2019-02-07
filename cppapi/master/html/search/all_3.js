@@ -325,7 +325,7 @@ var searchData=
   ['combatsummarymap',['CombatSummaryMap',['../classBarSizer.html#afb528e1d6b9ae59034124be81308bd0c',1,'BarSizer']]],
   ['combatsystem_2ecpp',['CombatSystem.cpp',['../CombatSystem_8cpp.html',1,'']]],
   ['combatsystem_2eh',['CombatSystem.h',['../CombatSystem_8h.html',1,'']]],
-  ['combattargets',['CombatTargets',['../classFighter.html#a1272e639f318384d5cd5bd7fa021efce',1,'Fighter::CombatTargets()'],['../classPartType.html#a7f176e72c79bd73cb374434a82f5fc59',1,'PartType::CombatTargets()']]],
+  ['combattargets',['CombatTargets',['../classFighter.html#a1272e639f318384d5cd5bd7fa021efce',1,'Fighter::CombatTargets()'],['../classPartType.html#a7f176e72c79bd73cb374434a82f5fc59',1,'PartType::CombatTargets()'],['../classSpecies.html#a1fb0a5ddedc7bf8c37210fbe27ce360e',1,'Species::CombatTargets()']]],
   ['comment',['Comment',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad93fd3a1699dbf4e245aa05d9b0a0cec',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['comment1',['Comment1',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae73324a0b912b2ded35db0ce5df84451',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['commit',['Commit',['../classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed',1,'OptionsDB']]],

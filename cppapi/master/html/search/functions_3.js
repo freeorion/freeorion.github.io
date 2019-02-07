@@ -204,7 +204,7 @@ var searchData=
   ['combatreportwnd',['CombatReportWnd',['../classCombatReportWnd.html#aba80ccd07fda53494e607603f2238400',1,'CombatReportWnd']]],
   ['combatround',['CombatRound',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9b9128b4ee0345a29df39a9259b6f72d',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['combatsummary',['CombatSummary',['../structCombatSummary.html#a298683e956b8ecb66785edc765c9bf45',1,'CombatSummary::CombatSummary()'],['../structCombatSummary.html#ae711e0267df95938e36f5bc046f1d45a',1,'CombatSummary::CombatSummary(int empire_id)']]],
-  ['combattargets',['CombatTargets',['../classFighter.html#a1272e639f318384d5cd5bd7fa021efce',1,'Fighter::CombatTargets()'],['../classPartType.html#a7f176e72c79bd73cb374434a82f5fc59',1,'PartType::CombatTargets()']]],
+  ['combattargets',['CombatTargets',['../classFighter.html#a1272e639f318384d5cd5bd7fa021efce',1,'Fighter::CombatTargets()'],['../classPartType.html#a7f176e72c79bd73cb374434a82f5fc59',1,'PartType::CombatTargets()'],['../classSpecies.html#a1fb0a5ddedc7bf8c37210fbe27ce360e',1,'Species::CombatTargets()']]],
   ['commit',['Commit',['../classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed',1,'OptionsDB']]],
   ['commitpersistent',['CommitPersistent',['../classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816',1,'OptionsDB']]],
   ['common_5fparams_5frules',['common_params_rules',['../structparse_1_1detail_1_1common__params__rules.html#a0f49ecccd28c4ba026a7e2df769bd329',1,'parse::detail::common_params_rules']]],
