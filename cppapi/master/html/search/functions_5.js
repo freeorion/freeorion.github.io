@@ -26,7 +26,7 @@ var searchData=
   ['eliminateplayer',['EliminatePlayer',['../classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e',1,'ServerApp']]],
   ['eliminateself',['EliminateSelf',['../classHumanClientApp.html#ac5581f3630a66ed2ed6b08c022a10cd7',1,'HumanClientApp']]],
   ['eliminateselfmessage',['EliminateSelfMessage',['../Message_8cpp.html#a4ce78f3b6053339aff616f9492f84ebc',1,'EliminateSelfMessage():&#160;Message.cpp'],['../Message_8h.html#a23dc892777a7c986208c00b8c088cc48',1,'EliminateSelfMessage():&#160;Message.cpp']]],
-  ['empire',['Empire',['../classEmpire.html#ab50dc35e953ce9415f299a9d49b39603',1,'Empire::Empire(const std::string &amp;name, const std::string &amp;player_name, int ID, const GG::Clr &amp;color)'],['../classEmpire.html#a2333cda62739bb1a34a0785097aac6b3',1,'Empire::Empire()']]],
+  ['empire',['Empire',['../classEmpire.html#a2d39b9af19db708503816c0bbd9f1173',1,'Empire::Empire(const std::string &amp;name, const std::string &amp;player_name, int ID, const GG::Clr &amp;color, bool authenticated)'],['../classEmpire.html#a2333cda62739bb1a34a0785097aac6b3',1,'Empire::Empire()']]],
   ['empire_5faffiliation_5fenum_5fgrammar',['empire_affiliation_enum_grammar',['../structparse_1_1empire__affiliation__enum__grammar.html#a03ed5921e65bb8abc8587502b7a7d00d',1,'parse::empire_affiliation_enum_grammar']]],
   ['empire_5fname_5fwidth',['EMPIRE_NAME_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a467f0ed9255dc5c0892c607bd3fabd6a',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['empireaddshipdesign',['EmpireAddShipDesign',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a2645076633dffda53c78ee034c3541db',1,'anonymous_namespace{ServerWrapper.cpp}']]],

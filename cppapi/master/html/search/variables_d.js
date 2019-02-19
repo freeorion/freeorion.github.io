@@ -41,7 +41,7 @@ var searchData=
   ['m_5fatmosphere_5falpha',['m_atmosphere_alpha',['../classRotatingPlanetControl.html#aeaef8e4411c000f43f849acf39833ee0',1,'RotatingPlanetControl']]],
   ['m_5fatmosphere_5fplanet_5frect',['m_atmosphere_planet_rect',['../classRotatingPlanetControl.html#abb48f7edc9aa1c4bec0486338087702d',1,'RotatingPlanetControl']]],
   ['m_5fatmosphere_5ftexture',['m_atmosphere_texture',['../classRotatingPlanetControl.html#a7dc815c1260f7b371a814224a46463ed',1,'RotatingPlanetControl']]],
-  ['m_5fauthenticated',['m_authenticated',['../classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8',1,'PlayerConnection']]],
+  ['m_5fauthenticated',['m_authenticated',['../classEmpire.html#a4807ea7aa40a8b8e4c85d1c56b58b98a',1,'Empire::m_authenticated()'],['../classPlayerConnection.html#a9eb99ffe7896aa6ba8bbce07771e65b8',1,'PlayerConnection::m_authenticated()'],['../structSaveGameEmpireData.html#aecc57c154c1b2ab870d9d60b78e97d24',1,'SaveGameEmpireData::m_authenticated()'],['../structPlayerSetupData.html#acef6e6183d5dfbe2e04c929c8591971a',1,'PlayerSetupData::m_authenticated()']]],
   ['m_5fauto_5fcomplete_5fchoices',['m_auto_complete_choices',['../classMessageWndEdit.html#af6d2bd9f87609e43e15615eaec71c612',1,'MessageWndEdit']]],
   ['m_5fauto_5fend_5fturn',['m_auto_end_turn',['../classMapWnd.html#a17246e69959e1b510d86c0f163e74e9a',1,'MapWnd']]],
   ['m_5fauto_5fturns',['m_auto_turns',['../classHumanClientApp.html#a2ed11983e9469361a43a80e85c5d06a9',1,'HumanClientApp']]],

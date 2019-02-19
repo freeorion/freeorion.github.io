@@ -150,7 +150,7 @@ var searchData=
   ['isabouttobeinvaded',['IsAboutToBeInvaded',['../classPlanet.html#aa77695d11e6bb40cbae6dcb5bfadc43c',1,'Planet']]],
   ['isappearanceeffect',['IsAppearanceEffect',['../classEffect_1_1EffectBase.html#a14ac910983805ca52bf526429c3806d7',1,'Effect::EffectBase::IsAppearanceEffect()'],['../classEffect_1_1SetOverlayTexture.html#a3640fe87d7694df5ed1270c7dd524079',1,'Effect::SetOverlayTexture::IsAppearanceEffect()'],['../classEffect_1_1SetTexture.html#a298a3e975e6f32cf2713cd9eaa27a41d',1,'Effect::SetTexture::IsAppearanceEffect()'],['../classEffect_1_1Conditional.html#a31a186b7578eb5b0140d486a1c59923c',1,'Effect::Conditional::IsAppearanceEffect()']]],
   ['isarmed',['IsArmed',['../classShip.html#a41620efecc311e053df9bd83f854aabd',1,'Ship::IsArmed()'],['../classShipDesign.html#a8df16fac48094fd781dab134f8dfd1ba',1,'ShipDesign::IsArmed()']]],
-  ['isauthenticated',['IsAuthenticated',['../classPlayerConnection.html#a078b87bd1d7e216687553b4b7a482e45',1,'PlayerConnection']]],
+  ['isauthenticated',['IsAuthenticated',['../classEmpire.html#a6f1504957e290cc0c4d72d419ecd43cc',1,'Empire::IsAuthenticated()'],['../classPlayerConnection.html#a078b87bd1d7e216687553b4b7a482e45',1,'PlayerConnection::IsAuthenticated()']]],
   ['isauthrequiredorfillroles',['IsAuthRequiredOrFillRoles',['../classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782',1,'ServerApp']]],
   ['isauthsuccessandfillroles',['IsAuthSuccessAndFillRoles',['../classServerApp.html#a7df980a4219a193118f710249723a5bb',1,'ServerApp']]],
   ['isavailable',['IsAvailable',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a7d36d4fa8475144c9f8528487f80b3da',1,'anonymous_namespace{SidePanel.cpp}']]],

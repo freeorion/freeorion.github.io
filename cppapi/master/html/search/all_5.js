@@ -76,7 +76,7 @@ var searchData=
   ['eliminateplayer',['EliminatePlayer',['../classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e',1,'ServerApp']]],
   ['eliminateself',['EliminateSelf',['../classHumanClientApp.html#ac5581f3630a66ed2ed6b08c022a10cd7',1,'HumanClientApp']]],
   ['eliminateselfmessage',['EliminateSelfMessage',['../Message_8cpp.html#a4ce78f3b6053339aff616f9492f84ebc',1,'EliminateSelfMessage():&#160;Message.cpp'],['../Message_8h.html#a23dc892777a7c986208c00b8c088cc48',1,'EliminateSelfMessage():&#160;Message.cpp']]],
-  ['empire',['Empire',['../classEmpire.html',1,'Empire'],['../classEmpire.html#ab50dc35e953ce9415f299a9d49b39603',1,'Empire::Empire(const std::string &amp;name, const std::string &amp;player_name, int ID, const GG::Clr &amp;color)'],['../classEmpire.html#a2333cda62739bb1a34a0785097aac6b3',1,'Empire::Empire()'],['../structCombatSummary.html#a6df7e8be4980a102589ce5b8a0e9a138',1,'CombatSummary::empire()']]],
+  ['empire',['Empire',['../classEmpire.html',1,'Empire'],['../classEmpire.html#a2d39b9af19db708503816c0bbd9f1173',1,'Empire::Empire(const std::string &amp;name, const std::string &amp;player_name, int ID, const GG::Clr &amp;color, bool authenticated)'],['../classEmpire.html#a2333cda62739bb1a34a0785097aac6b3',1,'Empire::Empire()'],['../structCombatSummary.html#a6df7e8be4980a102589ce5b8a0e9a138',1,'CombatSummary::empire()']]],
   ['empire_2ecpp',['Empire.cpp',['../Empire_8cpp.html',1,'']]],
   ['empire_2eh',['Empire.h',['../Empire_8h.html',1,'']]],
   ['empire1_5fid',['empire1_id',['../structDiplomaticStatusUpdateInfo.html#a51828b751cc7e04d0c6440c08c700ee1',1,'DiplomaticStatusUpdateInfo']]],
