@@ -196,7 +196,6 @@ var searchData=
   ['humanclientfsm',['HumanClientFSM',['../structHumanClientFSM.html',1,'HumanClientFSM'],['../structHumanClientFSM.html#a36b9eea21b1f14666526270830aa7b4b',1,'HumanClientFSM::HumanClientFSM()']]],
   ['humanclientfsm_2ecpp',['HumanClientFSM.cpp',['../HumanClientFSM_8cpp.html',1,'']]],
   ['humanclientfsm_2eh',['HumanClientFSM.h',['../HumanClientFSM_8h.html',1,'']]],
-  ['humancontrolledempires',['HumanControlledEmpires',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ab2eab3949a7d470a8f3c1d90ead1d505',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['humanicon',['HumanIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a4d0efe7c01ad786da78abb42f4d1cd4e',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['humanplayerwithidconnected',['HumanPlayerWithIdConnected',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a1682703d63df4e62df6ac3b5eda6384d',1,'anonymous_namespace{ServerApp.cpp}']]]
 ];
