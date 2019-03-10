@@ -127,6 +127,5 @@ var searchData=
   ['_7ewaitingforspgamejoiners',['~WaitingForSPGameJoiners',['../structWaitingForSPGameJoiners.html#a1cfcd7b89ce4c17ac5920331e66cd812',1,'WaitingForSPGameJoiners']]],
   ['_7ewaitingforsphostack',['~WaitingForSPHostAck',['../structWaitingForSPHostAck.html#ad2915478891768303b05f5844f2781bd',1,'WaitingForSPHostAck']]],
   ['_7ewaitingforturndata',['~WaitingForTurnData',['../structWaitingForTurnData.html#a74009f86d129f5ba2380c70ad4e3b13b',1,'WaitingForTurnData']]],
-  ['_7ewaitingforturnend',['~WaitingForTurnEnd',['../structWaitingForTurnEnd.html#aeec7f2f71a7edd51a0ea5628af13f557',1,'WaitingForTurnEnd']]],
-  ['_7ewaitingforturnendidle',['~WaitingForTurnEndIdle',['../structWaitingForTurnEndIdle.html#a53b66a38e5717c27cb1df7a68c3d07fe',1,'WaitingForTurnEndIdle']]]
+  ['_7ewaitingforturnend',['~WaitingForTurnEnd',['../structWaitingForTurnEnd.html#aeec7f2f71a7edd51a0ea5628af13f557',1,'WaitingForTurnEnd']]]
 ];

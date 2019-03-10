@@ -112,8 +112,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af85b4d7b1bce317d3cf35def27862844"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::custom_reaction&lt; TurnOrders &gt;, sc::custom_reaction&lt; TurnPartialOrders &gt;, sc::custom_reaction&lt; RevokeReadiness &gt;, sc::custom_reaction&lt; <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#af85b4d7b1bce317d3cf35def27862844">reactions</a></td></tr>
-<tr class="separator:af85b4d7b1bce317d3cf35def27862844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162989c0f2fd0a7abcefcce167c14e3b"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::custom_reaction&lt; TurnOrders &gt;, sc::custom_reaction&lt; TurnPartialOrders &gt;, sc::custom_reaction&lt; RevokeReadiness &gt;, sc::custom_reaction&lt; <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &gt;, sc::custom_reaction&lt; SaveGameRequest &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a162989c0f2fd0a7abcefcce167c14e3b">reactions</a></td></tr>
+<tr class="separator:a162989c0f2fd0a7abcefcce167c14e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab4b94328f885cefb328e5af152ff7be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e5a90039e95b907a29478661416f66"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a19e5a90039e95b907a29478661416f66">react</a> (const <a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a> &amp;c)</td></tr>
 <tr class="separator:a19e5a90039e95b907a29478661416f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eece897ede372bea98045f2a81dc8b4"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a8eece897ede372bea98045f2a81dc8b4">react</a> (const SaveGameRequest &amp;msg)</td></tr>
+<tr class="separator:a8eece897ede372bea98045f2a81dc8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -138,12 +140,12 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The substate of <a class="el" href="structPlayingGame.html" title="The human client state in which a game has been started. ">PlayingGame</a> in which players are playing their turns and the server is waiting for all players to finish their moves, after which the server will process the turn. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="af85b4d7b1bce317d3cf35def27862844"></a>
+<a class="anchor" id="a162989c0f2fd0a7abcefcce167c14e3b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; sc::custom_reaction&lt;TurnOrders&gt;, sc::custom_reaction&lt;TurnPartialOrders&gt;, sc::custom_reaction&lt;RevokeReadiness&gt;, sc::custom_reaction&lt;<a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a>&gt; &gt; <a class="el" href="structWaitingForTurnEnd.html#af85b4d7b1bce317d3cf35def27862844">WaitingForTurnEnd::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; sc::custom_reaction&lt;TurnOrders&gt;, sc::custom_reaction&lt;TurnPartialOrders&gt;, sc::custom_reaction&lt;RevokeReadiness&gt;, sc::custom_reaction&lt;<a class="el" href="structCheckTurnEndConditions.html">CheckTurnEndConditions</a>&gt;, sc::custom_reaction&lt;SaveGameRequest&gt; &gt; <a class="el" href="structWaitingForTurnEnd.html#a162989c0f2fd0a7abcefcce167c14e3b">WaitingForTurnEnd::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,6 +258,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe">ServerApp::AllOrdersReceived()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="classServerNetworking.html#a7945a8dcd73eeefa06359c493744003d">ServerNetworking::ModeratorsInGame()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8eece897ede372bea98045f2a81dc8b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sc::result WaitingForTurnEnd::react </td>
+          <td>(</td>
+          <td class="paramtype">const SaveGameRequest &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="ServerFSM_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="classServerApp.html#a450ab786a585ecfaf3fb9a9561db8275">ServerApp::GetPlayerSaveGameData()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">ServerApp::m_current_turn</a>, <a class="el" href="classServerApp.html#acc470251c9c6eb4ec338ea57485b4da3">ServerApp::m_galaxy_setup_data</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">ServerApp::m_single_player_game</a>, <a class="el" href="classServerNetworking.html#a0f9abe342868f51cfc983cb749626d58">ServerNetworking::PlayerIsHost()</a>, <a class="el" href="SaveLoad_8cpp.html#adef25953d9c4118793be4441bf037ecf">SaveGame()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a392bdd2357d81a5e6d3020fd1e5ecd1e">anonymous_namespace{ServerFSM.cpp}::SendMessageToAllPlayers()</a>, <a class="el" href="Message_8cpp.html#a04821b0ad4cf06d76b1e52ad036a1752">ServerSaveGameCompleteMessage()</a>, <a class="el" href="classMessage.html#ae03f52a51c389fa69f19c26cfbf577d2">Message::Text()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
 </div>
 </div>

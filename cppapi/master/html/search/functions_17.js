@@ -10,7 +10,6 @@ var searchData=
   ['waitingforsphostack',['WaitingForSPHostAck',['../structWaitingForSPHostAck.html#a92e282089ff62c905515c81d4c129a4d',1,'WaitingForSPHostAck']]],
   ['waitingforturndata',['WaitingForTurnData',['../structWaitingForTurnData.html#a2074aedbb0375c785d0a9e4db189bfbc',1,'WaitingForTurnData']]],
   ['waitingforturnend',['WaitingForTurnEnd',['../structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af',1,'WaitingForTurnEnd']]],
-  ['waitingforturnendidle',['WaitingForTurnEndIdle',['../structWaitingForTurnEndIdle.html#af33ffb95354855349d6431605148b42c',1,'WaitingForTurnEndIdle']]],
   ['waitingicon',['WaitingIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a347ecb2891af784cafba0199977df83f',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['wardeclarationdiplomaticmessage',['WarDeclarationDiplomaticMessage',['../Diplomacy_8cpp.html#afeca8e124c1a08c8cb2b6c8e73fc064a',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a15ce53919decdfdd9b8c00848af927c6',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['waricon',['WarIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aec8d49e4d7df1cff071502bf84571d42',1,'anonymous_namespace{PlayerListWnd.cpp}']]],

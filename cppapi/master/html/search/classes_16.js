@@ -9,7 +9,6 @@ var searchData=
   ['waitingforsphostack',['WaitingForSPHostAck',['../structWaitingForSPHostAck.html',1,'']]],
   ['waitingforturndata',['WaitingForTurnData',['../structWaitingForTurnData.html',1,'']]],
   ['waitingforturnend',['WaitingForTurnEnd',['../structWaitingForTurnEnd.html',1,'']]],
-  ['waitingforturnendidle',['WaitingForTurnEndIdle',['../structWaitingForTurnEndIdle.html',1,'']]],
   ['wastedstockpiledresourcebrowsewnd',['WastedStockpiledResourceBrowseWnd',['../classWastedStockpiledResourceBrowseWnd.html',1,'']]],
   ['weaponfireevent',['WeaponFireEvent',['../structWeaponFireEvent.html',1,'']]],
   ['weaponsplatformevent',['WeaponsPlatformEvent',['../structWeaponsPlatformEvent.html',1,'']]],
