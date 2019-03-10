@@ -1306,7 +1306,7 @@ var searchData=
   ['m_5fthread_5fqueues',['m_thread_queues',['../classRunQueue.html#ad79c2e0e5ef6aebd476c83a1fe041691',1,'RunQueue']]],
   ['m_5fthreshold',['m_threshold',['../classScopedTimer_1_1Impl.html#a9e743e3c95abf2d99fb502767fdcf830',1,'ScopedTimer::Impl']]],
   ['m_5ftime',['m_time',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemPanel.html#a532272c126e420d402637fadc91606e9',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemPanel']]],
-  ['m_5ftimeout',['m_timeout',['../structShuttingDownServer.html#abd63de0ac3a270d9fc2d505dcec0e3d1',1,'ShuttingDownServer']]],
+  ['m_5ftimeout',['m_timeout',['../structWaitingForTurnEnd.html#aa1ca467ba2445f501396313c9ed41da8',1,'WaitingForTurnEnd::m_timeout()'],['../structShuttingDownServer.html#abd63de0ac3a270d9fc2d505dcec0e3d1',1,'ShuttingDownServer::m_timeout()']]],
   ['m_5ftimer',['m_timer',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#a0217b6b68c5767e8adfefc05817dacaf',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer']]],
   ['m_5ftimestamp',['m_timestamp',['../structChatHistoryEntity.html#a03aedf5b83a3be8bc75a1608754c58b5',1,'ChatHistoryEntity']]],
   ['m_5ftiny_5fgraphic',['m_tiny_graphic',['../classSystemIcon.html#a59d6357fe0998d33372667e0f62f46d7',1,'SystemIcon']]],

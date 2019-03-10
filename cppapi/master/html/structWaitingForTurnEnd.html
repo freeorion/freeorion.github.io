@@ -131,11 +131,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a19e5a90039e95b907a29478661416f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eece897ede372bea98045f2a81dc8b4"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a8eece897ede372bea98045f2a81dc8b4">react</a> (const SaveGameRequest &amp;msg)</td></tr>
 <tr class="separator:a8eece897ede372bea98045f2a81dc8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556c696d2dd4ec58bf86ad6cc1cacec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a556c696d2dd4ec58bf86ad6cc1cacec8">SaveTimedoutHandler</a> (const boost::system::error_code &amp;<a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>)</td></tr>
+<tr class="separator:a556c696d2dd4ec58bf86ad6cc1cacec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a1b60c06cb46699980d5167a116378111"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#a1b60c06cb46699980d5167a116378111">m_save_filename</a></td></tr>
 <tr class="separator:a1b60c06cb46699980d5167a116378111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ca467ba2445f501396313c9ed41da8"><td class="memItemLeft" align="right" valign="top">boost::asio::high_resolution_timer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnEnd.html#aa1ca467ba2445f501396313c9ed41da8">m_timeout</a></td></tr>
+<tr class="separator:aa1ca467ba2445f501396313c9ed41da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The substate of <a class="el" href="structPlayingGame.html" title="The human client state in which a game has been started. ">PlayingGame</a> in which players are playing their turns and the server is waiting for all players to finish their moves, after which the server will process the turn. </p>
@@ -167,7 +171,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="structWaitingForTurnEnd.html#aa1ca467ba2445f501396313c9ed41da8">m_timeout</a>, <a class="el" href="structWaitingForTurnEnd.html#a556c696d2dd4ec58bf86ad6cc1cacec8">SaveTimedoutHandler()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -184,7 +188,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="structWaitingForTurnEnd.html#aa1ca467ba2445f501396313c9ed41da8">m_timeout</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -279,6 +283,26 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a556c696d2dd4ec58bf86ad6cc1cacec8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WaitingForTurnEnd::SaveTimedoutHandler </td>
+          <td>(</td>
+          <td class="paramtype">const boost::system::error_code &amp;&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a8c6277ac5fb4bdc8474845eec359d1ef">anonymous_namespace{ServerFSM.cpp}::GetAutoSaveFileName()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Message_8cpp.html#ace0cf8733ad3adbeaee8c370c9db1458">HostSaveGameInitiateMessage()</a>, and <a class="el" href="structWaitingForTurnEnd.html#aa1ca467ba2445f501396313c9ed41da8">m_timeout</a>.</p>
+
+<p>Referenced by <a class="el" href="structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af">WaitingForTurnEnd()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a1b60c06cb46699980d5167a116378111"></a>
 <div class="memitem">
@@ -289,6 +313,20 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1ca467ba2445f501396313c9ed41da8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::asio::high_resolution_timer WaitingForTurnEnd::m_timeout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structWaitingForTurnEnd.html#a556c696d2dd4ec58bf86ad6cc1cacec8">SaveTimedoutHandler()</a>, <a class="el" href="structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af">WaitingForTurnEnd()</a>, and <a class="el" href="structWaitingForTurnEnd.html#aeec7f2f71a7edd51a0ea5628af13f557">~WaitingForTurnEnd()</a>.</p>
 
 </div>
 </div>
