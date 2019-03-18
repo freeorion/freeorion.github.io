@@ -40,6 +40,7 @@ var searchData=
   ['or_5f',['or_',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a16b5c9835d62c5cb4c919c5afbfbdce9',1,'parse::detail::condition_parser_rules_1']]],
   ['orderbuttonchangedsignal',['OrderButtonChangedSignal',['../classSidePanel_1_1PlanetPanel.html#aeea47c83449b78dfc11a37ceb86cc4fc',1,'SidePanel::PlanetPanel']]],
   ['ordered',['ordered',['../structProductionQueue_1_1Element.html#a4ad24f2ed87993d097dbc4c0c64cf3c7',1,'ProductionQueue::Element']]],
+  ['ordered_5falternatives_5fof',['ordered_alternatives_of',['../structparse_1_1detail_1_1condition__parser__rules__1.html#acf85fad7380a271025deceea66fa6b41',1,'parse::detail::condition_parser_rules_1']]],
   ['ordered_5fbombarded_5fby',['ordered_bombarded_by',['../structparse_1_1detail_1_1condition__parser__rules__7.html#a852bcf5170289504feda2e15223f7019',1,'parse::detail::condition_parser_rules_7']]],
   ['ordered_5fship_5fdesign_5fids_5fand_5fobsolete',['ordered_ship_design_ids_and_obsolete',['../structSaveGameUIData.html#a3fe4c8a0731d1b5b88810c7423a614a9',1,'SaveGameUIData']]],
   ['ordered_5fship_5fhull_5fand_5fobsolete',['ordered_ship_hull_and_obsolete',['../structSaveGameUIData.html#afe4b954cc888ae8cb13be5b36dd066ee',1,'SaveGameUIData']]],
