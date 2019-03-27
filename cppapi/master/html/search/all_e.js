@@ -32,7 +32,7 @@ var searchData=
   ['networking_2eh',['Networking.h',['../Networking_8h.html',1,'']]],
   ['networkingthread',['NetworkingThread',['../classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c',1,'ClientNetworking::Impl']]],
   ['newbutton',['NewButton',['../classCUIStyle.html#a0582bd62f3e469ab031364c0ee5e0858',1,'CUIStyle']]],
-  ['newconnection',['NewConnection',['../classPlayerConnection.html#a97b118389ea07da19428c54350e77c87',1,'PlayerConnection']]],
+  ['newconnection',['NewConnection',['../classPlayerConnection.html#afc352a686c61b0c6d8b96d994b048570',1,'PlayerConnection']]],
   ['newdropdownlist',['NewDropDownList',['../classCUIStyle.html#a3821453c3d76662dc20dc1ee191b4655',1,'CUIStyle']]],
   ['newedit',['NewEdit',['../classCUIStyle.html#a620c51f1c9d2868d98cef196b0d223d7',1,'CUIStyle']]],
   ['newestsingleplayersavegame',['NewestSinglePlayerSavegame',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aeacb8db1a21d733515f3a2280913391d',1,'anonymous_namespace{HumanClientApp.cpp}']]],

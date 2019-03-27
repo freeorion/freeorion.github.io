@@ -199,8 +199,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a981966369f25a6cd4611ff9f4c283455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac117cf05ecc7f9acaa324dfdc19e4e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessageQueue.html">MessageQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#ac117cf05ecc7f9acaa324dfdc19e4e0e">m_incoming_messages</a></td></tr>
 <tr class="separator:ac117cf05ecc7f9acaa324dfdc19e4e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade8ba24d1ed91ad4b9eafee9669c28ef"><td class="memItemLeft" align="right" valign="top">boost::asio::io_service&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a></td></tr>
-<tr class="separator:ade8ba24d1ed91ad4b9eafee9669c28ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70af66a707183e6e938087675ccee08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceboost_1_1asio.html#a7e538a09cc4d871ded0b125a636fe6e3">boost::asio::io_context</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a></td></tr>
+<tr class="separator:ac70af66a707183e6e938087675ccee08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faa6c15fa7e23ac311345ab366bd9e7"><td class="memItemLeft" align="right" valign="top">boost::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a></td></tr>
 <tr class="separator:a7faa6c15fa7e23ac311345ab366bd9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13834ccd3824ebb00877d41e58773cdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html#a8c70d718bffea6d801633a54e34217b0">Message::HeaderBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking_1_1Impl.html#a13834ccd3824ebb00877d41e58773cdb">m_outgoing_header</a></td></tr>
@@ -400,7 +400,7 @@ Private Attributes</h2></td></tr>
 <p>Connects to the server at <em>ip_address</em>. </p>
 <p>On failure, repeated attempts will be made until <em>timeout</em> seconds has elapsed. If <code>expect_timeout</code> is true, timeout is not reported as an error. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91">HandleConnection()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a43ee5fc1ecf2884d3bd38a3c761798b0">m_destination</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91">HandleConnection()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a43ee5fc1ecf2884d3bd38a3c761798b0">m_destination</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7b04c714787953eeb24e79d809470017">m_socket</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#aa3798b342522f19c4c4b500083a3b70c">NetworkingThread()</a>, <a class="el" href="namespaceNetworking.html#a4115879d52082a373bbcf9a0e28fece0">Networking::SOCKET_LINGER_TIME</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a945493b785f84a4764d8d59d8a5ca921">ConnectToLocalHostServer()</a>.</p>
 
@@ -440,7 +440,7 @@ Private Attributes</h2></td></tr>
 
 <p>Disconnects the client from the server. </p>
 
-<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aff65bf72d525ae61856d493741c023b8">DisconnectFromServerImpl()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>.</p>
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aff65bf72d525ae61856d493741c023b8">DisconnectFromServerImpl()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>.</p>
 
 </div>
 </div>
@@ -486,7 +486,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns a list of the addresses and names of all servers on the Local Area Network. </p>
 
-<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>.</p>
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#aa5d36f9b352558d1b7cc4ad79fed4e48">IsConnected()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a>.</p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee">AsyncReadMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54">HandleException()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a49cfbf5b1076df85dd411ef6b5357ef8">m_outgoing_messages</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="classClientNetworking_1_1Impl.html#a38ad0c533aae278d0d70dd4f7e72d3ee">AsyncReadMessage()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#afd22359863135ce2caaf824cd9618baa">AsyncWriteMessage()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54">HandleException()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a7faa6c15fa7e23ac311345ab366bd9e7">m_mutex</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a49cfbf5b1076df85dd411ef6b5357ef8">m_outgoing_messages</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a8b7901805295a2df41e31447b98d3a0c">m_rx_connected</a>, <a class="el" href="classClientNetworking_1_1Impl.html#a5900f0017a8d46160f329ca6e938e25b">m_tx_connected</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p>Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14">ConnectToServer()</a>.</p>
 
@@ -886,7 +886,7 @@ Private Attributes</h2></td></tr>
 <p>Sends <em>message</em> to the server. </p>
 <p>This function actually just enqueues the message for sending and returns immediately. </p>
 
-<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ab1098d62694d68343a54ae5668ffc38f">IsTxConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ade8ba24d1ed91ad4b9eafee9669c28ef">m_io_service</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ad0d55434741fde1ba412d46acb361c02">SendMessageImpl()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p>References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ab1098d62694d68343a54ae5668ffc38f">IsTxConnected()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ac70af66a707183e6e938087675ccee08">m_io_context</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ad0d55434741fde1ba412d46acb361c02">SendMessageImpl()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -1069,7 +1069,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ade8ba24d1ed91ad4b9eafee9669c28ef"></a>
+<a class="anchor" id="ac70af66a707183e6e938087675ccee08"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1077,7 +1077,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::asio::io_service ClientNetworking::Impl::m_io_service</td>
+          <td class="memname"><a class="el" href="namespaceboost_1_1asio.html#a7e538a09cc4d871ded0b125a636fe6e3">boost::asio::io_context</a> ClientNetworking::Impl::m_io_context</td>
         </tr>
       </table>
   </td>

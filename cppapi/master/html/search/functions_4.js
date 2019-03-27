@@ -101,7 +101,7 @@ var searchData=
   ['discoverlanservernames',['DiscoverLANServerNames',['../classClientNetworking_1_1Impl.html#aa0858fcff497e3d994e8ea8f8d2d0006',1,'ClientNetworking::Impl::DiscoverLANServerNames()'],['../classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8',1,'ClientNetworking::DiscoverLANServerNames()']]],
   ['discoverservers',['DiscoverServers',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#a89f87650594e92f1e16f258d169b71cd',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer']]],
   ['discoveryport',['DiscoveryPort',['../namespaceNetworking.html#abec6e02066f90038170c559706bc7e1d',1,'Networking']]],
-  ['discoveryserver',['DiscoveryServer',['../classDiscoveryServer.html#a5caf2f4446b0dbc916dd1f15d843bf73',1,'DiscoveryServer']]],
+  ['discoveryserver',['DiscoveryServer',['../classDiscoveryServer.html#ab71eb9da1d1b1fe06c5a035dd55657ff',1,'DiscoveryServer']]],
   ['discretevalidator',['DiscreteValidator',['../structDiscreteValidator.html#a4f8e25ba6d18912071929b07716341fa',1,'DiscreteValidator::DiscreteValidator(const T &amp;single_value)'],['../structDiscreteValidator.html#a0a8523cce80161420ff81f196b11b3f7',1,'DiscreteValidator::DiscreteValidator(const std::set&lt; T &gt; &amp;values)'],['../structDiscreteValidator.html#a28f894a780216bb57fe660a54cbac16b',1,'DiscreteValidator::DiscreteValidator(iter start, iter finish)'],['../structDiscreteValidator.html#a6be7ed77d2738ae4aed1f7181813864a',1,'DiscreteValidator::DiscreteValidator(const T(&amp;in)[N])']]],
   ['disctexture',['DiscTexture',['../classSystemIcon.html#a68da0e941dbe2d28953bac0f68dbdc24',1,'SystemIcon']]],
   ['dismissalmenu',['DismissalMenu',['../classSitRepPanel.html#ad81a488af7867f950af5a4076a874ead',1,'SitRepPanel']]],
