@@ -863,6 +863,7 @@ var searchData=
   ['m_5fplanet_5fpanels',['m_planet_panels',['../classSidePanel_1_1PlanetPanelContainer.html#a5bd17d04c66aafb06048a4524f386a53',1,'SidePanel::PlanetPanelContainer']]],
   ['m_5fplanet_5fsize',['m_planet_size',['../classModerator_1_1CreatePlanet.html#a73c9e3f7d41064570d79a3026dc6aeab',1,'Moderator::CreatePlanet']]],
   ['m_5fplanet_5fsize_5fdrop',['m_planet_size_drop',['../classModeratorActionsWnd.html#a97ab26b682ba4a09a8309fb3705658a3',1,'ModeratorActionsWnd']]],
+  ['m_5fplanet_5fstatus_5fgraphic',['m_planet_status_graphic',['../classSidePanel_1_1PlanetPanel.html#a752240c21f6cfe390e9ac151a4011717',1,'SidePanel::PlanetPanel']]],
   ['m_5fplanet_5ftype',['m_planet_type',['../classModerator_1_1CreatePlanet.html#a0d96e2936dcc7a4f89eeebde79f881f9',1,'Moderator::CreatePlanet']]],
   ['m_5fplanet_5ftype_5fdrop',['m_planet_type_drop',['../classModeratorActionsWnd.html#ac6f21bef032ad67853e1f9c6769faa88',1,'ModeratorActionsWnd']]],
   ['m_5fplanets',['m_planets',['../classObjectMap.html#aab58985f0bec791eca8104064ff441a7',1,'ObjectMap::m_planets()'],['../classSystem.html#a7745fd07028884c966879edc87f00d2b',1,'System::m_planets()']]],
