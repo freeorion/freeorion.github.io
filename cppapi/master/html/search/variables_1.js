@@ -27,7 +27,6 @@ var searchData=
   ['allocated_5frp',['allocated_rp',['../structResearchQueue_1_1Element.html#a7c4990010f4aab2bccf1601d226d1118',1,'ResearchQueue::Element']]],
   ['allocation_5flabel_5ftop',['allocation_label_top',['../classSystemResourceSummaryBrowseWnd.html#a36a792dcd26ed41c46e4910feee9138c',1,'SystemResourceSummaryBrowseWnd']]],
   ['allow_5fallied_5fsupply',['ALLOW_ALLIED_SUPPLY',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#aa289db6fadaa4613c73f263decfba1df',1,'anonymous_namespace{Fleet.cpp}']]],
-  ['allow_5fno_5fstarlanes',['ALLOW_NO_STARLANES',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ad0a9d34a9ab6bf775c1e89ca28748638',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['allowed_5fimperial_5fstockpile_5fuse',['allowed_imperial_stockpile_use',['../structProductionQueue_1_1Element.html#a34ec20d0c330439e40698431ce6f78a6',1,'ProductionQueue::Element']]],
   ['alpha',['alpha',['../structparse_1_1detail_1_1color__parser__grammar.html#ae8490888e84eeaf5658435d7dd747d7f',1,'parse::detail::color_parser_grammar::alpha()'],['../structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html#aa059c4e7a9df02120cf0044d9a328a53',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData::Atmosphere::alpha()']]],
   ['alphanum',['alphanum',['../namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a163ee9df67286d39329e1c585dee5803',1,'anonymous_namespace{MultiplayerCommon.cpp}']]],
