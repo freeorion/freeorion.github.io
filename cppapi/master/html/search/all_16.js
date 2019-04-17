@@ -28,7 +28,7 @@ var searchData=
   ['validshiptransfer',['ValidShipTransfer',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#abdeb02619bb0023706e2e6c68966ea5a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['validsoundfile',['ValidSoundFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validstringtablefile',['ValidStringtableFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359',1,'anonymous_namespace{OptionsWnd.cpp}']]],
-  ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()'],['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()']]],
+  ['value',['Value',['../structValueRef_1_1Constant.html#a0fb46806cde500d548382d4995d3ecd6',1,'ValueRef::Constant::Value()'],['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option::value()']]],
   ['value_5fref_5fgrammar',['value_ref_grammar',['../namespaceparse_1_1detail.html#a5da537fab580a5a4f74639a85757a1ff',1,'parse::detail']]],
   ['value_5fref_5fpayload',['value_ref_payload',['../namespaceparse_1_1detail.html#a3b614ed79a92cb0d10c975d0083ebd66',1,'parse::detail']]],
   ['value_5fref_5frule',['value_ref_rule',['../namespaceparse_1_1detail.html#a38f36ca2b881128b7a9cf4197c127017',1,'parse::detail']]],
