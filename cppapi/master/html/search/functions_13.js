@@ -214,7 +214,7 @@ var searchData=
   ['setfromfile',['SetFromFile',['../classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f',1,'OptionsDB']]],
   ['setfromsetupdata',['SetFromSetupData',['../classGalaxySetupPanel.html#a1dbb15c2dabaf04fdeb2e11190ffb16e',1,'GalaxySetupPanel']]],
   ['setfromstring',['SetFromString',['../classHotkey.html#aa835bc20f92dae8ef8cb3f50ddcb3511',1,'Hotkey::SetFromString()'],['../structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664',1,'OptionsDB::Option::SetFromString()']]],
-  ['setfromstrings',['SetFromStrings',['../classGameRules.html#a370759fa27dd8a99876cedc9f23ee50e',1,'GameRules']]],
+  ['setfromstrings',['SetFromStrings',['../classGameRules.html#a5931f3278b6ef393668f7ad68b10bac6',1,'GameRules']]],
   ['setfromvalue',['SetFromValue',['../structOptionsDB_1_1Option.html#acc58dda801d3a8ade27ff041c90fc43f',1,'OptionsDB::Option']]],
   ['setfromxml',['SetFromXML',['../classOptionsDB.html#a1597deae00990e4071bd2d1ddfbcab7d',1,'OptionsDB']]],
   ['setfromxmlrecursive',['SetFromXMLRecursive',['../classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf',1,'OptionsDB']]],

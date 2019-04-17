@@ -461,7 +461,7 @@ var searchData=
   ['m_5fgalaxy_5fsetup_5fpanel',['m_galaxy_setup_panel',['../classGalaxySetupWnd.html#ab69c210f86b47e6c6ece1671e8a43a8b',1,'GalaxySetupWnd::m_galaxy_setup_panel()'],['../classMultiPlayerLobbyWnd.html#a176bfddc19449ed4c8bb90c0f4e05db7',1,'MultiPlayerLobbyWnd::m_galaxy_setup_panel()']]],
   ['m_5fgalaxy_5fshapes_5flabel',['m_galaxy_shapes_label',['../classGalaxySetupPanel.html#a549899ee301549d5b1195e0bed2be02e',1,'GalaxySetupPanel']]],
   ['m_5fgalaxy_5fshapes_5flist',['m_galaxy_shapes_list',['../classGalaxySetupPanel.html#a6ee65ea907638948f34aaaa3b520a76f',1,'GalaxySetupPanel']]],
-  ['m_5fgame_5frules',['m_game_rules',['../classGameRules.html#a120fe2874afcc9b1e24c853c332e6b19',1,'GameRules::m_game_rules()'],['../structGalaxySetupData.html#ae930df58ebc349054c829614b221ba17',1,'GalaxySetupData::m_game_rules()']]],
+  ['m_5fgame_5frules',['m_game_rules',['../classGameRules.html#a120fe2874afcc9b1e24c853c332e6b19',1,'GameRules::m_game_rules()'],['../structGalaxySetupData.html#a4982c096e4e9e333c224254e4eb2e682',1,'GalaxySetupData::m_game_rules()']]],
   ['m_5fgame_5frules_5fpanel',['m_game_rules_panel',['../classGalaxySetupWnd.html#a9f382ee23d2412aeb7dfa215afa7b5c0',1,'GalaxySetupWnd']]],
   ['m_5fgame_5fsaves_5fin_5fprogress',['m_game_saves_in_progress',['../classHumanClientApp.html#a2d241143905489c56d957e2837ce4905',1,'HumanClientApp']]],
   ['m_5fgame_5fstarted',['m_game_started',['../classHumanClientApp.html#a24e35061620ea303baca357c5a33588d',1,'HumanClientApp']]],
