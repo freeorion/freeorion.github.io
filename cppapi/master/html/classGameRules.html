@@ -173,17 +173,17 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:a8acfac105251136ee962863e1791c9e7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a8acfac105251136ee962863e1791c9e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">Add</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;category, T default_value, bool engine_interal, const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &amp;validator=<a class="el" href="structValidator.html">Validator</a>&lt; T &gt;())</td></tr>
-<tr class="memdesc:a8acfac105251136ee962863e1791c9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a rule, optionally with a custom validator  <a href="#a8acfac105251136ee962863e1791c9e7">More...</a><br /></td></tr>
+<tr class="memdesc:a8acfac105251136ee962863e1791c9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a rule, optionally with a custom validator.  <a href="#a8acfac105251136ee962863e1791c9e7">More...</a><br /></td></tr>
 <tr class="separator:a8acfac105251136ee962863e1791c9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a780c0b22baea28d83674813cefc9555b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameRules.html#a780c0b22baea28d83674813cefc9555b">Add</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classGameRules.html">GameRules</a> &gt; &amp;&amp;future)</td></tr>
 <tr class="memdesc:a780c0b22baea28d83674813cefc9555b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds rules from the <code>future</code>.  <a href="#a780c0b22baea28d83674813cefc9555b">More...</a><br /></td></tr>
 <tr class="separator:a780c0b22baea28d83674813cefc9555b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a221a5ac847295f2f5e189fb3961d78"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a5a221a5ac847295f2f5e189fb3961d78"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classGameRules.html#a5a221a5ac847295f2f5e189fb3961d78">Set</a> (const std::string &amp;name, const T &amp;value)</td></tr>
-<tr class="memdesc:a5a221a5ac847295f2f5e189fb3961d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a rule, optionally with a custom validator  <a href="#a5a221a5ac847295f2f5e189fb3961d78">More...</a><br /></td></tr>
+<tr class="memdesc:a5a221a5ac847295f2f5e189fb3961d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a rule, optionally with a custom validator.  <a href="#a5a221a5ac847295f2f5e189fb3961d78">More...</a><br /></td></tr>
 <tr class="separator:a5a221a5ac847295f2f5e189fb3961d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5931f3278b6ef393668f7ad68b10bac6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameRules.html#a5931f3278b6ef393668f7ad68b10bac6">SetFromStrings</a> (const std::map&lt; std::string, std::string &gt; &amp;names_values)</td></tr>
-<tr class="memdesc:a5931f3278b6ef393668f7ad68b10bac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a rule, optionally with a custom validator  <a href="#a5931f3278b6ef393668f7ad68b10bac6">More...</a><br /></td></tr>
+<tr class="memdesc:a5931f3278b6ef393668f7ad68b10bac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a rule, optionally with a custom validator.  <a href="#a5931f3278b6ef393668f7ad68b10bac6">More...</a><br /></td></tr>
 <tr class="separator:a5931f3278b6ef393668f7ad68b10bac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e64922502fca440b26151c75638b899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameRules.html#a3e64922502fca440b26151c75638b899">ClearExternalRules</a> ()</td></tr>
 <tr class="memdesc:a3e64922502fca440b26151c75638b899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes game rules that were added without being specified as engine internal.  <a href="#a3e64922502fca440b26151c75638b899">More...</a><br /></td></tr>
@@ -335,9 +335,10 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>adds a rule, optionally with a custom validator </p>
+<p>Adds a rule, optionally with a custom validator. </p>
+<p>Adds option setup.rules.{RULE_NAME} to override default value and option setup.rules.server-locked.{RULE_NAME} to block rule changes from players </p>
 
-<p>References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
+<p>References <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5">OptionsDB::Add()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classOptionsDB.html#abba96905096bb04dfeb1e0884fabc2d6">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, and <a class="el" href="classOptionsDB.html#a7ad2e905afcce98db9b420d9d7bea3f1">OptionsDB::OptionExists()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html#a8e1da657eca2dd8ed3e3b7a0d385c822">anonymous_namespace{ProductionQueue.cpp}::AddRules()</a>, <a class="el" href="namespaceanonymous__namespace_02Tech_8cpp_03.html#aed975487b54a2c944a39c17ded19d134">anonymous_namespace{Tech.cpp}::AddRules()</a>, <a class="el" href="namespaceanonymous__namespace_02Building_8cpp_03.html#ae577aef94dbae24a607db22fe72fb22a">anonymous_namespace{Building.cpp}::AddRules()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#acf1c3a9970540d93a886972fcb75a184">anonymous_namespace{CombatEvents.cpp}::AddRules()</a>, <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a0007dcbe418f5e927e86fe9ef34abe22">anonymous_namespace{ShipDesign.cpp}::AddRules()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a4cbc4972aa6eebd6a7e9305d2c424586">anonymous_namespace{Universe.cpp}::AddRules()</a>, <a class="el" href="structanonymous__namespace_02GameRulesParser_8cpp_03_1_1insert__rule__.html#a9b82245a9d944aba4e7feec0c82f1020">anonymous_namespace{GameRulesParser.cpp}::insert_rule_::operator()()</a>, and <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
 
@@ -539,7 +540,7 @@ template&lt;typename T &gt; </div>
 
 <p>References <a class="el" href="classGameRules.html#af07be56c7b04219b0a4b4f21bc733429">CheckPendingGameRules()</a>, and <a class="el" href="classGameRules.html#a120fe2874afcc9b1e24c853c332e6b19">m_game_rules</a>.</p>
 
-<p>Referenced by <a class="el" href="classGameRules.html#af07be56c7b04219b0a4b4f21bc733429">CheckPendingGameRules()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">HumanClientApp::NewSinglePlayerGame()</a>, and <a class="el" href="namespaceFreeOrionPython.html#aadeee0b90799a0dbeb16daa367444452">FreeOrionPython::WrapGalaxySetupData()</a>.</p>
+<p>Referenced by <a class="el" href="classGameRules.html#af07be56c7b04219b0a4b4f21bc733429">CheckPendingGameRules()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">HumanClientApp::NewSinglePlayerGame()</a>, and <a class="el" href="namespaceFreeOrionPython.html#aadeee0b90799a0dbeb16daa367444452">FreeOrionPython::WrapGalaxySetupData()</a>.</p>
 
 </div>
 </div>
@@ -810,7 +811,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>adds a rule, optionally with a custom validator </p>
+<p>Adds a rule, optionally with a custom validator. </p>
+<p>Adds option setup.rules.{RULE_NAME} to override default value and option setup.rules.server-locked.{RULE_NAME} to block rule changes from players </p>
 
 </div>
 </div>
@@ -828,7 +830,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>adds a rule, optionally with a custom validator </p>
+<p>Adds a rule, optionally with a custom validator. </p>
+<p>Adds option setup.rules.{RULE_NAME} to override default value and option setup.rules.server-locked.{RULE_NAME} to block rule changes from players </p>
 
 <p>References <a class="el" href="classGameRules.html#af07be56c7b04219b0a4b4f21bc733429">CheckPendingGameRules()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Logger_8h.html#aef58f34adf9f1de44115a06ce0f555cb">InfoLogger</a>, <a class="el" href="classGameRules.html#a120fe2874afcc9b1e24c853c332e6b19">m_game_rules</a>, and <a class="el" href="classGameRules.html#ad81416dd976c9a97c417887432028101">ResetToDefaults()</a>.</p>
 
