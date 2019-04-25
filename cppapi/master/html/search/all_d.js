@@ -732,7 +732,7 @@ var searchData=
   ['m_5fnode_5fmap',['m_node_map',['../classTechTreeLayout.html#aabd4186efce3e043094dc2311e9c1747',1,'TechTreeLayout']]],
   ['m_5fnodes',['m_nodes',['../classTechTreeLayout.html#a8f1c301635f46e53126487cd5cda75b5',1,'TechTreeLayout']]],
   ['m_5fnonplayer_5fmessage_5fcallback',['m_nonplayer_message_callback',['../classServerNetworking.html#a1706f45586207bb098fdee50c0f0f676',1,'ServerNetworking::m_nonplayer_message_callback()'],['../classPlayerConnection.html#a82be27ef2264b385b21e42647e0f1bf6',1,'PlayerConnection::m_nonplayer_message_callback()']]],
-  ['m_5fnum_5fexpected_5fplayers',['m_num_expected_players',['../structWaitingForSPGameJoiners.html#a88b291c7b8357f959cfe209591313e2a',1,'WaitingForSPGameJoiners::m_num_expected_players()'],['../structWaitingForMPGameJoiners.html#ad99524b46e2227d09c17c8a712abb52a',1,'WaitingForMPGameJoiners::m_num_expected_players()']]],
+  ['m_5fnum_5fexpected_5fplayers',['m_num_expected_players',['../structWaitingForSPGameJoiners.html#a88b291c7b8357f959cfe209591313e2a',1,'WaitingForSPGameJoiners']]],
   ['m_5fnum_5fpart_5fclasses',['m_num_part_classes',['../classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72',1,'ShipDesign']]],
   ['m_5fnum_5fpart_5ftypes',['m_num_part_types',['../classShipDesign.html#a4f64aa74a707a23dca0fad077c035015',1,'ShipDesign']]],
   ['m_5fnum_5fsegments',['m_num_segments',['../classMultiTurnProgressBar.html#aecf6b99bb4eade3d507ae4024981206f',1,'MultiTurnProgressBar']]],
