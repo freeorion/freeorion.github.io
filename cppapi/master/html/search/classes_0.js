@@ -15,6 +15,7 @@ var searchData=
   ['alldesignslistbox',['AllDesignsListBox',['../classAllDesignsListBox.html',1,'']]],
   ['and',['And',['../structCondition_1_1And.html',1,'Condition']]],
   ['andcondition',['AndCondition',['../classAndCondition.html',1,'']]],
+  ['appendformatterstring',['AppendFormatterString',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1AppendFormatterString.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['arbitrary_5fpositional_5ffacade',['arbitrary_positional_facade',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html',1,'boost::iostreams']]],
   ['arbitrary_5fpositional_5ffacade_3c_20basic_5fbase64_5fdecoder_3c_20traits_20_3e_2c_20char_2c_203_20_3e',['arbitrary_positional_facade&lt; basic_base64_decoder&lt; Traits &gt;, char, 3 &gt;',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html',1,'boost::iostreams']]],
   ['arbitrary_5fpositional_5ffacade_3c_20basic_5fbase64_5fencoder_3c_20traits_20_3e_2c_20char_2c_203_20_3e',['arbitrary_positional_facade&lt; basic_base64_encoder&lt; Traits &gt;, char, 3 &gt;',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html',1,'boost::iostreams']]],

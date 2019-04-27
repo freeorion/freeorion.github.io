@@ -131,6 +131,7 @@ var searchData=
   ['anycanedit',['AnyCanEdit',['../classMultiPlayerLobbyWnd.html#af97e494538a8b83251cedf82058437d2',1,'MultiPlayerLobbyWnd']]],
   ['anythingcollapsed',['AnythingCollapsed',['../classObjectListBox.html#a0201d6f2f9ec069605c01ae8cce14690',1,'ObjectListBox']]],
   ['apparentname',['ApparentName',['../classSystem.html#a66c301365362aa528c088eeb48513566',1,'System']]],
+  ['appendformatterstring',['AppendFormatterString',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1AppendFormatterString.html#af75a9d9ced2514295506e94c8ac4f6b5',1,'anonymous_namespace{ChatWnd.cpp}::AppendFormatterString']]],
   ['appendtotext',['AppendToText',['../classXMLDoc.html#ad3f493a1e5cce12c39195da2e2368e67',1,'XMLDoc']]],
   ['appheight',['AppHeight',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a1d10715dcd12a9f151793b22a17ec9b2',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['applicationdidfinishlaunching_3a',['applicationDidFinishLaunching:',['../interfaceGUIController.html#af64476cf5013deed5e4c8c942018be5b',1,'GUIController']]],

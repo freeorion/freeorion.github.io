@@ -1,7 +1,7 @@
 var searchData=
 [
   ['matches',['MATCHES',['../namespaceCondition.html#a98dbd031482ec2bc9716e55aaba5bddea3a8b923ef42520f853af080125ac76c0',1,'Condition']]],
-  ['max',['max',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114',1,'max():&#160;Logger.h'],['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3afbcba25186b5f012f805c9b1ed801696',1,'ValueRef::MAX()']]],
+  ['max',['MAX',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3afbcba25186b5f012f805c9b1ed801696',1,'ValueRef::MAX()'],['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114',1,'max():&#160;Logger.h']]],
   ['maximum',['MAXIMUM',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407a531c9cfc9a34dbb4cad8a268d6d34e70',1,'ValueRef']]],
   ['mean',['MEAN',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a5cd50ab9fef5e400ee3bf31e39d026dc',1,'ValueRef']]],
   ['medium',['MEDIUM',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ac87f3be66ffc3c0d4249f1c2cc5f3cce',1,'FleetButton']]],

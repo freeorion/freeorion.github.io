@@ -124,6 +124,7 @@ var searchData=
   ['speciesstuff',['SpeciesStuff',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStuff.html',1,'anonymous_namespace{SpeciesParser.cpp}']]],
   ['star_5ftype_5fparser_5frules',['star_type_parser_rules',['../structparse_1_1detail_1_1star__type__parser__rules.html',1,'parse::detail']]],
   ['startmpgameclicked',['StartMPGameClicked',['../structStartMPGameClicked.html',1,'']]],
+  ['startnewformatterfromuserstring',['StartNewFormatterFromUserString',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1StartNewFormatterFromUserString.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['startquittinggame',['StartQuittingGame',['../structStartQuittingGame.html',1,'']]],
   ['startype',['StarType',['../structCondition_1_1StarType.html',1,'Condition']]],
   ['startypesimplematch',['StarTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1StarTypeSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
