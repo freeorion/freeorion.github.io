@@ -152,6 +152,7 @@ var searchData=
   ['expandobject',['ExpandObject',['../classObjectListBox.html#aab96ec260ebf588f97dcdaa13988be82',1,'ObjectListBox']]],
   ['expectednewstockpileamount',['ExpectedNewStockpileAmount',['../structProductionQueue.html#a209f28a92f32b2903797b9efa5bff20a',1,'ProductionQueue']]],
   ['expectedprojecttransfertostockpile',['ExpectedProjectTransferToStockpile',['../structProductionQueue.html#ac70b5779bcf3d28d9fab36b124eee0cc',1,'ProductionQueue']]],
+  ['expireturn',['ExpireTurn',['../classServerApp.html#a5e3f8ed6ddfad6956b700b328c51a143',1,'ServerApp']]],
   ['exploredbyempire',['ExploredByEmpire',['../structCondition_1_1ExploredByEmpire.html#ab7905d81b620653d74002e291896e635',1,'Condition::ExploredByEmpire']]],
   ['exploredbyempire_5fcondition',['EXPLOREDBYEMPIRE_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aced95b3cea194fe21b3518a5ce4dc478',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['exploredbyempiresimplematch',['ExploredByEmpireSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1ExploredByEmpireSimpleMatch.html#a33e0192fe7c419b679db883642260573',1,'Condition::anonymous_namespace{Condition.cpp}::ExploredByEmpireSimpleMatch']]],

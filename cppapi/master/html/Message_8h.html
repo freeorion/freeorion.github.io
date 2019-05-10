@@ -295,6 +295,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0de2a67ebbf569e458f4830f2a9b608a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a0de2a67ebbf569e458f4830f2a9b608a">TurnProgressMessage</a> (Message::TurnProgressPhase phase_id)</td></tr>
 <tr class="memdesc:a0de2a67ebbf569e458f4830f2a9b608a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a TURN_PROGRESS message.  <a href="#a0de2a67ebbf569e458f4830f2a9b608a">More...</a><br /></td></tr>
 <tr class="separator:a0de2a67ebbf569e458f4830f2a9b608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2052848a88761e07abea43e4787b4b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#ae2052848a88761e07abea43e4787b4b1">TurnTimeoutMessage</a> (int timeout_remainig)</td></tr>
+<tr class="memdesc:ae2052848a88761e07abea43e4787b4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a TURN_TIMEOUT message with remaining time <em>timeout_</em>.  <a href="#ae2052848a88761e07abea43e4787b4b1">More...</a><br /></td></tr>
+<tr class="separator:ae2052848a88761e07abea43e4787b4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaff0eaf7bd34cb457e6942c35c4b1a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#abaff0eaf7bd34cb457e6942c35c4b1a4">TurnUpdateMessage</a> (int empire_id, int current_turn, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, const <a class="el" href="classUniverse.html">Universe</a> &amp;universe, const <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;species, <a class="el" href="classCombatLogManager.html">CombatLogManager</a> &amp;combat_logs, const <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;supply, const std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;players, bool use_binary_serialization)</td></tr>
 <tr class="memdesc:abaff0eaf7bd34cb457e6942c35c4b1a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a TURN_UPDATE message.  <a href="#abaff0eaf7bd34cb457e6942c35c4b1a4">More...</a><br /></td></tr>
 <tr class="separator:abaff0eaf7bd34cb457e6942c35c4b1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3086,6 +3089,30 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#ad70ebd8709b1c055f549d6d944319687">ServerApp::CreateAIClients()</a>, <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="classServerApp.html#ae68b66fba476dbeda48020ec3739dd70">ServerApp::NewGameInitConcurrentWithJoiners()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>, <a class="el" href="classServerApp.html#a5eaae912c39ba638a2b2c1a811e0f4d2">ServerApp::ProcessCombats()</a>, <a class="el" href="structPlayingGame.html#aebc95935fb160bf39cc26546a736a808">PlayingGame::react()</a>, and <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>.</p>
+
+</div>
+</div>
+<a id="ae2052848a88761e07abea43e4787b4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2052848a88761e07abea43e4787b4b1">&#9670;&nbsp;</a></span>TurnTimeoutMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a> TurnTimeoutMessage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeout_remainig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates a TURN_TIMEOUT message with remaining time <em>timeout_</em>. </p>
+
+<p class="reference">References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structPlayingGame.html#a31332de34efc5f8c35eec075960c1a35">PlayingGame::EstablishPlayer()</a>, and <a class="el" href="structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af">WaitingForTurnEnd::WaitingForTurnEnd()</a>.</p>
 
 </div>
 </div>

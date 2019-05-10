@@ -304,6 +304,7 @@ var searchData=
   ['expectednewstockpileamount',['ExpectedNewStockpileAmount',['../structProductionQueue.html#a209f28a92f32b2903797b9efa5bff20a',1,'ProductionQueue']]],
   ['expectedprojecttransfertostockpile',['ExpectedProjectTransferToStockpile',['../structProductionQueue.html#ac70b5779bcf3d28d9fab36b124eee0cc',1,'ProductionQueue']]],
   ['expired',['expired',['../structCookieData.html#ad5eba54c2a21550ee29ca4eecd347a9d',1,'CookieData']]],
+  ['expireturn',['ExpireTurn',['../classServerApp.html#a5e3f8ed6ddfad6956b700b328c51a143',1,'ServerApp']]],
   ['explored_5fby_5fempire',['explored_by_empire',['../structparse_1_1detail_1_1condition__parser__rules__5.html#a25da642b4e3134dc0e089afea308bb1e',1,'parse::detail::condition_parser_rules_5']]],
   ['exploredbyempire',['ExploredByEmpire',['../structCondition_1_1ExploredByEmpire.html',1,'Condition::ExploredByEmpire'],['../structCondition_1_1ExploredByEmpire.html#ab7905d81b620653d74002e291896e635',1,'Condition::ExploredByEmpire::ExploredByEmpire()']]],
   ['exploredbyempire_5fcondition',['EXPLOREDBYEMPIRE_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aced95b3cea194fe21b3518a5ce4dc478',1,'anonymous_namespace{ObjectListWnd.cpp}']]],

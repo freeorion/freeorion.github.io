@@ -230,6 +230,7 @@ var searchData=
   ['issuerenameorder',['IssueRenameOrder',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a8f641f14bd3e830d52c7b76e1837bd75',1,'anonymous_namespace{AIWrapper.cpp}']]],
   ['issuerequeueproductionorder',['IssueRequeueProductionOrder',['../namespaceAIInterface.html#a12202f0ccff80e91ecf738d565e0f681',1,'AIInterface']]],
   ['issuescraporder',['IssueScrapOrder',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a32409b0f3aba6e122cdef2ab3ef7eb63',1,'anonymous_namespace{AIWrapper.cpp}']]],
+  ['isturnexpired',['IsTurnExpired',['../classServerApp.html#a03f2b949bcc2a8e0974f54fb2fc85073',1,'ServerApp']]],
   ['istxconnected',['IsTxConnected',['../classClientNetworking_1_1Impl.html#a04257090c80b68c93a8c357bca594161',1,'ClientNetworking::Impl::IsTxConnected()'],['../classClientNetworking.html#acb0dbd762d1ccf68ff1e94959db200e2',1,'ClientNetworking::IsTxConnected()']]],
   ['istypingsafe',['IsTypingSafe',['../classHotkey.html#abce71c6a014ad68a4e49c5e37c8a09ec',1,'Hotkey::IsTypingSafe(GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)'],['../classHotkey.html#ab683e684837aab5c255483d006b5d7e6',1,'Hotkey::IsTypingSafe() const']]],
   ['isvalidutf8',['IsValidUTF8',['../Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31',1,'IsValidUTF8(const std::string &amp;in):&#160;Directories.cpp'],['../Directories_8h.html#a97c5c7ede44ff1f3b4c0c90e56a26baa',1,'IsValidUTF8(const std::string &amp;in):&#160;Directories.cpp']]],
