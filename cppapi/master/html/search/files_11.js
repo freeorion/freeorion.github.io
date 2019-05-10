@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt',['CMakeLists.txt',['../server_2CMakeLists_8txt.html',1,'']]],
   ['savefiledialog_2ecpp',['SaveFileDialog.cpp',['../SaveFileDialog_8cpp.html',1,'']]],
   ['savefiledialog_2eh',['SaveFileDialog.h',['../SaveFileDialog_8h.html',1,'']]],
   ['savegamepreviewutils_2ecpp',['SaveGamePreviewUtils.cpp',['../SaveGamePreviewUtils_8cpp.html',1,'']]],

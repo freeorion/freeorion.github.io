@@ -27,15 +27,13 @@ var searchData=
   ['fleetsupplyablesimplematch',['FleetSupplyableSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FleetSupplyableSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['fleettransferorder',['FleetTransferOrder',['../classFleetTransferOrder.html',1,'']]],
   ['fleetwnd',['FleetWnd',['../classFleetWnd.html',1,'']]],
-  ['focustype',['FocusType',['../classFocusType.html',1,'']]],
-  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition']]],
+  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition::FocusType'],['../classFocusType.html',1,'FocusType']]],
   ['focustypesimplematch',['FocusTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1FocusTypeSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['focuswindowcondition',['FocusWindowCondition',['../classFocusWindowCondition.html',1,'']]],
   ['focuswindowisa',['FocusWindowIsA',['../classFocusWindowIsA.html',1,'']]],
   ['fonttexturewnd',['FontTextureWnd',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['forgetorder',['ForgetOrder',['../classForgetOrder.html',1,'']]],
-  ['founddestination',['FoundDestination',['../classSystemPathing_1_1BFSVisitorImpl_1_1FoundDestination.html',1,'SystemPathing::BFSVisitorImpl']]],
-  ['founddestination',['FoundDestination',['../structSystemPathing_1_1PathFindingShortCircuitingVisitor_1_1FoundDestination.html',1,'SystemPathing::PathFindingShortCircuitingVisitor']]],
+  ['founddestination',['FoundDestination',['../classSystemPathing_1_1BFSVisitorImpl_1_1FoundDestination.html',1,'SystemPathing::BFSVisitorImpl&lt; Graph, Edge, Vertex &gt;::FoundDestination'],['../structSystemPathing_1_1PathFindingShortCircuitingVisitor_1_1FoundDestination.html',1,'SystemPathing::PathFindingShortCircuitingVisitor::FoundDestination']]],
   ['fpsindicator',['FPSIndicator',['../classFPSIndicator.html',1,'']]],
   ['fullpreview',['FullPreview',['../structFullPreview.html',1,'']]]
 ];

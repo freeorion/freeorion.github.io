@@ -22,6 +22,6 @@ var searchData=
   ['number_5fof2',['number_of2',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a4dc67d193bb20445f80f8b8861c4c4a8',1,'parse::detail::condition_parser_rules_3']]],
   ['number_5fof_5fempires',['number_of_empires',['../structSaveGamePreviewData.html#a4da585d66f0da6c8c17bddcec194f48f',1,'SaveGamePreviewData']]],
   ['number_5fof_5fhuman_5fplayers',['number_of_human_players',['../structSaveGamePreviewData.html#a3b007160b089161fb4417aebd7421df9',1,'SaveGamePreviewData']]],
-  ['numslotsofslottype',['NumSlotsOfSlotType',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a9f5a312db1751dbe303a5ff0276aad80',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
-  ['numslotstotal',['NumSlotsTotal',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a75494c927e5859134fc62bd8f457cbd0',1,'anonymous_namespace{UniverseWrapper.cpp}']]]
+  ['numslotsofslottype',['NumSlotsOfSlotType',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a9a7d8860e3256791a1b66da1e7a349d4',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['numslotstotal',['NumSlotsTotal',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#aef4ab87d535f6f25b0c30b367aeec285',1,'anonymous_namespace{UniverseWrapper.cpp}']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt',['CMakeLists.txt',['../Empire_2CMakeLists_8txt.html',1,'']]],
   ['effect_2ecpp',['Effect.cpp',['../Effect_8cpp.html',1,'']]],
   ['effect_2eh',['Effect.h',['../Effect_8h.html',1,'']]],
   ['effectaccounting_2ecpp',['EffectAccounting.cpp',['../EffectAccounting_8cpp.html',1,'']]],

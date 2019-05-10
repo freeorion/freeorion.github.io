@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90',1,'HullType::Slot::x()'],['../classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()'],['../classUniverseObject.html#a5fe8838de68a18534a780a32be8bf9d3',1,'UniverseObject::X()']]],
+  ['x',['x',['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../structHullType_1_1Slot.html#a8ca9cf36d3f42ec69d29194a52aada90',1,'HullType::Slot::x()'],['../classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()'],['../classUniverseObject.html#abcd4a884c2c1f820b10d2b427ca5d2e3',1,'UniverseObject::X()']]],
   ['x1',['X1',['../structLaneEndpoints.html#ab3d092f3532042f55e298186b55c3006',1,'LaneEndpoints']]],
   ['x2',['X2',['../structLaneEndpoints.html#afa549a6309c4f92a066715822cfe2086',1,'LaneEndpoints']]],
   ['x_5faxis_5flabel_5fmargin',['X_AXIS_LABEL_MARGIN',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a093445f6480c250946a92755e643e44f',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
@@ -14,5 +14,5 @@ var searchData=
   ['xmldoc_2ecpp',['XMLDoc.cpp',['../XMLDoc_8cpp.html',1,'']]],
   ['xmldoc_2eh',['XMLDoc.h',['../XMLDoc_8h.html',1,'']]],
   ['xmlelement',['XMLElement',['../classXMLElement.html',1,'XMLElement'],['../classXMLElement.html#ae6e0c3440c60484c1fa97e06efdae280',1,'XMLElement::XMLElement()'],['../classXMLElement.html#a5a127ae7b8fa5c665a82bf177fb1cadd',1,'XMLElement::XMLElement(const std::string &amp;tag, const std::string &amp;text=&quot;&quot;)'],['../classXMLElement.html#a2b0d01aede53e4a97e0d7c9d16dbc9bd',1,'XMLElement::XMLElement(const std::string &amp;tag, bool root)']]],
-  ['xpositionfraction',['XPositionFraction',['../classSlotControl.html#a7f051213d808a07aa2988f94f75e95e2',1,'SlotControl']]]
+  ['xpositionfraction',['XPositionFraction',['../classSlotControl.html#a8a68fffcbb726df6f8e37af587343384',1,'SlotControl']]]
 ];

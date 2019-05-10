@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt',['CMakeLists.txt',['../parse_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../python_2AI_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../python_2server_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../python_2CMakeLists_8txt.html',1,'']]],
   ['parse_2ecpp',['Parse.cpp',['../Parse_8cpp.html',1,'']]],
   ['parse_2eh',['Parse.h',['../Parse_8h.html',1,'']]],
   ['parseimpl_2eh',['ParseImpl.h',['../ParseImpl_8h.html',1,'']]],

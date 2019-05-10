@@ -8,8 +8,7 @@ var searchData=
   ['capital',['Capital',['../structCondition_1_1Capital.html',1,'Condition']]],
   ['capture_5fresult_5fenum_5fgrammar',['capture_result_enum_grammar',['../structparse_1_1capture__result__enum__grammar.html',1,'parse']]],
   ['castable_5fas_5fint_5fparser_5frules',['castable_as_int_parser_rules',['../structparse_1_1castable__as__int__parser__rules.html',1,'parse']]],
-  ['category',['category',['../structboost_1_1iostreams_1_1basic__base64__decoder_1_1category.html',1,'boost::iostreams::basic_base64_decoder']]],
-  ['category',['category',['../structboost_1_1iostreams_1_1basic__base64__encoder_1_1category.html',1,'boost::iostreams::basic_base64_encoder']]],
+  ['category',['category',['../structboost_1_1iostreams_1_1basic__base64__decoder_1_1category.html',1,'boost::iostreams::basic_base64_decoder&lt; Traits &gt;::category'],['../structboost_1_1iostreams_1_1basic__base64__encoder_1_1category.html',1,'boost::iostreams::basic_base64_encoder&lt; Traits &gt;::category']]],
   ['categoryindex',['CategoryIndex',['../structTechManager_1_1CategoryIndex.html',1,'TechManager']]],
   ['censoredcuiedit',['CensoredCUIEdit',['../classCensoredCUIEdit.html',1,'']]],
   ['censusbrowsewnd',['CensusBrowseWnd',['../classCensusBrowseWnd.html',1,'']]],
@@ -76,11 +75,9 @@ var searchData=
   ['createdonturn',['CreatedOnTurn',['../structCondition_1_1CreatedOnTurn.html',1,'Condition']]],
   ['createdonturnsimplematch',['CreatedOnTurnSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1CreatedOnTurnSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['createfield',['CreateField',['../classEffect_1_1CreateField.html',1,'Effect']]],
-  ['createplanet',['CreatePlanet',['../classModerator_1_1CreatePlanet.html',1,'Moderator']]],
-  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect']]],
+  ['createplanet',['CreatePlanet',['../classEffect_1_1CreatePlanet.html',1,'Effect::CreatePlanet'],['../classModerator_1_1CreatePlanet.html',1,'Moderator::CreatePlanet']]],
   ['createship',['CreateShip',['../classEffect_1_1CreateShip.html',1,'Effect']]],
-  ['createsystem',['CreateSystem',['../classModerator_1_1CreateSystem.html',1,'Moderator']]],
-  ['createsystem',['CreateSystem',['../classEffect_1_1CreateSystem.html',1,'Effect']]],
+  ['createsystem',['CreateSystem',['../classEffect_1_1CreateSystem.html',1,'Effect::CreateSystem'],['../classModerator_1_1CreateSystem.html',1,'Moderator::CreateSystem']]],
   ['creditswnd',['CreditsWnd',['../classCreditsWnd.html',1,'']]],
   ['cui_5fminrestorebutton',['CUI_MinRestoreButton',['../classCUI__MinRestoreButton.html',1,'']]],
   ['cui_5fpinbutton',['CUI_PinButton',['../classCUI__PinButton.html',1,'']]],
@@ -109,6 +106,5 @@ var searchData=
   ['cuitabrepresenter',['CUITabRepresenter',['../classCUITabRepresenter.html',1,'']]],
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html',1,'']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html',1,'']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}']]]
+  ['customrowcmp',['CustomRowCmp',['../structanonymous__namespace_02MapWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{MapWnd.cpp}::CustomRowCmp'],['../structanonymous__namespace_02ObjectListWnd_8cpp_03_1_1CustomRowCmp.html',1,'anonymous_namespace{ObjectListWnd.cpp}::CustomRowCmp']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['key_5fcomp',['key_comp',['../classOrderSet.html#a62d5c66046358c3e1d6c132c43fb274e',1,'OrderSet']]],
+  ['key_5fcomp',['key_comp',['../classOrderSet.html#ab16e7c3ade32ade435cbfc8045f8f174',1,'OrderSet']]],
   ['keyboardzoomin',['KeyboardZoomIn',['../classMapWnd.html#a8f4865c1645797250a5258b7429aa9f2',1,'MapWnd']]],
   ['keyboardzoomout',['KeyboardZoomOut',['../classMapWnd.html#a35c93fddba7b3733a339cd1ea3aaa607',1,'MapWnd']]],
   ['keymaps',['keymaps',['../namespaceparse.html#a1c3e12325d49505ccca4fa81eff017f8',1,'parse']]],
@@ -8,7 +8,7 @@ var searchData=
   ['keypresscatcher',['KeyPressCatcher',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1KeyPressCatcher.html#a5685c41acb55aa1c4a0386538aac3ace',1,'anonymous_namespace{OptionsWnd.cpp}::KeyPressCatcher']]],
   ['keyrelease',['KeyRelease',['../classMapWnd.html#a625d7e4d0e44f916d4917d9092a3d6c1',1,'MapWnd']]],
   ['kill',['Kill',['../classProcess_1_1Impl.html#a11f7e0b297bb25d9b867fac566775895',1,'Process::Impl::Kill()'],['../classProcess.html#ae10e07f87db5169c1000fbb978578775',1,'Process::Kill()']]],
-  ['knownstarlanes',['KnownStarlanes',['../classEmpire.html#a105c5d95d972a970c68ed309d0229119',1,'Empire']]],
+  ['knownstarlanes',['KnownStarlanes',['../classEmpire.html#a7948770039053dfdad02bb4dd0ebdda2',1,'Empire']]],
   ['knowntechfillcolor',['KnownTechFillColor',['../classClientUI.html#a77fe3c4cbbbd945cbb7d355d13b6489e',1,'ClientUI']]],
   ['knowntechtextandbordercolor',['KnownTechTextAndBorderColor',['../classClientUI.html#ad5b3ebd494729d2ec30caa84f32d9ae6',1,'ClientUI']]]
 ];

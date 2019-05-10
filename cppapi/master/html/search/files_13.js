@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['cmakelists_2etxt',['CMakeLists.txt',['../UI_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../UI_2CombatReport_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../util_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../universe_2CMakeLists_8txt.html',1,'']]],
   ['universe_2ecpp',['Universe.cpp',['../Universe_8cpp.html',1,'']]],
   ['universe_2eh',['Universe.h',['../Universe_8h.html',1,'']]],
   ['universegenerator_2ecpp',['UniverseGenerator.cpp',['../UniverseGenerator_8cpp.html',1,'']]],
