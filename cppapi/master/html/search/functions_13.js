@@ -316,7 +316,7 @@ var searchData=
   ['setshipicon',['SetShipIcon',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#ae6d5192eb4fe25d70d8206353e8f4b1a',1,'anonymous_namespace{FleetWnd.cpp}::ShipDataPanel']]],
   ['setshipmeterstomax',['SetShipMetersToMax',['../classShip.html#a3455495c86965acbf33427b9cd8d803d',1,'Ship']]],
   ['setshippartmeter',['SetShipPartMeter',['../classEffect_1_1SetShipPartMeter.html#a578266f247d4994b93cc725bc76a0e14',1,'Effect::SetShipPartMeter']]],
-  ['setsingleplayergame',['SetSinglePlayerGame',['../classClientApp.html#a48d28412c374c16b909408647f42f7bf',1,'ClientApp::SetSinglePlayerGame()'],['../classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db',1,'HumanClientApp::SetSinglePlayerGame()']]],
+  ['setsingleplayergame',['SetSinglePlayerGame',['../classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db',1,'HumanClientApp']]],
   ['setsize',['SetSize',['../classPlanet.html#a5c7a69c5ae088817f6da3e8fe955f90d',1,'Planet']]],
   ['setspecial',['SetSpecial',['../classEncyclopediaDetailPanel.html#abdfd7492933ad095150755b1a62b672c',1,'EncyclopediaDetailPanel']]],
   ['setspecialcapacity',['SetSpecialCapacity',['../classUniverseObject.html#adad9dbd89891afa631f056b33f8a94ed',1,'UniverseObject']]],
