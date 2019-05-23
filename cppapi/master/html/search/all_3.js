@@ -354,7 +354,7 @@ var searchData=
   ['complex_5fvariable_5fpayload',['complex_variable_payload',['../namespaceparse_1_1detail.html#a4ad7050a2691a43b458f6e69adfadc25',1,'parse::detail']]],
   ['complex_5fvariable_5frule',['complex_variable_rule',['../namespaceparse_1_1detail.html#a525c29c6cd8f13c389c85cf3d499b179',1,'parse::detail']]],
   ['complex_5fvariable_5fsignature',['complex_variable_signature',['../namespaceparse_1_1detail.html#a92050279649bac85de60cf9c24e1c36e',1,'parse::detail']]],
-  ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html',1,'ValueRef::ComplexVariable&lt; T &gt;'],['../structValueRef_1_1ComplexVariable.html#aa6be6cbf4a990c440baab47eb14d7646',1,'ValueRef::ComplexVariable::ComplexVariable()']]],
+  ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html',1,'ValueRef::ComplexVariable&lt; T &gt;'],['../structValueRef_1_1ComplexVariable.html#a3b069025be3f7f618c074d462387c391',1,'ValueRef::ComplexVariable::ComplexVariable()']]],
   ['complexvariabledescription',['ComplexVariableDescription',['../namespaceValueRef.html#aba67e86b3f0f4c460883aba99872946f',1,'ValueRef']]],
   ['complexvariabledump',['ComplexVariableDump',['../namespaceValueRef.html#ab0554d1d1f776725fa70e84620a9a7b3',1,'ValueRef']]],
   ['compressed_5ftext_5fsize',['compressed_text_size',['../structSaveGamePreviewData.html#a8c818dd5b3642f9c74cefb135fd89675',1,'SaveGamePreviewData']]],

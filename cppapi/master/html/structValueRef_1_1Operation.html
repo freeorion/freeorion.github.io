@@ -178,11 +178,11 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:afb55f069cf0509708e2628c267b5f59d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#afb55f069cf0509708e2628c267b5f59d">m_cached_const_value</a></td></tr>
+<tr class="memitem:afb55f069cf0509708e2628c267b5f59d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#afb55f069cf0509708e2628c267b5f59d">m_cached_const_value</a> = T()</td></tr>
 <tr class="separator:afb55f069cf0509708e2628c267b5f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacc2abed496dec016d446ac522a0b92e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#aacc2abed496dec016d446ac522a0b92e">m_constant_expr</a> = false</td></tr>
 <tr class="separator:aacc2abed496dec016d446ac522a0b92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b81f59dee31d29856de0e2c8926cec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">OpType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a4b81f59dee31d29856de0e2c8926cec6">m_op_type</a></td></tr>
+<tr class="memitem:a4b81f59dee31d29856de0e2c8926cec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">OpType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a4b81f59dee31d29856de0e2c8926cec6">m_op_type</a> = <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ae2e5fc10f76f7ae7baa6932f05203e4d">TIMES</a></td></tr>
 <tr class="separator:a4b81f59dee31d29856de0e2c8926cec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2db87a223af3274c7b11c0b4837f78a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRefBase</a>&lt; T &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#ad2db87a223af3274c7b11c0b4837f78a">m_operands</a></td></tr>
 <tr class="separator:ad2db87a223af3274c7b11c0b4837f78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +197,7 @@ Friends</h2></td></tr>
 struct ValueRef::Operation&lt; T &gt;</h3>
 
 <p>An arithmetic operation node <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> class. </p>
-<p>One of addition, subtraction, mutiplication, division, or unary negation is performed on the child(ren) of this node, and the result is returned. </p>
+<p>Unary or binary operations such as addition, mutiplication, negation, exponentiation, rounding, value substitution, value comparisons, or random value selection or random number generation are performed on the child(ren) of this node, and the result is returned. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8ae6b253373f0d00876347b1ca581858"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ae6b253373f0d00876347b1ca581858">&#9670;&nbsp;</a></span>Operation() <span class="overload">[1/3]</span></h2>
@@ -1130,7 +1130,7 @@ template&lt;class T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation</a>&lt; T &gt;::m_cached_const_value</td>
+          <td class="memname">T <a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation</a>&lt; T &gt;::m_cached_const_value = T()</td>
         </tr>
       </table>
   </td>
@@ -1182,7 +1182,7 @@ template&lt;class T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">OpType</a> <a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation</a>&lt; T &gt;::m_op_type</td>
+          <td class="memname"><a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407">OpType</a> <a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation</a>&lt; T &gt;::m_op_type = <a class="el" href="namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407ae2e5fc10f76f7ae7baa6932f05203e4d">TIMES</a></td>
         </tr>
       </table>
   </td>
