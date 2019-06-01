@@ -85,6 +85,7 @@ var searchData=
   ['enableselection',['EnableSelection',['../classSidePanel.html#a1b5e8a10664ec74463bbc936964faa84',1,'SidePanel']]],
   ['enclosingcirclediameter',['EnclosingCircleDiameter',['../classSystemIcon.html#a0f909838909691c2daca688ca39217a8',1,'SystemIcon']]],
   ['encode',['encode',['../structboost_1_1iostreams_1_1base64__traits.html#a292f33d27a315ebfb593e9bab7b6c180',1,'boost::iostreams::base64_traits::encode()'],['../structboost_1_1iostreams_1_1urlsafe__base64__traits.html#af2b26059589f1314b0cae8dd845aa87f',1,'boost::iostreams::urlsafe_base64_traits::encode()'],['../classboost_1_1iostreams_1_1basic__base64__encoder.html#a82843492bc20db9ce82764449e10ca6d',1,'boost::iostreams::basic_base64_encoder::encode()']]],
+  ['encodeserveraddressoption',['EncodeServerAddressOption',['../classHumanClientApp.html#a68c734759285bc95b03146c08b4c8188',1,'HumanClientApp']]],
   ['encodingempire',['EncodingEmpire',['../classUniverse.html#adba843a964a08c6d890f485ffc5dde0f',1,'Universe']]],
   ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html#a667273357aa82b92d63348c3632b83b8',1,'Encyclopedia']]],
   ['encyclopedia_5farticles',['encyclopedia_articles',['../namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa',1,'parse']]],

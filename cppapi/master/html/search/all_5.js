@@ -174,6 +174,7 @@ var searchData=
   ['enclosingcirclediameter',['EnclosingCircleDiameter',['../classSystemIcon.html#a0f909838909691c2daca688ca39217a8',1,'SystemIcon']]],
   ['encname',['EncName',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a538f6b24db30248534914736c4f1959c',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['encode',['encode',['../structboost_1_1iostreams_1_1base64__traits.html#a292f33d27a315ebfb593e9bab7b6c180',1,'boost::iostreams::base64_traits::encode()'],['../structboost_1_1iostreams_1_1urlsafe__base64__traits.html#af2b26059589f1314b0cae8dd845aa87f',1,'boost::iostreams::urlsafe_base64_traits::encode()'],['../classboost_1_1iostreams_1_1basic__base64__encoder.html#a82843492bc20db9ce82764449e10ca6d',1,'boost::iostreams::basic_base64_encoder::encode()']]],
+  ['encodeserveraddressoption',['EncodeServerAddressOption',['../classHumanClientApp.html#a68c734759285bc95b03146c08b4c8188',1,'HumanClientApp']]],
   ['encodingdecl',['EncodingDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2d57fed59805c7364a563e8922844a84',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['encodingempire',['EncodingEmpire',['../classUniverse.html#adba843a964a08c6d890f485ffc5dde0f',1,'Universe']]],
   ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html',1,'Encyclopedia'],['../classEncyclopedia.html#a667273357aa82b92d63348c3632b83b8',1,'Encyclopedia::Encyclopedia()']]],
