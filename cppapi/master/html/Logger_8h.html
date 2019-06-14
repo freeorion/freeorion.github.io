@@ -76,7 +76,8 @@ $(function() {
 
 <p>The logging system consists of named loggers with levels.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;boost/log/sources/severity_channel_logger.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;boost/log/attributes/current_thread_id.hpp&gt;</code><br />
+<code>#include &lt;boost/log/sources/severity_channel_logger.hpp&gt;</code><br />
 <code>#include &lt;boost/log/expressions/keyword.hpp&gt;</code><br />
 <code>#include &lt;boost/log/utility/manipulators/add_value.hpp&gt;</code><br />
 <code>#include &lt;boost/log/sinks/sync_frontend.hpp&gt;</code><br />
@@ -146,6 +147,8 @@ Functions</h2></td></tr>
 <tr class="separator:a30026b57b9e95f33f7328ecc200b5d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d750ec4382c4c00feaf1e737a452d58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a7d750ec4382c4c00feaf1e737a452d58">BOOST_LOG_ATTRIBUTE_KEYWORD</a> (log_src_linenum, &quot;SrcLinenum&quot;, int)</td></tr>
 <tr class="separator:a7d750ec4382c4c00feaf1e737a452d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab903c6aecfc5afde67d4ed1f3be0f558"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#ab903c6aecfc5afde67d4ed1f3be0f558">BOOST_LOG_ATTRIBUTE_KEYWORD</a> (thread_id, &quot;ThreadID&quot;, boost::log::attributes::current_thread_id::value_type)</td></tr>
+<tr class="separator:ab903c6aecfc5afde67d4ed1f3be0f558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71dffbc001c8d7d28fc013285192573b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a71dffbc001c8d7d28fc013285192573b">ConfigureLogger</a> (<a class="el" href="Logger_8h.html#a9cb28f0dbb6e908f050cd5d1f93bf4fd">NamedThreadedLogger</a> &amp;logger, const std::string &amp;name)</td></tr>
 <tr class="separator:a71dffbc001c8d7d28fc013285192573b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e8df3c80103ac3acc20c80b6d4fc90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Logger_8h.html#a21e8df3c80103ac3acc20c80b6d4fc90">CreatedLoggersNames</a> ()</td></tr>
@@ -269,8 +272,8 @@ operator. If the "streamable output" is a function call it is only executed if t
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="namespaceanonymous__namespace_02Logger_8cpp_03.html#a6b51339cbfe452fc4b1260fda3c39bcd">BOOST_LOG_INLINE_GLOBAL_LOGGER_INIT</a>(                                \</div><div class="line">        <a class="code" href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a>(name), <a class="code" href="Logger_8h.html#a9cb28f0dbb6e908f050cd5d1f93bf4fd">NamedThreadedLogger</a>)               \</div><div class="line">    {                                                                   \</div><div class="line">        auto lg = <a class="code" href="Logger_8h.html#a9cb28f0dbb6e908f050cd5d1f93bf4fd">NamedThreadedLogger</a>(                                  \</div><div class="line">            (boost::log::keywords::severity = <a class="code" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9aad42f6697b035b7580e4fef93be20b4d">LogLevel::debug</a>),         \</div><div class="line">            (boost::log::keywords::channel = #name));                   \</div><div class="line">        ConfigureLogger(lg, #name);                                     \</div><div class="line">        return lg;                                                      \</div><div class="line">    }</div><div class="ttc" id="Logger_8h_html_aca1fd1d8935433e6ba2e3918214e07f9aad42f6697b035b7580e4fef93be20b4d"><div class="ttname"><a href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9aad42f6697b035b7580e4fef93be20b4d">LogLevel::debug</a></div></div>
-<div class="ttc" id="Logger_8h_html_a9cb28f0dbb6e908f050cd5d1f93bf4fd"><div class="ttname"><a href="Logger_8h.html#a9cb28f0dbb6e908f050cd5d1f93bf4fd">NamedThreadedLogger</a></div><div class="ttdeci">boost::log::sources::severity_channel_logger_mt&lt; LogLevel, std::string &gt; NamedThreadedLogger</div><div class="ttdoc">A type for loggers (sources) that allows for severity and a logger name (channel in boost parlance) a...</div><div class="ttdef"><b>Definition:</b> Logger.h:218</div></div>
-<div class="ttc" id="Logger_8h_html_aadaa9da8fab8a8084fb4fcc367553976"><div class="ttname"><a href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a></div><div class="ttdeci">#define FO_GLOBAL_LOGGER_NAME(name)</div><div class="ttdef"><b>Definition:</b> Logger.h:170</div></div>
+<div class="ttc" id="Logger_8h_html_a9cb28f0dbb6e908f050cd5d1f93bf4fd"><div class="ttname"><a href="Logger_8h.html#a9cb28f0dbb6e908f050cd5d1f93bf4fd">NamedThreadedLogger</a></div><div class="ttdeci">boost::log::sources::severity_channel_logger_mt&lt; LogLevel, std::string &gt; NamedThreadedLogger</div><div class="ttdoc">A type for loggers (sources) that allows for severity and a logger name (channel in boost parlance) a...</div><div class="ttdef"><b>Definition:</b> Logger.h:219</div></div>
+<div class="ttc" id="Logger_8h_html_aadaa9da8fab8a8084fb4fcc367553976"><div class="ttname"><a href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a></div><div class="ttdeci">#define FO_GLOBAL_LOGGER_NAME(name)</div><div class="ttdef"><b>Definition:</b> Logger.h:171</div></div>
 <div class="ttc" id="namespaceanonymous__namespace_02Logger_8cpp_03_html_a6b51339cbfe452fc4b1260fda3c39bcd"><div class="ttname"><a href="namespaceanonymous__namespace_02Logger_8cpp_03.html#a6b51339cbfe452fc4b1260fda3c39bcd">anonymous_namespace{Logger.cpp}::BOOST_LOG_INLINE_GLOBAL_LOGGER_INIT</a></div><div class="ttdeci">BOOST_LOG_INLINE_GLOBAL_LOGGER_INIT(FO_GLOBAL_LOGGER_NAME(log), NamedThreadedLogger)</div><div class="ttdef"><b>Definition:</b> Logger.cpp:40</div></div>
 </div><!-- fragment -->
 </div>
@@ -340,8 +343,8 @@ operator. If the "streamable output" is a function call it is only executed if t
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">BOOST_LOG_STREAM_WITH_PARAMS(                                       \</div><div class="line">        <a class="code" href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a>(name)::<span class="keyword">get</span>(),                             \</div><div class="line">        (boost::log::keywords::severity = lvl))                         \</div><div class="line">    &lt;&lt; boost::log::add_value(<span class="stringliteral">&quot;SrcFilename&quot;</span>, <a class="code" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a>)          \</div><div class="line">    &lt;&lt; boost::log::add_value(<span class="stringliteral">&quot;SrcLinenum&quot;</span>, __LINE__)</div><div class="ttc" id="Logger_8h_html_aadaa9da8fab8a8084fb4fcc367553976"><div class="ttname"><a href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a></div><div class="ttdeci">#define FO_GLOBAL_LOGGER_NAME(name)</div><div class="ttdef"><b>Definition:</b> Logger.h:170</div></div>
-<div class="ttc" id="Logger_8h_html_ae0bb0a0e6d09f7a81119644ab028baa1"><div class="ttname"><a href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a></div><div class="ttdeci">#define __BASE_FILENAME__</div><div class="ttdef"><b>Definition:</b> Logger.h:271</div></div>
+<b>Value:</b><div class="fragment"><div class="line">BOOST_LOG_STREAM_WITH_PARAMS(                                       \</div><div class="line">        <a class="code" href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a>(name)::<span class="keyword">get</span>(),                             \</div><div class="line">        (boost::log::keywords::severity = lvl))                         \</div><div class="line">    &lt;&lt; boost::log::add_value(<span class="stringliteral">&quot;SrcFilename&quot;</span>, <a class="code" href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a>)          \</div><div class="line">    &lt;&lt; boost::log::add_value(<span class="stringliteral">&quot;SrcLinenum&quot;</span>, __LINE__)</div><div class="ttc" id="Logger_8h_html_aadaa9da8fab8a8084fb4fcc367553976"><div class="ttname"><a href="Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976">FO_GLOBAL_LOGGER_NAME</a></div><div class="ttdeci">#define FO_GLOBAL_LOGGER_NAME(name)</div><div class="ttdef"><b>Definition:</b> Logger.h:171</div></div>
+<div class="ttc" id="Logger_8h_html_ae0bb0a0e6d09f7a81119644ab028baa1"><div class="ttname"><a href="Logger_8h.html#ae0bb0a0e6d09f7a81119644ab028baa1">__BASE_FILENAME__</a></div><div class="ttdeci">#define __BASE_FILENAME__</div><div class="ttdef"><b>Definition:</b> Logger.h:273</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -533,7 +536,7 @@ operator. If the "streamable output" is a function call it is only executed if t
 </div>
 </div>
 <a id="a41ff658403207961465bf754f3625b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ff658403207961465bf754f3625b75">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ff658403207961465bf754f3625b75">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,7 +570,7 @@ operator. If the "streamable output" is a function call it is only executed if t
 </div>
 </div>
 <a id="a30026b57b9e95f33f7328ecc200b5d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30026b57b9e95f33f7328ecc200b5d05">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a30026b57b9e95f33f7328ecc200b5d05">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +604,7 @@ operator. If the "streamable output" is a function call it is only executed if t
 </div>
 </div>
 <a id="a7d750ec4382c4c00feaf1e737a452d58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d750ec4382c4c00feaf1e737a452d58">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d750ec4382c4c00feaf1e737a452d58">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,6 +625,40 @@ operator. If the "streamable output" is a function call it is only executed if t
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab903c6aecfc5afde67d4ed1f3be0f558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab903c6aecfc5afde67d4ed1f3be0f558">&#9670;&nbsp;</a></span>BOOST_LOG_ATTRIBUTE_KEYWORD() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_LOG_ATTRIBUTE_KEYWORD </td>
+          <td>(</td>
+          <td class="paramtype">thread_id&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;ThreadID&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::log::attributes::current_thread_id::value_type&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
