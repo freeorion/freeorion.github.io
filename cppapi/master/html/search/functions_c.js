@@ -35,7 +35,6 @@ var searchData=
   ['leastjumpspath',['LeastJumpsPath',['../classPathfinder_1_1PathfinderImpl.html#ac42e20cd6b652a6d5cb8127f21507327',1,'Pathfinder::PathfinderImpl::LeastJumpsPath()'],['../classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d',1,'Pathfinder::LeastJumpsPath()'],['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ae2523cdd276e84b698bc928c0efd417a',1,'anonymous_namespace{UniverseWrapper.cpp}::LeastJumpsPath()']]],
   ['leastjumpspathimpl',['LeastJumpsPathImpl',['../namespaceSystemPathing.html#a1735a012c7aae74ef922cffb4ae0b098',1,'SystemPathing']]],
   ['leftborder',['LeftBorder',['../classCUIWnd.html#aad02ef4769ec44c1520238403d099076',1,'CUIWnd']]],
-  ['legacy_5fserialize',['legacy_serialize',['../structSaveGameUIData.html#a0b3dcd6dbc7d9ee679761c5f7268fd6b',1,'SaveGameUIData']]],
   ['letter',['Letter',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a029128448e16488203a4eb0a9c74d24d',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['lexer',['lexer',['../structparse_1_1lexer.html#a57658c83c2dfb440594ff0035810edee',1,'parse::lexer']]],
   ['lhs',['LHS',['../structValueRef_1_1Operation.html#a244abd693e9ea937b4f0f7e00591af4e',1,'ValueRef::Operation']]],
