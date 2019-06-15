@@ -287,7 +287,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a52aaa3147d99019d958e613c292c624f"><td class="memItemLeft" align="right" valign="top">boost::circular_buffer&lt; <a class="el" href="structChatHistoryEntity.html">ChatHistoryEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a52aaa3147d99019d958e613c292c624f">m_chat_history</a></td></tr>
 <tr class="memdesc:a52aaa3147d99019d958e613c292c624f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stored last chat messages.  <a href="#a52aaa3147d99019d958e613c292c624f">More...</a><br /></td></tr>
 <tr class="separator:a52aaa3147d99019d958e613c292c624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a160a4d3a41ada1407b67b543c6522698"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a></td></tr>
+<tr class="memitem:a160a4d3a41ada1407b67b543c6522698"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a160a4d3a41ada1407b67b543c6522698">m_current_turn</a> = <a class="el" href="MultiplayerCommon_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td></tr>
 <tr class="memdesc:a160a4d3a41ada1407b67b543c6522698"><td class="mdescLeft">&#160;</td><td class="mdescRight">current turn number  <a href="#a160a4d3a41ada1407b67b543c6522698">More...</a><br /></td></tr>
 <tr class="separator:a160a4d3a41ada1407b67b543c6522698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a367b8b099c9ed029c2fac9692500a05c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEmpireManager.html">EmpireManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a367b8b099c9ed029c2fac9692500a05c">m_empires</a></td></tr>
@@ -308,12 +308,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a65d3a0d514440c9faf3b1ee3cbd2d11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9561003f92f2369c7a42ecba99914395"><td class="memItemLeft" align="right" valign="top">boost::asio::signal_set&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a9561003f92f2369c7a42ecba99914395">m_signals</a></td></tr>
 <tr class="separator:a9561003f92f2369c7a42ecba99914395"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fcd7d07a1eb9f773ca0dbdbed4aaffc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a></td></tr>
+<tr class="memitem:a2fcd7d07a1eb9f773ca0dbdbed4aaffc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">m_single_player_game</a> = false</td></tr>
 <tr class="memdesc:a2fcd7d07a1eb9f773ca0dbdbed4aaffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when the game being played is single-player  <a href="#a2fcd7d07a1eb9f773ca0dbdbed4aaffc">More...</a><br /></td></tr>
 <tr class="separator:a2fcd7d07a1eb9f773ca0dbdbed4aaffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0a99f0d69c8a37677cd2f4b18b2cb53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSupplyManager.html">SupplyManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#ab0a99f0d69c8a37677cd2f4b18b2cb53">m_supply_manager</a></td></tr>
 <tr class="separator:ab0a99f0d69c8a37677cd2f4b18b2cb53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9799776386f7a8f97c95d17bb18866a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a9799776386f7a8f97c95d17bb18866a4">m_turn_expired</a></td></tr>
+<tr class="memitem:a9799776386f7a8f97c95d17bb18866a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a9799776386f7a8f97c95d17bb18866a4">m_turn_expired</a> = false</td></tr>
 <tr class="memdesc:a9799776386f7a8f97c95d17bb18866a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when turn exceeds its timeout  <a href="#a9799776386f7a8f97c95d17bb18866a4">More...</a><br /></td></tr>
 <tr class="separator:a9799776386f7a8f97c95d17bb18866a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f5dac9d4089fd33fb9694346f5ce14"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::unique_ptr&lt; <a class="el" href="structPlayerSaveGameData.html">PlayerSaveGameData</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerApp.html#a94f5dac9d4089fd33fb9694346f5ce14">m_turn_sequence</a></td></tr>
@@ -3300,7 +3300,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ServerApp::m_current_turn</td>
+          <td class="memname">int ServerApp::m_current_turn = <a class="el" href="MultiplayerCommon_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td>
         </tr>
       </table>
   </td>
@@ -3522,7 +3522,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ServerApp::m_single_player_game</td>
+          <td class="memname">bool ServerApp::m_single_player_game = false</td>
         </tr>
       </table>
   </td>
@@ -3572,7 +3572,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ServerApp::m_turn_expired</td>
+          <td class="memname">bool ServerApp::m_turn_expired = false</td>
         </tr>
       </table>
   </td>
