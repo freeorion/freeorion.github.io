@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['get_3c_20std_3a_3avector_3c_20std_3a_3astring_20_3e_20_3e',['Get&lt; std::vector&lt; std::string &gt; &gt;',['../OptionsDB_8cpp.html#a4f1f837b8e434fb0abeb066f41cb02f0',1,'Get&lt; std::vector&lt; std::string &gt; &gt;(const std::string &amp;name) const:&#160;OptionsDB.cpp'],['../OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb',1,'Get&lt; std::vector&lt; std::string &gt; &gt;(const std::string &amp;name) const:&#160;OptionsDB.cpp']]],
   ['obfuscatebeforeserialization',['ObfuscateBeforeSerialization',['../classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d',1,'IDAllocator']]],
   ['obfuscateidgenerator',['ObfuscateIDGenerator',['../classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7',1,'Universe']]],
   ['obj',['obj',['../classparse_1_1detail_1_1MovableEnvelope.html#a4c7a016b37f2bdf0f77dacf9148a11b5',1,'parse::detail::MovableEnvelope']]],
