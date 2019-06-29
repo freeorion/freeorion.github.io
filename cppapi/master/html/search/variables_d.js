@@ -414,6 +414,8 @@ var searchData=
   ['m_5ffind_5flan_5fservers_5fbn',['m_find_LAN_servers_bn',['../classServerConnectWnd.html#a8e9dc102dcbbf42d69d7cdadcbae254d',1,'ServerConnectWnd']]],
   ['m_5ffixed',['m_fixed',['../classSaveFileColumn.html#abab33b0bd8e7c1449f3855023d103b79',1,'SaveFileColumn']]],
   ['m_5ffixed_5fwidth',['m_fixed_width',['../classSaveFileColumn.html#a06636581a005dfd59dd3ef3f30180063',1,'SaveFileColumn']]],
+  ['m_5fflash_5fduration',['m_flash_duration',['../classCUIWnd.html#a246f84dffe38930f8b4b85e4ba70a423',1,'CUIWnd']]],
+  ['m_5fflashing',['m_flashing',['../classCUIWnd.html#a3f837bf8313f150a0d0afb17a21127a7',1,'CUIWnd']]],
   ['m_5ffleet',['m_fleet',['../classMapWnd.html#a2520901edecc18776e144d1a52e6ea57',1,'MapWnd::m_fleet()'],['../classFleetMoveOrder.html#a19fc485eebdcd7272b16a1ea57ae3b52',1,'FleetMoveOrder::m_fleet()']]],
   ['m_5ffleet_5fblockaded',['m_fleet_blockaded',['../classFleetButton.html#aee2bd559077146082a6d6f6029ae80e9',1,'FleetButton']]],
   ['m_5ffleet_5fbuttons',['m_fleet_buttons',['../classMapWnd.html#ac1fb7ed9fc25f94374990b2baf18771f',1,'MapWnd']]],
