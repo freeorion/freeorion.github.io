@@ -16,7 +16,7 @@ var searchData=
   ['default_5fsource_5flevel',['default_source_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ae901e210a18b41f5bf144f08b90be1d9',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['default_5fstretch',['DEFAULT_STRETCH',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a33998cac1ef596469f5ad04fc61dc9f7',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['default_5ftop',['DEFAULT_TOP',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#abb675b7fff482b22c51352e396ba2b50',1,'anonymous_namespace{HumanClientApp.cpp}']]],
-  ['default_5fvalue',['default_value',['../structOptionsDB_1_1Option.html#a66f20d3a0bbe1c2523f33dd347c8c65b',1,'OptionsDB::Option::default_value()'],['../classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad',1,'Meter::DEFAULT_VALUE()']]],
+  ['default_5fvalue',['DEFAULT_VALUE',['../classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad',1,'Meter::DEFAULT_VALUE()'],['../structOptionsDB_1_1Option.html#a66f20d3a0bbe1c2523f33dd347c8c65b',1,'OptionsDB::Option::default_value()']]],
   ['default_5fwidth',['DEFAULT_WIDTH',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#af5e56abb367d923a3c93b5b187e09e57',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['deleteobjectactionselectedsignal',['DeleteObjectActionSelectedSignal',['../classModeratorActionsWnd.html#af9962e2c753d315d97c4beb2654798bd',1,'ModeratorActionsWnd']]],
   ['des_5fbase_5fselector_5fwnd_5fname',['DES_BASE_SELECTOR_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#affb70e6c62f1428f5b0f792a7f8f096f',1,'anonymous_namespace{DesignWnd.cpp}']]],
