@@ -82,6 +82,7 @@ var searchData=
   ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html#a741e32e8a7cd33b322f58f411e63d104',1,'Condition::NumberedShipDesign']]],
   ['numberedshipdesignsimplematch',['NumberedShipDesignSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1NumberedShipDesignSimpleMatch.html#afa3f803b08f014bcd64fa8c2a0c00ef2',1,'Condition::anonymous_namespace{Condition.cpp}::NumberedShipDesignSimpleMatch']]],
   ['numberonqueue',['NumberOnQueue',['../namespaceCondition_1_1anonymous__namespace_02Condition_8cpp_03.html#a8b05611bdbd8c74630dd72c03b1194a3',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['numeliminatedempires',['NumEliminatedEmpires',['../classEmpireManager.html#a9f0d4a87878fa0854be0286b71d7d0e9',1,'EmpireManager']]],
   ['numempires',['NumEmpires',['../classEmpireManager.html#ab5d7d2124f6cc05c2bb0c67d3c57bc36',1,'EmpireManager']]],
   ['numestablishedplayers',['NumEstablishedPlayers',['../classServerNetworking.html#ab3d74c8a6017005548ef483e47e34ad6',1,'ServerNetworking']]],
   ['numnativespecies',['NumNativeSpecies',['../classSpeciesManager.html#abbd80dbaad43022055b196991fefa847',1,'SpeciesManager']]],
