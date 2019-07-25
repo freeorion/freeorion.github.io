@@ -38,6 +38,7 @@ var searchData=
   ['messageeventbase',['MessageEventBase',['../structMessageEventBase.html#a44c096a169aa9b9d4ff1bf6d0073e851',1,'MessageEventBase::MessageEventBase(Message &amp;message)'],['../structMessageEventBase.html#a4dc963513887b17e32a860fa71a4e601',1,'MessageEventBase::MessageEventBase(const Message &amp;message, const PlayerConnectionPtr &amp;player_connection)']]],
   ['messagehistorydownrequested',['MessageHistoryDownRequested',['../classMessageWnd.html#a6180da556d44f97bf2cd2c0bd3515c82',1,'MessageWnd']]],
   ['messagehistoryuprequested',['MessageHistoryUpRequested',['../classMessageWnd.html#aa9fc742f9b25d4f982579eb903958eb9',1,'MessageWnd']]],
+  ['messageicon',['MessageIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a756eaac402ceb350b6b91d10d837a405',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['messageparameters',['MessageParameters',['../classEffect_1_1GenerateSitRepMessage.html#af407c422edc812eab6aeb5067842ba87',1,'Effect::GenerateSitRepMessage']]],
   ['messageport',['MessagePort',['../namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5',1,'Networking']]],
   ['messagequeue',['MessageQueue',['../classMessageQueue.html#a44611ce4de9bb09554fd4d0da32a9907',1,'MessageQueue']]],

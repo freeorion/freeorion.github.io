@@ -272,6 +272,7 @@ var searchData=
   ['m_5fdetection_5ficon_5ful',['m_detection_icon_ul',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a6e7b68e9c31fa0d96d57839fc2b0ee4f',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fdiameter',['m_diameter',['../classRotatingPlanetControl.html#aae0d84443df966af728c46e63a57442a',1,'RotatingPlanetControl']]],
   ['m_5fdigits',['m_digits',['../classStatisticIcon.html#a512d586b11f3b267ece4f02234d1dae6',1,'StatisticIcon']]],
+  ['m_5fdiplo_5fmsg_5ful',['m_diplo_msg_ul',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a386037b0b07505d72b7b0e720cd3f6cc',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fdiplo_5fstatus',['m_diplo_status',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1DiplomaticStatusIndicator.html#a575db6eaa8144b11ced5b2b702d17360',1,'anonymous_namespace{PlayerListWnd.cpp}::DiplomaticStatusIndicator::m_diplo_status()'],['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a13242fb8c0a30fade0c881ae6957ba6a',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::m_diplo_status()']]],
   ['m_5fdiplo_5fstatus_5ficon_5ful',['m_diplo_status_icon_ul',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#af5750071cf45f36cc602eb7454f753b4',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel']]],
   ['m_5fdiplomatic_5fmessages',['m_diplomatic_messages',['../classEmpireManager.html#a4ab995f6f5da08b9982ee381ca026a2d',1,'EmpireManager']]],
