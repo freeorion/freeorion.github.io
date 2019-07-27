@@ -1035,6 +1035,7 @@ var searchData=
   ['m_5fsave_5ffile_5ftext',['m_save_file_text',['../classMultiPlayerLobbyWnd.html#a24e593c2302d36978ba0fdbd175d39d9',1,'MultiPlayerLobbyWnd']]],
   ['m_5fsave_5ffilename',['m_save_filename',['../structWaitingForTurnEnd.html#a1b60c06cb46699980d5167a116378111',1,'WaitingForTurnEnd']]],
   ['m_5fsave_5fgame',['m_save_game',['../structMultiplayerLobbyData.html#a0b5171d836a930039700230437c879a3',1,'MultiplayerLobbyData']]],
+  ['m_5fsave_5fgame_5fcurrent_5fturn',['m_save_game_current_turn',['../structMultiplayerLobbyData.html#a0789bdc19f622833ec97914cc1d60bd4',1,'MultiplayerLobbyData']]],
   ['m_5fsave_5fgame_5fempire_5fdata',['m_save_game_empire_data',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html#a2b38fc8a524107654a6abcf88d038432',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGamePlayerRow::m_save_game_empire_data()'],['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGameEmpireRow.html#a43842a1010c7f4a673eebd8a55af848e',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGameEmpireRow::m_save_game_empire_data()'],['../structMultiplayerLobbyData.html#ae55d3e1d805bb90eb9e7e386bb6b16f1',1,'MultiplayerLobbyData::m_save_game_empire_data()']]],
   ['m_5fsave_5fgame_5fempire_5fid',['m_save_game_empire_id',['../structPlayerSetupData.html#ade2862ad57c9aab9ba4a741bc6388a5e',1,'PlayerSetupData']]],
   ['m_5fsave_5fstate_5fstring',['m_save_state_string',['../structPlayerSaveGameData.html#ad8ab840cb4b5a05c1911b0f885779092',1,'PlayerSaveGameData']]],
