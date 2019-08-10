@@ -188,6 +188,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7a9d4bb376491a182de3cbba1660bdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#ae7a9d4bb376491a182de3cbba1660bdf">SetDesignComponents</a> (const std::string &amp;hull, const std::vector&lt; std::string &gt; &amp;parts, const std::string &amp;name, const std::string &amp;desc)</td></tr>
 <tr class="memdesc:ae7a9d4bb376491a182de3cbba1660bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">puts specified part in specified slot. does nothing if slot is out of range of available slots for current hull  <a href="#ae7a9d4bb376491a182de3cbba1660bdf">More...</a><br /></td></tr>
 <tr class="separator:ae7a9d4bb376491a182de3cbba1660bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a0c8b2ef5ae52f67a2a05374cb9e5273e">DesignChanged</a> ()</td></tr>
+<tr class="memdesc:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responds to the design being changed.  <a href="#a0c8b2ef5ae52f67a2a05374cb9e5273e">More...</a><br /></td></tr>
+<tr class="separator:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a251ec98c7a2afd90a529310b5078cfa7"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, boost::uuids::uuid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a251ec98c7a2afd90a529310b5078cfa7">AddDesign</a> ()</td></tr>
 <tr class="memdesc:a251ec98c7a2afd90a529310b5078cfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a design.  <a href="#a251ec98c7a2afd90a529310b5078cfa7">More...</a><br /></td></tr>
 <tr class="separator:a251ec98c7a2afd90a529310b5078cfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -380,9 +383,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aafba02a9f993f3f7e2cf142709165401"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#aafba02a9f993f3f7e2cf142709165401">AddPartWithSwapping</a> (const <a class="el" href="classPartType.html">PartType</a> *part, std::pair&lt; int, int &gt; swap_and_empty_slot)</td></tr>
 <tr class="memdesc:aafba02a9f993f3f7e2cf142709165401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps part in slot # pair.first to slot # pair.second, adds given part to slot # pair.first.  <a href="#aafba02a9f993f3f7e2cf142709165401">More...</a><br /></td></tr>
 <tr class="separator:aafba02a9f993f3f7e2cf142709165401"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a0c8b2ef5ae52f67a2a05374cb9e5273e">DesignChanged</a> ()</td></tr>
-<tr class="memdesc:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="mdescLeft">&#160;</td><td class="mdescRight">responds to the design being changed  <a href="#a0c8b2ef5ae52f67a2a05374cb9e5273e">More...</a><br /></td></tr>
-<tr class="separator:a0c8b2ef5ae52f67a2a05374cb9e5273e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11d1d1c64395c14a8545e25b875fefa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDesignWnd_1_1MainPanel.html#a11d1d1c64395c14a8545e25b875fefa1">DesignNameChanged</a> ()</td></tr>
 <tr class="memdesc:a11d1d1c64395c14a8545e25b875fefa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">responds to the design name being changed  <a href="#a11d1d1c64395c14a8545e25b875fefa1">More...</a><br /></td></tr>
 <tr class="separator:a11d1d1c64395c14a8545e25b875fefa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -861,9 +861,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DesignWnd::MainPanel::DesignChanged </td>
@@ -872,18 +869,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>responds to the design being changed </p>
+<p>Responds to the design being changed. </p>
 
 <p class="reference">References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a222a267cc5778206b253be35ee3ddab5">DesignWnd::BaseSelector::Current</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ad3d2a5590a27c57e4056ea40ccc27b9c">CurrentDesignIsRegistered()</a>, <a class="el" href="classDesignWnd_1_1MainPanel_1_1I18nString.html#ad5d98e01165606e66c5c0b54b2fed370">DesignWnd::MainPanel::I18nString::DisplayText()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a2c563aea30c217dfaedce468c84f5fd8">EditingCurrentDesign()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a75cdc83bf0f3f61e105de8eaa330e246">EditingSavedDesign()</a>, <a class="el" href="classClientApp.html#aaf30638679ea5d758d2d21db9cddc1da">ClientApp::EmpireID()</a>, <a class="el" href="classPartType.html#a95d04721fb23812d3664c6615c9449f4">PartType::Exclusions()</a>, <a class="el" href="classHullType.html#adc9f2e45abbc300c37ea666e59d02da8">HullType::Exclusions()</a>, <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aa8331efa5abdb84dff2152f35cd85111">GetIncompleteDesign()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#ad4d8a9a332fd18688bffc42704849f02">IsDesignNameValid()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a9577576ffc255522644970580a77179d">m_confirm_button</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a5667cde5786396c6d9aa49ed5045b89d">m_disabled_by_name</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#aaccf1e1d0b5815c6871ea2fa8104a2cb">m_disabled_by_part_conflict</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a73089db51249f58882c4564dd40bad16">m_hull</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a98031b64a383d3f10cf404e179402e35">m_replace_button</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a31608e014303f888d0ac53bb62fa5dbe">m_type_to_create</a>, <a class="el" href="classHullType.html#a9052c41ff617122e6a375d975c8869d9">HullType::Name()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a25e8aac1421b69dd3fdd7fdadca1ffcc">Parts()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#aa7c3221d5908356c793e23c106c9bd95a248336101b461380a4b2391a7625493d">DesignWnd::BaseSelector::Saved</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a4fb94e3ae5adcf460072494b2a10dd01">ValidatedDesignName()</a>, and <a class="el" href="classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980">ShipDesign::ValidDesign()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">CompleteConstruction()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#a8ef8d10962bba8499465a177655a3ca5">HandleBaseTypeChange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDesignWnd.html#af69b9149f678e68a6d2593cc120ab489">DesignWnd::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">CompleteConstruction()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#a8ef8d10962bba8499465a177655a3ca5">HandleBaseTypeChange()</a>.</p>
 
 </div>
 </div>
