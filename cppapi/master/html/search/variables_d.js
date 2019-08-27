@@ -980,7 +980,7 @@ var searchData=
   ['m_5frecipient_5fempire',['m_recipient_empire',['../classDiplomaticMessage.html#a97cac147bc95a93fa921357f3369d36a',1,'DiplomaticMessage']]],
   ['m_5frecipient_5fempire_5fid',['m_recipient_empire_id',['../classEffect_1_1GenerateSitRepMessage.html#a5db8b72042f90c6e5855fe9c0317725a',1,'Effect::GenerateSitRepMessage::m_recipient_empire_id()'],['../classGiveObjectToEmpireOrder.html#a826c52fca104ecddfdb1ffb3aa15ea54',1,'GiveObjectToEmpireOrder::m_recipient_empire_id()']]],
   ['m_5frecv_5fbuf',['m_recv_buf',['../classanonymous__namespace_02ClientNetworking_8cpp_03_1_1ServerDiscoverer.html#a16382c21e4a9b5edf381c81b43a12eb1',1,'anonymous_namespace{ClientNetworking.cpp}::ServerDiscoverer']]],
-  ['m_5frecv_5fbuffer',['m_recv_buffer',['../classDiscoveryServer.html#a8ec08bf1caf628f15d8a60dc909a96f9',1,'DiscoveryServer']]],
+  ['m_5frecv_5fbuffer',['m_recv_buffer',['../classDiscoveryServer.html#aee17652a3bc5236a0f6e001b372a080c',1,'DiscoveryServer']]],
   ['m_5fref_5ftype',['m_ref_type',['../structValueRef_1_1Variable.html#a771424f81fe40c103d7235054ae0e94b',1,'ValueRef::Variable']]],
   ['m_5fremote_5fendpoint',['m_remote_endpoint',['../classDiscoveryServer.html#a0e425166fa479facb6f6bda2ab677724',1,'DiscoveryServer']]],
   ['m_5fremove',['m_remove',['../classResearchQueueOrder.html#a0f631d7c7edcbe368b8e4ca536d5a92c',1,'ResearchQueueOrder']]],

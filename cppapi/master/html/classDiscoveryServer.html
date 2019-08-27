@@ -86,8 +86,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a8ec08bf1caf628f15d8a60dc909a96f9"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 32 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiscoveryServer.html#a8ec08bf1caf628f15d8a60dc909a96f9">m_recv_buffer</a></td></tr>
-<tr class="separator:a8ec08bf1caf628f15d8a60dc909a96f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee17652a3bc5236a0f6e001b372a080c"><td class="memItemLeft" align="right" valign="top">std::array&lt; char, 1024 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiscoveryServer.html#aee17652a3bc5236a0f6e001b372a080c">m_recv_buffer</a> = {}</td></tr>
+<tr class="separator:aee17652a3bc5236a0f6e001b372a080c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e425166fa479facb6f6bda2ab677724"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::udp::endpoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiscoveryServer.html#a0e425166fa479facb6f6bda2ab677724">m_remote_endpoint</a></td></tr>
 <tr class="separator:a0e425166fa479facb6f6bda2ab677724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc916ae990511b75f47cc16b7d0b1b63"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::udp::socket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiscoveryServer.html#afc916ae990511b75f47cc16b7d0b1b63">m_socket</a></td></tr>
@@ -101,6 +101,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">DiscoveryServer::DiscoveryServer </td>
@@ -110,9 +113,12 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>.</p>
 
 </div>
 </div>
@@ -136,12 +142,12 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceNetworking.html#a84e7b37523da02c746ac2f891a304090">Networking::DISCOVERY_ANSWER</a>, <a class="el" href="namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2">Networking::DISCOVERY_QUESTION</a>, <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>, <a class="el" href="classDiscoveryServer.html#a8ec08bf1caf628f15d8a60dc909a96f9">m_recv_buffer</a>, <a class="el" href="classDiscoveryServer.html#a0e425166fa479facb6f6bda2ab677724">m_remote_endpoint</a>, and <a class="el" href="classDiscoveryServer.html#afc916ae990511b75f47cc16b7d0b1b63">m_socket</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="namespaceNetworking.html#a84e7b37523da02c746ac2f891a304090">Networking::DISCOVERY_ANSWER</a>, <a class="el" href="namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2">Networking::DISCOVERY_QUESTION</a>, <a class="el" href="namespaceparse.html#a76623ab3d9a849d69ccac3d1e296a2f9">parse::double_free_variable()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a9d256ba6c775ef707e9f435f1fb0bc40">parse::int_free_variable()</a>, <a class="el" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1ab93d3c9b1e248147ffc2977cb6bcee0a">ValueRef::NON_OBJECT_REFERENCE</a>, <a class="el" href="namespaceparse.html#ae2aded7d4ec83d274065602c38bbc8ed">parse::string_free_variable()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>.</p>
 
@@ -165,20 +171,18 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>, <a class="el" href="classDiscoveryServer.html#a8ec08bf1caf628f15d8a60dc909a96f9">m_recv_buffer</a>, <a class="el" href="classDiscoveryServer.html#a0e425166fa479facb6f6bda2ab677724">m_remote_endpoint</a>, and <a class="el" href="classDiscoveryServer.html#afc916ae990511b75f47cc16b7d0b1b63">m_socket</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classDiscoveryServer.html#ab71eb9da1d1b1fe06c5a035dd55657ff">DiscoveryServer()</a>, and <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>.</p>
+<p class="reference">References <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8ec08bf1caf628f15d8a60dc909a96f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ec08bf1caf628f15d8a60dc909a96f9">&#9670;&nbsp;</a></span>m_recv_buffer</h2>
+<a id="aee17652a3bc5236a0f6e001b372a080c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee17652a3bc5236a0f6e001b372a080c">&#9670;&nbsp;</a></span>m_recv_buffer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +191,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;char, 32&gt; DiscoveryServer::m_recv_buffer</td>
+          <td class="memname">std::array&lt;char, 1024&gt; DiscoveryServer::m_recv_buffer = {}</td>
         </tr>
       </table>
   </td>
@@ -196,8 +200,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>, and <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>.</p>
 
 </div>
 </div>
@@ -221,8 +223,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>, and <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>.</p>
-
 </div>
 </div>
 <a id="afc916ae990511b75f47cc16b7d0b1b63"></a>
@@ -244,8 +244,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDiscoveryServer.html#a584e2af2b4975d26025671a8877a05e9">HandleReceive()</a>, and <a class="el" href="classDiscoveryServer.html#ac465919c28b3e8869856b4648f32eb8b">Listen()</a>.</p>
 
 </div>
 </div>

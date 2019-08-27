@@ -136,6 +136,7 @@ var searchData=
   ['dopanelslayout',['DoPanelsLayout',['../classSidePanel_1_1PlanetPanelContainer.html#a4c6f691b2f22d10c5a2b4b406d71f0d8',1,'SidePanel::PlanetPanelContainer']]],
   ['dosystemiconslayout',['DoSystemIconsLayout',['../classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a',1,'MapWnd']]],
   ['double_5fcomplex_5fparser_5fgrammar',['double_complex_parser_grammar',['../structparse_1_1double__complex__parser__grammar.html#a06399480752e529301cb9a85670069ce',1,'parse::double_complex_parser_grammar']]],
+  ['double_5ffree_5fvariable',['double_free_variable',['../namespaceparse.html#a76623ab3d9a849d69ccac3d1e296a2f9',1,'parse']]],
   ['double_5fgrammar',['double_grammar',['../structparse_1_1detail_1_1double__grammar.html#acf4908312bff4c5761d1ba1b03b4738a',1,'parse::detail::double_grammar']]],
   ['double_5fparser_5frules',['double_parser_rules',['../structparse_1_1double__parser__rules.html#a0df95db05a935ec470a5039215d9c874',1,'parse::double_parser_rules']]],
   ['doubleclickrow',['DoubleClickRow',['../classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f',1,'SaveFileDialog']]],
