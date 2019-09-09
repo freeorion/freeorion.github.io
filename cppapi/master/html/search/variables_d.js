@@ -1211,6 +1211,7 @@ var searchData=
   ['m_5fstarting_5fsecies_5fselector',['m_starting_secies_selector',['../classGalaxySetupWnd.html#a1e534625e1aa2b35bb1fe03b690614a0',1,'GalaxySetupWnd']]],
   ['m_5fstarting_5fspecies_5flabel',['m_starting_species_label',['../classGalaxySetupWnd.html#a796c2badabbaf9821548ab54fab793c0',1,'GalaxySetupWnd']]],
   ['m_5fstarting_5fspecies_5fname',['m_starting_species_name',['../structPlayerSetupData.html#a5e906891f3287ac32d7a250aaec03a0e',1,'PlayerSetupData']]],
+  ['m_5fstarting_5fteam',['m_starting_team',['../structPlayerSetupData.html#a4e01e845b95c3d8d616997892412555d',1,'PlayerSetupData']]],
   ['m_5fstat_5ficons',['m_stat_icons',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#a528bf8fe62200df1d3212bf3255bb277',1,'anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::m_stat_icons()'],['../classFleetDataPanel.html#a8dbe8d98e5392eae5499dbfc60dccbcd',1,'FleetDataPanel::m_stat_icons()'],['../classFleetWnd.html#a81e0a12cb708cab08e7667f97303d3bc',1,'FleetWnd::m_stat_icons()']]],
   ['m_5fstat_5frecords',['m_stat_records',['../classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7',1,'Universe']]],
   ['m_5fstat_5ftype',['m_stat_type',['../structValueRef_1_1Statistic.html#a8488b79e93fca70facddfce81390795a',1,'ValueRef::Statistic']]],
