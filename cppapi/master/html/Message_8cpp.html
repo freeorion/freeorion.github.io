@@ -189,6 +189,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad6240c724655b63450fd93f398f3b547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd9dba92f6b227e70dc2680dbc11d653"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#abd9dba92f6b227e70dc2680dbc11d653">ExtractPlayerChatMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, int &amp;receiver, std::string &amp;data)</td></tr>
 <tr class="separator:abd9dba92f6b227e70dc2680dbc11d653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5e945e790f01bd5a7ced76118d3a41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a4d5e945e790f01bd5a7ced76118d3a41">ExtractPlayerInfoMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;players)</td></tr>
+<tr class="separator:a4d5e945e790f01bd5a7ced76118d3a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94bb3579efb9a27628455f023c5e4443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a94bb3579efb9a27628455f023c5e4443">ExtractPlayerStatusMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, Message::PlayerStatus &amp;status, int &amp;about_empire_id)</td></tr>
 <tr class="separator:a94bb3579efb9a27628455f023c5e4443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5701bdba58856f97235efb9ae204d443"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a5701bdba58856f97235efb9ae204d443">ExtractRequestCombatLogsMessageData</a> (const <a class="el" href="classMessage.html">Message</a> &amp;msg, std::vector&lt; int &gt; &amp;ids)</td></tr>
@@ -266,6 +268,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2daeedb3187fd204df0a17da3b1af5ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a2daeedb3187fd204df0a17da3b1af5ce">PlayerChatMessage</a> (const std::string &amp;data, int receiver)</td></tr>
 <tr class="memdesc:a2daeedb3187fd204df0a17da3b1af5ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an PLAYER_CHAT message containing a chat string to be broadcast to player <em>receiver</em>, or all players if <em>receiver</em> is <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>.  <a href="#a2daeedb3187fd204df0a17da3b1af5ce">More...</a><br /></td></tr>
 <tr class="separator:a2daeedb3187fd204df0a17da3b1af5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64dd22f4e66d75be3a8745f76c55ea2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a64dd22f4e66d75be3a8745f76c55ea2d">PlayerInfoMessage</a> (const std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;players)</td></tr>
+<tr class="memdesc:a64dd22f4e66d75be3a8745f76c55ea2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a PLAYER_INFO message to notify player about changes in the player list.  <a href="#a64dd22f4e66d75be3a8745f76c55ea2d">More...</a><br /></td></tr>
+<tr class="separator:a64dd22f4e66d75be3a8745f76c55ea2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf582fc9c505a51832d31e2ed3a31c2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#abf582fc9c505a51832d31e2ed3a31c2a">PlayerStatusMessage</a> (Message::PlayerStatus player_status, int about_empire_id)</td></tr>
 <tr class="memdesc:abf582fc9c505a51832d31e2ed3a31c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a PLAYER_STATUS message.  <a href="#abf582fc9c505a51832d31e2ed3a31c2a">More...</a><br /></td></tr>
 <tr class="separator:abf582fc9c505a51832d31e2ed3a31c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1460,6 +1465,38 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, and <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>.</p>
+
+</div>
+</div>
+<a id="a4d5e945e790f01bd5a7ced76118d3a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d5e945e790f01bd5a7ced76118d3a41">&#9670;&nbsp;</a></span>ExtractPlayerInfoMessageData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ExtractPlayerInfoMessageData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>players</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, and <a class="el" href="structPlayingGame.html#a3bfcf6227d3ed8d53dd05bc2d95d57aa">PlayingGame::react()</a>.</p>
 
 </div>
 </div>
@@ -2668,6 +2705,30 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a5052d80fb994c2217a1b8d4cdd1d4293">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>, and <a class="el" href="namespaceAIInterface.html#a2f00c22e4c760a3ab72008982851bc21">AIInterface::SendPlayerChatMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a64dd22f4e66d75be3a8745f76c55ea2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64dd22f4e66d75be3a8745f76c55ea2d">&#9670;&nbsp;</a></span>PlayerInfoMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMessage.html">Message</a> PlayerInfoMessage </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; int, <a class="el" href="structPlayerInfo.html">PlayerInfo</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>players</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates a PLAYER_INFO message to notify player about changes in the player list. </p>
+
+<p class="reference">References <a class="el" href="classMessage.html#a4fc4f717b634e66070366cb7722d7761">Message::Message()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structServerFSM.html#a7c8b6ff05f8529be21a1b0c067104355">ServerFSM::UpdateIngameLobby()</a>.</p>
 
 </div>
 </div>
