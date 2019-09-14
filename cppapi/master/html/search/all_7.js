@@ -33,7 +33,7 @@ var searchData=
   ['gamerules_2eh',['GameRules.h',['../GameRules_8h.html',1,'']]],
   ['gamerulesfn',['GameRulesFn',['../GameRules_8h.html#ad998a3d848607a9af0256385c425d2d8',1,'GameRules.h']]],
   ['gameruleslist',['GameRulesList',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1GameRulesList.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}::GameRulesList'],['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1GameRulesList.html#aaf543bf13c3689c3c0f9552ff419b758',1,'anonymous_namespace{GalaxySetupWnd.cpp}::GameRulesList::GameRulesList()']]],
-  ['gamerulespanel',['GameRulesPanel',['../classGameRulesPanel.html',1,'GameRulesPanel'],['../classGameRulesPanel.html#a1e081080af3cc8f2b6d159f5c91a7263',1,'GameRulesPanel::GameRulesPanel()']]],
+  ['gamerulespanel',['GameRulesPanel',['../classGameRulesPanel.html',1,'GameRulesPanel'],['../classGameRulesPanel.html#a0f39c8586e7c54780073d9884280caa2',1,'GameRulesPanel::GameRulesPanel()']]],
   ['gamerulesparser_2ecpp',['GameRulesParser.cpp',['../GameRulesParser_8cpp.html',1,'']]],
   ['gamerulesregistry',['GameRulesRegistry',['../namespaceanonymous__namespace_02GameRules_8cpp_03.html#ad59b3f60242107cdf814a82ec6b34a40',1,'anonymous_namespace{GameRules.cpp}']]],
   ['gamerulestypemap',['GameRulesTypeMap',['../classGameRules.html#aac761b897eaf26563329b45de31a2388',1,'GameRules']]],

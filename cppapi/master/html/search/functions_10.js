@@ -220,7 +220,7 @@ var searchData=
   ['prevbuttonclicked',['PrevButtonClicked',['../classSidePanel.html#afbe5661e3971be0e2a70f3fa68d4469f',1,'SidePanel']]],
   ['prevclicked',['PrevClicked',['../classSitRepPanel.html#a946bcdcf856bfa5618cfb024b61d63ab',1,'SitRepPanel']]],
   ['prevcurrinfo',['PrevCurrInfo',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a65c356fe87135abaf803682b4fc96e07',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
-  ['preview_5fsz',['PREVIEW_SZ',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a234a04e2b6aae2f8fdd5da35ef51d022',1,'anonymous_namespace{GalaxySetupWnd.cpp}::PREVIEW_SZ()'],['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#aa2baac3bc81273aded24861b5c627264',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PREVIEW_SZ()']]],
+  ['preview_5fsz',['PREVIEW_SZ',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a01adbe9118d27dae5810e503b40e8437',1,'anonymous_namespace{GalaxySetupWnd.cpp}::PREVIEW_SZ()'],['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#aa2baac3bc81273aded24861b5c627264',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PREVIEW_SZ()']]],
   ['previewimage',['PreviewImage',['../classGalaxySetupPanel.html#ab8112de2b7df475f41b389c7e7522bf1',1,'GalaxySetupPanel']]],
   ['previewimagechanged',['PreviewImageChanged',['../classGalaxySetupWnd.html#a17d17fbe632e8ee375ff44f99c85b937',1,'GalaxySetupWnd::PreviewImageChanged()'],['../classMultiPlayerLobbyWnd.html#a6277fac02b91c55e748579de8ac21c78',1,'MultiPlayerLobbyWnd::PreviewImageChanged()']]],
   ['previoussectionname',['PreviousSectionName',['../namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#abba7a4e4a27e00fed04889cea2ba5aea',1,'anonymous_namespace{OptionsDB.cpp}']]],
