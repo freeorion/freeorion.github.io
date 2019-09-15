@@ -243,6 +243,7 @@ var searchData=
   ['isabouttobebombarded',['IsAboutToBeBombarded',['../classPlanet.html#afed195a0b931200dfbbb20494e582785',1,'Planet']]],
   ['isabouttobecolonized',['IsAboutToBeColonized',['../classPlanet.html#a48d8b3581159c7252da4d05bffe29bd1',1,'Planet']]],
   ['isabouttobeinvaded',['IsAboutToBeInvaded',['../classPlanet.html#a1d1ca4132b75c9d5f04df791656971a0',1,'Planet']]],
+  ['isallowed',['IsAllowed',['../classDiplomaticMessage.html#a741bbd57a44a78a8477d661ac7e20b4a',1,'DiplomaticMessage']]],
   ['isappearanceeffect',['IsAppearanceEffect',['../classEffect_1_1EffectBase.html#aff2d213fda10ac9dd5522a8796bb5cf6',1,'Effect::EffectBase::IsAppearanceEffect()'],['../classEffect_1_1SetOverlayTexture.html#a3640fe87d7694df5ed1270c7dd524079',1,'Effect::SetOverlayTexture::IsAppearanceEffect()'],['../classEffect_1_1SetTexture.html#a298a3e975e6f32cf2713cd9eaa27a41d',1,'Effect::SetTexture::IsAppearanceEffect()'],['../classEffect_1_1Conditional.html#a31a186b7578eb5b0140d486a1c59923c',1,'Effect::Conditional::IsAppearanceEffect()']]],
   ['isarmed',['IsArmed',['../classShip.html#acb964148f0138656b754a2e542a089f2',1,'Ship::IsArmed()'],['../classShipDesign.html#a96a370e5bd253af4c7caebefa355f7c5',1,'ShipDesign::IsArmed()']]],
   ['isauthenticated',['IsAuthenticated',['../classEmpire.html#a6b310227ff36671ac0ac2d49ae5ca95b',1,'Empire::IsAuthenticated()'],['../classPlayerConnection.html#a1976ff8857cd852153f0994714445e15',1,'PlayerConnection::IsAuthenticated()']]],

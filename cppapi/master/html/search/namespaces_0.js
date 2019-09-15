@@ -26,6 +26,7 @@ var searchData=
   ['anonymous_5fnamespace_7bcuiwnd_2ecpp_7d',['anonymous_namespace{CUIWnd.cpp}',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdependencyversions_2ecpp_7d',['anonymous_namespace{DependencyVersions.cpp}',['../namespaceanonymous__namespace_02DependencyVersions_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdesignwnd_2ecpp_7d',['anonymous_namespace{DesignWnd.cpp}',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bdiplomacy_2ecpp_7d',['anonymous_namespace{Diplomacy.cpp}',['../namespaceanonymous__namespace_02Diplomacy_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdirectories_2ecpp_7d',['anonymous_namespace{Directories.cpp}',['../namespaceanonymous__namespace_02Directories_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7beffect_2ecpp_7d',['anonymous_namespace{Effect.cpp}',['../namespaceanonymous__namespace_02Effect_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempire_2ecpp_7d',['anonymous_namespace{Empire.cpp}',['../namespaceanonymous__namespace_02Empire_8cpp_03.html',1,'']]],
