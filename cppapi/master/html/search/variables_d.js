@@ -482,6 +482,7 @@ var searchData=
   ['m_5fhalo_5ftexture',['m_halo_texture',['../classSystemIcon.html#a29a198b5f3bc22185615170d110ef01f',1,'SystemIcon']]],
   ['m_5fhangar_5flist',['m_hangar_list',['../classShipFightersBrowseWnd.html#a3c73308975d62df5ef5a932ef7e602f2',1,'ShipFightersBrowseWnd']]],
   ['m_5fhas_5fcontents',['m_has_contents',['../classObjectPanel.html#a8cbda88deea8cc726da379ff19239411',1,'ObjectPanel']]],
+  ['m_5fhas_5fdirect_5fweapons',['m_has_direct_weapons',['../classShipDesign.html#a48e70500779a047b63e70de588d38c8e',1,'ShipDesign']]],
   ['m_5fhas_5ffighters',['m_has_fighters',['../classShipDesign.html#aab7107f760c73b0b1ba73022d46dc41a',1,'ShipDesign']]],
   ['m_5fhave_5fwindow_5ffocus',['m_have_window_focus',['../classHumanClientApp.html#a3bdd4e8f53eabdbae157aadb2a68e9f1',1,'HumanClientApp']]],
   ['m_5fheader_5frow',['m_header_row',['../classObjectListBox.html#a2c15fee742dba76ee7d56e7008ace996',1,'ObjectListBox::m_header_row()'],['../classTechTreeWnd_1_1TechListBox.html#a3853bf53fb3f26fd8007202d7c547333',1,'TechTreeWnd::TechListBox::m_header_row()']]],

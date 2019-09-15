@@ -73,6 +73,7 @@ var searchData=
   ['hasattackers',['HasAttackers',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#aea0fa9b44a8fb09b35e5be04880d4cf6',1,'anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo']]],
   ['hasauthrole',['HasAuthRole',['../classClientNetworking_1_1Impl.html#a2c9d5db7d0729cfd976e573a1659d238',1,'ClientNetworking::Impl::HasAuthRole()'],['../classClientNetworking.html#a03b0a072385aaba20661825adb0862c4',1,'ClientNetworking::HasAuthRole()'],['../classPlayerConnection.html#a6865d3c79c77d93ce892010359b0dd40',1,'PlayerConnection::HasAuthRole()'],['../classMultiPlayerLobbyWnd.html#a10634edb1f30b7d06879a9eb059f7489',1,'MultiPlayerLobbyWnd::HasAuthRole()']]],
   ['hascolonyships',['HasColonyShips',['../classFleet.html#ab2158b9bd1b58f1f37fa3bb85853134b',1,'Fleet']]],
+  ['hasdirectweapons',['HasDirectWeapons',['../classShipDesign.html#a871570bca85fdfaf277b5e80bc77c60b',1,'ShipDesign']]],
   ['hasexploredsystem',['HasExploredSystem',['../classEmpire.html#a040e0808dfa9fabdfd0120cc1e07445a',1,'Empire']]],
   ['hasfighters',['HasFighters',['../classShip.html#a08f3239592f2bd8d06ad82bde79a4dfc',1,'Ship::HasFighters()'],['../classShipDesign.html#a397291d5a445018dbdb35582cae1de9b',1,'ShipDesign::HasFighters()']]],
   ['hasfighterships',['HasFighterShips',['../classFleet.html#aafd95201a0e4b4c51c73f10a59858fe0',1,'Fleet']]],
