@@ -729,6 +729,7 @@ var searchData=
   ['m_5fnew_5fload_5fgame_5fbuttons',['m_new_load_game_buttons',['../classMultiPlayerLobbyWnd.html#a4d57d55829dabb137cc4f285a1dfb801',1,'MultiPlayerLobbyWnd']]],
   ['m_5fnew_5fowner_5fempire_5fid',['m_new_owner_empire_id',['../classModerator_1_1SetOwner.html#ae90d5877318a9468088b849ce01d6cca',1,'Moderator::SetOwner']]],
   ['m_5fnew_5fquantity',['m_new_quantity',['../classProductionQueueOrder.html#a9cc966329a66bd385b95a07823eea8b7',1,'ProductionQueueOrder']]],
+  ['m_5fnewly_5fresearched_5ftechs',['m_newly_researched_techs',['../classEmpire.html#ac4c00db65a2324c8641f3ee01fd9e3a6',1,'Empire']]],
   ['m_5fnext_5fbutton',['m_next_button',['../classEncyclopediaDetailPanel.html#a8c513b24bd197f862e54440449a47495',1,'EncyclopediaDetailPanel']]],
   ['m_5fnext_5fsystem',['m_next_system',['../classFleet.html#a2043950efb5bcd5c3374abd2bdba89fa',1,'Fleet']]],
   ['m_5fnext_5fturn_5fbutton',['m_next_turn_button',['../classSitRepPanel.html#a88f6b964497ea18cff40a45f42ed1913',1,'SitRepPanel']]],
