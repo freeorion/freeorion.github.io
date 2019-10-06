@@ -147,7 +147,7 @@ var searchData=
   ['difference_5ftype',['difference_type',['../classOrderSet.html#a286ffce15efac513b38ab7ede8540993',1,'OrderSet']]],
   ['digit',['Digit',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ab6c438f52fa1737139ecabbaef6a09e2',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['diplo_5fstatus',['diplo_status',['../structDiplomaticStatusUpdateInfo.html#afd06d278f1b3dd18dc2cdce8f8771c20',1,'DiplomaticStatusUpdateInfo']]],
-  ['diplokey',['DiploKey',['../namespaceanonymous__namespace_02EmpireManager_8cpp_03.html#a51f44746575e4231759daf066285dd20',1,'anonymous_namespace{EmpireManager.cpp}']]],
+  ['diplokey',['DiploKey',['../namespaceanonymous__namespace_02EmpireManager_8cpp_03.html#a51f44746575e4231759daf066285dd20',1,'anonymous_namespace{EmpireManager.cpp}::DiploKey()'],['../namespaceanonymous__namespace_02SerializeEmpire_8cpp_03.html#a22b04e358dbf7abe50bc0c8c6ab388da',1,'anonymous_namespace{SerializeEmpire.cpp}::DiploKey()']]],
   ['diplomacy_2ecpp',['Diplomacy.cpp',['../Diplomacy_8cpp.html',1,'']]],
   ['diplomacy_2eh',['Diplomacy.h',['../Diplomacy_8h.html',1,'']]],
   ['diplomacymessage',['DiplomacyMessage',['../Message_8cpp.html#a6a9d7b9d7e40aaaa5dd005b93ce46def',1,'DiplomacyMessage(const DiplomaticMessage &amp;diplo_message):&#160;Message.cpp'],['../Message_8h.html#a29f4d622e2402b146acf0ad0db993067',1,'DiplomacyMessage(const DiplomaticMessage &amp;diplo_message):&#160;Message.cpp']]],
