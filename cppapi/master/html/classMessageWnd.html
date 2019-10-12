@@ -94,8 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade978d41af8ddc7ce8b6a64452d6d7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ae06d566a84f3885c9f8fe36e4793f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#ad3ae06d566a84f3885c9f8fe36e4793f">PreRender</a> () override</td></tr>
 <tr class="separator:ad3ae06d566a84f3885c9f8fe36e4793f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53a570495856490624af14960f1db9b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a53a570495856490624af14960f1db9b4">HandlePlayerChatMessage</a> (const std::string &amp;text, const std::string &amp;player_name, GG::Clr text_color, const boost::posix_time::ptime &amp;timestamp, int recipient_player_id)</td></tr>
-<tr class="separator:a53a570495856490624af14960f1db9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354c3a51749cc0a7169b29c53e27a202"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a354c3a51749cc0a7169b29c53e27a202">HandlePlayerChatMessage</a> (const std::string &amp;text, const std::string &amp;player_name, GG::Clr text_color, const boost::posix_time::ptime &amp;timestamp, int recipient_player_id, bool pm)</td></tr>
+<tr class="separator:a354c3a51749cc0a7169b29c53e27a202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108dc678cfab0a2a21cfed4d3ef39664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664">HandleTurnPhaseUpdate</a> (Message::TurnProgressPhase phase_id, bool prefixed=false)</td></tr>
 <tr class="separator:a108dc678cfab0a2a21cfed4d3ef39664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c9a2e92fdcc3ba6da943c98aee01f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">HandleGameStatusUpdate</a> (const std::string &amp;text)</td></tr>
@@ -221,6 +221,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aa83ef466457732f21aee82faa593593a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88c0b5a8b7510b2cf5c71d2bc270fa8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a88c0b5a8b7510b2cf5c71d2bc270fa8c">DoLayout</a> ()</td></tr>
 <tr class="separator:a88c0b5a8b7510b2cf5c71d2bc270fa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcaaee386d26874ab23e826c888d7ef4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#adcaaee386d26874ab23e826c888d7ef4">HandleTextCommand</a> (const std::string &amp;text)</td></tr>
+<tr class="separator:adcaaee386d26874ab23e826c888d7ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c62811aab5df1d8b5d95ff3ba27e488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#a1c62811aab5df1d8b5d95ff3ba27e488">LClick</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:a1c62811aab5df1d8b5d95ff3ba27e488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2855a44ffa4d379afbd85115a6edbea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWnd.html#af2855a44ffa4d379afbd85115a6edbea">LDrag</a> (const GG::Pt &amp;pt, const GG::Pt &amp;move, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
@@ -593,8 +595,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a53a570495856490624af14960f1db9b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53a570495856490624af14960f1db9b4">&#9670;&nbsp;</a></span>HandlePlayerChatMessage()</h2>
+<a id="a354c3a51749cc0a7169b29c53e27a202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354c3a51749cc0a7169b29c53e27a202">&#9670;&nbsp;</a></span>HandlePlayerChatMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -627,7 +629,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>recipient_player_id</em>&#160;</td>
+          <td class="paramname"><em>recipient_player_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pm</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -637,7 +645,37 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classClientApp.html#aaf30638679ea5d758d2d21db9cddc1da">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classCUIWnd.html#ae869bb9c0677d212ca9294f85dd5ec95">CUIWnd::Flash()</a>, <a class="el" href="classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca">ClientUI::FormatTimestamp()</a>, <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31">IsValidUTF8()</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classCUIWnd.html#afe25d54eb0ee5bc6bf67a4abc9739f8c">CUIWnd::Show()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3">anonymous_namespace{ChatWnd.cpp}::StringtableTextSubstitute()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="classClientApp.html#aaf30638679ea5d758d2d21db9cddc1da">ClientApp::EmpireID()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classCUIWnd.html#ae869bb9c0677d212ca9294f85dd5ec95">CUIWnd::Flash()</a>, <a class="el" href="classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca">ClientUI::FormatTimestamp()</a>, <a class="el" href="classClientApp.html#a69b45b568d65db88bd49f307520d39b1">ClientApp::GetApp()</a>, <a class="el" href="Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31">IsValidUTF8()</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classCUIWnd.html#afe25d54eb0ee5bc6bf67a4abc9739f8c">CUIWnd::Show()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3">anonymous_namespace{ChatWnd.cpp}::StringtableTextSubstitute()</a>, <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+</div>
+</div>
+<a id="adcaaee386d26874ab23e826c888d7ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcaaee386d26874ab23e826c888d7ef4">&#9670;&nbsp;</a></span>HandleTextCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MessageWnd::HandleTextCommand </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2219b81e94165f0d783f0bc49e4276cd">anonymous_namespace{ChatWnd.cpp}::ExtractMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a71a6f8896af66128f8abe356d1eef1c3">anonymous_namespace{ChatWnd.cpp}::ExtractPlayerID()</a>, <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>, <a class="el" href="classMessageWnd.html#abb11d605ec306330ef6ddc37a98f835c">m_display</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2fc383549df12fc3fc124cc25b40fad0">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="i18n_8h.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageEntered()</a>.</p>
 
 </div>
 </div>
@@ -776,7 +814,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#ae5424cef613b9d8367afbcd66ad72ee7">anonymous_namespace{ChatWnd.cpp}::HandleTextCommand()</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a5052d80fb994c2217a1b8d4cdd1d4293">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>, and <a class="el" href="classCUIWnd.html#a45fab573c53cee3b7c3eb8df4ad9364f">CUIWnd::StopFlash()</a>.</p>
+<p class="reference">References <a class="el" href="classClientUI.html#add28b7f0be47d475fec915a4adc86698">ClientUI::GetClientUI()</a>, <a class="el" href="classMessageWnd.html#adcaaee386d26874ab23e826c888d7ef4">HandleTextCommand()</a>, <a class="el" href="classMessageWnd.html#a8a68b4cc69c38ac649d5ce36a35d1020">m_display_show_time</a>, <a class="el" href="classMessageWnd.html#ab2b8e1f573555a9b9754539063882525">m_edit</a>, <a class="el" href="classMessageWnd.html#a312ab6bcf709de79e4468075e3dbae2e">m_history</a>, <a class="el" href="classMessageWnd.html#a45042d4e66477989cf128959ae388e13">m_history_position</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2fc383549df12fc3fc124cc25b40fad0">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>, and <a class="el" href="classCUIWnd.html#a45fab573c53cee3b7c3eb8df4ad9364f">CUIWnd::StopFlash()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>.</p>
 
@@ -996,7 +1034,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMessageWnd.html#aeb31ae084a8e1568243c850b83e4e95b">Clear()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#a88c0b5a8b7510b2cf5c71d2bc270fa8c">DoLayout()</a>, <a class="el" href="classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9">HandleDiplomaticStatusChange()</a>, <a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">HandleGameStatusUpdate()</a>, <a class="el" href="classMessageWnd.html#a9ea46006ef5c1d1c9ab841962c18aa3b">HandleLogMessage()</a>, <a class="el" href="classMessageWnd.html#a53a570495856490624af14960f1db9b4">HandlePlayerChatMessage()</a>, and <a class="el" href="classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664">HandleTurnPhaseUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMessageWnd.html#aeb31ae084a8e1568243c850b83e4e95b">Clear()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#a88c0b5a8b7510b2cf5c71d2bc270fa8c">DoLayout()</a>, <a class="el" href="classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9">HandleDiplomaticStatusChange()</a>, <a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">HandleGameStatusUpdate()</a>, <a class="el" href="classMessageWnd.html#a9ea46006ef5c1d1c9ab841962c18aa3b">HandleLogMessage()</a>, <a class="el" href="classMessageWnd.html#a354c3a51749cc0a7169b29c53e27a202">HandlePlayerChatMessage()</a>, <a class="el" href="classMessageWnd.html#adcaaee386d26874ab23e826c888d7ef4">HandleTextCommand()</a>, and <a class="el" href="classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664">HandleTurnPhaseUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1020,7 +1058,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9">HandleDiplomaticStatusChange()</a>, <a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">HandleGameStatusUpdate()</a>, <a class="el" href="classMessageWnd.html#a9ea46006ef5c1d1c9ab841962c18aa3b">HandleLogMessage()</a>, <a class="el" href="classMessageWnd.html#a53a570495856490624af14960f1db9b4">HandlePlayerChatMessage()</a>, <a class="el" href="classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664">HandleTurnPhaseUpdate()</a>, <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageEntered()</a>, and <a class="el" href="classMessageWnd.html#a09e5587fe80a2cf036c8323026737080">OpenForInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9">HandleDiplomaticStatusChange()</a>, <a class="el" href="classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4">HandleGameStatusUpdate()</a>, <a class="el" href="classMessageWnd.html#a9ea46006ef5c1d1c9ab841962c18aa3b">HandleLogMessage()</a>, <a class="el" href="classMessageWnd.html#a354c3a51749cc0a7169b29c53e27a202">HandlePlayerChatMessage()</a>, <a class="el" href="classMessageWnd.html#adcaaee386d26874ab23e826c888d7ef4">HandleTextCommand()</a>, <a class="el" href="classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664">HandleTurnPhaseUpdate()</a>, <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageEntered()</a>, and <a class="el" href="classMessageWnd.html#a09e5587fe80a2cf036c8323026737080">OpenForInput()</a>.</p>
 
 </div>
 </div>

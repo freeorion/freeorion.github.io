@@ -126,7 +126,7 @@ var searchData=
   ['playclosesound',['PlayCloseSound',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#af88893cb829c9dc9fc6cd14a2f26f2de',1,'anonymous_namespace{CUIWnd.cpp}']]],
   ['playdropdownlistopensound',['PlayDropDownListOpenSound',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#ac23b8afabef82b26af1f324f878cf512',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['player_5flist_5fpanel_5fwidth',['PLAYER_LIST_PANEL_WIDTH',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a94eddac8da30afd20648f033e0bd0567',1,'anonymous_namespace{ClientUI.cpp}']]],
-  ['playerchatmessage',['PlayerChatMessage',['../Message_8cpp.html#a2daeedb3187fd204df0a17da3b1af5ce',1,'PlayerChatMessage(const std::string &amp;data, int receiver):&#160;Message.cpp'],['../Message_8h.html#a412304f8188be8fb29b39ddf81370260',1,'PlayerChatMessage(const std::string &amp;text, int receiver=Networking::INVALID_PLAYER_ID):&#160;Message.cpp']]],
+  ['playerchatmessage',['PlayerChatMessage',['../Message_8cpp.html#ad127717fd8ae1942ef7683e69f2f6439',1,'PlayerChatMessage(const std::string &amp;data, std::set&lt; int &gt; recipients, bool pm):&#160;Message.cpp'],['../Message_8h.html#a2bbef6b40ceef0e4f665dce5feeda3ab',1,'PlayerChatMessage(const std::string &amp;text, std::set&lt; int &gt; recipients, bool pm):&#160;Message.cpp']]],
   ['playerconnection',['PlayerConnection',['../classPlayerConnection.html#abdb2c2b798ae4909c83cda415bf2a7e6',1,'PlayerConnection']]],
   ['playerdataacceptable',['PlayerDataAcceptable',['../classMultiPlayerLobbyWnd.html#aabe46500c0015b342845ada7b3a6834b',1,'MultiPlayerLobbyWnd']]],
   ['playerdatachangedlocally',['PlayerDataChangedLocally',['../classMultiPlayerLobbyWnd.html#aa76999a62f9dc3cd04abb59a532aed64',1,'MultiPlayerLobbyWnd']]],
