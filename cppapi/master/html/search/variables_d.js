@@ -1205,7 +1205,7 @@ var searchData=
   ['m_5fstarlanes_5fwormholes',['m_starlanes_wormholes',['../classSystem.html#ab2288e3c8f22560d28bb6bb427514ee4',1,'System']]],
   ['m_5fstars_5flabel',['m_stars_label',['../classGalaxySetupPanel.html#ae3c7f72f80fa1b0a1ee7e8c6c19b3e15',1,'GalaxySetupPanel']]],
   ['m_5fstars_5fspin',['m_stars_spin',['../classGalaxySetupPanel.html#a405147b6d0a09fdf97a011b84d58d72a',1,'GalaxySetupPanel']]],
-  ['m_5fstart',['m_start',['../classScopedTimer_1_1Impl.html#ab2255026964071d58756f83a84cb52ff',1,'ScopedTimer::Impl']]],
+  ['m_5fstart',['m_start',['../structPlayingGame.html#a6f4bca507de2634d2854a0faf5ec18fd',1,'PlayingGame::m_start()'],['../structWaitingForTurnEnd.html#a74e318e88a7fdbeaa8c97f731428ffa4',1,'WaitingForTurnEnd::m_start()'],['../structProcessingTurn.html#aa2fcc432552af694fe5c3203e2c0ceb8',1,'ProcessingTurn::m_start()'],['../classScopedTimer_1_1Impl.html#ab2255026964071d58756f83a84cb52ff',1,'ScopedTimer::Impl::m_start()']]],
   ['m_5fstart_5fconditions_5ftext',['m_start_conditions_text',['../classMultiPlayerLobbyWnd.html#a84a31458218d1ebb467b0514835f3b48',1,'MultiPlayerLobbyWnd']]],
   ['m_5fstart_5flock_5fcause',['m_start_lock_cause',['../structMultiplayerLobbyData.html#ad52c30c4e1a103edeea1a562ae848b47',1,'MultiplayerLobbyData']]],
   ['m_5fstart_5flocked',['m_start_locked',['../structMultiplayerLobbyData.html#aea1477494dbc85c3fcc4bbf4bb228f27',1,'MultiplayerLobbyData']]],
