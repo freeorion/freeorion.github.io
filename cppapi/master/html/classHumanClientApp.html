@@ -462,6 +462,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a56a9a1ff7c4a41267ede656b6397c54a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a56a9a1ff7c4a41267ede656b6397c54a">m_connected</a> = false</td></tr>
 <tr class="memdesc:a56a9a1ff7c4a41267ede656b6397c54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if we are in a state in which we are supposed to be connected to the server  <a href="#a56a9a1ff7c4a41267ede656b6397c54a">More...</a><br /></td></tr>
 <tr class="separator:a56a9a1ff7c4a41267ede656b6397c54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d6f8ccf2b0634ec32206d128bc7af84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a1d6f8ccf2b0634ec32206d128bc7af84">m_exit_handled</a> = false</td></tr>
+<tr class="memdesc:a1d6f8ccf2b0634ec32206d128bc7af84"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when the exit logic is already being handled  <a href="#a1d6f8ccf2b0634ec32206d128bc7af84">More...</a><br /></td></tr>
+<tr class="separator:a1d6f8ccf2b0634ec32206d128bc7af84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575ed58245a4100ec2ca224976adae74"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structHumanClientFSM.html">HumanClientFSM</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a></td></tr>
 <tr class="separator:a575ed58245a4100ec2ca224976adae74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d241143905489c56d957e2837ce4905"><td class="memItemLeft" align="right" valign="top">std::queue&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a></td></tr>
@@ -2104,7 +2107,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Either reset to <a class="el" href="structIntroMenu.html" title="The human client&#39;s initial state. ">IntroMenu</a> (<code>reset</code> is true), or exit the application. </p>
 <p>If <code>skip_savegame</code> is true abort in progress save games. <code>exit_code</code> is the exit code. </p>
 
-<p class="reference">References <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classClientUI.html#aab5133a4d504c0d1536124969e05a8e7">ClientUI::CtrlColor()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classHumanClientApp.html#a45de7fff4521d5f0ca68680a4d8448c3">ExitSDL()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classClientUI.html#a2b5d1646982a2662880b88ca0ef30e88">ClientUI::GetFont()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, <a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a8c5d1274ef75bd48107a6fcabf89647b">m_server_process</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classHumanClientApp.html#a82c1d63c6ab53380b3f45a8ea0248d82">ResetClientData()</a>, <a class="el" href="classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67">SaveGamesCompletedSignal</a>, <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, and <a class="el" href="classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
+<p class="reference">References <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classClientUI.html#a28998eba3b85389eedf0b1fd00a84408">ClientUI::CtrlBorderColor()</a>, <a class="el" href="classClientUI.html#aab5133a4d504c0d1536124969e05a8e7">ClientUI::CtrlColor()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classHumanClientApp.html#a45de7fff4521d5f0ca68680a4d8448c3">ExitSDL()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classClientUI.html#a2b5d1646982a2662880b88ca0ef30e88">ClientUI::GetFont()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classClientApp.html#ae2bb709f41a903a01d4b91b4de3da1bd">ClientApp::m_empire_id</a>, <a class="el" href="classClientApp.html#af1a630079ec565c80c4e36bcafc029e4">ClientApp::m_empire_status</a>, <a class="el" href="classHumanClientApp.html#a1d6f8ccf2b0634ec32206d128bc7af84">m_exit_handled</a>, <a class="el" href="classHumanClientApp.html#a575ed58245a4100ec2ca224976adae74">m_fsm</a>, <a class="el" href="classHumanClientApp.html#a2d241143905489c56d957e2837ce4905">m_game_saves_in_progress</a>, <a class="el" href="classHumanClientApp.html#a24e35061620ea303baca357c5a33588d">m_game_started</a>, <a class="el" href="classHumanClientApp.html#a8c5d1274ef75bd48107a6fcabf89647b">m_server_process</a>, <a class="el" href="classHumanClientApp.html#a17c62991c768c85817b455fe75f62819">m_single_player_game</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classHumanClientApp.html#a82c1d63c6ab53380b3f45a8ea0248d82">ResetClientData()</a>, <a class="el" href="classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67">SaveGamesCompletedSignal</a>, <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, and <a class="el" href="classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a32c8ddc8f1828162ac5a3e1f732b43c2">ExitApp()</a>, and <a class="el" href="classHumanClientApp.html#ae946db6ce5916480530f6fd3774b25ed">ResetToIntro()</a>.</p>
 
@@ -2589,6 +2592,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1d6f8ccf2b0634ec32206d128bc7af84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6f8ccf2b0634ec32206d128bc7af84">&#9670;&nbsp;</a></span>m_exit_handled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool HumanClientApp::m_exit_handled = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true when the exit logic is already being handled </p>
+
+<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a607cf52a0df96eafaf1fc54ceef332a1">ResetOrExitApp()</a>.</p>
+
+</div>
+</div>
 <a id="a575ed58245a4100ec2ca224976adae74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a575ed58245a4100ec2ca224976adae74">&#9670;&nbsp;</a></span>m_fsm</h2>
 
@@ -2738,7 +2767,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>true when this game is a single-player game </p>
 
-<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a97b5e2f09c8328e183faba7f6243ce21">MultiPlayerGame()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">NewSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a3d108a5dab84593a816b4e659709eaf7">RequestSavePreviews()</a>, <a class="el" href="classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db">SetSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aace049672789c707fe81695788ea5598">SinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>, and <a class="el" href="classHumanClientApp.html#a9ef4ca29078ea8f01ecdff8357aafea8">StartTurn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">Autosave()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">LoadSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a97b5e2f09c8328e183faba7f6243ce21">MultiPlayerGame()</a>, <a class="el" href="classHumanClientApp.html#afb82d2ad0159ef7dbe484e0ce4444ad7">NewSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#a3d108a5dab84593a816b4e659709eaf7">RequestSavePreviews()</a>, <a class="el" href="classHumanClientApp.html#a607cf52a0df96eafaf1fc54ceef332a1">ResetOrExitApp()</a>, <a class="el" href="classHumanClientApp.html#a911082255e9dd34b56ecf1a8a8c2d2db">SetSinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aace049672789c707fe81695788ea5598">SinglePlayerGame()</a>, <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">StartServer()</a>, and <a class="el" href="classHumanClientApp.html#a9ef4ca29078ea8f01ecdff8357aafea8">StartTurn()</a>.</p>
 
 </div>
 </div>

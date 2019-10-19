@@ -387,6 +387,7 @@ var searchData=
   ['m_5fexisting_5fships',['m_existing_ships',['../classObjectMap.html#a1a4025fcf0f716249f05e15a26e5ebac',1,'ObjectMap']]],
   ['m_5fexisting_5fsystems',['m_existing_systems',['../classObjectMap.html#aab6b6b5c6e9b01482ec38bb66bfc3a0c',1,'ObjectMap']]],
   ['m_5fexit_5fgame',['m_exit_game',['../classIntroScreen.html#a26c64cc440e8fc28c9bd644abe8f4804',1,'IntroScreen']]],
+  ['m_5fexit_5fhandled',['m_exit_handled',['../classHumanClientApp.html#a1d6f8ccf2b0634ec32206d128bc7af84',1,'HumanClientApp']]],
   ['m_5fexpand_5fbutton',['m_expand_button',['../classAccordionPanel.html#ae3d0ff4f1d43d188ccc377da009bdb43',1,'AccordionPanel::m_expand_button()'],['../classObjectPanel.html#a8b7fae507ec09ed93c7807efd52270e9',1,'ObjectPanel::m_expand_button()']]],
   ['m_5fexpanded',['m_expanded',['../classObjectPanel.html#a2f788d144fdca1276075f9415f7c2d6d',1,'ObjectPanel']]],
   ['m_5fexpanded_5finit',['m_expanded_init',['../classObjectRow.html#a82aea96c04f462bad43d111007497a3b',1,'ObjectRow']]],
