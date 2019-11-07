@@ -176,17 +176,22 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:abdb2c2b798ae4909c83cda415bf2a7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a88cc68c6d4aa779652d00f69d3b265"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265">AsyncReadMessage</a> ()</td></tr>
 <tr class="separator:a1a88cc68c6d4aa779652d00f69d3b265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66aaff4f37e0aa9dfee7ed6382652693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage</a> ()</td></tr>
+<tr class="separator:a66aaff4f37e0aa9dfee7ed6382652693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7ccb119cac5071506e372e8f34cec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">HandleMessageBodyRead</a> (boost::system::error_code <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, std::size_t bytes_transferred)</td></tr>
 <tr class="separator:a5a7ccb119cac5071506e372e8f34cec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09ea9c53d8abbe90c468f28438ecc548"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead</a> (boost::system::error_code <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, std::size_t bytes_transferred)</td></tr>
 <tr class="separator:a09ea9c53d8abbe90c468f28438ecc548"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98dcabd9fca3f48fdcd5cdba9bed831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
-<tr class="separator:ad98dcabd9fca3f48fdcd5cdba9bed831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a6b0b797c1b44df6925fd85a7d3e49be4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a6b0b797c1b44df6925fd85a7d3e49be4">AsyncErrorHandler</a> (<a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> self, boost::system::error_code handled_error, boost::system::error_code <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>)</td></tr>
 <tr class="separator:a6b0b797c1b44df6925fd85a7d3e49be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7f1b7f295269607d9b5dcf900bc0d0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ace7f1b7f295269607d9b5dcf900bc0d0">HandleMessageWrite</a> (<a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> self, boost::system::error_code <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, std::size_t bytes_transferred)</td></tr>
+<tr class="separator:ace7f1b7f295269607d9b5dcf900bc0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8eba8913a1324b1f9586bb04e4e7445"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#aa8eba8913a1324b1f9586bb04e4e7445">SendMessageImpl</a> (<a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> self, <a class="el" href="classMessage.html">Message</a> message)</td></tr>
+<tr class="memdesc:aa8eba8913a1324b1f9586bb04e4e7445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Places message to the end of sending queue and start asynchronous write if <em>message</em> was first in the queue.  <a href="#aa8eba8913a1324b1f9586bb04e4e7445">More...</a><br /></td></tr>
+<tr class="separator:aa8eba8913a1324b1f9586bb04e4e7445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -210,6 +215,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa2d1668d303e9fb999b0e1528f5acf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82be27ef2264b385b21e42647e0f1bf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a82be27ef2264b385b21e42647e0f1bf6">m_nonplayer_message_callback</a></td></tr>
 <tr class="separator:a82be27ef2264b385b21e42647e0f1bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2687b4186a78246386ed6a6f9e028e45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html#a8c70d718bffea6d801633a54e34217b0">Message::HeaderBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a2687b4186a78246386ed6a6f9e028e45">m_outgoing_header</a></td></tr>
+<tr class="separator:a2687b4186a78246386ed6a6f9e028e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e4a819560bbe3491dc455e633fb4f3"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ad3e4a819560bbe3491dc455e633fb4f3">m_outgoing_messages</a></td></tr>
+<tr class="separator:ad3e4a819560bbe3491dc455e633fb4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a00db9760ab9eda7a63eb388a7f3e05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#a1a00db9760ab9eda7a63eb388a7f3e05">m_player_message_callback</a></td></tr>
 <tr class="separator:a1a00db9760ab9eda7a63eb388a7f3e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3baefcd4f354ee8b0fb8d253cb16a8b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerConnection.html#ab3baefcd4f354ee8b0fb8d253cb16a8b">m_player_name</a></td></tr>
@@ -344,7 +353,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#ace7f1b7f295269607d9b5dcf900bc0d0">HandleMessageWrite()</a>.</p>
 
 </div>
 </div>
@@ -374,6 +383,33 @@ Friends</h2></td></tr>
 <p class="reference">References <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, <a class="el" href="classPlayerConnection.html#ae505fb26651f92c6e3d88dc86a8f97eb">m_incoming_header_buffer</a>, and <a class="el" href="classPlayerConnection.html#a389b5835690ae325bb2a33c7448c462d">m_socket</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">HandleMessageBodyRead()</a>, <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a3d3a216b5c493e5c5119d5526f3a9607">Start()</a>.</p>
+
+</div>
+</div>
+<a id="a66aaff4f37e0aa9dfee7ed6382652693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66aaff4f37e0aa9dfee7ed6382652693">&#9670;&nbsp;</a></span>AsyncWriteMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::AsyncWriteMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPlayerConnection.html#ace7f1b7f295269607d9b5dcf900bc0d0">HandleMessageWrite()</a>, <a class="el" href="Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac">HeaderToBuffer()</a>, <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>, <a class="el" href="classPlayerConnection.html#a2687b4186a78246386ed6a6f9e028e45">m_outgoing_header</a>, <a class="el" href="classPlayerConnection.html#ad3e4a819560bbe3491dc455e633fb4f3">m_outgoing_messages</a>, <a class="el" href="classPlayerConnection.html#a389b5835690ae325bb2a33c7448c462d">m_socket</a>, and <a class="el" href="classPlayerConnection.html#a70307daa85571792235530cf0041ecde">m_valid</a>.</p>
 
 </div>
 </div>
@@ -620,6 +656,52 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ace7f1b7f295269607d9b5dcf900bc0d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7f1b7f295269607d9b5dcf900bc0d0">&#9670;&nbsp;</a></span>HandleMessageWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::HandleMessageWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::system::error_code&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>bytes_transferred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classPlayerConnection.html#a6b0b797c1b44df6925fd85a7d3e49be4">AsyncErrorHandler()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#ab3961b2922cc639cca899fb01b98bd29">Message::HeaderBufferSize</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>.</p>
+
+</div>
+</div>
 <a id="a6865d3c79c77d93ce892010359b0dd40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6865d3c79c77d93ce892010359b0dd40">&#9670;&nbsp;</a></span>HasAuthRole()</h2>
 
@@ -842,9 +924,51 @@ Friends</h2></td></tr>
 
 <p>Sends <em>synchronous</em> message to out on the connection. </p>
 
-<p class="reference">References <a class="el" href="classPlayerConnection.html#a70307daa85571792235530cf0041ecde">m_valid</a>, and <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classPlayerConnection.html#af85767c606197879c6ea4631a466b462">m_service</a>, <a class="el" href="classPlayerConnection.html#a70307daa85571792235530cf0041ecde">m_valid</a>, and <a class="el" href="classPlayerConnection.html#aa8eba8913a1324b1f9586bb04e4e7445">SendMessageImpl()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#acf074ba70f1e32188760ad20c8c28570">SetAuthenticated()</a>, <a class="el" href="classPlayerConnection.html#a6bccdbcb49052b7cc4e300ad184584d6">SetAuthRole()</a>, and <a class="el" href="classPlayerConnection.html#ab04f68c772240bf035cd27f99ee73350">SetAuthRoles()</a>.</p>
+
+</div>
+</div>
+<a id="aa8eba8913a1324b1f9586bb04e4e7445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8eba8913a1324b1f9586bb04e4e7445">&#9670;&nbsp;</a></span>SendMessageImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerConnection::SendMessageImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMessage.html">Message</a>&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Places message to the end of sending queue and start asynchronous write if <em>message</em> was first in the queue. </p>
+
+<p class="reference">References <a class="el" href="Message_8cpp.html#a4cae3d1006e525c5ba3b4de105912283">swap()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a322946c9730cbe6f8b5dc87d67ae43f0">SendMessage()</a>.</p>
 
 </div>
 </div>
@@ -1008,36 +1132,6 @@ Friends</h2></td></tr>
 <p>Starts the connection reading incoming messages on its socket. </p>
 
 <p class="reference">References <a class="el" href="classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265">AsyncReadMessage()</a>.</p>
-
-</div>
-</div>
-<a id="ad98dcabd9fca3f48fdcd5cdba9bed831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad98dcabd9fca3f48fdcd5cdba9bed831">&#9670;&nbsp;</a></span>SyncWriteMessage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PlayerConnection::SyncWriteMessage </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="classPlayerConnection.html#a6b0b797c1b44df6925fd85a7d3e49be4">AsyncErrorHandler()</a>, <a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Message::Data()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac">HeaderToBuffer()</a>, <a class="el" href="classPlayerConnection.html#a9be9f0c61542a08b3124a6ff8f03aac6">m_ID</a>, <a class="el" href="classPlayerConnection.html#af85767c606197879c6ea4631a466b462">m_service</a>, <a class="el" href="classPlayerConnection.html#a389b5835690ae325bb2a33c7448c462d">m_socket</a>, <a class="el" href="classPlayerConnection.html#a70307daa85571792235530cf0041ecde">m_valid</a>, <a class="el" href="namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a21174e15d5cd91274abbef26f4d0ac93">anonymous_namespace{ServerNetworking.cpp}::MessageTypeName()</a>, <a class="el" href="classMessage.html#a1650429d062e24ff5d7e43be3629e800">Message::Size()</a>, and <a class="el" href="classMessage.html#af37692f695ef3293a8eeeec64802cb53">Message::Type()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a322946c9730cbe6f8b5dc87d67ae43f0">SendMessage()</a>.</p>
 
 </div>
 </div>
@@ -1229,7 +1323,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a7941eaba413a9ecee8eb82487134080e">EstablishedPlayer()</a>, <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>, <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">HandleMessageBodyRead()</a>, <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, <a class="el" href="classPlayerConnection.html#a7ad0c14a6b06f6663f9cbd8948edac5d">IsEstablished()</a>, <a class="el" href="classPlayerConnection.html#aec0ce8ecfda4d8e72e40ee1f4d1d6eff">PlayerID()</a>, <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>, and <a class="el" href="classPlayerConnection.html#aad60b0651a1a29da313f75ac92db53b1">~PlayerConnection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>, <a class="el" href="classPlayerConnection.html#a7941eaba413a9ecee8eb82487134080e">EstablishedPlayer()</a>, <a class="el" href="classPlayerConnection.html#af51170a4eff900c31fbdd030f9a30bec">EstablishPlayer()</a>, <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">HandleMessageBodyRead()</a>, <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, <a class="el" href="classPlayerConnection.html#a7ad0c14a6b06f6663f9cbd8948edac5d">IsEstablished()</a>, <a class="el" href="classPlayerConnection.html#aec0ce8ecfda4d8e72e40ee1f4d1d6eff">PlayerID()</a>, and <a class="el" href="classPlayerConnection.html#aad60b0651a1a29da313f75ac92db53b1">~PlayerConnection()</a>.</p>
 
 </div>
 </div>
@@ -1329,6 +1423,54 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a2687b4186a78246386ed6a6f9e028e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2687b4186a78246386ed6a6f9e028e45">&#9670;&nbsp;</a></span>m_outgoing_header</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMessage.html#a8c70d718bffea6d801633a54e34217b0">Message::HeaderBuffer</a> PlayerConnection::m_outgoing_header</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>.</p>
+
+</div>
+</div>
+<a id="ad3e4a819560bbe3491dc455e633fb4f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e4a819560bbe3491dc455e633fb4f3">&#9670;&nbsp;</a></span>m_outgoing_messages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="classMessage.html">Message</a>&gt; PlayerConnection::m_outgoing_messages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>.</p>
+
+</div>
+</div>
 <a id="a1a00db9760ab9eda7a63eb388a7f3e05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a00db9760ab9eda7a63eb388a7f3e05">&#9670;&nbsp;</a></span>m_player_message_callback</h2>
 
@@ -1421,7 +1563,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a322946c9730cbe6f8b5dc87d67ae43f0">SendMessage()</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1587,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265">AsyncReadMessage()</a>, <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, <a class="el" href="classPlayerConnection.html#a801c415cfd7451fce83b947bbb95619f">IsLocalConnection()</a>, <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>, and <a class="el" href="classPlayerConnection.html#aad60b0651a1a29da313f75ac92db53b1">~PlayerConnection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a1a88cc68c6d4aa779652d00f69d3b265">AsyncReadMessage()</a>, <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>, <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">HandleMessageHeaderRead()</a>, <a class="el" href="classPlayerConnection.html#a801c415cfd7451fce83b947bbb95619f">IsLocalConnection()</a>, and <a class="el" href="classPlayerConnection.html#aad60b0651a1a29da313f75ac92db53b1">~PlayerConnection()</a>.</p>
 
 </div>
 </div>
@@ -1469,7 +1611,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a322946c9730cbe6f8b5dc87d67ae43f0">SendMessage()</a>, and <a class="el" href="classPlayerConnection.html#ad98dcabd9fca3f48fdcd5cdba9bed831">SyncWriteMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a66aaff4f37e0aa9dfee7ed6382652693">AsyncWriteMessage()</a>, and <a class="el" href="classPlayerConnection.html#a322946c9730cbe6f8b5dc87d67ae43f0">SendMessage()</a>.</p>
 
 </div>
 </div>
