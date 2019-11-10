@@ -305,6 +305,7 @@ var searchData=
   ['getplayablespecies',['GetPlayableSpecies',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#acdc20c26079216243f88e0643bd97b2b',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['getplayer',['GetPlayer',['../classServerNetworking.html#ace523e4aefa26e47b9af8e3cb5318491',1,'ServerNetworking::GetPlayer(int id) const'],['../classServerNetworking.html#a00968f62df4d0c9d4acd593eb0b2cef9',1,'ServerNetworking::GetPlayer(int id)']]],
   ['getplayerclienttype',['GetPlayerClientType',['../classClientApp.html#a2dbd9100baba4a3d5b49ad2d12123bc9',1,'ClientApp::GetPlayerClientType()'],['../classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6',1,'ServerApp::GetPlayerClientType()'],['../classIApp.html#a149471521477e0530ffde55b2b6282e9',1,'IApp::GetPlayerClientType()'],['../AppInterface_8h.html#acce3b39e5f9ce4cf863733e0b2fc59c4',1,'GetPlayerClientType():&#160;AppInterface.h']]],
+  ['getplayerdelegation',['GetPlayerDelegation',['../classPythonServer.html#a05ce634991afe61493a384fb9e996c15',1,'PythonServer::GetPlayerDelegation()'],['../classServerApp.html#aa34ec53fa0a41822407af2eafc5b6e9d',1,'ServerApp::GetPlayerDelegation()']]],
   ['getplayerinfomap',['GetPlayerInfoMap',['../classServerApp.html#a5165d1f757109e7046ccbc172fcce6f0',1,'ServerApp']]],
   ['getplayerlistwnd',['GetPlayerListWnd',['../classClientUI.html#ae43b29f7a5eefeea28ddd82c940a59ca',1,'ClientUI']]],
   ['getplayersavegamedata',['GetPlayerSaveGameData',['../classServerApp.html#a6d29f98076968841df27a82f7042719c',1,'ServerApp']]],
