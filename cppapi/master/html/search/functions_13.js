@@ -147,6 +147,7 @@ var searchData=
   ['setbuildingtypes',['SetBuildingTypes',['../classBuildingTypeManager.html#ae8ec6375a61962a4f8a5e59ce2b79e93',1,'BuildingTypeManager']]],
   ['setbuildlocation',['SetBuildLocation',['../classBuildDesignatorWnd_1_1BuildSelector.html#abbeb0c2a5e53e0566b30a3c250a1dccd',1,'BuildDesignatorWnd::BuildSelector']]],
   ['setcapitalid',['SetCapitalID',['../classEmpire.html#af9ddcc3896f324a6fabf764f6049d035',1,'Empire']]],
+  ['setchattext',['SetChatText',['../classMessageWnd.html#a663d924576b9054f3b55bf0aab282c02',1,'MessageWnd']]],
   ['setclienttype',['SetClientType',['../classPlayerConnection.html#a7cf28d963ce614a1f835325ecb53ebf5',1,'PlayerConnection']]],
   ['setcollapsed',['SetCollapsed',['../classAccordionPanel.html#a5f76150be8c2943a1a98a7b6411b1fe9',1,'AccordionPanel']]],
   ['setcolonizeplanet',['SetColonizePlanet',['../classShip.html#af18e2a956ec183f1882939c7cd837190',1,'Ship']]],
