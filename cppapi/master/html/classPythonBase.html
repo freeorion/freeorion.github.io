@@ -61,6 +61,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPythonBase-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -88,8 +89,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a030c412ce60b196602141b2fa36218e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c245964e7425a82fde70ba6934a86a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#aa9c245964e7425a82fde70ba6934a86a">ErrorReport</a> ()</td></tr>
 <tr class="separator:aa9c245964e7425a82fde70ba6934a86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ef9249611aa0ab6e88b54a51cc9c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c">Finalize</a> ()</td></tr>
-<tr class="separator:a46ef9249611aa0ab6e88b54a51cc9c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92992f6414692dca51785fd91bd4c019"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet</a> ()</td></tr>
 <tr class="memdesc:a92992f6414692dca51785fd91bd4c019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles boost::python::error_already_set.  <a href="#a92992f6414692dca51785fd91bd4c019">More...</a><br /></td></tr>
 <tr class="separator:a92992f6414692dca51785fd91bd4c019"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,10 +109,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1de30c16916b888e201a20f6c8c819e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#af1de30c16916b888e201a20f6c8c819e">~PythonBase</a> ()</td></tr>
 <tr class="separator:af1de30c16916b888e201a20f6c8c819e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a46ef9249611aa0ab6e88b54a51cc9c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c">Finalize</a> ()</td></tr>
+<tr class="separator:a46ef9249611aa0ab6e88b54a51cc9c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae769a22f6d10215e7f5659ffc2d6a7f4"><td class="memItemLeft" align="right" valign="top">boost::python::dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#ae769a22f6d10215e7f5659ffc2d6a7f4">m_namespace</a></td></tr>
-<tr class="separator:ae769a22f6d10215e7f5659ffc2d6a7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6026becb8424385f2389a23a217028"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; boost::python::dict &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a></td></tr>
+<tr class="separator:a8e6026becb8424385f2389a23a217028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e9ff6cd98657130be6dbc446934e78"><td class="memItemLeft" align="right" valign="top">boost::python::object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a18e9ff6cd98657130be6dbc446934e78">m_python_module_error</a></td></tr>
 <tr class="separator:a18e9ff6cd98657130be6dbc446934e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53849f8e7e8549749a232e8faa0de678"><td class="memItemLeft" align="right" valign="top">boost::python::object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a></td></tr>
@@ -181,7 +185,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30">exec</a>, and <a class="el" href="classPythonBase.html#ae769a22f6d10215e7f5659ffc2d6a7f4">m_namespace</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30">exec</a>, and <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>, and <a class="el" href="classPythonAI.html#a3ed0a0fa9ac05452940ca735f427cbf3">PythonAI::InitModules()</a>.</p>
 
@@ -211,6 +215,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void PythonBase::Finalize </td>
@@ -219,11 +226,16 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>, <a class="el" href="classPythonBase.html#a18e9ff6cd98657130be6dbc446934e78">m_python_module_error</a>, and <a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#af1de30c16916b888e201a20f6c8c819e">~PythonBase()</a>, and <a class="el" href="classServerApp.html#aa6017cc7487d7d95ce3101c38cf3f54b">ServerApp::~ServerApp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, and <a class="el" href="classPythonBase.html#af1de30c16916b888e201a20f6c8c819e">~PythonBase()</a>.</p>
 
 </div>
 </div>
@@ -268,7 +280,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="CommonFramework_8cpp.html#ad46b6f9844c7ff5402fc4629e48e5773">GetPythonCommonDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#a60bba47e8a52c98417731c194a55745e">InitModules()</a>, <a class="el" href="classPythonBase.html#ae769a22f6d10215e7f5659ffc2d6a7f4">m_namespace</a>, and <a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a>.</p>
+<p class="reference">References <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="CommonFramework_8cpp.html#ad46b6f9844c7ff5402fc4629e48e5773">GetPythonCommonDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#a60bba47e8a52c98417731c194a55745e">InitModules()</a>, <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>, and <a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ServerApp::ExecuteScriptedTurnEvents()</a>, <a class="el" href="classServerApp.html#aa2827a8725e355d9c9a6c51b785f0938">ServerApp::FillListPlayers()</a>, <a class="el" href="classServerApp.html#aa34ec53fa0a41822407af2eafc5b6e9d">ServerApp::GetPlayerDelegation()</a>, <a class="el" href="classPythonAI.html#ab9fdcb4c7ff50b09d2bc5f1e2522ad64">PythonAI::Initialize()</a>, <a class="el" href="classServerApp.html#aade4f1bf48914ec40757128314f6b244">ServerApp::InitializePython()</a>, <a class="el" href="classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782">ServerApp::IsAuthRequiredOrFillRoles()</a>, <a class="el" href="classServerApp.html#a7df980a4219a193118f710249723a5bb">ServerApp::IsAuthSuccessAndFillRoles()</a>, <a class="el" href="classServerApp.html#a5e6e3a7afa6924e11a67c80c4d9feb2a">ServerApp::LoadChatHistory()</a>, and <a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">ServerApp::PushChatMessage()</a>.</p>
 
@@ -341,7 +353,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30">exec</a>, and <a class="el" href="classPythonBase.html#ae769a22f6d10215e7f5659ffc2d6a7f4">m_namespace</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30">exec</a>, and <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ServerApp::ExecuteScriptedTurnEvents()</a>, <a class="el" href="classServerApp.html#aa2827a8725e355d9c9a6c51b785f0938">ServerApp::FillListPlayers()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="classServerApp.html#aa34ec53fa0a41822407af2eafc5b6e9d">ServerApp::GetPlayerDelegation()</a>, <a class="el" href="classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782">ServerApp::IsAuthRequiredOrFillRoles()</a>, <a class="el" href="classServerApp.html#a7df980a4219a193118f710249723a5bb">ServerApp::IsAuthSuccessAndFillRoles()</a>, <a class="el" href="classServerApp.html#a5e6e3a7afa6924e11a67c80c4d9feb2a">ServerApp::LoadChatHistory()</a>, and <a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">ServerApp::PushChatMessage()</a>.</p>
 
@@ -368,8 +380,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae769a22f6d10215e7f5659ffc2d6a7f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae769a22f6d10215e7f5659ffc2d6a7f4">&#9670;&nbsp;</a></span>m_namespace</h2>
+<a id="a8e6026becb8424385f2389a23a217028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6026becb8424385f2389a23a217028">&#9670;&nbsp;</a></span>m_namespace</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +390,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::python::dict PythonBase::m_namespace</td>
+          <td class="memname">boost::optional&lt;boost::python::dict&gt; PythonBase::m_namespace</td>
         </tr>
       </table>
   </td>
@@ -388,7 +400,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>, and <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">SetCurrentDir()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c">Finalize()</a>, <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>, and <a class="el" href="classPythonBase.html#af48390fcc4f163f31caa7bad5b0b1a17">SetCurrentDir()</a>.</p>
 
 </div>
 </div>
@@ -412,7 +424,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPythonBase.html#aa9c245964e7425a82fde70ba6934a86a">ErrorReport()</a>, and <a class="el" href="classPythonBase.html#a93f6e16c2567923ff89b1b1ebf353376">SetErrorModule()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPythonBase.html#aa9c245964e7425a82fde70ba6934a86a">ErrorReport()</a>, <a class="el" href="classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c">Finalize()</a>, and <a class="el" href="classPythonBase.html#a93f6e16c2567923ff89b1b1ebf353376">SetErrorModule()</a>.</p>
 
 </div>
 </div>
@@ -436,7 +448,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, and <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c">Finalize()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, and <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>.</p>
 
 </div>
 </div>
