@@ -21,6 +21,7 @@ var searchData=
   ['or',['Or',['../structCondition_1_1Or.html',1,'Condition']]],
   ['orcondition',['OrCondition',['../classOrCondition.html',1,'']]],
   ['order',['Order',['../classOrder.html',1,'']]],
+  ['orderbynameandid',['OrderByNameAndId',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1OrderByNameAndId.html',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['orderedalternativesof',['OrderedAlternativesOf',['../structCondition_1_1OrderedAlternativesOf.html',1,'Condition']]],
   ['orderedbombarded',['OrderedBombarded',['../structCondition_1_1OrderedBombarded.html',1,'Condition']]],
   ['orderedbombardedsimplematch',['OrderedBombardedSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1OrderedBombardedSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],

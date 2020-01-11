@@ -12,7 +12,7 @@ var searchData=
   ['bool_5fregex',['bool_regex',['../structparse_1_1lexer.html#a56920f62eb1844a89c13887ffb7f97f5',1,'parse::lexer']]],
   ['border_5fbottom',['BORDER_BOTTOM',['../classCUIWnd.html#a30a0357332d2b68b73be0f5e2bd2b363',1,'CUIWnd']]],
   ['border_5fleft',['BORDER_LEFT',['../classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56',1,'CUIWnd']]],
-  ['border_5fmargin',['BORDER_MARGIN',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a44ebf2097ecfea0abcd41693c891fb26',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
+  ['border_5fmargin',['BORDER_MARGIN',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a44ebf2097ecfea0abcd41693c891fb26',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::BORDER_MARGIN()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a9d66c8b3c249d71f596695ff8a0e6564',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::BORDER_MARGIN()']]],
   ['border_5fright',['BORDER_RIGHT',['../classCUIWnd.html#accdc6254146d0435cfa76ed284e99e3a',1,'CUIWnd']]],
   ['bound_5fvariable',['bound_variable',['../structparse_1_1detail_1_1simple__variable__rules.html#aca577e22a951321ce3d929e36d42274c',1,'parse::detail::simple_variable_rules::bound_variable()'],['../structparse_1_1string__parser__grammar.html#a471a642a806467211397140940c46a16',1,'parse::string_parser_grammar::bound_variable()'],['../namespaceparse.html#a6f4e2b2d14701f0877d13c2865de02a6',1,'parse::bound_variable()']]],
   ['bound_5fvariable_5fexpr',['bound_variable_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#abfc6fa5054cd8b01e19014bb2c8f5b90',1,'parse::detail::enum_value_ref_rules']]],

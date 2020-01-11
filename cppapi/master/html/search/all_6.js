@@ -208,6 +208,8 @@ var searchData=
   ['for_5feach_5fmap',['FOR_EACH_MAP',['../ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca',1,'ObjectMap.cpp']]],
   ['for_5feach_5fspecialized_5fmap',['FOR_EACH_SPECIALIZED_MAP',['../ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7',1,'ObjectMap.cpp']]],
   ['forcedthreshold',['ForcedThreshold',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a06020d1e1c355f85f2cfb5a325d88884',1,'anonymous_namespace{Logger.cpp}']]],
+  ['forces',['forces',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a59a770ffa957e1b8ae917ef56a225c61',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel']]],
+  ['forcestotext',['ForcesToText',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a81347d82b7be9fb8e3121ecd489e8757',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['forcevaliddesignorthrow',['ForceValidDesignOrThrow',['../classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e',1,'ShipDesign']]],
   ['forgetknownobject',['ForgetKnownObject',['../classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
   ['forgetobject',['ForgetObject',['../classMapWnd.html#a24447a614ee682e9c5c17222d326ab56',1,'MapWnd']]],

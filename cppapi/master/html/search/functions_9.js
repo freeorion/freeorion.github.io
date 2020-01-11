@@ -199,6 +199,7 @@ var searchData=
   ['isqualifiedfleet',['IsQualifiedFleet',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a48386a2070937c7d4555e05e98269afa',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['isrequireauthorreturnroles',['IsRequireAuthOrReturnRoles',['../classPythonServer.html#a72d703e055eaa1476d5dbafb4876e47b',1,'PythonServer']]],
   ['isrxconnected',['IsRxConnected',['../classClientNetworking_1_1Impl.html#ae768f0fe905e61eeddfc4095605b548e',1,'ClientNetworking::Impl::IsRxConnected()'],['../classClientNetworking.html#a45954c41cc566a02f1bd0f5bd6e81ddf',1,'ClientNetworking::IsRxConnected()']]],
+  ['isship',['IsShip',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#abde00a7a59ac232758aa3ea8f310e4c5',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['issitrepeffect',['IsSitrepEffect',['../classEffect_1_1EffectBase.html#a78286e328795f8f68cea707ca1e4def9',1,'Effect::EffectBase::IsSitrepEffect()'],['../classEffect_1_1GenerateSitRepMessage.html#a04c00cb095714d8cd6c610b74ae276c4',1,'Effect::GenerateSitRepMessage::IsSitrepEffect()'],['../classEffect_1_1Conditional.html#a666421d65e920e54852beb8bf0c0ef65',1,'Effect::Conditional::IsSitrepEffect()']]],
   ['issitrepinvalid',['IsSitRepInvalid',['../classSitRepPanel.html#aa97cd44556d4815c8ff49a75b649f588',1,'SitRepPanel']]],
   ['isstartnode',['IsStartNode',['../classTechTreeLayout_1_1Node.html#a0d7515daf06b701d6108e7027906b14c',1,'TechTreeLayout::Node']]],

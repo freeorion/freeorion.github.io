@@ -83,6 +83,7 @@ var searchData=
   ['hasmetereffects',['HasMeterEffects',['../classEffect_1_1EffectsGroup.html#a44c8a694042991a477f7524ae79dc391',1,'Effect::EffectsGroup']]],
   ['hasmonsters',['HasMonsters',['../classFleet.html#ac0e207ea9cf2172463a0974a0ab1e3a6',1,'Fleet']]],
   ['hasoutpostships',['HasOutpostShips',['../classFleet.html#a7c0384b9eb23b19ed695ae2ff18191fd',1,'Fleet']]],
+  ['haspopulation',['HasPopulation',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a68e5c74c7255e54e7b037374070c773f',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['hasresearchedprereqandunresearchedprereq',['HasResearchedPrereqAndUnresearchedPrereq',['../classEmpire.html#a020751ac72a31784eb9287bab7117765',1,'Empire']]],
   ['hasrole',['HasRole',['../classNetworking_1_1AuthRoles.html#a90b0dd5fb20f77a718c0c4d98bdc82e9',1,'Networking::AuthRoles']]],
   ['hasshipsorderedscrapped',['HasShipsOrderedScrapped',['../classFleet.html#a96fca7c6d5d6af16b65608c8d4558501',1,'Fleet']]],

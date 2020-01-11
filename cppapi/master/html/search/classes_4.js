@@ -19,6 +19,7 @@ var searchData=
   ['empireaffiliationsimplematch',['EmpireAffiliationSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireAffiliationSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
   ['empirecolorselector',['EmpireColorSelector',['../classEmpireColorSelector.html',1,'']]],
   ['empirecombatinfo',['EmpireCombatInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
+  ['empireforcesaccordionpanel',['EmpireForcesAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['empiremanager',['EmpireManager',['../classEmpireManager.html',1,'']]],
   ['empiremetervalue',['EmpireMeterValue',['../structCondition_1_1EmpireMeterValue.html',1,'Condition']]],
   ['empiremetervaluesimplematch',['EmpireMeterValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireMeterValueSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],

@@ -26,6 +26,7 @@ var searchData=
   ['_7eeffects_5fparser_5fgrammar',['~effects_parser_grammar',['../structparse_1_1effects__parser__grammar.html#abcc5f381540009c402b67cfc1fe4655f',1,'parse::effects_parser_grammar']]],
   ['_7eeffectsgroup',['~EffectsGroup',['../classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127',1,'Effect::EffectsGroup']]],
   ['_7eempire',['~Empire',['../classEmpire.html#a28160e51206940ad3de97d89c2a7ce0e',1,'Empire']]],
+  ['_7eempireforcesaccordionpanel',['~EmpireForcesAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a27bc1e7f7acc335a12641913d562d00a',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel']]],
   ['_7eempiremanager',['~EmpireManager',['../classEmpireManager.html#a8a8497da3c8cade6dd146ddd6cf1030a',1,'EmpireManager']]],
   ['_7eencyclopediadetailpanel',['~EncyclopediaDetailPanel',['../classEncyclopediaDetailPanel.html#abbda67687041a4bbf5e643d7e1dc056a',1,'EncyclopediaDetailPanel']]],
   ['_7efield',['~Field',['../classField.html#a45d6e6d09b8f8e46de62b40119d62c60',1,'Field']]],

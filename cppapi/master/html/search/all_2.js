@@ -67,7 +67,7 @@ var searchData=
   ['boost_5fspirit_5fno_5fpredefined_5fterminals',['BOOST_SPIRIT_NO_PREDEFINED_TERMINALS',['../Lexer_8h.html#afd994602a1d960a01dd5200ad164f12b',1,'Lexer.h']]],
   ['border_5fbottom',['BORDER_BOTTOM',['../classCUIWnd.html#a30a0357332d2b68b73be0f5e2bd2b363',1,'CUIWnd']]],
   ['border_5fleft',['BORDER_LEFT',['../classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56',1,'CUIWnd']]],
-  ['border_5fmargin',['BORDER_MARGIN',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a44ebf2097ecfea0abcd41693c891fb26',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
+  ['border_5fmargin',['BORDER_MARGIN',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a44ebf2097ecfea0abcd41693c891fb26',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::BORDER_MARGIN()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a9d66c8b3c249d71f596695ff8a0e6564',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::BORDER_MARGIN()']]],
   ['border_5fright',['BORDER_RIGHT',['../classCUIWnd.html#accdc6254146d0435cfa76ed284e99e3a',1,'CUIWnd']]],
   ['both',['both',['../LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aaf6cb3e816496528d4187db53bc66567f',1,'LoggerWithOptionsDB.h']]],
   ['bottomborder',['BottomBorder',['../classCUIWnd.html#a0c4f68ff79b8122549e55151b2d150d3',1,'CUIWnd']]],

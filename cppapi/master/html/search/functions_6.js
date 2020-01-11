@@ -133,6 +133,7 @@ var searchData=
   ['fontsize',['FontSize',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a224a6ad74bbb9b5468bddd23dcaf0675',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['fonttexturewnd',['FontTextureWnd',['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a005106caf2556503dde137901f842339',1,'anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd']]],
   ['forcedthreshold',['ForcedThreshold',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a06020d1e1c355f85f2cfb5a325d88884',1,'anonymous_namespace{Logger.cpp}']]],
+  ['forcestotext',['ForcesToText',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a81347d82b7be9fb8e3121ecd489e8757',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['forcevaliddesignorthrow',['ForceValidDesignOrThrow',['../classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e',1,'ShipDesign']]],
   ['forgetknownobject',['ForgetKnownObject',['../classUniverse.html#a9fefe778e8592092d45ff86fe237ac2b',1,'Universe']]],
   ['forgetobject',['ForgetObject',['../classMapWnd.html#a24447a614ee682e9c5c17222d326ab56',1,'MapWnd']]],
