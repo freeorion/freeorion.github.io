@@ -7,6 +7,5 @@ var searchData=
   ['unlockable_5fitem_5fenum_5fgrammar',['unlockable_item_enum_grammar',['../structparse_1_1unlockable__item__enum__grammar.html',1,'parse']]],
   ['urlsafe_5fbase64_5ftraits',['urlsafe_base64_traits',['../structboost_1_1iostreams_1_1urlsafe__base64__traits.html',1,'boost::iostreams']]],
   ['userstringlookup',['UserStringLookup',['../structValueRef_1_1UserStringLookup.html',1,'ValueRef']]],
-  ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
-  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html',1,'anonymous_namespace{ChatWnd.cpp}']]]
+  ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]]
 ];

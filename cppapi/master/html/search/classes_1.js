@@ -8,7 +8,6 @@ var searchData=
   ['basic_5fbase64_5fdecoder',['basic_base64_decoder',['../classboost_1_1iostreams_1_1basic__base64__decoder.html',1,'boost::iostreams']]],
   ['basic_5fbase64_5fencoder',['basic_base64_encoder',['../classboost_1_1iostreams_1_1basic__base64__encoder.html',1,'boost::iostreams']]],
   ['bfsvisitorimpl',['BFSVisitorImpl',['../classSystemPathing_1_1BFSVisitorImpl.html',1,'SystemPathing']]],
-  ['bindformatterargument',['BindFormatterArgument',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1BindFormatterArgument.html',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['blocking_5fcombiner',['blocking_combiner',['../structblocking__combiner.html',1,'']]],
   ['bombardorder',['BombardOrder',['../classBombardOrder.html',1,'']]],
   ['boutbeginevent',['BoutBeginEvent',['../structBoutBeginEvent.html',1,'']]],

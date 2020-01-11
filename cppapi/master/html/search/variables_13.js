@@ -41,7 +41,6 @@ var searchData=
   ['selection_5fexpr',['selection_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#af9e5f590fe26036242ef2b92e026fd38',1,'parse::detail::enum_value_ref_rules']]],
   ['selection_5foperator',['selection_operator',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a7d9cfc4b63f1f14eb8419d5a7e5a19f1',1,'parse::detail::enum_value_ref_rules']]],
   ['send_5ferror_5fstring',['send_error_string',['../structparse_1_1report__error__.html#a71b72f917f6032119c13557750a4e094',1,'parse::report_error_']]],
-  ['separator',['SEPARATOR',['../namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2aeac4a0e513cc8dca56157cf5be01ad',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['server_5fdest',['server_dest',['../structServerConnectWnd_1_1Result.html#aa4d7802557d509c0009f32d7e13fe06b',1,'ServerConnectWnd::Result']]],
   ['server_5flabel',['SERVER_LABEL',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ad44b5f6c2cf6f3bb381bd44134d477e6',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['set_5faggression',['set_aggression',['../structparse_1_1detail_1_1effect__parser__rules__3.html#aa4622ac956ddd522a74f84f9830e9c56',1,'parse::detail::effect_parser_rules_3']]],

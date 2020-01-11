@@ -66,8 +66,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ChatWnd.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -94,21 +93,12 @@ $(function() {
 <code>#include &quot;<a class="el" href="OptionsDB_8h.html">../util/OptionsDB.h</a>&quot;</code><br />
 <code>#include &lt;GG/GUI.h&gt;</code><br />
 <code>#include &lt;boost/algorithm/string/predicate.hpp&gt;</code><br />
-<code>#include &lt;boost/spirit/include/classic.hpp&gt;</code><br />
+<code>#include &lt;boost/xpressive/xpressive.hpp&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1AppendFormatterString.html">anonymous_namespace{ChatWnd.cpp}::AppendFormatterString</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1BindFormatterArgument.html">anonymous_namespace{ChatWnd.cpp}::BindFormatterArgument</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1StartNewFormatterFromUserString.html">anonymous_namespace{ChatWnd.cpp}::StartNewFormatterFromUserString</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1StringAppend.html">anonymous_namespace{ChatWnd.cpp}::StringAppend</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html">anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts (first, last) to a string, looks it up as a key in the stringtable, then then appends this to the end of the string str.  <a href="structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageWndEdit.html">MessageWndEdit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,15 +117,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2fc383549df12fc3fc124cc25b40fad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55777481cb49f1139b7fa6f6c5cf54b3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a55777481cb49f1139b7fa6f6c5cf54b3">anonymous_namespace{ChatWnd.cpp}::StringtableTextSubstitute</a> (const std::string &amp;input)</td></tr>
 <tr class="separator:a55777481cb49f1139b7fa6f6c5cf54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ac33cc30a7035a4c342cbd4cb8ff141c4"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#ac33cc30a7035a4c342cbd4cb8ff141c4">anonymous_namespace{ChatWnd.cpp}::CLOSE_TAG</a> = &quot;]]&quot;</td></tr>
-<tr class="separator:ac33cc30a7035a4c342cbd4cb8ff141c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c7be471503da35cc8cf40cff0dcfd6b"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2c7be471503da35cc8cf40cff0dcfd6b">anonymous_namespace{ChatWnd.cpp}::OPEN_TAG</a> = &quot;[[&quot;</td></tr>
-<tr class="separator:a2c7be471503da35cc8cf40cff0dcfd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aeac4a0e513cc8dca56157cf5be01ad"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2aeac4a0e513cc8dca56157cf5be01ad">anonymous_namespace{ChatWnd.cpp}::SEPARATOR</a> = &quot;,&quot;</td></tr>
-<tr class="separator:a2aeac4a0e513cc8dca56157cf5be01ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551cf45a969e6a040b4b8f47b6fbff2e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a551cf45a969e6a040b4b8f47b6fbff2e">anonymous_namespace{ChatWnd.cpp}::UserStringSubstitute</a> (const boost::xpressive::smatch &amp;match)</td></tr>
+<tr class="separator:a551cf45a969e6a040b4b8f47b6fbff2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

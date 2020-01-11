@@ -94,7 +94,7 @@ var searchData=
   ['userstringlist',['UserStringList',['../i18n_8cpp.html#a570efedde0223295d68e5ce3c30ba4c9',1,'UserStringList(const std::string &amp;key):&#160;i18n.cpp'],['../i18n_8h.html#aa29029afc6ba0d3bc928278406cf6e0b',1,'UserStringList(const std::string &amp;key):&#160;i18n.cpp']]],
   ['userstringlookup',['UserStringLookup',['../structValueRef_1_1UserStringLookup.html#a130b513361656b50fdf932cf9c0191e4',1,'ValueRef::UserStringLookup']]],
   ['userstringrow',['UserStringRow',['../structanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1UserStringRow.html#a9222949fb53bd505461938732e298891',1,'anonymous_namespace{GalaxySetupWnd.cpp}::UserStringRow']]],
-  ['userstringsubstituteandappend',['UserStringSubstituteAndAppend',['../structanonymous__namespace_02ChatWnd_8cpp_03_1_1UserStringSubstituteAndAppend.html#a816ff0fe328c904529644b5d953cf28a',1,'anonymous_namespace{ChatWnd.cpp}::UserStringSubstituteAndAppend']]],
+  ['userstringsubstitute',['UserStringSubstitute',['../namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a551cf45a969e6a040b4b8f47b6fbff2e',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5c114abbcaa728fe98631cefc6ad51c9',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5f6ac0f4025d308fb7c7a79846e10721',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['uuid',['UUID',['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign']]]
