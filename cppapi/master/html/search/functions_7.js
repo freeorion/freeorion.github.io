@@ -400,7 +400,7 @@ var searchData=
   ['getunvalidatedsitrepssortedbyturn',['GetUnvalidatedSitRepsSortedByTurn',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['getusage',['GetUsage',['../classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56',1,'OptionsDB']]],
   ['getuserconfigdir',['GetUserConfigDir',['../Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820',1,'Directories.h']]],
-  ['getuserconfigdirwrapper',['GetUserConfigDirWrapper',['../namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#a1a81cca16025f73be7a5b369684af22c',1,'anonymous_namespace{ConfigWrapper.cpp}::GetUserConfigDirWrapper()'],['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#acf049ae1a7cd25f8d54c1bc8110ed115',1,'anonymous_namespace{ServerWrapper.cpp}::GetUserConfigDirWrapper()']]],
+  ['getuserconfigdirwrapper',['GetUserConfigDirWrapper',['../namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#a1a81cca16025f73be7a5b369684af22c',1,'anonymous_namespace{ConfigWrapper.cpp}']]],
   ['getuserdatadir',['GetUserDataDir',['../Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f',1,'Directories.h']]],
   ['getuserdatadirwrapper',['GetUserDataDirWrapper',['../namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#afe89bfd994f8a8b3ec6c5ff4648f540a',1,'anonymous_namespace{ConfigWrapper.cpp}']]],
   ['getuserstringlist',['GetUserStringList',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a495e285dd07b619479f910a7d3e2cb67',1,'anonymous_namespace{AIWrapper.cpp}']]],
