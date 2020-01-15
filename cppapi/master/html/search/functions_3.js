@@ -82,7 +82,7 @@ var searchData=
   ['checkchoicevalidity',['CheckChoiceValidity',['../classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93',1,'SaveFileDialog']]],
   ['checkcookie',['CheckCookie',['../classServerNetworking.html#a977cb9279b89a4793bb488455a6f6513',1,'ServerNetworking']]],
   ['checkdestruction',['CheckDestruction',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
-  ['checkdrops',['CheckDrops',['../classFleetDataPanel.html#a1c6e93a0e6fe0b2a488bfe87e812a8a1',1,'FleetDataPanel']]],
+  ['checkdrops',['CheckDrops',['../classStatisticIcon.html#afcabd68a64c91427a83f4e8b24ffdf72',1,'StatisticIcon::CheckDrops()'],['../classFleetDataPanel.html#a1c6e93a0e6fe0b2a488bfe87e812a8a1',1,'FleetDataPanel::CheckDrops()']]],
   ['checkforempireelimination',['CheckForEmpireElimination',['../classServerApp.html#af60ee19b873469889cbe8b7b8a6563e6',1,'ServerApp']]],
   ['checkpendingandfilldesignsorderingandnametables',['CheckPendingAndFillDesignsOrderingAndNameTables',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a3a78ea2c2bbcbfa79fa040d16d38ca79',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['checkpendingbuildingtypes',['CheckPendingBuildingTypes',['../classBuildingTypeManager.html#a07e28ba80dcbaf886cafc871cd818f5a',1,'BuildingTypeManager']]],
