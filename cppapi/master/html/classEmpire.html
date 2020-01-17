@@ -539,6 +539,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aea7130e4d5c46f25bedaa583291179fa"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#aea7130e4d5c46f25bedaa583291179fa">SpeciesPlanetsInvaded</a> ()</td></tr>
 <tr class="memdesc:aea7130e4d5c46f25bedaa583291179fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing.  <a href="#aea7130e4d5c46f25bedaa583291179fa">More...</a><br /></td></tr>
 <tr class="separator:aea7130e4d5c46f25bedaa583291179fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15976e50f46cfb45ac7e35e8b2b4d171"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a15976e50f46cfb45ac7e35e8b2b4d171">ShipDesignsInProduction</a> ()</td></tr>
+<tr class="memdesc:a15976e50f46cfb45ac7e35e8b2b4d171"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing.  <a href="#a15976e50f46cfb45ac7e35e8b2b4d171">More...</a><br /></td></tr>
+<tr class="separator:a15976e50f46cfb45ac7e35e8b2b4d171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce32b63756578e94ef0e6018d768998"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a9ce32b63756578e94ef0e6018d768998">SpeciesShipsProduced</a> ()</td></tr>
 <tr class="memdesc:a9ce32b63756578e94ef0e6018d768998"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing.  <a href="#a9ce32b63756578e94ef0e6018d768998">More...</a><br /></td></tr>
 <tr class="separator:a9ce32b63756578e94ef0e6018d768998"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -672,6 +675,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a3b02d5c9ca4b818fdf333fa2346e8e36">m_ship_designs_destroyed</a></td></tr>
 <tr class="memdesc:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many ships of each design has this empire destroyed?  <a href="#a3b02d5c9ca4b818fdf333fa2346e8e36">More...</a><br /></td></tr>
 <tr class="separator:a3b02d5c9ca4b818fdf333fa2346e8e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae8df0b952af1c920d5779ffb84c24e"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#a8ae8df0b952af1c920d5779ffb84c24e">m_ship_designs_in_production</a></td></tr>
+<tr class="memdesc:a8ae8df0b952af1c920d5779ffb84c24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many ships of each design has this empire in active production in its production queue  <a href="#a8ae8df0b952af1c920d5779ffb84c24e">More...</a><br /></td></tr>
+<tr class="separator:a8ae8df0b952af1c920d5779ffb84c24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa70a096a8a6e02bbcb139f819d5e09"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpire.html#acaa70a096a8a6e02bbcb139f819d5e09">m_ship_designs_lost</a></td></tr>
 <tr class="memdesc:acaa70a096a8a6e02bbcb139f819d5e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many ships of each design has this empire lost in combat?  <a href="#acaa70a096a8a6e02bbcb139f819d5e09">More...</a><br /></td></tr>
 <tr class="separator:acaa70a096a8a6e02bbcb139f819d5e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3955,6 +3961,35 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a id="a15976e50f46cfb45ac7e35e8b2b4d171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15976e50f46cfb45ac7e35e8b2b4d171">&#9670;&nbsp;</a></span>ShipDesignsInProduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;int, int&gt;&amp; Empire::ShipDesignsInProduction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing. </p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceValueRef_1_1anonymous__namespace_02ValueRef_8cpp_03.html#a0fa1e9abd4c91f78e16e7d149b775d68">ValueRef::anonymous_namespace{ValueRef.cpp}::GetEmpireIntIntMap()</a>.</p>
+
+</div>
+</div>
 <a id="a722c8d95b23fb8a7ebe43a92e8360474"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a722c8d95b23fb8a7ebe43a92e8360474">&#9670;&nbsp;</a></span>ShipDesignsLost()</h2>
 
@@ -4770,7 +4805,7 @@ template&lt;class Archive &gt; </div>
 
 <p>If the object with id <em>id</em> is a planet owned by this empire, sets that planet to be this empire's capital, and otherwise does nothing. </p>
 
-<p class="reference">References <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classEmpire.html#a74e2ea30e627798d8c6835151a6a7dbd">m_building_types_owned</a>, <a class="el" href="classEmpire.html#a3e13015c8f03797fa2fbe555e6509f15">m_outposts_owned</a>, <a class="el" href="classEmpire.html#a0a7e1efeb6b3366f7d28de268bec99af">m_ship_designs_owned</a>, <a class="el" href="classEmpire.html#a42414b0c1eea9ba8de15b1f9c6d8234c">m_ship_part_class_owned</a>, <a class="el" href="classEmpire.html#acbbc5a785c4f15fddf53f9d308d680f7">m_ship_part_types_owned</a>, <a class="el" href="classEmpire.html#afbf4f6f9074f1d603398749df29067a9">m_species_colonies_owned</a>, <a class="el" href="classEmpire.html#ae30d8169cd3cfc9e5f70b3afb91ab792">m_species_ships_owned</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classShipDesign.html#a2911d6395fc8b27d47963fb48c691db1">ShipDesign::PartClassCount()</a>, and <a class="el" href="classShipDesign.html#adf3389f609a4846ec8cbf268d12b5c07">ShipDesign::PartTypeCount()</a>.</p>
+<p class="reference">References <a class="el" href="Enums_8h.html#a984a0db15120b45c7a40336c74053516">BT_SHIP</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd">ProductionQueue::ProductionItem::build_type</a>, <a class="el" href="structProductionQueue_1_1ProductionItem.html#a002f7bfa8e8fd58f2aea8745b790aa54">ProductionQueue::ProductionItem::design_id</a>, <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, <a class="el" href="classEmpire.html#a74e2ea30e627798d8c6835151a6a7dbd">m_building_types_owned</a>, <a class="el" href="classEmpire.html#a3e13015c8f03797fa2fbe555e6509f15">m_outposts_owned</a>, <a class="el" href="classEmpire.html#a121d881074537fe9480de93c6d879ce9">m_production_queue</a>, <a class="el" href="classEmpire.html#a8ae8df0b952af1c920d5779ffb84c24e">m_ship_designs_in_production</a>, <a class="el" href="classEmpire.html#a0a7e1efeb6b3366f7d28de268bec99af">m_ship_designs_owned</a>, <a class="el" href="classEmpire.html#a42414b0c1eea9ba8de15b1f9c6d8234c">m_ship_part_class_owned</a>, <a class="el" href="classEmpire.html#acbbc5a785c4f15fddf53f9d308d680f7">m_ship_part_types_owned</a>, <a class="el" href="classEmpire.html#afbf4f6f9074f1d603398749df29067a9">m_species_colonies_owned</a>, <a class="el" href="classEmpire.html#ae30d8169cd3cfc9e5f70b3afb91ab792">m_species_ships_owned</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classShipDesign.html#a2911d6395fc8b27d47963fb48c691db1">ShipDesign::PartClassCount()</a>, and <a class="el" href="classShipDesign.html#adf3389f609a4846ec8cbf268d12b5c07">ShipDesign::PartTypeCount()</a>.</p>
 
 </div>
 </div>
@@ -5740,7 +5775,7 @@ template&lt;class Archive &gt; </div>
 
 <p>the queue of items being or waiting to be built </p>
 
-<p class="reference">Referenced by <a class="el" href="classEmpire.html#a247d0555a940675e082cb579d5b24c86">AllowUseImperialPP()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a2e1ff908ef0d3dd4b7ed9ad705580aca">GetProductionQueue()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">PauseProduction()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a7eeb09cc67bdb831777d5fcf28541d3b">ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">ResumeProduction()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">SetProductionRallyPoint()</a>, <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem()</a>, and <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">UpdateProductionQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEmpire.html#a247d0555a940675e082cb579d5b24c86">AllowUseImperialPP()</a>, <a class="el" href="classEmpire.html#a19f9dcf33c0a44b107f39967bd3ebbb7">CheckProductionProgress()</a>, <a class="el" href="classEmpire.html#a0efd19871b31ed5873a359224f7e0956">ConquerProductionQueueItemsAtLocation()</a>, <a class="el" href="classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e">DuplicateProductionItem()</a>, <a class="el" href="classEmpire.html#a65320e749400abd9d22265cd0dad5b46">Eliminate()</a>, <a class="el" href="classEmpire.html#a2e1ff908ef0d3dd4b7ed9ad705580aca">GetProductionQueue()</a>, <a class="el" href="classEmpire.html#af89b1f40e34c42a2b4de4d0d9588c4be">MoveProductionWithinQueue()</a>, <a class="el" href="classEmpire.html#a181913adbcb25dfdef009bde43b96e45">PauseProduction()</a>, <a class="el" href="classEmpire.html#a9e01a6189de07a2f463152eb3e563428">PlaceProductionOnQueue()</a>, <a class="el" href="classEmpire.html#a7eeb09cc67bdb831777d5fcf28541d3b">ProductionStatus()</a>, <a class="el" href="classEmpire.html#a501bd666e94e12db2b880f05e95950e2">RemoveProductionFromQueue()</a>, <a class="el" href="classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a">ResumeProduction()</a>, <a class="el" href="classEmpire.html#a1101bec137817c8c32401d01ad403962">SetProductionQuantity()</a>, <a class="el" href="classEmpire.html#a8b0cc4ee05cb0a2a89b86e46b99ba46d">SetProductionQuantityAndBlocksize()</a>, <a class="el" href="classEmpire.html#ae2a751f9c71a102c484f38075553c541">SetProductionRallyPoint()</a>, <a class="el" href="classEmpire.html#ac98032f34486e4543f02f277505b5c74">SplitIncompleteProductionItem()</a>, <a class="el" href="classEmpire.html#acc3d7a06905373a54b6286965eae6745">UpdateOwnedObjectCounters()</a>, and <a class="el" href="classEmpire.html#a3966aa2dc98ba96865c5d357b715a793">UpdateProductionQueue()</a>.</p>
 
 </div>
 </div>
@@ -5841,6 +5876,32 @@ template&lt;class Archive &gt; </div>
 </div><div class="memdoc">
 
 <p>how many ships of each design has this empire destroyed? </p>
+
+</div>
+</div>
+<a id="a8ae8df0b952af1c920d5779ffb84c24e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ae8df0b952af1c920d5779ffb84c24e">&#9670;&nbsp;</a></span>m_ship_designs_in_production</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;int, int&gt; Empire::m_ship_designs_in_production</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>how many ships of each design has this empire in active production in its production queue </p>
+
+<p class="reference">Referenced by <a class="el" href="classEmpire.html#acc3d7a06905373a54b6286965eae6745">UpdateOwnedObjectCounters()</a>.</p>
 
 </div>
 </div>

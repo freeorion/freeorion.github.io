@@ -1096,6 +1096,7 @@ var searchData=
   ['m_5fship_5fdesign_5flabels',['m_ship_design_labels',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1FleetDetailBrowseWnd.html#a863964420be4ada1e55ad04769c54311',1,'anonymous_namespace{MapWnd.cpp}::FleetDetailBrowseWnd']]],
   ['m_5fship_5fdesigns',['m_ship_designs',['../classClientUI.html#ac97728b7922d28d9c09c69692b532853',1,'ClientUI::m_ship_designs()'],['../classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13',1,'Universe::m_ship_designs()'],['../classFleetPlan.html#a922b2a61d1c204d0e6a922cc40e23d8d',1,'FleetPlan::m_ship_designs()']]],
   ['m_5fship_5fdesigns_5fdestroyed',['m_ship_designs_destroyed',['../classEmpire.html#a3b02d5c9ca4b818fdf333fa2346e8e36',1,'Empire']]],
+  ['m_5fship_5fdesigns_5fin_5fproduction',['m_ship_designs_in_production',['../classEmpire.html#a8ae8df0b952af1c920d5779ffb84c24e',1,'Empire']]],
   ['m_5fship_5fdesigns_5flost',['m_ship_designs_lost',['../classEmpire.html#acaa70a096a8a6e02bbcb139f819d5e09',1,'Empire']]],
   ['m_5fship_5fdesigns_5fowned',['m_ship_designs_owned',['../classEmpire.html#a0a7e1efeb6b3366f7d28de268bec99af',1,'Empire']]],
   ['m_5fship_5fdesigns_5fproduced',['m_ship_designs_produced',['../classEmpire.html#af6eab3cb9bbeb1c351543823e29f45f4',1,'Empire']]],
