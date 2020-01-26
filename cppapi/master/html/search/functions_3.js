@@ -263,8 +263,6 @@ var searchData=
   ['connecttoserver',['ConnectToServer',['../classAIClientApp.html#a7aebb32ffb1b848cd06621299ee0272e',1,'AIClientApp::ConnectToServer()'],['../classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14',1,'ClientNetworking::Impl::ConnectToServer()'],['../classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d',1,'ClientNetworking::ConnectToServer()']]],
   ['conquer',['Conquer',['../classPlanet.html#ae7db84264c28a0e961215dd136cf3782',1,'Planet']]],
   ['conquerproductionqueueitemsatlocation',['ConquerProductionQueueItemsAtLocation',['../classEmpire.html#a0efd19871b31ed5873a359224f7e0956',1,'Empire']]],
-  ['const_5fbegin',['const_begin',['../classObjectMap.html#a6afe7c7be2872410f9c0702da448342a',1,'ObjectMap::const_begin() const'],['../classObjectMap.html#a4ff2a3a2ca7cd9a1b0d7adf31677d3a1',1,'ObjectMap::const_begin() const']]],
-  ['const_5fend',['const_end',['../classObjectMap.html#a7a4fd0b84c6e4a9ab5b6885d7aeae4ae',1,'ObjectMap::const_end() const'],['../classObjectMap.html#a2e958ae3baa15a86f7fd83b31bf418cd',1,'ObjectMap::const_end() const']]],
   ['const_5fiterator',['const_iterator',['../structObjectMap_1_1const__iterator.html#a8e88aef01afc935986cd3642a17c1e20',1,'ObjectMap::const_iterator']]],
   ['constant',['Constant',['../structValueRef_1_1Constant.html#a5446689d20b6e69bd0688fba1b4cb0e7',1,'ValueRef::Constant']]],
   ['constantexpr',['ConstantExpr',['../structValueRef_1_1ValueRefBase.html#a18ff0e35ed3b581677fe21136fc85621',1,'ValueRef::ValueRefBase::ConstantExpr()'],['../structValueRef_1_1Constant.html#a35e37170aca27200b240c86d278595af',1,'ValueRef::Constant::ConstantExpr()'],['../structValueRef_1_1Operation.html#a94182ca556f6351ee7b3294cbb4d6601',1,'ValueRef::Operation::ConstantExpr()']]],
