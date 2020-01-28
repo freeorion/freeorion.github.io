@@ -86,7 +86,6 @@ var searchData=
   ['numempires',['NumEmpires',['../classEmpireManager.html#ab5d7d2124f6cc05c2bb0c67d3c57bc36',1,'EmpireManager']]],
   ['numestablishedplayers',['NumEstablishedPlayers',['../classServerNetworking.html#ab3d74c8a6017005548ef483e47e34ad6',1,'ServerNetworking']]],
   ['numnativespecies',['NumNativeSpecies',['../classSpeciesManager.html#abbd80dbaad43022055b196991fefa847',1,'SpeciesManager']]],
-  ['numobjects',['NumObjects',['../classObjectMap.html#a648cd403573ebb16c994dbca395b0639',1,'ObjectMap::NumObjects() const'],['../classObjectMap.html#a7867fa108d26214164fe19f773069dbd',1,'ObjectMap::NumObjects() const']]],
   ['numplayablespecies',['NumPlayableSpecies',['../classSpeciesManager.html#aaf48c275f998c587c8451b31508dc503',1,'SpeciesManager']]],
   ['numships',['NumShips',['../classFleet.html#a10ff9f4c555b82efabba54e80884cf62',1,'Fleet']]],
   ['numsitrepentries',['NumSitRepEntries',['../classEmpire.html#a785d7042dc7bc0f4ee22969a5a39408d',1,'Empire']]],

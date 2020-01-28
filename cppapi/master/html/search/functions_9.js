@@ -91,7 +91,7 @@ var searchData=
   ['inrect',['InRect',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#adcb5e318b3f889031cce9f4aa0bd8280',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['inresearchviewmode',['InResearchViewMode',['../classMapWnd.html#af5a173c2273caf3ebc08942626aa3ebf',1,'MapWnd']]],
   ['inresizetab',['InResizeTab',['../classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8',1,'CUIWnd']]],
-  ['insert',['Insert',['../classObjectMap.html#ac9fd026e50b13e3de3e99d83f28119bc',1,'ObjectMap::Insert()'],['../classSystem.html#a5dcc42c94d61e9014e26d038437b0f30',1,'System::Insert()'],['../structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802',1,'ProductionQueue::insert()'],['../structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d',1,'ResearchQueue::insert()'],['../classOrderSet.html#a834932690510663ba89ae04c98474050',1,'OrderSet::insert()']]],
+  ['insert',['Insert',['../classSystem.html#a5dcc42c94d61e9014e26d038437b0f30',1,'System::Insert()'],['../structProductionQueue.html#ae0c0f6b38bbd6bdbe84a3f122a50e802',1,'ProductionQueue::insert()'],['../structResearchQueue.html#a4385f097f4cd0fb5992c3ed0b76d2a6d',1,'ResearchQueue::insert()'],['../classObjectMap.html#aa8042d28cca692381a0e6cc22d0c63f6',1,'ObjectMap::insert()'],['../classOrderSet.html#a834932690510663ba89ae04c98474050',1,'OrderSet::insert()']]],
   ['insert_5fbuilding',['insert_building',['../namespaceanonymous__namespace_02BuildingsParser_8cpp_03.html#a01ad75203486732eb91addacbd656f49',1,'anonymous_namespace{BuildingsParser.cpp}']]],
   ['insert_5fcategory',['insert_category',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a5518744cd8a06ca1db00859e7df7332c',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['insert_5ffieldtype',['insert_fieldtype',['../namespaceanonymous__namespace_02FieldsParser_8cpp_03.html#ad6abc54204684caad54b96a0d0c216cf',1,'anonymous_namespace{FieldsParser.cpp}']]],
@@ -105,7 +105,7 @@ var searchData=
   ['insert_5ftech',['insert_tech',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a6d62d36695dc9c48a9cb364fcf1707c3',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['insertbefore',['InsertBefore',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a795274c69d16c1dc2d6699f8a643a710',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager::InsertBefore()'],['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a96f1320ddfc2ce86dd61393cbae7ed31',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager::InsertBefore()']]],
   ['insertbyempirewithid',['InsertByEmpireWithID',['../classUniverse.html#a8443d415555607b8dfae9b677401fdb8',1,'Universe']]],
-  ['insertcore',['InsertCore',['../classObjectMap.html#a9942f1361d84ff0410d2321bc57e49a8',1,'ObjectMap']]],
+  ['insertcore',['insertCore',['../classObjectMap.html#aad44ee48dfed98d0b682a33c4c532a3c',1,'ObjectMap']]],
   ['insertempire',['InsertEmpire',['../classEmpireManager.html#af022e843eb5a089e5f1f7d4617506a98',1,'EmpireManager']]],
   ['insertfleetwithships',['InsertFleetWithShips',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#a730fb9c571f2d889b333e3deb7cab65f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['inserthullbefore',['InsertHullBefore',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#aeaceb34e6d9c689b566a886ceb7f8b88',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
@@ -245,5 +245,5 @@ var searchData=
   ['itemrightclickedimpl',['ItemRightClickedImpl',['../classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f',1,'BasesListBox::ItemRightClickedImpl()'],['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::ItemRightClickedImpl()'],['../classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522',1,'QueueListBox::ItemRightClickedImpl()'],['../classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2',1,'ResearchQueueListBox::ItemRightClickedImpl()']]],
   ['items',['items',['../namespaceparse.html#a049bdf8902cc3205a4140f135da425f8',1,'parse']]],
   ['itemspec',['ItemSpec',['../structItemSpec.html#a0e17326d26d61a63d45504cbc25769c0',1,'ItemSpec::ItemSpec()'],['../structItemSpec.html#a2e6c0ca7e026207ccb768dcb7c576941',1,'ItemSpec::ItemSpec(UnlockableItemType type_, const std::string &amp;name_)']]],
-  ['iterator',['iterator',['../structObjectMap_1_1iterator.html#ad40e3c6a9e1b8d88964da978e9d2ace2',1,'ObjectMap::iterator']]]
+  ['iterator',['iterator',['../structObjectMap_1_1iterator.html#a2c88fba5c2708da5357512dfd4169eff',1,'ObjectMap::iterator']]]
 ];
