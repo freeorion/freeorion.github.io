@@ -14,6 +14,7 @@ var searchData=
   ['affil_5fenemy',['AFFIL_ENEMY',['../Enums_8h.html#a7af13df8e7c78b6e852674068d4dd5cf',1,'Enums.h']]],
   ['affil_5fhuman',['AFFIL_HUMAN',['../Enums_8h.html#aa6449706dcc3ae7a058e205d864f5dea',1,'Enums.h']]],
   ['affil_5fnone',['AFFIL_NONE',['../Enums_8h.html#ae26cc52a181a7b880ffc69028b513937',1,'Enums.h']]],
+  ['affil_5fpeace',['AFFIL_PEACE',['../Enums_8h.html#a63d8b8ea44eea50a5afd7ec9c8072eaa',1,'Enums.h']]],
   ['affil_5fself',['AFFIL_SELF',['../Enums_8h.html#a29510312389b9b2b2b68b0189d3622c0',1,'Enums.h']]],
   ['aggressive',['aggressive',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a107ee15137e767a7b61e2a22e400fa64',1,'parse::detail::condition_parser_rules_1::aggressive()'],['../Enums_8h.html#aa852d37d166092b0d067e4781bb5c004',1,'AGGRESSIVE():&#160;Enums.h']]],
   ['aiintgetempireint',['AIIntGetEmpireInt',['../AIWrapper_8cpp.html#a9501d48cc725c61dee7553d371c10107',1,'AIWrapper.cpp']]],

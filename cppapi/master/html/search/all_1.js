@@ -113,6 +113,7 @@ var searchData=
   ['affil_5fenemy',['AFFIL_ENEMY',['../Enums_8h.html#a7af13df8e7c78b6e852674068d4dd5cf',1,'Enums.h']]],
   ['affil_5fhuman',['AFFIL_HUMAN',['../Enums_8h.html#aa6449706dcc3ae7a058e205d864f5dea',1,'Enums.h']]],
   ['affil_5fnone',['AFFIL_NONE',['../Enums_8h.html#ae26cc52a181a7b880ffc69028b513937',1,'Enums.h']]],
+  ['affil_5fpeace',['AFFIL_PEACE',['../Enums_8h.html#a63d8b8ea44eea50a5afd7ec9c8072eaa',1,'Enums.h']]],
   ['affil_5fself',['AFFIL_SELF',['../Enums_8h.html#a29510312389b9b2b2b68b0189d3622c0',1,'Enums.h']]],
   ['affiliation',['Affiliation',['../classEffect_1_1GenerateSitRepMessage.html#a0066fd7cb4211b6b4d4540588aece954',1,'Effect::GenerateSitRepMessage::Affiliation()'],['../classEffect_1_1SetVisibility.html#af37205733499eeaae0e01795e2486c3c',1,'Effect::SetVisibility::Affiliation()']]],
   ['ageinturns',['AgeInTurns',['../classUniverseObject.html#ade0d2aa27aa9bd6f5579a7448be84916',1,'UniverseObject']]],
