@@ -15,7 +15,6 @@ var searchData=
   ['handlediplomaticmessagechange',['HandleDiplomaticMessageChange',['../classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda',1,'ServerApp::HandleDiplomaticMessageChange()'],['../classPlayerListWnd.html#aaba99e43e4a04340ed3d1eb5d4089291',1,'PlayerListWnd::HandleDiplomaticMessageChange()']]],
   ['handlediplomaticstatuschange',['HandleDiplomaticStatusChange',['../classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb',1,'ServerApp::HandleDiplomaticStatusChange()'],['../classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9',1,'MessageWnd::HandleDiplomaticStatusChange()']]],
   ['handlediplomaticstatusupdate',['HandleDiplomaticStatusUpdate',['../classAIBase.html#a2f07f91407132d0daecc583e3edd72c2',1,'AIBase::HandleDiplomaticStatusUpdate()'],['../classPythonAI.html#af67107d63f079cb9f50af6730f398d00',1,'PythonAI::HandleDiplomaticStatusUpdate()']]],
-  ['handleempirestatusupdate',['HandleEmpireStatusUpdate',['../classPlayerListWnd.html#ab602e0bb29103079d416577b154f5783',1,'PlayerListWnd']]],
   ['handleerroralreadyset',['HandleErrorAlreadySet',['../classPythonBase.html#a92992f6414692dca51785fd91bd4c019',1,'PythonBase']]],
   ['handleerrormessage',['HandleErrorMessage',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#ae29a7254d5843cdef6d981e85a396304',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['handleexception',['HandleException',['../classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54',1,'ClientNetworking::Impl']]],

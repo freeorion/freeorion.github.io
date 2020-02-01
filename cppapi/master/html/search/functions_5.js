@@ -67,7 +67,6 @@ var searchData=
   ['empiresitreptemplatestrings',['EmpireSitRepTemplateStrings',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a636bdba65d350f3a1f360946cd91f59d',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['empirestaleknowledgeobjectids',['EmpireStaleKnowledgeObjectIDs',['../classUniverse.html#ae14b6c952c8b50af0483a4cd0f81e89f',1,'Universe']]],
   ['empirestats',['EmpireStats',['../classUniverse.html#a869831f245dd1ae7f746edb8ed7ce3ab',1,'Universe']]],
-  ['empirestatus',['EmpireStatus',['../classClientApp.html#a95982993d8d2878868d04ebaa87e4649',1,'ClientApp::EmpireStatus()'],['../classClientApp.html#ab0e4f86756fa4ee37c46b7bc1649b8ac',1,'ClientApp::EmpireStatus() const']]],
   ['empirestockpilevalue',['EmpireStockpileValue',['../structCondition_1_1EmpireStockpileValue.html#afc3e73bd91a3d5c7462bb5dd7a84b681',1,'Condition::EmpireStockpileValue']]],
   ['empirestockpilevaluesimplematch',['EmpireStockpileValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1EmpireStockpileValueSimpleMatch.html#ac735ebe483acf3bdee416082c0c72a9c',1,'Condition::anonymous_namespace{Condition.cpp}::EmpireStockpileValueSimpleMatch']]],
   ['empirethatcansupplyat',['EmpireThatCanSupplyAt',['../classSupplyManager.html#a77bc24f72751460de32e95f69770dc98',1,'SupplyManager']]],
