@@ -263,7 +263,6 @@ var searchData=
   ['connecttoserver',['ConnectToServer',['../classAIClientApp.html#a7aebb32ffb1b848cd06621299ee0272e',1,'AIClientApp::ConnectToServer()'],['../classClientNetworking_1_1Impl.html#ada080186d8ce53a681fa16ddd686eb14',1,'ClientNetworking::Impl::ConnectToServer()'],['../classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d',1,'ClientNetworking::ConnectToServer()']]],
   ['conquer',['Conquer',['../classPlanet.html#ae7db84264c28a0e961215dd136cf3782',1,'Planet']]],
   ['conquerproductionqueueitemsatlocation',['ConquerProductionQueueItemsAtLocation',['../classEmpire.html#a0efd19871b31ed5873a359224f7e0956',1,'Empire']]],
-  ['const_5fiterator',['const_iterator',['../structObjectMap_1_1const__iterator.html#ab065bf5df7afadc05c466a79324eabd2',1,'ObjectMap::const_iterator']]],
   ['constant',['Constant',['../structValueRef_1_1Constant.html#a5446689d20b6e69bd0688fba1b4cb0e7',1,'ValueRef::Constant']]],
   ['constantexpr',['ConstantExpr',['../structValueRef_1_1ValueRefBase.html#a18ff0e35ed3b581677fe21136fc85621',1,'ValueRef::ValueRefBase::ConstantExpr()'],['../structValueRef_1_1Constant.html#a35e37170aca27200b240c86d278595af',1,'ValueRef::Constant::ConstantExpr()'],['../structValueRef_1_1Operation.html#a94182ca556f6351ee7b3294cbb4d6601',1,'ValueRef::Operation::ConstantExpr()']]],
   ['construct_5feffectsgroup',['construct_EffectsGroup',['../namespaceparse.html#a86aa9ab799cb6a57e3a90c1ebd364e06',1,'parse']]],
