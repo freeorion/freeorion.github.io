@@ -135,6 +135,7 @@ var searchData=
   ['forgetobject',['ForgetObject',['../classMapWnd.html#a24447a614ee682e9c5c17222d326ab56',1,'MapWnd']]],
   ['forgetorder',['ForgetOrder',['../classForgetOrder.html#a6cac205cf0dc6b6a8733fc58257c235c',1,'ForgetOrder::ForgetOrder(int empire, int object_id)'],['../classForgetOrder.html#a4f650fcdd20c16bc020d2792c4876e75',1,'ForgetOrder::ForgetOrder()=default']]],
   ['formatduration',['FormatDuration',['../classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c',1,'ScopedTimer::Impl']]],
+  ['formatdurationfixedunits',['FormatDurationFixedUnits',['../classScopedTimer_1_1Impl.html#aa6a705f144994b94b31bd577f5e06ae4',1,'ScopedTimer::Impl']]],
   ['formateddescriptionpropertynames',['FormatedDescriptionPropertyNames',['../namespaceValueRef.html#a3086226bbfd2bf95db297251b666db57',1,'ValueRef']]],
   ['formattimestamp',['FormatTimestamp',['../classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca',1,'ClientUI']]],
   ['fpsindicator',['FPSIndicator',['../classFPSIndicator.html#a358b3e72e1717b6a6ec0ec232a331721',1,'FPSIndicator']]],

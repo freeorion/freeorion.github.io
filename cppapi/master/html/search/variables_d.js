@@ -1360,6 +1360,7 @@ var searchData=
   ['m_5fui_5fdata',['m_ui_data',['../structPlayerSaveGameData.html#a64df313f65883f8640817e330d785cee',1,'PlayerSaveGameData']]],
   ['m_5funchecked_5fcolor',['m_unchecked_color',['../classCUIIconButtonRepresenter.html#aef51b2c03e52d66f539d08846ff17bee',1,'CUIIconButtonRepresenter']]],
   ['m_5funchecked_5ficon',['m_unchecked_icon',['../classCUIIconButtonRepresenter.html#abd7da0eb8833d3fcdfbf22837bd08252',1,'CUIIconButtonRepresenter']]],
+  ['m_5funify_5funits',['m_unify_units',['../classSectionedScopedTimer_1_1Impl.html#a714f682c6b7cd4e6aad4a685475e6a1a',1,'SectionedScopedTimer::Impl']]],
   ['m_5funits_5fstr',['m_units_str',['../classResourceInfoPanel.html#a98d7d6df29500d6d0b81d14dd5e2d80b',1,'ResourceInfoPanel']]],
   ['m_5funiverse',['m_universe',['../classClientApp.html#adfc060e08597a57a57506cc2addd0c86',1,'ClientApp::m_universe()'],['../classServerApp.html#a58ad28ffda15a992b9734fec154782ba',1,'ServerApp::m_universe()']]],
   ['m_5funiverse_5fwidth',['m_universe_width',['../classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6',1,'Universe']]],

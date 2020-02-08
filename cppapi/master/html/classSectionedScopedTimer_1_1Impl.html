@@ -66,7 +66,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classSectionedScopedTimer_1_1Impl-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SectionedScopedTimer::Impl Class Reference</div>  </div>
@@ -92,14 +93,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aefb56ef1b5853a95eb79a8670193b41d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#aefb56ef1b5853a95eb79a8670193b41d">Impl</a> (const std::string &amp;timed_name, bool enable_output, std::chrono::microseconds threshold)</td></tr>
-<tr class="separator:aefb56ef1b5853a95eb79a8670193b41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855311824ea6f1fcb22be8710842b47b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a855311824ea6f1fcb22be8710842b47b">Impl</a> (const std::string &amp;timed_name, std::chrono::microseconds threshold, bool enable_output, bool unify_section_duration_units)</td></tr>
+<tr class="separator:a855311824ea6f1fcb22be8710842b47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ef782618b78331df0c0999369cc5ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a60ef782618b78331df0c0999369cc5ce">~Impl</a> ()</td></tr>
 <tr class="memdesc:a60ef782618b78331df0c0999369cc5ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor will print the table of accumulated times.  <a href="#a60ef782618b78331df0c0999369cc5ce">More...</a><br /></td></tr>
 <tr class="separator:a60ef782618b78331df0c0999369cc5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ab0d62026b5e3c86a989bebe9900351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSectionedScopedTimer_1_1Impl_1_1Sections.html">Sections</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a1ab0d62026b5e3c86a989bebe9900351">CreateSections</a> (const std::chrono::high_resolution_clock::time_point &amp;now)</td></tr>
-<tr class="memdesc:a1ab0d62026b5e3c86a989bebe9900351"><td class="mdescLeft">&#160;</td><td class="mdescRight">CreateSections allow m_sections to only be initialized if it is used.  <a href="#a1ab0d62026b5e3c86a989bebe9900351">More...</a><br /></td></tr>
-<tr class="separator:a1ab0d62026b5e3c86a989bebe9900351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91262b59cc3f7352622b6f12d7467b2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a91262b59cc3f7352622b6f12d7467b2b">EnterSection</a> (const std::string &amp;section_name)</td></tr>
 <tr class="separator:a91262b59cc3f7352622b6f12d7467b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classScopedTimer_1_1Impl"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classScopedTimer_1_1Impl')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classScopedTimer_1_1Impl.html">ScopedTimer::Impl</a></td></tr>
@@ -107,13 +105,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32b59bc691888612f24e05954d83331b inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5b0f2e7e5428696e8c756efc138524 inherit pub_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a9e5b0f2e7e5428696e8c756efc138524">~Impl</a> ()</td></tr>
 <tr class="separator:a9e5b0f2e7e5428696e8c756efc138524 inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6392cac211de57b83ef3e9d8dcae83fc inherit pub_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6392cac211de57b83ef3e9d8dcae83fc">ShouldOutput</a> (const std::chrono::nanoseconds &amp;duration)</td></tr>
-<tr class="separator:a6392cac211de57b83ef3e9d8dcae83fc inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94e1ac7658d56c28c94b0d06dd01d6c inherit pub_methods_classScopedTimer_1_1Impl"><td class="memTemplParams" colspan="2">template&lt;typename UNITS  = std::chrono::seconds&gt; </td></tr>
+<tr class="memitem:ad94e1ac7658d56c28c94b0d06dd01d6c inherit pub_methods_classScopedTimer_1_1Impl"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#ad94e1ac7658d56c28c94b0d06dd01d6c">Duration</a> () const</td></tr>
+<tr class="separator:ad94e1ac7658d56c28c94b0d06dd01d6c inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d163c11b3e59fe5b83b706d6491790c inherit pub_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a8d163c11b3e59fe5b83b706d6491790c">DurationString</a> () const</td></tr>
+<tr class="separator:a8d163c11b3e59fe5b83b706d6491790c inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f26bb02e8e3729d1067d5b1709e0c73 inherit pub_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a0f26bb02e8e3729d1067d5b1709e0c73">Restart</a> ()</td></tr>
+<tr class="separator:a0f26bb02e8e3729d1067d5b1709e0c73 inherit pub_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1ab0d62026b5e3c86a989bebe9900351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSectionedScopedTimer_1_1Impl_1_1Sections.html">Sections</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a1ab0d62026b5e3c86a989bebe9900351">CreateSections</a> (const std::chrono::high_resolution_clock::time_point &amp;now)</td></tr>
+<tr class="memdesc:a1ab0d62026b5e3c86a989bebe9900351"><td class="mdescLeft">&#160;</td><td class="mdescRight">CreateSections allow m_sections to only be initialized if it is used.  <a href="#a1ab0d62026b5e3c86a989bebe9900351">More...</a><br /></td></tr>
+<tr class="separator:a1ab0d62026b5e3c86a989bebe9900351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a33f5611c8becb3e011968318ec5a26c9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structSectionedScopedTimer_1_1Impl_1_1Sections.html">Sections</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a33f5611c8becb3e011968318ec5a26c9">m_sections</a></td></tr>
 <tr class="separator:a33f5611c8becb3e011968318ec5a26c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714f682c6b7cd4e6aad4a685475e6a1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer_1_1Impl.html#a714f682c6b7cd4e6aad4a685475e6a1a">m_unify_units</a> = false</td></tr>
+<tr class="separator:a714f682c6b7cd4e6aad4a685475e6a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classScopedTimer_1_1Impl"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classScopedTimer_1_1Impl')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classScopedTimer_1_1Impl.html">ScopedTimer::Impl</a></td></tr>
+<tr class="memitem:a6b1ab431ff5a0c67456e3bfc3641f97c inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c">FormatDuration</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;<a class="el" href="classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a">duration</a>)</td></tr>
+<tr class="separator:a6b1ab431ff5a0c67456e3bfc3641f97c inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a705f144994b94b31bd577f5e06ae4 inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memTemplParams" colspan="2">template&lt;typename UNITS  = std::chrono::milliseconds&gt; </td></tr>
+<tr class="memitem:aa6a705f144994b94b31bd577f5e06ae4 inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#aa6a705f144994b94b31bd577f5e06ae4">FormatDurationFixedUnits</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;<a class="el" href="classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a">duration</a>)</td></tr>
+<tr class="separator:aa6a705f144994b94b31bd577f5e06ae4 inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classScopedTimer_1_1Impl"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classScopedTimer_1_1Impl')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classScopedTimer_1_1Impl.html">ScopedTimer::Impl</a></td></tr>
 <tr class="memitem:ab32b1c7c165f6af051c1f7c59af4d2a0 inherit pub_attribs_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#ab32b1c7c165f6af051c1f7c59af4d2a0">m_enable_output</a></td></tr>
 <tr class="separator:ab32b1c7c165f6af051c1f7c59af4d2a0 inherit pub_attribs_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,16 +143,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab2255026964071d58756f83a84cb52ff inherit pub_attribs_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e743e3c95abf2d99fb502767fdcf830 inherit pub_attribs_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">std::chrono::microseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a9e743e3c95abf2d99fb502767fdcf830">m_threshold</a></td></tr>
 <tr class="separator:a9e743e3c95abf2d99fb502767fdcf830 inherit pub_attribs_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classScopedTimer_1_1Impl"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classScopedTimer_1_1Impl')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classScopedTimer_1_1Impl.html">ScopedTimer::Impl</a></td></tr>
-<tr class="memitem:a6b1ab431ff5a0c67456e3bfc3641f97c inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c">FormatDuration</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;duration)</td></tr>
-<tr class="separator:a6b1ab431ff5a0c67456e3bfc3641f97c inherit pub_static_methods_classScopedTimer_1_1Impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aefb56ef1b5853a95eb79a8670193b41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb56ef1b5853a95eb79a8670193b41d">&#9670;&nbsp;</a></span>Impl()</h2>
+<a id="a855311824ea6f1fcb22be8710842b47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a855311824ea6f1fcb22be8710842b47b">&#9670;&nbsp;</a></span>Impl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,14 +163,20 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::chrono::microseconds&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>enable_output</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::chrono::microseconds&#160;</td>
-          <td class="paramname"><em>threshold</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unify_section_duration_units</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -198,7 +218,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The destructor will print the table of accumulated times. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a">ScopedTimer::duration()</a>, and <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>.</p>
 
 </div>
 </div>
@@ -222,7 +242,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -263,11 +283,41 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="structSectionedScopedTimer_1_1Impl_1_1Sections.html">Sections</a>&gt; SectionedScopedTimer::Impl::m_sections</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a714f682c6b7cd4e6aad4a685475e6a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a714f682c6b7cd4e6aad4a685475e6a1a">&#9670;&nbsp;</a></span>m_unify_units</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SectionedScopedTimer::Impl::m_unify_units = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

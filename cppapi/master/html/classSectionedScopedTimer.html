@@ -81,10 +81,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a72057de120ec4924101cb2c8b1d7e8f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a72057de120ec4924101cb2c8b1d7e8f4">SectionedScopedTimer</a> (const std::string &amp;timed_name, bool enable_output=false, std::chrono::microseconds threshold=std::chrono::milliseconds(1))</td></tr>
-<tr class="separator:a72057de120ec4924101cb2c8b1d7e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac392362896acbf4686fcb5ec3d1d753"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#aac392362896acbf4686fcb5ec3d1d753">SectionedScopedTimer</a> (const std::string &amp;timed_name, std::chrono::microseconds threshold)</td></tr>
-<tr class="separator:aac392362896acbf4686fcb5ec3d1d753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9451a5183a9bae3e1f9894f6f0787eb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a9451a5183a9bae3e1f9894f6f0787eb0">SectionedScopedTimer</a> (const std::string &amp;timed_name, std::chrono::microseconds threshold=std::chrono::milliseconds(1), bool enable_output=true, bool unify_section_duration_units=true)</td></tr>
+<tr class="separator:a9451a5183a9bae3e1f9894f6f0787eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#a63bad1a11fc01af8a76f8cdaeb0570b0">~SectionedScopedTimer</a> ()</td></tr>
 <tr class="separator:a63bad1a11fc01af8a76f8cdaeb0570b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb3eebdb3c4e3c9b3f1dbe3905a25ba3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSectionedScopedTimer.html#aeb3eebdb3c4e3c9b3f1dbe3905a25ba3">EnterSection</a> (const std::string &amp;section_name)</td></tr>
@@ -105,31 +103,40 @@ Private Attributes</h2></td></tr>
 <p>When <a class="el" href="classSectionedScopedTimer.html" title="Logs period during which a this object or named sub sections existed. ">SectionedScopedTimer</a> goes out of scope it will print a table of its elapsed time and the sub sections.</p>
 <p>It only prints times if the time is greater than the threshold. Each section is only printed if its time is greater than the threshold. The whole table is only printed if the total time is greater than the threshold.</p>
 <p>The following is a usage example. It shows how to create timer with a section before a loop, two sections in a loop, a section after a loop and a section that will not be timed.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> function_to_profile () {</div><div class="line"></div><div class="line">    <a class="code" href="classSectionedScopedTimer.html">SectionedScopedTimer</a> timer(<span class="stringliteral">&quot;Title&quot;</span>, std::chrono::milliseconds(1));</div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;initial section&quot;</span>);</div><div class="line"></div><div class="line">    profiled_code();</div><div class="line"></div><div class="line">    <span class="keywordflow">for</span> () {</div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 1 section&quot;</span>);</div><div class="line"></div><div class="line">        more_code();</div><div class="line"></div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 2 section&quot;</span>);</div><div class="line"></div><div class="line">        even_more_code();</div><div class="line">    }</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;&quot;</span>); <span class="comment">// don&#39;t time this section</span></div><div class="line"></div><div class="line">    untimed_code();</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;final section&quot;</span>);</div><div class="line"></div><div class="line">    final_timed_code()</div><div class="line">}</div></div><!-- fragment --><p>The tables of times will look like the following:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> function_to_profile () {</div><div class="line"></div><div class="line">    <a class="code" href="classSectionedScopedTimer.html">SectionedScopedTimer</a> timer(<span class="stringliteral">&quot;Title&quot;</span>);</div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;initial section&quot;</span>);</div><div class="line"></div><div class="line">    profiled_code();</div><div class="line"></div><div class="line">    <span class="keywordflow">for</span> () {</div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 1 section&quot;</span>);</div><div class="line"></div><div class="line">        more_code();</div><div class="line"></div><div class="line">        timer.EnterSection(<span class="stringliteral">&quot;for loop 2 section&quot;</span>);</div><div class="line"></div><div class="line">        even_more_code();</div><div class="line">    }</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;&quot;</span>); <span class="comment">// don&#39;t time this section</span></div><div class="line"></div><div class="line">    untimed_code();</div><div class="line"></div><div class="line">    timer.EnterSection(<span class="stringliteral">&quot;final section&quot;</span>);</div><div class="line"></div><div class="line">    final_timed_code()</div><div class="line">}</div></div><!-- fragment --><p>The tables of times will look like the following:</p>
 <div class="fragment"><div class="line">Title - initial section    time: xxxx ms</div><div class="line">Title - <span class="keywordflow">for</span> loop 1 section time: xxxx ms</div><div class="line">Title - <span class="keywordflow">for</span> loop 2 section time: xxxx ms</div><div class="line">Title - <span class="keyword">final</span> section      time: xxxx ms</div><div class="line">Title                      time: xxxx ms</div></div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a72057de120ec4924101cb2c8b1d7e8f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72057de120ec4924101cb2c8b1d7e8f4">&#9670;&nbsp;</a></span>SectionedScopedTimer() <span class="overload">[1/2]</span></h2>
+<a id="a9451a5183a9bae3e1f9894f6f0787eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9451a5183a9bae3e1f9894f6f0787eb0">&#9670;&nbsp;</a></span>SectionedScopedTimer()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">SectionedScopedTimer::SectionedScopedTimer </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>timed_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::chrono::microseconds&#160;</td>
+          <td class="paramname"><em>threshold</em> = <code>std::chrono::milliseconds(1)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enable_output</em> = <code>false</code>, </td>
+          <td class="paramname"><em>enable_output</em> = <code>true</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::chrono::microseconds&#160;</td>
-          <td class="paramname"><em>threshold</em> = <code>std::chrono::milliseconds(1)</code>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unify_section_duration_units</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -137,34 +144,11 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac392362896acbf4686fcb5ec3d1d753"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac392362896acbf4686fcb5ec3d1d753">&#9670;&nbsp;</a></span>SectionedScopedTimer() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SectionedScopedTimer::SectionedScopedTimer </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>timed_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::chrono::microseconds&#160;</td>
-          <td class="paramname"><em>threshold</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -208,7 +192,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classSectionedScopedTimer.html#a5330e058ed9987af018a2624bdc39ae8">m_impl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">MapWnd::DispatchFleetsExploring()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">EncyclopediaDetailPanel::DoLayout()</a>, and <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">MapWnd::DispatchFleetsExploring()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a04f5abe0cca5435d5aafed1d9c8c34b7">EncyclopediaDetailPanel::DoLayout()</a>, <a class="el" href="classUniverse.html#a1c8dfb7b91ada70407343b0f79e9cf5c">Universe::GetEffectsAndTargets()</a>, and <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>.</p>
 
 </div>
 </div>

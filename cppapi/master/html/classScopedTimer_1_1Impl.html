@@ -90,13 +90,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32b59bc691888612f24e05954d83331b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5b0f2e7e5428696e8c756efc138524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a9e5b0f2e7e5428696e8c756efc138524">~Impl</a> ()</td></tr>
 <tr class="separator:a9e5b0f2e7e5428696e8c756efc138524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6392cac211de57b83ef3e9d8dcae83fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6392cac211de57b83ef3e9d8dcae83fc">ShouldOutput</a> (const std::chrono::nanoseconds &amp;duration)</td></tr>
-<tr class="separator:a6392cac211de57b83ef3e9d8dcae83fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94e1ac7658d56c28c94b0d06dd01d6c"><td class="memTemplParams" colspan="2">template&lt;typename UNITS  = std::chrono::seconds&gt; </td></tr>
+<tr class="memitem:ad94e1ac7658d56c28c94b0d06dd01d6c"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#ad94e1ac7658d56c28c94b0d06dd01d6c">Duration</a> () const</td></tr>
+<tr class="separator:ad94e1ac7658d56c28c94b0d06dd01d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d163c11b3e59fe5b83b706d6491790c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a8d163c11b3e59fe5b83b706d6491790c">DurationString</a> () const</td></tr>
+<tr class="separator:a8d163c11b3e59fe5b83b706d6491790c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f26bb02e8e3729d1067d5b1709e0c73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a0f26bb02e8e3729d1067d5b1709e0c73">Restart</a> ()</td></tr>
+<tr class="separator:a0f26bb02e8e3729d1067d5b1709e0c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6b1ab431ff5a0c67456e3bfc3641f97c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c">FormatDuration</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;duration)</td></tr>
+<tr class="memitem:a6b1ab431ff5a0c67456e3bfc3641f97c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#a6b1ab431ff5a0c67456e3bfc3641f97c">FormatDuration</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;<a class="el" href="classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a">duration</a>)</td></tr>
 <tr class="separator:a6b1ab431ff5a0c67456e3bfc3641f97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a705f144994b94b31bd577f5e06ae4"><td class="memTemplParams" colspan="2">template&lt;typename UNITS  = std::chrono::milliseconds&gt; </td></tr>
+<tr class="memitem:aa6a705f144994b94b31bd577f5e06ae4"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classScopedTimer_1_1Impl.html#aa6a705f144994b94b31bd577f5e06ae4">FormatDurationFixedUnits</a> (std::stringstream &amp;ss, const std::chrono::nanoseconds &amp;<a class="el" href="classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a">duration</a>)</td></tr>
+<tr class="separator:aa6a705f144994b94b31bd577f5e06ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -180,6 +188,58 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad94e1ac7658d56c28c94b0d06dd01d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94e1ac7658d56c28c94b0d06dd01d6c">&#9670;&nbsp;</a></span>Duration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename UNITS  = std::chrono::seconds&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ScopedTimer::Impl::Duration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d163c11b3e59fe5b83b706d6491790c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d163c11b3e59fe5b83b706d6491790c">&#9670;&nbsp;</a></span>DurationString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ScopedTimer::Impl::DurationString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6b1ab431ff5a0c67456e3bfc3641f97c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b1ab431ff5a0c67456e3bfc3641f97c">&#9670;&nbsp;</a></span>FormatDuration()</h2>
 
@@ -216,8 +276,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6392cac211de57b83ef3e9d8dcae83fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6392cac211de57b83ef3e9d8dcae83fc">&#9670;&nbsp;</a></span>ShouldOutput()</h2>
+<a id="aa6a705f144994b94b31bd577f5e06ae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a705f144994b94b31bd577f5e06ae4">&#9670;&nbsp;</a></span>FormatDurationFixedUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename UNITS  = std::chrono::milliseconds&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ScopedTimer::Impl::FormatDurationFixedUnits </td>
+          <td>(</td>
+          <td class="paramtype">std::stringstream &amp;&#160;</td>
+          <td class="paramname"><em>ss</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::chrono::nanoseconds &amp;&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f26bb02e8e3729d1067d5b1709e0c73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f26bb02e8e3729d1067d5b1709e0c73">&#9670;&nbsp;</a></span>Restart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,10 +324,9 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ScopedTimer::Impl::ShouldOutput </td>
+          <td class="memname">void ScopedTimer::Impl::Restart </td>
           <td>(</td>
-          <td class="paramtype">const std::chrono::nanoseconds &amp;&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
