@@ -2,8 +2,6 @@ var searchData=
 [
   ['effect_2ecpp',['Effect.cpp',['../Effect_8cpp.html',1,'']]],
   ['effect_2eh',['Effect.h',['../Effect_8h.html',1,'']]],
-  ['effectaccounting_2ecpp',['EffectAccounting.cpp',['../EffectAccounting_8cpp.html',1,'']]],
-  ['effectaccounting_2eh',['EffectAccounting.h',['../EffectAccounting_8h.html',1,'']]],
   ['effectparser_2ecpp',['EffectParser.cpp',['../EffectParser_8cpp.html',1,'']]],
   ['effectparser_2eh',['EffectParser.h',['../EffectParser_8h.html',1,'']]],
   ['effectparser1_2ecpp',['EffectParser1.cpp',['../EffectParser1_8cpp.html',1,'']]],
@@ -17,6 +15,8 @@ var searchData=
   ['effectparser5_2ecpp',['EffectParser5.cpp',['../EffectParser5_8cpp.html',1,'']]],
   ['effectparser5_2eh',['EffectParser5.h',['../EffectParser5_8h.html',1,'']]],
   ['effectparserimpl_2eh',['EffectParserImpl.h',['../EffectParserImpl_8h.html',1,'']]],
+  ['effects_2ecpp',['Effects.cpp',['../Effects_8cpp.html',1,'']]],
+  ['effects_2eh',['Effects.h',['../Effects_8h.html',1,'']]],
   ['empire_2ecpp',['Empire.cpp',['../Empire_8cpp.html',1,'']]],
   ['empire_2eh',['Empire.h',['../Empire_8h.html',1,'']]],
   ['empiremanager_2ecpp',['EmpireManager.cpp',['../EmpireManager_8cpp.html',1,'']]],

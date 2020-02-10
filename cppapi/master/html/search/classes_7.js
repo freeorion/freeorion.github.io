@@ -1,11 +1,11 @@
 var searchData=
 [
   ['hasspecial',['HasSpecial',['../structCondition_1_1HasSpecial.html',1,'Condition']]],
-  ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasSpecialSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['hasspecialsimplematch',['HasSpecialSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1HasSpecialSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['hastag',['HasTag',['../structCondition_1_1HasTag.html',1,'Condition']]],
-  ['hastagsimplematch',['HasTagSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HasTagSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['hastagsimplematch',['HasTagSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1HasTagSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['homeworld',['Homeworld',['../structCondition_1_1Homeworld.html',1,'Condition']]],
-  ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Condition_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Condition.cpp}']]],
+  ['homeworldsimplematch',['HomeworldSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1HomeworldSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['hostilevisitor',['HostileVisitor',['../structHostileVisitor.html',1,'']]],
   ['hostless',['Hostless',['../structHostless.html',1,'']]],
   ['hostmpgamerequested',['HostMPGameRequested',['../structHostMPGameRequested.html',1,'']]],

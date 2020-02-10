@@ -19,7 +19,7 @@ var searchData=
   ['anonymous_5fnamespace_7bcombatlogwnd_2ecpp_7d',['anonymous_namespace{CombatLogWnd.cpp}',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatreportdata_2ecpp_7d',['anonymous_namespace{CombatReportData.cpp}',['../namespaceanonymous__namespace_02CombatReportData_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatsystem_2ecpp_7d',['anonymous_namespace{CombatSystem.cpp}',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bcondition_2ecpp_7d',['anonymous_namespace{Condition.cpp}',['../namespaceanonymous__namespace_02Condition_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bconditions_2ecpp_7d',['anonymous_namespace{Conditions.cpp}',['../namespaceanonymous__namespace_02Conditions_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bconfigwrapper_2ecpp_7d',['anonymous_namespace{ConfigWrapper.cpp}',['../namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuicontrols_2ecpp_7d',['anonymous_namespace{CUIControls.cpp}',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuidrawutil_2ecpp_7d',['anonymous_namespace{CUIDrawUtil.cpp}',['../namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html',1,'']]],
@@ -28,7 +28,7 @@ var searchData=
   ['anonymous_5fnamespace_7bdesignwnd_2ecpp_7d',['anonymous_namespace{DesignWnd.cpp}',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdiplomacy_2ecpp_7d',['anonymous_namespace{Diplomacy.cpp}',['../namespaceanonymous__namespace_02Diplomacy_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bdirectories_2ecpp_7d',['anonymous_namespace{Directories.cpp}',['../namespaceanonymous__namespace_02Directories_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7beffect_2ecpp_7d',['anonymous_namespace{Effect.cpp}',['../namespaceanonymous__namespace_02Effect_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7beffects_2ecpp_7d',['anonymous_namespace{Effects.cpp}',['../namespaceanonymous__namespace_02Effects_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempire_2ecpp_7d',['anonymous_namespace{Empire.cpp}',['../namespaceanonymous__namespace_02Empire_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempiremanager_2ecpp_7d',['anonymous_namespace{EmpireManager.cpp}',['../namespaceanonymous__namespace_02EmpireManager_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bempirestatsparser_2ecpp_7d',['anonymous_namespace{EmpireStatsParser.cpp}',['../namespaceanonymous__namespace_02EmpireStatsParser_8cpp_03.html',1,'']]],
@@ -134,7 +134,7 @@ var searchData=
   ['anonymous_5fnamespace_7buniversegenerator_2ecpp_7d',['anonymous_namespace{UniverseGenerator.cpp}',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7buniverseobject_2ecpp_7d',['anonymous_namespace{UniverseObject.cpp}',['../namespaceanonymous__namespace_02UniverseObject_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7buniversewrapper_2ecpp_7d',['anonymous_namespace{UniverseWrapper.cpp}',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bvalueref_2ecpp_7d',['anonymous_namespace{ValueRef.cpp}',['../namespaceanonymous__namespace_02ValueRef_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bvaluerefs_2ecpp_7d',['anonymous_namespace{ValueRefs.cpp}',['../namespaceanonymous__namespace_02ValueRefs_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bvartext_2ecpp_7d',['anonymous_namespace{VarText.cpp}',['../namespaceanonymous__namespace_02VarText_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bxmldoc_2ecpp_7d',['anonymous_namespace{XMLDoc.cpp}',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html',1,'']]]
 ];

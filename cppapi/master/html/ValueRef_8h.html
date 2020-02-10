@@ -65,88 +65,25 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">ValueRef.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="Condition_8h.html">Condition.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Universe_8h.html">Universe.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="ScriptingContext_8h.html">ScriptingContext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="i18n_8h.html">../util/i18n.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Random_8h.html">../util/Random.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="CheckSums_8h.html">../util/CheckSums.h</a>&quot;</code><br />
-<code>#include &lt;boost/algorithm/string/case_conv.hpp&gt;</code><br />
-<code>#include &lt;boost/lexical_cast.hpp&gt;</code><br />
-<code>#include &lt;boost/any.hpp&gt;</code><br />
-<code>#include &lt;boost/format.hpp&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html">ScriptingContext</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1ComplexVariable.html">ValueRef::ComplexVariable&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The complex variable <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> class.  <a href="structValueRef_1_1ComplexVariable.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Constant.html">ValueRef::Constant&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the constant value leaf <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> class.  <a href="structValueRef_1_1Constant.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NameLookup.html">ValueRef::NameLookup</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the in-game name of the object / empire / etc.  <a href="structValueRef_1_1NameLookup.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An arithmetic operation node <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> class.  <a href="structValueRef_1_1Operation.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StaticCast.html">ValueRef::StaticCast&lt; FromType, ToType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable static_cast class.  <a href="structValueRef_1_1StaticCast.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Statistic.html">ValueRef::Statistic&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable statistic class.  <a href="structValueRef_1_1Statistic.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1StringCast.html">ValueRef::StringCast&lt; FromType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable lexical_cast to string class.  <a href="structValueRef_1_1StringCast.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1UserStringLookup.html">ValueRef::UserStringLookup&lt; FromType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a string <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> or vector of string ValueRefs, and returns and returns the UserString equivalent(s).  <a href="structValueRef_1_1UserStringLookup.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class for all <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> classes.  <a href="structValueRef_1_1ValueRefBase.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Variable.html">ValueRef::Variable&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable value <a class="el" href="namespaceValueRef.html" title="This namespace contains ValueRefBase and its subclasses. ">ValueRef</a> class.  <a href="structValueRef_1_1Variable.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class for all <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes. ">ValueRef</a> classes.  <a href="structValueRef_1_1ValueRef.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceCheckSums"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html">CheckSums</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceValueRef"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html">ValueRef</a></td></tr>
-<tr class="memdesc:namespaceValueRef"><td class="mdescLeft">&#160;</td><td class="mdescRight">This namespace contains <a class="el" href="structValueRef_1_1ValueRefBase.html" title="The base class for all ValueRef classes. ">ValueRefBase</a> and its subclasses. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0159330aaf179c0a3d5790bc052d84f5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0159330aaf179c0a3d5790bc052d84f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCheckSums.html#a0159330aaf179c0a3d5790bc052d84f5">CheckSums::CheckSumCombine</a> (unsigned int &amp;sum, const typename <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; T &gt; &amp;c)</td></tr>
-<tr class="separator:a0159330aaf179c0a3d5790bc052d84f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba67e86b3f0f4c460883aba99872946f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#aba67e86b3f0f4c460883aba99872946f">ValueRef::ComplexVariableDescription</a> (const std::vector&lt; std::string &gt; &amp;property_names, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref1, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref2, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref3, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *string_ref1, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *string_ref2)</td></tr>
-<tr class="separator:aba67e86b3f0f4c460883aba99872946f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0554d1d1f776725fa70e84620a9a7b3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#ab0554d1d1f776725fa70e84620a9a7b3">ValueRef::ComplexVariableDump</a> (const std::vector&lt; std::string &gt; &amp;property_names, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref1, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref2, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; int &gt; *int_ref3, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *string_ref1, const <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&lt; std::string &gt; *string_ref2)</td></tr>
-<tr class="separator:ab0554d1d1f776725fa70e84620a9a7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3086226bbfd2bf95db297251b666db57"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a3086226bbfd2bf95db297251b666db57">ValueRef::FormatedDescriptionPropertyNames</a> (ReferenceType ref_type, const std::vector&lt; std::string &gt; &amp;property_names, bool return_immediate_value)</td></tr>
-<tr class="separator:a3086226bbfd2bf95db297251b666db57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66980fdda5732f3e7c0ca71a636e0fa1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a66980fdda5732f3e7c0ca71a636e0fa1">ValueRef::MeterToName</a> (MeterType meter)</td></tr>
-<tr class="separator:a66980fdda5732f3e7c0ca71a636e0fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff1e35bb3b59658f6791170be5d9b0ef"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#aff1e35bb3b59658f6791170be5d9b0ef">ValueRef::NameToMeter</a> (const std::string &amp;name)</td></tr>
-<tr class="separator:aff1e35bb3b59658f6791170be5d9b0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e2a2b645c40bc0ee8956e2d1a043636"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a6e2a2b645c40bc0ee8956e2d1a043636">ValueRef::ReconstructName</a> (const std::vector&lt; std::string &gt; &amp;property_name, ReferenceType ref_type, bool return_immediate_value)</td></tr>
-<tr class="separator:a6e2a2b645c40bc0ee8956e2d1a043636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adec3c954d9d001d91fbf37e859c4653d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#adec3c954d9d001d91fbf37e859c4653d">ValueRef::StatisticDescription</a> (StatisticType stat_type, const std::string &amp;value_desc, const std::string &amp;condition_desc)</td></tr>
-<tr class="separator:adec3c954d9d001d91fbf37e859c4653d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
