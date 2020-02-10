@@ -22,7 +22,6 @@ var searchData=
   ['empireforcesaccordionpanel',['EmpireForcesAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html',1,'anonymous_namespace{CombatLogWnd.cpp}']]],
   ['empiremanager',['EmpireManager',['../classEmpireManager.html',1,'']]],
   ['empiremetervalue',['EmpireMeterValue',['../structCondition_1_1EmpireMeterValue.html',1,'Condition']]],
-  ['empiremetervaluesimplematch',['EmpireMeterValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1EmpireMeterValueSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['empirestockpilevalue',['EmpireStockpileValue',['../structCondition_1_1EmpireStockpileValue.html',1,'Condition']]],
   ['empirestockpilevaluesimplematch',['EmpireStockpileValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1EmpireStockpileValueSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['emptyhullslistbox',['EmptyHullsListBox',['../classEmptyHullsListBox.html',1,'']]],
