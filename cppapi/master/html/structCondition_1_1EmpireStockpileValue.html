@@ -94,6 +94,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ea7cb5c387f9452ad4be1cf20b6c327"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#a9ea7cb5c387f9452ad4be1cf20b6c327">EmpireStockpileValue</a> (ResourceType stockpile, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;low, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;high)</td></tr>
 <tr class="separator:a9ea7cb5c387f9452ad4be1cf20b6c327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bec86685bce37e0665770d35817e0af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#a1bec86685bce37e0665770d35817e0af">EmpireStockpileValue</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; int &gt;&gt; &amp;&amp;empire_id, ResourceType stockpile, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;low, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;high)</td></tr>
+<tr class="separator:a1bec86685bce37e0665770d35817e0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d366ed8dc977d0358dcbee536374659"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3d366ed8dc977d0358dcbee536374659">Description</a> (bool negated=false) const override</td></tr>
 <tr class="separator:a3d366ed8dc977d0358dcbee536374659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951f3212c35dc185339295faab57a2d0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#a951f3212c35dc185339295faab57a2d0">Dump</a> (unsigned short ntabs=0) const override</td></tr>
@@ -147,6 +149,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ad394f5a0ebde8512f871797781927d89"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a></td></tr>
+<tr class="separator:ad394f5a0ebde8512f871797781927d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b21174ec67e3adf9faad2b1b628b671"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a></td></tr>
 <tr class="separator:a3b21174ec67e3adf9faad2b1b628b671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab47cd4dd34a5d145f9f84a81f503c848"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a></td></tr>
@@ -173,7 +177,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Matches all objects whose owner's stockpile of <em>stockpile</em> is between <em>low</em> and <em>high</em>, inclusive. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9ea7cb5c387f9452ad4be1cf20b6c327"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ea7cb5c387f9452ad4be1cf20b6c327">&#9670;&nbsp;</a></span>EmpireStockpileValue()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea7cb5c387f9452ad4be1cf20b6c327">&#9670;&nbsp;</a></span>EmpireStockpileValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,6 +185,46 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Condition::EmpireStockpileValue::EmpireStockpileValue </td>
           <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname"><em>stockpile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>high</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bec86685bce37e0665770d35817e0af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bec86685bce37e0665770d35817e0af">&#9670;&nbsp;</a></span>EmpireStockpileValue() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Condition::EmpireStockpileValue::EmpireStockpileValue </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; int &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">ResourceType&#160;</td>
           <td class="paramname"><em>stockpile</em>, </td>
         </tr>
@@ -263,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="structCondition_1_1Condition.html#ad81bb1e9400a7effe399a3992a8a7825">Condition::Condition</a>.</p>
 
-<p class="reference">References <a class="el" href="UniverseObject_8h.html#ae46af1cd3bc2b581bbacd635fb83109a">DumpIndent()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>.</p>
+<p class="reference">References <a class="el" href="UniverseObject_8h.html#ae46af1cd3bc2b581bbacd635fb83109a">DumpIndent()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>.</p>
 
 </div>
 </div>
@@ -315,7 +359,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1Condition.html#a73aa2a9a880394a60eb42f41ddb90fa1">Condition::Condition</a>.</p>
 
-<p class="reference">References <a class="el" href="structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd">ScriptingContext::condition_root_candidate</a>, <a class="el" href="structCondition_1_1Condition.html#a73aa2a9a880394a60eb42f41ddb90fa1">Condition::Condition::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#ab8123b471eadbb64f9fd463413124cd0">anonymous_namespace{Conditions.cpp}::EvalImpl()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#abb87dc7e2d6cc2ba8473df3e11d89f1e">RootCandidateInvariant()</a>.</p>
+<p class="reference">References <a class="el" href="structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd">ScriptingContext::condition_root_candidate</a>, <a class="el" href="structCondition_1_1Condition.html#a73aa2a9a880394a60eb42f41ddb90fa1">Condition::Condition::Eval()</a>, <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#ab8123b471eadbb64f9fd463413124cd0">anonymous_namespace{Conditions.cpp}::EvalImpl()</a>, <a class="el" href="classMeter.html#ad432ea4da9115c778a3d07d0c755a7ae">Meter::LARGE_VALUE</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#abb87dc7e2d6cc2ba8473df3e11d89f1e">RootCandidateInvariant()</a>.</p>
 
 </div>
 </div>
@@ -344,7 +388,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1Condition.html#a886bd4ca89354f93b87d24a5ea81cf6b">Condition::Condition</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="namespaceCheckSums.html#a9b3964cae8c04cda052fe4501ca7e1c6">CheckSums::CheckSumCombine()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -374,7 +418,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="structCondition_1_1Condition.html#a27e21348d602e7c5d97aa48afedf9f86">Condition::Condition</a>.</p>
 
-<p class="reference">References <a class="el" href="structScriptingContext.html#aaeab49b837f0eb00620aeb17d0099f68">ScriptingContext::condition_local_candidate</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>.</p>
+<p class="reference">References <a class="el" href="Diplomacy_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="structScriptingContext.html#aaeab49b837f0eb00620aeb17d0099f68">ScriptingContext::condition_local_candidate</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classMeter.html#ad432ea4da9115c778a3d07d0c755a7ae">Meter::LARGE_VALUE</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad8b03abade0bc0c30381ad39eb049163">m_stockpile</a>.</p>
 
 </div>
 </div>
@@ -506,7 +550,7 @@ template&lt;class Archive &gt; </div>
 
 <p>Implements <a class="el" href="structCondition_1_1Condition.html#a84db2f4f4c2c12398074789dfa1cdc9b">Condition::Condition</a>.</p>
 
-<p class="reference">References <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>.</p>
+<p class="reference">References <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ad394f5a0ebde8512f871797781927d89">m_empire_id</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a3b21174ec67e3adf9faad2b1b628b671">m_high</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#ab47cd4dd34a5d145f9f84a81f503c848">m_low</a>.</p>
 
 </div>
 </div>
@@ -596,6 +640,30 @@ template&lt;class Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad394f5a0ebde8512f871797781927d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad394f5a0ebde8512f871797781927d89">&#9670;&nbsp;</a></span>m_empire_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt;int&gt; &gt; Condition::EmpireStockpileValue::m_empire_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a951f3212c35dc185339295faab57a2d0">Dump()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a2bb722646485a7d32cb2731a8d42bb85">Eval()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a5232767023424ed314ab91ccea0ec665">GetCheckSum()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a1bd9fd790cd7ff9b770cb9095b4f2066">Match()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1EmpireStockpileValueSimpleMatch.html#a8efec1b8b4a9bb9ac8cb254516b11180">Condition::anonymous_namespace{Conditions.cpp}::EmpireStockpileValueSimpleMatch::operator()()</a>, and <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a7936fcf8007ae0edbb479c2065a3a876">SetTopLevelContent()</a>.</p>
+
+</div>
+</div>
 <a id="a3b21174ec67e3adf9faad2b1b628b671"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b21174ec67e3adf9faad2b1b628b671">&#9670;&nbsp;</a></span>m_high</h2>
 

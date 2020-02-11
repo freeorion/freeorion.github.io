@@ -338,6 +338,9 @@ Accessors</h2></td></tr>
 <tr class="memitem:adf3389f609a4846ec8cbf268d12b5c07"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adf3389f609a4846ec8cbf268d12b5c07">PartTypeCount</a> () const</td></tr>
 <tr class="memdesc:adf3389f609a4846ec8cbf268d12b5c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of parts in this ship design, indexed by <a class="el" href="classPartType.html" title="A type of ship part. ">PartType</a> name  <a href="#adf3389f609a4846ec8cbf268d12b5c07">More...</a><br /></td></tr>
 <tr class="separator:adf3389f609a4846ec8cbf268d12b5c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2659b5a72fd3be4efaee5dcbdd925876">PartCount</a> () const</td></tr>
+<tr class="memdesc:a2659b5a72fd3be4efaee5dcbdd925876"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a2659b5a72fd3be4efaee5dcbdd925876">More...</a><br /></td></tr>
+<tr class="separator:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2911d6395fc8b27d47963fb48c691db1"><td class="memItemLeft" align="right" valign="top">const std::map&lt; ShipPartClass, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2911d6395fc8b27d47963fb48c691db1">PartClassCount</a> () const</td></tr>
 <tr class="memdesc:a2911d6395fc8b27d47963fb48c691db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of parts in this ship design, indexed by ShipPartClass  <a href="#a2911d6395fc8b27d47963fb48c691db1">More...</a><br /></td></tr>
 <tr class="separator:a2911d6395fc8b27d47963fb48c691db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1393,6 +1396,29 @@ Accessors</h2></td></tr>
 
 </div>
 </div>
+<a id="a2659b5a72fd3be4efaee5dcbdd925876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2659b5a72fd3be4efaee5dcbdd925876">&#9670;&nbsp;</a></span>PartCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ShipDesign::PartCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns id number of design </p>
+
+<p class="reference">References <a class="el" href="classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72">m_num_part_classes</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1ComplexVariable.html#afbfbfc14636dc073672accdab84c2f05">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>.</p>
+
+</div>
+</div>
 <a id="a4b2b3eba0d5967395fd7d2eee33160a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b2b3eba0d5967395fd7d2eee33160a1">&#9670;&nbsp;</a></span>Parts() <span class="overload">[1/2]</span></h2>
 
@@ -1564,9 +1590,9 @@ Accessors</h2></td></tr>
 
 <p>returns the total cost to build a ship of this design </p>
 
-<p class="reference">References <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
+<p class="reference">References <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipDesign_8cpp.html#a0f0b5ac87d9a3a3f6d725f151668cc91">GetHullType()</a>, <a class="el" href="ShipDesign_8cpp.html#a8c768ea935c8b868cbf9d1b8a678af43">GetPartType()</a>, <a class="el" href="classShipDesign.html#a5d0ab79a622394bd26d26da708a81da3">m_hull</a>, <a class="el" href="classShipDesign.html#ad82c036e41e495af5e5bb67962b7e329">m_id</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classShipDesign.html#ac04e077fe1f1b39a5139d73a4eab71f6">PerTurnCost()</a>, <a class="el" href="classEmpire.html#a4ffce05e3440fc75e7fd73355f188fdc">Empire::ProductionCostAndTime()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af2716ca942ff9ec5e588fd812d5e7819">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ae01563a19df3bf094a1457b38649b2d9">anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRowBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1ComplexVariable.html#ae6cf7c4ca147dd20a41cef17d7861208">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="classShipDesign.html#ac04e077fe1f1b39a5139d73a4eab71f6">PerTurnCost()</a>, <a class="el" href="classEmpire.html#a4ffce05e3440fc75e7fd73355f188fdc">Empire::ProductionCostAndTime()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af2716ca942ff9ec5e588fd812d5e7819">anonymous_namespace{ProductionWnd.cpp}::ProductionItemBrowseWnd()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ae01563a19df3bf094a1457b38649b2d9">anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRowBrowseWnd()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -2517,7 +2543,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classShipDesign.html#af24b6bb9d39690615ad603a6a3548fec">GetCheckSum()</a>, and <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classShipDesign.html#af24b6bb9d39690615ad603a6a3548fec">GetCheckSum()</a>, <a class="el" href="classShipDesign.html#a2ca48546b625bcac8448a3c59425d3d1">ProductionCost()</a>, and <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID()</a>.</p>
 
 </div>
 </div>
@@ -2685,7 +2711,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches()</a>, and <a class="el" href="classShipDesign.html#a2659b5a72fd3be4efaee5dcbdd925876">PartCount()</a>.</p>
 
 </div>
 </div>

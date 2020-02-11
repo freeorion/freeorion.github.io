@@ -99,6 +99,7 @@ var searchData=
   ['designclickedsignal',['DesignClickedSignal',['../classBasesListBox.html#aecf8762b7725713f3f687f765cb05f76',1,'BasesListBox::DesignClickedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a9273f772cb91204ce181132f753c427d',1,'DesignWnd::BaseSelector::DesignClickedSignal()']]],
   ['designcomponentsselectedsignal',['DesignComponentsSelectedSignal',['../classBasesListBox.html#a9aa071069bf930a3f2b94e42e9a69354',1,'BasesListBox::DesignComponentsSelectedSignal()'],['../classDesignWnd_1_1BaseSelector.html#aae71bfc58774538a3fe767127a893964',1,'DesignWnd::BaseSelector::DesignComponentsSelectedSignal()']]],
   ['designconfirmedsignal',['DesignConfirmedSignal',['../classDesignWnd_1_1MainPanel.html#a7df11df3f29de229393cbe9d25a15f9a',1,'DesignWnd::MainPanel']]],
+  ['designcostvalueref',['DesignCostValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a289eaa0a9585a0e69c4601eed52fe0f4',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['designdescription',['DesignDescription',['../classDesignWnd_1_1MainPanel.html#a30af8832e007666293aa4232b4e3a6e7',1,'DesignWnd::MainPanel']]],
   ['designedbyempire',['DesignedByEmpire',['../classShipDesign.html#adb12b84f79ce3db61580b18b1c1bf55e',1,'ShipDesign']]],
   ['designedonturn',['DesignedOnTurn',['../classShipDesign.html#a643f21ac69c813146631c91b4515cb74',1,'ShipDesign']]],

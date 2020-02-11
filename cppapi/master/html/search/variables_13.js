@@ -160,6 +160,7 @@ var searchData=
   ['statistic_5fvalue_5fexpr',['statistic_value_expr',['../structparse_1_1detail_1_1arithmetic__rules.html#adb1bc4edf2c0b3d9b734fd0c7c16109f',1,'parse::detail::arithmetic_rules']]],
   ['statistic_5fvalue_5fref_5fexpr',['statistic_value_ref_expr',['../structparse_1_1detail_1_1arithmetic__rules.html#ae22bafecb1adbe86d64a6ec620e3ef1e',1,'parse::detail::arithmetic_rules']]],
   ['stealth',['stealth',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#a382fbb169e1e6db68c6614e6c183f62f',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod::stealth()'],['../structHullTypeStats.html#ac5e34e80da9b4e0259c9bda73981023d',1,'HullTypeStats::stealth()']]],
+  ['stockpile',['stockpile',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a5f621f4e0cdf8b7a9621e2c841ddfecc',1,'parse::detail::condition_parser_rules_3']]],
   ['storable',['storable',['../structOptionsDB_1_1Option.html#a08615a80d60aaa7c1a1ee34816663338',1,'OptionsDB::Option']]],
   ['store_5ffullscreen_5fflag',['STORE_FULLSCREEN_FLAG',['../chmain_8cpp.html#aabf8f5dce47514c20a00a0417fcbcd20',1,'chmain.cpp']]],
   ['stored_5fgl_5fversion',['stored_gl_version',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a399109b6113f822c2a76f8aab70c8d08',1,'anonymous_namespace{HumanClientApp.cpp}']]],

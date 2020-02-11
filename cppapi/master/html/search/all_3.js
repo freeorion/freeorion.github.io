@@ -634,7 +634,7 @@ var searchData=
   ['cuiwnd_2ecpp',['CUIWnd.cpp',['../CUIWnd_8cpp.html',1,'']]],
   ['cuiwnd_2eh',['CUIWnd.h',['../CUIWnd_8h.html',1,'']]],
   ['cullangularlytoocloselanes',['CullAngularlyTooCloseLanes',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a83b82c1f1f64dac14834e060c2c30b32',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
-  ['cullsuperfluousparts',['CullSuperfluousParts',['../classPartsListBox.html#a0ea201ae9bfdbc86a254b3f830de785f',1,'PartsListBox']]],
+  ['cullsuperfluousparts',['CullSuperfluousParts',['../classPartsListBox.html#ac9d2e5a2bf950daacdc1442d9b66d5c5',1,'PartsListBox']]],
   ['cullthedead',['CullTheDead',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['culltoolonglanes',['CullTooLongLanes',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3e0e2f6643094e609a6d684f1b0dbee0',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['curr',['curr',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#aecf1201d16ddb342f96317b8081f0d80',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],

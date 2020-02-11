@@ -434,7 +434,7 @@ var searchData=
   ['graphicalsummarywnd',['GraphicalSummaryWnd',['../classGraphicalSummaryWnd.html#ac5a01ec283ca8281d43b952e60ef882b',1,'GraphicalSummaryWnd']]],
   ['gray_5ftarget',['gray_target',['../classSystemPathing_1_1BFSVisitorImpl.html#a254b9219aa71aa03182e3bd644b1a01d',1,'SystemPathing::BFSVisitorImpl']]],
   ['groupavailable',['GroupAvailable',['../classResourcePool.html#a8de7350482eadbc9a202b11f2d9dfe10',1,'ResourcePool']]],
-  ['groupavailabledisplayableparts',['GroupAvailableDisplayableParts',['../classPartsListBox.html#a089a9164a265381e10f94c82a11857c2',1,'PartsListBox']]],
+  ['groupavailabledisplayableparts',['GroupAvailableDisplayableParts',['../classPartsListBox.html#aadcab4323e1dc1f505d7d17c251b8ee6',1,'PartsListBox']]],
   ['groupoutput',['GroupOutput',['../classResourcePool.html#aff7c8e9192faa12b06cd37ad0720d16d',1,'ResourcePool']]],
   ['grouptargetoutput',['GroupTargetOutput',['../classResourcePool.html#a8a6991b5cf41b4b5ddeebfe3788284d1',1,'ResourcePool']]]
 ];

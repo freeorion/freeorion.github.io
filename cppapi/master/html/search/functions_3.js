@@ -389,7 +389,7 @@ var searchData=
   ['cuitoolbar',['CUIToolBar',['../classCUIToolBar.html#ae21ccb16e65efbbe42b38b4a0713bc0c',1,'CUIToolBar']]],
   ['cuiwnd',['CUIWnd',['../classCUIWnd.html#a534b23149a1e8f625d9f79dc2b9e524a',1,'CUIWnd::CUIWnd(const std::string &amp;wnd_name, GG::X x, GG::Y y, GG::X w, GG::Y h, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)'],['../classCUIWnd.html#a89ba3ebfe4d64eb6cf16b404f5af26ee',1,'CUIWnd::CUIWnd(const std::string &amp;wnd_name, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)']]],
   ['cullangularlytoocloselanes',['CullAngularlyTooCloseLanes',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a83b82c1f1f64dac14834e060c2c30b32',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
-  ['cullsuperfluousparts',['CullSuperfluousParts',['../classPartsListBox.html#a0ea201ae9bfdbc86a254b3f830de785f',1,'PartsListBox']]],
+  ['cullsuperfluousparts',['CullSuperfluousParts',['../classPartsListBox.html#ac9d2e5a2bf950daacdc1442d9b66d5c5',1,'PartsListBox']]],
   ['cullthedead',['CullTheDead',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
   ['culltoolonglanes',['CullTooLongLanes',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3e0e2f6643094e609a6d684f1b0dbee0',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['current',['Current',['../classMeter.html#a7822151dd16feefd66025548f773b030',1,'Meter']]],
