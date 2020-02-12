@@ -119,6 +119,8 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a8e9b608335306cb503712ee3ae366a09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefs_8cpp.html#a8e9b608335306cb503712ee3ae366a09">IF_CURRENT_VALUE</a>(T)</td></tr>
 <tr class="separator:a8e9b608335306cb503712ee3ae366a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4208abb49cbc70b633f930d211fc9a27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ValueRefs_8cpp.html#a4208abb49cbc70b633f930d211fc9a27">LOG_UNKNOWN_VARIABLE_PROPERTY_TRACE</a>(T)</td></tr>
+<tr class="separator:a4208abb49cbc70b633f930d211fc9a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -207,6 +209,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (m_ref_type == <a class="code" href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1afc19494b6f214684fb0978ea289ab6b5">EFFECT_TARGET_VALUE_REFERENCE</a>) {                     \</div><div class="line">    if (context.current_value.empty())                                 \</div><div class="line">        <span class="keywordflow">throw</span> std::runtime_error(                                      \</div><div class="line">            <span class="stringliteral">&quot;Variable&lt;&quot;</span> #T <span class="stringliteral">&quot;&gt;::Eval(): Value could not be evaluated, &quot;</span> \</div><div class="line">            <span class="stringliteral">&quot;because no current value was provided.&quot;</span>);                 \</div><div class="line">    try {                                                              \</div><div class="line">        return boost::any_cast&lt;T&gt;(context.current_value);              \</div><div class="line">    } <span class="keywordflow">catch</span> (<span class="keyword">const</span> boost::bad_any_cast&amp;) {                             \</div><div class="line">        throw std::runtime_error(                                      \</div><div class="line">            <span class="stringliteral">&quot;Variable&lt;&quot;</span> #T <span class="stringliteral">&quot;&gt;::Eval(): Value could not be evaluated, &quot;</span> \</div><div class="line">            <span class="stringliteral">&quot;because the provided current value is not an &quot;</span> #T <span class="stringliteral">&quot;.&quot;</span>);   \</div><div class="line">    }                                                                  \</div><div class="line">}</div><div class="ttc" id="namespaceValueRef_html_a45d564351b807e45ee5b8f59ef8c72f1afc19494b6f214684fb0978ea289ab6b5"><div class="ttname"><a href="namespaceValueRef.html#a45d564351b807e45ee5b8f59ef8c72f1afc19494b6f214684fb0978ea289ab6b5">ValueRef::EFFECT_TARGET_VALUE_REFERENCE</a></div><div class="ttdef"><b>Definition:</b> ValueRefs.h:79</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Variable.html#a8451befac6c02dce6bccb545651eb69a">ValueRef::Variable&lt; ToType &gt;::Eval()</a>.</p>
+
+</div>
+</div>
+<a id="a4208abb49cbc70b633f930d211fc9a27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4208abb49cbc70b633f930d211fc9a27">&#9670;&nbsp;</a></span>LOG_UNKNOWN_VARIABLE_PROPERTY_TRACE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG_UNKNOWN_VARIABLE_PROPERTY_TRACE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>() &lt;&lt; <span class="stringliteral">&quot;Variable&lt;&quot;</span> #T <span class="stringliteral">&quot;&gt;::Eval unrecognized object &quot;</span>         \</div><div class="line">                 <span class="stringliteral">&quot;property: &quot;</span>                                          \</div><div class="line">              &lt;&lt; <a class="code" href="namespaceanonymous__namespace_02ValueRefs_8cpp_03.html#a3d28d15932e1a1c9b1cb355cb2e7b0bc">TraceReference</a>(m_property_name, m_ref_type, context); \</div><div class="line">if (context.source)                                                    \</div><div class="line">    ErrorLogger() &lt;&lt; <span class="stringliteral">&quot;source: &quot;</span> &lt;&lt; context.source-&gt;ObjectType() &lt;&lt; <span class="stringliteral">&quot; &quot;</span> \</div><div class="line">                  &lt;&lt; context.source-&gt;ID() &lt;&lt; <span class="stringliteral">&quot; ( &quot;</span>                     \</div><div class="line">                  &lt;&lt; context.source-&gt;Name() &lt;&lt; <span class="stringliteral">&quot; ) &quot;</span>;                  <a class="code" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">\</a></div><div class="line"><a class="code" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">else                                                                   \</a></div><div class="line"><a class="code" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">    ErrorLogger</a>() &lt;&lt; <span class="stringliteral">&quot;source (none)&quot;</span>;</div><div class="ttc" id="namespaceanonymous__namespace_02ValueRefs_8cpp_03_html_a3d28d15932e1a1c9b1cb355cb2e7b0bc"><div class="ttname"><a href="namespaceanonymous__namespace_02ValueRefs_8cpp_03.html#a3d28d15932e1a1c9b1cb355cb2e7b0bc">anonymous_namespace{ValueRefs.cpp}::TraceReference</a></div><div class="ttdeci">std::string TraceReference(const std::vector&lt; std::string &gt; &amp;property_name, ValueRef::ReferenceType ref_type, const ScriptingContext &amp;context)</div><div class="ttdef"><b>Definition:</b> ValueRefs.cpp:103</div></div>
+<div class="ttc" id="Logger_8h_html_aab217d647def87f94a26a02b230de1fa"><div class="ttname"><a href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a></div><div class="ttdeci">#define ErrorLogger(name)</div><div class="ttdef"><b>Definition:</b> Logger.h:292</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="structValueRef_1_1Variable.html#a8451befac6c02dce6bccb545651eb69a">ValueRef::Variable&lt; ToType &gt;::Eval()</a>.</p>
 

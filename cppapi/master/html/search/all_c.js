@@ -137,6 +137,7 @@ var searchData=
   ['lockshared',['LockShared',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html#a33a3a2475c825c911eead60dcb628b59',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::ConditionCache']]],
   ['log',['log',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#abb296ab3a2fe44ba7a66bd6e1d8490a7',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::log()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a352ca3c849e58a8c1ff33c600ad73cb4',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::log()']]],
   ['log_5flevel_5fnames',['log_level_names',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a3d2f11c522f6b090a88d621d7d675ec6',1,'anonymous_namespace{Logger.cpp}']]],
+  ['log_5funknown_5fvariable_5fproperty_5ftrace',['LOG_UNKNOWN_VARIABLE_PROPERTY_TRACE',['../ValueRefs_8cpp.html#a4208abb49cbc70b633f930d211fc9a27',1,'ValueRefs.cpp']]],
   ['logarithm',['LOGARITHM',['../namespaceValueRef.html#a87c87b841bc6ac2ef83082eedf74e407aa3eed34de66da0ee9bf44447471b20e9',1,'ValueRef']]],
   ['logdependencyversions',['LogDependencyVersions',['../DependencyVersions_8cpp.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp'],['../Version_8h.html#a2d1d95a0be112289980fc74cffdf8760',1,'LogDependencyVersions():&#160;DependencyVersions.cpp']]],
   ['logger_2ecpp',['Logger.cpp',['../Logger_8cpp.html',1,'']]],

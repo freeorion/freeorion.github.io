@@ -1,21 +1,4 @@
 var searchData=
 [
-  ['token_5fseq_5f1',['TOKEN_SEQ_1',['../Tokens_8h.html#a199de39cd5c876c3877f1fa060f8f9ec',1,'Tokens.h']]],
-  ['token_5fseq_5f10',['TOKEN_SEQ_10',['../Tokens_8h.html#a6a499ea6efab05522e857f14b75b25fb',1,'Tokens.h']]],
-  ['token_5fseq_5f11',['TOKEN_SEQ_11',['../Tokens_8h.html#a15f82b405f0e81444196f045db627dd4',1,'Tokens.h']]],
-  ['token_5fseq_5f12',['TOKEN_SEQ_12',['../Tokens_8h.html#aa587e52c50a62f8f80cb6477b167e069',1,'Tokens.h']]],
-  ['token_5fseq_5f13',['TOKEN_SEQ_13',['../Tokens_8h.html#a2b63cc03ccf52f7b684831f33708ccd0',1,'Tokens.h']]],
-  ['token_5fseq_5f14',['TOKEN_SEQ_14',['../Tokens_8h.html#a04265260026e8b8f456c0274898e6715',1,'Tokens.h']]],
-  ['token_5fseq_5f15',['TOKEN_SEQ_15',['../Tokens_8h.html#af3574ab0fcbb3aa17f2c8bbe28937078',1,'Tokens.h']]],
-  ['token_5fseq_5f16',['TOKEN_SEQ_16',['../Tokens_8h.html#ad0f1ccd0ccf39269214d28aa5f12da1c',1,'Tokens.h']]],
-  ['token_5fseq_5f17',['TOKEN_SEQ_17',['../Tokens_8h.html#a749e86b2c708d104b26390952549cdde',1,'Tokens.h']]],
-  ['token_5fseq_5f2',['TOKEN_SEQ_2',['../Tokens_8h.html#a94d6f7b23854de098aed78bc8af0106a',1,'Tokens.h']]],
-  ['token_5fseq_5f3',['TOKEN_SEQ_3',['../Tokens_8h.html#a320eeafb5bdf7cd6cad936545f36aea8',1,'Tokens.h']]],
-  ['token_5fseq_5f4',['TOKEN_SEQ_4',['../Tokens_8h.html#a3d83a62a6b693ac6c83b865504a2c18f',1,'Tokens.h']]],
-  ['token_5fseq_5f5',['TOKEN_SEQ_5',['../Tokens_8h.html#a3725d79edab8e814964bf25c0eaec28d',1,'Tokens.h']]],
-  ['token_5fseq_5f6',['TOKEN_SEQ_6',['../Tokens_8h.html#a0f49bb03ceec2794d28981df3c72ed1b',1,'Tokens.h']]],
-  ['token_5fseq_5f7',['TOKEN_SEQ_7',['../Tokens_8h.html#aa02c6902c916698910962a4972fe5833',1,'Tokens.h']]],
-  ['token_5fseq_5f8',['TOKEN_SEQ_8',['../Tokens_8h.html#a02b03f60166c304137390ea2fddd6793',1,'Tokens.h']]],
-  ['token_5fseq_5f9',['TOKEN_SEQ_9',['../Tokens_8h.html#a7c675901a12dc05b99c329888475a8e2',1,'Tokens.h']]],
-  ['tracelogger',['TraceLogger',['../Logger_8h.html#ae567b80254f6c7c19a8868baa573140d',1,'Logger.h']]]
+  ['server_5faccessor',['SERVER_ACCESSOR',['../ServerFSM_8h.html#a0fb0fafcecddf207ab0e58f7b5b5c8cd',1,'ServerFSM.h']]]
 ];
