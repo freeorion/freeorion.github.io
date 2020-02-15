@@ -18,7 +18,7 @@ var searchData=
   ['iconwidth',['IconWidth',['../namespaceanonymous__namespace_02MultiIconValueIndicator_8cpp_03.html#a0eaf86e45607d0603e06365442923153',1,'anonymous_namespace{MultiIconValueIndicator.cpp}']]],
   ['id',['ID',['../classShipDesign.html#a88498ee974b29791e2518fde54c0149c',1,'ShipDesign::ID()'],['../classUniverseObject.html#ae658f71e48c31d5a1655b381f975caad',1,'UniverseObject::ID()']]],
   ['id_5fempire_5flocation_5frule',['id_empire_location_rule',['../structparse_1_1double__complex__parser__grammar.html#aee55fba452e4857e7fa1d0db81054e21',1,'parse::double_complex_parser_grammar']]],
-  ['id_5frange',['id_range',['../classObjectMap.html#a11faa3d62b56aa6d2695340fe3dc2010',1,'ObjectMap']]],
+  ['id_5frange',['id_range',['../classObjectMap.html#a11faa3d62b56aa6d2695340fe3dc2010',1,'ObjectMap::id_range()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae0967ebdc05f5bb06034cd8343645f0b',1,'anonymous_namespace{ObjectListWnd.cpp}::id_range()']]],
   ['id_5ft',['ID_t',['../classIDAllocator.html#ab4485ea938807cff674b704cd792615a',1,'IDAllocator']]],
   ['idallocator',['IDAllocator',['../classIDAllocator.html',1,'IDAllocator'],['../classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d',1,'IDAllocator::IDAllocator()']]],
   ['idallocator_2ecpp',['IDAllocator.cpp',['../IDAllocator_8cpp.html',1,'']]],

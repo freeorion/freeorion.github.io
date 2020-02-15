@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['id_5frange',['id_range',['../classObjectMap.html#a11faa3d62b56aa6d2695340fe3dc2010',1,'ObjectMap']]],
+  ['id_5frange',['id_range',['../classObjectMap.html#a11faa3d62b56aa6d2695340fe3dc2010',1,'ObjectMap::id_range()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae0967ebdc05f5bb06034cd8343645f0b',1,'anonymous_namespace{ObjectListWnd.cpp}::id_range()']]],
   ['id_5ft',['ID_t',['../classIDAllocator.html#ab4485ea938807cff674b704cd792615a',1,'IDAllocator']]],
   ['incapacitationsevent',['IncapacitationsEvent',['../CombatEvents_8h.html#a7f2ab3f39353a69391df7094db38895c',1,'CombatEvents.h']]],
   ['incapacitationseventptr',['IncapacitationsEventPtr',['../CombatEvents_8h.html#a4a0d1496d559fc1e95d614af99e05012',1,'CombatEvents.h']]],
