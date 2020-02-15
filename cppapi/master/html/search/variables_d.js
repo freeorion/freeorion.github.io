@@ -175,7 +175,7 @@ var searchData=
   ['m_5fcolour_5fbuf',['m_colour_buf',['../classGraphControl.html#a7103b36a21bcb77b5ba182259d5f5293',1,'GraphControl']]],
   ['m_5fcolumn',['m_column',['../classTechTreeLayout_1_1Column.html#a1a12d453c8c654b409691d1126bbabed',1,'TechTreeLayout::Column']]],
   ['m_5fcolumn_5fcount',['m_column_count',['../classTechTreeLayout.html#afe4a35c55c3a8e8e0690272b7b77400b',1,'TechTreeLayout']]],
-  ['m_5fcolumn_5fval_5fcache',['m_column_val_cache',['../classObjectPanel.html#a4112e58af66cc8d8f3e1f1b8e08506c1',1,'ObjectPanel']]],
+  ['m_5fcolumn_5fval_5fcache',['m_column_val_cache',['../classObjectPanel.html#a0465d52b9782b983f4ac8073574a1deb',1,'ObjectPanel']]],
   ['m_5fcolumns',['m_columns',['../classBuildingsPanel.html#a09fd66faf4b0e13fad4e246f1b9a069f',1,'BuildingsPanel::m_columns()'],['../classSaveFileRow.html#ae431588b662edaf5b2f7166fcc0a2b14',1,'SaveFileRow::m_columns()'],['../classSaveFileListBox.html#a667b0ce53841d25318e9c1abaf39a6fd',1,'SaveFileListBox::m_columns()']]],
   ['m_5fcombat_5freport_5fwnd',['m_combat_report_wnd',['../classMapWnd.html#a0da2914d363bba54fd05f28e22c4fe93',1,'MapWnd']]],
   ['m_5fcombat_5ftargets',['m_combat_targets',['../classFighter.html#a3051bf129b082742528346c1f8ed147e',1,'Fighter::m_combat_targets()'],['../classPartType.html#a2137a1b8d91c8145b9266aaca82a3a0a',1,'PartType::m_combat_targets()'],['../classSpecies.html#a19ab65be79e0fec1d80516180a6384fe',1,'Species::m_combat_targets()']]],
