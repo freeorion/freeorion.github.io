@@ -218,7 +218,7 @@ var searchData=
   ['restorefromsavedata',['RestoreFromSaveData',['../classClientUI.html#aff639a4529c3fa778503943bcd30302b',1,'ClientUI::RestoreFromSaveData()'],['../classMapWnd.html#ab8a9e28e7105cd73b17839db8caf6ab7',1,'MapWnd::RestoreFromSaveData()']]],
   ['restoresidepanel',['RestoreSidePanel',['../classMapWnd.html#a6428ec0f9663bbd74a15a680ac781ee0',1,'MapWnd']]],
   ['result',['Result',['../classCUIEditWnd.html#a693c202862afe0240f38812024ca75f9',1,'CUIEditWnd::Result()'],['../classSaveFileDialog.html#a93dd53077b726316561903830d6d058e',1,'SaveFileDialog::Result()']]],
-  ['resumeloadedgame',['ResumeLoadedGame',['../classPythonAI.html#a591ca55d6f692b24e7c96d762b0cc38b',1,'PythonAI::ResumeLoadedGame()'],['../classAIBase.html#aa15bd8f5e2a8faa4f098906a5dff326c',1,'AIBase::ResumeLoadedGame()']]],
+  ['resumeloadedgame',['ResumeLoadedGame',['../classPythonAI.html#a46e0180680ecefcb31240d520633b160',1,'PythonAI']]],
   ['resumemusic',['ResumeMusic',['../classSound_1_1Impl.html#ac3282ef56fd93f58df4e29189ea73ff5',1,'Sound::Impl::ResumeMusic()'],['../classSound.html#a5e74b5a7142a146f1913056f0c9ae5cb',1,'Sound::ResumeMusic()']]],
   ['resumeproduction',['ResumeProduction',['../classEmpire.html#afe5d0bcf22ffa87d5496bcd4afa4f99a',1,'Empire']]],
   ['resumeresearch',['ResumeResearch',['../classEmpire.html#a85c9dd0b18f086c4cf93d1b62f26e7d3',1,'Empire']]],

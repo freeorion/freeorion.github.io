@@ -65,15 +65,17 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">AIWrapper.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="AIWrapper_8h.html">AIWrapper.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="AIInterface_8h.html">AIInterface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ClientApp_8h.html">../ClientApp.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="AIClientApp_8h.html">AIClientApp.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ClientNetworking_8h.html">../ClientNetworking.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Planet_8h.html">../../universe/Planet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ShipDesign_8h.html">../../universe/ShipDesign.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Tech_8h.html">../../universe/Tech.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Universe_8h.html">../../universe/Universe.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AppInterface_8h.html">../../util/AppInterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Directories_8h.html">../../util/Directories.h</a>&quot;</code><br />
@@ -95,6 +97,7 @@ $(function() {
 <code>#include &lt;boost/python/list.hpp&gt;</code><br />
 <code>#include &lt;boost/python/extract.hpp&gt;</code><br />
 <code>#include &lt;boost/python/scope.hpp&gt;</code><br />
+<code>#include &lt;boost/uuid/random_generator.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -105,30 +108,60 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae9ed60d9146090b94d6a79e5c5d1690d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae9ed60d9146090b94d6a79e5c5d1690d">anonymous_namespace{AIWrapper.cpp}::AllEmpireIDs</a> ()</td></tr>
+<tr class="memdesc:ae9ed60d9146090b94d6a79e5c5d1690d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all empire identifiers that are in game.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae9ed60d9146090b94d6a79e5c5d1690d">More...</a><br /></td></tr>
+<tr class="separator:ae9ed60d9146090b94d6a79e5c5d1690d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0018b32de07d8e2e7e53a61b57315a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4e0018b32de07d8e2e7e53a61b57315a">anonymous_namespace{AIWrapper.cpp}::AllPlayerIDs</a> ()</td></tr>
+<tr class="memdesc:a4e0018b32de07d8e2e7e53a61b57315a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all player identifiers that are in game.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4e0018b32de07d8e2e7e53a61b57315a">More...</a><br /></td></tr>
+<tr class="separator:a4e0018b32de07d8e2e7e53a61b57315a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4be1d9c5242b282e9b721c35a5579d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae4be1d9c5242b282e9b721c35a5579d4">anonymous_namespace{AIWrapper.cpp}::AppendFleetMoveOrder</a> (int fleet_id, int destination_id)</td></tr>
 <tr class="separator:ae4be1d9c5242b282e9b721c35a5579d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1edfa2eff36153af38352c5460f126a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFreeOrionPython.html#ab1edfa2eff36153af38352c5460f126a">FreeOrionPython::ClearStaticSaveStateString</a> ()</td></tr>
 <tr class="separator:ab1edfa2eff36153af38352c5460f126a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeac08944332fca9ff64112118841c91"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afeac08944332fca9ff64112118841c91">anonymous_namespace{AIWrapper.cpp}::EmpireID</a> ()</td></tr>
+<tr class="separator:afeac08944332fca9ff64112118841c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f50727489c1e5b0cc514e41abb03c1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a9f50727489c1e5b0cc514e41abb03c1b">anonymous_namespace{AIWrapper.cpp}::EmpirePlayerID</a> (int empire_id)</td></tr>
+<tr class="separator:a9f50727489c1e5b0cc514e41abb03c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c77d286918cf41dfa761a2a66135fd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a25c77d286918cf41dfa761a2a66135fd">anonymous_namespace{AIWrapper.cpp}::GetAIDir</a> ()</td></tr>
 <tr class="memdesc:a25c77d286918cf41dfa761a2a66135fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the canonical AI directory path.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a25c77d286918cf41dfa761a2a66135fd">More...</a><br /></td></tr>
 <tr class="separator:a25c77d286918cf41dfa761a2a66135fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a699b4500196cdf4bb1825d526201a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a87a699b4500196cdf4bb1825d526201a">anonymous_namespace{AIWrapper.cpp}::GetEmpireByID</a> (int empire_id)</td></tr>
+<tr class="separator:a87a699b4500196cdf4bb1825d526201a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a301affb1fe8eb572c2f7047717563267"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFreeOrionPython.html#a301affb1fe8eb572c2f7047717563267">FreeOrionPython::GetStaticSaveStateString</a> ()</td></tr>
 <tr class="separator:a301affb1fe8eb572c2f7047717563267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a495e285dd07b619479f910a7d3e2cb67"><td class="memItemLeft" align="right" valign="top">boost::python::list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a495e285dd07b619479f910a7d3e2cb67">anonymous_namespace{AIWrapper.cpp}::GetUserStringList</a> (const std::string &amp;list_key)</td></tr>
 <tr class="separator:a495e285dd07b619479f910a7d3e2cb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2896a8b919ec05f38e2431b4332b280b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a2896a8b919ec05f38e2431b4332b280b">anonymous_namespace{AIWrapper.cpp}::InitMeterEstimatesAndDiscrepancies</a> ()</td></tr>
+<tr class="separator:a2896a8b919ec05f38e2431b4332b280b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2e08aab8d90acbcd3ec498f0b39b684"><td class="memTemplParams" colspan="2">template&lt;typename OrderType , typename... Args&gt; </td></tr>
 <tr class="memitem:ac2e08aab8d90acbcd3ec498f0b39b684"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ac2e08aab8d90acbcd3ec498f0b39b684">anonymous_namespace{AIWrapper.cpp}::Issue</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:ac2e08aab8d90acbcd3ec498f0b39b684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc179ca74e972b21aedbc3149bd3ff74"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#abc179ca74e972b21aedbc3149bd3ff74">anonymous_namespace{AIWrapper.cpp}::IssueAggressionOrder</a> (int object_id, bool aggressive)</td></tr>
 <tr class="separator:abc179ca74e972b21aedbc3149bd3ff74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacd5b5cf794bd82e5e24769551d4b57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afacd5b5cf794bd82e5e24769551d4b57">anonymous_namespace{AIWrapper.cpp}::IssueAllowStockpileProductionOrder</a> (int queue_index, bool use_stockpile)</td></tr>
+<tr class="separator:afacd5b5cf794bd82e5e24769551d4b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82cfe95c172809f0c4ca8e387688febd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a82cfe95c172809f0c4ca8e387688febd">anonymous_namespace{AIWrapper.cpp}::IssueBombardOrder</a> (int ship_id, int planet_id)</td></tr>
 <tr class="separator:a82cfe95c172809f0c4ca8e387688febd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9985ccd11624a15776bc97b65668fd2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a9985ccd11624a15776bc97b65668fd2d">anonymous_namespace{AIWrapper.cpp}::IssueChangeFocusOrder</a> (int planet_id, const std::string &amp;focus)</td></tr>
 <tr class="separator:a9985ccd11624a15776bc97b65668fd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e79062ef501b441c9f3abf14dd98a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a14e79062ef501b441c9f3abf14dd98a8">anonymous_namespace{AIWrapper.cpp}::IssueChangeProductionQuantityOrder</a> (int queue_index, int new_quantity, int new_blocksize)</td></tr>
+<tr class="separator:a14e79062ef501b441c9f3abf14dd98a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87e10f027312a1331b767f82baaa565"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ab87e10f027312a1331b767f82baaa565">anonymous_namespace{AIWrapper.cpp}::IssueColonizeOrder</a> (int ship_id, int planet_id)</td></tr>
 <tr class="separator:ab87e10f027312a1331b767f82baaa565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00be1b22f6bfb75d83bc9e2bbae9be5d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a00be1b22f6bfb75d83bc9e2bbae9be5d">anonymous_namespace{AIWrapper.cpp}::IssueCreateShipDesignOrderWrapper</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, boost::python::list parts_list, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable)</td></tr>
-<tr class="separator:a00be1b22f6bfb75d83bc9e2bbae9be5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ee8f087fd9f0089b798bbd2e5bae80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a16ee8f087fd9f0089b798bbd2e5bae80">anonymous_namespace{AIWrapper.cpp}::IssueCreateShipDesignOrder</a> (const std::string &amp;name, const std::string &amp;description, const std::string &amp;hull, const boost::python::list parts_list, const std::string &amp;icon, const std::string &amp;model, bool name_desc_in_stringtable)</td></tr>
+<tr class="separator:a16ee8f087fd9f0089b798bbd2e5bae80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972943cad88875a167eb0e55dd5dfb57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a972943cad88875a167eb0e55dd5dfb57">anonymous_namespace{AIWrapper.cpp}::IssueDequeueProductionOrder</a> (int queue_index)</td></tr>
+<tr class="separator:a972943cad88875a167eb0e55dd5dfb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c88be6a450b88a210f0029bce59f996"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4c88be6a450b88a210f0029bce59f996">anonymous_namespace{AIWrapper.cpp}::IssueDequeueTechOrder</a> (const std::string &amp;tech_name)</td></tr>
+<tr class="separator:a4c88be6a450b88a210f0029bce59f996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9920ec38b3105c9a14ce976a56bc53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOrderSet.html">OrderSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a7c9920ec38b3105c9a14ce976a56bc53">anonymous_namespace{AIWrapper.cpp}::IssuedOrders</a> ()</td></tr>
+<tr class="separator:a7c9920ec38b3105c9a14ce976a56bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc17ea3db842e7a4b3553b974db2b633"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afc17ea3db842e7a4b3553b974db2b633">anonymous_namespace{AIWrapper.cpp}::IssueEnqueueBuildingProductionOrder</a> (const std::string &amp;item_name, int location_id)</td></tr>
+<tr class="separator:afc17ea3db842e7a4b3553b974db2b633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c581bef22f2a4d5399f3b71e4696042"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a5c581bef22f2a4d5399f3b71e4696042">anonymous_namespace{AIWrapper.cpp}::IssueEnqueueShipProductionOrder</a> (int design_id, int location_id)</td></tr>
+<tr class="separator:a5c581bef22f2a4d5399f3b71e4696042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02753e658a78618f6ad8d3b2977299f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ae02753e658a78618f6ad8d3b2977299f">anonymous_namespace{AIWrapper.cpp}::IssueEnqueueTechOrder</a> (const std::string &amp;tech_name, int position)</td></tr>
+<tr class="separator:ae02753e658a78618f6ad8d3b2977299f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa8f6fe9344266f16bd59cbe0ff0a374"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aaa8f6fe9344266f16bd59cbe0ff0a374">anonymous_namespace{AIWrapper.cpp}::IssueFleetMoveOrder</a> (int fleet_id, int destination_id)</td></tr>
 <tr class="separator:aaa8f6fe9344266f16bd59cbe0ff0a374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40cce281cec677da62c1e22cbc53222c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a40cce281cec677da62c1e22cbc53222c">anonymous_namespace{AIWrapper.cpp}::IssueFleetTransferOrder</a> (int ship_id, int new_fleet_id)</td></tr>
@@ -139,94 +172,56 @@ Functions</h2></td></tr>
 <tr class="separator:aa371f0081c6567bf04059023dfc781bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2faf614fe1e75491a2a6421ae7e9e6a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a2faf614fe1e75491a2a6421ae7e9e6a5">anonymous_namespace{AIWrapper.cpp}::IssueNewFleetOrder</a> (const std::string &amp;fleet_name, int ship_id)</td></tr>
 <tr class="separator:a2faf614fe1e75491a2a6421ae7e9e6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22432464fd07d338ec553e9eae2fc2c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aa22432464fd07d338ec553e9eae2fc2c">anonymous_namespace{AIWrapper.cpp}::IssuePauseProductionOrder</a> (int queue_index, bool pause)</td></tr>
+<tr class="separator:aa22432464fd07d338ec553e9eae2fc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f641f14bd3e830d52c7b76e1837bd75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a8f641f14bd3e830d52c7b76e1837bd75">anonymous_namespace{AIWrapper.cpp}::IssueRenameOrder</a> (int object_id, const std::string &amp;new_name)</td></tr>
 <tr class="separator:a8f641f14bd3e830d52c7b76e1837bd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50c673217b967a1da52c1124c272083"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ac50c673217b967a1da52c1124c272083">anonymous_namespace{AIWrapper.cpp}::IssueRequeueProductionOrder</a> (int old_queue_index, int new_queue_index)</td></tr>
+<tr class="separator:ac50c673217b967a1da52c1124c272083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32409b0f3aba6e122cdef2ab3ef7eb63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a32409b0f3aba6e122cdef2ab3ef7eb63">anonymous_namespace{AIWrapper.cpp}::IssueScrapOrder</a> (int object_id)</td></tr>
 <tr class="separator:a32409b0f3aba6e122cdef2ab3ef7eb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca02c87ae1879ae0e99c03546815ff02"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpire.html">Empire</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aca02c87ae1879ae0e99c03546815ff02">anonymous_namespace{AIWrapper.cpp}::PlayerEmpire</a> ()</td></tr>
+<tr class="memdesc:aca02c87ae1879ae0e99c03546815ff02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> this client controls.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aca02c87ae1879ae0e99c03546815ff02">More...</a><br /></td></tr>
+<tr class="separator:aca02c87ae1879ae0e99c03546815ff02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa732c47e23da590d98001294f87b6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a2aa732c47e23da590d98001294f87b6c">anonymous_namespace{AIWrapper.cpp}::PlayerEmpireID</a> (int player_id)</td></tr>
+<tr class="memdesc:a2aa732c47e23da590d98001294f87b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire identifier of the empire <em>player_id</em> controls.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a2aa732c47e23da590d98001294f87b6c">More...</a><br /></td></tr>
+<tr class="separator:a2aa732c47e23da590d98001294f87b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5bdd52b11dd5aa459805dca6460b39e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#af5bdd52b11dd5aa459805dca6460b39e">anonymous_namespace{AIWrapper.cpp}::PlayerID</a> ()</td></tr>
+<tr class="separator:af5bdd52b11dd5aa459805dca6460b39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffd1861748e380c1a8da132ebf7ac49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a1ffd1861748e380c1a8da132ebf7ac49">anonymous_namespace{AIWrapper.cpp}::PlayerIsAI</a> (int player_id)</td></tr>
+<tr class="memdesc:a1ffd1861748e380c1a8da132ebf7ac49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the player identified by <em>player_id</em> is an AI.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a1ffd1861748e380c1a8da132ebf7ac49">More...</a><br /></td></tr>
+<tr class="separator:a1ffd1861748e380c1a8da132ebf7ac49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5fcf63487159b5c61fd4f816f9f5067"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ac5fcf63487159b5c61fd4f816f9f5067">anonymous_namespace{AIWrapper.cpp}::PlayerIsHost</a> (int player_id)</td></tr>
+<tr class="memdesc:ac5fcf63487159b5c61fd4f816f9f5067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the player identified by <em>player_id</em> is the game host.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#ac5fcf63487159b5c61fd4f816f9f5067">More...</a><br /></td></tr>
+<tr class="separator:ac5fcf63487159b5c61fd4f816f9f5067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bb783f1db3bed61221d68d2616088e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a29bb783f1db3bed61221d68d2616088e">anonymous_namespace{AIWrapper.cpp}::PlayerName</a> ()</td></tr>
+<tr class="separator:a29bb783f1db3bed61221d68d2616088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6006f6f37ba544c8ed6e33094aa6f7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a9e6006f6f37ba544c8ed6e33094aa6f7">anonymous_namespace{AIWrapper.cpp}::PlayerNameByID</a> (int player_id)</td></tr>
+<tr class="memdesc:a9e6006f6f37ba544c8ed6e33094aa6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the player name of the client identified by <em>player_id</em>.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a9e6006f6f37ba544c8ed6e33094aa6f7">More...</a><br /></td></tr>
+<tr class="separator:a9e6006f6f37ba544c8ed6e33094aa6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1c968dca93af42e8174212556e33df"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afd1c968dca93af42e8174212556e33df">anonymous_namespace{AIWrapper.cpp}::PythonGalaxySetupData</a> ()</td></tr>
+<tr class="separator:afd1c968dca93af42e8174212556e33df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afff87676fd87ad01942e3424a959975c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afff87676fd87ad01942e3424a959975c">anonymous_namespace{AIWrapper.cpp}::s_save_state_string</a> (&quot;&quot;)</td></tr>
 <tr class="separator:afff87676fd87ad01942e3424a959975c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa55a7fefb7e809955a68a3a41251e0cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aa55a7fefb7e809955a68a3a41251e0cc">anonymous_namespace{AIWrapper.cpp}::SendDiplomaticMessage</a> (const <a class="el" href="classDiplomaticMessage.html">DiplomaticMessage</a> &amp;diplo_message)</td></tr>
+<tr class="separator:aa55a7fefb7e809955a68a3a41251e0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f02fc5f11e028d4e6dec1baf1cd579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a08f02fc5f11e028d4e6dec1baf1cd579">anonymous_namespace{AIWrapper.cpp}::SendPlayerChatMessage</a> (int recipient_player_id, const std::string &amp;message_text)</td></tr>
+<tr class="separator:a08f02fc5f11e028d4e6dec1baf1cd579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bc9d1dd5b61e62b03e7c91ed58fcc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFreeOrionPython.html#a37bc9d1dd5b61e62b03e7c91ed58fcc3">FreeOrionPython::SetStaticSaveStateString</a> (const std::string &amp;new_state_string)</td></tr>
 <tr class="separator:a37bc9d1dd5b61e62b03e7c91ed58fcc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e370616bb36e11caa364e188655fc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#af2e370616bb36e11caa364e188655fc7">anonymous_namespace{AIWrapper.cpp}::UpdateMeterEstimates</a> (bool pretend_to_own_unowned_planets)</td></tr>
+<tr class="memdesc:af2e370616bb36e11caa364e188655fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> instances to their estimated values as if the next turn processing phase were done.  <a href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#af2e370616bb36e11caa364e188655fc7">More...</a><br /></td></tr>
+<tr class="separator:af2e370616bb36e11caa364e188655fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd647a27cbbc75198c172a34c675dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a2fd647a27cbbc75198c172a34c675dde">anonymous_namespace{AIWrapper.cpp}::UpdateProductionQueue</a> ()</td></tr>
+<tr class="separator:a2fd647a27cbbc75198c172a34c675dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6169748e29e262ee19d9533d2170450e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a6169748e29e262ee19d9533d2170450e">anonymous_namespace{AIWrapper.cpp}::UpdateResearchQueue</a> ()</td></tr>
+<tr class="separator:a6169748e29e262ee19d9533d2170450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49efce7eb54fb600b692ec6db25675c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a49efce7eb54fb600b692ec6db25675c5">anonymous_namespace{AIWrapper.cpp}::UpdateResourcePools</a> ()</td></tr>
+<tr class="separator:a49efce7eb54fb600b692ec6db25675c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad76c9ae66c81231926e5bea1a0b920e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI</a> ()</td></tr>
-<tr class="memdesc:aad76c9ae66c81231926e5bea1a0b920e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose <a class="el" href="namespaceAIInterface.html" title="List of functions for AIs to query the game state, interact with other players and issue game orders...">AIInterface</a> to Python.  <a href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">More...</a><br /></td></tr>
+<tr class="memdesc:aad76c9ae66c81231926e5bea1a0b920e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose game client to Python.  <a href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">More...</a><br /></td></tr>
 <tr class="separator:aad76c9ae66c81231926e5bea1a0b920e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9501d48cc725c61dee7553d371c10107"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpire.html">Empire</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AIWrapper_8cpp.html#a9501d48cc725c61dee7553d371c10107">AIIntGetEmpireInt</a> )(int) = &amp;<a class="el" href="namespaceAIInterface.html#a9385c0aa16f4bf7c751dba121e6a110c">AIInterface::GetEmpire</a></td></tr>
-<tr class="separator:a9501d48cc725c61dee7553d371c10107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f801c1edbb81e41ffcdb1043ae52c4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpire.html">Empire</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AIWrapper_8cpp.html#ae3f801c1edbb81e41ffcdb1043ae52c4">AIIntGetEmpireVoid</a> )(void) = &amp;<a class="el" href="namespaceAIInterface.html#a9385c0aa16f4bf7c751dba121e6a110c">AIInterface::GetEmpire</a></td></tr>
-<tr class="separator:ae3f801c1edbb81e41ffcdb1043ae52c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24c261a87e384bdfe90964d8186f5b88"><td class="memItemLeft" align="right" valign="top">const std::string &amp;(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AIWrapper_8cpp.html#a24c261a87e384bdfe90964d8186f5b88">AIIntPlayerNameInt</a> )(int) = &amp;<a class="el" href="namespaceAIInterface.html#af5452c241581e38099ccf1b377e0e4e9">AIInterface::PlayerName</a></td></tr>
-<tr class="separator:a24c261a87e384bdfe90964d8186f5b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b0e14afec61215e03f92d186124ca0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AIWrapper_8cpp.html#a19b0e14afec61215e03f92d186124ca0">AIIntPlayerNameVoid</a> )(void) = &amp;<a class="el" href="namespaceAIInterface.html#af5452c241581e38099ccf1b377e0e4e9">AIInterface::PlayerName</a></td></tr>
-<tr class="separator:a19b0e14afec61215e03f92d186124ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a9501d48cc725c61dee7553d371c10107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9501d48cc725c61dee7553d371c10107">&#9670;&nbsp;</a></span>AIIntGetEmpireInt</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classEmpire.html">Empire</a>*(* AIIntGetEmpireInt) (int) = &amp;<a class="el" href="namespaceAIInterface.html#a9385c0aa16f4bf7c751dba121e6a110c">AIInterface::GetEmpire</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
-
-</div>
-</div>
-<a id="ae3f801c1edbb81e41ffcdb1043ae52c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f801c1edbb81e41ffcdb1043ae52c4">&#9670;&nbsp;</a></span>AIIntGetEmpireVoid</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classEmpire.html">Empire</a>*(* AIIntGetEmpireVoid) (void) = &amp;<a class="el" href="namespaceAIInterface.html#a9385c0aa16f4bf7c751dba121e6a110c">AIInterface::GetEmpire</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
-
-</div>
-</div>
-<a id="a24c261a87e384bdfe90964d8186f5b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24c261a87e384bdfe90964d8186f5b88">&#9670;&nbsp;</a></span>AIIntPlayerNameInt</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string&amp;(* AIIntPlayerNameInt) (int) = &amp;<a class="el" href="namespaceAIInterface.html#af5452c241581e38099ccf1b377e0e4e9">AIInterface::PlayerName</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
-
-</div>
-</div>
-<a id="a19b0e14afec61215e03f92d186124ca0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19b0e14afec61215e03f92d186124ca0">&#9670;&nbsp;</a></span>AIIntPlayerNameVoid</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string&amp;(* AIIntPlayerNameVoid) (void) = &amp;<a class="el" href="namespaceAIInterface.html#af5452c241581e38099ccf1b377e0e4e9">AIInterface::PlayerName</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

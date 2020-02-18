@@ -8,8 +8,6 @@ var searchData=
   ['aiclientapp_2eh',['AIClientApp.h',['../AIClientApp_8h.html',1,'']]],
   ['aiframework_2ecpp',['AIFramework.cpp',['../AIFramework_8cpp.html',1,'']]],
   ['aiframework_2eh',['AIFramework.h',['../AIFramework_8h.html',1,'']]],
-  ['aiinterface_2ecpp',['AIInterface.cpp',['../AIInterface_8cpp.html',1,'']]],
-  ['aiinterface_2eh',['AIInterface.h',['../AIInterface_8h.html',1,'']]],
   ['aiwrapper_2ecpp',['AIWrapper.cpp',['../AIWrapper_8cpp.html',1,'']]],
   ['aiwrapper_2eh',['AIWrapper.h',['../AIWrapper_8h.html',1,'']]],
   ['all_5ftags_2edox',['all_tags.dox',['../all__tags_8dox.html',1,'']]],

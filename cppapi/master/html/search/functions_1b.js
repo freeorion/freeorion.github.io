@@ -1,7 +1,6 @@
 var searchData=
 [
   ['_7eaccordionpanel',['~AccordionPanel',['../classAccordionPanel.html#a1d72ed7f33ffd4ce77cc7d3a1d802b4d',1,'AccordionPanel']]],
-  ['_7eaibase',['~AIBase',['../classAIBase.html#a33435214a37175f0e59d4b7ba2b58b06',1,'AIBase']]],
   ['_7eaiclientapp',['~AIClientApp',['../classAIClientApp.html#a1b2b62be845da360e4c3b0abaf32f451',1,'AIClientApp']]],
   ['_7ebuilding',['~Building',['../classBuilding.html#ab675c6a382e110b84031956cda708439',1,'Building']]],
   ['_7ebuildingspanel',['~BuildingsPanel',['../classBuildingsPanel.html#a19c8cb18477e14692d4b5d0e01d54870',1,'BuildingsPanel']]],

@@ -9,7 +9,6 @@ var searchData=
   ['advanceturn',['AdvanceTurn',['../structAdvanceTurn.html',1,'']]],
   ['aggressive',['Aggressive',['../structCondition_1_1Aggressive.html',1,'Condition']]],
   ['aggressiveorder',['AggressiveOrder',['../classAggressiveOrder.html',1,'']]],
-  ['aibase',['AIBase',['../classAIBase.html',1,'']]],
   ['aiclientapp',['AIClientApp',['../classAIClientApp.html',1,'']]],
   ['all',['All',['../structCondition_1_1All.html',1,'Condition']]],
   ['alldesignslistbox',['AllDesignsListBox',['../classAllDesignsListBox.html',1,'']]],
