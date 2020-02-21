@@ -214,7 +214,7 @@ var searchData=
   ['resourcesupplysimplematch',['ResourceSupplySimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1ResourceSupplySimpleMatch.html#acf7aa9c101a64cf903cbf3f6e8115d18',1,'Condition::anonymous_namespace{Conditions.cpp}::ResourceSupplySimpleMatch']]],
   ['resourcetometer',['ResourceToMeter',['../Enums_8cpp.html#aed99117b30ff20c7120fe3b44364c2b3',1,'Enums.cpp']]],
   ['resourcetotargetmeter',['ResourceToTargetMeter',['../Enums_8cpp.html#a7e6d7e9c441d89adbc381b559a8c85ac',1,'ResourceToTargetMeter(ResourceType type):&#160;Enums.cpp'],['../Enums_8h.html#afbafbddbc7cbfe9a1ffe9f66c4d594cd',1,'ResourceToTargetMeter(ResourceType type):&#160;Enums.cpp']]],
-  ['restart',['restart',['../classScopedTimer.html#a024e861d9dbac1821e0c8af9e5172b60',1,'ScopedTimer::restart()'],['../classScopedTimer_1_1Impl.html#a0f26bb02e8e3729d1067d5b1709e0c73',1,'ScopedTimer::Impl::Restart()']]],
+  ['restart',['Restart',['../classScopedTimer_1_1Impl.html#a0f26bb02e8e3729d1067d5b1709e0c73',1,'ScopedTimer::Impl::Restart()'],['../classScopedTimer.html#a024e861d9dbac1821e0c8af9e5172b60',1,'ScopedTimer::restart()']]],
   ['restorefromsavedata',['RestoreFromSaveData',['../classClientUI.html#aff639a4529c3fa778503943bcd30302b',1,'ClientUI::RestoreFromSaveData()'],['../classMapWnd.html#ab8a9e28e7105cd73b17839db8caf6ab7',1,'MapWnd::RestoreFromSaveData()']]],
   ['restoresidepanel',['RestoreSidePanel',['../classMapWnd.html#a6428ec0f9663bbd74a15a680ac781ee0',1,'MapWnd']]],
   ['result',['Result',['../classCUIEditWnd.html#a693c202862afe0240f38812024ca75f9',1,'CUIEditWnd::Result()'],['../classSaveFileDialog.html#a93dd53077b726316561903830d6d058e',1,'SaveFileDialog::Result()']]],
