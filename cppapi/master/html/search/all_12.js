@@ -183,7 +183,7 @@ var searchData=
   ['rescindorder',['RescindOrder',['../classOrderSet.html#aa5bc1797ffaa71ee5c831d3c50af1be2',1,'OrderSet']]],
   ['research_5fcost',['research_cost',['../structTech_1_1TechInfo.html#a9fa876fdf132b08887ce03bc7e4e2594',1,'Tech::TechInfo']]],
   ['research_5fturns',['research_turns',['../structTech_1_1TechInfo.html#a37ccfdfa05dcc5530e3ebdd60ac4f008',1,'Tech::TechInfo']]],
-  ['researchable',['researchable',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a7802f2dada192d93ede47895840ce251',1,'anonymous_namespace{TechsParser.cpp}::grammar::researchable()'],['../structTech_1_1TechInfo.html#a678b6a68e6a556412cfd723dbeb82e34',1,'Tech::TechInfo::researchable()'],['../classTech.html#a08e148e01546ff0893753a4996c72936',1,'Tech::Researchable()']]],
+  ['researchable',['Researchable',['../classTech.html#a08e148e01546ff0893753a4996c72936',1,'Tech::Researchable()'],['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a7802f2dada192d93ede47895840ce251',1,'anonymous_namespace{TechsParser.cpp}::grammar::researchable()'],['../structTech_1_1TechInfo.html#a678b6a68e6a556412cfd723dbeb82e34',1,'Tech::TechInfo::researchable()']]],
   ['researchabletech',['ResearchableTech',['../classEmpire.html#ac7638c5f96223f2f13369394ecdfe0ce',1,'Empire']]],
   ['researchabletechfillcolor',['ResearchableTechFillColor',['../classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda',1,'ClientUI']]],
   ['researchabletechtextandbordercolor',['ResearchableTechTextAndBorderColor',['../classClientUI.html#acd4877f62014b16c307ab7b13628d736',1,'ClientUI']]],
