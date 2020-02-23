@@ -135,9 +135,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa9896ed426180f7cbed2607b7bcdadf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#aa9896ed426180f7cbed2607b7bcdadf4">DiplomaticStatusMessage</a> (const <a class="el" href="structDiplomaticStatusUpdateInfo.html">DiplomaticStatusUpdateInfo</a> &amp;diplo_update)</td></tr>
 <tr class="memdesc:aa9896ed426180f7cbed2607b7bcdadf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a DIPLOMATIC_STATUS message, which is sent to players by the server to update them on diplomatic status changes between players.  <a href="#aa9896ed426180f7cbed2607b7bcdadf4">More...</a><br /></td></tr>
 <tr class="separator:aa9896ed426180f7cbed2607b7bcdadf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26fe3c52c14320ad2ad08e6f108d6ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a26fe3c52c14320ad2ad08e6f108d6ab1">DispatchCombatLogsMessage</a> (const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;logs)</td></tr>
-<tr class="memdesc:a26fe3c52c14320ad2ad08e6f108d6ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns combat logs to the client  <a href="#a26fe3c52c14320ad2ad08e6f108d6ab1">More...</a><br /></td></tr>
-<tr class="separator:a26fe3c52c14320ad2ad08e6f108d6ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04da3b5e19d9837f9749c9b1f6d38b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a04da3b5e19d9837f9749c9b1f6d38b0a">DispatchCombatLogsMessage</a> (const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;logs, bool use_binary_serialization)</td></tr>
+<tr class="memdesc:a04da3b5e19d9837f9749c9b1f6d38b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns combat logs to the client  <a href="#a04da3b5e19d9837f9749c9b1f6d38b0a">More...</a><br /></td></tr>
+<tr class="separator:a04da3b5e19d9837f9749c9b1f6d38b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad61184650766ddee85ca6f8a60f344d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#ad61184650766ddee85ca6f8a60f344d4">DispatchSavePreviewsMessage</a> (const <a class="el" href="structPreviewInformation.html">PreviewInformation</a> &amp;previews)</td></tr>
 <tr class="memdesc:ad61184650766ddee85ca6f8a60f344d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the savegame previews to the client  <a href="#ad61184650766ddee85ca6f8a60f344d4">More...</a><br /></td></tr>
 <tr class="separator:ad61184650766ddee85ca6f8a60f344d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -552,8 +552,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a26fe3c52c14320ad2ad08e6f108d6ab1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26fe3c52c14320ad2ad08e6f108d6ab1">&#9670;&nbsp;</a></span>DispatchCombatLogsMessage()</h2>
+<a id="a04da3b5e19d9837f9749c9b1f6d38b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04da3b5e19d9837f9749c9b1f6d38b0a">&#9670;&nbsp;</a></span>DispatchCombatLogsMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,8 +562,18 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="classMessage.html">Message</a> DispatchCombatLogsMessage </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>logs</em></td><td>)</td>
+          <td class="paramname"><em>logs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_binary_serialization</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -927,7 +937,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
+<p class="reference">References <a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Message::Data()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f">HumanClientApp::UpdateCombatLogs()</a>.</p>
 

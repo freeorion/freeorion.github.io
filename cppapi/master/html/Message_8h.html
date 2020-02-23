@@ -120,9 +120,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a15c6930c0167ade5ebd8424dbb354794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a15c6930c0167ade5ebd8424dbb354794">DiplomaticStatusMessage</a> (const <a class="el" href="structDiplomaticStatusUpdateInfo.html">DiplomaticStatusUpdateInfo</a> &amp;diplo_update)</td></tr>
 <tr class="memdesc:a15c6930c0167ade5ebd8424dbb354794"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a DIPLOMATIC_STATUS message, which is sent to players by the server to update them on diplomatic status changes between players.  <a href="#a15c6930c0167ade5ebd8424dbb354794">More...</a><br /></td></tr>
 <tr class="separator:a15c6930c0167ade5ebd8424dbb354794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee5c700de3c1843c2fe395e0229c579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a9ee5c700de3c1843c2fe395e0229c579">DispatchCombatLogsMessage</a> (const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;logs)</td></tr>
-<tr class="memdesc:a9ee5c700de3c1843c2fe395e0229c579"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns combat logs to the client  <a href="#a9ee5c700de3c1843c2fe395e0229c579">More...</a><br /></td></tr>
-<tr class="separator:a9ee5c700de3c1843c2fe395e0229c579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf18ac88ef65c98825b4f0af38b00fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a8bf18ac88ef65c98825b4f0af38b00fa">DispatchCombatLogsMessage</a> (const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;logs, bool use_binary_serialization)</td></tr>
+<tr class="memdesc:a8bf18ac88ef65c98825b4f0af38b00fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns combat logs to the client  <a href="#a8bf18ac88ef65c98825b4f0af38b00fa">More...</a><br /></td></tr>
+<tr class="separator:a8bf18ac88ef65c98825b4f0af38b00fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af6ff91b4ca4d0b7e0f2a43dc226fa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8h.html#a3af6ff91b4ca4d0b7e0f2a43dc226fa9">DispatchSavePreviewsMessage</a> (const <a class="el" href="structPreviewInformation.html">PreviewInformation</a> &amp;preview)</td></tr>
 <tr class="memdesc:a3af6ff91b4ca4d0b7e0f2a43dc226fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the savegame previews to the client  <a href="#a3af6ff91b4ca4d0b7e0f2a43dc226fa9">More...</a><br /></td></tr>
 <tr class="separator:a3af6ff91b4ca4d0b7e0f2a43dc226fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -532,8 +532,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ee5c700de3c1843c2fe395e0229c579"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ee5c700de3c1843c2fe395e0229c579">&#9670;&nbsp;</a></span>DispatchCombatLogsMessage()</h2>
+<a id="a8bf18ac88ef65c98825b4f0af38b00fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf18ac88ef65c98825b4f0af38b00fa">&#9670;&nbsp;</a></span>DispatchCombatLogsMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,8 +542,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classMessage.html">Message</a> DispatchCombatLogsMessage </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::pair&lt; int, const <a class="el" href="structCombatLog.html">CombatLog</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>logs</em></td><td>)</td>
+          <td class="paramname"><em>logs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_binary_serialization</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -907,7 +917,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
+<p class="reference">References <a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Message::Data()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a007735768329ff0ba9fb625e4c1ae72f">HumanClientApp::UpdateCombatLogs()</a>.</p>
 
