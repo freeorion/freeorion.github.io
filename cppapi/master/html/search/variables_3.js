@@ -36,7 +36,7 @@ var searchData=
   ['combat',['COMBAT',['../classMessage.html#a610fbee50432e477d952db733608e2e6',1,'Message']]],
   ['combat_5fevents',['combat_events',['../structCombatLog.html#a64f089eb0c631a5a1dffbbc724b5ee75',1,'CombatLog::combat_events()'],['../structCombatInfo.html#aedd730d4d48f16f3d27d2c13b3d4b9e5',1,'CombatInfo::combat_events()']]],
   ['combat_5fid_5ftag',['COMBAT_ID_TAG',['../classVarText.html#adce1a565236d5eb26f4ee7c9878048fd',1,'VarText']]],
-  ['combat_5finfo',['combat_info',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ac082ef74641f9d75b61a8c962e65a295',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
+  ['combat_5finfo',['combat_info',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ac082ef74641f9d75b61a8c962e65a295',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::combat_info()'],['../structScriptingContext.html#a2662f70a417023be0ebc7c373be15989',1,'ScriptingContext::combat_info()']]],
   ['combat_5freport_5fwnd_5fname',['COMBAT_REPORT_WND_NAME',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9970c9df1f055cb340c98acd95985166',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['combat_5ftargets',['combat_targets',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#a2815908e2d6f8b3fb0bc9e455db48767',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo::combat_targets()'],['../structparse_1_1detail_1_1condition__parser__rules__7.html#a249a2ee41130c1356964c260de460395',1,'parse::detail::condition_parser_rules_7::combat_targets()']]],
   ['comment',['Comment',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad93fd3a1699dbf4e245aa05d9b0a0cec',1,'anonymous_namespace{XMLDoc.cpp}']]],

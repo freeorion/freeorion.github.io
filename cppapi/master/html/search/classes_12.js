@@ -17,6 +17,7 @@ var searchData=
   ['scanlinerenderer',['ScanlineRenderer',['../classScanlineRenderer.html',1,'']]],
   ['scopedtimer',['ScopedTimer',['../classScopedTimer.html',1,'']]],
   ['scraporder',['ScrapOrder',['../classScrapOrder.html',1,'']]],
+  ['scriptingcombatinfo',['ScriptingCombatInfo',['../structScriptingCombatInfo.html',1,'']]],
   ['scriptingcontext',['ScriptingContext',['../structScriptingContext.html',1,'']]],
   ['scrolltab',['ScrollTab',['../classCUIScroll_1_1ScrollTab.html',1,'CUIScroll']]],
   ['searchedit',['SearchEdit',['../classanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03_1_1SearchEdit.html',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],

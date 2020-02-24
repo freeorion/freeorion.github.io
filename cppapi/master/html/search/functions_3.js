@@ -202,7 +202,7 @@ var searchData=
   ['combatlogwnd',['CombatLogWnd',['../classCombatLogWnd.html#af00d2c96cbd6de2d9892762bb2aefe5e',1,'CombatLogWnd']]],
   ['combatparticipantstate',['CombatParticipantState',['../structCombatParticipantState.html#a8f15f962a82eab60372a8de2ca5891f3',1,'CombatParticipantState::CombatParticipantState()'],['../structCombatParticipantState.html#a21b23f8c8bf7b632a53c4d30827fab6f',1,'CombatParticipantState::CombatParticipantState(const UniverseObject &amp;object)']]],
   ['combatreportwnd',['CombatReportWnd',['../classCombatReportWnd.html#aba80ccd07fda53494e607603f2238400',1,'CombatReportWnd']]],
-  ['combatround',['CombatRound',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9b9128b4ee0345a29df39a9259b6f72d',1,'anonymous_namespace{CombatSystem.cpp}']]],
+  ['combatround',['CombatRound',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['combatsummary',['CombatSummary',['../structCombatSummary.html#a298683e956b8ecb66785edc765c9bf45',1,'CombatSummary::CombatSummary()'],['../structCombatSummary.html#ae711e0267df95938e36f5bc046f1d45a',1,'CombatSummary::CombatSummary(int empire_id)']]],
   ['combattarget',['CombatTarget',['../structCondition_1_1CombatTarget.html#aa784f4fa1d5f5890fd344450770a0d7f',1,'Condition::CombatTarget']]],
   ['combattargets',['CombatTargets',['../classFighter.html#aaa4384c0c2dd13b045cbda445330f64f',1,'Fighter::CombatTargets()'],['../classPartType.html#a7b1c84bf6e2ca1fa0be429eac2a33fff',1,'PartType::CombatTargets()'],['../classSpecies.html#a939767ba4a4158b67eeb228218703b21',1,'Species::CombatTargets()']]],
