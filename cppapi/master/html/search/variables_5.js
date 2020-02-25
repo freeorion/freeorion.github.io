@@ -40,7 +40,7 @@ var searchData=
   ['empirefleetsupplyablesystemidsfunc',['empireFleetSupplyableSystemIDsFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a7ac35238ddc217f12613fcba95531f00',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['empiregetmeter',['EmpireGetMeter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aca84eedb92bc7fd54be3d72177ed01fd',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['empty_5farticle',['empty_article',['../classEncyclopedia.html#a68bc18556715499d11c429d148de7012',1,'Encyclopedia']]],
-  ['empty_5fcombat_5finfo',['EMPTY_COMBAT_INFO',['../ScriptingContext_8h.html#ad97579095ab8570523a9d4a37bb8c629',1,'ScriptingContext.h']]],
+  ['empty_5fcombat_5finfo',['EMPTY_COMBAT_INFO',['../ScriptingContext_8h.html#a796e7b9bf41542925ea45177aba31fc6',1,'ScriptingContext.h']]],
   ['empty_5fint_5ffloat_5fmap',['EMPTY_INT_FLOAT_MAP',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#ac8f5c0292080d56a1079afebac59980a',1,'anonymous_namespace{Supply.cpp}::EMPTY_INT_FLOAT_MAP()'],['../namespaceValueRef_1_1anonymous__namespace_02ValueRefs_8cpp_03.html#ac2dc46f8e3f319119d5fb152192f8ab2',1,'ValueRef::anonymous_namespace{ValueRefs.cpp}::EMPTY_INT_FLOAT_MAP()']]],
   ['empty_5fint_5fint_5fmap',['EMPTY_INT_INT_MAP',['../namespaceValueRef_1_1anonymous__namespace_02ValueRefs_8cpp_03.html#aeef957ffd6d62a2a3beeba8024a1c4fe',1,'ValueRef::anonymous_namespace{ValueRefs.cpp}']]],
   ['empty_5fint_5fpair_5fset',['EMPTY_INT_PAIR_SET',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#a80156d0946fed4b940a55e7fa5693c8e',1,'anonymous_namespace{Supply.cpp}']]],
