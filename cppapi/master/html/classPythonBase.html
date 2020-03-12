@@ -94,6 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92992f6414692dca51785fd91bd4c019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad94499d0585f954ee7d9eafb408475e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize</a> ()</td></tr>
 <tr class="separator:ad94499d0585f954ee7d9eafb408475e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630545e933e20d0fcb62f867ddb76fe2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a630545e933e20d0fcb62f867ddb76fe2">InitImports</a> ()=0</td></tr>
+<tr class="separator:a630545e933e20d0fcb62f867ddb76fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60bba47e8a52c98417731c194a55745e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#a60bba47e8a52c98417731c194a55745e">InitModules</a> ()=0</td></tr>
 <tr class="separator:a60bba47e8a52c98417731c194a55745e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d722c3819abad7cae2e901f009730f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">IsPythonRunning</a> ()</td></tr>
@@ -280,9 +282,38 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="CommonFramework_8cpp.html#ad46b6f9844c7ff5402fc4629e48e5773">GetPythonCommonDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#a60bba47e8a52c98417731c194a55745e">InitModules()</a>, <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>, and <a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a>.</p>
+<p class="reference">References <a class="el" href="classPythonBase.html#a030c412ce60b196602141b2fa36218e6">AddToSysPath()</a>, <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="CommonFramework_8cpp.html#ad46b6f9844c7ff5402fc4629e48e5773">GetPythonCommonDir()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#a630545e933e20d0fcb62f867ddb76fe2">InitImports()</a>, <a class="el" href="classPythonBase.html#a60bba47e8a52c98417731c194a55745e">InitModules()</a>, <a class="el" href="classPythonBase.html#a8e6026becb8424385f2389a23a217028">m_namespace</a>, and <a class="el" href="classPythonBase.html#a53849f8e7e8549749a232e8faa0de678">m_system_exit</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#a30f08612e40e5bd3298b9b1a994df3d0">ServerApp::ExecuteScriptedTurnEvents()</a>, <a class="el" href="classServerApp.html#aa2827a8725e355d9c9a6c51b785f0938">ServerApp::FillListPlayers()</a>, <a class="el" href="classServerApp.html#aa34ec53fa0a41822407af2eafc5b6e9d">ServerApp::GetPlayerDelegation()</a>, <a class="el" href="classPythonAI.html#ab9fdcb4c7ff50b09d2bc5f1e2522ad64">PythonAI::Initialize()</a>, <a class="el" href="classServerApp.html#aade4f1bf48914ec40757128314f6b244">ServerApp::InitializePython()</a>, <a class="el" href="classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782">ServerApp::IsAuthRequiredOrFillRoles()</a>, <a class="el" href="classServerApp.html#a7df980a4219a193118f710249723a5bb">ServerApp::IsAuthSuccessAndFillRoles()</a>, <a class="el" href="classServerApp.html#a5e6e3a7afa6924e11a67c80c4d9feb2a">ServerApp::LoadChatHistory()</a>, and <a class="el" href="classServerApp.html#a360e94b2ad1538791467999f67129452">ServerApp::PushChatMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a630545e933e20d0fcb62f867ddb76fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630545e933e20d0fcb62f867ddb76fe2">&#9670;&nbsp;</a></span>InitImports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PythonBase::InitImports </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classPythonAI.html#abdb4fa1d33c6cc7f3a5ae7fb564603e0">PythonAI</a>, and <a class="el" href="classPythonServer.html#affdd7ddcf3193680834582f357a8689f">PythonServer</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">Initialize()</a>.</p>
 
 </div>
 </div>

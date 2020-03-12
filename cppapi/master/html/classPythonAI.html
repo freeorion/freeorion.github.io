@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef933c165080afb3e2fa4d33f7803f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9fdcb4c7ff50b09d2bc5f1e2522ad64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonAI.html#ab9fdcb4c7ff50b09d2bc5f1e2522ad64">Initialize</a> ()</td></tr>
 <tr class="separator:ab9fdcb4c7ff50b09d2bc5f1e2522ad64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb4fa1d33c6cc7f3a5ae7fb564603e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonAI.html#abdb4fa1d33c6cc7f3a5ae7fb564603e0">InitImports</a> () override</td></tr>
+<tr class="memdesc:abdb4fa1d33c6cc7f3a5ae7fb564603e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes AI Python imports.  <a href="#abdb4fa1d33c6cc7f3a5ae7fb564603e0">More...</a><br /></td></tr>
+<tr class="separator:abdb4fa1d33c6cc7f3a5ae7fb564603e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed0a0fa9ac05452940ca735f427cbf3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonAI.html#a3ed0a0fa9ac05452940ca735f427cbf3">InitModules</a> () override</td></tr>
 <tr class="memdesc:a3ed0a0fa9ac05452940ca735f427cbf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes AI Python modules.  <a href="#a3ed0a0fa9ac05452940ca735f427cbf3">More...</a><br /></td></tr>
 <tr class="separator:a3ed0a0fa9ac05452940ca735f427cbf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,7 +169,7 @@ Private Attributes</h2></td></tr>
 <p>Call when the server has sent a new turn update. </p>
 <p>The AI subclass should review the new gamestate and send orders for this turn. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classScopedTimer.html#aefb5deb9c4445a52f6ee41bbf21d11de">ScopedTimer::DurationString()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classAIClientApp.html#a9b0889d1a16d51664f4cad392ddb2153">AIClientApp::GetAI()</a>, <a class="el" href="classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="classPythonAI.html#a4b9a4dbb72db4cc17534cf21377bc221">GetSaveStateString()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classPythonAI.html#a928df74c5a9100f0ddab1474714270ab">m_python_module_ai</a>, and <a class="el" href="classClientApp.html#a237f9c9f792c557b4d55208ec7a74eab">ClientApp::StartTurn()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>, <a class="el" href="classScopedTimer.html#aefb5deb9c4445a52f6ee41bbf21d11de">ScopedTimer::DurationString()</a>, <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classAIClientApp.html#a9b0889d1a16d51664f4cad392ddb2153">AIClientApp::GetAI()</a>, <a class="el" href="classAIClientApp.html#aa154fdc59e9bb519e1c497302c22f08b">AIClientApp::GetApp()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classPythonAI.html#a4b9a4dbb72db4cc17534cf21377bc221">GetSaveStateString()</a>, <a class="el" href="classPythonBase.html#a92992f6414692dca51785fd91bd4c019">PythonBase::HandleErrorAlreadySet()</a>, <a class="el" href="classPythonBase.html#ab9d722c3819abad7cae2e901f009730f">PythonBase::IsPythonRunning()</a>, <a class="el" href="classPythonAI.html#a928df74c5a9100f0ddab1474714270ab">m_python_module_ai</a>, and <a class="el" href="classClientApp.html#a237f9c9f792c557b4d55208ec7a74eab">ClientApp::StartTurn()</a>.</p>
 
 </div>
 </div>
@@ -309,6 +312,37 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="Building_8cpp.html#a6c2ae681b60d6cd38918b5a228fcd4f8">GetBuildingTypeManager()</a>, and <a class="el" href="classPythonBase.html#ad94499d0585f954ee7d9eafb408475e3">PythonBase::Initialize()</a>.</p>
+
+</div>
+</div>
+<a id="abdb4fa1d33c6cc7f3a5ae7fb564603e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb4fa1d33c6cc7f3a5ae7fb564603e0">&#9670;&nbsp;</a></span>InitImports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PythonAI::InitImports </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes AI Python imports. </p>
+
+<p>Implements <a class="el" href="classPythonBase.html#a630545e933e20d0fcb62f867ddb76fe2">PythonBase</a>.</p>
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aa0888613df086ecb21e798a83f37f13b">DebugLogger</a>.</p>
 
 </div>
 </div>
