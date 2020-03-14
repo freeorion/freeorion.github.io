@@ -1377,6 +1377,7 @@ var searchData=
   ['m_5fused_5fpoints_5flabel',['m_used_points_label',['../classResourceBrowseWnd.html#ae2bd9e48d592e1446af89758793076d5',1,'ResourceBrowseWnd']]],
   ['m_5fused_5fpoints_5fp_5flabel',['m_used_points_P_label',['../classResourceBrowseWnd.html#a9a31c73d4c8674347e48458e4e1dcfec',1,'ResourceBrowseWnd']]],
   ['m_5fuuid',['m_uuid',['../structParsedShipDesign.html#afaeefc7b9c694f2f084a0ce6733dc3bd',1,'ParsedShipDesign::m_uuid()'],['../classShipDesign.html#a88842f6ef2d62c6a02d5793701aab784',1,'ShipDesign::m_uuid()'],['../classProductionQueueOrder.html#ae5503d9760a70a139467002232779b51',1,'ProductionQueueOrder::m_uuid()'],['../classShipDesignOrder.html#a69e65bc76bdbc516aa78a3ec66e79f57',1,'ShipDesignOrder::m_uuid()']]],
+  ['m_5fuuid2',['m_uuid2',['../classProductionQueueOrder.html#ad87fa0f9023c059dd0b17a61a144306a',1,'ProductionQueueOrder']]],
   ['m_5fvalid',['m_valid',['../classPlayerConnection.html#a70307daa85571792235530cf0041ecde',1,'PlayerConnection::m_valid()'],['../structanonymous__namespace_02VarText_8cpp_03_1_1Substitute.html#a6df7bc52726ed2ec8ca22cc7715eb42a',1,'anonymous_namespace{VarText.cpp}::Substitute::m_valid()']]],
   ['m_5fvalid_5fselection_5fpredicate',['m_valid_selection_predicate',['../classSidePanel_1_1PlanetPanelContainer.html#a4af9cd1d091978a312c188fbc6bcbeff',1,'SidePanel::PlanetPanelContainer']]],
   ['m_5fvalidated',['m_validated',['../classVarText.html#a6815a7cba77f836558243dfb17b3f401',1,'VarText']]],

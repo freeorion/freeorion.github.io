@@ -285,7 +285,7 @@ var searchData=
   ['dumpobject',['DumpObject',['../classClientUI.html#ab2679f656c2df8e46739986e4850ca8d',1,'ClientUI']]],
   ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['duplicate_5fitem',['DUPLICATE_ITEM',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a11efbba17991af8300dcd35052efb6e3',1,'ProductionQueueOrder']]],
-  ['duplicateproductionitem',['DuplicateProductionItem',['../classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e',1,'Empire']]],
+  ['duplicateproductionitem',['DuplicateProductionItem',['../classEmpire.html#ad523e0778752582ab2b77ffe42bcebe4',1,'Empire']]],
   ['duration',['Duration',['../classScopedTimer_1_1Impl.html#ad94e1ac7658d56c28c94b0d06dd01d6c',1,'ScopedTimer::Impl::Duration()'],['../classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a',1,'ScopedTimer::duration()']]],
   ['durationstring',['DurationString',['../classScopedTimer_1_1Impl.html#a8d163c11b3e59fe5b83b706d6491790c',1,'ScopedTimer::Impl::DurationString()'],['../classScopedTimer.html#aefb5deb9c4445a52f6ee41bbf21d11de',1,'ScopedTimer::DurationString()']]]
 ];
