@@ -175,6 +175,7 @@ var searchData=
   ['disable',['Disable',['../classGameRulesPanel.html#a2467aae049b6af530ed20dec27518ce6',1,'GameRulesPanel::Disable()'],['../classGalaxySetupPanel.html#a3c55cf5dbfc1e5e067a9943fb168b92a',1,'GalaxySetupPanel::Disable()'],['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#ac6c8bb7583019f4bf34995bb3f35e24d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::Disable()'],['../classSound_1_1Impl.html#a961a16fe24d8656c0404ceac95494101',1,'Sound::Impl::Disable()'],['../classSound.html#ad31116c5b8f0599949438735de2edcba',1,'Sound::Disable()']]],
   ['disabledroparrow',['DisableDropArrow',['../classCUIDropDownList.html#a1c7df96c6f7c34e2d15d08ec040b40b7',1,'CUIDropDownList']]],
   ['disablenonselectioncandidates',['DisableNonSelectionCandidates',['../classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05',1,'SidePanel::PlanetPanelContainer']]],
+  ['disallow_5fstockpile_5fuse',['DISALLOW_STOCKPILE_USE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a216358ce8f60ed691bd6bd1dea859a0a',1,'ProductionQueueOrder']]],
   ['disconnect',['Disconnect',['../classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b',1,'ServerNetworking::Disconnect(int id)'],['../classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12',1,'ServerNetworking::Disconnect(PlayerConnectionPtr player_connection)']]],
   ['disconnectall',['DisconnectAll',['../classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892',1,'ServerNetworking']]],
   ['disconnectclients',['DisconnectClients',['../structDisconnectClients.html',1,'']]],
@@ -230,7 +231,6 @@ var searchData=
   ['done',['Done',['../classInGameMenu.html#ac36fd07ec1aabe011faeeadb0964fd8a',1,'InGameMenu']]],
   ['doneclicked',['DoneClicked',['../classOptionsWnd.html#ae301d3cb1d52f719ff4f9f7a01d2d4bd',1,'OptionsWnd']]],
   ['donetypingsignal',['DoneTypingSignal',['../classMessageWnd.html#ad784c4fbed79ab22093150ac365c70de',1,'MessageWnd']]],
-  ['dont_5fuse_5fimperial_5fpp',['DONT_USE_IMPERIAL_PP',['../classProductionQueueOrder.html#aad9657ebdd1a8eaa54ded2384025391f',1,'ProductionQueueOrder']]],
   ['dopanelslayout',['DoPanelsLayout',['../classSidePanel_1_1PlanetPanelContainer.html#a4c6f691b2f22d10c5a2b4b406d71f0d8',1,'SidePanel::PlanetPanelContainer']]],
   ['dosystemiconslayout',['DoSystemIconsLayout',['../classMapWnd.html#ab61aff6b33be2980730766f9dfbbfc9a',1,'MapWnd']]],
   ['dot_5fstar_5ftexture_5fcoords',['dot_star_texture_coords',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a358d76e2c84b2e58a7a49e8f01c09b8d',1,'anonymous_namespace{MapWnd.cpp}']]],
@@ -284,6 +284,7 @@ var searchData=
   ['dumpindent',['DumpIndent',['../UniverseObject_8h.html#ae46af1cd3bc2b581bbacd635fb83109a',1,'UniverseObject.h']]],
   ['dumpobject',['DumpObject',['../classClientUI.html#ab2679f656c2df8e46739986e4850ca8d',1,'ClientUI']]],
   ['dumpobjects',['DumpObjects',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a8359fae5dface9d70f6099143cd19c51',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['duplicate_5fitem',['DUPLICATE_ITEM',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a11efbba17991af8300dcd35052efb6e3',1,'ProductionQueueOrder']]],
   ['duplicateproductionitem',['DuplicateProductionItem',['../classEmpire.html#a99d5d1483d6c87cfca2f589df0289a6e',1,'Empire']]],
   ['duration',['Duration',['../classScopedTimer_1_1Impl.html#ad94e1ac7658d56c28c94b0d06dd01d6c',1,'ScopedTimer::Impl::Duration()'],['../classScopedTimer.html#a5b33ca8cc4a278f15aeda99838ef855a',1,'ScopedTimer::duration()']]],
   ['durationstring',['DurationString',['../classScopedTimer_1_1Impl.html#a8d163c11b3e59fe5b83b706d6491790c',1,'ScopedTimer::Impl::DurationString()'],['../classScopedTimer.html#aefb5deb9c4445a52f6ee41bbf21d11de',1,'ScopedTimer::DurationString()']]]

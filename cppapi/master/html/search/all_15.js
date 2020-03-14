@@ -127,7 +127,6 @@ var searchData=
   ['urlsafe_5fbase64_5fencoder',['urlsafe_base64_encoder',['../namespaceboost_1_1iostreams.html#afad0f3921290219f92528135da12e52b',1,'boost::iostreams']]],
   ['urlsafe_5fbase64_5ftraits',['urlsafe_base64_traits',['../structboost_1_1iostreams_1_1urlsafe__base64__traits.html',1,'boost::iostreams']]],
   ['use',['Use',['../classShaderProgram.html#a772b912025cf7c55cfeeb876fa6ee414',1,'ShaderProgram']]],
-  ['use_5fimperial_5fpp',['USE_IMPERIAL_PP',['../classProductionQueueOrder.html#a5842bf1c77dcd18e116d615cf66c3b61',1,'ProductionQueueOrder']]],
   ['userstring',['UserString',['../i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38',1,'UserString(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a00cd1c862739b9c139b983fc28f689a7',1,'UserString(const std::string &amp;str):&#160;i18n.cpp']]],
   ['userstringcastedvalueref',['UserStringCastedValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ac36af64ddcd53a5ccf0ec8fa47c5d695',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringexists',['UserStringExists',['../Conditions_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../ValueRefs_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a4e4904cf855ebc7d475c211d2ad68fba',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp']]],
@@ -138,5 +137,5 @@ var searchData=
   ['userstringsubstitute',['UserStringSubstitute',['../namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a551cf45a969e6a040b4b8f47b6fbff2e',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5c114abbcaa728fe98631cefc6ad51c9',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5f6ac0f4025d308fb7c7a79846e10721',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['uuid',['UUID',['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign']]]
+  ['uuid',['UUID',['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign::UUID()'],['../structProductionQueue_1_1Element.html#a4e08f5b0210377346ef389e6292a89d4',1,'ProductionQueue::Element::uuid()']]]
 ];

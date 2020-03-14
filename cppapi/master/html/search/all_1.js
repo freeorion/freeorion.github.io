@@ -155,6 +155,7 @@ var searchData=
   ['allorderedids',['AllOrderedIDs',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#aad1ea23169ce951c31c6a22c09759d42',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
   ['allordersreceived',['AllOrdersReceived',['../classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe',1,'ServerApp']]],
   ['allow_5fallied_5fsupply',['ALLOW_ALLIED_SUPPLY',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#aa289db6fadaa4613c73f263decfba1df',1,'anonymous_namespace{Fleet.cpp}']]],
+  ['allow_5fstockpile_5fuse',['ALLOW_STOCKPILE_USE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661ad936b49b043a098fbdae46bb384818f5',1,'ProductionQueueOrder']]],
   ['allowed_5fimperial_5fstockpile_5fuse',['allowed_imperial_stockpile_use',['../structProductionQueue_1_1Element.html#a34ec20d0c330439e40698431ce6f78a6',1,'ProductionQueue::Element']]],
   ['allowuseimperialpp',['AllowUseImperialPP',['../classEmpire.html#a247d0555a940675e082cb579d5b24c86',1,'Empire']]],
   ['allparamsasstring',['AllParamsAsString',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#ae898df2cc7cf48b100e28e4f0dff2a42',1,'anonymous_namespace{LinkText.cpp}']]],
