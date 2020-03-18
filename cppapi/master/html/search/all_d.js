@@ -629,6 +629,7 @@ var searchData=
   ['m_5flocation_5fid',['m_location_id',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemPanel.html#a6360e4ca0b8b4261a9230af516544c5a',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemPanel']]],
   ['m_5flocation_5ftext',['m_location_text',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af11c77927872a62b117666612e27cf52',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['m_5flog',['m_log',['../classCombatReportWnd_1_1Impl.html#a53f564d6f45c99a6b9fa2bd4257b642c',1,'CombatReportWnd::Impl']]],
+  ['m_5flog_5fscale',['m_log_scale',['../classGraphControl.html#a91adb95c6611f17deeb51be46f150244',1,'GraphControl']]],
   ['m_5flog_5fscroller',['m_log_scroller',['../classCombatReportWnd_1_1Impl.html#a4871db40751b0fc92e65113e0c3eafb0',1,'CombatReportWnd::Impl']]],
   ['m_5flogo',['m_logo',['../classIntroScreen.html#a535e4b61684125153d8b3728877a60e3',1,'IntroScreen']]],
   ['m_5flogs',['m_logs',['../classCombatLogManager_1_1Impl.html#aa2654483ea774661ab0c35d45c1121cd',1,'CombatLogManager::Impl']]],

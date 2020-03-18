@@ -88,6 +88,7 @@ var searchData=
   ['updatevisfiltersfromobjecttypebutton',['UpdateVisFiltersFromObjectTypeButton',['../classFilterDialog.html#a956f5c5ab8b46291253d49eb32b0d364',1,'FilterDialog']]],
   ['updatevisfiltersfromstatebuttons',['UpdateVisFiltersFromStateButtons',['../classFilterDialog.html#ad72eed2fe63b5b77e51310c7ad2f0d02',1,'FilterDialog']]],
   ['use',['Use',['../classShaderProgram.html#a772b912025cf7c55cfeeb876fa6ee414',1,'ShaderProgram']]],
+  ['uselogscale',['UseLogScale',['../classGraphControl.html#a5b5d549eb568ba671634e2231d91e1d2',1,'GraphControl']]],
   ['userstring',['UserString',['../i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38',1,'UserString(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a00cd1c862739b9c139b983fc28f689a7',1,'UserString(const std::string &amp;str):&#160;i18n.cpp']]],
   ['userstringcastedvalueref',['UserStringCastedValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ac36af64ddcd53a5ccf0ec8fa47c5d695',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringexists',['UserStringExists',['../Conditions_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../ValueRefs_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp'],['../i18n_8h.html#a4e4904cf855ebc7d475c211d2ad68fba',1,'UserStringExists(const std::string &amp;str):&#160;i18n.cpp']]],
