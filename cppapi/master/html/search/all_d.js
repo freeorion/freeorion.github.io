@@ -1442,6 +1442,7 @@ var searchData=
   ['m_5fy_5fposition_5ffraction',['m_y_position_fraction',['../classSlotControl.html#a2c0a560db5e4958332a8c3ed2cb11313',1,'SlotControl']]],
   ['m_5fy_5fscale_5fticks',['m_y_scale_ticks',['../classGraphControl.html#afbb45590923785d472f67489ffce34ab',1,'GraphControl']]],
   ['m_5fzero',['m_zero',['../classIDAllocator.html#a47ef43e07e8649af3d388b61459e5baf',1,'IDAllocator']]],
+  ['m_5fzero_5fin_5frange',['m_zero_in_range',['../classGraphControl.html#aa3ceae766518caa879129170f397c441',1,'GraphControl']]],
   ['m_5fzoom_5fin_5fbutton',['m_zoom_in_button',['../classTechTreeWnd_1_1LayoutPanel.html#accd2484b4d3683bc7c04b264fd5ce4e7',1,'TechTreeWnd::LayoutPanel']]],
   ['m_5fzoom_5fout_5fbutton',['m_zoom_out_button',['../classTechTreeWnd_1_1LayoutPanel.html#a08009eca362eb95408f1612f8d610bf0',1,'TechTreeWnd::LayoutPanel']]],
   ['m_5fzoom_5fslider',['m_zoom_slider',['../classMapWnd.html#a59d5590255123af790d62112cefe05a6',1,'MapWnd']]],
