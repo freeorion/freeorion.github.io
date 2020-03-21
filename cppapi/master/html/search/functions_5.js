@@ -87,7 +87,7 @@ var searchData=
   ['encode',['encode',['../structboost_1_1iostreams_1_1base64__traits.html#a292f33d27a315ebfb593e9bab7b6c180',1,'boost::iostreams::base64_traits::encode()'],['../structboost_1_1iostreams_1_1urlsafe__base64__traits.html#af2b26059589f1314b0cae8dd845aa87f',1,'boost::iostreams::urlsafe_base64_traits::encode()'],['../classboost_1_1iostreams_1_1basic__base64__encoder.html#a82843492bc20db9ce82764449e10ca6d',1,'boost::iostreams::basic_base64_encoder::encode()']]],
   ['encodeserveraddressoption',['EncodeServerAddressOption',['../classHumanClientApp.html#a68c734759285bc95b03146c08b4c8188',1,'HumanClientApp']]],
   ['encodingempire',['EncodingEmpire',['../classUniverse.html#adba843a964a08c6d890f485ffc5dde0f',1,'Universe']]],
-  ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html#ad0bfad09f224f838bdd9030c303e3500',1,'Encyclopedia']]],
+  ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html#a667273357aa82b92d63348c3632b83b8',1,'Encyclopedia']]],
   ['encyclopedia_5farticles',['encyclopedia_articles',['../namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa',1,'parse']]],
   ['encyclopediaarticle',['EncyclopediaArticle',['../structEncyclopediaArticle.html#a2a63589f2e54c1014acc246cecd24f19',1,'EncyclopediaArticle::EncyclopediaArticle()=default'],['../structEncyclopediaArticle.html#a0345ff490ed07d7f85ec17da4a5888cc',1,'EncyclopediaArticle::EncyclopediaArticle(const std::string &amp;name_, const std::string &amp;category_, const std::string &amp;short_description_, const std::string &amp;description_, const std::string &amp;icon_)']]],
   ['encyclopediadetailpanel',['EncyclopediaDetailPanel',['../classEncyclopediaDetailPanel.html#a2174965f3ef98aabee4e58b910f32f2f',1,'EncyclopediaDetailPanel']]],
