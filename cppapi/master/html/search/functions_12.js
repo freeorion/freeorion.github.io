@@ -52,7 +52,7 @@ var searchData=
   ['refreshdetailpanelshipparttag',['RefreshDetailPanelShipPartTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a45e45676f3bd50b8d7adcb274597f386',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['refreshdetailpanelspecialtag',['RefreshDetailPanelSpecialTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ade37814d07af7bb1715244675d94c673',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['refreshdetailpanelspeciestag',['RefreshDetailPanelSpeciesTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ac95bf73cfaacd5c999bb3e49203f4ef1',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
-  ['refreshdetailpanelsuitabilitytag',['RefreshDetailPanelSuitabilityTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a23c94b86c4c35d12160475508235aa41',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['refreshdetailpanelsuitabilitytag',['RefreshDetailPanelSuitabilityTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a0618fca13a4b850bd8f5d6d031bf31af',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['refreshdetailpaneltechtag',['RefreshDetailPanelTechTag',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab7e750ad7927f3a880873087bacfd7d0',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['refreshdetectionindicator',['RefreshDetectionIndicator',['../classMapWnd.html#a6143ec2a5df022b6da9e8d8432b31dec',1,'MapWnd']]],
   ['refreshfleetbuttons',['RefreshFleetButtons',['../classMapWnd.html#a49cb6ec4be307478bf7a79c90d7d2fcc',1,'MapWnd']]],
