@@ -115,6 +115,7 @@ var searchData=
   ['bt_5fproject',['BT_PROJECT',['../Enums_8h.html#a6d6e57e057e19e8fd3503322accf592a',1,'Enums.h']]],
   ['bt_5fship',['BT_SHIP',['../Enums_8h.html#a984a0db15120b45c7a40336c74053516',1,'Enums.h']]],
   ['bt_5fstockpile',['BT_STOCKPILE',['../Enums_8h.html#adb5d3577b982426b0b83866a07afd1bd',1,'Enums.h']]],
+  ['btn_5fwidth',['BTN_WIDTH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a57cd484c575c0fef11a178c6aab48355',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['buffer_5f',['buffer_',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a3b3a92bbfac04477c5e866336b009110',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['buffer_5fcapacity',['BUFFER_CAPACITY',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab1689bf4672c3138d630bdb96f10c088',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736',1,'anonymous_namespace{Sound.cpp}']]],
