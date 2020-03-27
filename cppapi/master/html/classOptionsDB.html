@@ -117,9 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a79643d8e5c56b27eb89e37cbbf63b8fc">AddSection</a> (const std::string &amp;name, const std::string &amp;description, std::function&lt; bool(const std::string &amp;)&gt; option_predicate=nullptr)</td></tr>
 <tr class="memdesc:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an option section with a description and optionally a option predicate.  <a href="#a79643d8e5c56b27eb89e37cbbf63b8fc">More...</a><br /></td></tr>
 <tr class="separator:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a50025506fb9f0bc40728e65a9c50ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit</a> ()</td></tr>
-<tr class="memdesc:a9a50025506fb9f0bc40728e65a9c50ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">write back the optionDB's state to the XML config file if it has changed since it was last saved.  <a href="#a9a50025506fb9f0bc40728e65a9c50ed">More...</a><br /></td></tr>
-<tr class="separator:a9a50025506fb9f0bc40728e65a9c50ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22746f6d5751225f473532f35694aadf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">Commit</a> (bool only_if_dirty=true, bool only_non_default=true)</td></tr>
+<tr class="memdesc:a22746f6d5751225f473532f35694aadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the optionDB's non-default state to the XML config file.  <a href="#a22746f6d5751225f473532f35694aadf">More...</a><br /></td></tr>
+<tr class="separator:a22746f6d5751225f473532f35694aadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f1f772194e1c0a5631586ad0c4e816"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent</a> ()</td></tr>
 <tr class="memdesc:ac4f1f772194e1c0a5631586ad0c4e816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write any options that are not at default value to persistent config, replacing any existing file.  <a href="#ac4f1f772194e1c0a5631586ad0c4e816">More...</a><br /></td></tr>
 <tr class="separator:ac4f1f772194e1c0a5631586ad0c4e816"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,9 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1eaf39180511a85d886df1412a602ea"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString</a> (const std::string &amp;option_name) const</td></tr>
 <tr class="memdesc:ad1eaf39180511a85d886df1412a602ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the string representation of the value of the option <em>name</em>.  <a href="#ad1eaf39180511a85d886df1412a602ea">More...</a><br /></td></tr>
 <tr class="separator:ad1eaf39180511a85d886df1412a602ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4391da527afb2cc5d27c752774c97c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a4391da527afb2cc5d27c752774c97c04">GetXML</a> (<a class="el" href="classXMLDoc.html">XMLDoc</a> &amp;doc, bool non_default_only=false) const</td></tr>
-<tr class="memdesc:a4391da527afb2cc5d27c752774c97c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the contents of the options DB to the <code>doc</code> <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a>.  <a href="#a4391da527afb2cc5d27c752774c97c04">More...</a><br /></td></tr>
-<tr class="separator:a4391da527afb2cc5d27c752774c97c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d1bee4f973ce8ac6a1e88464766b4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML</a> (<a class="el" href="classXMLDoc.html">XMLDoc</a> &amp;doc, bool non_default_only=false, bool include_version=true) const</td></tr>
+<tr class="memdesc:ad4d1bee4f973ce8ac6a1e88464766b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the contents of the options DB to the <code>doc</code> <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a>.  <a href="#ad4d1bee4f973ce8ac6a1e88464766b4d">More...</a><br /></td></tr>
+<tr class="separator:ad4d1bee4f973ce8ac6a1e88464766b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16f9200db38cb9c51374b30e3242b52b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a16f9200db38cb9c51374b30e3242b52b">IsDefaultValue</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a16f9200db38cb9c51374b30e3242b52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf2ac0d453b333fdd15bdd6e368231c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOptionsDB.html#ae92aa928ac4371b4b430ecb89344d5ed">OptionChangedSignalType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#aaf2ac0d453b333fdd15bdd6e368231c5">OptionChangedSignal</a> (const std::string &amp;option)</td></tr>
@@ -636,24 +636,35 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9a50025506fb9f0bc40728e65a9c50ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a50025506fb9f0bc40728e65a9c50ed">&#9670;&nbsp;</a></span>Commit()</h2>
+<a id="a22746f6d5751225f473532f35694aadf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22746f6d5751225f473532f35694aadf">&#9670;&nbsp;</a></span>Commit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OptionsDB::Commit </td>
+          <td class="memname">bool OptionsDB::Commit </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>only_if_dirty</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>only_non_default</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>write back the optionDB's state to the XML config file if it has changed since it was last saved. </p>
+<p>write the optionDB's non-default state to the XML config file. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a408e3f25b8084b54401020ae0a1743cd">GetConfigPath()</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="classOptionsDB.html#a4391da527afb2cc5d27c752774c97c04">GetXML()</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classXMLDoc.html#afbf43ca26a26963ca4d0a50b92b61a29">XMLDoc::WriteDoc()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a408e3f25b8084b54401020ae0a1743cd">GetConfigPath()</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classXMLDoc.html#afbf43ca26a26963ca4d0a50b92b61a29">XMLDoc::WriteDoc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsWnd.html#ae301d3cb1d52f719ff4f9f7a01d2d4bd">OptionsWnd::DoneClicked()</a>, <a class="el" href="classHumanClientApp.html#aa8e596c125b16b255014687451288e18">HumanClientApp::GetWindowWidthHeight()</a>, <a class="el" href="classHumanClientApp.html#a216d51403e469e855b327bd26d86f335">HumanClientApp::HandleWindowMove()</a>, <a class="el" href="classHumanClientApp.html#a1b07477b5adc2f6169d9222e9ac67d82">HumanClientApp::HandleWindowResize()</a>, <a class="el" href="classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0">CUIWnd::InvalidateUnusedOptions()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classServerConnectWnd.html#a91982e2295a77d5611a85c751379f78e">ServerConnectWnd::OkClicked()</a>, <a class="el" href="classGalaxySetupWnd.html#ae2d5951541e4c69a0889c805cebabe3a">GalaxySetupWnd::OkClicked()</a>, <a class="el" href="structWaitingForMPJoinAck.html#a67f7ff813ebf251a81b99404c46df171">WaitingForMPJoinAck::react()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">CUIWnd::SaveOptions()</a>, <a class="el" href="classBarSizer.html#a31247b4165fbbf9d416c8a67e28a4606">BarSizer::Set()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a42719b830d15f7620325c209ebcb3c4b">anonymous_namespace{SitRepPanel.cpp}::SetHiddenSitRepTemplateStringsInOptions()</a>, and <a class="el" href="classTechTreeWnd.html#a9bbe18f37594b89f0b0c5b4fd2e4fb94">TechTreeWnd::SetTechStatus()</a>.</p>
 
@@ -677,7 +688,7 @@ template&lt;class T &gt; </div>
 <p>Write any options that are not at default value to persistent config, replacing any existing file. </p>
 <dl class="section return"><dt>Returns</dt><dd>bool If file was successfully written </dd></dl>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="Directories_8cpp.html#a20662b9c31affc3f12b90e7e975406c0">GetPersistentConfigPath()</a>, <a class="el" href="classOptionsDB.html#a4391da527afb2cc5d27c752774c97c04">GetXML()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classXMLDoc.html#afbf43ca26a26963ca4d0a50b92b61a29">XMLDoc::WriteDoc()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2">GetOptionsDB</a>, <a class="el" href="Directories_8cpp.html#a20662b9c31affc3f12b90e7e975406c0">GetPersistentConfigPath()</a>, <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="classXMLDoc.html#afbf43ca26a26963ca4d0a50b92b61a29">XMLDoc::WriteDoc()</a>.</p>
 
 </div>
 </div>
@@ -924,8 +935,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a4391da527afb2cc5d27c752774c97c04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4391da527afb2cc5d27c752774c97c04">&#9670;&nbsp;</a></span>GetXML()</h2>
+<a id="ad4d1bee4f973ce8ac6a1e88464766b4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d1bee4f973ce8ac6a1e88464766b4d">&#9670;&nbsp;</a></span>GetXML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -940,7 +951,13 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>non_default_only</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>non_default_only</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_version</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -961,7 +978,7 @@ template&lt;class T &gt; </div>
 
 <p class="reference">References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="classOptionsDB.html#a16f9200db38cb9c51374b30e3242b52b">IsDefaultValue()</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#abba7a4e4a27e00fed04889cea2ba5aea">anonymous_namespace{OptionsDB.cpp}::PreviousSectionName()</a>, <a class="el" href="classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a">XMLDoc::root_node</a>, <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>, and <a class="el" href="classXMLElement.html#a15b7650bc1d2198ae1b86a78bff705ed">XMLElement::Tag()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit()</a>, and <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">Commit()</a>, and <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent()</a>.</p>
 
 </div>
 </div>
@@ -989,7 +1006,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a4391da527afb2cc5d27c752774c97c04">GetXML()</a>, and <a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">CUIWnd::SetDefaultedOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, and <a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">CUIWnd::SetDefaultedOptions()</a>.</p>
 
 </div>
 </div>
@@ -1450,7 +1467,7 @@ template&lt;class T &gt; </div>
 
 <p>returns the single instance of the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> class </p>
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit()</a>, <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent()</a>, and <a class="el" href="classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f">SetFromFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">Commit()</a>, <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent()</a>, and <a class="el" href="classOptionsDB.html#a1bd14c7bf6621c8f1d59e4f0db41ec4f">SetFromFile()</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1492,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed">Commit()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">Commit()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, and <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>.</p>
 
 </div>
 </div>
@@ -1499,7 +1516,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a05e58b5e64f35d94b94f7d90b8618ad6">FindOptions()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56">GetUsage()</a>, <a class="el" href="classOptionsDB.html#a97d203f4fb46181380aea6d91daac94e">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classOptionsDB.html#a4391da527afb2cc5d27c752774c97c04">GetXML()</a>, <a class="el" href="classOptionsDB.html#aaf2ac0d453b333fdd15bdd6e368231c5">OptionChangedSignal()</a>, <a class="el" href="classOptionsDB.html#ad8b5bcdda86742bc8885e3a29febcb03">OptionsBySection()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#aeb64ee8f4feb263360bb1bcbaa22cb1e">RemoveUnrecognized()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>, and <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a05e58b5e64f35d94b94f7d90b8618ad6">FindOptions()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56">GetUsage()</a>, <a class="el" href="classOptionsDB.html#a97d203f4fb46181380aea6d91daac94e">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, <a class="el" href="classOptionsDB.html#aaf2ac0d453b333fdd15bdd6e368231c5">OptionChangedSignal()</a>, <a class="el" href="classOptionsDB.html#ad8b5bcdda86742bc8885e3a29febcb03">OptionsBySection()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#aeb64ee8f4feb263360bb1bcbaa22cb1e">RemoveUnrecognized()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>, and <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>.</p>
 
 </div>
 </div>

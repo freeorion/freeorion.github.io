@@ -307,7 +307,7 @@ var searchData=
   ['combattargets',['CombatTargets',['../classFighter.html#aaa4384c0c2dd13b045cbda445330f64f',1,'Fighter::CombatTargets()'],['../classPartType.html#a7b1c84bf6e2ca1fa0be429eac2a33fff',1,'PartType::CombatTargets()'],['../classSpecies.html#a939767ba4a4158b67eeb228218703b21',1,'Species::CombatTargets()']]],
   ['comment',['Comment',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad93fd3a1699dbf4e245aa05d9b0a0cec',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['comment1',['Comment1',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae73324a0b912b2ded35db0ce5df84451',1,'anonymous_namespace{XMLDoc.cpp}']]],
-  ['commit',['Commit',['../classOptionsDB.html#a9a50025506fb9f0bc40728e65a9c50ed',1,'OptionsDB']]],
+  ['commit',['Commit',['../classOptionsDB.html#a22746f6d5751225f473532f35694aadf',1,'OptionsDB']]],
   ['commitpersistent',['CommitPersistent',['../classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816',1,'OptionsDB']]],
   ['common',['common',['../structparse_1_1detail_1_1common__params__rules.html#a77f87a85a0c631a39cd56157a112fd10',1,'parse::detail::common_params_rules']]],
   ['common_5fparams_5frule',['common_params_rule',['../structparse_1_1detail_1_1common__params__rules.html#abb7711c5bcff6c25f07d58c2a07d044b',1,'parse::detail::common_params_rules']]],
