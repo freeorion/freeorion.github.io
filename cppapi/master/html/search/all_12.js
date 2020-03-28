@@ -151,7 +151,7 @@ var searchData=
   ['renderrectangle',['RenderRectangle',['../classScanlineRenderer_1_1Impl.html#a533f6ae56d2d342013c6d0e6094539f6',1,'ScanlineRenderer::Impl::RenderRectangle()'],['../classScanlineRenderer.html#addb02c776ff727f09da8233e6557c0fb',1,'ScanlineRenderer::RenderRectangle()']]],
   ['renderrollover',['RenderRollover',['../classCUIButton.html#a226e989422cf01b7fccb0ae422edeeab',1,'CUIButton::RenderRollover()'],['../classCUIArrowButton.html#aaf3a0a0e0bb8d993db52e149db87380a',1,'CUIArrowButton::RenderRollover()'],['../classFleetButton.html#af36dc0bfa70f98740eb4f5243ce3963d',1,'FleetButton::RenderRollover()']]],
   ['renderscalecircle',['RenderScaleCircle',['../classMapWnd.html#aa24ade1ae19998b67fc30c59899aa9bb',1,'MapWnd']]],
-  ['rendersphere',['RenderSphere',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a3c2af69aa4920f3503e152ffd9104f36',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['rendersphere',['RenderSphere',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ab3ce69f29f4a1ebeba15e63a475a424b',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['renderstarfields',['RenderStarfields',['../classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0',1,'MapWnd']]],
   ['renderstarlanes',['RenderStarlanes',['../classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c',1,'MapWnd::RenderStarlanes()'],['../classMapWnd.html#aedc635c1625170df6a4b68ede4b1fe52',1,'MapWnd::RenderStarlanes(GG::GL2DVertexBuffer &amp;vertices, GG::GLRGBAColorBuffer &amp;colours, double thickness, bool coloured, bool do_base_render)']]],
   ['rendersystemoverlays',['RenderSystemOverlays',['../classMapWnd.html#a678d036fbc8b1d8282b688a2eb98c624',1,'MapWnd']]],
