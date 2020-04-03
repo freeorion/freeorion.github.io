@@ -14,6 +14,6 @@ var searchData=
   ['hull_5fparts_5frow_5fdrop_5ftype_5fstring',['HULL_PARTS_ROW_DROP_TYPE_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a43f29423b1631b2291e2c4fcc279a706',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['hull_5fstats',['hull_stats',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#aa9ec033f4f638357d754131d39288415',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
   ['hullclickedsignal',['HullClickedSignal',['../classBasesListBox.html#a54fb580ca942a604ae5e0783c6c35298',1,'BasesListBox::HullClickedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a166e4a87e726467f50d4d9c95b5c11cf',1,'DesignWnd::BaseSelector::HullClickedSignal()']]],
-  ['hullslotsfunc',['HullSlotsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a9b0e96b37e2f30cf5af6e0874e261947',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['hullslotsfunc',['HullSlotsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a6e58242569f679c0be0cd74137d45a72',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['hulltypeclickedsignal',['HullTypeClickedSignal',['../classDesignWnd_1_1MainPanel.html#a904de24d03fd1ec78ad40d56d5c7a31f',1,'DesignWnd::MainPanel']]]
 ];

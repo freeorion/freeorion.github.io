@@ -374,7 +374,7 @@ var searchData=
   ['attackshipfighter',['AttackShipFighter',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a44c95ffca3b6ddd9a51d729d399d3235',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['attackshipplanet',['AttackShipPlanet',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#abfac836ffc048a41f998cf3a7567c19a',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['attackshipship',['AttackShipShip',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a77dc44ff3b7133c0e516499a7dad4138',1,'anonymous_namespace{CombatSystem.cpp}']]],
-  ['attackstatsfunc',['AttackStatsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad7b30970c0175e3e20e155f9595118b7',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
+  ['attackstatsfunc',['AttackStatsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a1919ed398e3e80bf81fd6319f81e739b',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['attackstatsp',['AttackStatsP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a041fd2a3fb990edc00e40e5f41a2c46a',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['attribute',['Attribute',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a5acb9267e0ae8390341dbc104f6e518a',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['attributes',['attributes',['../classXMLElement.html#a8e179c0a44ce98c4aceab0675b913484',1,'XMLElement']]],

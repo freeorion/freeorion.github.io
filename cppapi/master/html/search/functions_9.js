@@ -162,6 +162,7 @@ var searchData=
   ['isavailablenameincookies',['IsAvailableNameInCookies',['../classServerNetworking.html#a40008b6fe7c70bc27604525e81e865e2',1,'ServerNetworking']]],
   ['isbinaryserializationused',['IsBinarySerializationUsed',['../classPlayerConnection.html#a006782ad54292dda57c09a862272d8ac',1,'PlayerConnection']]],
   ['iscollapsed',['IsCollapsed',['../classAccordionPanel.html#ab147be416403035a6ee4a0a79ab4587f',1,'AccordionPanel']]],
+  ['iscombatship',['IsCombatShip',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#a259b373a85ea4c43d57fa54cc91007a6',1,'anonymous_namespace{Fleet.cpp}']]],
   ['isconditionaleffect',['IsConditionalEffect',['../classEffect_1_1Effect.html#abed26d5e80345d159cd36be03449eb9a',1,'Effect::Effect::IsConditionalEffect()'],['../classEffect_1_1Conditional.html#aca26b4a7b3a5bb8bec3e0245f734c339',1,'Effect::Conditional::IsConditionalEffect()']]],
   ['isconnected',['IsConnected',['../classClientNetworking_1_1Impl.html#aa7b6b62861a0b8cb7a4eccfb301a75de',1,'ClientNetworking::Impl::IsConnected()'],['../classClientNetworking.html#ab445913fd6f11248a362b68ef5af959e',1,'ClientNetworking::IsConnected()']]],
   ['isdefault',['IsDefault',['../classHotkey.html#ac3d85e9a90f62bbd867c20fd0bf6ed20',1,'Hotkey']]],

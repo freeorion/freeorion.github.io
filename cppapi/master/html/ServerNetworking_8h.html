@@ -73,10 +73,10 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Message_8h.html">../network/Message.h</a>&quot;</code><br />
 <code>#include &lt;boost/asio.hpp&gt;</code><br />
-<code>#include &lt;boost/function.hpp&gt;</code><br />
 <code>#include &lt;boost/iterator/filter_iterator.hpp&gt;</code><br />
 <code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
 <code>#include &lt;boost/functional/hash.hpp&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
@@ -106,52 +106,52 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af9d8f793f8de69a9acbc467affd09395"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; void(<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395">ConnectionFn</a></td></tr>
-<tr class="separator:af9d8f793f8de69a9acbc467affd09395"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07b9f5a88d9db1a59ca175dbf6de953"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; void(<a class="el" href="classMessage.html">Message</a>, <a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a></td></tr>
-<tr class="separator:af07b9f5a88d9db1a59ca175dbf6de953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a736b1babfcf3d42045878bdbc21ad099"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#a736b1babfcf3d42045878bdbc21ad099">NullaryFn</a></td></tr>
-<tr class="separator:a736b1babfcf3d42045878bdbc21ad099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7af696204017a207f0d9c23bdf1fd0"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#a1b7af696204017a207f0d9c23bdf1fd0">ConnectionFn</a></td></tr>
+<tr class="separator:a1b7af696204017a207f0d9c23bdf1fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ddf842938fbb7eb258036e5672eda6"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(<a class="el" href="classMessage.html">Message</a>, <a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#a60ddf842938fbb7eb258036e5672eda6">MessageAndConnectionFn</a></td></tr>
+<tr class="separator:a60ddf842938fbb7eb258036e5672eda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a824f5530014aa999d991939a848dbb54"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#a824f5530014aa999d991939a848dbb54">NullaryFn</a></td></tr>
+<tr class="separator:a824f5530014aa999d991939a848dbb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad396bb692b026ebebd145f09a53a759d"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr&lt; <a class="el" href="classPlayerConnection.html">PlayerConnection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ServerNetworking_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a></td></tr>
 <tr class="separator:ad396bb692b026ebebd145f09a53a759d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="af9d8f793f8de69a9acbc467affd09395"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9d8f793f8de69a9acbc467affd09395">&#9670;&nbsp;</a></span>ConnectionFn</h2>
+<a id="a1b7af696204017a207f0d9c23bdf1fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b7af696204017a207f0d9c23bdf1fd0">&#9670;&nbsp;</a></span>ConnectionFn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;void (<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt; <a class="el" href="ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395">ConnectionFn</a></td>
+          <td class="memname">typedef std::function&lt;void (<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt; <a class="el" href="ServerNetworking_8h.html#a1b7af696204017a207f0d9c23bdf1fd0">ConnectionFn</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af07b9f5a88d9db1a59ca175dbf6de953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af07b9f5a88d9db1a59ca175dbf6de953">&#9670;&nbsp;</a></span>MessageAndConnectionFn</h2>
+<a id="a60ddf842938fbb7eb258036e5672eda6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ddf842938fbb7eb258036e5672eda6">&#9670;&nbsp;</a></span>MessageAndConnectionFn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;void (<a class="el" href="classMessage.html">Message</a>, <a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt; <a class="el" href="ServerNetworking_8h.html#af07b9f5a88d9db1a59ca175dbf6de953">MessageAndConnectionFn</a></td>
+          <td class="memname">typedef std::function&lt;void (<a class="el" href="classMessage.html">Message</a>, <a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>)&gt; <a class="el" href="ServerNetworking_8h.html#a60ddf842938fbb7eb258036e5672eda6">MessageAndConnectionFn</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a736b1babfcf3d42045878bdbc21ad099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a736b1babfcf3d42045878bdbc21ad099">&#9670;&nbsp;</a></span>NullaryFn</h2>
+<a id="a824f5530014aa999d991939a848dbb54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a824f5530014aa999d991939a848dbb54">&#9670;&nbsp;</a></span>NullaryFn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;void ()&gt; <a class="el" href="ServerNetworking_8h.html#a736b1babfcf3d42045878bdbc21ad099">NullaryFn</a></td>
+          <td class="memname">typedef std::function&lt;void ()&gt; <a class="el" href="ServerNetworking_8h.html#a824f5530014aa999d991939a848dbb54">NullaryFn</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

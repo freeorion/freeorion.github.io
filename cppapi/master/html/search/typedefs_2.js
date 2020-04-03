@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['cache_5fhit_5fhandler',['cache_hit_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7f5c32b437f451221c3696caeb28b319',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
-  ['cache_5fmiss_5fhandler',['cache_miss_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7c344c5c9ef2332420077575cd17299d',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
+  ['cache_5fhit_5fhandler',['cache_hit_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a773596b87588cc8bb03747ccfb07624e',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
+  ['cache_5fmiss_5fhandler',['cache_miss_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a1f4b8c2c14b14e8294039a7ff545de03',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['category',['category',['../structboost_1_1property__traits_3_01constant__property_3_01Key_00_01Value_01_4_01_4.html#af967505a1137e25fa9c0f45ede728071',1,'boost::property_traits&lt; constant_property&lt; Key, Value &gt; &gt;']]],
   ['category_5fiterator',['category_iterator',['../classTechManager.html#ab294e1dbb97eca53238680db2ce1afbf',1,'TechManager']]],
   ['category_5frule',['category_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a33b3c20a891c52eecdcc823b2aa53b13',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
@@ -26,7 +26,7 @@ var searchData=
   ['condition_5fpayload',['condition_payload',['../namespaceparse_1_1detail.html#a2a14f30d0042d71c95502863f13e0f6d',1,'parse::detail']]],
   ['condition_5fsignature',['condition_signature',['../namespaceparse_1_1detail.html#abb02240985a0ad4fa89d7255a9296013',1,'parse::detail']]],
   ['conditionalconnectionlist',['ConditionalConnectionList',['../classHotkeyManager.html#a9da2bb66f13dd320a09492747fd564cd',1,'HotkeyManager']]],
-  ['connectionfn',['ConnectionFn',['../ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395',1,'ServerNetworking.h']]],
+  ['connectionfn',['ConnectionFn',['../ServerNetworking_8h.html#a1b7af696204017a207f0d9c23bdf1fd0',1,'ServerNetworking.h']]],
   ['connections',['Connections',['../classHotkeyManager.html#a3ded7e479714387fb84631fc2f0c8864',1,'HotkeyManager']]],
   ['const_5festablished_5fiterator',['const_established_iterator',['../classServerNetworking.html#a8154c6d8862d0647c5b5e35cb6120600',1,'ServerNetworking']]],
   ['const_5fid_5fiterator',['const_id_iterator',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8d347e9d06e9e9ea5ca3223f4c2003fa',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['anonymous_5fnamespace_7bconditions_2ecpp_7d',['anonymous_namespace{Conditions.cpp}',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html',1,'Condition']]],
-  ['cache_5fhit_5fhandler',['cache_hit_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7f5c32b437f451221c3696caeb28b319',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
-  ['cache_5fmiss_5fhandler',['cache_miss_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a7c344c5c9ef2332420077575cd17299d',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
+  ['cache_5fhit_5fhandler',['cache_hit_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a773596b87588cc8bb03747ccfb07624e',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
+  ['cache_5fmiss_5fhandler',['cache_miss_handler',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#a1f4b8c2c14b14e8294039a7ff545de03',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['cacheconstvalue',['CacheConstValue',['../structValueRef_1_1Operation.html#a1ab68de5572e9e7fc35ec93cea7647c3',1,'ValueRef::Operation']]],
   ['calculatealivewidth',['CalculateAliveWidth',['../classBarSizer.html#ae6dd2045f70f9454333819a92fd05c00',1,'BarSizer']]],
   ['calculatecoordinate',['CalculateCoordinate',['../classTechTreeLayout_1_1Node.html#a6a512653c576fc58f8c31fac6161017a',1,'TechTreeLayout::Node']]],
@@ -12,7 +12,7 @@ var searchData=
   ['calculateposition',['CalculatePosition',['../classCUIWnd.html#a1225585190e8ff1943dd6122a8422536',1,'CUIWnd::CalculatePosition()'],['../classFleetWnd.html#ab6c0529108de0f4981445172900a2200',1,'FleetWnd::CalculatePosition()'],['../classGalaxySetupWnd.html#a50aac3e500cdd3a196fec760b3cce4f1',1,'GalaxySetupWnd::CalculatePosition()'],['../classInGameMenu.html#a9fb5964f7c94a375c5df988e8454da9c',1,'InGameMenu::CalculatePosition()'],['../classMultiPlayerLobbyWnd.html#ad7f68889cf14b2a781c77e7eed5264cb',1,'MultiPlayerLobbyWnd::CalculatePosition()'],['../classFilterDialog.html#a1e3c9c9e4b65fdc3f1656cb2369ef7c7',1,'FilterDialog::CalculatePosition()'],['../classOptionsWnd.html#aa01302377bbecda839a7e2096c1f53a0',1,'OptionsWnd::CalculatePosition()'],['../classPasswordEnterWnd.html#a1ada33ad13ca0c91ff9b76109162db97',1,'PasswordEnterWnd::CalculatePosition()'],['../classSaveFileDialog.html#a441837e09b21bfca384e40ff79a560ad',1,'SaveFileDialog::CalculatePosition()'],['../classServerConnectWnd.html#aca365718a1dd39f329e761f2113a1272',1,'ServerConnectWnd::CalculatePosition()']]],
   ['calculateproductionperturnlimit',['CalculateProductionPerTurnLimit',['../namespaceanonymous__namespace_02ProductionQueue_8cpp_03.html#af499adab19c850171791317928740e56',1,'anonymous_namespace{ProductionQueue.cpp}']]],
   ['calculaterouteto',['CalculateRouteTo',['../classFleet.html#a043ab516dc4dc94bb153ca0accaaa21c',1,'Fleet']]],
-  ['calculatestarlaneendpoints',['CalculateStarlaneEndpoints',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a28270780c0600b908887184d079cb149',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['calculatestarlaneendpoints',['CalculateStarlaneEndpoints',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa711486dd17bef719abe5ad7a1f94943',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['camain_2ecpp',['camain.cpp',['../camain_8cpp.html',1,'']]],
   ['can_5fadd_5fstarlane',['can_add_starlane',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a1b12103f2a7ca1111bd8c85ef5031a43',1,'parse::detail::condition_parser_rules_3']]],
   ['can_5fcolonize',['can_colonize',['../structparse_1_1detail_1_1condition__parser__rules__1.html#afa606cd70c2c2a239a24b10542118f27',1,'parse::detail::condition_parser_rules_1::can_colonize()'],['../structSpeciesParams.html#a35018ab2bbe325cd035a5d92f2da158e',1,'SpeciesParams::can_colonize()']]],
@@ -430,7 +430,7 @@ var searchData=
   ['connect',['Connect',['../classHotkeyManager.html#ad8c1e0a915120af327d83eaa4432477c',1,'HotkeyManager']]],
   ['connectedwithin',['ConnectedWithin',['../namespaceanonymous__namespace_02UniverseGenerator_8cpp_03.html#a3cf7d9d8e4cea59ff45eb658551f4056',1,'anonymous_namespace{UniverseGenerator.cpp}']]],
   ['connection',['connection',['../structHotkeyManager_1_1ConditionalConnection.html#a4b4ed49e8e06b7df697413fbd969f9ab',1,'HotkeyManager::ConditionalConnection']]],
-  ['connectionfn',['ConnectionFn',['../ServerNetworking_8h.html#af9d8f793f8de69a9acbc467affd09395',1,'ServerNetworking.h']]],
+  ['connectionfn',['ConnectionFn',['../ServerNetworking_8h.html#a1b7af696204017a207f0d9c23bdf1fd0',1,'ServerNetworking.h']]],
   ['connections',['Connections',['../classHotkeyManager.html#a3ded7e479714387fb84631fc2f0c8864',1,'HotkeyManager']]],
   ['connectkeyboardacceleratorsignals',['ConnectKeyboardAcceleratorSignals',['../classHumanClientApp.html#acd22e6eda2e6068a10d3a831a778b522',1,'HumanClientApp::ConnectKeyboardAcceleratorSignals()'],['../classMapWnd.html#a8ec2d595959c88c223ccdc2027cf7672',1,'MapWnd::ConnectKeyboardAcceleratorSignals()'],['../classTechTreeWnd_1_1LayoutPanel.html#a27b50c2cee19294c6a46988f3573da8b',1,'TechTreeWnd::LayoutPanel::ConnectKeyboardAcceleratorSignals()']]],
   ['connecttolocalhostserver',['ConnectToLocalHostServer',['../classClientNetworking_1_1Impl.html#a945493b785f84a4764d8d59d8a5ca921',1,'ClientNetworking::Impl::ConnectToLocalHostServer()'],['../classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8',1,'ClientNetworking::ConnectToLocalHostServer()']]],

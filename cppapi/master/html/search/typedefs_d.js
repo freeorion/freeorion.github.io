@@ -10,7 +10,7 @@ var searchData=
   ['optionaddedsignaltype',['OptionAddedSignalType',['../classOptionsDB.html#adeb66dcb46f91602b46a9241b646099e',1,'OptionsDB']]],
   ['optionchangedsignaltype',['OptionChangedSignalType',['../classOptionsDB.html#ae92aa928ac4371b4b430ecb89344d5ed',1,'OptionsDB']]],
   ['optionremovedsignaltype',['OptionRemovedSignalType',['../classOptionsDB.html#ac0acc61aa227bf26940773b039db3bbc',1,'OptionsDB']]],
-  ['optionsdbfn',['OptionsDBFn',['../OptionsDB_8h.html#a4560019c1fa0fec0fe956f90b034d954',1,'OptionsDB.h']]],
+  ['optionsdbfn',['OptionsDBFn',['../OptionsDB_8h.html#ad9a892e74f7dc3c816c54679c2764988',1,'OptionsDB.h']]],
   ['orderedfleetroutetype',['OrderedFleetRouteType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a795f4695868ffd5d2837e644a88e76eb',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['orderedroutetype',['OrderedRouteType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a86288350fe1110cbf6c435a7a5dada31',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['ordermap',['OrderMap',['../classOrderSet.html#a0f89d4c4abbc834309c1d959c4d1cce5',1,'OrderSet']]],
