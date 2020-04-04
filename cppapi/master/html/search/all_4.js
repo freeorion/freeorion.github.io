@@ -148,6 +148,7 @@ var searchData=
   ['determinecustomcategory',['DetermineCustomCategory',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a8dca55818f386b2df0ed331c1a230a79',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['determineifconstantexpr',['DetermineIfConstantExpr',['../structValueRef_1_1Operation.html#aafcfc739d254ab184a41657c7b77f5e6',1,'ValueRef::Operation']]],
   ['dev_5fptr_5f',['dev_ptr_',['../structboost_1_1iostreams_1_1core__access_1_1filter__operations.html#ac710c2ee1723ce81f9a22b49ddfc0ff5',1,'boost::iostreams::core_access::filter_operations']]],
+  ['devdefaultenglishstringtablepath',['DevDefaultEnglishStringtablePath',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#aa5728675ed8b0513fabc31ab4099dc31',1,'anonymous_namespace{i18n.cpp}']]],
   ['device_5foperations',['device_operations',['../structboost_1_1iostreams_1_1core__access_1_1device__operations.html',1,'boost::iostreams::core_access::device_operations'],['../classboost_1_1iostreams_1_1core__access.html#a1351acbb16b5bfa332ade1c698efe2c1',1,'boost::iostreams::core_access::device_operations()']]],
   ['difference_5ftype',['difference_type',['../classOrderSet.html#a286ffce15efac513b38ab7ede8540993',1,'OrderSet']]],
   ['digit',['Digit',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ab6c438f52fa1737139ecabbaef6a09e2',1,'anonymous_namespace{XMLDoc.cpp}']]],
