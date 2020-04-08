@@ -276,7 +276,6 @@ var searchData=
   ['examine_5fedge',['examine_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#ac04623abfb363d5758c6b73edcb85c35',1,'SystemPathing::BFSVisitorImpl']]],
   ['examine_5frow',['examine_row',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#af030150edc265acb7607a27171f9d7a9',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['examine_5fvertex',['examine_vertex',['../classSystemPathing_1_1BFSVisitorImpl.html#ae430e9750ea3a8ae54014d1826f2a96c',1,'SystemPathing::BFSVisitorImpl']]],
-  ['exception',['Exception',['../classXMLElement_1_1Exception.html',1,'XMLElement::Exception'],['../classXMLElement_1_1Exception.html#a5427f5c67d5a8dfee9e95694cfae8803',1,'XMLElement::Exception::Exception()']]],
   ['exclusions',['Exclusions',['../classPartType.html#a95d04721fb23812d3664c6615c9449f4',1,'PartType::Exclusions()'],['../classHullType.html#adc9f2e45abbc300c37ea666e59d02da8',1,'HullType::Exclusions()'],['../structparse_1_1detail_1_1common__params__rules.html#aa1193385a0fff9f707f00a14375352a1',1,'parse::detail::common_params_rules::exclusions()'],['../structMoreCommonParams.html#a2158cce8d52ad2b16506d2fde88fc369',1,'MoreCommonParams::exclusions()']]],
   ['exe',['exe',['../binreloc_8c.html#a988acbf76208b2c16eb342ec5624a0b8',1,'binreloc.c']]],
   ['exec',['exec',['../LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30',1,'LoggerWithOptionsDB.h']]],

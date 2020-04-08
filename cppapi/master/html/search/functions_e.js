@@ -71,7 +71,6 @@ var searchData=
   ['non_5ftree_5fedge',['non_tree_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#a6eb786418eced3d001b7bf73a463385c',1,'SystemPathing::BFSVisitorImpl']]],
   ['none',['None',['../structCondition_1_1None.html#a909827ce632ebb5e67dd30704bfc0edb',1,'Condition::None']]],
   ['noop',['NoOp',['../classEffect_1_1NoOp.html#a53c3d1738e1f7090b431453c427cdc48',1,'Effect::NoOp']]],
-  ['nosuchchild',['NoSuchChild',['../classXMLElement_1_1NoSuchChild.html#a97ad1e42edab9e447722640d17ae819f',1,'XMLElement::NoSuchChild']]],
   ['not',['Not',['../structCondition_1_1Not.html#ae7ced82273c8e01f575424a5fa322ef9',1,'Condition::Not']]],
   ['notcoveredmapwndcondition',['NotCoveredMapWndCondition',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1NotCoveredMapWndCondition.html#acf616add6557268f0ce8efd0d5553469',1,'anonymous_namespace{MapWnd.cpp}::NotCoveredMapWndCondition']]],
   ['nthfleetbuttonupperleft',['NthFleetButtonUpperLeft',['../classSystemIcon.html#af5e53f60a4aea2810f2119e9a8c8d6d7',1,'SystemIcon']]],
