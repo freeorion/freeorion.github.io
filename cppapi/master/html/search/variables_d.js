@@ -1472,6 +1472,7 @@ var searchData=
   ['max_5fhealth',['max_health',['../structCombatParticipantState.html#ab98773dc4e7a408c47ab5c05330c1233',1,'CombatParticipantState::max_health()'],['../structParticipantSummary.html#ac165bc735d48f809942572094f345e23',1,'ParticipantSummary::max_health()']]],
   ['max_5fmax_5fhealth',['max_max_health',['../structCombatSummary.html#abb7a14bcee3c58985327d69ed270bcd7',1,'CombatSummary']]],
   ['max_5fprod_5fqueue_5fsize',['MAX_PROD_QUEUE_SIZE',['../Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f',1,'Empire.cpp']]],
+  ['max_5fproduction_5fturns',['MAX_PRODUCTION_TURNS',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#afe0e97ff0d5fc5f35b214ac304ac78f5',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['max_5fscale',['MAX_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a24667ca11fd62554ba4204df683264b4',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#af21a52550d46e817b1ae7e7b7be24a36',1,'anonymous_namespace{LoggingWrapper.cpp}']]],

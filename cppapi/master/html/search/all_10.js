@@ -422,6 +422,7 @@ var searchData=
   ['productionspecialconsumption',['ProductionSpecialConsumption',['../classBuildingType.html#a870767777cdad647226b0535034fab4d',1,'BuildingType::ProductionSpecialConsumption()'],['../classPartType.html#ab053c3da9902e1e87e4d1528c6db21a8',1,'PartType::ProductionSpecialConsumption()'],['../classHullType.html#a580edb4c492b63b136655d28d43f39f2',1,'HullType::ProductionSpecialConsumption()']]],
   ['productionstatus',['ProductionStatus',['../classEmpire.html#a7eeb09cc67bdb831777d5fcf28541d3b',1,'Empire']]],
   ['productiontime',['ProductionTime',['../classBuildingType.html#a4a458482fefcbde3713bcc87a647e74b',1,'BuildingType::ProductionTime()'],['../classPartType.html#a0501a23a51a5dc7821699488b5fbdb6e',1,'PartType::ProductionTime()'],['../classHullType.html#aad0d15e3027e04b1a48cd5d11d13ad78',1,'HullType::ProductionTime()'],['../classShipDesign.html#a4c00edd10fd2907fe4f5a517d1879d51',1,'ShipDesign::ProductionTime()']]],
+  ['productionturns',['ProductionTurns',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ad1e61d2f0f7b32db6ab01b617a933761',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['productionwnd',['ProductionWnd',['../classProductionWnd.html',1,'ProductionWnd'],['../classProductionWnd.html#af872a4f73b2a512ce0ea40f088845a8d',1,'ProductionWnd::ProductionWnd()']]],
   ['productionwnd_2ecpp',['ProductionWnd.cpp',['../ProductionWnd_8cpp.html',1,'']]],
   ['productionwnd_2eh',['ProductionWnd.h',['../ProductionWnd_8h.html',1,'']]],
