@@ -116,7 +116,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ae740b29742b8ab56116511b8403a5f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the signal for the given named accelerator, creating it if necessary.  <a href="#ae740b29742b8ab56116511b8403a5f5d">More...</a><br /></td></tr>
 <tr class="separator:ae740b29742b8ab56116511b8403a5f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a278a1afc3b70bb5d071164bd403730e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkeyManager.html#a278a1afc3b70bb5d071164bd403730e9">ProcessNamedShortcut</a> (const std::string &amp;name, GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)</td></tr>
-<tr class="memdesc:a278a1afc3b70bb5d071164bd403730e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shortcut processing function.  <a href="#a278a1afc3b70bb5d071164bd403730e9">More...</a><br /></td></tr>
+<tr class="memdesc:a278a1afc3b70bb5d071164bd403730e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shortcut processing function. Passed using boost::bind.  <a href="#a278a1afc3b70bb5d071164bd403730e9">More...</a><br /></td></tr>
 <tr class="separator:a278a1afc3b70bb5d071164bd403730e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -413,9 +413,11 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The shortcut processing function. </p>
+<p>The shortcut processing function. Passed using boost::bind. </p>
 
 <p class="reference">References <a class="el" href="classHotkey.html#ab683e684837aab5c255483d006b5d7e6">Hotkey::IsTypingSafe()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classHotkeyManager.html#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">RebuildShortcuts()</a>.</p>
 
 </div>
 </div>
@@ -438,7 +440,7 @@ Static Private Attributes</h2></td></tr>
 <p>Should be called again at the end of every function that registers new connections (just once, though cause calling it every time would get expensive), and every time as well a shortcut is changed. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Disable the shortcuts that we've enabled so far ? Is it really necessary ? An unconnected signal should simply be ignored. </dd></dl>
 
-<p class="reference">References <a class="el" href="classHotkey.html#a516393e69769a51b9f81ebe72e6d8edf">Hotkey::m_key</a>, <a class="el" href="classHotkey.html#a6ef0a3dde9b52792c514868d45c06a9f">Hotkey::m_mod_keys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">Hotkey::m_name</a>, and <a class="el" href="classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2">Hotkey::NamedHotkey()</a>.</p>
+<p class="reference">References <a class="el" href="classHotkey.html#a516393e69769a51b9f81ebe72e6d8edf">Hotkey::m_key</a>, <a class="el" href="classHotkey.html#a6ef0a3dde9b52792c514868d45c06a9f">Hotkey::m_mod_keys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">Hotkey::m_name</a>, <a class="el" href="classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2">Hotkey::NamedHotkey()</a>, and <a class="el" href="classHotkeyManager.html#a278a1afc3b70bb5d071164bd403730e9">ProcessNamedShortcut()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classCUIEdit.html#ab0f8d80d968a05b62055bb7b4fa6cd78">CUIEdit::CompleteConstruction()</a>, <a class="el" href="classHumanClientApp.html#acd22e6eda2e6068a10d3a831a778b522">HumanClientApp::ConnectKeyboardAcceleratorSignals()</a>, <a class="el" href="classMapWnd.html#a8ec2d595959c88c223ccdc2027cf7672">MapWnd::ConnectKeyboardAcceleratorSignals()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#a27b50c2cee19294c6a46988f3573da8b">TechTreeWnd::LayoutPanel::ConnectKeyboardAcceleratorSignals()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#ac16918c53594f159e2831737ca5bf0a3">anonymous_namespace{OptionsWnd.cpp}::HandleResetHotkeyOption()</a>, and <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aeceeb90216400cb9f1aff32ebac2c712">anonymous_namespace{OptionsWnd.cpp}::HandleSetHotkeyOption()</a>.</p>
 

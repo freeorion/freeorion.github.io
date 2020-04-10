@@ -200,6 +200,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a681230626d45dbc593a5565525f1a67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd0f44ea24c6e2a7230a607a0d7e790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#aacd0f44ea24c6e2a7230a607a0d7e790">AcceptPlayerMessagingConnection</a> (<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection, const boost::system::error_code &amp;<a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>)</td></tr>
 <tr class="separator:aacd0f44ea24c6e2a7230a607a0d7e790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac868795511b9874a66625033d4db8857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl</a> (<a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a> player_connection)</td></tr>
+<tr class="separator:ac868795511b9874a66625033d4db8857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0eb6356767c5dc9621d0a75fe10d680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#aa0eb6356767c5dc9621d0a75fe10d680">EnqueueEvent</a> (const <a class="el" href="ServerNetworking_8h.html#a824f5530014aa999d991939a848dbb54">NullaryFn</a> &amp;fn)</td></tr>
+<tr class="separator:aa0eb6356767c5dc9621d0a75fe10d680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b835f7fffb39707edc2fa6efbcc309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServerNetworking.html#a91b835f7fffb39707edc2fa6efbcc309">Init</a> ()</td></tr>
 <tr class="separator:a91b835f7fffb39707edc2fa6efbcc309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -392,7 +396,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">Disconnect()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classServerNetworking.html#a926a91d96765002424deeb6ef5c1a72d">m_event_queue</a>, <a class="el" href="classServerNetworking.html#a1706f45586207bb098fdee50c0f0f676">m_nonplayer_message_callback</a>, <a class="el" href="classServerNetworking.html#a9f84e675ddf13835c3fcce94e136c19c">m_player_connection_acceptor</a>, <a class="el" href="classServerNetworking.html#ab4ffadf17d25aba9e584f2e77442d617">m_player_message_callback</a>, and <a class="el" href="classPlayerConnection.html#afc352a686c61b0c6d8b96d994b048570">PlayerConnection::NewConnection()</a>.</p>
+<p class="reference">References <a class="el" href="classServerNetworking.html#aacd0f44ea24c6e2a7230a607a0d7e790">AcceptPlayerMessagingConnection()</a>, <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, <a class="el" href="classServerNetworking.html#aa0eb6356767c5dc9621d0a75fe10d680">EnqueueEvent()</a>, <a class="el" href="classServerNetworking.html#a1706f45586207bb098fdee50c0f0f676">m_nonplayer_message_callback</a>, <a class="el" href="classServerNetworking.html#a9f84e675ddf13835c3fcce94e136c19c">m_player_connection_acceptor</a>, <a class="el" href="classServerNetworking.html#ab4ffadf17d25aba9e584f2e77442d617">m_player_message_callback</a>, and <a class="el" href="classPlayerConnection.html#afc352a686c61b0c6d8b96d994b048570">PlayerConnection::NewConnection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerNetworking.html#aacd0f44ea24c6e2a7230a607a0d7e790">AcceptPlayerMessagingConnection()</a>, and <a class="el" href="classServerNetworking.html#a91b835f7fffb39707edc2fa6efbcc309">Init()</a>.</p>
 
@@ -433,6 +437,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282">error</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>.</p>
 
 </div>
 </div>
@@ -568,7 +574,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#aab217d647def87f94a26a02b230de1fa">ErrorLogger</a>, <a class="el" href="classServerNetworking.html#ae1c16ec3099fde8c29c12f98adb83be9">established_end()</a>, and <a class="el" href="classServerNetworking.html#ace523e4aefa26e47b9af8e3cb5318491">GetPlayer()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>, <a class="el" href="classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892">DisconnectAll()</a>, <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">ServerApp::HandleMessage()</a>, <a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">ServerApp::HandleNonPlayerMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, <a class="el" href="structMPLobby.html#a1d794c06e7a937fc9688ca0f31a90ff9">MPLobby::react()</a>, <a class="el" href="structWaitingForSPGameJoiners.html#aa8d3fb33cb44845f928c71cc367d6bd0">WaitingForSPGameJoiners::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>, and <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structServerFSM.html#a1b354fb042981e16873e55dc41e3a61f">ServerFSM::EstablishPlayer()</a>, <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">ServerApp::HandleMessage()</a>, <a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">ServerApp::HandleNonPlayerMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, <a class="el" href="structMPLobby.html#a1d794c06e7a937fc9688ca0f31a90ff9">MPLobby::react()</a>, <a class="el" href="structWaitingForSPGameJoiners.html#aa8d3fb33cb44845f928c71cc367d6bd0">WaitingForSPGameJoiners::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#ab1f5421db929e8bd1d644959a8b81045">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structPlayingGame.html#a69921ac10928668faadd206f65303fa8">PlayingGame::react()</a>, and <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>.</p>
 
 </div>
 </div>
@@ -590,7 +596,7 @@ Private Attributes</h2></td></tr>
 
 <p>Disconnects the server from the client represented by <em>player_connection</em>. </p>
 
-<p class="reference">References <a class="el" href="classServerNetworking.html#a7d371ad1d61df277660bc8af62191f61">m_disconnected_callback</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -611,9 +617,39 @@ Private Attributes</h2></td></tr>
 
 <p>Disconnects the server from all clients. </p>
 
-<p class="reference">References <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">Disconnect()</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structShuttingDownServer.html#ab0ca1c560ac5412b8441d287f47ce48f">ShuttingDownServer::react()</a>.</p>
+
+</div>
+</div>
+<a id="ac868795511b9874a66625033d4db8857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac868795511b9874a66625033d4db8857">&#9670;&nbsp;</a></span>DisconnectImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerNetworking::DisconnectImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="ServerFSM_8h.html#ad396bb692b026ebebd145f09a53a759d">PlayerConnectionPtr</a>&#160;</td>
+          <td class="paramname"><em>player_connection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classServerNetworking.html#a7d371ad1d61df277660bc8af62191f61">m_disconnected_callback</a>, <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>, and <a class="el" href="Logger_8h.html#ae567b80254f6c7c19a8868baa573140d">TraceLogger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>, <a class="el" href="classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12">Disconnect()</a>, and <a class="el" href="classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892">DisconnectAll()</a>.</p>
 
 </div>
 </div>
@@ -681,6 +717,36 @@ Private Attributes</h2></td></tr>
 <p>Returns an iterator to the one-past-the-last <a class="el" href="classPlayerConnection.html" title="Encapsulates the connection to a single player. ">PlayerConnection</a> object. </p>
 
 <p class="reference">References <a class="el" href="classServerNetworking.html#ad6625f5ea69dfb16bf1c15ff140baf62">m_player_connections</a>.</p>
+
+</div>
+</div>
+<a id="aa0eb6356767c5dc9621d0a75fe10d680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0eb6356767c5dc9621d0a75fe10d680">&#9670;&nbsp;</a></span>EnqueueEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerNetworking::EnqueueEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="ServerNetworking_8h.html#a824f5530014aa999d991939a848dbb54">NullaryFn</a> &amp;&#160;</td>
+          <td class="paramname"><em>fn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classServerNetworking.html#a926a91d96765002424deeb6ef5c1a72d">m_event_queue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>.</p>
 
 </div>
 </div>
@@ -1214,7 +1280,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12">Disconnect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>.</p>
 
 </div>
 </div>
@@ -1262,7 +1328,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#a681230626d45dbc593a5565525f1a67f">AcceptNextMessagingConnection()</a>, and <a class="el" href="classServerNetworking.html#a9f524eb0aff3de3ba87ff173ddae731f">HandleNextEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#aa0eb6356767c5dc9621d0a75fe10d680">EnqueueEvent()</a>, and <a class="el" href="classServerNetworking.html#a9f524eb0aff3de3ba87ff173ddae731f">HandleNextEvent()</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1424,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#aacd0f44ea24c6e2a7230a607a0d7e790">AcceptPlayerMessagingConnection()</a>, <a class="el" href="classServerNetworking.html#a8ce66ab34e675754ee3d3eff8b5b32cf">begin()</a>, <a class="el" href="classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12">Disconnect()</a>, <a class="el" href="classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892">DisconnectAll()</a>, <a class="el" href="classServerNetworking.html#ab95e8c558792d6a9a5630b3261e9b356">empty()</a>, <a class="el" href="classServerNetworking.html#a268b9628e06a6b5b8eb8a6d115c31d6b">end()</a>, <a class="el" href="classServerNetworking.html#aee18b3c6f45c84a0146448d6c330ee10">established_begin()</a>, <a class="el" href="classServerNetworking.html#ae1c16ec3099fde8c29c12f98adb83be9">established_end()</a>, <a class="el" href="classServerNetworking.html#a090c1d5d31efa12fa1ae532fbb525354">ModeratorsInGame()</a>, <a class="el" href="classServerNetworking.html#a2c3428a4a849a33ca5ac458714643d16">NewPlayerID()</a>, and <a class="el" href="classServerNetworking.html#a3b4a1ab3bde7b5be1ba9889b295a336c">size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classServerNetworking.html#aacd0f44ea24c6e2a7230a607a0d7e790">AcceptPlayerMessagingConnection()</a>, <a class="el" href="classServerNetworking.html#a8ce66ab34e675754ee3d3eff8b5b32cf">begin()</a>, <a class="el" href="classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892">DisconnectAll()</a>, <a class="el" href="classServerNetworking.html#ac868795511b9874a66625033d4db8857">DisconnectImpl()</a>, <a class="el" href="classServerNetworking.html#ab95e8c558792d6a9a5630b3261e9b356">empty()</a>, <a class="el" href="classServerNetworking.html#a268b9628e06a6b5b8eb8a6d115c31d6b">end()</a>, <a class="el" href="classServerNetworking.html#aee18b3c6f45c84a0146448d6c330ee10">established_begin()</a>, <a class="el" href="classServerNetworking.html#ae1c16ec3099fde8c29c12f98adb83be9">established_end()</a>, <a class="el" href="classServerNetworking.html#a090c1d5d31efa12fa1ae532fbb525354">ModeratorsInGame()</a>, <a class="el" href="classServerNetworking.html#a2c3428a4a849a33ca5ac458714643d16">NewPlayerID()</a>, and <a class="el" href="classServerNetworking.html#a3b4a1ab3bde7b5be1ba9889b295a336c">size()</a>.</p>
 
 </div>
 </div>

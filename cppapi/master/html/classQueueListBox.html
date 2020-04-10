@@ -154,6 +154,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a1f1eae008475c8a263bccf5c23d14057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a1f1eae008475c8a263bccf5c23d14057">EnsurePromptHiddenSlot</a> (iterator it)</td></tr>
+<tr class="separator:a1f1eae008475c8a263bccf5c23d14057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66645ad462b6806073a05fa302333849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a66645ad462b6806073a05fa302333849">ItemRightClicked</a> (GG::ListBox::iterator it, const GG::Pt &amp;pt, const GG::Flags&lt; GG::ModKey &gt; &amp;modkeys)</td></tr>
+<tr class="separator:a66645ad462b6806073a05fa302333849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489c0470cd7d6665cb5a8338f12f8511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a489c0470cd7d6665cb5a8338f12f8511">ShowPromptConditionallySlot</a> (iterator it)</td></tr>
+<tr class="separator:a489c0470cd7d6665cb5a8338f12f8511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1bcdedebad04c89f0bf490507c58a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot</a> ()</td></tr>
 <tr class="separator:ae1bcdedebad04c89f0bf490507c58a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -290,7 +296,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>, <a class="el" href="classQueueListBox.html#ad04d3fb3190373e64cc18f68219727d6">m_showing_prompt</a>, and <a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot()</a>.</p>
+<p class="reference">References <a class="el" href="classQueueListBox.html#a1f1eae008475c8a263bccf5c23d14057">EnsurePromptHiddenSlot()</a>, <a class="el" href="classQueueListBox.html#a66645ad462b6806073a05fa302333849">ItemRightClicked()</a>, <a class="el" href="classQueueListBox.html#a489c0470cd7d6665cb5a8338f12f8511">ShowPromptConditionallySlot()</a>, and <a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classResearchQueueListBox.html#a781fd8abe955761a9f084e448b13ec54">ResearchQueueListBox::CompleteConstruction()</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#ad2da4ae7e43ba5ac07e41cdde52fd064">anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::CompleteConstruction()</a>, and <a class="el" href="classBasesListBox.html#ad4e2632073984f35a86bcae8f3958dae">BasesListBox::CompleteConstruction()</a>.</p>
 
@@ -454,6 +460,82 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1f1eae008475c8a263bccf5c23d14057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1eae008475c8a263bccf5c23d14057">&#9670;&nbsp;</a></span>EnsurePromptHiddenSlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QueueListBox::EnsurePromptHiddenSlot </td>
+          <td>(</td>
+          <td class="paramtype">iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classQueueListBox.html#ad04d3fb3190373e64cc18f68219727d6">m_showing_prompt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>.</p>
+
+</div>
+</div>
+<a id="a66645ad462b6806073a05fa302333849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66645ad462b6806073a05fa302333849">&#9670;&nbsp;</a></span>ItemRightClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QueueListBox::ItemRightClicked </td>
+          <td>(</td>
+          <td class="paramtype">GG::ListBox::iterator&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const GG::Pt &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const GG::Flags&lt; GG::ModKey &gt; &amp;&#160;</td>
+          <td class="paramname"><em>modkeys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>.</p>
+
+</div>
+</div>
 <a id="a5f213d944cf82f9611ffc81b6a396522"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f213d944cf82f9611ffc81b6a396522">&#9670;&nbsp;</a></span>ItemRightClickedImpl()</h2>
 
@@ -498,7 +580,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classQueueListBox.html#adbafc9a86fb5b0d65e5c9ea32ebfe59b">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#a9f61d3f4ec62203b529c17cd1ef79640">MoveToBottomAction()</a>, <a class="el" href="classQueueListBox.html#a1fc6dae145b818bc8cde0c2bf358204a">MoveToTopAction()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a66645ad462b6806073a05fa302333849">ItemRightClicked()</a>.</p>
 
 </div>
 </div>
@@ -701,6 +783,36 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a489c0470cd7d6665cb5a8338f12f8511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489c0470cd7d6665cb5a8338f12f8511">&#9670;&nbsp;</a></span>ShowPromptConditionallySlot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QueueListBox::ShowPromptConditionallySlot </td>
+          <td>(</td>
+          <td class="paramtype">iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>.</p>
+
+</div>
+</div>
 <a id="ae1bcdedebad04c89f0bf490507c58a79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1bcdedebad04c89f0bf490507c58a79">&#9670;&nbsp;</a></span>ShowPromptSlot()</h2>
 
@@ -726,7 +838,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classQueueListBox.html#af544fcf0fd9846841ba796c584ee6f39">m_prompt_str</a>, and <a class="el" href="classQueueListBox.html#ad04d3fb3190373e64cc18f68219727d6">m_showing_prompt</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>, and <a class="el" href="classQueueListBox.html#a719133bd33048f035008ff0c35b79e27">SetEmptyPromptText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>, <a class="el" href="classQueueListBox.html#a719133bd33048f035008ff0c35b79e27">SetEmptyPromptText()</a>, and <a class="el" href="classQueueListBox.html#a489c0470cd7d6665cb5a8338f12f8511">ShowPromptConditionallySlot()</a>.</p>
 
 </div>
 </div>
@@ -885,7 +997,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a740cd511a7246b995a6e88c87b261c16">CompleteConstruction()</a>, <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">DisplayingValidQueueItems()</a>, <a class="el" href="classQueueListBox.html#a719133bd33048f035008ff0c35b79e27">SetEmptyPromptText()</a>, and <a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#adc0c8fc361ffdd5901a81a7753ee53a4">DisplayingValidQueueItems()</a>, <a class="el" href="classQueueListBox.html#a1f1eae008475c8a263bccf5c23d14057">EnsurePromptHiddenSlot()</a>, <a class="el" href="classQueueListBox.html#a719133bd33048f035008ff0c35b79e27">SetEmptyPromptText()</a>, and <a class="el" href="classQueueListBox.html#ae1bcdedebad04c89f0bf490507c58a79">ShowPromptSlot()</a>.</p>
 
 </div>
 </div>

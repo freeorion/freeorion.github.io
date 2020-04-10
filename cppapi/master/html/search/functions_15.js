@@ -2,7 +2,7 @@ var searchData=
 [
   ['uint24_5fto_5fchar',['uint24_to_char',['../classboost_1_1iostreams_1_1basic__base64__decoder.html#a502dc9d374672f9ece1d529ee77a5800',1,'boost::iostreams::basic_base64_decoder']]],
   ['uisoundstemporarilydisabled',['UISoundsTemporarilyDisabled',['../classSound_1_1Impl.html#a8ec98fb89f845e2495e2de0144f9db6b',1,'Sound::Impl']]],
-  ['uisoundsvolumeslid',['UISoundsVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#af8d0eaf20130a1ee7091f1d4466feb12',1,'OptionsWnd::SoundOptionsFeedback']]],
+  ['uisoundsvolumeslid',['UISoundsVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a651ca84fbf515d46db0e0525929a5c0b',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['unable_5fto_5fopen_5ffile',['UNABLE_TO_OPEN_FILE',['../namespaceanonymous__namespace_02SaveLoad_8cpp_03.html#a4a7efd2679c0305ff46f6589d3b77396',1,'anonymous_namespace{SaveLoad.cpp}::UNABLE_TO_OPEN_FILE()'],['../namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ade5e5742c6956ce06d6cc5d3be363cdd',1,'anonymous_namespace{SaveGamePreviewUtils.cpp}::UNABLE_TO_OPEN_FILE()']]],
   ['unconsumed_5fevent',['unconsumed_event',['../structHumanClientFSM.html#a0f16966b1b79853faec620d990a60bab',1,'HumanClientFSM::unconsumed_event()'],['../structServerFSM.html#a12862acd474faf59c7b76d7918d0202d',1,'ServerFSM::unconsumed_event()']]],
   ['undo',['Undo',['../classOrder.html#a284e6dd2d1c0b675d6886b31e173e22d',1,'Order']]],
@@ -11,7 +11,7 @@ var searchData=
   ['universe',['Universe',['../classUniverse.html#a4d137a146dd3c2514dfb692dfbab6984',1,'Universe']]],
   ['universe_5fobject_5ftype_5fparser_5frules',['universe_object_type_parser_rules',['../structparse_1_1detail_1_1universe__object__type__parser__rules.html#ad076f7ac9584f84925cab47236dfd0c0',1,'parse::detail::universe_object_type_parser_rules']]],
   ['universeobject',['UniverseObject',['../classUniverseObject.html#a83c3092cd13df5f48b3e2d5d7df325de',1,'UniverseObject::UniverseObject()'],['../classUniverseObject.html#a42fbae16016512b3da1b2c63332e01f7',1,'UniverseObject::UniverseObject(const std::string name, double x, double y)']]],
-  ['universeobjectdeleted',['UniverseObjectDeleted',['../classFleetDetailPanel.html#a8e9ebcf465d6202a3f5a02d035263ae2',1,'FleetDetailPanel::UniverseObjectDeleted()'],['../classFleetWnd.html#a6f2df920a5120ab572d8e2ce4535885e',1,'FleetWnd::UniverseObjectDeleted()'],['../classMapWnd.html#a60d08b9b4b24d961564faefb59602155',1,'MapWnd::UniverseObjectDeleted()']]],
+  ['universeobjectdeleted',['UniverseObjectDeleted',['../classFleetDetailPanel.html#a8e9ebcf465d6202a3f5a02d035263ae2',1,'FleetDetailPanel::UniverseObjectDeleted()'],['../classFleetWnd.html#a6f2df920a5120ab572d8e2ce4535885e',1,'FleetWnd::UniverseObjectDeleted()'],['../classMapWnd.html#a60d08b9b4b24d961564faefb59602155',1,'MapWnd::UniverseObjectDeleted()'],['../classObjectListBox.html#a56b93ed6ad0290f217417bf9fb6a8f57',1,'ObjectListBox::UniverseObjectDeleted()']]],
   ['universeobjectsignalsinhibited',['UniverseObjectSignalsInhibited',['../classUniverse.html#a4ceb73fea2093799e47fdb47c3b78341',1,'Universe']]],
   ['universeobjectstring',['UniverseObjectString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#ae425b850b4e67dc45c23fc7aa6362c5b',1,'anonymous_namespace{VarText.cpp}']]],
   ['universepositionfromscreencoords',['UniversePositionFromScreenCoords',['../classMapWnd.html#a753ad20addc155c491d73f1475cbd35c',1,'MapWnd']]],
