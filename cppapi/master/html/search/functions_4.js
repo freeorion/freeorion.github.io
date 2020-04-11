@@ -93,6 +93,7 @@ var searchData=
   ['disable',['Disable',['../classGameRulesPanel.html#a2467aae049b6af530ed20dec27518ce6',1,'GameRulesPanel::Disable()'],['../classGalaxySetupPanel.html#a3c55cf5dbfc1e5e067a9943fb168b92a',1,'GalaxySetupPanel::Disable()'],['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#ac6c8bb7583019f4bf34995bb3f35e24d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::Disable()'],['../classSound_1_1Impl.html#a961a16fe24d8656c0404ceac95494101',1,'Sound::Impl::Disable()'],['../classSound.html#ad31116c5b8f0599949438735de2edcba',1,'Sound::Disable()']]],
   ['disabledroparrow',['DisableDropArrow',['../classCUIDropDownList.html#a1c7df96c6f7c34e2d15d08ec040b40b7',1,'CUIDropDownList']]],
   ['disablenonselectioncandidates',['DisableNonSelectionCandidates',['../classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05',1,'SidePanel::PlanetPanelContainer']]],
+  ['disallowchars',['DisallowChars',['../classCUIEdit.html#ab6487ede82475df1fb9153c2533d00d7',1,'CUIEdit']]],
   ['disconnect',['Disconnect',['../classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b',1,'ServerNetworking::Disconnect(int id)'],['../classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12',1,'ServerNetworking::Disconnect(PlayerConnectionPtr player_connection)']]],
   ['disconnectall',['DisconnectAll',['../classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892',1,'ServerNetworking']]],
   ['disconnectedfromserver',['DisconnectedFromServer',['../classHumanClientApp.html#afe578f75aa572cec68700a3cae559e6c',1,'HumanClientApp']]],

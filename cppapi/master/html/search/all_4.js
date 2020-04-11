@@ -177,6 +177,7 @@ var searchData=
   ['disabledroparrow',['DisableDropArrow',['../classCUIDropDownList.html#a1c7df96c6f7c34e2d15d08ec040b40b7',1,'CUIDropDownList']]],
   ['disablenonselectioncandidates',['DisableNonSelectionCandidates',['../classSidePanel_1_1PlanetPanelContainer.html#a6c669a6ce23055ade8db81cd7f855e05',1,'SidePanel::PlanetPanelContainer']]],
   ['disallow_5fstockpile_5fuse',['DISALLOW_STOCKPILE_USE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a216358ce8f60ed691bd6bd1dea859a0a',1,'ProductionQueueOrder']]],
+  ['disallowchars',['DisallowChars',['../classCUIEdit.html#ab6487ede82475df1fb9153c2533d00d7',1,'CUIEdit']]],
   ['disconnect',['Disconnect',['../classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b',1,'ServerNetworking::Disconnect(int id)'],['../classServerNetworking.html#a08aefe2c51e336e3b31d144a71389f12',1,'ServerNetworking::Disconnect(PlayerConnectionPtr player_connection)']]],
   ['disconnectall',['DisconnectAll',['../classServerNetworking.html#accbe746af7ee6b3181a2f3a78fc2c892',1,'ServerNetworking']]],
   ['disconnectclients',['DisconnectClients',['../structDisconnectClients.html',1,'']]],

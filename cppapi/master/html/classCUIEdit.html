@@ -62,6 +62,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCUIEdit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CUIEdit Class Reference</div>  </div>
@@ -98,6 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae2aceac1802b14091aa509e02c2c4226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d98c29dec37984242fe9ba4a1369c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#ab6d98c29dec37984242fe9ba4a1369c1">KeyPress</a> (GG::Key key, std::uint32_t key_code_point, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
 <tr class="separator:ab6d98c29dec37984242fe9ba4a1369c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d5340f84e1943f7f8e99d70af1e559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#a08d5340f84e1943f7f8e99d70af1e559">AcceptPastedText</a> (const std::string &amp;text) override</td></tr>
+<tr class="separator:a08d5340f84e1943f7f8e99d70af1e559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c335bad78934d5f7afb899e58cb430f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#a3c335bad78934d5f7afb899e58cb430f">GainingFocus</a> () override</td></tr>
 <tr class="separator:a3c335bad78934d5f7afb899e58cb430f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63fdd0a3bdc61bd48deff7c90db053f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#a63fdd0a3bdc61bd48deff7c90db053f3">LosingFocus</a> () override</td></tr>
@@ -106,6 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a550cd976fc8e6a5dd84c06c421529b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99627b3d1b31fe813d041c2d9b723d16"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#a99627b3d1b31fe813d041c2d9b723d16">AutoComplete</a> ()</td></tr>
 <tr class="separator:a99627b3d1b31fe813d041c2d9b723d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6487ede82475df1fb9153c2533d00d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#ab6487ede82475df1fb9153c2533d00d7">DisallowChars</a> (const std::string &amp;chars)</td></tr>
+<tr class="separator:ab6487ede82475df1fb9153c2533d00d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -113,6 +118,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a24d0a00ecb3afe043e5fb04dae2835fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a315512d4f69a08e712351a7f473734ca"><td class="memItemLeft" align="right" valign="top">boost::signals2::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#a315512d4f69a08e712351a7f473734ca">LosingFocusSignal</a></td></tr>
 <tr class="separator:a315512d4f69a08e712351a7f473734ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad3fecf39507c9ad7f37f5cc19bb0eaa9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIEdit.html#ad3fecf39507c9ad7f37f5cc19bb0eaa9">m_disallowed_chars</a></td></tr>
+<tr class="separator:ad3fecf39507c9ad7f37f5cc19bb0eaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a FreeOrion Edit control </p>
@@ -144,6 +154,34 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a08d5340f84e1943f7f8e99d70af1e559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d5340f84e1943f7f8e99d70af1e559">&#9670;&nbsp;</a></span>AcceptPastedText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CUIEdit::AcceptPastedText </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classCUIEdit.html#ad3fecf39507c9ad7f37f5cc19bb0eaa9">m_disallowed_chars</a>.</p>
+
+</div>
+</div>
 <a id="a99627b3d1b31fe813d041c2d9b723d16"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99627b3d1b31fe813d041c2d9b723d16">&#9670;&nbsp;</a></span>AutoComplete()</h2>
 
@@ -197,6 +235,32 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classCUIEdit.html#a99627b3d1b31fe813d041c2d9b723d16">AutoComplete()</a>, <a class="el" href="classHotkeyManager.html#ad8c1e0a915120af327d83eaa4432477c">HotkeyManager::Connect()</a>, <a class="el" href="classClientUI.html#ad5c0195c0f0d99773e615c5b3457ffce">ClientUI::EditHiliteColor()</a>, <a class="el" href="classHotkeyManager.html#a3e1e65c2486bb0954890b0180abb6056">HotkeyManager::GetManager()</a>, <a class="el" href="namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a6cb40b0e2e772741ca2ee25dd6413f45">anonymous_namespace{CUIControls.cpp}::PlayTextTypingSound()</a>, and <a class="el" href="classHotkeyManager.html#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">HotkeyManager::RebuildShortcuts()</a>.</p>
+
+</div>
+</div>
+<a id="ab6487ede82475df1fb9153c2533d00d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6487ede82475df1fb9153c2533d00d7">&#9670;&nbsp;</a></span>DisallowChars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CUIEdit::DisallowChars </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>chars</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -407,6 +471,30 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classCUIEdit.html#a63fdd0a3bdc61bd48deff7c90db053f3">LosingFocus()</a>.</p>
+
+</div>
+</div>
+<a id="ad3fecf39507c9ad7f37f5cc19bb0eaa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3fecf39507c9ad7f37f5cc19bb0eaa9">&#9670;&nbsp;</a></span>m_disallowed_chars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string CUIEdit::m_disallowed_chars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classCUIEdit.html#a08d5340f84e1943f7f8e99d70af1e559">AcceptPastedText()</a>.</p>
 
 </div>
 </div>
