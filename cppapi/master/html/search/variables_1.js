@@ -29,6 +29,8 @@ var searchData=
   ['alphanum',['alphanum',['../namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a163ee9df67286d39329e1c585dee5803',1,'anonymous_namespace{MultiplayerCommon.cpp}']]],
   ['amblocktype',['amBlockType',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a9541136198802c23597f4675df3f3e94',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['and_5f',['and_',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a1f4f013c0429443fd0c2dba962705071',1,'parse::detail::condition_parser_rules_1']]],
+  ['arbitrary_5flarge_5fcost',['ARBITRARY_LARGE_COST',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a91b46f1f434f0dc55fb1cff065b41e97',1,'anonymous_namespace{ShipDesign.cpp}']]],
+  ['arbitrary_5flarge_5fturns',['ARBITRARY_LARGE_TURNS',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#a2b70e4421def7b4064f6e881c25ae12f',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['arc_5fthickness',['ARC_THICKNESS',['../namespaceanonymous__namespace_02TechTreeArcs_8cpp_03.html#ae0adca7ae150276cfe244001065608cd',1,'anonymous_namespace{TechTreeArcs.cpp}']]],
   ['armed',['armed',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a6ce46b925d1855ed6175f6af3ab02dee',1,'parse::detail::condition_parser_rules_1']]],
   ['arrow_5fbrightening_5fscale_5ffactor',['ARROW_BRIGHTENING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a5cd3c62d8fc3f4192b558f8212954328',1,'anonymous_namespace{CUIControls.cpp}']]],

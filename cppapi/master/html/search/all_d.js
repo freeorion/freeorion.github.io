@@ -208,7 +208,6 @@ var searchData=
   ['m_5fcontrols',['m_controls',['../classObjectPanel.html#a4496226fdac26613e53409c5f0d30dfd',1,'ObjectPanel::m_controls()'],['../classObjectHeaderPanel.html#a85378f623cc9bfdc17adc731aff40d49',1,'ObjectHeaderPanel::m_controls()']]],
   ['m_5fcookie',['m_cookie',['../classPlayerConnection.html#aecf101cfb0cdfe4cea356afe1c9d0dd2',1,'PlayerConnection']]],
   ['m_5fcookies',['m_cookies',['../classServerNetworking.html#a60905f9c045934ffe8adb189aa2f3bff',1,'ServerNetworking']]],
-  ['m_5fcost',['m_cost',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemPanel.html#a0cc111fe7a76117d12cb6533fded9fcc',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemPanel']]],
   ['m_5fcost_5fand_5fduration_5flabel',['m_cost_and_duration_label',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a4bde6db3e14a2e3d1e31d8f373378054',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['m_5fcost_5fand_5fduration_5ftext',['m_cost_and_duration_text',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a85931fdd2af2bffa084040eaae8ad224',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['m_5fcost_5ftext',['m_cost_text',['../classEncyclopediaDetailPanel.html#ad5bdf952c2f3da8cf3fa5e53551c8d64',1,'EncyclopediaDetailPanel']]],
