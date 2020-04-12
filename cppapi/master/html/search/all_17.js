@@ -28,6 +28,7 @@ var searchData=
   ['weapons',['Weapons',['../classShipDesign.html#a4baedac49dbc761ca34fd631e9847a5a',1,'ShipDesign']]],
   ['weaponsplatformevent',['WeaponsPlatformEvent',['../structWeaponsPlatformEvent.html',1,'WeaponsPlatformEvent'],['../structWeaponsPlatformEvent.html#a933119e001ea1c357fa1f0486647afb8',1,'WeaponsPlatformEvent::WeaponsPlatformEvent()'],['../structWeaponsPlatformEvent.html#a7635d5fd4444c6c908f12e2dc69f4f95',1,'WeaponsPlatformEvent::WeaponsPlatformEvent(int bout, int attacker_id, int attacker_owner_id_)']]],
   ['weaponsplatformeventptr',['WeaponsPlatformEventPtr',['../structWeaponsPlatformEvent.html#aa18ba2e85c79e339ef92028905e6a6cd',1,'WeaponsPlatformEvent']]],
+  ['what',['what',['../classanonymous__namespace_02SDLGUI_8cpp_03_1_1FramebufferFailedException.html#aa7ca5eacc6354a932a0fe84c7cb5fb8b',1,'anonymous_namespace{SDLGUI.cpp}::FramebufferFailedException']]],
   ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab4b8c9451aafcce6dc17f4f2dd88f68e',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['wide_5fas',['WIDE_AS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a7afeefb0abdcc7eb39cc0aa106b3793a',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['win',['Win',['../classEmpire.html#a52ed00b2ccb16aca3e64c2031a953ddf',1,'Empire']]],

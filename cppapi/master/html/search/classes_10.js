@@ -7,5 +7,6 @@ var searchData=
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html',1,'anonymous_namespace{ProductionWnd.cpp}']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html',1,'anonymous_namespace{ResearchWnd.cpp}']]],
+  ['quitsignal',['QuitSignal',['../structanonymous__namespace_02SDLGUI_8cpp_03_1_1QuitSignal.html',1,'anonymous_namespace{SDLGUI.cpp}']]],
   ['quittinggame',['QuittingGame',['../structQuittingGame.html',1,'']]]
 ];

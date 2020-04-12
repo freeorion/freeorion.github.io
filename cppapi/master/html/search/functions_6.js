@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['fakemodechange',['FakeModeChange',['../classSDLGUI.html#a742c17cc6b619536880cdaed358ba190',1,'SDLGUI']]],
   ['fcmovecontent',['FCMoveContent',['../namespaceCondition.html#aa611613e4bf704be773786ae682fbac0',1,'Condition']]],
   ['field',['Field',['../classField.html#a3e804c92273d9159f413f227b535c672',1,'Field::Field()'],['../classField.html#a11c21389e9d357e559c507485516f6dc',1,'Field::Field(const std::string &amp;field_type, double x, double y, double radius)']]],
   ['fieldicon',['FieldIcon',['../classFieldIcon.html#a18553bf0220f307666956e08f9701e63',1,'FieldIcon']]],
@@ -42,6 +43,7 @@ var searchData=
   ['filteridswithcondition',['FilterIDsWithCondition',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ad29599dee126d9916f54bca76aaecc3e',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['filterobjectidsbyknowndestruction',['FilterObjectIDsByKnownDestruction',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a8f3ca79986a1758095171e3ded043823',1,'anonymous_namespace{Universe.cpp}']]],
   ['filterobjectpositionsbydetectorpositionsandranges',['FilterObjectPositionsByDetectorPositionsAndRanges',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a55db819f2dae393a7c42eaafd4d72c24',1,'anonymous_namespace{Universe.cpp}']]],
+  ['finalcleanup',['FinalCleanup',['../classSDLGUI.html#ac6012afc96caf0a33f9826230da0bff1',1,'SDLGUI']]],
   ['finaldestinationid',['FinalDestinationID',['../classFleet.html#a259f9b8af16f9691423c539179f3de3f',1,'Fleet']]],
   ['finalize',['Finalize',['../classPythonBase.html#a46ef9249611aa0ab6e88b54a51cc9c8c',1,'PythonBase']]],
   ['find',['Find',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html#a41ce47a26dfb67898bb5b95b374dd6c5',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::ConditionCache::Find()'],['../structProductionQueue.html#afec282f60e2504911f1c63eab5d7dbbb',1,'ProductionQueue::find(int i) const'],['../structProductionQueue.html#a7ef51db66480819323d318db0d029480',1,'ProductionQueue::find(boost::uuids::uuid uuid) const'],['../structProductionQueue.html#a6180bf5b8d0ff5f78f698c9f54ddc511',1,'ProductionQueue::find(int i)'],['../structResearchQueue.html#a25be685a78ddcd1dae9f683d9c080d79',1,'ResearchQueue::find(const std::string &amp;tech_name) const'],['../structResearchQueue.html#ad6aac5c05a86d1bb659bbd1926da73b3',1,'ResearchQueue::find(const std::string &amp;tech_name)'],['../classObjectMap.html#ae7502326ac46f75c9e8c7efa8fb8159c',1,'ObjectMap::find(const id_range &amp;object_ids) const'],['../classObjectMap.html#a2e6b570cb0ee952c0192dcd435180698',1,'ObjectMap::find(const id_range &amp;object_ids)'],['../classObjectMap.html#a8e4c6afc8fe4747c6240fba917998ade',1,'ObjectMap::find(const UniverseObjectVisitor &amp;visitor) const'],['../classObjectMap.html#abf857a0e95c6e9d9ca760368f2ce91db',1,'ObjectMap::find(const UniverseObjectVisitor &amp;visitor)'],['../classOrderSet.html#a08d928d999139431b0a280af54b9b243',1,'OrderSet::find()']]],
@@ -141,11 +143,15 @@ var searchData=
   ['fpsindicator',['FPSIndicator',['../classFPSIndicator.html#a358b3e72e1717b6a6ec0ec232a331721',1,'FPSIndicator']]],
   ['fractionaldistancebetweenpoints',['FractionalDistanceBetweenPoints',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aeb4e8aa449093304b8dca374cc001c17',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fragmentshaderinfolog',['FragmentShaderInfoLog',['../classShaderProgram.html#a6024c7f23fc395b2d3e634fda5446c26',1,'ShaderProgram']]],
+  ['framebuffer',['Framebuffer',['../classFramebuffer.html#a84968fcc33d664bde5a61c1ab0e6e821',1,'Framebuffer']]],
+  ['framebufferfailedexception',['FramebufferFailedException',['../classanonymous__namespace_02SDLGUI_8cpp_03_1_1FramebufferFailedException.html#aaf5274b7d7d7430e2201dfbbb41fd6eb',1,'anonymous_namespace{SDLGUI.cpp}::FramebufferFailedException']]],
+  ['framebuffersavailable',['FramebuffersAvailable',['../classSDLGUI.html#a4301354318232fbe7ff87ca7f17aaf95',1,'SDLGUI']]],
   ['free',['Free',['../classProcess_1_1Impl.html#a66e80965ab4b4eaadc0ce128883f5864',1,'Process::Impl::Free()'],['../classProcess.html#add80a1596ceaa9ebc524514159dc9e98',1,'Process::Free()']]],
   ['freeallsounds',['FreeAllSounds',['../classSound_1_1Impl.html#a561d190fed40403216db99101e4894b5',1,'Sound::Impl::FreeAllSounds()'],['../classSound.html#ac3c48a8974635c21e8f685e78e34fe45',1,'Sound::FreeAllSounds()']]],
   ['freeorbits',['FreeOrbits',['../classSystem.html#a09be327b417bc3283ab279ceaed795bf',1,'System']]],
   ['freeorionversionstring',['FreeOrionVersionString',['../Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
   ['freesound',['FreeSound',['../classSound_1_1Impl.html#a76152186d17d50451288a85bdbe2cac0',1,'Sound::Impl::FreeSound()'],['../classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
-  ['fuel',['Fuel',['../classFleet.html#aebaf03297cc6ee4b6bea94617ff68be7',1,'Fleet::Fuel()'],['../classHullType.html#a23fa4553e24caad687943596a3192251',1,'HullType::Fuel()'],['../classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5',1,'ShipDesign::Fuel()']]]
+  ['fuel',['Fuel',['../classFleet.html#aebaf03297cc6ee4b6bea94617ff68be7',1,'Fleet::Fuel()'],['../classHullType.html#a23fa4553e24caad687943596a3192251',1,'HullType::Fuel()'],['../classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5',1,'ShipDesign::Fuel()']]],
+  ['fullscreen',['Fullscreen',['../classSDLGUI.html#acc56de6bd77a11951a0c4f8d840f79b9',1,'SDLGUI']]]
 ];

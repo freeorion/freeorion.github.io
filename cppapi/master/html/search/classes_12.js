@@ -20,6 +20,7 @@ var searchData=
   ['scriptingcombatinfo',['ScriptingCombatInfo',['../structScriptingCombatInfo.html',1,'']]],
   ['scriptingcontext',['ScriptingContext',['../structScriptingContext.html',1,'']]],
   ['scrolltab',['ScrollTab',['../classCUIScroll_1_1ScrollTab.html',1,'CUIScroll']]],
+  ['sdlgui',['SDLGUI',['../classSDLGUI.html',1,'']]],
   ['searchedit',['SearchEdit',['../classanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03_1_1SearchEdit.html',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['sectionedscopedtimer',['SectionedScopedTimer',['../classSectionedScopedTimer.html',1,'']]],
   ['sections',['Sections',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html',1,'SectionedScopedTimer::Impl']]],

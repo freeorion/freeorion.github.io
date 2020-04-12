@@ -91,6 +91,7 @@ var searchData=
   ['numslots',['NumSlots',['../classHullType.html#a5400a4aeb5e2ac9fe73d31c68d2e7cc6',1,'HullType::NumSlots() const'],['../classHullType.html#a542386bf9ed00223690fb1af2615fba7',1,'HullType::NumSlots(ShipSlotType slot_type) const']]],
   ['numspecies',['NumSpecies',['../classSpeciesManager.html#a0c49525e5742e44669c1a2139a1a35e7',1,'SpeciesManager']]],
   ['numstarlanes',['NumStarlanes',['../classSystem.html#aaf14cf12a579e0a5183bbde1c2646578',1,'System']]],
+  ['numvideodisplaysstatic',['NumVideoDisplaysStatic',['../classSDLGUI.html#a45308d883d7c8a686806d94ddca585be',1,'SDLGUI']]],
   ['numvisiblesitrepsthisturn',['NumVisibleSitrepsThisTurn',['../classSitRepPanel.html#a20e231bddeb68cf890929d5b79262303',1,'SitRepPanel']]],
   ['numwormholes',['NumWormholes',['../classSystem.html#a35838b4e28c3cee15cdbd9dd46aa9496',1,'System']]]
 ];

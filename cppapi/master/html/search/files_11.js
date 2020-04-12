@@ -9,6 +9,8 @@ var searchData=
   ['scopedtimer_2ecpp',['ScopedTimer.cpp',['../ScopedTimer_8cpp.html',1,'']]],
   ['scopedtimer_2eh',['ScopedTimer.h',['../ScopedTimer_8h.html',1,'']]],
   ['scriptingcontext_2eh',['ScriptingContext.h',['../ScriptingContext_8h.html',1,'']]],
+  ['sdlgui_2ecpp',['SDLGUI.cpp',['../SDLGUI_8cpp.html',1,'']]],
+  ['sdlgui_2eh',['SDLGUI.h',['../SDLGUI_8h.html',1,'']]],
   ['serialize_2eh',['Serialize.h',['../Serialize_8h.html',1,'']]],
   ['serialize_2eipp',['Serialize.ipp',['../Serialize_8ipp.html',1,'']]],
   ['serializeempire_2ecpp',['SerializeEmpire.cpp',['../SerializeEmpire_8cpp.html',1,'']]],
