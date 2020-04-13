@@ -16,7 +16,7 @@ var searchData=
   ['undo',['Undo',['../classOrder.html#a284e6dd2d1c0b675d6886b31e173e22d',1,'Order']]],
   ['undoimpl',['UndoImpl',['../classOrder.html#af1258310800c9823961ccaa0c8f6b339',1,'Order::UndoImpl()'],['../classColonizeOrder.html#aceb6be4ef5b4fd8e86ca39b111eed828',1,'ColonizeOrder::UndoImpl()'],['../classInvadeOrder.html#a080555806976dba5323197e08cbfa23f',1,'InvadeOrder::UndoImpl()'],['../classBombardOrder.html#a0eba778d2ccc572a671e4beac8eaaaa4',1,'BombardOrder::UndoImpl()'],['../classScrapOrder.html#a2c2281a7d64a2450e13a6996a5b226b6',1,'ScrapOrder::UndoImpl()'],['../classGiveObjectToEmpireOrder.html#a39255d1e703c354bc29dd16269958743',1,'GiveObjectToEmpireOrder::UndoImpl()']]],
   ['undozoom',['UndoZoom',['../classTechTreeWnd_1_1LayoutPanel.html#ac1178a9f4488f6a6f4c1246924177610',1,'TechTreeWnd::LayoutPanel']]],
-  ['unique_5fcount',['UNIQUE_COUNT',['../namespaceValueRef.html#ab78722b9a6e928423a6018b34e588ca3a840a6f471020760a75ca6216f5fbbd8f',1,'ValueRef']]],
+  ['unique_5fcount',['UNIQUE_COUNT',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f',1,'ValueRef']]],
   ['unit_5fsummaries',['unit_summaries',['../structCombatSummary.html#a2e9cb9d6e9ecb3987db27c5ecd964a8d',1,'CombatSummary']]],
   ['unitsummaries',['UnitSummaries',['../structCombatSummary.html#a649dd94f990aa11b06811114edbece11',1,'CombatSummary']]],
   ['universe',['Universe',['../classUniverse.html',1,'Universe'],['../classBuilding.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Building::Universe()'],['../classField.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Field::Universe()'],['../classFleet.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Fleet::Universe()'],['../classPlanet.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Planet::Universe()'],['../classShip.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Ship::Universe()'],['../classSystem.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'System::Universe()'],['../classUniverseObject.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'UniverseObject::Universe()'],['../classUniverse.html#a4d137a146dd3c2514dfb692dfbab6984',1,'Universe::Universe()']]],
@@ -40,7 +40,7 @@ var searchData=
   ['universepositionfromscreencoords',['UniversePositionFromScreenCoords',['../classMapWnd.html#a753ad20addc155c491d73f1475cbd35c',1,'MapWnd']]],
   ['universewidth',['UniverseWidth',['../classUniverse.html#acfbd482b9717883e9c624d6b44143c5e',1,'Universe']]],
   ['universewrapper_2ecpp',['UniverseWrapper.cpp',['../UniverseWrapper_8cpp.html',1,'']]],
-  ['unknown_5finvariance',['UNKNOWN_INVARIANCE',['../namespaceCondition.html#a90c2761faafafde33a2fb74bb6426b9aae5fb7d5ff4326593b8249e50b1c1e315',1,'Condition']]],
+  ['unknown_5finvariance',['UNKNOWN_INVARIANCE',['../namespaceCondition.html#a97c57ae20e4edf7d4782684ef810f51cae5fb7d5ff4326593b8249e50b1c1e315',1,'Condition']]],
   ['unknown_5fui_5fdisplay_5fvalue',['UNKNOWN_UI_DISPLAY_VALUE',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#adde16ad9e6de1e4a1e174ac806e8e118',1,'anonymous_namespace{i18n.cpp}']]],
   ['unknownicon',['UnknownIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a22d862e1cb6553257162a5a89039cb27',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['unknownroute',['UnknownRoute',['../classFleet.html#a75d7f0b4683a8889ac36d4af04a1bbd5',1,'Fleet']]],
@@ -138,5 +138,5 @@ var searchData=
   ['userstringsubstitute',['UserStringSubstitute',['../namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a551cf45a969e6a040b4b8f47b6fbff2e',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5c114abbcaa728fe98631cefc6ad51c9',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a5f6ac0f4025d308fb7c7a79846e10721',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['uuid',['uuid',['../structProductionQueue_1_1Element.html#a4e08f5b0210377346ef389e6292a89d4',1,'ProductionQueue::Element::uuid()'],['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign::UUID()']]]
+  ['uuid',['UUID',['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign::UUID()'],['../structProductionQueue_1_1Element.html#a4e08f5b0210377346ef389e6292a89d4',1,'ProductionQueue::Element::uuid()']]]
 ];

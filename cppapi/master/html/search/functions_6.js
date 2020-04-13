@@ -152,6 +152,6 @@ var searchData=
   ['freeorionversionstring',['FreeOrionVersionString',['../Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
   ['freesound',['FreeSound',['../classSound_1_1Impl.html#a76152186d17d50451288a85bdbe2cac0',1,'Sound::Impl::FreeSound()'],['../classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
-  ['fuel',['Fuel',['../classFleet.html#aebaf03297cc6ee4b6bea94617ff68be7',1,'Fleet::Fuel()'],['../classHullType.html#a23fa4553e24caad687943596a3192251',1,'HullType::Fuel()'],['../classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5',1,'ShipDesign::Fuel()']]],
+  ['fuel',['Fuel',['../classFleet.html#aebaf03297cc6ee4b6bea94617ff68be7',1,'Fleet::Fuel()'],['../classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5',1,'ShipDesign::Fuel()'],['../classHullType.html#a23fa4553e24caad687943596a3192251',1,'HullType::Fuel()']]],
   ['fullscreen',['Fullscreen',['../classSDLGUI.html#acc56de6bd77a11951a0c4f8d840f79b9',1,'SDLGUI']]]
 ];

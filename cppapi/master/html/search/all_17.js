@@ -15,7 +15,7 @@ var searchData=
   ['waitingforturnend',['WaitingForTurnEnd',['../structWaitingForTurnEnd.html',1,'WaitingForTurnEnd'],['../classServerApp.html#a60128ac2f52e3cfe0b08dc776869a7d8',1,'ServerApp::WaitingForTurnEnd()'],['../structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af',1,'WaitingForTurnEnd::WaitingForTurnEnd()']]],
   ['waitingforturnendidle',['WaitingForTurnEndIdle',['../classServerApp.html#a40bebf8533e2d9dc54ecdc92dea3902f',1,'ServerApp']]],
   ['waitingicon',['WaitingIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a347ecb2891af784cafba0199977df83f',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
-  ['war_5fdeclaration',['WAR_DECLARATION',['../classDiplomaticMessage.html#a331092de5beff651222985a999fa796ca470b172d220f5722bb1f115dbbdb2b7d',1,'DiplomaticMessage']]],
+  ['war_5fdeclaration',['WAR_DECLARATION',['../classDiplomaticMessage.html#ab7a1cf991f76681b46351374d360134ba470b172d220f5722bb1f115dbbdb2b7d',1,'DiplomaticMessage']]],
   ['wardeclarationdiplomaticmessage',['WarDeclarationDiplomaticMessage',['../Diplomacy_8cpp.html#afeca8e124c1a08c8cb2b6c8e73fc064a',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a15ce53919decdfdd9b8c00848af927c6',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['waricon',['WarIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aec8d49e4d7df1cff071502bf84571d42',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['warn',['warn',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a1ea4c3ab05ee0c6d4de30740443769cb',1,'Logger.h']]],

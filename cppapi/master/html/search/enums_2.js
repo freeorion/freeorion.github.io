@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['diplomaticmessagetype',['DiplomaticMessageType',['../classDiplomaticMessage.html#a331092de5beff651222985a999fa796c',1,'DiplomaticMessage']]]
+  ['diplomaticmessagetype',['DiplomaticMessageType',['../classDiplomaticMessage.html#ab7a1cf991f76681b46351374d360134b',1,'DiplomaticMessage']]]
 ];

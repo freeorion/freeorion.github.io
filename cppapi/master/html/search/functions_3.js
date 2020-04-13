@@ -173,7 +173,7 @@ var searchData=
   ['colonize',['Colonize',['../classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630',1,'Planet']]],
   ['colonizeorder',['ColonizeOrder',['../classColonizeOrder.html#a9f3c99cd8a283821e0d9510041958c93',1,'ColonizeOrder::ColonizeOrder(int empire, int ship, int planet)'],['../classColonizeOrder.html#a59e862598f38861d656740f5ba2629f6',1,'ColonizeOrder::ColonizeOrder()=default']]],
   ['colonizeplanet',['ColonizePlanet',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a884b115d49bcec0851bcb68b6b36d48f',1,'anonymous_namespace{ServerApp.cpp}']]],
-  ['colonycapacity',['ColonyCapacity',['../classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d',1,'Ship::ColonyCapacity()'],['../classHullType.html#ae9968276e23f1305df277efe1555dbd4',1,'HullType::ColonyCapacity()'],['../classShipDesign.html#abd6db232060919e3e40b9224a579eb0e',1,'ShipDesign::ColonyCapacity()']]],
+  ['colonycapacity',['ColonyCapacity',['../classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d',1,'Ship::ColonyCapacity()'],['../classShipDesign.html#abd6db232060919e3e40b9224a579eb0e',1,'ShipDesign::ColonyCapacity()'],['../classHullType.html#ae9968276e23f1305df277efe1555dbd4',1,'HullType::ColonyCapacity()']]],
   ['colonyicon',['ColonyIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a2196ef1c13db18167135c0e92f9a1413',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['color',['Color',['../classEmpire.html#a2e5d81eced7521b96b3c6ffd361d5219',1,'Empire']]],
   ['color_5fparser_5fgrammar',['color_parser_grammar',['../structparse_1_1detail_1_1color__parser__grammar.html#a7bec962bf975b2e7899eaccb72fae76b',1,'parse::detail::color_parser_grammar']]],
