@@ -1356,6 +1356,7 @@ var searchData=
   ['m_5ftrue_5feffects',['m_true_effects',['../classEffect_1_1Conditional.html#ac6e1086f8985e3e3220e1e42d9bca73d',1,'Effect::Conditional']]],
   ['m_5fturn',['m_turn',['../classSitRepEntry.html#ae9db454949232d1773f9ffb18d66f83e',1,'SitRepEntry']]],
   ['m_5fturn_5fexpired',['m_turn_expired',['../classServerApp.html#a9799776386f7a8f97c95d17bb18866a4',1,'ServerApp']]],
+  ['m_5fturn_5flast_5fcolonized',['m_turn_last_colonized',['../classPlanet.html#a85656483293d07f7280bad58ef650a69',1,'Planet']]],
   ['m_5fturn_5flast_5fconquered',['m_turn_last_conquered',['../classPlanet.html#a74fdce8250047d8ace71d8db0ac0358c',1,'Planet']]],
   ['m_5fturn_5fsequence',['m_turn_sequence',['../classServerApp.html#a94f5dac9d4089fd33fb9694346f5ce14',1,'ServerApp']]],
   ['m_5fturn_5fspending',['m_turn_spending',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a0196f3c6181c23f601caf6138ea2bb4d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
