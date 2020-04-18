@@ -69,7 +69,6 @@ var searchData=
   ['_7eorder',['~Order',['../classOrder.html#aff0a16289c8b0bec6ba1821c6eee9b6c',1,'Order']]],
   ['_7eorderedmovingfleetvisitor',['~OrderedMovingFleetVisitor',['../structOrderedMovingFleetVisitor.html#afcf8be91f06998493e646eedec0a23eb',1,'OrderedMovingFleetVisitor']]],
   ['_7eownedvisitor',['~OwnedVisitor',['../structOwnedVisitor.html#a37d09b24ab58debae73f3d5f3a833df7',1,'OwnedVisitor']]],
-  ['_7eparttype',['~PartType',['../classPartType.html#a2ba617ca95d294204d9483479d4782e2',1,'PartType']]],
   ['_7epathfinder',['~Pathfinder',['../classPathfinder.html#a5b39561ad7375cfdc493d58cbb9fdc1b',1,'Pathfinder']]],
   ['_7eplanet',['~Planet',['../classPlanet.html#aaa1aaed9d4ef90b4836531edb7b18e0a',1,'Planet']]],
   ['_7eplanetpanel',['~PlanetPanel',['../classSidePanel_1_1PlanetPanel.html#a99813439aad19c697a307a0e30b830e8',1,'SidePanel::PlanetPanel']]],

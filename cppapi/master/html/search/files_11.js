@@ -39,6 +39,8 @@ var searchData=
   ['shipdesign_2eh',['ShipDesign.h',['../ShipDesign_8h.html',1,'']]],
   ['shipdesignsparser_2ecpp',['ShipDesignsParser.cpp',['../ShipDesignsParser_8cpp.html',1,'']]],
   ['shiphullsparser_2ecpp',['ShipHullsParser.cpp',['../ShipHullsParser_8cpp.html',1,'']]],
+  ['shippart_2ecpp',['ShipPart.cpp',['../ShipPart_8cpp.html',1,'']]],
+  ['shippart_2eh',['ShipPart.h',['../ShipPart_8h.html',1,'']]],
   ['shipparthull_2eh',['ShipPartHull.h',['../ShipPartHull_8h.html',1,'']]],
   ['shippartsparser_2ecpp',['ShipPartsParser.cpp',['../ShipPartsParser_8cpp.html',1,'']]],
   ['sidepanel_2ecpp',['SidePanel.cpp',['../SidePanel_8cpp.html',1,'']]],

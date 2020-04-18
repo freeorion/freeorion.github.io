@@ -109,6 +109,7 @@ var searchData=
   ['anonymous_5fnamespace_7bshipdesign_2ecpp_7d',['anonymous_namespace{ShipDesign.cpp}',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bshipdesignsparser_2ecpp_7d',['anonymous_namespace{ShipDesignsParser.cpp}',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bshiphullsparser_2ecpp_7d',['anonymous_namespace{ShipHullsParser.cpp}',['../namespaceanonymous__namespace_02ShipHullsParser_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bshippart_2ecpp_7d',['anonymous_namespace{ShipPart.cpp}',['../namespaceanonymous__namespace_02ShipPart_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bshippartsparser_2ecpp_7d',['anonymous_namespace{ShipPartsParser.cpp}',['../namespaceanonymous__namespace_02ShipPartsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsidepanel_2ecpp_7d',['anonymous_namespace{SidePanel.cpp}',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bsitrepentry_2ecpp_7d',['anonymous_namespace{SitRepEntry.cpp}',['../namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html',1,'']]],

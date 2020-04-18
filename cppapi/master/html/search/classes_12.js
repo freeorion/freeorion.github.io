@@ -64,6 +64,7 @@ var searchData=
   ['shipdesignorder',['ShipDesignOrder',['../classShipDesignOrder.html',1,'']]],
   ['shipfightersbrowserow',['ShipFightersBrowseRow',['../classanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1ShipFightersBrowseRow.html',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['shipfightersbrowsewnd',['ShipFightersBrowseWnd',['../classShipFightersBrowseWnd.html',1,'']]],
+  ['shippartmanager',['ShipPartManager',['../classShipPartManager.html',1,'']]],
   ['shippartmetervalue',['ShipPartMeterValue',['../structCondition_1_1ShipPartMeterValue.html',1,'Condition']]],
   ['shippartmetervaluesimplematch',['ShipPartMeterValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1ShipPartMeterValueSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['shiprow',['ShipRow',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipRow.html',1,'anonymous_namespace{FleetWnd.cpp}']]],
