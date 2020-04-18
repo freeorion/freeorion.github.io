@@ -329,8 +329,7 @@ var menudata={children:[
 {text:"q",url:"globals_vars.html#index_q"},
 {text:"r",url:"globals_vars.html#index_r"},
 {text:"s",url:"globals_vars.html#index_s"},
-{text:"t",url:"globals_vars.html#index_t"},
-{text:"u",url:"globals_vars.html#index_u"}]},
+{text:"t",url:"globals_vars.html#index_t"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"a",url:"globals_type.html#index_a"},
 {text:"c",url:"globals_type.html#index_c"},

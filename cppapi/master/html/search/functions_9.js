@@ -64,9 +64,9 @@ var searchData=
   ['initializepython',['InitializePython',['../classServerApp.html#aade4f1bf48914ec40757128314f6b244',1,'ServerApp']]],
   ['initializesystemgraph',['InitializeSystemGraph',['../classPathfinder_1_1PathfinderImpl.html#a5b27e7ee68e723eb3a4916ac61185ed1',1,'Pathfinder::PathfinderImpl::InitializeSystemGraph()'],['../classPathfinder.html#ae4da1bc97ebe4510c919f7e5dd7057a2',1,'Pathfinder::InitializeSystemGraph()'],['../classUniverse.html#a5ebced22f3e3ce868574c3c181b8870c',1,'Universe::InitializeSystemGraph()']]],
   ['initializewindows',['InitializeWindows',['../classBuildDesignatorWnd.html#ae8cebf8612819b1ba9bd4b895b994ddd',1,'BuildDesignatorWnd::InitializeWindows()'],['../classClientUI.html#a82871872876cc65f3ca0d9c59f326624',1,'ClientUI::InitializeWindows()'],['../classDesignWnd.html#ab5e33e22984a123f0e41b23dba4dd301',1,'DesignWnd::InitializeWindows()'],['../classMapWnd.html#a80f86feb23979ba95840a1a46411c243',1,'MapWnd::InitializeWindows()'],['../classTechTreeWnd.html#aa00d9a7280695ab34bc518b927a9a7df',1,'TechTreeWnd::InitializeWindows()']]],
-  ['initiallyunlockedbuildings',['InitiallyUnlockedBuildings',['../classUniverse.html#ad58e3ed56834a1e6031806cd5528e789',1,'Universe']]],
+  ['initiallyunlockedbuildings',['InitiallyUnlockedBuildings',['../classUniverse.html#a2ed2601dc18cee1d65f142986743512e',1,'Universe']]],
   ['initiallyunlockedfleetplans',['InitiallyUnlockedFleetPlans',['../classUniverse.html#ac82525fa8828e4362cd0f3c2a325d156',1,'Universe']]],
-  ['initiallyunlockeditems',['InitiallyUnlockedItems',['../classUniverse.html#af95268e64f4c75f5ad1dd8fce1d04baa',1,'Universe']]],
+  ['initiallyunlockeditems',['InitiallyUnlockedItems',['../classUniverse.html#a74eb8bec624db9ef185124e52a91e189',1,'Universe']]],
   ['initialmetervalue',['InitialMeterValue',['../classPlanet.html#a57b8c0d68e91dae456bd865952d8c964',1,'Planet::InitialMeterValue()'],['../classPopCenter.html#a336b7b1ec28fb5eab9796033cd266ced',1,'PopCenter::InitialMeterValue()'],['../classResourceCenter.html#ac067b9deb80554ca5b9d0d588cc66436',1,'ResourceCenter::InitialMeterValue()'],['../classUniverseObject.html#a9a78485014a6c2df7835afddf40eceb3',1,'UniverseObject::InitialMeterValue()']]],
   ['initialorbitalposition',['InitialOrbitalPosition',['../classPlanet.html#a9fcd45b6e9a0c3578f5d4294bd7dac8e',1,'Planet']]],
   ['initialpartmetervalue',['InitialPartMeterValue',['../classShip.html#ae9047f5ddf9239968adb61906f8111cb',1,'Ship']]],
@@ -104,7 +104,7 @@ var searchData=
   ['insert_5fship_5fdesign',['insert_ship_design',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#ab45edeeefacbeb87cd4a0a5997bdec32',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['insert_5fspecial',['insert_special',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html#ad482574f070fdb46039daabf1ff9cbeb',1,'anonymous_namespace{SpecialsParser.cpp}']]],
   ['insert_5fspecies',['insert_species',['../namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a3dc8267b14b59c9310d17d1617448ef0',1,'anonymous_namespace{SpeciesParser.cpp}']]],
-  ['insert_5ftech',['insert_tech',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a6d62d36695dc9c48a9cb364fcf1707c3',1,'anonymous_namespace{TechsParser.cpp}']]],
+  ['insert_5ftech',['insert_tech',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a0c7de6bd81375e342fdd051b85f1294d',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['insertbefore',['InsertBefore',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a795274c69d16c1dc2d6699f8a643a710',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager::InsertBefore()'],['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a96f1320ddfc2ce86dd61393cbae7ed31',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager::InsertBefore()']]],
   ['insertbyempirewithid',['InsertByEmpireWithID',['../classUniverse.html#a8443d415555607b8dfae9b677401fdb8',1,'Universe']]],
   ['insertcore',['insertCore',['../classObjectMap.html#aad44ee48dfed98d0b682a33c4c532a3c',1,'ObjectMap']]],
@@ -241,11 +241,9 @@ var searchData=
   ['istypingsafe',['IsTypingSafe',['../classHotkey.html#abce71c6a014ad68a4e49c5e37c8a09ec',1,'Hotkey::IsTypingSafe(GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)'],['../classHotkey.html#ab683e684837aab5c255483d006b5d7e6',1,'Hotkey::IsTypingSafe() const']]],
   ['isvalidutf8',['IsValidUTF8',['../Directories_8cpp.html#ae5ce7978638f1a854532c01205b70e31',1,'IsValidUTF8(const std::string &amp;in):&#160;Directories.cpp'],['../Directories_8h.html#a97c5c7ede44ff1f3b4c0c90e56a26baa',1,'IsValidUTF8(const std::string &amp;in):&#160;Directories.cpp']]],
   ['item',['Item',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemRow.html#a89b18054e86b6fe78465bb1ffcb82e12',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRow']]],
-  ['item_5fspec_5fgrammar',['item_spec_grammar',['../structparse_1_1detail_1_1item__spec__grammar.html#a92de758e7c451166960585511c76571c',1,'parse::detail::item_spec_grammar']]],
   ['itemblocksizechanged',['ItemBlocksizeChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af67e66065d4c37cc3a21f3bec63bc73d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemquantitychanged',['ItemQuantityChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af596281e2ccdad61623b1dd0043b9548',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemrightclicked',['ItemRightClicked',['../classQueueListBox.html#a66645ad462b6806073a05fa302333849',1,'QueueListBox']]],
   ['itemrightclickedimpl',['ItemRightClickedImpl',['../classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f',1,'BasesListBox::ItemRightClickedImpl()'],['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::ItemRightClickedImpl()'],['../classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522',1,'QueueListBox::ItemRightClickedImpl()'],['../classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2',1,'ResearchQueueListBox::ItemRightClickedImpl()']]],
-  ['items',['items',['../namespaceparse.html#a049bdf8902cc3205a4140f135da425f8',1,'parse']]],
-  ['itemspec',['ItemSpec',['../structItemSpec.html#a0e17326d26d61a63d45504cbc25769c0',1,'ItemSpec::ItemSpec()'],['../structItemSpec.html#a2e6c0ca7e026207ccb768dcb7c576941',1,'ItemSpec::ItemSpec(UnlockableItemType type_, const std::string &amp;name_)']]]
+  ['items',['items',['../namespaceparse.html#ac4b22e49498b56bcc252f83b0a2bd345',1,'parse']]]
 ];
