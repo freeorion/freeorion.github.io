@@ -176,6 +176,7 @@ var searchData=
   ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html',1,'BasesListBox::HullAndPartsListBoxRow'],['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a476d5345eca72273628b98faf8951ad9',1,'BasesListBox::HullAndPartsListBoxRow::HullAndPartsListBoxRow()']]],
   ['hullclickedsignal',['HullClickedSignal',['../classBasesListBox.html#a54fb580ca942a604ae5e0783c6c35298',1,'BasesListBox::HullClickedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a166e4a87e726467f50d4d9c95b5c11cf',1,'DesignWnd::BaseSelector::HullClickedSignal()']]],
   ['hullicon',['HullIcon',['../classClientUI.html#a58402bc53f69bcacfdde4bfc7aff30d1',1,'ClientUI']]],
+  ['hullproductionlocation',['HullProductionLocation',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a1b7117cdaecd54b0b9971348a8c65134',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['hullslots',['HullSlots',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a12656fd02cd281d54c596d23b7ed64ec',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['hullslotsfunc',['HullSlotsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a6e58242569f679c0be0cd74137d45a72',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['hulltexture',['HullTexture',['../classClientUI.html#a6b4cad0054c613d7a19dbab60684d9fe',1,'ClientUI']]],
