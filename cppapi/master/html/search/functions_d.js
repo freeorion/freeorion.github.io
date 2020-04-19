@@ -49,7 +49,7 @@ var searchData=
   ['messagetypename',['MessageTypeName',['../namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a21174e15d5cd91274abbef26f4d0ac93',1,'anonymous_namespace{ServerNetworking.cpp}']]],
   ['messagewnd',['MessageWnd',['../classMessageWnd.html#a239a2f571f0cf7e61565e68128a6c190',1,'MessageWnd']]],
   ['messagewndedit',['MessageWndEdit',['../classMessageWndEdit.html#a9a8c3c158844e7fa69e3ab901402d4b1',1,'MessageWndEdit']]],
-  ['meter',['Meter',['../classMeter.html#a2af268d76057a35b0ca984b0d801566d',1,'Meter::Meter()'],['../classMeter.html#add12ce0b2cd8d77298b63a28dbb604c6',1,'Meter::Meter(float current_value)'],['../classMeter.html#a1c7124e80b1276203e74079d2bd2a3a1',1,'Meter::Meter(float current_value, float initial_value)']]],
+  ['meter',['Meter',['../classMeter.html#a83d56a4b3110cc8f0693508d61e39d88',1,'Meter::Meter()=default'],['../classMeter.html#a1c7124e80b1276203e74079d2bd2a3a1',1,'Meter::Meter(float current_value, float initial_value)']]],
   ['meter_5fbegin',['meter_begin',['../classEmpire.html#a3488c6430c181dc0382f80a241116156',1,'Empire']]],
   ['meter_5fbrowse_5flabel_5fwidth',['METER_BROWSE_LABEL_WIDTH',['../namespaceanonymous__namespace_02ResourcePanel_8cpp_03.html#a80c9d31d47ba9fd488c6feddd6437821',1,'anonymous_namespace{ResourcePanel.cpp}']]],
   ['meter_5fbrowse_5fvalue_5fwidth',['METER_BROWSE_VALUE_WIDTH',['../namespaceanonymous__namespace_02ResourcePanel_8cpp_03.html#a6413d741de4b15f779ecf81316a4f211',1,'anonymous_namespace{ResourcePanel.cpp}']]],

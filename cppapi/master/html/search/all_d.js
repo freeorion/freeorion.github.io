@@ -1553,7 +1553,7 @@ var searchData=
   ['messagetypename',['MessageTypeName',['../namespaceanonymous__namespace_02ServerNetworking_8cpp_03.html#a21174e15d5cd91274abbef26f4d0ac93',1,'anonymous_namespace{ServerNetworking.cpp}']]],
   ['messagewnd',['MessageWnd',['../classMessageWnd.html',1,'MessageWnd'],['../classMessageWnd.html#a239a2f571f0cf7e61565e68128a6c190',1,'MessageWnd::MessageWnd()']]],
   ['messagewndedit',['MessageWndEdit',['../classMessageWndEdit.html',1,'MessageWndEdit'],['../classMessageWndEdit.html#a9a8c3c158844e7fa69e3ab901402d4b1',1,'MessageWndEdit::MessageWndEdit()']]],
-  ['meter',['Meter',['../classMeter.html',1,'Meter'],['../classMeter.html#a2af268d76057a35b0ca984b0d801566d',1,'Meter::Meter()'],['../classMeter.html#add12ce0b2cd8d77298b63a28dbb604c6',1,'Meter::Meter(float current_value)'],['../classMeter.html#a1c7124e80b1276203e74079d2bd2a3a1',1,'Meter::Meter(float current_value, float initial_value)']]],
+  ['meter',['Meter',['../classMeter.html',1,'Meter'],['../classMeter.html#a83d56a4b3110cc8f0693508d61e39d88',1,'Meter::Meter()=default'],['../classMeter.html#a1c7124e80b1276203e74079d2bd2a3a1',1,'Meter::Meter(float current_value, float initial_value)']]],
   ['meter_2ecpp',['Meter.cpp',['../Meter_8cpp.html',1,'']]],
   ['meter_2eh',['Meter.h',['../Meter_8h.html',1,'']]],
   ['meter_5fbegin',['meter_begin',['../classEmpire.html#a3488c6430c181dc0382f80a241116156',1,'Empire']]],
