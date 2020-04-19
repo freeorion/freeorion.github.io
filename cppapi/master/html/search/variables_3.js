@@ -67,6 +67,7 @@ var searchData=
   ['condition_5froot_5fcandidate',['condition_root_candidate',['../structScriptingContext.html#a12240390919ab6b46da3dcf923f2afdd',1,'ScriptingContext']]],
   ['conditional',['conditional',['../structparse_1_1detail_1_1effect__parser__rules__5.html#abd0abe17698df7fe5b6e32d5080ab8fd',1,'parse::detail::effect_parser_rules_5']]],
   ['connection',['connection',['../structHotkeyManager_1_1ConditionalConnection.html#a4b4ed49e8e06b7df697413fbd969f9ab',1,'HotkeyManager::ConditionalConnection']]],
+  ['const_5fobjects',['const_objects',['../structScriptingContext.html#a46e0c31fa5e54c7af0adc9bd05d5df56',1,'ScriptingContext']]],
   ['constant',['constant',['../structparse_1_1detail_1_1simple__variable__rules.html#a81ad7d4a822d37c5a90d8d60cec0d947',1,'parse::detail::simple_variable_rules::constant()'],['../structparse_1_1string__parser__grammar.html#a7e0520b5c4d812b59dbe25672cb1b23a',1,'parse::string_parser_grammar::constant()'],['../namespaceparse.html#a8f3e75d760ebaa17ef9eb0eeb883e7f9',1,'parse::constant()']]],
   ['constant_5fexpr',['constant_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a8a6bfc085bda9a2214fc411f7a5193b3',1,'parse::detail::enum_value_ref_rules']]],
   ['consumable_5fmeter',['consumable_meter',['../structparse_1_1detail_1_1common__params__rules.html#a1763fed6a6953bd2bdb71906ec7de85c',1,'parse::detail::common_params_rules']]],
