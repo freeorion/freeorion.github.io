@@ -1,7 +1,6 @@
 var searchData=
 [
   ['field_5frule',['field_rule',['../structanonymous__namespace_02FieldsParser_8cpp_03_1_1grammar.html#a3ac8e7543e8bb9d1d67a85a06e39456c',1,'anonymous_namespace{FieldsParser.cpp}::grammar']]],
-  ['fieldtypemap',['FieldTypeMap',['../classFieldTypeManager.html#ad4c9fd528538f88b3db59c812005534f',1,'FieldTypeManager']]],
   ['fighterlaunchesevent',['FighterLaunchesEvent',['../CombatEvents_8h.html#a6b6fe350acecb3dbb19bebaa57b3329d',1,'CombatEvents.h']]],
   ['fighterlauncheseventptr',['FighterLaunchesEventPtr',['../CombatEvents_8h.html#a0577afe61b0d2c63fe02a6833576d72c',1,'CombatEvents.h']]],
   ['fighterlauncheventptr',['FighterLaunchEventPtr',['../structFighterLaunchEvent.html#a159dbdcdaa6e86c7e7681db854374f9a',1,'FighterLaunchEvent']]],

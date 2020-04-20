@@ -30,7 +30,6 @@ var searchData=
   ['_7eencyclopediadetailpanel',['~EncyclopediaDetailPanel',['../classEncyclopediaDetailPanel.html#abbda67687041a4bbf5e643d7e1dc056a',1,'EncyclopediaDetailPanel']]],
   ['_7efield',['~Field',['../classField.html#a45d6e6d09b8f8e46de62b40119d62c60',1,'Field']]],
   ['_7efieldicon',['~FieldIcon',['../classFieldIcon.html#ab9e0e45c0810b37f3a134e302253d2d5',1,'FieldIcon']]],
-  ['_7efieldtype',['~FieldType',['../classFieldType.html#ab910cabfef9773183f61a49e30bd82fb',1,'FieldType']]],
   ['_7efighter',['~Fighter',['../classFighter.html#a7c7f2ffa4724887e564af51a6154b703',1,'Fighter']]],
   ['_7efleet',['~Fleet',['../classFleet.html#a48cbd97f91b0bbf5f3ceddeda715f4ee',1,'Fleet']]],
   ['_7efleetbutton',['~FleetButton',['../classFleetButton.html#a9797fced961f7516fe115ee11782ca65',1,'FleetButton']]],
