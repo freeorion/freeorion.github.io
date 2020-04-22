@@ -19,7 +19,7 @@ var searchData=
   ['wardeclarationdiplomaticmessage',['WarDeclarationDiplomaticMessage',['../Diplomacy_8cpp.html#afeca8e124c1a08c8cb2b6c8e73fc064a',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a15ce53919decdfdd9b8c00848af927c6',1,'WarDeclarationDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['waricon',['WarIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aec8d49e4d7df1cff071502bf84571d42',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['warn',['warn',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a1ea4c3ab05ee0c6d4de30740443769cb',1,'Logger.h']]],
-  ['warnlogger',['WarnLogger',['../Logger_8h.html#a31a45ad4cc9e0b3b240189076d5c8345',1,'Logger.h']]],
+  ['warnlogger',['WarnLogger',['../Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4',1,'Logger.h']]],
   ['wastedstockpiledresourcebrowsewnd',['WastedStockpiledResourceBrowseWnd',['../classWastedStockpiledResourceBrowseWnd.html',1,'WastedStockpiledResourceBrowseWnd'],['../classWastedStockpiledResourceBrowseWnd.html#acd884e93b4de38b1b4dc1f4b65546d5e',1,'WastedStockpiledResourceBrowseWnd::WastedStockpiledResourceBrowseWnd()']]],
   ['weapon_5fname',['weapon_name',['../structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f',1,'WeaponFireEvent']]],
   ['weapondamageimpl',['WeaponDamageImpl',['../namespaceanonymous__namespace_02Ship_8cpp_03.html#a90e1aaf0dd81574f037d8694add3df46',1,'anonymous_namespace{Ship.cpp}']]],

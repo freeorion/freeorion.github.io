@@ -61,7 +61,7 @@ var searchData=
   ['infield',['InField',['../classField.html#ad7730d23acc52142220c0baa93a834c5',1,'Field::InField(std::shared_ptr&lt; const UniverseObject &gt; obj) const'],['../classField.html#a18212b931ea5ce45d40ff6f7754e9026',1,'Field::InField(double x, double y) const']]],
   ['info',['info',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acaf9b6b99962bf5c2264824231d7a40c',1,'Logger.h']]],
   ['info_5fvisitor',['info_visitor',['../structparse_1_1detail_1_1info__visitor.html',1,'parse::detail::info_visitor'],['../structparse_1_1detail_1_1info__visitor.html#a32b4f09339bc2c4a6f73aac52da97618',1,'parse::detail::info_visitor::info_visitor()']]],
-  ['infologger',['InfoLogger',['../Logger_8h.html#aef58f34adf9f1de44115a06ce0f555cb',1,'Logger.h']]],
+  ['infologger',['InfoLogger',['../Logger_8h.html#aef21827786ba80fdde860574a92a5e42',1,'Logger.h']]],
   ['ingamemenu',['InGameMenu',['../classInGameMenu.html',1,'InGameMenu'],['../classInGameMenu.html#a695a5a607cfaa25b5d632c12578d482d',1,'InGameMenu::InGameMenu()']]],
   ['ingamemenu_2ecpp',['InGameMenu.cpp',['../InGameMenu_8cpp.html',1,'']]],
   ['ingamemenu_2eh',['InGameMenu.h',['../InGameMenu_8h.html',1,'']]],

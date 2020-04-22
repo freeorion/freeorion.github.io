@@ -13,8 +13,6 @@ var searchData=
   ['techparsetuple',['TechParseTuple',['../classTechManager.html#abe3db81074faf34a28074ad015e8eea3',1,'TechManager']]],
   ['techsignaltype',['TechSignalType',['../classTechTreeWnd.html#a90c899b03faab70556b7b134a4ced728',1,'TechTreeWnd']]],
   ['text_5fiterator',['text_iterator',['../namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8',1,'parse']]],
-  ['textfilesinkbackend',['TextFileSinkBackend',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a9c3ea2e5b99072271dc04cb32ab664d1',1,'anonymous_namespace{Logger.cpp}']]],
-  ['textfilesinkfrontend',['TextFileSinkFrontend',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#ac4162f1e4c4c06600d5dcec1cb8d4265',1,'anonymous_namespace{Logger.cpp}']]],
   ['texturesanddist',['TexturesAndDist',['../classClientUI.html#a0f9ac1f1c97630d7280c7a84bca58e53',1,'ClientUI']]],
   ['token_5fiterator',['token_iterator',['../namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76',1,'parse']]],
   ['token_5ftype',['token_type',['../namespaceparse.html#ac03fc11a7097a23ee17a2a5277c8f14b',1,'parse']]],

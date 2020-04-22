@@ -17,5 +17,5 @@ var searchData=
   ['token_5fseq_5f7',['TOKEN_SEQ_7',['../Tokens_8h.html#aa02c6902c916698910962a4972fe5833',1,'Tokens.h']]],
   ['token_5fseq_5f8',['TOKEN_SEQ_8',['../Tokens_8h.html#a02b03f60166c304137390ea2fddd6793',1,'Tokens.h']]],
   ['token_5fseq_5f9',['TOKEN_SEQ_9',['../Tokens_8h.html#a7c675901a12dc05b99c329888475a8e2',1,'Tokens.h']]],
-  ['tracelogger',['TraceLogger',['../Logger_8h.html#ae567b80254f6c7c19a8868baa573140d',1,'Logger.h']]]
+  ['tracelogger',['TraceLogger',['../Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8',1,'Logger.h']]]
 ];

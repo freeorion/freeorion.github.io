@@ -288,7 +288,7 @@ var searchData=
   ['putchathistoryentity',['PutChatHistoryEntity',['../classPythonServer.html#a7367ae75f87894b95fb222d607a4d643',1,'PythonServer']]],
   ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]],
   ['pythongalaxysetupdata',['PythonGalaxySetupData',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afd1c968dca93af42e8174212556e33df',1,'anonymous_namespace{AIWrapper.cpp}']]],
-  ['pythonlogger',['PythonLogger',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a2343ab286af4b21fda1d6006cb518574',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonlogger',['PythonLogger',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#adc26074ed4180f5c3b5679b34df4d84f',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['pythonloggerdebug',['PythonLoggerDebug',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a26856c28724a965ff3ca25779c85ee',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['pythonloggererror',['PythonLoggerError',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a9d8a7d37f0c4da74c3e02f6966d71b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['pythonloggerinfo',['PythonLoggerInfo',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a26bd0730512b1d1e520384df4391aca0',1,'anonymous_namespace{LoggingWrapper.cpp}']]],

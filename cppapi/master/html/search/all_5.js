@@ -256,7 +256,7 @@ var searchData=
   ['error',['error',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9acb5e100e5a9a3e7f6d1fd97512215282',1,'Logger.h']]],
   ['error_5fstring',['ERROR_STRING',['../namespaceanonymous__namespace_02StringTable_8cpp_03.html#a20fd72e4318fe3c4682be55cab0bc630',1,'anonymous_namespace{StringTable.cpp}']]],
   ['error_5ftoken',['error_token',['../structparse_1_1lexer.html#a3c244f7b496ebf6f4d8dc32db2ace9e3',1,'parse::lexer']]],
-  ['errorlogger',['ErrorLogger',['../Logger_8h.html#aab217d647def87f94a26a02b230de1fa',1,'Logger.h']]],
+  ['errorlogger',['ErrorLogger',['../Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d',1,'Logger.h']]],
   ['errormessage',['ErrorMessage',['../Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541',1,'ErrorMessage(const std::string &amp;problem, bool fatal, int player_id):&#160;Message.cpp'],['../Message_8h.html#a1699a2d53e2aefd91535020a08309f48',1,'ErrorMessage(const std::string &amp;problem, bool fatal=true, int player_id=Networking::INVALID_PLAYER_ID):&#160;Message.cpp']]],
   ['errorreport',['ErrorReport',['../classPythonBase.html#aa9c245964e7425a82fde70ba6934a86a',1,'PythonBase']]],
   ['established_5fbegin',['established_begin',['../classServerNetworking.html#aee18b3c6f45c84a0146448d6c330ee10',1,'ServerNetworking::established_begin() const'],['../classServerNetworking.html#a06359b67896c79a848e1c95b51e6702b',1,'ServerNetworking::established_begin()']]],

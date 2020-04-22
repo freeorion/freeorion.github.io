@@ -1,8 +1,9 @@
 var searchData=
 [
   ['fo_5fcommon_5fapi',['FO_COMMON_API',['../Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6',1,'Export.h']]],
-  ['fo_5fglobal_5flogger_5fname',['FO_GLOBAL_LOGGER_NAME',['../Logger_8h.html#aadaa9da8fab8a8084fb4fcc367553976',1,'Logger.h']]],
-  ['fo_5flogger',['FO_LOGGER',['../Logger_8h.html#a0617f308b7fec412eb4f1b6dad9c1236',1,'Logger.h']]],
+  ['fo_5fglobal_5flogger_5fname',['FO_GLOBAL_LOGGER_NAME',['../Logger_8h.html#abceee8df5753f5e5dadf2939fb830e4e',1,'Logger.h']]],
+  ['fo_5flogger',['FO_LOGGER',['../Logger_8h.html#af4304e06db5454c6bfb06d269d2c1509',1,'Logger.h']]],
+  ['fo_5flogger_5fwin32_5fworkaround',['FO_LOGGER_WIN32_WORKAROUND',['../Logger_8h.html#a678f16089faef8e50e3ee994254ad282',1,'Logger.h']]],
   ['fo_5fparse_5fapi',['FO_PARSE_API',['../Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5',1,'Parse.h']]],
   ['for_5feach_5fexisting_5fmap',['FOR_EACH_EXISTING_MAP',['../ObjectMap_8cpp.html#ae42d96c2af8186dbf6694ade26fffb41',1,'ObjectMap.cpp']]],
   ['for_5feach_5fmap',['FOR_EACH_MAP',['../ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca',1,'ObjectMap.cpp']]],
