@@ -199,6 +199,7 @@ var searchData=
   ['outposts_5fowned',['outposts_owned',['../structparse_1_1int__complex__parser__grammar.html#a58d86ccf34e26e24e44818a3aafd1628',1,'parse::int_complex_parser_grammar']]],
   ['outpostsowned',['OutpostsOwned',['../classEmpire.html#ad40db8be809f43767626e4235fbf2f9c',1,'Empire']]],
   ['output',['Output',['../classResourcePool.html#ac8c5524877bb93bce69813c6c522edbf',1,'ResourcePool']]],
+  ['output_5fbuff',['output_buff',['../namespacetag__parser.html#a521d20602d3ece5cb0cd09105b510518',1,'tag_parser']]],
   ['overlaysize',['OverlaySize',['../classSystem.html#a9a6f07cef4a7c74e8c7016545be77dda',1,'System']]],
   ['overlaytexture',['OverlayTexture',['../classSystem.html#a81798382c188ad1a3149a21169e8976b',1,'System']]],
   ['overrideallloggersthresholds',['OverrideAllLoggersThresholds',['../Logger_8cpp.html#a3a155f62bc4a83fb4c0cfdb46db3b24a',1,'OverrideAllLoggersThresholds(const boost::optional&lt; LogLevel &gt; &amp;threshold):&#160;Logger.cpp'],['../Logger_8h.html#a0f596565654f55f602097861eb606873',1,'OverrideAllLoggersThresholds(const boost::optional&lt; LogLevel &gt; &amp;threshold):&#160;Logger.cpp']]],

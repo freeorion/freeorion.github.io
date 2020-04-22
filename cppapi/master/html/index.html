@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FreeOrion: Main Page</title>
+<title>FreeOrion: FreeOrion</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,10 +60,65 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">FreeOrion Documentation</div>  </div>
+<div class="title">FreeOrion </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>FreeOrion is a free, Open Source, turn-based space empire and galactic conquest computer game.</p>
+<p>FreeOrion is inspired by the tradition of the Master of Orion games, but does not try to be a clone or remake of that series or any other game. It builds on the classic <em>4X</em> (eXplore, eXpand, eXploit and eXterminate) model.</p>
+<p>By adding scripting capabilities to the game engine the FreeOrion project aims to give the community an easy way to customize the game mechanics and presentation to create a living, breathing universe in a <em>grand campaign</em> model.</p>
+<h2>Requirements </h2>
+<p>FreeOrion requires an <em>OpenGL 2.1</em> capable graphic card and a display with a minimum resolution of at least <em>800x600</em>.</p>
+<p>FreeOrion requires at least <em>Windows XP</em> with <em>Service Pack 2</em> or later, <em>Mac OSX 10.9</em> or later or any reasonably recent Linux distribution on x86 compatible processors. Other operating systems and architectures have reported to be working by users, but are not actively supported by the FreeOrion project.</p>
+<h2>Download </h2>
+<p><a href="https://github.com/freeorion/freeorion/releases">FreeOrion Stable Releases</a> are the recommended way to play FreeOrion. Stable Releases can be obtained as native installer binaries for Windows and Mac OSX or as source releases for Linux and other UNIX-ish platforms from GitHub.</p>
+<p>Also some Linux distributions like Fedora, Debian and Arch do provide packages of FreeOrion.</p>
+<p><a href="https://sourceforge.net/projects/freeorion/files/FreeOrion/Test/">FreeOrion Weekly Releases</a> are in-development releases intended for enthusiasts and testers, who want to track or contribute to the development. Weekly Releases can be obtained as native installer binaries for Windows and Mac OSX from Sourceforge.</p>
+<h2>Install </h2>
+<p>For Windows execute the native installer binary and follow the on-screen instructions of the installer to install FreeOrion.</p>
+<p>For Mac OSX, open the downloaded DMG file and copy the contained FreeOrion application to your system Applications folder by Drag and Drop.</p>
+<p>For Linux or other from-source installations in general please refer to the <a class="el" href="md_BUILD.html">Build Instructions</a>.</p>
+<p>Various Linux distributions provide the stable release of FreeOrion in a prebuilt way. Usually you can install those packages by either using a graphical package manager and searching for <em>FreeOrion</em> or by installing the packages via the command line.</p>
+<ul>
+<li><a href="https://packages.debian.org/source/sid/freeorion">Debian package</a> stable release: <code># apt-get install freeorion</code></li>
+<li><a href="https://launchpad.net/ubuntu/+source/freeorion">Ubuntu package</a> stable release: <code># apt-get install freeorion</code></li>
+<li><a href="https://apps.fedoraproject.org/packages/freeorion">Fedora package</a> stable release: <code># dnf install freeorion</code></li>
+<li><a href="https://github.com/voidlinux/void-packages/tree/master/srcpkgs/freeorion">Void package</a> stable release: <code># xbps-install freeorion</code></li>
+<li><a href="https://aur.archlinux.org/packages/freeorion/">ArchLinux package</a> stable release</li>
+<li><a href="https://build.opensuse.org/package/show/games/freeorion">openSUSE package</a> stable release: <code># zypper in freeorion</code></li>
+</ul>
+<h3>Directories</h3>
+<ul>
+<li>install directory The location of this <a class="el" href="README_8md.html">README.md</a> file, called <code>&lt;install_dir&gt;</code> below.</li>
+<li>config - game settings Called <code>&lt;config_dir&gt;</code> below.<ul>
+<li>linux <code>$XDG_CONFIG_HOME/freeorion</code> which defaults to <code>~/.config/freeorion</code></li>
+<li>OSX <code>$HOME/Library/Application Support/FreeOrion/</code> which defaults to <code>~/Library/Application Support/FreeOrion/</code></li>
+<li>Windows <code>$APPDATA\FreeOrion</code></li>
+</ul>
+</li>
+<li>data - local user data, saved games, log files Called <code>&lt;data_dir&gt;</code> below.<ul>
+<li>linux <code>$XDG_DATA_HOME/freeorion</code> which defaults to <code>~/.config/freeorion</code></li>
+<li>OSX <code>$HOME/Library/Application Support/FreeOrion/</code> which defaults to <code>~/Library/Application Support/FreeOrion/</code></li>
+<li>Windows <code>$APPDATA\FreeOrion</code></li>
+</ul>
+</li>
+<li>resource directory - audio, visual and textual UI content, python scripts Called <code>&lt;resource_dir&gt;</code> below. <code>&lt;install_dir&gt;/default/</code> <code>&lt;resource_dir&gt;</code> can be redirected in <code>&lt;config_dir&gt;/config.xml</code> or <code>&lt;config_dir&gt;/persistent_config.xml</code></li>
+<li>stringtables - translation indices for various languages <code>&lt;resource_dir&gt;/stringtables/</code></li>
+<li>scripting - FreeOrion Content Scripts (FOCS) describing game content (tech, species etc.) <code>&lt;resource_dir&gt;/scripting/</code></li>
+<li>AI - AI for computer controlled empires <code>&lt;resource_dir&gt;/python/AI</code></li>
+</ul>
+<h2>Contact and Getting Help </h2>
+<p>Visit the <a href="http://www.freeorion.org/">FreeOrion Homepage</a> to learn more about the project. Also you can get in touch with the FreeOrion developers and join the community in the <a href="http://www.freeorion.org/forum/">FreeOrion Forum</a>.</p>
+<h2>Contribute </h2>
+<p>The FreeOrion project encourages anybody to contribute to FreeOrion. For more details please see the <a class="el" href="md_CONTRIBUTING.html">Contribution Guidelines</a>.</p>
+<h2>License </h2>
+<p>The FreeOrion <em>source code</em> is licensed under the terms of <a href="https://www.gnu.org/licenses/gpl-2.0.txt">GPL v2</a>, <em>game assets</em> are licensed under the terms of <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC-BY-SA-3.0</a> and <em>game content scripts</em> are licensed under the terms of both <a href="https://www.gnu.org/licenses/gpl-2.0.txt">GPL v2</a> and <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC-BY-SA-3.0</a>. For more details please see the <a href="default/COPYING">License File</a>.</p>
+<p>Additional to the immediate project sources, the FreeOrion source tree bundles some third party projects or assets which may be also licensed under different terms than the FreeOrion project. For more details please consult the accompanying license file.</p>
+<ul>
+<li><em>GiGi</em> library located within the <code>GG/</code> directory.</li>
+<li><em>Roboto</em> font located within the <code>default/data/fonts/</code> directory.</li>
+<li><em>DejaVuSans</em> located within the <code>default/data/fonts/</code> directory. </li>
+</ul>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

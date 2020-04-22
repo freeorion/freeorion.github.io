@@ -49,6 +49,7 @@ var searchData=
   ['outer_5fedge_5fangle_5foffset',['OUTER_EDGE_ANGLE_OFFSET',['../classCUIWnd.html#a266942f29f9e767cbada15764a939708',1,'CUIWnd']]],
   ['outer_5fline_5fthickness',['OUTER_LINE_THICKNESS',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af9b6ac2136674dacbcaf74d3a3e7acfd',1,'anonymous_namespace{ProductionWnd.cpp}::OUTER_LINE_THICKNESS()'],['../namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#af12a4e35c9d202cd24a46e4c904c721a',1,'anonymous_namespace{ResearchWnd.cpp}::OUTER_LINE_THICKNESS()']]],
   ['outposts_5fowned',['outposts_owned',['../structparse_1_1int__complex__parser__grammar.html#a58d86ccf34e26e24e44818a3aafd1628',1,'parse::int_complex_parser_grammar']]],
+  ['output_5fbuff',['output_buff',['../namespacetag__parser.html#a521d20602d3ece5cb0cd09105b510518',1,'tag_parser']]],
   ['owned_5fby',['owned_by',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a4f668e044dc51ee7a1637a14d6779a6f',1,'parse::detail::condition_parser_rules_1']]],
   ['owned_5fby_5f1',['owned_by_1',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a012139b57e2b7a50f0c882b6d32d1806',1,'parse::detail::condition_parser_rules_1']]],
   ['owned_5fby_5f2',['owned_by_2',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a721feb2efc158f28bb2249c3a5ca5a4e',1,'parse::detail::condition_parser_rules_1']]],

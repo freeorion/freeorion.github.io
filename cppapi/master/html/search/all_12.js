@@ -37,6 +37,7 @@ var searchData=
   ['readdoc',['ReadDoc',['../classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd',1,'XMLDoc::ReadDoc(std::istream &amp;is)'],['../classXMLDoc.html#a51d3fe24ebe980d6c2488122621de6f7',1,'XMLDoc::ReadDoc(const std::string &amp;s)']]],
   ['readfile',['ReadFile',['../namespaceanonymous__namespace_02About_8cpp_03.html#a612a4d124b9f136aea2100270d42c59d',1,'anonymous_namespace{About.cpp}::ReadFile()'],['../ShaderProgram_8cpp.html#afa93dd8b30daae5d09f84582ce0d7f72',1,'ReadFile(const boost::filesystem::path &amp;path, std::string &amp;file_contents):&#160;ShaderProgram.cpp'],['../ShaderProgram_8h.html#afa93dd8b30daae5d09f84582ce0d7f72',1,'ReadFile(const boost::filesystem::path &amp;path, std::string &amp;file_contents):&#160;ShaderProgram.cpp']]],
   ['readfromoptions',['ReadFromOptions',['../classHotkey.html#afa243af2d43cf66afda7652887b2a3f7',1,'Hotkey']]],
+  ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['readpoints',['ReadPoints',['../classTechTreeLayout_1_1Edge.html#a4f7aacc31b2dbade7c7024b2353f62b9',1,'TechTreeLayout::Edge']]],
   ['ready',['Ready',['../classEmpire.html#a82d0f1456c4a5511a048f05fc1e816d7',1,'Empire']]],
   ['readyclicked',['ReadyClicked',['../classMultiPlayerLobbyWnd.html#a9fd967d69de048e7699aca49b3f470db',1,'MultiPlayerLobbyWnd']]],

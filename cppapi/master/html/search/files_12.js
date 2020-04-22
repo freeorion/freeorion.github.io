@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tag_5fparser_2epy',['tag_parser.py',['../tag__parser_8py.html',1,'']]],
   ['tech_2ecpp',['Tech.cpp',['../Tech_8cpp.html',1,'']]],
   ['tech_2eh',['Tech.h',['../Tech_8h.html',1,'']]],
   ['techsparser_2ecpp',['TechsParser.cpp',['../TechsParser_8cpp.html',1,'']]],

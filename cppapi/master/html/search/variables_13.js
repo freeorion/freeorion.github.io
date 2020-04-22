@@ -118,6 +118,7 @@ var searchData=
   ['sortval',['sortVal',['../classDelauney_1_1SortValInt.html#ac5cce044ab3dc0a31fa3d11bcdf95141',1,'Delauney::SortValInt']]],
   ['sound_5ffile_5fsuffix',['SOUND_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a5056e9c350ca5fa772739317d572c430',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['source',['source',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a920c32c53778f6384b93195a8c41bc07',1,'parse::detail::condition_parser_rules_1::source()'],['../structScriptingContext.html#a599dadb042c5807203aeb3d552dcd3a4',1,'ScriptingContext::source()']]],
+  ['source_5fcount',['source_count',['../namespacetag__parser.html#a0e2ae1c2f8c4e0dca9d2778e5a26a797',1,'tag_parser']]],
   ['source_5fid',['source_id',['../structEffect_1_1AccountingInfo.html#ae7958775ca2586c0471e0fff761c0fc5',1,'Effect::AccountingInfo']]],
   ['source_5fobject_5fid',['source_object_id',['../structEffect_1_1SourcedEffectsGroup.html#a542dd0d130ab50fcf7fc5c9481a8ceb6',1,'Effect::SourcedEffectsGroup']]],
   ['source_5foption_5fname_5fprefix',['source_option_name_prefix',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#a70b2628db40bde8814f9c37c9379e11d',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
