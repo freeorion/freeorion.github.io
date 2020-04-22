@@ -266,6 +266,7 @@ var searchData=
   ['setcolonizeplanet',['SetColonizePlanet',['../classShip.html#af18e2a956ec183f1882939c7cd837190',1,'Ship']]],
   ['setcolor',['SetColor',['../classEmpire.html#afaa78a75a2b6e52e90f8b6b5333db5be',1,'Empire::SetColor()'],['../classCUIScroll_1_1ScrollTab.html#ae9e78283f28b79d79e3424c76b501983',1,'CUIScroll::ScrollTab::SetColor()'],['../classScanlineControl.html#a40249b26f0190d401d575e236a2294fa',1,'ScanlineControl::SetColor()'],['../classScanlineRenderer_1_1Impl.html#a5eb043e6f21c3b4e96a284b7564450fb',1,'ScanlineRenderer::Impl::SetColor()'],['../classScanlineRenderer.html#ad5e2d0377177bf8963bb3c1397c44c19',1,'ScanlineRenderer::SetColor()']]],
   ['setcolumnname',['SetColumnName',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aea7372b0ede1cc2c4089142c75a4955c',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['setconditionvariance',['SetConditionVariance',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a886f227be0208873ead6157e5e6eb5d0',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['setconnectedsupplygroups',['SetConnectedSupplyGroups',['../classResourcePool.html#afea70c5ed73d7ce414392c1748d2db0b',1,'ResourcePool']]],
   ['setcontainedpanels',['SetContainedPanels',['../classObjectRow.html#a05c3befb88c8b0b56164ac660e321cc1',1,'ObjectRow']]],
   ['setcookie',['SetCookie',['../classPlayerConnection.html#ad2d73829c715918ee5d7d2885729e24e',1,'PlayerConnection']]],
