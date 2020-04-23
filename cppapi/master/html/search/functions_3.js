@@ -296,7 +296,7 @@ var searchData=
   ['copyobject',['CopyObject',['../classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99',1,'ObjectMap']]],
   ['copyobjectstospecializedmaps',['CopyObjectsToSpecializedMaps',['../classObjectMap.html#a442348ae5b70aac81ba5b7b6b5c2f107',1,'ObjectMap']]],
   ['correctmapposition',['CorrectMapPosition',['../classMapWnd.html#a412259f2a2abdd962f8b1dee4ef33a65',1,'MapWnd']]],
-  ['cost',['Cost',['../classBuildingType.html#acde2a8d60d76b0db6e1726991dbcd952',1,'BuildingType']]],
+  ['cost',['Cost',['../classBuildingType.html#a32c2d7eb7a74cd67195f8a68a432405e',1,'BuildingType']]],
   ['costisproductionlocationinvariant',['CostIsProductionLocationInvariant',['../structProductionQueue_1_1ProductionItem.html#aed845228fc5fff8660c18ca08cd3fbe8',1,'ProductionQueue::ProductionItem']]],
   ['count',['count',['../classFreeOrionPython_1_1SetWrapper.html#a68b13a1f2c32bbfa6f8d3b3afaf03fd7',1,'FreeOrionPython::SetWrapper']]],
   ['countdestructioninstats',['CountDestructionInStats',['../classUniverse.html#a2c0908c1eeca8794a600fb1211144ea7',1,'Universe']]],

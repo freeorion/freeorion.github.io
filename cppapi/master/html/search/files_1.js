@@ -11,5 +11,7 @@ var searchData=
   ['building_2eh',['Building.h',['../Building_8h.html',1,'']]],
   ['buildingspanel_2ecpp',['BuildingsPanel.cpp',['../BuildingsPanel_8cpp.html',1,'']]],
   ['buildingspanel_2eh',['BuildingsPanel.h',['../BuildingsPanel_8h.html',1,'']]],
-  ['buildingsparser_2ecpp',['BuildingsParser.cpp',['../BuildingsParser_8cpp.html',1,'']]]
+  ['buildingsparser_2ecpp',['BuildingsParser.cpp',['../BuildingsParser_8cpp.html',1,'']]],
+  ['buildingtype_2ecpp',['BuildingType.cpp',['../BuildingType_8cpp.html',1,'']]],
+  ['buildingtype_2eh',['BuildingType.h',['../BuildingType_8h.html',1,'']]]
 ];
