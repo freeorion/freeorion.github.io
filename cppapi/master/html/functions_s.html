@@ -86,8 +86,8 @@ $(function() {
 <li>s_instance
 : <a class="el" href="classBuildingTypeManager.html#a7f1f4f57048b5ce318991ab5997d3e55">BuildingTypeManager</a>
 , <a class="el" href="classFieldTypeManager.html#ad667702d562e851170b0c50d7daa8200">FieldTypeManager</a>
-, <a class="el" href="classHullTypeManager.html#a530c13a3335d188d5e2ac3661ecff316">HullTypeManager</a>
 , <a class="el" href="classPredefinedShipDesignManager.html#af206f0a77d5cc8c207a0fa803c0531c5">PredefinedShipDesignManager</a>
+, <a class="el" href="classShipHullManager.html#a07810fcdcb38d1b464e41f848b71327a">ShipHullManager</a>
 , <a class="el" href="classShipPartManager.html#a15c1bd3c24363f089c178dd676c63d5d">ShipPartManager</a>
 , <a class="el" href="classSpeciesManager.html#aa4850b857c3a145f76df08dfc1ab9802">SpeciesManager</a>
 , <a class="el" href="classTechManager.html#a297cc65e89fbafdd4bd9a40c1182ca1e">TechManager</a>
@@ -608,8 +608,6 @@ $(function() {
 , <a class="el" href="structFullPreview.html#aa639b956e643a221d421f6f52c02b1ee">FullPreview</a>
 , <a class="el" href="structGalaxySetupData.html#a9aee7fcd20ff0a777660e78293928cc6">GalaxySetupData</a>
 , <a class="el" href="classGiveObjectToEmpireOrder.html#ae9a1dcba51fd887e4ad9df6328958ffc">GiveObjectToEmpireOrder</a>
-, <a class="el" href="classHullType.html#a696ab2478ca2bf63091df376f947fc99">HullType</a>
-, <a class="el" href="structHullTypeStats.html#ad47fc2792e0d0497942ae9347be7e5ee">HullTypeStats</a>
 , <a class="el" href="structIncapacitationEvent.html#a82aebf5441f8301c04b0a097bdbf996e">IncapacitationEvent</a>
 , <a class="el" href="structInitialStealthEvent.html#a06dcea9ce37833f45661c28d47e03aed">InitialStealthEvent</a>
 , <a class="el" href="classInvadeOrder.html#acc91ce02aa5f66e811f733ae5813f767">InvadeOrder</a>
@@ -652,6 +650,8 @@ $(function() {
 , <a class="el" href="classShip.html#a81819e7be5f710efd19e45c006ca28eb">Ship</a>
 , <a class="el" href="classShipDesign.html#a7e2f114509a99901e9c1f3a15e3885a8">ShipDesign</a>
 , <a class="el" href="classShipDesignOrder.html#ad6f3981ab6496830a0e116e9bdde78fe">ShipDesignOrder</a>
+, <a class="el" href="classShipHull.html#a83c62b38d49da0cba0c0a3f977e1b96c">ShipHull</a>
+, <a class="el" href="structShipHullStats.html#ae8380f60eee3e62aef3ddda93ebaac0f">ShipHullStats</a>
 , <a class="el" href="structSimultaneousEvents.html#a0a22a085a52c0f8439ada1a770fdd551">SimultaneousEvents</a>
 , <a class="el" href="structSinglePlayerSetupData.html#a33968a0811aa76850a7ca1814d5c09cd">SinglePlayerSetupData</a>
 , <a class="el" href="classSitRepEntry.html#a7cd86e811eb8cc7fc10d6e56e97470cc">SitRepEntry</a>
@@ -1134,12 +1134,6 @@ $(function() {
 <li>SetHullObsolete()
 : <a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a5d6c6fe1714dbff94c49e9e399c4f86a">anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager</a>
 </li>
-<li>SetHullType()
-: <a class="el" href="classEncyclopediaDetailPanel.html#a75903f7a66e2157ea8fcbffa6d758455">EncyclopediaDetailPanel</a>
-</li>
-<li>SetHullTypes()
-: <a class="el" href="classHullTypeManager.html#a0816bf6702ff5fe01494dd978be347c5">HullTypeManager</a>
-</li>
 <li>SetID()
 : <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">ShipDesign</a>
 , <a class="el" href="classUniverseObject.html#af4c96a3c2ab418bda978e99cbec24859">UniverseObject</a>
@@ -1382,6 +1376,12 @@ $(function() {
 </li>
 <li>SetShipDesignTypes()
 : <a class="el" href="classPredefinedShipDesignManager.html#ae5ad214b65c89ff26777a67285138f26">PredefinedShipDesignManager</a>
+</li>
+<li>SetShipHull()
+: <a class="el" href="classEncyclopediaDetailPanel.html#aeb78afea8fa6b206adcfc7f02df08481">EncyclopediaDetailPanel</a>
+</li>
+<li>SetShipHulls()
+: <a class="el" href="classShipHullManager.html#a3c753aac15cb1522f0d15e9b5fb1b643">ShipHullManager</a>
 </li>
 <li>SetShipIcon()
 : <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#ae6d5192eb4fe25d70d8206353e8f4b1a">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel</a>
@@ -1693,8 +1693,8 @@ $(function() {
 </li>
 <li>Shields()
 : <a class="el" href="classFleet.html#aaae124d1485ed2c9329974f3df9fb339">Fleet</a>
-, <a class="el" href="classHullType.html#a8973ed5324f6d24194ae4d0d93d8c375">HullType</a>
 , <a class="el" href="classShipDesign.html#a0c0f2d911414dc28a70cf87ff06fb920">ShipDesign</a>
+, <a class="el" href="classShipHull.html#a825c029747332387c879252df0dd1852">ShipHull</a>
 </li>
 <li>shininess
 : <a class="el" href="structanonymous__namespace_02SidePanel_8cpp_03_1_1RotatingPlanetData.html#a1ec2fe46a44554ba726f87a33776cfcb">anonymous_namespace{SidePanel.cpp}::RotatingPlanetData</a>
@@ -1814,8 +1814,20 @@ $(function() {
 <li>ShipFightersBrowseWnd()
 : <a class="el" href="classShipFightersBrowseWnd.html#ab933ef86136bbece31479f5fe05e1a6f">ShipFightersBrowseWnd</a>
 </li>
+<li>ShipHull()
+: <a class="el" href="classShipHull.html#a877d6c4a931fa1568d1723736e329c54">ShipHull</a>
+</li>
 <li>ShipHullAvailable()
 : <a class="el" href="classEmpire.html#ac77da37c201abf032d9cf18acd433d8d">Empire</a>
+</li>
+<li>ShipHullClickedSignal
+: <a class="el" href="classDesignWnd_1_1MainPanel.html#a9d782a1e468865b63e08915d3de5ae73">DesignWnd::MainPanel</a>
+</li>
+<li>ShipHullManager()
+: <a class="el" href="classShipHullManager.html#a715414dbceb8e687bbff462874a49e7f">ShipHullManager</a>
+</li>
+<li>ShipHullStats()
+: <a class="el" href="structShipHullStats.html#aa96de8f603401cd45e40d7a5c7e48d57">ShipHullStats</a>
 </li>
 <li>ShipID()
 : <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipRow.html#a06369dcd641a19d384753b76d7bb97c2">anonymous_namespace{FleetWnd.cpp}::ShipRow</a>
@@ -1992,12 +2004,6 @@ $(function() {
 <li>ShowGraphs()
 : <a class="el" href="classMapWnd.html#a9db5377be2bf47def97044daa881a237">MapWnd</a>
 </li>
-<li>ShowHullType()
-: <a class="el" href="classMapWnd.html#a22cd236f5c26e14cd044e6f1549e1d6e">MapWnd</a>
-</li>
-<li>ShowHullTypeInEncyclopedia()
-: <a class="el" href="classDesignWnd.html#ae899d12f9d9b7f1d33508acafe47baa2">DesignWnd</a>
-</li>
 <li>ShowIntroScreen()
 : <a class="el" href="classClientUI.html#a2799a408dabfb4b8651c4d6807034251">ClientUI</a>
 </li>
@@ -2082,6 +2088,12 @@ $(function() {
 : <a class="el" href="classBuildDesignatorWnd.html#a6a550f3fe099fa4d30bfbff3e912038b">BuildDesignatorWnd</a>
 , <a class="el" href="classDesignWnd.html#a8ea0639a962d4130709a27459f93356c">DesignWnd</a>
 , <a class="el" href="classProductionWnd.html#a68c34dac56d864b40c1b0c2743f9bdd9">ProductionWnd</a>
+</li>
+<li>ShowShipHull()
+: <a class="el" href="classMapWnd.html#a00acc00f0287e262846d256663af9213">MapWnd</a>
+</li>
+<li>ShowShipHullInEncyclopedia()
+: <a class="el" href="classDesignWnd.html#a8668fb8f26c0953e7220962f47de0a1b">DesignWnd</a>
 </li>
 <li>ShowShipPart()
 : <a class="el" href="classMapWnd.html#a13a77727e1b575dd3656d0d18a1a2d43">MapWnd</a>
@@ -2254,16 +2266,13 @@ $(function() {
 : <a class="el" href="classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#adcaf3835919807663b7c65ee7bc236c3">anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache&lt; Storage, T, Row &gt;</a>
 , <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a518560de5fb3d49441fdaf5efb3c8bae">anonymous_namespace{Pathfinder.cpp}::distance_matrix_storage&lt; T &gt;</a>
 , <a class="el" href="classFreeOrionPython_1_1SetWrapper.html#a4f99eaff46bb9b8004de7270c5796ad5">FreeOrionPython::SetWrapper&lt; ElementType &gt;</a>
-, <a class="el" href="classHullTypeManager.html#a5eace38181def90de60b135da16e8b1b">HullTypeManager</a>
-</li>
-<li>Size()
-: <a class="el" href="classMessage.html#a1650429d062e24ff5d7e43be3629e800">Message</a>
 </li>
 <li>SIZE
 : <a class="el" href="classMessage.html#aa0ed8a9de9ac2d929d2bee202aeaf397a2c6af741e08a73a02bdd24176150868c">Message</a>
 </li>
 <li>Size()
-: <a class="el" href="classMessageQueue.html#ad57fe8ca5dac6cd9ad4abfa7c698a54b">MessageQueue</a>
+: <a class="el" href="classMessage.html#a1650429d062e24ff5d7e43be3629e800">Message</a>
+, <a class="el" href="classMessageQueue.html#ad57fe8ca5dac6cd9ad4abfa7c698a54b">MessageQueue</a>
 </li>
 <li>size()
 : <a class="el" href="classObjectMap.html#aecbafdf9682d9ef0760caa67d82a9a18">ObjectMap</a>
@@ -2276,6 +2285,7 @@ $(function() {
 : <a class="el" href="structProductionQueue.html#a0e3e3d2bcaa8151e17b8c46215a2f6da">ProductionQueue</a>
 , <a class="el" href="structResearchQueue.html#a81416863f5290d4f67a1c13af1e107c3">ResearchQueue</a>
 , <a class="el" href="classServerNetworking.html#a3b4a1ab3bde7b5be1ba9889b295a336c">ServerNetworking</a>
+, <a class="el" href="classShipHullManager.html#a3ad038208842529e51e350605eacad9c">ShipHullManager</a>
 </li>
 <li>Size()
 : <a class="el" href="classTechTreeLayout_1_1Column.html#a23b3fa9962f63e33d14aad557251c62e">TechTreeLayout::Column</a>
@@ -2381,10 +2391,10 @@ $(function() {
 : <a class="el" href="structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a8eb7783c19eb9b56d57930d07e00d9df">anonymous_namespace{ShipHullsParser.cpp}::grammar</a>
 </li>
 <li>Slot()
-: <a class="el" href="structHullType_1_1Slot.html#ac166961ced25201dbf838e29d85f8b14">HullType::Slot</a>
+: <a class="el" href="structShipHull_1_1Slot.html#ac0ad09225161f62d03e72170176a6b86">ShipHull::Slot</a>
 </li>
 <li>slot_rule
-: <a class="el" href="structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#acec2cef12833663fa9ab7d9a109d35dd">anonymous_namespace{ShipHullsParser.cpp}::grammar</a>
+: <a class="el" href="structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a5d6e07f64f1a9e24fdad2d2f32fd93c2">anonymous_namespace{ShipHullsParser.cpp}::grammar</a>
 </li>
 <li>SlotContentsAlteredSignal
 : <a class="el" href="classSlotControl.html#a3fd124c17ed6b82f83ac9a8a1e235749">SlotControl</a>
@@ -2393,7 +2403,7 @@ $(function() {
 : <a class="el" href="classSlotControl.html#a9799de5900d72ed81a2bc70a4c880351">SlotControl</a>
 </li>
 <li>Slots()
-: <a class="el" href="classHullType.html#aabc6dce95ae252ad32169998d1c25903">HullType</a>
+: <a class="el" href="classShipHull.html#a18d9509a0c137f54708a4bfd35feeb3e">ShipHull</a>
 </li>
 <li>slots_in_hull
 : <a class="el" href="structparse_1_1int__complex__parser__grammar.html#acf4873965842a2aed5abf6310204f929">parse::int_complex_parser_grammar</a>
@@ -2687,7 +2697,7 @@ $(function() {
 : <a class="el" href="classSpeciesManager.html#aeeffd4f141f5bb111260db5e4b7e73f1">SpeciesManager</a>
 </li>
 <li>SpeciesParams()
-: <a class="el" href="structSpeciesParams.html#abf410c2c57e05103ad78149653b2d683">SpeciesParams</a>
+: <a class="el" href="structSpeciesParams.html#aa37ead4e58e3eb5caa74f7b0ee35a424">SpeciesParams</a>
 </li>
 <li>SpeciesPlanetsBombed()
 : <a class="el" href="classEmpire.html#a03bda5bf1751ad8036c05ab5b3cbb083">Empire</a>
@@ -2699,7 +2709,7 @@ $(function() {
 : <a class="el" href="classEmpire.html#aea7130e4d5c46f25bedaa583291179fa">Empire</a>
 </li>
 <li>SpeciesRow()
-: <a class="el" href="structanonymous__namespace_02CUIControls_8cpp_03_1_1SpeciesRow.html#ab9db40a21bc51defaf499121ab4f8417">anonymous_namespace{CUIControls.cpp}::SpeciesRow</a>
+: <a class="el" href="structanonymous__namespace_02CUIControls_8cpp_03_1_1SpeciesRow.html#ab39445c9a73d711553eaca61c5d33667">anonymous_namespace{CUIControls.cpp}::SpeciesRow</a>
 </li>
 <li>SpeciesSelector()
 : <a class="el" href="classSpeciesSelector.html#ab0c4794ba28db007319366086c1588a0">SpeciesSelector</a>
@@ -2740,14 +2750,12 @@ $(function() {
 </li>
 <li>Speed()
 : <a class="el" href="classFleet.html#a96fe8dfba2594847728bf6e7b1c7fc07">Fleet</a>
-, <a class="el" href="classHullType.html#a08738b41ba35db52b2f36d754d029b70">HullType</a>
+, <a class="el" href="classShip.html#af9bec643a2b2acce7a858e25ed351c46">Ship</a>
+, <a class="el" href="classShipDesign.html#af5967ed5a75b84c6f0f0fac38a7dff5d">ShipDesign</a>
+, <a class="el" href="classShipHull.html#a63dd07dd855f7272e01c12bca90d9900">ShipHull</a>
 </li>
 <li>speed
-: <a class="el" href="structHullTypeStats.html#a2b1d962b783432103e77dbcfe6f2baf6">HullTypeStats</a>
-</li>
-<li>Speed()
-: <a class="el" href="classShip.html#af9bec643a2b2acce7a858e25ed351c46">Ship</a>
-, <a class="el" href="classShipDesign.html#af5967ed5a75b84c6f0f0fac38a7dff5d">ShipDesign</a>
+: <a class="el" href="structShipHullStats.html#a819919eb0c340758a0a8bac0682281fa">ShipHullStats</a>
 </li>
 <li>SpinDropListWidth()
 : <a class="el" href="classConditionWidget.html#a32792e8051d915f2560105a880f1a06d">ConditionWidget</a>
@@ -2876,7 +2884,7 @@ $(function() {
 : <a class="el" href="classHumanClientApp.html#aa88ce41198c4c1c7311797e8832dfe57">HumanClientApp</a>
 </li>
 <li>StartTurn()
-: <a class="el" href="classClientApp.html#ac6f67a736a95a37060176b365d5a5dd1">ClientApp</a>
+: <a class="el" href="classClientApp.html#a237f9c9f792c557b4d55208ec7a74eab">ClientApp</a>
 , <a class="el" href="classHumanClientApp.html#a9ef4ca29078ea8f01ecdff8357aafea8">HumanClientApp</a>
 </li>
 <li>StartUsing()
@@ -2920,7 +2928,7 @@ $(function() {
 : <a class="el" href="classIDAllocator.html#abde0e5f404079da051dac682aa6155a0">IDAllocator</a>
 </li>
 <li>StaticCast()
-: <a class="el" href="structValueRef_1_1StaticCast.html#a18e461f5d292a5da9a323f7cad9820bf">ValueRef::StaticCast&lt; FromType, ToType &gt;</a>
+: <a class="el" href="structValueRef_1_1StaticCast.html#af6115ea5f44f53fae95ff70c673f98b7">ValueRef::StaticCast&lt; FromType, ToType &gt;</a>
 </li>
 <li>StatIncrColor()
 : <a class="el" href="classClientUI.html#a3af9ea4f8b59633fbc82148f0a72c794">ClientUI</a>
@@ -2964,7 +2972,7 @@ $(function() {
 : <a class="el" href="structparse_1_1detail_1_1arithmetic__rules.html#ae22bafecb1adbe86d64a6ec620e3ef1e">parse::detail::arithmetic_rules&lt; T &gt;</a>
 </li>
 <li>StatisticIcon()
-: <a class="el" href="classStatisticIcon.html#a727331913a7641762845e23755be6342">StatisticIcon</a>
+: <a class="el" href="classStatisticIcon.html#a12bb3580336cca95f023a4ae9f550c9a">StatisticIcon</a>
 </li>
 <li>StatValue()
 : <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#a2c0d1a572885b1546c225d7f28fa20ca">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel</a>
@@ -2974,14 +2982,14 @@ $(function() {
 </li>
 <li>Stealth()
 : <a class="el" href="classFieldType.html#ab97106817186fff136fca9f2570916dd">FieldType</a>
-, <a class="el" href="classHullType.html#a22c65e4a4af74c623f6542cec1dc577d">HullType</a>
+, <a class="el" href="classShipDesign.html#ab449cfd22f75f39cb5d1ace2e6e654bd">ShipDesign</a>
+, <a class="el" href="classShipHull.html#a1b1afff09f28a9796106738a3ee6c6ff">ShipHull</a>
 </li>
 <li>stealth
-: <a class="el" href="structHullTypeStats.html#ac5e34e80da9b4e0259c9bda73981023d">HullTypeStats</a>
+: <a class="el" href="structShipHullStats.html#ae346a6aaa780da6d7482a24a42e29406">ShipHullStats</a>
 </li>
 <li>Stealth()
-: <a class="el" href="classShipDesign.html#ab449cfd22f75f39cb5d1ace2e6e654bd">ShipDesign</a>
-, <a class="el" href="classSpecial.html#a190ef46a016db5b122e2a3632d4fd5bc">Special</a>
+: <a class="el" href="classSpecial.html#a190ef46a016db5b122e2a3632d4fd5bc">Special</a>
 </li>
 <li>StealthChangeEvent()
 : <a class="el" href="structStealthChangeEvent.html#ab5f38f37edcee3ad6a881b8692f59793">StealthChangeEvent</a>
@@ -3119,13 +3127,11 @@ $(function() {
 </li>
 <li>Structure()
 : <a class="el" href="classFleet.html#a649462489e7757d410e84f7d545af1e3">Fleet</a>
-, <a class="el" href="classHullType.html#a99c7e93b5c8ea9f67be5077c80e2de87">HullType</a>
+, <a class="el" href="classShipDesign.html#a3ac0df6d8bb2e938217660b31c8fb122">ShipDesign</a>
+, <a class="el" href="classShipHull.html#ac8e7261046ecb317148d9b92b2dbaf21">ShipHull</a>
 </li>
 <li>structure
-: <a class="el" href="structHullTypeStats.html#a3751abbef7d0f5a62212365dd5721a90">HullTypeStats</a>
-</li>
-<li>Structure()
-: <a class="el" href="classShipDesign.html#a3ac0df6d8bb2e938217660b31c8fb122">ShipDesign</a>
+: <a class="el" href="structShipHullStats.html#a598e5061ad6ceada0b6d3dc065eba29e">ShipHullStats</a>
 </li>
 <li>subdirectories
 : <a class="el" href="structPreviewInformation.html#a0b4ea30eaa855225e02ce482860a0a31">PreviewInformation</a>
@@ -3147,7 +3153,7 @@ $(function() {
 : <a class="el" href="classSupplyManager.html#a5026acf9a6f23bf262f4a23f445c3b5a">SupplyManager</a>
 </li>
 <li>SupplyObstructedStarlaneTraversals()
-: <a class="el" href="classSupplyManager.html#afb3dd1a57ce39876e30ceb8bfacdee41">SupplyManager</a>
+: <a class="el" href="classSupplyManager.html#a45c382e2a9d8432f4f60159a19808c60">SupplyManager</a>
 </li>
 <li>SupplyStarlaneTraversals()
 : <a class="el" href="classSupplyManager.html#a9cd3855f5dc3b04810a61d699ac8cf22">SupplyManager</a>
@@ -3180,7 +3186,7 @@ $(function() {
 : <a class="el" href="structJumpDistanceSys2Visitor.html#a19d80c644790784f4655744c9bf39e21">JumpDistanceSys2Visitor</a>
 </li>
 <li>System()
-: <a class="el" href="classSystem.html#a18bdfe2c8c602133998e24d1e057dbac">System</a>
+: <a class="el" href="classSystem.html#ae317936c9bcf1374d61745572e0f2f8a">System</a>
 </li>
 <li>system_graph
 : <a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a1e78301bc7ba6183cda9287ca0ee432e">anonymous_namespace{Pathfinder.cpp}::GraphImpl</a>

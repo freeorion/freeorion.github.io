@@ -375,8 +375,8 @@ $(function() {
 <li>CheckPendingGameRules()
 : <a class="el" href="classGameRules.html#a29c244ec946a6abcafc9cc17db8afeb3">GameRules</a>
 </li>
-<li>CheckPendingHullTypes()
-: <a class="el" href="classHullTypeManager.html#a551bea82ad09082a99f11362c0270ef6">HullTypeManager</a>
+<li>CheckPendingShipHulls()
+: <a class="el" href="classShipHullManager.html#aafcf3daede9d88ab58185b7ee71db24e">ShipHullManager</a>
 </li>
 <li>CheckPendingShipParts()
 : <a class="el" href="classShipPartManager.html#a2a37b24ce53be227a2d1b9644edbc49f">ShipPartManager</a>
@@ -709,9 +709,9 @@ $(function() {
 : <a class="el" href="classColonizeOrder.html#a9f3c99cd8a283821e0d9510041958c93">ColonizeOrder</a>
 </li>
 <li>ColonyCapacity()
-: <a class="el" href="classHullType.html#ae9968276e23f1305df277efe1555dbd4">HullType</a>
-, <a class="el" href="classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d">Ship</a>
+: <a class="el" href="classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d">Ship</a>
 , <a class="el" href="classShipDesign.html#abd6db232060919e3e40b9224a579eb0e">ShipDesign</a>
+, <a class="el" href="classShipHull.html#a198a4a917fb66d458a84ef9e9f5bf850">ShipHull</a>
 </li>
 <li>Color()
 : <a class="el" href="classEmpire.html#a2e5d81eced7521b96b3c6ffd361d5219">Empire</a>
@@ -1276,6 +1276,7 @@ $(function() {
 : <a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">BuildingTypeManager</a>
 , <a class="el" href="classFieldTypeManager.html#a1756b8c1f325323a9a3321c6b6d8a960">FieldTypeManager</a>
 , <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap</a>
+, <a class="el" href="classShipHullManager.html#a695ac3ced057ace72d284b43c83ef90f">ShipHullManager</a>
 </li>
 <li>container_type_rule
 : <a class="el" href="structparse_1_1detail_1_1enum__value__ref__rules.html#acdd20e8cb4021468f6f827d42cec93db">parse::detail::enum_value_ref_rules&lt; T &gt;</a>
@@ -1319,7 +1320,7 @@ $(function() {
 : <a class="el" href="structparse_1_1detail_1_1condition__parser__rules__7.html#a9c0030f399e6aa1b9b50d6888ff8b94e">parse::detail::condition_parser_rules_7</a>
 </li>
 <li>ContextObjects()
-: <a class="el" href="structScriptingContext.html#acfe730390ae2f95b4fb8c328eda45665">ScriptingContext</a>
+: <a class="el" href="structScriptingContext.html#a886fb7dba80270f856d02dd87fae67d7">ScriptingContext</a>
 </li>
 <li>ContinueSinglePlayerGame()
 : <a class="el" href="classHumanClientApp.html#a4e301bceb784a3825ab17210782c8850">HumanClientApp</a>
@@ -1349,11 +1350,11 @@ $(function() {
 , <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Fleet</a>
 , <a class="el" href="classObjectMap.html#a7ce9d281c7ef340b5993be6f9274e0bf">ObjectMap</a>
 , <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet</a>
-, <a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">PopCenter</a>
-, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">ResourceCenter</a>
+, <a class="el" href="classPopCenter.html#aaf72e458aca517040d9b10e6822b0c84">PopCenter</a>
+, <a class="el" href="classResourceCenter.html#a2e22c703f835105f2c4f4953f01001b7">ResourceCenter</a>
 , <a class="el" href="classShip.html#a873bfebad8a885beab1f1df52dbfa504">Ship</a>
 , <a class="el" href="classSystem.html#a6d468d55b1ff06a407683337b80cf63c">System</a>
-, <a class="el" href="classUniverseObject.html#af809db0550aaf7c4a9e977b20781998e">UniverseObject</a>
+, <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject</a>
 </li>
 <li>CopyForSerialize()
 : <a class="el" href="classObjectMap.html#ab817e1a0ac4f2ad7a9bda040fefe955f">ObjectMap</a>
@@ -1472,7 +1473,7 @@ $(function() {
 : <a class="el" href="classSectionedScopedTimer_1_1Impl.html#a1ab0d62026b5e3c86a989bebe9900351">SectionedScopedTimer::Impl</a>
 </li>
 <li>CreateShip()
-: <a class="el" href="classEffect_1_1CreateShip.html#ad169229bc17701c5ca309b537265503b">Effect::CreateShip</a>
+: <a class="el" href="classEffect_1_1CreateShip.html#a98de8b819dfeaab9a0cfd9d6bce2719e">Effect::CreateShip</a>
 </li>
 <li>CreateSystem()
 : <a class="el" href="classEffect_1_1CreateSystem.html#a838ac9e9aabd9ebb64cd546e184ad7ed">Effect::CreateSystem</a>
@@ -1507,7 +1508,7 @@ $(function() {
 : <a class="el" href="classCUIArrowButton.html#a8c40c85cdb81a855838f9e14ece30e6a">CUIArrowButton</a>
 </li>
 <li>CUIButton()
-: <a class="el" href="classCUIButton.html#aac3364cc47539db43ee91837a551d971">CUIButton</a>
+: <a class="el" href="classCUIButton.html#a3e298ca8b5196dcbe861c1dfcfd91db2">CUIButton</a>
 </li>
 <li>CUIDropDownList()
 : <a class="el" href="classCUIDropDownList.html#a0afbba9574dfeb04ec08c6990a39e80a">CUIDropDownList</a>
