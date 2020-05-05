@@ -390,7 +390,6 @@ var searchData=
   ['conditionalconnectoption',['ConditionalConnectOption',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#af26b8ff508c00a267ab466d084b2a4eb',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['conditionalforward',['ConditionalForward',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#abdf0f6f89a5fadafa17e8997b0ae5352',1,'anonymous_namespace{ClientUI.cpp}']]],
   ['conditionall_2eh',['ConditionAll.h',['../ConditionAll_8h.html',1,'']]],
-  ['conditioncache',['ConditionCache',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem']]],
   ['conditionclassname',['ConditionClassName',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a227ec905a65ebe16eee6ef011816b3fd',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['conditionclassselected',['ConditionClassSelected',['../classConditionWidget.html#a2a48707a126014313aa8c7e61cdcba94',1,'ConditionWidget']]],
   ['conditiondescription',['ConditionDescription',['../namespaceCondition.html#a8ccd0b022762bb05836318afdd903b66',1,'Condition']]],

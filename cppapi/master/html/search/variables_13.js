@@ -30,8 +30,6 @@ var searchData=
   ['saveddesignselectedsignal',['SavedDesignSelectedSignal',['../classBasesListBox.html#a4c6a3ac7f6f44f8fbf0d63ccfea2b2b0',1,'BasesListBox::SavedDesignSelectedSignal()'],['../classDesignWnd_1_1BaseSelector.html#a02e588ff7a479239c2a2fa4d79211cf8',1,'DesignWnd::BaseSelector::SavedDesignSelectedSignal()']]],
   ['savegamescompletedsignal',['SaveGamesCompletedSignal',['../classHumanClientApp.html#a0c1fcf23e41e6220508b3962c98bdb67',1,'HumanClientApp']]],
   ['scanline_5fshader',['scanline_shader',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a2b38121993dabb9e6132d97b097e7e8c',1,'anonymous_namespace{CUIControls.cpp}']]],
-  ['schedule_5fqueue',['schedule_queue',['../structThreadQueue.html#a950f7d289c0f9b36e624d4fc68373dad',1,'ThreadQueue']]],
-  ['schedule_5fqueue_5fsize',['schedule_queue_size',['../structThreadQueue.html#a65744d730f6eb7d1041f461103eda828',1,'ThreadQueue']]],
   ['sddecl',['SDDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a528aa49877734b1a32ce6836e7b194f1',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['sections',['sections',['../structOptionsDB_1_1Option.html#aa1bc0fd5461b33e5034bd332ef8085f8',1,'OptionsDB::Option']]],
   ['selectedfleetschangedsignal',['SelectedFleetsChangedSignal',['../classFleetWnd.html#ab13b98adf2681f18cef26567df591e39',1,'FleetWnd']]],

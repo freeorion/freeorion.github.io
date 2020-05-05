@@ -7,7 +7,5 @@ var searchData=
   ['within_5fdistance',['within_distance',['../structparse_1_1detail_1_1condition__parser__rules__3.html#ad7d7e043787c4789278bdaa0ac411f37',1,'parse::detail::condition_parser_rules_3']]],
   ['within_5fstarlane_5fjumps',['within_starlane_jumps',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a7e46376985170ad0bfc4dc79bad493d3',1,'parse::detail::condition_parser_rules_3']]],
   ['wndchangedsignal',['WndChangedSignal',['../classCombatLogWnd.html#adf11c783afac806ca7102c90d5506de1',1,'CombatLogWnd']]],
-  ['work_5fqueue_5f1',['work_queue_1',['../structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
-  ['work_5fqueue_5f2',['work_queue_2',['../structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],
   ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]]
 ];

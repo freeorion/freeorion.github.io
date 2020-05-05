@@ -141,7 +141,6 @@ var searchData=
   ['stealthchangeevent',['StealthChangeEvent',['../structStealthChangeEvent.html',1,'']]],
   ['stealthchangeeventdetail',['StealthChangeEventDetail',['../structStealthChangeEvent_1_1StealthChangeEventDetail.html',1,'StealthChangeEvent']]],
   ['stepvalidator',['StepValidator',['../structStepValidator.html',1,'']]],
-  ['storetargetsandcausesofeffectsgroupsworkitem',['StoreTargetsAndCausesOfEffectsGroupsWorkItem',['../classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html',1,'anonymous_namespace{Universe.cpp}']]],
   ['string_5fcomplex_5fparser_5fgrammar',['string_complex_parser_grammar',['../structparse_1_1detail_1_1string__complex__parser__grammar.html',1,'parse::detail']]],
   ['string_5fparser_5fgrammar',['string_parser_grammar',['../structparse_1_1string__parser__grammar.html',1,'parse']]],
   ['stringcast',['StringCast',['../structValueRef_1_1StringCast.html',1,'ValueRef']]],

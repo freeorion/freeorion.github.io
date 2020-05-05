@@ -57,7 +57,6 @@ var searchData=
   ['condition_5fparser_5frules_5f7',['condition_parser_rules_7',['../structparse_1_1detail_1_1condition__parser__rules__7.html',1,'parse::detail']]],
   ['conditional',['Conditional',['../classEffect_1_1Conditional.html',1,'Effect']]],
   ['conditionalconnection',['ConditionalConnection',['../structHotkeyManager_1_1ConditionalConnection.html',1,'HotkeyManager']]],
-  ['conditioncache',['ConditionCache',['../structanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem_1_1ConditionCache.html',1,'anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem']]],
   ['conditionrow',['ConditionRow',['../classConditionWidget_1_1ConditionRow.html',1,'ConditionWidget']]],
   ['conditions_5fparser_5fgrammar',['conditions_parser_grammar',['../structparse_1_1conditions__parser__grammar.html',1,'parse']]],
   ['conditionwidget',['ConditionWidget',['../classConditionWidget.html',1,'']]],

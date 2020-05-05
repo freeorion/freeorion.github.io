@@ -20,6 +20,7 @@ var searchData=
   ['slot_5frule',['slot_rule',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a5d6e07f64f1a9e24fdad2d2f32fd93c2',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
   ['smallintdisttype',['SmallIntDistType',['../Random_8h.html#a5d8e1e9d4af1678d05d189ef094e9560',1,'Random.h']]],
   ['sorting_5foperator_5frule',['sorting_operator_rule',['../structparse_1_1detail_1_1condition__parser__rules__3.html#ac820fd58a400a023fa483d29e966cf41',1,'parse::detail::condition_parser_rules_3']]],
+  ['sourceseffectstargetsandcausesvec',['SourcesEffectsTargetsAndCausesVec',['../namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee',1,'Effect']]],
   ['special_5frule',['special_rule',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1grammar.html#a29d46e3aecceaab03145640e41f10101',1,'anonymous_namespace{SpecialsParser.cpp}::grammar']]],
   ['specialstypemap',['SpecialsTypeMap',['../classSpecialsManager.html#ac9398e1b11dbff2376075ef8da599af9',1,'SpecialsManager']]],
   ['species_5fparams_5frule',['species_params_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a7a9ee6f44b732efc5d649e9d64df06aa',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],

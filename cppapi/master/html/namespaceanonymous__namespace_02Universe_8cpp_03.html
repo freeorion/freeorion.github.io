@@ -72,9 +72,6 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Universe_8cpp_03_1_1constant__property.html">constant_property</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html">StoreTargetsAndCausesOfEffectsGroupsWorkItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by GetEffectsAndTargets to process a vector of effects groups.  <a href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -86,6 +83,9 @@ Functions</h2></td></tr>
 <tr class="separator:a67d0a1b08518153fc8cc2380287e0e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acae542bd5769327a7df5e017a4c687a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#acae542bd5769327a7df5e017a4c687a1">DeclareThreadSafeLogger</a> (conditions)</td></tr>
 <tr class="separator:acae542bd5769327a7df5e017a4c687a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5750aa99bc37af294a7a235466c1f729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5750aa99bc37af294a7a235466c1f729">DispatchEffectsGroupScopeEvaluations</a> (EffectsCauseType effect_cause_type, const std::string &amp;specific_cause_name, const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;source_objects, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;effects_groups, bool only_meter_effects, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;object_map, const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;potential_targets, const std::unordered_set&lt; int &gt; &amp;potential_target_ids, std::list&lt; std::pair&lt; <a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a>, <a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a> *&gt;&gt; &amp;source_effects_targets_causes_reorder_buffer_out, <a class="el" href="structboost_1_1asio_1_1thread__pool.html">boost::asio::thread_pool</a> &amp;thread_pool, int &amp;n)</td></tr>
+<tr class="memdesc:a5750aa99bc37af294a7a235466c1f729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect info for scope condition evaluations and dispatch those evaluations to <em>thread_pool</em>.  <a href="#a5750aa99bc37af294a7a235466c1f729">More...</a><br /></td></tr>
+<tr class="separator:a5750aa99bc37af294a7a235466c1f729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f3ca79986a1758095171e3ded043823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a8f3ca79986a1758095171e3ded043823">FilterObjectIDsByKnownDestruction</a> (std::vector&lt; int &gt; &amp;object_ids, int empire_id, const std::map&lt; int, std::set&lt; int &gt;&gt; &amp;empire_known_destroyed_object_ids)</td></tr>
 <tr class="memdesc:a8f3ca79986a1758095171e3ded043823"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes ids of objects that the indicated empire knows have been destroyed  <a href="#a8f3ca79986a1758095171e3ded043823">More...</a><br /></td></tr>
 <tr class="separator:a8f3ca79986a1758095171e3ded043823"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,13 +129,14 @@ Functions</h2></td></tr>
 <tr class="separator:ab85f8a7c2ee4dad70dcfad26df45cc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1239946104b3ce2418fc1b633188c5cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a1239946104b3ce2418fc1b633188c5cf">ShareVisbilitiesBetweenAllies</a> (<a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">Universe::EmpireObjectVisibilityMap</a> &amp;empire_object_visibility, <a class="el" href="classUniverse.html#a0b2abfdbd505010de345a271ee4eb2a6">Universe::EmpireObjectSpecialsMap</a> &amp;empire_object_visible_specials)</td></tr>
 <tr class="separator:a1239946104b3ce2418fc1b633188c5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32322257c6002b5dfc756c1ae67232fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a32322257c6002b5dfc756c1ae67232fc">StoreTargetsAndCausesOfEffectsGroup</a> (const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;object_map, const <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> *effects_group, const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;source_objects, EffectsCauseType effect_cause_type, const std::string &amp;specific_cause_name, const std::unordered_set&lt; int &gt; &amp;candidate_object_ids, <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;candidate_objects_in, <a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a> &amp;source_effects_targets_causes_out, int n)</td></tr>
+<tr class="memdesc:a32322257c6002b5dfc756c1ae67232fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate activation, and scope conditions of <em>effects_group</em> for each of the objects in <em>source_objects</em> for the candidate target objects in <em>candidate_objects_in</em> (unless it is empty, in which case the default candidate objects for the scope condition is used.  <a href="#a32322257c6002b5dfc756c1ae67232fc">More...</a><br /></td></tr>
+<tr class="separator:a32322257c6002b5dfc756c1ae67232fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aaf74030f7a363524065625c998168b50"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#aaf74030f7a363524065625c998168b50">EMPTY_STRING</a></td></tr>
 <tr class="separator:aaf74030f7a363524065625c998168b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e18513c4551b776d93ae026b99accc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceEffect.html#a61e9596c8574aacbe980390fd91b8f7a">Effect::TargetSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a8e18513c4551b776d93ae026b99accc1">EMPTY_TARGET_SET</a></td></tr>
-<tr class="separator:a8e18513c4551b776d93ae026b99accc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae85635977621aa2bd28db5039f73d72a"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#ae85635977621aa2bd28db5039f73d72a">ENABLE_VISIBILITY_EMPIRE_MEMORY</a> = true</td></tr>
 <tr class="separator:ae85635977621aa2bd28db5039f73d72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9e82ec23365ef5c3abc8d79d5940bd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#ae9e82ec23365ef5c3abc8d79d5940bd9">temp_bool</a> = <a class="el" href="OptionsDB_8h.html#aebc5fdb4c86f4e04209bbc10276cd92f">RegisterOptions</a>(&amp;<a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5b982a7a46282d61fd2410d1c1a14a6b">AddOptions</a>)</td></tr>
@@ -220,6 +221,95 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5750aa99bc37af294a7a235466c1f729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5750aa99bc37af294a7a235466c1f729">&#9670;&nbsp;</a></span>DispatchEffectsGroupScopeEvaluations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{Universe.cpp}::DispatchEffectsGroupScopeEvaluations </td>
+          <td>(</td>
+          <td class="paramtype">EffectsCauseType&#160;</td>
+          <td class="paramname"><em>effect_cause_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>specific_cause_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>source_objects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>effects_groups</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>only_meter_effects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>object_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>potential_targets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::unordered_set&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>potential_target_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::list&lt; std::pair&lt; <a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a>, <a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a> *&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>source_effects_targets_causes_reorder_buffer_out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structboost_1_1asio_1_1thread__pool.html">boost::asio::thread_pool</a> &amp;&#160;</td>
+          <td class="paramname"><em>thread_pool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect info for scope condition evaluations and dispatch those evaluations to <em>thread_pool</em>. </p>
+<p>Not thread-safe, but the individual condition evaluations should be safe to evaluate in parallel. </p>
+
+<p class="reference">References <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="namespaceCondition.html#a343f92adffa506f35b6c4b4f25e0b457a3a8b923ef42520f853af080125ac76c0">Condition::MATCHES</a>, <a class="el" href="namespaceboost_1_1asio.html#ab9e9c782637427293949d9c5b8a51f6c">boost::asio::post()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a32322257c6002b5dfc756c1ae67232fc">StoreTargetsAndCausesOfEffectsGroup()</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">Universe::GetEffectsAndTargets()</a>.</p>
+
+</div>
+</div>
 <a id="a8f3ca79986a1758095171e3ded043823"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f3ca79986a1758095171e3ded043823">&#9670;&nbsp;</a></span>FilterObjectIDsByKnownDestruction()</h2>
 
@@ -253,8 +343,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>removes ids of objects that the indicated empire knows have been destroyed </p>
-
-<p class="reference">References <a class="el" href="Universe_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
@@ -308,7 +396,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classShip.html#a09186848adddd4bf960863b70ab39f03">Ship::DesignID()</a>, and <a class="el" href="Universe_8cpp.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a>.</p>
+<p class="reference">References <a class="el" href="classShip.html#a09186848adddd4bf960863b70ab39f03">Ship::DesignID()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#a2c0908c1eeca8794a600fb1211144ea7">Universe::CountDestructionInStats()</a>.</p>
 
@@ -330,7 +418,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Universe_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, and <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>.</p>
+<p class="reference">References <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, and <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5e7cee9d0cfdb90630a01ab3c7b0e306">GetEmpiresPositionsPotentiallyDetectableObjects()</a>.</p>
 
@@ -353,7 +441,7 @@ Variables</h2></td></tr>
 
 <p>for each empire: for each position where the empire has detector objects, what is the empire's detection range at that location? (this is the largest of the detection ranges of objects the empire has at that spot) </p>
 
-<p class="reference">References <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, and <a class="el" href="classUniverseObject.html#a2d9889267bb45756693c7e0e1f569686">UniverseObject::SystemID()</a>.</p>
+<p class="reference">References <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="Empire_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="Enums_8h.html#aaca3e33071229eb6c3e6ca17492f497b">METER_DETECTION</a>, <a class="el" href="classUniverse.html#a50b1585be4559b46af2d0b92bfc7031e">Universe::Objects()</a>, and <a class="el" href="classUniverseObject.html#a2d9889267bb45756693c7e0e1f569686">UniverseObject::SystemID()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">Universe::UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
@@ -714,9 +802,86 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="classUniverse.html#a1fc40518aaf0ed600011f1d579c9c398">Universe::SetEmpireKnowledgeOfShipDesign()</a>, and <a class="el" href="namespaceparse.html#a1262ee08018c3bb2dd00f9e7395a64b3">parse::specials()</a>.</p>
+<p class="reference">References <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classUniverse.html#a50b1585be4559b46af2d0b92bfc7031e">Universe::Objects()</a>, <a class="el" href="classUniverse.html#a1fc40518aaf0ed600011f1d579c9c398">Universe::SetEmpireKnowledgeOfShipDesign()</a>, and <a class="el" href="namespaceparse.html#a1262ee08018c3bb2dd00f9e7395a64b3">parse::specials()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">Universe::UpdateEmpireObjectVisibilities()</a>.</p>
+
+</div>
+</div>
+<a id="a32322257c6002b5dfc756c1ae67232fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32322257c6002b5dfc756c1ae67232fc">&#9670;&nbsp;</a></span>StoreTargetsAndCausesOfEffectsGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>object_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> *&#160;</td>
+          <td class="paramname"><em>effects_group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>source_objects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EffectsCauseType&#160;</td>
+          <td class="paramname"><em>effect_cause_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>specific_cause_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::unordered_set&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>candidate_object_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceCondition.html#a765fbdd1197036237acf8c2e16763d52">Condition::ObjectSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>candidate_objects_in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEffect.html#a7c2480da14bbd97a868236ee78e2aeee">Effect::SourcesEffectsTargetsAndCausesVec</a> &amp;&#160;</td>
+          <td class="paramname"><em>source_effects_targets_causes_out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evaluate activation, and scope conditions of <em>effects_group</em> for each of the objects in <em>source_objects</em> for the candidate target objects in <em>candidate_objects_in</em> (unless it is empty, in which case the default candidate objects for the scope condition is used. </p>
+<p>Stores the objects that matched the effects group's scope condition, for each source object, as a separate entry in <em>targets_cases_out</em> </p>
+
+<p class="reference">References <a class="el" href="classEffect_1_1EffectsGroup.html#abeb6f0f8818b5e805ecd0ba9e0c3d3a0">Effect::EffectsGroup::AccountingLabel()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#ad038b35573a107568cb80a979cad4583">Effect::EffectsGroup::Scope()</a>, <a class="el" href="structScriptingContext.html#a599dadb042c5807203aeb3d552dcd3a4">ScriptingContext::source</a>, <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5750aa99bc37af294a7a235466c1f729">DispatchEffectsGroupScopeEvaluations()</a>.</p>
 
 </div>
 </div>
@@ -742,22 +907,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a9c4680215ed82a682764df73003ff62f">GetSpeciesFromObject()</a>.</p>
-
-</div>
-</div>
-<a id="a8e18513c4551b776d93ae026b99accc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e18513c4551b776d93ae026b99accc1">&#9670;&nbsp;</a></span>EMPTY_TARGET_SET</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceEffect.html#a61e9596c8574aacbe980390fd91b8f7a">Effect::TargetSet</a> anonymous_namespace{Universe.cpp}::EMPTY_TARGET_SET</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classanonymous__namespace_02Universe_8cpp_03_1_1StoreTargetsAndCausesOfEffectsGroupsWorkItem.html#a39432f7c697057ac0b7451c8c58dd6e9">anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroupsWorkItem::GetConditionMatches()</a>.</p>
 
 </div>
 </div>

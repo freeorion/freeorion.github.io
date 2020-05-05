@@ -93,9 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9947b2e1b71c5913de7031f49446793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83b36f8efe7d099a9f8e28d90d37aa6e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classEffect_1_1Effect.html">Effect</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a83b36f8efe7d099a9f8e28d90d37aa6e">EffectsList</a> () const</td></tr>
 <tr class="separator:a83b36f8efe7d099a9f8e28d90d37aa6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1997fda63c05de265cab934b676901"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a9a1997fda63c05de265cab934b676901">Execute</a> (<a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;context, const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">TargetsCauses</a> &amp;targets_causes, <a class="el" href="namespaceEffect.html#a6382b969b9827f32bd1242f507cec534">AccountingMap</a> *accounting_map=nullptr, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false) const</td></tr>
-<tr class="memdesc:a9a1997fda63c05de265cab934b676901"><td class="mdescLeft">&#160;</td><td class="mdescRight">execute all effects in group  <a href="#a9a1997fda63c05de265cab934b676901">More...</a><br /></td></tr>
-<tr class="separator:a9a1997fda63c05de265cab934b676901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433ec10c14be2533b91660782b3f8167"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a433ec10c14be2533b91660782b3f8167">Execute</a> (<a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;source_context, const <a class="el" href="structEffect_1_1TargetsAndCause.html">TargetsAndCause</a> &amp;targets_cause, <a class="el" href="namespaceEffect.html#a6382b969b9827f32bd1242f507cec534">AccountingMap</a> *accounting_map=nullptr, bool only_meter_effects=false, bool only_appearance_effects=false, bool include_empire_meter_effects=false, bool only_generate_sitrep_effects=false) const</td></tr>
+<tr class="memdesc:a433ec10c14be2533b91660782b3f8167"><td class="mdescLeft">&#160;</td><td class="mdescRight">execute all effects in group  <a href="#a433ec10c14be2533b91660782b3f8167">More...</a><br /></td></tr>
+<tr class="separator:a433ec10c14be2533b91660782b3f8167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b17c1a379b6b4f1198c6099338fd0e4"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a4b17c1a379b6b4f1198c6099338fd0e4">GetCheckSum</a> () const</td></tr>
 <tr class="separator:a4b17c1a379b6b4f1198c6099338fd0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4005f5eb57c558d9f58755ded6dfd2da"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEffect_1_1EffectsGroup.html#a4005f5eb57c558d9f58755ded6dfd2da">GetDescription</a> () const</td></tr>
@@ -264,7 +264,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>, and <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a32322257c6002b5dfc756c1ae67232fc">anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroup()</a>.</p>
 
 </div>
 </div>
@@ -332,8 +332,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a1997fda63c05de265cab934b676901"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a1997fda63c05de265cab934b676901">&#9670;&nbsp;</a></span>Execute()</h2>
+<a id="a433ec10c14be2533b91660782b3f8167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433ec10c14be2533b91660782b3f8167">&#9670;&nbsp;</a></span>Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,13 +342,13 @@ Friends</h2></td></tr>
           <td class="memname">void Effect::EffectsGroup::Execute </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>context</em>, </td>
+          <td class="paramname"><em>source_context</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceEffect.html#a85cb5f481d5cbb086e447110f6c15641">TargetsCauses</a> &amp;&#160;</td>
-          <td class="paramname"><em>targets_causes</em>, </td>
+          <td class="paramtype">const <a class="el" href="structEffect_1_1TargetsAndCause.html">TargetsAndCause</a> &amp;&#160;</td>
+          <td class="paramname"><em>targets_cause</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -390,9 +390,9 @@ Friends</h2></td></tr>
 
 <p>execute all effects in group </p>
 
-<p class="reference">References <a class="el" href="classEffect_1_1EffectsGroup.html#ad2d68ea4316b3b88f8e1927ae76ebf21">m_effects</a>.</p>
+<p class="reference">References <a class="el" href="structEffect_1_1TargetsAndCause.html#a4fb9f8cd3f9bee3e4bc55798c525cc67">Effect::TargetsAndCause::effect_cause</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#ad2d68ea4316b3b88f8e1927ae76ebf21">m_effects</a>, <a class="el" href="structScriptingContext.html#a599dadb042c5807203aeb3d552dcd3a4">ScriptingContext::source</a>, <a class="el" href="structEffect_1_1TargetsAndCause.html#a39a9585790d69cad02b4613372041e35">Effect::TargetsAndCause::target_set</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classEffect_1_1Effect.html#ad2709af0a82b70f6aee23cdea42729c6">Effect::Effect::Execute()</a>, and <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEffect_1_1Effect.html#a212f61c94a587b9b831dd0aa172ddf2e">Effect::Effect::Execute()</a>, and <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -459,7 +459,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classEffect_1_1EffectsGroup.html#ad2d68ea4316b3b88f8e1927ae76ebf21">m_effects</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -480,7 +480,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classEffect_1_1EffectsGroup.html#ad2d68ea4316b3b88f8e1927ae76ebf21">m_effects</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -501,7 +501,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classEffect_1_1EffectsGroup.html#ad2d68ea4316b3b88f8e1927ae76ebf21">m_effects</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -530,8 +530,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
-
 </div>
 </div>
 <a id="ad038b35573a107568cb80a979cad4583"></a>
@@ -556,6 +554,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a32322257c6002b5dfc756c1ae67232fc">anonymous_namespace{Universe.cpp}::StoreTargetsAndCausesOfEffectsGroup()</a>.</p>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a916e810287a0374d2d2a4a444828d298">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -811,7 +811,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEffect_1_1EffectsGroup.html#ab9947b2e1b71c5913de7031f49446793">Dump()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a83b36f8efe7d099a9f8e28d90d37aa6e">EffectsList()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a9a1997fda63c05de265cab934b676901">Execute()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a4b17c1a379b6b4f1198c6099338fd0e4">GetCheckSum()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a441551608681453d85325badf295daeb">HasAppearanceEffects()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a44c8a694042991a477f7524ae79dc391">HasMeterEffects()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#aa7af6a927801bf59b8e9e6e104b4b514">HasSitrepEffects()</a>, and <a class="el" href="classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEffect_1_1EffectsGroup.html#ab9947b2e1b71c5913de7031f49446793">Dump()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a83b36f8efe7d099a9f8e28d90d37aa6e">EffectsList()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a433ec10c14be2533b91660782b3f8167">Execute()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a4b17c1a379b6b4f1198c6099338fd0e4">GetCheckSum()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a441551608681453d85325badf295daeb">HasAppearanceEffects()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#a44c8a694042991a477f7524ae79dc391">HasMeterEffects()</a>, <a class="el" href="classEffect_1_1EffectsGroup.html#aa7af6a927801bf59b8e9e6e104b4b514">HasSitrepEffects()</a>, and <a class="el" href="classEffect_1_1EffectsGroup.html#a91a8c8875f4ab1183966a924ffea4505">SetTopLevelContent()</a>.</p>
 
 </div>
 </div>

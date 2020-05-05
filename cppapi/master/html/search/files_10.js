@@ -16,6 +16,5 @@ var searchData=
   ['resourcepanel_2ecpp',['ResourcePanel.cpp',['../ResourcePanel_8cpp.html',1,'']]],
   ['resourcepanel_2eh',['ResourcePanel.h',['../ResourcePanel_8h.html',1,'']]],
   ['resourcepool_2ecpp',['ResourcePool.cpp',['../ResourcePool_8cpp.html',1,'']]],
-  ['resourcepool_2eh',['ResourcePool.h',['../ResourcePool_8h.html',1,'']]],
-  ['runqueue_2eh',['RunQueue.h',['../RunQueue_8h.html',1,'']]]
+  ['resourcepool_2eh',['ResourcePool.h',['../ResourcePool_8h.html',1,'']]]
 ];

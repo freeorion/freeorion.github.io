@@ -81,7 +81,6 @@ var searchData=
   ['_7eresearchwnd',['~ResearchWnd',['../classResearchWnd.html#a02144e141ea3fc6d3ebcd845805265c0',1,'ResearchWnd']]],
   ['_7eresourcecenter',['~ResourceCenter',['../classResourceCenter.html#a6a9b342a31dbf686ded26acc819f8cf6',1,'ResourceCenter']]],
   ['_7eresourcepanel',['~ResourcePanel',['../classResourcePanel.html#a58c752f8e21d7e6818bb3d79e60c98d7',1,'ResourcePanel']]],
-  ['_7erunqueue',['~RunQueue',['../classRunQueue.html#a5b7e4a40451eb983c52034cbfd5923eb',1,'RunQueue']]],
   ['_7esavefiledialog',['~SaveFileDialog',['../classSaveFileDialog.html#ac4552517f7227ca09caa32ab9d60ab3d',1,'SaveFileDialog']]],
   ['_7escanlinerenderer',['~ScanlineRenderer',['../classScanlineRenderer.html#a770270a2c6781b27cb07ce3783ee1d6f',1,'ScanlineRenderer']]],
   ['_7escopedtimer',['~ScopedTimer',['../classScopedTimer.html#a338ced0c8c39fe3d3e89e1b09d29f589',1,'ScopedTimer']]],

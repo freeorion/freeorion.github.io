@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['wait',['Wait',['../classRunQueue.html#ac8a0241eb7378d3815607ad3e661eff6',1,'RunQueue']]],
   ['waitfordisconnect',['WaitForDisconnect',['../structWaitForDisconnect.html',1,'']]],
   ['waitforpending',['WaitForPending',['../namespacePending.html#aba7482048c3a01b02770996caf95126e',1,'Pending']]],
   ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
@@ -60,8 +59,6 @@ var searchData=
   ['wobble',['Wobble',['../classTechTreeLayout_1_1Node.html#aedab8a7467d51c65ec0438671752908f',1,'TechTreeLayout::Node']]],
   ['won',['WON',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../classEmpire.html#a6331e90f1fdcb902bd9d010c6dce209f',1,'Empire::Won()']]],
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aa7b7203413fc582aa06d0e64373b23bd',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
-  ['work_5fqueue_5f1',['work_queue_1',['../structThreadQueue.html#a69cab33858c458046daef55572588575',1,'ThreadQueue']]],
-  ['work_5fqueue_5f2',['work_queue_2',['../structThreadQueue.html#a062452a3403ac1c39178344ed99b92c3',1,'ThreadQueue']]],
   ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['wrap',['Wrap',['../classFreeOrionPython_1_1SetWrapper.html#a67186798e6b21a51bda55817dd1051ee',1,'FreeOrionPython::SetWrapper']]],
   ['wrapai',['WrapAI',['../namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e',1,'FreeOrionPython']]],

@@ -29,6 +29,5 @@ var searchData=
   ['rowcontentswnd',['RowContentsWnd',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1RowContentsWnd.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}::RowContentsWnd'],['../classanonymous__namespace_02OptionsWnd_8cpp_03_1_1RowContentsWnd.html',1,'anonymous_namespace{OptionsWnd.cpp}::RowContentsWnd']]],
   ['rule',['Rule',['../structGameRules_1_1Rule.html',1,'GameRules']]],
   ['ruledefiner',['RuleDefiner',['../structXMLDoc_1_1RuleDefiner.html',1,'XMLDoc']]],
-  ['rulelistrow',['RuleListRow',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1RuleListRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
-  ['runqueue',['RunQueue',['../classRunQueue.html',1,'']]]
+  ['rulelistrow',['RuleListRow',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1RuleListRow.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]]
 ];
