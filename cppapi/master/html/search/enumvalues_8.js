@@ -10,6 +10,5 @@ var searchData=
   ['invalid_5flookup',['INVALID_LOOKUP',['../structValueRef_1_1NameLookup.html#a596891f5fd9e5d108bcca36b49ac3c1fa2b12ddec41b3e4db6c2816db1d1aee31',1,'ValueRef::NameLookup']]],
   ['invalid_5fprod_5fqueue_5faction',['INVALID_PROD_QUEUE_ACTION',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661ab9036b705417125b83e9def60a4904c9',1,'ProductionQueueOrder']]],
   ['invalid_5freference_5ftype',['INVALID_REFERENCE_TYPE',['../namespaceValueRef.html#a1695bf14ae25db3dd8c35207a6b3da57ab51b593502bd3e2ce0e3ad4ae02d05ba',1,'ValueRef']]],
-  ['invalid_5fstatistic_5ftype',['INVALID_STATISTIC_TYPE',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2aea5e070cb696033e4662ce31bf746680',1,'ValueRef']]],
-  ['invariant',['INVARIANT',['../namespaceCondition.html#a97c57ae20e4edf7d4782684ef810f51ca138d37da152a9b2acdb168d8d49dad6e',1,'Condition']]]
+  ['invalid_5fstatistic_5ftype',['INVALID_STATISTIC_TYPE',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2aea5e070cb696033e4662ce31bf746680',1,'ValueRef']]]
 ];

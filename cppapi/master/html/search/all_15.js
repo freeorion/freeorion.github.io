@@ -35,7 +35,6 @@ var searchData=
   ['universepositionfromscreencoords',['UniversePositionFromScreenCoords',['../classMapWnd.html#a753ad20addc155c491d73f1475cbd35c',1,'MapWnd']]],
   ['universewidth',['UniverseWidth',['../classUniverse.html#acfbd482b9717883e9c624d6b44143c5e',1,'Universe']]],
   ['universewrapper_2ecpp',['UniverseWrapper.cpp',['../UniverseWrapper_8cpp.html',1,'']]],
-  ['unknown_5finvariance',['UNKNOWN_INVARIANCE',['../namespaceCondition.html#a97c57ae20e4edf7d4782684ef810f51cae5fb7d5ff4326593b8249e50b1c1e315',1,'Condition']]],
   ['unknown_5fui_5fdisplay_5fvalue',['UNKNOWN_UI_DISPLAY_VALUE',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#adde16ad9e6de1e4a1e174ac806e8e118',1,'anonymous_namespace{i18n.cpp}']]],
   ['unknownicon',['UnknownIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a22d862e1cb6553257162a5a89039cb27',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['unknownroute',['UnknownRoute',['../classFleet.html#a75d7f0b4683a8889ac36d4af04a1bbd5',1,'Fleet']]],

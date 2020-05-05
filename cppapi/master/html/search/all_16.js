@@ -59,7 +59,6 @@ var searchData=
   ['variable_5fscope',['variable_scope',['../namespaceparse_1_1detail.html#abcae0f0d6b64f3528b275ca773626c08',1,'parse::detail']]],
   ['variable_5fscope_5frule',['variable_scope_rule',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a0bfabd00662e4e88d420cbac67e46b39',1,'parse::detail::enum_value_ref_rules::variable_scope_rule()'],['../structparse_1_1detail_1_1simple__variable__rules.html#a24fc714d9c2500c0a4a428b23cdd816a',1,'parse::detail::simple_variable_rules::variable_scope_rule()'],['../structparse_1_1string__parser__grammar.html#a419bf0843579c848e1a2e69648cd9d40',1,'parse::string_parser_grammar::variable_scope_rule()'],['../namespaceparse.html#a19180cd085cacd3f20454193a76f1005',1,'parse::variable_scope_rule()']]],
   ['variable_5fsignature',['variable_signature',['../namespaceparse_1_1detail.html#a85c60683ab8f05181932156223d4b609',1,'parse::detail']]],
-  ['variant',['VARIANT',['../namespaceCondition.html#a97c57ae20e4edf7d4782684ef810f51ca7eee593e55e57ebecb73b7e38ecca4b3',1,'Condition']]],
   ['vartext',['VarText',['../classVarText.html',1,'VarText'],['../classVarText.html#ab38b8a174f36204ea895b76f574d1cd9',1,'VarText::VarText()'],['../classVarText.html#ac23d0535066f614741559c0950e3c0d7',1,'VarText::VarText(const std::string &amp;template_string, bool stringtable_lookup=true)']]],
   ['vartext_2ecpp',['VarText.cpp',['../VarText_8cpp.html',1,'']]],
   ['vartext_2eh',['VarText.h',['../VarText_8h.html',1,'']]],
