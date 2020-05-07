@@ -62,7 +62,7 @@ var searchData=
   ['empires',['Empires',['../classClientApp.html#ace12714f0d2893d5ea07b3f640c9d471',1,'ClientApp::Empires() override'],['../classClientApp.html#aabc54c6fa45dd119c6a33fc011b44df5',1,'ClientApp::Empires() const'],['../classServerApp.html#a414402b5d6615059625a71dc71206c5a',1,'ServerApp::Empires()'],['../classIApp.html#a4ce53c9a73c5f85be203b99ffb238165',1,'IApp::Empires()'],['../AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5',1,'Empires():&#160;AppInterface.h']]],
   ['empiresethomeworld',['EmpireSetHomeworld',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a5fc3011563784b260f1a77aee92cf224',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['empiresetname',['EmpireSetName',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a6dfd6f066b277871622db45fd49b3b60',1,'anonymous_namespace{ServerWrapper.cpp}']]],
-  ['empireshipsdestroyed',['EmpireShipsDestroyed',['../classEmpire.html#a10196cd4def2c732cb5960ec6c46a2df',1,'Empire']]],
+  ['empireshipsdestroyed',['EmpireShipsDestroyed',['../classEmpire.html#a65fbe3b56d201a6e0731b6fcd0d63bf5',1,'Empire']]],
   ['empiresitreptemplatestrings',['EmpireSitRepTemplateStrings',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a636bdba65d350f3a1f360946cd91f59d',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['empirestaleknowledgeobjectids',['EmpireStaleKnowledgeObjectIDs',['../classUniverse.html#ae14b6c952c8b50af0483a4cd0f81e89f',1,'Universe']]],
   ['empirestats',['EmpireStats',['../classUniverse.html#a869831f245dd1ae7f746edb8ed7ce3ab',1,'Universe']]],

@@ -117,7 +117,7 @@ var searchData=
   ['originaltype',['OriginalType',['../classPlanet.html#a883989873935dfe707e7848499e56199',1,'Planet']]],
   ['orvalidator',['OrValidator',['../structOrValidator.html#aed12fd6230333d4e6b48a194af79889d',1,'OrValidator']]],
   ['otherspeciesopinions',['OtherSpeciesOpinions',['../classSpecies.html#a52041db4e76ce626a43ecfee73a29cc2',1,'Species']]],
-  ['outpostsowned',['OutpostsOwned',['../classEmpire.html#ad40db8be809f43767626e4235fbf2f9c',1,'Empire']]],
+  ['outpostsowned',['OutpostsOwned',['../classEmpire.html#a44e8f17f96f47eeed00471fbf62e44fa',1,'Empire']]],
   ['output',['Output',['../classResourcePool.html#ac8c5524877bb93bce69813c6c522edbf',1,'ResourcePool']]],
   ['overlaysize',['OverlaySize',['../classSystem.html#a9a6f07cef4a7c74e8c7016545be77dda',1,'System']]],
   ['overlaytexture',['OverlayTexture',['../classSystem.html#a81798382c188ad1a3149a21169e8976b',1,'System']]],
