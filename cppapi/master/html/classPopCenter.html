@@ -102,12 +102,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64b159534460d5c564616178bc84f943"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a64b159534460d5c564616178bc84f943">Dump</a> (unsigned short ntabs=0) const</td></tr>
 <tr class="memdesc:a64b159534460d5c564616178bc84f943"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of the species that populates this planet  <a href="#a64b159534460d5c564616178bc84f943">More...</a><br /></td></tr>
 <tr class="separator:a64b159534460d5c564616178bc84f943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a336b7b1ec28fb5eab9796033cd266ced"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a336b7b1ec28fb5eab9796033cd266ced">InitialMeterValue</a> (MeterType type) const =0</td></tr>
-<tr class="memdesc:a336b7b1ec28fb5eab9796033cd266ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the initial value of the specified meter <em>type</em>  <a href="#a336b7b1ec28fb5eab9796033cd266ced">More...</a><br /></td></tr>
-<tr class="separator:a336b7b1ec28fb5eab9796033cd266ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a076797490beda2442f9e7749a04bc5e0"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a076797490beda2442f9e7749a04bc5e0">CurrentMeterValue</a> (MeterType type) const =0</td></tr>
-<tr class="memdesc:a076797490beda2442f9e7749a04bc5e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should current value of the specified meter <em>type</em>  <a href="#a076797490beda2442f9e7749a04bc5e0">More...</a><br /></td></tr>
-<tr class="separator:a076797490beda2442f9e7749a04bc5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3441ed4c2d894b7f2ff91082460215"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter</a> (MeterType type)=0</td></tr>
+<tr class="memdesc:a3f3441ed4c2d894b7f2ff91082460215"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a3f3441ed4c2d894b7f2ff91082460215">More...</a><br /></td></tr>
+<tr class="separator:a3f3441ed4c2d894b7f2ff91082460215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a792e95018ed34b8e9266a669d883a62e"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a792e95018ed34b8e9266a669d883a62e">GetMeter</a> (MeterType type) const =0</td></tr>
+<tr class="memdesc:a792e95018ed34b8e9266a669d883a62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a792e95018ed34b8e9266a669d883a62e">More...</a><br /></td></tr>
+<tr class="separator:a792e95018ed34b8e9266a669d883a62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
 <tr class="memitem:aae2ee3e3068b0db5200db73ef0c758aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">Copy</a> (std::shared_ptr&lt; const <a class="el" href="classPopCenter.html">PopCenter</a> &gt; copied_object, Visibility vis)</td></tr>
 <tr class="memdesc:aae2ee3e3068b0db5200db73ef0c758aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the species of the population to <em>species_name</em>  <a href="#aae2ee3e3068b0db5200db73ef0c758aa">More...</a><br /></td></tr>
@@ -142,12 +142,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a92aef79ab08dfa89041d76fb75bfa353"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a92aef79ab08dfa89041d76fb75bfa353">AddMeter</a> (MeterType meter_type)=0</td></tr>
 <tr class="memdesc:a92aef79ab08dfa89041d76fb75bfa353"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should add a meter to the object so that it can be accessed with the <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215" title="implementation should return the requested Meter, or 0 if no such Meter of that type is found in this...">GetMeter()</a> functions  <a href="#a92aef79ab08dfa89041d76fb75bfa353">More...</a><br /></td></tr>
 <tr class="separator:a92aef79ab08dfa89041d76fb75bfa353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f3441ed4c2d894b7f2ff91082460215"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter</a> (MeterType type)=0</td></tr>
-<tr class="memdesc:a3f3441ed4c2d894b7f2ff91082460215"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a3f3441ed4c2d894b7f2ff91082460215">More...</a><br /></td></tr>
-<tr class="separator:a3f3441ed4c2d894b7f2ff91082460215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792e95018ed34b8e9266a669d883a62e"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classMeter.html">Meter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a792e95018ed34b8e9266a669d883a62e">GetMeter</a> (MeterType type) const =0</td></tr>
-<tr class="memdesc:a792e95018ed34b8e9266a669d883a62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object  <a href="#a792e95018ed34b8e9266a669d883a62e">More...</a><br /></td></tr>
-<tr class="separator:a792e95018ed34b8e9266a669d883a62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b69578bb3218ee600694df3dfb195f4"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
 <tr class="memitem:a9b69578bb3218ee600694df3dfb195f4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a9b69578bb3218ee600694df3dfb195f4">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
 <tr class="separator:a9b69578bb3218ee600694df3dfb195f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,40 +318,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a076797490beda2442f9e7749a04bc5e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076797490beda2442f9e7749a04bc5e0">&#9670;&nbsp;</a></span>CurrentMeterValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float PopCenter::CurrentMeterValue </td>
-          <td>(</td>
-          <td class="paramtype">MeterType&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>implementation should current value of the specified meter <em>type</em> </p>
-
-<p>Implemented in <a class="el" href="classPlanet.html#a299c3560d59afb6e28424d6ca49f02bf">Planet</a>.</p>
-
-<p class="reference">References <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, and <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>.</p>
-
-</div>
-</div>
 <a id="a7f5d124c9d345841f73a271426782b54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f5d124c9d345841f73a271426782b54">&#9670;&nbsp;</a></span>Depopulate()</h2>
 
@@ -434,7 +394,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -443,7 +403,7 @@ Friends</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classPlanet.html#ac08dec6f01d12f6bc008cd5c554fcc5b">Planet</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPopCenter.html#a076797490beda2442f9e7749a04bc5e0">CurrentMeterValue()</a>, <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPlanet.html#a97c1e8527b0e4a2a6db80a01b01d09db">Planet::GetVisibility()</a>, <a class="el" href="classPopCenter.html#acbe09bf2453c1e2220cb2fab9a1e33a0">PopCenterClampMeters()</a>, <a class="el" href="classPopCenter.html#af1f5d888fae68a82e5d8f95aed36fb2a">PopCenterResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classPopCenter.html#a951ae604e64f1b5d1768fc810b333332">Reset()</a>, and <a class="el" href="classPlanet.html#a9c5ea9608527e39ed1ea057af52d8fdd">Planet::SurfaceTexture()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPopCenter.html#acbe09bf2453c1e2220cb2fab9a1e33a0">PopCenterClampMeters()</a>, <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>, <a class="el" href="classPopCenter.html#af1f5d888fae68a82e5d8f95aed36fb2a">PopCenterResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classPopCenter.html#a951ae604e64f1b5d1768fc810b333332">Reset()</a>, and <a class="el" href="classPlanet.html#a9c5ea9608527e39ed1ea057af52d8fdd">Planet::SurfaceTexture()</a>.</p>
 
 </div>
 </div>
@@ -466,7 +426,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -505,36 +465,6 @@ Friends</h2></td></tr>
 <p class="reference">References <a class="el" href="classPopCenter.html#a92aef79ab08dfa89041d76fb75bfa353">AddMeter()</a>, <a class="el" href="Enums_8h.html#aa227629ae8deb3a4ca072f9cee8db872">METER_HAPPINESS</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, <a class="el" href="Enums_8h.html#a53144925d46bd3d19aaad82aedbbd388">METER_TARGET_HAPPINESS</a>, and <a class="el" href="Enums_8h.html#aaca2ed45b5aaa9a8a6405ea0aeffb3a9">METER_TARGET_POPULATION</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet::Planet()</a>, and <a class="el" href="classPlanet.html#aaa1aaed9d4ef90b4836531edb7b18e0a">Planet::~Planet()</a>.</p>
-
-</div>
-</div>
-<a id="a336b7b1ec28fb5eab9796033cd266ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a336b7b1ec28fb5eab9796033cd266ced">&#9670;&nbsp;</a></span>InitialMeterValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual float PopCenter::InitialMeterValue </td>
-          <td>(</td>
-          <td class="paramtype">MeterType&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>implementation should return the initial value of the specified meter <em>type</em> </p>
-
-<p>Implemented in <a class="el" href="classPlanet.html#a57b8c0d68e91dae456bd865952d8c964">Planet</a>.</p>
 
 </div>
 </div>
@@ -590,7 +520,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classPopCenter.html#a076797490beda2442f9e7749a04bc5e0">CurrentMeterValue()</a>, <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, and <a class="el" href="namespaceanonymous__namespace_02PopCenter_8cpp_03.html#a4786935741177555927d6f599daf1c0c">anonymous_namespace{PopCenter.cpp}::MINIMUM_POP_CENTER_POPULATION</a>.</p>
+<p class="reference">References <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>, <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>, <a class="el" href="Enums_8h.html#af4c30256ac6c0b01958b09de4522c8b9">METER_POPULATION</a>, and <a class="el" href="namespaceanonymous__namespace_02PopCenter_8cpp_03.html#a4786935741177555927d6f599daf1c0c">anonymous_namespace{PopCenter.cpp}::MINIMUM_POP_CENTER_POPULATION</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>.</p>
 

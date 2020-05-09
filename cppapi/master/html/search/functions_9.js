@@ -67,7 +67,6 @@ var searchData=
   ['initiallyunlockedbuildings',['InitiallyUnlockedBuildings',['../classUniverse.html#a2ed2601dc18cee1d65f142986743512e',1,'Universe']]],
   ['initiallyunlockedfleetplans',['InitiallyUnlockedFleetPlans',['../classUniverse.html#ac82525fa8828e4362cd0f3c2a325d156',1,'Universe']]],
   ['initiallyunlockeditems',['InitiallyUnlockedItems',['../classUniverse.html#a74eb8bec624db9ef185124e52a91e189',1,'Universe']]],
-  ['initialmetervalue',['InitialMeterValue',['../classPlanet.html#a57b8c0d68e91dae456bd865952d8c964',1,'Planet::InitialMeterValue()'],['../classPopCenter.html#a336b7b1ec28fb5eab9796033cd266ced',1,'PopCenter::InitialMeterValue()'],['../classResourceCenter.html#ac067b9deb80554ca5b9d0d588cc66436',1,'ResourceCenter::InitialMeterValue()'],['../classUniverseObject.html#a9a78485014a6c2df7835afddf40eceb3',1,'UniverseObject::InitialMeterValue()']]],
   ['initialorbitalposition',['InitialOrbitalPosition',['../classPlanet.html#a9fcd45b6e9a0c3578f5d4294bd7dac8e',1,'Planet']]],
   ['initialpartmetervalue',['InitialPartMeterValue',['../classShip.html#ae9047f5ddf9239968adb61906f8111cb',1,'Ship']]],
   ['initialstealthevent',['InitialStealthEvent',['../structInitialStealthEvent.html#ab6263095ddf7bc441915f9c5146dfc44',1,'InitialStealthEvent::InitialStealthEvent()'],['../structInitialStealthEvent.html#a3f06f001f5f9edddac93260d53baf506',1,'InitialStealthEvent::InitialStealthEvent(const EmpireToObjectVisibilityMap &amp;x)']]],
