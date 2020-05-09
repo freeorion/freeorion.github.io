@@ -47,7 +47,7 @@ var searchData=
   ['categorynames',['CategoryNames',['../classTechManager.html#af6a46b29f2c90d8834bbccc803eaf86f',1,'TechManager']]],
   ['cellforcolumn',['CellForColumn',['../classSaveFileColumn.html#a0b05e0430c1e9b78f1d9e4f4c5aa6450',1,'SaveFileColumn']]],
   ['censoredcuiedit',['CensoredCUIEdit',['../classCensoredCUIEdit.html#a01456a0b2204227ca7db60d234960cc4',1,'CensoredCUIEdit']]],
-  ['censoredmeters',['CensoredMeters',['../classUniverseObject.html#abfcde562ed1aaccb5e4a5eab69b791f5',1,'UniverseObject']]],
+  ['censoredmeters',['CensoredMeters',['../classUniverseObject.html#a669eaaac598155c566fc38f866989a86',1,'UniverseObject']]],
   ['census_5forder',['census_order',['../classSpeciesManager.html#a1d6bf400d415d0b7064f30526034f5d9',1,'SpeciesManager']]],
   ['censusbrowsewnd',['CensusBrowseWnd',['../classCensusBrowseWnd.html#ae385b8710217444dd6ed2eff6426f380',1,'CensusBrowseWnd']]],
   ['censusrowpanel',['CensusRowPanel',['../classCensusRowPanel.html#a1affb158e2f31624dacc41f2bcefa91c',1,'CensusRowPanel']]],
