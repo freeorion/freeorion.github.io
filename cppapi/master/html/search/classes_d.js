@@ -6,7 +6,6 @@ var searchData=
   ['newfleetorder',['NewFleetOrder',['../classNewFleetOrder.html',1,'']]],
   ['newgameplayerrow',['NewGamePlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1NewGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['node',['Node',['../classTechTreeLayout_1_1Node.html',1,'TechTreeLayout']]],
-  ['nodepointercmp',['NodePointerCmp',['../structanonymous__namespace_02TechTreeLayout_8cpp_03_1_1NodePointerCmp.html',1,'anonymous_namespace{TechTreeLayout.cpp}']]],
   ['non_5fship_5fpart_5fmeter_5fenum_5fgrammar',['non_ship_part_meter_enum_grammar',['../structparse_1_1non__ship__part__meter__enum__grammar.html',1,'parse']]],
   ['none',['None',['../structCondition_1_1None.html',1,'Condition']]],
   ['noop',['NoOp',['../classEffect_1_1NoOp.html',1,'Effect']]],

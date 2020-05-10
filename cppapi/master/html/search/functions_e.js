@@ -66,7 +66,7 @@ var searchData=
   ['nextuiobsoleteevent',['NextUIObsoleteEvent',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a598e82b12a8a3a5e5c7c3d406826036b',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
   ['nextyoungerstartype',['NextYoungerStarType',['../classSystem.html#a4535cb0c15d73102e303f9d7b9903452',1,'System']]],
   ['noaction',['NoAction',['../classModeratorActionsWnd.html#a07083fbb8926197469b83428b32d8443',1,'ModeratorActionsWnd']]],
-  ['node',['Node',['../classTechTreeLayout_1_1Node.html#a4ea810a375f12691a374a148832c8d23',1,'TechTreeLayout::Node::Node(const std::string &amp;tech, GG::X width, GG::Y height)'],['../classTechTreeLayout_1_1Node.html#ad12ebe2f5ecd05569384fdce140b5330',1,'TechTreeLayout::Node::Node(Node *parent, Node *child, std::vector&lt; Node *&gt; &amp;nodes)']]],
+  ['node',['Node',['../classTechTreeLayout_1_1Node.html#a632ca24d4a34ff93f50691a98e7f5e16',1,'TechTreeLayout::Node::Node(std::string const &amp;tech, GG::X width, GG::Y height)'],['../classTechTreeLayout_1_1Node.html#ad12ebe2f5ecd05569384fdce140b5330',1,'TechTreeLayout::Node::Node(Node *parent, Node *child, std::vector&lt; Node *&gt; &amp;nodes)']]],
   ['nomodalwndsopencondition',['NoModalWndsOpenCondition',['../Hotkeys_8h.html#a35686e857a16ae50815b2396380554d2',1,'Hotkeys.h']]],
   ['non_5fship_5fpart_5fmeter_5fenum_5fgrammar',['non_ship_part_meter_enum_grammar',['../structparse_1_1non__ship__part__meter__enum__grammar.html#a13e3af09bed0faf104213da1c897c6f2',1,'parse::non_ship_part_meter_enum_grammar']]],
   ['non_5ftree_5fedge',['non_tree_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#a6eb786418eced3d001b7bf73a463385c',1,'SystemPathing::BFSVisitorImpl']]],

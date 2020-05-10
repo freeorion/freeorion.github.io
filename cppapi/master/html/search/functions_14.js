@@ -35,7 +35,6 @@ var searchData=
   ['techsthatunlockitem',['TechsThatUnlockItem',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ac93220dc101c88026f51414ec4fa37e8',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['techtreearcs',['TechTreeArcs',['../classTechTreeArcs.html#ab39398fea347a0ac47efd60acf56f658',1,'TechTreeArcs::TechTreeArcs()'],['../classTechTreeArcs.html#a3851e8d9cb2ffdc4b60b910451e0b270',1,'TechTreeArcs::TechTreeArcs(TechTreeArcs &amp;other)=delete'],['../classTechTreeArcs.html#a02f8e65d3eeecfcdbb57c1dbcd0b4422',1,'TechTreeArcs::TechTreeArcs(const TechTreeLayout &amp;layout, const std::set&lt; std::string &gt; &amp;techs_to_show)']]],
   ['techtreecontrols',['TechTreeControls',['../classTechTreeWnd_1_1TechTreeControls.html#abf9a5782bce96bd3b0b4b2ea033399a2',1,'TechTreeWnd::TechTreeControls']]],
-  ['techtreelayout',['TechTreeLayout',['../classTechTreeLayout.html#a6628763a5e159c6b3255302b85019bba',1,'TechTreeLayout']]],
   ['techtreewnd',['TechTreeWnd',['../classTechTreeWnd.html#a4ac72721a2e8a7d9e412d0c7af8d8f9f',1,'TechTreeWnd']]],
   ['techvisible',['TechVisible',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a932df8ff197ed6f51818e5edb110a167',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['techwndprogressbarbackgroundcolor',['TechWndProgressBarBackgroundColor',['../classClientUI.html#a806b590ec414fbc7b139ca4113d24af3',1,'ClientUI']]],

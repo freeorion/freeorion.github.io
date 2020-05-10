@@ -24,6 +24,7 @@ var searchData=
   ['default_5fvalue',['DEFAULT_VALUE',['../classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad',1,'Meter::DEFAULT_VALUE()'],['../structOptionsDB_1_1Option.html#a66f20d3a0bbe1c2523f33dd347c8c65b',1,'OptionsDB::Option::default_value()']]],
   ['default_5fwidth',['DEFAULT_WIDTH',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#af5e56abb367d923a3c93b5b187e09e57',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['deleteobjectactionselectedsignal',['DeleteObjectActionSelectedSignal',['../classModeratorActionsWnd.html#af9962e2c753d315d97c4beb2654798bd',1,'ModeratorActionsWnd']]],
+  ['depth',['depth',['../classTechTreeLayout_1_1Node.html#a537322f6fda4ba27370caf2cec6c4b9e',1,'TechTreeLayout::Node']]],
   ['des_5fbase_5fselector_5fwnd_5fname',['DES_BASE_SELECTOR_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#affb70e6c62f1428f5b0f792a7f8f096f',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['des_5fmain_5fwnd_5fname',['DES_MAIN_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a0e2a9ee607af6ebbffca1ea4a8f5931c',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['des_5fpart_5fpalette_5fwnd_5fname',['DES_PART_PALETTE_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a09beed079022b3b1c886645852510665',1,'anonymous_namespace{DesignWnd.cpp}']]],

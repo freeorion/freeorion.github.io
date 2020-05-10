@@ -20,7 +20,6 @@ var searchData=
   ['_7econditionwidget',['~ConditionWidget',['../classConditionWidget.html#a772b45e5324911d0636fa830eb7146f0',1,'ConditionWidget']]],
   ['_7ecreditswnd',['~CreditsWnd',['../classCreditsWnd.html#a0c31d36c678e489d31670a083ea0f150',1,'CreditsWnd']]],
   ['_7ecuiwnd',['~CUIWnd',['../classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa',1,'CUIWnd']]],
-  ['_7eedge',['~Edge',['../classTechTreeLayout_1_1Edge.html#ae81e87e36e545d53b6a7663f51ea64fb',1,'TechTreeLayout::Edge']]],
   ['_7eeffect',['~Effect',['../classEffect_1_1Effect.html#a000dde539f8198c51c07f205a00a8042',1,'Effect::Effect']]],
   ['_7eeffects_5fparser_5fgrammar',['~effects_parser_grammar',['../structparse_1_1effects__parser__grammar.html#abcc5f381540009c402b67cfc1fe4655f',1,'parse::effects_parser_grammar']]],
   ['_7eeffectsgroup',['~EffectsGroup',['../classEffect_1_1EffectsGroup.html#a15fbb6208da8b3fb14b69b5401144127',1,'Effect::EffectsGroup']]],

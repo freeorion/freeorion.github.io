@@ -71,6 +71,7 @@ var searchData=
   ['dependencyversions',['DependencyVersions',['../DependencyVersions_8cpp.html#acd3ad467d5986d0d3683049bedb08d7f',1,'DependencyVersions():&#160;DependencyVersions.cpp'],['../Version_8h.html#a3442bdd289b5ec164ffa2dbab772f64d',1,'DependencyVersions():&#160;DependencyVersions.cpp']]],
   ['dependencyversions_2ecpp',['DependencyVersions.cpp',['../DependencyVersions_8cpp.html',1,'']]],
   ['depopulate',['Depopulate',['../classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de',1,'Planet::Depopulate()'],['../classPopCenter.html#a7f5d124c9d345841f73a271426782b54',1,'PopCenter::Depopulate()']]],
+  ['depth',['depth',['../classTechTreeLayout_1_1Node.html#a537322f6fda4ba27370caf2cec6c4b9e',1,'TechTreeLayout::Node']]],
   ['derived',['derived',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a06a9923a3485fb4952f0a3dad4da339f',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['des_5fbase_5fselector_5fwnd_5fname',['DES_BASE_SELECTOR_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#affb70e6c62f1428f5b0f792a7f8f096f',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['des_5fmain_5fwnd_5fname',['DES_MAIN_WND_NAME',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a0e2a9ee607af6ebbffca1ea4a8f5931c',1,'anonymous_namespace{DesignWnd.cpp}']]],
