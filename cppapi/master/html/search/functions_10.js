@@ -288,11 +288,6 @@ var searchData=
   ['putchathistoryentity',['PutChatHistoryEntity',['../classPythonServer.html#a7367ae75f87894b95fb222d607a4d643',1,'PythonServer']]],
   ['pythonbase',['PythonBase',['../classPythonBase.html#ad57b73efa4f05f95cd5196346bb5d460',1,'PythonBase']]],
   ['pythongalaxysetupdata',['PythonGalaxySetupData',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#afd1c968dca93af42e8174212556e33df',1,'anonymous_namespace{AIWrapper.cpp}']]],
-  ['pythonlogger',['PythonLogger',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#adc26074ed4180f5c3b5679b34df4d84f',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggerdebug',['PythonLoggerDebug',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a26856c28724a965ff3ca25779c85ee',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggererror',['PythonLoggerError',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4a9d8a7d37f0c4da74c3e02f6966d71b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggerinfo',['PythonLoggerInfo',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a26bd0730512b1d1e520384df4391aca0',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggerwarn',['PythonLoggerWarn',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#acc1322f60b401bcf9910bff3245670e6',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
-  ['pythonloggerwrapper',['PythonLoggerWrapper',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a6e2048a5b67b13fe792d451b98017a74',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['pythonloggerwrapper',['PythonLoggerWrapper',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4180a7851e2021ca26d87e0553aa97f6',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['techs_3c_20techmanager_3a_3atechparsetuple_20_3e',['techs&lt; TechManager::TechParseTuple &gt;',['../TechsParser_8cpp.html#ae2158ddb7c8906b98cf72798698d7e7e',1,'techs&lt; TechManager::TechParseTuple &gt;(const boost::filesystem::path &amp;path):&#160;TechsParser.cpp'],['../AppInterface_8cpp.html#a41098a56e47e6e2b882d1538264cfa32',1,'techs&lt; TechManager::TechParseTuple &gt;(const boost::filesystem::path &amp;path):&#160;AppInterface.cpp']]]
 ];
