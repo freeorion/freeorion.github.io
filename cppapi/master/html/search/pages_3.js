@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notes_20on_20boost_20statechart_20transitions',['Notes on Boost Statechart transitions',['../statechart_notes.html',1,'']]]
+  ['issue_20and_20pull_20request_20labels',['Issue and Pull Request labels',['../md_doc_labels.html',1,'']]]
 ];
