@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
-  ['weapon_5fname',['weapon_name',['../structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f',1,'WeaponFireEvent']]],
-  ['weight',['weight',['../classTechTreeLayout_1_1Node.html#ad520424ada57bf30bf83056dc64a60e1',1,'TechTreeLayout::Node']]],
-  ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab4b8c9451aafcce6dc17f4f2dd88f68e',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
-  ['wide_5fas',['WIDE_AS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a7afeefb0abdcc7eb39cc0aa106b3793a',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
-  ['within_5fdistance',['within_distance',['../structparse_1_1detail_1_1condition__parser__rules__3.html#ad7d7e043787c4789278bdaa0ac411f37',1,'parse::detail::condition_parser_rules_3']]],
-  ['within_5fstarlane_5fjumps',['within_starlane_jumps',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a7e46376985170ad0bfc4dc79bad493d3',1,'parse::detail::condition_parser_rules_3']]],
-  ['wndchangedsignal',['WndChangedSignal',['../classCombatLogWnd.html#adf11c783afac806ca7102c90d5506de1',1,'CombatLogWnd']]],
-  ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]]
+  ['x',['x',['../classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()'],['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../structShipHull_1_1Slot.html#a774bc3f7cf96c2afe8116b3bdd969816',1,'ShipHull::Slot::x()']]],
+  ['x1',['X1',['../structLaneEndpoints.html#ab3d092f3532042f55e298186b55c3006',1,'LaneEndpoints']]],
+  ['x2',['X2',['../structLaneEndpoints.html#afa549a6309c4f92a066715822cfe2086',1,'LaneEndpoints']]],
+  ['x_5fmargin',['X_MARGIN',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#a07e51af3d36951deb58378809a1420c1',1,'anonymous_namespace{ProductionWnd.cpp}']]],
+  ['xmldecl',['XMLDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad32294642c57fbb58035946309f16215',1,'anonymous_namespace{XMLDoc.cpp}']]]
 ];

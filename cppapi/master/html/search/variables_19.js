@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['y',['y',['../classDelauney_1_1DTPoint.html#a1607d471c2ecab6ac5aa1a583b25124c',1,'Delauney::DTPoint::y()'],['../structMapWnd_1_1MovementLineData_1_1Vertex.html#af6263b5f7d76566d4fcb4ec431ea48d1',1,'MapWnd::MovementLineData::Vertex::y()'],['../structMovePathNode.html#a16d6b11a0097c5e5cc1420a157ce6297',1,'MovePathNode::y()'],['../structShipHull_1_1Slot.html#aac665c5a9e8f200dcc1738f08d686937',1,'ShipHull::Slot::y()']]],
-  ['y1',['Y1',['../structLaneEndpoints.html#aada6a64b46c4c1e1b247ca64c1a94e54',1,'LaneEndpoints']]],
-  ['y2',['Y2',['../structLaneEndpoints.html#a90d708ad1d3b21f6c8150df1330a3d60',1,'LaneEndpoints']]],
-  ['y_5fmargin',['Y_MARGIN',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#aad13231fdae196e54b9cf111211bb6b8',1,'anonymous_namespace{ProductionWnd.cpp}']]]
+  ['zoom_5fin_5fmax_5fsteps',['ZOOM_IN_MAX_STEPS',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a08c9ea40f759c785f92295c52aa69cf2',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['zoom_5fin_5fmin_5fsteps',['ZOOM_IN_MIN_STEPS',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab4211a3c9fb385784bc6c277e383a3de',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['zoom_5fmax',['ZOOM_MAX',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acd6b8b38d3f5b72dccc0fcadd5cf6da3',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['zoom_5fmin',['ZOOM_MIN',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a9e3b72643e134d53e06e6e4a81d84263',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['zoom_5fstep_5fsize',['ZOOM_STEP_SIZE',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#aa3fc036f9135469be05e8d88a8cefd83',1,'anonymous_namespace{MapWnd.cpp}::ZOOM_STEP_SIZE()'],['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a02d3c25847cc6d66613a61a877d2b46b',1,'anonymous_namespace{TechTreeWnd.cpp}::ZOOM_STEP_SIZE()']]],
+  ['zoomedsignal',['ZoomedSignal',['../classMapWnd.html#ace8188ab379d78ebfdecc0f5b6889675',1,'MapWnd::ZoomedSignal()'],['../classTechTreeWnd_1_1LayoutPanel_1_1LayoutSurface.html#a4478b2ae8cca648e144db12f560a203a',1,'TechTreeWnd::LayoutPanel::LayoutSurface::ZoomedSignal()']]]
 ];

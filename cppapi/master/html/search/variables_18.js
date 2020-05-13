@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['x',['x',['../classDelauney_1_1DTPoint.html#ad79c76cfb7af0eb3df89032b2aa6a144',1,'Delauney::DTPoint::x()'],['../structMapWnd_1_1MovementLineData_1_1Vertex.html#a9304159b295be7f0265a04772f9a7307',1,'MapWnd::MovementLineData::Vertex::x()'],['../structMovePathNode.html#a96c87eebb84f6c0d8f123749257a8f61',1,'MovePathNode::x()'],['../structShipHull_1_1Slot.html#a774bc3f7cf96c2afe8116b3bdd969816',1,'ShipHull::Slot::x()']]],
-  ['x1',['X1',['../structLaneEndpoints.html#ab3d092f3532042f55e298186b55c3006',1,'LaneEndpoints']]],
-  ['x2',['X2',['../structLaneEndpoints.html#afa549a6309c4f92a066715822cfe2086',1,'LaneEndpoints']]],
-  ['x_5fmargin',['X_MARGIN',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#a07e51af3d36951deb58378809a1420c1',1,'anonymous_namespace{ProductionWnd.cpp}']]],
-  ['xmldecl',['XMLDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ad32294642c57fbb58035946309f16215',1,'anonymous_namespace{XMLDoc.cpp}']]]
+  ['y',['y',['../classDelauney_1_1DTPoint.html#a1607d471c2ecab6ac5aa1a583b25124c',1,'Delauney::DTPoint::y()'],['../structMapWnd_1_1MovementLineData_1_1Vertex.html#af6263b5f7d76566d4fcb4ec431ea48d1',1,'MapWnd::MovementLineData::Vertex::y()'],['../structMovePathNode.html#a16d6b11a0097c5e5cc1420a157ce6297',1,'MovePathNode::y()'],['../structShipHull_1_1Slot.html#aac665c5a9e8f200dcc1738f08d686937',1,'ShipHull::Slot::y()']]],
+  ['y1',['Y1',['../structLaneEndpoints.html#aada6a64b46c4c1e1b247ca64c1a94e54',1,'LaneEndpoints']]],
+  ['y2',['Y2',['../structLaneEndpoints.html#a90d708ad1d3b21f6c8150df1330a3d60',1,'LaneEndpoints']]],
+  ['y_5fmargin',['Y_MARGIN',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#aad13231fdae196e54b9cf111211bb6b8',1,'anonymous_namespace{ProductionWnd.cpp}']]]
 ];
