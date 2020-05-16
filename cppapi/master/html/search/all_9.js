@@ -259,6 +259,7 @@ var searchData=
   ['isestablished',['IsEstablished',['../classPlayerConnection.html#a7ad0c14a6b06f6663f9cbd8948edac5d',1,'PlayerConnection']]],
   ['isexistingfile',['IsExistingFile',['../Directories_8cpp.html#a8ac2afc9805b3246da0eb4680f3e774f',1,'IsExistingFile(const fs::path &amp;path):&#160;Directories.cpp'],['../Directories_8h.html#a9a918c9156b3851411104d7d6432351f',1,'IsExistingFile(const boost::filesystem::path &amp;path):&#160;Directories.h']]],
   ['isfleetexploring',['IsFleetExploring',['../classMapWnd.html#a793655bf8ecaee4fdba75770dd677bf3',1,'MapWnd']]],
+  ['isfocscript',['IsFOCScript',['../Directories_8cpp.html#a2414ce08a366a5f4a96da4624217a723',1,'IsFOCScript(const boost::filesystem::path &amp;path):&#160;Directories.cpp'],['../Directories_8h.html#ac83b7bbd3cc89ee9cf00a245cb587013',1,'IsFOCScript(const boost::filesystem::path &amp;path):&#160;Directories.cpp']]],
   ['ishavewinner',['IsHaveWinner',['../classServerApp.html#a0b004fa8cd79ffad66beb8b676a80c7e',1,'ServerApp']]],
   ['ishostless',['IsHostless',['../classServerApp.html#a3ca4516607ab95dc923e5e39395ec630',1,'ServerApp']]],
   ['ishullobsolete',['IsHullObsolete',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#ae519f1233643f1c28f7a0af9c923e304',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
