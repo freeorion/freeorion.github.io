@@ -120,7 +120,7 @@ var searchData=
   ['designnamechanged',['DesignNameChanged',['../classDesignWnd_1_1MainPanel.html#a11d1d1c64395c14a8545e25b875fefa1',1,'DesignWnd::MainPanel::DesignNameChanged()'],['../classDesignWnd.html#ae4e9f2baf5ab3260780f24881f28fe94',1,'DesignWnd::DesignNameChanged()']]],
   ['designnamechangedsignal',['DesignNameChangedSignal',['../classDesignWnd_1_1MainPanel.html#a573d3acb200c2295a7dcb4c10901e6dc',1,'DesignWnd::MainPanel']]],
   ['designnameeditedslot',['DesignNameEditedSlot',['../classDesignWnd_1_1MainPanel.html#ae909d9e5f405a9b7f70f0280ad475ab2',1,'DesignWnd::MainPanel']]],
-  ['designnamevalueref',['DesignNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a4193734f496a90b488821fddab2f1a41',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['designnamevalueref',['DesignNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab324baa9071a96c444fd400663cc63c7',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['designreplacedsignal',['DesignReplacedSignal',['../classDesignWnd_1_1MainPanel.html#a666d24816e0a5b3f93c2d9832a7518aa',1,'DesignWnd::MainPanel']]],
   ['designrightclickedsignal',['DesignRightClickedSignal',['../classBasesListBox.html#a70376ebcbe2fc54ce17dc0565936cfaa',1,'BasesListBox']]],
   ['designs',['Designs',['../classShipDesignManager_1_1Designs.html',1,'ShipDesignManager']]],

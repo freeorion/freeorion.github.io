@@ -60,7 +60,7 @@ var searchData=
   ['designname',['DesignName',['../classSavedDesignsListBox_1_1SavedDesignListBoxRow.html#adee8725e6cfc9b11ef55ce44ff3d54d6',1,'SavedDesignsListBox::SavedDesignListBoxRow']]],
   ['designnamechanged',['DesignNameChanged',['../classDesignWnd_1_1MainPanel.html#a11d1d1c64395c14a8545e25b875fefa1',1,'DesignWnd::MainPanel::DesignNameChanged()'],['../classDesignWnd.html#ae4e9f2baf5ab3260780f24881f28fe94',1,'DesignWnd::DesignNameChanged()']]],
   ['designnameeditedslot',['DesignNameEditedSlot',['../classDesignWnd_1_1MainPanel.html#ae909d9e5f405a9b7f70f0280ad475ab2',1,'DesignWnd::MainPanel']]],
-  ['designnamevalueref',['DesignNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a4193734f496a90b488821fddab2f1a41',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['designnamevalueref',['DesignNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab324baa9071a96c444fd400663cc63c7',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['designsthesame',['DesignsTheSame',['../namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08',1,'anonymous_namespace{ShipDesign.cpp}']]],
   ['designuuid',['DesignUUID',['../classSavedDesignsListBox_1_1SavedDesignListBoxRow.html#a92b045a6c64c18e6dd428f0c2c2e3cad',1,'SavedDesignsListBox::SavedDesignListBoxRow']]],
   ['designwnd',['DesignWnd',['../classDesignWnd.html#a046371b04fb78b9b43728f39fe5f0d5a',1,'DesignWnd']]],

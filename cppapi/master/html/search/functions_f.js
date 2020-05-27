@@ -22,7 +22,7 @@ var searchData=
   ['objectlistwnd',['ObjectListWnd',['../classObjectListWnd.html#ae2619ae66ec1d650325ccfa3a5a20b91',1,'ObjectListWnd']]],
   ['objectmap',['ObjectMap',['../classObjectMap.html#a0155dc20d3235577103816c5f8c8a7b3',1,'ObjectMap']]],
   ['objectmetersp',['ObjectMetersP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a6668e2fa08e93269962c76627b976dc7',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
-  ['objectnamevalueref',['ObjectNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a60e70800763674f448a9a0e3fa153eef',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['objectnamevalueref',['ObjectNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aaf0b1a58685e15930266173de4c84c06',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['objectpanel',['ObjectPanel',['../classObjectPanel.html#a37e84a94e287fd85164eec061bece99d',1,'ObjectPanel']]],
   ['objectresourceconsumption',['ObjectResourceConsumption',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#abc6a364bdc0c6aeb2ad401c9dc088116',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],
   ['objectrightclicked',['ObjectRightClicked',['../classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb',1,'ObjectListWnd']]],

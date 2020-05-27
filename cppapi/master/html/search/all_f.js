@@ -41,7 +41,7 @@ var searchData=
   ['objectmap_2eh',['ObjectMap.h',['../ObjectMap_8h.html',1,'']]],
   ['objectmetersfunc',['ObjectMetersFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad250a61fb8e515708c6680b18d40f801',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['objectmetersp',['ObjectMetersP',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a6668e2fa08e93269962c76627b976dc7',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
-  ['objectnamevalueref',['ObjectNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a60e70800763674f448a9a0e3fa153eef',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['objectnamevalueref',['ObjectNameValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aaf0b1a58685e15930266173de4c84c06',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['objectpanel',['ObjectPanel',['../classObjectPanel.html',1,'ObjectPanel'],['../classObjectPanel.html#a37e84a94e287fd85164eec061bece99d',1,'ObjectPanel::ObjectPanel()']]],
   ['objectresourceconsumption',['ObjectResourceConsumption',['../namespaceanonymous__namespace_02SystemResourceSummaryBrowseWnd_8cpp_03.html#abc6a364bdc0c6aeb2ad401c9dc088116',1,'anonymous_namespace{SystemResourceSummaryBrowseWnd.cpp}']]],
   ['objectrightclicked',['ObjectRightClicked',['../classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb',1,'ObjectListWnd']]],
