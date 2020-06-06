@@ -7,6 +7,7 @@ var searchData=
   ['idle',['Idle',['../structIdle.html',1,'']]],
   ['impl',['Impl',['../classClientNetworking_1_1Impl.html',1,'ClientNetworking::Impl'],['../classCombatLogManager_1_1Impl.html',1,'CombatLogManager::Impl'],['../classCombatLogWnd_1_1Impl.html',1,'CombatLogWnd::Impl'],['../classCombatReportWnd_1_1Impl.html',1,'CombatReportWnd::Impl'],['../structparse_1_1conditions__parser__grammar_1_1Impl.html',1,'parse::conditions_parser_grammar::Impl'],['../classProcess_1_1Impl.html',1,'Process::Impl'],['../classScanlineRenderer_1_1Impl.html',1,'ScanlineRenderer::Impl'],['../classScopedTimer_1_1Impl.html',1,'ScopedTimer::Impl'],['../classSectionedScopedTimer_1_1Impl.html',1,'SectionedScopedTimer::Impl'],['../classSound_1_1Impl.html',1,'Sound::Impl'],['../classTechTreeArcs_1_1Impl.html',1,'TechTreeArcs::Impl']]],
   ['incapacitationevent',['IncapacitationEvent',['../structIncapacitationEvent.html',1,'']]],
+  ['influencequeue',['InfluenceQueue',['../structInfluenceQueue.html',1,'']]],
   ['info_5fvisitor',['info_visitor',['../structparse_1_1detail_1_1info__visitor.html',1,'parse::detail']]],
   ['ingamemenu',['InGameMenu',['../classInGameMenu.html',1,'']]],
   ['initializationfailureexception',['InitializationFailureException',['../classSound_1_1InitializationFailureException.html',1,'Sound']]],

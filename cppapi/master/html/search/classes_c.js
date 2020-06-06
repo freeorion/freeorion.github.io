@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mainpanel',['MainPanel',['../classDesignWnd_1_1MainPanel.html',1,'DesignWnd']]],
+  ['mainpanel',['MainPanel',['../classDesignWnd_1_1MainPanel.html',1,'DesignWnd::MainPanel'],['../classGovernmentWnd_1_1MainPanel.html',1,'GovernmentWnd::MainPanel']]],
   ['manifest_5fgrammar',['manifest_grammar',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__grammar.html',1,'anonymous_namespace{ShipDesignsParser.cpp}::manifest_grammar'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1manifest__grammar.html',1,'anonymous_namespace{SpeciesParser.cpp}::manifest_grammar']]],
   ['mapscaleline',['MapScaleLine',['../classMapWnd_1_1MapScaleLine.html',1,'MapWnd']]],
   ['mapwnd',['MapWnd',['../classMapWnd.html',1,'']]],
