@@ -68,10 +68,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving.  
+<p>Returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving.  
  <a href="structOrderedMovingFleetVisitor.html#details">More...</a></p>
 
-<p><code>#include &lt;Predicates.h&gt;</code></p>
+<p><code>#include &lt;UniverseObjectVisitors.h&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for OrderedMovingFleetVisitor:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -80,7 +80,7 @@ $(function() {
  <div class="center">
   <img src="structOrderedMovingFleetVisitor.png" usemap="#OrderedMovingFleetVisitor_map" alt=""/>
   <map id="OrderedMovingFleetVisitor_map" name="OrderedMovingFleetVisitor_map">
-<area href="structUniverseObjectVisitor.html" title="the base class for UniverseObject visitor classes. " alt="UniverseObjectVisitor" shape="rect" coords="0,0,166,24"/>
+<area href="structUniverseObjectVisitor.html" title="Base class for UniverseObject visitores. " alt="UniverseObjectVisitor" shape="rect" coords="0,0,166,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -90,34 +90,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4834167544527a7b37d8ea213751554f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcf8be91f06998493e646eedec0a23eb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html#afcf8be91f06998493e646eedec0a23eb">~OrderedMovingFleetVisitor</a> ()</td></tr>
 <tr class="separator:afcf8be91f06998493e646eedec0a23eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f19de457d408cf0a7c3322a15469ada"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html#a5f19de457d408cf0a7c3322a15469ada">Visit</a> (std::shared_ptr&lt; <a class="el" href="classFleet.html">Fleet</a> &gt; obj) const override</td></tr>
-<tr class="separator:a5f19de457d408cf0a7c3322a15469ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43c5b129683ee7175a45fd37d7fafd92"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html#a43c5b129683ee7175a45fd37d7fafd92">Visit</a> (std::shared_ptr&lt; <a class="el" href="classFleet.html">Fleet</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; override</td></tr>
+<tr class="separator:a43c5b129683ee7175a45fd37d7fafd92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structUniverseObjectVisitor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structUniverseObjectVisitor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a></td></tr>
 <tr class="memitem:a8147bde64003e2ab36a77a04f72bedf0 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a8147bde64003e2ab36a77a04f72bedf0">~UniverseObjectVisitor</a> ()</td></tr>
 <tr class="separator:a8147bde64003e2ab36a77a04f72bedf0 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98c0f591809a18746700e395ada9f0f inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#ab98c0f591809a18746700e395ada9f0f">Visit</a> (std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; obj) const</td></tr>
-<tr class="separator:ab98c0f591809a18746700e395ada9f0f inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ae1c7bf4c3f1b1175be069cc54bb03 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a75ae1c7bf4c3f1b1175be069cc54bb03">Visit</a> (std::shared_ptr&lt; <a class="el" href="classBuilding.html">Building</a> &gt; obj) const</td></tr>
-<tr class="separator:a75ae1c7bf4c3f1b1175be069cc54bb03 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53e96c23bde35226a2d452caef8bff1 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#ae53e96c23bde35226a2d452caef8bff1">Visit</a> (std::shared_ptr&lt; <a class="el" href="classPlanet.html">Planet</a> &gt; obj) const</td></tr>
-<tr class="separator:ae53e96c23bde35226a2d452caef8bff1 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba66c284d8f10c9ae646087ac95e7238 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#aba66c284d8f10c9ae646087ac95e7238">Visit</a> (std::shared_ptr&lt; <a class="el" href="classShip.html">Ship</a> &gt; obj) const</td></tr>
-<tr class="separator:aba66c284d8f10c9ae646087ac95e7238 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41725f0c25978b054d7119d2a8aaed02 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a41725f0c25978b054d7119d2a8aaed02">Visit</a> (std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt; obj) const</td></tr>
-<tr class="separator:a41725f0c25978b054d7119d2a8aaed02 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1894c5503bcb2c765bc5bc621169d83 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#aa1894c5503bcb2c765bc5bc621169d83">Visit</a> (std::shared_ptr&lt; <a class="el" href="classField.html">Field</a> &gt; obj) const</td></tr>
-<tr class="separator:aa1894c5503bcb2c765bc5bc621169d83 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a1a5ac1a311b869e3392fd8ea04d671 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a5a1a5ac1a311b869e3392fd8ea04d671">Visit</a> (std::shared_ptr&lt; <a class="el" href="classFighter.html">Fighter</a> &gt; obj) const</td></tr>
-<tr class="separator:a5a1a5ac1a311b869e3392fd8ea04d671 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8e0c467df8c54aa54af82d98f22d10 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#ade8e0c467df8c54aa54af82d98f22d10">Visit</a> (std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:ade8e0c467df8c54aa54af82d98f22d10 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace79fd24a9a593d9d9e4ac93fb8af4c8 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#ace79fd24a9a593d9d9e4ac93fb8af4c8">Visit</a> (std::shared_ptr&lt; <a class="el" href="classBuilding.html">Building</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:ace79fd24a9a593d9d9e4ac93fb8af4c8 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4291ea5297e2c4d2bfabc8e4706db053 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a4291ea5297e2c4d2bfabc8e4706db053">Visit</a> (std::shared_ptr&lt; <a class="el" href="classPlanet.html">Planet</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:a4291ea5297e2c4d2bfabc8e4706db053 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177f6685907cb72dbed8e58986dec7d3 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a177f6685907cb72dbed8e58986dec7d3">Visit</a> (std::shared_ptr&lt; <a class="el" href="classShip.html">Ship</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:a177f6685907cb72dbed8e58986dec7d3 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401c8b2205cfbc2f8314a2d0ee3bc0fc inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a401c8b2205cfbc2f8314a2d0ee3bc0fc">Visit</a> (std::shared_ptr&lt; <a class="el" href="classSystem.html">System</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:a401c8b2205cfbc2f8314a2d0ee3bc0fc inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9291fc4258a60d11bc925f31a3b6edb7 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#a9291fc4258a60d11bc925f31a3b6edb7">Visit</a> (std::shared_ptr&lt; <a class="el" href="classField.html">Field</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:a9291fc4258a60d11bc925f31a3b6edb7 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4fabb661d1276217e6ff841da4217b7 inherit pub_methods_structUniverseObjectVisitor"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html#ac4fabb661d1276217e6ff841da4217b7">Visit</a> (std::shared_ptr&lt; <a class="el" href="classFighter.html">Fighter</a> &gt; obj) const -&gt; std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;</td></tr>
+<tr class="separator:ac4fabb661d1276217e6ff841da4217b7 inherit pub_methods_structUniverseObjectVisitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a60a58a4adc3e6327a369f151caa3f6ef"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html#a60a58a4adc3e6327a369f151caa3f6ef">empire_id</a></td></tr>
-<tr class="separator:a60a58a4adc3e6327a369f151caa3f6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b669ce24aec25e5a24a2e30ef5da68d"><td class="memItemLeft" align="right" valign="top">int const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html#a0b669ce24aec25e5a24a2e30ef5da68d">empire_id</a></td></tr>
+<tr class="separator:a0b669ce24aec25e5a24a2e30ef5da68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving. </p>
-<p>If the given empire is -1, all stationary fleets will be returned. Note that it is preferable to use this functor on <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> searches, rather than <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> ones. </p>
+<div class="textblock"><p>Returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving. </p>
+<p>If the given empire is ALL_EMPIRES, all stationary fleets will be returned.</p>
+<p>Note that it is preferable to use this functor on <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> searches, rather than <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> ones. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4834167544527a7b37d8ea213751554f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4834167544527a7b37d8ea213751554f">&#9670;&nbsp;</a></span>OrderedMovingFleetVisitor()</h2>
@@ -134,6 +135,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structOrderedMovingFleetVisitor.html#afcf8be91f06998493e646eedec0a23eb">~OrderedMovingFleetVisitor()</a>.</p>
 
 </div>
 </div>
@@ -155,16 +158,18 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="structOrderedMovingFleetVisitor.html#a4834167544527a7b37d8ea213751554f">OrderedMovingFleetVisitor()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5f19de457d408cf0a7c3322a15469ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f19de457d408cf0a7c3322a15469ada">&#9670;&nbsp;</a></span>Visit()</h2>
+<a id="a43c5b129683ee7175a45fd37d7fafd92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c5b129683ee7175a45fd37d7fafd92">&#9670;&nbsp;</a></span>Visit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,11 +178,11 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; OrderedMovingFleetVisitor::Visit </td>
+          <td class="memname">auto OrderedMovingFleetVisitor::Visit </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classFleet.html">Fleet</a> &gt;&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
-          <td> const</td>
+          <td> const -&gt; std::shared_ptr&lt;<a class="el" href="classUniverseObject.html">UniverseObject</a>&gt;</td>
         </tr>
       </table>
   </td>
@@ -187,32 +192,32 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="structUniverseObjectVisitor.html#aecea5f591642459784fae3d8bf485e08">UniverseObjectVisitor</a>.</p>
+<p>Reimplemented from <a class="el" href="structUniverseObjectVisitor.html#a20f356b6e632d72c238ccba485bdcdb4">UniverseObjectVisitor</a>.</p>
 
-<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="structOrderedMovingFleetVisitor.html#a60a58a4adc3e6327a369f151caa3f6ef">empire_id</a>, and <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>.</p>
+<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="structOrderedMovingFleetVisitor.html#a0b669ce24aec25e5a24a2e30ef5da68d">empire_id</a>, and <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a60a58a4adc3e6327a369f151caa3f6ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60a58a4adc3e6327a369f151caa3f6ef">&#9670;&nbsp;</a></span>empire_id</h2>
+<a id="a0b669ce24aec25e5a24a2e30ef5da68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b669ce24aec25e5a24a2e30ef5da68d">&#9670;&nbsp;</a></span>empire_id</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int OrderedMovingFleetVisitor::empire_id</td>
+          <td class="memname">int const OrderedMovingFleetVisitor::empire_id</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structOrderedMovingFleetVisitor.html#a5f19de457d408cf0a7c3322a15469ada">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structOrderedMovingFleetVisitor.html#a43c5b129683ee7175a45fd37d7fafd92">Visit()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li><a class="el" href="Predicates_8h.html">Predicates.h</a></li>
-<li><a class="el" href="Predicates_8cpp.html">Predicates.cpp</a></li>
+<li><a class="el" href="UniverseObjectVisitors_8h.html">UniverseObjectVisitors.h</a></li>
+<li><a class="el" href="UniverseObjectVisitors_8cpp.html">UniverseObjectVisitors.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

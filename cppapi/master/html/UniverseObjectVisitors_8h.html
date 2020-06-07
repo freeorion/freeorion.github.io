@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FreeOrion: Predicates.h File Reference</title>
+<title>FreeOrion: UniverseObjectVisitors.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,35 +67,31 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Predicates.h File Reference</div>  </div>
+<div class="title">UniverseObjectVisitors.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
-<code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="UniverseObjectVisitor_8h.html">UniverseObjectVisitor.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHostileVisitor.html">HostileVisitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMovingFleetVisitor.html">MovingFleetVisitor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns obj iff <em>obj</em> is a moving <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is moving between systems.  <a href="structMovingFleetVisitor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns obj iff <em>obj</em> is a moving <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is moving between systems.  <a href="structMovingFleetVisitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOrderedMovingFleetVisitor.html">OrderedMovingFleetVisitor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving.  <a href="structOrderedMovingFleetVisitor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire, and that is under orders to move, but is not yet moving.  <a href="structOrderedMovingFleetVisitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOwnedVisitor.html">OwnedVisitor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns obj iff <em>obj</em> is owned by the empire with id <em>empire</em>, and <em>obj</em> is of type T.  <a href="structOwnedVisitor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns obj iff <em>obj</em> is owned by the empire with id <em>empire_id</em>.  <a href="structOwnedVisitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structStationaryFleetVisitor.html">StationaryFleetVisitor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire object that is parked at a <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a>, not under orders to move.  <a href="structStationaryFleetVisitor.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUniverseObjectVisitor.html">UniverseObjectVisitor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the base class for <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a> visitor classes.  <a href="structUniverseObjectVisitor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns obj iff <em>obj</em> is a <a class="el" href="classFleet.html" title="Encapsulates data for a FreeOrion fleet. ">Fleet</a> belonging to the given empire that is parked at a <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a>, not under orders to move.  <a href="structStationaryFleetVisitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:adf0949728524f517fbcb598686053a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Predicates_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
+<tr class="memitem:adf0949728524f517fbcb598686053a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UniverseObjectVisitors_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></td></tr>
 <tr class="separator:adf0949728524f517fbcb598686053a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
