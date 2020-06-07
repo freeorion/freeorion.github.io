@@ -95,7 +95,6 @@ var searchData=
   ['created_5fon_5fturn',['created_on_turn',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a3ebbe1981d815ebf2cb9efc067345553',1,'parse::detail::condition_parser_rules_3']]],
   ['createplanetactionselectedsignal',['CreatePlanetActionSelectedSignal',['../classModeratorActionsWnd.html#abcbee852c9114f9765fe836a7376caae',1,'ModeratorActionsWnd']]],
   ['createsystemactionselectedsignal',['CreateSystemActionSelectedSignal',['../classModeratorActionsWnd.html#a9d9fb05deec879d27e1e217c4bddf478',1,'ModeratorActionsWnd']]],
-  ['cri',['CRI',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a896c33293f073cc0dfdebffe72910c8a',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['cuibutton_5fangle_5foffset',['CUIBUTTON_ANGLE_OFFSET',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a42e39e1aebb0f3f1c2b7539358fbc64d',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['cuidropdownlist_5fangle_5foffset',['CUIDROPDOWNLIST_ANGLE_OFFSET',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a1fe03b30d2b8b8e672a0e44c4af55a43',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['curr',['curr',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#aecf1201d16ddb342f96317b8081f0d80',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],

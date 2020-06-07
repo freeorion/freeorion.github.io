@@ -253,8 +253,6 @@ var searchData=
   ['doubleclickedsignal',['DoubleClickedSignal',['../classPartControl.html#a5fd4dc33ea4a0917052957d0bd84b92d',1,'PartControl::DoubleClickedSignal()'],['../classPolicyControl.html#a743168bba2a7ea25fa92db7713e02c60',1,'PolicyControl::DoubleClickedSignal()']]],
   ['doubleclickrow',['DoubleClickRow',['../classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f',1,'SaveFileDialog']]],
   ['doublecomplexvaluerefparser_2ecpp',['DoubleComplexValueRefParser.cpp',['../DoubleComplexValueRefParser_8cpp.html',1,'']]],
-  ['doubledist',['DoubleDist',['../Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e',1,'DoubleDist(double min, double max):&#160;Random.cpp'],['../Random_8h.html#abfec0ca254593c19ca76d23f6a9142c7',1,'DoubleDist(double min, double max):&#160;Random.cpp']]],
-  ['doubledisttype',['DoubleDistType',['../Random_8h.html#a4aee11bf4a711d3d2e94e4a09a717ed7',1,'Random.h']]],
   ['doubleoption',['DoubleOption',['../classOptionsWnd.html#aa0c7255a902a05f9f6e1b078c68ab06b',1,'OptionsWnd']]],
   ['doublerulechanged',['DoubleRuleChanged',['../classGameRulesPanel.html#af1f49972c1b2fce229353d77e0249e64',1,'GameRulesPanel']]],
   ['doublerulewidget',['DoubleRuleWidget',['../classGameRulesPanel.html#a370d4a242a8d97875eed3994241bfd53',1,'GameRulesPanel']]],

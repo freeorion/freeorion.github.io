@@ -143,7 +143,6 @@ var searchData=
   ['double_5fgrammar',['double_grammar',['../structparse_1_1detail_1_1double__grammar.html#acf4908312bff4c5761d1ba1b03b4738a',1,'parse::detail::double_grammar']]],
   ['double_5fparser_5frules',['double_parser_rules',['../structparse_1_1double__parser__rules.html#a0df95db05a935ec470a5039215d9c874',1,'parse::double_parser_rules']]],
   ['doubleclickrow',['DoubleClickRow',['../classSaveFileDialog.html#a2c21222620a6b99c0f26d0a1df1b441f',1,'SaveFileDialog']]],
-  ['doubledist',['DoubleDist',['../Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e',1,'DoubleDist(double min, double max):&#160;Random.cpp'],['../Random_8h.html#abfec0ca254593c19ca76d23f6a9142c7',1,'DoubleDist(double min, double max):&#160;Random.cpp']]],
   ['doubleoption',['DoubleOption',['../classOptionsWnd.html#aa0c7255a902a05f9f6e1b078c68ab06b',1,'OptionsWnd']]],
   ['doublerulechanged',['DoubleRuleChanged',['../classGameRulesPanel.html#af1f49972c1b2fce229353d77e0249e64',1,'GameRulesPanel']]],
   ['doublerulewidget',['DoubleRuleWidget',['../classGameRulesPanel.html#a370d4a242a8d97875eed3994241bfd53',1,'GameRulesPanel']]],

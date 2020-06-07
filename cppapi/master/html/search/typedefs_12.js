@@ -12,7 +12,6 @@ var searchData=
   ['techparsetuple',['TechParseTuple',['../classTechManager.html#abe3db81074faf34a28074ad015e8eea3',1,'TechManager']]],
   ['techsignaltype',['TechSignalType',['../classTechTreeWnd.html#a90c899b03faab70556b7b134a4ced728',1,'TechTreeWnd']]],
   ['text_5fiterator',['text_iterator',['../namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8',1,'parse']]],
-  ['texturesanddist',['TexturesAndDist',['../classClientUI.html#a0f9ac1f1c97630d7280c7a84bca58e53',1,'ClientUI']]],
   ['token_5fiterator',['token_iterator',['../namespaceparse.html#a54761cd4a2934527cbe8bd2a7af87e76',1,'parse']]],
   ['token_5ftype',['token_type',['../namespaceparse.html#ac03fc11a7097a23ee17a2a5277c8f14b',1,'parse']]],
   ['type',['type',['../structparse_1_1detail_1_1deconstruct__movable_1_1result_3_01F_07MovableEnvelope__T_00_01Bool_08_4.html#a20b88414c92206a90ad8a23d10c64e2e',1,'parse::detail::deconstruct_movable::result&lt; F(MovableEnvelope_T, Bool)&gt;::type()'],['../structparse_1_1detail_1_1deconstruct__movable__vector_1_1result_3_01F_07MovableEnvelope__T_00_01Bool_08_4.html#a490f6b7c4789b147bf11e4a6d93fd0be',1,'parse::detail::deconstruct_movable_vector::result&lt; F(MovableEnvelope_T, Bool)&gt;::type()'],['../structparse_1_1detail_1_1deconstruct__movable__vector__pair_1_1result_3_01F_07MovableEnvelope__T_00_01Bool_08_4.html#a4d953d0ea8b818fcf24921b3f57987f2',1,'parse::detail::deconstruct_movable_vector_pair::result&lt; F(MovableEnvelope_T, Bool)&gt;::type()']]]

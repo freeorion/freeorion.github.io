@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -73,27 +74,29 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Random_8h.html">Random.h</a>&quot;</code><br />
 <code>#include &lt;boost/date_time/posix_time/posix_time.hpp&gt;</code><br />
-<code>#include &lt;boost/thread/mutex.hpp&gt;</code><br />
+<code>#include &lt;boost/random/normal_distribution.hpp&gt;</code><br />
+<code>#include &lt;boost/random/uniform_01.hpp&gt;</code><br />
+<code>#include &lt;boost/random/uniform_real.hpp&gt;</code><br />
+<code>#include &lt;boost/random/uniform_smallint.hpp&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceanonymous__namespace_02Random_8cpp_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html">anonymous_namespace{Random.cpp}</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aea48fe863e3f7d0da828a62384fe7c14"><td class="memItemLeft" align="right" valign="top">typedef std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#aea48fe863e3f7d0da828a62384fe7c14">GeneratorType</a></td></tr>
+<tr class="separator:aea48fe863e3f7d0da828a62384fe7c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ba3251eeb5d4705554f998d2d45f01"><td class="memItemLeft" align="right" valign="top">typedef std::lock_guard&lt; std::mutex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a35ba3251eeb5d4705554f998d2d45f01">lock_guard</a></td></tr>
+<tr class="separator:a35ba3251eeb5d4705554f998d2d45f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa2bb13070ee5fe83b45f14c27e71f214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#aa2bb13070ee5fe83b45f14c27e71f214">ClockSeed</a> ()</td></tr>
 <tr class="memdesc:aa2bb13070ee5fe83b45f14c27e71f214"><td class="mdescLeft">&#160;</td><td class="mdescRight">seeds the underlying random number generator used to drive all random number distributions with the current clock time  <a href="#aa2bb13070ee5fe83b45f14c27e71f214">More...</a><br /></td></tr>
 <tr class="separator:aa2bb13070ee5fe83b45f14c27e71f214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c21e1faa4b2b5a33741985bbaaba3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#a4aee11bf4a711d3d2e94e4a09a717ed7">DoubleDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e">DoubleDist</a> (double min, double max)</td></tr>
-<tr class="memdesc:a86c21e1faa4b2b5a33741985bbaaba3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>)  <a href="#a86c21e1faa4b2b5a33741985bbaaba3e">More...</a><br /></td></tr>
-<tr class="separator:a86c21e1faa4b2b5a33741985bbaaba3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef0875ed979ffd5ffec57a3a919a051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#aa34a1eeb1dff8f97af3fccf32831831e">GaussianDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a7ef0875ed979ffd5ffec57a3a919a051">GaussianDist</a> (double mean, double sigma)</td></tr>
-<tr class="memdesc:a7ef0875ed979ffd5ffec57a3a919a051"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em>  <a href="#a7ef0875ed979ffd5ffec57a3a919a051">More...</a><br /></td></tr>
-<tr class="separator:a7ef0875ed979ffd5ffec57a3a919a051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a719c3a193fd6a4cb77f98e869c758672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#aca6df8e5eccce199002746ca5a198630">IntDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a719c3a193fd6a4cb77f98e869c758672">IntDist</a> (int min, int max)</td></tr>
-<tr class="memdesc:a719c3a193fd6a4cb77f98e869c758672"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7" title="returns a functor that provides a uniform distribution of small integers in the range [min...">SmallIntDist()</a> may be used instead  <a href="#a719c3a193fd6a4cb77f98e869c758672">More...</a><br /></td></tr>
-<tr class="separator:a719c3a193fd6a4cb77f98e869c758672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968feabd6b20f6b2d718855b7b387197"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a968feabd6b20f6b2d718855b7b387197">RandDouble</a> (double min, double max)</td></tr>
 <tr class="memdesc:a968feabd6b20f6b2d718855b7b387197"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>)  <a href="#a968feabd6b20f6b2d718855b7b387197">More...</a><br /></td></tr>
 <tr class="separator:a968feabd6b20f6b2d718855b7b387197"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -101,28 +104,56 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2c089a167c2556296f2ef56150f2e046"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em>  <a href="#a2c089a167c2556296f2ef56150f2e046">More...</a><br /></td></tr>
 <tr class="separator:a2c089a167c2556296f2ef56150f2e046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df3b35199ea60565c4bb0be7b6c0848"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a7df3b35199ea60565c4bb0be7b6c0848">RandInt</a> (int min, int max)</td></tr>
-<tr class="memdesc:a7df3b35199ea60565c4bb0be7b6c0848"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded" title="returns an int from a uniform distribution of small integers in the range [min, max]; if the integers...">RandSmallInt()</a> may be used instead  <a href="#a7df3b35199ea60565c4bb0be7b6c0848">More...</a><br /></td></tr>
+<tr class="memdesc:a7df3b35199ea60565c4bb0be7b6c0848"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>];  <a href="#a7df3b35199ea60565c4bb0be7b6c0848">More...</a><br /></td></tr>
 <tr class="separator:a7df3b35199ea60565c4bb0be7b6c0848"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab978e188a129bd4918237c35f12d992b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#ab978e188a129bd4918237c35f12d992b">RandSmallInt</a> (int min, int max)</td></tr>
-<tr class="memdesc:ab978e188a129bd4918237c35f12d992b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an int from a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16" title="returns an int from a uniform distribution of integers in the range [min, max]; if the integers desir...">RandInt()</a> instead  <a href="#ab978e188a129bd4918237c35f12d992b">More...</a><br /></td></tr>
-<tr class="separator:ab978e188a129bd4918237c35f12d992b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f6620276b23302318a58543e88c399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#ae4f6620276b23302318a58543e88c399">RandomShuffle</a> (std::vector&lt; bool &gt; &amp;c)</td></tr>
+<tr class="memdesc:ae4f6620276b23302318a58543e88c399"><td class="mdescLeft">&#160;</td><td class="mdescRight">shuffles contents of container  <a href="#ae4f6620276b23302318a58543e88c399">More...</a><br /></td></tr>
+<tr class="separator:ae4f6620276b23302318a58543e88c399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b686cde441bac9f237b96500ca69a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a69b686cde441bac9f237b96500ca69a0">RandomShuffle</a> (std::vector&lt; int &gt; &amp;c)</td></tr>
+<tr class="separator:a69b686cde441bac9f237b96500ca69a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f865879216fa33e28666adb69c70e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a58f865879216fa33e28666adb69c70e2">RandZeroToOne</a> ()</td></tr>
 <tr class="memdesc:a58f865879216fa33e28666adb69c70e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a double from a uniform distribution of doubles in the range [0.0, 1.0)  <a href="#a58f865879216fa33e28666adb69c70e2">More...</a><br /></td></tr>
 <tr class="separator:a58f865879216fa33e28666adb69c70e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a576fe3f301419e355d3cef0d93f52dea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#a576fe3f301419e355d3cef0d93f52dea">Seed</a> (unsigned int seed)</td></tr>
 <tr class="memdesc:a576fe3f301419e355d3cef0d93f52dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">seeds the underlying random number generator used to drive all random number distributions  <a href="#a576fe3f301419e355d3cef0d93f52dea">More...</a><br /></td></tr>
 <tr class="separator:a576fe3f301419e355d3cef0d93f52dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad684e1261da0cca745e098039d9f73f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#a5d8e1e9d4af1678d05d189ef094e9560">SmallIntDistType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Random_8cpp.html#ad684e1261da0cca745e098039d9f73f4">SmallIntDist</a> (int min, int max)</td></tr>
-<tr class="memdesc:ad684e1261da0cca745e098039d9f73f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a functor that provides a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672" title="returns a functor that provides a uniform distribution of integers in the range [min, max]; if the integers desired are smaller than 10000, SmallIntDist() may be used instead ">IntDist()</a> instead  <a href="#ad684e1261da0cca745e098039d9f73f4">More...</a><br /></td></tr>
-<tr class="separator:ad684e1261da0cca745e098039d9f73f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:addd3cf38900687f196f83118c03bf31b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8h.html#a29db88fbfdb7c14d2957e9f0369b5f55">GeneratorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a></td></tr>
+<tr class="memitem:addd3cf38900687f196f83118c03bf31b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Random_8cpp.html#aea48fe863e3f7d0da828a62384fe7c14">GeneratorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a> {2462343}</td></tr>
 <tr class="separator:addd3cf38900687f196f83118c03bf31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9f8cb68d55b59b5d09d95a3a7ebb1ec"><td class="memItemLeft" align="right" valign="top">static boost::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a></td></tr>
-<tr class="separator:af9f8cb68d55b59b5d09d95a3a7ebb1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ffbd9224e66162220d7255bec7e364b"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a></td></tr>
+<tr class="separator:a8ffbd9224e66162220d7255bec7e364b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aea48fe863e3f7d0da828a62384fe7c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea48fe863e3f7d0da828a62384fe7c14">&#9670;&nbsp;</a></span>GeneratorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::mt19937 <a class="el" href="Random_8cpp.html#aea48fe863e3f7d0da828a62384fe7c14">GeneratorType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35ba3251eeb5d4705554f998d2d45f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ba3251eeb5d4705554f998d2d45f01">&#9670;&nbsp;</a></span>lock_guard</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::lock_guard&lt;std::mutex&gt; <a class="el" href="Random_8cpp.html#a35ba3251eeb5d4705554f998d2d45f01">lock_guard</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa2bb13070ee5fe83b45f14c27e71f214"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2bb13070ee5fe83b45f14c27e71f214">&#9670;&nbsp;</a></span>ClockSeed()</h2>
@@ -141,111 +172,9 @@ Variables</h2></td></tr>
 
 <p>seeds the underlying random number generator used to drive all random number distributions with the current clock time </p>
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, and <a class="el" href="structGalaxySetupData.html#a2bed73541e9b2da3bb3ed5f44a6a95fe">GalaxySetupData::SetSeed()</a>.</p>
-
-</div>
-</div>
-<a id="a86c21e1faa4b2b5a33741985bbaaba3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86c21e1faa4b2b5a33741985bbaaba3e">&#9670;&nbsp;</a></span>DoubleDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Random_8h.html#a4aee11bf4a711d3d2e94e4a09a717ed7">DoubleDistType</a> DoubleDist </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a functor that provides a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>) </p>
-
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Random_8h.html#a994725c7132152ece4dfff0bccdfc6a8">RandDouble()</a>, and <a class="el" href="Random_8h.html#a5597841773d936e7f8ba2ee2c15d9acc">RandZeroToOne()</a>.</p>
-
-</div>
-</div>
-<a id="a7ef0875ed979ffd5ffec57a3a919a051"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ef0875ed979ffd5ffec57a3a919a051">&#9670;&nbsp;</a></span>GaussianDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Random_8h.html#aa34a1eeb1dff8f97af3fccf32831831e">GaussianDistType</a> GaussianDist </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>mean</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sigma</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a functor that provides a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em> </p>
-
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Random_8h.html#a78b91c62340fcd743eb74143b414bc09">RandGaussian()</a>.</p>
-
-</div>
-</div>
-<a id="a719c3a193fd6a4cb77f98e869c758672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a719c3a193fd6a4cb77f98e869c758672">&#9670;&nbsp;</a></span>IntDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Random_8h.html#aca6df8e5eccce199002746ca5a198630">IntDistType</a> IntDist </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a functor that provides a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#a101f6c591b561b1d153116c68fba30d7" title="returns a functor that provides a uniform distribution of small integers in the range [min...">SmallIntDist()</a> may be used instead </p>
-
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16">RandInt()</a>.</p>
 
 </div>
 </div>
@@ -277,7 +206,7 @@ Variables</h2></td></tr>
 
 <p>returns a double from a uniform distribution of doubles in the range [<em>min</em>, <em>max</em>) </p>
 
-<p class="reference">References <a class="el" href="Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e">DoubleDist()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="structValueRef_1_1Operation.html#a37ad0ffbd8e24a8b5246f215cac485eb">ValueRef::Operation&lt; T &gt;::EvalImpl()</a>, and <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>.</p>
 
@@ -311,7 +240,7 @@ Variables</h2></td></tr>
 
 <p>returns a double from a Gaussian (normal) distribution of doubles centered around <em>mean</em>, with standard deviation <em>sigma</em> </p>
 
-<p class="reference">References <a class="el" href="Random_8cpp.html#a7ef0875ed979ffd5ffec57a3a919a051">GaussianDist()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet::Planet()</a>, and <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>.</p>
 
@@ -343,45 +272,55 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are smaller than 10000, <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded" title="returns an int from a uniform distribution of small integers in the range [min, max]; if the integers...">RandSmallInt()</a> may be used instead </p>
+<p>returns an int from a uniform distribution of integers in the range [<em>min</em>, <em>max</em>]; </p>
 
-<p class="reference">References <a class="el" href="Random_8cpp.html#a719c3a193fd6a4cb77f98e869c758672">IntDist()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Operation.html#a8375c0d6188b3e59a920741a7e800b29">ValueRef::Operation&lt; T &gt;::EvalImpl()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ad184970170c877574e529eb194e2b712">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::GetShuffledValidAttackerIDs()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a6cc78b85987905ceac6c23971f619737">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1Operation.html#ab91c98ff9113df4a2784a442033b904a">ValueRef::Operation&lt; T &gt;::EvalImpl()</a>, <a class="el" href="classEffect_1_1CreateSystem.html#a87a1e060a9a7ac64961d674150a2ba55">Effect::CreateSystem::Execute()</a>, <a class="el" href="classEffect_1_1SetDestination.html#addd6d6f2d4c4f581125d9c76de016c03">Effect::SetDestination::Execute()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a846fe22c382e2d5eeb795943bd98d53a">anonymous_namespace{ServerFSM.cpp}::GenerateEmpireName()</a>, <a class="el" href="classClientUI.html#a25fc94252605a231582e19275e7e3227">ClientUI::GetRandomTexture()</a>, <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="Ship_8h.html#a048875644b724117442d869799c89c2b">NewMonsterName()</a>, <a class="el" href="classEmpire.html#aa537f012aeeb201d992ab16e81a02a50">Empire::NewShipName()</a>, <a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">IDAllocator::ObfuscateBeforeSerialization()</a>, <a class="el" href="classSpeciesManager.html#a1dd08977f5ea67e2024926dc591be251">SpeciesManager::RandomPlayableSpeciesName()</a>, <a class="el" href="classSpeciesManager.html#a56923ac25a9702c1b8789eba34843f68">SpeciesManager::RandomSpeciesName()</a>, <a class="el" href="classRotatingPlanetControl.html#ae3d247ed1faea65283b37ada282124de">RotatingPlanetControl::Refresh()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#a65424d3050e1ba48c880b07eea7e30a1">SidePanel::PlanetPanel::RefreshPlanetGraphic()</a>, <a class="el" href="structGalaxySetupData.html#a2bed73541e9b2da3bb3ed5f44a6a95fe">GalaxySetupData::SetSeed()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a6cc78b85987905ceac6c23971f619737">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
 
 </div>
 </div>
-<a id="ab978e188a129bd4918237c35f12d992b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab978e188a129bd4918237c35f12d992b">&#9670;&nbsp;</a></span>RandSmallInt()</h2>
+<a id="ae4f6620276b23302318a58543e88c399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f6620276b23302318a58543e88c399">&#9670;&nbsp;</a></span>RandomShuffle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int RandSmallInt </td>
+          <td class="memname">void RandomShuffle </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::vector&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns an int from a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a5ecd7de2046c9c73673bfb6c0e88ef16" title="returns an int from a uniform distribution of integers in the range [min, max]; if the integers desir...">RandInt()</a> instead </p>
+<p>shuffles contents of container </p>
 
-<p class="reference">References <a class="el" href="Random_8cpp.html#ad684e1261da0cca745e098039d9f73f4">SmallIntDist()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a09bca70068ae22024856a618551b9581">Condition::anonymous_namespace{Conditions.cpp}::CustomRandInt()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae2216bb1a7027ad6b5b8ae9c6b38ed8b">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1Operation.html#ab91c98ff9113df4a2784a442033b904a">ValueRef::Operation&lt; T &gt;::EvalImpl()</a>, <a class="el" href="classEffect_1_1CreateSystem.html#a87a1e060a9a7ac64961d674150a2ba55">Effect::CreateSystem::Execute()</a>, <a class="el" href="classEffect_1_1SetDestination.html#addd6d6f2d4c4f581125d9c76de016c03">Effect::SetDestination::Execute()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a846fe22c382e2d5eeb795943bd98d53a">anonymous_namespace{ServerFSM.cpp}::GenerateEmpireName()</a>, <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="Ship_8h.html#a048875644b724117442d869799c89c2b">NewMonsterName()</a>, <a class="el" href="classEmpire.html#aa537f012aeeb201d992ab16e81a02a50">Empire::NewShipName()</a>, <a class="el" href="classSpeciesManager.html#a1dd08977f5ea67e2024926dc591be251">SpeciesManager::RandomPlayableSpeciesName()</a>, <a class="el" href="classSpeciesManager.html#a56923ac25a9702c1b8789eba34843f68">SpeciesManager::RandomSpeciesName()</a>, <a class="el" href="classRotatingPlanetControl.html#ae3d247ed1faea65283b37ada282124de">RotatingPlanetControl::Refresh()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#a65424d3050e1ba48c880b07eea7e30a1">SidePanel::PlanetPanel::RefreshPlanetGraphic()</a>, and <a class="el" href="structGalaxySetupData.html#a2bed73541e9b2da3bb3ed5f44a6a95fe">GalaxySetupData::SetSeed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ad184970170c877574e529eb194e2b712">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::GetShuffledValidAttackerIDs()</a>, and <a class="el" href="namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a92f1e27dcd3b63268002932eeb2fd889">Condition::anonymous_namespace{Conditions.cpp}::TransferRandomObjects()</a>.</p>
+
+</div>
+</div>
+<a id="a69b686cde441bac9f237b96500ca69a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b686cde441bac9f237b96500ca69a0">&#9670;&nbsp;</a></span>RandomShuffle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RandomShuffle </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 </div>
 </div>
@@ -402,7 +341,7 @@ Variables</h2></td></tr>
 
 <p>returns a double from a uniform distribution of doubles in the range [0.0, 1.0) </p>
 
-<p class="reference">References <a class="el" href="Random_8cpp.html#a86c21e1faa4b2b5a33741985bbaaba3e">DoubleDist()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="UniverseGenerator_8h.html#aea3300a9c631076af3ccc43f7cfd556c">InitEmpires()</a>, <a class="el" href="structCondition_1_1Chance.html#a8c9f3c1da6efe88a6c7df25ab97f166d">Condition::Chance::Match()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1ChanceSimpleMatch.html#aea0bcea0e8f2be5f1d2550ff81f4cab1">Condition::anonymous_namespace{Conditions.cpp}::ChanceSimpleMatch::operator()()</a>, <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet::Planet()</a>, <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>, <a class="el" href="classPlanet.html#a692842a462e2cf8908d9a633d66a6ff4">Planet::SetHighAxialTilt()</a>, and <a class="el" href="UniverseGenerator_8h.html#a45c268357658c98a08eeebffba355455">SetNativePopulationValues()</a>.</p>
 
@@ -426,43 +365,9 @@ Variables</h2></td></tr>
 
 <p>seeds the underlying random number generator used to drive all random number distributions </p>
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#a8ffbd9224e66162220d7255bec7e364b">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a3ec85dcd5573036ea8f6fc2b2ef4f7ff">anonymous_namespace{ServerApp.cpp}::EnemyId()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>, <a class="el" href="structIdle.html#a49993ba019716411fc49789cc5091818">Idle::react()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, and <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>.</p>
-
-</div>
-</div>
-<a id="ad684e1261da0cca745e098039d9f73f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad684e1261da0cca745e098039d9f73f4">&#9670;&nbsp;</a></span>SmallIntDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Random_8h.html#a5d8e1e9d4af1678d05d189ef094e9560">SmallIntDistType</a> SmallIntDist </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>returns a functor that provides a uniform distribution of small integers in the range [<em>min</em>, <em>max</em>]; if the integers desired are larger than 10000, use <a class="el" href="Random_8h.html#a719c3a193fd6a4cb77f98e869c758672" title="returns a functor that provides a uniform distribution of integers in the range [min, max]; if the integers desired are smaller than 10000, SmallIntDist() may be used instead ">IntDist()</a> instead </p>
-
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b">anonymous_namespace{Random.cpp}::gen</a>, and <a class="el" href="namespaceanonymous__namespace_02Random_8cpp_03.html#af9f8cb68d55b59b5d09d95a3a7ebb1ec">anonymous_namespace{Random.cpp}::s_prng_mutex</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classIDAllocator.html#afa274adad372b06131e8fe8201a42e7d">IDAllocator::ObfuscateBeforeSerialization()</a>, <a class="el" href="classClientUI.html#a9da49bd0e6f88630c83e0bc2ac7af63d">ClientUI::PrefixedTexturesAndDist()</a>, and <a class="el" href="Random_8h.html#af864dd7b498310fc3757473df96b7ded">RandSmallInt()</a>.</p>
 
 </div>
 </div>
