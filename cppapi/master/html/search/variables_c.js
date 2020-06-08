@@ -1455,6 +1455,7 @@ var searchData=
   ['macro_5fkey',['MACRO_KEY',['../namespaceparse.html#a7e2057628216984fb1c4d6fce8049d21',1,'parse']]],
   ['macro_5ftext',['MACRO_TEXT',['../namespaceparse.html#a07c4958b28ed4d88d53f60ac426c70db',1,'parse']]],
   ['magic_5fnumber',['magic_number',['../structSaveGamePreviewData.html#ac8663572e3868a589239a9e01c7be308',1,'SaveGamePreviewData']]],
+  ['main_5fpanel_5fmin_5fsize',['MAIN_PANEL_MIN_SIZE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a05962be3f5172c572186331b66e3e603',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['main_5fplayer_5fempire_5fcolour',['main_player_empire_colour',['../structSaveGamePreviewData.html#a375a356ecd004b625951baee3bfa3ac5',1,'SaveGamePreviewData']]],
   ['main_5fplayer_5fempire_5fname',['main_player_empire_name',['../structSaveGamePreviewData.html#a38e564dfbd9617c362d01112acd1c18b',1,'SaveGamePreviewData']]],
   ['main_5fplayer_5fname',['main_player_name',['../structSaveGamePreviewData.html#a53b56a15cde0455ef6dbc9a91565e0a8',1,'SaveGamePreviewData']]],

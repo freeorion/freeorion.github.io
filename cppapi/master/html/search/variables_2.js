@@ -1,6 +1,7 @@
 var searchData=
 [
   ['bases_5flist_5fbox_5fdrop_5ftype',['BASES_LIST_BOX_DROP_TYPE',['../classBasesListBox.html#a23b2d468e4ee4b88caafb1c344707e07',1,'BasesListBox']]],
+  ['bases_5fmin_5fsize',['BASES_MIN_SIZE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#aee3e1b31a84d394607a500a7bfdd2878',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../Ship_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
   ['beginner',['BEGINNER',['../Enums_8h.html#a11dca09fa4060634f889cb568180766b',1,'Enums.h']]],
   ['bin_5fdir',['bin_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0',1,'anonymous_namespace{Directories.cpp}']]],

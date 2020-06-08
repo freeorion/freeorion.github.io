@@ -1461,6 +1461,7 @@ var searchData=
   ['main',['main',['../camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;camain.cpp'],['../chmain_8mm.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;chmain.mm'],['../dmain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;dmain.cpp']]],
   ['main_5fmenu_5fheight',['MAIN_MENU_HEIGHT',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#a5e3aea09427d94e38e5650e1d2905dfc',1,'anonymous_namespace{IntroScreen.cpp}']]],
   ['main_5fmenu_5fwidth',['MAIN_MENU_WIDTH',['../namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#aaaf09e7b10634de7303ae0fb295035db',1,'anonymous_namespace{IntroScreen.cpp}']]],
+  ['main_5fpanel_5fmin_5fsize',['MAIN_PANEL_MIN_SIZE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a05962be3f5172c572186331b66e3e603',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['main_5fplayer_5fempire_5fcolour',['main_player_empire_colour',['../structSaveGamePreviewData.html#a375a356ecd004b625951baee3bfa3ac5',1,'SaveGamePreviewData']]],
   ['main_5fplayer_5fempire_5fname',['main_player_empire_name',['../structSaveGamePreviewData.html#a38e564dfbd9617c362d01112acd1c18b',1,'SaveGamePreviewData']]],
   ['main_5fplayer_5fname',['main_player_name',['../structSaveGamePreviewData.html#a53b56a15cde0455ef6dbc9a91565e0a8',1,'SaveGamePreviewData']]],
