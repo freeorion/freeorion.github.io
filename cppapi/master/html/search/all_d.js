@@ -1521,6 +1521,7 @@ var searchData=
   ['mean',['MEAN',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5cd50ab9fef5e400ee3bf31e39d026dc',1,'ValueRef']]],
   ['medium',['MEDIUM',['../classFleetButton.html#a811dc066057f740e7a00f0b5803f5148ac87f3be66ffc3c0d4249f1c2cc5f3cce',1,'FleetButton']]],
   ['mediumfleetbuttonzoomthreshold',['MediumFleetButtonZoomThreshold',['../classClientUI.html#a833c2485fb4da8e057ec65afc627051b',1,'ClientUI']]],
+  ['menu_5ficon_5fsize',['MENU_ICON_SIZE',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a7a28ee11477f07f69f07dd11f9a408b6',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['mergefleetsintofleet',['MergeFleetsIntoFleet',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a2e65eb4ceaa59baebec4d4cee0d4263a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['message',['Message',['../classMessage.html',1,'Message'],['../classMessage.html#a4fc4f717b634e66070366cb7722d7761',1,'Message::Message()'],['../classMessage.html#afaa92f6c9528152a81d992ef88f42852',1,'Message::Message(MessageType message_type, const std::string &amp;text)']]],
   ['message_2ecpp',['Message.cpp',['../Message_8cpp.html',1,'']]],

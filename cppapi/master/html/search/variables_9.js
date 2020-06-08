@@ -1,6 +1,7 @@
 var searchData=
 [
   ['icon',['icon',['../structEncyclopediaArticle.html#af5964a2997fe64ba230d3e8aed42ec90',1,'EncyclopediaArticle']]],
+  ['icon_5fsize',['ICON_SIZE',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a6eb8e82581bb06f40f7a197a8d800ebe',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['id_5fempire_5flocation_5frule',['id_empire_location_rule',['../structparse_1_1double__complex__parser__grammar.html#aee55fba452e4857e7fa1d0db81054e21',1,'parse::double_complex_parser_grammar']]],
   ['if_5fsource_5fis_5fplanet_5fthen_5fships_5felse_5fall',['if_source_is_planet_then_ships_else_all',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a535dedff40b077a8ee7110b4017ac9ed',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['imagechangedsignal',['ImageChangedSignal',['../classGalaxySetupPanel.html#a6cd4d64795af2a99eadb6b650163ca33',1,'GalaxySetupPanel']]],
