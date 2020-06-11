@@ -44,6 +44,7 @@ var searchData=
   ['empiregetmeter',['EmpireGetMeter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aca84eedb92bc7fd54be3d72177ed01fd',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['empty_5farticle',['empty_article',['../classEncyclopedia.html#a68bc18556715499d11c429d148de7012',1,'Encyclopedia']]],
   ['empty_5fcombat_5finfo',['EMPTY_COMBAT_INFO',['../ScriptingContext_8h.html#a796e7b9bf41542925ea45177aba31fc6',1,'ScriptingContext.h']]],
+  ['empty_5felement',['EMPTY_ELEMENT',['../namespaceanonymous__namespace_02InfluenceQueue_8cpp_03.html#a900f57b475ef4db7b13cc04c37ec5cd7',1,'anonymous_namespace{InfluenceQueue.cpp}']]],
   ['empty_5fint_5ffloat_5fmap',['EMPTY_INT_FLOAT_MAP',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#ac8f5c0292080d56a1079afebac59980a',1,'anonymous_namespace{Supply.cpp}']]],
   ['empty_5fint_5fpair_5fset',['EMPTY_INT_PAIR_SET',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#a80156d0946fed4b940a55e7fa5693c8e',1,'anonymous_namespace{Supply.cpp}']]],
   ['empty_5fint_5fset',['EMPTY_INT_SET',['../namespaceanonymous__namespace_02Supply_8cpp_03.html#ae5d260cd06103063cf0386de2e94cd16',1,'anonymous_namespace{Supply.cpp}']]],
