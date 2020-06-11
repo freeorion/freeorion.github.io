@@ -69,79 +69,82 @@ $(function() {
 <div class="title">Directories.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;boost/filesystem/path.hpp&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;boost/filesystem/path.hpp&gt;</code><br />
+<code>#include &lt;GG/Enum.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="Export_8h.html">Export.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="EnumsFwd_8h.html">../universe/EnumsFwd.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0103769c4b31bdb9699d96756259fdd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9">CompleteXDGMigration</a> ()</td></tr>
-<tr class="memdesc:a0103769c4b31bdb9699d96756259fdd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must be called before any Get*Dir function is called.  <a href="#a0103769c4b31bdb9699d96756259fdd9">More...</a><br /></td></tr>
+<tr class="memdesc:a0103769c4b31bdb9699d96756259fdd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Migrates outstating user configuration and data to a XDG Base Diretory spec compliant directory.  <a href="#a0103769c4b31bdb9699d96756259fdd9">More...</a><br /></td></tr>
 <tr class="separator:a0103769c4b31bdb9699d96756259fdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5d6594d275c1d145ddec4540d0bb4c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ab5d6594d275c1d145ddec4540d0bb4c6">FilenameTimestamp</a> ()</td></tr>
-<tr class="memdesc:ab5d6594d275c1d145ddec4540d0bb4c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current timestamp in a form that can be used in file names.  <a href="#ab5d6594d275c1d145ddec4540d0bb4c6">More...</a><br /></td></tr>
-<tr class="separator:ab5d6594d275c1d145ddec4540d0bb4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6ad25f0220541fe057b466912fecc04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ab6ad25f0220541fe057b466912fecc04">FilenameToPath</a> (const std::string &amp;path_str)</td></tr>
-<tr class="memdesc:ab6ad25f0220541fe057b466912fecc04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts UTF-8 string into a path, doing any required wide-character conversions as determined by the operating system / filesystem.  <a href="#ab6ad25f0220541fe057b466912fecc04">More...</a><br /></td></tr>
-<tr class="separator:ab6ad25f0220541fe057b466912fecc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb6f60d24dc85fe732d01124e080a44d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#afb6f60d24dc85fe732d01124e080a44d">GetBinDir</a> ()</td></tr>
-<tr class="memdesc:afb6f60d24dc85fe732d01124e080a44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where the binaries are located.  <a href="#afb6f60d24dc85fe732d01124e080a44d">More...</a><br /></td></tr>
-<tr class="separator:afb6f60d24dc85fe732d01124e080a44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32fb8e93e665f9e8cf2050d7ec2ade6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a32fb8e93e665f9e8cf2050d7ec2ade6b">GetConfigPath</a> ()</td></tr>
-<tr class="memdesc:a32fb8e93e665f9e8cf2050d7ec2ade6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path to the configfile.  <a href="#a32fb8e93e665f9e8cf2050d7ec2ade6b">More...</a><br /></td></tr>
-<tr class="separator:a32fb8e93e665f9e8cf2050d7ec2ade6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae081ba83fc337143e914cdff76078077"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath</a> (PathType path_type)</td></tr>
-<tr class="memdesc:ae081ba83fc337143e914cdff76078077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns path currently defined for <code>path_type</code>.  <a href="#ae081ba83fc337143e914cdff76078077">More...</a><br /></td></tr>
-<tr class="separator:ae081ba83fc337143e914cdff76078077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d653302271d7920683ebf5971c0f90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ac3d653302271d7920683ebf5971c0f90">GetPath</a> (const std::string &amp;path_string)</td></tr>
-<tr class="memdesc:ac3d653302271d7920683ebf5971c0f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns path for path type cast from <code>path_string</code>.  <a href="#ac3d653302271d7920683ebf5971c0f90">More...</a><br /></td></tr>
-<tr class="separator:ac3d653302271d7920683ebf5971c0f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af155aae1c0389a5b0dded41314de3d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#af155aae1c0389a5b0dded41314de3d64">GetPersistentConfigPath</a> ()</td></tr>
-<tr class="memdesc:af155aae1c0389a5b0dded41314de3d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path to the configfile.  <a href="#af155aae1c0389a5b0dded41314de3d64">More...</a><br /></td></tr>
-<tr class="separator:af155aae1c0389a5b0dded41314de3d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef6893515ec8d151ba5bceb7001f937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7ef6893515ec8d151ba5bceb7001f937">GetResourceDir</a> ()</td></tr>
-<tr class="memdesc:a7ef6893515ec8d151ba5bceb7001f937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory that contains all game content files, such as string table files, in-game tech, building, special, etc.  <a href="#a7ef6893515ec8d151ba5bceb7001f937">More...</a><br /></td></tr>
-<tr class="separator:a7ef6893515ec8d151ba5bceb7001f937"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa957484f40aa4a5e48123f27b8e56a7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aa957484f40aa4a5e48123f27b8e56a7d">GetRootDataDir</a> ()</td></tr>
-<tr class="memdesc:aa957484f40aa4a5e48123f27b8e56a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the root data directory of FreeOrion.  <a href="#aa957484f40aa4a5e48123f27b8e56a7d">More...</a><br /></td></tr>
-<tr class="separator:aa957484f40aa4a5e48123f27b8e56a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a387c99073cf96552aa829fd3fb1a31b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a387c99073cf96552aa829fd3fb1a31b8">GetSaveDir</a> ()</td></tr>
-<tr class="memdesc:a387c99073cf96552aa829fd3fb1a31b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where save files are located.  <a href="#a387c99073cf96552aa829fd3fb1a31b8">More...</a><br /></td></tr>
-<tr class="separator:a387c99073cf96552aa829fd3fb1a31b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0596d3c8e7c1202d4eeade1179fc3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#abd0596d3c8e7c1202d4eeade1179fc3b">GetServerSaveDir</a> ()</td></tr>
-<tr class="memdesc:abd0596d3c8e7c1202d4eeade1179fc3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where server save files are located.  <a href="#abd0596d3c8e7c1202d4eeade1179fc3b">More...</a><br /></td></tr>
-<tr class="separator:abd0596d3c8e7c1202d4eeade1179fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20aeb13e33880e61506b8bf24af5d820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir</a> ()</td></tr>
-<tr class="memdesc:a20aeb13e33880e61506b8bf24af5d820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where FreeOrion should store user specific configuration data , like the configuration file.  <a href="#a20aeb13e33880e61506b8bf24af5d820">More...</a><br /></td></tr>
-<tr class="separator:a20aeb13e33880e61506b8bf24af5d820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c8b3b933b0c21fe0dacfa9a6830a52f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f">GetUserDataDir</a> ()</td></tr>
-<tr class="memdesc:a3c8b3b933b0c21fe0dacfa9a6830a52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where FreeOrion should store user specific data, like the savegames.  <a href="#a3c8b3b933b0c21fe0dacfa9a6830a52f">More...</a><br /></td></tr>
-<tr class="separator:a3c8b3b933b0c21fe0dacfa9a6830a52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7023c9206873a0c9c066a9beb6de7b3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7023c9206873a0c9c066a9beb6de7b3c">InitDirs</a> (const std::string &amp;argv0)</td></tr>
-<tr class="memdesc:a7023c9206873a0c9c066a9beb6de7b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function completes the migration of directories to the XDG specified location by updating the save.path option to the new location after the option is loaded from XML files.  <a href="#a7023c9206873a0c9c066a9beb6de7b3c">More...</a><br /></td></tr>
-<tr class="separator:a7023c9206873a0c9c066a9beb6de7b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a918c9156b3851411104d7d6432351f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a9a918c9156b3851411104d7d6432351f">IsExistingFile</a> (const boost::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:a9a918c9156b3851411104d7d6432351f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if path exists and is a regular file.  <a href="#a9a918c9156b3851411104d7d6432351f">More...</a><br /></td></tr>
-<tr class="separator:a9a918c9156b3851411104d7d6432351f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac83b7bbd3cc89ee9cf00a245cb587013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ac83b7bbd3cc89ee9cf00a245cb587013">IsFOCScript</a> (const boost::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ac83b7bbd3cc89ee9cf00a245cb587013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given <code>path</code> referrs to a FO content script and false otherwise.  <a href="#ac83b7bbd3cc89ee9cf00a245cb587013">More...</a><br /></td></tr>
-<tr class="separator:ac83b7bbd3cc89ee9cf00a245cb587013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7276047065b0c2c6ac5ea2fe360501b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7276047065b0c2c6ac5ea2fe360501b2">IsInDir</a> (const boost::filesystem::path &amp;dir, const boost::filesystem::path &amp;test_dir)</td></tr>
-<tr class="memdesc:a7276047065b0c2c6ac5ea2fe360501b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the <code>test_dir</code> is in <code>dir</code> and <code>dir</code> is existing directory.  <a href="#a7276047065b0c2c6ac5ea2fe360501b2">More...</a><br /></td></tr>
-<tr class="separator:a7276047065b0c2c6ac5ea2fe360501b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a97c5c7ede44ff1f3b4c0c90e56a26baa">IsValidUTF8</a> (const std::string &amp;in)</td></tr>
-<tr class="memdesc:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the string <em>in</em> is valid UTF-8.  <a href="#a97c5c7ede44ff1f3b4c0c90e56a26baa">More...</a><br /></td></tr>
-<tr class="separator:a97c5c7ede44ff1f3b4c0c90e56a26baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1286960389fa09bab04c755276eaa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt; boost::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a3a1286960389fa09bab04c755276eaa6">ListDir</a> (const boost::filesystem::path &amp;path, std::function&lt; bool(const boost::filesystem::path &amp;)&gt; predicate=nullptr)</td></tr>
-<tr class="memdesc:a3a1286960389fa09bab04c755276eaa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of pathes within <code>path</code> including a recursive search though sub-dirs.  <a href="#a3a1286960389fa09bab04c755276eaa6">More...</a><br /></td></tr>
-<tr class="separator:a3a1286960389fa09bab04c755276eaa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3aca236790419c43975c50735c3dce0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ab3aca236790419c43975c50735c3dce0">PathToString</a> (const boost::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ab3aca236790419c43975c50735c3dce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a utf-8 string from the given filesystem path.  <a href="#ab3aca236790419c43975c50735c3dce0">More...</a><br /></td></tr>
-<tr class="separator:ab3aca236790419c43975c50735c3dce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade2f9f81693b103e2318e01c52872ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ade2f9f81693b103e2318e01c52872ad7">RelativePath</a> (const boost::filesystem::path &amp;from, const boost::filesystem::path &amp;to)</td></tr>
-<tr class="memdesc:ade2f9f81693b103e2318e01c52872ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to <em>to</em>, as it appears from <em>from</em>.  <a href="#ade2f9f81693b103e2318e01c52872ad7">More...</a><br /></td></tr>
-<tr class="separator:ade2f9f81693b103e2318e01c52872ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e0553e92a0e82de164e5a35cd7945d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a85e0553e92a0e82de164e5a35cd7945d">FilenameTimestamp</a> () -&gt; std::string</td></tr>
+<tr class="memdesc:a85e0553e92a0e82de164e5a35cd7945d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current timestamp in a form that can be used in file names.  <a href="#a85e0553e92a0e82de164e5a35cd7945d">More...</a><br /></td></tr>
+<tr class="separator:a85e0553e92a0e82de164e5a35cd7945d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc80f7622b53d77651ca59af04c87c92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#adc80f7622b53d77651ca59af04c87c92">FilenameToPath</a> (std::string const &amp;path_str) -&gt; boost::filesystem::path</td></tr>
+<tr class="memdesc:adc80f7622b53d77651ca59af04c87c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts UTF-8 string into a path, doing any required wide-character conversions as determined by the operating system / filesystem.  <a href="#adc80f7622b53d77651ca59af04c87c92">More...</a><br /></td></tr>
+<tr class="separator:adc80f7622b53d77651ca59af04c87c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ea4d8a53fdac8f4ad4fe8318a45036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a53ea4d8a53fdac8f4ad4fe8318a45036">GetBinDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a53ea4d8a53fdac8f4ad4fe8318a45036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where the binaries are located.  <a href="#a53ea4d8a53fdac8f4ad4fe8318a45036">More...</a><br /></td></tr>
+<tr class="separator:a53ea4d8a53fdac8f4ad4fe8318a45036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e70ff06c567acd04ddab241df98077c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7e70ff06c567acd04ddab241df98077c">GetConfigPath</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a7e70ff06c567acd04ddab241df98077c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path to the configfile.  <a href="#a7e70ff06c567acd04ddab241df98077c">More...</a><br /></td></tr>
+<tr class="separator:a7e70ff06c567acd04ddab241df98077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22f73ddfb118bc17b7455050b132955"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath</a> (PathType path_type) -&gt; boost::filesystem::path</td></tr>
+<tr class="memdesc:ad22f73ddfb118bc17b7455050b132955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns path currently defined for <code>path_type</code>.  <a href="#ad22f73ddfb118bc17b7455050b132955">More...</a><br /></td></tr>
+<tr class="separator:ad22f73ddfb118bc17b7455050b132955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeeebd0343a261d8784ddd1968d660eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aeeeebd0343a261d8784ddd1968d660eb">GetPath</a> (std::string const &amp;path_string) -&gt; boost::filesystem::path</td></tr>
+<tr class="memdesc:aeeeebd0343a261d8784ddd1968d660eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns path for path type cast from <code>path_string</code>.  <a href="#aeeeebd0343a261d8784ddd1968d660eb">More...</a><br /></td></tr>
+<tr class="separator:aeeeebd0343a261d8784ddd1968d660eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4d68d3d3acdfb93bd5b9867b6826f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aaa4d68d3d3acdfb93bd5b9867b6826f8">GetPersistentConfigPath</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:aaa4d68d3d3acdfb93bd5b9867b6826f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path to the configfile.  <a href="#aaa4d68d3d3acdfb93bd5b9867b6826f8">More...</a><br /></td></tr>
+<tr class="separator:aaa4d68d3d3acdfb93bd5b9867b6826f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaddc221610d7934d6147e29546c72d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aaaddc221610d7934d6147e29546c72d6">GetResourceDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:aaaddc221610d7934d6147e29546c72d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory that contains all game resources.  <a href="#aaaddc221610d7934d6147e29546c72d6">More...</a><br /></td></tr>
+<tr class="separator:aaaddc221610d7934d6147e29546c72d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe5432cbdd6e2dca4cbf43ae2e3349f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a2fe5432cbdd6e2dca4cbf43ae2e3349f">GetRootDataDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a2fe5432cbdd6e2dca4cbf43ae2e3349f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the root data directory of FreeOrion.  <a href="#a2fe5432cbdd6e2dca4cbf43ae2e3349f">More...</a><br /></td></tr>
+<tr class="separator:a2fe5432cbdd6e2dca4cbf43ae2e3349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b567c6a18e0d02d67f39906fd0deccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a5b567c6a18e0d02d67f39906fd0deccb">GetSaveDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a5b567c6a18e0d02d67f39906fd0deccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where save files are located.  <a href="#a5b567c6a18e0d02d67f39906fd0deccb">More...</a><br /></td></tr>
+<tr class="separator:a5b567c6a18e0d02d67f39906fd0deccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e7e674574b51ce31503a17e2759a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a80e7e674574b51ce31503a17e2759a9a">GetServerSaveDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a80e7e674574b51ce31503a17e2759a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where server save files are located.  <a href="#a80e7e674574b51ce31503a17e2759a9a">More...</a><br /></td></tr>
+<tr class="separator:a80e7e674574b51ce31503a17e2759a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6aad524730f38e9ab247a7d7a3e073f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#aa6aad524730f38e9ab247a7d7a3e073f">GetUserConfigDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:aa6aad524730f38e9ab247a7d7a3e073f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where FreeOrion store user configurations.  <a href="#aa6aad524730f38e9ab247a7d7a3e073f">More...</a><br /></td></tr>
+<tr class="separator:aa6aad524730f38e9ab247a7d7a3e073f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7aa9d303072dc4a1e8bec239cfa000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7a7aa9d303072dc4a1e8bec239cfa000">GetUserDataDir</a> () -&gt; boost::filesystem::path const</td></tr>
+<tr class="memdesc:a7a7aa9d303072dc4a1e8bec239cfa000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the directory where FreeOrion stores user specific data.  <a href="#a7a7aa9d303072dc4a1e8bec239cfa000">More...</a><br /></td></tr>
+<tr class="separator:a7a7aa9d303072dc4a1e8bec239cfa000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf0cfbceb31d90b1b68a8f7bf7f6a48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a4bf0cfbceb31d90b1b68a8f7bf7f6a48">GG_ENUM</a> (PathType, PATH_BINARY, PATH_RESOURCE, PATH_PYTHON, PATH_DATA_ROOT, PATH_DATA_USER, PATH_CONFIG, PATH_SAVE, PATH_TEMP, PATH_INVALID) <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto <a class="el" href="Directories_8cpp.html#af5c7daf9bf9bc9f5fa0669108415ca82">PathTypeToString</a>(PathType path_type) -&gt; std::string const &amp;</td></tr>
+<tr class="memdesc:a4bf0cfbceb31d90b1b68a8f7bf7f6a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of root directories.  <a href="#a4bf0cfbceb31d90b1b68a8f7bf7f6a48">More...</a><br /></td></tr>
+<tr class="separator:a4bf0cfbceb31d90b1b68a8f7bf7f6a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e44819b73b3e89290e25063bcc7efb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7e44819b73b3e89290e25063bcc7efb6">InitDirs</a> (std::string const &amp;argv0)</td></tr>
+<tr class="memdesc:a7e44819b73b3e89290e25063bcc7efb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the directories used by FreeOrion.  <a href="#a7e44819b73b3e89290e25063bcc7efb6">More...</a><br /></td></tr>
+<tr class="separator:a7e44819b73b3e89290e25063bcc7efb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a8a5f3f251e1028f4cc1a373e237ffa8a">IsExistingFile</a> (boost::filesystem::path const &amp;path) -&gt; bool</td></tr>
+<tr class="memdesc:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff path exists and is a regular file.  <a href="#a8a5f3f251e1028f4cc1a373e237ffa8a">More...</a><br /></td></tr>
+<tr class="separator:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7be1381fc2ae44cb5405aa464804f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#ad7be1381fc2ae44cb5405aa464804f57">IsFOCScript</a> (boost::filesystem::path const &amp;path) -&gt; bool</td></tr>
+<tr class="memdesc:ad7be1381fc2ae44cb5405aa464804f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given <code>path</code> referrs to a FO content script and false otherwise.  <a href="#ad7be1381fc2ae44cb5405aa464804f57">More...</a><br /></td></tr>
+<tr class="separator:ad7be1381fc2ae44cb5405aa464804f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a1757f2cf860bdc9fa6104fc6aaefe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a42a1757f2cf860bdc9fa6104fc6aaefe">IsInDir</a> (boost::filesystem::path const &amp;dir, boost::filesystem::path const &amp;test_dir) -&gt; bool</td></tr>
+<tr class="memdesc:a42a1757f2cf860bdc9fa6104fc6aaefe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the <code>test_dir</code> is in <code>dir</code> and <code>dir</code> is existing directory.  <a href="#a42a1757f2cf860bdc9fa6104fc6aaefe">More...</a><br /></td></tr>
+<tr class="separator:a42a1757f2cf860bdc9fa6104fc6aaefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c6c1739f0e5edbf0e847b5d30a5174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a28c6c1739f0e5edbf0e847b5d30a5174">ListDir</a> (boost::filesystem::path const &amp;path, std::function&lt; bool(boost::filesystem::path const &amp;)&gt; predicate=nullptr) -&gt; std::vector&lt; boost::filesystem::path &gt;</td></tr>
+<tr class="memdesc:a28c6c1739f0e5edbf0e847b5d30a5174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of pathes within <code>path</code> including a recursive search though sub-dirs.  <a href="#a28c6c1739f0e5edbf0e847b5d30a5174">More...</a><br /></td></tr>
+<tr class="separator:a28c6c1739f0e5edbf0e847b5d30a5174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a713143bcf5c92b0142f1a254c04d6a45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a713143bcf5c92b0142f1a254c04d6a45">PathToString</a> (boost::filesystem::path const &amp;path) -&gt; std::string</td></tr>
+<tr class="memdesc:a713143bcf5c92b0142f1a254c04d6a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an utf-8 encoded string from the given filesystem path.  <a href="#a713143bcf5c92b0142f1a254c04d6a45">More...</a><br /></td></tr>
+<tr class="separator:a713143bcf5c92b0142f1a254c04d6a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5baf3a57a90bae5b6ae099bffbf809d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a5baf3a57a90bae5b6ae099bffbf809d6">PathTypeStrings</a> () -&gt; std::vector&lt; std::string &gt; const &amp;</td></tr>
+<tr class="memdesc:a5baf3a57a90bae5b6ae099bffbf809d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of strings for all PathTypes.  <a href="#a5baf3a57a90bae5b6ae099bffbf809d6">More...</a><br /></td></tr>
+<tr class="separator:a5baf3a57a90bae5b6ae099bffbf809d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3aa13dc74e93ec213d5dbce8b4186f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a0d3aa13dc74e93ec213d5dbce8b4186f">RelativePath</a> (boost::filesystem::path const &amp;from, boost::filesystem::path const &amp;to) -&gt; boost::filesystem::path</td></tr>
+<tr class="memdesc:a0d3aa13dc74e93ec213d5dbce8b4186f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to <code>to</code>, as it appears from <code>from</code>.  <a href="#a0d3aa13dc74e93ec213d5dbce8b4186f">More...</a><br /></td></tr>
+<tr class="separator:a0d3aa13dc74e93ec213d5dbce8b4186f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a0103769c4b31bdb9699d96756259fdd9"></a>
@@ -159,26 +162,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function must be called before any Get*Dir function is called. </p>
-<p>It stores the current working directory as well as creating local directories if they do not yet exist. </p>
+<p>Migrates outstating user configuration and data to a XDG Base Diretory spec compliant directory. </p>
+<p>It stores the current working directory as well as creating local directories if they do not yet exist. </p><dl class="section note"><dt>Note</dt><dd>This function must be called before any Get*Dir function is called. </dd></dl>
 
-<p class="reference">References <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f">GetUserDataDir()</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
+<p class="reference">References <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
 </div>
 </div>
-<a id="ab5d6594d275c1d145ddec4540d0bb4c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5d6594d275c1d145ddec4540d0bb4c6">&#9670;&nbsp;</a></span>FilenameTimestamp()</h2>
+<a id="a85e0553e92a0e82de164e5a35cd7945d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e0553e92a0e82de164e5a35cd7945d">&#9670;&nbsp;</a></span>FilenameTimestamp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string FilenameTimestamp </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto FilenameTimestamp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  std::string</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -191,199 +194,217 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab6ad25f0220541fe057b466912fecc04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6ad25f0220541fe057b466912fecc04">&#9670;&nbsp;</a></span>FilenameToPath()</h2>
+<a id="adc80f7622b53d77651ca59af04c87c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc80f7622b53d77651ca59af04c87c92">&#9670;&nbsp;</a></span>FilenameToPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path FilenameToPath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto FilenameToPath </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>path_str</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Converts UTF-8 string into a path, doing any required wide-character conversions as determined by the operating system / filesystem. </p>
 
-<p class="reference">Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">SaveFileDialog::CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="Directories_8h.html#ac3d653302271d7920683ebf5971c0f90">GetPath()</a>, <a class="el" href="Directories_8h.html#a7ef6893515ec8d151ba5bceb7001f937">GetResourceDir()</a>, <a class="el" href="Directories_8h.html#a387c99073cf96552aa829fd3fb1a31b8">GetSaveDir()</a>, <a class="el" href="Directories_8h.html#abd0596d3c8e7c1202d4eeade1179fc3b">GetServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a715fd94bb37e9c0d48614b244bcacf9c">anonymous_namespace{SitRepPanel.cpp}::HandleLinkClick()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a6fc0b1ee16aab6cfeae30d6cc698626e">EncyclopediaDetailPanel::HandleLinkClick()</a>, <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">StringTable::Load()</a>, <a class="el" href="SaveLoad_8h.html#a1b558bcba5800fd0a92d65846a76bc9a">LoadEmpireSaveGameData()</a>, <a class="el" href="SaveLoad_8cpp.html#a59d8128b92c1e53fbef029c412aeaf1b">LoadGalaxySetupData()</a>, <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="SaveLoad_8h.html#aaba4b1346670935124b584969fd6aaf1">LoadPlayerSaveHeaderData()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">HumanClientApp::LoadSinglePlayerGame()</a>, <a class="el" href="Directories_8cpp.html#a03738e6297bf5ea61128073f95663ee0">RelativePath()</a>, <a class="el" href="classSaveFileDialog.html#a93dd53077b726316561903830d6d058e">SaveFileDialog::Result()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">SaveFileDialog::UpdatePreviewList()</a>, <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae">anonymous_namespace{OptionsWnd.cpp}::ValidDirectory()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c">anonymous_namespace{OptionsWnd.cpp}::ValidFontFile()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a20271029667765e3fadce5fa66d0293c">anonymous_namespace{OptionsWnd.cpp}::ValidMusicFile()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969">anonymous_namespace{OptionsWnd.cpp}::ValidSoundFile()</a>, and <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359">anonymous_namespace{OptionsWnd.cpp}::ValidStringtableFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSaveFileDialog.html#ad24561d71ae1ecc2974600022006fd93">SaveFileDialog::CheckChoiceValidity()</a>, <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="Directories_8h.html#aeeeebd0343a261d8784ddd1968d660eb">GetPath()</a>, <a class="el" href="Directories_8h.html#aaaddc221610d7934d6147e29546c72d6">GetResourceDir()</a>, <a class="el" href="Directories_8h.html#a5b567c6a18e0d02d67f39906fd0deccb">GetSaveDir()</a>, <a class="el" href="Directories_8h.html#a80e7e674574b51ce31503a17e2759a9a">GetServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a715fd94bb37e9c0d48614b244bcacf9c">anonymous_namespace{SitRepPanel.cpp}::HandleLinkClick()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a6fc0b1ee16aab6cfeae30d6cc698626e">EncyclopediaDetailPanel::HandleLinkClick()</a>, <a class="el" href="Directories_8cpp.html#ae34d6e35600976c2ca4d0dae35c5dd4e">InitBinDir()</a>, <a class="el" href="classStringTable.html#a3cee088f31a2313fdccfd35b854053cd">StringTable::Load()</a>, <a class="el" href="SaveLoad_8h.html#a1b558bcba5800fd0a92d65846a76bc9a">LoadEmpireSaveGameData()</a>, <a class="el" href="SaveLoad_8cpp.html#a59d8128b92c1e53fbef029c412aeaf1b">LoadGalaxySetupData()</a>, <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="SaveLoad_8h.html#aaba4b1346670935124b584969fd6aaf1">LoadPlayerSaveHeaderData()</a>, <a class="el" href="classHumanClientApp.html#ad5ec57a18baa5f4fa9ebf7af309f37ef">HumanClientApp::LoadSinglePlayerGame()</a>, <a class="el" href="classSaveFileDialog.html#a93dd53077b726316561903830d6d058e">SaveFileDialog::Result()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, <a class="el" href="classSaveFileDialog.html#a40a8d398b35c1fb1ab92ebd7ca28f535">SaveFileDialog::UpdatePreviewList()</a>, <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae">anonymous_namespace{OptionsWnd.cpp}::ValidDirectory()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c">anonymous_namespace{OptionsWnd.cpp}::ValidFontFile()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a20271029667765e3fadce5fa66d0293c">anonymous_namespace{OptionsWnd.cpp}::ValidMusicFile()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969">anonymous_namespace{OptionsWnd.cpp}::ValidSoundFile()</a>, and <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359">anonymous_namespace{OptionsWnd.cpp}::ValidStringtableFile()</a>.</p>
 
 </div>
 </div>
-<a id="afb6f60d24dc85fe732d01124e080a44d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb6f60d24dc85fe732d01124e080a44d">&#9670;&nbsp;</a></span>GetBinDir()</h2>
+<a id="a53ea4d8a53fdac8f4ad4fe8318a45036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ea4d8a53fdac8f4ad4fe8318a45036">&#9670;&nbsp;</a></span>GetBinDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetBinDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetBinDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns the directory where the binaries are located. </p>
-<p>Under Unix, it will be something along the lines of <code>/usr/local/bin</code>, under Windows, it will probably be the installation directory. </p><dl class="section note"><dt>Note</dt><dd>This directory and everything in it should be assumed read-only! </dd></dl>
+<p>Defaults to:</p><ul>
+<li>Windows: Path to the installation directory.</li>
+<li>Mac OS: Path to <code>&lt;FreeOrion App bundle&gt;/Contents/Executables</code>.</li>
+<li>UNIX-like: Path to <code>&lt;installation prefix&gt;/bin</code>. <dl class="section note"><dt>Note</dt><dd>This directory and everything in it should be assumed read-only! </dd></dl>
+</li>
+</ul>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad9dee4fe7851cbde13f44a55e4d0368b">anonymous_namespace{ServerApp.cpp}::AIClientExe()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae2382efc15d9775f6aacd62dbe716316">anonymous_namespace{HumanClientApp.cpp}::ServerClientExe()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0">anonymous_namespace{Directories.cpp}::bin_dir</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#abe2ac1975c6872476bddcf04853874cc">GetBinDir()</a>, and <a class="el" href="Directories_8cpp.html#a597eb2b812acad57a81623ee780c43f4">InitDirs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad9dee4fe7851cbde13f44a55e4d0368b">anonymous_namespace{ServerApp.cpp}::AIClientExe()</a>, <a class="el" href="Directories_8h.html#a53ea4d8a53fdac8f4ad4fe8318a45036">GetBinDir()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae2382efc15d9775f6aacd62dbe716316">anonymous_namespace{HumanClientApp.cpp}::ServerClientExe()</a>.</p>
 
 </div>
 </div>
-<a id="a32fb8e93e665f9e8cf2050d7ec2ade6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32fb8e93e665f9e8cf2050d7ec2ade6b">&#9670;&nbsp;</a></span>GetConfigPath()</h2>
+<a id="a7e70ff06c567acd04ddab241df98077c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e70ff06c567acd04ddab241df98077c">&#9670;&nbsp;</a></span>GetConfigPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetConfigPath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetConfigPath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns the full path to the configfile. </p>
 
-<p class="reference">References <a class="el" href="Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">OptionsDB::Commit()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
 </div>
 </div>
-<a id="ae081ba83fc337143e914cdff76078077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae081ba83fc337143e914cdff76078077">&#9670;&nbsp;</a></span>GetPath() <span class="overload">[1/2]</span></h2>
+<a id="ad22f73ddfb118bc17b7455050b132955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22f73ddfb118bc17b7455050b132955">&#9670;&nbsp;</a></span>GetPath() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path GetPath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetPath </td>
           <td>(</td>
           <td class="paramtype">PathType&#160;</td>
           <td class="paramname"><em>path_type</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns path currently defined for <code>path_type</code>. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8h.html#afb6f60d24dc85fe732d01124e080a44d">GetBinDir()</a>, <a class="el" href="Directories_8cpp.html#a324ee818119bd608831a91a7fe6dcd29">GetResourceDir()</a>, <a class="el" href="Directories_8h.html#aa957484f40aa4a5e48123f27b8e56a7d">GetRootDataDir()</a>, <a class="el" href="Directories_8cpp.html#a82ef0e9422a9d2c40f7a5ca92e2c3bd8">GetSaveDir()</a>, <a class="el" href="Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir()</a>, and <a class="el" href="Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f">GetUserDataDir()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#abe2ac1975c6872476bddcf04853874cc">GetBinDir()</a>, <a class="el" href="Directories_8cpp.html#a81f6224c5d4d41743f756a6116a2b7ab">GetResourceDir()</a>, <a class="el" href="Directories_8cpp.html#ab721105ba233ba420c9eef75266c5492">GetRootDataDir()</a>, <a class="el" href="Directories_8cpp.html#a9f7e5266b87091cfe57dfac485a70c7d">GetSaveDir()</a>, <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>, and <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Directories_8h.html#ac3d653302271d7920683ebf5971c0f90">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597">anonymous_namespace{LinkText.cpp}::ResolveNestedPathTypes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Directories_8h.html#aeeeebd0343a261d8784ddd1968d660eb">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597">anonymous_namespace{LinkText.cpp}::ResolveNestedPathTypes()</a>.</p>
 
 </div>
 </div>
-<a id="ac3d653302271d7920683ebf5971c0f90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d653302271d7920683ebf5971c0f90">&#9670;&nbsp;</a></span>GetPath() <span class="overload">[2/2]</span></h2>
+<a id="aeeeebd0343a261d8784ddd1968d660eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeeebd0343a261d8784ddd1968d660eb">&#9670;&nbsp;</a></span>GetPath() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path GetPath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetPath </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>path_string</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns path for path type cast from <code>path_string</code>. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="Directories_8cpp.html#a0c500e1a124b243cfef92db91f161b75">GetPath()</a>, <a class="el" href="Directories_8cpp.html#a61e270212bdb3454a78f01792b65784b">PathToString()</a>, and <a class="el" href="Enums_8cpp.html#a1a6f81bd3b4b9866aa4e08510bedfcf9">PathTypeStrings()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#aff41325b2c27558de29492c9f6c65e12">FilenameToPath()</a>, <a class="el" href="Directories_8cpp.html#a3d4156bf71fff9c34322837553867480">GetPath()</a>, <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>, and <a class="el" href="Directories_8cpp.html#a2e01370b13aafc5e9754e2b8d1291f4c">PathTypeStrings()</a>.</p>
 
 </div>
 </div>
-<a id="af155aae1c0389a5b0dded41314de3d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af155aae1c0389a5b0dded41314de3d64">&#9670;&nbsp;</a></span>GetPersistentConfigPath()</h2>
+<a id="aaa4d68d3d3acdfb93bd5b9867b6826f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa4d68d3d3acdfb93bd5b9867b6826f8">&#9670;&nbsp;</a></span>GetPersistentConfigPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetPersistentConfigPath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetPersistentConfigPath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns the full path to the configfile. </p>
 
-<p class="reference">References <a class="el" href="Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820">GetUserConfigDir()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">OptionsDB::CommitPersistent()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
 </div>
 </div>
-<a id="a7ef6893515ec8d151ba5bceb7001f937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ef6893515ec8d151ba5bceb7001f937">&#9670;&nbsp;</a></span>GetResourceDir()</h2>
+<a id="aaaddc221610d7934d6147e29546c72d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaddc221610d7934d6147e29546c72d6">&#9670;&nbsp;</a></span>GetResourceDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetResourceDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetResourceDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the directory that contains all game content files, such as string table files, in-game tech, building, special, etc. </p>
-<p>definition files, and graphics files. </p>
+<p>Returns the directory that contains all game resources. </p>
+<p>This covers:</p><ul>
+<li>game entity defintions</li>
+<li>graphics</li>
+<li>Translations </li>
+</ul>
 
-<p class="reference">References <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#aff41325b2c27558de29492c9f6c65e12">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classClientUI.html#a93d5d9d72a3008a6642df0e12fdcc0f8">ClientUI::ArtDir()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aa5728675ed8b0513fabc31ab4099dc31">anonymous_namespace{i18n.cpp}::DevDefaultEnglishStringtablePath()</a>, <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a25c77d286918cf41dfa761a2a66135fd">anonymous_namespace{AIWrapper.cpp}::GetAIDir()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#a70c9447c8d6c1081c3c1e015ad161907">anonymous_namespace{i18n.cpp}::GetDefaultStringTableFileName()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, <a class="el" href="CommonFramework_8h.html#a67746f19fa95ad658bdf8afc0fdd548a">GetPythonDir()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a439a7fe4152a235fab731c683167bbd5">anonymous_namespace{ServerWrapper.cpp}::GetResourceDirWrapper()</a>, <a class="el" href="classPythonAI.html#a3ed0a0fa9ac05452940ca735f427cbf3">PythonAI::InitModules()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aefe5528dc226f9a9ab90d7a68ba78aaa">anonymous_namespace{i18n.cpp}::InitStringtableFileName()</a>, <a class="el" href="Directories_8cpp.html#a1d75dbecbada1343e264146edcb493f8">ListDir()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classIntroScreen.html#a956b535beaf11e43548700ccd7ba6966">IntroScreen::OnCredits()</a>, <a class="el" href="namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">parse::process_include_substitutions()</a>, <a class="el" href="classClientUI.html#a4afea7826821849585b28038c3e304a9">ClientUI::SoundDir()</a>, <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classClientUI.html#a93d5d9d72a3008a6642df0e12fdcc0f8">ClientUI::ArtDir()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aa5728675ed8b0513fabc31ab4099dc31">anonymous_namespace{i18n.cpp}::DevDefaultEnglishStringtablePath()</a>, <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a25c77d286918cf41dfa761a2a66135fd">anonymous_namespace{AIWrapper.cpp}::GetAIDir()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#a70c9447c8d6c1081c3c1e015ad161907">anonymous_namespace{i18n.cpp}::GetDefaultStringTableFileName()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, <a class="el" href="CommonFramework_8h.html#a67746f19fa95ad658bdf8afc0fdd548a">GetPythonDir()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a439a7fe4152a235fab731c683167bbd5">anonymous_namespace{ServerWrapper.cpp}::GetResourceDirWrapper()</a>, <a class="el" href="classPythonAI.html#a3ed0a0fa9ac05452940ca735f427cbf3">PythonAI::InitModules()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aefe5528dc226f9a9ab90d7a68ba78aaa">anonymous_namespace{i18n.cpp}::InitStringtableFileName()</a>, <a class="el" href="Directories_8cpp.html#a2be7679fee6ad11454b1fdda0e97dc73">ListDir()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classIntroScreen.html#a956b535beaf11e43548700ccd7ba6966">IntroScreen::OnCredits()</a>, <a class="el" href="namespaceparse.html#aabc73d9f554002fd5cfbb2309ba7933d">parse::process_include_substitutions()</a>, <a class="el" href="classClientUI.html#a4afea7826821849585b28038c3e304a9">ClientUI::SoundDir()</a>, <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
 
 </div>
 </div>
-<a id="aa957484f40aa4a5e48123f27b8e56a7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa957484f40aa4a5e48123f27b8e56a7d">&#9670;&nbsp;</a></span>GetRootDataDir()</h2>
+<a id="a2fe5432cbdd6e2dca4cbf43ae2e3349f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe5432cbdd6e2dca4cbf43ae2e3349f">&#9670;&nbsp;</a></span>GetRootDataDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetRootDataDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetRootDataDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns the root data directory of FreeOrion. </p>
-<p>Under Windows, it is the directory where FreeOrion is installed, under Linux, this can be <code>/usr/local/share/freeorion</code>, <code>/opt/share/freorion</code>, or even (when FreeOrion was installed locally with autopackage) <code>~/.local/share/freeorion</code>. </p><dl class="section note"><dt>Note</dt><dd>This directory and everything in it should be assumed read-only! </dd></dl>
+<p>Defaults to:</p><ul>
+<li>Windows: Path to the installation directory.</li>
+<li>Mac OS: Path to <code>&lt;FreeOrion App bundle&gt;/Contents/Resources</code>.</li>
+<li>UNIX-like: Path to <code>&lt;installation prefix&gt;/share/freeorion</code>.</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>This directory and everything in it should be assumed read-only! </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a944adcc343e0706e177517428f023d71">anonymous_namespace{ClientUI.cpp}::AddOptions()</a>, <a class="el" href="classAbout.html#ab8e5255346c5ce9c82c6ff5e928566dc">About::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#a6b38d6f80c22488222e216e6f34566f1">OptionsWnd::FontOption()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, and <a class="el" href="classScanlineRenderer_1_1Impl.html#a3c50fb4219200f36c69d50a7dacaff4a">ScanlineRenderer::Impl::StartUsing()</a>.</p>
+<p class="reference">References <a class="el" href="binreloc_8h.html#a703ceeb63c0e69b445ef444b7792e151">br_find_data_dir</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, and <a class="el" href="Directories_8cpp.html#a597eb2b812acad57a81623ee780c43f4">InitDirs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a944adcc343e0706e177517428f023d71">anonymous_namespace{ClientUI.cpp}::AddOptions()</a>, <a class="el" href="classAbout.html#ab8e5255346c5ce9c82c6ff5e928566dc">About::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#a6b38d6f80c22488222e216e6f34566f1">OptionsWnd::FontOption()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, and <a class="el" href="classScanlineRenderer_1_1Impl.html#a3c50fb4219200f36c69d50a7dacaff4a">ScanlineRenderer::Impl::StartUsing()</a>.</p>
 
 </div>
 </div>
-<a id="a387c99073cf96552aa829fd3fb1a31b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a387c99073cf96552aa829fd3fb1a31b8">&#9670;&nbsp;</a></span>GetSaveDir()</h2>
+<a id="a5b567c6a18e0d02d67f39906fd0deccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b567c6a18e0d02d67f39906fd0deccb">&#9670;&nbsp;</a></span>GetSaveDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetSaveDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetSaveDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -391,23 +412,23 @@ Functions</h2></td></tr>
 <p>Returns the directory where save files are located. </p>
 <p>This is typically the directory "save" within the user directory. </p>
 
-<p class="reference">References <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#aff41325b2c27558de29492c9f6c65e12">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">HumanClientApp::Autosave()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, <a class="el" href="classSaveFileListBox.html#afa6a7b8ed276ca43633f79f74f416bfe">SaveFileListBox::LoadLocalSaveGamePreviews()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aeacb8db1a21d733515f3a2280913391d">anonymous_namespace{HumanClientApp.cpp}::NewestSinglePlayerSavegame()</a>, and <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">HumanClientApp::Autosave()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, <a class="el" href="Directories_8h.html#a7e44819b73b3e89290e25063bcc7efb6">InitDirs()</a>, <a class="el" href="classSaveFileListBox.html#afa6a7b8ed276ca43633f79f74f416bfe">SaveFileListBox::LoadLocalSaveGamePreviews()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#aeacb8db1a21d733515f3a2280913391d">anonymous_namespace{HumanClientApp.cpp}::NewestSinglePlayerSavegame()</a>, and <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>.</p>
 
 </div>
 </div>
-<a id="abd0596d3c8e7c1202d4eeade1179fc3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd0596d3c8e7c1202d4eeade1179fc3b">&#9670;&nbsp;</a></span>GetServerSaveDir()</h2>
+<a id="a80e7e674574b51ce31503a17e2759a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e7e674574b51ce31503a17e2759a9a">&#9670;&nbsp;</a></span>GetServerSaveDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetServerSaveDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetServerSaveDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -415,70 +436,166 @@ Functions</h2></td></tr>
 <p>Returns the directory where server save files are located. </p>
 <p>This is typically the directory "save" within the user directory. </p>
 
-<p class="reference">References <a class="el" href="Directories_8cpp.html#a2004d9f54a3438424eceb2e6eba261d2">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#aff41325b2c27558de29492c9f6c65e12">FilenameToPath()</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classOptionsDB.html#a5e03a7124f29abecbf0e7f8a1b778df8">OptionsDB::GetDefault()</a>, and <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ab53df12558a3763c5df09dee19a73f38">HumanClientApp::Autosave()</a>, <a class="el" href="namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#ae5ed75e0ea03fca6ce7b33fb17e18b2a">anonymous_namespace{HumanClientApp.cpp}::CreateNewAutosaveFilePath()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a8c6277ac5fb4bdc8474845eec359d1ef">anonymous_namespace{ServerFSM.cpp}::GetAutoSaveFileName()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0cd92ffa9acba16cb88565e11be1140e">anonymous_namespace{ServerApp.cpp}::IsInServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a514d4a3e2e93b3a60da14f15d3806c7c">anonymous_namespace{ServerApp.cpp}::ListSaveSubdirectories()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, and <a class="el" href="classServerApp.html#a4f27b7992c853c39483653abe86db8a4">ServerApp::UpdateSavePreviews()</a>.</p>
 
 </div>
 </div>
-<a id="a20aeb13e33880e61506b8bf24af5d820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20aeb13e33880e61506b8bf24af5d820">&#9670;&nbsp;</a></span>GetUserConfigDir()</h2>
+<a id="aa6aad524730f38e9ab247a7d7a3e073f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6aad524730f38e9ab247a7d7a3e073f">&#9670;&nbsp;</a></span>GetUserConfigDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetUserConfigDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetUserConfigDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the directory where FreeOrion should store user specific configuration data , like the configuration file. </p>
-<p>Under Unix, this would be <code>$XDG_CONFIG_HOME/freeorion</code>, under Windows, this might be something along the lines of <code>C:\Documents and Settings\Username\FreeOrion</code> or even <code>\\Gandalf\Users\Frodo\Settings\FreeOrion</code>. </p><dl class="section note"><dt>Note</dt><dd><ul>
-<li>
-If the directory does not exist, it will be created. Under Windows and OSX it is the same as the <a class="el" href="Directories_8h.html#a3c8b3b933b0c21fe0dacfa9a6830a52f" title="Returns the directory where FreeOrion should store user specific data, like the savegames. ">GetUserDataDir()</a> </li>
-<li>
-This directory can be considered writable!</li>
+<p>Returns the directory where FreeOrion store user configurations. </p>
+<p>This covers:</p><ul>
+<li>user configuration</li>
+</ul>
+<p>Defaults to:</p><ul>
+<li>Windows: Path to <code>appdata%</code><code>.</code></li>
+<li><code>MacOS: Path to</code>${HOME}/Library/FreeOrion<code>.</code></li>
+<li><code>UNIX-like: Follows XDG Base Dir spec; Path to</code>${XDG_CONFIG_HOME}/freeorion`.</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>If the directory does not exist, it will be created.</li>
+<li>This directory can be considered writable! </li>
 </ul>
 </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="Directories_8h.html#a32fb8e93e665f9e8cf2050d7ec2ade6b">GetConfigPath()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, <a class="el" href="Directories_8h.html#af155aae1c0389a5b0dded41314de3d64">GetPersistentConfigPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#a1a81cca16025f73be7a5b369684af22c">anonymous_namespace{ConfigWrapper.cpp}::GetUserConfigDirWrapper()</a>.</p>
+<p class="reference">References <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Directories_8h.html#a7e70ff06c567acd04ddab241df98077c">GetConfigPath()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, <a class="el" href="Directories_8h.html#aaa4d68d3d3acdfb93bd5b9867b6826f8">GetPersistentConfigPath()</a>, <a class="el" href="namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#a1a81cca16025f73be7a5b369684af22c">anonymous_namespace{ConfigWrapper.cpp}::GetUserConfigDirWrapper()</a>, and <a class="el" href="Directories_8h.html#a7e44819b73b3e89290e25063bcc7efb6">InitDirs()</a>.</p>
 
 </div>
 </div>
-<a id="a3c8b3b933b0c21fe0dacfa9a6830a52f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c8b3b933b0c21fe0dacfa9a6830a52f">&#9670;&nbsp;</a></span>GetUserDataDir()</h2>
+<a id="a7a7aa9d303072dc4a1e8bec239cfa000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7aa9d303072dc4a1e8bec239cfa000">&#9670;&nbsp;</a></span>GetUserDataDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const boost::filesystem::path GetUserDataDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetUserDataDir </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> -&gt;  boost::filesystem::path const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the directory where FreeOrion should store user specific data, like the savegames. </p>
-<p>Under Unix, this would be <code>$XDG_DATA_HOME/freeorion</code>, under Windows, this might be something along the lines of <code>C:\Documents and Settings\Username\FreeOrion</code> or even <code>\\Gandalf\Users\Frodo\Settings\FreeOrion</code>. </p><dl class="section note"><dt>Note</dt><dd><ul>
-<li>
-If the directory does not exist, it will be created. Under Windows and OSX it is the same as the <a class="el" href="Directories_8h.html#a20aeb13e33880e61506b8bf24af5d820" title="Returns the directory where FreeOrion should store user specific configuration data ...">GetUserConfigDir()</a> </li>
-<li>
-This directory can be considered writable!</li>
+<p>Returns the directory where FreeOrion stores user specific data. </p>
+<p>This covers:</p><ul>
+<li>savegames</li>
+<li>log files</li>
+</ul>
+<p>Defaults to:</p><ul>
+<li>Windows: Path to <code>appdata%</code><code>.</code></li>
+<li><code>MacOS: Path to</code>${HOME}/Library/FreeOrion<code>.</code></li>
+<li><code>UNIX-like: Follows XDG Base Dir spec; Path to</code>${XDG_DATA_HOME}/freeorion`.</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>If the directory does not exist, it will be created.</li>
+<li>This directory can be considered writable! </li>
 </ul>
 </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="classAIClientApp.html#af149baae2b80b6be44a4f9baee60fffa">AIClientApp::AIClientApp()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9">CompleteXDGMigration()</a>, <a class="el" href="Directories_8h.html#ae081ba83fc337143e914cdff76078077">GetPath()</a>, <a class="el" href="namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#afe89bfd994f8a8b3ec6c5ff4648f540a">anonymous_namespace{ConfigWrapper.cpp}::GetUserDataDirWrapper()</a>, <a class="el" href="classHumanClientApp.html#a6feff641864cc55ac0dd85467e3221d7">HumanClientApp::HumanClientApp()</a>, <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#acad557f094198f708f813b597a03c51f">anonymous_namespace{DesignWnd.cpp}::SavedDesignsDir()</a>, and <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp::ServerApp()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, and <a class="el" href="Directories_8cpp.html#a597eb2b812acad57a81623ee780c43f4">InitDirs()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="classAIClientApp.html#af149baae2b80b6be44a4f9baee60fffa">AIClientApp::AIClientApp()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9">CompleteXDGMigration()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, <a class="el" href="Directories_8h.html#aa6aad524730f38e9ab247a7d7a3e073f">GetUserConfigDir()</a>, <a class="el" href="namespaceanonymous__namespace_02ConfigWrapper_8cpp_03.html#afe89bfd994f8a8b3ec6c5ff4648f540a">anonymous_namespace{ConfigWrapper.cpp}::GetUserDataDirWrapper()</a>, <a class="el" href="classHumanClientApp.html#a6feff641864cc55ac0dd85467e3221d7">HumanClientApp::HumanClientApp()</a>, <a class="el" href="Directories_8h.html#a7e44819b73b3e89290e25063bcc7efb6">InitDirs()</a>, <a class="el" href="namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#acad557f094198f708f813b597a03c51f">anonymous_namespace{DesignWnd.cpp}::SavedDesignsDir()</a>, and <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp::ServerApp()</a>.</p>
 
 </div>
 </div>
-<a id="a7023c9206873a0c9c066a9beb6de7b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7023c9206873a0c9c066a9beb6de7b3c">&#9670;&nbsp;</a></span>InitDirs()</h2>
+<a id="a4bf0cfbceb31d90b1b68a8f7bf7f6a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf0cfbceb31d90b1b68a8f7bf7f6a48">&#9670;&nbsp;</a></span>GG_ENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GG_ENUM </td>
+          <td>(</td>
+          <td class="paramtype">PathType&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_BINARY&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_RESOURCE&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_PYTHON&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_DATA_ROOT&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_DATA_USER&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_CONFIG&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_SAVE&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_TEMP&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PATH_INVALID&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  std::string const &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Types of root directories. </p>
+<p>Returns a string representation of PathType </p>
+
+</div>
+</div>
+<a id="a7e44819b73b3e89290e25063bcc7efb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e44819b73b3e89290e25063bcc7efb6">&#9670;&nbsp;</a></span>InitDirs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,84 +603,84 @@ This directory can be considered writable!</li>
         <tr>
           <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void InitDirs </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>argv0</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function completes the migration of directories to the XDG specified location by updating the save.path option to the new location after the option is loaded from XML files. </p>
-<p>It only updates the option if it is set to the old default option. </p>
+<p>Initializes the directories used by FreeOrion. </p>
+<dl class="section note"><dt>Note</dt><dd>This function completes the migration of directories to the XDG specified location by updating the save.path option to the new location after the option is loaded from XML files. It only updates the option if it is set to the old default option. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+<p class="reference">References <a class="el" href="binreloc_8h.html#a9cd5a54cc367311f5d5e7bc734dfde21">br_init</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#a9f7e5266b87091cfe57dfac485a70c7d">GetSaveDir()</a>, <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>, <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>, and <a class="el" href="Directories_8cpp.html#ae34d6e35600976c2ca4d0dae35c5dd4e">InitBinDir()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Directories_8h.html#a53ea4d8a53fdac8f4ad4fe8318a45036">GetBinDir()</a>, <a class="el" href="Directories_8h.html#a2fe5432cbdd6e2dca4cbf43ae2e3349f">GetRootDataDir()</a>, <a class="el" href="Directories_8h.html#a7a7aa9d303072dc4a1e8bec239cfa000">GetUserDataDir()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
 </div>
 </div>
-<a id="a9a918c9156b3851411104d7d6432351f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a918c9156b3851411104d7d6432351f">&#9670;&nbsp;</a></span>IsExistingFile()</h2>
+<a id="a8a5f3f251e1028f4cc1a373e237ffa8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5f3f251e1028f4cc1a373e237ffa8a">&#9670;&nbsp;</a></span>IsExistingFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool IsExistingFile </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto IsExistingFile </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  bool</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns if path exists and is a regular file. </p>
+<p>Returns true iff path exists and is a regular file. </p>
 
 </div>
 </div>
-<a id="ac83b7bbd3cc89ee9cf00a245cb587013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac83b7bbd3cc89ee9cf00a245cb587013">&#9670;&nbsp;</a></span>IsFOCScript()</h2>
+<a id="ad7be1381fc2ae44cb5405aa464804f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7be1381fc2ae44cb5405aa464804f57">&#9670;&nbsp;</a></span>IsFOCScript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool IsFOCScript </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto IsFOCScript </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  bool</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns true if the given <code>path</code> referrs to a FO content script and false otherwise. </p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceparse.html#ace79a6a60424802a39476be4336ccb8a">parse::buildings()</a>, <a class="el" href="namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa">parse::encyclopedia_articles()</a>, <a class="el" href="namespaceparse.html#a8fb8526a6617947f14921f198f251f4a">parse::fields()</a>, <a class="el" href="namespaceparse.html#a8126b2065082f0437037f2ba3dd7e122">parse::policies()</a>, <a class="el" href="namespaceparse.html#a1996f96312128dc5917b4fdc4a17212b">parse::ship_designs()</a>, <a class="el" href="namespaceparse.html#a8fe8f86f09098f4a383b666e7a51e34d">parse::ship_hulls()</a>, <a class="el" href="namespaceparse.html#a09252c1d9ae2bb517fdac39fa544ab1d">parse::ship_parts()</a>, <a class="el" href="namespaceparse.html#a1262ee08018c3bb2dd00f9e7395a64b3">parse::specials()</a>, <a class="el" href="namespaceparse.html#ad76d8ba8ab3f5e20e3034cbe6e4acd55">parse::species()</a>, <a class="el" href="namespaceparse.html#ac3174fb216f136bb3cab993b3464ae8c">parse::statistics()</a>, and <a class="el" href="namespaceparse.html#a721ef42f5adb8dc29ee28e37e89b61ab">parse::techs()</a>.</p>
-
 </div>
 </div>
-<a id="a7276047065b0c2c6ac5ea2fe360501b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7276047065b0c2c6ac5ea2fe360501b2">&#9670;&nbsp;</a></span>IsInDir()</h2>
+<a id="a42a1757f2cf860bdc9fa6104fc6aaefe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a1757f2cf860bdc9fa6104fc6aaefe">&#9670;&nbsp;</a></span>IsInDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool IsInDir </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto IsInDir </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>dir</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>test_dir</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt;  bool</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -572,106 +689,107 @@ This directory can be considered writable!</li>
 
 </div>
 </div>
-<a id="a97c5c7ede44ff1f3b4c0c90e56a26baa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97c5c7ede44ff1f3b4c0c90e56a26baa">&#9670;&nbsp;</a></span>IsValidUTF8()</h2>
+<a id="a28c6c1739f0e5edbf0e847b5d30a5174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c6c1739f0e5edbf0e847b5d30a5174">&#9670;&nbsp;</a></span>ListDir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool IsValidUTF8 </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto ListDir </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true iff the string <em>in</em> is valid UTF-8. </p>
-
-<p class="reference">Referenced by <a class="el" href="classSaveFileDialog.html#a569863a6fa77c0b4ef8b5cdbab07fc1c">SaveFileDialog::Confirm()</a>, <a class="el" href="classSaveFileListBox.html#a223368e2806996aa035ecac1e9c337f6">SaveFileListBox::FindLocalRelativeDirs()</a>, <a class="el" href="classClientUI.html#a1f04919cb631bab32645cfd4e6cb40ca">ClientUI::FormatTimestamp()</a>, and <a class="el" href="classMessageWnd.html#a354c3a51749cc0a7169b29c53e27a202">MessageWnd::HandlePlayerChatMessage()</a>.</p>
-
-</div>
-</div>
-<a id="a3a1286960389fa09bab04c755276eaa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a1286960389fa09bab04c755276eaa6">&#9670;&nbsp;</a></span>ListDir()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::vector&lt;boost::filesystem::path&gt; ListDir </td>
-          <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; bool(const boost::filesystem::path &amp;)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; bool(boost::filesystem::path const &amp;)&gt;&#160;</td>
           <td class="paramname"><em>predicate</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt;  std::vector&lt; boost::filesystem::path &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns a vector of pathes within <code>path</code> including a recursive search though sub-dirs. </p>
-<p>Then passing a <code>predicate</code>, the pathes need to match this predicate. If no predicate is given pathes need to refer to files. </p>
+<p>When passing a <code>predicate</code>, the pathes need to match this predicate. If no predicate is given pathes need to refer to files. </p>
 
 </div>
 </div>
-<a id="ab3aca236790419c43975c50735c3dce0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3aca236790419c43975c50735c3dce0">&#9670;&nbsp;</a></span>PathToString()</h2>
+<a id="a713143bcf5c92b0142f1a254c04d6a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713143bcf5c92b0142f1a254c04d6a45">&#9670;&nbsp;</a></span>PathToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> std::string PathToString </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto PathToString </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
+          <td> -&gt;  std::string</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a utf-8 string from the given filesystem path. </p>
+<p>Returns an utf-8 encoded string from the given filesystem path. </p>
 
 </div>
 </div>
-<a id="ade2f9f81693b103e2318e01c52872ad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade2f9f81693b103e2318e01c52872ad7">&#9670;&nbsp;</a></span>RelativePath()</h2>
+<a id="a5baf3a57a90bae5b6ae099bffbf809d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5baf3a57a90bae5b6ae099bffbf809d6">&#9670;&nbsp;</a></span>PathTypeStrings()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> boost::filesystem::path RelativePath </td>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto PathTypeStrings </td>
           <td>(</td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  std::vector&lt; std::string &gt; const &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a vector of strings for all PathTypes. </p>
+
+<p class="reference">References <a class="el" href="Directories_8cpp.html#af5c7daf9bf9bc9f5fa0669108415ca82">PathTypeToString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Directories_8h.html#aeeeebd0343a261d8784ddd1968d660eb">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597">anonymous_namespace{LinkText.cpp}::ResolveNestedPathTypes()</a>.</p>
+
+</div>
+</div>
+<a id="a0d3aa13dc74e93ec213d5dbce8b4186f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3aa13dc74e93ec213d5dbce8b4186f">&#9670;&nbsp;</a></span>RelativePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto RelativePath </td>
+          <td>(</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>from</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
           <td class="paramname"><em>to</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt;  boost::filesystem::path</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the path to <em>to</em>, as it appears from <em>from</em>. </p>
+<p>Returns the path to <code>to</code>, as it appears from <code>from</code>. </p>
 
 </div>
 </div>
