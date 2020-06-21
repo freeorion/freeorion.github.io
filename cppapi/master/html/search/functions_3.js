@@ -266,7 +266,7 @@ var searchData=
   ['conquer',['Conquer',['../classPlanet.html#ae7db84264c28a0e961215dd136cf3782',1,'Planet']]],
   ['conquerproductionqueueitemsatlocation',['ConquerProductionQueueItemsAtLocation',['../classEmpire.html#a0efd19871b31ed5873a359224f7e0956',1,'Empire']]],
   ['constant',['Constant',['../structValueRef_1_1Constant.html#a5446689d20b6e69bd0688fba1b4cb0e7',1,'ValueRef::Constant']]],
-  ['constantexpr',['ConstantExpr',['../structValueRef_1_1ValueRef.html#a7c5a4029c40553395c7dff0b684b6481',1,'ValueRef::ValueRef::ConstantExpr()'],['../structValueRef_1_1Constant.html#a35e37170aca27200b240c86d278595af',1,'ValueRef::Constant::ConstantExpr()'],['../structValueRef_1_1Operation.html#a94182ca556f6351ee7b3294cbb4d6601',1,'ValueRef::Operation::ConstantExpr()']]],
+  ['constantexpr',['ConstantExpr',['../structValueRef_1_1ValueRefBase.html#af4852910fd61751bc60d3a5c066a217b',1,'ValueRef::ValueRefBase::ConstantExpr()'],['../structValueRef_1_1Constant.html#a35e37170aca27200b240c86d278595af',1,'ValueRef::Constant::ConstantExpr()'],['../structValueRef_1_1Operation.html#a94182ca556f6351ee7b3294cbb4d6601',1,'ValueRef::Operation::ConstantExpr()']]],
   ['construct_5feffectsgroup',['construct_EffectsGroup',['../namespaceparse.html#a4cb52ab30d8072d727044b2712ffdc6a',1,'parse']]],
   ['construct_5fgeneratesitrepmessage1',['construct_GenerateSitRepMessage1',['../namespaceparse_1_1detail.html#ae9dfecc146d582f201d47d24c70ba256',1,'parse::detail']]],
   ['construct_5fgeneratesitrepmessage2',['construct_GenerateSitRepMessage2',['../namespaceparse_1_1detail.html#a0dd870e425f47bfff69b71ad86dc0e2d',1,'parse::detail']]],
