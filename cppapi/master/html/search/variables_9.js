@@ -8,6 +8,7 @@ var searchData=
   ['immediateneighborsfunc',['ImmediateNeighborsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a342e7e6fe28f56f2372e2c3ac842749d',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['import_5fexport_5flabel_5ftop',['import_export_label_top',['../classSystemResourceSummaryBrowseWnd.html#afe47836f98ed8d3c4f8809b9867bcc70',1,'SystemResourceSummaryBrowseWnd']]],
   ['impossibly_5flarge_5fturn',['IMPOSSIBLY_LARGE_TURN',['../AppInterface_8cpp.html#ae8c9bad08e915242e181a466dfd81920',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#a16a8681ab66c4022c0c24bc3c15d9341',1,'IMPOSSIBLY_LARGE_TURN():&#160;AppInterface.cpp']]],
+  ['in_5fgame',['in_game',['../structMultiplayerLobbyData.html#ad7a848c52139c2eb7b13abb69ed8f6d7',1,'MultiplayerLobbyData']]],
   ['in_5fsystem',['in_system',['../structparse_1_1detail_1_1condition__parser__rules__2.html#a68d1bb081c529f31028203ae882f10a1',1,'parse::detail::condition_parser_rules_2']]],
   ['incomplete_5fdesign',['INCOMPLETE_DESIGN',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a309e9bfa2ba1862e40d6ce6d76930715',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['influencequeuechangedsignal',['InfluenceQueueChangedSignal',['../structInfluenceQueue.html#aabd002d7f3cc177e48a787cd3e143c58',1,'InfluenceQueue']]],

@@ -12,6 +12,8 @@ var searchData=
   ['game_5frule_5fint',['game_rule_int',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#ad382d6ebf2c1b6634542c3bd08456306',1,'anonymous_namespace{GameRulesParser.cpp}::grammar']]],
   ['game_5frule_5fstring',['game_rule_string',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#a0e4ca04bfe00729e9fe855a41924737c',1,'anonymous_namespace{GameRulesParser.cpp}::grammar']]],
   ['game_5frule_5fstring_5flist',['game_rule_string_list',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#a0dfe743b131474ede2e856b0d323b939',1,'anonymous_namespace{GameRulesParser.cpp}::grammar']]],
+  ['game_5frules',['game_rules',['../structGalaxySetupData.html#a1d6a059bd3081e2dda45685cd54e74f5',1,'GalaxySetupData']]],
+  ['game_5fuid',['game_uid',['../structGalaxySetupData.html#a056cdf9bef7d4c667f1d3df8dbe19758',1,'GalaxySetupData']]],
   ['gameplay_5fdesc',['gameplay_desc',['../structSpeciesStrings.html#a821e3291baba692d3cbaf17f552eb6ba',1,'SpeciesStrings']]],
   ['gen',['gen',['../namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b',1,'anonymous_namespace{Random.cpp}']]],
   ['generate_5fsitrep_5fmessage',['generate_sitrep_message',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a2e6d15c3ae7b9152d820e67a8d6f9286',1,'parse::detail::effect_parser_rules_1']]],

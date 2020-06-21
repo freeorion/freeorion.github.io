@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ui_5fdata',['ui_data',['../structPlayerSaveGameData.html#a463385001b60e4f2d65237ef8e2f1fd6',1,'PlayerSaveGameData']]],
   ['unable_5fto_5fopen_5ffile',['UNABLE_TO_OPEN_FILE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ab9fa02b3accaf7f484b5fd850aea5661',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['uncompressed_5ftext_5fsize',['uncompressed_text_size',['../structSaveGamePreviewData.html#aba363f6da7af5edc0bfceac6f23e75eb',1,'SaveGamePreviewData']]],
   ['unit_5fsummaries',['unit_summaries',['../structCombatSummary.html#a2e9cb9d6e9ecb3987db27c5ecd964a8d',1,'CombatSummary']]],

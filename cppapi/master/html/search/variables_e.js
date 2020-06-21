@@ -46,6 +46,7 @@ var searchData=
   ['ordered_5fbombarded_5fby',['ordered_bombarded_by',['../structparse_1_1detail_1_1condition__parser__rules__7.html#a852bcf5170289504feda2e15223f7019',1,'parse::detail::condition_parser_rules_7']]],
   ['ordered_5fship_5fdesign_5fids_5fand_5fobsolete',['ordered_ship_design_ids_and_obsolete',['../structSaveGameUIData.html#a3fe4c8a0731d1b5b88810c7423a614a9',1,'SaveGameUIData']]],
   ['ordered_5fship_5fhull_5fand_5fobsolete',['ordered_ship_hull_and_obsolete',['../structSaveGameUIData.html#afe4b954cc888ae8cb13be5b36dd066ee',1,'SaveGameUIData']]],
+  ['orders',['orders',['../structPlayerSaveGameData.html#aec81c83c48c7bad319ce74fb9d13984c',1,'PlayerSaveGameData']]],
   ['origin',['origin',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a4b3049694b077329100740c1cc55344d',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['original_5fobj',['original_obj',['../classparse_1_1detail_1_1MovableEnvelope.html#a91fa4be29103413825f582eaf27f0df6',1,'parse::detail::MovableEnvelope']]],
   ['others',['others',['../structWithinJumpsOfOthersObjectVisitor.html#ace9e325bb735f9c3bda2edb5ff148649',1,'WithinJumpsOfOthersObjectVisitor']]],

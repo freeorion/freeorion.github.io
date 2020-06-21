@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ui_5fdata',['ui_data',['../structPlayerSaveGameData.html#a463385001b60e4f2d65237ef8e2f1fd6',1,'PlayerSaveGameData']]],
   ['uint24_5ft',['uint24_t',['../classboost_1_1iostreams_1_1basic__base64__encoder.html#a75daae1be23d7a507a69908deb10b7a6',1,'boost::iostreams::basic_base64_encoder::uint24_t()'],['../classboost_1_1iostreams_1_1basic__base64__decoder.html#a2b20274457c683ff2bb8d9402437fc59',1,'boost::iostreams::basic_base64_decoder::uint24_t()']]],
   ['uint24_5fto_5fchar',['uint24_to_char',['../classboost_1_1iostreams_1_1basic__base64__decoder.html#a502dc9d374672f9ece1d529ee77a5800',1,'boost::iostreams::basic_base64_decoder']]],
   ['uint6_5ft',['uint6_t',['../classboost_1_1iostreams_1_1basic__base64__decoder.html#a014e97da07170c68ea5334b368ffaa19',1,'boost::iostreams::basic_base64_decoder']]],
