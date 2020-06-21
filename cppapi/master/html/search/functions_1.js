@@ -39,7 +39,6 @@ var searchData=
   ['addhomeworld',['AddHomeworld',['../classSpecies.html#a77bd43ad5fe5a740ec99873a887877d0',1,'Species']]],
   ['addhotkey',['AddHotkey',['../classHotkey.html#ac488fc96ea4e4abbd90137f4f881ca5a',1,'Hotkey']]],
   ['additem',['AddItem',['../classEncyclopediaDetailPanel.html#adaa9d6d4b13673b93c693bb773308e66',1,'EncyclopediaDetailPanel']]],
-  ['addlog',['AddLog',['../classCombatLogManager_1_1Impl.html#a46f467d436246872cc39692d861aa4e8',1,'CombatLogManager::Impl']]],
   ['addloggertooptionsdb',['AddLoggerToOptionsDB',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ab43b04aa603e2ab0fbb785b2eb10bb32',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['addmeter',['AddMeter',['../classPlanet.html#aa7045d1482151a0572b93e223dd36c7d',1,'Planet::AddMeter()'],['../classPopCenter.html#a92aef79ab08dfa89041d76fb75bfa353',1,'PopCenter::AddMeter()'],['../classResourceCenter.html#ac5370c37e22a34acf09bb2f71aa5de3b',1,'ResourceCenter::AddMeter()'],['../classUniverseObject.html#a1e557e3eb07f95a13e0a7fb9da2b41c2',1,'UniverseObject::AddMeter()']]],
   ['addneighboorstoset',['AddNeighboorsToSet',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a83ac1e0a98e115bd7ecbf67c18267b6a',1,'anonymous_namespace{MapWnd.cpp}']]],
