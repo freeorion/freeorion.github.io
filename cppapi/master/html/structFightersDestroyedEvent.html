@@ -61,7 +61,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="structFightersDestroyedEvent-members.html">List of all members</a>  </div>
@@ -123,12 +122,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3f55fead91180f6b7e5ea77f73fa28eb inherit pub_methods_structCombatEvent"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the combat event is composed of smaller events then return a vector of the sub events, otherwise returns an empty vector.  <a href="structCombatEvent.html#a3f55fead91180f6b7e5ea77f73fa28eb">More...</a><br /></td></tr>
 <tr class="separator:a3f55fead91180f6b7e5ea77f73fa28eb inherit pub_methods_structCombatEvent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:af70360457219f21a1316bcd5191f47f9"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:af70360457219f21a1316bcd5191f47f9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structFightersDestroyedEvent.html#af70360457219f21a1316bcd5191f47f9">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
-<tr class="separator:af70360457219f21a1316bcd5191f47f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a66121ce0f47f896cfe05a9650c9285f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFightersDestroyedEvent.html#a66121ce0f47f896cfe05a9650c9285f4">bout</a> = 0</td></tr>
@@ -138,8 +131,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFightersDestroyedEvent.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
-<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ed04da13a967e49fc659fa0aa6d931"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
+<tr class="memitem:af0ed04da13a967e49fc659fa0aa6d931"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structFightersDestroyedEvent.html#af0ed04da13a967e49fc659fa0aa6d931">serialize</a> (Archive &amp;, <a class="el" href="structFightersDestroyedEvent.html">FightersDestroyedEvent</a> &amp;, unsigned int const)</td></tr>
+<tr class="separator:af0ed04da13a967e49fc659fa0aa6d931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="structFightersDestroyedEvent.html" title="FightersDestroyedEvent aggregates all the fighters destroyed during one combat bout. ">FightersDestroyedEvent</a> aggregates all the fighters destroyed during one combat bout. </p>
@@ -278,8 +272,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="af70360457219f21a1316bcd5191f47f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af70360457219f21a1316bcd5191f47f9">&#9670;&nbsp;</a></span>serialize()</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="af0ed04da13a967e49fc659fa0aa6d931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ed04da13a967e49fc659fa0aa6d931">&#9670;&nbsp;</a></span>serialize</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +285,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template void FightersDestroyedEvent::serialize&lt; <a class="el" href="Serialize_8h.html#a7a647b1f26001983ffc17d140a6e7283">freeorion_xml_iarchive</a> &gt; </td>
+          <td class="memname">void serialize </td>
           <td>(</td>
           <td class="paramtype">Archive &amp;&#160;</td>
           <td class="paramname"><em>ar</em>, </td>
@@ -298,38 +293,19 @@ template&lt;typename Archive &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramtype"><a class="el" href="structFightersDestroyedEvent.html">FightersDestroyedEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int const&#160;</td>
           <td class="paramname"><em>version</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="CombatLogManager_8h.html#a6dcaa9ea3b22fc89b442edbc084e0ced">BOOST_CLASS_VERSION()</a>, <a class="el" href="structFightersDestroyedEvent.html#a66121ce0f47f896cfe05a9650c9285f4">bout</a>, <a class="el" href="structFightersDestroyedEvent.html#adaccd5f3f3b67b3bdc2eb61c1ca77bfd">events</a>, <a class="el" href="Serialize_8h.html#a2f959277f0502d0aa5501e7d17e6b055">serialize&lt; freeorion_bin_iarchive &gt;()</a>, <a class="el" href="Serialize_8h.html#ae3012e56762314f6e0d46de0b8301153">serialize&lt; freeorion_bin_oarchive &gt;()</a>, <a class="el" href="Serialize_8h.html#a9281a3d800e04bc36c8ad4c60cadfb90">serialize&lt; freeorion_xml_iarchive &gt;()</a>, and <a class="el" href="Serialize_8h.html#a79862a5c250bb17a8df8dc86b096b373">serialize&lt; freeorion_xml_oarchive &gt;()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class boost::serialization::access</td>
         </tr>
       </table>
   </td>
@@ -362,7 +338,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structFightersDestroyedEvent.html#af70360457219f21a1316bcd5191f47f9">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a02646e33607744a01bf9f50d7433433f">serialize()</a>.</p>
 
 </div>
 </div>
@@ -386,7 +362,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structFightersDestroyedEvent.html#a1c03cc9c18ebf341c8e2705129d08b4e">AddEvent()</a>, <a class="el" href="structFightersDestroyedEvent.html#a452870187ed775bc55116124117ad86a">CombatLogDescription()</a>, <a class="el" href="structFightersDestroyedEvent.html#ad1450359d77e055ae203a5ae9d62e5dc">DebugString()</a>, and <a class="el" href="structFightersDestroyedEvent.html#af70360457219f21a1316bcd5191f47f9">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structFightersDestroyedEvent.html#a1c03cc9c18ebf341c8e2705129d08b4e">AddEvent()</a>, <a class="el" href="structFightersDestroyedEvent.html#a452870187ed775bc55116124117ad86a">CombatLogDescription()</a>, <a class="el" href="structFightersDestroyedEvent.html#ad1450359d77e055ae203a5ae9d62e5dc">DebugString()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a02646e33607744a01bf9f50d7433433f">serialize()</a>.</p>
 
 </div>
 </div>

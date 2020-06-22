@@ -13,6 +13,7 @@ var searchData=
   ['sdlgui_2eh',['SDLGUI.h',['../SDLGUI_8h.html',1,'']]],
   ['serialize_2eh',['Serialize.h',['../Serialize_8h.html',1,'']]],
   ['serialize_2eipp',['Serialize.ipp',['../Serialize_8ipp.html',1,'']]],
+  ['serializecombat_2ecpp',['SerializeCombat.cpp',['../SerializeCombat_8cpp.html',1,'']]],
   ['serializeempire_2ecpp',['SerializeEmpire.cpp',['../SerializeEmpire_8cpp.html',1,'']]],
   ['serializemoderatoraction_2ecpp',['SerializeModeratorAction.cpp',['../SerializeModeratorAction_8cpp.html',1,'']]],
   ['serializemultiplayercommon_2ecpp',['SerializeMultiplayerCommon.cpp',['../SerializeMultiplayerCommon_8cpp.html',1,'']]],

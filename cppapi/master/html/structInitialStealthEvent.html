@@ -62,7 +62,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="structInitialStealthEvent-members.html">List of all members</a>  </div>
@@ -127,12 +126,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3f55fead91180f6b7e5ea77f73fa28eb inherit pub_methods_structCombatEvent"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the combat event is composed of smaller events then return a vector of the sub events, otherwise returns an empty vector.  <a href="structCombatEvent.html#a3f55fead91180f6b7e5ea77f73fa28eb">More...</a><br /></td></tr>
 <tr class="separator:a3f55fead91180f6b7e5ea77f73fa28eb inherit pub_methods_structCombatEvent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a06dcea9ce37833f45661c28d47e03aed"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:a06dcea9ce37833f45661c28d47e03aed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structInitialStealthEvent.html#a06dcea9ce37833f45661c28d47e03aed">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
-<tr class="separator:a06dcea9ce37833f45661c28d47e03aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a0e038cd4fd9f64d741b41be4d97dafbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structInitialStealthEvent.html#af2c5e8c96dedb9771d5fb87264423e67">EmpireToObjectVisibilityMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structInitialStealthEvent.html#a0e038cd4fd9f64d741b41be4d97dafbd">empire_to_object_visibility</a></td></tr>
@@ -140,8 +133,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structInitialStealthEvent.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
-<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f62753759858c2af156f876080ee6a"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
+<tr class="memitem:a57f62753759858c2af156f876080ee6a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structInitialStealthEvent.html#a57f62753759858c2af156f876080ee6a">serialize</a> (Archive &amp;, <a class="el" href="structInitialStealthEvent.html">InitialStealthEvent</a> &amp;, unsigned int const)</td></tr>
+<tr class="separator:a57f62753759858c2af156f876080ee6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="structInitialStealthEvent.html" title="InitialStealthEvent describes the initially stealthy combatants. ">InitialStealthEvent</a> describes the initially stealthy combatants. </p>
@@ -276,8 +270,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a06dcea9ce37833f45661c28d47e03aed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06dcea9ce37833f45661c28d47e03aed">&#9670;&nbsp;</a></span>serialize()</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a57f62753759858c2af156f876080ee6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f62753759858c2af156f876080ee6a">&#9670;&nbsp;</a></span>serialize</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +283,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template void InitialStealthEvent::serialize&lt; <a class="el" href="Serialize_8h.html#a7a647b1f26001983ffc17d140a6e7283">freeorion_xml_iarchive</a> &gt; </td>
+          <td class="memname">void serialize </td>
           <td>(</td>
           <td class="paramtype">Archive &amp;&#160;</td>
           <td class="paramname"><em>ar</em>, </td>
@@ -296,38 +291,19 @@ template&lt;typename Archive &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramtype"><a class="el" href="structInitialStealthEvent.html">InitialStealthEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int const&#160;</td>
           <td class="paramname"><em>version</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="CombatLogManager_8h.html#a6dcaa9ea3b22fc89b442edbc084e0ced">BOOST_CLASS_VERSION()</a>, <a class="el" href="structInitialStealthEvent.html#a0e038cd4fd9f64d741b41be4d97dafbd">empire_to_object_visibility</a>, <a class="el" href="Serialize_8h.html#a2f959277f0502d0aa5501e7d17e6b055">serialize&lt; freeorion_bin_iarchive &gt;()</a>, <a class="el" href="Serialize_8h.html#ae3012e56762314f6e0d46de0b8301153">serialize&lt; freeorion_bin_oarchive &gt;()</a>, <a class="el" href="Serialize_8h.html#a9281a3d800e04bc36c8ad4c60cadfb90">serialize&lt; freeorion_xml_iarchive &gt;()</a>, and <a class="el" href="Serialize_8h.html#a79862a5c250bb17a8df8dc86b096b373">serialize&lt; freeorion_xml_oarchive &gt;()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class boost::serialization::access</td>
         </tr>
       </table>
   </td>
@@ -360,7 +336,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structInitialStealthEvent.html#aafdfd298aec94d25f25cdcbe126423be">CombatLogDescription()</a>, <a class="el" href="structInitialStealthEvent.html#a4672547f705c70c818bfc59515a75497">DebugString()</a>, and <a class="el" href="structInitialStealthEvent.html#a06dcea9ce37833f45661c28d47e03aed">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structInitialStealthEvent.html#aafdfd298aec94d25f25cdcbe126423be">CombatLogDescription()</a>, <a class="el" href="structInitialStealthEvent.html#a4672547f705c70c818bfc59515a75497">DebugString()</a>, and <a class="el" href="SerializeCombat_8cpp.html#acf81e71129753e55d92a39da20cb76df">serialize()</a>.</p>
 
 </div>
 </div>
