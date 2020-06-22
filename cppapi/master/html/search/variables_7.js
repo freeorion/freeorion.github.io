@@ -6,6 +6,7 @@ var searchData=
   ['g_5fpreview_5ful',['g_preview_ul',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a2bfb530ac3190c5f98eb266ee27b699d',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['gainingfocussignal',['GainingFocusSignal',['../classCUIEdit.html#a24d0a00ecb3afe043e5fb04dae2835fb',1,'CUIEdit']]],
   ['galaxy',['galaxy',['../structFullPreview.html#aa6a3b150aaba57e163a800e50b01da5f',1,'FullPreview']]],
+  ['galaxy_5fsetup_5fpanel_5fmargin',['GALAXY_SETUP_PANEL_MARGIN',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a6093e99e0af0ef3aa5ed17ed4601b7aa',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['game_5frule',['game_rule',['../structparse_1_1detail_1_1string__complex__parser__grammar.html#a4622205fd69a264aa2e4ee9cdd90126f',1,'parse::detail::string_complex_parser_grammar::game_rule()'],['../structparse_1_1int__complex__parser__grammar.html#a38c2f18a3cd5345ada57b9911ab33fbb',1,'parse::int_complex_parser_grammar::game_rule()']]],
   ['game_5frule_5fbool',['game_rule_bool',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#adbc9e1457082904124041977dff3a7f7',1,'anonymous_namespace{GameRulesParser.cpp}::grammar']]],
   ['game_5frule_5fdouble',['game_rule_double',['../structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#aef4be3bcb9f705ded3acb0d5e271a3e5',1,'anonymous_namespace{GameRulesParser.cpp}::grammar']]],

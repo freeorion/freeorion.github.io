@@ -85,6 +85,7 @@ var searchData=
   ['preview',['preview',['../structFullPreview.html#a3207a5a063315733ba8f535d1ccb81eb',1,'FullPreview']]],
   ['preview_5fmargin',['PREVIEW_MARGIN',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a3ca8a6ced1f4b2632b029c0a83f7ff1c',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['preview_5fpresent_5fmarker',['PREVIEW_PRESENT_MARKER',['../structSaveGamePreviewData.html#a5e68d762c73aab82bfb2eb63b0ef61bc',1,'SaveGamePreviewData']]],
+  ['preview_5fwidth',['PREVIEW_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ad461ac8a7f464b7c136e0885f6fc4f15',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['previews',['previews',['../structPreviewInformation.html#a2f0b5ee8dc7cd716c567a391ea21d1a7',1,'PreviewInformation']]],
   ['prevquant',['prevQuant',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#aa4cbbdd6d6e81c8678a128db129176cb',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['primary_5fchild',['primary_child',['../classTechTreeLayout_1_1Node.html#abd1fe458ed85b51cfc753ba16001ebe3',1,'TechTreeLayout::Node']]],
