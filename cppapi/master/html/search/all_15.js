@@ -145,5 +145,5 @@ var searchData=
   ['userstringsubstitute',['UserStringSubstitute',['../namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a551cf45a969e6a040b4b8f47b6fbff2e',1,'anonymous_namespace{ChatWnd.cpp}']]],
   ['userstringvalueref',['UserStringValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#add36f6fcf005d5ba76efb42780e20e68',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['userstringvecvalueref',['UserStringVecValueRef',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a39299908bdc8b035afe76727fa00aa06',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
-  ['uuid',['UUID',['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign::UUID()'],['../structProductionQueue_1_1Element.html#a4e08f5b0210377346ef389e6292a89d4',1,'ProductionQueue::Element::uuid()']]]
+  ['uuid',['uuid',['../structProductionQueue_1_1Element.html#a4e08f5b0210377346ef389e6292a89d4',1,'ProductionQueue::Element::uuid()'],['../classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46',1,'ShipDesign::UUID()']]]
 ];
