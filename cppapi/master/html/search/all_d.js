@@ -218,7 +218,7 @@ var searchData=
   ['m_5fcreate_5fplanet_5fbutton',['m_create_planet_button',['../classModeratorActionsWnd.html#a2bac8995b2b21b70c1ef11dfb315b934',1,'ModeratorActionsWnd']]],
   ['m_5fcreate_5fsystem_5fbutton',['m_create_system_button',['../classModeratorActionsWnd.html#a1902c10e591d9ed17b73c5f443012e86',1,'ModeratorActionsWnd']]],
   ['m_5fcreated_5fon_5fturn',['m_created_on_turn',['../classUniverseObject.html#a0c577deeff44e8ced2ba856ee2125e4c',1,'UniverseObject']]],
-  ['m_5fcredits',['m_credits',['../classCreditsWnd.html#ab1a302e175940dab079d719dd61e6ae6',1,'CreditsWnd::m_credits()'],['../classIntroScreen.html#a0d2c375cb054347c4a19362db7b196d3',1,'IntroScreen::m_credits()']]],
+  ['m_5fcredits',['m_credits',['../classCreditsWnd.html#a11b77ae8a68dd0b27008d441e84b1d52',1,'CreditsWnd::m_credits()'],['../classIntroScreen.html#a0d2c375cb054347c4a19362db7b196d3',1,'IntroScreen::m_credits()']]],
   ['m_5fcredits_5fheight',['m_credits_height',['../classCreditsWnd.html#a70b6711214676ded765df8f49b5416a6',1,'CreditsWnd']]],
   ['m_5fcurr',['m_curr',['../structSectionedScopedTimer_1_1Impl_1_1Sections.html#a0d5068e1e4f6f44dd11d42020d784723',1,'SectionedScopedTimer::Impl::Sections']]],
   ['m_5fcurrent_5fdir_5fedit',['m_current_dir_edit',['../classSaveFileDialog.html#a0bc88e506b60f187537092f573863dfa',1,'SaveFileDialog']]],

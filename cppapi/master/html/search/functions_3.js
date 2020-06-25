@@ -367,7 +367,7 @@ var searchData=
   ['createuniverse',['CreateUniverse',['../classPythonServer.html#a6b5a2341408dd8e2695c1756737ce113',1,'PythonServer']]],
   ['createvictorysitrep',['CreateVictorySitRep',['../SitRepEntry_8cpp.html#ac86d04bb87d14a6135ce02254e039b34',1,'CreateVictorySitRep(const std::string &amp;reason_string, int empire_id):&#160;SitRepEntry.cpp'],['../SitRepEntry_8h.html#ac86d04bb87d14a6135ce02254e039b34',1,'CreateVictorySitRep(const std::string &amp;reason_string, int empire_id):&#160;SitRepEntry.cpp']]],
   ['creationturn',['CreationTurn',['../classUniverseObject.html#ae82840d51d76520c07afd69511ccff3b',1,'UniverseObject']]],
-  ['creditswnd',['CreditsWnd',['../classCreditsWnd.html#a22d7ea5a95aa4670f5e5a7eb734d0367',1,'CreditsWnd']]],
+  ['creditswnd',['CreditsWnd',['../classCreditsWnd.html#a3f456d1060434b06eacf1a6e56939864',1,'CreditsWnd']]],
   ['crossproduct',['CrossProduct',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a7a01ea8eae3488e4e80edd8e99a1ab81',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['ctrlbordercolor',['CtrlBorderColor',['../classClientUI.html#a28998eba3b85389eedf0b1fd00a84408',1,'ClientUI']]],
   ['ctrlcolor',['CtrlColor',['../classClientUI.html#aab5133a4d504c0d1536124969e05a8e7',1,'ClientUI']]],
