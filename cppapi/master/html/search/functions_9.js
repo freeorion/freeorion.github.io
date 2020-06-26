@@ -110,7 +110,7 @@ var searchData=
   ['insert_5ffleet_5fplan',['insert_fleet_plan',['../namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html#a712e0b1fab91b5f9d99b18978d5ef9f5',1,'anonymous_namespace{FleetPlansParser.cpp}']]],
   ['insert_5fmonster_5ffleet_5fplan',['insert_monster_fleet_plan',['../namespaceanonymous__namespace_02MonsterFleetPlansParser_8cpp_03.html#a3a838de04fcc4034deba3194fbd38dcf',1,'anonymous_namespace{MonsterFleetPlansParser.cpp}']]],
   ['insert_5fpolicy',['insert_policy',['../namespaceanonymous__namespace_02PoliciesParser_8cpp_03.html#a2097550ba44f8fd2eaf55f3dfe19a508',1,'anonymous_namespace{PoliciesParser.cpp}']]],
-  ['insert_5fship_5fdesign',['insert_ship_design',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#ab45edeeefacbeb87cd4a0a5997bdec32',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
+  ['insert_5fship_5fdesign',['insert_ship_design',['../namespaceanonymous__namespace_02ShipDesignsParser_8cpp_03.html#ad024563fe73cca05c3046bf6006a7ff8',1,'anonymous_namespace{ShipDesignsParser.cpp}']]],
   ['insert_5fshiphull',['insert_shiphull',['../namespaceanonymous__namespace_02ShipHullsParser_8cpp_03.html#adb91f61613d7e8ada89385b663d0e588',1,'anonymous_namespace{ShipHullsParser.cpp}']]],
   ['insert_5fshippart',['insert_shippart',['../namespaceanonymous__namespace_02ShipPartsParser_8cpp_03.html#a47a5adfdc5e8a4e9dc64bba24f1417b7',1,'anonymous_namespace{ShipPartsParser.cpp}']]],
   ['insert_5fspecial',['insert_special',['../namespaceanonymous__namespace_02SpecialsParser_8cpp_03.html#ad482574f070fdb46039daabf1ff9cbeb',1,'anonymous_namespace{SpecialsParser.cpp}']]],

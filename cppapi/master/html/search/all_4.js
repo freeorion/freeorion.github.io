@@ -214,7 +214,7 @@ var searchData=
   ['displayname',['DisplayName',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a466cb652a2378203b733eb0b18188cf3',1,'anonymous_namespace{Logger.cpp}']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displaystockpileprojectsignal',['DisplayStockpileProjectSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a6453179144625b82bac2da17d02de877',1,'BuildDesignatorWnd::BuildSelector']]],
-  ['displaytext',['DisplayText',['../classDesignWnd_1_1MainPanel_1_1I18nString.html#ad5d98e01165606e66c5c0b54b2fed370',1,'DesignWnd::MainPanel::I18nString']]],
+  ['displaytext',['DisplayText',['../classDesignWnd_1_1MainPanel_1_1I18nString.html#a0d761a277cc5d0f84968114dc4bc3397',1,'DesignWnd::MainPanel::I18nString']]],
   ['displaytimestamp',['DisplayTimestamp',['../classClientUI.html#a0b49c6f531a01763f402e2c4c4ee6739',1,'ClientUI']]],
   ['disseminatesystemcombatinfo',['DisseminateSystemCombatInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a358259eb8e4b87c9892606c898992c69',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['distance_5fmatrix_5fcache',['distance_matrix_cache',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache&lt; Storage, T, Row &gt;'],['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#aa94fca4d838c783fd83266cab0fa9769',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache::distance_matrix_cache()']]],
