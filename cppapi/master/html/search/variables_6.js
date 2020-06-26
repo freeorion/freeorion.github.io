@@ -48,7 +48,7 @@ var searchData=
   ['free_5fvariable_5fexpr',['free_variable_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#aeaa7dc968a150cbf98e6ca8db77ca62a',1,'parse::detail::enum_value_ref_rules']]],
   ['free_5fvariable_5fname',['free_variable_name',['../structparse_1_1detail_1_1simple__variable__rules.html#aee391b8f4f90f02b63dcbcfc66d207a9',1,'parse::detail::simple_variable_rules']]],
   ['freeorion_5fversion',['freeorion_version',['../structSaveGamePreviewData.html#a1340d29b125ea16a7075bc156942d7aa',1,'SaveGamePreviewData']]],
-  ['fuel',['fuel',['../structShipHullStats.html#a9db5dcf51122d1fec7edc78447e3a939',1,'ShipHullStats']]],
+  ['fuel',['fuel',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#af6f39d2756f9c72d49418ecdbcd36431',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
   ['fullscreenswitchsignal',['FullscreenSwitchSignal',['../classHumanClientApp.html#aba373af2fd749c019886ed8dbe60dc79',1,'HumanClientApp']]],
   ['function_5fexpr',['function_expr',['../structparse_1_1string__parser__grammar.html#a544410bfb80b436b660eb5c132ee8d94',1,'parse::string_parser_grammar::function_expr()'],['../namespaceparse.html#a054ed9ba8ee2cd452891c6891e9771ad',1,'parse::function_expr()']]],
   ['functional_5fexpr',['functional_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a6c76621aab0a737bf78e563d9cc0467c',1,'parse::detail::enum_value_ref_rules::functional_expr()'],['../structparse_1_1detail_1_1arithmetic__rules.html#a3166d41e019c2488aa20968e0d0a7ede',1,'parse::detail::arithmetic_rules::functional_expr()']]]

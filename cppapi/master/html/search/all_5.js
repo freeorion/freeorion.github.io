@@ -284,7 +284,7 @@ var searchData=
   ['examine_5fedge',['examine_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#ac04623abfb363d5758c6b73edcb85c35',1,'SystemPathing::BFSVisitorImpl']]],
   ['examine_5frow',['examine_row',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html#af030150edc265acb7607a27171f9d7a9',1,'anonymous_namespace{Pathfinder.cpp}::distance_matrix_cache']]],
   ['examine_5fvertex',['examine_vertex',['../classSystemPathing_1_1BFSVisitorImpl.html#ae430e9750ea3a8ae54014d1826f2a96c',1,'SystemPathing::BFSVisitorImpl']]],
-  ['exclusions',['Exclusions',['../classShipHull.html#af08d8c8721a81300590eaebcd1c7ef5d',1,'ShipHull::Exclusions()'],['../structparse_1_1detail_1_1common__params__rules.html#aa1193385a0fff9f707f00a14375352a1',1,'parse::detail::common_params_rules::exclusions()'],['../structMoreCommonParams.html#a2158cce8d52ad2b16506d2fde88fc369',1,'MoreCommonParams::exclusions()']]],
+  ['exclusions',['Exclusions',['../classShipHull.html#af08d8c8721a81300590eaebcd1c7ef5d',1,'ShipHull::Exclusions()'],['../structparse_1_1detail_1_1MoreCommonParams.html#aa50b91f8a531ba393e0ed6355c568481',1,'parse::detail::MoreCommonParams::exclusions()'],['../structparse_1_1detail_1_1common__params__rules.html#aa1193385a0fff9f707f00a14375352a1',1,'parse::detail::common_params_rules::exclusions()']]],
   ['exe',['exe',['../binreloc_8c.html#a988acbf76208b2c16eb342ec5624a0b8',1,'binreloc.c']]],
   ['exec',['exec',['../LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aa52fb3679b07eb74d90784e612ca5cb30',1,'LoggerWithOptionsDB.h']]],
   ['exec_5fname_5fregex',['exec_name_regex',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#af1924bf30cf85825688187c7a5724831',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
