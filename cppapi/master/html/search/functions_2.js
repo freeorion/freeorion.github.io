@@ -83,7 +83,7 @@ var searchData=
   ['buildings',['buildings',['../namespaceparse.html#ace79a6a60424802a39476be4336ccb8a',1,'parse']]],
   ['buildingsimplematch',['BuildingSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1BuildingSimpleMatch.html#aa2c00a8b6accb4194aa0ce8c90dded0b',1,'Condition::anonymous_namespace{Conditions.cpp}::BuildingSimpleMatch']]],
   ['buildingspanel',['BuildingsPanel',['../classBuildingsPanel.html#aec5fb27bcb51c0d95a0d6adcaa20056f',1,'BuildingsPanel']]],
-  ['buildingtype',['BuildingType',['../classBuildingType.html#a04eb820758d59b3495a5ae89d98994f7',1,'BuildingType']]],
+  ['buildingtype',['BuildingType',['../classBuildingType.html#aa7bdcf34e09b4d3a5574c9eb0471e53c',1,'BuildingType']]],
   ['buildingtypeavailable',['BuildingTypeAvailable',['../classEmpire.html#a9347a0c73bb0cd1aee714c14f9afd865',1,'Empire']]],
   ['buildingtypemanager',['BuildingTypeManager',['../classBuildingTypeManager.html#a116fb63aa807a68c818e814a6fe25631',1,'BuildingTypeManager']]],
   ['buildingtypename',['BuildingTypeName',['../classBuilding.html#adcd58e571c904db5846f496bf7ce7a1a',1,'Building']]],

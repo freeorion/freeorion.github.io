@@ -13,7 +13,6 @@ var searchData=
   ['incomplete_5fdesign',['INCOMPLETE_DESIGN',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a309e9bfa2ba1862e40d6ce6d76930715',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['influencequeuechangedsignal',['InfluenceQueueChangedSignal',['../structInfluenceQueue.html#aabd002d7f3cc177e48a787cd3e143c58',1,'InfluenceQueue']]],
   ['influencequeueoperatorsquarebrackets',['InfluenceQueueOperatorSquareBrackets',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aa47bb06eacd304a3aeec9d76f623eaac',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['initial_5fcapacity',['initial_capacity',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__pod.html#ad8f941d0eddf759ca266fd8f6a274444',1,'anonymous_namespace{SpecialsParser.cpp}::special_pod']]],
   ['initial_5fscale',['INITIAL_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#ac3b4966afda10707e768f67349ec5f6f',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['inline_5fcomment',['inline_comment',['../structparse_1_1lexer.html#ad25a9d5c3cf69d206b725779020c671f',1,'parse::lexer']]],
   ['inner_5fborder_5fangle_5foffset',['INNER_BORDER_ANGLE_OFFSET',['../classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257',1,'CUIWnd']]],

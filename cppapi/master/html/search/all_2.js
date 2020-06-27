@@ -150,7 +150,7 @@ var searchData=
   ['buildingspanel_2ecpp',['BuildingsPanel.cpp',['../BuildingsPanel_8cpp.html',1,'']]],
   ['buildingspanel_2eh',['BuildingsPanel.h',['../BuildingsPanel_8h.html',1,'']]],
   ['buildingsparser_2ecpp',['BuildingsParser.cpp',['../BuildingsParser_8cpp.html',1,'']]],
-  ['buildingtype',['BuildingType',['../classBuildingType.html',1,'BuildingType'],['../classBuildingType.html#a04eb820758d59b3495a5ae89d98994f7',1,'BuildingType::BuildingType()']]],
+  ['buildingtype',['BuildingType',['../classBuildingType.html',1,'BuildingType'],['../classBuildingType.html#aa7bdcf34e09b4d3a5574c9eb0471e53c',1,'BuildingType::BuildingType()']]],
   ['buildingtype_2ecpp',['BuildingType.cpp',['../BuildingType_8cpp.html',1,'']]],
   ['buildingtype_2eh',['BuildingType.h',['../BuildingType_8h.html',1,'']]],
   ['buildingtypeavailable',['BuildingTypeAvailable',['../classEmpire.html#a9347a0c73bb0cd1aee714c14f9afd865',1,'Empire']]],
