@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00a2975be5f3f01bccd687f548906834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af465b10e149ac11fd501912bc6ce997f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#af465b10e149ac11fd501912bc6ce997f">EnableOrderIssuing</a> (bool enable=true)</td></tr>
 <tr class="separator:af465b10e149ac11fd501912bc6ce997f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379b2c53edb59eab438eb6302c0f9cc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a379b2c53edb59eab438eb6302c0f9cc6">IteraterIndex</a> (const const_iterator it)</td></tr>
+<tr class="memdesc:a379b2c53edb59eab438eb6302c0f9cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">scans this ListBox for the input iterator <em>and</em> returns its distance from begin(), or -1 if not present  <a href="#a379b2c53edb59eab438eb6302c0f9cc6">More...</a><br /></td></tr>
+<tr class="separator:a379b2c53edb59eab438eb6302c0f9cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca9ef819917652f845a872a7f7bc768a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a">OrderIssuingEnabled</a> () const</td></tr>
 <tr class="separator:aca9ef819917652f845a872a7f7bc768a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b424bf736feac6b250e5e966d17a41c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueListBox.html#a3b424bf736feac6b250e5e966d17a41c">Render</a> () override</td></tr>
@@ -269,7 +272,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classQueueListBox.html#a00a2975be5f3f01bccd687f548906834">DragDropLeave()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classBasesListBox.html#abf460ea09bfa94942c83502ca55573d6">BasesListBox::Populate()</a>, <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">ProductionWnd::UpdateQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classBasesListBox.html#abf460ea09bfa94942c83502ca55573d6">BasesListBox::Populate()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
 
 </div>
 </div>
@@ -328,7 +331,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return a functor that will signal that <code>it</code> should be deleted. </p>
 
-<p class="reference">References <a class="el" href="classQueueListBox.html#a3f2482b987e9c224ad9151062891c958">QueueItemDeletedSignal</a>.</p>
+<p class="reference">References <a class="el" href="classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a">OrderIssuingEnabled()</a>, and <a class="el" href="classQueueListBox.html#a3f2482b987e9c224ad9151062891c958">QueueItemDeletedSignal</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
 
@@ -452,11 +455,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMonstersListBox.html#a610cd77cf9b870e2620905c96fff1cea">MonstersListBox</a>, and <a class="el" href="classEmptyHullsListBox.html#a3c294d225c78d1c9b0400a89951216f4">EmptyHullsListBox</a>.</p>
+<p>Reimplemented in <a class="el" href="classMonstersListBox.html#a610cd77cf9b870e2620905c96fff1cea">MonstersListBox</a>, <a class="el" href="classEmptyHullsListBox.html#a3c294d225c78d1c9b0400a89951216f4">EmptyHullsListBox</a>, and <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#ad1e75772d96819ea2baec0cfdf600391">anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox</a>.</p>
 
 <p class="reference">References <a class="el" href="classQueueListBox.html#ae28dd23552271c974c2e4028f7371a28">m_order_issuing_enabled</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classBasesListBox.html#ad4e2632073984f35a86bcae8f3958dae">BasesListBox::CompleteConstruction()</a>, <a class="el" href="classEmptyHullsListBox.html#a82e3f0414581430acf7c883d206becc5">EmptyHullsListBox::EmptyHullsListBox()</a>, <a class="el" href="classEmptyHullsListBox.html#a3c294d225c78d1c9b0400a89951216f4">EmptyHullsListBox::EnableOrderIssuing()</a>, <a class="el" href="classMonstersListBox.html#a610cd77cf9b870e2620905c96fff1cea">MonstersListBox::EnableOrderIssuing()</a>, and <a class="el" href="classMonstersListBox.html#a2a79e0d44ae7d2209b497b96b0aa1699">MonstersListBox::MonstersListBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classBasesListBox.html#ad4e2632073984f35a86bcae8f3958dae">BasesListBox::CompleteConstruction()</a>, <a class="el" href="classEmptyHullsListBox.html#a82e3f0414581430acf7c883d206becc5">EmptyHullsListBox::EmptyHullsListBox()</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#ad1e75772d96819ea2baec0cfdf600391">anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::EnableOrderIssuing()</a>, <a class="el" href="classEmptyHullsListBox.html#a3c294d225c78d1c9b0400a89951216f4">EmptyHullsListBox::EnableOrderIssuing()</a>, <a class="el" href="classMonstersListBox.html#a610cd77cf9b870e2620905c96fff1cea">MonstersListBox::EnableOrderIssuing()</a>, and <a class="el" href="classMonstersListBox.html#a2a79e0d44ae7d2209b497b96b0aa1699">MonstersListBox::MonstersListBox()</a>.</p>
 
 </div>
 </div>
@@ -578,9 +581,29 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f">BasesListBox</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955">anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox</a>, and <a class="el" href="classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2">ResearchQueueListBox</a>.</p>
 
-<p class="reference">References <a class="el" href="classQueueListBox.html#adbafc9a86fb5b0d65e5c9ea32ebfe59b">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#a9f61d3f4ec62203b529c17cd1ef79640">MoveToBottomAction()</a>, <a class="el" href="classQueueListBox.html#a1fc6dae145b818bc8cde0c2bf358204a">MoveToTopAction()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p class="reference">References <a class="el" href="classQueueListBox.html#adbafc9a86fb5b0d65e5c9ea32ebfe59b">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#a9f61d3f4ec62203b529c17cd1ef79640">MoveToBottomAction()</a>, <a class="el" href="classQueueListBox.html#a1fc6dae145b818bc8cde0c2bf358204a">MoveToTopAction()</a>, <a class="el" href="classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a">OrderIssuingEnabled()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a66645ad462b6806073a05fa302333849">ItemRightClicked()</a>.</p>
+
+</div>
+</div>
+<a id="a379b2c53edb59eab438eb6302c0f9cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379b2c53edb59eab438eb6302c0f9cc6">&#9670;&nbsp;</a></span>IteraterIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QueueListBox::IteraterIndex </td>
+          <td>(</td>
+          <td class="paramtype">const const_iterator&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>scans this ListBox for the input iterator <em>and</em> returns its distance from begin(), or -1 if not present </p>
 
 </div>
 </div>
@@ -654,6 +677,8 @@ Private Attributes</h2></td></tr>
 
 <p>Return a functor that will signal that <code>it</code> should be moved to the bottom of the list. </p>
 
+<p class="reference">References <a class="el" href="classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a">OrderIssuingEnabled()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
 
 </div>
@@ -684,6 +709,8 @@ Private Attributes</h2></td></tr>
 
 <p>Return a functor that will signal that <code>it</code> should be moved to the top of the list. </p>
 
+<p class="reference">References <a class="el" href="classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a">OrderIssuingEnabled()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>.</p>
 
 </div>
@@ -710,6 +737,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#adbafc9a86fb5b0d65e5c9ea32ebfe59b">DeleteAction()</a>, <a class="el" href="classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522">ItemRightClickedImpl()</a>, <a class="el" href="classQueueListBox.html#a9f61d3f4ec62203b529c17cd1ef79640">MoveToBottomAction()</a>, and <a class="el" href="classQueueListBox.html#a1fc6dae145b818bc8cde0c2bf358204a">MoveToTopAction()</a>.</p>
 
 </div>
 </div>
@@ -755,7 +784,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a33fae2b909559dd7d7b35c86ae00537f">SizeMove()</a>, <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>, and <a class="el" href="classProductionWnd.html#a7c4a9b6354bf1af07caea5351fa11368">ProductionWnd::UpdateQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueueListBox.html#a33fae2b909559dd7d7b35c86ae00537f">SizeMove()</a>, and <a class="el" href="classResearchWnd.html#a23deddccb884021494e78907870dd9cc">ResearchWnd::UpdateQueue()</a>.</p>
 
 </div>
 </div>

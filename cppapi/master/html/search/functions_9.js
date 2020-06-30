@@ -253,5 +253,6 @@ var searchData=
   ['itemquantitychanged',['ItemQuantityChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af596281e2ccdad61623b1dd0043b9548',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemrightclicked',['ItemRightClicked',['../classQueueListBox.html#a66645ad462b6806073a05fa302333849',1,'QueueListBox']]],
   ['itemrightclickedimpl',['ItemRightClickedImpl',['../classBasesListBox.html#a169a060b02d49e461e408e6ca5a02f3f',1,'BasesListBox::ItemRightClickedImpl()'],['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1ProdQueueListBox.html#abe3bb35fc6f8aff6de65c1e3f4d87955',1,'anonymous_namespace{ProductionWnd.cpp}::ProdQueueListBox::ItemRightClickedImpl()'],['../classQueueListBox.html#a5f213d944cf82f9611ffc81b6a396522',1,'QueueListBox::ItemRightClickedImpl()'],['../classResearchQueueListBox.html#a4375f67eeb7aa2c2943ad2c1d12ac4e2',1,'ResearchQueueListBox::ItemRightClickedImpl()']]],
-  ['items',['items',['../namespaceparse.html#ac4b22e49498b56bcc252f83b0a2bd345',1,'parse']]]
+  ['items',['items',['../namespaceparse.html#ac4b22e49498b56bcc252f83b0a2bd345',1,'parse']]],
+  ['iteraterindex',['IteraterIndex',['../classQueueListBox.html#a379b2c53edb59eab438eb6302c0f9cc6',1,'QueueListBox']]]
 ];
