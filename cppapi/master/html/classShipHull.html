@@ -64,7 +64,6 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="classShipHull-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ShipHull Class Reference</div>  </div>
@@ -171,9 +170,6 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3cd87532b28d867e4729f074f1044bb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipHull.html#a3cd87532b28d867e4729f074f1044bb7">Init</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classEffect_1_1EffectsGroup.html">Effect::EffectsGroup</a> &gt;&gt; &amp;&amp;effects, bool default_fuel_effects, bool default_speed_effects, bool default_stealth_effects, bool default_structure_effects)</td></tr>
 <tr class="separator:a3cd87532b28d867e4729f074f1044bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83c62b38d49da0cba0c0a3f977e1b96c"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:a83c62b38d49da0cba0c0a3f977e1b96c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classShipHull.html#a83c62b38d49da0cba0c0a3f977e1b96c">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
-<tr class="separator:a83c62b38d49da0cba0c0a3f977e1b96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -213,11 +209,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aee8d6973818d0518be0e0c0144930544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2ba60c33138720401a0c5ea08b5dc72"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipHull.html#aa2ba60c33138720401a0c5ea08b5dc72">m_tags</a></td></tr>
 <tr class="separator:aa2ba60c33138720401a0c5ea08b5dc72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipHull.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
-<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specification for the hull, or base, on which ship designs are created by adding parts. </p>
@@ -1014,46 +1005,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a83c62b38d49da0cba0c0a3f977e1b96c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83c62b38d49da0cba0c0a3f977e1b96c">&#9670;&nbsp;</a></span>serialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Archive &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ShipHull::serialize </td>
-          <td>(</td>
-          <td class="paramtype">Archive &amp;&#160;</td>
-          <td class="paramname"><em>ar</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>version</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="namespaceCheckSums.html#aa80d319e50e1916d71140143b2c04513">CheckSums::CheckSumCombine()</a>, and <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a>.</p>
-
-</div>
-</div>
 <a id="a825c029747332387c879252df0dd1852"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a825c029747332387c879252df0dd1852">&#9670;&nbsp;</a></span>Shields()</h2>
 
@@ -1245,29 +1196,6 @@ template&lt;typename Archive &gt; </div>
 <p>Returns the troop capacity of hull. </p>
 
 <p class="reference">Referenced by <a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">ShipDesign::BuildStatCaches()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class boost::serialization::access</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
