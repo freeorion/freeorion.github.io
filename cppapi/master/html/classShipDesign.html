@@ -79,22 +79,152 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac3e1ec662bbfccc24c1efad00367185b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac3e1ec662bbfccc24c1efad00367185b">ShipDesign</a> (const boost::optional&lt; std::invalid_argument &gt; &amp;should_throw, std::string name, std::string description, int designed_on_turn, int designed_by_empire, std::string hull, std::vector&lt; std::string &gt; parts, std::string icon, std::string model, bool name_desc_in_stringtable=false, bool monster=false, boost::uuids::uuid uuid=boost::uuids::nil_uuid())</td></tr>
+<tr class="memdesc:ac3e1ec662bbfccc24c1efad00367185b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The public <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> constructor will only construct valid ship designs, as long as the <a class="el" href="classShipHullManager.html" title="Holds FreeOrion hull types. ">ShipHullManager</a> has at least one hull.  <a href="#ac3e1ec662bbfccc24c1efad00367185b">More...</a><br /></td></tr>
+<tr class="separator:ac3e1ec662bbfccc24c1efad00367185b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af105beb416e077fe411d3b4ea7be262c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af105beb416e077fe411d3b4ea7be262c">ShipDesign</a> (const <a class="el" href="structParsedShipDesign.html">ParsedShipDesign</a> &amp;design)</td></tr>
+<tr class="memdesc:af105beb416e077fe411d3b4ea7be262c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a parsed ship design and do any required verification.  <a href="#af105beb416e077fe411d3b4ea7be262c">More...</a><br /></td></tr>
+<tr class="separator:af105beb416e077fe411d3b4ea7be262c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61769128236b2a53c0bea1b72c848418"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a61769128236b2a53c0bea1b72c848418">AdjustedAttack</a> (float shield) const</td></tr>
+<tr class="separator:a61769128236b2a53c0bea1b72c848418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8821259b25bc24a2fce6dd73c482440"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aa8821259b25bc24a2fce6dd73c482440">Attack</a> () const</td></tr>
+<tr class="separator:aa8821259b25bc24a2fce6dd73c482440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5ff6428ce1e744757b37de50c2c441"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#afe5ff6428ce1e744757b37de50c2c441">CanBombard</a> () const</td></tr>
+<tr class="separator:afe5ff6428ce1e744757b37de50c2c441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a303a0ac18c643a108da19038e197665b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a303a0ac18c643a108da19038e197665b">CanColonize</a> () const</td></tr>
+<tr class="separator:a303a0ac18c643a108da19038e197665b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6db232060919e3e40b9224a579eb0e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abd6db232060919e3e40b9224a579eb0e">ColonyCapacity</a> () const</td></tr>
+<tr class="memdesc:abd6db232060919e3e40b9224a579eb0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the colonization capacity of this design  <a href="#abd6db232060919e3e40b9224a579eb0e">More...</a><br /></td></tr>
+<tr class="separator:abd6db232060919e3e40b9224a579eb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b17d79c971dedbe77ef93032c4e6326"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2b17d79c971dedbe77ef93032c4e6326">Defense</a> () const</td></tr>
+<tr class="separator:a2b17d79c971dedbe77ef93032c4e6326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8c0b444acf03d9a0a43f2e4e1db38577">Description</a> (bool stringtable_lookup=true) const</td></tr>
+<tr class="memdesc:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns description of design.  <a href="#a8c0b444acf03d9a0a43f2e4e1db38577">More...</a><br /></td></tr>
+<tr class="separator:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb12b84f79ce3db61580b18b1c1bf55e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adb12b84f79ce3db61580b18b1c1bf55e">DesignedByEmpire</a> () const</td></tr>
+<tr class="memdesc:adb12b84f79ce3db61580b18b1c1bf55e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns turn on which design was created  <a href="#adb12b84f79ce3db61580b18b1c1bf55e">More...</a><br /></td></tr>
+<tr class="separator:adb12b84f79ce3db61580b18b1c1bf55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643f21ac69c813146631c91b4515cb74"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a643f21ac69c813146631c91b4515cb74">DesignedOnTurn</a> () const</td></tr>
+<tr class="separator:a643f21ac69c813146631c91b4515cb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a0baa30b78e9dbb82372c3fe6edf2a381">Detection</a> () const</td></tr>
+<tr class="memdesc:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the detection ability of this design  <a href="#a0baa30b78e9dbb82372c3fe6edf2a381">More...</a><br /></td></tr>
+<tr class="separator:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a1a5bf7da9e1854fab259d7654d9b7f5d">Dump</a> (unsigned short ntabs=0) const</td></tr>
+<tr class="memdesc:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a data file format representation of this object  <a href="#a1a5bf7da9e1854fab259d7654d9b7f5d">More...</a><br /></td></tr>
+<tr class="separator:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5">Fuel</a> () const</td></tr>
+<tr class="memdesc:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max fuel capacity of this design  <a href="#abcbdbf3c47d3e1900899849f8e9d79a5">More...</a><br /></td></tr>
+<tr class="separator:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af24b6bb9d39690615ad603a6a3548fec"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af24b6bb9d39690615ad603a6a3548fec">GetCheckSum</a> () const</td></tr>
+<tr class="memdesc:af24b6bb9d39690615ad603a6a3548fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#af24b6bb9d39690615ad603a6a3548fec">More...</a><br /></td></tr>
+<tr class="separator:af24b6bb9d39690615ad603a6a3548fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a871570bca85fdfaf277b5e80bc77c60b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a871570bca85fdfaf277b5e80bc77c60b">HasDirectWeapons</a> () const</td></tr>
+<tr class="separator:a871570bca85fdfaf277b5e80bc77c60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397291d5a445018dbdb35582cae1de9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a397291d5a445018dbdb35582cae1de9b">HasFighters</a> () const</td></tr>
+<tr class="separator:a397291d5a445018dbdb35582cae1de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523cf10b50aacec8d04a77346ae19436"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a523cf10b50aacec8d04a77346ae19436">HasTroops</a> () const</td></tr>
+<tr class="separator:a523cf10b50aacec8d04a77346ae19436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8911bb633dc9f541b83be71250d298a7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8911bb633dc9f541b83be71250d298a7">Hull</a> () const</td></tr>
+<tr class="memdesc:a8911bb633dc9f541b83be71250d298a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns name of hull on which design is based  <a href="#a8911bb633dc9f541b83be71250d298a7">More...</a><br /></td></tr>
+<tr class="separator:a8911bb633dc9f541b83be71250d298a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab581b07d2735ca68f5cc8f7a9079bda0">Icon</a> () const</td></tr>
+<tr class="memdesc:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename for small-size icon graphic for design  <a href="#ab581b07d2735ca68f5cc8f7a9079bda0">More...</a><br /></td></tr>
+<tr class="separator:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88498ee974b29791e2518fde54c0149c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a88498ee974b29791e2518fde54c0149c">ID</a> () const</td></tr>
+<tr class="memdesc:a88498ee974b29791e2518fde54c0149c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a88498ee974b29791e2518fde54c0149c">More...</a><br /></td></tr>
+<tr class="separator:a88498ee974b29791e2518fde54c0149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adfa69b2b5cadc3d9c4a1bd53898f5826">IndustryGeneration</a> () const</td></tr>
+<tr class="memdesc:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the industry output from this ship design  <a href="#adfa69b2b5cadc3d9c4a1bd53898f5826">More...</a><br /></td></tr>
+<tr class="separator:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250b585a9bcce169c7ad9ecec650bf47"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a250b585a9bcce169c7ad9ecec650bf47">InfluenceGeneration</a> () const</td></tr>
+<tr class="memdesc:a250b585a9bcce169c7ad9ecec650bf47"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the influence output from this ship design  <a href="#a250b585a9bcce169c7ad9ecec650bf47">More...</a><br /></td></tr>
+<tr class="separator:a250b585a9bcce169c7ad9ecec650bf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a370e5bd253af4c7caebefa355f7c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a96a370e5bd253af4c7caebefa355f7c5">IsArmed</a> () const</td></tr>
+<tr class="separator:a96a370e5bd253af4c7caebefa355f7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a6390ad9c0a11fec2b6679f836d20e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a02a6390ad9c0a11fec2b6679f836d20e">IsMonster</a> () const</td></tr>
+<tr class="separator:a02a6390ad9c0a11fec2b6679f836d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce9e9208fd531c80ab3cc136c286105"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#afce9e9208fd531c80ab3cc136c286105">IsProductionLocation</a> () const</td></tr>
+<tr class="memdesc:afce9e9208fd531c80ab3cc136c286105"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this ship design can be a production location  <a href="#afce9e9208fd531c80ab3cc136c286105">More...</a><br /></td></tr>
+<tr class="separator:afce9e9208fd531c80ab3cc136c286105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a69525a19f6052a4aa75ab1b613263"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac4a69525a19f6052a4aa75ab1b613263">LookupInStringtable</a> () const</td></tr>
+<tr class="separator:ac4a69525a19f6052a4aa75ab1b613263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74867e87666491e021e9a10d3fb6f027"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a74867e87666491e021e9a10d3fb6f027">Model</a> () const</td></tr>
+<tr class="memdesc:a74867e87666491e021e9a10d3fb6f027"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename of 3D model that represents ships of design  <a href="#a74867e87666491e021e9a10d3fb6f027">More...</a><br /></td></tr>
+<tr class="separator:a74867e87666491e021e9a10d3fb6f027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c56081f27116c2c40761e70bf04c7fe"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8c56081f27116c2c40761e70bf04c7fe">Name</a> (bool stringtable_lookup=true) const</td></tr>
+<tr class="memdesc:a8c56081f27116c2c40761e70bf04c7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns name of design.  <a href="#a8c56081f27116c2c40761e70bf04c7fe">More...</a><br /></td></tr>
+<tr class="separator:a8c56081f27116c2c40761e70bf04c7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2911d6395fc8b27d47963fb48c691db1"><td class="memItemLeft" align="right" valign="top">const std::map&lt; ShipPartClass, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2911d6395fc8b27d47963fb48c691db1">PartClassCount</a> () const</td></tr>
+<tr class="memdesc:a2911d6395fc8b27d47963fb48c691db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of parts in this ship design, indexed by ShipPartClass  <a href="#a2911d6395fc8b27d47963fb48c691db1">More...</a><br /></td></tr>
+<tr class="separator:a2911d6395fc8b27d47963fb48c691db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2659b5a72fd3be4efaee5dcbdd925876">PartCount</a> () const</td></tr>
+<tr class="separator:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4b2b3eba0d5967395fd7d2eee33160a1">Parts</a> () const</td></tr>
+<tr class="memdesc:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of all parts in this design, with position in vector corresponding to slot positions  <a href="#a4b2b3eba0d5967395fd7d2eee33160a1">More...</a><br /></td></tr>
+<tr class="separator:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8eb9d2306806fe56343b4405ce34a3c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab8eb9d2306806fe56343b4405ce34a3c">Parts</a> (ShipSlotType slot_type) const</td></tr>
+<tr class="memdesc:ab8eb9d2306806fe56343b4405ce34a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of parts in slots of indicated type in this design, unrelated to slot positions  <a href="#ab8eb9d2306806fe56343b4405ce34a3c">More...</a><br /></td></tr>
+<tr class="separator:ab8eb9d2306806fe56343b4405ce34a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac04e077fe1f1b39a5139d73a4eab71f6">PerTurnCost</a> (int empire_id, int location_id) const</td></tr>
+<tr class="memdesc:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum per-turn number of production points that can be spent on building a ship of this design  <a href="#ac04e077fe1f1b39a5139d73a4eab71f6">More...</a><br /></td></tr>
+<tr class="separator:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7435ce716c896c7fe70f5737f91080"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aaa7435ce716c896c7fe70f5737f91080">Producible</a> () const</td></tr>
+<tr class="memdesc:aaa7435ce716c896c7fe70f5737f91080"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether this design is producible by players and appears on the production screen list  <a href="#aaa7435ce716c896c7fe70f5737f91080">More...</a><br /></td></tr>
+<tr class="separator:aaa7435ce716c896c7fe70f5737f91080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca48546b625bcac8448a3c59425d3d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2ca48546b625bcac8448a3c59425d3d1">ProductionCost</a> (int empire_id, int location_id) const</td></tr>
+<tr class="memdesc:a2ca48546b625bcac8448a3c59425d3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the total cost to build a ship of this design  <a href="#a2ca48546b625bcac8448a3c59425d3d1">More...</a><br /></td></tr>
+<tr class="separator:a2ca48546b625bcac8448a3c59425d3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93859106b34b70b7b0002f1cd0e0be41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a93859106b34b70b7b0002f1cd0e0be41">ProductionCostTimeLocationInvariant</a> () const</td></tr>
+<tr class="memdesc:a93859106b34b70b7b0002f1cd0e0be41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of empire that created this design  <a href="#a93859106b34b70b7b0002f1cd0e0be41">More...</a><br /></td></tr>
+<tr class="separator:a93859106b34b70b7b0002f1cd0e0be41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a556d903a2f860d7a2bfc1b0617e44afc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a556d903a2f860d7a2bfc1b0617e44afc">ProductionLocation</a> (int empire_id, int location_id) const</td></tr>
 <tr class="memdesc:a556d903a2f860d7a2bfc1b0617e44afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the empire with ID empire_id can produce this design at the location with location_id  <a href="#a556d903a2f860d7a2bfc1b0617e44afc">More...</a><br /></td></tr>
 <tr class="separator:a556d903a2f860d7a2bfc1b0617e44afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mutators</div></td></tr>
-<tr class="memitem:a3b91e4dcc0aa605c6058386055faf178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID</a> (int id)</td></tr>
-<tr class="memdesc:a3b91e4dcc0aa605c6058386055faf178"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ID number of the design to <em>id</em> . Should only be used by <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> class when inserting new design into <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>.  <a href="#a3b91e4dcc0aa605c6058386055faf178">More...</a><br /></td></tr>
-<tr class="separator:a3b91e4dcc0aa605c6058386055faf178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a9dfa7ba3ecaff5a62e3c3d3a12e838f8">SetUUID</a> (const boost::uuids::uuid &amp;uuid)</td></tr>
-<tr class="memdesc:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the UUID.  <a href="#a9dfa7ba3ecaff5a62e3c3d3a12e838f8">More...</a><br /></td></tr>
-<tr class="separator:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c00edd10fd2907fe4f5a517d1879d51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4c00edd10fd2907fe4f5a517d1879d51">ProductionTime</a> (int empire_id, int location_id) const</td></tr>
+<tr class="memdesc:a4c00edd10fd2907fe4f5a517d1879d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the time in turns it takes to build a ship of this design  <a href="#a4c00edd10fd2907fe4f5a517d1879d51">More...</a><br /></td></tr>
+<tr class="separator:a4c00edd10fd2907fe4f5a517d1879d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a286febf407e707f580921478dae3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ad2a286febf407e707f580921478dae3e">Rename</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:ad2a286febf407e707f580921478dae3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">renames this design to <em>name</em>  <a href="#ad2a286febf407e707f580921478dae3e">More...</a><br /></td></tr>
 <tr class="separator:ad2a286febf407e707f580921478dae3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e918a24d53bf519fac869a8068a237"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ad8e918a24d53bf519fac869a8068a237">ResearchGeneration</a> () const</td></tr>
+<tr class="memdesc:ad8e918a24d53bf519fac869a8068a237"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the research output from this ship design  <a href="#ad8e918a24d53bf519fac869a8068a237">More...</a><br /></td></tr>
+<tr class="separator:ad8e918a24d53bf519fac869a8068a237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125a91ed7dcdbee255c4b101271c78f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a125a91ed7dcdbee255c4b101271c78f0">SetDescription</a> (const std::string &amp;description)</td></tr>
+<tr class="separator:a125a91ed7dcdbee255c4b101271c78f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b91e4dcc0aa605c6058386055faf178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">SetID</a> (int id)</td></tr>
+<tr class="memdesc:a3b91e4dcc0aa605c6058386055faf178"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ID number of the design to <em>id</em> . Should only be used by <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> class when inserting new design into <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>.  <a href="#a3b91e4dcc0aa605c6058386055faf178">More...</a><br /></td></tr>
+<tr class="separator:a3b91e4dcc0aa605c6058386055faf178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf4a3e56ff7cdd1c79e68b3b36cb3aca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adf4a3e56ff7cdd1c79e68b3b36cb3aca">SetMonster</a> (const bool is_monster)</td></tr>
-<tr class="memdesc:adf4a3e56ff7cdd1c79e68b3b36cb3aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ID number of the design to <em>id</em> . Should only be used by <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> class when inserting new design into <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>.  <a href="#adf4a3e56ff7cdd1c79e68b3b36cb3aca">More...</a><br /></td></tr>
 <tr class="separator:adf4a3e56ff7cdd1c79e68b3b36cb3aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36075f07633d37b8fb13f0d3db371f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a36075f07633d37b8fb13f0d3db371f1d">SetName</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a36075f07633d37b8fb13f0d3db371f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a9dfa7ba3ecaff5a62e3c3d3a12e838f8">SetUUID</a> (const boost::uuids::uuid &amp;uuid)</td></tr>
+<tr class="memdesc:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the UUID.  <a href="#a9dfa7ba3ecaff5a62e3c3d3a12e838f8">More...</a><br /></td></tr>
+<tr class="separator:a9dfa7ba3ecaff5a62e3c3d3a12e838f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c0f2d911414dc28a70cf87ff06fb920"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a0c0f2d911414dc28a70cf87ff06fb920">Shields</a> () const</td></tr>
+<tr class="memdesc:a0c0f2d911414dc28a70cf87ff06fb920"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max shields of this design  <a href="#a0c0f2d911414dc28a70cf87ff06fb920">More...</a><br /></td></tr>
+<tr class="separator:a0c0f2d911414dc28a70cf87ff06fb920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f451f34f182a5a62860860946a44294"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a6f451f34f182a5a62860860946a44294">ShipPartCount</a> () const</td></tr>
+<tr class="memdesc:a6f451f34f182a5a62860860946a44294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of parts in this ship design, indexed by ShipPart name.  <a href="#a6f451f34f182a5a62860860946a44294">More...</a><br /></td></tr>
+<tr class="separator:a6f451f34f182a5a62860860946a44294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af5967ed5a75b84c6f0f0fac38a7dff5d">Speed</a> () const</td></tr>
+<tr class="memdesc:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns design speed along starlanes  <a href="#af5967ed5a75b84c6f0f0fac38a7dff5d">More...</a><br /></td></tr>
+<tr class="separator:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab449cfd22f75f39cb5d1ace2e6e654bd">Stealth</a> () const</td></tr>
+<tr class="memdesc:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the stealth of this design  <a href="#ab449cfd22f75f39cb5d1ace2e6e654bd">More...</a><br /></td></tr>
+<tr class="separator:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac0df6d8bb2e938217660b31c8fb122"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a3ac0df6d8bb2e938217660b31c8fb122">Structure</a> () const</td></tr>
+<tr class="memdesc:a3ac0df6d8bb2e938217660b31c8fb122"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max structure of this design  <a href="#a3ac0df6d8bb2e938217660b31c8fb122">More...</a><br /></td></tr>
+<tr class="separator:a3ac0df6d8bb2e938217660b31c8fb122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a1bcbf2d801eb7f5d3dd848b6b2fd7a63">TroopCapacity</a> () const</td></tr>
+<tr class="memdesc:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the troop capacity of this design  <a href="#a1bcbf2d801eb7f5d3dd848b6b2fd7a63">More...</a><br /></td></tr>
+<tr class="separator:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8740e8d1a17f522ec933d86a3e12b46"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46">UUID</a> () const</td></tr>
+<tr class="memdesc:af8740e8d1a17f522ec933d86a3e12b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UUID.  <a href="#af8740e8d1a17f522ec933d86a3e12b46">More...</a><br /></td></tr>
+<tr class="separator:af8740e8d1a17f522ec933d86a3e12b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4baedac49dbc761ca34fd631e9847a5a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4baedac49dbc761ca34fd631e9847a5a">Weapons</a> () const</td></tr>
+<tr class="memdesc:a4baedac49dbc761ca34fd631e9847a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of weapon parts in, unrelated to slot positions  <a href="#a4baedac49dbc761ca34fd631e9847a5a">More...</a><br /></td></tr>
+<tr class="separator:a4baedac49dbc761ca34fd631e9847a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -104,6 +234,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca">ShipDesign</a> ()</td></tr>
+<tr class="memdesc:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca" title="The ShipDesign() constructor constructs invalid designs and is only used by boost serialization...">ShipDesign()</a> constructor constructs invalid designs and is only used by boost serialization.  <a href="#a81c3e540e7c21e3ab9d8c0c60eeeeeca">More...</a><br /></td></tr>
+<tr class="separator:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b1ae007830fc297543790880198683"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ad6b1ae007830fc297543790880198683">BuildStatCaches</a> ()</td></tr>
 <tr class="separator:ad6b1ae007830fc297543790880198683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2111124d8cdae7f4e56f06cb43c5670e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2111124d8cdae7f4e56f06cb43c5670e">ForceValidDesignOrThrow</a> (const boost::optional&lt; std::invalid_argument &gt; &amp;should_throw, bool produce_log)</td></tr>
@@ -188,165 +321,8 @@ Private Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
 <tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Structors</h2></td></tr>
-<tr class="memitem:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca">ShipDesign</a> ()</td></tr>
-<tr class="memdesc:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classShipDesign.html#a81c3e540e7c21e3ab9d8c0c60eeeeeca" title="The ShipDesign() constructor constructs invalid designs and is only used by boost serialization...">ShipDesign()</a> constructor constructs invalid designs and is only used by boost serialization.  <a href="#a81c3e540e7c21e3ab9d8c0c60eeeeeca">More...</a><br /></td></tr>
-<tr class="separator:a81c3e540e7c21e3ab9d8c0c60eeeeeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e1ec662bbfccc24c1efad00367185b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac3e1ec662bbfccc24c1efad00367185b">ShipDesign</a> (const boost::optional&lt; std::invalid_argument &gt; &amp;should_throw, std::string name, std::string description, int designed_on_turn, int designed_by_empire, std::string hull, std::vector&lt; std::string &gt; parts, std::string icon, std::string model, bool name_desc_in_stringtable=false, bool monster=false, boost::uuids::uuid uuid=boost::uuids::nil_uuid())</td></tr>
-<tr class="memdesc:ac3e1ec662bbfccc24c1efad00367185b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The public <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> constructor will only construct valid ship designs, as long as the <a class="el" href="classShipHullManager.html" title="Holds FreeOrion hull types. ">ShipHullManager</a> has at least one hull.  <a href="#ac3e1ec662bbfccc24c1efad00367185b">More...</a><br /></td></tr>
-<tr class="separator:ac3e1ec662bbfccc24c1efad00367185b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af105beb416e077fe411d3b4ea7be262c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af105beb416e077fe411d3b4ea7be262c">ShipDesign</a> (const <a class="el" href="structParsedShipDesign.html">ParsedShipDesign</a> &amp;design)</td></tr>
-<tr class="memdesc:af105beb416e077fe411d3b4ea7be262c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a parsed ship design and do any required verification.  <a href="#af105beb416e077fe411d3b4ea7be262c">More...</a><br /></td></tr>
-<tr class="separator:af105beb416e077fe411d3b4ea7be262c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Accessors</h2></td></tr>
 <tr class="memitem:a2c2c8697e16a625a7abbe85279b64679"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2c2c8697e16a625a7abbe85279b64679">operator==</a> (const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;first, const <a class="el" href="classShipDesign.html">ShipDesign</a> &amp;second)</td></tr>
-<tr class="memdesc:a2c2c8697e16a625a7abbe85279b64679"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a2c2c8697e16a625a7abbe85279b64679">More...</a><br /></td></tr>
 <tr class="separator:a2c2c8697e16a625a7abbe85279b64679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88498ee974b29791e2518fde54c0149c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a88498ee974b29791e2518fde54c0149c">ID</a> () const</td></tr>
-<tr class="memdesc:a88498ee974b29791e2518fde54c0149c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a88498ee974b29791e2518fde54c0149c">More...</a><br /></td></tr>
-<tr class="separator:a88498ee974b29791e2518fde54c0149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c56081f27116c2c40761e70bf04c7fe"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8c56081f27116c2c40761e70bf04c7fe">Name</a> (bool stringtable_lookup=true) const</td></tr>
-<tr class="memdesc:a8c56081f27116c2c40761e70bf04c7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns name of design.  <a href="#a8c56081f27116c2c40761e70bf04c7fe">More...</a><br /></td></tr>
-<tr class="separator:a8c56081f27116c2c40761e70bf04c7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36075f07633d37b8fb13f0d3db371f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a36075f07633d37b8fb13f0d3db371f1d">SetName</a> (const std::string &amp;name)</td></tr>
-<tr class="memdesc:a36075f07633d37b8fb13f0d3db371f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a36075f07633d37b8fb13f0d3db371f1d">More...</a><br /></td></tr>
-<tr class="separator:a36075f07633d37b8fb13f0d3db371f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8740e8d1a17f522ec933d86a3e12b46"><td class="memItemLeft" align="right" valign="top">boost::uuids::uuid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af8740e8d1a17f522ec933d86a3e12b46">UUID</a> () const</td></tr>
-<tr class="memdesc:af8740e8d1a17f522ec933d86a3e12b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UUID.  <a href="#af8740e8d1a17f522ec933d86a3e12b46">More...</a><br /></td></tr>
-<tr class="separator:af8740e8d1a17f522ec933d86a3e12b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8c0b444acf03d9a0a43f2e4e1db38577">Description</a> (bool stringtable_lookup=true) const</td></tr>
-<tr class="memdesc:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns description of design.  <a href="#a8c0b444acf03d9a0a43f2e4e1db38577">More...</a><br /></td></tr>
-<tr class="separator:a8c0b444acf03d9a0a43f2e4e1db38577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a125a91ed7dcdbee255c4b101271c78f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a125a91ed7dcdbee255c4b101271c78f0">SetDescription</a> (const std::string &amp;description)</td></tr>
-<tr class="memdesc:a125a91ed7dcdbee255c4b101271c78f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a125a91ed7dcdbee255c4b101271c78f0">More...</a><br /></td></tr>
-<tr class="separator:a125a91ed7dcdbee255c4b101271c78f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643f21ac69c813146631c91b4515cb74"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a643f21ac69c813146631c91b4515cb74">DesignedOnTurn</a> () const</td></tr>
-<tr class="memdesc:a643f21ac69c813146631c91b4515cb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a643f21ac69c813146631c91b4515cb74">More...</a><br /></td></tr>
-<tr class="separator:a643f21ac69c813146631c91b4515cb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb12b84f79ce3db61580b18b1c1bf55e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adb12b84f79ce3db61580b18b1c1bf55e">DesignedByEmpire</a> () const</td></tr>
-<tr class="memdesc:adb12b84f79ce3db61580b18b1c1bf55e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns turn on which design was created  <a href="#adb12b84f79ce3db61580b18b1c1bf55e">More...</a><br /></td></tr>
-<tr class="separator:adb12b84f79ce3db61580b18b1c1bf55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93859106b34b70b7b0002f1cd0e0be41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a93859106b34b70b7b0002f1cd0e0be41">ProductionCostTimeLocationInvariant</a> () const</td></tr>
-<tr class="memdesc:a93859106b34b70b7b0002f1cd0e0be41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of empire that created this design  <a href="#a93859106b34b70b7b0002f1cd0e0be41">More...</a><br /></td></tr>
-<tr class="separator:a93859106b34b70b7b0002f1cd0e0be41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca48546b625bcac8448a3c59425d3d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2ca48546b625bcac8448a3c59425d3d1">ProductionCost</a> (int empire_id, int location_id) const</td></tr>
-<tr class="memdesc:a2ca48546b625bcac8448a3c59425d3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the total cost to build a ship of this design  <a href="#a2ca48546b625bcac8448a3c59425d3d1">More...</a><br /></td></tr>
-<tr class="separator:a2ca48546b625bcac8448a3c59425d3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac04e077fe1f1b39a5139d73a4eab71f6">PerTurnCost</a> (int empire_id, int location_id) const</td></tr>
-<tr class="memdesc:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum per-turn number of production points that can be spent on building a ship of this design  <a href="#ac04e077fe1f1b39a5139d73a4eab71f6">More...</a><br /></td></tr>
-<tr class="separator:ac04e077fe1f1b39a5139d73a4eab71f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c00edd10fd2907fe4f5a517d1879d51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4c00edd10fd2907fe4f5a517d1879d51">ProductionTime</a> (int empire_id, int location_id) const</td></tr>
-<tr class="memdesc:a4c00edd10fd2907fe4f5a517d1879d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the time in turns it takes to build a ship of this design  <a href="#a4c00edd10fd2907fe4f5a517d1879d51">More...</a><br /></td></tr>
-<tr class="separator:a4c00edd10fd2907fe4f5a517d1879d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa7435ce716c896c7fe70f5737f91080"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aaa7435ce716c896c7fe70f5737f91080">Producible</a> () const</td></tr>
-<tr class="memdesc:aaa7435ce716c896c7fe70f5737f91080"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether this design is producible by players and appears on the production screen list  <a href="#aaa7435ce716c896c7fe70f5737f91080">More...</a><br /></td></tr>
-<tr class="separator:aaa7435ce716c896c7fe70f5737f91080"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af5967ed5a75b84c6f0f0fac38a7dff5d">Speed</a> () const</td></tr>
-<tr class="memdesc:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns design speed along starlanes  <a href="#af5967ed5a75b84c6f0f0fac38a7dff5d">More...</a><br /></td></tr>
-<tr class="separator:af5967ed5a75b84c6f0f0fac38a7dff5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac0df6d8bb2e938217660b31c8fb122"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a3ac0df6d8bb2e938217660b31c8fb122">Structure</a> () const</td></tr>
-<tr class="memdesc:a3ac0df6d8bb2e938217660b31c8fb122"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max structure of this design  <a href="#a3ac0df6d8bb2e938217660b31c8fb122">More...</a><br /></td></tr>
-<tr class="separator:a3ac0df6d8bb2e938217660b31c8fb122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c0f2d911414dc28a70cf87ff06fb920"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a0c0f2d911414dc28a70cf87ff06fb920">Shields</a> () const</td></tr>
-<tr class="memdesc:a0c0f2d911414dc28a70cf87ff06fb920"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max shields of this design  <a href="#a0c0f2d911414dc28a70cf87ff06fb920">More...</a><br /></td></tr>
-<tr class="separator:a0c0f2d911414dc28a70cf87ff06fb920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5">Fuel</a> () const</td></tr>
-<tr class="memdesc:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the max fuel capacity of this design  <a href="#abcbdbf3c47d3e1900899849f8e9d79a5">More...</a><br /></td></tr>
-<tr class="separator:abcbdbf3c47d3e1900899849f8e9d79a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a0baa30b78e9dbb82372c3fe6edf2a381">Detection</a> () const</td></tr>
-<tr class="memdesc:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the detection ability of this design  <a href="#a0baa30b78e9dbb82372c3fe6edf2a381">More...</a><br /></td></tr>
-<tr class="separator:a0baa30b78e9dbb82372c3fe6edf2a381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd6db232060919e3e40b9224a579eb0e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#abd6db232060919e3e40b9224a579eb0e">ColonyCapacity</a> () const</td></tr>
-<tr class="memdesc:abd6db232060919e3e40b9224a579eb0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the colonization capacity of this design  <a href="#abd6db232060919e3e40b9224a579eb0e">More...</a><br /></td></tr>
-<tr class="separator:abd6db232060919e3e40b9224a579eb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a1bcbf2d801eb7f5d3dd848b6b2fd7a63">TroopCapacity</a> () const</td></tr>
-<tr class="memdesc:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the troop capacity of this design  <a href="#a1bcbf2d801eb7f5d3dd848b6b2fd7a63">More...</a><br /></td></tr>
-<tr class="separator:a1bcbf2d801eb7f5d3dd848b6b2fd7a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab449cfd22f75f39cb5d1ace2e6e654bd">Stealth</a> () const</td></tr>
-<tr class="memdesc:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the stealth of this design  <a href="#ab449cfd22f75f39cb5d1ace2e6e654bd">More...</a><br /></td></tr>
-<tr class="separator:ab449cfd22f75f39cb5d1ace2e6e654bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#adfa69b2b5cadc3d9c4a1bd53898f5826">IndustryGeneration</a> () const</td></tr>
-<tr class="memdesc:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the industry output from this ship design  <a href="#adfa69b2b5cadc3d9c4a1bd53898f5826">More...</a><br /></td></tr>
-<tr class="separator:adfa69b2b5cadc3d9c4a1bd53898f5826"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e918a24d53bf519fac869a8068a237"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ad8e918a24d53bf519fac869a8068a237">ResearchGeneration</a> () const</td></tr>
-<tr class="memdesc:ad8e918a24d53bf519fac869a8068a237"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the research output from this ship design  <a href="#ad8e918a24d53bf519fac869a8068a237">More...</a><br /></td></tr>
-<tr class="separator:ad8e918a24d53bf519fac869a8068a237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a250b585a9bcce169c7ad9ecec650bf47"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a250b585a9bcce169c7ad9ecec650bf47">InfluenceGeneration</a> () const</td></tr>
-<tr class="memdesc:a250b585a9bcce169c7ad9ecec650bf47"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the influence output from this ship design  <a href="#a250b585a9bcce169c7ad9ecec650bf47">More...</a><br /></td></tr>
-<tr class="separator:a250b585a9bcce169c7ad9ecec650bf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afce9e9208fd531c80ab3cc136c286105"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#afce9e9208fd531c80ab3cc136c286105">IsProductionLocation</a> () const</td></tr>
-<tr class="memdesc:afce9e9208fd531c80ab3cc136c286105"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this ship design can be a production location  <a href="#afce9e9208fd531c80ab3cc136c286105">More...</a><br /></td></tr>
-<tr class="separator:afce9e9208fd531c80ab3cc136c286105"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a303a0ac18c643a108da19038e197665b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a303a0ac18c643a108da19038e197665b">CanColonize</a> () const</td></tr>
-<tr class="memdesc:a303a0ac18c643a108da19038e197665b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a303a0ac18c643a108da19038e197665b">More...</a><br /></td></tr>
-<tr class="separator:a303a0ac18c643a108da19038e197665b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523cf10b50aacec8d04a77346ae19436"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a523cf10b50aacec8d04a77346ae19436">HasTroops</a> () const</td></tr>
-<tr class="memdesc:a523cf10b50aacec8d04a77346ae19436"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a523cf10b50aacec8d04a77346ae19436">More...</a><br /></td></tr>
-<tr class="separator:a523cf10b50aacec8d04a77346ae19436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5ff6428ce1e744757b37de50c2c441"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#afe5ff6428ce1e744757b37de50c2c441">CanBombard</a> () const</td></tr>
-<tr class="memdesc:afe5ff6428ce1e744757b37de50c2c441"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#afe5ff6428ce1e744757b37de50c2c441">More...</a><br /></td></tr>
-<tr class="separator:afe5ff6428ce1e744757b37de50c2c441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96a370e5bd253af4c7caebefa355f7c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a96a370e5bd253af4c7caebefa355f7c5">IsArmed</a> () const</td></tr>
-<tr class="memdesc:a96a370e5bd253af4c7caebefa355f7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a96a370e5bd253af4c7caebefa355f7c5">More...</a><br /></td></tr>
-<tr class="separator:a96a370e5bd253af4c7caebefa355f7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a871570bca85fdfaf277b5e80bc77c60b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a871570bca85fdfaf277b5e80bc77c60b">HasDirectWeapons</a> () const</td></tr>
-<tr class="memdesc:a871570bca85fdfaf277b5e80bc77c60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a871570bca85fdfaf277b5e80bc77c60b">More...</a><br /></td></tr>
-<tr class="separator:a871570bca85fdfaf277b5e80bc77c60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397291d5a445018dbdb35582cae1de9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a397291d5a445018dbdb35582cae1de9b">HasFighters</a> () const</td></tr>
-<tr class="memdesc:a397291d5a445018dbdb35582cae1de9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a397291d5a445018dbdb35582cae1de9b">More...</a><br /></td></tr>
-<tr class="separator:a397291d5a445018dbdb35582cae1de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02a6390ad9c0a11fec2b6679f836d20e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a02a6390ad9c0a11fec2b6679f836d20e">IsMonster</a> () const</td></tr>
-<tr class="memdesc:a02a6390ad9c0a11fec2b6679f836d20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a02a6390ad9c0a11fec2b6679f836d20e">More...</a><br /></td></tr>
-<tr class="separator:a02a6390ad9c0a11fec2b6679f836d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8821259b25bc24a2fce6dd73c482440"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#aa8821259b25bc24a2fce6dd73c482440">Attack</a> () const</td></tr>
-<tr class="memdesc:aa8821259b25bc24a2fce6dd73c482440"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#aa8821259b25bc24a2fce6dd73c482440">More...</a><br /></td></tr>
-<tr class="separator:aa8821259b25bc24a2fce6dd73c482440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61769128236b2a53c0bea1b72c848418"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a61769128236b2a53c0bea1b72c848418">AdjustedAttack</a> (float shield) const</td></tr>
-<tr class="memdesc:a61769128236b2a53c0bea1b72c848418"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a61769128236b2a53c0bea1b72c848418">More...</a><br /></td></tr>
-<tr class="separator:a61769128236b2a53c0bea1b72c848418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b17d79c971dedbe77ef93032c4e6326"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2b17d79c971dedbe77ef93032c4e6326">Defense</a> () const</td></tr>
-<tr class="memdesc:a2b17d79c971dedbe77ef93032c4e6326"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a2b17d79c971dedbe77ef93032c4e6326">More...</a><br /></td></tr>
-<tr class="separator:a2b17d79c971dedbe77ef93032c4e6326"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8911bb633dc9f541b83be71250d298a7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a8911bb633dc9f541b83be71250d298a7">Hull</a> () const</td></tr>
-<tr class="memdesc:a8911bb633dc9f541b83be71250d298a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns name of hull on which design is based  <a href="#a8911bb633dc9f541b83be71250d298a7">More...</a><br /></td></tr>
-<tr class="separator:a8911bb633dc9f541b83be71250d298a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4b2b3eba0d5967395fd7d2eee33160a1">Parts</a> () const</td></tr>
-<tr class="memdesc:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of all parts in this design, with position in vector corresponding to slot positions  <a href="#a4b2b3eba0d5967395fd7d2eee33160a1">More...</a><br /></td></tr>
-<tr class="separator:a4b2b3eba0d5967395fd7d2eee33160a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8eb9d2306806fe56343b4405ce34a3c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab8eb9d2306806fe56343b4405ce34a3c">Parts</a> (ShipSlotType slot_type) const</td></tr>
-<tr class="memdesc:ab8eb9d2306806fe56343b4405ce34a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of parts in slots of indicated type in this design, unrelated to slot positions  <a href="#ab8eb9d2306806fe56343b4405ce34a3c">More...</a><br /></td></tr>
-<tr class="separator:ab8eb9d2306806fe56343b4405ce34a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4baedac49dbc761ca34fd631e9847a5a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a4baedac49dbc761ca34fd631e9847a5a">Weapons</a> () const</td></tr>
-<tr class="memdesc:a4baedac49dbc761ca34fd631e9847a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector of names of weapon parts in, unrelated to slot positions  <a href="#a4baedac49dbc761ca34fd631e9847a5a">More...</a><br /></td></tr>
-<tr class="separator:a4baedac49dbc761ca34fd631e9847a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ab581b07d2735ca68f5cc8f7a9079bda0">Icon</a> () const</td></tr>
-<tr class="memdesc:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename for small-size icon graphic for design  <a href="#ab581b07d2735ca68f5cc8f7a9079bda0">More...</a><br /></td></tr>
-<tr class="separator:ab581b07d2735ca68f5cc8f7a9079bda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74867e87666491e021e9a10d3fb6f027"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a74867e87666491e021e9a10d3fb6f027">Model</a> () const</td></tr>
-<tr class="memdesc:a74867e87666491e021e9a10d3fb6f027"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename of 3D model that represents ships of design  <a href="#a74867e87666491e021e9a10d3fb6f027">More...</a><br /></td></tr>
-<tr class="separator:a74867e87666491e021e9a10d3fb6f027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4a69525a19f6052a4aa75ab1b613263"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#ac4a69525a19f6052a4aa75ab1b613263">LookupInStringtable</a> () const</td></tr>
-<tr class="memdesc:ac4a69525a19f6052a4aa75ab1b613263"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#ac4a69525a19f6052a4aa75ab1b613263">More...</a><br /></td></tr>
-<tr class="separator:ac4a69525a19f6052a4aa75ab1b613263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f451f34f182a5a62860860946a44294"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a6f451f34f182a5a62860860946a44294">ShipPartCount</a> () const</td></tr>
-<tr class="memdesc:a6f451f34f182a5a62860860946a44294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of parts in this ship design, indexed by ShipPart name.  <a href="#a6f451f34f182a5a62860860946a44294">More...</a><br /></td></tr>
-<tr class="separator:a6f451f34f182a5a62860860946a44294"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2659b5a72fd3be4efaee5dcbdd925876">PartCount</a> () const</td></tr>
-<tr class="memdesc:a2659b5a72fd3be4efaee5dcbdd925876"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id number of design  <a href="#a2659b5a72fd3be4efaee5dcbdd925876">More...</a><br /></td></tr>
-<tr class="separator:a2659b5a72fd3be4efaee5dcbdd925876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2911d6395fc8b27d47963fb48c691db1"><td class="memItemLeft" align="right" valign="top">const std::map&lt; ShipPartClass, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a2911d6395fc8b27d47963fb48c691db1">PartClassCount</a> () const</td></tr>
-<tr class="memdesc:a2911d6395fc8b27d47963fb48c691db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of parts in this ship design, indexed by ShipPartClass  <a href="#a2911d6395fc8b27d47963fb48c691db1">More...</a><br /></td></tr>
-<tr class="separator:a2911d6395fc8b27d47963fb48c691db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#a1a5bf7da9e1854fab259d7654d9b7f5d">Dump</a> (unsigned short ntabs=0) const</td></tr>
-<tr class="memdesc:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a data file format representation of this object  <a href="#a1a5bf7da9e1854fab259d7654d9b7f5d">More...</a><br /></td></tr>
-<tr class="separator:a1a5bf7da9e1854fab259d7654d9b7f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24b6bb9d39690615ad603a6a3548fec"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShipDesign.html#af24b6bb9d39690615ad603a6a3548fec">GetCheckSum</a> () const</td></tr>
-<tr class="memdesc:af24b6bb9d39690615ad603a6a3548fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#af24b6bb9d39690615ad603a6a3548fec">More...</a><br /></td></tr>
-<tr class="separator:af24b6bb9d39690615ad603a6a3548fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Returns true if the two designs have the same hull and parts. </p>
@@ -512,8 +488,6 @@ Accessors</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">References <a class="el" href="classGameRules.html#a07432cf73730589313fd16f3024aab93">GameRules::Get()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="ShipPart_8cpp.html#a73d6918ea3cf1ca3e73b5bc071ba8edb">GetShipPart()</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classShipDesign.html#aa8821259b25bc24a2fce6dd73c482440">Attack()</a>.</p>
@@ -534,8 +508,6 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="classShipDesign.html#a61769128236b2a53c0bea1b72c848418">AdjustedAttack()</a>.</p>
 
@@ -595,8 +567,6 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">Referenced by <a class="el" href="classShip.html#a20d1dbc289f2e4784b7753eb2f7442b1">Ship::CanBombard()</a>.</p>
 
 </div>
@@ -615,8 +585,6 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="ShipPart_8cpp.html#a73d6918ea3cf1ca3e73b5bc071ba8edb">GetShipPart()</a>, and <a class="el" href="classShipDesign.html#aa4cb532b8be971158a1396f7b359ea40">m_parts</a>.</p>
 
@@ -667,8 +635,6 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="classShipPartManager.html#a658ce5b94e77e22c9f9108fb859c3340">ShipPartManager::GetShipPart()</a>, <a class="el" href="ShipPart_8cpp.html#a3bd0b306768ab5235f306a10dcab1d89">GetShipPartManager()</a>, and <a class="el" href="classShipDesign.html#a4b2b3eba0d5967395fd7d2eee33160a1">Parts()</a>.</p>
 
@@ -752,8 +718,6 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02ShipDesign_8cpp_03.html#ae665d62a352082d40ab0f853ba381d08">anonymous_namespace{ShipDesign.cpp}::DesignsTheSame()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1PredefinedShipDesignSimpleMatch.html#a97028fdb9f1606278e0601b2084fb451">Condition::anonymous_namespace{Conditions.cpp}::PredefinedShipDesignSimpleMatch::operator()()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -930,8 +894,6 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
@@ -959,8 +921,6 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">Referenced by <a class="el" href="classShip.html#a08f3239592f2bd8d06ad82bde79a4dfc">Ship::HasFighters()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
@@ -987,8 +947,6 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">Referenced by <a class="el" href="classShip.html#ab1edbf9fe7fe6ee4f273703a6e0f40b7">Ship::CanHaveTroops()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
@@ -1164,8 +1122,6 @@ Accessors</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
@@ -1192,8 +1148,6 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a7973a915eaf8e45660c2e822050c9e39">anonymous_namespace{CombatSystem.cpp}::Attack()</a>.</p>
 
@@ -1250,8 +1204,6 @@ Accessors</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">Referenced by <a class="el" href="classSavedDesignsListBox_1_1SavedDesignListBoxRow.html#a035b51806b8bbe55989600cbabc0a9b1">SavedDesignsListBox::SavedDesignListBoxRow::LookupInStringtable()</a>.</p>
 
@@ -1405,8 +1357,6 @@ Accessors</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="classShipDesign.html#a8b0c930e2b218ac89e659588b816aa72">m_num_part_classes</a>.</p>
 
@@ -1767,8 +1717,6 @@ template&lt;typename Archive &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>returns id number of design </p>
-
 <p class="reference">References <a class="el" href="namespacetag__parser.html#a84d904b5839bc8efb6a2f8d3fd25e1f7">tag_parser::description</a>, and <a class="el" href="classShipDesign.html#afcc897695fa7898b11e951854ef56f62">m_description</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#af88396fa4dbaefe20c6052210ae47335">Universe::RenameShipDesign()</a>.</p>
@@ -1823,8 +1771,6 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the ID number of the design to <em>id</em> . Should only be used by <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> class when inserting new design into <a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a>. </p>
-
 </div>
 </div>
 <a id="a36075f07633d37b8fb13f0d3db371f1d"></a>
@@ -1842,8 +1788,6 @@ template&lt;typename Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 <p class="reference">References <a class="el" href="classShipDesign.html#af810137f707023f956d62a7202c156fe">m_name</a>.</p>
 
@@ -2195,8 +2139,6 @@ template&lt;typename Archive &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns id number of design </p>
 
 </div>
 </div>

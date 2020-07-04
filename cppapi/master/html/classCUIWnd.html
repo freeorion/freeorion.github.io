@@ -60,6 +60,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classCUIWnd-members.html">List of all members</a>  </div>
@@ -114,19 +118,146 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Structors //@{</div></td></tr>
 <tr class="memitem:a534b23149a1e8f625d9f79dc2b9e524a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a534b23149a1e8f625d9f79dc2b9e524a">CUIWnd</a> (const std::string &amp;wnd_name, GG::X x, GG::Y y, GG::X w, GG::Y h, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)</td></tr>
 <tr class="memdesc:a534b23149a1e8f625d9f79dc2b9e524a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the window to be a CUI window.  <a href="#a534b23149a1e8f625d9f79dc2b9e524a">More...</a><br /></td></tr>
 <tr class="separator:a534b23149a1e8f625d9f79dc2b9e524a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89ba3ebfe4d64eb6cf16b404f5af26ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a89ba3ebfe4d64eb6cf16b404f5af26ee">CUIWnd</a> (const std::string &amp;wnd_name, GG::Flags&lt; GG::WndFlag &gt; flags=GG::INTERACTIVE, const std::string &amp;config_name=&quot;&quot;, bool visible=true)</td></tr>
 <tr class="memdesc:a89ba3ebfe4d64eb6cf16b404f5af26ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a CUI window without specifying the initial (default) position, either call <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a> if the window is positioned by something else or override <a class="el" href="classCUIWnd.html#a1225585190e8ff1943dd6122a8422536" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> then call <a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195" title="called via signal from the ClientUI, passes the value from CalculatePosition() to InitSizeMove() ...">ResetDefaultPosition()</a> for windows that position themselves.  <a href="#a89ba3ebfe4d64eb6cf16b404f5af26ee">More...</a><br /></td></tr>
 <tr class="separator:a89ba3ebfe4d64eb6cf16b404f5af26ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36f3c792fc0872d003e7fea9ccf4e229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a36f3c792fc0872d003e7fea9ccf4e229">CompleteConstruction</a> () override</td></tr>
-<tr class="memdesc:a36f3c792fc0872d003e7fea9ccf4e229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the window to be a CUI window.  <a href="#a36f3c792fc0872d003e7fea9ccf4e229">More...</a><br /></td></tr>
-<tr class="separator:a36f3c792fc0872d003e7fea9ccf4e229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab121e6a1dd526f7a272e69a1d56198aa"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa">~CUIWnd</a> ()</td></tr>
 <tr class="memdesc:ab121e6a1dd526f7a272e69a1d56198aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#ab121e6a1dd526f7a272e69a1d56198aa">More...</a><br /></td></tr>
 <tr class="separator:ab121e6a1dd526f7a272e69a1d56198aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4f68ff79b8122549e55151b2d150d3"><td class="memItemLeft" align="right" valign="top">GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0c4f68ff79b8122549e55151b2d150d3">BottomBorder</a> () const</td></tr>
+<tr class="memdesc:a0c4f68ff79b8122549e55151b2d150d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance at the bottom between the outer edge of the window and the inner border  <a href="#a0c4f68ff79b8122549e55151b2d150d3">More...</a><br /></td></tr>
+<tr class="separator:a0c4f68ff79b8122549e55151b2d150d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ab2a17bf81446c3da2f5764a5df75c"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a23ab2a17bf81446c3da2f5764a5df75c">ClientLowerRight</a> () const override</td></tr>
+<tr class="separator:a23ab2a17bf81446c3da2f5764a5df75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7edd4888b1617ebb47ab46c35458266"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac7edd4888b1617ebb47ab46c35458266">ClientUpperLeft</a> () const override</td></tr>
+<tr class="separator:ac7edd4888b1617ebb47ab46c35458266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b7323776f484aad95bb59d0473027a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae6b7323776f484aad95bb59d0473027a">Close</a> ()</td></tr>
+<tr class="separator:ae6b7323776f484aad95bb59d0473027a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6b2554effeddf09c0bb0592c183405"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CloseClicked</a> ()</td></tr>
+<tr class="memdesc:a4e6b2554effeddf09c0bb0592c183405"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is closed via the close button  <a href="#a4e6b2554effeddf09c0bb0592c183405">More...</a><br /></td></tr>
+<tr class="separator:a4e6b2554effeddf09c0bb0592c183405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f3c792fc0872d003e7fea9ccf4e229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a36f3c792fc0872d003e7fea9ccf4e229">CompleteConstruction</a> () override</td></tr>
+<tr class="separator:a36f3c792fc0872d003e7fea9ccf4e229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae869bb9c0677d212ca9294f85dd5ec95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae869bb9c0677d212ca9294f85dd5ec95">Flash</a> ()</td></tr>
+<tr class="separator:ae869bb9c0677d212ca9294f85dd5ec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4e7d174932807755f406bf487d3131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4b4e7d174932807755f406bf487d3131">Hide</a> () override</td></tr>
+<tr class="separator:a4b4e7d174932807755f406bf487d3131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr)</td></tr>
+<tr class="memdesc:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets default positions and if default positions were set beforehand, calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a>  <a href="#a2ab710d8d994a81d2de58d03dcefe6e3">More...</a><br /></td></tr>
+<tr class="separator:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae953a6be9f494852e96edc079f9aa36b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae953a6be9f494852e96edc079f9aa36b">InWindow</a> (const GG::Pt &amp;pt) const override</td></tr>
+<tr class="separator:ae953a6be9f494852e96edc079f9aa36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac08b8575b22bea1ecce4e4b60c991ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac08b8575b22bea1ecce4e4b60c991ae9">LButtonDown</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:ac08b8575b22bea1ecce4e4b60c991ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9463412f4ef867a3fde9821de8dfc867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a9463412f4ef867a3fde9821de8dfc867">LButtonUp</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:a9463412f4ef867a3fde9821de8dfc867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14aa5e797a004bebaa4b213af2dffe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af14aa5e797a004bebaa4b213af2dffe5">LClick</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:af14aa5e797a004bebaa4b213af2dffe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b248c19f5de4fe03aa52eddf892ee60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3b248c19f5de4fe03aa52eddf892ee60">LDrag</a> (const GG::Pt &amp;pt, const GG::Pt &amp;move, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:a3b248c19f5de4fe03aa52eddf892ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad02ef4769ec44c1520238403d099076"><td class="memItemLeft" align="right" valign="top">GG::X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aad02ef4769ec44c1520238403d099076">LeftBorder</a> () const</td></tr>
+<tr class="memdesc:aad02ef4769ec44c1520238403d099076"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance on the left side between the outer edge of the window and the inner border  <a href="#aad02ef4769ec44c1520238403d099076">More...</a><br /></td></tr>
+<tr class="separator:aad02ef4769ec44c1520238403d099076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8356d72461c4bd7331c025366e96cff3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8356d72461c4bd7331c025366e96cff3">Minimized</a> () const</td></tr>
+<tr class="memdesc:a8356d72461c4bd7331c025366e96cff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if window is minimized  <a href="#a8356d72461c4bd7331c025366e96cff3">More...</a><br /></td></tr>
+<tr class="separator:a8356d72461c4bd7331c025366e96cff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae837977c0f7734a5236fdc936ec295f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae837977c0f7734a5236fdc936ec295f1">MouseEnter</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:ae837977c0f7734a5236fdc936ec295f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19529d75735fe53049eb6c980532a4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af19529d75735fe53049eb6c980532a4d">MouseHere</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
+<tr class="separator:af19529d75735fe53049eb6c980532a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e263a96f8bb5da5d1d5c1fb03a89124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3e263a96f8bb5da5d1d5c1fb03a89124">MouseLeave</a> () override</td></tr>
+<tr class="separator:a3e263a96f8bb5da5d1d5c1fb03a89124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a11779b177b9e195b0b69d97dbe4ca9bc">PinClicked</a> ()</td></tr>
+<tr class="memdesc:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is pinned or unpinned via the pin button  <a href="#a11779b177b9e195b0b69d97dbe4ca9bc">More...</a><br /></td></tr>
+<tr class="separator:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5f9566c6c0e78ec6b5ea094595a86e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e">Render</a> () override</td></tr>
+<tr class="separator:a5e5f9566c6c0e78ec6b5ea094595a86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b40084e7148e8a44607fbf4ba9e283"><td class="memItemLeft" align="right" valign="top">GG::X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af9b40084e7148e8a44607fbf4ba9e283">RightBorder</a> () const</td></tr>
+<tr class="memdesc:af9b40084e7148e8a44607fbf4ba9e283"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance on the right side between the outer edge of the window and the inner border  <a href="#af9b40084e7148e8a44607fbf4ba9e283">More...</a><br /></td></tr>
+<tr class="separator:af9b40084e7148e8a44607fbf4ba9e283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c87c360ebfe37abf8ba5a32f2ec443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a31c87c360ebfe37abf8ba5a32f2ec443">SetFlashDuration</a> (int ms)</td></tr>
+<tr class="separator:a31c87c360ebfe37abf8ba5a32f2ec443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe25d54eb0ee5bc6bf67a4abc9739f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#afe25d54eb0ee5bc6bf67a4abc9739f8c">Show</a> () override</td></tr>
+<tr class="separator:afe25d54eb0ee5bc6bf67a4abc9739f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9570ff94883f6a9f4b1089524db0203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
+<tr class="separator:aa9570ff94883f6a9f4b1089524db0203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45fab573c53cee3b7c3eb8df4ad9364f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a45fab573c53cee3b7c3eb8df4ad9364f">StopFlash</a> ()</td></tr>
+<tr class="separator:a45fab573c53cee3b7c3eb8df4ad9364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fd987b3f997ee796baca171bbb7de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a60fd987b3f997ee796baca171bbb7de4">ToggleMinimized</a> ()</td></tr>
+<tr class="separator:a60fd987b3f997ee796baca171bbb7de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="memItemLeft" align="right" valign="top">GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#afff6ca75f8f3f6e7f8e2d56cd2c361d4">TopBorder</a> () const</td></tr>
+<tr class="memdesc:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance at the top between the outer edge of the window and the inner border  <a href="#afff6ca75f8f3f6e7f8e2d56cd2c361d4">More...</a><br /></td></tr>
+<tr class="separator:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf04410026082dede3da4194443e2239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">ValidatePosition</a> ()</td></tr>
+<tr class="memdesc:aaf04410026082dede3da4194443e2239"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#aaf04410026082dede3da4194443e2239">More...</a><br /></td></tr>
+<tr class="separator:aaf04410026082dede3da4194443e2239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac1c5a29d178d397a7312442f62e8a6d0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0">InvalidateUnusedOptions</a> ()</td></tr>
+<tr class="memdesc:ac1c5a29d178d397a7312442f62e8a6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes unregistered and registered-but-unused window options from the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> so that new windows fall back to their default properties.  <a href="#ac1c5a29d178d397a7312442f62e8a6d0">More...</a><br /></td></tr>
+<tr class="separator:ac1c5a29d178d397a7312442f62e8a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1225585190e8ff1943dd6122a8422536"><td class="memItemLeft" align="right" valign="top">virtual GG::Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a1225585190e8ff1943dd6122a8422536">CalculatePosition</a> () const</td></tr>
+<tr class="memdesc:a1225585190e8ff1943dd6122a8422536"><td class="mdescLeft">&#160;</td><td class="mdescRight">override this if a class determines its own position/size and return the calculated values, called by <a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195" title="called via signal from the ClientUI, passes the value from CalculatePosition() to InitSizeMove() ...">ResetDefaultPosition()</a>  <a href="#a1225585190e8ff1943dd6122a8422536">More...</a><br /></td></tr>
+<tr class="separator:a1225585190e8ff1943dd6122a8422536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c177d83d0df30685f66b246908d0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a65c177d83d0df30685f66b246908d0b8">Init</a> ()</td></tr>
+<tr class="memdesc:a65c177d83d0df30685f66b246908d0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs initialization common to all <a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a> constructors  <a href="#a65c177d83d0df30685f66b246908d0b8">More...</a><br /></td></tr>
+<tr class="separator:a65c177d83d0df30685f66b246908d0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a732164fade618598cb7a118ef68cb7fc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">InitBuffers</a> ()</td></tr>
+<tr class="separator:a732164fade618598cb7a118ef68cb7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c303915c62034698ec6b8cd057f1376"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a9c303915c62034698ec6b8cd057f1376">InitButtons</a> ()</td></tr>
+<tr class="memdesc:a9c303915c62034698ec6b8cd057f1376"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to create the buttons, withtout positioning them  <a href="#a9c303915c62034698ec6b8cd057f1376">More...</a><br /></td></tr>
+<tr class="separator:a9c303915c62034698ec6b8cd057f1376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac757a01c26a1ab9eee660d1753672e83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac757a01c26a1ab9eee660d1753672e83">InnerBorderAngleOffset</a> () const</td></tr>
+<tr class="memdesc:ac757a01c26a1ab9eee660d1753672e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance from where the lower right corner of the inner border should be to where the angled portion of the inner border meets the right and bottom lines of the border  <a href="#ac757a01c26a1ab9eee660d1753672e83">More...</a><br /></td></tr>
+<tr class="separator:ac757a01c26a1ab9eee660d1753672e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c87abd15ebc10a0dcdf666290d901b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8">InResizeTab</a> (const GG::Pt &amp;pt) const</td></tr>
+<tr class="memdesc:a8c87abd15ebc10a0dcdf666290d901b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the specified <em>pt</em> is in the region where dragging will resize this Wnd  <a href="#a8c87abd15ebc10a0dcdf666290d901b8">More...</a><br /></td></tr>
+<tr class="separator:a8c87abd15ebc10a0dcdf666290d901b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85066bd3343824c57dae6cf9e446808b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">LoadOptions</a> ()</td></tr>
+<tr class="memdesc:a85066bd3343824c57dae6cf9e446808b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads options for this window from the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a>  <a href="#a85066bd3343824c57dae6cf9e446808b">More...</a><br /></td></tr>
+<tr class="separator:a85066bd3343824c57dae6cf9e446808b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2792906193791750e95a80f434af63b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a2792906193791750e95a80f434af63b5">MinimizeClicked</a> ()</td></tr>
+<tr class="memdesc:a2792906193791750e95a80f434af63b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is minimized or restored via the minimize/restore button  <a href="#a2792906193791750e95a80f434af63b5">More...</a><br /></td></tr>
+<tr class="separator:a2792906193791750e95a80f434af63b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca900d484e35de4970ad649003ef1789"><td class="memItemLeft" align="right" valign="top">virtual GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aca900d484e35de4970ad649003ef1789">MinimizedSize</a> () const</td></tr>
+<tr class="memdesc:aca900d484e35de4970ad649003ef1789"><td class="mdescLeft">&#160;</td><td class="mdescRight">the size of a minimized <a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a>  <a href="#aca900d484e35de4970ad649003ef1789">More...</a><br /></td></tr>
+<tr class="separator:aca900d484e35de4970ad649003ef1789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3b7c75a2b3d2722091b31650eb46857"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af3b7c75a2b3d2722091b31650eb46857">PositionButtons</a> ()</td></tr>
+<tr class="memdesc:af3b7c75a2b3d2722091b31650eb46857"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to position the buttons  <a href="#af3b7c75a2b3d2722091b31650eb46857">More...</a><br /></td></tr>
+<tr class="separator:af3b7c75a2b3d2722091b31650eb46857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2341f4dd0f771a157b63cd26b6d195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">ResetDefaultPosition</a> ()</td></tr>
+<tr class="memdesc:aec2341f4dd0f771a157b63cd26b6d195"><td class="mdescLeft">&#160;</td><td class="mdescRight">called via signal from the <a class="el" href="classClientUI.html" title="ClientUI Main Module This is the main class of the ClientUI module. ">ClientUI</a>, passes the value from <a class="el" href="classCUIWnd.html#a1225585190e8ff1943dd6122a8422536" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> to <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a>  <a href="#aec2341f4dd0f771a157b63cd26b6d195">More...</a><br /></td></tr>
+<tr class="separator:aec2341f4dd0f771a157b63cd26b6d195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae7ed9bc0dbae9ae049d48fe220b32716">SaveDefaultedOptions</a> ()</td></tr>
+<tr class="memdesc:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the default value any options previously determined from calls to SetDefaultedOptions to their current value.  <a href="#ae7ed9bc0dbae9ae049d48fe220b32716">More...</a><br /></td></tr>
+<tr class="separator:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3463aea8c746001b80965dc554fe22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions</a> () const</td></tr>
+<tr class="memdesc:a0d3463aea8c746001b80965dc554fe22"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves options for this window to the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> if config_name was specified in the constructor  <a href="#a0d3463aea8c746001b80965dc554fe22">More...</a><br /></td></tr>
+<tr class="separator:a0d3463aea8c746001b80965dc554fe22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fee0daa5653e972c8695fdfc24bd961"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">SetDefaultedOptions</a> ()</td></tr>
+<tr class="memdesc:a5fee0daa5653e972c8695fdfc24bd961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags options currently at their default values for later use in SaveDefaultedOptions.  <a href="#a5fee0daa5653e972c8695fdfc24bd961">More...</a><br /></td></tr>
+<tr class="separator:a5fee0daa5653e972c8695fdfc24bd961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5297828be469e40d060500b477b5da49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5297828be469e40d060500b477b5da49">SetParent</a> (const std::shared_ptr&lt; GG::Wnd &gt; &amp;wnd) override</td></tr>
+<tr class="separator:a5297828be469e40d060500b477b5da49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a91ee4fb867a51a8726cd5474cde75269"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">AddWindowOptions</a> (const std::string &amp;config_name, int left, int top, int width, int height, bool visible, bool pinned, bool minimized)</td></tr>
+<tr class="memdesc:a91ee4fb867a51a8726cd5474cde75269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> entries for a window under a given name along with default values.  <a href="#a91ee4fb867a51a8726cd5474cde75269">More...</a><br /></td></tr>
+<tr class="separator:a91ee4fb867a51a8726cd5474cde75269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0796afcfe678bb732150604d0789b30"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af0796afcfe678bb732150604d0789b30">AddWindowOptions</a> (const std::string &amp;config_name, GG::X left, GG::Y top, GG::X width, GG::Y height, bool visible, bool pinned, bool minimized)</td></tr>
+<tr class="memdesc:af0796afcfe678bb732150604d0789b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload that accepts GG::X and GG::Y instead of ints  <a href="#af0796afcfe678bb732150604d0789b30">More...</a><br /></td></tr>
+<tr class="separator:af0796afcfe678bb732150604d0789b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204c13a13a8bf7ec9649e124e8cf4472"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">InvalidateWindowOptions</a> (const std::string &amp;config_name)</td></tr>
+<tr class="memdesc:a204c13a13a8bf7ec9649e124e8cf4472"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes options containing <em>config_name</em>, logs an error instead if "ui."+config_name+".initialized" exists (i.e. if a window is currently using that name)  <a href="#a204c13a13a8bf7ec9649e124e8cf4472">More...</a><br /></td></tr>
+<tr class="separator:a204c13a13a8bf7ec9649e124e8cf4472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -208,156 +339,6 @@ Static Protected Attributes</h2></td></tr>
 <tr class="separator:a646b7451d8c0748a56230d168cd4b1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab336a37e9836db3e2c7264571e514fe9"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ab336a37e9836db3e2c7264571e514fe9">TITLE_OFFSET</a> = 2</td></tr>
 <tr class="separator:ab336a37e9836db3e2c7264571e514fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Accessors //@{</h2></td></tr>
-<tr class="memitem:a8356d72461c4bd7331c025366e96cff3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8356d72461c4bd7331c025366e96cff3">Minimized</a> () const</td></tr>
-<tr class="memdesc:a8356d72461c4bd7331c025366e96cff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if window is minimized  <a href="#a8356d72461c4bd7331c025366e96cff3">More...</a><br /></td></tr>
-<tr class="separator:a8356d72461c4bd7331c025366e96cff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7edd4888b1617ebb47ab46c35458266"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac7edd4888b1617ebb47ab46c35458266">ClientUpperLeft</a> () const override</td></tr>
-<tr class="memdesc:ac7edd4888b1617ebb47ab46c35458266"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if window is minimized  <a href="#ac7edd4888b1617ebb47ab46c35458266">More...</a><br /></td></tr>
-<tr class="separator:ac7edd4888b1617ebb47ab46c35458266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ab2a17bf81446c3da2f5764a5df75c"><td class="memItemLeft" align="right" valign="top">GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a23ab2a17bf81446c3da2f5764a5df75c">ClientLowerRight</a> () const override</td></tr>
-<tr class="memdesc:a23ab2a17bf81446c3da2f5764a5df75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if window is minimized  <a href="#a23ab2a17bf81446c3da2f5764a5df75c">More...</a><br /></td></tr>
-<tr class="separator:a23ab2a17bf81446c3da2f5764a5df75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae953a6be9f494852e96edc079f9aa36b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae953a6be9f494852e96edc079f9aa36b">InWindow</a> (const GG::Pt &amp;pt) const override</td></tr>
-<tr class="memdesc:ae953a6be9f494852e96edc079f9aa36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if window is minimized  <a href="#ae953a6be9f494852e96edc079f9aa36b">More...</a><br /></td></tr>
-<tr class="separator:ae953a6be9f494852e96edc079f9aa36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad02ef4769ec44c1520238403d099076"><td class="memItemLeft" align="right" valign="top">GG::X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aad02ef4769ec44c1520238403d099076">LeftBorder</a> () const</td></tr>
-<tr class="memdesc:aad02ef4769ec44c1520238403d099076"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance on the left side between the outer edge of the window and the inner border  <a href="#aad02ef4769ec44c1520238403d099076">More...</a><br /></td></tr>
-<tr class="separator:aad02ef4769ec44c1520238403d099076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="memItemLeft" align="right" valign="top">GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#afff6ca75f8f3f6e7f8e2d56cd2c361d4">TopBorder</a> () const</td></tr>
-<tr class="memdesc:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance at the top between the outer edge of the window and the inner border  <a href="#afff6ca75f8f3f6e7f8e2d56cd2c361d4">More...</a><br /></td></tr>
-<tr class="separator:afff6ca75f8f3f6e7f8e2d56cd2c361d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9b40084e7148e8a44607fbf4ba9e283"><td class="memItemLeft" align="right" valign="top">GG::X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af9b40084e7148e8a44607fbf4ba9e283">RightBorder</a> () const</td></tr>
-<tr class="memdesc:af9b40084e7148e8a44607fbf4ba9e283"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance on the right side between the outer edge of the window and the inner border  <a href="#af9b40084e7148e8a44607fbf4ba9e283">More...</a><br /></td></tr>
-<tr class="separator:af9b40084e7148e8a44607fbf4ba9e283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4f68ff79b8122549e55151b2d150d3"><td class="memItemLeft" align="right" valign="top">GG::Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0c4f68ff79b8122549e55151b2d150d3">BottomBorder</a> () const</td></tr>
-<tr class="memdesc:a0c4f68ff79b8122549e55151b2d150d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance at the bottom between the outer edge of the window and the inner border  <a href="#a0c4f68ff79b8122549e55151b2d150d3">More...</a><br /></td></tr>
-<tr class="separator:a0c4f68ff79b8122549e55151b2d150d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca900d484e35de4970ad649003ef1789"><td class="memItemLeft" align="right" valign="top">virtual GG::Pt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aca900d484e35de4970ad649003ef1789">MinimizedSize</a> () const</td></tr>
-<tr class="memdesc:aca900d484e35de4970ad649003ef1789"><td class="mdescLeft">&#160;</td><td class="mdescRight">the size of a minimized <a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a>  <a href="#aca900d484e35de4970ad649003ef1789">More...</a><br /></td></tr>
-<tr class="separator:aca900d484e35de4970ad649003ef1789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac757a01c26a1ab9eee660d1753672e83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac757a01c26a1ab9eee660d1753672e83">InnerBorderAngleOffset</a> () const</td></tr>
-<tr class="memdesc:ac757a01c26a1ab9eee660d1753672e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance from where the lower right corner of the inner border should be to where the angled portion of the inner border meets the right and bottom lines of the border  <a href="#ac757a01c26a1ab9eee660d1753672e83">More...</a><br /></td></tr>
-<tr class="separator:ac757a01c26a1ab9eee660d1753672e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c87abd15ebc10a0dcdf666290d901b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8">InResizeTab</a> (const GG::Pt &amp;pt) const</td></tr>
-<tr class="memdesc:a8c87abd15ebc10a0dcdf666290d901b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true iff the specified <em>pt</em> is in the region where dragging will resize this Wnd  <a href="#a8c87abd15ebc10a0dcdf666290d901b8">More...</a><br /></td></tr>
-<tr class="separator:a8c87abd15ebc10a0dcdf666290d901b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3463aea8c746001b80965dc554fe22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions</a> () const</td></tr>
-<tr class="memdesc:a0d3463aea8c746001b80965dc554fe22"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves options for this window to the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> if config_name was specified in the constructor  <a href="#a0d3463aea8c746001b80965dc554fe22">More...</a><br /></td></tr>
-<tr class="separator:a0d3463aea8c746001b80965dc554fe22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1225585190e8ff1943dd6122a8422536"><td class="memItemLeft" align="right" valign="top">virtual GG::Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a1225585190e8ff1943dd6122a8422536">CalculatePosition</a> () const</td></tr>
-<tr class="memdesc:a1225585190e8ff1943dd6122a8422536"><td class="mdescLeft">&#160;</td><td class="mdescRight">override this if a class determines its own position/size and return the calculated values, called by <a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195" title="called via signal from the ClientUI, passes the value from CalculatePosition() to InitSizeMove() ...">ResetDefaultPosition()</a>  <a href="#a1225585190e8ff1943dd6122a8422536">More...</a><br /></td></tr>
-<tr class="separator:a1225585190e8ff1943dd6122a8422536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Mutators //@{</h2></td></tr>
-<tr class="memitem:aa9570ff94883f6a9f4b1089524db0203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr) override</td></tr>
-<tr class="memdesc:aa9570ff94883f6a9f4b1089524db0203"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#aa9570ff94883f6a9f4b1089524db0203">More...</a><br /></td></tr>
-<tr class="separator:aa9570ff94883f6a9f4b1089524db0203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e5f9566c6c0e78ec6b5ea094595a86e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e">Render</a> () override</td></tr>
-<tr class="memdesc:a5e5f9566c6c0e78ec6b5ea094595a86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a5e5f9566c6c0e78ec6b5ea094595a86e">More...</a><br /></td></tr>
-<tr class="separator:a5e5f9566c6c0e78ec6b5ea094595a86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac08b8575b22bea1ecce4e4b60c991ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac08b8575b22bea1ecce4e4b60c991ae9">LButtonDown</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:ac08b8575b22bea1ecce4e4b60c991ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#ac08b8575b22bea1ecce4e4b60c991ae9">More...</a><br /></td></tr>
-<tr class="separator:ac08b8575b22bea1ecce4e4b60c991ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b248c19f5de4fe03aa52eddf892ee60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3b248c19f5de4fe03aa52eddf892ee60">LDrag</a> (const GG::Pt &amp;pt, const GG::Pt &amp;move, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:a3b248c19f5de4fe03aa52eddf892ee60"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a3b248c19f5de4fe03aa52eddf892ee60">More...</a><br /></td></tr>
-<tr class="separator:a3b248c19f5de4fe03aa52eddf892ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9463412f4ef867a3fde9821de8dfc867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a9463412f4ef867a3fde9821de8dfc867">LButtonUp</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:a9463412f4ef867a3fde9821de8dfc867"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a9463412f4ef867a3fde9821de8dfc867">More...</a><br /></td></tr>
-<tr class="separator:a9463412f4ef867a3fde9821de8dfc867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af14aa5e797a004bebaa4b213af2dffe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af14aa5e797a004bebaa4b213af2dffe5">LClick</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:af14aa5e797a004bebaa4b213af2dffe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#af14aa5e797a004bebaa4b213af2dffe5">More...</a><br /></td></tr>
-<tr class="separator:af14aa5e797a004bebaa4b213af2dffe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae837977c0f7734a5236fdc936ec295f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae837977c0f7734a5236fdc936ec295f1">MouseEnter</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:ae837977c0f7734a5236fdc936ec295f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#ae837977c0f7734a5236fdc936ec295f1">More...</a><br /></td></tr>
-<tr class="separator:ae837977c0f7734a5236fdc936ec295f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af19529d75735fe53049eb6c980532a4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af19529d75735fe53049eb6c980532a4d">MouseHere</a> (const GG::Pt &amp;pt, GG::Flags&lt; GG::ModKey &gt; mod_keys) override</td></tr>
-<tr class="memdesc:af19529d75735fe53049eb6c980532a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#af19529d75735fe53049eb6c980532a4d">More...</a><br /></td></tr>
-<tr class="separator:af19529d75735fe53049eb6c980532a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e263a96f8bb5da5d1d5c1fb03a89124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a3e263a96f8bb5da5d1d5c1fb03a89124">MouseLeave</a> () override</td></tr>
-<tr class="memdesc:a3e263a96f8bb5da5d1d5c1fb03a89124"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a3e263a96f8bb5da5d1d5c1fb03a89124">More...</a><br /></td></tr>
-<tr class="separator:a3e263a96f8bb5da5d1d5c1fb03a89124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4e7d174932807755f406bf487d3131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4b4e7d174932807755f406bf487d3131">Hide</a> () override</td></tr>
-<tr class="memdesc:a4b4e7d174932807755f406bf487d3131"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a4b4e7d174932807755f406bf487d3131">More...</a><br /></td></tr>
-<tr class="separator:a4b4e7d174932807755f406bf487d3131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe25d54eb0ee5bc6bf67a4abc9739f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#afe25d54eb0ee5bc6bf67a4abc9739f8c">Show</a> () override</td></tr>
-<tr class="memdesc:afe25d54eb0ee5bc6bf67a4abc9739f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#afe25d54eb0ee5bc6bf67a4abc9739f8c">More...</a><br /></td></tr>
-<tr class="separator:afe25d54eb0ee5bc6bf67a4abc9739f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae869bb9c0677d212ca9294f85dd5ec95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae869bb9c0677d212ca9294f85dd5ec95">Flash</a> ()</td></tr>
-<tr class="memdesc:ae869bb9c0677d212ca9294f85dd5ec95"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#ae869bb9c0677d212ca9294f85dd5ec95">More...</a><br /></td></tr>
-<tr class="separator:ae869bb9c0677d212ca9294f85dd5ec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45fab573c53cee3b7c3eb8df4ad9364f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a45fab573c53cee3b7c3eb8df4ad9364f">StopFlash</a> ()</td></tr>
-<tr class="memdesc:a45fab573c53cee3b7c3eb8df4ad9364f"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a45fab573c53cee3b7c3eb8df4ad9364f">More...</a><br /></td></tr>
-<tr class="separator:a45fab573c53cee3b7c3eb8df4ad9364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c87c360ebfe37abf8ba5a32f2ec443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a31c87c360ebfe37abf8ba5a32f2ec443">SetFlashDuration</a> (int ms)</td></tr>
-<tr class="memdesc:a31c87c360ebfe37abf8ba5a32f2ec443"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a31c87c360ebfe37abf8ba5a32f2ec443">More...</a><br /></td></tr>
-<tr class="separator:a31c87c360ebfe37abf8ba5a32f2ec443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60fd987b3f997ee796baca171bbb7de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a60fd987b3f997ee796baca171bbb7de4">ToggleMinimized</a> ()</td></tr>
-<tr class="memdesc:a60fd987b3f997ee796baca171bbb7de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a60fd987b3f997ee796baca171bbb7de4">More...</a><br /></td></tr>
-<tr class="separator:a60fd987b3f997ee796baca171bbb7de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b7323776f484aad95bb59d0473027a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae6b7323776f484aad95bb59d0473027a">Close</a> ()</td></tr>
-<tr class="memdesc:ae6b7323776f484aad95bb59d0473027a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#ae6b7323776f484aad95bb59d0473027a">More...</a><br /></td></tr>
-<tr class="separator:ae6b7323776f484aad95bb59d0473027a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf04410026082dede3da4194443e2239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">ValidatePosition</a> ()</td></tr>
-<tr class="memdesc:aaf04410026082dede3da4194443e2239"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#aaf04410026082dede3da4194443e2239">More...</a><br /></td></tr>
-<tr class="separator:aaf04410026082dede3da4194443e2239"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove</a> (const GG::Pt &amp;ul, const GG::Pt &amp;lr)</td></tr>
-<tr class="memdesc:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets default positions and if default positions were set beforehand, calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a>  <a href="#a2ab710d8d994a81d2de58d03dcefe6e3">More...</a><br /></td></tr>
-<tr class="separator:a2ab710d8d994a81d2de58d03dcefe6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e6b2554effeddf09c0bb0592c183405"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a4e6b2554effeddf09c0bb0592c183405">CloseClicked</a> ()</td></tr>
-<tr class="memdesc:a4e6b2554effeddf09c0bb0592c183405"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is closed via the close button  <a href="#a4e6b2554effeddf09c0bb0592c183405">More...</a><br /></td></tr>
-<tr class="separator:a4e6b2554effeddf09c0bb0592c183405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a11779b177b9e195b0b69d97dbe4ca9bc">PinClicked</a> ()</td></tr>
-<tr class="memdesc:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is pinned or unpinned via the pin button  <a href="#a11779b177b9e195b0b69d97dbe4ca9bc">More...</a><br /></td></tr>
-<tr class="separator:a11779b177b9e195b0b69d97dbe4ca9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2792906193791750e95a80f434af63b5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a2792906193791750e95a80f434af63b5">MinimizeClicked</a> ()</td></tr>
-<tr class="memdesc:a2792906193791750e95a80f434af63b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when window is minimized or restored via the minimize/restore button  <a href="#a2792906193791750e95a80f434af63b5">More...</a><br /></td></tr>
-<tr class="separator:a2792906193791750e95a80f434af63b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c303915c62034698ec6b8cd057f1376"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a9c303915c62034698ec6b8cd057f1376">InitButtons</a> ()</td></tr>
-<tr class="memdesc:a9c303915c62034698ec6b8cd057f1376"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to create the buttons, withtout positioning them  <a href="#a9c303915c62034698ec6b8cd057f1376">More...</a><br /></td></tr>
-<tr class="separator:a9c303915c62034698ec6b8cd057f1376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3b7c75a2b3d2722091b31650eb46857"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af3b7c75a2b3d2722091b31650eb46857">PositionButtons</a> ()</td></tr>
-<tr class="memdesc:af3b7c75a2b3d2722091b31650eb46857"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to position the buttons  <a href="#af3b7c75a2b3d2722091b31650eb46857">More...</a><br /></td></tr>
-<tr class="separator:af3b7c75a2b3d2722091b31650eb46857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732164fade618598cb7a118ef68cb7fc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">InitBuffers</a> ()</td></tr>
-<tr class="memdesc:a732164fade618598cb7a118ef68cb7fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a732164fade618598cb7a118ef68cb7fc">More...</a><br /></td></tr>
-<tr class="separator:a732164fade618598cb7a118ef68cb7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85066bd3343824c57dae6cf9e446808b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">LoadOptions</a> ()</td></tr>
-<tr class="memdesc:a85066bd3343824c57dae6cf9e446808b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads options for this window from the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a>  <a href="#a85066bd3343824c57dae6cf9e446808b">More...</a><br /></td></tr>
-<tr class="separator:a85066bd3343824c57dae6cf9e446808b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65c177d83d0df30685f66b246908d0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a65c177d83d0df30685f66b246908d0b8">Init</a> ()</td></tr>
-<tr class="memdesc:a65c177d83d0df30685f66b246908d0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs initialization common to all <a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a> constructors  <a href="#a65c177d83d0df30685f66b246908d0b8">More...</a><br /></td></tr>
-<tr class="separator:a65c177d83d0df30685f66b246908d0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec2341f4dd0f771a157b63cd26b6d195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#aec2341f4dd0f771a157b63cd26b6d195">ResetDefaultPosition</a> ()</td></tr>
-<tr class="memdesc:aec2341f4dd0f771a157b63cd26b6d195"><td class="mdescLeft">&#160;</td><td class="mdescRight">called via signal from the <a class="el" href="classClientUI.html" title="ClientUI Main Module This is the main class of the ClientUI module. ">ClientUI</a>, passes the value from <a class="el" href="classCUIWnd.html#a1225585190e8ff1943dd6122a8422536" title="override this if a class determines its own position/size and return the calculated values...">CalculatePosition()</a> to <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3" title="sets default positions and if default positions were set beforehand, calls SizeMove() ...">InitSizeMove()</a>  <a href="#aec2341f4dd0f771a157b63cd26b6d195">More...</a><br /></td></tr>
-<tr class="separator:aec2341f4dd0f771a157b63cd26b6d195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5297828be469e40d060500b477b5da49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5297828be469e40d060500b477b5da49">SetParent</a> (const std::shared_ptr&lt; GG::Wnd &gt; &amp;wnd) override</td></tr>
-<tr class="memdesc:a5297828be469e40d060500b477b5da49"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window  <a href="#a5297828be469e40d060500b477b5da49">More...</a><br /></td></tr>
-<tr class="separator:a5297828be469e40d060500b477b5da49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fee0daa5653e972c8695fdfc24bd961"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">SetDefaultedOptions</a> ()</td></tr>
-<tr class="memdesc:a5fee0daa5653e972c8695fdfc24bd961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags options currently at their default values for later use in SaveDefaultedOptions.  <a href="#a5fee0daa5653e972c8695fdfc24bd961">More...</a><br /></td></tr>
-<tr class="separator:a5fee0daa5653e972c8695fdfc24bd961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ae7ed9bc0dbae9ae049d48fe220b32716">SaveDefaultedOptions</a> ()</td></tr>
-<tr class="memdesc:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the default value any options previously determined from calls to SetDefaultedOptions to their current value.  <a href="#ae7ed9bc0dbae9ae049d48fe220b32716">More...</a><br /></td></tr>
-<tr class="separator:ae7ed9bc0dbae9ae049d48fe220b32716"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Statics //@{</h2></td></tr>
-<tr class="memitem:ac1c5a29d178d397a7312442f62e8a6d0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0">InvalidateUnusedOptions</a> ()</td></tr>
-<tr class="memdesc:ac1c5a29d178d397a7312442f62e8a6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes unregistered and registered-but-unused window options from the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> so that new windows fall back to their default properties.  <a href="#ac1c5a29d178d397a7312442f62e8a6d0">More...</a><br /></td></tr>
-<tr class="separator:ac1c5a29d178d397a7312442f62e8a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ee4fb867a51a8726cd5474cde75269"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">AddWindowOptions</a> (const std::string &amp;config_name, int left, int top, int width, int height, bool visible, bool pinned, bool minimized)</td></tr>
-<tr class="memdesc:a91ee4fb867a51a8726cd5474cde75269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> entries for a window under a given name along with default values.  <a href="#a91ee4fb867a51a8726cd5474cde75269">More...</a><br /></td></tr>
-<tr class="separator:a91ee4fb867a51a8726cd5474cde75269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0796afcfe678bb732150604d0789b30"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#af0796afcfe678bb732150604d0789b30">AddWindowOptions</a> (const std::string &amp;config_name, GG::X left, GG::Y top, GG::X width, GG::Y height, bool visible, bool pinned, bool minimized)</td></tr>
-<tr class="memdesc:af0796afcfe678bb732150604d0789b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload that accepts GG::X and GG::Y instead of ints  <a href="#af0796afcfe678bb732150604d0789b30">More...</a><br /></td></tr>
-<tr class="separator:af0796afcfe678bb732150604d0789b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a204c13a13a8bf7ec9649e124e8cf4472"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">InvalidateWindowOptions</a> (const std::string &amp;config_name)</td></tr>
-<tr class="memdesc:a204c13a13a8bf7ec9649e124e8cf4472"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes options containing <em>config_name</em>, logs an error instead if "ui."+config_name+".initialized" exists (i.e. if a window is currently using that name)  <a href="#a204c13a13a8bf7ec9649e124e8cf4472">More...</a><br /></td></tr>
-<tr class="separator:a204c13a13a8bf7ec9649e124e8cf4472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is a superclass of all interface windows in <a class="el" href="namespaceGG.html">GG</a>. It takes care of. </p>
@@ -372,7 +353,7 @@ Statics //@{</h2></td></tr>
 <ul>
 <li>Pass the title of the window as the first argument of the constructor.<br />
 </li>
-<li><a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a>'s do their own rendering. Do not override the render function unless you have specific needs. If you do, make sure you call <a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">CUIWnd::Render()</a> before adding your own drawing. <br />
+<li><a class="el" href="classCUIWnd.html" title="This class is a superclass of all interface windows in GG. It takes care of. ">CUIWnd</a>'s do their own rendering. Do not override the render function unless you have specific needs. If you do, make sure you call <a class="el" href="classCUIWnd.html#a5e5f9566c6c0e78ec6b5ea094595a86e">CUIWnd::Render()</a> before adding your own drawing. <br />
 </li>
 <li>Three functions are user-overridable so that new events may be responded to. OnClose() is called before the window's memory is deallocated after the user clicks the close button. OnMinimize() is called before the window becomes minimized after clicking the Minimize button. OnResize() is called as part of a response to the resize signal emitted via GG::Wnd. Users are advised to use this function instead of making a slot connection with boost::signals to respond to the resize signal. </li>
 </ul>
@@ -753,8 +734,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if window is minimized </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a30a0357332d2b68b73be0f5e2bd2b363">BORDER_BOTTOM</a>, <a class="el" href="classCUIWnd.html#accdc6254146d0435cfa76ed284e99e3a">BORDER_RIGHT</a>, and <a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classAbout.html#a1f500e6a4159746a079aa04382bef4b3">About::DoLayout()</a>, <a class="el" href="classOptionsWnd.html#a0b3e785cfe7f5a7c81362a0d033ad9ca">OptionsWnd::DoLayout()</a>, <a class="el" href="classGalaxySetupWnd.html#a9c5459ebd95dce936371edcde7384968">GalaxySetupWnd::DoLayout()</a>, <a class="el" href="classGovernmentWnd_1_1MainPanel.html#a1f18679527d785df0247f9494e2417f0">GovernmentWnd::MainPanel::DoLayout()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a93905b941ac5d906bee97a3b93e8ad6c">DesignWnd::MainPanel::DoLayout()</a>, and <a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">InitBuffers()</a>.</p>
@@ -784,8 +763,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if window is minimized </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56">BORDER_LEFT</a>, <a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a>, and <a class="el" href="classCUIWnd.html#afff6ca75f8f3f6e7f8e2d56cd2c361d4">TopBorder()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classDesignWnd_1_1MainPanel.html#a93905b941ac5d906bee97a3b93e8ad6c">DesignWnd::MainPanel::DoLayout()</a>, <a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">InitBuffers()</a>, <a class="el" href="classCUIWnd.html#af3b7c75a2b3d2722091b31650eb46857">PositionButtons()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a02c363ba27ced3d1ef4e0f0a69c81383">MultiPlayerLobbyWnd::Render()</a>, and <a class="el" href="classGalaxySetupWnd.html#aaa9f9e3373f77940453ecab74b8edbd8">GalaxySetupWnd::Render()</a>.</p>
@@ -814,8 +791,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 </div>
 </div>
@@ -873,12 +848,9 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs the window to be a CUI window. </p>
-<p>Specifying <em>config_name</em> causes the window to save its position and other properties to the <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> under that name, if no other windows are currently using that name. </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a65c177d83d0df30685f66b246908d0b8">Init()</a>, <a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">SetDefaultedOptions()</a>, and <a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">ValidatePosition()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classInGameMenu.html#aa5ca2a7bb1a5c6cccdd213a663fb5fd7">InGameMenu::CompleteConstruction()</a>, <a class="el" href="classGovernmentWnd.html#aed69ced9fb315c30adb4a3799ec87c30">GovernmentWnd::CompleteConstruction()</a>, <a class="el" href="classCombatReportWnd.html#a31d19df3a34e998ff1384a6cc343f5dc">CombatReportWnd::CompleteConstruction()</a>, <a class="el" href="classAbout.html#ab8e5255346c5ce9c82c6ff5e928566dc">About::CompleteConstruction()</a>, <a class="el" href="classPlayerListWnd.html#a30cc4211a1a4f2223db57f8f3c5ae914">PlayerListWnd::CompleteConstruction()</a>, <a class="el" href="classSitRepPanel.html#af84f0a2c0e768838fb133857a61394bb">SitRepPanel::CompleteConstruction()</a>, <a class="el" href="classObjectListWnd.html#a3617a296f6f4049f28103932306dfa18">ObjectListWnd::CompleteConstruction()</a>, <a class="el" href="classModeratorActionsWnd.html#af6ffdf1df6003c4d16aded41cff96473">ModeratorActionsWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">MessageWnd::CompleteConstruction()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">MultiPlayerLobbyWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classServerConnectWnd.html#a2a4b5f0b7e8946efa12f3d3be4891e88">ServerConnectWnd::CompleteConstruction()</a>, <a class="el" href="classSidePanel.html#ae66fe4c613cf8ebf7e19d7854baaf3c2">SidePanel::CompleteConstruction()</a>, <a class="el" href="classSaveFileDialog.html#ae92a3bcb636947b18e09566a9657514e">SaveFileDialog::CompleteConstruction()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab50f7609aaaef84b2e7b74a558654832">EncyclopediaDetailPanel::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a9a2a077ba691315034a821df55fa5a50">anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd::CompleteConstruction()</a>, <a class="el" href="classCUIEditWnd.html#ad78a98d4000b0ad84f5c2ca3b20d3573">CUIEditWnd::CompleteConstruction()</a>, <a class="el" href="classResearchQueueWnd.html#a8e210419b6866519d3776a39f004b620">ResearchQueueWnd::CompleteConstruction()</a>, <a class="el" href="classResourceInfoPanel.html#a110ebc8c380b77f9a4c382470d97ad1b">ResourceInfoPanel::CompleteConstruction()</a>, <a class="el" href="classMapWndPopup.html#a0ac710a64c4860eb0552f3b61b36c5d6">MapWndPopup::CompleteConstruction()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a160e9c572b211eea06a96d1dbd297f63">BuildDesignatorWnd::BuildSelector::CompleteConstruction()</a>, <a class="el" href="classProductionQueueWnd.html#a485ee5f5df3846d53f10e03826c5aa33">ProductionQueueWnd::CompleteConstruction()</a>, <a class="el" href="classFilterDialog.html#a129729aa6eb9c6e3a505c160ad0cb909">FilterDialog::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#aef0f37f527886f354fc5cb362996b4d2">DesignWnd::PartPalette::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ac8107e6ea88d33942dff7c300f87d35a">DesignWnd::BaseSelector::CompleteConstruction()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">DesignWnd::MainPanel::CompleteConstruction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classInGameMenu.html#aa5ca2a7bb1a5c6cccdd213a663fb5fd7">InGameMenu::CompleteConstruction()</a>, <a class="el" href="classGovernmentWnd.html#aed69ced9fb315c30adb4a3799ec87c30">GovernmentWnd::CompleteConstruction()</a>, <a class="el" href="classAbout.html#ab8e5255346c5ce9c82c6ff5e928566dc">About::CompleteConstruction()</a>, <a class="el" href="classCombatReportWnd.html#a31d19df3a34e998ff1384a6cc343f5dc">CombatReportWnd::CompleteConstruction()</a>, <a class="el" href="classPlayerListWnd.html#a30cc4211a1a4f2223db57f8f3c5ae914">PlayerListWnd::CompleteConstruction()</a>, <a class="el" href="classSitRepPanel.html#af84f0a2c0e768838fb133857a61394bb">SitRepPanel::CompleteConstruction()</a>, <a class="el" href="classObjectListWnd.html#a3617a296f6f4049f28103932306dfa18">ObjectListWnd::CompleteConstruction()</a>, <a class="el" href="classModeratorActionsWnd.html#af6ffdf1df6003c4d16aded41cff96473">ModeratorActionsWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">MessageWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">MultiPlayerLobbyWnd::CompleteConstruction()</a>, <a class="el" href="classServerConnectWnd.html#a2a4b5f0b7e8946efa12f3d3be4891e88">ServerConnectWnd::CompleteConstruction()</a>, <a class="el" href="classSidePanel.html#ae66fe4c613cf8ebf7e19d7854baaf3c2">SidePanel::CompleteConstruction()</a>, <a class="el" href="classSaveFileDialog.html#ae92a3bcb636947b18e09566a9657514e">SaveFileDialog::CompleteConstruction()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab50f7609aaaef84b2e7b74a558654832">EncyclopediaDetailPanel::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="classCUIEditWnd.html#ad78a98d4000b0ad84f5c2ca3b20d3573">CUIEditWnd::CompleteConstruction()</a>, <a class="el" href="classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a9a2a077ba691315034a821df55fa5a50">anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd::CompleteConstruction()</a>, <a class="el" href="classResearchQueueWnd.html#a8e210419b6866519d3776a39f004b620">ResearchQueueWnd::CompleteConstruction()</a>, <a class="el" href="classResourceInfoPanel.html#a110ebc8c380b77f9a4c382470d97ad1b">ResourceInfoPanel::CompleteConstruction()</a>, <a class="el" href="classMapWndPopup.html#a0ac710a64c4860eb0552f3b61b36c5d6">MapWndPopup::CompleteConstruction()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a160e9c572b211eea06a96d1dbd297f63">BuildDesignatorWnd::BuildSelector::CompleteConstruction()</a>, <a class="el" href="classProductionQueueWnd.html#a485ee5f5df3846d53f10e03826c5aa33">ProductionQueueWnd::CompleteConstruction()</a>, <a class="el" href="classFilterDialog.html#a129729aa6eb9c6e3a505c160ad0cb909">FilterDialog::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#aef0f37f527886f354fc5cb362996b4d2">DesignWnd::PartPalette::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ac8107e6ea88d33942dff7c300f87d35a">DesignWnd::BaseSelector::CompleteConstruction()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">DesignWnd::MainPanel::CompleteConstruction()</a>.</p>
 
 </div>
 </div>
@@ -904,8 +876,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">Referenced by <a class="el" href="classPlayerListWnd.html#aaba99e43e4a04340ed3d1eb5d4089291">PlayerListWnd::HandleDiplomaticMessageChange()</a>, <a class="el" href="classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9">MessageWnd::HandleDiplomaticStatusChange()</a>, and <a class="el" href="classMessageWnd.html#a354c3a51749cc0a7169b29c53e27a202">MessageWnd::HandlePlayerChatMessage()</a>.</p>
 
@@ -933,8 +903,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions()</a>.</p>
 
@@ -995,8 +963,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p>Reimplemented in <a class="el" href="classSidePanel.html#a9bda17da16fa9d3b398fae17ef011326">SidePanel</a>, and <a class="el" href="classEncyclopediaDetailPanel.html#ab9611e350c5c4b358968beb25baf4d80">EncyclopediaDetailPanel</a>.</p>
 
@@ -1063,7 +1029,7 @@ Statics //@{</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>sets default positions and if default positions were set beforehand, calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> </p>
+<p>sets default positions and if default positions were set beforehand, calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a> </p>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#af4ef4821b6d016f038dc2d760e167754">anonymous_namespace{CUIWnd.cpp}::INVALID_X</a>, <a class="el" href="classCUIWnd.html#a232097f6c41602c0daf367bdba5f21fe">m_config_name</a>, <a class="el" href="classOptionsDB.html#ad32ff3de82b3e224eae6313a3800e4bb">OptionsDB::OptionExists()</a>, <a class="el" href="classCUIWnd.html#ae7ed9bc0dbae9ae049d48fe220b32716">SaveDefaultedOptions()</a>, <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>, <a class="el" href="classCUIWnd.html#a5fee0daa5653e972c8695fdfc24bd961">SetDefaultedOptions()</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a>.</p>
 
@@ -1219,8 +1185,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if window is minimized </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a7090dea22ecefff7e44b3c27ffe93bf8">m_resizable</a>, and <a class="el" href="classCUIWnd.html#a266942f29f9e767cbada15764a939708">OUTER_EDGE_ANGLE_OFFSET</a>.</p>
 
 </div>
@@ -1258,8 +1222,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8">InResizeTab()</a>, and <a class="el" href="classCUIWnd.html#a714fed1cbefcd7be142a470fb617809d">m_drag_offset</a>.</p>
 
@@ -1299,8 +1261,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a714fed1cbefcd7be142a470fb617809d">m_drag_offset</a>, and <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions()</a>.</p>
 
 </div>
@@ -1338,8 +1298,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">Referenced by <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a5fb1cf4266aad1cdd8125c4fbfaeaad3">TechTreeWnd::LayoutPanel::TechPanel::LButtonUp()</a>, <a class="el" href="classPlayerListWnd.html#a285e205860bd84d873c11dbd84dc90f5">PlayerListWnd::LClick()</a>, <a class="el" href="classMessageWnd.html#a1c62811aab5df1d8b5d95ff3ba27e488">MessageWnd::LClick()</a>, <a class="el" href="classFleetWnd.html#ab8ef44ba3270dde2be7f976398d74cee">FleetWnd::LClick()</a>, and <a class="el" href="classDesignWnd_1_1MainPanel.html#a748f493e5ffa410f5db6126fc9dc60a0">DesignWnd::MainPanel::LClick()</a>.</p>
 
@@ -1384,8 +1342,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#a714fed1cbefcd7be142a470fb617809d">m_drag_offset</a>, and <a class="el" href="classCUIWnd.html#aa32c9db82dc4032f29851728056d1052">m_pinned</a>.</p>
 
@@ -1572,8 +1528,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8">InResizeTab()</a>, and <a class="el" href="classCUIWnd.html#af2fdd4687d7ee6cca957a3d52e4be0fe">m_mouse_in_resize_tab</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a5fb1cf4266aad1cdd8125c4fbfaeaad3">TechTreeWnd::LayoutPanel::TechPanel::LButtonUp()</a>.</p>
@@ -1614,8 +1568,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a8c87abd15ebc10a0dcdf666290d901b8">InResizeTab()</a>, and <a class="el" href="classCUIWnd.html#af2fdd4687d7ee6cca957a3d52e4be0fe">m_mouse_in_resize_tab</a>.</p>
 
 </div>
@@ -1642,8 +1594,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#af2fdd4687d7ee6cca957a3d52e4be0fe">m_mouse_in_resize_tab</a>.</p>
 
@@ -1736,8 +1686,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56">BORDER_LEFT</a>, <a class="el" href="classClientUI.html#ae06f606027f41c9079e81f2f94404cb3">ClientUI::GetTitleFont()</a>, <a class="el" href="classCUIWnd.html#a732164fade618598cb7a118ef68cb7fc">InitBuffers()</a>, <a class="el" href="classCUIWnd.html#a06ad80eb1a8f5d134818b4ec7ae9f00c">m_buffer_indices</a>, <a class="el" href="classCUIWnd.html#a246f84dffe38930f8b4b85e4ba70a423">m_flash_duration</a>, <a class="el" href="classCUIWnd.html#a3f837bf8313f150a0d0afb17a21127a7">m_flashing</a>, <a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a>, <a class="el" href="classCUIWnd.html#af2fdd4687d7ee6cca957a3d52e4be0fe">m_mouse_in_resize_tab</a>, <a class="el" href="classCUIWnd.html#a7090dea22ecefff7e44b3c27ffe93bf8">m_resizable</a>, <a class="el" href="classCUIWnd.html#ae43cd7c5f374da467e99ff756a49e7ed">m_vertex_buffer</a>, <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#aea2ae77cb715cf25403471eaecdd9030">anonymous_namespace{XMLDoc.cpp}::Name</a>, <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="classCUIWnd.html#ab336a37e9836db3e2c7264571e514fe9">TITLE_OFFSET</a>, <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, <a class="el" href="classClientUI.html#a9c2151fccb3b80760b836fc15d7e947b">ClientUI::WndInnerBorderColor()</a>, and <a class="el" href="classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classMultiPlayerLobbyWnd.html#a02c363ba27ced3d1ef4e0f0a69c81383">MultiPlayerLobbyWnd::Render()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a2f3a1e015ff10ad0b394e60d5737490d">EncyclopediaDetailPanel::Render()</a>, <a class="el" href="classGalaxySetupWnd.html#aaa9f9e3373f77940453ecab74b8edbd8">GalaxySetupWnd::Render()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a007defb306b1c843ee17ead5d5b48410">TechTreeWnd::TechTreeControls::Render()</a>, and <a class="el" href="classPolicySlotControl.html#adf9fcaecc0765f26c6c2c66837809638">PolicySlotControl::SlotIndex()</a>.</p>
@@ -1825,7 +1773,7 @@ Statics //@{</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classCUIWnd.html#a232097f6c41602c0daf367bdba5f21fe">m_config_name</a>, <a class="el" href="classCUIWnd.html#ab71b26a24b19103f78dd905e2ab6e407">m_defaulted_options</a>, <a class="el" href="classCUIWnd.html#a0ba63b9fa9443f4144f003045083e283">m_minimized</a>, <a class="el" href="classCUIWnd.html#a8f6313a8489058063fbe8c5cc83ca946">m_original_size</a>, <a class="el" href="classCUIWnd.html#aa32c9db82dc4032f29851728056d1052">m_pinned</a>, and <a class="el" href="classOptionsDB.html#ad49fc3590017c6041457c27cec43063b">OptionsDB::SetDefault()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classModeratorActionsWnd.html#af6ffdf1df6003c4d16aded41cff96473">ModeratorActionsWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">MessageWnd::CompleteConstruction()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">MultiPlayerLobbyWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab50f7609aaaef84b2e7b74a558654832">EncyclopediaDetailPanel::CompleteConstruction()</a>, <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a160e9c572b211eea06a96d1dbd297f63">BuildDesignatorWnd::BuildSelector::CompleteConstruction()</a>, <a class="el" href="classFilterDialog.html#a129729aa6eb9c6e3a505c160ad0cb909">FilterDialog::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#aef0f37f527886f354fc5cb362996b4d2">DesignWnd::PartPalette::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ac8107e6ea88d33942dff7c300f87d35a">DesignWnd::BaseSelector::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">DesignWnd::MainPanel::CompleteConstruction()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, and <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classModeratorActionsWnd.html#af6ffdf1df6003c4d16aded41cff96473">ModeratorActionsWnd::CompleteConstruction()</a>, <a class="el" href="classMessageWnd.html#aea3c4a4f743f97d02135e1ee3b5e9e8f">MessageWnd::CompleteConstruction()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#ae387cb6476d9766208043178640aeb2f">MultiPlayerLobbyWnd::CompleteConstruction()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#ab50f7609aaaef84b2e7b74a558654832">EncyclopediaDetailPanel::CompleteConstruction()</a>, <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a160e9c572b211eea06a96d1dbd297f63">BuildDesignatorWnd::BuildSelector::CompleteConstruction()</a>, <a class="el" href="classFilterDialog.html#a129729aa6eb9c6e3a505c160ad0cb909">FilterDialog::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#aef0f37f527886f354fc5cb362996b4d2">DesignWnd::PartPalette::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ac8107e6ea88d33942dff7c300f87d35a">DesignWnd::BaseSelector::CompleteConstruction()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#adebcc3c144e7e6c484ed031b1de49d94">DesignWnd::MainPanel::CompleteConstruction()</a>, <a class="el" href="classSaveFileDialog.html#a93c10d3fed65edcf535016ad95200f7d">SaveFileDialog::Init()</a>, and <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove()</a>.</p>
 
 </div>
 </div>
@@ -1915,8 +1863,6 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 </div>
 </div>
 <a id="a5297828be469e40d060500b477b5da49"></a>
@@ -1942,8 +1888,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIEditWnd.html#a39df659d1bb880623212f15be863e131">CUIEditWnd::BUTTON_WIDTH</a>, <a class="el" href="classCUIEditWnd.html#a95404ab08b9aa8dda1ef395106316b9c">CUIEditWnd::CONTROL_MARGIN</a>, and <a class="el" href="classCUIWnd.html#ae43cd7c5f374da467e99ff756a49e7ed">m_vertex_buffer</a>.</p>
 
@@ -1971,8 +1915,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions()</a>.</p>
 
@@ -2014,11 +1956,9 @@ Statics //@{</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
-
 <p class="reference">References <a class="el" href="classCUIWnd.html#a30a0357332d2b68b73be0f5e2bd2b363">BORDER_BOTTOM</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classHumanClientApp.html#ab2be9a949fce3951fe7a145e1be7adfa">HumanClientApp::GetApp()</a>, <a class="el" href="classCUIWnd.html#a072f409a7d79318340fb44fbe64f9257">INNER_BORDER_ANGLE_OFFSET</a>, <a class="el" href="classCUIWnd.html#a897802e091b862f43d1df73dc4b9bb52">m_config_save</a>, <a class="el" href="classCUIWnd.html#ae43cd7c5f374da467e99ff756a49e7ed">m_vertex_buffer</a>, <a class="el" href="classSDLGUI.html#aecf99abaee1e895bd74b824b7c18a170">SDLGUI::MaximumPossibleHeight()</a>, <a class="el" href="classSDLGUI.html#aab63f5ba88717c4b1fc95bcac63d8cff">SDLGUI::MaximumPossibleWidth()</a>, <a class="el" href="classCUIWnd.html#aca900d484e35de4970ad649003ef1789">MinimizedSize()</a>, <a class="el" href="classCUIWnd.html#af3b7c75a2b3d2722091b31650eb46857">PositionButtons()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">SaveOptions()</a>, and <a class="el" href="classCUIWnd.html#afff6ca75f8f3f6e7f8e2d56cd2c361d4">TopBorder()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">LoadOptions()</a>, <a class="el" href="classGovernmentWnd.html#aaddb8e7aa27998dca09cf2fe76b6c7b7">GovernmentWnd::SizeMove()</a>, <a class="el" href="classCombatReportWnd.html#a66d81e8756de0ea2d99d0d2906a6843b">CombatReportWnd::SizeMove()</a>, <a class="el" href="classObjectListWnd.html#ac1fd9ea5acbec6200df5ee432ba7883c">ObjectListWnd::SizeMove()</a>, <a class="el" href="classPlayerListWnd.html#a4b8f26cd2683f57fed7be2eda8ae5e8b">PlayerListWnd::SizeMove()</a>, <a class="el" href="classSitRepPanel.html#a1564d18d20e5fe02c38edf5adbc7e8a5">SitRepPanel::SizeMove()</a>, <a class="el" href="classMessageWnd.html#ade978d41af8ddc7ce8b6a64452d6d7cd">MessageWnd::SizeMove()</a>, <a class="el" href="classOptionsWnd.html#a0ff2fc6e9bc6785eda0b925058d981a7">OptionsWnd::SizeMove()</a>, <a class="el" href="classModeratorActionsWnd.html#ada2428bc90cad783de5c35cbb1eb2bf1">ModeratorActionsWnd::SizeMove()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a679fdbfe4ac94764d411a09eec85cf37">MultiPlayerLobbyWnd::SizeMove()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4d41bd7128b7ec5260082611436753a0">EncyclopediaDetailPanel::SizeMove()</a>, <a class="el" href="classSidePanel.html#a89ee2cde93d5dcb27b1ddb0ced54bf96">SidePanel::SizeMove()</a>, <a class="el" href="classFleetWnd.html#adb0a94a50dcc7fb80f538c8fe99fda6d">FleetWnd::SizeMove()</a>, <a class="el" href="classGalaxySetupWnd.html#aa65838b0dff126ac1e012c8ce331ad5a">GalaxySetupWnd::SizeMove()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a147f2cb125051605227347fc02999140">TechTreeWnd::TechTreeControls::SizeMove()</a>, <a class="el" href="classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a63d95ac2f7e45efdfde4d168b8e4b3c5">anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd::SizeMove()</a>, <a class="el" href="classResearchQueueWnd.html#aeb7ef51e9fc1ae74b22dc53ea555b6fa">ResearchQueueWnd::SizeMove()</a>, <a class="el" href="classResourceInfoPanel.html#a00503a0d13b0a387aac1c9484d6a58c3">ResourceInfoPanel::SizeMove()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9fc8dd1e3db1247ced6814382701b138">BuildDesignatorWnd::BuildSelector::SizeMove()</a>, <a class="el" href="classProductionQueueWnd.html#a780924e2d3eabdad1fceb6861b8813b4">ProductionQueueWnd::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#ab18d4061a1112c850d895d5397b0e3ef">DesignWnd::PartPalette::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ae97d8bb66488bd54cc458e3c8f8d8049">DesignWnd::BaseSelector::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a5f1baba0b45de5851c68f288cd10e8f5">DesignWnd::MainPanel::SizeMove()</a>, and <a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">ValidatePosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">InitSizeMove()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">LoadOptions()</a>, <a class="el" href="classGovernmentWnd.html#aaddb8e7aa27998dca09cf2fe76b6c7b7">GovernmentWnd::SizeMove()</a>, <a class="el" href="classObjectListWnd.html#ac1fd9ea5acbec6200df5ee432ba7883c">ObjectListWnd::SizeMove()</a>, <a class="el" href="classPlayerListWnd.html#a4b8f26cd2683f57fed7be2eda8ae5e8b">PlayerListWnd::SizeMove()</a>, <a class="el" href="classCombatReportWnd.html#a66d81e8756de0ea2d99d0d2906a6843b">CombatReportWnd::SizeMove()</a>, <a class="el" href="classSitRepPanel.html#a1564d18d20e5fe02c38edf5adbc7e8a5">SitRepPanel::SizeMove()</a>, <a class="el" href="classMessageWnd.html#ade978d41af8ddc7ce8b6a64452d6d7cd">MessageWnd::SizeMove()</a>, <a class="el" href="classOptionsWnd.html#a0ff2fc6e9bc6785eda0b925058d981a7">OptionsWnd::SizeMove()</a>, <a class="el" href="classModeratorActionsWnd.html#ada2428bc90cad783de5c35cbb1eb2bf1">ModeratorActionsWnd::SizeMove()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a679fdbfe4ac94764d411a09eec85cf37">MultiPlayerLobbyWnd::SizeMove()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4d41bd7128b7ec5260082611436753a0">EncyclopediaDetailPanel::SizeMove()</a>, <a class="el" href="classSidePanel.html#a89ee2cde93d5dcb27b1ddb0ced54bf96">SidePanel::SizeMove()</a>, <a class="el" href="classFleetWnd.html#adb0a94a50dcc7fb80f538c8fe99fda6d">FleetWnd::SizeMove()</a>, <a class="el" href="classGalaxySetupWnd.html#aa65838b0dff126ac1e012c8ce331ad5a">GalaxySetupWnd::SizeMove()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a147f2cb125051605227347fc02999140">TechTreeWnd::TechTreeControls::SizeMove()</a>, <a class="el" href="classanonymous__namespace_02OptionsWnd_8cpp_03_1_1FontTextureWnd.html#a63d95ac2f7e45efdfde4d168b8e4b3c5">anonymous_namespace{OptionsWnd.cpp}::FontTextureWnd::SizeMove()</a>, <a class="el" href="classResearchQueueWnd.html#aeb7ef51e9fc1ae74b22dc53ea555b6fa">ResearchQueueWnd::SizeMove()</a>, <a class="el" href="classResourceInfoPanel.html#a00503a0d13b0a387aac1c9484d6a58c3">ResourceInfoPanel::SizeMove()</a>, <a class="el" href="classBuildDesignatorWnd_1_1BuildSelector.html#a9fc8dd1e3db1247ced6814382701b138">BuildDesignatorWnd::BuildSelector::SizeMove()</a>, <a class="el" href="classProductionQueueWnd.html#a780924e2d3eabdad1fceb6861b8813b4">ProductionQueueWnd::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1PartPalette.html#ab18d4061a1112c850d895d5397b0e3ef">DesignWnd::PartPalette::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1BaseSelector.html#ae97d8bb66488bd54cc458e3c8f8d8049">DesignWnd::BaseSelector::SizeMove()</a>, <a class="el" href="classDesignWnd_1_1MainPanel.html#a5f1baba0b45de5851c68f288cd10e8f5">DesignWnd::MainPanel::SizeMove()</a>, and <a class="el" href="classCUIWnd.html#aaf04410026082dede3da4194443e2239">ValidatePosition()</a>.</p>
 
 </div>
 </div>
@@ -2044,8 +1984,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">Referenced by <a class="el" href="classPlayerListWnd.html#a5fd7e968883a05ef9d1f389df88dff65">PlayerListWnd::CloseClicked()</a>, <a class="el" href="classMessageWnd.html#aa83ef466457732f21aee82faa593593a">MessageWnd::CloseClicked()</a>, <a class="el" href="classPlayerListWnd.html#aaba99e43e4a04340ed3d1eb5d4089291">PlayerListWnd::HandleDiplomaticMessageChange()</a>, <a class="el" href="classPlayerListWnd.html#a285e205860bd84d873c11dbd84dc90f5">PlayerListWnd::LClick()</a>, <a class="el" href="classMessageWnd.html#a1c62811aab5df1d8b5d95ff3ba27e488">MessageWnd::LClick()</a>, <a class="el" href="classPlayerListWnd.html#a071666c3c6264ea31a101cb4282cc2a4">PlayerListWnd::LDrag()</a>, <a class="el" href="classMessageWnd.html#af2855a44ffa4d379afbd85115a6edbea">MessageWnd::LDrag()</a>, and <a class="el" href="classMessageWnd.html#a19abe371120ca41edf2f2a252e1b105a">MessageWnd::MessageEntered()</a>.</p>
 
@@ -2073,8 +2011,6 @@ Statics //@{</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 </div>
 </div>
@@ -2116,7 +2052,7 @@ Statics //@{</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203" title="calls SizeMove() to trigger position-checking and position the window entirely within the parent wind...">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
+<p>calls <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a> to trigger position-checking and position the window entirely within the parent window/app window </p>
 
 <p class="reference">References <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">SizeMove()</a>.</p>
 
