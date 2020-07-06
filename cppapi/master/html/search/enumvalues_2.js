@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['cancel_5fproposal',['CANCEL_PROPOSAL',['../classDiplomaticMessage.html#ab7a1cf991f76681b46351374d360134ba2ff745cb5632b180ee0c41a1db94a355',1,'DiplomaticMessage']]],
+  ['cancel_5fproposal',['CANCEL_PROPOSAL',['../classDiplomaticMessage.html#ae49366e2d9c57ae53d2fe1dde6ebb8aaa1699997ad381cf8fff2d078f831bcd99',1,'DiplomaticMessage']]],
   ['client_5ftype_5fai_5fplayer',['CLIENT_TYPE_AI_PLAYER',['../namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78babb8a65f7bd637daa5761dbe99df2e7da',1,'Networking']]],
   ['client_5ftype_5fhuman_5fmoderator',['CLIENT_TYPE_HUMAN_MODERATOR',['../namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78bac9a57a9f0db984c59b97ffbd4e4cb891',1,'Networking']]],
   ['client_5ftype_5fhuman_5fobserver',['CLIENT_TYPE_HUMAN_OBSERVER',['../namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba858b2109835ced596d08954a22ffa880',1,'Networking']]],

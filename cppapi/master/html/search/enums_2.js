@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['diplomaticmessagetype',['DiplomaticMessageType',['../classDiplomaticMessage.html#ab7a1cf991f76681b46351374d360134b',1,'DiplomaticMessage']]]
+  ['enum',['Enum',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8b',1,'Availability::Enum()'],['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8b',1,'Availability::Enum()']]]
 ];
