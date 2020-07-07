@@ -29,7 +29,7 @@ var searchData=
   ['objectrow',['ObjectRow',['../classObjectRow.html#a4e9ae871ad7aaf5ec424965eb491ebab',1,'ObjectRow']]],
   ['objects',['Objects',['../classUniverse.html#a50b1585be4559b46af2d0b92bfc7031e',1,'Universe::Objects() const'],['../classUniverse.html#a6d45af29659736778a3ddd5134e01e34',1,'Universe::Objects()'],['../AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c',1,'Objects():&#160;AppInterface.h']]],
   ['objectselectionchanged',['ObjectSelectionChanged',['../classObjectListWnd.html#aeb35c6cc90c6d2b0a844ec1c1b30f2f9',1,'ObjectListWnd']]],
-  ['objectsgetsystems',['ObjectsGetSystems',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a15b39515c513316302ed5ae6ff310578',1,'anonymous_namespace{ServerWrapper.cpp}']]],
+  ['objectsgetsystems',['ObjectsGetSystems',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#ae8f8444e61414b451950f1d9946a20d6',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['objectshown',['ObjectShown',['../classObjectListBox.html#a969af360b29dd1237823b19ac9683204',1,'ObjectListBox']]],
   ['objectspecials',['ObjectSpecials',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#ad19f1aaa3d8d3576a9134d7de0f4fa0a',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['objectstatechanged',['ObjectStateChanged',['../classObjectListBox.html#ac11ef9141e77d6d88b11f764af9e7580',1,'ObjectListBox']]],
