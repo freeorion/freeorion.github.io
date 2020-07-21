@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pairintint_5fintmap',['PairIntInt_IntMap',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aac35aa0b1e584457e48a08b19e76f7f2',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['parsedshipdesignstype',['ParsedShipDesignsType',['../classPredefinedShipDesignManager.html#afb87098a725bbca1e875f9e9280de080',1,'PredefinedShipDesignManager']]],
   ['partgroupstype',['PartGroupsType',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a2e6f2d96a366661ab765340ea3a56c24',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['participantsummaryptr',['ParticipantSummaryPtr',['../structCombatSummary.html#a2a80a031e3a09ef2866fd4ef625f30b7',1,'CombatSummary']]],

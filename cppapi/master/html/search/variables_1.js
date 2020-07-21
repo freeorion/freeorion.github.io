@@ -52,7 +52,6 @@ var searchData=
   ['attacker_5fids',['attacker_ids',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#a4ddee7c46e954874ba7086963d6b98be',1,'anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo']]],
   ['attacker_5fowner_5fid',['attacker_owner_id',['../structWeaponFireEvent.html#a8c03e60fd76b4f482ea884e333567d0f',1,'WeaponFireEvent::attacker_owner_id()'],['../structWeaponsPlatformEvent.html#aa0b1667742a96fe65f9b069543464fa6',1,'WeaponsPlatformEvent::attacker_owner_id()']]],
   ['attacking',['attacking',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo_1_1StateQty.html#ab50fec8de5644ae7fe34b60f790dd6fb',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::StateQty']]],
-  ['attackstatsfunc',['AttackStatsFunc',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a1919ed398e3e80bf81fd6319f81e739b',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['attribute',['Attribute',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a5acb9267e0ae8390341dbc104f6e518a',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['attributes',['attributes',['../classXMLElement.html#a8e179c0a44ce98c4aceab0675b913484',1,'XMLElement']]],
   ['attvalue',['AttValue',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ae5e39ffb573f211fa63db3eaceac79f5',1,'anonymous_namespace{XMLDoc.cpp}']]],

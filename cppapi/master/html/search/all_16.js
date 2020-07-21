@@ -15,7 +15,6 @@ var searchData=
   ['validator_3c_20std_3a_3avector_3c_20std_3a_3astring_20_3e_20_3e',['Validator&lt; std::vector&lt; std::string &gt; &gt;',['../structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html',1,'']]],
   ['validatorbase',['ValidatorBase',['../structValidatorBase.html',1,'']]],
   ['validdesign',['ValidDesign',['../classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980',1,'ShipDesign']]],
-  ['validdesignhullandparts',['ValidDesignHullAndParts',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a689fa0c2560b735f0ccc94db3fe36fd0',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['validdirectory',['ValidDirectory',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validfleetmerge',['ValidFleetMerge',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a1efb91e21bed9d75793983b2d5089195',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['validfontfile',['ValidFontFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c',1,'anonymous_namespace{OptionsWnd.cpp}']]],

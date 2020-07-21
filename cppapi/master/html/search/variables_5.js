@@ -43,8 +43,6 @@ var searchData=
   ['empire_5fships_5fdestroyed',['empire_ships_destroyed',['../structparse_1_1int__complex__parser__grammar.html#a12ae0d2cb32a6a1e3dc23167e5c957c8',1,'parse::int_complex_parser_grammar']]],
   ['empire_5fsystem_5fgraph_5fviews',['empire_system_graph_views',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a6b6deee41180b92fa682fddf138f7f1a',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['empire_5fto_5fobject_5fvisibility',['empire_to_object_visibility',['../structInitialStealthEvent.html#a0e038cd4fd9f64d741b41be4d97dafbd',1,'InitialStealthEvent']]],
-  ['empirefleetsupplyablesystemidsfunc',['empireFleetSupplyableSystemIDsFunc',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a7ac35238ddc217f12613fcba95531f00',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['empiregetmeter',['EmpireGetMeter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#aca84eedb92bc7fd54be3d72177ed01fd',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['empty_5farticle',['empty_article',['../classEncyclopedia.html#a68bc18556715499d11c429d148de7012',1,'Encyclopedia']]],
   ['empty_5fcombat_5finfo',['EMPTY_COMBAT_INFO',['../ScriptingContext_8h.html#a796e7b9bf41542925ea45177aba31fc6',1,'ScriptingContext.h']]],
   ['empty_5felement',['EMPTY_ELEMENT',['../namespaceanonymous__namespace_02InfluenceQueue_8cpp_03.html#a900f57b475ef4db7b13cc04c37ec5cd7',1,'anonymous_namespace{InfluenceQueue.cpp}']]],

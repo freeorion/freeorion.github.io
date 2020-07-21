@@ -97,7 +97,6 @@ var searchData=
   ['buildquantitychanged',['BuildQuantityChanged',['../classBuildDesignatorWnd.html#a4b786e34fb49f6fc0e6031bde7bfdf5c',1,'BuildDesignatorWnd']]],
   ['buildselector',['BuildSelector',['../classBuildDesignatorWnd_1_1BuildSelector.html#a18babffc0a1e53a82db1198f1b2156b4',1,'BuildDesignatorWnd::BuildSelector']]],
   ['buildstatcaches',['BuildStatCaches',['../classShipDesign.html#ad6b1ae007830fc297543790880198683',1,'ShipDesign']]],
-  ['buildtypefromproductionqueueelement',['BuildTypeFromProductionQueueElement',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a3feed08a70b6638c390c58e3a7cf79ec',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['buttoncellheight',['ButtonCellHeight',['../classInGameMenu.html#a382147b29d4904d6226840205bb43a80',1,'InGameMenu']]],
   ['buttonhilitebordercolor',['ButtonHiliteBorderColor',['../classClientUI.html#a481db4845437636f495bca4e3238bd1d',1,'ClientUI']]],
   ['buttonhilitecolor',['ButtonHiliteColor',['../classClientUI.html#a9966092be816e1440829d7b7645ce1f2',1,'ClientUI']]],

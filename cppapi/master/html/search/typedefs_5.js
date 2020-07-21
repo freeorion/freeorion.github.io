@@ -6,7 +6,6 @@ var searchData=
   ['fighterlauncheventptr',['FighterLaunchEventPtr',['../structFighterLaunchEvent.html#a159dbdcdaa6e86c7e7681db854374f9a',1,'FighterLaunchEvent']]],
   ['fleetidlisttype',['FleetIDListType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5417be711ed7af52ad22932cd9de500c',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fleetroutetype',['FleetRouteType',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a60397165c4c6aa262ede96e173f3b904',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['floatintpair',['FloatIntPair',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a9106d29c9767b87468bf3e57a398df85',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['floatintpairconverter',['FloatIntPairConverter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a60fc39de55148fff464d3f9e78da79a5',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['foci_5frule',['foci_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ab2615f3a64689118263aa6eab5e6eb8b',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],
   ['focus_5ftype_5frule',['focus_type_rule',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a65cbc017730e163f445df6963dc8bd7d',1,'anonymous_namespace{SpeciesParser.cpp}::grammar']]],

@@ -4,7 +4,6 @@ var searchData=
   ['valid_5fpreview_5fcolumn_5fcount',['VALID_PREVIEW_COLUMN_COUNT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#acfffda1e3f21de6e1eb0a323385c88bf',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['valid_5fpreview_5fcolumns',['VALID_PREVIEW_COLUMNS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a5813f4a46bfd542e8152e96c89fbefb7',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['validator',['validator',['../structOptionsDB_1_1Option.html#a7fb36d7ca47b52c8f2e36974c453c658',1,'OptionsDB::Option']]],
-  ['validdesignhullandparts',['ValidDesignHullAndParts',['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#a689fa0c2560b735f0ccc94db3fe36fd0',1,'anonymous_namespace{UniverseWrapper.cpp}']]],
   ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option']]],
   ['value_5fwrapped_5fbound_5fvariable',['value_wrapped_bound_variable',['../structparse_1_1detail_1_1simple__variable__rules.html#a36ccc16d7bd12b8c46831838188ac937',1,'parse::detail::simple_variable_rules::value_wrapped_bound_variable()'],['../structparse_1_1string__parser__grammar.html#a7b1ef3deef8da93ba9de81ad676dfe60',1,'parse::string_parser_grammar::value_wrapped_bound_variable()']]],
   ['value_5fwrapped_5fbound_5fvariable_5fexpr',['value_wrapped_bound_variable_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a28af163fb740391c5adccc6ced24bc86',1,'parse::detail::enum_value_ref_rules']]],

@@ -25,8 +25,6 @@ var searchData=
   ['buffer_5f',['buffer_',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a3b3a92bbfac04477c5e866336b009110',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736',1,'anonymous_namespace{Sound.cpp}']]],
   ['build_5ftype',['build_type',['../structProductionQueue_1_1ProductionItem.html#ae57ba2f63713f5e339caeacb8bdb06cd',1,'ProductionQueue::ProductionItem']]],
-  ['buildableitembuilding',['BuildableItemBuilding',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#ab61fead17be4d532b48e53797dcf5c30',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
-  ['buildableitemship',['BuildableItemShip',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a2f19aaa02ab7838a0649884e30fa3d14',1,'anonymous_namespace{EmpireWrapper.cpp}']]],
   ['building',['building',['../structparse_1_1detail_1_1condition__parser__rules__6.html#a55f4ae025e059f6484c3b9c5eb9fba5d',1,'parse::detail::condition_parser_rules_6']]],
   ['building_5fid_5ftag',['BUILDING_ID_TAG',['../classVarText.html#a452056c89102fe936c4389596955944e',1,'VarText']]],
   ['building_5ftype',['building_type',['../structanonymous__namespace_02BuildingsParser_8cpp_03_1_1grammar.html#a6861b95f0c322ebc79220b42ffed8faa',1,'anonymous_namespace{BuildingsParser.cpp}::grammar']]],

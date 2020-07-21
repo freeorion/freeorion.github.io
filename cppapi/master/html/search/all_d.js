@@ -1596,7 +1596,7 @@ var searchData=
   ['militarypanel',['MilitaryPanel',['../classMilitaryPanel.html',1,'MilitaryPanel'],['../classMilitaryPanel.html#a00ada95c2d742e550d1adcfb5cad4449',1,'MilitaryPanel::MilitaryPanel()']]],
   ['militarypanel_2ecpp',['MilitaryPanel.cpp',['../MilitaryPanel_8cpp.html',1,'']]],
   ['militarypanel_2eh',['MilitaryPanel.h',['../MilitaryPanel_8h.html',1,'']]],
-  ['min',['MIN',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2abad5d7cc40d325401088b80e586c8484',1,'ValueRef::MIN()'],['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a',1,'min():&#160;Logger.h']]],
+  ['min',['min',['../Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a',1,'min():&#160;Logger.h'],['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2abad5d7cc40d325401088b80e586c8484',1,'ValueRef::MIN()']]],
   ['min_5fheight',['MIN_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a458cedf344766c1a245e0d7c5d901268',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['min_5fparticipant_5fbar_5fheight',['MIN_PARTICIPANT_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#abdc682b349cfdd98a12d28e2e356f2e7',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['min_5fscale',['MIN_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a00aee4a0732934fcf787f9981457a497',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
@@ -1711,6 +1711,5 @@ var searchData=
   ['music_5ffile_5fsuffix',['MUSIC_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a4d3ba627e574863e6efa378344600469',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['musicclicked',['MusicClicked',['../classOptionsWnd_1_1SoundOptionsFeedback.html#a3f7cad7704a6dbd8c45733de9a3547d4',1,'OptionsWnd::SoundOptionsFeedback']]],
   ['musicvolumeoption',['MusicVolumeOption',['../classOptionsWnd.html#a55f2888141fcd824a9196aff369ed130',1,'OptionsWnd']]],
-  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#abcbbda8e0326262f5b44d3f0496dcef5',1,'OptionsWnd::SoundOptionsFeedback']]],
-  ['myintintpairconverter',['myIntIntPairConverter',['../namespaceanonymous__namespace_02EmpireWrapper_8cpp_03.html#a51ebafd3bde859444d68ef8b88ea7b2f',1,'anonymous_namespace{EmpireWrapper.cpp}']]]
+  ['musicvolumeslid',['MusicVolumeSlid',['../classOptionsWnd_1_1SoundOptionsFeedback.html#abcbbda8e0326262f5b44d3f0496dcef5',1,'OptionsWnd::SoundOptionsFeedback']]]
 ];
