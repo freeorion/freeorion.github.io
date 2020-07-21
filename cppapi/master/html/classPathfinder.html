@@ -112,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a712070a3b5772d6065228fd7c15ec2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between the objects with the given IDs.  <a href="#a712070a3b5772d6065228fd7c15ec2f1">More...</a><br /></td></tr>
 <tr class="separator:a712070a3b5772d6065228fd7c15ec2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357b34906dad66e9b6e0442141def6c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a357b34906dad66e9b6e0442141def6c1">NearestSystemTo</a> (double x, double y) const</td></tr>
-<tr class="memdesc:a357b34906dad66e9b6e0442141def6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance.  <a href="#a357b34906dad66e9b6e0442141def6c1">More...</a><br /></td></tr>
+<tr class="memdesc:a357b34906dad66e9b6e0442141def6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the System object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance.  <a href="#a357b34906dad66e9b6e0442141def6c1">More...</a><br /></td></tr>
 <tr class="separator:a357b34906dad66e9b6e0442141def6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ba9eb0254724412b8932f0ae3e5e607"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a1ba9eb0254724412b8932f0ae3e5e607">ShortestPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
 <tr class="memdesc:a1ba9eb0254724412b8932f0ae3e5e607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of systems, including <em>system1_id</em> and <em>system2_id</em>, that defines the shortest path from <em>system1</em> to <em>system2</em>, and the distance travelled to get there.  <a href="#a1ba9eb0254724412b8932f0ae3e5e607">More...</a><br /></td></tr>
@@ -478,7 +478,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the id of the <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance. </p>
+<p>Returns the id of the System object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance. </p>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
@@ -571,14 +571,14 @@ Private Attributes</h2></td></tr>
 <p>Shortest path known to an empire between two systems, excluding routes for systems containing objects for <code>system_predicate</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">system1_id</td><td>source <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> id </td></tr>
-    <tr><td class="paramname">system2_id</td><td>destination <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> id </td></tr>
-    <tr><td class="paramname">empire_id</td><td>ID of viewing <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> </td></tr>
-    <tr><td class="paramname">system_predicate</td><td><a class="el" href="structUniverseObjectVisitor.html" title="Base class for UniverseObject visitores. ">UniverseObjectVisitor</a>, A <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> is excluded as a potential node in any route if it is or contains a matched object</td></tr>
+    <tr><td class="paramname">system1_id</td><td>source System id </td></tr>
+    <tr><td class="paramname">system2_id</td><td>destination System id </td></tr>
+    <tr><td class="paramname">empire_id</td><td>ID of viewing Empire </td></tr>
+    <tr><td class="paramname">system_predicate</td><td><a class="el" href="structUniverseObjectVisitor.html" title="Base class for UniverseObject visitores. ">UniverseObjectVisitor</a>, A System is excluded as a potential node in any route if it is or contains a matched object</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>list of <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> ids, distance between systems </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>list of System ids, distance between systems </dd></dl>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 

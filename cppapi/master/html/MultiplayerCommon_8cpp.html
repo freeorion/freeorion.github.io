@@ -79,7 +79,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="OptionsDB_8h.html">OptionsDB.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Random_8h.html">Random.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AppInterface_8h.html">AppInterface.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Enums_8h.html">../universe/Enums.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -99,11 +98,19 @@ Functions</h2></td></tr>
 <tr class="separator:a71a368325d22f78d36b7ad6e631d5d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa9610f8887ccd8013f5b7348c1b2b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a9aa9610f8887ccd8013f5b7348c1b2b8">operator==</a> (const <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &amp;lhs, const <a class="el" href="structPlayerSetupData.html">PlayerSetupData</a> &amp;rhs)</td></tr>
 <tr class="separator:a9aa9610f8887ccd8013f5b7348c1b2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfcfc3f6c25714e1b18c1d1597f8f27"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a9dfcfc3f6c25714e1b18c1d1597f8f27">TextForAIAggression</a> (Aggression a)</td></tr>
+<tr class="separator:a9dfcfc3f6c25714e1b18c1d1597f8f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff2811fcff12c318697024ca865b38d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a4ff2811fcff12c318697024ca865b38d">TextForGalaxySetupSetting</a> (GalaxySetupOption gso)</td></tr>
+<tr class="separator:a4ff2811fcff12c318697024ca865b38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fb6ae62476031623c3fc36b19235fc"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a68fb6ae62476031623c3fc36b19235fc">TextForGalaxyShape</a> (Shape shape)</td></tr>
+<tr class="separator:a68fb6ae62476031623c3fc36b19235fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a163ee9df67286d39329e1c585dee5803"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a163ee9df67286d39329e1c585dee5803">anonymous_namespace{MultiplayerCommon.cpp}::alphanum</a> [] = &quot;123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz&quot;</td></tr>
 <tr class="separator:a163ee9df67286d39329e1c585dee5803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d58fa48b14aea2eaefd35872c18e744"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a1d58fa48b14aea2eaefd35872c18e744">anonymous_namespace{MultiplayerCommon.cpp}::EMPTY_STRING</a></td></tr>
+<tr class="separator:a1d58fa48b14aea2eaefd35872c18e744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a032d8ffd274039c6c1a3616d0c1eb75a"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a032d8ffd274039c6c1a3616d0c1eb75a">MP_SAVE_FILE_EXTENSION</a> = &quot;.mps&quot;</td></tr>
 <tr class="separator:a032d8ffd274039c6c1a3616d0c1eb75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df2a27573ddeb9deabc50e42b9326bd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MultiplayerCommon_8cpp.html#a8df2a27573ddeb9deabc50e42b9326bd">SP_SAVE_FILE_EXTENSION</a> = &quot;.sav&quot;</td></tr>
@@ -169,6 +176,72 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structPlayerSetupData.html#aa858a516942c429924b281a9f5b48358">PlayerSetupData::client_type</a>, <a class="el" href="structPlayerSetupData.html#aea650caa3b9d6a43d145d68594c36719">PlayerSetupData::empire_color</a>, <a class="el" href="structPlayerSetupData.html#a84eeac4920a4438fd67f086bc79ad8ba">PlayerSetupData::empire_name</a>, <a class="el" href="structPlayerSetupData.html#a17801bfeb1ba7f43026c70dffcbdf257">PlayerSetupData::player_name</a>, <a class="el" href="structPlayerSetupData.html#abbdce6339f8a826e9f601702f3d97223">PlayerSetupData::player_ready</a>, <a class="el" href="structPlayerSetupData.html#a0c1e2c745be9ed637aebeefc963421e3">PlayerSetupData::save_game_empire_id</a>, <a class="el" href="structPlayerSetupData.html#aabf08a26b2b9b4beed4d3bf955115663">PlayerSetupData::starting_species_name</a>, and <a class="el" href="structPlayerSetupData.html#a0fb356e8449c5f63c360191e0d699037">PlayerSetupData::starting_team</a>.</p>
+
+</div>
+</div>
+<a id="a9dfcfc3f6c25714e1b18c1d1597f8f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dfcfc3f6c25714e1b18c1d1597f8f27">&#9670;&nbsp;</a></span>TextForAIAggression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; TextForAIAggression </td>
+          <td>(</td>
+          <td class="paramtype">Aggression&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a1d58fa48b14aea2eaefd35872c18e744">anonymous_namespace{MultiplayerCommon.cpp}::EMPTY_STRING</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="SaveGamePreviewUtils_8h.html#a1f558a5fded2fe5c4f8cfa51d7aa9291">ColumnInPreview()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#af1e3a23ace6a79423faf3fddcb4d0657">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelPediaTag()</a>.</p>
+
+</div>
+</div>
+<a id="a4ff2811fcff12c318697024ca865b38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff2811fcff12c318697024ca865b38d">&#9670;&nbsp;</a></span>TextForGalaxySetupSetting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; TextForGalaxySetupSetting </td>
+          <td>(</td>
+          <td class="paramtype">GalaxySetupOption&#160;</td>
+          <td class="paramname"><em>gso</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a1d58fa48b14aea2eaefd35872c18e744">anonymous_namespace{MultiplayerCommon.cpp}::EMPTY_STRING</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="SaveGamePreviewUtils_8h.html#a1f558a5fded2fe5c4f8cfa51d7aa9291">ColumnInPreview()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#af1e3a23ace6a79423faf3fddcb4d0657">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelPediaTag()</a>.</p>
+
+</div>
+</div>
+<a id="a68fb6ae62476031623c3fc36b19235fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fb6ae62476031623c3fc36b19235fc">&#9670;&nbsp;</a></span>TextForGalaxyShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; TextForGalaxyShape </td>
+          <td>(</td>
+          <td class="paramtype">Shape&#160;</td>
+          <td class="paramname"><em>shape</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a1d58fa48b14aea2eaefd35872c18e744">anonymous_namespace{MultiplayerCommon.cpp}::EMPTY_STRING</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="SaveGamePreviewUtils_8h.html#a1f558a5fded2fe5c4f8cfa51d7aa9291">ColumnInPreview()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#af1e3a23ace6a79423faf3fddcb4d0657">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelPediaTag()</a>.</p>
 
 </div>
 </div>

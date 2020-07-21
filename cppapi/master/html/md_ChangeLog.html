@@ -96,7 +96,7 @@ $(function() {
 <li>Flak targets only fighters</li>
 <li>Interceptors preferentially target bombers, then any fighters, then ships</li>
 <li>Bombers preferentially target ships, then fighters</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> can also affect targeting</li>
+<li>Species can also affect targeting</li>
 </ul>
 </li>
 <li><a class="el" href="classShip.html" title="a class representing a single FreeOrion ship ">Ship</a> hulls have fuel efficiency, which scales the additional fuel from fuel parts and other fuel-adding content</li>
@@ -638,7 +638,7 @@ $(function() {
 </li>
 <li>Sidepanel<ul>
 <li>Added automatic selection of ships for bombarding.</li>
-<li>Added ability to rename systems in <a class="el" href="classSidePanel.html">SidePanel</a>. <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> sorting considers the system's id to disambiguate if necessary.</li>
+<li>Added ability to rename systems in <a class="el" href="classSidePanel.html">SidePanel</a>. System sorting considers the system's id to disambiguate if necessary.</li>
 <li>Displayed source planet in growth special accounting labels.</li>
 <li>Added indication of defending troops to invade button.</li>
 <li>In sidepanel, displayed tooltip not only for the selected focus, but also for available focus settings in the focus dropdown list.</li>
@@ -673,7 +673,7 @@ $(function() {
 </li>
 <li>Research Window<ul>
 <li>Added right-click pause and resume commands to research queue in GUI.</li>
-<li>Added pause and resume research functions to <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a>, and getters to check if a tech / queue id is paused to research queue.</li>
+<li>Added pause and resume research functions to Empire, and getters to check if a tech / queue id is paused to research queue.</li>
 <li>Made tech list columns sortable.</li>
 <li>Display preferences for complete, researchable, unresearchable and partially unlocked techs will now persist between games</li>
 </ul>
@@ -969,7 +969,7 @@ $(function() {
 <li>Reworked how derelict visibility effect works - grants visibility directly instead of temporarily increasing ship detection range</li>
 <li>Added preferred focus for most species</li>
 <li>Made producing troop pods require a production location with troops<ul>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> with no offensive Ground Troops will no longer be able to build ships with Ground Troop pods</li>
+<li>Species with no offensive Ground Troops will no longer be able to build ships with Ground Troop pods</li>
 </ul>
 </li>
 <li>Balanced research and production bonuses</li>
@@ -992,7 +992,7 @@ $(function() {
 <li>Fixed AI problem with ship design with id 0</li>
 <li>Fixed experimentor spawn location being blocked by natives</li>
 <li>Fixed a segfault when resigning a game with no empire</li>
-<li>Fixed Fortress special mines effects not properly working together with <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> Defense Mines techs</li>
+<li>Fixed Fortress special mines effects not properly working together with System Defense Mines techs</li>
 <li>Prevented unowned planet mines from affecting unowned guard ships</li>
 <li>Fixed unowned fortress mines damaging unowned monsters and made mines able to destroy monsters, not just damage them</li>
 <li>Fixed ion storm stealth effect to not affect fields (and thereby itself)</li>
@@ -1038,7 +1038,7 @@ $(function() {
 <li>Extensive AI updates.</li>
 <li>New pedia content including introductory articles on game concepts and the interface.</li>
 <li>Revised colonization mechanics to allow producing a building that will convert an outpost to a colony.<ul>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> added must have a supply connection from a already-populated planet with sufficient happiness.</li>
+<li>Species added must have a supply connection from a already-populated planet with sufficient happiness.</li>
 <li>Production time depends on distance from the production location to the already-species-populated planet.</li>
 </ul>
 </li>
@@ -1123,7 +1123,7 @@ $(function() {
 <li>Added colony buildings for natives that can colonize but can't build ships.</li>
 <li>Added the Maintenance <a class="el" href="classShip.html" title="a class representing a single FreeOrion ship ">Ship</a> as an alternative to the Sentry monster type.</li>
 <li>New native species: Happybirthday.</li>
-<li>Added <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> Homeworlds page to Pedia.</li>
+<li>Added Species Homeworlds page to Pedia.</li>
 <li>Improved slot positions of ship hulls.</li>
 <li>Changes to fields: Ion Storms and Molecular Clouds now start very small, but grow large before shrinking again.</li>
 </ul>
@@ -1160,7 +1160,7 @@ $(function() {
 </ul>
 </li>
 <li>Made the megalith producible only on planets with an imperial palace, and provide a troop bonus to nearby systems.</li>
-<li>Added <a class="el" href="structProductionQueue.html">ProductionQueue</a> support for frontloading and/or topping-up, controlled by <code>default/global_settings.txt</code>.</li>
+<li>Added ProductionQueue support for frontloading and/or topping-up, controlled by <code>default/global_settings.txt</code>.</li>
 <li>Planetary Ecology will now grant a flat + 1 bonus to Good and Adequate that expires with Symbiotic Biology.</li>
 <li>Starting planets have max happiness.</li>
 </ul>
@@ -1192,7 +1192,7 @@ $(function() {
 <li>Fixed combat 'reveal' of stealthed attackers to be after all the attacks of a given round have been completed.</li>
 <li>Fixed bug with fleet movement path deterimation, where it treated a fleet as refueling when in supply even if it did not stop at a system.</li>
 <li>Fixed <a class="el" href="classMapWnd.html" title="This class is a window that graphically displays everything in the universe. ">MapWnd</a> cycle to next/prev fleet so that it skips over destroyed fleets.</li>
-<li>Fixed Pedia <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> Homeworlds bug that had caused entries with more than 5 occupied planets to be left out of the display.</li>
+<li>Fixed Pedia Species Homeworlds bug that had caused entries with more than 5 occupied planets to be left out of the display.</li>
 <li>Fixed planet names on sidepanel losing formatting tags when the planet is renamed.</li>
 <li>Fixed multiline text display bug when rendering colored highlighted text.</li>
 <li>Fixed Exobots not having Bad Ground Troops as described.</li>
@@ -1220,7 +1220,7 @@ $(function() {
 </li>
 <li>New "core" ship design slot type, added to some hulls and required for some powerful ship parts.</li>
 <li>Made all empires sitreps visible to moderators and observers.</li>
-<li><a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> and ship names moved into stringtable, so they can be translated with the rest of the in-game text.</li>
+<li>System and ship names moved into stringtable, so they can be translated with the rest of the in-game text.</li>
 <li>Added a bombardment mechanic, allowing ships to target and affect planets outside of battle.</li>
 <li>Added a UI for configurable hotkey command key bindings.</li>
 <li>Galaxy setup data is stored and can be accessed from the pedia during a game.</li>
@@ -1360,7 +1360,7 @@ $(function() {
 <li>Changed Interstellar Logistics to give a fixed +3 to supply range.</li>
 <li><a class="el" href="classPlanet.html" title="a class representing a FreeOrion planet. ">Planet</a> size affects supply: smaller gives more supply than large.</li>
 <li>Space Elevator gives any planet equivalent supply to tiny planets.</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> can have good or bad supply traits.</li>
+<li>Species can have good or bad supply traits.</li>
 </ul>
 </li>
 <li>Increased native planet troop levels, making invasions more costly.</li>
@@ -1474,7 +1474,7 @@ $(function() {
 <li>Tweaks/refinements for Evacuation building.</li>
 <li>Concentration Camps now cause a lingering negative effect on population, of indefinite duration even if the camp is removed.</li>
 <li>Fixed Solar Orbital Generator building description.</li>
-<li>Fixes to Psychogenic Domination and <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> Defense Mines techs.</li>
+<li>Fixes to Psychogenic Domination and System Defense Mines techs.</li>
 <li>Corrected description of requirements for the Static Multicellular hull.</li>
 <li>Fixed Egassem species description.</li>
 <li><a class="el" href="classTech.html" title="encasulates the data for a single FreeOrion technology ">Tech</a> tree reorganization and various adjustments to techs.</li>
@@ -1527,7 +1527,7 @@ $(function() {
 <h4>Balancing</h4>
 <ul>
 <li>Reduced required distance to moving ships for Collective Thought Network (from 500 to 200).</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> balancing:<ul>
+<li>Species balancing:<ul>
 <li>Having xenophobic species in an empire causes disruption (in form of maluses) for the colonies of the xenophobic species as well as for other colonies near them.</li>
 <li>Xenophobic species get the Concentration Camp tech at the start of the game.</li>
 <li>Reduced Etty detection range malus (from 20 to 9).</li>
@@ -1636,12 +1636,12 @@ $(function() {
 <li>Strengthened Egassem with Ultimate Industry.</li>
 <li>Strengthened Laenfa with Average Industry.</li>
 <li>Strengthened Gyisache with Great Research.</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> with a starting weapons bonus now also start with more ships.</li>
+<li>Species with a starting weapons bonus now also start with more ships.</li>
 </ul>
 </li>
 <li>Major Redo of Ground Troops:<ul>
 <li>Protection focus now increases max troops to 200%.</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> Bonus/Malus is now multiplied.</li>
+<li>Species Bonus/Malus is now multiplied.</li>
 <li>Native planets and homeworlds now have a bonus to troops.</li>
 <li>Outposts have weaker defenses.</li>
 <li>Increased cost of Garrison Techs, and decreased capacity of Troop Pods.</li>
@@ -1776,7 +1776,7 @@ $(function() {
 <li>Updated many inaccurate descriptions.</li>
 <li>Tweaked <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> encyclopedia entries to show total cost instead of per-turn cost, to be consistent with buildings.</li>
 <li>Translation updates, particularly Russian and French.</li>
-<li><a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> updates:<ul>
+<li>Species updates:<ul>
 <li>All species now have different aptitudes at resource production, ground combat &amp; so on. A few have special stealth and detection abilities.<ul>
 <li>Sorry, currently very un-balanced.</li>
 </ul>
@@ -1859,7 +1859,7 @@ $(function() {
 <li>Further reduced turn processing times.</li>
 <li>Added ship repair.</li>
 <li>Split LifeFrequency galaxy setup setting into separate Monster and Native Frequencies.</li>
-<li>Added lists of planets and fleets to <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> encyclopedia entries.</li>
+<li>Added lists of planets and fleets to Empire encyclopedia entries.</li>
 <li>Disabled order issuing on various screens between turns, which should avoid potential crashes.</li>
 </ul>
 <h3>Balancing</h3>
@@ -2026,9 +2026,9 @@ $(function() {
 <h2>[v0.3.15] - 2010-08-04 </h2>
 <p>Changes since the last release include:</p>
 <ul>
-<li>Added scriptable species definitions in species.txt. <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> have names, icons, focus settings, evironmental preferences, food consumption and effects associated with them. Many data-table based meter modifications have been moved into species effects, including population and health dependence on planet environment level for a species.</li>
+<li>Added scriptable species definitions in species.txt. Species have names, icons, focus settings, evironmental preferences, food consumption and effects associated with them. Many data-table based meter modifications have been moved into species effects, including population and health dependence on planet environment level for a species.</li>
 <li>Removed secondary focus setting, and removed the balanced focus option. Planets now have only a single focus selection, all of which much be specific and (hopefully) more interesting to play with and easier to create content for.</li>
-<li>Made focus settings moddable as part of <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> defintions. Available foci on a planet can depend on arbitrary conditions, which may make for interesting gameplay changes with advancing tech or situational changes during a game. Each species can have a distinct set of available foci as well.</li>
+<li>Made focus settings moddable as part of Species defintions. Available foci on a planet can depend on arbitrary conditions, which may make for interesting gameplay changes with advancing tech or situational changes during a game. Each species can have a distinct set of available foci as well.</li>
 <li>Fixed issue with custom ship designs that would frequently crash the game when they were built.</li>
 <li>Modified behaviour of design screen when modifying a design: the incomplete design's info is now shown in the encyclopedia panel whenever the design is modified or if the main panel is clicks. Clicking a part or hull once shows info about that part or hull, as before. The information about ship designs in the encyclopedia is also greatly expanded.</li>
 <li>Added right-click popup menu command on the list of completed designs on the design screen: "Delete Design". This lets players remove designs from the list that appears on the production screen, and from the completed designs list itself on the design screen.</li>
@@ -2061,10 +2061,10 @@ $(function() {
 <li>Tweaked colour of industry meters.</li>
 <li>Added Dump functions to various gamestate objects, which can be used for debugging or logging.</li>
 <li>Added numerous content scripting object properies and modified existing ones, including adding a string property type, and properties such as object name, species, building type name, planet focus, ship design id, fleet id of a ship, planet id of a building, system id for any object, final and next and previous system id for ships, and the number of ships in a fleet.</li>
-<li>Added a SetSpecies effect and a <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a> condition.</li>
+<li>Added a SetSpecies effect and a Species condition.</li>
 <li>Changed Homeworld condition to use new system of species having one or more homeworld objects, rather than working with a special. Homeworld condition can match any homeworld, or can take a list of species names whose homeworlds should be matched.</li>
 <li>Modified <a class="el" href="classFocusType.html" title="A setting that a ResourceCenter can be assigned to influence what it produces. ">FocusType</a> condition to take a list of focus type names to match. Planets with those foci will be matched.</li>
-<li>Modified <a class="el" href="classBuildingType.html" title="Class to specify a kind of building. ">BuildingType</a> condition to takte a list of building type names.</li>
+<li>Modified BuildingType condition to takte a list of building type names.</li>
 <li>Fixed some issues with CMake build system.</li>
 <li>Wrapped some code in try-catch blocks to prevent some crashes when parsing stringtable entries.</li>
 <li>Fixed issue where empires would lose visibility of starved planets, and never actually observe them being stared, so would perpetually think they were in the state they were immediatly before starving.</li>

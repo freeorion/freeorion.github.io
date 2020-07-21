@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['objectmap',['ObjectMap',['../classFleet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Fleet::ObjectMap()'],['../classPlanet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Planet::ObjectMap()'],['../classUniverseObject.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'UniverseObject::ObjectMap()']]],
-  ['operator_3d_3d',['operator==',['../classShipDesign.html#a2c2c8697e16a625a7abbe85279b64679',1,'ShipDesign']]]
+  ['playinggame',['PlayingGame',['../classServerApp.html#ab368ab50c7d6b9faae54f91e35e101e4',1,'ServerApp::PlayingGame()'],['../classMapWnd.html#ab368ab50c7d6b9faae54f91e35e101e4',1,'MapWnd::PlayingGame()']]],
+  ['playingturn',['PlayingTurn',['../classMapWnd.html#a02fd866c8f0445fe13bb12afe78cb89f',1,'MapWnd']]],
+  ['policymanager',['PolicyManager',['../classPolicy.html#a8c52a3f955ae61ef737f15efc2ba3069',1,'Policy']]],
+  ['processingturn',['ProcessingTurn',['../classServerApp.html#a3ec5435f2d01b781393fad3a9a558961',1,'ServerApp']]]
 ];

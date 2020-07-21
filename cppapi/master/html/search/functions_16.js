@@ -44,8 +44,6 @@ var searchData=
   ['visibility_5fparser_5frules',['visibility_parser_rules',['../structparse_1_1detail_1_1visibility__parser__rules.html#ab5310deceeac75e32c55864b651f9a0f',1,'parse::detail::visibility_parser_rules']]],
   ['visiblecontainedobjectids',['VisibleContainedObjectIDs',['../classUniverseObject.html#a44c0d74969691c4e8c331a9737f69bec',1,'UniverseObject']]],
   ['visibleenemyofownercondition',['VisibleEnemyOfOwnerCondition',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a40aaa5cc44eff49aa17a743251d3280f',1,'anonymous_namespace{CombatSystem.cpp}']]],
-  ['visiblestarlanes',['VisibleStarlanes',['../classEmpire.html#a955a4b085f386e13e01a83f0c34800af',1,'Empire']]],
-  ['visiblestarlaneswormholes',['VisibleStarlanesWormholes',['../classSystem.html#a3c2a339a62cc43fcde1db77f33a81f60',1,'System']]],
   ['visibletoempire',['VisibleToEmpire',['../structCondition_1_1VisibleToEmpire.html#a3598718b3df208166432fb05953a4697',1,'Condition::VisibleToEmpire']]],
   ['visibletoempiresimplematch',['VisibleToEmpireSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1VisibleToEmpireSimpleMatch.html#acfc10d26804eeb89b673dbb07ad3f1a5',1,'Condition::anonymous_namespace{Conditions.cpp}::VisibleToEmpireSimpleMatch']]],
   ['visiblewindowcondition',['VisibleWindowCondition',['../classVisibleWindowCondition.html#aead2ec252fabf744e16256f8b734a75c',1,'VisibleWindowCondition']]],

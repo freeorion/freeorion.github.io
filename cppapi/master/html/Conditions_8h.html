@@ -79,6 +79,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="ConditionSource_8h.html">ConditionSource.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Condition_8h.html">Condition.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EnumsFwd_8h.html">EnumsFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ProductionQueue_8h.html">../Empire/ProductionQueue.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="CheckSums_8h.html">../util/CheckSums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
 </div><table class="memberdecls">
@@ -136,7 +137,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches ships whose <a class="el" href="classShipDesign.html" title="Returns true if the two designs have the same hull and parts. ">ShipDesign</a> has &gt;= <em>low</em> and &lt; <em>high</em> of ship parts of the specified <em>part_class</em>.  <a href="structCondition_1_1DesignHasPartClass.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireAffiliation.html">Condition::EmpireAffiliation</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects that are owned (if <em>exclusive</em> == false) or only owned (if <em>exclusive</em> == true) by an empire that has affilitation type <em>affilitation</em> with <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> <em>empire_id</em>.  <a href="structCondition_1_1EmpireAffiliation.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects that are owned (if <em>exclusive</em> == false) or only owned (if <em>exclusive</em> == true) by an empire that has affilitation type <em>affilitation</em> with Empire <em>empire_id</em>.  <a href="structCondition_1_1EmpireAffiliation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1EmpireHasAdoptedPolicy.html">Condition::EmpireHasAdoptedPolicy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects if the empire with id <em>empire_id</em> has adopted the imperial policy with name <em>name</em>.  <a href="structCondition_1_1EmpireHasAdoptedPolicy.html#details">More...</a><br /></td></tr>
@@ -151,7 +152,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches planets where the indicated number of the indicated building type or ship design are enqueued on the production queue.  <a href="structCondition_1_1Enqueued.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1ExploredByEmpire.html">Condition::ExploredByEmpire</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches systems that have been explored by at least one <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> in <em>empire_ids</em>.  <a href="structCondition_1_1ExploredByEmpire.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches systems that have been explored by at least one Empire in <em>empire_ids</em>.  <a href="structCondition_1_1ExploredByEmpire.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1FleetSupplyableByEmpire.html">Condition::FleetSupplyableByEmpire</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches objects that are in systems that can be fleet supplied by the empire with id <em>empire_id</em>.  <a href="structCondition_1_1FleetSupplyableByEmpire.html#details">More...</a><br /></td></tr>
@@ -250,7 +251,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all planets or ships that have one of the species in <em>species</em>.  <a href="structCondition_1_1Species.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1StarType.html">Condition::StarType</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all <a class="el" href="classSystem.html" title="contains UniverseObjects and connections to other systems (starlanes and wormholes). ">System</a> objects that have one of the StarTypes in <em>types</em>.  <a href="structCondition_1_1StarType.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all System objects that have one of the StarTypes in <em>types</em>.  <a href="structCondition_1_1StarType.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1Stationary.html">Condition::Stationary</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches objects that are moving.  <a href="structCondition_1_1Stationary.html#details">More...</a><br /></td></tr>
@@ -268,7 +269,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects if the comparisons between values of ValueRefs meet the specified comparison types.  <a href="structCondition_1_1ValueTest.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1VisibleToEmpire.html">Condition::VisibleToEmpire</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects that are visible to the <a class="el" href="classEmpire.html" title="Class to maintain the state of a single empire. ">Empire</a> with id <em>empire_id</em>.  <a href="structCondition_1_1VisibleToEmpire.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects that are visible to the Empire with id <em>empire_id</em>.  <a href="structCondition_1_1VisibleToEmpire.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCondition_1_1WithinDistance.html">Condition::WithinDistance</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches all objects that are within <em>distance</em> units of at least one object that meets <em>condition</em>.  <a href="structCondition_1_1WithinDistance.html#details">More...</a><br /></td></tr>
@@ -283,7 +284,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceCondition"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCondition.html">Condition</a></td></tr>
-<tr class="memdesc:namespaceCondition"><td class="mdescLeft">&#160;</td><td class="mdescRight">this namespace holds <a class="el" href="namespaceCondition.html" title="this namespace holds Condition and its subclasses; these classes represent predicates about UniverseO...">Condition</a> and its subclasses; these classes represent predicates about UniverseObjects used by, for instance, the <a class="el" href="namespaceEffect.html">Effect</a> system. <br /></td></tr>
+<tr class="memdesc:namespaceCondition"><td class="mdescLeft">&#160;</td><td class="mdescRight">this namespace holds <a class="el" href="namespaceCondition.html" title="this namespace holds Condition and its subclasses; these classes represent predicates about UniverseO...">Condition</a> and its subclasses; these classes represent predicates about UniverseObjects used by, for instance, the Effect system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceValueRef"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html">ValueRef</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>

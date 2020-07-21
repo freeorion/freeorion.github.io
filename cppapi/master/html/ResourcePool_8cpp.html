@@ -63,18 +63,95 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ResourcePool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ResourcePool_8h.html">ResourcePool.h</a>&quot;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;boost/lexical_cast.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="Enums_8h.html">../universe/Enums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ObjectMap_8h.html">../universe/ObjectMap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Planet_8h.html">../universe/Planet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Enums_8h.html">../universe/Enums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AppInterface_8h.html">../util/AppInterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h.html">../util/Logger.h</a>&quot;</code><br />
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a499009448d39d36e7cccfc504e88b1a0"><td class="memItemLeft" align="right" valign="top">ResourceType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8cpp.html#a499009448d39d36e7cccfc504e88b1a0">MeterToResource</a> (MeterType type)</td></tr>
+<tr class="memdesc:a499009448d39d36e7cccfc504e88b1a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the equivalent resource type for the given meter type; if no such resource type exists, returns INVALID_RESOURCE_TYPE.  <a href="#a499009448d39d36e7cccfc504e88b1a0">More...</a><br /></td></tr>
+<tr class="separator:a499009448d39d36e7cccfc504e88b1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed99117b30ff20c7120fe3b44364c2b3"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8cpp.html#aed99117b30ff20c7120fe3b44364c2b3">ResourceToMeter</a> (ResourceType type)</td></tr>
+<tr class="separator:aed99117b30ff20c7120fe3b44364c2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6d7e9c441d89adbc381b559a8c85ac"><td class="memItemLeft" align="right" valign="top">MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8cpp.html#a7e6d7e9c441d89adbc381b559a8c85ac">ResourceToTargetMeter</a> (ResourceType type)</td></tr>
+<tr class="separator:a7e6d7e9c441d89adbc381b559a8c85ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a499009448d39d36e7cccfc504e88b1a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499009448d39d36e7cccfc504e88b1a0">&#9670;&nbsp;</a></span>MeterToResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ResourceType MeterToResource </td>
+          <td>(</td>
+          <td class="paramtype">MeterType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the equivalent resource type for the given meter type; if no such resource type exists, returns INVALID_RESOURCE_TYPE. </p>
+
+<p class="reference">Referenced by <a class="el" href="classSidePanel.html#abd1b3bcdfe104d4e52147968b45aab5c">SidePanel::RefreshImpl()</a>.</p>
+
+</div>
+</div>
+<a id="aed99117b30ff20c7120fe3b44364c2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed99117b30ff20c7120fe3b44364c2b3">&#9670;&nbsp;</a></span>ResourceToMeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeterType ResourceToMeter </td>
+          <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classFleet.html#acd28db19e3fefe96a6a7333546bfd680">Fleet::ResourceOutput()</a>, <a class="el" href="classResourcePool.html#a85e6c2298bb3e495a09a5737b183b061">ResourcePool::Update()</a>, and <a class="el" href="classSystemResourceSummaryBrowseWnd.html#a70c90e17216a951462f5270fd3df323d">SystemResourceSummaryBrowseWnd::UpdateProduction()</a>.</p>
+
+</div>
+</div>
+<a id="a7e6d7e9c441d89adbc381b559a8c85ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e6d7e9c441d89adbc381b559a8c85ac">&#9670;&nbsp;</a></span>ResourceToTargetMeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeterType ResourceToTargetMeter </td>
+          <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classResourcePool.html#a85e6c2298bb3e495a09a5737b183b061">ResourcePool::Update()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -2,7 +2,6 @@ var searchData=
 [
   ['random_5fpick',['RANDOM_PICK',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefad32045fadf041097bcaabe4bc056fcd7',1,'ValueRef']]],
   ['random_5funiform',['RANDOM_UNIFORM',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefaf0cf442bbf4583153b0d920e60f6ad0d',1,'ValueRef']]],
-  ['reject_5fproposal',['REJECT_PROPOSAL',['../classDiplomaticMessage.html#ae49366e2d9c57ae53d2fe1dde6ebb8aaa6f18cafd83a6348935643b9131a0fa1e',1,'DiplomaticMessage']]],
   ['remove_5ffrom_5fqueue',['REMOVE_FROM_QUEUE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a86dff475eeb69465006a0da46e229073',1,'ProductionQueueOrder']]],
   ['restore',['RESTORE',['../classCUI__MinRestoreButton.html#a4e0b98fb2769cd0a255e0e9a32ab40feac95fa04340c629ddfa2d38e285e59245',1,'CUI_MinRestoreButton']]],
   ['resume_5fproduction',['RESUME_PRODUCTION',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a4478765642a39b1a8a3172365117c203',1,'ProductionQueueOrder']]],

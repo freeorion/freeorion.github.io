@@ -11,7 +11,6 @@ var searchData=
   ['keytofleetsmap',['KeyToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ac8b3ad32d3505135dbb34995447114c6',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['kill',['Kill',['../classProcess_1_1Impl.html#a11f7e0b297bb25d9b867fac566775895',1,'Process::Impl::Kill()'],['../classProcess.html#ae10e07f87db5169c1000fbb978578775',1,'Process::Kill()']]],
   ['kind',['kind',['../structSystemPathing_1_1vertex__system__id__t.html#a161a9d7a5f8d01700a73b66d86ea55fb',1,'SystemPathing::vertex_system_id_t']]],
-  ['knownstarlanes',['KnownStarlanes',['../classEmpire.html#a7948770039053dfdad02bb4dd0ebdda2',1,'Empire']]],
   ['knowntechfillcolor',['KnownTechFillColor',['../classClientUI.html#a77fe3c4cbbbd945cbb7d355d13b6489e',1,'ClientUI']]],
   ['knowntechtextandbordercolor',['KnownTechTextAndBorderColor',['../classClientUI.html#ad5b3ebd494729d2ec30caa84f32d9ae6',1,'ClientUI']]]
 ];

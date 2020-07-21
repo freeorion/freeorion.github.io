@@ -21,7 +21,6 @@ var searchData=
   ['buildingindicator',['BuildingIndicator',['../classBuildingIndicator.html',1,'']]],
   ['buildingsimplematch',['BuildingSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1BuildingSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['buildingspanel',['BuildingsPanel',['../classBuildingsPanel.html',1,'']]],
-  ['buildingtype',['BuildingType',['../classBuildingType.html',1,'']]],
   ['buildingtypemanager',['BuildingTypeManager',['../classBuildingTypeManager.html',1,'']]],
   ['buildselector',['BuildSelector',['../classBuildDesignatorWnd_1_1BuildSelector.html',1,'BuildDesignatorWnd']]]
 ];

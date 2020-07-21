@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['matchhelper',['MatchHelper',['../structCondition_1_1Condition.html#a38a75063e619d2c981a64b489c263b95',1,'Condition::Condition']]],
-  ['movableenvelope',['MovableEnvelope',['../classparse_1_1detail_1_1MovableEnvelope.html#a06a78997a1cea1a6617c13c9a17681a3',1,'parse::detail::MovableEnvelope']]],
-  ['mplobby',['MPLobby',['../classServerApp.html#a50dbd4e3d204a391494bf2f01ccdb128',1,'ServerApp']]]
+  ['objectmap',['ObjectMap',['../classFleet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Fleet::ObjectMap()'],['../classPlanet.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'Planet::ObjectMap()'],['../classUniverseObject.html#ab5da6f53ab688db06c60bd7aced7ae69',1,'UniverseObject::ObjectMap()']]],
+  ['operator_3d_3d',['operator==',['../classShipDesign.html#a2c2c8697e16a625a7abbe85279b64679',1,'ShipDesign']]]
 ];

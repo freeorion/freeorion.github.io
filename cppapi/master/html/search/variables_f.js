@@ -28,7 +28,7 @@ var searchData=
   ['path_5fsave_5fstr',['PATH_SAVE_STR',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a586b346c8cbf96fc39c159535b27d41b',1,'anonymous_namespace{Directories.cpp}']]],
   ['path_5ftemp_5fstr',['PATH_TEMP_STR',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a5c178ca3270f2431e9f1b3eea612e86d',1,'anonymous_namespace{Directories.cpp}']]],
   ['pause',['PAUSE',['../classResearchQueueOrder.html#a94de4e3021f68b75ddebdf019278e4e3',1,'ResearchQueueOrder']]],
-  ['paused',['paused',['../structInfluenceQueue_1_1Element.html#ad39361ddd65c943d831ac340747c69ab',1,'InfluenceQueue::Element::paused()'],['../structProductionQueue_1_1Element.html#a4754464d69c6b56aa87887778215f0cc',1,'ProductionQueue::Element::paused()'],['../structResearchQueue_1_1Element.html#abe3db0ad1cf946fdf3673f3e6729ca11',1,'ResearchQueue::Element::paused()']]],
+  ['paused',['paused',['../structInfluenceQueue_1_1Element.html#ad39361ddd65c943d831ac340747c69ab',1,'InfluenceQueue::Element::paused()'],['../structResearchQueue_1_1Element.html#abe3db0ad1cf946fdf3673f3e6729ca11',1,'ResearchQueue::Element::paused()']]],
   ['pending',['pending',['../structPending_1_1Pending.html#ae7e034b55a1db2a656e0eb7a53792537',1,'Pending::Pending']]],
   ['permanently_5fsnoozed_5fsitreps',['permanently_snoozed_sitreps',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#ad0127c915111d1d99632dec11c99e0ba',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['pf',['pf',['../structJumpDistanceSys2Visitor.html#a1824f07b8b92d80f11d3393cd6f49ca7',1,'JumpDistanceSys2Visitor::pf()'],['../structJumpDistanceSys1Visitor.html#a90a2f872b83ebc35d94298577d07986e',1,'JumpDistanceSys1Visitor::pf()'],['../structWithinJumpsOfOthersObjectVisitor.html#a8bda4738569dd8f79efd3c6a8a47f69d',1,'WithinJumpsOfOthersObjectVisitor::pf()'],['../structWithinJumpsOfOthersOtherVisitor.html#a234f97156f940a380f417d68f97659db',1,'WithinJumpsOfOthersOtherVisitor::pf()']]],
@@ -94,8 +94,5 @@ var searchData=
   ['production_5fmeter_5fconsumption',['production_meter_consumption',['../structCommonParams.html#abe89daf4693cdd71cbd7bbab5a05a9d2',1,'CommonParams']]],
   ['production_5fspecial_5fconsumption',['production_special_consumption',['../structCommonParams.html#aa6aa59c27aebfb93d32491e92e5f53e3',1,'CommonParams']]],
   ['production_5ftime',['production_time',['../structCommonParams.html#aa4b935ccfb32f0e8d509e4efe0e3aa12',1,'CommonParams']]],
-  ['productionqueuechangedsignal',['ProductionQueueChangedSignal',['../structProductionQueue.html#ad4f0e78e6fdc5edf1743b3dccbbfbd9d',1,'ProductionQueue']]],
-  ['progress',['progress',['../structProductionQueue_1_1Element.html#aaeeb3ba58e8832febbd2d253bc1b710a',1,'ProductionQueue::Element']]],
-  ['progress_5fmemory',['progress_memory',['../structProductionQueue_1_1Element.html#a97baa154ea36c00c419966fcf45b714e',1,'ProductionQueue::Element']]],
   ['prolog',['prolog',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a0e6b855087b55fbd4291c538fb231af2',1,'anonymous_namespace{XMLDoc.cpp}']]]
 ];

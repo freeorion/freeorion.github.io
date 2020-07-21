@@ -34,8 +34,6 @@ var searchData=
   ['fleet_5fwnd_5fwidth',['FLEET_WND_WIDTH',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a00025262f826d6e2a43c540f74d5149a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleetrightclickedsignal',['FleetRightClickedSignal',['../classFleetWnd.html#a9b4608412cb9c4cc2e592142a5a0ebb5',1,'FleetWnd']]],
   ['fleets_5fexploring',['fleets_exploring',['../structSaveGameUIData.html#a62b95262a2d22a4fc43a5e42e014b4eb',1,'SaveGameUIData']]],
-  ['fleetsinsertedsignal',['FleetsInsertedSignal',['../classSystem.html#a2d47b3bf259cd513c43f930291bb7b1b',1,'System']]],
-  ['fleetsremovedsignal',['FleetsRemovedSignal',['../classSystem.html#a6daaaf61a170d74b1a969777c5dd9e23',1,'System']]],
   ['flexible_5fint',['flexible_int',['../structparse_1_1castable__as__int__parser__rules.html#a3d756b7832f440bacc7e1501ef6e64e2',1,'parse::castable_as_int_parser_rules']]],
   ['foci',['foci',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a20eed86fa24495e39d489c0043b63260',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff::foci()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#aa907317a1e257004f15e6fe4f2bcf23b',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::foci()']]],
   ['focus_5ftype',['focus_type',['../structparse_1_1detail_1_1condition__parser__rules__6.html#a992cc53fbfa73f688381864c44efdf65',1,'parse::detail::condition_parser_rules_6::focus_type()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a1a6877381f234978f6324fef0dd89cdc',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::focus_type()']]],

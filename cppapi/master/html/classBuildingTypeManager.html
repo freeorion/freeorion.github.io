@@ -72,14 +72,14 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Holds all FreeOrion <a class="el" href="classBuildingType.html" title="Class to specify a kind of building. ">BuildingType</a>s. Types may be looked up by name.  
+<p>Holds all FreeOrion BuildingTypes. Types may be looked up by name.  
  <a href="classBuildingTypeManager.html#details">More...</a></p>
 
 <p><code>#include &lt;BuildingType.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac048ed76a12362386b5bf7a293d4eebc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">container_type</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classBuildingType.html">BuildingType</a> &gt; &gt;</td></tr>
+<tr class="memitem:ac048ed76a12362386b5bf7a293d4eebc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">container_type</a> = std::map&lt; std::string, std::unique_ptr&lt; BuildingType &gt; &gt;</td></tr>
 <tr class="separator:ac048ed76a12362386b5bf7a293d4eebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2db2c799834e98131d9e2d4997d12d1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#aa2db2c799834e98131d9e2d4997d12d1">iterator</a> = container_type::const_iterator</td></tr>
 <tr class="separator:aa2db2c799834e98131d9e2d4997d12d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -92,7 +92,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91a126d0c02f69edb15cec7ce7115e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#a91a126d0c02f69edb15cec7ce7115e31">end</a> () const -&gt; <a class="el" href="classBuildingTypeManager.html#aa2db2c799834e98131d9e2d4997d12d1">iterator</a></td></tr>
 <tr class="memdesc:a91a126d0c02f69edb15cec7ce7115e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to the last + 1th building type  <a href="#a91a126d0c02f69edb15cec7ce7115e31">More...</a><br /></td></tr>
 <tr class="separator:a91a126d0c02f69edb15cec7ce7115e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8cb5e13237c41bbf547d167fafe6852"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#aa8cb5e13237c41bbf547d167fafe6852">GetBuildingType</a> (const std::string &amp;name) const -&gt; const <a class="el" href="classBuildingType.html">BuildingType</a> *</td></tr>
+<tr class="memitem:aa8cb5e13237c41bbf547d167fafe6852"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#aa8cb5e13237c41bbf547d167fafe6852">GetBuildingType</a> (const std::string &amp;name) const -&gt; const BuildingType *</td></tr>
 <tr class="memdesc:aa8cb5e13237c41bbf547d167fafe6852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the building type with the name <code>name</code>; you should use the free function GetBuildingType(...) instead, mainly to save some typing.  <a href="#aa8cb5e13237c41bbf547d167fafe6852">More...</a><br /></td></tr>
 <tr class="separator:aa8cb5e13237c41bbf547d167fafe6852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c8feff5add3b22974bb2d098410e3ba"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#a6c8feff5add3b22974bb2d098410e3ba">GetCheckSum</a> () const -&gt; unsigned int</td></tr>
@@ -121,7 +121,7 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a497d60e1c07fd20d6731aac3c6786dac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">container_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#a497d60e1c07fd20d6731aac3c6786dac">m_building_types</a></td></tr>
-<tr class="memdesc:a497d60e1c07fd20d6731aac3c6786dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of building types identified by the <a class="el" href="classBuildingType.html#ab85fe4be86d70450c123bb372d4ba9c0" title="Returns the unique name for this type of building. ">BuildingType::Name</a>.  <a href="#a497d60e1c07fd20d6731aac3c6786dac">More...</a><br /></td></tr>
+<tr class="memdesc:a497d60e1c07fd20d6731aac3c6786dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of building types identified by the BuildingType::Name.  <a href="#a497d60e1c07fd20d6731aac3c6786dac">More...</a><br /></td></tr>
 <tr class="separator:a497d60e1c07fd20d6731aac3c6786dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20463f07aa140df00da7d2c7337c9338"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">container_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBuildingTypeManager.html#a20463f07aa140df00da7d2c7337c9338">m_pending_building_types</a> = boost::none</td></tr>
 <tr class="memdesc:a20463f07aa140df00da7d2c7337c9338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Future building type being parsed by parser.  <a href="#a20463f07aa140df00da7d2c7337c9338">More...</a><br /></td></tr>
@@ -133,7 +133,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a7f1f4f57048b5ce318991ab5997d3e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Holds all FreeOrion <a class="el" href="classBuildingType.html" title="Class to specify a kind of building. ">BuildingType</a>s. Types may be looked up by name. </p>
+<div class="textblock"><p>Holds all FreeOrion BuildingTypes. Types may be looked up by name. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac048ed76a12362386b5bf7a293d4eebc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac048ed76a12362386b5bf7a293d4eebc">&#9670;&nbsp;</a></span>container_type</h2>
@@ -142,7 +142,7 @@ Static Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">BuildingTypeManager::container_type</a> =  std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="classBuildingType.html">BuildingType</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="classBuildingTypeManager.html#ac048ed76a12362386b5bf7a293d4eebc">BuildingTypeManager::container_type</a> =  std::map&lt;std::string, std::unique_ptr&lt;BuildingType&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -268,11 +268,11 @@ Static Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classBuildingType.html">BuildingType</a> * BuildingTypeManager::GetBuildingType </td>
+          <td class="memname">const BuildingType * BuildingTypeManager::GetBuildingType </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
-          <td> const -&gt; const <a class="el" href="classBuildingType.html">BuildingType</a>*</td>
+          <td> const -&gt; const BuildingType*</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -406,7 +406,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Map of building types identified by the <a class="el" href="classBuildingType.html#ab85fe4be86d70450c123bb372d4ba9c0" title="Returns the unique name for this type of building. ">BuildingType::Name</a>. </p>
+<p>Map of building types identified by the BuildingType::Name. </p>
 <p>mutable so that when the parse complete it can be updated. </p>
 
 </div>
@@ -455,8 +455,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classBuildingType.html#a3a5778188b8cf6baf16ee3c8a96f814f">BuildingType::GetCheckSum()</a>.</p>
 
 </div>
 </div>

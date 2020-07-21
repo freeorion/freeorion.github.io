@@ -64,25 +64,142 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ResourcePool.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="EnumsFwd_8h.html">../universe/EnumsFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
-<code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;set&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;boost/serialization/nvp.hpp&gt;</code><br />
 <code>#include &lt;boost/serialization/version.hpp&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
+<code>#include &lt;GG/Enum.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="EnumsFwd_8h.html">../universe/EnumsFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourcePool.html">ResourcePool</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classResourcePool.html" title="The ResourcePool class keeps track of an empire&#39;s stockpile and production of a particular resource (...">ResourcePool</a> class keeps track of an empire's stockpile and production of a particular resource (eg.  <a href="classResourcePool.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a966713a074a8a32777f6e6193dd0b6fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8h.html#a966713a074a8a32777f6e6193dd0b6fe">GG_ENUM</a> (ResourceType, INVALID_RESOURCE_TYPE=-1, RE_INDUSTRY, RE_INFLUENCE, RE_RESEARCH, RE_STOCKPILE, NUM_RESOURCE_TYPES) <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> MeterType <a class="el" href="ResourcePool_8cpp.html#aed99117b30ff20c7120fe3b44364c2b3">ResourceToMeter</a>(ResourceType type)</td></tr>
+<tr class="memdesc:a966713a074a8a32777f6e6193dd0b6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of resources that Empires can produce.  <a href="#a966713a074a8a32777f6e6193dd0b6fe">More...</a><br /></td></tr>
+<tr class="separator:a966713a074a8a32777f6e6193dd0b6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcfa7da5e01ac78c0a4c86063b0951ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> ResourceType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8h.html#adcfa7da5e01ac78c0a4c86063b0951ee">MeterToResource</a> (MeterType type)</td></tr>
+<tr class="memdesc:adcfa7da5e01ac78c0a4c86063b0951ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the equivalent resource type for the given meter type; if no such resource type exists, returns INVALID_RESOURCE_TYPE.  <a href="#adcfa7da5e01ac78c0a4c86063b0951ee">More...</a><br /></td></tr>
+<tr class="separator:adcfa7da5e01ac78c0a4c86063b0951ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbafbddbc7cbfe9a1ffe9f66c4d594cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> MeterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ResourcePool_8h.html#afbafbddbc7cbfe9a1ffe9f66c4d594cd">ResourceToTargetMeter</a> (ResourceType type)</td></tr>
+<tr class="separator:afbafbddbc7cbfe9a1ffe9f66c4d594cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a966713a074a8a32777f6e6193dd0b6fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966713a074a8a32777f6e6193dd0b6fe">&#9670;&nbsp;</a></span>GG_ENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GG_ENUM </td>
+          <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">INVALID_RESOURCE_TYPE&#160;</td>
+          <td class="paramname"> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RE_INDUSTRY&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RE_INFLUENCE&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RE_RESEARCH&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RE_STOCKPILE&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NUM_RESOURCE_TYPES&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Types of resources that Empires can produce. </p>
+<p>Returns the equivalent meter type for the given resource type; if no such meter type exists, returns INVALID_METER_TYPE. </p>
+
+</div>
+</div>
+<a id="adcfa7da5e01ac78c0a4c86063b0951ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcfa7da5e01ac78c0a4c86063b0951ee">&#9670;&nbsp;</a></span>MeterToResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> ResourceType MeterToResource </td>
+          <td>(</td>
+          <td class="paramtype">MeterType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the equivalent resource type for the given meter type; if no such resource type exists, returns INVALID_RESOURCE_TYPE. </p>
+
+<p class="reference">Referenced by <a class="el" href="classSidePanel.html#abd1b3bcdfe104d4e52147968b45aab5c">SidePanel::RefreshImpl()</a>.</p>
+
+</div>
+</div>
+<a id="afbafbddbc7cbfe9a1ffe9f66c4d594cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbafbddbc7cbfe9a1ffe9f66c4d594cd">&#9670;&nbsp;</a></span>ResourceToTargetMeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> MeterType ResourceToTargetMeter </td>
+          <td>(</td>
+          <td class="paramtype">ResourceType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classResourcePool.html#a85e6c2298bb3e495a09a5737b183b061">ResourcePool::Update()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

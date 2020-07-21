@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['filter_5foperations',['filter_operations',['../classboost_1_1iostreams_1_1core__access.html#aed6ac85955356a2609792caf2b74a086',1,'boost::iostreams::core_access']]],
-  ['fleetuimanager',['FleetUIManager',['../classFleetWnd.html#afbaa71b90035aedd073657c76440350d',1,'FleetWnd']]]
+  ['getgamerules',['GetGameRules',['../classGameRules.html#a9123de209b26a90243a2e357a279b07b',1,'GameRules']]],
+  ['getoptionsdb',['GetOptionsDB',['../classOptionsDB.html#ac081f88357e725b5f27d5027ba38a1b2',1,'OptionsDB']]]
 ];

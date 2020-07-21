@@ -2,7 +2,6 @@ var searchData=
 [
   ['about',['About',['../classAbout.html',1,'']]],
   ['accordionpanel',['AccordionPanel',['../classAccordionPanel.html',1,'']]],
-  ['accountinginfo',['AccountingInfo',['../structEffect_1_1AccountingInfo.html',1,'Effect']]],
   ['addspecial',['AddSpecial',['../classEffect_1_1AddSpecial.html',1,'Effect']]],
   ['addstarlane',['AddStarlane',['../classModerator_1_1AddStarlane.html',1,'Moderator']]],
   ['addstarlanes',['AddStarlanes',['../classEffect_1_1AddStarlanes.html',1,'Effect']]],
