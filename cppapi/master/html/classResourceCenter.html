@@ -154,9 +154,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a34035b2e0ea8740442b77d197ebd8556"><td class="memItemLeft" align="right" valign="top">virtual Visibility&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#a34035b2e0ea8740442b77d197ebd8556">GetVisibility</a> (int empire_id) const =0</td></tr>
 <tr class="memdesc:a34035b2e0ea8740442b77d197ebd8556"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should return the visibility of this <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> for the empire with the specified <em>empire_id</em>  <a href="#a34035b2e0ea8740442b77d197ebd8556">More...</a><br /></td></tr>
 <tr class="separator:a34035b2e0ea8740442b77d197ebd8556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ef4b5713f40f0d2bcf3aad226737ef"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:ab8ef4b5713f40f0d2bcf3aad226737ef"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#ab8ef4b5713f40f0d2bcf3aad226737ef">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
-<tr class="separator:ab8ef4b5713f40f0d2bcf3aad226737ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -171,8 +168,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
-<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd08962c731ba4271831a28a7bf4006f"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
+<tr class="memitem:acd08962c731ba4271831a28a7bf4006f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classResourceCenter.html#acd08962c731ba4271831a28a7bf4006f">serialize</a> (Archive &amp;, <a class="el" href="classResourceCenter.html">ResourceCenter</a> &amp;, unsigned int const)</td></tr>
+<tr class="separator:acd08962c731ba4271831a28a7bf4006f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> class is an abstract base class for anything in the FreeOrion gamestate that generates resources (minerals, etc.). </p>
@@ -668,44 +666,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8ef4b5713f40f0d2bcf3aad226737ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8ef4b5713f40f0d2bcf3aad226737ef">&#9670;&nbsp;</a></span>serialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Archive &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ResourceCenter::serialize </td>
-          <td>(</td>
-          <td class="paramtype">Archive &amp;&#160;</td>
-          <td class="paramname"><em>ar</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>version</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a28de770d8a8a792245604a9d4d39686a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28de770d8a8a792245604a9d4d39686a">&#9670;&nbsp;</a></span>SetFocus()</h2>
 
@@ -771,17 +731,39 @@ template&lt;typename Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
+<a id="acd08962c731ba4271831a28a7bf4006f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd08962c731ba4271831a28a7bf4006f">&#9670;&nbsp;</a></span>serialize</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Archive &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class boost::serialization::access</td>
+          <td class="memname">void serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classResourceCenter.html">ResourceCenter</a> &amp;&#160;</td>
+          <td class="paramname"><em>rs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int const&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -814,7 +796,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ae94b7430c4212f86834cd6625e5e00f5">Dump()</a>, <a class="el" href="classResourceCenter.html#a940beeadd88f1fe90a35b100eba83c61">Focus()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ae94b7430c4212f86834cd6625e5e00f5">Dump()</a>, <a class="el" href="classResourceCenter.html#a940beeadd88f1fe90a35b100eba83c61">Focus()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a5818313d9c9e4311f51c75c24adeec36">serialize()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>
@@ -838,7 +820,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a5818313d9c9e4311f51c75c24adeec36">serialize()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>
@@ -862,7 +844,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ae94b7430c4212f86834cd6625e5e00f5">Dump()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, <a class="el" href="classResourceCenter.html#afde48529e695ef38eeba750d8264a170">TurnsSinceFocusChange()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#ae94b7430c4212f86834cd6625e5e00f5">Dump()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a5818313d9c9e4311f51c75c24adeec36">serialize()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, <a class="el" href="classResourceCenter.html#afde48529e695ef38eeba750d8264a170">TurnsSinceFocusChange()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>
@@ -886,7 +868,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a5818313d9c9e4311f51c75c24adeec36">serialize()</a>, <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="classResourceCenter.html#acbd0f79b5d6ea98a799b0b690c3cc99b">UpdateFocusHistory()</a>.</p>
 
 </div>
 </div>

@@ -119,7 +119,7 @@ var searchData=
   ['place_5fin_5fqueue',['PLACE_IN_QUEUE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661aa13d79f6811756ce30ad4178aa1b6ce7',1,'ProductionQueueOrder']]],
   ['placeproductiononqueue',['PlaceProductionOnQueue',['../classEmpire.html#a16f1a03a1c3396394f5c6710d8c739ca',1,'Empire']]],
   ['placetechinqueue',['PlaceTechInQueue',['../classEmpire.html#a733d8d64346a75ec80c5b261d829a577',1,'Empire']]],
-  ['planet',['Planet',['../classPlanet.html',1,'Planet'],['../classPlanet.html#ac88200b337a62e1377858e3116f9412b',1,'Planet::Planet()'],['../classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e',1,'Planet::Planet(PlanetType type, PlanetSize size)']]],
+  ['planet',['Planet',['../classPlanet.html',1,'Planet'],['../classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e',1,'Planet::Planet()']]],
   ['planet_2ecpp',['Planet.cpp',['../Planet_8cpp.html',1,'']]],
   ['planet_2eh',['Planet.h',['../Planet_8h.html',1,'']]],
   ['planet_5fdensity',['planet_density',['../structGalaxySetupData.html#aada9b600243dd5612c0c8887264ed82b',1,'GalaxySetupData']]],

@@ -9,6 +9,7 @@ var searchData=
   ['object_5fwnd_5fname',['OBJECT_WND_NAME',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a684c421776a7b458573bccb99f95c93e',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['objectdoubleclickedsignal',['ObjectDoubleClickedSignal',['../classObjectListWnd.html#afffe9ca614267f996cc9583821955ef5',1,'ObjectListWnd']]],
   ['objectdumpsignal',['ObjectDumpSignal',['../classObjectListWnd.html#a9dc66eae81fe4e9b02ab8c1b815bbd8f',1,'ObjectListWnd']]],
+  ['objectmap',['ObjectMap',['../classSystem.html#a4e70cafa79bbcf101bf82526b03b39ec',1,'System']]],
   ['objects',['objects',['../structScriptingCombatInfo.html#a9dc508d71d575123ec0a90fb01404832',1,'ScriptingCombatInfo::objects()'],['../structScriptingContext.html#aa29d53431a11bb6b5e5cd0773da7ed5a',1,'ScriptingContext::objects()']]],
   ['obsolete_5fship_5fparts',['obsolete_ship_parts',['../structSaveGameUIData.html#a4acc83f3d81d06a1f299b83a06cfe9ef',1,'SaveGameUIData']]],
   ['obsolete_5fui_5fevent_5fcount',['obsolete_ui_event_count',['../structSaveGameUIData.html#ab42913d4e0280a4f844055e03022c572',1,'SaveGameUIData']]],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['fakemodechange',['FakeModeChange',['../classSDLGUI.html#a742c17cc6b619536880cdaed358ba190',1,'SDLGUI']]],
   ['fcmovecontent',['FCMoveContent',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a50b877d88d8bda7b5e4d9fc5d80acb45',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
-  ['field',['Field',['../classField.html#a3e804c92273d9159f413f227b535c672',1,'Field::Field()'],['../classField.html#a11c21389e9d357e559c507485516f6dc',1,'Field::Field(const std::string &amp;field_type, double x, double y, double radius)']]],
+  ['field',['Field',['../classField.html#a11c21389e9d357e559c507485516f6dc',1,'Field']]],
   ['fieldicon',['FieldIcon',['../classFieldIcon.html#a18553bf0220f307666956e08f9701e63',1,'FieldIcon']]],
   ['fieldid',['FieldID',['../classFieldIcon.html#ae967a4460631c51a2b13fd87397ac0ef',1,'FieldIcon']]],
   ['fieldids',['FieldIDs',['../classSystem.html#a6948b45f52a38ed3557aaf69f12b5174',1,'System']]],
@@ -67,7 +67,7 @@ var searchData=
   ['flash',['Flash',['../classCUIWnd.html#ae869bb9c0677d212ca9294f85dd5ec95',1,'CUIWnd']]],
   ['flattenandnestedconditions',['FlattenAndNestedConditions',['../namespaceanonymous__namespace_02Conditions_8cpp_03.html#a295df706754badc840e91b0ba5063059',1,'anonymous_namespace{Conditions.cpp}']]],
   ['flattensubevents',['FlattenSubEvents',['../structCombatEvent.html#af1b2434173d67e356b67a87f9cd1cebd',1,'CombatEvent::FlattenSubEvents()'],['../structBoutEvent.html#ad15474b712a1d0568b1de45a59627f32',1,'BoutEvent::FlattenSubEvents()'],['../structSimultaneousEvents.html#acb2cef61c130c44a9e6aec8524717a18',1,'SimultaneousEvents::FlattenSubEvents()']]],
-  ['fleet',['Fleet',['../classFleet.html#aeb9f154a826ae9abcc0feccf56667735',1,'Fleet::Fleet()'],['../classFleet.html#a0b41faec10ac71189bd484ce089fd4ed',1,'Fleet::Fleet(const std::string &amp;name, double x, double y, int owner)']]],
+  ['fleet',['Fleet',['../classFleet.html#a0b41faec10ac71189bd484ce089fd4ed',1,'Fleet']]],
   ['fleet_5fplans',['fleet_plans',['../namespaceparse.html#a2d283017da65f69d39594ed7196d10ea',1,'parse']]],
   ['fleetaggressiveicon',['FleetAggressiveIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a38e56c03ae6eeed7aaf2e32a193694cc',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleetaggressivemouseovericon',['FleetAggressiveMouseoverIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#af4edb85c4c05ebf31cbb178d5110d847',1,'anonymous_namespace{FleetWnd.cpp}']]],

@@ -139,9 +139,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a92aef79ab08dfa89041d76fb75bfa353"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a92aef79ab08dfa89041d76fb75bfa353">AddMeter</a> (MeterType meter_type)=0</td></tr>
 <tr class="memdesc:a92aef79ab08dfa89041d76fb75bfa353"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation should add a meter to the object so that it can be accessed with the <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215" title="implementation should return the requested Meter, or 0 if no such Meter of that type is found in this...">GetMeter()</a> functions  <a href="#a92aef79ab08dfa89041d76fb75bfa353">More...</a><br /></td></tr>
 <tr class="separator:a92aef79ab08dfa89041d76fb75bfa353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b69578bb3218ee600694df3dfb195f4"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:a9b69578bb3218ee600694df3dfb195f4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a9b69578bb3218ee600694df3dfb195f4">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
-<tr class="separator:a9b69578bb3218ee600694df3dfb195f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -151,8 +148,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPopCenter.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
-<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a226fe303240268ebb0bc7d68f74ac1c6"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
+<tr class="memitem:a226fe303240268ebb0bc7d68f74ac1c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPopCenter.html#a226fe303240268ebb0bc7d68f74ac1c6">serialize</a> (Archive &amp;, <a class="el" href="classPopCenter.html">PopCenter</a> &amp;, unsigned int const)</td></tr>
+<tr class="separator:a226fe303240268ebb0bc7d68f74ac1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classPopCenter.html" title="The PopCenter class is an abstract base class for anything in the FreeOrion gamestate that has popula...">PopCenter</a> class is an abstract base class for anything in the FreeOrion gamestate that has population on or in it. </p>
@@ -600,44 +598,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b69578bb3218ee600694df3dfb195f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b69578bb3218ee600694df3dfb195f4">&#9670;&nbsp;</a></span>serialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Archive &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PopCenter::serialize </td>
-          <td>(</td>
-          <td class="paramtype">Archive &amp;&#160;</td>
-          <td class="paramname"><em>ar</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>version</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a93162b70b5fb504d4c7a6cef752923bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93162b70b5fb504d4c7a6cef752923bd">&#9670;&nbsp;</a></span>SetSpecies()</h2>
 
@@ -699,22 +659,44 @@ template&lt;typename Archive &gt; </div>
 
 <p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPopulationPanel.html#a848365931b10f4ec0ae62ec322373a65">PopulationPanel::CompleteConstruction()</a>, <a class="el" href="classPlanet.html#a040d176766332414a794cd4bddb6cdc4">Planet::EnvironmentForSpecies()</a>, <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet::FocusIcon()</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet::HasTag()</a>, <a class="el" href="structCondition_1_1Species.html#a17964cab46e7e3f40454fad92b89c533">Condition::Species::Match()</a>, <a class="el" href="classPlanet.html#ac0e2e759882e70afa9d63c41ed22fdb0">Planet::NextBetterPlanetTypeForSpecies()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1SpeciesSimpleMatch.html#ad8f4caf7bea0806211c43853385829b0">Condition::anonymous_namespace{Conditions.cpp}::SpeciesSimpleMatch::operator()()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="classEmpire.html#afba1ef192bf7164a35ee0cefc75de69b">Empire::RecordPlanetDepopulated()</a>, <a class="el" href="classEmpire.html#a8bfcf5baf7663356482346a6ed4b4707">Empire::RecordPlanetInvaded()</a>, <a class="el" href="classPlanet.html#a2bd6be13468f18b27e08af36fbfee3a3">Planet::SetSpecies()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet::Tags()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPopulationPanel.html#a848365931b10f4ec0ae62ec322373a65">PopulationPanel::CompleteConstruction()</a>, <a class="el" href="classPlanet.html#a040d176766332414a794cd4bddb6cdc4">Planet::EnvironmentForSpecies()</a>, <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet::FocusIcon()</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet::HasTag()</a>, <a class="el" href="structCondition_1_1Species.html#a17964cab46e7e3f40454fad92b89c533">Condition::Species::Match()</a>, <a class="el" href="classPlanet.html#ac0e2e759882e70afa9d63c41ed22fdb0">Planet::NextBetterPlanetTypeForSpecies()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1SpeciesSimpleMatch.html#ad8f4caf7bea0806211c43853385829b0">Condition::anonymous_namespace{Conditions.cpp}::SpeciesSimpleMatch::operator()()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="classEmpire.html#afba1ef192bf7164a35ee0cefc75de69b">Empire::RecordPlanetDepopulated()</a>, <a class="el" href="classEmpire.html#a8bfcf5baf7663356482346a6ed4b4707">Empire::RecordPlanetInvaded()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a6ce30e24a14d681cc1b8f636003ece72">serialize()</a>, <a class="el" href="classPlanet.html#a2bd6be13468f18b27e08af36fbfee3a3">Planet::SetSpecies()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet::Tags()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
+<a id="a226fe303240268ebb0bc7d68f74ac1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a226fe303240268ebb0bc7d68f74ac1c6">&#9670;&nbsp;</a></span>serialize</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Archive &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class boost::serialization::access</td>
+          <td class="memname">void serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPopCenter.html">PopCenter</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int const&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -749,7 +731,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>the name of the species that occupies this planet </p>
 
-<p class="reference">Referenced by <a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">Copy()</a>, <a class="el" href="classPopCenter.html#a64b159534460d5c564616178bc84f943">Dump()</a>, <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>, <a class="el" href="classPopCenter.html#a951ae604e64f1b5d1768fc810b333332">Reset()</a>, and <a class="el" href="classPopCenter.html#a93162b70b5fb504d4c7a6cef752923bd">SetSpecies()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">Copy()</a>, <a class="el" href="classPopCenter.html#a64b159534460d5c564616178bc84f943">Dump()</a>, <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>, <a class="el" href="classPopCenter.html#a951ae604e64f1b5d1768fc810b333332">Reset()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a24d8827dd175f057bdfe86aa1143a5e3">serialize()</a>, and <a class="el" href="classPopCenter.html#a93162b70b5fb504d4c7a6cef752923bd">SetSpecies()</a>.</p>
 
 </div>
 </div>

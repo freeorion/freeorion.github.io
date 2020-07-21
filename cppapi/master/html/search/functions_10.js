@@ -64,7 +64,7 @@ var searchData=
   ['place',['Place',['../classTechTreeLayout_1_1Column.html#a73c0a2f66e5e7f4f974fde5f141ceb02',1,'TechTreeLayout::Column']]],
   ['placeproductiononqueue',['PlaceProductionOnQueue',['../classEmpire.html#a16f1a03a1c3396394f5c6710d8c739ca',1,'Empire']]],
   ['placetechinqueue',['PlaceTechInQueue',['../classEmpire.html#a733d8d64346a75ec80c5b261d829a577',1,'Empire']]],
-  ['planet',['Planet',['../classPlanet.html#ac88200b337a62e1377858e3116f9412b',1,'Planet::Planet()'],['../classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e',1,'Planet::Planet(PlanetType type, PlanetSize size)']]],
+  ['planet',['Planet',['../classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e',1,'Planet']]],
   ['planet_5fenvironment_5fparser_5frules',['planet_environment_parser_rules',['../structparse_1_1detail_1_1planet__environment__parser__rules.html#af81237c310b13cc6323f6e636fddf30f',1,'parse::detail::planet_environment_parser_rules']]],
   ['planet_5fsize_5fparser_5frules',['planet_size_parser_rules',['../structparse_1_1detail_1_1planet__size__parser__rules.html#a036e693546ae4c1c7f07e20877a9bbec',1,'parse::detail::planet_size_parser_rules']]],
   ['planet_5ftype_5fparser_5frules',['planet_type_parser_rules',['../structparse_1_1detail_1_1planet__type__parser__rules.html#a92bb7c54d0bb4bf094b2d79b854f1e0d',1,'parse::detail::planet_type_parser_rules']]],
