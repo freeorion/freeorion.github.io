@@ -18,6 +18,7 @@ var searchData=
   ['_7econditionwidget',['~ConditionWidget',['../classConditionWidget.html#a772b45e5324911d0636fa830eb7146f0',1,'ConditionWidget']]],
   ['_7ecreditswnd',['~CreditsWnd',['../classCreditsWnd.html#a0c31d36c678e489d31670a083ea0f150',1,'CreditsWnd']]],
   ['_7ecuiwnd',['~CUIWnd',['../classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa',1,'CUIWnd']]],
+  ['_7edesigns',['~Designs',['../classShipDesignManager_1_1Designs.html#a8bec467a2223c62c98a0c5c2c36d305b',1,'ShipDesignManager::Designs']]],
   ['_7eeffects_5fparser_5fgrammar',['~effects_parser_grammar',['../structparse_1_1effects__parser__grammar.html#abcc5f381540009c402b67cfc1fe4655f',1,'parse::effects_parser_grammar']]],
   ['_7eempireforcesaccordionpanel',['~EmpireForcesAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a27bc1e7f7acc335a12641913d562d00a',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel']]],
   ['_7eempirehasadoptedpolicy',['~EmpireHasAdoptedPolicy',['../structCondition_1_1EmpireHasAdoptedPolicy.html#a53063f05308bc94a0ff52feec67f71fd',1,'Condition::EmpireHasAdoptedPolicy']]],
