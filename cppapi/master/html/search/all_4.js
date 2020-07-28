@@ -27,7 +27,7 @@ var searchData=
   ['deconstruct_5fmovable_5fvector',['deconstruct_movable_vector',['../classparse_1_1detail_1_1deconstruct__movable__vector.html',1,'parse::detail']]],
   ['deconstruct_5fmovable_5fvector_5fpair',['deconstruct_movable_vector_pair',['../classparse_1_1detail_1_1deconstruct__movable__vector__pair.html',1,'parse::detail']]],
   ['decorate',['Decorate',['../classLinkDecorator.html#aa840e65c4721c261c69ce70978f29745',1,'LinkDecorator::Decorate()'],['../classColorByOwner.html#a9cfa00a89704b72f22654cbfc8585d8e',1,'ColorByOwner::Decorate()'],['../classPathTypeDecorator.html#a32964873aee95f7c20d427bf6fa5e408',1,'PathTypeDecorator::Decorate()'],['../classanonymous__namespace_02SitRepPanel_8cpp_03_1_1ColorEmpire.html#ab181c549919e1ca690da707a34d47105',1,'anonymous_namespace{SitRepPanel.cpp}::ColorEmpire::Decorate()']]],
-  ['decoratelinktext',['DecorateLinkText',['../classCombatLogWnd_1_1Impl.html#ac21029ad0591ba32ebdc56dea1d10405',1,'CombatLogWnd::Impl']]],
+  ['decoratelinktext',['DecorateLinkText',['../classCombatLogWnd_1_1Impl.html#afcf62a06d79d7109a1d6023f5f6fc4a4',1,'CombatLogWnd::Impl']]],
   ['decoraterollover',['DecorateRollover',['../classLinkDecorator.html#a0ab6d4c26f5942a58927b2f53fe41bd6',1,'LinkDecorator::DecorateRollover()'],['../classPathTypeDecorator.html#af6565c08360d7992aab1f3a6654a1978',1,'PathTypeDecorator::DecorateRollover()']]],
   ['default',['default',['../namespacetag__parser.html#a486501c3ceec9ee59d2ff19228193f2f',1,'tag_parser']]],
   ['default_5fdecorator',['DEFAULT_DECORATOR',['../classTextLinker.html#a76d3304fbc1402830c2f4afe891568dd',1,'TextLinker']]],
