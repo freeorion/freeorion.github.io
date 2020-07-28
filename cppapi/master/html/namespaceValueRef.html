@@ -159,21 +159,24 @@ Enumerations</h2></td></tr>
 <tr class="separator:a1695bf14ae25db3dd8c35207a6b3da57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a578308526ffef263e0f4582f3fc819b2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a> : int { <br />
 &#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2aea5e070cb696033e4662ce31bf746680">INVALID_STATISTIC_TYPE</a> = -1, 
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93">IF</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2ace27005a5b73f9026dbf6fc5e146fcf5">COUNT</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f">UNIQUE_COUNT</a>, 
-<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93">IF</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6ae30d0f750dc269683d2f05bea0f325">SUM</a>, 
-<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5cd50ab9fef5e400ee3bf31e39d026dc">MEAN</a>, 
+&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a68bee3d3502bc88e028eda59d36d2355">HISTO_MAX</a>, 
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a886898fbdaa987e076f1c9b1a58497c4">HISTO_MIN</a>, 
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afb68135d49a395a0142cd2923aff4b33">HISTO_SPREAD</a>, 
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6ae30d0f750dc269683d2f05bea0f325">SUM</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5cd50ab9fef5e400ee3bf31e39d026dc">MEAN</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2addf2b6c43f8dfa91dd776b7be36ccf1f">RMS</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a89ece983ef5fd1077819f98160ab1344">MODE</a>, 
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afbcba25186b5f012f805c9b1ed801696">MAX</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afbcba25186b5f012f805c9b1ed801696">MAX</a>, 
-<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2abad5d7cc40d325401088b80e586c8484">MIN</a>, 
+&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2abad5d7cc40d325401088b80e586c8484">MIN</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5bd412d8ce638b37337dd11523b11b6d">SPREAD</a>, 
 <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2ae98ce8195a59964dbab82cd2c50478f8">STDEV</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6b361370e92498d676a27159f2158006">PRODUCT</a>
+<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6b361370e92498d676a27159f2158006">PRODUCT</a>
 <br />
  }</td></tr>
 <tr class="separator:a578308526ffef263e0f4582f3fc819b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +195,15 @@ Functions</h2></td></tr>
 <tr class="separator:aff1e35bb3b59658f6791170be5d9b0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e2a2b645c40bc0ee8956e2d1a043636"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a6e2a2b645c40bc0ee8956e2d1a043636">ReconstructName</a> (const std::vector&lt; std::string &gt; &amp;property_name, <a class="el" href="namespaceValueRef.html#a1695bf14ae25db3dd8c35207a6b3da57">ReferenceType</a> ref_type, bool return_immediate_value)</td></tr>
 <tr class="separator:a6e2a2b645c40bc0ee8956e2d1a043636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd4be8009e7c31b8084eb6d577f2ce7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename std::enable_if&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; V &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a8cd4be8009e7c31b8084eb6d577f2ce7"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#a8cd4be8009e7c31b8084eb6d577f2ce7">ReduceData</a> (<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a> stat_type, std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, V &gt; object_property_values)</td></tr>
+<tr class="separator:a8cd4be8009e7c31b8084eb6d577f2ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e1cbbc1dc8b8b8786b9db026827f17"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename std::enable_if&lt; std::is_enum&lt; T &gt;::value, T &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_same&lt; T, V &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ac2e1cbbc1dc8b8b8786b9db026827f17"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#ac2e1cbbc1dc8b8b8786b9db026827f17">ReduceData</a> (<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a> stat_type, std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, T &gt; object_property_values)</td></tr>
+<tr class="separator:ac2e1cbbc1dc8b8b8786b9db026827f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a00061719f5fee7bb75dd874fef873"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename std::enable_if&lt; std::is_arithmetic&lt; T &gt;::value, T &gt;::type *  = nullptr, typename std::enable_if&lt;!std::is_arithmetic&lt; V &gt;::value, V &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:ae0a00061719f5fee7bb75dd874fef873"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#ae0a00061719f5fee7bb75dd874fef873">ReduceData</a> (<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a> stat_type, std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, V &gt; object_property_values)</td></tr>
+<tr class="separator:ae0a00061719f5fee7bb75dd874fef873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adec3c954d9d001d91fbf37e859c4653d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceValueRef.html#adec3c954d9d001d91fbf37e859c4653d">StatisticDescription</a> (<a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a> stat_type, const std::string &amp;value_desc, const std::string &amp;condition_desc)</td></tr>
 <tr class="separator:adec3c954d9d001d91fbf37e859c4653d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -272,9 +284,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2aea5e070cb696033e4662ce31bf746680"></a>INVALID_STATISTIC_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93"></a>IF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2ace27005a5b73f9026dbf6fc5e146fcf5"></a>COUNT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f"></a>UNIQUE_COUNT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93"></a>IF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a68bee3d3502bc88e028eda59d36d2355"></a>HISTO_MAX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a886898fbdaa987e076f1c9b1a58497c4"></a>HISTO_MIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2afb68135d49a395a0142cd2923aff4b33"></a>HISTO_SPREAD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a6ae30d0f750dc269683d2f05bea0f325"></a>SUM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2a5cd50ab9fef5e400ee3bf31e39d026dc"></a>MEAN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a578308526ffef263e0f4582f3fc819b2addf2b6c43f8dfa91dd776b7be36ccf1f"></a>RMS&#160;</td><td class="fielddoc"></td></tr>
@@ -521,6 +536,102 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8cd4be8009e7c31b8084eb6d577f2ce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd4be8009e7c31b8084eb6d577f2ce7">&#9670;&nbsp;</a></span>ReduceData() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename V , typename std::enable_if&lt; std::is_arithmetic&lt; T &gt;::value &amp;&amp;std::is_arithmetic&lt; V &gt;::value &gt;::type *  = nullptr&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T ValueRef::ReduceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a>&#160;</td>
+          <td class="paramname"><em>stat_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, V &gt;&#160;</td>
+          <td class="paramname"><em>object_property_values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2ace27005a5b73f9026dbf6fc5e146fcf5">COUNT</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a68bee3d3502bc88e028eda59d36d2355">HISTO_MAX</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a886898fbdaa987e076f1c9b1a58497c4">HISTO_MIN</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afb68135d49a395a0142cd2923aff4b33">HISTO_SPREAD</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93">IF</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afbcba25186b5f012f805c9b1ed801696">MAX</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5cd50ab9fef5e400ee3bf31e39d026dc">MEAN</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2abad5d7cc40d325401088b80e586c8484">MIN</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a">min</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a89ece983ef5fd1077819f98160ab1344">MODE</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6b361370e92498d676a27159f2158006">PRODUCT</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2addf2b6c43f8dfa91dd776b7be36ccf1f">RMS</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a5bd412d8ce638b37337dd11523b11b6d">SPREAD</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2ae98ce8195a59964dbab82cd2c50478f8">STDEV</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a6ae30d0f750dc269683d2f05bea0f325">SUM</a>, and <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f">UNIQUE_COUNT</a>.</p>
+
+</div>
+</div>
+<a id="ac2e1cbbc1dc8b8b8786b9db026827f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e1cbbc1dc8b8b8786b9db026827f17">&#9670;&nbsp;</a></span>ReduceData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename V , typename std::enable_if&lt; std::is_enum&lt; T &gt;::value, T &gt;::type *  = nullptr, typename std::enable_if&lt; std::is_same&lt; T, V &gt;::value &gt;::type *  = nullptr&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T ValueRef::ReduceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a>&#160;</td>
+          <td class="paramname"><em>stat_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, T &gt;&#160;</td>
+          <td class="paramname"><em>object_property_values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93">IF</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, and <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a89ece983ef5fd1077819f98160ab1344">MODE</a>.</p>
+
+</div>
+</div>
+<a id="ae0a00061719f5fee7bb75dd874fef873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a00061719f5fee7bb75dd874fef873">&#9670;&nbsp;</a></span>ReduceData() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename V , typename std::enable_if&lt; std::is_arithmetic&lt; T &gt;::value, T &gt;::type *  = nullptr, typename std::enable_if&lt;!std::is_arithmetic&lt; V &gt;::value, V &gt;::type *  = nullptr&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T ValueRef::ReduceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2">StatisticType</a>&#160;</td>
+          <td class="paramname"><em>stat_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::shared_ptr&lt; const <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt;, V &gt;&#160;</td>
+          <td class="paramname"><em>object_property_values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2ace27005a5b73f9026dbf6fc5e146fcf5">COUNT</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a68bee3d3502bc88e028eda59d36d2355">HISTO_MAX</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a886898fbdaa987e076f1c9b1a58497c4">HISTO_MIN</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2afb68135d49a395a0142cd2923aff4b33">HISTO_SPREAD</a>, <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a09719f9b500ef1f2acb103ab7c543b93">IF</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, <a class="el" href="Logger_8h.html#aca1fd1d8935433e6ba2e3918214e07f9ad8bd79cc131920d5de426f914d17405a">min</a>, and <a class="el" href="namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f">UNIQUE_COUNT</a>.</p>
+
+</div>
+</div>
 <a id="adec3c954d9d001d91fbf37e859c4653d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adec3c954d9d001d91fbf37e859c4653d">&#9670;&nbsp;</a></span>StatisticDescription()</h2>
 
@@ -555,7 +666,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="i18n_8cpp.html#a05a1e534bc0479d24109eeea26d7effb">FlexibleFormat()</a>, <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>, and <a class="el" href="ValueRefs_8cpp.html#a9a6271523e8fb1ac84ccd2571764dcc8">UserStringExists()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Statistic.html#af4ac484869ae4d9a901fcb99250284ea">ValueRef::Statistic&lt; T &gt;::Description()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Statistic.html#ad6f79738b25f6ed27bca7729c1c62e63">ValueRef::Statistic&lt; T, V &gt;::Description()</a>.</p>
 
 </div>
 </div>

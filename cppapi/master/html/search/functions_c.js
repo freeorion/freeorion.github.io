@@ -14,6 +14,7 @@ var searchData=
   ['lastturnattackedbyship',['LastTurnAttackedByShip',['../classPlanet.html#a92b46f832f265734ed59a6571fba6782',1,'Planet']]],
   ['lastturncolonized',['LastTurnColonized',['../classPlanet.html#a74e091349916f2bff68a5a8a11cd5e58',1,'Planet']]],
   ['lastturnconquered',['LastTurnConquered',['../classPlanet.html#aa19b817b72f13286c0aaa96d0e92f6c3',1,'Planet']]],
+  ['lastturnmoveordered',['LastTurnMoveOrdered',['../classFleet.html#a98370f908cf0c82bf9e3d11c492a993f',1,'Fleet']]],
   ['launchedfrom',['LaunchedFrom',['../classFighter.html#ada38a3f7278c646ac2ab52d35986c0b7',1,'Fighter']]],
   ['launchfighters',['LaunchFighters',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae2b89d27d6eb398db67d4a63ef38e726',1,'anonymous_namespace{CombatSystem.cpp}']]],
   ['layout',['Layout',['../classTechTreeWnd_1_1LayoutPanel.html#ae49d80d6e41e662cbe5a79c56b457039',1,'TechTreeWnd::LayoutPanel']]],

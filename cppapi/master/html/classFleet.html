@@ -190,6 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#afd1780753f1c5ec9d0ed0e6f24bf39f8">HostileToEmpire</a> (int empire_id) const override</td></tr>
 <tr class="memdesc:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object owner is at war with empire <code>empire_id</code>.  <a href="#afd1780753f1c5ec9d0ed0e6f24bf39f8">More...</a><br /></td></tr>
 <tr class="separator:afd1780753f1c5ec9d0ed0e6f24bf39f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98370f908cf0c82bf9e3d11c492a993f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a98370f908cf0c82bf9e3d11c492a993f">LastTurnMoveOrdered</a> () const</td></tr>
+<tr class="separator:a98370f908cf0c82bf9e3d11c492a993f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20388aa72408ff9ba65cd4e274599979"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a20388aa72408ff9ba65cd4e274599979">MaxFuel</a> () const</td></tr>
 <tr class="memdesc:a20388aa72408ff9ba65cd4e274599979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns effective maximum amount of fuel this fleet has, which is the least of the max amounts of fuel that the ships can have.  <a href="#a20388aa72408ff9ba65cd4e274599979">More...</a><br /></td></tr>
 <tr class="separator:a20388aa72408ff9ba65cd4e274599979"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,6 +241,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ef3ca4997b37fd987c4b643f0eec724"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a3ef3ca4997b37fd987c4b643f0eec724">SetGiveToEmpire</a> (int empire_id)</td></tr>
 <tr class="memdesc:a3ef3ca4997b37fd987c4b643f0eec724"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks fleet to be given to empire  <a href="#a3ef3ca4997b37fd987c4b643f0eec724">More...</a><br /></td></tr>
 <tr class="separator:a3ef3ca4997b37fd987c4b643f0eec724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a689c044b6993e2b8ec0123597c997a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a689c044b6993e2b8ec0123597c997a79">SetMoveOrderedTurn</a> (int turn)</td></tr>
+<tr class="memdesc:a689c044b6993e2b8ec0123597c997a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks fleet to as being ordered to move on indicated turn  <a href="#a689c044b6993e2b8ec0123597c997a79">More...</a><br /></td></tr>
+<tr class="separator:a689c044b6993e2b8ec0123597c997a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c46767d9d26e0e47c6caa55ecbd674e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a9c46767d9d26e0e47c6caa55ecbd674e">SetNextAndPreviousSystems</a> (int next, int prev)</td></tr>
 <tr class="memdesc:a9c46767d9d26e0e47c6caa55ecbd674e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the previous and next systems for this fleet. Useful after moving a moving fleet to a different location, so that it moves along its new local starlanes  <a href="#a9c46767d9d26e0e47c6caa55ecbd674e">More...</a><br /></td></tr>
 <tr class="separator:a9c46767d9d26e0e47c6caa55ecbd674e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -430,6 +435,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8ce86cb17a69d07e0d77c38ec8cbe95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ef521fb842f89bab5eb2a6559579da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a27ef521fb842f89bab5eb2a6559579da">m_arrived_this_turn</a> = false</td></tr>
 <tr class="separator:a27ef521fb842f89bab5eb2a6559579da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e1c94132e220a25cae760a3918c005"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a47e1c94132e220a25cae760a3918c005">m_last_turn_move_ordered</a></td></tr>
+<tr class="separator:a47e1c94132e220a25cae760a3918c005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2043950efb5bcd5c3374abd2bdba89fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFleet.html#a2043950efb5bcd5c3374abd2bdba89fa">m_next_system</a> = <a class="el" href="ModeratorAction_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="memdesc:a2043950efb5bcd5c3374abd2bdba89fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the next system in the route, if any  <a href="#a2043950efb5bcd5c3374abd2bdba89fa">More...</a><br /></td></tr>
 <tr class="separator:a2043950efb5bcd5c3374abd2bdba89fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1042,7 +1049,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject</a>.</p>
 
-<p class="reference">References <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy()</a>, <a class="el" href="AppInterface_8h.html#a7b3be6539b1f335f270f48efe24a0227">EmpireKnownObjects()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="classUniverse.html#a3476c35ef12d95c802f5f69dec8c2ace">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classFleet.html#a2740348bedf1605ead224b45fa647d1a">m_aggressive</a>, <a class="el" href="classFleet.html#a8ce86cb17a69d07e0d77c38ec8cbe95c">m_arrival_starlane</a>, <a class="el" href="classFleet.html#a27ef521fb842f89bab5eb2a6559579da">m_arrived_this_turn</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">UniverseObject::m_name</a>, <a class="el" href="classFleet.html#a2043950efb5bcd5c3374abd2bdba89fa">m_next_system</a>, <a class="el" href="classFleet.html#a3d8d2bfb3e15b61e188ccd348f6450ae">m_ordered_given_to_empire_id</a>, <a class="el" href="classFleet.html#a29fb5f50de65da6f691c6d476d7441ac">m_prev_system</a>, <a class="el" href="classFleet.html#ae2e2ab698a90ee9988665f8a37080352">m_ships</a>, <a class="el" href="classFleet.html#ad424edbaa661839837bcf055a4401ab7">m_travel_route</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a9b6b511b634f8a1284761f4491eaf421">anonymous_namespace{Fleet.cpp}::TruncateRouteToEndAtSystem()</a>, <a class="el" href="classUniverseObject.html#a951f63f21720df6e06ea708519b3e0db">UniverseObject::Unowned()</a>, <a class="el" href="UniverseObject_8h.html#ae4b1fe6f62e23705464b30cb90d883e3">VIS_BASIC_VISIBILITY</a>, <a class="el" href="UniverseObject_8h.html#a0aec1cd9f8f5e3d119bed799f3ac5d39">VIS_FULL_VISIBILITY</a>, and <a class="el" href="UniverseObject_8h.html#a300ee06669da6839a11c55b959dedffc">VIS_PARTIAL_VISIBILITY</a>.</p>
+<p class="reference">References <a class="el" href="classUniverseObject.html#a2d95898656b20120765947ccac26c97c">UniverseObject::Copy()</a>, <a class="el" href="AppInterface_8h.html#a7b3be6539b1f335f270f48efe24a0227">EmpireKnownObjects()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="classUniverse.html#a3476c35ef12d95c802f5f69dec8c2ace">Universe::GetObjectVisibilityByEmpire()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">Universe::GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classFleet.html#a2740348bedf1605ead224b45fa647d1a">m_aggressive</a>, <a class="el" href="classFleet.html#a8ce86cb17a69d07e0d77c38ec8cbe95c">m_arrival_starlane</a>, <a class="el" href="classFleet.html#a27ef521fb842f89bab5eb2a6559579da">m_arrived_this_turn</a>, <a class="el" href="classFleet.html#a47e1c94132e220a25cae760a3918c005">m_last_turn_move_ordered</a>, <a class="el" href="classUniverseObject.html#a5776dcd70e41b8472b22b6d4b6d0cb55">UniverseObject::m_name</a>, <a class="el" href="classFleet.html#a2043950efb5bcd5c3374abd2bdba89fa">m_next_system</a>, <a class="el" href="classFleet.html#a3d8d2bfb3e15b61e188ccd348f6450ae">m_ordered_given_to_empire_id</a>, <a class="el" href="classFleet.html#a29fb5f50de65da6f691c6d476d7441ac">m_prev_system</a>, <a class="el" href="classFleet.html#ae2e2ab698a90ee9988665f8a37080352">m_ships</a>, <a class="el" href="classFleet.html#ad424edbaa661839837bcf055a4401ab7">m_travel_route</a>, <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a9b6b511b634f8a1284761f4491eaf421">anonymous_namespace{Fleet.cpp}::TruncateRouteToEndAtSystem()</a>, <a class="el" href="classUniverseObject.html#a951f63f21720df6e06ea708519b3e0db">UniverseObject::Unowned()</a>, <a class="el" href="UniverseObject_8h.html#ae4b1fe6f62e23705464b30cb90d883e3">VIS_BASIC_VISIBILITY</a>, <a class="el" href="UniverseObject_8h.html#a0aec1cd9f8f5e3d119bed799f3ac5d39">VIS_FULL_VISIBILITY</a>, and <a class="el" href="UniverseObject_8h.html#a300ee06669da6839a11c55b959dedffc">VIS_PARTIAL_VISIBILITY</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classFleet.html#a574432f40f8025143ba5f825e5aed7da">Clone()</a>.</p>
 
@@ -1447,6 +1454,33 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classUniverseObject.html#a4773ed361916aa099a381212cda53c22">UniverseObject</a>.</p>
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="classEmpireManager.html#a85642da4e8e83bcd76e1101846034686">EmpireManager::GetDiplomaticStatus()</a>, <a class="el" href="classUniverseObject.html#a915ec97a7d19545d372ff6482aa94001">UniverseObject::OwnedBy()</a>, <a class="el" href="classUniverseObject.html#a0c71c8a61607bf4aeef363a6bd698f28">UniverseObject::Owner()</a>, and <a class="el" href="classUniverseObject.html#a951f63f21720df6e06ea708519b3e0db">UniverseObject::Unowned()</a>.</p>
+
+</div>
+</div>
+<a id="a98370f908cf0c82bf9e3d11c492a993f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98370f908cf0c82bf9e3d11c492a993f">&#9670;&nbsp;</a></span>LastTurnMoveOrdered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Fleet::LastTurnMoveOrdered </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Variable.html#a80858a08d476ff7445530db57db1ddae">ValueRef::Variable&lt; ToType &gt;::Eval()</a>.</p>
 
 </div>
 </div>
@@ -1909,6 +1943,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a689c044b6993e2b8ec0123597c997a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a689c044b6993e2b8ec0123597c997a79">&#9670;&nbsp;</a></span>SetMoveOrderedTurn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Fleet::SetMoveOrderedTurn </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>turn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>marks fleet to as being ordered to move on indicated turn </p>
+
+<p class="reference">References <a class="el" href="classFleet.html#a47e1c94132e220a25cae760a3918c005">m_last_turn_move_ordered</a>.</p>
+
+</div>
+</div>
 <a id="a9c46767d9d26e0e47c6caa55ecbd674e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c46767d9d26e0e47c6caa55ecbd674e">&#9670;&nbsp;</a></span>SetNextAndPreviousSystems()</h2>
 
@@ -2354,6 +2410,30 @@ template&lt;typename Archive &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Copy()</a>, <a class="el" href="classFleet.html#a8f5094af5c89412d7a028ea045702bd3">MovementPhase()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#aea59f581d4dd2dd5851d75e0028720e3">serialize()</a>.</p>
+
+</div>
+</div>
+<a id="a47e1c94132e220a25cae760a3918c005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e1c94132e220a25cae760a3918c005">&#9670;&nbsp;</a></span>m_last_turn_move_ordered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Fleet::m_last_turn_move_ordered</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classFleet.html#a605b77aff6927964173c59175f35920c">Copy()</a>, <a class="el" href="SerializeUniverse_8cpp.html#aea59f581d4dd2dd5851d75e0028720e3">serialize()</a>, and <a class="el" href="classFleet.html#a689c044b6993e2b8ec0123597c997a79">SetMoveOrderedTurn()</a>.</p>
 
 </div>
 </div>

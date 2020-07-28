@@ -58,7 +58,7 @@ var searchData=
   ['br_5fstrcat',['br_strcat',['../binreloc_8c.html#a0e2feafbf640e9023012f668a417d83d',1,'br_strcat(const char *str1, const char *str2):&#160;binreloc.c'],['../binreloc_8h.html#a0e2feafbf640e9023012f668a417d83d',1,'br_strcat(const char *str1, const char *str2):&#160;binreloc.c']]],
   ['br_5fstrndup',['br_strndup',['../binreloc_8c.html#a7294518cbc0796ece7708ea47cc6e949',1,'binreloc.c']]],
   ['browse_5fbtn_5fwidth',['BROWSE_BTN_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae22c527a3b027cf3d741d5637af50288',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
-  ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a6470edd72e6dcfa8a20186daa30afe31',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
+  ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a52a59c08d08617cc1ffaa0ff3beab76f',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor']]],
   ['browsepath',['BrowsePath',['../classHumanClientApp.html#a945accf773977c060d69ce99b0f81965',1,'HumanClientApp']]],
   ['browsepath_5ftag_5fclose',['BROWSEPATH_TAG_CLOSE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#adc150fc709ec44d021fb8ea0d0354516',1,'anonymous_namespace{LinkText.cpp}']]],
   ['browsepath_5ftag_5fopen_5fpre',['BROWSEPATH_TAG_OPEN_PRE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a160360e5bb1ce4fdaa10d742c5f7ffe4',1,'anonymous_namespace{LinkText.cpp}']]],

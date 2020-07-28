@@ -56,7 +56,7 @@ var searchData=
   ['wndright',['WndRight',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a3b9a68479bf821c6a9082abb2aa95483',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wndtop',['WndTop',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0b19dab916ea0f79284b18b821d4ba36',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wobble',['Wobble',['../classTechTreeLayout_1_1Node.html#a7729788933b9fb95260f5cffa2ab2e39',1,'TechTreeLayout::Node']]],
-  ['won',['WON',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../structSaveGameEmpireData.html#a2381af316a69c9f2def0b04573b2c747',1,'SaveGameEmpireData::won()']]],
+  ['won',['won',['../structSaveGameEmpireData.html#a2381af316a69c9f2def0b04573b2c747',1,'SaveGameEmpireData::won()'],['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#ac6fcd598962e7db187b12e05c395dd87ac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()']]],
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aa7b7203413fc582aa06d0e64373b23bd',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['wrap',['Wrap',['../classFreeOrionPython_1_1SetWrapper.html#a67186798e6b21a51bda55817dd1051ee',1,'FreeOrionPython::SetWrapper']]],
