@@ -236,6 +236,7 @@ var searchData=
   ['anonymous_5fnamespace_7bobjectmap_2ecpp_7d',['anonymous_namespace{ObjectMap.cpp}',['../namespaceanonymous__namespace_02ObjectMap_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7boptionsdb_2ecpp_7d',['anonymous_namespace{OptionsDB.cpp}',['../namespaceanonymous__namespace_02OptionsDB_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7boptionswnd_2ecpp_7d',['anonymous_namespace{OptionsWnd.cpp}',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7border_2ecpp_7d',['anonymous_namespace{Order.cpp}',['../namespaceanonymous__namespace_02Order_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7borderset_2ecpp_7d',['anonymous_namespace{OrderSet.cpp}',['../namespaceanonymous__namespace_02OrderSet_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpasswordenterwnd_2ecpp_7d',['anonymous_namespace{PasswordEnterWnd.cpp}',['../namespaceanonymous__namespace_02PasswordEnterWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bpathfinder_2ecpp_7d',['anonymous_namespace{Pathfinder.cpp}',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html',1,'']]],

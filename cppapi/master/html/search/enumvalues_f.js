@@ -9,6 +9,7 @@ var searchData=
   ['show_5fdestroyed',['SHOW_DESTROYED',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57a5ecffb54f0b2a085b14b71d1cbfbbc2c',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['show_5fpreviously_5fvisible',['SHOW_PREVIOUSLY_VISIBLE',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57a01fb0ef4360859af26c1dcf123016172',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['show_5fvisible',['SHOW_VISIBLE',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a3bd9de5c965e3309128658d54ba1cb57a8d8d3c02539606c975511b62afb964b3',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['sign',['SIGN',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefa90a6b0e8139d1d92d40aa92a49d4b2a7',1,'ValueRef']]],
   ['sine',['SINE',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefa1d51b6d07e3afd3878d43c2b5494f088',1,'ValueRef']]],
   ['singleplayer',['SinglePlayer',['../classSaveFileDialog.html#af9be8a14a5eaa00daa03267e5064d058abaa1d5d7c2a65312fdc5577125de257a',1,'SaveFileDialog']]],
   ['size',['SIZE',['../classMessage.html#aa0ed8a9de9ac2d929d2bee202aeaf397a2c6af741e08a73a02bdd24176150868c',1,'Message']]],

@@ -22,6 +22,7 @@ var searchData=
   ['disconnection',['Disconnection',['../structDisconnection.html',1,'']]],
   ['discoveryserver',['DiscoveryServer',['../classDiscoveryServer.html',1,'']]],
   ['discretevalidator',['DiscreteValidator',['../structDiscreteValidator.html',1,'']]],
+  ['dislikes_5fgrammar',['dislikes_grammar',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1dislikes__grammar.html',1,'anonymous_namespace{SpeciesParser.cpp}']]],
   ['displayedshipdesignmanager',['DisplayedShipDesignManager',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['distance_5fmatrix_5fcache',['distance_matrix_cache',['../classanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__cache.html',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['distance_5fmatrix_5fstorage',['distance_matrix_storage',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html',1,'anonymous_namespace{Pathfinder.cpp}']]],

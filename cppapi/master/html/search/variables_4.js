@@ -63,6 +63,7 @@ var searchData=
   ['direct_5fdistance',['direct_distance',['../structparse_1_1double__complex__parser__grammar.html#ae1cdda3780be743adf20b1d302e32d24',1,'parse::double_complex_parser_grammar']]],
   ['discovery_5fanswer',['DISCOVERY_ANSWER',['../namespaceNetworking.html#a84e7b37523da02c746ac2f891a304090',1,'Networking']]],
   ['discovery_5fquestion',['DISCOVERY_QUESTION',['../namespaceNetworking.html#a55e616294ca5a36f1c767cf6589cd8d2',1,'Networking']]],
+  ['dislikes',['dislikes',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a91b0ffac9d62bd0c4cf4ebe3624f528e',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff::dislikes()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a5e09a22a145fd51acebb5a6db375502b',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::dislikes()']]],
   ['displaybuildingtypesignal',['DisplayBuildingTypeSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a3d358389d2e2cb93a9fbfad1a1203f5f',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displayshipdesignsignal',['DisplayShipDesignSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#ae186f4227d29816bf09b452f47d6a7d6',1,'BuildDesignatorWnd::BuildSelector']]],
   ['displaystockpileprojectsignal',['DisplayStockpileProjectSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a6453179144625b82bac2da17d02de877',1,'BuildDesignatorWnd::BuildSelector']]],
