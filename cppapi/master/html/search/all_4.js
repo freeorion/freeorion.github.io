@@ -32,6 +32,7 @@ var searchData=
   ['default',['default',['../namespacetag__parser.html#a486501c3ceec9ee59d2ff19228193f2f',1,'tag_parser']]],
   ['default_5fdecorator',['DEFAULT_DECORATOR',['../classTextLinker.html#a76d3304fbc1402830c2f4afe891568dd',1,'TextLinker']]],
   ['default_5ffilename',['DEFAULT_FILENAME',['../namespaceanonymous__namespace_02StringTable_8cpp_03.html#abcd278f3a6ec87ea6b4b06f749fdde9c',1,'anonymous_namespace{StringTable.cpp}']]],
+  ['default_5ffocus',['default_focus',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a3c4157056bf43b45e797d804e89524b9',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff']]],
   ['default_5ffuel_5feffects',['default_fuel_effects',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#a896254df9bc75f29916a65481a5ad936',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
   ['default_5fheight',['DEFAULT_HEIGHT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a9132d5e6621e6626f6d4de6a8579511c',1,'anonymous_namespace{HumanClientApp.cpp}']]],
   ['default_5fleft',['DEFAULT_LEFT',['../namespaceanonymous__namespace_02HumanClientApp_8cpp_03.html#a95c28b5aba66177c7545430bfa5dfa66',1,'anonymous_namespace{HumanClientApp.cpp}']]],
