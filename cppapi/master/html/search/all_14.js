@@ -140,7 +140,7 @@ var searchData=
   ['togglebooloption',['ToggleBoolOption',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8630a49cc821a2bdf1dfdc04e447566e',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['togglecategory',['ToggleCategory',['../classGovernmentWnd_1_1PolicyPalette.html#a2b08806773e4223f7e3ab65733fc17ed',1,'GovernmentWnd::PolicyPalette']]],
   ['toggleclass',['ToggleClass',['../classDesignWnd_1_1PartPalette.html#a4c94effced83af4669a5a240ccce9ffd',1,'DesignWnd::PartPalette']]],
-  ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html',1,'OptionsBar::ToggleData'],['../structOptionsBar_1_1ToggleData.html#ab8fc6ab3a363d761c0a372faaf7599c7',1,'OptionsBar::ToggleData::ToggleData()']]],
+  ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html',1,'OptionsBar::ToggleData'],['../structOptionsBar_1_1ToggleData.html#a6eadc08c259f910e2187edab19779b7a',1,'OptionsBar::ToggleData::ToggleData()']]],
   ['toggledescriptioneditor',['ToggleDescriptionEditor',['../classDesignWnd_1_1MainPanel.html#a8e3a41b74b730d72002bf5414b6b1f45',1,'DesignWnd::MainPanel']]],
   ['toggledesign',['ToggleDesign',['../classMapWnd.html#a2157fe3d11f743ae7ee45c4071387349',1,'MapWnd']]],
   ['toggleempires',['ToggleEmpires',['../classMapWnd.html#af902a19648f583beb66cce877cbaa4cf',1,'MapWnd']]],

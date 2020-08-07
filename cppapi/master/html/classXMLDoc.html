@@ -83,9 +83,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a85b6d0f76452c5aeae098a12571159b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLDoc.html#a85b6d0f76452c5aeae098a12571159b2">XMLDoc</a> (const std::string &amp;root_tag=&quot;XMLDoc&quot;)</td></tr>
-<tr class="memdesc:a85b6d0f76452c5aeae098a12571159b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an empty document with the given tag-name <code>root_tag</code>.  <a href="#a85b6d0f76452c5aeae098a12571159b2">More...</a><br /></td></tr>
-<tr class="separator:a85b6d0f76452c5aeae098a12571159b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796bf6f77246c3d8e81ca792deb91700"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLDoc.html#a796bf6f77246c3d8e81ca792deb91700">XMLDoc</a> (std::string root_tag=&quot;XMLDoc&quot;)</td></tr>
+<tr class="memdesc:a796bf6f77246c3d8e81ca792deb91700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an empty document with the given tag-name <code>root_tag</code>.  <a href="#a796bf6f77246c3d8e81ca792deb91700">More...</a><br /></td></tr>
+<tr class="separator:a796bf6f77246c3d8e81ca792deb91700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6dac4508a8bfcb4dc94c54b8bf1b430"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXMLDoc.html#aa6dac4508a8bfcb4dc94c54b8bf1b430">XMLDoc</a> (const std::istream &amp;is)</td></tr>
 <tr class="memdesc:aa6dac4508a8bfcb4dc94c54b8bf1b430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a document from the given input stream <code>is</code>.  <a href="#aa6dac4508a8bfcb4dc94c54b8bf1b430">More...</a><br /></td></tr>
 <tr class="separator:aa6dac4508a8bfcb4dc94c54b8bf1b430"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,8 +147,8 @@ Static Private Attributes</h2></td></tr>
 <div class="textblock"><p>Represents a document formatted with XML markup. </p>
 <p>Each <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a> instance is assumed to represent a complete document. It contains a tree of nested <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s, starting from the always existing root <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> node. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a85b6d0f76452c5aeae098a12571159b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b6d0f76452c5aeae098a12571159b2">&#9670;&nbsp;</a></span>XMLDoc() <span class="overload">[1/2]</span></h2>
+<a id="a796bf6f77246c3d8e81ca792deb91700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796bf6f77246c3d8e81ca792deb91700">&#9670;&nbsp;</a></span>XMLDoc() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +156,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">XMLDoc::XMLDoc </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>root_tag</em> = <code>&quot;XMLDoc&quot;</code></td><td>)</td>
           <td></td>
         </tr>
@@ -638,7 +638,7 @@ Static Private Attributes</h2></td></tr>
 <p>Holds the <a class="el" href="classXMLDoc.html" title="Represents a document formatted with XML markup. ">XMLDoc</a> to which the XML parser should add parsed elements. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>No need to hold a static instance here, pass the document into the parser as additional attribute. This also avoids potential problems in multithreaded setups. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd">ReadDoc()</a>, and <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd">ReadDoc()</a>, and <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>.</p>
 
 </div>
 </div>
@@ -664,7 +664,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Holds the current environment for reading <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s (the current enclosing <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a>s). </p>
 
-<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#ad3f493a1e5cce12c39195da2e2368e67">AppendToText()</a>, <a class="el" href="classXMLDoc.html#aa49bf97140a48eee7af9f73df9536f97">PopElem()</a>, <a class="el" href="classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e">PushElem1()</a>, <a class="el" href="classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6">PushElem2()</a>, <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd">ReadDoc()</a>, and <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#ad3f493a1e5cce12c39195da2e2368e67">AppendToText()</a>, <a class="el" href="classXMLDoc.html#aa49bf97140a48eee7af9f73df9536f97">PopElem()</a>, <a class="el" href="classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e">PushElem1()</a>, <a class="el" href="classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6">PushElem2()</a>, <a class="el" href="classXMLDoc.html#a652e8c48b9e1b2f3c48acc588b8221dd">ReadDoc()</a>, and <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>.</p>
 
 </div>
 </div>
@@ -688,7 +688,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>.</p>
 
 </div>
 </div>
@@ -714,7 +714,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Convert string tokens into <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes. </p>
 
-<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#acd9b8a84d17a17ede895d8985df7f7b2">AddAttribute()</a>, <a class="el" href="classXMLDoc.html#a66c7793757bbe311b86b497692ce6a78">SetAttributeName()</a>, and <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#acd9b8a84d17a17ede895d8985df7f7b2">AddAttribute()</a>, <a class="el" href="classXMLDoc.html#a66c7793757bbe311b86b497692ce6a78">SetAttributeName()</a>, and <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>.</p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Convert string tokens into <a class="el" href="classXMLElement.html" title="Represents a simplified XML markup element. ">XMLElement</a> attributes. </p>
 
-<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#acd9b8a84d17a17ede895d8985df7f7b2">AddAttribute()</a>, <a class="el" href="classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e">PushElem1()</a>, <a class="el" href="classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6">PushElem2()</a>, <a class="el" href="classXMLDoc.html#a6ad165271b7211fcbdaa192da8484297">SetElemName()</a>, and <a class="el" href="classXMLElement.html#a8ce51c3b959d5e697b982a3944db0981">XMLElement::SetText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classXMLDoc.html#acd9b8a84d17a17ede895d8985df7f7b2">AddAttribute()</a>, <a class="el" href="classXMLDoc.html#a3baef9f1c1d29925a992d24ae4144a7e">PushElem1()</a>, <a class="el" href="classXMLDoc.html#acdcdb5d2161c5653d652c0d6ddb2d3c6">PushElem2()</a>, <a class="el" href="classXMLDoc.html#a6ad165271b7211fcbdaa192da8484297">SetElemName()</a>, and <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>.</p>
 
 </div>
 </div>

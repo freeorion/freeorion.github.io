@@ -91,8 +91,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac038c211d178a223a85b7e9616f76785"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDLGUI.html#ac038c211d178a223a85b7e9616f76785">SDLGUI</a> (int w=1024, int h=768, bool calc_FPS=false, const std::string &amp;app_name=&quot;GG&quot;, int x=SDL_WINDOWPOS_UNDEFINED, int y=SDL_WINDOWPOS_UNDEFINED, bool fullscreen=false, bool fake_mode_change=false)</td></tr>
-<tr class="separator:ac038c211d178a223a85b7e9616f76785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7870327425d7c0f6b198aa93b5ec412f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDLGUI.html#a7870327425d7c0f6b198aa93b5ec412f">SDLGUI</a> (int w=1024, int h=768, bool calc_FPS=false, std::string app_name=&quot;GG&quot;, int x=SDL_WINDOWPOS_UNDEFINED, int y=SDL_WINDOWPOS_UNDEFINED, bool fullscreen=false, bool fake_mode_change=false)</td></tr>
+<tr class="separator:a7870327425d7c0f6b198aa93b5ec412f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad49e9721deede38e3a99c5ad1c6f276"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDLGUI.html#aad49e9721deede38e3a99c5ad1c6f276">~SDLGUI</a> ()</td></tr>
 <tr class="separator:aad49e9721deede38e3a99c5ad1c6f276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb0ba03fb1c0d11bc18e7fc965f40c46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSDLGUI.html#aeb0ba03fb1c0d11bc18e7fc965f40c46">AppHasMouseFocus</a> () const override</td></tr>
@@ -235,8 +235,8 @@ Any application including an object of this class should declare that object as 
 <p>Most of the member methods of <a class="el" href="classSDLGUI.html" title="This is an abstract singleton class that represents the GUI framework of an SDL OpenGL application...">SDLGUI</a> have been declared virtual, to give the user great control when subclassing. The virtual function calls are usually not a performance issue, since none of the methods is called repeatedly, except HandleEvent(); if this is a problem, just create a new function in your subclass and call that from within <a class="el" href="classSDLGUI.html#a800743981904a7ac0226cf312334e546">Run()</a> instead of HandleEvent(). Note that though the bulk of the program execution takes place within <a class="el" href="classSDLGUI.html#a800743981904a7ac0226cf312334e546">Run()</a>, <a class="el" href="classSDLGUI.html#a800743981904a7ac0226cf312334e546">Run()</a> itself is also only called once.</p>
 <p><a class="el" href="classSDLGUI.html" title="This is an abstract singleton class that represents the GUI framework of an SDL OpenGL application...">SDLGUI</a> takes a two-tiered approach to event handling. The event pump calls <a class="el" href="classSDLGUI.html#af058c32650edb02555b0ebaccf1152d1">HandleSystemEvents()</a>, which polls for SDL events and handles them by first determining whether the event is GG-related, or some other non-GG event, such as SDL_QUIT, etc. <a class="el" href="namespaceGG.html">GG</a> events and non-GG events are passed to HandleGGEvent() and <a class="el" href="classSDLGUI.html#a2a558381668b08cce6cbb95f9e51a712" title="event handler for all SDL events that are not GG-related. ">HandleNonGGEvent()</a>, respectively. For most uses, there should be no need to override the behavior of HandleSDLEvents(). However, the <a class="el" href="classSDLGUI.html#a2a558381668b08cce6cbb95f9e51a712" title="event handler for all SDL events that are not GG-related. ">HandleNonGGEvent()</a> default implementation only responds to SDL_QUIT events, and so should be overridden in most cases. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac038c211d178a223a85b7e9616f76785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac038c211d178a223a85b7e9616f76785">&#9670;&nbsp;</a></span>SDLGUI()</h2>
+<a id="a7870327425d7c0f6b198aa93b5ec412f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7870327425d7c0f6b198aa93b5ec412f">&#9670;&nbsp;</a></span>SDLGUI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +265,7 @@ Any application including an object of this class should declare that object as 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>app_name</em> = <code>&quot;GG&quot;</code>, </td>
         </tr>
         <tr>
@@ -604,7 +604,7 @@ Any application including an object of this class should declare that object as 
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a6feff641864cc55ac0dd85467e3221d7">HumanClientApp::HumanClientApp()</a>, and <a class="el" href="classSDLGUI.html#ac71a6157ce82a9abe5de5f15b9c2df53">SetVideoMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#a9c9fd9f186116720f842981e74252a6d">HumanClientApp::HumanClientApp()</a>, and <a class="el" href="classSDLGUI.html#ac71a6157ce82a9abe5de5f15b9c2df53">SetVideoMode()</a>.</p>
 
 </div>
 </div>
@@ -933,7 +933,7 @@ Any application including an object of this class should declare that object as 
 
 <p class="reference">References <a class="el" href="classSDLGUI.html#a6d98c8131b28f90c085abb32eb17b1ec">MaximumPossibleDimension()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classHumanClientApp.html#ae4047083090e7fc9ef0fc3dc760307b1">HumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">CUIWnd::SizeMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classHumanClientApp.html#ae4047083090e7fc9ef0fc3dc760307b1">HumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">CUIWnd::SizeMove()</a>.</p>
 
 </div>
 </div>
@@ -965,7 +965,7 @@ Any application including an object of this class should declare that object as 
 
 <p class="reference">References <a class="el" href="classSDLGUI.html#a6d98c8131b28f90c085abb32eb17b1ec">MaximumPossibleDimension()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a91ee4fb867a51a8726cd5474cde75269">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classHumanClientApp.html#ae4047083090e7fc9ef0fc3dc760307b1">HumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">CUIWnd::SizeMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classHumanClientApp.html#ae4047083090e7fc9ef0fc3dc760307b1">HumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, and <a class="el" href="classCUIWnd.html#aa9570ff94883f6a9f4b1089524db0203">CUIWnd::SizeMove()</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ Any application including an object of this class should declare that object as 
 
 <p class="reference">References <a class="el" href="classSDLGUI.html#a76a0b0a7e3f591582831cc296ef7f589">ExitApp()</a>, <a class="el" href="classSDLGUI.html#a24bc066d86a97568ec8f5345795f6d77">GLInit()</a>, <a class="el" href="classSDLGUI.html#a4f43405064c275bb016af9392c95f858">m_app_height</a>, <a class="el" href="classSDLGUI.html#ae2cc7f5bd5785980e21483c462ab09a0">m_app_width</a>, <a class="el" href="classSDLGUI.html#a376046b52ccde31e91293e8e4e8eed9f">m_fake_mode_change</a>, <a class="el" href="classSDLGUI.html#a01c560895044de0dbf79b73499538792">m_fullscreen</a>, <a class="el" href="classSDLGUI.html#a8641d83ebfc2c3d799adae78504e8d4b">m_gl_context</a>, <a class="el" href="classSDLGUI.html#a00972670c3ebfc5f4d312457eaee6bd1">m_initial_x</a>, <a class="el" href="classSDLGUI.html#a89de26767d907266b8e63e3d4ed4f4b4">m_initial_y</a>, <a class="el" href="classSDLGUI.html#a111dd7ef781a1a82d78b9e11741222a8">m_window</a>, <a class="el" href="classSDLGUI.html#a4b0f9600477a77983932c43108406527">ResetFramebuffer()</a>, <a class="el" href="classSDLGUI.html#a7d3b97ac3c8529cd3dfd522120d7fee8">SDLMinimalInit()</a>, and <a class="el" href="classSDLGUI.html#ac71a6157ce82a9abe5de5f15b9c2df53">SetVideoMode()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classSDLGUI.html#ac038c211d178a223a85b7e9616f76785">SDLGUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSDLGUI.html#a7870327425d7c0f6b198aa93b5ec412f">SDLGUI()</a>.</p>
 
 </div>
 </div>

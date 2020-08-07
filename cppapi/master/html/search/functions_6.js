@@ -38,7 +38,7 @@ var searchData=
   ['filterclicked',['FilterClicked',['../classObjectListWnd.html#a2a946f21946ef466a85839017b0e7cbd',1,'ObjectListWnd::FilterClicked()'],['../classSitRepPanel.html#a3d99d2fc2e81adeb6883a74ccca6ee73',1,'SitRepPanel::FilterClicked()']]],
   ['filtercolumns',['FilterColumns',['../classSaveFileListBox.html#a25ae888aaff28664796f4ff1bc69b948',1,'SaveFileListBox']]],
   ['filtercondition',['FilterCondition',['../classObjectListBox.html#aa5a06aeec65de892b5052f786d85eace',1,'ObjectListBox']]],
-  ['filterdialog',['FilterDialog',['../classFilterDialog.html#a465c9c68a3f5c3ac831f088ff17dbc0c',1,'FilterDialog']]],
+  ['filterdialog',['FilterDialog',['../classFilterDialog.html#a68667f2859abc223d54ba33f3f6ba406',1,'FilterDialog']]],
   ['filteridswithcondition',['FilterIDsWithCondition',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a8b1e457ec989f5ff15ac4ae92f27a55e',1,'anonymous_namespace{ServerWrapper.cpp}']]],
   ['filterobjectidsbyknowndestruction',['FilterObjectIDsByKnownDestruction',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a8f3ca79986a1758095171e3ded043823',1,'anonymous_namespace{Universe.cpp}']]],
   ['filterobjectpositionsbydetectorpositionsandranges',['FilterObjectPositionsByDetectorPositionsAndRanges',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#a55db819f2dae393a7c42eaafd4d72c24',1,'anonymous_namespace{Universe.cpp}']]],
