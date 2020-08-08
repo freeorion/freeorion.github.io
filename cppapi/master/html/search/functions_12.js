@@ -65,6 +65,7 @@ var searchData=
   ['refreshinprerender',['RefreshInPreRender',['../classSidePanel.html#ad79ff3d2b5794fb9754293b97f4108e8',1,'SidePanel']]],
   ['refreshplanetgraphic',['RefreshPlanetGraphic',['../classSidePanel_1_1PlanetPanel.html#a65424d3050e1ba48c880b07eea7e30a1',1,'SidePanel::PlanetPanel']]],
   ['refreshpopulationindicator',['RefreshPopulationIndicator',['../classMapWnd.html#acabb897ee39015e8403df817784e2bcc',1,'MapWnd']]],
+  ['refreshresdir',['RefreshResDir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#acfc19ce7d59874033cf1c2e1ed7e05fa',1,'anonymous_namespace{Directories.cpp}']]],
   ['refreshresearchresourceindicator',['RefreshResearchResourceIndicator',['../classMapWnd.html#a5c26847c4b9614d52347ae2600df7d4d',1,'MapWnd']]],
   ['refreshsliders',['RefreshSliders',['../classMapWnd.html#a5d59ec641376ba895371e6ffb28acbb7',1,'MapWnd']]],
   ['refreshstatechangedsignals',['RefreshStateChangedSignals',['../classFleetDataPanel.html#a3268a5f296ac0674f097c02be4c57e3c',1,'FleetDataPanel::RefreshStateChangedSignals()'],['../classFleetWnd.html#a15ed62f25edd667996b7c1dfd1806cbd',1,'FleetWnd::RefreshStateChangedSignals()']]],

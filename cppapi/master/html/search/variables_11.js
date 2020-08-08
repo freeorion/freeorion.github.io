@@ -16,6 +16,8 @@ var searchData=
   ['repositionwindowssignal',['RepositionWindowsSignal',['../classHumanClientApp.html#a9653e1e62e3ab6c23a5d31f2bbed8772',1,'HumanClientApp']]],
   ['requestbuilditemsignal',['RequestBuildItemSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a335e26a205d42fc3371898d9e5dde95d',1,'BuildDesignatorWnd::BuildSelector']]],
   ['res_5fcontrols_5fwnd_5fname',['RES_CONTROLS_WND_NAME',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a63076db33589c5897c364a92e2d4dd28',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
+  ['res_5fdir',['res_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#ae8fd43475f23d2ed10e243eddf9d3ada',1,'anonymous_namespace{Directories.cpp}']]],
+  ['res_5fdir_5fmutex',['res_dir_mutex',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#ad6edd5a7c5777c77a130c89d7f1cf7cd',1,'anonymous_namespace{Directories.cpp}']]],
   ['res_5fpedia_5fwnd_5fname',['RES_PEDIA_WND_NAME',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a5a45c02dda17e5c7a28c016970c0b53b',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['research_5fcost',['research_cost',['../structTech_1_1TechInfo.html#a9fa876fdf132b08887ce03bc7e4e2594',1,'Tech::TechInfo']]],
   ['research_5fturns',['research_turns',['../structTech_1_1TechInfo.html#a37ccfdfa05dcc5530e3ebdd60ac4f008',1,'Tech::TechInfo']]],
