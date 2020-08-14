@@ -161,7 +161,7 @@ var searchData=
   ['m_5fcolor',['m_color',['../classScanlineControl.html#a02fa0182ac91079bee258a9a03299bb2',1,'ScanlineControl::m_color()'],['../classScanlineRenderer_1_1Impl.html#a989856df1c6a7adfc2d137d1eb8fd18f',1,'ScanlineRenderer::Impl::m_color()']]],
   ['m_5fcolor_5fselector',['m_color_selector',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html#a6726fd5b78c4f34661edb5934ff9b24f',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGamePlayerRow::m_color_selector()'],['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGameEmpireRow.html#a40b87b5ae2a7edf811c2db1d19defd8a',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::LoadGameEmpireRow::m_color_selector()']]],
   ['m_5fcolor_5fsquare',['m_color_square',['../structanonymous__namespace_02CUIControls_8cpp_03_1_1ColorRow.html#a9c0434b2fd85907a3b854957ec0fd28f',1,'anonymous_namespace{CUIControls.cpp}::ColorRow']]],
-  ['m_5fcolored_5fname',['m_colored_name',['../classSystemIcon.html#a63e09e72795a0674cd24999428e74de3',1,'SystemIcon']]],
+  ['m_5fcolored_5fnames',['m_colored_names',['../classSystemIcon.html#a9b3ff620a25c14f993dd80a1dcc08108',1,'SystemIcon']]],
   ['m_5fcolour',['m_colour',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#a767b1fcb6a829c21b37c3e017aba4721',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['m_5fcolour_5fbuf',['m_colour_buf',['../classGraphControl.html#a7103b36a21bcb77b5ba182259d5f5293',1,'GraphControl']]],
   ['m_5fcolumn_5fcount',['m_column_count',['../classTechTreeLayout.html#afe4a35c55c3a8e8e0690272b7b77400b',1,'TechTreeLayout']]],
