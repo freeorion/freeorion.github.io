@@ -4,6 +4,7 @@ var searchData=
   ['random_5funiform',['RANDOM_UNIFORM',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefaf0cf442bbf4583153b0d920e60f6ad0d',1,'ValueRef']]],
   ['remove_5ffrom_5fqueue',['REMOVE_FROM_QUEUE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a86dff475eeb69465006a0da46e229073',1,'ProductionQueueOrder']]],
   ['restore',['RESTORE',['../classCUI__MinRestoreButton.html#a4e0b98fb2769cd0a255e0e9a32ab40feac95fa04340c629ddfa2d38e285e59245',1,'CUI_MinRestoreButton']]],
+  ['restricted',['Restricted',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba5ee23bec6df093e2c1b69b3805d0767a',1,'Availability']]],
   ['resume_5fproduction',['RESUME_PRODUCTION',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a4478765642a39b1a8a3172365117c203',1,'ProductionQueueOrder']]],
   ['right',['RIGHT',['../CUIDrawUtil_8h.html#aa7dff66b2da80c71b1a1d5fcfdbe1546a21507b40c80068eda19865706fdc2403',1,'CUIDrawUtil.h']]],
   ['rms',['RMS',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2addf2b6c43f8dfa91dd776b7be36ccf1f',1,'ValueRef']]],
