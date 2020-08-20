@@ -62,6 +62,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMeter-members.html">List of all members</a>  </div>
@@ -130,6 +131,12 @@ Static Public Attributes</h2></td></tr>
 <tr class="memdesc:ad432ea4da9115c778a3d07d0c755a7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">a very large number, which is useful to set current to when it will be later clamped, to ensure that the result is the max value in the clamp range  <a href="#ad432ea4da9115c778a3d07d0c755a7ae">More...</a><br /></td></tr>
 <tr class="separator:ad432ea4da9115c778a3d07d0c755a7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1014657ef17a70fecca705b2b017ef08"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
+<tr class="memitem:a1014657ef17a70fecca705b2b017ef08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMeter.html#a1014657ef17a70fecca705b2b017ef08">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
+<tr class="separator:a1014657ef17a70fecca705b2b017ef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad50bfa4399df0544f313410fffd11ce0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeter.html#ad50bfa4399df0544f313410fffd11ce0">m_current_value</a> = <a class="el" href="classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad">DEFAULT_VALUE</a></td></tr>
@@ -139,9 +146,8 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a9bc07d502e5db3c66f56cbfc65f02b44"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
-<tr class="memitem:a9bc07d502e5db3c66f56cbfc65f02b44"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMeter.html#a9bc07d502e5db3c66f56cbfc65f02b44">serialize</a> (Archive &amp;, <a class="el" href="classMeter.html">Meter</a> &amp;, unsigned int const)</td></tr>
-<tr class="separator:a9bc07d502e5db3c66f56cbfc65f02b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeter.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
+<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> is a value with an associated maximum value. </p>
@@ -458,6 +464,44 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a1014657ef17a70fecca705b2b017ef08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1014657ef17a70fecca705b2b017ef08">&#9670;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Meter::serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6d38da43a7d9402c3e922b112dfd2cc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d38da43a7d9402c3e922b112dfd2cc9">&#9670;&nbsp;</a></span>Set()</h2>
 
@@ -517,39 +561,17 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a9bc07d502e5db3c66f56cbfc65f02b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc07d502e5db3c66f56cbfc65f02b44">&#9670;&nbsp;</a></span>serialize</h2>
+<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&#9670;&nbsp;</a></span>boost::serialization::access</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Archive &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void serialize </td>
-          <td>(</td>
-          <td class="paramtype">Archive &amp;&#160;</td>
-          <td class="paramname"><em>ar</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMeter.html">Meter</a> &amp;&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int const&#160;</td>
-          <td class="paramname"><em>version</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">friend class boost::serialization::access</td>
         </tr>
       </table>
   </td>
