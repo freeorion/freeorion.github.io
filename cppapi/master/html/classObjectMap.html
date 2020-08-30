@@ -175,10 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a063117df1b3453cdbbb3807cccd30657"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a063117df1b3453cdbbb3807cccd30657">HighestObjectID</a> () const</td></tr>
 <tr class="memdesc:a063117df1b3453cdbbb3807cccd30657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns highest used object ID in this <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a>.  <a href="#a063117df1b3453cdbbb3807cccd30657">More...</a><br /></td></tr>
 <tr class="separator:a063117df1b3453cdbbb3807cccd30657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8042d28cca692381a0e6cc22d0c63f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa8042d28cca692381a0e6cc22d0c63f6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#aa8042d28cca692381a0e6cc22d0c63f6">insert</a> (std::shared_ptr&lt; T &gt; obj, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="memdesc:aa8042d28cca692381a0e6cc22d0c63f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds object <em>obj</em> to the map under its ID, if it is a valid object.  <a href="#aa8042d28cca692381a0e6cc22d0c63f6">More...</a><br /></td></tr>
-<tr class="separator:aa8042d28cca692381a0e6cc22d0c63f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c867a7ad5853b9ba8b3f97577b74836"><td class="memTemplParams" colspan="2">template&lt;typename T , typename std::enable_if&lt; std::is_base_of&lt; UniverseObject, T &gt;::value &gt;::type *  = nullptr&gt; </td></tr>
+<tr class="memitem:a5c867a7ad5853b9ba8b3f97577b74836"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a5c867a7ad5853b9ba8b3f97577b74836">insert</a> (std::shared_ptr&lt; T &gt; item, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
+<tr class="memdesc:a5c867a7ad5853b9ba8b3f97577b74836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds object <em>obj</em> to the map under its ID, if it is a valid object.  <a href="#a5c867a7ad5853b9ba8b3f97577b74836">More...</a><br /></td></tr>
+<tr class="separator:a5c867a7ad5853b9ba8b3f97577b74836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6091f52ad1425b48d134cf4d82bf12ac"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a6091f52ad1425b48d134cf4d82bf12ac"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a6091f52ad1425b48d134cf4d82bf12ac">Map</a> () const</td></tr>
 <tr class="separator:a6091f52ad1425b48d134cf4d82bf12ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,27 +221,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91612b9a0ad0d5e15b368b43b9688cc4"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a91612b9a0ad0d5e15b368b43b9688cc4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classFleet.html">Fleet</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a91612b9a0ad0d5e15b368b43b9688cc4">Map</a> ()</td></tr>
 <tr class="separator:a91612b9a0ad0d5e15b368b43b9688cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75963c6a28eb48fca8194f6e4757e84d"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a75963c6a28eb48fca8194f6e4757e84d"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a75963c6a28eb48fca8194f6e4757e84d">Map</a> () const</td></tr>
-<tr class="separator:a75963c6a28eb48fca8194f6e4757e84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b3d8125fd732451c717c91799f18694"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a2b3d8125fd732451c717c91799f18694"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classPlanet.html">Planet</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a2b3d8125fd732451c717c91799f18694">Map</a> ()</td></tr>
 <tr class="separator:a2b3d8125fd732451c717c91799f18694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a996f8d4c7b9eb73dd246440e256c23d9"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a996f8d4c7b9eb73dd246440e256c23d9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; System &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a996f8d4c7b9eb73dd246440e256c23d9">Map</a> ()</td></tr>
 <tr class="separator:a996f8d4c7b9eb73dd246440e256c23d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8b79f4e7388edca669654a31262eff8"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ad8b79f4e7388edca669654a31262eff8"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classResourceCenter.html">ResourceCenter</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#ad8b79f4e7388edca669654a31262eff8">Map</a> () const</td></tr>
-<tr class="separator:ad8b79f4e7388edca669654a31262eff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79eedb1a2957e33e2ca0a492cff37229"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a79eedb1a2957e33e2ca0a492cff37229"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classBuilding.html">Building</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a79eedb1a2957e33e2ca0a492cff37229">Map</a> ()</td></tr>
 <tr class="separator:a79eedb1a2957e33e2ca0a492cff37229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classPopCenter.html">PopCenter</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a1a5370552f14a4f44980ce16e64cd9b1">Map</a> () const</td></tr>
-<tr class="separator:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a609b0e2dfe9f9bdd3ec8e5bc602683a6"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a609b0e2dfe9f9bdd3ec8e5bc602683a6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classField.html">Field</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a609b0e2dfe9f9bdd3ec8e5bc602683a6">Map</a> ()</td></tr>
 <tr class="separator:a609b0e2dfe9f9bdd3ec8e5bc602683a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75963c6a28eb48fca8194f6e4757e84d"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a75963c6a28eb48fca8194f6e4757e84d"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classUniverseObject.html">UniverseObject</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a75963c6a28eb48fca8194f6e4757e84d">Map</a> () const</td></tr>
+<tr class="separator:a75963c6a28eb48fca8194f6e4757e84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b79f4e7388edca669654a31262eff8"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ad8b79f4e7388edca669654a31262eff8"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classResourceCenter.html">ResourceCenter</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#ad8b79f4e7388edca669654a31262eff8">Map</a> () const</td></tr>
+<tr class="separator:ad8b79f4e7388edca669654a31262eff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classPopCenter.html">PopCenter</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#a1a5370552f14a4f44980ce16e64cd9b1">Map</a> () const</td></tr>
+<tr class="separator:a1a5370552f14a4f44980ce16e64cd9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad36e2489df995b9f53f4630421b61f91"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:ad36e2489df995b9f53f4630421b61f91"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt; <a class="el" href="classShip.html">Ship</a> &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classObjectMap.html#ad36e2489df995b9f53f4630421b61f91">Map</a> () const</td></tr>
 <tr class="separator:ad36e2489df995b9f53f4630421b61f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -685,7 +685,7 @@ template&lt;typename T  = UniverseObject&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#aa77c88fe8296121a5bae465266cccdf8">anonymous_namespace{ObjectMap.cpp}::ClearMap()</a>, <a class="el" href="ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7">FOR_EACH_SPECIALIZED_MAP</a>, and <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#a4e1fa360d4186366e88763f010e76087">anonymous_namespace{ObjectMap.cpp}::TryInsertIntoMap()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#aa77c88fe8296121a5bae465266cccdf8">anonymous_namespace{ObjectMap.cpp}::ClearMap()</a>, <a class="el" href="ObjectMap_8cpp.html#a3c318bdf40bdbb1833a3893f610543a7">FOR_EACH_SPECIALIZED_MAP</a>, and <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#aea48db7e639e02b71e9c118a3311e8e7">anonymous_namespace{ObjectMap.cpp}::TryInsertIntoMap()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="SerializeUniverse_8cpp.html#a453672d12b46886ab77e3466eb7c07ad">serialize()</a>.</p>
 
@@ -1210,19 +1210,19 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa8042d28cca692381a0e6cc22d0c63f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8042d28cca692381a0e6cc22d0c63f6">&#9670;&nbsp;</a></span>insert()</h2>
+<a id="a5c867a7ad5853b9ba8b3f97577b74836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c867a7ad5853b9ba8b3f97577b74836">&#9670;&nbsp;</a></span>insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , typename std::enable_if&lt; std::is_base_of&lt; UniverseObject, T &gt;::value &gt;::type * &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void ObjectMap::insert </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
+          <td class="paramname"><em>item</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1243,7 +1243,7 @@ template&lt;typename T &gt; </div>
 
 <p class="reference">References <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a>, and <a class="el" href="classObjectMap.html#a6b8b08994c370e5dec3a8ef9fc11136c">Map()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structCombatInfo.html#a00c1f481f05f6d95f189bbd561c1bd73">CombatInfo::CombatInfo()</a>, <a class="el" href="structCondition_1_1ContainedBy.html#a5bc0fdd64d439775868d98b01e6657c3">Condition::ContainedBy::Eval()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">Universe::InsertIDCore()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a75025dc01d7daa31f4b2459904aaa19d">anonymous_namespace{Empire.cpp}::PolicyCategoriesSlotsMeters()</a>, <a class="el" href="classMapWnd.html#a04178dff1734c5524bda11baf0b0939c">MapWnd::ReselectLastFleet()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structCombatInfo.html#a00c1f481f05f6d95f189bbd561c1bd73">CombatInfo::CombatInfo()</a>, <a class="el" href="structCondition_1_1ContainedBy.html#a5bc0fdd64d439775868d98b01e6657c3">Condition::ContainedBy::Eval()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">Universe::InsertIDCore()</a>, <a class="el" href="classMapWnd.html#a04178dff1734c5524bda11baf0b0939c">MapWnd::ReselectLastFleet()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">Universe::UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
 
 </div>
 </div>
@@ -1281,7 +1281,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="classObjectMap.html#a03b576f2592544a9a072e1d733de898a">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#af2da35e66475d281f373ad69867e29ae">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a790bb919bbcb2d0f6dd9bf53b174d2e5">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#a21de1f23b92e86ab5cec05cd06f1ebec">m_existing_objects</a>, <a class="el" href="classObjectMap.html#a0bc97f691e1922ffceb775ac53eff1c4">m_existing_planets</a>, <a class="el" href="classObjectMap.html#aa62fe15cbe490dc9dcc0a0b8fe77e89c">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a0989612344350cd52f28dfff58ce5da1">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a047e83ececa08eee2ac8e963f243eb4c">m_existing_ships</a>, <a class="el" href="classObjectMap.html#afe7dcd81e5c8505dd00253c1e8138fee">m_existing_systems</a>, and <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#a4e1fa360d4186366e88763f010e76087">anonymous_namespace{ObjectMap.cpp}::TryInsertIntoMap()</a>.</p>
+<p class="reference">References <a class="el" href="ObjectMap_8cpp.html#ab9d80724b4714eefe3aa86b0dc83bbca">FOR_EACH_MAP</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classObjectMap.html#a03b576f2592544a9a072e1d733de898a">m_existing_buildings</a>, <a class="el" href="classObjectMap.html#af2da35e66475d281f373ad69867e29ae">m_existing_fields</a>, <a class="el" href="classObjectMap.html#a790bb919bbcb2d0f6dd9bf53b174d2e5">m_existing_fleets</a>, <a class="el" href="classObjectMap.html#a21de1f23b92e86ab5cec05cd06f1ebec">m_existing_objects</a>, <a class="el" href="classObjectMap.html#a0bc97f691e1922ffceb775ac53eff1c4">m_existing_planets</a>, <a class="el" href="classObjectMap.html#aa62fe15cbe490dc9dcc0a0b8fe77e89c">m_existing_pop_centers</a>, <a class="el" href="classObjectMap.html#a0989612344350cd52f28dfff58ce5da1">m_existing_resource_centers</a>, <a class="el" href="classObjectMap.html#a047e83ececa08eee2ac8e963f243eb4c">m_existing_ships</a>, <a class="el" href="classObjectMap.html#afe7dcd81e5c8505dd00253c1e8138fee">m_existing_systems</a>, and <a class="el" href="namespaceanonymous__namespace_02ObjectMap_8cpp_03.html#aea48db7e639e02b71e9c118a3311e8e7">anonymous_namespace{ObjectMap.cpp}::TryInsertIntoMap()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classObjectMap.html#a78c8a3a97d8dd1d99ad58c2397e58b99">CopyObject()</a>.</p>
 
@@ -1312,7 +1312,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classObjectMap.html#aa8042d28cca692381a0e6cc22d0c63f6">insert()</a>, and <a class="el" href="classObjectMap.html#acf97f7020771898c8f0877530a1d6a52">SwapMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classObjectMap.html#a5c867a7ad5853b9ba8b3f97577b74836">insert()</a>, and <a class="el" href="classObjectMap.html#acf97f7020771898c8f0877530a1d6a52">SwapMap()</a>.</p>
 
 </div>
 </div>
@@ -1628,8 +1628,65 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a996f8d4c7b9eb73dd246440e256c23d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996f8d4c7b9eb73dd246440e256c23d9">&#9670;&nbsp;</a></span>Map() <span class="overload">[18/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;System&gt;&amp; ObjectMap::Map </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79eedb1a2957e33e2ca0a492cff37229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79eedb1a2957e33e2ca0a492cff37229">&#9670;&nbsp;</a></span>Map() <span class="overload">[19/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;<a class="el" href="classBuilding.html">Building</a>&gt;&amp; ObjectMap::Map </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a609b0e2dfe9f9bdd3ec8e5bc602683a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609b0e2dfe9f9bdd3ec8e5bc602683a6">&#9670;&nbsp;</a></span>Map() <span class="overload">[20/38]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;<a class="el" href="classField.html">Field</a>&gt;&amp; ObjectMap::Map </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a75963c6a28eb48fca8194f6e4757e84d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75963c6a28eb48fca8194f6e4757e84d">&#9670;&nbsp;</a></span>Map() <span class="overload">[18/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a75963c6a28eb48fca8194f6e4757e84d">&#9670;&nbsp;</a></span>Map() <span class="overload">[21/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1649,27 +1706,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a996f8d4c7b9eb73dd246440e256c23d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a996f8d4c7b9eb73dd246440e256c23d9">&#9670;&nbsp;</a></span>Map() <span class="overload">[19/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;System&gt;&amp; ObjectMap::Map </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad8b79f4e7388edca669654a31262eff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8b79f4e7388edca669654a31262eff8">&#9670;&nbsp;</a></span>Map() <span class="overload">[20/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b79f4e7388edca669654a31262eff8">&#9670;&nbsp;</a></span>Map() <span class="overload">[22/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1689,27 +1727,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="a79eedb1a2957e33e2ca0a492cff37229"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79eedb1a2957e33e2ca0a492cff37229">&#9670;&nbsp;</a></span>Map() <span class="overload">[21/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;<a class="el" href="classBuilding.html">Building</a>&gt;&amp; ObjectMap::Map </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1a5370552f14a4f44980ce16e64cd9b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a5370552f14a4f44980ce16e64cd9b1">&#9670;&nbsp;</a></span>Map() <span class="overload">[22/38]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5370552f14a4f44980ce16e64cd9b1">&#9670;&nbsp;</a></span>Map() <span class="overload">[23/38]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1726,25 +1745,6 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classObjectMap.html#a2404b7ff2620abb5fcbb6bb511fb4263">m_pop_centers</a>.</p>
-
-</div>
-</div>
-<a id="a609b0e2dfe9f9bdd3ec8e5bc602683a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a609b0e2dfe9f9bdd3ec8e5bc602683a6">&#9670;&nbsp;</a></span>Map() <span class="overload">[23/38]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> <a class="el" href="classObjectMap.html#a679ebd6619a09cdc2136ef65f68c7639">ObjectMap::container_type</a>&lt;<a class="el" href="classField.html">Field</a>&gt;&amp; ObjectMap::Map </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

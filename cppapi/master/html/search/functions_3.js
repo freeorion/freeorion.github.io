@@ -166,7 +166,7 @@ var searchData=
   ['colalignments',['ColAlignments',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html#a5256891c1ee5028d1a5498abcd25d324',1,'TechTreeWnd::TechListBox::TechRow']]],
   ['collapseexpandclicked',['CollapseExpandClicked',['../classObjectListWnd.html#a935ff864541a7d3ef91c3d9dc27cd6b6',1,'ObjectListWnd']]],
   ['collapseobject',['CollapseObject',['../classObjectListBox.html#a074af0e1ee610454e2b984ee24de6ee2',1,'ObjectListBox']]],
-  ['colonize',['Colonize',['../classPlanet.html#a7d0f655bc60a91c7aaaba1f0363e0630',1,'Planet']]],
+  ['colonize',['Colonize',['../classPlanet.html#a99099903742ff53c46aee30db8289e6e',1,'Planet']]],
   ['colonizeorder',['ColonizeOrder',['../classColonizeOrder.html#a9f3c99cd8a283821e0d9510041958c93',1,'ColonizeOrder::ColonizeOrder(int empire, int ship, int planet)'],['../classColonizeOrder.html#a59e862598f38861d656740f5ba2629f6',1,'ColonizeOrder::ColonizeOrder()=default']]],
   ['colonizeplanet',['ColonizePlanet',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a884b115d49bcec0851bcb68b6b36d48f',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['colonycapacity',['ColonyCapacity',['../classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d',1,'Ship::ColonyCapacity()'],['../classShipDesign.html#abd6db232060919e3e40b9224a579eb0e',1,'ShipDesign::ColonyCapacity()']]],

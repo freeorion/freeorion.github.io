@@ -85,7 +85,7 @@ var searchData=
   ['_7eserverapp',['~ServerApp',['../classServerApp.html#aa6017cc7487d7d95ce3101c38cf3f54b',1,'ServerApp']]],
   ['_7eservernetworking',['~ServerNetworking',['../classServerNetworking.html#a53194fa6a590effa53b8e6e2a11330cb',1,'ServerNetworking']]],
   ['_7eshaderprogram',['~ShaderProgram',['../classShaderProgram.html#a2d2eadcfc48cc2e2ddb82aba70553a9f',1,'ShaderProgram']]],
-  ['_7eship',['~Ship',['../classShip.html#a43cd6eeaffc11b49239b091621963a65',1,'Ship']]],
+  ['_7eship',['~Ship',['../classShip.html#a780b086f48cd810ce7d83f36a731e3f7',1,'Ship']]],
   ['_7eshipdatapanel',['~ShipDataPanel',['../classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#af91bece1cd6cda9f1ab42d04453797e0',1,'anonymous_namespace{FleetWnd.cpp}::ShipDataPanel']]],
   ['_7eshipdesignmanager',['~ShipDesignManager',['../classShipDesignManager.html#a1533ce61339917e7e4be97e59659d263',1,'ShipDesignManager']]],
   ['_7eshuttingdownserver',['~ShuttingDownServer',['../structShuttingDownServer.html#a1f438e4aaaa6e5be80b4238f6ec80e18',1,'ShuttingDownServer']]],
