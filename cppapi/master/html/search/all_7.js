@@ -289,7 +289,7 @@ var searchData=
   ['getrefreshdetailpanelinfo',['GetRefreshDetailPanelInfo',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a2a593c1098d56dc0e85d38967e1f176f',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['getreplaceddesignid',['GetReplacedDesignID',['../classDesignWnd_1_1MainPanel.html#a780ebc47afcd42c7dab10e5fb32a5e72',1,'DesignWnd::MainPanel']]],
   ['getresourcedir',['GetResourceDir',['../Directories_8cpp.html#a81f6224c5d4d41743f756a6116a2b7ab',1,'GetResourceDir() -&gt; fs::path const:&#160;Directories.cpp'],['../Directories_8h.html#aaaddc221610d7934d6147e29546c72d6',1,'GetResourceDir() -&gt; boost::filesystem::path const:&#160;Directories.cpp']]],
-  ['getrespoollaneinfo',['GetResPoolLaneInfo',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ace3d19b8df2e8b60ffbef863ac6fa20d',1,'anonymous_namespace{MapWnd.cpp}']]],
+  ['getrespoollaneinfo',['GetResPoolLaneInfo',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ae02640824237a81b6058dff12dc8fcad',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['getresult',['GetResult',['../classServerConnectWnd.html#a29e733ee7beae2ab581383f76600b065',1,'ServerConnectWnd']]],
   ['getrootdatadir',['GetRootDataDir',['../Directories_8cpp.html#ab721105ba233ba420c9eef75266c5492',1,'GetRootDataDir() -&gt; fs::path const:&#160;Directories.cpp'],['../Directories_8h.html#a2fe5432cbdd6e2dca4cbf43ae2e3349f',1,'GetRootDataDir() -&gt; boost::filesystem::path const:&#160;Directories.cpp']]],
   ['getrotatingplanetambientintensity',['GetRotatingPlanetAmbientIntensity',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a558fad6a50be0ccaaeb183ceeb10f3ab',1,'anonymous_namespace{SidePanel.cpp}']]],

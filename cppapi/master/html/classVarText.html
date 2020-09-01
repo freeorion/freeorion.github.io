@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5c09bb61ecd52b129b3d3999d4dcbf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVarText.html#ad5c09bb61ecd52b129b3d3999d4dcbf0">AddVariable</a> (const std::string &amp;tag, std::string &amp;&amp;data)</td></tr>
 <tr class="memdesc:ad5c09bb61ecd52b129b3d3999d4dcbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign <code>data</code> to a given <code>tag</code>.  <a href="#ad5c09bb61ecd52b129b3d3999d4dcbf0">More...</a><br /></td></tr>
 <tr class="separator:ad5c09bb61ecd52b129b3d3999d4dcbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e25e02ce6b8afd39e1278ef66a5413"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVarText.html#aa7e25e02ce6b8afd39e1278ef66a5413">AddVariables</a> (std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;&amp;data)</td></tr>
+<tr class="memdesc:aa7e25e02ce6b8afd39e1278ef66a5413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign <code>data</code> as tags.  <a href="#aa7e25e02ce6b8afd39e1278ef66a5413">More...</a><br /></td></tr>
+<tr class="separator:aa7e25e02ce6b8afd39e1278ef66a5413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a961ef62a9dc2334aedd0a9efa0abb824"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVarText.html#a961ef62a9dc2334aedd0a9efa0abb824">GetStringtableLookupFlag</a> () const</td></tr>
 <tr class="memdesc:a961ef62a9dc2334aedd0a9efa0abb824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classVarText.html#afcba625b33eeaca02c6c0c88e1ba68df" title="If true the m_template_string will be looked up in the stringtable prior to substitution for variable...">m_stringtable_lookup_flag</a>.  <a href="#a961ef62a9dc2334aedd0a9efa0abb824">More...</a><br /></td></tr>
 <tr class="separator:a961ef62a9dc2334aedd0a9efa0abb824"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,6 +338,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Assign <code>data</code> to a given <code>tag</code>. </p>
+<p>Overwrites / replaces data of existing tags.</p>
 <p>The <code>data</code> should match <code>tag</code> as listed in <a class="el" href="classVarText.html#variable_tags">Variable tags</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -346,7 +350,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classVarText.html#aa9dfb2d376db230c80dd37f707ab2323">m_variables</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SitRepEntry_8h.html#a4e99d35a15bfd086053c6ef842fbd00d">CreateBuildingBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aa759017932f1594a24a8430d4de25dea">CreateBuildingTypeUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a2a5506566a20ffee1352f7b9a5646716">CreateCombatDamagedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aca45928a81a8e0261c9ec49536cf67a8">CreateCombatDestroyedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a85bdb3455191e9d17978ffd08d9078f9">CreateCombatSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a50a0065586c1443d60c9ff85cfbbfaa9">CreateEmpireEliminatedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ae45be90f0d182babfd4d1660398a75fd">CreateFleetArrivedAtDestinationSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#acce1f0fe646e13907bd44a92613e649b">CreateFleetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ab5dab27385f780981b8d7f1db8c4dc00">CreateGroundCombatSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#abe154b30d5cf135df46c0b8ddff93522">CreatePlanetCapturedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aceb287e6aff354559a01c9e048f9b823">CreatePlanetColonizedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a0a3a28e1d831b9ae26c70047fbdf7034">CreatePlanetDepopulatedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a786734b4fe06bc50d2a4acdd9e6bed82">CreatePlanetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a35c645d25b33997b90c78bdfaeb22cb6">CreatePlanetOutpostedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a0a8eebefee283a9177284e5aedbde742">CreatePolicyUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a00e6a4f7b4e2a36aafe7214d10c463aa">CreateShipBlockBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#af16bd336b576e3797d7d468b22306b94">CreateShipBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a602106ddf38db320a71a642e9c2eab00">CreateShipHullUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a2472b2dc1c38284e991d61b26d2ce9c5">CreateShipPartUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a56d039528f8a9d8340e6f5cb07a7a740">CreateSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a6c25e14fac1647556e8e7e2bcffdc6b5">CreateTechResearchedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#af95bc7a3ff6a6a1a5a6641011fb81759">CreateTechUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ac86d04bb87d14a6135ce02254e039b34">CreateVictorySitRep()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html#a84cfefaf818e2b39b568fc9c2fbff3d6">anonymous_namespace{SitRepEntry.cpp}::GenericCombatDamagedObjectSitrep()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html#a51096e7d40e16b0f45df5b78405ba069">anonymous_namespace{SitRepEntry.cpp}::GenericCombatDestroyedObjectSitrep()</a>, and <a class="el" href="classSaveFileFileRow.html#a2db18f719d50baa7eaba3ca2fdfc9138">SaveFileFileRow::Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SitRepEntry_8h.html#a4e99d35a15bfd086053c6ef842fbd00d">CreateBuildingBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aa759017932f1594a24a8430d4de25dea">CreateBuildingTypeUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a2a5506566a20ffee1352f7b9a5646716">CreateCombatDamagedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aca45928a81a8e0261c9ec49536cf67a8">CreateCombatDestroyedObjectSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a85bdb3455191e9d17978ffd08d9078f9">CreateCombatSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a50a0065586c1443d60c9ff85cfbbfaa9">CreateEmpireEliminatedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ae45be90f0d182babfd4d1660398a75fd">CreateFleetArrivedAtDestinationSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#acce1f0fe646e13907bd44a92613e649b">CreateFleetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ab5dab27385f780981b8d7f1db8c4dc00">CreateGroundCombatSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#abe154b30d5cf135df46c0b8ddff93522">CreatePlanetCapturedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#aceb287e6aff354559a01c9e048f9b823">CreatePlanetColonizedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a0a3a28e1d831b9ae26c70047fbdf7034">CreatePlanetDepopulatedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a786734b4fe06bc50d2a4acdd9e6bed82">CreatePlanetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a35c645d25b33997b90c78bdfaeb22cb6">CreatePlanetOutpostedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a0a8eebefee283a9177284e5aedbde742">CreatePolicyUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a00e6a4f7b4e2a36aafe7214d10c463aa">CreateShipBlockBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#af16bd336b576e3797d7d468b22306b94">CreateShipBuiltSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a602106ddf38db320a71a642e9c2eab00">CreateShipHullUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a2472b2dc1c38284e991d61b26d2ce9c5">CreateShipPartUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#a6c25e14fac1647556e8e7e2bcffdc6b5">CreateTechResearchedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#af95bc7a3ff6a6a1a5a6641011fb81759">CreateTechUnlockedSitRep()</a>, <a class="el" href="SitRepEntry_8h.html#ac86d04bb87d14a6135ce02254e039b34">CreateVictorySitRep()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html#a84cfefaf818e2b39b568fc9c2fbff3d6">anonymous_namespace{SitRepEntry.cpp}::GenericCombatDamagedObjectSitrep()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepEntry_8cpp_03.html#a51096e7d40e16b0f45df5b78405ba069">anonymous_namespace{SitRepEntry.cpp}::GenericCombatDestroyedObjectSitrep()</a>, and <a class="el" href="classSaveFileFileRow.html#a2db18f719d50baa7eaba3ca2fdfc9138">SaveFileFileRow::Init()</a>.</p>
 
 </div>
 </div>
@@ -377,6 +381,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Assign <code>data</code> to a given <code>tag</code>. </p>
+<p>Overwrites / replaces data of existing tags.</p>
 <p>The <code>data</code> should match <code>tag</code> as listed in <a class="el" href="classVarText.html#variable_tags">Variable tags</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -387,6 +392,38 @@ Friends</h2></td></tr>
 </dl>
 
 <p class="reference">References <a class="el" href="classVarText.html#aa9dfb2d376db230c80dd37f707ab2323">m_variables</a>.</p>
+
+</div>
+</div>
+<a id="aa7e25e02ce6b8afd39e1278ef66a5413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e25e02ce6b8afd39e1278ef66a5413">&#9670;&nbsp;</a></span>AddVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VarText::AddVariables </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assign <code>data</code> as tags. </p>
+<p>Does not overwrite or replace data of existing tags.</p>
+<p>The <code>data</code> should match tags as listed in <a class="el" href="classVarText.html#variable_tags">Variable tags</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Tag and Data values of the <a class="el" href="classVarText.html#aa9dfb2d376db230c80dd37f707ab2323" title="Maps variable tags into values, which are used during text substitution. ">m_variables</a> set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="classVarText.html#aa9dfb2d376db230c80dd37f707ab2323">m_variables</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="SitRepEntry_8h.html#a50ae68c47373dadc5e412197177ebda5">CreateSitRep()</a>.</p>
 
 </div>
 </div>
@@ -991,7 +1028,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>Maps variable tags into values, which are used during text substitution. </p>
 
-<p class="reference">Referenced by <a class="el" href="classVarText.html#a2a56259ada1b2dfe92a90838ebb618a9">AddVariable()</a>, <a class="el" href="classSitRepEntry.html#ad719e4746d4e6f9c3b182b2f19e81bf0">SitRepEntry::Dump()</a>, <a class="el" href="classVarText.html#acffdf49eb629369c64b9c7a3e4ee2464">GenerateVarText()</a>, <a class="el" href="classSitRepEntry.html#a410abf2e305f28f7d4059dc27df4e9ae">SitRepEntry::GetDataIDNumber()</a>, <a class="el" href="classSitRepEntry.html#aa1b9c085f163fe5028bbc656662cd629">SitRepEntry::GetDataString()</a>, and <a class="el" href="classVarText.html#a198697d73ca35e95539f5127cc065de2">GetVariableTags()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVarText.html#a2a56259ada1b2dfe92a90838ebb618a9">AddVariable()</a>, <a class="el" href="classVarText.html#aa7e25e02ce6b8afd39e1278ef66a5413">AddVariables()</a>, <a class="el" href="classSitRepEntry.html#ad719e4746d4e6f9c3b182b2f19e81bf0">SitRepEntry::Dump()</a>, <a class="el" href="classVarText.html#acffdf49eb629369c64b9c7a3e4ee2464">GenerateVarText()</a>, <a class="el" href="classSitRepEntry.html#a410abf2e305f28f7d4059dc27df4e9ae">SitRepEntry::GetDataIDNumber()</a>, <a class="el" href="classSitRepEntry.html#aa1b9c085f163fe5028bbc656662cd629">SitRepEntry::GetDataString()</a>, and <a class="el" href="classVarText.html#a198697d73ca35e95539f5127cc065de2">GetVariableTags()</a>.</p>
 
 </div>
 </div>
