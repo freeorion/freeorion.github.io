@@ -20,6 +20,7 @@ var searchData=
   ['arithmetic_5frules_3c_20double_20_3e',['arithmetic_rules&lt; double &gt;',['../structparse_1_1detail_1_1arithmetic__rules.html',1,'parse::detail']]],
   ['arithmetic_5frules_3c_20int_20_3e',['arithmetic_rules&lt; int &gt;',['../structparse_1_1detail_1_1arithmetic__rules.html',1,'parse::detail']]],
   ['armed',['Armed',['../structCondition_1_1Armed.html',1,'Condition']]],
+  ['asynccloseclosure',['AsyncCloseClosure',['../structanonymous__namespace_02ServerNetworking_8cpp_03_1_1AsyncCloseClosure.html',1,'anonymous_namespace{ServerNetworking.cpp}']]],
   ['atmosphere',['Atmosphere',['../structanonymous__namespace_02SidePanel_8cpp_03_1_1PlanetAtmosphereData_1_1Atmosphere.html',1,'anonymous_namespace{SidePanel.cpp}::PlanetAtmosphereData']]],
   ['authroles',['AuthRoles',['../classNetworking_1_1AuthRoles.html',1,'Networking']]],
   ['autoresolveinfo',['AutoresolveInfo',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html',1,'anonymous_namespace{CombatSystem.cpp}']]],
