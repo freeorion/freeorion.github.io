@@ -119,7 +119,7 @@ var searchData=
   ['option_5fbutton_5fheight',['OPTION_BUTTON_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a37bc0e16467e29ab63e67817d1e88177',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['option_5fbutton_5fpadding',['OPTION_BUTTON_PADDING',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ac71590a835c354fdf408d1a8c6dea2ef',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['option_5fchanged_5fsig_5fptr',['option_changed_sig_ptr',['../structOptionsDB_1_1Option.html#a965e25701c17fc16668a3007f9e54927',1,'OptionsDB::Option']]],
-  ['option_5fkey',['option_key',['../structOptionsBar_1_1ToggleData.html#af9c3bd804086d378f4166f6266320681',1,'OptionsBar::ToggleData']]],
+  ['option_5fkey',['option_key',['../structOptionsBar_1_1ToggleData.html#a9dbca4752af1718c9c6b4bf34819163f',1,'OptionsBar::ToggleData']]],
   ['option_5fpredicate',['option_predicate',['../structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270',1,'OptionsDB::OptionSection']]],
   ['optionaddedsignal',['OptionAddedSignal',['../classOptionsDB.html#ab7a6ec2d9a61f88d9d37cce2a0046dc3',1,'OptionsDB']]],
   ['optionaddedsignaltype',['OptionAddedSignalType',['../classOptionsDB.html#adeb66dcb46f91602b46a9241b646099e',1,'OptionsDB']]],

@@ -28,7 +28,7 @@ var searchData=
   ['one_5for_5fmore_5funlockable_5fitems',['one_or_more_unlockable_items',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a40d21126e24a6aebfe1e9979f09711bc',1,'anonymous_namespace{TechsParser.cpp}::grammar']]],
   ['operated_5fexpr',['operated_expr',['../structparse_1_1string__parser__grammar.html#ab4b0549fb8a0010cd699773a9dbc120b',1,'parse::string_parser_grammar::operated_expr()'],['../namespaceparse.html#a74099d5502550b093f956dfca23d71b4',1,'parse::operated_expr()']]],
   ['option_5fchanged_5fsig_5fptr',['option_changed_sig_ptr',['../structOptionsDB_1_1Option.html#a965e25701c17fc16668a3007f9e54927',1,'OptionsDB::Option']]],
-  ['option_5fkey',['option_key',['../structOptionsBar_1_1ToggleData.html#af9c3bd804086d378f4166f6266320681',1,'OptionsBar::ToggleData']]],
+  ['option_5fkey',['option_key',['../structOptionsBar_1_1ToggleData.html#a9dbca4752af1718c9c6b4bf34819163f',1,'OptionsBar::ToggleData']]],
   ['option_5fpredicate',['option_predicate',['../structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270',1,'OptionsDB::OptionSection']]],
   ['optionaddedsignal',['OptionAddedSignal',['../classOptionsDB.html#ab7a6ec2d9a61f88d9d37cce2a0046dc3',1,'OptionsDB']]],
   ['optionremovedsignal',['OptionRemovedSignal',['../classOptionsDB.html#aede5bb12b315bf9574543a5f8e99a194',1,'OptionsDB']]],
