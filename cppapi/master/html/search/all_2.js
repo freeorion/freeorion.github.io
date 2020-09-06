@@ -67,7 +67,7 @@ var searchData=
   ['border_5fleft',['BORDER_LEFT',['../classCUIWnd.html#a975d29f71f8583dcbad73f718e1aca56',1,'CUIWnd']]],
   ['border_5fmargin',['BORDER_MARGIN',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a44ebf2097ecfea0abcd41693c891fb26',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::BORDER_MARGIN()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a9d66c8b3c249d71f596695ff8a0e6564',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::BORDER_MARGIN()']]],
   ['border_5fright',['BORDER_RIGHT',['../classCUIWnd.html#accdc6254146d0435cfa76ed284e99e3a',1,'CUIWnd']]],
-  ['both',['both',['../LoggerWithOptionsDB_8h.html#a56d9786734caf24f24b8f78802a07e8aaf6cb3e816496528d4187db53bc66567f',1,'LoggerWithOptionsDB.h']]],
+  ['both',['both',['../LoggerWithOptionsDB_8h.html#ad507906fc5c11c9a19e46b02793cdecaaf6cb3e816496528d4187db53bc66567f',1,'LoggerWithOptionsDB.h']]],
   ['bottomborder',['BottomBorder',['../classCUIWnd.html#a0c4f68ff79b8122549e55151b2d150d3',1,'CUIWnd']]],
   ['bound_5fvariable',['bound_variable',['../structparse_1_1detail_1_1simple__variable__rules.html#aca577e22a951321ce3d929e36d42274c',1,'parse::detail::simple_variable_rules::bound_variable()'],['../structparse_1_1string__parser__grammar.html#a471a642a806467211397140940c46a16',1,'parse::string_parser_grammar::bound_variable()'],['../namespaceparse.html#a6f4e2b2d14701f0877d13c2865de02a6',1,'parse::bound_variable()']]],
   ['bound_5fvariable_5fexpr',['bound_variable_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#abfc6fa5054cd8b01e19014bb2c8f5b90',1,'parse::detail::enum_value_ref_rules']]],

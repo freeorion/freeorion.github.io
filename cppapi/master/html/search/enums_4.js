@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mode',['Mode',['../classCUI__MinRestoreButton.html#a4e0b98fb2769cd0a255e0e9a32ab40fe',1,'CUI_MinRestoreButton']]]
+  ['mode',['Mode',['../classCUI__MinRestoreButton.html#a35971426d115a451d4385cb78d0ee2e6',1,'CUI_MinRestoreButton']]]
 ];

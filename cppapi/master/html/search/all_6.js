@@ -248,6 +248,6 @@ var searchData=
   ['function_5fexpr',['function_expr',['../structparse_1_1string__parser__grammar.html#a544410bfb80b436b660eb5c132ee8d94',1,'parse::string_parser_grammar::function_expr()'],['../namespaceparse.html#a054ed9ba8ee2cd452891c6891e9771ad',1,'parse::function_expr()']]],
   ['functional_5fexpr',['functional_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#a6c76621aab0a737bf78e563d9cc0467c',1,'parse::detail::enum_value_ref_rules::functional_expr()'],['../structparse_1_1detail_1_1arithmetic__rules.html#a3166d41e019c2488aa20968e0d0a7ede',1,'parse::detail::arithmetic_rules::functional_expr()']]],
   ['fusion_5fmax_5fvector_5fsize',['FUSION_MAX_VECTOR_SIZE',['../ShipPartsParser_8cpp.html#a82aed586e2f879ce29b52ad5deed238e',1,'ShipPartsParser.cpp']]],
-  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baf7b305c2f1f59e93d1ed2103a4f1c92d',1,'Availability']]],
+  ['future',['Future',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8ba4f491fa55ca9fe3f143054b6daa56920',1,'Availability::Future()'],['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baadff855173c9b92b5478129af7d39e03',1,'Availability::Future()'],['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baadff855173c9b92b5478129af7d39e03',1,'Availability::Future()']]],
   ['freeorion',['FreeOrion',['../index.html',1,'']]]
 ];

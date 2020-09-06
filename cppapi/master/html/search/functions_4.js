@@ -69,7 +69,7 @@ var searchData=
   ['destroyed',['Destroyed',['../classFighter.html#a1f3faea6079d72c67053de6c38cc8a0f',1,'Fighter']]],
   ['destroyedobjectids',['DestroyedObjectIds',['../classUniverse.html#a8e107e3700efd08394f4a0d03546ebb7',1,'Universe']]],
   ['destroyedunits',['DestroyedUnits',['../structCombatSummary.html#a6638e3efb0f00092c7681b04f050be13',1,'CombatSummary']]],
-  ['destroyuniverseobject',['DestroyUniverseObject',['../classModerator_1_1DestroyUniverseObject.html#affad276191426584ae03f9b4139f2620',1,'Moderator::DestroyUniverseObject::DestroyUniverseObject()'],['../classModerator_1_1DestroyUniverseObject.html#a35b6e5c77725dc96d0116754edb7bee8',1,'Moderator::DestroyUniverseObject::DestroyUniverseObject(int object_id)']]],
+  ['destroyuniverseobject',['DestroyUniverseObject',['../classModerator_1_1DestroyUniverseObject.html#a4d4caca9127a701dfcd3ac59b0f30de5',1,'Moderator::DestroyUniverseObject::DestroyUniverseObject()=default'],['../classModerator_1_1DestroyUniverseObject.html#a35b6e5c77725dc96d0116754edb7bee8',1,'Moderator::DestroyUniverseObject::DestroyUniverseObject(int object_id)']]],
   ['detection',['Detection',['../classShipDesign.html#a0baa30b78e9dbb82372c3fe6edf2a381',1,'ShipDesign']]],
   ['detectionicon',['DetectionIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a72192d6dac56f818aef3ad02f92a9873',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['determinecustomcategory',['DetermineCustomCategory',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a8dca55818f386b2df0ed331c1a230a79',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
