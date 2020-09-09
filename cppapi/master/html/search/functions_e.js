@@ -80,6 +80,7 @@ var searchData=
   ['numestablishedplayers',['NumEstablishedPlayers',['../classServerNetworking.html#ab3d74c8a6017005548ef483e47e34ad6',1,'ServerNetworking']]],
   ['numnativespecies',['NumNativeSpecies',['../classSpeciesManager.html#abbd80dbaad43022055b196991fefa847',1,'SpeciesManager']]],
   ['numplayablespecies',['NumPlayableSpecies',['../classSpeciesManager.html#aaf48c275f998c587c8451b31508dc503',1,'SpeciesManager']]],
+  ['numshipdesigns',['NumShipDesigns',['../classUniverse.html#a00de402c886d32c11b2892b4aa935445',1,'Universe']]],
   ['numships',['NumShips',['../classFleet.html#a10ff9f4c555b82efabba54e80884cf62',1,'Fleet']]],
   ['numspecials',['NumSpecials',['../classSpecialsManager.html#ab70a59181b0cb397239f0a01e4e4a7aa',1,'SpecialsManager']]],
   ['numspecies',['NumSpecies',['../classSpeciesManager.html#a0c49525e5742e44669c1a2139a1a35e7',1,'SpeciesManager']]],
