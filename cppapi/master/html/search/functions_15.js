@@ -35,7 +35,7 @@ var searchData=
   ['updateconnection',['UpdateConnection',['../structHotkeyManager_1_1ConditionalConnection.html#a903d1aa381a62396c83499afc5ddf86f',1,'HotkeyManager::ConditionalConnection']]],
   ['updatecookie',['UpdateCookie',['../classServerNetworking.html#a90a833aa1a9b8553197a84140ef21c37',1,'ServerNetworking']]],
   ['updatecurrentdestroyedobjects',['UpdateCurrentDestroyedObjects',['../classObjectMap.html#aac885b8dffa1303a3f77e3b21e9bc685',1,'ObjectMap']]],
-  ['updatedirectory',['UpdateDirectory',['../classSaveFileDialog.html#aa364374ffcb8eaab93440240d2769665',1,'SaveFileDialog']]],
+  ['updatedirectory',['UpdateDirectory',['../classSaveFileDialog.html#aa43d2e875c7233bf26fdda59d9368f9d',1,'SaveFileDialog']]],
   ['updateeffectlabelsandvalues',['UpdateEffectLabelsAndValues',['../classMeterBrowseWnd.html#a2fb960bfb262e9900f8456f986a126ca',1,'MeterBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipDamageBrowseWnd.html#ac05ae893d71d4804654897e7d858c280',1,'ShipDamageBrowseWnd::UpdateEffectLabelsAndValues()'],['../classShipFightersBrowseWnd.html#ad9985fb76a1cd05ef8f01d2fe1852bc8',1,'ShipFightersBrowseWnd::UpdateEffectLabelsAndValues()']]],
   ['updateempirecombatdestructioninfo',['UpdateEmpireCombatDestructionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6f1d30ee4639cae1cb96383e0848cc0c',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['updateempireinvasioninfo',['UpdateEmpireInvasionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aef237fc4714386a82eb805345a19550c',1,'anonymous_namespace{ServerApp.cpp}']]],
