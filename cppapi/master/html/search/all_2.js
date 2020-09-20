@@ -50,7 +50,7 @@ var searchData=
   ['blocking_5fcombiner_2eh',['blocking_combiner.h',['../blocking__combiner_8h.html',1,'']]],
   ['blocksize',['blocksize',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QuantitySelector.html#a5c4f80a996ded543e21f917f535a11c0',1,'anonymous_namespace{ProductionWnd.cpp}::QuantitySelector']]],
   ['bombardorder',['BombardOrder',['../classBombardOrder.html',1,'BombardOrder'],['../classBombardOrder.html#a2c096fff3f9d5b6dc1a9b90600d61fb2',1,'BombardOrder::BombardOrder(int empire, int ship, int planet)'],['../classBombardOrder.html#a262f200e1122b2296b3130ae9a2f44cc',1,'BombardOrder::BombardOrder()=default']]],
-  ['bombardtagsforship',['BombardTagsForShip',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#af86310ac7695ac0c550ceb12bffb25b8',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['bombardtagsforship',['BombardTagsForShip',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a590ddd11fa11b6828d890bb1493b706d',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['bool_5f',['bool_',['../structparse_1_1lexer.html#a299522536178522781c2f5285f6644e7',1,'parse::lexer']]],
   ['bool_5fregex',['bool_regex',['../structparse_1_1lexer.html#a56920f62eb1844a89c13887ffb7f97f5',1,'parse::lexer']]],
   ['booloption',['BoolOption',['../classOptionsWnd.html#a88fa5fa4fd640d64a32b6af8785152b2',1,'OptionsWnd']]],

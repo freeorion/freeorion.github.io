@@ -160,7 +160,7 @@ var searchData=
   ['isauthenticated',['IsAuthenticated',['../classPlayerConnection.html#a1976ff8857cd852153f0994714445e15',1,'PlayerConnection']]],
   ['isauthrequiredorfillroles',['IsAuthRequiredOrFillRoles',['../classServerApp.html#acf2d635efbb3cfff3ec4a80b4cb03782',1,'ServerApp']]],
   ['isauthsuccessandfillroles',['IsAuthSuccessAndFillRoles',['../classServerApp.html#a7df980a4219a193118f710249723a5bb',1,'ServerApp']]],
-  ['isavailable',['IsAvailable',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a7d36d4fa8475144c9f8528487f80b3da',1,'anonymous_namespace{SidePanel.cpp}']]],
+  ['isavailable',['IsAvailable',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac400f6a8b3f159156ac41e58f02e3ddf',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['isavailablename',['IsAvailableName',['../classServerApp.html#ae06e8ffe6bed95507e5ba97d6e9c9dd8',1,'ServerApp']]],
   ['isavailablenameincookies',['IsAvailableNameInCookies',['../classServerNetworking.html#a40008b6fe7c70bc27604525e81e865e2',1,'ServerNetworking']]],
   ['isbinaryserializationused',['IsBinarySerializationUsed',['../classPlayerConnection.html#a006782ad54292dda57c09a862272d8ac',1,'PlayerConnection']]],

@@ -51,6 +51,7 @@ var searchData=
   ['findexistingobjectids',['FindExistingObjectIDs',['../classObjectMap.html#aff8f91c4039729fec8171eb6588ce00b',1,'ObjectMap']]],
   ['findfirstdependencycycle',['FindFirstDependencyCycle',['../classTechManager.html#ad8c0dfa11ff20989855040b310d22be7',1,'TechManager']]],
   ['findgamewords',['FindGameWords',['../classMessageWndEdit.html#a78da5e4e86d0200aa17411c51d5ee18c',1,'MessageWndEdit']]],
+  ['findids',['findIDs',['../classObjectMap.html#acdd59ca9fbc84e7a6bd6cbf237a71d68',1,'ObjectMap']]],
   ['findillegaldependencies',['FindIllegalDependencies',['../classTechManager.html#a6a0e69e4867631a9dad6baf28860263e',1,'TechManager']]],
   ['findisoscelestrianglevertices',['FindIsoscelesTriangleVertices',['../namespaceanonymous__namespace_02CUIDrawUtil_8cpp_03.html#ad71deaa6147df187bd17f74664d20301',1,'anonymous_namespace{CUIDrawUtil.cpp}']]],
   ['findlinks',['FindLinks',['../classTextLinker.html#a404a402865df4281971774c4332337c4',1,'TextLinker']]],
