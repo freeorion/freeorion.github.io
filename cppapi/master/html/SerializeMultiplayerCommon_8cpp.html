@@ -84,6 +84,9 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a83ca80faba72ad9d8c4f2bc513722099"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerializeMultiplayerCommon_8cpp.html#a83ca80faba72ad9d8c4f2bc513722099">GlobalSerializationEncodingForEmpire</a> ()</td></tr>
+<tr class="memdesc:a83ca80faba72ad9d8c4f2bc513722099"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must be set to the encoding empire's id when serializing various gamestate information, so that only the relevant info is serialized for the intended recieipient.  <a href="#a83ca80faba72ad9d8c4f2bc513722099">More...</a><br /></td></tr>
+<tr class="separator:a83ca80faba72ad9d8c4f2bc513722099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58bef235f876c8aac88557c13ece10d8"><td class="memTemplParams" colspan="2">template&lt;typename Archive &gt; </td></tr>
 <tr class="memitem:a58bef235f876c8aac88557c13ece10d8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="SerializeMultiplayerCommon_8cpp.html#a58bef235f876c8aac88557c13ece10d8">serialize</a> (Archive &amp;ar, <a class="el" href="structFullPreview.html">FullPreview</a> &amp;fp, unsigned int const version)</td></tr>
 <tr class="separator:a58bef235f876c8aac88557c13ece10d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +243,30 @@ Functions</h2></td></tr>
 <tr class="separator:a28c5031f8693babd907cead6f016926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a83ca80faba72ad9d8c4f2bc513722099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ca80faba72ad9d8c4f2bc513722099">&#9670;&nbsp;</a></span>GlobalSerializationEncodingForEmpire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int&amp; GlobalSerializationEncodingForEmpire </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This must be set to the encoding empire's id when serializing various gamestate information, so that only the relevant info is serialized for the intended recieipient. </p>
+<p>This is implemented this way so that we don't need to write custom <a class="el" href="namespaceboost_1_1serialization.html">boost::serialization</a> classes that implement empire-dependent visibility. </p>
+
+<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Message_8h.html#ae2dd2df038b85252d2fda817e8e16aa2">ExtractGameStartMessageData()</a>, <a class="el" href="Message_8h.html#ae4a52b20aef54420d405bb95e86084b3">ExtractTurnPartialUpdateMessageData()</a>, <a class="el" href="Message_8h.html#a60603874a0d5f93461de26df13529df4">ExtractTurnUpdateMessageData()</a>, <a class="el" href="Message_8h.html#a61ec3b7fce4d46631da4ead027da726d">GameStartMessage()</a>, <a class="el" href="SaveLoad_8h.html#a37a664e7fecdac3e87fc5e693ec54d41">LoadGame()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, <a class="el" href="structInfluenceQueue.html#afc04fca58f7e69f18b855aaa7b85160d">InfluenceQueue::serialize()</a>, <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>, <a class="el" href="Message_8h.html#abb08713bcf02f38d312450d5f213470d">TurnPartialUpdateMessage()</a>, and <a class="el" href="Message_8h.html#abaff0eaf7bd34cb457e6942c35c4b1a4">TurnUpdateMessage()</a>.</p>
+
+</div>
+</div>
 <a id="a58bef235f876c8aac88557c13ece10d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58bef235f876c8aac88557c13ece10d8">&#9670;&nbsp;</a></span>serialize() <span class="overload">[1/14]</span></h2>
 

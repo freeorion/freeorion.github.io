@@ -103,7 +103,6 @@ var searchData=
   ['alliedicon',['AlliedIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a8549b8a0afea1848a735dbec4f418edf',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['alliesproposaldiplomaticmessage',['AlliesProposalDiplomaticMessage',['../Diplomacy_8cpp.html#a42349910803bd5ccae1fe6fcbe7add39',1,'AlliesProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a63706bfee909ae38b920dbcf2e5942cf',1,'AlliesProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['allnexttechs',['AllNextTechs',['../classTechManager.html#a3577d3d0d38a299bd298dc84b2ba848c',1,'TechManager']]],
-  ['allobjectsvisible',['AllObjectsVisible',['../classUniverse.html#a78612f3d0a58311e06b29bd06e6b0c9b',1,'Universe']]],
   ['allocatedstockpileip',['AllocatedStockpileIP',['../structInfluenceQueue.html#a2020362c3ff132303bfd2cbf7410179a',1,'InfluenceQueue']]],
   ['allorderedids',['AllOrderedIDs',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#aad1ea23169ce951c31c6a22c09759d42',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
   ['allordersreceived',['AllOrdersReceived',['../classServerApp.html#a5539a03d0233eabe70a6f812d2357bbe',1,'ServerApp']]],

@@ -175,7 +175,6 @@ var searchData=
   ['encodeserveraddressoption',['EncodeServerAddressOption',['../classHumanClientApp.html#a68c734759285bc95b03146c08b4c8188',1,'HumanClientApp']]],
   ['encoding_5fempire',['encoding_empire',['../structGalaxySetupData.html#abf60df2152ed6f655bd40ea113c1d3e0',1,'GalaxySetupData']]],
   ['encodingdecl',['EncodingDecl',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#a2d57fed59805c7364a563e8922844a84',1,'anonymous_namespace{XMLDoc.cpp}']]],
-  ['encodingempire',['EncodingEmpire',['../classUniverse.html#adba843a964a08c6d890f485ffc5dde0f',1,'Universe']]],
   ['encyclopedia',['Encyclopedia',['../classEncyclopedia.html',1,'Encyclopedia'],['../classEncyclopedia.html#a667273357aa82b92d63348c3632b83b8',1,'Encyclopedia::Encyclopedia()']]],
   ['encyclopedia_2ecpp',['Encyclopedia.cpp',['../Encyclopedia_8cpp.html',1,'']]],
   ['encyclopedia_2eh',['Encyclopedia.h',['../Encyclopedia_8h.html',1,'']]],

@@ -140,7 +140,6 @@ var searchData=
   ['alliedicon',['AlliedIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a8549b8a0afea1848a735dbec4f418edf',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['alliesproposaldiplomaticmessage',['AlliesProposalDiplomaticMessage',['../Diplomacy_8cpp.html#a42349910803bd5ccae1fe6fcbe7add39',1,'AlliesProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp'],['../Diplomacy_8h.html#a63706bfee909ae38b920dbcf2e5942cf',1,'AlliesProposalDiplomaticMessage(int sender_empire_id, int recipient_empire_id):&#160;Diplomacy.cpp']]],
   ['allnexttechs',['AllNextTechs',['../classTechManager.html#a3577d3d0d38a299bd298dc84b2ba848c',1,'TechManager']]],
-  ['allobjectsvisible',['AllObjectsVisible',['../classUniverse.html#a78612f3d0a58311e06b29bd06e6b0c9b',1,'Universe']]],
   ['allocated_5fip',['allocated_ip',['../structInfluenceQueue_1_1Element.html#a8217d9c8bfa59b242f25042fa3c73374',1,'InfluenceQueue::Element']]],
   ['allocated_5frp',['allocated_rp',['../structResearchQueue_1_1Element.html#a7c4990010f4aab2bccf1601d226d1118',1,'ResearchQueue::Element']]],
   ['allocatedstockpileip',['AllocatedStockpileIP',['../structInfluenceQueue.html#a2020362c3ff132303bfd2cbf7410179a',1,'InfluenceQueue']]],
