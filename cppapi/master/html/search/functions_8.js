@@ -60,7 +60,6 @@ var searchData=
   ['handletabchanged',['HandleTabChanged',['../classCombatReportWnd_1_1Impl.html#a9f001742b3c4142428685e96a114254f',1,'CombatReportWnd::Impl']]],
   ['handletextcommand',['HandleTextCommand',['../classMessageWnd.html#adcaaee386d26874ab23e826c888d7ef4',1,'MessageWnd']]],
   ['handleturnphaseupdate',['HandleTurnPhaseUpdate',['../classClientApp.html#aa1cabc85678fcbbefd841900a95079c1',1,'ClientApp::HandleTurnPhaseUpdate()'],['../classHumanClientApp.html#a80363ece7443fd56b1f634b27c77094e',1,'HumanClientApp::HandleTurnPhaseUpdate()'],['../classMessageWnd.html#a108dc678cfab0a2a21cfed4d3ef39664',1,'MessageWnd::HandleTurnPhaseUpdate()']]],
-  ['handleturnupdate',['HandleTurnUpdate',['../classClientApp.html#ac6aa42514919cab9b42cd828fe6a328f',1,'ClientApp::HandleTurnUpdate()'],['../classHumanClientApp.html#a6ded30966032b67b45532a17749aad2b',1,'HumanClientApp::HandleTurnUpdate()']]],
   ['handlewindowchanged',['HandleWindowChanged',['../classCombatReportWnd_1_1Impl.html#ac5f51e5a6fc6ec6fd27921034e746ed1',1,'CombatReportWnd::Impl']]],
   ['handlewindowmove',['HandleWindowMove',['../classHumanClientApp.html#a216d51403e469e855b327bd26d86f335',1,'HumanClientApp']]],
   ['handlewindowresize',['HandleWindowResize',['../classHumanClientApp.html#a1b07477b5adc2f6169d9222e9ac67d82',1,'HumanClientApp']]],

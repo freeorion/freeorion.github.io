@@ -116,7 +116,7 @@ var searchData=
   ['insertbefore',['InsertBefore',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a795274c69d16c1dc2d6699f8a643a710',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager::InsertBefore()'],['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a96f1320ddfc2ce86dd61393cbae7ed31',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager::InsertBefore()']]],
   ['insertbyempirewithid',['InsertByEmpireWithID',['../classUniverse.html#a8443d415555607b8dfae9b677401fdb8',1,'Universe']]],
   ['insertcore',['insertCore',['../classObjectMap.html#aad44ee48dfed98d0b682a33c4c532a3c',1,'ObjectMap']]],
-  ['insertempire',['InsertEmpire',['../classEmpireManager.html#af022e843eb5a089e5f1f7d4617506a98',1,'EmpireManager']]],
+  ['insertempire',['InsertEmpire',['../classEmpireManager.html#a57c43298a5e043ba68619174acabdbff',1,'EmpireManager']]],
   ['insertfleetwithships',['InsertFleetWithShips',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#a730fb9c571f2d889b333e3deb7cab65f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['inserthullbefore',['InsertHullBefore',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#aeaceb34e6d9c689b566a886ceb7f8b88',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
   ['insertid',['InsertID',['../classUniverse.html#a5b4ae01fb79670997b2fccdc3c83116a',1,'Universe']]],
