@@ -52,6 +52,7 @@ var searchData=
   ['_7emovableenvelope',['~MovableEnvelope',['../classparse_1_1detail_1_1MovableEnvelope.html#a823f32948d2f5217adf04e4c05d1c17f',1,'parse::detail::MovableEnvelope']]],
   ['_7emovingfleetvisitor',['~MovingFleetVisitor',['../structMovingFleetVisitor.html#a3b0bf6c76b2c0817b4cd30116881ebec',1,'MovingFleetVisitor']]],
   ['_7emplobby',['~MPLobby',['../structMPLobby.html#a23d40f9c578b58168c8f0d4c737e35d5',1,'MPLobby::~MPLobby()'],['../structMPLobby.html#a23d40f9c578b58168c8f0d4c737e35d5',1,'MPLobby::~MPLobby()']]],
+  ['_7enamedvaluerefmanager',['~NamedValueRefManager',['../classNamedValueRefManager.html#a4238bc6fe831d2d21b75591c958d5d61',1,'NamedValueRefManager']]],
   ['_7enode',['~Node',['../classTechTreeLayout_1_1Node.html#a52c7ea74c317b10a434cfda466328c0d',1,'TechTreeLayout::Node']]],
   ['_7eobjectlistbox',['~ObjectListBox',['../classObjectListBox.html#a463cc87eb89b80b4ff6a2d88ad24c9f9',1,'ObjectListBox']]],
   ['_7eobjectmap',['~ObjectMap',['../classObjectMap.html#ab8e4bf2ccf81d61aa611e85a1012ecbc',1,'ObjectMap']]],

@@ -7,6 +7,7 @@ var searchData=
   ['valueref_3c_20std_3a_3astring_20_3e',['ValueRef&lt; std::string &gt;',['../structValueRef_1_1ValueRef.html',1,'ValueRef']]],
   ['valueref_3c_20totype_20_3e',['ValueRef&lt; ToType &gt;',['../structValueRef_1_1ValueRef.html',1,'ValueRef']]],
   ['valuerefbase',['ValueRefBase',['../structValueRef_1_1ValueRefBase.html',1,'ValueRef']]],
+  ['valuerefdecorator',['ValueRefDecorator',['../classValueRefDecorator.html',1,'']]],
   ['valuetest',['ValueTest',['../structCondition_1_1ValueTest.html',1,'Condition']]],
   ['variable',['Variable',['../structValueRef_1_1Variable.html',1,'ValueRef']]],
   ['variable_3c_20std_3a_3astring_20_3e',['Variable&lt; std::string &gt;',['../structValueRef_1_1Variable.html',1,'ValueRef']]],

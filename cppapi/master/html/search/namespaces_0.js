@@ -70,6 +70,7 @@ var searchData=
   ['anonymous_5fnamespace_7bmultimeterstatusbar_2ecpp_7d',['anonymous_namespace{MultiMeterStatusBar.cpp}',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmultiplayercommon_2ecpp_7d',['anonymous_namespace{MultiplayerCommon.cpp}',['../namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bmultiplayerlobbywnd_2ecpp_7d',['anonymous_namespace{MultiplayerLobbyWnd.cpp}',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bnamedvaluerefmanager_2ecpp_7d',['anonymous_namespace{NamedValueRefManager.cpp}',['../namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bnetworking_2ecpp_7d',['anonymous_namespace{Networking.cpp}',['../namespaceanonymous__namespace_02Networking_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bobjectlistwnd_2ecpp_7d',['anonymous_namespace{ObjectListWnd.cpp}',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bobjectmap_2ecpp_7d',['anonymous_namespace{ObjectMap.cpp}',['../namespaceanonymous__namespace_02ObjectMap_8cpp_03.html',1,'']]],

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['namedref',['NamedRef',['../structValueRef_1_1NamedRef.html',1,'ValueRef']]],
+  ['namedvaluerefmanager',['NamedValueRefManager',['../classNamedValueRefManager.html',1,'']]],
   ['nameindex',['NameIndex',['../structTechManager_1_1NameIndex.html',1,'TechManager']]],
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html',1,'ValueRef']]],
   ['nativespecies',['NativeSpecies',['../structSpeciesManager_1_1NativeSpecies.html',1,'SpeciesManager']]],

@@ -96,6 +96,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1empire__affiliation__enum__grammar.html">empire_affiliation_enum_grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1grammar.html">grammar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1int__arithmetic__rules.html">int_arithmetic_rules</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structparse_1_1int__complex__parser__grammar.html">int_complex_parser_grammar</a></td></tr>
@@ -145,6 +147,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a5c4331327b73a03e47da6e95dd1ee93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a384cdaa8d06ff39b84a0c36ddc595fc8"><td class="memItemLeft" align="right" valign="top">typedef boost::spirit::lex::lexertl::actor_lexer&lt; <a class="el" href="namespaceparse.html#ac03fc11a7097a23ee17a2a5277c8f14b">token_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a384cdaa8d06ff39b84a0c36ddc595fc8">spirit_lexer_base_type</a></td></tr>
 <tr class="separator:a384cdaa8d06ff39b84a0c36ddc595fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346b004f633608474c706e2c7fc45608"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt; &gt;</td></tr>
+<tr class="separator:a346b004f633608474c706e2c7fc45608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3ec804210b1329b60e06e3b8604860"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a9c3ec804210b1329b60e06e3b8604860">start_rule_signature</a> = void(<a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> &amp;)</td></tr>
+<tr class="separator:a9c3ec804210b1329b60e06e3b8604860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fdb910565cb5bbca5362a46e70273d8"><td class="memItemLeft" align="right" valign="top">typedef std::string::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a2fdb910565cb5bbca5362a46e70273d8">text_iterator</a></td></tr>
 <tr class="memdesc:a2fdb910565cb5bbca5362a46e70273d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of iterator used by the script file lexer.  <a href="#a2fdb910565cb5bbca5362a46e70273d8">More...</a><br /></td></tr>
 <tr class="separator:a2fdb910565cb5bbca5362a46e70273d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,7 +163,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ace79a6a60424802a39476be4336ccb8a"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ace79a6a60424802a39476be4336ccb8a">buildings</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:ace79a6a60424802a39476be4336ccb8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ace79a6a60424802a39476be4336ccb8a">buildings</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ace79a6a60424802a39476be4336ccb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8683307731e9f31b5af7393a1be19ac5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a8683307731e9f31b5af7393a1be19ac5">check_for_cyclic_macro_references</a> (const std::map&lt; std::string, std::string &gt; &amp;macros)</td></tr>
 <tr class="separator:a8683307731e9f31b5af7393a1be19ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,18 +173,21 @@ Functions</h2></td></tr>
 <tr class="separator:a76623ab3d9a849d69ccac3d1e296a2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd514054a56c2a94413cf73b62aff3aa"><td class="memItemLeft" align="right" valign="top">ArticleMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa">encyclopedia_articles</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:abd514054a56c2a94413cf73b62aff3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fb8526a6617947f14921f198f251f4a"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a8fb8526a6617947f14921f198f251f4a">fields</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:a8fb8526a6617947f14921f198f251f4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a8fb8526a6617947f14921f198f251f4a">fields</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:a8fb8526a6617947f14921f198f251f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0a605c00b8565bc9916cd1f430e527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527">file_substitution</a> (std::string &amp;text, const boost::filesystem::path &amp;file_search_path)</td></tr>
 <tr class="memdesc:a5f0a605c00b8565bc9916cd1f430e527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve script directives.  <a href="#a5f0a605c00b8565bc9916cd1f430e527">More...</a><br /></td></tr>
 <tr class="separator:a5f0a605c00b8565bc9916cd1f430e527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d283017da65f69d39594ed7196d10ea"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a2d283017da65f69d39594ed7196d10ea">fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:a2d283017da65f69d39594ed7196d10ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a2d283017da65f69d39594ed7196d10ea">fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:a2d283017da65f69d39594ed7196d10ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad057eac26ac25ccd7d00f1cbc83274bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGameRules.html">GameRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ad057eac26ac25ccd7d00f1cbc83274bc">game_rules</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ad057eac26ac25ccd7d00f1cbc83274bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6080fc5de317b08b480cd28b6c19676"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae6080fc5de317b08b480cd28b6c19676"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ae6080fc5de317b08b480cd28b6c19676">insert_named_ref</a> (std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt;&gt; &amp;named_refs, const std::string &amp;name, const <a class="el" href="classparse_1_1detail_1_1MovableEnvelope.html">parse::detail::MovableEnvelope</a>&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt;&gt; &amp;ref_envelope, bool &amp;pass)</td></tr>
+<tr class="separator:ae6080fc5de317b08b480cd28b6c19676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d256ba6c775ef707e9f435f1fb0bc40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a9d256ba6c775ef707e9f435f1fb0bc40">int_free_variable</a> (std::string &amp;text)</td></tr>
 <tr class="separator:a9d256ba6c775ef707e9f435f1fb0bc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4b22e49498b56bcc252f83b0a2bd345"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac4b22e49498b56bcc252f83b0a2bd345">items</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:ac4b22e49498b56bcc252f83b0a2bd345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac4b22e49498b56bcc252f83b0a2bd345">items</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ac4b22e49498b56bcc252f83b0a2bd345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e397870b7143f9dfd79d3202214c353"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a2e397870b7143f9dfd79d3202214c353">macro_deep_referenced_in_text</a> (const std::string &amp;macro_to_find, const std::string &amp;text, const std::map&lt; std::string, std::string &gt; &amp;macros)</td></tr>
 <tr class="separator:a2e397870b7143f9dfd79d3202214c353"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,8 +195,10 @@ Functions</h2></td></tr>
 <tr class="separator:a7d63ac74a96635a4fc7951e806cd5885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be7c5a0f8b4897249b4d2a5ebc91f14"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a9be7c5a0f8b4897249b4d2a5ebc91f14">macros_directly_referenced_in_text</a> (const std::string &amp;text)</td></tr>
 <tr class="separator:a9be7c5a0f8b4897249b4d2a5ebc91f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab553862286166ac9536f27b56c8aa804"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ab553862286166ac9536f27b56c8aa804">monster_fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:ab553862286166ac9536f27b56c8aa804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ab553862286166ac9536f27b56c8aa804">monster_fleet_plans</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ab553862286166ac9536f27b56c8aa804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88159da7ebebf91011487ade375d6992"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a88159da7ebebf91011487ade375d6992">named_value_refs</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a88159da7ebebf91011487ade375d6992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed4543ed5e77a95880fd60b875836530"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#aed4543ed5e77a95880fd60b875836530">parse_and_erase_macro_definitions</a> (std::string &amp;text, std::map&lt; std::string, std::string &gt; &amp;macros)</td></tr>
 <tr class="separator:aed4543ed5e77a95880fd60b875836530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8126b2065082f0437037f2ba3dd7e122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classPolicy.html">Policy</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a8126b2065082f0437037f2ba3dd7e122">policies</a> (const boost::filesystem::path &amp;path)</td></tr>
@@ -209,9 +220,9 @@ Functions</h2></td></tr>
 <tr class="separator:a1262ee08018c3bb2dd00f9e7395a64b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad76d8ba8ab3f5e20e3034cbe6e4acd55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> <a class="el" href="namespaceparse.html#a5c4331327b73a03e47da6e95dd1ee93b">species_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ad76d8ba8ab3f5e20e3034cbe6e4acd55">species</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ad76d8ba8ab3f5e20e3034cbe6e4acd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf6f0ea684b304c61fa6e11d3a378b00"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#aaf6f0ea684b304c61fa6e11d3a378b00">starting_buildings</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:aaf6f0ea684b304c61fa6e11d3a378b00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#aaf6f0ea684b304c61fa6e11d3a378b00">starting_buildings</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:aaf6f0ea684b304c61fa6e11d3a378b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3174fb216f136bb3cab993b3464ae8c"><td class="memItemLeft" align="right" valign="top">start_rule_payload&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac3174fb216f136bb3cab993b3464ae8c">statistics</a> (const boost::filesystem::path &amp;path)</td></tr>
+<tr class="memitem:ac3174fb216f136bb3cab993b3464ae8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ac3174fb216f136bb3cab993b3464ae8c">statistics</a> (const boost::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ac3174fb216f136bb3cab993b3464ae8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2aded7d4ec83d274065602c38bbc8ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ae2aded7d4ec83d274065602c38bbc8ed">string_free_variable</a> (std::string &amp;text)</td></tr>
 <tr class="separator:ae2aded7d4ec83d274065602c38bbc8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -382,6 +393,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef boost::spirit::lex::lexertl::actor_lexer&lt;<a class="el" href="namespaceparse.html#ac03fc11a7097a23ee17a2a5277c8f14b">token_type</a>&gt; <a class="el" href="namespaceparse.html#a384cdaa8d06ff39b84a0c36ddc595fc8">parse::spirit_lexer_base_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a346b004f633608474c706e2c7fc45608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a346b004f633608474c706e2c7fc45608">&#9670;&nbsp;</a></span>start_rule_payload</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">parse::start_rule_payload</a> = typedef std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c3ec804210b1329b60e06e3b8604860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c3ec804210b1329b60e06e3b8604860">&#9670;&nbsp;</a></span>start_rule_signature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceparse.html#a9c3ec804210b1329b60e06e3b8604860">parse::start_rule_signature</a> = typedef void(<a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a>&amp;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -694,6 +733,50 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae6080fc5de317b08b480cd28b6c19676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6080fc5de317b08b480cd28b6c19676">&#9670;&nbsp;</a></span>insert_named_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void parse::insert_named_ref </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>named_refs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classparse_1_1detail_1_1MovableEnvelope.html">parse::detail::MovableEnvelope</a>&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>ref_envelope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>pass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>.</p>
+
+</div>
+</div>
 <a id="a9d256ba6c775ef707e9f435f1fb0bc40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d256ba6c775ef707e9f435f1fb0bc40">&#9670;&nbsp;</a></span>int_free_variable()</h2>
 
@@ -848,6 +931,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a88159da7ebebf91011487ade375d6992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88159da7ebebf91011487ade375d6992">&#9670;&nbsp;</a></span>named_value_refs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Parse_8h.html#a6594e90222899379b92e1d557fcd4fc5">FO_PARSE_API</a> std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt; &gt; parse::named_value_refs </td>
+          <td>(</td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a8f7befd756051f5377fd24aa1f4d38e2">IsFOCScript()</a>, and <a class="el" href="Directories_8cpp.html#a2be7679fee6ad11454b1fdda0e97dc73">ListDir()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
+
+</div>
+</div>
 <a id="aed4543ed5e77a95880fd60b875836530"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed4543ed5e77a95880fd60b875836530">&#9670;&nbsp;</a></span>parse_and_erase_macro_definitions()</h2>
 
@@ -887,7 +992,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_rule_payload parse::policies </td>
+          <td class="memname"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> parse::policies </td>
           <td>(</td>
           <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -1013,7 +1118,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a2e397870b7143f9dfd79d3202214c353">macro_deep_referenced_in_text()</a>, <a class="el" href="namespaceparse.html#a9e1ced2337fad08a543ae6c83b5e21a7">MACRO_INSERTION</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a2e397870b7143f9dfd79d3202214c353">macro_deep_referenced_in_text()</a>, <a class="el" href="namespaceparse.html#a9e1ced2337fad08a543ae6c83b5e21a7">MACRO_INSERTION</a>, and <a class="el" href="ValueRefs_8cpp.html#a0ee5aa064904cd10eda8fb2e308b2663">to_string()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceparse.html#a7d63ac74a96635a4fc7951e806cd5885">macro_substitution()</a>.</p>
 
@@ -1048,7 +1153,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_rule_payload parse::ship_hulls </td>
+          <td class="memname"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> parse::ship_hulls </td>
           <td>(</td>
           <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -1070,7 +1175,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_rule_payload parse::ship_parts </td>
+          <td class="memname"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> parse::ship_parts </td>
           <td>(</td>
           <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -1092,7 +1197,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_rule_payload parse::specials </td>
+          <td class="memname"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> parse::specials </td>
           <td>(</td>
           <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -1114,7 +1219,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_rule_payload parse::species </td>
+          <td class="memname"><a class="el" href="namespaceparse.html#a346b004f633608474c706e2c7fc45608">start_rule_payload</a> parse::species </td>
           <td>(</td>
           <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -1125,7 +1230,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Directories_8cpp.html#a8f7befd756051f5377fd24aa1f4d38e2">IsFOCScript()</a>, and <a class="el" href="Directories_8cpp.html#a2be7679fee6ad11454b1fdda0e97dc73">ListDir()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12">AutomaticallyChosenColonyShip()</a>, <a class="el" href="classPlanet.html#ae11bf8285065b02005f11d6faa9e93bf">Planet::AvailableFoci()</a>, <a class="el" href="classShip.html#a32684878df38f60356937d5b40425d30">Ship::CanColonize()</a>, <a class="el" href="classPlanet.html#a99099903742ff53c46aee30db8289e6e">Planet::Colonize()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a1fe4b619f6c678590427a83ab49d7367">anonymous_namespace{ServerWrapper.cpp}::CreateShip()</a>, <a class="el" href="classPlanet.html#a040d176766332414a794cd4bddb6cdc4">Planet::EnvironmentForSpecies()</a>, <a class="el" href="structValueRef_1_1Variable.html#a93bda37f2861fe3e88579027bd549b81">ValueRef::Variable&lt; ToType &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae6cf7c4ca147dd20a41cef17d7861208">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetSpecies.html#a744cc77954d1df4c3cd06963b430f44b">Effect::SetSpecies::Execute()</a>, <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet::FocusIcon()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a28e955a313d9d64aea02cf5f4e24d0a9">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetDetailedDescriptionStats()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">Universe::GetEffectsAndTargets()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4b73fa02bfc8a42bdb355b140ab988b8">EncyclopediaDetailPanel::GetItemsSize()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classSpeciesManager.html#afe68fcef9331de2dd621ca922db2b8d9">SpeciesManager::GetSpeciesHomeworldsMap()</a>, <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ab3829871481b1ac64a67beea5ebe4640">anonymous_namespace{SpeciesParser.cpp}::grammar&lt; BracketedParserSignature&lt; focus_type_rule ::sig_type &gt;::Signature_t &gt;::grammar()</a>, <a class="el" href="classShip.html#aaa86ff250a33c3660c95aaedd787b307">Ship::HasTag()</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet::HasTag()</a>, <a class="el" href="namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a2ff3769d244a98e2f7f180248d9c7587">anonymous_namespace{SpeciesParser.cpp}::insert_species()</a>, <a class="el" href="structCondition_1_1Homeworld.html#a3105eb4cf4ec9f39e86f57a36da6b3cd">Condition::Homeworld::Match()</a>, <a class="el" href="structCondition_1_1CanColonize.html#a0fda60050b24d92ec9464aabf8835e2a">Condition::CanColonize::Match()</a>, <a class="el" href="structCondition_1_1CanProduceShips.html#a1ec4d7874b6c7f1a0d05ba9a4e31fe3d">Condition::CanProduceShips::Match()</a>, <a class="el" href="classPlanet.html#ac0e2e759882e70afa9d63c41ed22fdb0">Planet::NextBetterPlanetTypeForSpecies()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1HomeworldSimpleMatch.html#ae2d54119524e11071621a3523b2344a3">Condition::anonymous_namespace{Conditions.cpp}::HomeworldSimpleMatch::operator()()</a>, <a class="el" href="classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a">OwnerColoredSystemName::OwnerColoredSystemName()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a0af017a8b7ad8701930b1afce821ce84">anonymous_namespace{ServerWrapper.cpp}::PlanetMakeColony()</a>, <a class="el" href="classShipDesign.html#a556d903a2f860d7a2bfc1b0617e44afc">ShipDesign::ProductionLocation()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ac95bf73cfaacd5c999bb3e49203f4ef1">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelSpeciesTag()</a>, <a class="el" href="classMapWnd.html#acabb897ee39015e8403df817784e2bcc">MapWnd::RefreshPopulationIndicator()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a4c0b0e3973c743e5d54b4fcfc97ef1a0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::ReportedSpeciesForPlanet()</a>, <a class="el" href="UniverseGenerator_8h.html#aa732a104eaeb775edbe23edbcc702efc">SetEmpireHomeworld()</a>, <a class="el" href="classSpeciesManager.html#a530b72467127757165c89f2f2ce80e15">SpeciesManager::SetSpeciesHomeworlds()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#abd33c492f1177580155983f389548acb">anonymous_namespace{ServerWrapper.cpp}::SpeciesAddHomeworld()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#afed461608fa5705e4a752a284cb6ce98">anonymous_namespace{ServerWrapper.cpp}::SpeciesCanColonize()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a9618bf13786643e86a239d29bce9dd35">anonymous_namespace{ServerWrapper.cpp}::SpeciesDefaultFocus()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#afb7d659e04774009647223c15b9ea209">anonymous_namespace{UniverseWrapper.cpp}::SpeciesFoci()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#afe3420e7510843a2fe66ef1f73cb88ec">anonymous_namespace{ServerWrapper.cpp}::SpeciesGetPlanetEnvironment()</a>, <a class="el" href="classClientUI.html#a0e5fc63c2dce2917c79846c6c4e76c6d">ClientUI::SpeciesIcon()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a68837143e17addf1e6147d5a8155f526">anonymous_namespace{ServerWrapper.cpp}::SpeciesRemoveHomeworld()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ac1de6b48871b95869b00c6c6d3e56980">anonymous_namespace{CombatSystem.cpp}::SpeciesTargettingCondition()</a>, <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet::Tags()</a>, and <a class="el" href="classSpeciesManager.html#af05efa26a64d251bfbb8a7b630cafda6">SpeciesManager::UpdatePopulationCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12">AutomaticallyChosenColonyShip()</a>, <a class="el" href="classPlanet.html#ae11bf8285065b02005f11d6faa9e93bf">Planet::AvailableFoci()</a>, <a class="el" href="classShip.html#a32684878df38f60356937d5b40425d30">Ship::CanColonize()</a>, <a class="el" href="classPlanet.html#a99099903742ff53c46aee30db8289e6e">Planet::Colonize()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a1fe4b619f6c678590427a83ab49d7367">anonymous_namespace{ServerWrapper.cpp}::CreateShip()</a>, <a class="el" href="classPlanet.html#a040d176766332414a794cd4bddb6cdc4">Planet::EnvironmentForSpecies()</a>, <a class="el" href="structValueRef_1_1Variable.html#a93bda37f2861fe3e88579027bd549b81">ValueRef::Variable&lt; ToType &gt;::Eval()</a>, <a class="el" href="structValueRef_1_1ComplexVariable.html#ae6cf7c4ca147dd20a41cef17d7861208">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetSpecies.html#a744cc77954d1df4c3cd06963b430f44b">Effect::SetSpecies::Execute()</a>, <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet::FocusIcon()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a28e955a313d9d64aea02cf5f4e24d0a9">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetDetailedDescriptionStats()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">Universe::GetEffectsAndTargets()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#a4b73fa02bfc8a42bdb355b140ab988b8">EncyclopediaDetailPanel::GetItemsSize()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, <a class="el" href="classSpeciesManager.html#afe68fcef9331de2dd621ca922db2b8d9">SpeciesManager::GetSpeciesHomeworldsMap()</a>, <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ab3829871481b1ac64a67beea5ebe4640">anonymous_namespace{SpeciesParser.cpp}::grammar::grammar()</a>, <a class="el" href="classShip.html#aaa86ff250a33c3660c95aaedd787b307">Ship::HasTag()</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet::HasTag()</a>, <a class="el" href="namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a2ff3769d244a98e2f7f180248d9c7587">anonymous_namespace{SpeciesParser.cpp}::insert_species()</a>, <a class="el" href="structCondition_1_1Homeworld.html#a3105eb4cf4ec9f39e86f57a36da6b3cd">Condition::Homeworld::Match()</a>, <a class="el" href="structCondition_1_1CanColonize.html#a0fda60050b24d92ec9464aabf8835e2a">Condition::CanColonize::Match()</a>, <a class="el" href="structCondition_1_1CanProduceShips.html#a1ec4d7874b6c7f1a0d05ba9a4e31fe3d">Condition::CanProduceShips::Match()</a>, <a class="el" href="classPlanet.html#ac0e2e759882e70afa9d63c41ed22fdb0">Planet::NextBetterPlanetTypeForSpecies()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1HomeworldSimpleMatch.html#ae2d54119524e11071621a3523b2344a3">Condition::anonymous_namespace{Conditions.cpp}::HomeworldSimpleMatch::operator()()</a>, <a class="el" href="classOwnerColoredSystemName.html#a2bead3140d4c5251d95803cfd1bc9a5a">OwnerColoredSystemName::OwnerColoredSystemName()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a0af017a8b7ad8701930b1afce821ce84">anonymous_namespace{ServerWrapper.cpp}::PlanetMakeColony()</a>, <a class="el" href="classShipDesign.html#a556d903a2f860d7a2bfc1b0617e44afc">ShipDesign::ProductionLocation()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ac95bf73cfaacd5c999bb3e49203f4ef1">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelSpeciesTag()</a>, <a class="el" href="classMapWnd.html#acabb897ee39015e8403df817784e2bcc">MapWnd::RefreshPopulationIndicator()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a4c0b0e3973c743e5d54b4fcfc97ef1a0">anonymous_namespace{EncyclopediaDetailPanel.cpp}::ReportedSpeciesForPlanet()</a>, <a class="el" href="UniverseGenerator_8h.html#aa732a104eaeb775edbe23edbcc702efc">SetEmpireHomeworld()</a>, <a class="el" href="classSpeciesManager.html#a530b72467127757165c89f2f2ce80e15">SpeciesManager::SetSpeciesHomeworlds()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#abd33c492f1177580155983f389548acb">anonymous_namespace{ServerWrapper.cpp}::SpeciesAddHomeworld()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#afed461608fa5705e4a752a284cb6ce98">anonymous_namespace{ServerWrapper.cpp}::SpeciesCanColonize()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a9618bf13786643e86a239d29bce9dd35">anonymous_namespace{ServerWrapper.cpp}::SpeciesDefaultFocus()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#afb7d659e04774009647223c15b9ea209">anonymous_namespace{UniverseWrapper.cpp}::SpeciesFoci()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#afe3420e7510843a2fe66ef1f73cb88ec">anonymous_namespace{ServerWrapper.cpp}::SpeciesGetPlanetEnvironment()</a>, <a class="el" href="classClientUI.html#a0e5fc63c2dce2917c79846c6c4e76c6d">ClientUI::SpeciesIcon()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a68837143e17addf1e6147d5a8155f526">anonymous_namespace{ServerWrapper.cpp}::SpeciesRemoveHomeworld()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ac1de6b48871b95869b00c6c6d3e56980">anonymous_namespace{CombatSystem.cpp}::SpeciesTargettingCondition()</a>, <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet::Tags()</a>, and <a class="el" href="classSpeciesManager.html#af05efa26a64d251bfbb8a7b630cafda6">SpeciesManager::UpdatePopulationCounter()</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1601,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02ItemsParser_8cpp_03_1_1grammar.html#a83472a73b8b34caeebef2c2050a8c484">anonymous_namespace{ItemsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02EmpireStatsParser_8cpp_03_1_1grammar.html#a95718f3ef39c639aac8e556c78bb5719">anonymous_namespace{EmpireStatsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1grammar.html#a7a0fa271492a14b5d8d09909910a7f9f">anonymous_namespace{EncyclopediaParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02FleetPlansParser_8cpp_03_1_1grammar.html#af09126dc1b7240db1207787933bdfa15">anonymous_namespace{FleetPlansParser.cpp}::grammar&lt; std::vector&lt; std::string &gt;()&gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02MonsterFleetPlansParser_8cpp_03_1_1grammar.html#a143a4f832b7f9d799345d67cd289579f">anonymous_namespace{MonsterFleetPlansParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02FieldsParser_8cpp_03_1_1grammar.html#abfe0e146cb39a8842a51795fd6b8c4f1">anonymous_namespace{FieldsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02BuildingsParser_8cpp_03_1_1grammar.html#acc90c5e34d055e1d9d68e7cd36677b77">anonymous_namespace{BuildingsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02SpecialsParser_8cpp_03_1_1grammar.html#abdd593fca420809783c21412a0c10f3d">anonymous_namespace{SpecialsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1grammar.html#a5f39c424f31aacf480da5543e987f206">anonymous_namespace{ShipDesignsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipPartsParser_8cpp_03_1_1grammar.html#ad6873ba3ac67961ec769f77b853b658f">anonymous_namespace{ShipPartsParser.cpp}::grammar&lt; BracketedParserSignature&lt; parse::ship_slot_enum_grammar ::sig_type &gt;::Signature_t &gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#a980a8fdade4be77f8c6affdb0e650a09">anonymous_namespace{GameRulesParser.cpp}::grammar&lt; std::set&lt; std::string &gt;()&gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a2d7a8cee96e0e54a575913dba723fd8b">anonymous_namespace{TechsParser.cpp}::grammar&lt; BracketedParserSignature&lt; parse::detail::unlockable_item_grammar ::sig_type &gt;::Signature_t &gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a5e3ebbdf3289e69d6fe4845386ce1768">anonymous_namespace{ShipHullsParser.cpp}::grammar&lt; BracketedParserSignature&lt; slot_rule ::sig_type &gt;::Signature_t &gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02PoliciesParser_8cpp_03_1_1grammar.html#a60fc50c3c26f6db9c4f3e5734e3608ae">anonymous_namespace{PoliciesParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ab3829871481b1ac64a67beea5ebe4640">anonymous_namespace{SpeciesParser.cpp}::grammar&lt; BracketedParserSignature&lt; focus_type_rule ::sig_type &gt;::Signature_t &gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__grammar.html#ae89a895ab714e906f51efea0232c9c28">anonymous_namespace{ShipDesignsParser.cpp}::manifest_grammar::manifest_grammar()</a>, and <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1manifest__grammar.html#a81f4c557cb5b39faf5a883f720ffbe24">anonymous_namespace{SpeciesParser.cpp}::manifest_grammar::manifest_grammar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02ItemsParser_8cpp_03_1_1grammar.html#a83472a73b8b34caeebef2c2050a8c484">anonymous_namespace{ItemsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02EmpireStatsParser_8cpp_03_1_1grammar.html#a95718f3ef39c639aac8e556c78bb5719">anonymous_namespace{EmpireStatsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02EncyclopediaParser_8cpp_03_1_1grammar.html#a7a0fa271492a14b5d8d09909910a7f9f">anonymous_namespace{EncyclopediaParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02FleetPlansParser_8cpp_03_1_1grammar.html#af09126dc1b7240db1207787933bdfa15">anonymous_namespace{FleetPlansParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02MonsterFleetPlansParser_8cpp_03_1_1grammar.html#a143a4f832b7f9d799345d67cd289579f">anonymous_namespace{MonsterFleetPlansParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02FieldsParser_8cpp_03_1_1grammar.html#abfe0e146cb39a8842a51795fd6b8c4f1">anonymous_namespace{FieldsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02BuildingsParser_8cpp_03_1_1grammar.html#acc90c5e34d055e1d9d68e7cd36677b77">anonymous_namespace{BuildingsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structparse_1_1grammar.html#aa67943adea76869f5a82510a399f045b">parse::grammar&lt; double()&gt;::grammar()</a>, <a class="el" href="structanonymous__namespace_02SpecialsParser_8cpp_03_1_1grammar.html#abdd593fca420809783c21412a0c10f3d">anonymous_namespace{SpecialsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1grammar.html#a5f39c424f31aacf480da5543e987f206">anonymous_namespace{ShipDesignsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipPartsParser_8cpp_03_1_1grammar.html#ad6873ba3ac67961ec769f77b853b658f">anonymous_namespace{ShipPartsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html#a980a8fdade4be77f8c6affdb0e650a09">anonymous_namespace{GameRulesParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a2d7a8cee96e0e54a575913dba723fd8b">anonymous_namespace{TechsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a5e3ebbdf3289e69d6fe4845386ce1768">anonymous_namespace{ShipHullsParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02PoliciesParser_8cpp_03_1_1grammar.html#a60fc50c3c26f6db9c4f3e5734e3608ae">anonymous_namespace{PoliciesParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#ab3829871481b1ac64a67beea5ebe4640">anonymous_namespace{SpeciesParser.cpp}::grammar::grammar()</a>, <a class="el" href="structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1manifest__grammar.html#ae89a895ab714e906f51efea0232c9c28">anonymous_namespace{ShipDesignsParser.cpp}::manifest_grammar::manifest_grammar()</a>, and <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1manifest__grammar.html#a81f4c557cb5b39faf5a883f720ffbe24">anonymous_namespace{SpeciesParser.cpp}::manifest_grammar::manifest_grammar()</a>.</p>
 
 </div>
 </div>

@@ -20,6 +20,7 @@ var searchData=
   ['empiretoobjectvisibilitymap',['EmpireToObjectVisibilityMap',['../structInitialStealthEvent.html#af2c5e8c96dedb9771d5fb87264423e67',1,'InitialStealthEvent']]],
   ['empireviewsystemgraph',['EmpireViewSystemGraph',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a883703a28025ca42601efe39f316d971',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['empireviewsystemgraphmap',['EmpireViewSystemGraphMap',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a36ea2a470cecaaa7f9b252ca7ad81395',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
+  ['entry_5ftype',['entry_type',['../classNamedValueRefManager.html#ab673879c055eda8b2ed86ad80b8bba74',1,'NamedValueRefManager']]],
   ['enum_5fgrammar',['enum_grammar',['../namespaceparse_1_1detail.html#a1855fcd758973a742c5d0d3482b2feff',1,'parse::detail']]],
   ['enum_5frule',['enum_rule',['../namespaceparse_1_1detail.html#abc9ab20f6ec07526102bd7d8e54b727a',1,'parse::detail']]],
   ['enveloped_5ftype',['enveloped_type',['../classparse_1_1detail_1_1MovableEnvelope.html#adc714f9bfdd11fe818bc21f47152404f',1,'parse::detail::MovableEnvelope']]],
