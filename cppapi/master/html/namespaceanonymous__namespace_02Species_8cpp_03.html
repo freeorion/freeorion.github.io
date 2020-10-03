@@ -82,6 +82,14 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:af4bb976988c09b9d9c15a6255e8945a7"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#af4bb976988c09b9d9c15a6255e8945a7">EMPTY_STRING</a></td></tr>
 <tr class="separator:af4bb976988c09b9d9c15a6255e8945a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7231c29ebb8e4aae66a671ab35c690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSpeciesManager.html#a270b94b6befe6540154759732cffe190">SpeciesManager::CensusOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#aaa7231c29ebb8e4aae66a671ab35c690">s_census_order</a></td></tr>
+<tr class="separator:aaa7231c29ebb8e4aae66a671ab35c690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842e8377076687c1db110c999ea231c1"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::pair&lt; <a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a>, <a class="el" href="classSpeciesManager.html#a270b94b6befe6540154759732cffe190">SpeciesManager::CensusOrder</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#a842e8377076687c1db110c999ea231c1">s_pending_types</a></td></tr>
+<tr class="separator:a842e8377076687c1db110c999ea231c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48315dadea8f49416509f87274ec894a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#a48315dadea8f49416509f87274ec894a">s_species</a></td></tr>
+<tr class="separator:a48315dadea8f49416509f87274ec894a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764f8485c7bd6d30f0cc0f591fe0907f"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#a764f8485c7bd6d30f0cc0f591fe0907f">species_mutex</a></td></tr>
+<tr class="separator:a764f8485c7bd6d30f0cc0f591fe0907f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="afeae0b50048e106b0e31a870a22d2dea"></a>
@@ -160,7 +168,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceCheckSums.html#aa80d319e50e1916d71140143b2c04513">CheckSums::CheckSumCombine()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classFocusType.html#aad93942ff62d3f295c88f2a865d38040">FocusType::m_description</a>, <a class="el" href="classFocusType.html#acf15a3c6a0df41d2976f760f3e6248ba">FocusType::m_graphic</a>, <a class="el" href="classFocusType.html#ad4e81a97584e5b59df1cc5be62279292">FocusType::m_location</a>, <a class="el" href="classFocusType.html#ac7bd8ca97c08e2076c98c48a1116ad5d">FocusType::m_name</a>, <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>, <a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#a5604e35a47bbb1b7e2b746720ef01229">RingNextPlanetType()</a>, and <a class="el" href="classSpeciesManager.html#aa4850b857c3a145f76df08dfc1ab9802">SpeciesManager::s_instance</a>.</p>
+<p class="reference">References <a class="el" href="namespaceCheckSums.html#aa80d319e50e1916d71140143b2c04513">CheckSums::CheckSumCombine()</a>, <a class="el" href="classFocusType.html#aad93942ff62d3f295c88f2a865d38040">FocusType::m_description</a>, <a class="el" href="classFocusType.html#acf15a3c6a0df41d2976f760f3e6248ba">FocusType::m_graphic</a>, <a class="el" href="classFocusType.html#ad4e81a97584e5b59df1cc5be62279292">FocusType::m_location</a>, <a class="el" href="classFocusType.html#ac7bd8ca97c08e2076c98c48a1116ad5d">FocusType::m_name</a>, and <a class="el" href="namespaceanonymous__namespace_02Species_8cpp_03.html#a5604e35a47bbb1b7e2b746720ef01229">RingNextPlanetType()</a>.</p>
 
 </div>
 </div>
@@ -178,6 +186,70 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classSpeciesManager.html#a1dd08977f5ea67e2024926dc591be251">SpeciesManager::RandomPlayableSpeciesName()</a>, <a class="el" href="classSpeciesManager.html#a56923ac25a9702c1b8789eba34843f68">SpeciesManager::RandomSpeciesName()</a>, and <a class="el" href="classSpeciesManager.html#a783ad6d168e15ac2d6ec91db4386a7ef">SpeciesManager::SequentialPlayableSpeciesName()</a>.</p>
+
+</div>
+</div>
+<a id="aaa7231c29ebb8e4aae66a671ab35c690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa7231c29ebb8e4aae66a671ab35c690">&#9670;&nbsp;</a></span>s_census_order</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSpeciesManager.html#a270b94b6befe6540154759732cffe190">SpeciesManager::CensusOrder</a> anonymous_namespace{Species.cpp}::s_census_order</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSpeciesManager.html#a1d6bf400d415d0b7064f30526034f5d9">SpeciesManager::census_order()</a>, and <a class="el" href="classSpeciesManager.html#a66295b19c7f8b75d69cf77213ce2c953">SpeciesManager::CheckPendingSpeciesTypes()</a>.</p>
+
+</div>
+</div>
+<a id="a842e8377076687c1db110c999ea231c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842e8377076687c1db110c999ea231c1">&#9670;&nbsp;</a></span>s_pending_types</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; std::pair&lt;<a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a>, <a class="el" href="classSpeciesManager.html#a270b94b6befe6540154759732cffe190">SpeciesManager::CensusOrder</a>&gt; &gt; &gt; anonymous_namespace{Species.cpp}::s_pending_types</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSpeciesManager.html#a66295b19c7f8b75d69cf77213ce2c953">SpeciesManager::CheckPendingSpeciesTypes()</a>, and <a class="el" href="classSpeciesManager.html#a105febcf7aa557987fb6c884c2109a57">SpeciesManager::SetSpeciesTypes()</a>.</p>
+
+</div>
+</div>
+<a id="a48315dadea8f49416509f87274ec894a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48315dadea8f49416509f87274ec894a">&#9670;&nbsp;</a></span>s_species</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a> anonymous_namespace{Species.cpp}::s_species</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSpeciesManager.html#a277604fc68ae5f6d25fec03be2b43137">SpeciesManager::begin()</a>, <a class="el" href="classSpeciesManager.html#a66295b19c7f8b75d69cf77213ce2c953">SpeciesManager::CheckPendingSpeciesTypes()</a>, <a class="el" href="classSpeciesManager.html#a93da4207b4180e331754dcb69daaa167">SpeciesManager::empty()</a>, <a class="el" href="classSpeciesManager.html#ae666b410192bcce0eda6d50c335e83e6">SpeciesManager::end()</a>, <a class="el" href="classSpeciesManager.html#aac4c880bb8b2fcfa2a8ddb716e05ea60">SpeciesManager::GetCheckSum()</a>, <a class="el" href="classSpeciesManager.html#a0902ade75d73af77eb64c37e9b76d280">SpeciesManager::GetSpecies()</a>, <a class="el" href="classSpeciesManager.html#a0c49525e5742e44669c1a2139a1a35e7">SpeciesManager::NumSpecies()</a>, and <a class="el" href="classSpeciesManager.html#a56923ac25a9702c1b8789eba34843f68">SpeciesManager::RandomSpeciesName()</a>.</p>
+
+</div>
+</div>
+<a id="a764f8485c7bd6d30f0cc0f591fe0907f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a764f8485c7bd6d30f0cc0f591fe0907f">&#9670;&nbsp;</a></span>species_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex anonymous_namespace{Species.cpp}::species_mutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSpeciesManager.html#a66295b19c7f8b75d69cf77213ce2c953">SpeciesManager::CheckPendingSpeciesTypes()</a>, and <a class="el" href="classSpeciesManager.html#a105febcf7aa557987fb6c884c2109a57">SpeciesManager::SetSpeciesTypes()</a>.</p>
 
 </div>
 </div>

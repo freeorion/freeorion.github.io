@@ -122,6 +122,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a149471521477e0530ffde55b2b6282e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78b">Networking::ClientType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a149471521477e0530ffde55b2b6282e9">GetPlayerClientType</a> (int player_id) const =0</td></tr>
 <tr class="memdesc:a149471521477e0530ffde55b2b6282e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the networking client type for the given player_id.  <a href="#a149471521477e0530ffde55b2b6282e9">More...</a><br /></td></tr>
 <tr class="separator:a149471521477e0530ffde55b2b6282e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698a60703024316814941cab35df2848"><td class="memItemLeft" align="right" valign="top">virtual Species *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a698a60703024316814941cab35df2848">GetSpecies</a> (const std::string &amp;name)=0</td></tr>
+<tr class="separator:a698a60703024316814941cab35df2848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9eeeab0a2dc9c2ad912fd9af6c07fb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a3e9eeeab0a2dc9c2ad912fd9af6c07fb">GetSpeciesManager</a> ()=0</td></tr>
+<tr class="separator:a3e9eeeab0a2dc9c2ad912fd9af6c07fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99fbceb67b271eb8d4178555394abca3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a99fbceb67b271eb8d4178555394abca3">GetSupplyManager</a> ()=0</td></tr>
 <tr class="separator:a99fbceb67b271eb8d4178555394abca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e7b315d57b4e61ace7e5ecb6800644"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIApp.html#a96e7b315d57b4e61ace7e5ecb6800644">GetUniverse</a> ()=0</td></tr>
@@ -291,7 +295,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Returns the current game turn. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number representing the current game turn. </dd></dl>
 
-<p>Implemented in <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp</a>, and <a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">ServerApp</a>.</p>
+<p>Implemented in <a class="el" href="classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2">ServerApp</a>, and <a class="el" href="classClientApp.html#a802b8b6851c05279c2c07def9ce443d8">ClientApp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>.</p>
 
@@ -416,7 +420,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classIApp.html#a00c4b39bf40bbecbc309f6bb72223c0f">s_app</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="AppInterface_8h.html#ad04c142100ab65dc7d8b3eb94cef4b81">EffectsProcessingThreads()</a>, <a class="el" href="AppInterface_8h.html#a7b3be6539b1f335f270f48efe24a0227">EmpireKnownObjects()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="AppInterface_8h.html#aa3762f6e709d0e30db39e470cd79b287">GetEmpireClientType()</a>, <a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData()</a>, <a class="el" href="AppInterface_8h.html#ab19bed831dd079cc9d3aab365342c3fb">GetPathfinder()</a>, <a class="el" href="AppInterface_8h.html#acce3b39e5f9ce4cf863733e0b2fc59c4">GetPlayerClientType()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="AppInterface_8h.html#aa3f8336114df20bf9e1b7232ab962539">GetVisibleObjectName()</a>, and <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="AppInterface_8h.html#ad04c142100ab65dc7d8b3eb94cef4b81">EffectsProcessingThreads()</a>, <a class="el" href="AppInterface_8h.html#a7b3be6539b1f335f270f48efe24a0227">EmpireKnownObjects()</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="AppInterface_8h.html#aa3762f6e709d0e30db39e470cd79b287">GetEmpireClientType()</a>, <a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData()</a>, <a class="el" href="AppInterface_8h.html#ab19bed831dd079cc9d3aab365342c3fb">GetPathfinder()</a>, <a class="el" href="AppInterface_8h.html#acce3b39e5f9ce4cf863733e0b2fc59c4">GetPlayerClientType()</a>, <a class="el" href="AppInterface_8h.html#afd71269e6473ea888c0efada7fd3d53d">GetSpecies()</a>, <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="AppInterface_8h.html#aa3f8336114df20bf9e1b7232ab962539">GetVisibleObjectName()</a>, and <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
 
 </div>
 </div>
@@ -542,6 +546,65 @@ Static Protected Attributes</h2></td></tr>
 <p>Implemented in <a class="el" href="classClientApp.html#a2dbd9100baba4a3d5b49ad2d12123bc9">ClientApp</a>, and <a class="el" href="classServerApp.html#a3e3a08b1fa665203c27f868ab533a9b6">ServerApp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#acce3b39e5f9ce4cf863733e0b2fc59c4">GetPlayerClientType()</a>.</p>
+
+</div>
+</div>
+<a id="a698a60703024316814941cab35df2848"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698a60703024316814941cab35df2848">&#9670;&nbsp;</a></span>GetSpecies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Species* IApp::GetSpecies </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classClientApp.html#abf1134f81f492af96ba309338993337f">ClientApp</a>, and <a class="el" href="classServerApp.html#a46c2f1bc84bf8bb62c2c58bac23ac749">ServerApp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#afd71269e6473ea888c0efada7fd3d53d">GetSpecies()</a>.</p>
+
+</div>
+</div>
+<a id="a3e9eeeab0a2dc9c2ad912fd9af6c07fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9eeeab0a2dc9c2ad912fd9af6c07fb">&#9670;&nbsp;</a></span>GetSpeciesManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classSpeciesManager.html">SpeciesManager</a>&amp; IApp::GetSpeciesManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classClientApp.html#a4af964518a062d73552eadc9539802f4">ClientApp</a>, and <a class="el" href="classServerApp.html#af36940ad9b82599f49d15438a1f301fd">ServerApp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, and <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">StartBackgroundParsing()</a>.</p>
 
 </div>
 </div>
@@ -744,7 +807,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp</a>.</p>
 
-<p class="reference">References <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="namespaceparse.html#ace79a6a60424802a39476be4336ccb8a">parse::buildings()</a>, <a class="el" href="namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa">parse::encyclopedia_articles()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a8fb8526a6617947f14921f198f251f4a">parse::fields()</a>, <a class="el" href="namespaceparse.html#ad057eac26ac25ccd7d00f1cbc83274bc">parse::game_rules()</a>, <a class="el" href="BuildingType_8cpp.html#a6c2ae681b60d6cd38918b5a228fcd4f8">GetBuildingTypeManager()</a>, <a class="el" href="Encyclopedia_8cpp.html#a4f964986fa3c8e5a092172a3ebab812b">GetEncyclopedia()</a>, <a class="el" href="FieldType_8cpp.html#a6fc665437f0013c1b69d9eff0a3a1f1e">GetFieldTypeManager()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="Government_8cpp.html#af3217f22a6918fc542062b133137551f">GetPolicyManager()</a>, <a class="el" href="ShipDesign_8cpp.html#ab3ae875c551ac1bff3075f3a2614bade">GetPredefinedShipDesignManager()</a>, <a class="el" href="Directories_8cpp.html#a81f6224c5d4d41743f756a6116a2b7ab">GetResourceDir()</a>, <a class="el" href="ShipHull_8cpp.html#a3403cd478f5cdaac8e8456f16fdcf383">GetShipHullManager()</a>, <a class="el" href="ShipPart_8cpp.html#a3bd0b306768ab5235f306a10dcab1d89">GetShipPartManager()</a>, <a class="el" href="Special_8cpp.html#a6fe7fd536023c241074bc6bfd3143a41">GetSpecialsManager()</a>, <a class="el" href="Species_8cpp.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="Tech_8cpp.html#a5fb6b34d37fa05a1338d273ae33aa41a">GetTechManager()</a>, <a class="el" href="EmpireManager_8cpp.html#a4a9fc7d94456b828e5917572c26449d4">InitEmpireColors()</a>, <a class="el" href="namespaceparse.html#a88159da7ebebf91011487ade375d6992">parse::named_value_refs()</a>, <a class="el" href="namespaceparse.html#a8126b2065082f0437037f2ba3dd7e122">parse::policies()</a>, <a class="el" href="classEncyclopedia.html#a3acb8e4ee093a6cbb9db57a63594a038">Encyclopedia::SetArticles()</a>, <a class="el" href="classBuildingTypeManager.html#a55b4ce36bff3a6cf758a0f887329db43">BuildingTypeManager::SetBuildingTypes()</a>, <a class="el" href="classFieldTypeManager.html#ab887e46ca2a438a9304056f3e3afe08f">FieldTypeManager::SetFieldTypes()</a>, <a class="el" href="classPredefinedShipDesignManager.html#af0c49bfbc358140f2b2df2863915c0df">PredefinedShipDesignManager::SetMonsterDesignTypes()</a>, <a class="el" href="classPolicyManager.html#af34d2219b5734b87f28c90ded9aff30f">PolicyManager::SetPolicies()</a>, <a class="el" href="classPredefinedShipDesignManager.html#ae5ad214b65c89ff26777a67285138f26">PredefinedShipDesignManager::SetShipDesignTypes()</a>, <a class="el" href="classShipHullManager.html#a3c753aac15cb1522f0d15e9b5fb1b643">ShipHullManager::SetShipHulls()</a>, <a class="el" href="classShipPartManager.html#a927810ea52ab9b59d3bae72abb236d90">ShipPartManager::SetShipParts()</a>, <a class="el" href="classSpecialsManager.html#abb6e610dcea5a5244873ec750aaad64f">SpecialsManager::SetSpecialsTypes()</a>, <a class="el" href="classSpeciesManager.html#a105febcf7aa557987fb6c884c2109a57">SpeciesManager::SetSpeciesTypes()</a>, <a class="el" href="classTechManager.html#ac86f0286aae062e5f7d5843d1d272241">TechManager::SetTechs()</a>, <a class="el" href="namespaceparse.html#a1996f96312128dc5917b4fdc4a17212b">parse::ship_designs()</a>, <a class="el" href="namespaceparse.html#a8fe8f86f09098f4a383b666e7a51e34d">parse::ship_hulls()</a>, <a class="el" href="namespaceparse.html#a09252c1d9ae2bb517fdac39fa544ab1d">parse::ship_parts()</a>, <a class="el" href="namespaceparse.html#a1262ee08018c3bb2dd00f9e7395a64b3">parse::specials()</a>, <a class="el" href="namespaceparse.html#ad76d8ba8ab3f5e20e3034cbe6e4acd55">parse::species()</a>, <a class="el" href="namespacePending.html#aed966a0f348709091542e0cffaafe8ec">Pending::StartParsing()</a>, and <a class="el" href="namespacePending.html#aba7482048c3a01b02770996caf95126e">Pending::WaitForPending()</a>.</p>
+<p class="reference">References <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="namespaceparse.html#ace79a6a60424802a39476be4336ccb8a">parse::buildings()</a>, <a class="el" href="namespaceparse.html#abd514054a56c2a94413cf73b62aff3aa">parse::encyclopedia_articles()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a8fb8526a6617947f14921f198f251f4a">parse::fields()</a>, <a class="el" href="namespaceparse.html#ad057eac26ac25ccd7d00f1cbc83274bc">parse::game_rules()</a>, <a class="el" href="BuildingType_8cpp.html#a6c2ae681b60d6cd38918b5a228fcd4f8">GetBuildingTypeManager()</a>, <a class="el" href="Encyclopedia_8cpp.html#a4f964986fa3c8e5a092172a3ebab812b">GetEncyclopedia()</a>, <a class="el" href="FieldType_8cpp.html#a6fc665437f0013c1b69d9eff0a3a1f1e">GetFieldTypeManager()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="Government_8cpp.html#af3217f22a6918fc542062b133137551f">GetPolicyManager()</a>, <a class="el" href="ShipDesign_8cpp.html#ab3ae875c551ac1bff3075f3a2614bade">GetPredefinedShipDesignManager()</a>, <a class="el" href="Directories_8cpp.html#a81f6224c5d4d41743f756a6116a2b7ab">GetResourceDir()</a>, <a class="el" href="ShipHull_8cpp.html#a3403cd478f5cdaac8e8456f16fdcf383">GetShipHullManager()</a>, <a class="el" href="ShipPart_8cpp.html#a3bd0b306768ab5235f306a10dcab1d89">GetShipPartManager()</a>, <a class="el" href="Special_8cpp.html#a6fe7fd536023c241074bc6bfd3143a41">GetSpecialsManager()</a>, <a class="el" href="classIApp.html#a3e9eeeab0a2dc9c2ad912fd9af6c07fb">GetSpeciesManager()</a>, <a class="el" href="Tech_8cpp.html#a5fb6b34d37fa05a1338d273ae33aa41a">GetTechManager()</a>, <a class="el" href="EmpireManager_8cpp.html#a4a9fc7d94456b828e5917572c26449d4">InitEmpireColors()</a>, <a class="el" href="namespaceparse.html#a88159da7ebebf91011487ade375d6992">parse::named_value_refs()</a>, <a class="el" href="namespaceparse.html#a8126b2065082f0437037f2ba3dd7e122">parse::policies()</a>, <a class="el" href="classEncyclopedia.html#a3acb8e4ee093a6cbb9db57a63594a038">Encyclopedia::SetArticles()</a>, <a class="el" href="classBuildingTypeManager.html#a55b4ce36bff3a6cf758a0f887329db43">BuildingTypeManager::SetBuildingTypes()</a>, <a class="el" href="classFieldTypeManager.html#ab887e46ca2a438a9304056f3e3afe08f">FieldTypeManager::SetFieldTypes()</a>, <a class="el" href="classPredefinedShipDesignManager.html#af0c49bfbc358140f2b2df2863915c0df">PredefinedShipDesignManager::SetMonsterDesignTypes()</a>, <a class="el" href="classPolicyManager.html#af34d2219b5734b87f28c90ded9aff30f">PolicyManager::SetPolicies()</a>, <a class="el" href="classPredefinedShipDesignManager.html#ae5ad214b65c89ff26777a67285138f26">PredefinedShipDesignManager::SetShipDesignTypes()</a>, <a class="el" href="classShipHullManager.html#a3c753aac15cb1522f0d15e9b5fb1b643">ShipHullManager::SetShipHulls()</a>, <a class="el" href="classShipPartManager.html#a927810ea52ab9b59d3bae72abb236d90">ShipPartManager::SetShipParts()</a>, <a class="el" href="classSpecialsManager.html#abb6e610dcea5a5244873ec750aaad64f">SpecialsManager::SetSpecialsTypes()</a>, <a class="el" href="classSpeciesManager.html#a105febcf7aa557987fb6c884c2109a57">SpeciesManager::SetSpeciesTypes()</a>, <a class="el" href="classTechManager.html#ac86f0286aae062e5f7d5843d1d272241">TechManager::SetTechs()</a>, <a class="el" href="namespaceparse.html#a1996f96312128dc5917b4fdc4a17212b">parse::ship_designs()</a>, <a class="el" href="namespaceparse.html#a8fe8f86f09098f4a383b666e7a51e34d">parse::ship_hulls()</a>, <a class="el" href="namespaceparse.html#a09252c1d9ae2bb517fdac39fa544ab1d">parse::ship_parts()</a>, <a class="el" href="namespaceparse.html#a1262ee08018c3bb2dd00f9e7395a64b3">parse::specials()</a>, <a class="el" href="namespaceparse.html#ad76d8ba8ab3f5e20e3034cbe6e4acd55">parse::species()</a>, <a class="el" href="namespacePending.html#aed966a0f348709091542e0cffaafe8ec">Pending::StartParsing()</a>, and <a class="el" href="namespacePending.html#aba7482048c3a01b02770996caf95126e">Pending::WaitForPending()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHumanClientApp.html#ad4c076d2e3420ece850c05841a8e9af0">HumanClientApp::HandleResoureDirChange()</a>, <a class="el" href="classHumanClientApp.html#a9c9fd9f186116720f842981e74252a6d">HumanClientApp::HumanClientApp()</a>, <a class="el" href="classAIClientApp.html#a8ef5a843412ce6e7ab3c41c59a2978e2">AIClientApp::Run()</a>, and <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
 
