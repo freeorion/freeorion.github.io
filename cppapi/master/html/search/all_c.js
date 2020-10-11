@@ -27,7 +27,6 @@ var searchData=
   ['lastturnattackedbyship',['LastTurnAttackedByShip',['../classPlanet.html#a92b46f832f265734ed59a6571fba6782',1,'Planet']]],
   ['lastturncolonized',['LastTurnColonized',['../classPlanet.html#a74e091349916f2bff68a5a8a11cd5e58',1,'Planet']]],
   ['lastturnconquered',['LastTurnConquered',['../classPlanet.html#aa19b817b72f13286c0aaa96d0e92f6c3',1,'Planet']]],
-  ['lastturnmoveordered',['LastTurnMoveOrdered',['../classFleet.html#a98370f908cf0c82bf9e3d11c492a993f',1,'Fleet']]],
   ['launched',['launched',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo_1_1StateQty.html#af59ee2d376e4b1559f367680ad95b322',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::StateQty']]],
   ['launched_5ffrom_5fid',['launched_from_id',['../structFighterLaunchEvent.html#a7c9d0e586e73c49e5634a4f01661af56',1,'FighterLaunchEvent']]],
   ['launchedfrom',['LaunchedFrom',['../classFighter.html#ada38a3f7278c646ac2ab52d35986c0b7',1,'Fighter']]],

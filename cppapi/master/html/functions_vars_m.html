@@ -79,6 +79,12 @@ $(function() {
 <li>m_action
 : <a class="el" href="classProductionQueueOrder.html#ae855a02b9724b4c4c359a3110df2a1bb">ProductionQueueOrder</a>
 </li>
+<li>m_active_fleet_wnd
+: <a class="el" href="classFleetUIManager.html#a5c2801d6b5bfcb1e7a04d81df06597f8">FleetUIManager</a>
+</li>
+<li>m_active_fleet_wnd_signals
+: <a class="el" href="classFleetUIManager.html#a37803e2b2f6971b14b74021632366cd1">FleetUIManager</a>
+</li>
 <li>m_add_ships
 : <a class="el" href="classFleetTransferOrder.html#ad793d004a33192b27b20e403b11a69f6">FleetTransferOrder</a>
 </li>
@@ -99,7 +105,9 @@ $(function() {
 , <a class="el" href="structStartQuittingGame.html#a40b2b8b6e257d59318cab5bddea5370a">StartQuittingGame</a>
 </li>
 <li>m_aggression
-: <a class="el" href="classAggressiveOrder.html#a31a47ad5b40a371263b18480c72fb5bb">AggressiveOrder</a>
+: <a class="el" href="classAggressiveOrder.html#a14d217bf24f7d9d125ffad9f5a541c5d">AggressiveOrder</a>
+, <a class="el" href="classEffect_1_1SetAggression.html#aa22e06e828cc614014a0aff1d9d0989a">Effect::SetAggression</a>
+, <a class="el" href="classNewFleetOrder.html#a4625653e3d168e955405f4c67d7503fc">NewFleetOrder</a>
 , <a class="el" href="classPythonAI.html#addf93207f9558d84fdc834ea5a611951">PythonAI</a>
 </li>
 <li>m_aggression_toggle
@@ -107,9 +115,6 @@ $(function() {
 </li>
 <li>m_aggressive
 : <a class="el" href="structCondition_1_1Aggressive.html#a1f6f9b68b867200a82678e02b1196412">Condition::Aggressive</a>
-, <a class="el" href="classEffect_1_1SetAggression.html#a241b9e1a4127798cd6855c9e43bf50fe">Effect::SetAggression</a>
-, <a class="el" href="classFleet.html#a2740348bedf1605ead224b45fa647d1a">Fleet</a>
-, <a class="el" href="classNewFleetOrder.html#a7dc4091ecc381e9ce46bb16a0625fe53">NewFleetOrder</a>
 </li>
 <li>m_AI
 : <a class="el" href="classAIClientApp.html#aae92bcae2990ce82eadd65d5e8b432ad">AIClientApp</a>
@@ -171,14 +176,8 @@ $(function() {
 <li>m_apply_button
 : <a class="el" href="classFilterDialog.html#a3e04ecf498adf088ed3d131fa0f74bf8">FilterDialog</a>
 </li>
-<li>m_arrival_starlane
-: <a class="el" href="classFleet.html#a8ce86cb17a69d07e0d77c38ec8cbe95c">Fleet</a>
-</li>
 <li>m_arrived_on_turn
 : <a class="el" href="classShip.html#a7e585003966bb2aaa0470863efa28c5d">Ship</a>
-</li>
-<li>m_arrived_this_turn
-: <a class="el" href="classFleet.html#a27ef521fb842f89bab5eb2a6559579da">Fleet</a>
 </li>
 <li>m_articles
 : <a class="el" href="classEncyclopedia.html#afd6ebd53069aa3de7132bb197221d1fc">Encyclopedia</a>
@@ -1463,6 +1462,9 @@ $(function() {
 <li>m_fleet_supplyable_system_ids
 : <a class="el" href="classSupplyManager.html#ad47f351db11cd8371f92db9e46217b69">SupplyManager</a>
 </li>
+<li>m_fleet_wnds
+: <a class="el" href="classFleetUIManager.html#a4dbb7d3371cf07738bd7ede83094944d">FleetUIManager</a>
+</li>
 <li>m_fleets
 : <a class="el" href="classFleetButton.html#af39011740cb93b1d0d0464f53294d6b8">FleetButton</a>
 , <a class="el" href="classObjectMap.html#a52a08e653915dbc4370be82d4d61fdda">ObjectMap</a>
@@ -2052,9 +2054,6 @@ $(function() {
 <li>m_last_turn_focus_changed_turn_initial
 : <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">ResourceCenter</a>
 </li>
-<li>m_last_turn_move_ordered
-: <a class="el" href="classFleet.html#a47e1c94132e220a25cae760a3918c005">Fleet</a>
-</li>
 <li>m_latest_log_id
 : <a class="el" href="classCombatLogManager.html#a60ecc7cc8192ff58653c487edf2f7226">CombatLogManager</a>
 </li>
@@ -2534,7 +2533,7 @@ $(function() {
 : <a class="el" href="classPlayerConnection.html#aa2d1668d303e9fb999b0e1528f5acf13">PlayerConnection</a>
 </li>
 <li>m_new_fleet_aggression
-: <a class="el" href="classFleetDataPanel.html#a6a019b8687b0bb008bda426a4bf8899d">FleetDataPanel</a>
+: <a class="el" href="classFleetDataPanel.html#a6055d5eff19229a62133713f26293f91">FleetDataPanel</a>
 </li>
 <li>m_new_fleet_drop_target
 : <a class="el" href="classFleetWnd.html#ac77d2589a95c64e9f401e78cde30cf79">FleetWnd</a>
@@ -2553,9 +2552,6 @@ $(function() {
 </li>
 <li>m_next_button
 : <a class="el" href="classEncyclopediaDetailPanel.html#a8c513b24bd197f862e54440449a47495">EncyclopediaDetailPanel</a>
-</li>
-<li>m_next_system
-: <a class="el" href="classFleet.html#a2043950efb5bcd5c3374abd2bdba89fa">Fleet</a>
 </li>
 <li>m_next_turn_button
 : <a class="el" href="classSitRepPanel.html#a88f6b964497ea18cff40a45f42ed1913">SitRepPanel</a>
@@ -2719,6 +2715,7 @@ $(function() {
 , <a class="el" href="classBuildingIndicator.html#accb7dc8d850639f07a6338dac7f17199">BuildingIndicator</a>
 , <a class="el" href="classFleetDetailPanel.html#a5924a8f7a9582b097d76fe6369f68b3b">FleetDetailPanel</a>
 , <a class="el" href="classFleetsListBox.html#ac19f85d05a93b5b1d7b641bf2e74f0cd">FleetsListBox</a>
+, <a class="el" href="classFleetUIManager.html#a32dcad9ff2c3027dc5b4eed993d1aef4">FleetUIManager</a>
 , <a class="el" href="classFleetWnd.html#a63b798d19a3f29164745612c159e93d3">FleetWnd</a>
 , <a class="el" href="classProductionWnd.html#a9de347993949f038fa01df102d163c4a">ProductionWnd</a>
 , <a class="el" href="classQueueListBox.html#ae28dd23552271c974c2e4028f7371a28">QueueListBox</a>
@@ -2736,8 +2733,7 @@ $(function() {
 : <a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a97a9ddb3ee6d7da05a8454177ae69b34">anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager</a>
 </li>
 <li>m_ordered_given_to_empire_id
-: <a class="el" href="classFleet.html#a3d8d2bfb3e15b61e188ccd348f6450ae">Fleet</a>
-, <a class="el" href="classPlanet.html#a1dd8c3aca3de7e6482e1b4ddbff21437">Planet</a>
+: <a class="el" href="classPlanet.html#a1dd8c3aca3de7e6482e1b4ddbff21437">Planet</a>
 </li>
 <li>m_ordered_hulls
 : <a class="el" href="classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a9259cd925a2156aa00d00f6f5da9b65f">anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager</a>
@@ -3153,9 +3149,6 @@ $(function() {
 <li>m_prerequisites
 : <a class="el" href="classPolicy.html#af2edf6c0558343119851826cea477c58">Policy</a>
 , <a class="el" href="classTech.html#a34d8f3b9fc57150b1a7741ea1cd52b15">Tech</a>
-</li>
-<li>m_prev_system
-: <a class="el" href="classFleet.html#a29fb5f50de65da6f691c6d476d7441ac">Fleet</a>
 </li>
 <li>m_prev_turn_button
 : <a class="el" href="classSitRepPanel.html#ab2458960d594bc38eee7c472c594ca39">SitRepPanel</a>
@@ -3686,8 +3679,7 @@ $(function() {
 : <a class="el" href="classPredefinedShipDesignManager.html#a415b5233872fb084e624e230de207d61">PredefinedShipDesignManager</a>
 </li>
 <li>m_ships
-: <a class="el" href="classFleet.html#ae2e2ab698a90ee9988665f8a37080352">Fleet</a>
-, <a class="el" href="classObjectMap.html#a44732b5d09cb3c6dc4edadd535b78c9a">ObjectMap</a>
+: <a class="el" href="classObjectMap.html#a44732b5d09cb3c6dc4edadd535b78c9a">ObjectMap</a>
 </li>
 <li>m_ships_lb
 : <a class="el" href="classFleetDetailPanel.html#a478389f44d6b775fee72923cf1d93ef3">FleetDetailPanel</a>
@@ -4390,9 +4382,6 @@ $(function() {
 <li>m_total_turns
 : <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a0d2486f2702a764c21c7c2085f9e25ec">anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel</a>
 , <a class="el" href="classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a191ab15cb2db3d94b71b5eddec16630b">anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel</a>
-</li>
-<li>m_travel_route
-: <a class="el" href="classFleet.html#ad424edbaa661839837bcf055a4401ab7">Fleet</a>
 </li>
 <li>m_troop_capacity
 : <a class="el" href="classShipDesign.html#afc7428ed7abe7d51be3c76d7a97b9432">ShipDesign</a>

@@ -32,7 +32,7 @@ var searchData=
   ['fleet_5fwnd_5fheight',['FLEET_WND_HEIGHT',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#aed309b248467c584835019377f5bd850',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleet_5fwnd_5fname',['FLEET_WND_NAME',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ad3ec390c18fd09c660e91632c1c51938',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleet_5fwnd_5fwidth',['FLEET_WND_WIDTH',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a00025262f826d6e2a43c540f74d5149a',1,'anonymous_namespace{FleetWnd.cpp}']]],
-  ['fleetrightclickedsignal',['FleetRightClickedSignal',['../classFleetWnd.html#a9b4608412cb9c4cc2e592142a5a0ebb5',1,'FleetWnd']]],
+  ['fleetrightclickedsignal',['FleetRightClickedSignal',['../classFleetUIManager.html#a5882705310fbabd1901c84ddfeca6fd9',1,'FleetUIManager::FleetRightClickedSignal()'],['../classFleetWnd.html#a9b4608412cb9c4cc2e592142a5a0ebb5',1,'FleetWnd::FleetRightClickedSignal()']]],
   ['fleets_5fexploring',['fleets_exploring',['../structSaveGameUIData.html#a62b95262a2d22a4fc43a5e42e014b4eb',1,'SaveGameUIData']]],
   ['flexible_5fint',['flexible_int',['../structparse_1_1castable__as__int__parser__rules.html#a3d756b7832f440bacc7e1501ef6e64e2',1,'parse::castable_as_int_parser_rules']]],
   ['foci',['foci',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a20eed86fa24495e39d489c0043b63260',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff::foci()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#aa907317a1e257004f15e6fe4f2bcf23b',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::foci()']]],

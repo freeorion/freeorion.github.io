@@ -2,6 +2,9 @@ var searchData=
 [
   ['abs_5fdir',['abs_dir',['../namespacetag__parser.html#afb1fcde4873260e06c5e8a9544a7f44c',1,'tag_parser']]],
   ['action',['action',['../namespacetag__parser.html#ade4593bdb23f7c895d8642ed9e00ae40',1,'tag_parser']]],
+  ['activefleetwndchangedsignal',['ActiveFleetWndChangedSignal',['../classFleetUIManager.html#a0ba6ae916c11b901c244ac56eb160ffc',1,'FleetUIManager']]],
+  ['activefleetwndselectedfleetschangedsignal',['ActiveFleetWndSelectedFleetsChangedSignal',['../classFleetUIManager.html#ab1ecf906fd9b8cbea612e3dfba7159e7',1,'FleetUIManager']]],
+  ['activefleetwndselectedshipschangedsignal',['ActiveFleetWndSelectedShipsChangedSignal',['../classFleetUIManager.html#ab2395b9c1d440059f27fc1105624c611',1,'FleetUIManager']]],
   ['add_5frule',['add_rule',['../namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html#a2c9cd6e9e0981159d520dd549800d48d',1,'anonymous_namespace{GameRulesParser.cpp}']]],
   ['add_5fspecial_5f1',['add_special_1',['../structparse_1_1detail_1_1effect__parser__rules__3.html#ae22f9573ba7c99dc2cd211e082fb3fbc',1,'parse::detail::effect_parser_rules_3']]],
   ['add_5fspecial_5f2',['add_special_2',['../structparse_1_1detail_1_1effect__parser__rules__3.html#ac0975e5576ebd11b674db9cc8fb421a2',1,'parse::detail::effect_parser_rules_3']]],
