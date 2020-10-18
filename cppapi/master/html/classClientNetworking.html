@@ -63,7 +63,9 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classClientNetworking-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ClientNetworking Class Reference</div>  </div>
@@ -98,8 +100,6 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a55fd4e86486f791040945084aa0866b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a55fd4e86486f791040945084aa0866b0">ClientNetworking</a> ()</td></tr>
-<tr class="separator:a55fd4e86486f791040945084aa0866b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7991eef52f70736431cacee9ac10fd7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a7991eef52f70736431cacee9ac10fd7e">~ClientNetworking</a> ()</td></tr>
 <tr class="separator:a7991eef52f70736431cacee9ac10fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fdd45b2705c2212e799ad5de8711f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNetworking_1_1AuthRoles.html">Networking::AuthRoles</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a2fdd45b2705c2212e799ad5de8711f3f">AuthorizationRoles</a> ()</td></tr>
@@ -150,9 +150,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fd36ed989ed448b772ab90eb2a7fdc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a4fd36ed989ed448b772ab90eb2a7fdc7">PlayerIsHost</a> (int player_id) const</td></tr>
 <tr class="memdesc:a4fd36ed989ed448b772ab90eb2a7fdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the indicated player ID is the host.  <a href="#a4fd36ed989ed448b772ab90eb2a7fdc7">More...</a><br /></td></tr>
 <tr class="separator:a4fd36ed989ed448b772ab90eb2a7fdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade370d5322c61a3b8e91429d584050c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage</a> (const <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
-<tr class="memdesc:ade370d5322c61a3b8e91429d584050c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends <em>message</em> to the server.  <a href="#ade370d5322c61a3b8e91429d584050c4">More...</a><br /></td></tr>
-<tr class="separator:ade370d5322c61a3b8e91429d584050c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b4a8e2ceac45b041ef9bdc167c8eea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">SendMessage</a> (<a class="el" href="classMessage.html">Message</a> message)</td></tr>
+<tr class="memdesc:ad5b4a8e2ceac45b041ef9bdc167c8eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends <em>message</em> to the server.  <a href="#ad5b4a8e2ceac45b041ef9bdc167c8eea">More...</a><br /></td></tr>
+<tr class="separator:ad5b4a8e2ceac45b041ef9bdc167c8eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74417ed292ffb0d78bf677b3233bef13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a74417ed292ffb0d78bf677b3233bef13">SendSelfMessage</a> (<a class="el" href="classMessage.html">Message</a> message)</td></tr>
+<tr class="memdesc:a74417ed292ffb0d78bf677b3233bef13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts <em>message</em> on this client's message queue.  <a href="#a74417ed292ffb0d78bf677b3233bef13">More...</a><br /></td></tr>
+<tr class="separator:a74417ed292ffb0d78bf677b3233bef13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62e02780051d4f2a51357612141c86ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID</a> (int host_player_id)</td></tr>
 <tr class="memdesc:a62e02780051d4f2a51357612141c86ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets Host player ID.  <a href="#a62e02780051d4f2a51357612141c86ef">More...</a><br /></td></tr>
 <tr class="separator:a62e02780051d4f2a51357612141c86ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,10 +163,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a28f0ef07568db37c9f07c9583180fdaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets player ID for this client.  <a href="#a28f0ef07568db37c9f07c9583180fdaf">More...</a><br /></td></tr>
 <tr class="separator:a28f0ef07568db37c9f07c9583180fdaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a55fd4e86486f791040945084aa0866b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a55fd4e86486f791040945084aa0866b0">ClientNetworking</a> ()</td></tr>
+<tr class="separator:a55fd4e86486f791040945084aa0866b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7f751b5e5b8242120c39a4e9ccbe6a28"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classClientNetworking_1_1Impl.html">Impl</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a></td></tr>
 <tr class="separator:a7f751b5e5b8242120c39a4e9ccbe6a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a2a6fd8b1d06ffad67ba0c7ad4f97a0ed"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClientNetworking.html#a2a6fd8b1d06ffad67ba0c7ad4f97a0ed">ClientApp</a></td></tr>
+<tr class="separator:a2a6fd8b1d06ffad67ba0c7ad4f97a0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encapsulates the networking facilities of the client. </p>
@@ -193,6 +206,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ClientNetworking::ClientNetworking </td>
@@ -201,6 +217,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classClientNetworking.html#a7991eef52f70736431cacee9ac10fd7e">~ClientNetworking()</a>.</p>
@@ -607,8 +628,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ade370d5322c61a3b8e91429d584050c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade370d5322c61a3b8e91429d584050c4">&#9670;&nbsp;</a></span>SendMessage()</h2>
+<a id="ad5b4a8e2ceac45b041ef9bdc167c8eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b4a8e2ceac45b041ef9bdc167c8eea">&#9670;&nbsp;</a></span>SendMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -616,7 +637,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void ClientNetworking::SendMessage </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMessage.html">Message</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMessage.html">Message</a>&#160;</td>
           <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
         </tr>
@@ -629,6 +650,28 @@ Private Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classMapWnd.html#a14606e7346393a3fe7e39971ccc50ffb">MapWnd::BuildingRightClicked()</a>, <a class="el" href="classMapWnd.html#a950c8a0feb08fcae72a33433dafc0c67">MapWnd::FieldRightClicked()</a>, <a class="el" href="classMapWnd.html#aea99e10734a00fbda5c68079bce5038c">MapWnd::FleetsRightClicked()</a>, <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="classAIClientApp.html#a164b8f3779c16f34be4d482f1012e4a3">AIClientApp::HandlePythonAICrash()</a>, <a class="el" href="namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#ae52be725180a269b9fceeae5e5efeb4c">anonymous_namespace{PlayerListWnd.cpp}::MakeSendDiplomaticAction()</a>, <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>, <a class="el" href="classPasswordEnterWnd.html#ade86ff7ac5cf68a9db7f57a767fcabcc">PasswordEnterWnd::OkClicked()</a>, <a class="el" href="classMapWnd.html#abcf13edb0f9fcbae85ea63fe757df8cd">MapWnd::PlanetRightClicked()</a>, <a class="el" href="classMapWnd.html#a28ba4caca21761534615a2bf5516a8af">MapWnd::RClick()</a>, <a class="el" href="classAIClientApp.html#a8ef5a843412ce6e7ab3c41c59a2978e2">AIClientApp::Run()</a>, <a class="el" href="namespaceanonymous__namespace_02ChatWnd_8cpp_03.html#a2fc383549df12fc3fc124cc25b40fad0">anonymous_namespace{ChatWnd.cpp}::SendChatMessage()</a>, <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#aa55a7fefb7e809955a68a3a41251e0cc">anonymous_namespace{AIWrapper.cpp}::SendDiplomaticMessage()</a>, <a class="el" href="classMultiPlayerLobbyWnd.html#a806a4d3a4cf3423499779d1fad2f97f0">MultiPlayerLobbyWnd::SendUpdate()</a>, <a class="el" href="classMapWnd.html#adb530232ccd056c3e6ce21c12eb91b73">MapWnd::ShipsRightClicked()</a>, <a class="el" href="classMapWnd.html#a269adf2a5bfabe20476c88fdbd49d092">MapWnd::SystemRightClicked()</a>, and <a class="el" href="namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e">FreeOrionPython::WrapAI()</a>.</p>
+
+</div>
+</div>
+<a id="a74417ed292ffb0d78bf677b3233bef13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74417ed292ffb0d78bf677b3233bef13">&#9670;&nbsp;</a></span>SendSelfMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClientNetworking::SendSelfMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMessage.html">Message</a>&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Puts <em>message</em> on this client's message queue. </p>
+
+<p class="reference">References <a class="el" href="classClientNetworking.html#a7f751b5e5b8242120c39a4e9ccbe6a28">m_impl</a>.</p>
 
 </div>
 </div>
@@ -676,6 +719,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a2a6fd8b1d06ffad67ba0c7ad4f97a0ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6fd8b1d06ffad67ba0c7ad4f97a0ed">&#9670;&nbsp;</a></span>ClientApp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classClientApp.html">ClientApp</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f751b5e5b8242120c39a4e9ccbe6a28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f751b5e5b8242120c39a4e9ccbe6a28">&#9670;&nbsp;</a></span>m_impl</h2>
@@ -697,7 +763,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classClientNetworking.html#a2fdd45b2705c2212e799ad5de8711f3f">AuthorizationRoles()</a>, <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a4a4037b00301bfeab1027c0b33ef7086">Destination()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a03b0a072385aaba20661825adb0862c4">HasAuthRole()</a>, <a class="el" href="classClientNetworking.html#a1a4c81f9b051bb4fd3e9504ffc05732f">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#ab445913fd6f11248a362b68ef5af959e">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a45954c41cc566a02f1bd0f5bd6e81ddf">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#acb0dbd762d1ccf68ff1e94959db200e2">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d">PingLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4">PingServer()</a>, <a class="el" href="classClientNetworking.html#a89cdddf303133b60c180404c8311b160">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a4fd36ed989ed448b772ab90eb2a7fdc7">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ade370d5322c61a3b8e91429d584050c4">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classClientNetworking.html#a2fdd45b2705c2212e799ad5de8711f3f">AuthorizationRoles()</a>, <a class="el" href="classClientNetworking.html#a65574c9565cb743012c7fd76ce4287b8">ConnectToLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#a0a8078a0d8a1d510798f05787ec77c7d">ConnectToServer()</a>, <a class="el" href="classClientNetworking.html#a4a4037b00301bfeab1027c0b33ef7086">Destination()</a>, <a class="el" href="classClientNetworking.html#a9ae59a8aec857759adaa3ecfd8bca14d">DisconnectFromServer()</a>, <a class="el" href="classClientNetworking.html#acb11f553723ec1ff55abadb7516421a8">DiscoverLANServerNames()</a>, <a class="el" href="classClientNetworking.html#a99b0e00e2574b05bf3b3b346b0ad8452">GetMessage()</a>, <a class="el" href="classClientNetworking.html#a03b0a072385aaba20661825adb0862c4">HasAuthRole()</a>, <a class="el" href="classClientNetworking.html#a1a4c81f9b051bb4fd3e9504ffc05732f">HostPlayerID()</a>, <a class="el" href="classClientNetworking.html#ab445913fd6f11248a362b68ef5af959e">IsConnected()</a>, <a class="el" href="classClientNetworking.html#a45954c41cc566a02f1bd0f5bd6e81ddf">IsRxConnected()</a>, <a class="el" href="classClientNetworking.html#acb0dbd762d1ccf68ff1e94959db200e2">IsTxConnected()</a>, <a class="el" href="classClientNetworking.html#a93ae78d68448d4d948ce9fd29ab9009d">PingLocalHostServer()</a>, <a class="el" href="classClientNetworking.html#ae9b90f57a330e3a5d69d098de3fd94c4">PingServer()</a>, <a class="el" href="classClientNetworking.html#a89cdddf303133b60c180404c8311b160">PlayerID()</a>, <a class="el" href="classClientNetworking.html#a4fd36ed989ed448b772ab90eb2a7fdc7">PlayerIsHost()</a>, <a class="el" href="classClientNetworking.html#ad5b4a8e2ceac45b041ef9bdc167c8eea">SendMessage()</a>, <a class="el" href="classClientNetworking.html#a74417ed292ffb0d78bf677b3233bef13">SendSelfMessage()</a>, <a class="el" href="classClientNetworking.html#a62e02780051d4f2a51357612141c86ef">SetHostPlayerID()</a>, and <a class="el" href="classClientNetworking.html#a28f0ef07568db37c9f07c9583180fdaf">SetPlayerID()</a>.</p>
 
 </div>
 </div>

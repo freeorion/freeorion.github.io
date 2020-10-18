@@ -256,6 +256,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a50b1585be4559b46af2d0b92bfc7031e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d45af29659736778a3ddd5134e01e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a6d45af29659736778a3ddd5134e01e34">Objects</a> ()</td></tr>
 <tr class="separator:a6d45af29659736778a3ddd5134e01e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bbf3751c473225866d946dbb5cb7b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=</a> (<a class="el" href="classUniverse.html">Universe</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="separator:ae2bbf3751c473225866d946dbb5cb7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3806b3c06880390b4ea536af2507e5c5"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a3806b3c06880390b4ea536af2507e5c5">RecursiveDestroy</a> (int object_id)</td></tr>
 <tr class="memdesc:a3806b3c06880390b4ea536af2507e5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys object with ID <em>object_id</em>, and destroys any associted objects, such as contained buildings of planets, contained anything of systems, or fleets if their last ship has id <em>object_id</em> and the fleet is thus empty.  <a href="#a3806b3c06880390b4ea536af2507e5c5">More...</a><br /></td></tr>
 <tr class="separator:a3806b3c06880390b4ea536af2507e5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,9 +420,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab27c3333c23723c3f601049ea464419d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIDAllocator.html">IDAllocator</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a></td></tr>
-<tr class="memdesc:ab27c3333c23723c3f601049ea464419d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages allocating and verifying new ship design ids.  <a href="#ab27c3333c23723c3f601049ea464419d">More...</a><br /></td></tr>
-<tr class="separator:ab27c3333c23723c3f601049ea464419d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b7d76d62a495bf3895a0bd373d71e7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIDAllocator.html">IDAllocator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a></td></tr>
+<tr class="memdesc:a32b7d76d62a495bf3895a0bd373d71e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages allocating and verifying new ship design ids.  <a href="#a32b7d76d62a495bf3895a0bd373d71e7">More...</a><br /></td></tr>
+<tr class="separator:a32b7d76d62a495bf3895a0bd373d71e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce9fa5bf3f848b0909d5bf6d5a0d349"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a></td></tr>
 <tr class="memdesc:a3ce9fa5bf3f848b0909d5bf6d5a0d349"><td class="mdescLeft">&#160;</td><td class="mdescRight">all ids of objects that have been destroyed (on server) or that a player knows were destroyed (on clients)  <a href="#a3ce9fa5bf3f848b0909d5bf6d5a0d349">More...</a><br /></td></tr>
 <tr class="separator:a3ce9fa5bf3f848b0909d5bf6d5a0d349"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -453,14 +455,14 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abbb3df7e14bd0bbcf0eb444005cbe533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html#a55d6a322dec14b64417909bccb826193">ObjectKnowledgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a></td></tr>
 <tr class="memdesc:abbb3df7e14bd0bbcf0eb444005cbe533"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from empire id to (set of object ids that the empire has previously observed but has subsequently been unable to detect at its last known location despite expecting to be able to detect it based on stealth of the object and having detectors in range)  <a href="#abbb3df7e14bd0bbcf0eb444005cbe533">More...</a><br /></td></tr>
 <tr class="separator:abbb3df7e14bd0bbcf0eb444005cbe533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eeed52b9770d08122dd8fa1b47a89cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a4eeed52b9770d08122dd8fa1b47a89cc">m_inhibit_universe_object_signals</a></td></tr>
+<tr class="memitem:a4eeed52b9770d08122dd8fa1b47a89cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a4eeed52b9770d08122dd8fa1b47a89cc">m_inhibit_universe_object_signals</a> = false</td></tr>
 <tr class="separator:a4eeed52b9770d08122dd8fa1b47a89cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11da821841f623337fdb42e791bb9cdf"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::set&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a11da821841f623337fdb42e791bb9cdf">m_marked_destroyed</a></td></tr>
 <tr class="memdesc:a11da821841f623337fdb42e791bb9cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">used while applying effects to cache objects that have been destroyed. this allows to-be-destroyed objects to remain undestroyed until all effects have been processed, which ensures that to-be-destroyed objects still exist when other effects need to access them as a source object. key is destroyed object, and value set are the ids of objects that caused the destruction (may be multiples destroying a single target on a given turn)  <a href="#a11da821841f623337fdb42e791bb9cdf">More...</a><br /></td></tr>
 <tr class="separator:a11da821841f623337fdb42e791bb9cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2535bd1d012c3b51a06468add3dcf7d6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIDAllocator.html">IDAllocator</a> &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a></td></tr>
-<tr class="memdesc:a2535bd1d012c3b51a06468add3dcf7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages allocating and verifying new object ids.  <a href="#a2535bd1d012c3b51a06468add3dcf7d6">More...</a><br /></td></tr>
-<tr class="separator:a2535bd1d012c3b51a06468add3dcf7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8422c0c91930d3601ac0e46cd9e888"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIDAllocator.html">IDAllocator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a></td></tr>
+<tr class="memdesc:aae8422c0c91930d3601ac0e46cd9e888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages allocating and verifying new object ids.  <a href="#aae8422c0c91930d3601ac0e46cd9e888">More...</a><br /></td></tr>
+<tr class="separator:aae8422c0c91930d3601ac0e46cd9e888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfaea7299d768dd0941baeab59a04261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a></td></tr>
 <tr class="memdesc:acfaea7299d768dd0941baeab59a04261"><td class="mdescLeft">&#160;</td><td class="mdescRight">map from object id to UniverseObjects in the universe. for the server: all of them, up to date and true information about object is stored; for clients, only limited information based on what the client knows about is sent.  <a href="#acfaea7299d768dd0941baeab59a04261">More...</a><br /></td></tr>
 <tr class="separator:acfaea7299d768dd0941baeab59a04261"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -472,7 +474,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abe21bddab53e153d0849e5a8d1fcafe7"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::map&lt; int, std::map&lt; int, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7">m_stat_records</a></td></tr>
 <tr class="memdesc:abe21bddab53e153d0849e5a8d1fcafe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for statistics calculated for empires. Indexed by stat name (string), contains a map indexed by empire id, contains a map from turn number (int) to stat value (double).  <a href="#abe21bddab53e153d0849e5a8d1fcafe7">More...</a><br /></td></tr>
 <tr class="separator:abe21bddab53e153d0849e5a8d1fcafe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe8e82bd3bf3b81f6a68ad151ec0c2c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a></td></tr>
+<tr class="memitem:abe8e82bd3bf3b81f6a68ad151ec0c2c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a> = 1000.0</td></tr>
 <tr class="separator:abe8e82bd3bf3b81f6a68ad151ec0c2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Parsed items</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Various unlocked items are kept as a <a class="el" href="structPending_1_1Pending.html" title="Pending holds the std::future results of a T. ">Pending::Pending</a> while being parsed and then transfered.</p>
@@ -1655,7 +1657,7 @@ Friends</h2></td></tr>
 <p>Generates design ID for a new (ship) design. </p>
 <p>Usually used by the server to service new ID requests. </p>
 
-<p class="reference">References <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>.</p>
+<p class="reference">References <a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#aadf6035c11b8b13e965e0ccf45b8678a">InsertShipDesign()</a>.</p>
 
@@ -1687,7 +1689,7 @@ Friends</h2></td></tr>
 <p>Generates an object ID for a future object. </p>
 <p>Usually used by the server to service new ID requests. </p>
 
-<p class="reference">References <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>.</p>
+<p class="reference">References <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>.</p>
 
 </div>
 </div>
@@ -2383,7 +2385,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classUniverse.html#a4eeed52b9770d08122dd8fa1b47a89cc">m_inhibit_universe_object_signals</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12">AutomaticallyChosenColonyShip()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classNewFleetOrder.html#a54926d4e023eab1db2a389299d1dc2b2">NewFleetOrder::ExecuteImpl()</a>, <a class="el" href="classFleetTransferOrder.html#aa600807156c209cd9a6d7efb58effbd6">FleetTransferOrder::ExecuteImpl()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a7284f9c2ed84b3cec5e380750f57dd85">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelIncomplDesignTag()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#abb62fdbe59ed797811201acf0a88269e">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelShipDesignTag()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, and <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#af2e370616bb36e11caa364e188655fc7">anonymous_namespace{AIWrapper.cpp}::UpdateMeterEstimates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SidePanel_8cpp.html#ad8ceb96a57e2e8c66789d53cc87ebf12">AutomaticallyChosenColonyShip()</a>, <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>, <a class="el" href="classNewFleetOrder.html#a54926d4e023eab1db2a389299d1dc2b2">NewFleetOrder::ExecuteImpl()</a>, <a class="el" href="classFleetTransferOrder.html#aa600807156c209cd9a6d7efb58effbd6">FleetTransferOrder::ExecuteImpl()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a7284f9c2ed84b3cec5e380750f57dd85">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelIncomplDesignTag()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#abb62fdbe59ed797811201acf0a88269e">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelShipDesignTag()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="classFleetDataPanel.html#aeb85832cf16757d1fa8ef846a8c389f0">FleetDataPanel::ToggleAggression()</a>, and <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#af2e370616bb36e11caa364e188655fc7">anonymous_namespace{AIWrapper.cpp}::UpdateMeterEstimates()</a>.</p>
 
 </div>
 </div>
@@ -2632,7 +2634,7 @@ template&lt;typename T , typename... Args&gt; </div>
 
 <p>Inserts object <code>obj</code> into the universe with the given <code>id</code>. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a5c867a7ad5853b9ba8b3f97577b74836">ObjectMap::insert()</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>, and <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#a5c867a7ad5853b9ba8b3f97577b74836">ObjectMap::insert()</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>, and <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>.</p>
 
 </div>
 </div>
@@ -2731,7 +2733,7 @@ template&lt;typename T , typename... Args&gt; </div>
 <p>Inserts <em>ship_design</em> into the universe with given <em>id</em>; returns true on success, or false on failure. </p>
 <p>An empire id of none indicates that the server is allocating an id on behalf of itself. This can be removed when no longer supporting legacy id allocation in pending Orders. </p><dl class="section note"><dt>Note</dt><dd><a class="el" href="classUniverse.html" title="The Universe class contains the majority of FreeOrion gamestate: All the UniverseObjects in a game...">Universe</a> gains ownership of <em>ship_design</em> once inserted. </dd></dl>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, and <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">ShipDesign::SetID()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, and <a class="el" href="classShipDesign.html#a3b91e4dcc0aa605c6058386055faf178">ShipDesign::SetID()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classShipDesignOrder.html#ac1079978ee37995af9e191c8d3033140">ShipDesignOrder::ExecuteImpl()</a>, <a class="el" href="classUniverse.html#aadf6035c11b8b13e965e0ccf45b8678a">InsertShipDesign()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a7284f9c2ed84b3cec5e380750f57dd85">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelIncomplDesignTag()</a>.</p>
 
@@ -2837,7 +2839,7 @@ template&lt;typename T , typename... Args&gt; </div>
 
 <p>ObfuscateIDGenerator applies randomization to the <a class="el" href="classIDAllocator.html" title="The IDAllocator coordinates the allocation of new IDs between the server and a number of empires...">IDAllocator</a> to prevent clients from inferring too much information about other client's id generation activities. </p>
 
-<p class="reference">References <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>, and <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>.</p>
+<p class="reference">References <a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a>, and <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#ad7c64940da984600f09a6628ab40cb8f">ServerApp::PostCombatProcessTurns()</a>.</p>
 
@@ -2896,6 +2898,34 @@ template&lt;typename T , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespacetag__parser.html#a84d904b5839bc8efb6a2f8d3fd25e1f7">tag_parser::description</a>, <a class="el" href="AppInterface_8h.html#a7b3be6539b1f335f270f48efe24a0227">EmpireKnownObjects()</a>, and <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>.</p>
+
+</div>
+</div>
+<a id="ae2bbf3751c473225866d946dbb5cb7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bbf3751c473225866d946dbb5cb7b0">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classUniverse.html">Universe</a> &amp; Universe::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classUniverse.html">Universe</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a3ce9fa5bf3f848b0909d5bf6d5a0d349">m_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#a770e650e8e48019722452135ce96be74">m_effect_accounting_map</a>, <a class="el" href="classUniverse.html#a6b4f576daa5b86619e78e154964577f6">m_effect_discrepancy_map</a>, <a class="el" href="classUniverse.html#acd23809b3548b865839984cab39123c2">m_effect_specified_empire_object_visibilities</a>, <a class="el" href="classUniverse.html#afe7c66f52cb1247aa4b708747d77a66e">m_empire_known_destroyed_object_ids</a>, <a class="el" href="classUniverse.html#aeff25698819fadf8378f60b60888f850">m_empire_known_ship_design_ids</a>, <a class="el" href="classUniverse.html#a8df25a337c376fe527a228bbc60c17ee">m_empire_latest_known_objects</a>, <a class="el" href="classUniverse.html#acd2e7ba301695fba7d9c66b54e8bc918">m_empire_object_visibility</a>, <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>, <a class="el" href="classUniverse.html#aeccaf7cfe01d032f06894b90ad3c1ccb">m_empire_object_visible_specials</a>, <a class="el" href="classUniverse.html#abbb3df7e14bd0bbcf0eb444005cbe533">m_empire_stale_knowledge_object_ids</a>, <a class="el" href="classUniverse.html#a6e66d411dd8c320feae5b54a48d6ba96">m_empire_stats</a>, <a class="el" href="classUniverse.html#a4eeed52b9770d08122dd8fa1b47a89cc">m_inhibit_universe_object_signals</a>, <a class="el" href="classUniverse.html#a11da821841f623337fdb42e791bb9cdf">m_marked_destroyed</a>, <a class="el" href="classUniverse.html#a1a5e31e3600d7b380d5b2cfe7907b060">m_monster_fleet_plans</a>, <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, <a class="el" href="classUniverse.html#abe21bddab53e153d0849e5a8d1fcafe7">m_stat_records</a>, <a class="el" href="classUniverse.html#abe8e82bd3bf3b81f6a68ad151ec0c2c6">m_universe_width</a>, <a class="el" href="classUniverse.html#ae4546906e2ef8a24b08104a1c8c92d0a">m_unlocked_buildings</a>, <a class="el" href="classUniverse.html#aba577938e148c5b7d2eb5fde1f1b0f7e">m_unlocked_fleet_plans</a>, and <a class="el" href="classUniverse.html#a60f22318ad61fb6bd617144f645be3bb">m_unlocked_items</a>.</p>
 
 </div>
 </div>
@@ -2980,7 +3010,7 @@ template&lt;typename T , typename... Args&gt; </div>
 
 <p>Reset object and ship design id allocation for a new game. </p>
 
-<p class="reference">References <a class="el" href="classObjectMap.html#aeea5defa4f9b05c6b42bcaddffa862c5">ObjectMap::all()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Universe_8cpp.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classUniverse.html#ab27c3333c23723c3f601049ea464419d">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, and <a class="el" href="UniverseObject_8cpp.html#ae9b060d479882eade2e3ae7b8ddf2ed2">TEMPORARY_OBJECT_ID</a>.</p>
+<p class="reference">References <a class="el" href="classObjectMap.html#aeea5defa4f9b05c6b42bcaddffa862c5">ObjectMap::all()</a>, <a class="el" href="Universe_8cpp.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Universe_8cpp.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a>, <a class="el" href="CombatEvents_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a>, <a class="el" href="classUniverse.html#a32b7d76d62a495bf3895a0bd373d71e7">m_design_id_allocator</a>, <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>, <a class="el" href="classUniverse.html#acfaea7299d768dd0941baeab59a04261">m_objects</a>, <a class="el" href="classUniverse.html#a8e4d09a8651b89e59a3098b1ffe3fd13">m_ship_designs</a>, and <a class="el" href="UniverseObject_8cpp.html#ae9b060d479882eade2e3ae7b8ddf2ed2">TEMPORARY_OBJECT_ID</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classServerApp.html#a85276af261855472e7c7efb53ff077e9">ServerApp::GenerateUniverse()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
 
@@ -3746,7 +3776,7 @@ template&lt;typename T , typename... Args&gt; </div>
 
 <p>Verify that an object ID <code>id</code> could be generated by <code>empire_id</code>. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="classUniverse.html#a2535bd1d012c3b51a06468add3dcf7d6">m_object_id_allocator</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="classUniverse.html#aae8422c0c91930d3601ac0e46cd9e888">m_object_id_allocator</a>.</p>
 
 </div>
 </div>
@@ -3796,8 +3826,8 @@ template&lt;typename Archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab27c3333c23723c3f601049ea464419d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27c3333c23723c3f601049ea464419d">&#9670;&nbsp;</a></span>m_design_id_allocator</h2>
+<a id="a32b7d76d62a495bf3895a0bd373d71e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b7d76d62a495bf3895a0bd373d71e7">&#9670;&nbsp;</a></span>m_design_id_allocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3806,7 +3836,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classIDAllocator.html">IDAllocator</a>&gt; const Universe::m_design_id_allocator</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classIDAllocator.html">IDAllocator</a>&gt; Universe::m_design_id_allocator</td>
         </tr>
       </table>
   </td>
@@ -3818,7 +3848,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>Manages allocating and verifying new ship design ids. </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#aadf53884305456c05b6950bdbd3e97a4">GenerateDesignID()</a>, <a class="el" href="classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd">InsertShipDesignID()</a>, <a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">ObfuscateIDGenerator()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#aadf53884305456c05b6950bdbd3e97a4">GenerateDesignID()</a>, <a class="el" href="classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd">InsertShipDesignID()</a>, <a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">ObfuscateIDGenerator()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
 
 </div>
 </div>
@@ -3844,7 +3874,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>all ids of objects that have been destroyed (on server) or that a player knows were destroyed (on clients) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040">Destroy()</a>, <a class="el" href="classUniverse.html#a8e107e3700efd08394f4a0d03546ebb7">DestroyedObjectIds()</a>, <a class="el" href="classUniverse.html#a32daa0f4865d5c794b31f7bfdd1231cb">EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#af4b0f9edd5910b668feb85618ac12665">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">GetEffectsAndTargets()</a>, <a class="el" href="classUniverse.html#a4cba796a9fb2920bd3ce5051d4e57a10">HighestDestroyedObjectID()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">UpdateMeterEstimates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040">Destroy()</a>, <a class="el" href="classUniverse.html#a8e107e3700efd08394f4a0d03546ebb7">DestroyedObjectIds()</a>, <a class="el" href="classUniverse.html#a32daa0f4865d5c794b31f7bfdd1231cb">EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#af4b0f9edd5910b668feb85618ac12665">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">GetEffectsAndTargets()</a>, <a class="el" href="classUniverse.html#a4cba796a9fb2920bd3ce5051d4e57a10">HighestDestroyedObjectID()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a378dea731c53d53ff0a7db1fdf256aa5">UpdateMeterEstimates()</a>.</p>
 
 </div>
 </div>
@@ -3870,7 +3900,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from target object id, to map from target meter, to orderered list of structs with details of an effect and what it does to the meter </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#a54614a5faa1d52da469a4d9ba2a2316a">UpdateMeterEstimates()</a>, and <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#a54614a5faa1d52da469a4d9ba2a2316a">UpdateMeterEstimates()</a>, and <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>.</p>
 
 </div>
 </div>
@@ -3896,7 +3926,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from target object id, to map from target meter, to discrepancy between meter's actual initial value, and the initial value that this meter should have as far as the client can tell: the unknown factor affecting the meter. </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, and <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, and <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>.</p>
 
 </div>
 </div>
@@ -3920,7 +3950,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, and <a class="el" href="classUniverse.html#a6ddf5f9b658971fccd1d9207c3dccc01">SetEffectDerivedVisibility()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, and <a class="el" href="classUniverse.html#a6ddf5f9b658971fccd1d9207c3dccc01">SetEffectDerivedVisibility()</a>.</p>
 
 </div>
 </div>
@@ -3946,7 +3976,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (set of object ids that the empire knows have been destroyed) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a32daa0f4865d5c794b31f7bfdd1231cb">EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#af4b0f9edd5910b668feb85618ac12665">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#acdc4ae614fff5566c79bf496077dbd10">GetEmpireKnownDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a2134dd66b461c0bffafe317ae5df4720">SetEmpireKnowledgeOfDestroyedObject()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a32daa0f4865d5c794b31f7bfdd1231cb">EmpireKnownDestroyedObjectIDs()</a>, <a class="el" href="classUniverse.html#af4b0f9edd5910b668feb85618ac12665">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#acdc4ae614fff5566c79bf496077dbd10">GetEmpireKnownDestroyedObjects()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a2134dd66b461c0bffafe317ae5df4720">SetEmpireKnowledgeOfDestroyedObject()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
 </div>
 </div>
@@ -3972,7 +4002,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>ship designs known to each empire </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a8895ba875a67b2269e870b0ad7280b03">EmpireKnownShipDesignIDs()</a>, <a class="el" href="classUniverse.html#ab2a065f5e8bc9e50acf6e6f7214edd29">GetShipDesignsToSerialize()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a1fc40518aaf0ed600011f1d579c9c398">SetEmpireKnowledgeOfShipDesign()</a>, and <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a8895ba875a67b2269e870b0ad7280b03">EmpireKnownShipDesignIDs()</a>, <a class="el" href="classUniverse.html#ab2a065f5e8bc9e50acf6e6f7214edd29">GetShipDesignsToSerialize()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a1fc40518aaf0ed600011f1d579c9c398">SetEmpireKnowledgeOfShipDesign()</a>, and <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>.</p>
 
 </div>
 </div>
@@ -3998,7 +4028,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (map from object id to latest known information about each object by that empire) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad5e830d92fabe2297d35400a3d44f6e5">EmpireKnownObjects()</a>, <a class="el" href="classUniverse.html#a68d2a5d2b52ed8e94b430e2e2e3d07a1">GetEmpireKnownObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad5e830d92fabe2297d35400a3d44f6e5">EmpireKnownObjects()</a>, <a class="el" href="classUniverse.html#a68d2a5d2b52ed8e94b430e2e2e3d07a1">GetEmpireKnownObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
 </div>
 </div>
@@ -4024,7 +4054,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (map from object id to visibility of that object for that empire) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#af24e9b9897770f0f12b1aec66d5bec8d">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#a3476c35ef12d95c802f5f69dec8c2ace">GetObjectVisibilityByEmpire()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a79e8405134a39f3953d62658be487e5e">SetEmpireObjectVisibility()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#af24e9b9897770f0f12b1aec66d5bec8d">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#a3476c35ef12d95c802f5f69dec8c2ace">GetObjectVisibilityByEmpire()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a79e8405134a39f3953d62658be487e5e">SetEmpireObjectVisibility()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
 </div>
 </div>
@@ -4050,7 +4080,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (map from object id to (map from Visibility rating to turn number on which the empire last saw the object at the indicated Visibility rating or higher) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a83a430c2b76f4407050776a128102431">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#aebb23f24e2408c7abb00d8eac1184373">GetObjectVisibilityTurnMapByEmpire()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a83a430c2b76f4407050776a128102431">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#aebb23f24e2408c7abb00d8eac1184373">GetObjectVisibilityTurnMapByEmpire()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
 
 </div>
 </div>
@@ -4076,7 +4106,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (map from object id to (set of names of specials that empire can see are on that object) ) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="classUniverse.html#a29f6e0b9abd70e3957516d540f10310b">SetEmpireSpecialVisibility()</a>, and <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#a29f6e0b9abd70e3957516d540f10310b">SetEmpireSpecialVisibility()</a>, and <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>.</p>
 
 </div>
 </div>
@@ -4102,7 +4132,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (set of object ids that the empire has previously observed but has subsequently been unable to detect at its last known location despite expecting to be able to detect it based on stealth of the object and having detectors in range) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ae14b6c952c8b50af0483a4cd0f81e89f">EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="classUniverse.html#ac4b69604d6361424e3be3981eb1a9505">GetEmpireStaleKnowledgeObjects()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ae14b6c952c8b50af0483a4cd0f81e89f">EmpireStaleKnowledgeObjectIDs()</a>, <a class="el" href="classUniverse.html#ac4b69604d6361424e3be3981eb1a9505">GetEmpireStaleKnowledgeObjects()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a59636a6bec866af2ed535ff64b7f6502">UpdateEmpireStaleObjectKnowledge()</a>.</p>
 
 </div>
 </div>
@@ -4126,7 +4156,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a869831f245dd1ae7f746edb8ed7ce3ab">EmpireStats()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a869831f245dd1ae7f746edb8ed7ce3ab">EmpireStats()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>
@@ -4140,7 +4170,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Universe::m_inhibit_universe_object_signals</td>
+          <td class="memname">bool Universe::m_inhibit_universe_object_signals = false</td>
         </tr>
       </table>
   </td>
@@ -4150,7 +4180,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#aeb5b8bf6463d5e9e9b5d1317c0e105e2">InhibitUniverseObjectSignals()</a>, and <a class="el" href="classUniverse.html#a4ceb73fea2093799e47fdb47c3b78341">UniverseObjectSignalsInhibited()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#aeb5b8bf6463d5e9e9b5d1317c0e105e2">InhibitUniverseObjectSignals()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, and <a class="el" href="classUniverse.html#a4ceb73fea2093799e47fdb47c3b78341">UniverseObjectSignalsInhibited()</a>.</p>
 
 </div>
 </div>
@@ -4176,7 +4206,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>used while applying effects to cache objects that have been destroyed. this allows to-be-destroyed objects to remain undestroyed until all effects have been processed, which ensures that to-be-destroyed objects still exist when other effects need to access them as a source object. key is destroyed object, and value set are the ids of objects that caused the destruction (may be multiples destroying a single target on a given turn) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad34d9df63f5785cd1a4aa3c5872c4e50">EffectDestroy()</a>, and <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad34d9df63f5785cd1a4aa3c5872c4e50">EffectDestroy()</a>, <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>
@@ -4200,12 +4230,12 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a4ad69236afe5c518616a0a44a54a1811">MonsterFleetPlans()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a4ad69236afe5c518616a0a44a54a1811">MonsterFleetPlans()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>
-<a id="a2535bd1d012c3b51a06468add3dcf7d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2535bd1d012c3b51a06468add3dcf7d6">&#9670;&nbsp;</a></span>m_object_id_allocator</h2>
+<a id="aae8422c0c91930d3601ac0e46cd9e888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae8422c0c91930d3601ac0e46cd9e888">&#9670;&nbsp;</a></span>m_object_id_allocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4214,7 +4244,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classIDAllocator.html">IDAllocator</a>&gt; const Universe::m_object_id_allocator</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classIDAllocator.html">IDAllocator</a>&gt; Universe::m_object_id_allocator</td>
         </tr>
       </table>
   </td>
@@ -4226,7 +4256,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>Manages allocating and verifying new object ids. </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a7dae921872daf2d372abef0f01a4ba21">GenerateObjectID()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">InsertIDCore()</a>, <a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">ObfuscateIDGenerator()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a3a96fb6b17a8b91d84cd477de3952940">VerifyUnusedObjectID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a7dae921872daf2d372abef0f01a4ba21">GenerateObjectID()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">InsertIDCore()</a>, <a class="el" href="classUniverse.html#a291b43e67efac8dc0d16bd505cb68cc7">ObfuscateIDGenerator()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a3a96fb6b17a8b91d84cd477de3952940">VerifyUnusedObjectID()</a>.</p>
 
 </div>
 </div>
@@ -4252,7 +4282,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from object id to UniverseObjects in the universe. for the server: all of them, up to date and true information about object is stored; for clients, only limited information based on what the client knows about is sent. </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a5b2b74781cf8a9f49b632bf4d53b6257">ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7">BackPropagateObjectMeters()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a2c0908c1eeca8794a600fb1211144ea7">CountDestructionInStats()</a>, <a class="el" href="classUniverse.html#ab339e9449235c1d51c8e6bf3f6c52db1">Delete()</a>, <a class="el" href="classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040">Destroy()</a>, <a class="el" href="classUniverse.html#ad5e830d92fabe2297d35400a3d44f6e5">EmpireKnownObjects()</a>, <a class="el" href="classUniverse.html#af256291816f1fbba5c1db899503340ab">EmpireVisibleObjectIDs()</a>, <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">GetEffectsAndTargets()</a>, <a class="el" href="classUniverse.html#af24e9b9897770f0f12b1aec66d5bec8d">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">InsertIDCore()</a>, <a class="el" href="classUniverse.html#a3806b3c06880390b4ea536af2507e5c5">RecursiveDestroy()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="classUniverse.html#a62e81f4816a7286ee92bdfb1b954e09a">ResetAllObjectMeters()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a79e8405134a39f3953d62658be487e5e">SetEmpireObjectVisibility()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>, <a class="el" href="classUniverse.html#a54614a5faa1d52da469a4d9ba2a2316a">UpdateMeterEstimates()</a>, <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>, and <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">UpdateStatRecords()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a5fb64ee34bc85bc6a77e1b7bc617aae6">ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">ApplyEffectDerivedVisibilities()</a>, <a class="el" href="classUniverse.html#a5b2b74781cf8a9f49b632bf4d53b6257">ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7">BackPropagateObjectMeters()</a>, <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a2c0908c1eeca8794a600fb1211144ea7">CountDestructionInStats()</a>, <a class="el" href="classUniverse.html#ab339e9449235c1d51c8e6bf3f6c52db1">Delete()</a>, <a class="el" href="classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040">Destroy()</a>, <a class="el" href="classUniverse.html#ad5e830d92fabe2297d35400a3d44f6e5">EmpireKnownObjects()</a>, <a class="el" href="classUniverse.html#af256291816f1fbba5c1db899503340ab">EmpireVisibleObjectIDs()</a>, <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">ExecuteEffects()</a>, <a class="el" href="classUniverse.html#a459c7c057d2992c682bd999e754a649e">GetEffectsAndTargets()</a>, <a class="el" href="classUniverse.html#af24e9b9897770f0f12b1aec66d5bec8d">GetEmpireObjectVisibilityMap()</a>, <a class="el" href="classUniverse.html#a81cb76241d79f098b5abf2eb30fcbee3">GetObjectsToSerialize()</a>, <a class="el" href="classUniverse.html#a6c4330c42c0faf9c0db1dd267724018e">GetObjectVisibleSpecialsByEmpire()</a>, <a class="el" href="classUniverse.html#aa421bb82e290ea6c829468a8b22e9b24">InitMeterEstimatesAndDiscrepancies()</a>, <a class="el" href="classUniverse.html#aafa07645f8a8e9abc1856c633480c30d">InsertIDCore()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#a3806b3c06880390b4ea536af2507e5c5">RecursiveDestroy()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, <a class="el" href="classUniverse.html#a62e81f4816a7286ee92bdfb1b954e09a">ResetAllObjectMeters()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, <a class="el" href="classUniverse.html#a79e8405134a39f3953d62658be487e5e">SetEmpireObjectVisibility()</a>, <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>, <a class="el" href="classUniverse.html#a6504af0564f90f7cd2ca9c3a779df47d">UpdateEmpireObjectVisibilities()</a>, <a class="el" href="classUniverse.html#a54614a5faa1d52da469a4d9ba2a2316a">UpdateMeterEstimates()</a>, <a class="el" href="classUniverse.html#aa8ce29e74793d0d7bcb1707a5c6bfae3">UpdateMeterEstimatesImpl()</a>, and <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">UpdateStatRecords()</a>.</p>
 
 </div>
 </div>
@@ -4422,7 +4452,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>ship designs in the universe </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad67c16f3f1b2c0780a1ccc4325161a54">DeleteShipDesign()</a>, <a class="el" href="classUniverse.html#a3c7ccb223ef3548572e29547039b69ba">GetGenericShipDesign()</a>, <a class="el" href="classUniverse.html#a94fd99a609b67ec35d0c1a280b3747b0">GetShipDesign()</a>, <a class="el" href="classUniverse.html#ab2a065f5e8bc9e50acf6e6f7214edd29">GetShipDesignsToSerialize()</a>, <a class="el" href="classUniverse.html#aadf6035c11b8b13e965e0ccf45b8678a">InsertShipDesign()</a>, <a class="el" href="classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd">InsertShipDesignID()</a>, <a class="el" href="classUniverse.html#af88396fa4dbaefe20c6052210ae47335">RenameShipDesign()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ad67c16f3f1b2c0780a1ccc4325161a54">DeleteShipDesign()</a>, <a class="el" href="classUniverse.html#a3c7ccb223ef3548572e29547039b69ba">GetGenericShipDesign()</a>, <a class="el" href="classUniverse.html#a94fd99a609b67ec35d0c1a280b3747b0">GetShipDesign()</a>, <a class="el" href="classUniverse.html#ab2a065f5e8bc9e50acf6e6f7214edd29">GetShipDesignsToSerialize()</a>, <a class="el" href="classUniverse.html#aadf6035c11b8b13e965e0ccf45b8678a">InsertShipDesign()</a>, <a class="el" href="classUniverse.html#aa77efa7358e8c65bcc3d3c41b31866dd">InsertShipDesignID()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="classUniverse.html#af88396fa4dbaefe20c6052210ae47335">RenameShipDesign()</a>, <a class="el" href="classUniverse.html#a0375f7a806588ff1cfb45590c5e60b84">ResetAllIDAllocation()</a>, and <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
 
 </div>
 </div>
@@ -4448,7 +4478,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>storage for statistics calculated for empires. Indexed by stat name (string), contains a map indexed by empire id, contains a map from turn number (int) to stat value (double). </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">UpdateStatRecords()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#acee0cef151c1877419ff59b144a464a9">UpdateStatRecords()</a>.</p>
 
 </div>
 </div>
@@ -4462,7 +4492,7 @@ template&lt;typename Archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double Universe::m_universe_width</td>
+          <td class="memname">double Universe::m_universe_width = 1000.0</td>
         </tr>
       </table>
   </td>
@@ -4472,7 +4502,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#acfbd482b9717883e9c624d6b44143c5e">UniverseWidth()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#acfbd482b9717883e9c624d6b44143c5e">UniverseWidth()</a>.</p>
 
 </div>
 </div>
@@ -4496,7 +4526,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ed2601dc18cee1d65f142986743512e">InitiallyUnlockedBuildings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a2ed2601dc18cee1d65f142986743512e">InitiallyUnlockedBuildings()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>
@@ -4520,7 +4550,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#ac82525fa8828e4362cd0f3c2a325d156">InitiallyUnlockedFleetPlans()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#ac82525fa8828e4362cd0f3c2a325d156">InitiallyUnlockedFleetPlans()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>
@@ -4544,7 +4574,7 @@ template&lt;typename Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a74eb8bec624db9ef185124e52a91e189">InitiallyUnlockedItems()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a74eb8bec624db9ef185124e52a91e189">InitiallyUnlockedItems()</a>, and <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>.</p>
 
 </div>
 </div>

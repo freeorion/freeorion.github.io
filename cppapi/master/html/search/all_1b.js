@@ -46,6 +46,7 @@ var searchData=
   ['_7emapscaleline',['~MapScaleLine',['../classMapWnd_1_1MapScaleLine.html#a58da6c759f083bdc64e7a6d44f0ac610',1,'MapWnd::MapScaleLine']]],
   ['_7emapwnd',['~MapWnd',['../classMapWnd.html#a7fea21d056dff02b622a6b71b18c4df6',1,'MapWnd']]],
   ['_7emapwndpopup',['~MapWndPopup',['../classMapWndPopup.html#a3a2cf198f756151476f5bd60a130c13a',1,'MapWndPopup']]],
+  ['_7emessage',['~Message',['../classMessage.html#a072b42f0fb513679105c65ed1ef266e9',1,'Message']]],
   ['_7emilitarypanel',['~MilitaryPanel',['../classMilitaryPanel.html#aaabcca4b41ddbbc85e56cd6734b41fb7',1,'MilitaryPanel']]],
   ['_7emoderatoraction',['~ModeratorAction',['../classModerator_1_1ModeratorAction.html#aed66133f69c51963441e2b6ab576bab9',1,'Moderator::ModeratorAction']]],
   ['_7emovableenvelope',['~MovableEnvelope',['../classparse_1_1detail_1_1MovableEnvelope.html#a823f32948d2f5217adf04e4c05d1c17f',1,'parse::detail::MovableEnvelope']]],

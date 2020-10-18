@@ -93,6 +93,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d812de5a99e4c250ffc18bd562bae88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa92f6c9528152a81d992ef88f42852"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message</a> (MessageType message_type, const std::string &amp;text)</td></tr>
 <tr class="separator:afaa92f6c9528152a81d992ef88f42852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a072b42f0fb513679105c65ed1ef266e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#a072b42f0fb513679105c65ed1ef266e9">~Message</a> ()=default</td></tr>
+<tr class="separator:a072b42f0fb513679105c65ed1ef266e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603db5bdcb497214698691a73ebba916"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Data</a> () const</td></tr>
 <tr class="memdesc:a603db5bdcb497214698691a73ebba916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the underlying buffer.  <a href="#a603db5bdcb497214698691a73ebba916">More...</a><br /></td></tr>
 <tr class="separator:a603db5bdcb497214698691a73ebba916"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,6 +107,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af22d6db31845a581a0ea7510276a5674"><td class="memItemLeft" align="right" valign="top">STARTING_AIS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#af22d6db31845a581a0ea7510276a5674">GG_CLASS_ENUM</a> (PlayerStatus, PLAYING_TURN, WAITING) GG_CLASS_ENUM(EndGameReason</td></tr>
 <tr class="memdesc:af22d6db31845a581a0ea7510276a5674"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; creating AI clients  <a href="#af22d6db31845a581a0ea7510276a5674">More...</a><br /></td></tr>
 <tr class="separator:af22d6db31845a581a0ea7510276a5674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de815b4cb35950ec45d779224459295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#a8de815b4cb35950ec45d779224459295">Reset</a> ()</td></tr>
+<tr class="memdesc:a8de815b4cb35950ec45d779224459295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverts message to same state as after default constructor.  <a href="#a8de815b4cb35950ec45d779224459295">More...</a><br /></td></tr>
+<tr class="separator:a8de815b4cb35950ec45d779224459295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc5035683dbddd73f9525735ea365ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html#a1dc5035683dbddd73f9525735ea365ba">Resize</a> (std::size_t size)</td></tr>
 <tr class="memdesc:a1dc5035683dbddd73f9525735ea365ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the underlying char buffer to <em>size</em> uninitialized bytes.  <a href="#a1dc5035683dbddd73f9525735ea365ba">More...</a><br /></td></tr>
 <tr class="separator:a1dc5035683dbddd73f9525735ea365ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +278,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a072b42f0fb513679105c65ed1ef266e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a072b42f0fb513679105c65ed1ef266e9">&#9670;&nbsp;</a></span>~Message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Message::~Message </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a603db5bdcb497214698691a73ebba916"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a603db5bdcb497214698691a73ebba916">&#9670;&nbsp;</a></span>Data() <span class="overload">[1/2]</span></h2>
@@ -293,7 +323,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classMessage.html#a06fe10ccf9ac8d78a08a3a516b465f44">m_message_text</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Message_8h.html#ab32f7a61ebf14b2af829423f255f892e">ExtractDispatchCombatLogsMessageData()</a>, <a class="el" href="Message_8h.html#ae2dd2df038b85252d2fda817e8e16aa2">ExtractGameStartMessageData()</a>, <a class="el" href="Message_8h.html#ae4a52b20aef54420d405bb95e86084b3">ExtractTurnPartialUpdateMessageData()</a>, <a class="el" href="Message_8h.html#a60603874a0d5f93461de26df13529df4">ExtractTurnUpdateMessageData()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ab7e3f7cf247548759c76c38d21837939">ClientNetworking::Impl::HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">PlayerConnection::HandleMessageHeaderRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Message_8h.html#ab32f7a61ebf14b2af829423f255f892e">ExtractDispatchCombatLogsMessageData()</a>, <a class="el" href="Message_8h.html#ae2dd2df038b85252d2fda817e8e16aa2">ExtractGameStartMessageData()</a>, <a class="el" href="Message_8h.html#ae4a52b20aef54420d405bb95e86084b3">ExtractTurnPartialUpdateMessageData()</a>, <a class="el" href="classClientNetworking_1_1Impl.html#ab7e3f7cf247548759c76c38d21837939">ClientNetworking::Impl::HandleMessageHeaderRead()</a>, and <a class="el" href="classPlayerConnection.html#a09ea9c53d8abbe90c468f28438ecc548">PlayerConnection::HandleMessageHeaderRead()</a>.</p>
 
 </div>
 </div>
@@ -649,6 +679,29 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a8de815b4cb35950ec45d779224459295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de815b4cb35950ec45d779224459295">&#9670;&nbsp;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Message::Reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reverts message to same state as after default constructor. </p>
+
+<p class="reference">References <a class="el" href="classMessage.html#a20eb45a0f46c311b7e346d6a50ef8423">m_message_size</a>, <a class="el" href="classMessage.html#a06fe10ccf9ac8d78a08a3a516b465f44">m_message_text</a>, and <a class="el" href="classMessage.html#ad00e422b792e72859a9671b63090a538">m_type</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">PlayerConnection::HandleMessageBodyRead()</a>.</p>
+
+</div>
+</div>
 <a id="a1dc5035683dbddd73f9525735ea365ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1dc5035683dbddd73f9525735ea365ba">&#9670;&nbsp;</a></span>Resize()</h2>
 
@@ -762,7 +815,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classMessage.html#ad00e422b792e72859a9671b63090a538">m_type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="classHumanClientApp.html#a23e6728f6d3f9407ff70048e30e6a283">HumanClientApp::HandleMessage()</a>, <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">ServerApp::HandleMessage()</a>, <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">PlayerConnection::HandleMessageBodyRead()</a>, <a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">ServerApp::HandleNonPlayerMessage()</a>, <a class="el" href="Message_8h.html#a9b4c4e8c8555e3b844a56b99a8c45e52">HeaderToBuffer()</a>, <a class="el" href="Message_8h.html#a83c618686fd2216017117c89172820ca">operator&lt;&lt;()</a>, and <a class="el" href="Message_8h.html#aa7954a2aa0638f7b615b1991a2aab25f">operator==()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classAIClientApp.html#a0f30a44c53fdd43a5b7cc5e6f19f6821">AIClientApp::HandleMessage()</a>, <a class="el" href="classServerApp.html#acf4c5f008d630921624e0fe2ef2d1151">ServerApp::HandleMessage()</a>, <a class="el" href="classPlayerConnection.html#a5a7ccb119cac5071506e372e8f34cec2">PlayerConnection::HandleMessageBodyRead()</a>, <a class="el" href="classServerApp.html#a7d7decdddec5dd7957bb74129b316d91">ServerApp::HandleNonPlayerMessage()</a>, <a class="el" href="Message_8h.html#a9b4c4e8c8555e3b844a56b99a8c45e52">HeaderToBuffer()</a>, <a class="el" href="Message_8h.html#a83c618686fd2216017117c89172820ca">operator&lt;&lt;()</a>, and <a class="el" href="Message_8h.html#aa7954a2aa0638f7b615b1991a2aab25f">operator==()</a>.</p>
 
 </div>
 </div>
@@ -978,7 +1031,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="Message_8h.html#a44342f29e08b8ecfc19bad1c647ba5f8">BufferToHeader()</a>, <a class="el" href="classMessage.html#a1dc5035683dbddd73f9525735ea365ba">Resize()</a>, <a class="el" href="classMessage.html#a1650429d062e24ff5d7e43be3629e800">Size()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Text()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Message_8h.html#a44342f29e08b8ecfc19bad1c647ba5f8">BufferToHeader()</a>, <a class="el" href="classMessage.html#a8de815b4cb35950ec45d779224459295">Reset()</a>, <a class="el" href="classMessage.html#a1dc5035683dbddd73f9525735ea365ba">Resize()</a>, <a class="el" href="classMessage.html#a1650429d062e24ff5d7e43be3629e800">Size()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Text()</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1055,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Data()</a>, <a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message()</a>, <a class="el" href="classMessage.html#a1dc5035683dbddd73f9525735ea365ba">Resize()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Text()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMessage.html#a603db5bdcb497214698691a73ebba916">Data()</a>, <a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message()</a>, <a class="el" href="classMessage.html#a8de815b4cb35950ec45d779224459295">Reset()</a>, <a class="el" href="classMessage.html#a1dc5035683dbddd73f9525735ea365ba">Resize()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Text()</a>.</p>
 
 </div>
 </div>
@@ -1026,7 +1079,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="Message_8h.html#a44342f29e08b8ecfc19bad1c647ba5f8">BufferToHeader()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#af37692f695ef3293a8eeeec64802cb53">Type()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Message_8h.html#a44342f29e08b8ecfc19bad1c647ba5f8">BufferToHeader()</a>, <a class="el" href="classMessage.html#a8de815b4cb35950ec45d779224459295">Reset()</a>, <a class="el" href="classMessage.html#ab5ab4b3a9bd93987645c67a8615bfd5c">Swap()</a>, and <a class="el" href="classMessage.html#af37692f695ef3293a8eeeec64802cb53">Type()</a>.</p>
 
 </div>
 </div>

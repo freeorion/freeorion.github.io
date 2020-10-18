@@ -20,6 +20,7 @@ var searchData=
   ['thread_5fpool',['thread_pool',['../structboost_1_1asio_1_1thread__pool.html',1,'boost::asio']]],
   ['toggledata',['ToggleData',['../structOptionsBar_1_1ToggleData.html',1,'OptionsBar']]],
   ['turn',['Turn',['../structCondition_1_1Turn.html',1,'Condition']]],
+  ['turndataunpackednotification',['TurnDataUnpackedNotification',['../structWaitingForTurnData_1_1TurnDataUnpackedNotification.html',1,'WaitingForTurnData']]],
   ['turnended',['TurnEnded',['../structTurnEnded.html',1,'']]],
   ['type',['Type',['../structCondition_1_1Type.html',1,'Condition']]],
   ['typerow',['TypeRow',['../classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector_1_1TypeRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::TypeSelector']]],

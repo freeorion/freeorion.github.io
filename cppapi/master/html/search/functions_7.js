@@ -100,6 +100,7 @@ var searchData=
   ['getdefaultresolutionstatic',['GetDefaultResolutionStatic',['../classSDLGUI.html#a242a9286c8fc024fe79be990d28b69a2',1,'SDLGUI']]],
   ['getdefaultstringtablefilename',['GetDefaultStringTableFileName',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#a70c9447c8d6c1081c3c1e015ad161907',1,'anonymous_namespace{i18n.cpp}']]],
   ['getdefaultvaluestring',['GetDefaultValueString',['../classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878',1,'OptionsDB']]],
+  ['getdeferredpostedevent',['GetDeferredPostedEvent',['../classHumanClientApp.html#a03d5c81489b2fd5db8aa2e51c33be577',1,'HumanClientApp']]],
   ['getdescription',['GetDescription',['../classHotkey.html#a3b041ef1cb7a41a2972cd8b1cd0328a0',1,'Hotkey::GetDescription()'],['../classGameRules.html#a5b91a136e02ee2b45168417e40a6d0af',1,'GameRules::GetDescription()'],['../classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26',1,'OptionsDB::GetDescription()']]],
   ['getdesign',['GetDesign',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1SavedDesignsManager.html#a6e0ff685a6930ea201f35ce2f24b1b08',1,'anonymous_namespace{DesignWnd.cpp}::SavedDesignsManager']]],
   ['getdesignid',['GetDesignID',['../classPredefinedShipDesignManager.html#ae0056cb6019df9109aef29e78d2f472b',1,'PredefinedShipDesignManager']]],
