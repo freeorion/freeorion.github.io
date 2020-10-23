@@ -84,6 +84,7 @@ var searchData=
   ['hasxships',['HasXShips',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#ac7aa24fefbec306bd8ebfe5a878b187f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['havewindowfocus',['HaveWindowFocus',['../classHumanClientApp.html#a4b53c99ca35cac82bfcbf62e0597a729',1,'HumanClientApp']]],
   ['headertobuffer',['HeaderToBuffer',['../Message_8cpp.html#a62769c18e37628ccbf82041c7a2f25ac',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp'],['../Message_8h.html#a9b4c4e8c8555e3b844a56b99a8c45e52',1,'HeaderToBuffer(const Message &amp;message, Message::HeaderBuffer &amp;buffer):&#160;Message.cpp']]],
+  ['hexclr',['HexClr',['../EmpireManager_8cpp.html#acbdaf7958a918c2a60daba1a4f1e9c87',1,'EmpireManager.cpp']]],
   ['hiddensitreptemplates',['HiddenSitRepTemplates',['../classSitRepPanel.html#a604f23223a2d9b18e94259e08b2f109d',1,'SitRepPanel']]],
   ['hiddensitreptemplatestringsfromoptions',['HiddenSitRepTemplateStringsFromOptions',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6be4af1fc53fc494b308c101cb882db0',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['hide',['Hide',['../classCUIWnd.html#a4b4e7d174932807755f406bf487d3131',1,'CUIWnd']]],

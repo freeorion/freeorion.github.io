@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['a',['a',['../structCompatColor.html#add25cd97b6685ea7809b4fbba352fc00',1,'CompatColor']]],
   ['about',['About',['../classAbout.html',1,'About'],['../classAbout.html#a6e538bec4fdb4518fee5ccc89363f273',1,'About::About()']]],
   ['about_2ecpp',['About.cpp',['../About_8cpp.html',1,'']]],
   ['about_2eh',['About.h',['../About_8h.html',1,'']]],

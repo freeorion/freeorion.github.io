@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['a',['a',['../structCompatColor.html#add25cd97b6685ea7809b4fbba352fc00',1,'CompatColor']]],
   ['abs_5fdir',['abs_dir',['../namespacetag__parser.html#afb1fcde4873260e06c5e8a9544a7f44c',1,'tag_parser']]],
   ['action',['action',['../namespacetag__parser.html#ade4593bdb23f7c895d8642ed9e00ae40',1,'tag_parser']]],
   ['activefleetwndchangedsignal',['ActiveFleetWndChangedSignal',['../classFleetUIManager.html#a0ba6ae916c11b901c244ac56eb160ffc',1,'FleetUIManager']]],

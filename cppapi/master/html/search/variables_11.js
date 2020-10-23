@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r',['r',['../structCompatColor.html#a2069c17d56277356ad07f4ffda27ffcb',1,'CompatColor']]],
   ['radius2',['radius2',['../classDelauney_1_1DTTriangle.html#a71522c2a6890dcd138e18bf31af7fa22',1,'Delauney::DTTriangle']]],
   ['random',['random',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a78e97cebb2772ce122af2e94a24024b8',1,'parse::detail::condition_parser_rules_3']]],
   ['raw_5ftext_5ftag',['RAW_TEXT_TAG',['../classVarText.html#a63987183f05703378ffd3a1328e0d586',1,'VarText']]],

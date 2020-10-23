@@ -45,7 +45,7 @@ var searchData=
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aa7b7203413fc582aa06d0e64373b23bd',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['wrap',['Wrap',['../classFreeOrionPython_1_1SetWrapper.html#a67186798e6b21a51bda55817dd1051ee',1,'FreeOrionPython::SetWrapper']]],
   ['wrapai',['WrapAI',['../namespaceFreeOrionPython.html#aad76c9ae66c81231926e5bea1a0b920e',1,'FreeOrionPython']]],
-  ['wrapcolortag',['WrapColorTag',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#ad5c8d8ac890cfb42d80be24ff0f49516',1,'anonymous_namespace{CombatEvents.cpp}']]],
+  ['wrapcolortag',['WrapColorTag',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#a8d9d49816d155f5c3d8cda6aec248a4d',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['wrapconfig',['WrapConfig',['../namespaceFreeOrionPython.html#a81aba7428767ee8b6c652bcaf427bb43',1,'FreeOrionPython']]],
   ['wrapempire',['WrapEmpire',['../namespaceFreeOrionPython.html#ac114b1024cf4a2800010271d9bcdce34',1,'FreeOrionPython']]],
   ['wrapgalaxysetupdata',['WrapGalaxySetupData',['../namespaceFreeOrionPython.html#aadeee0b90799a0dbeb16daa367444452',1,'FreeOrionPython']]],

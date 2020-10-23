@@ -10,6 +10,7 @@ var searchData=
   ['effects_5fgroup_5fpayload',['effects_group_payload',['../namespaceparse.html#a0c288c8f13d7dcd5bce11e18ebfe8a17',1,'parse']]],
   ['effects_5fgroup_5frule',['effects_group_rule',['../namespaceparse.html#ac2049eff358b6886007fe1214aeffd76',1,'parse']]],
   ['effects_5fgroup_5fsignature',['effects_group_signature',['../namespaceparse.html#aeab46dad3b377af8ddec4106c806bddb',1,'parse']]],
+  ['empirecolor',['EmpireColor',['../Empire_8h.html#a1e8a0e2740d8c6a0b274da0dde5d6cd0',1,'Empire.h']]],
   ['empireobjectmap',['EmpireObjectMap',['../classUniverse.html#ab2e3c288646f6e8e6d20fbc699f179e9',1,'Universe']]],
   ['empireobjectspecialsmap',['EmpireObjectSpecialsMap',['../classUniverse.html#a0b2abfdbd505010de345a271ee4eb2a6',1,'Universe']]],
   ['empireobjectvisibilitymap',['EmpireObjectVisibilityMap',['../classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d',1,'Universe']]],

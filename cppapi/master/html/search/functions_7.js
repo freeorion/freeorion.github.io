@@ -349,7 +349,7 @@ var searchData=
   ['getturn',['GetTurn',['../classSitRepEntry.html#a2cb8349ca92880f16a74557a005756cb',1,'SitRepEntry']]],
   ['gettype',['GetType',['../classGameRules.html#a1102b650f841ad61c097a079487e8aa3',1,'GameRules']]],
   ['getuniverse',['GetUniverse',['../classClientApp.html#a4fa1d1f1ba778c814b8ce0a3b39cc784',1,'ClientApp::GetUniverse() override'],['../classClientApp.html#a356fcd351b84e79d4b7745d5894d1f13',1,'ClientApp::GetUniverse() const'],['../classServerApp.html#adbc788372ec24760b687eff03802302e',1,'ServerApp::GetUniverse()'],['../classIApp.html#a96e7b315d57b4e61ace7e5ecb6800644',1,'IApp::GetUniverse()'],['../AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4',1,'GetUniverse():&#160;AppInterface.h']]],
-  ['getunusedempirecolour',['GetUnusedEmpireColour',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#acb43c4e6bee98c65a54328500d2661ec',1,'anonymous_namespace{ServerFSM.cpp}']]],
+  ['getunusedempirecolour',['GetUnusedEmpireColour',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a417a06838e91dd6ba81ecf562978ed26',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['getunvalidatedsitrepssortedbyturn',['GetUnvalidatedSitRepsSortedByTurn',['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aaad9f583debda8bbe1611a56da7d1a50',1,'anonymous_namespace{SitRepPanel.cpp}']]],
   ['getusage',['GetUsage',['../classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56',1,'OptionsDB']]],
   ['getuserconfigdir',['GetUserConfigDir',['../Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689',1,'GetUserConfigDir() -&gt; fs::path const:&#160;Directories.cpp'],['../Directories_8h.html#aa6aad524730f38e9ab247a7d7a3e073f',1,'GetUserConfigDir() -&gt; boost::filesystem::path const:&#160;Directories.cpp']]],

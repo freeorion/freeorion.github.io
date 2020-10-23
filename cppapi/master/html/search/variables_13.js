@@ -29,7 +29,7 @@ var searchData=
   ['temporary_5fobject_5fid',['TEMPORARY_OBJECT_ID',['../UniverseObject_8cpp.html#ae9b060d479882eade2e3ae7b8ddf2ed2',1,'TEMPORARY_OBJECT_ID():&#160;UniverseObject.cpp'],['../UniverseObject_8h.html#a98b614daea4a5f4bb8e9d982fa63cd18',1,'TEMPORARY_OBJECT_ID():&#160;UniverseObject.cpp']]],
   ['terminal_5fline_5fwidth',['TERMINAL_LINE_WIDTH',['../namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a000c0c7b649bfbb6965c090bf826e227',1,'anonymous_namespace{OptionsDB.cpp}']]],
   ['text',['text',['../structChatHistoryEntity.html#aeb1127a0b60f59b72a5c2c84a548a32a',1,'ChatHistoryEntity']]],
-  ['text_5fcolor',['text_color',['../structChatHistoryEntity.html#ad1680557c70ff941dcfb285ad1aacd29',1,'ChatHistoryEntity']]],
+  ['text_5fcolor',['text_color',['../structChatHistoryEntity.html#a762cc9b96add00e0d854a758ddae646d',1,'ChatHistoryEntity']]],
   ['text_5fmargin_5fx',['TEXT_MARGIN_X',['../classBuildDesignatorWnd_1_1BuildSelector.html#a3edc4a34945fc7b22448ae4c05346c94',1,'BuildDesignatorWnd::BuildSelector']]],
   ['text_5fmargin_5fy',['TEXT_MARGIN_Y',['../classBuildDesignatorWnd_1_1BuildSelector.html#a84419b691441a2e4173d6ecf713db2ba',1,'BuildDesignatorWnd::BuildSelector']]],
   ['text_5fposn',['text_posn',['../structTextLinker_1_1Link.html#a344c5dacac2ff80e4d4dbece010fc740',1,'TextLinker::Link']]],

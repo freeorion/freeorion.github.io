@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['g',['g',['../structCompatColor.html#a3d3b135ff7110aa272d5693ce80b60cc',1,'CompatColor']]],
   ['g_5fcategories',['g_categories',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a4cca9d6025b95658abc5b0d8d2fc0dcb',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['g_5fcategories_5fseen',['g_categories_seen',['../namespaceanonymous__namespace_02TechsParser_8cpp_03.html#a3bac04a5599ce0f450b222c0ff7b564f',1,'anonymous_namespace{TechsParser.cpp}']]],
   ['g_5finitialized',['g_initialized',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429',1,'anonymous_namespace{Directories.cpp}']]],

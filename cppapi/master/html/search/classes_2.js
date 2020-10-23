@@ -45,6 +45,7 @@ var searchData=
   ['combattarget',['CombatTarget',['../structCondition_1_1CombatTarget.html',1,'Condition']]],
   ['common_5fparams_5frules',['common_params_rules',['../structparse_1_1detail_1_1common__params__rules.html',1,'parse::detail']]],
   ['commonparams',['CommonParams',['../structCommonParams.html',1,'']]],
+  ['compatcolor',['CompatColor',['../structCompatColor.html',1,'']]],
   ['completeddesignlistboxrow',['CompletedDesignListBoxRow',['../classBasesListBox_1_1CompletedDesignListBoxRow.html',1,'BasesListBox']]],
   ['completeddesignslistbox',['CompletedDesignsListBox',['../classCompletedDesignsListBox.html',1,'']]],
   ['complexvariable',['ComplexVariable',['../structValueRef_1_1ComplexVariable.html',1,'ValueRef']]],
