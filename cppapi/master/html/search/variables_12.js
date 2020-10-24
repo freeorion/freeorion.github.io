@@ -102,7 +102,6 @@ var searchData=
   ['simple',['simple',['../structparse_1_1detail_1_1simple__variable__rules.html#a9ad53e6768c141d4b3dd06b31e697571',1,'parse::detail::simple_variable_rules']]],
   ['simple_5fdouble_5frules',['simple_double_rules',['../structparse_1_1double__parser__rules.html#a715abf90aa74e3cd1db2e7c4d98a164f',1,'parse::double_parser_rules']]],
   ['simple_5fint_5frules',['simple_int_rules',['../structparse_1_1detail_1_1visibility__complex__parser__grammar.html#ab28718a342f77c748ec813b5b66f6fa3',1,'parse::detail::visibility_complex_parser_grammar::simple_int_rules()'],['../structparse_1_1detail_1_1string__complex__parser__grammar.html#aaa1e240150f8049c339162b0e67d6c3a',1,'parse::detail::string_complex_parser_grammar::simple_int_rules()'],['../structparse_1_1int__arithmetic__rules.html#a98f382f9ce11f1099fbefbfb87a07e71',1,'parse::int_arithmetic_rules::simple_int_rules()'],['../structparse_1_1double__complex__parser__grammar.html#a6cedfcc12e928ab57e4d4653edf9f635',1,'parse::double_complex_parser_grammar::simple_int_rules()'],['../structparse_1_1double__parser__rules.html#a1536d880b7b49bd2be394fd814a15ee9',1,'parse::double_parser_rules::simple_int_rules()']]],
-  ['since_5fbefore_5ftime_5fage',['SINCE_BEFORE_TIME_AGE',['../classUniverseObject.html#abe2b984a3a123291742c199bd2c80715',1,'UniverseObject']]],
   ['single_5forigin',['single_origin',['../structGetPathsThroughSupplyLanes_1_1PathInfo.html#adbbb17182c04e86b29fd3bc7ab7de1b8',1,'GetPathsThroughSupplyLanes::PathInfo']]],
   ['sitrep_5fwnd_5fname',['SITREP_WND_NAME',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a5a5bced4138e207e195aa317f44c4227',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['size',['size',['../structGalaxySetupData.html#a3c890fb8e7ab1904115edf01c2732dbf',1,'GalaxySetupData']]],
@@ -153,7 +152,6 @@ var searchData=
   ['stat',['stat',['../structanonymous__namespace_02EmpireStatsParser_8cpp_03_1_1grammar.html#a720b36c359866793046a551190596d29',1,'anonymous_namespace{EmpireStatsParser.cpp}::grammar']]],
   ['stat_5ficon_5fpad',['STAT_ICON_PAD',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a8e35900e40c36752b7a9d29169f66d07',1,'anonymous_namespace{CUIControls.cpp}']]],
   ['state_5fbutton_5fbrightening_5fscale_5ffactor',['STATE_BUTTON_BRIGHTENING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html#af7e5c1dade4c6496e217a3ec46571eb7',1,'anonymous_namespace{CUIControls.cpp}']]],
-  ['statechangedsignal',['StateChangedSignal',['../classUniverseObject.html#a2c280579c7102c17005af3d28513f086',1,'UniverseObject']]],
   ['stationary',['stationary',['../structparse_1_1detail_1_1condition__parser__rules__1.html#af1462215b6885517568668614e4a2d61',1,'parse::detail::condition_parser_rules_1']]],
   ['statistic',['statistic',['../structparse_1_1string__parser__grammar.html#a3f7c8b2236676a168164115c3694b851',1,'parse::string_parser_grammar::statistic()'],['../namespaceparse.html#a859fb98bfefc49e63aaf36321ac8f41e',1,'parse::statistic()']]],
   ['statistic_5fcollection_5fexpr',['statistic_collection_expr',['../structparse_1_1detail_1_1arithmetic__rules.html#ab1abbe8a5e539270f37e2fd8949d0059',1,'parse::detail::arithmetic_rules']]],
@@ -193,13 +191,5 @@ var searchData=
   ['systembrowsedsignal',['SystemBrowsedSignal',['../classMapWnd.html#a6aabf9e1aaf3bbaec1888f9299257236',1,'MapWnd']]],
   ['systemleftclickedsignal',['SystemLeftClickedSignal',['../classMapWnd.html#a5cfd28df1f727bc9a1c1593bc6a55176',1,'MapWnd']]],
   ['systemrightclickedsignal',['SystemRightClickedSignal',['../classMapWnd.html#a3792b96eeab08c76ab125cce4612a0fb',1,'MapWnd']]],
-  ['systemselectedsignal',['SystemSelectedSignal',['../classBuildDesignatorWnd.html#a8b7209b9d5979dce2771ae039ecba4e5',1,'BuildDesignatorWnd::SystemSelectedSignal()'],['../classProductionWnd.html#ae141ab21d74ebd321daf4c8a5299e272',1,'ProductionWnd::SystemSelectedSignal()'],['../classSidePanel.html#ae8ca023c43a820616ee13aaf302f45d3',1,'SidePanel::SystemSelectedSignal()']]],
-  ['sz_5fasteroids',['SZ_ASTEROIDS',['../Planet_8h.html#a15385dbf07a72b7b4fefe7200452cd8a',1,'Planet.h']]],
-  ['sz_5fgasgiant',['SZ_GASGIANT',['../Planet_8h.html#a87f834cd8a56c962c0d23b8b06ba94b4',1,'Planet.h']]],
-  ['sz_5fhuge',['SZ_HUGE',['../Planet_8h.html#a47b3e10f3986fdbe99a9dff16279017c',1,'Planet.h']]],
-  ['sz_5flarge',['SZ_LARGE',['../Planet_8h.html#af65f5060cb082bdaffa7173fee5b1988',1,'Planet.h']]],
-  ['sz_5fmedium',['SZ_MEDIUM',['../Planet_8h.html#a2678ca529ebe55a51958cf14dbefc17b',1,'Planet.h']]],
-  ['sz_5fnoworld',['SZ_NOWORLD',['../Planet_8h.html#a1683f7538bac93f760b6120447673e4d',1,'Planet.h']]],
-  ['sz_5fsmall',['SZ_SMALL',['../Planet_8h.html#a9618b288a0577e1d6142b6bca95218f5',1,'Planet.h']]],
-  ['sz_5ftiny',['SZ_TINY',['../Planet_8h.html#a09e1992e6cc9d3fd9c190037c834153e',1,'Planet.h']]]
+  ['systemselectedsignal',['SystemSelectedSignal',['../classBuildDesignatorWnd.html#a8b7209b9d5979dce2771ae039ecba4e5',1,'BuildDesignatorWnd::SystemSelectedSignal()'],['../classProductionWnd.html#ae141ab21d74ebd321daf4c8a5299e272',1,'ProductionWnd::SystemSelectedSignal()'],['../classSidePanel.html#ae8ca023c43a820616ee13aaf302f45d3',1,'SidePanel::SystemSelectedSignal()']]]
 ];

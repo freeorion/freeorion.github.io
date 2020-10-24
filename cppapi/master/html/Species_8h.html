@@ -80,15 +80,15 @@ $(function() {
 <code>#include &lt;boost/algorithm/string/case_conv.hpp&gt;</code><br />
 <code>#include &lt;boost/iterator/filter_iterator.hpp&gt;</code><br />
 <code>#include &lt;boost/optional/optional.hpp&gt;</code><br />
-<code>#include &lt;GG/Enum.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="EnumsFwd_8h.html">EnumsFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Enum_8h.html">../util/Enum.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Export_8h.html">../util/Export.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Pending_8h.html">../util/Pending.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFocusType.html">FocusType</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A setting that a <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> can be assigned to influence what it produces.  <a href="classFocusType.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpecies.html">Species</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A predefined type of population that can exist on a PopulationCenter.  <a href="classSpecies.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html">SpeciesManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds all FreeOrion species.  <a href="classSpeciesManager.html#details">More...</a><br /></td></tr>
@@ -108,9 +108,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2394f1d83c0f735ddbdd62484e0fbd0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Species_8h.html#a2394f1d83c0f735ddbdd62484e0fbd0e">GG_ENUM</a> (PlanetEnvironment, INVALID_PLANET_ENVIRONMENT=-1, PE_UNINHABITABLE, PE_HOSTILE, PE_POOR, PE_ADEQUATE, PE_GOOD, NUM_PLANET_ENVIRONMENTS) class <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> Species</td></tr>
-<tr class="memdesc:a2394f1d83c0f735ddbdd62484e0fbd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Environmental suitability of planets for a particular Species.  <a href="#a2394f1d83c0f735ddbdd62484e0fbd0e">More...</a><br /></td></tr>
-<tr class="separator:a2394f1d83c0f735ddbdd62484e0fbd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab6ebc4a11745696c98961b57b8363b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Species_8h.html#a0ab6ebc4a11745696c98961b57b8363b">FO_ENUM</a> ((PlanetEnvironment),((INVALID_PLANET_ENVIRONMENT, -1))((PE_UNINHABITABLE))((PE_HOSTILE))((PE_POOR))((PE_ADEQUATE))((PE_GOOD))((NUM_PLANET_ENVIRONMENTS))) class <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> FocusType</td></tr>
+<tr class="memdesc:a0ab6ebc4a11745696c98961b57b8363b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Environmental suitability of planets for a particular <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a>.  <a href="#a0ab6ebc4a11745696c98961b57b8363b">More...</a><br /></td></tr>
+<tr class="separator:a0ab6ebc4a11745696c98961b57b8363b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -118,58 +118,22 @@ Variables</h2></td></tr>
 <tr class="separator:adf0949728524f517fbcb598686053a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2394f1d83c0f735ddbdd62484e0fbd0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2394f1d83c0f735ddbdd62484e0fbd0e">&#9670;&nbsp;</a></span>GG_ENUM()</h2>
+<a id="a0ab6ebc4a11745696c98961b57b8363b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab6ebc4a11745696c98961b57b8363b">&#9670;&nbsp;</a></span>FO_ENUM()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GG_ENUM </td>
+          <td class="memname">FO_ENUM </td>
           <td>(</td>
-          <td class="paramtype">PlanetEnvironment&#160;</td>
+          <td class="paramtype">(PlanetEnvironment)&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">INVALID_PLANET_ENVIRONMENT&#160;</td>
-          <td class="paramname"> = <code>-1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PE_UNINHABITABLE&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PE_HOSTILE&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PE_POOR&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PE_ADEQUATE&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PE_GOOD&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">NUM_PLANET_ENVIRONMENTS&#160;</td>
+          <td class="paramtype">((INVALID_PLANET_ENVIRONMENT, -1))((PE_UNINHABITABLE))((PE_HOSTILE))((PE_POOR))((PE_ADEQUATE))((PE_GOOD))((NUM_PLANET_ENVIRONMENTS))&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -180,16 +144,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Environmental suitability of planets for a particular Species. </p>
-<p>A predefined type of population that can exist on a PopulationCenter. Species have associated sets of EffectsGroups, and various other properties that affect how the object on which they reside functions. Each kind of Species must have a <em>unique</em> name string, by which it can be looked up using <a class="el" href="AppInterface_8h.html#afd71269e6473ea888c0efada7fd3d53d" title="Accessor for Species. ">GetSpecies()</a>. </p>
-<p>returns a text description of this type of species</p>
+<p>Environmental suitability of planets for a particular <a class="el" href="classSpecies.html" title="A predefined type of population that can exist on a PopulationCenter. ">Species</a>. </p>
+<p>A setting that a <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> can be assigned to influence what it produces. Doesn't directly affect the <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a>, but effectsgroups can use activation or scope conditions that check whether a potential target has a particular focus. By this method, techs or buildings or species can act on planets or other ResourceCenters depending what their focus setting is. </p>
 <p>&lt; returns a data file format representation of this object</p>
-<p>&lt; returns the PlanetEnvironment this species has on PlanetType <em>planet_type</em> </p>
-<p>&lt; returns the next better PlanetType for this species from the <em>initial_planet_type</em> specified</p>
-<p>Returns the EffectsGroups that encapsulate the effects that species of this type have.</p>
 <p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
-<p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>, and <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#aea2ae77cb715cf25403471eaecdd9030">anonymous_namespace{XMLDoc.cpp}::Name</a>.</p>
+<p class="reference">References <a class="el" href="namespacetag__parser.html#a84d904b5839bc8efb6a2f8d3fd25e1f7">tag_parser::description</a>, <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>, and <a class="el" href="namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#aea2ae77cb715cf25403471eaecdd9030">anonymous_namespace{XMLDoc.cpp}::Name</a>.</p>
 
 </div>
 </div>

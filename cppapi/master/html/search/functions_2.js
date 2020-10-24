@@ -2,7 +2,7 @@ var searchData=
 [
   ['backprojectsystemcombatinfoobjectmeters',['BackProjectSystemCombatInfoObjectMeters',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ac812c376a4ee5dc901b557e5435a6f65',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['backpropagate',['BackPropagate',['../classMeter.html#a43d2b75c50c697e5032de4a2631440d8',1,'Meter']]],
-  ['backpropagatemeters',['BackPropagateMeters',['../classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d',1,'EmpireManager::BackPropagateMeters()'],['../classShip.html#a0dd6c93c13a2b705c73c2dff1c1d14c2',1,'Ship::BackPropagateMeters()'],['../classUniverseObject.html#a5f45c3192e989aee988ef4c8eeb35d02',1,'UniverseObject::BackPropagateMeters()']]],
+  ['backpropagatemeters',['BackPropagateMeters',['../classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d',1,'EmpireManager::BackPropagateMeters()'],['../classShip.html#a0dd6c93c13a2b705c73c2dff1c1d14c2',1,'Ship::BackPropagateMeters()']]],
   ['backpropagateobjectmeters',['BackPropagateObjectMeters',['../classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7',1,'Universe']]],
   ['bar_5fheight',['BAR_HEIGHT',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a0b8475446811b700e4163608f1803dd0',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
   ['bar_5fpad',['BAR_PAD',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a6a789408ef6ef8d675dd88bc69ca6984',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
@@ -75,7 +75,6 @@ var searchData=
   ['building',['Building',['../classBuilding.html#ac81edf2481deafc1c0cce3998fa5611c',1,'Building::Building()'],['../structCondition_1_1Building.html#aa43a02a8350b1aa39758e5b0195d42cb',1,'Condition::Building::Building()']]],
   ['building_5fcondition',['BUILDING_CONDITION',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a93a8406d73745757d5b3462239730107',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['buildingicon',['BuildingIcon',['../classClientUI.html#abfbf5063549323b7e9f8b6b57ccdd3b2',1,'ClientUI']]],
-  ['buildingids',['BuildingIDs',['../classPlanet.html#a32a94c1a83f6bb7e4d1947f1f45f51b7',1,'Planet']]],
   ['buildingindicator',['BuildingIndicator',['../classBuildingIndicator.html#a1d782ad376f199945fde2a70aa4c91fe',1,'BuildingIndicator::BuildingIndicator(GG::X w, int building_id)'],['../classBuildingIndicator.html#abe491f72c85a21a414009fbba85324a8',1,'BuildingIndicator::BuildingIndicator(GG::X w, const std::string &amp;building_type, double turns_completed, double total_turns, double total_cost, double turn_spending)']]],
   ['buildingrightclicked',['BuildingRightClicked',['../classMapWnd.html#a14606e7346393a3fe7e39971ccc50ffb',1,'MapWnd']]],
   ['buildings',['buildings',['../namespaceparse.html#ace79a6a60424802a39476be4336ccb8a',1,'parse']]],

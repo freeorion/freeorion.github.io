@@ -84,7 +84,6 @@ $(function() {
  <div class="center">
   <img src="classResourceCenter.png" usemap="#ResourceCenter_map" alt=""/>
   <map id="ResourceCenter_map" name="ResourceCenter_map">
-<area href="classPlanet.html" title="a class representing a FreeOrion planet. " alt="Planet" shape="rect" coords="0,112,287,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -174,8 +173,8 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> class is an abstract base class for anything in the FreeOrion gamestate that generates resources (minerals, etc.). </p>
-<p>Most likely, such an object will also be a subclass of <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>.</p>
-<p><a class="el" href="classPlanet.html" title="a class representing a FreeOrion planet. ">Planet</a> is the most obvious class to inherit <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a>, but other classes could be made from it as well (e.g., a trade-ship or mining vessel, or a non-Planet UniverseObject- and PopCenter- derived object of some sort. </p>
+<p>Most likely, such an object will also be a subclass of UniverseObject.</p>
+<p>Planet is the most obvious class to inherit <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a>, but other classes could be made from it as well (e.g., a trade-ship or mining vessel, or a non-Planet UniverseObject- and PopCenter- derived object of some sort. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad0eb8df27d3e201f67f539383ff8deaa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0eb8df27d3e201f67f539383ff8deaa">&#9670;&nbsp;</a></span>ResourceCenter() <span class="overload">[1/2]</span></h2>
@@ -264,8 +263,6 @@ Friends</h2></td></tr>
 
 <p>implementation should add a meter to the object so that it can be accessed with the <a class="el" href="classResourceCenter.html#a57a82f8232713d5578eddecd6344695a" title="implementation should return the requested Meter, or 0 if no such Meter of that type is found in this...">GetMeter()</a> functions </p>
 
-<p>Implemented in <a class="el" href="classPlanet.html#aa7045d1482151a0572b93e223dd36c7d">Planet</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="classResourceCenter.html#af27d02492b3863278b1705caf327fae6">Init()</a>.</p>
 
 </div>
@@ -295,8 +292,6 @@ Friends</h2></td></tr>
 
 <p>focus settings available to this <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> </p>
 
-<p>Reimplemented in <a class="el" href="classPlanet.html#ae11bf8285065b02005f11d6faa9e93bf">Planet</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
@@ -318,7 +313,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, and <a class="el" href="classResourceCenter.html#a23d9be45aea97bbbd4fe58b04f79c1c4">ResourceCenterChangedSignal</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de">Planet::Depopulate()</a>, and <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
 
 </div>
 </div>
@@ -348,9 +343,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>, and <a class="el" href="UniverseObject_8h.html#a300ee06669da6839a11c55b959dedffc">VIS_PARTIAL_VISIBILITY</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, and <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a2e22c703f835105f2c4f4953f01001b7">Copy()</a>, and <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a2e22c703f835105f2c4f4953f01001b7">Copy()</a>.</p>
 
 </div>
 </div>
@@ -370,7 +365,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>, and <a class="el" href="UniverseObject_8h.html#a0aec1cd9f8f5e3d119bed799f3ac5d39">VIS_FULL_VISIBILITY</a>.</p>
+<p class="reference">References <a class="el" href="classResourceCenter.html#ad3cd8bad7ac7e7dba2c504f963ba9ac7">Copy()</a>.</p>
 
 </div>
 </div>
@@ -392,7 +387,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, and <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Planet::Dump()</a>, and <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a28de770d8a8a792245604a9d4d39686a">SetFocus()</a>.</p>
 
 </div>
 </div>
@@ -415,7 +410,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a28624b6ff7c143be7e460af335a9afc4">Condition::anonymous_namespace{Conditions.cpp}::GetCandidateFocus()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -444,8 +439,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>icon representing focus with name <em>focus_name</em> for this <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> </p>
-
-<p>Reimplemented in <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceanonymous__namespace_02ResourceCenter_8cpp_03.html#a5607dbc77b71b40be3fba271a2c3e009">anonymous_namespace{ResourceCenter.cpp}::EMPTY_STRING</a>.</p>
 
@@ -477,8 +470,6 @@ Friends</h2></td></tr>
 
 <p>implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
 
-<p>Implemented in <a class="el" href="classPlanet.html#a4043ae98f996c00423b115f8ff68409e">Planet</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="classResourceCenter.html#a9bedd0fb2676d3ccfb9adaf7b0a1affd">Reset()</a>, <a class="el" href="classResourceCenter.html#aa84478ea1aa92f89be3731eead3d291f">ResourceCenterClampMeters()</a>, <a class="el" href="classResourceCenter.html#a64c84ec505975562705b3f96571d0b48">ResourceCenterResetTargetMaxUnpairedMeters()</a>, and <a class="el" href="classSystemResourceSummaryBrowseWnd.html#a70c90e17216a951462f5270fd3df323d">SystemResourceSummaryBrowseWnd::UpdateProduction()</a>.</p>
 
 </div>
@@ -509,8 +500,6 @@ Friends</h2></td></tr>
 
 <p>implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
 
-<p>Implemented in <a class="el" href="classPlanet.html#ac08dec6f01d12f6bc008cd5c554fcc5b">Planet</a>.</p>
-
 </div>
 </div>
 <a id="a34035b2e0ea8740442b77d197ebd8556"></a>
@@ -538,8 +527,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>implementation should return the visibility of this <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> for the empire with the specified <em>empire_id</em> </p>
-
-<p>Implemented in <a class="el" href="classPlanet.html#a97c1e8527b0e4a2a6db80a01b01d09db">Planet</a>.</p>
 
 </div>
 </div>
@@ -570,8 +557,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classResourceCenter.html#ac5370c37e22a34acf09bb2f71aa5de3b">AddMeter()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, and <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet::Planet()</a>.</p>
-
 </div>
 </div>
 <a id="a9bedd0fb2676d3ccfb9adaf7b0a1affd"></a>
@@ -600,11 +585,9 @@ Friends</h2></td></tr>
 <p>Resets the meters, etc. </p>
 <p>This should be called when a <a class="el" href="classResourceCenter.html" title="The ResourceCenter class is an abstract base class for anything in the FreeOrion gamestate that gener...">ResourceCenter</a> is wiped out due to starvation, etc. </p>
 
-<p>Reimplemented in <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Planet</a>.</p>
-
 <p class="reference">References <a class="el" href="classResourceCenter.html#a57a82f8232713d5578eddecd6344695a">GetMeter()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, and <a class="el" href="classMeter.html#a8315a8bd8a88ba3d4dad698a0f8aff7c">Meter::Reset()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Planet::Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Planet_8cpp_03.html#aadb9773733d10bd2cd37f080f43ff514">anonymous_namespace{Planet.cpp}::PlanetSizeIncrement()</a>.</p>
 
 </div>
 </div>
@@ -633,8 +616,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classMeter.html#a8fc3766418a70e847f44b48474c206d3">Meter::ClampCurrentToRange()</a>, and <a class="el" href="classResourceCenter.html#a57a82f8232713d5578eddecd6344695a">GetMeter()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#ad6ab924f74acf9fb4d4edf66469efe14">Planet::ClampMeters()</a>.</p>
-
 </div>
 </div>
 <a id="a64c84ec505975562705b3f96571d0b48"></a>
@@ -662,8 +643,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classResourceCenter.html#a57a82f8232713d5578eddecd6344695a">GetMeter()</a>, and <a class="el" href="classMeter.html#a3ac679ac007b891e0c22ba611ab7526a">Meter::ResetCurrent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet::ResetTargetMaxUnpairedMeters()</a>.</p>
-
 </div>
 </div>
 <a id="a28de770d8a8a792245604a9d4d39686a"></a>
@@ -683,8 +662,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classResourceCenter.html#af90704e1ded47648e6ff32e8557ba8c3">AvailableFoci()</a>, <a class="el" href="classResourceCenter.html#a83d64336290e3398151b255fac127d4b">ClearFocus()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="classResourceCenter.html#ae94b7430c4212f86834cd6625e5e00f5">Dump()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classResourceCenter.html#a6ea971e8f6b45ec97e9dd96e51611c5f">m_focus</a>, <a class="el" href="classResourceCenter.html#a6c4b9224ab8b1d4d93f9b059cbfbe4dc">m_focus_turn_initial</a>, <a class="el" href="classResourceCenter.html#af079d71aa307a07f75c04f99ed7ff74d">m_last_turn_focus_changed</a>, <a class="el" href="classResourceCenter.html#a5eecc31d9d9c7a8856a2cde16e93919a">m_last_turn_focus_changed_turn_initial</a>, and <a class="el" href="classResourceCenter.html#a23d9be45aea97bbbd4fe58b04f79c1c4">ResourceCenterChangedSignal</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a99099903742ff53c46aee30db8289e6e">Planet::Colonize()</a>, <a class="el" href="classChangeFocusOrder.html#a3e2b2e52892b4e60b386f05afaf611eb">ChangeFocusOrder::ExecuteImpl()</a>, and <a class="el" href="classObjectListWnd.html#a7708bcd195f9e53ce9dde54db87428cb">ObjectListWnd::ObjectRightClicked()</a>.</p>
 
 </div>
 </div>

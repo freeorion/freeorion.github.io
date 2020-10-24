@@ -2,7 +2,6 @@ var searchData=
 [
   ['universe',['Universe',['../classUniverse.html',1,'']]],
   ['universe_5fobject_5ftype_5fparser_5frules',['universe_object_type_parser_rules',['../structparse_1_1detail_1_1universe__object__type__parser__rules.html',1,'parse::detail']]],
-  ['universeobject',['UniverseObject',['../classUniverseObject.html',1,'']]],
   ['universeobjectvisitor',['UniverseObjectVisitor',['../structUniverseObjectVisitor.html',1,'']]],
   ['unlockable_5fitem_5fenum_5fgrammar',['unlockable_item_enum_grammar',['../structparse_1_1unlockable__item__enum__grammar.html',1,'parse']]],
   ['unlockable_5fitem_5fgrammar',['unlockable_item_grammar',['../structparse_1_1detail_1_1unlockable__item__grammar.html',1,'parse::detail']]],

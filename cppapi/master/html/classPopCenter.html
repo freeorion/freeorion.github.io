@@ -83,7 +83,6 @@ $(function() {
  <div class="center">
   <img src="classPopCenter.png" usemap="#PopCenter_map" alt=""/>
   <map id="PopCenter_map" name="PopCenter_map">
-<area href="classPlanet.html" title="a class representing a FreeOrion planet. " alt="Planet" shape="rect" coords="0,112,287,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -154,7 +153,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classPopCenter.html" title="The PopCenter class is an abstract base class for anything in the FreeOrion gamestate that has popula...">PopCenter</a> class is an abstract base class for anything in the FreeOrion gamestate that has population on or in it. </p>
-<p>Most likely, such an object will also be a subclass of <a class="el" href="classUniverseObject.html" title="The abstract base class for all objects in the universe The UniverseObject class itself has an ID num...">UniverseObject</a>. <a class="el" href="classPlanet.html" title="a class representing a FreeOrion planet. ">Planet</a> is the most obvious class to inherit <a class="el" href="classPopCenter.html" title="The PopCenter class is an abstract base class for anything in the FreeOrion gamestate that has popula...">PopCenter</a>, but other classes could be made from it as well (e.g., a ship that is large enough to support population and still travel between systems). </p>
+<p>Most likely, such an object will also be a subclass of UniverseObject. Planet is the most obvious class to inherit <a class="el" href="classPopCenter.html" title="The PopCenter class is an abstract base class for anything in the FreeOrion gamestate that has popula...">PopCenter</a>, but other classes could be made from it as well (e.g., a ship that is large enough to support population and still travel between systems). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a27b75ac359689f140de09e0e2b47bc7a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27b75ac359689f140de09e0e2b47bc7a">&#9670;&nbsp;</a></span>PopCenter() <span class="overload">[1/2]</span></h2>
@@ -251,8 +250,6 @@ Friends</h2></td></tr>
 
 <p>implementation should add a meter to the object so that it can be accessed with the <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215" title="implementation should return the requested Meter, or 0 if no such Meter of that type is found in this...">GetMeter()</a> functions </p>
 
-<p>Implemented in <a class="el" href="classPlanet.html#aa7045d1482151a0572b93e223dd36c7d">Planet</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="classPopCenter.html#a1f23a6d380796b240e5e5fd8939d203b">Init()</a>.</p>
 
 </div>
@@ -283,9 +280,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>, and <a class="el" href="UniverseObject_8h.html#a300ee06669da6839a11c55b959dedffc">VIS_PARTIAL_VISIBILITY</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPopCenter.html#aaf72e458aca517040d9b10e6822b0c84">Copy()</a>, and <a class="el" href="classPlanet.html#add54c48d99dc1403e2139b8227a92ed0">Planet::Copy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPopCenter.html#aaf72e458aca517040d9b10e6822b0c84">Copy()</a>.</p>
 
 </div>
 </div>
@@ -305,7 +302,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">Copy()</a>, and <a class="el" href="UniverseObject_8h.html#a0aec1cd9f8f5e3d119bed799f3ac5d39">VIS_FULL_VISIBILITY</a>.</p>
+<p class="reference">References <a class="el" href="classPopCenter.html#aae2ee3e3068b0db5200db73ef0c758aa">Copy()</a>.</p>
 
 </div>
 </div>
@@ -334,11 +331,9 @@ Friends</h2></td></tr>
 
 <p>removes population </p>
 
-<p>Reimplemented in <a class="el" href="classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de">Planet</a>.</p>
-
 <p class="reference">References <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>, and <a class="el" href="classMeter.html#a8315a8bd8a88ba3d4dad698a0f8aff7c">Meter::Reset()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a3ef135f1b2868c7392e7ef67bdab17de">Planet::Depopulate()</a>, and <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Planet_8cpp_03.html#aadb9773733d10bd2cd37f080f43ff514">anonymous_namespace{Planet.cpp}::PlanetSizeIncrement()</a>, and <a class="el" href="classPopCenter.html#ac176338ee877461c95eed6d992fceedc">PopCenterPopGrowthProductionResearchPhase()</a>.</p>
 
 </div>
 </div>
@@ -359,8 +354,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a1089279fe8d1e0bea4c2c7887f0670d2">Planet::Dump()</a>.</p>
 
 </div>
 </div>
@@ -389,8 +382,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
-
-<p>Implemented in <a class="el" href="classPlanet.html#ac08dec6f01d12f6bc008cd5c554fcc5b">Planet</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPopCenter.html#acbe09bf2453c1e2220cb2fab9a1e33a0">PopCenterClampMeters()</a>, <a class="el" href="classPopCenter.html#af1f5d888fae68a82e5d8f95aed36fb2a">PopCenterResetTargetMaxUnpairedMeters()</a>, <a class="el" href="classPopCenter.html#ac39761c396aa2560bdee4673e371ed25">Populated()</a>, and <a class="el" href="classPopCenter.html#a951ae604e64f1b5d1768fc810b333332">Reset()</a>.</p>
 
@@ -422,8 +413,6 @@ Friends</h2></td></tr>
 
 <p>implementation should return the requested <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a>, or 0 if no such <a class="el" href="classMeter.html" title="A Meter is a value with an associated maximum value. ">Meter</a> of that type is found in this object </p>
 
-<p>Implemented in <a class="el" href="classPlanet.html#a4043ae98f996c00423b115f8ff68409e">Planet</a>.</p>
-
 </div>
 </div>
 <a id="a1f23a6d380796b240e5e5fd8939d203b"></a>
@@ -453,8 +442,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPopCenter.html#a92aef79ab08dfa89041d76fb75bfa353">AddMeter()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a8f57c5a8cdac8cb48a97bb907c77976e">Planet::Planet()</a>.</p>
-
 </div>
 </div>
 <a id="acbe09bf2453c1e2220cb2fab9a1e33a0"></a>
@@ -481,8 +468,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classMeter.html#a8fc3766418a70e847f44b48474c206d3">Meter::ClampCurrentToRange()</a>, and <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#ad6ab924f74acf9fb4d4edf66469efe14">Planet::ClampMeters()</a>.</p>
 
 </div>
 </div>
@@ -511,8 +496,6 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPopCenter.html#a7f5d124c9d345841f73a271426782b54">Depopulate()</a>, <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>, and <a class="el" href="classPopCenter.html#ac39761c396aa2560bdee4673e371ed25">Populated()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>.</p>
-
 </div>
 </div>
 <a id="af1f5d888fae68a82e5d8f95aed36fb2a"></a>
@@ -539,8 +522,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>, and <a class="el" href="classMeter.html#a3ac679ac007b891e0c22ba611ab7526a">Meter::ResetCurrent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#ac5f774dd7f557764627b7700dfc9bcac">Planet::ResetTargetMaxUnpairedMeters()</a>.</p>
 
 </div>
 </div>
@@ -590,11 +571,9 @@ Friends</h2></td></tr>
 
 <p>sets all meters to 0, clears race name </p>
 
-<p>Reimplemented in <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Planet</a>.</p>
-
 <p class="reference">References <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">GetMeter()</a>, <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>, and <a class="el" href="classMeter.html#a8315a8bd8a88ba3d4dad698a0f8aff7c">Meter::Reset()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a99099903742ff53c46aee30db8289e6e">Planet::Colonize()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, and <a class="el" href="classPlanet.html#a6a7a1d383ad8cb134ddf6c08e775764d">Planet::Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Planet_8cpp_03.html#aadb9773733d10bd2cd37f080f43ff514">anonymous_namespace{Planet.cpp}::PlanetSizeIncrement()</a>.</p>
 
 </div>
 </div>
@@ -624,11 +603,9 @@ Friends</h2></td></tr>
 
 <p>sets the species of the population to <em>species_name</em> </p>
 
-<p>Reimplemented in <a class="el" href="classPlanet.html#a85512e1c9df5ea30bbe269580c54bac4">Planet</a>.</p>
-
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="AppInterface_8h.html#afd71269e6473ea888c0efada7fd3d53d">GetSpecies()</a>, and <a class="el" href="classPopCenter.html#ad13a28fbd503a06a1fae21b32c1e4126">m_species_name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a85512e1c9df5ea30bbe269580c54bac4">Planet::SetSpecies()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Planet_8cpp_03.html#aadb9773733d10bd2cd37f080f43ff514">anonymous_namespace{Planet.cpp}::PlanetSizeIncrement()</a>.</p>
 
 </div>
 </div>
@@ -659,7 +636,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPlanet.html#a99099903742ff53c46aee30db8289e6e">Planet::Colonize()</a>, <a class="el" href="classPopulationPanel.html#a848365931b10f4ec0ae62ec322373a65">PopulationPanel::CompleteConstruction()</a>, <a class="el" href="classPlanet.html#a040d176766332414a794cd4bddb6cdc4">Planet::EnvironmentForSpecies()</a>, <a class="el" href="classPlanet.html#a4709200ced8917b41f2aef50bff7c3bd">Planet::FocusIcon()</a>, <a class="el" href="namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#ab2bb60ab2c82704837aff09304f06b0e">Condition::anonymous_namespace{Conditions.cpp}::GetCandidateSpecies()</a>, <a class="el" href="classPlanet.html#a1d3a671ff0a4263bf40a60321b605e49">Planet::HasTag()</a>, <a class="el" href="classPlanet.html#ac0e2e759882e70afa9d63c41ed22fdb0">Planet::NextBetterPlanetTypeForSpecies()</a>, <a class="el" href="classPlanet.html#a6d6928472ecaa089b2d124f4d8b23c87">Planet::PopGrowthProductionResearchPhase()</a>, <a class="el" href="namespaceanonymous__namespace_02Empire_8cpp_03.html#a904be6c9093e07546293c6dfdf16dab6">anonymous_namespace{Empire.cpp}::SanitizeResearchQueue()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a6ce30e24a14d681cc1b8f636003ece72">serialize()</a>, <a class="el" href="classPlanet.html#a85512e1c9df5ea30bbe269580c54bac4">Planet::SetSpecies()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a92477cf7960a52c4155f1322bf11da0b">anonymous_namespace{EncyclopediaDetailPanel.cpp}::SpeciesEnvByTargetPop()</a>, <a class="el" href="classPlanet.html#ae40d0405c5ee370ec55f18699a89e8d9">Planet::Tags()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPopulationPanel.html#a848365931b10f4ec0ae62ec322373a65">PopulationPanel::CompleteConstruction()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>

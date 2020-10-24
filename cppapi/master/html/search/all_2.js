@@ -5,7 +5,7 @@ var searchData=
   ['b',['b',['../structCompatColor.html#a580d3e8b139584e854fa6a2f07ce3fc2',1,'CompatColor']]],
   ['backprojectsystemcombatinfoobjectmeters',['BackProjectSystemCombatInfoObjectMeters',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ac812c376a4ee5dc901b557e5435a6f65',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['backpropagate',['BackPropagate',['../classMeter.html#a43d2b75c50c697e5032de4a2631440d8',1,'Meter']]],
-  ['backpropagatemeters',['BackPropagateMeters',['../classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d',1,'EmpireManager::BackPropagateMeters()'],['../classShip.html#a0dd6c93c13a2b705c73c2dff1c1d14c2',1,'Ship::BackPropagateMeters()'],['../classUniverseObject.html#a5f45c3192e989aee988ef4c8eeb35d02',1,'UniverseObject::BackPropagateMeters()']]],
+  ['backpropagatemeters',['BackPropagateMeters',['../classEmpireManager.html#a99395fa9117666fe72ea5f8180f8f16d',1,'EmpireManager::BackPropagateMeters()'],['../classShip.html#a0dd6c93c13a2b705c73c2dff1c1d14c2',1,'Ship::BackPropagateMeters()']]],
   ['backpropagateobjectmeters',['BackPropagateObjectMeters',['../classUniverse.html#adecfeb7b2dba04fa84d503e1b4cb84b7',1,'Universe']]],
   ['bar_5fheight',['BAR_HEIGHT',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a0b8475446811b700e4163608f1803dd0',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
   ['bar_5fpad',['BAR_PAD',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a6a789408ef6ef8d675dd88bc69ca6984',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
@@ -134,7 +134,6 @@ var searchData=
   ['building_5ftype_5frule',['building_type_rule',['../structanonymous__namespace_02BuildingsParser_8cpp_03_1_1grammar.html#aae22b8017c1044e7809fe8161b1f45c0',1,'anonymous_namespace{BuildingsParser.cpp}::grammar']]],
   ['building_5ftype_5ftag',['BUILDING_TYPE_TAG',['../classVarText.html#a81f7f3d59836b10ce8134ab96d816715',1,'VarText']]],
   ['buildingicon',['BuildingIcon',['../classClientUI.html#abfbf5063549323b7e9f8b6b57ccdd3b2',1,'ClientUI']]],
-  ['buildingids',['BuildingIDs',['../classPlanet.html#a32a94c1a83f6bb7e4d1947f1f45f51b7',1,'Planet']]],
   ['buildingindicator',['BuildingIndicator',['../classBuildingIndicator.html',1,'BuildingIndicator'],['../classBuildingIndicator.html#a1d782ad376f199945fde2a70aa4c91fe',1,'BuildingIndicator::BuildingIndicator(GG::X w, int building_id)'],['../classBuildingIndicator.html#abe491f72c85a21a414009fbba85324a8',1,'BuildingIndicator::BuildingIndicator(GG::X w, const std::string &amp;building_type, double turns_completed, double total_turns, double total_cost, double turn_spending)']]],
   ['buildingrightclicked',['BuildingRightClicked',['../classMapWnd.html#a14606e7346393a3fe7e39971ccc50ffb',1,'MapWnd']]],
   ['buildingrightclickedsignal',['BuildingRightClickedSignal',['../classBuildingsPanel.html#aac5c8a59b554ebee27099ce0fe445923',1,'BuildingsPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanel.html#a317e1f5c0628de0a3b70698f64f7ab73',1,'SidePanel::PlanetPanel::BuildingRightClickedSignal()'],['../classSidePanel_1_1PlanetPanelContainer.html#a5b585e7b3ac540d65f4a44aba7ed6cba',1,'SidePanel::PlanetPanelContainer::BuildingRightClickedSignal()'],['../classSidePanel.html#a696b02ce5422ed637d1599946aa3fe33',1,'SidePanel::BuildingRightClickedSignal()']]],
@@ -174,5 +173,5 @@ var searchData=
   ['serialization',['serialization',['../namespaceboost_1_1serialization.html',1,'boost']]],
   ['spirit',['spirit',['../namespaceboost_1_1spirit.html',1,'boost']]],
   ['traits',['traits',['../namespaceboost_1_1spirit_1_1traits.html',1,'boost::spirit']]],
-  ['value_5fdestroyer',['value_destroyer',['../classBuilding.html#a9d93de3057fec4a751843298ac72b37b',1,'Building::value_destroyer()'],['../classField.html#a9d93de3057fec4a751843298ac72b37b',1,'Field::value_destroyer()'],['../classPlanet.html#a9d93de3057fec4a751843298ac72b37b',1,'Planet::value_destroyer()'],['../classShip.html#a9d93de3057fec4a751843298ac72b37b',1,'Ship::value_destroyer()'],['../classUniverseObject.html#a9d93de3057fec4a751843298ac72b37b',1,'UniverseObject::value_destroyer()']]]
+  ['value_5fdestroyer',['value_destroyer',['../classBuilding.html#a9d93de3057fec4a751843298ac72b37b',1,'Building::value_destroyer()'],['../classField.html#a9d93de3057fec4a751843298ac72b37b',1,'Field::value_destroyer()'],['../classShip.html#a9d93de3057fec4a751843298ac72b37b',1,'Ship::value_destroyer()']]]
 ];

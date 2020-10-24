@@ -16,7 +16,6 @@ var searchData=
   ['pathinfo',['PathInfo',['../structGetPathsThroughSupplyLanes_1_1PathInfo.html',1,'GetPathsThroughSupplyLanes']]],
   ['pathtypedecorator',['PathTypeDecorator',['../classPathTypeDecorator.html',1,'']]],
   ['pending',['Pending',['../structPending_1_1Pending.html',1,'Pending']]],
-  ['planet',['Planet',['../classPlanet.html',1,'']]],
   ['planet_5fenvironment_5fparser_5frules',['planet_environment_parser_rules',['../structparse_1_1detail_1_1planet__environment__parser__rules.html',1,'parse::detail']]],
   ['planet_5fsize_5fparser_5frules',['planet_size_parser_rules',['../structparse_1_1detail_1_1planet__size__parser__rules.html',1,'parse::detail']]],
   ['planet_5ftype_5fparser_5frules',['planet_type_parser_rules',['../structparse_1_1detail_1_1planet__type__parser__rules.html',1,'parse::detail']]],

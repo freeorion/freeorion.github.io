@@ -95,7 +95,7 @@ Public Types</h2></td></tr>
 <tr class="separator:ab82f9cce0c975a41e195b0ee7cdf7ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4da34de898acc5b24fdba74ba942f8d"><td class="memItemLeft" align="right" valign="top">typedef boost::filter_iterator&lt; <a class="el" href="structSpeciesManager_1_1PlayableSpecies.html">PlayableSpecies</a>, <a class="el" href="classSpeciesManager.html#abe48ade357575b0d44c4aec453634851">iterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#ac4da34de898acc5b24fdba74ba942f8d">playable_iterator</a></td></tr>
 <tr class="separator:ac4da34de898acc5b24fdba74ba942f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f8aa8fabd79bd53ee028cbd2b2bc94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesTypeMap</a> = std::map&lt; std::string, std::unique_ptr&lt; Species &gt; &gt;</td></tr>
+<tr class="memitem:a83f8aa8fabd79bd53ee028cbd2b2bc94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesTypeMap</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classSpecies.html">Species</a> &gt; &gt;</td></tr>
 <tr class="separator:a83f8aa8fabd79bd53ee028cbd2b2bc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -122,10 +122,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac4c880bb8b2fcfa2a8ddb716e05ea60"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#aac4c880bb8b2fcfa2a8ddb716e05ea60">GetCheckSum</a> () const</td></tr>
 <tr class="memdesc:aac4c880bb8b2fcfa2a8ddb716e05ea60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function.  <a href="#aac4c880bb8b2fcfa2a8ddb716e05ea60">More...</a><br /></td></tr>
 <tr class="separator:aac4c880bb8b2fcfa2a8ddb716e05ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0902ade75d73af77eb64c37e9b76d280"><td class="memItemLeft" align="right" valign="top">const Species *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a0902ade75d73af77eb64c37e9b76d280">GetSpecies</a> (const std::string &amp;name) const</td></tr>
+<tr class="memitem:a0902ade75d73af77eb64c37e9b76d280"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSpecies.html">Species</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a0902ade75d73af77eb64c37e9b76d280">GetSpecies</a> (const std::string &amp;name) const</td></tr>
 <tr class="memdesc:a0902ade75d73af77eb64c37e9b76d280"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the building type with the name <em>name</em>; you should use the free function <a class="el" href="classSpeciesManager.html#a0902ade75d73af77eb64c37e9b76d280" title="returns the building type with the name name; you should use the free function GetSpecies() instead...">GetSpecies()</a> instead, mainly to save some typing.  <a href="#a0902ade75d73af77eb64c37e9b76d280">More...</a><br /></td></tr>
 <tr class="separator:a0902ade75d73af77eb64c37e9b76d280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a135b27c8754ab37f4727b7963f606b06"><td class="memItemLeft" align="right" valign="top">Species *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a135b27c8754ab37f4727b7963f606b06">GetSpecies</a> (const std::string &amp;name)</td></tr>
+<tr class="memitem:a135b27c8754ab37f4727b7963f606b06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSpecies.html">Species</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a135b27c8754ab37f4727b7963f606b06">GetSpecies</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:a135b27c8754ab37f4727b7963f606b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5373dab69cab766ce70f3dff9c980438"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::map&lt; int, float &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpeciesManager.html#a5373dab69cab766ce70f3dff9c980438">GetSpeciesEmpireOpinionsMap</a> (int encoding_empire=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
 <tr class="memdesc:a5373dab69cab766ce70f3dff9c980438"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a map from species name to a map from empire id to each the species' opinion of the empire  <a href="#a5373dab69cab766ce70f3dff9c980438">More...</a><br /></td></tr>
@@ -287,7 +287,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a> =  std::map&lt;std::string, std::unique_ptr&lt;Species&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="classSpeciesManager.html#a83f8aa8fabd79bd53ee028cbd2b2bc94">SpeciesManager::SpeciesTypeMap</a> =  std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="classSpecies.html">Species</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -531,7 +531,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const Species * SpeciesManager::GetSpecies </td>
+          <td class="memname">const <a class="el" href="classSpecies.html">Species</a> * SpeciesManager::GetSpecies </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -555,7 +555,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Species * SpeciesManager::GetSpecies </td>
+          <td class="memname"><a class="el" href="classSpecies.html">Species</a> * SpeciesManager::GetSpecies </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>

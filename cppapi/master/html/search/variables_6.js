@@ -26,7 +26,6 @@ var searchData=
   ['fleet_5fdetail_5funarmed_5fcount',['FLEET_DETAIL_UNARMED_COUNT',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acd0332e03759275007a0e4e485ccc342',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['fleet_5fdrop_5ftype_5fstring',['FLEET_DROP_TYPE_STRING',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#afff6a26cb7a9e7f850aa2a579fadac8d',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleet_5fid_5ftag',['FLEET_ID_TAG',['../classVarText.html#a4ac5fa65de4ce6041f0ffea27de0129f',1,'VarText']]],
-  ['fleet_5fmovement',['FLEET_MOVEMENT',['../classMessage.html#a90ee2c9e1514d56ac511fcb111e1ccb9',1,'Message']]],
   ['fleet_5fmovement_5fepsilon',['FLEET_MOVEMENT_EPSILON',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#ac2ac0512af2c6a7d8c9956a8b36821dd',1,'anonymous_namespace{Fleet.cpp}']]],
   ['fleet_5fplan',['fleet_plan',['../structanonymous__namespace_02FleetPlansParser_8cpp_03_1_1grammar.html#a5f83188ee28bf1974acd70a3aa2dbdc4',1,'anonymous_namespace{FleetPlansParser.cpp}::grammar']]],
   ['fleet_5fwnd_5fheight',['FLEET_WND_HEIGHT',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#aed309b248467c584835019377f5bd850',1,'anonymous_namespace{FleetWnd.cpp}']]],

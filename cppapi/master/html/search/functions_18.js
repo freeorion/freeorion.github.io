@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['x',['X',['../classUniverseObject.html#abcd4a884c2c1f820b10d2b427ca5d2e3',1,'UniverseObject']]],
   ['x_5faxis_5flabel_5fmargin',['X_AXIS_LABEL_MARGIN',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a093445f6480c250946a92755e643e44f',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['xml_5fcompressed_5fbase64_5fmarker',['XML_COMPRESSED_BASE64_MARKER',['../namespaceanonymous__namespace_02SaveLoad_8cpp_03.html#ad527343213dd9671ba944324854149c4',1,'anonymous_namespace{SaveLoad.cpp}']]],
   ['xml_5fcompressed_5fmarker',['XML_COMPRESSED_MARKER',['../namespaceanonymous__namespace_02SaveLoad_8cpp_03.html#a9e4771b1166733aec8c0b63c85244706',1,'anonymous_namespace{SaveLoad.cpp}::XML_COMPRESSED_MARKER()'],['../namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#af44261b84acc496d71da233f48c9cdb1',1,'anonymous_namespace{SaveGamePreviewUtils.cpp}::XML_COMPRESSED_MARKER()']]],

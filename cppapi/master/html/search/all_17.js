@@ -2,7 +2,6 @@ var searchData=
 [
   ['waitfordisconnect',['WaitForDisconnect',['../structWaitForDisconnect.html',1,'']]],
   ['waitforpending',['WaitForPending',['../namespacePending.html#aba7482048c3a01b02770996caf95126e',1,'Pending']]],
-  ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
   ['waitingforgamestart',['WaitingForGameStart',['../structWaitingForGameStart.html',1,'WaitingForGameStart'],['../classMapWnd.html#a7e6b1a1935b5112063c85817d4f97dc2',1,'MapWnd::WaitingForGameStart()'],['../structWaitingForGameStart.html#a739a867e3cea42da3174c7c22a76c647',1,'WaitingForGameStart::WaitingForGameStart()']]],
   ['waitingformpgamejoiners',['WaitingForMPGameJoiners',['../structWaitingForMPGameJoiners.html',1,'WaitingForMPGameJoiners'],['../classServerApp.html#abf7363ef825f47381e909f7b9a3df15c',1,'ServerApp::WaitingForMPGameJoiners()'],['../structWaitingForMPGameJoiners.html#ac0814a17691390d779095b4dc574336b',1,'WaitingForMPGameJoiners::WaitingForMPGameJoiners()']]],
   ['waitingformphostack',['WaitingForMPHostAck',['../structWaitingForMPHostAck.html',1,'WaitingForMPHostAck'],['../structWaitingForMPHostAck.html#ad424f09803044626ce9be1efd3175d4b',1,'WaitingForMPHostAck::WaitingForMPHostAck()']]],
@@ -58,7 +57,7 @@ var searchData=
   ['wndright',['WndRight',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a3b9a68479bf821c6a9082abb2aa95483',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wndtop',['WndTop',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0b19dab916ea0f79284b18b821d4ba36',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['wobble',['Wobble',['../classTechTreeLayout_1_1Node.html#a7729788933b9fb95260f5cffa2ab2e39',1,'TechTreeLayout::Node']]],
-  ['won',['won',['../structSaveGameEmpireData.html#a2381af316a69c9f2def0b04573b2c747',1,'SaveGameEmpireData::won()'],['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a8996d1893e80c0d2a444198002d03a3bac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()']]],
+  ['won',['WON',['../classanonymous__namespace_02PlayerListWnd_8cpp_03_1_1PlayerDataPanel.html#a8996d1893e80c0d2a444198002d03a3bac006096cbb9852b9fa9f9ac97e198807',1,'anonymous_namespace{PlayerListWnd.cpp}::PlayerDataPanel::WON()'],['../structSaveGameEmpireData.html#a2381af316a69c9f2def0b04573b2c747',1,'SaveGameEmpireData::won()']]],
   ['wonicon',['WonIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#aa7b7203413fc582aa06d0e64373b23bd',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]],
   ['wrap',['Wrap',['../classFreeOrionPython_1_1SetWrapper.html#a67186798e6b21a51bda55817dd1051ee',1,'FreeOrionPython::SetWrapper']]],

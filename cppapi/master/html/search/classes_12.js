@@ -115,7 +115,7 @@ var searchData=
   ['special_5fdata',['special_data',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__data.html',1,'anonymous_namespace{SpecialsParser.cpp}']]],
   ['specialsmanager',['SpecialsManager',['../classSpecialsManager.html',1,'']]],
   ['specialspanel',['SpecialsPanel',['../classSpecialsPanel.html',1,'']]],
-  ['species',['Species',['../structCondition_1_1Species.html',1,'Condition']]],
+  ['species',['Species',['../structCondition_1_1Species.html',1,'Condition::Species'],['../classSpecies.html',1,'Species']]],
   ['speciesdata',['SpeciesData',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesData.html',1,'anonymous_namespace{SpeciesParser.cpp}']]],
   ['speciesmanager',['SpeciesManager',['../classSpeciesManager.html',1,'']]],
   ['speciesparamsandstuff',['SpeciesParamsAndStuff',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html',1,'anonymous_namespace{SpeciesParser.cpp}']]],

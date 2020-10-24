@@ -117,6 +117,9 @@ $(function() {
 <li>gameplay_desc
 : <a class="el" href="structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStrings.html#a7300d78aae1498c96ff2c499651463a6">anonymous_namespace{SpeciesParser.cpp}::SpeciesStrings</a>
 </li>
+<li>GameplayDescription()
+: <a class="el" href="classSpecies.html#af0905ec61991eb67813301d3f82dba51">Species</a>
+</li>
 <li>GameRules()
 : <a class="el" href="classGameRules.html#a63e41162d1d61165f32f6f98e2367724">GameRules</a>
 </li>
@@ -161,9 +164,6 @@ $(function() {
 </li>
 <li>GenerateVarText()
 : <a class="el" href="classVarText.html#acffdf49eb629369c64b9c7a3e4ee2464">VarText</a>
-</li>
-<li>GENERATING_UNIVERSE
-: <a class="el" href="classMessage.html#a6bee315a53a4a1663394d1bf5329caab">Message</a>
 </li>
 <li>Get()
 : <a class="el" href="classBarSizer.html#abd6100f3f92ae4686848ede11c692373">BarSizer</a>
@@ -365,7 +365,6 @@ $(function() {
 , <a class="el" href="classEncyclopedia.html#a2bc638ab6fedb346486a95a632181389">Encyclopedia</a>
 , <a class="el" href="classFieldType.html#a093c6f69334d2d307467b528fe0f799a">FieldType</a>
 , <a class="el" href="classFieldTypeManager.html#a07cb8563c669c2a43c1d80745e28255d">FieldTypeManager</a>
-, <a class="el" href="classFocusType.html#a3ce46ec796930f432537faa0f71fe216">FocusType</a>
 , <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">NamedValueRefManager</a>
 , <a class="el" href="classPolicy.html#a0be88ce30f6fbf7333814a9f382cab39">Policy</a>
 , <a class="el" href="classPolicyManager.html#a39b6d52787602706aa2f8c2714ca812c">PolicyManager</a>
@@ -375,6 +374,7 @@ $(function() {
 , <a class="el" href="classShipPartManager.html#a8846c58cd89615a2807089f447b39174">ShipPartManager</a>
 , <a class="el" href="classSpecial.html#ad340bea7e70357646ca67c6ebd201a5b">Special</a>
 , <a class="el" href="classSpecialsManager.html#abda1744b19be332425f4f20c5308a03b">SpecialsManager</a>
+, <a class="el" href="classSpecies.html#aac0e5901c3f21e0b236acc63ba497a13">Species</a>
 , <a class="el" href="classSpeciesManager.html#aac4c880bb8b2fcfa2a8ddb716e05ea60">SpeciesManager</a>
 , <a class="el" href="classTech.html#acba085b60a01587ec67b82c34a19cb56">Tech</a>
 , <a class="el" href="classTechManager.html#acadab1dfee68c7539a394f14936b1be9">TechManager</a>
@@ -453,7 +453,7 @@ $(function() {
 , <a class="el" href="structCondition_1_1DesignHasPart.html#a51711c1b4e77ab87425a39b8bedc4d57">Condition::DesignHasPart</a>
 , <a class="el" href="structCondition_1_1DesignHasPartClass.html#a730dddd6fd2b9063564b9d8d671b6fdb">Condition::DesignHasPartClass</a>
 , <a class="el" href="structCondition_1_1Enqueued.html#a55d6c67cb92acee97533c5d601934a20">Condition::Enqueued</a>
-, <a class="el" href="structCondition_1_1FocusType.html#a294cb0fc5569b7755966ad52e760d9fb">Condition::FocusType</a>
+, <a class="el" href="structCondition_1_1FocusType.html#a40eb5486c2288b2f30b08ba58b4c659b">Condition::FocusType</a>
 , <a class="el" href="structCondition_1_1Homeworld.html#a976759ccee31ca51e608e025fef32afe">Condition::Homeworld</a>
 , <a class="el" href="structCondition_1_1InOrIsSystem.html#a0fce436beed3683c3996adde301039a6">Condition::InOrIsSystem</a>
 , <a class="el" href="structCondition_1_1Monster.html#ad38ffa87bcd7138bbde62806c03360d0">Condition::Monster</a>
@@ -467,7 +467,7 @@ $(function() {
 , <a class="el" href="structCondition_1_1RootCandidate.html#a89c9a6f0d2291f963adbf5d06740a1a5">Condition::RootCandidate</a>
 , <a class="el" href="structCondition_1_1SortedNumberOf.html#ab9aa23feb20d62616974a0ea4a2e79bc">Condition::SortedNumberOf</a>
 , <a class="el" href="structCondition_1_1Source.html#ae5e82e17b09746c7dd587284e1a0c989">Condition::Source</a>
-, <a class="el" href="structCondition_1_1Species.html#aa7366f442b80d4a7db5250e1d627af93">Condition::Species</a>
+, <a class="el" href="structCondition_1_1Species.html#a091c77a797dd27889f5773f504a2d958">Condition::Species</a>
 , <a class="el" href="structCondition_1_1Target.html#a9f459311982db1b555718b88dab84d79">Condition::Target</a>
 , <a class="el" href="structCondition_1_1Type.html#a9c5022dc9df269f521e7b6f1585d9374">Condition::Type</a>
 </li>
@@ -603,7 +603,7 @@ $(function() {
 , <a class="el" href="classTextLinker.html#a524c3eaac4de9e801719200d561d8af8">TextLinker</a>
 </li>
 <li>GetGalaxySetupData()
-: <a class="el" href="classClientApp.html#ac00c7bba316e361832853914a9deb5d2">ClientApp</a>
+: <a class="el" href="classClientApp.html#ad0f8a097ceadf19e1b19326a0b16882c">ClientApp</a>
 , <a class="el" href="classIApp.html#a68d7111d52c4c2d5bed2f681e4fee355">IApp</a>
 , <a class="el" href="classServerApp.html#a7ee0cf6d0d5dfe90e2e19a60bc911721">ServerApp</a>
 </li>
@@ -693,10 +693,8 @@ $(function() {
 : <a class="el" href="classClientUI.html#aa9b630a6bd4c116724ff46956fe16ff8">ClientUI</a>
 </li>
 <li>GetMeter()
-: <a class="el" href="classPlanet.html#ac08dec6f01d12f6bc008cd5c554fcc5b">Planet</a>
-, <a class="el" href="classPopCenter.html#a3f3441ed4c2d894b7f2ff91082460215">PopCenter</a>
-, <a class="el" href="classResourceCenter.html#ae960aeb7198ed07d30fae11d4cadbc42">ResourceCenter</a>
-, <a class="el" href="classUniverseObject.html#a3260b254dff68081cf3959b430ed6559">UniverseObject</a>
+: <a class="el" href="classPopCenter.html#a792e95018ed34b8e9266a669d883a62e">PopCenter</a>
+, <a class="el" href="classResourceCenter.html#a57a82f8232713d5578eddecd6344695a">ResourceCenter</a>
 </li>
 <li>GetMeterType()
 : <a class="el" href="classEffect_1_1SetMeter.html#a13c0a0cd61091808949e54fc43167e9c">Effect::SetMeter</a>
@@ -783,7 +781,7 @@ $(function() {
 : <a class="el" href="classSlotControl.html#a0671c326dd01acf706061ae5716615e0">SlotControl</a>
 </li>
 <li>GetPartMeter()
-: <a class="el" href="classShip.html#a51e58d3981c17a4b7072ae0212102113">Ship</a>
+: <a class="el" href="classShip.html#a3bd1d2cb98d65ec693658022a9cce3b1">Ship</a>
 </li>
 <li>GetPartName()
 : <a class="el" href="classEffect_1_1SetShipPartMeter.html#a22f268db5deab2c69a793711ce83bf0d">Effect::SetShipPartMeter</a>
@@ -798,8 +796,11 @@ $(function() {
 : <a class="el" href="structGalaxySetupData.html#ad7a7d4cc0b341b14ca82175610506f44">GalaxySetupData</a>
 , <a class="el" href="classGalaxySetupPanel.html#a66054fbc3cd6995aa61fca2f7cd8aa6a">GalaxySetupPanel</a>
 </li>
+<li>GetPlanetEnvironment()
+: <a class="el" href="classSpecies.html#a5d3dbc53c4e622325380b33e57f653f8">Species</a>
+</li>
 <li>GetPlayer()
-: <a class="el" href="classServerNetworking.html#ace523e4aefa26e47b9af8e3cb5318491">ServerNetworking</a>
+: <a class="el" href="classServerNetworking.html#a00968f62df4d0c9d4acd593eb0b2cef9">ServerNetworking</a>
 </li>
 <li>GetPlayerClientType()
 : <a class="el" href="classClientApp.html#a2dbd9100baba4a3d5b49ad2d12123bc9">ClientApp</a>
@@ -909,7 +910,7 @@ $(function() {
 : <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#ad184970170c877574e529eb194e2b712">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo</a>
 </li>
 <li>GetSideBarSize()
-: <a class="el" href="classBarSizer.html#a1e4b356d8609fd9157bb3c0a6fb340cf">BarSizer</a>
+: <a class="el" href="classBarSizer.html#ac815d3a081c63b95fc850a68d135526c">BarSizer</a>
 </li>
 <li>GetSitRepEntry()
 : <a class="el" href="classanonymous__namespace_02SitRepPanel_8cpp_03_1_1SitRepDataPanel.html#a286a2a478ef3f4bfb0eb3a3c52b42e73">anonymous_namespace{SitRepPanel.cpp}::SitRepDataPanel</a>
@@ -949,7 +950,7 @@ $(function() {
 : <a class="el" href="classSpeciesManager.html#afe68fcef9331de2dd621ca922db2b8d9">SpeciesManager</a>
 </li>
 <li>GetSpeciesManager()
-: <a class="el" href="classClientApp.html#a4af964518a062d73552eadc9539802f4">ClientApp</a>
+: <a class="el" href="classClientApp.html#a783ae1081cb839b001a7756f6c6ab58a">ClientApp</a>
 , <a class="el" href="classIApp.html#a3e9eeeab0a2dc9c2ad912fd9af6c07fb">IApp</a>
 , <a class="el" href="classServerApp.html#af36940ad9b82599f49d15438a1f301fd">ServerApp</a>
 </li>
@@ -989,7 +990,7 @@ $(function() {
 : <a class="el" href="classSDLGUI.html#a619f4ba94c313c480985b13bbecf7b19">SDLGUI</a>
 </li>
 <li>GetSystem()
-: <a class="el" href="structCombatInfo.html#a44441e8b69f19ee3cea6b9dc9eed3799">CombatInfo</a>
+: <a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">CombatInfo</a>
 </li>
 <li>GetTech()
 : <a class="el" href="classTechManager.html#aa27218c052483d29600fcf41ac6e23d8">TechManager</a>
@@ -1030,7 +1031,7 @@ $(function() {
 : <a class="el" href="classGameRules.html#a1102b650f841ad61c097a079487e8aa3">GameRules</a>
 </li>
 <li>GetUniverse()
-: <a class="el" href="classClientApp.html#a356fcd351b84e79d4b7745d5894d1f13">ClientApp</a>
+: <a class="el" href="classClientApp.html#a4fa1d1f1ba778c814b8ce0a3b39cc784">ClientApp</a>
 , <a class="el" href="classIApp.html#a96e7b315d57b4e61ace7e5ecb6800644">IApp</a>
 , <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp</a>
 </li>
@@ -1049,7 +1050,7 @@ $(function() {
 , <a class="el" href="classStatisticIcon.html#ac1918dd5af26da53e35dd45ad843091e">StatisticIcon</a>
 </li>
 <li>GetValueRef()
-: <a class="el" href="classNamedValueRefManager.html#a4a845ec313ca84058e86ddf35dfb0301">NamedValueRefManager</a>
+: <a class="el" href="classNamedValueRefManager.html#a2542685704b50dff379add826903c9d7">NamedValueRefManager</a>
 , <a class="el" href="structValueRef_1_1NamedRef.html#ac3a1653fc002b1c8db9d58cf79f63841">ValueRef::NamedRef&lt; T &gt;</a>
 , <a class="el" href="structValueRef_1_1NameLookup.html#a5a4705f98920c6ac77984789041c4bce">ValueRef::NameLookup</a>
 , <a class="el" href="structValueRef_1_1StaticCast.html#a9671a3e611e7e23f85e9efaf29b24aed">ValueRef::StaticCast&lt; FromType, ToType &gt;</a>
@@ -1068,9 +1069,7 @@ $(function() {
 </li>
 <li>GetVisibility()
 : <a class="el" href="classEffect_1_1SetVisibility.html#a0c7820153ab70f03f8547ec5616817a0">Effect::SetVisibility</a>
-, <a class="el" href="classPlanet.html#a97c1e8527b0e4a2a6db80a01b01d09db">Planet</a>
 , <a class="el" href="classResourceCenter.html#a34035b2e0ea8740442b77d197ebd8556">ResourceCenter</a>
-, <a class="el" href="classUniverseObject.html#ad393dd0f6c1b568e53724c19b6293de1">UniverseObject</a>
 </li>
 <li>GetVisibilityFilters()
 : <a class="el" href="classFilterDialog.html#a1c3b14179f066f61c24a7f34d32058f9">FilterDialog</a>
@@ -1081,7 +1080,7 @@ $(function() {
 , <a class="el" href="classServerApp.html#a4326c75072cfafb6cba063d82b06ddbc">ServerApp</a>
 </li>
 <li>GetWidth()
-: <a class="el" href="classTechTreeLayout.html#a6f98f0b098f21c393d253cf54a17dafd">TechTreeLayout</a>
+: <a class="el" href="classTechTreeLayout.html#a8a09af0ead17f4212324cbd550891e6c">TechTreeLayout</a>
 </li>
 <li>GetWindowLeftTop()
 : <a class="el" href="classHumanClientApp.html#ab08b5a1c3dc9b9baa757224b4f6e557d">HumanClientApp</a>
@@ -1097,9 +1096,6 @@ $(function() {
 </li>
 <li>GetY()
 : <a class="el" href="classTechTreeLayout_1_1Node.html#ab59ada16dc469747588c79164bcaab21">TechTreeLayout::Node</a>
-</li>
-<li>GG_CLASS_ENUM()
-: <a class="el" href="classMessage.html#af22d6db31845a581a0ea7510276a5674">Message</a>
 </li>
 <li>give_empire_tech
 : <a class="el" href="structparse_1_1detail_1_1effect__parser__rules__1.html#a043088b099dfb7b997015972f33efb3c">parse::detail::effect_parser_rules_1</a>
@@ -1150,9 +1146,9 @@ $(function() {
 </li>
 <li>Graphic()
 : <a class="el" href="classFieldType.html#a67bdf5340b8088babc6c8b2d64f6b62e">FieldType</a>
-, <a class="el" href="classFocusType.html#a00f1d68f72939fec748f8ab0a9b6d0f2">FocusType</a>
 , <a class="el" href="classPolicy.html#af8b4339ce6c4939aeec47a8d528954ee">Policy</a>
 , <a class="el" href="classSpecial.html#a82498ebe393882e52791dc551432b5df">Special</a>
+, <a class="el" href="classSpecies.html#abf68e265b2cbbb9f0a1d8f7761d3571e">Species</a>
 , <a class="el" href="classTech.html#a06017a2935cd829af0e24b6cb7a7b4fa">Tech</a>
 </li>
 <li>graphic

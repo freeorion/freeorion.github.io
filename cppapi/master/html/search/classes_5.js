@@ -27,7 +27,7 @@ var searchData=
   ['fleettransferorder',['FleetTransferOrder',['../classFleetTransferOrder.html',1,'']]],
   ['fleetuimanager',['FleetUIManager',['../classFleetUIManager.html',1,'']]],
   ['fleetwnd',['FleetWnd',['../classFleetWnd.html',1,'']]],
-  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition::FocusType'],['../classFocusType.html',1,'FocusType']]],
+  ['focustype',['FocusType',['../structCondition_1_1FocusType.html',1,'Condition']]],
   ['focustypesimplematch',['FocusTypeSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1FocusTypeSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['focuswindowcondition',['FocusWindowCondition',['../classFocusWindowCondition.html',1,'']]],
   ['focuswindowisa',['FocusWindowIsA',['../classFocusWindowIsA.html',1,'']]],

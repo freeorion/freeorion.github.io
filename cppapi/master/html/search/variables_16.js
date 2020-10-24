@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['waiting_5ffor_5fplayers',['WAITING_FOR_PLAYERS',['../classMessage.html#a9d7a2b76d37c0b3ee323f41ff3e10a17',1,'Message']]],
   ['weapon_5fname',['weapon_name',['../structWeaponFireEvent.html#a0525165365cad81751d91e148c88181f',1,'WeaponFireEvent']]],
   ['weight',['weight',['../classTechTreeLayout_1_1Node.html#ad520424ada57bf30bf83056dc64a60e1',1,'TechTreeLayout::Node']]],
   ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab4b8c9451aafcce6dc17f4f2dd88f68e',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
