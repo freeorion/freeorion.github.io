@@ -96,9 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53a4591b98edcb09b061c2061118e6d5"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; double, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors</a> (int system_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
 <tr class="memdesc:a53a4591b98edcb09b061c2061118e6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the systems that are one starlane hop away from system <em>system</em>.  <a href="#a53a4591b98edcb09b061c2061118e6d5">More...</a><br /></td></tr>
 <tr class="separator:a53a4591b98edcb09b061c2061118e6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4da1bc97ebe4510c919f7e5dd7057a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#ae4da1bc97ebe4510c919f7e5dd7057a2">InitializeSystemGraph</a> (const std::vector&lt; int &gt; system_ids, int for_empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="memdesc:ae4da1bc97ebe4510c919f7e5dd7057a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills pathfinding data structure and determines least jumps distances between systems for the empire with id <em>for_empire_id</em> or uses the main / true / visible objects if <em>for_empire_id</em> is ALL_EMPIRES.  <a href="#ae4da1bc97ebe4510c919f7e5dd7057a2">More...</a><br /></td></tr>
-<tr class="separator:ae4da1bc97ebe4510c919f7e5dd7057a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca75a36d1284ff2dd35871683445c026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aca75a36d1284ff2dd35871683445c026">InitializeSystemGraph</a> (const std::vector&lt; int &gt; &amp;system_ids, int for_empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
+<tr class="memdesc:aca75a36d1284ff2dd35871683445c026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills pathfinding data structure and determines least jumps distances between systems for the empire with id <em>for_empire_id</em> or uses the main / true / visible objects if <em>for_empire_id</em> is ALL_EMPIRES.  <a href="#aca75a36d1284ff2dd35871683445c026">More...</a><br /></td></tr>
+<tr class="separator:aca75a36d1284ff2dd35871683445c026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43552c78d93547b7a2601c0af538f41d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a43552c78d93547b7a2601c0af538f41d">JumpDistanceBetweenObjects</a> (int object1_id, int object2_id) const</td></tr>
 <tr class="memdesc:a43552c78d93547b7a2601c0af538f41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of starlane jumps between any two objects, accounting for cases where one or the other are fleets / ships on starlanes between systems.  <a href="#a43552c78d93547b7a2601c0af538f41d">More...</a><br /></td></tr>
 <tr class="separator:a43552c78d93547b7a2601c0af538f41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,8 +257,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4da1bc97ebe4510c919f7e5dd7057a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4da1bc97ebe4510c919f7e5dd7057a2">&#9670;&nbsp;</a></span>InitializeSystemGraph()</h2>
+<a id="aca75a36d1284ff2dd35871683445c026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca75a36d1284ff2dd35871683445c026">&#9670;&nbsp;</a></span>InitializeSystemGraph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +266,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Pathfinder::InitializeSystemGraph </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; int &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>system_ids</em>, </td>
         </tr>
         <tr>
@@ -448,7 +448,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a5b27e7ee68e723eb3a4916ac61185ed1">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a8fce4681bd9d291579184e8212f10307">Pathfinder::PathfinderImpl::ShortestPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aff691d9a630fcd81bb009e53985554aa">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a8fce4681bd9d291579184e8212f10307">Pathfinder::PathfinderImpl::ShortestPath()</a>.</p>
 
 </div>
 </div>
@@ -715,7 +715,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a5b27e7ee68e723eb3a4916ac61185ed1">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aff691d9a630fcd81bb009e53985554aa">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>.</p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors()</a>, <a class="el" href="classPathfinder.html#ae4da1bc97ebe4510c919f7e5dd7057a2">InitializeSystemGraph()</a>, <a class="el" href="classPathfinder.html#a43552c78d93547b7a2601c0af538f41d">JumpDistanceBetweenObjects()</a>, <a class="el" href="classPathfinder.html#a2fd6ad829c4331d64b28fe5a98ce1a16">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d">LeastJumpsPath()</a>, <a class="el" href="classPathfinder.html#a712070a3b5772d6065228fd7c15ec2f1">LinearDistance()</a>, <a class="el" href="classPathfinder.html#a357b34906dad66e9b6e0442141def6c1">NearestSystemTo()</a>, <a class="el" href="classPathfinder.html#a1ba9eb0254724412b8932f0ae3e5e607">ShortestPath()</a>, <a class="el" href="classPathfinder.html#a942220bea837760f90a89c2c445b1368">ShortestPathDistance()</a>, <a class="el" href="classPathfinder.html#a431a724f969fe237fb76fb3895fca291">SystemHasVisibleStarlanes()</a>, <a class="el" href="classPathfinder.html#a0de4497d96c7433971002308ef3cd87b">SystemsConnected()</a>, <a class="el" href="classPathfinder.html#acc255822d2587ec94022230d380f1cc2">UpdateEmpireVisibilityFilteredSystemGraphs()</a>, <a class="el" href="classPathfinder.html#a53e8cff0ec9561ae3978aec420918e90">WithinJumps()</a>, and <a class="el" href="classPathfinder.html#a54e20d679084e28b8bfb4e9c2c0e2853">WithinJumpsOfOthers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors()</a>, <a class="el" href="classPathfinder.html#aca75a36d1284ff2dd35871683445c026">InitializeSystemGraph()</a>, <a class="el" href="classPathfinder.html#a43552c78d93547b7a2601c0af538f41d">JumpDistanceBetweenObjects()</a>, <a class="el" href="classPathfinder.html#a2fd6ad829c4331d64b28fe5a98ce1a16">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d">LeastJumpsPath()</a>, <a class="el" href="classPathfinder.html#a712070a3b5772d6065228fd7c15ec2f1">LinearDistance()</a>, <a class="el" href="classPathfinder.html#a357b34906dad66e9b6e0442141def6c1">NearestSystemTo()</a>, <a class="el" href="classPathfinder.html#a1ba9eb0254724412b8932f0ae3e5e607">ShortestPath()</a>, <a class="el" href="classPathfinder.html#a942220bea837760f90a89c2c445b1368">ShortestPathDistance()</a>, <a class="el" href="classPathfinder.html#a431a724f969fe237fb76fb3895fca291">SystemHasVisibleStarlanes()</a>, <a class="el" href="classPathfinder.html#a0de4497d96c7433971002308ef3cd87b">SystemsConnected()</a>, <a class="el" href="classPathfinder.html#acc255822d2587ec94022230d380f1cc2">UpdateEmpireVisibilityFilteredSystemGraphs()</a>, <a class="el" href="classPathfinder.html#a53e8cff0ec9561ae3978aec420918e90">WithinJumps()</a>, and <a class="el" href="classPathfinder.html#a54e20d679084e28b8bfb4e9c2c0e2853">WithinJumpsOfOthers()</a>.</p>
 
 </div>
 </div>
