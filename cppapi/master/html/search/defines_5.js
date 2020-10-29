@@ -5,6 +5,8 @@ var searchData=
   ['fo_5fdef_5fenum_5fadd_5fstring_5frepr',['FO_DEF_ENUM_ADD_STRING_REPR',['../Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa',1,'Enum.h']]],
   ['fo_5fdef_5fenum_5fistream',['FO_DEF_ENUM_ISTREAM',['../Enum_8h.html#a140b24bacba83b268114f9fe995eb0df',1,'Enum.h']]],
   ['fo_5fdef_5fenum_5fistream_5fcase',['FO_DEF_ENUM_ISTREAM_CASE',['../Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28',1,'Enum.h']]],
+  ['fo_5fdef_5fenum_5fiterate',['FO_DEF_ENUM_ITERATE',['../Enum_8h.html#a8c0877b2b8cf3f119be5d6dee318e914',1,'Enum.h']]],
+  ['fo_5fdef_5fenum_5fiterate_5fvalue',['FO_DEF_ENUM_ITERATE_VALUE',['../Enum_8h.html#a7b1a7ce3623188391709b0e8b27f26c0',1,'Enum.h']]],
   ['fo_5fdef_5fenum_5fostream',['FO_DEF_ENUM_OSTREAM',['../Enum_8h.html#a30ee58e4557a213611b041471575479e',1,'Enum.h']]],
   ['fo_5fdef_5fenum_5fostream_5fcase',['FO_DEF_ENUM_OSTREAM_CASE',['../Enum_8h.html#af5501e15baa8b887b0546386bc366d4d',1,'Enum.h']]],
   ['fo_5fdef_5fenum_5fvalue',['FO_DEF_ENUM_VALUE',['../Enum_8h.html#a877d790ea2488c7a9c42f994a8409cd0',1,'Enum.h']]],

@@ -219,6 +219,7 @@ var searchData=
   ['enum_5fvalue_5fref_5frules_3c_20startype_20_3e',['enum_value_ref_rules&lt; StarType &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
   ['enum_5fvalue_5fref_5frules_3c_20universeobjecttype_20_3e',['enum_value_ref_rules&lt; UniverseObjectType &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
   ['enum_5fvalue_5fref_5frules_3c_20visibility_20_3e',['enum_value_ref_rules&lt; Visibility &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
+  ['enumiterator',['EnumIterator',['../structEnumIterator.html',1,'']]],
   ['enumparser_2ecpp',['EnumParser.cpp',['../EnumParser_8cpp.html',1,'']]],
   ['enumparser_2eh',['EnumParser.h',['../EnumParser_8h.html',1,'']]],
   ['enums_2ecpp',['Enums.cpp',['../Enums_8cpp.html',1,'']]],

@@ -64,12 +64,14 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">Enum.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
 <code>#include &lt;boost/preprocessor/comparison/equal.hpp&gt;</code><br />
 <code>#include &lt;boost/preprocessor/control/if.hpp&gt;</code><br />
 <code>#include &lt;boost/preprocessor/seq/for_each.hpp&gt;</code><br />
@@ -79,6 +81,11 @@ $(function() {
 <code>#include &lt;boost/preprocessor/tuple/push_back.hpp&gt;</code><br />
 <code>#include &lt;boost/preprocessor/tuple/size.hpp&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structEnumIterator.html">EnumIterator&lt; E &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:aa93e817066045f5e668fa4db3a8ce427"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Enum_8h.html#aa93e817066045f5e668fa4db3a8ce427">FO_DEF_ENUM</a>(typeName,  values)</td></tr>
@@ -93,6 +100,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a17936396f2859a62e64ac8a993b4ef28"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28">FO_DEF_ENUM_ISTREAM_CASE</a>(r,  data,  elem)</td></tr>
 <tr class="memdesc:a17936396f2859a62e64ac8a993b4ef28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation detail for FO_ENUM.  <a href="#a17936396f2859a62e64ac8a993b4ef28">More...</a><br /></td></tr>
 <tr class="separator:a17936396f2859a62e64ac8a993b4ef28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0877b2b8cf3f119be5d6dee318e914"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Enum_8h.html#a8c0877b2b8cf3f119be5d6dee318e914">FO_DEF_ENUM_ITERATE</a>(typeName,  values)</td></tr>
+<tr class="memdesc:a8c0877b2b8cf3f119be5d6dee318e914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation detail for FO_ENUM.  <a href="#a8c0877b2b8cf3f119be5d6dee318e914">More...</a><br /></td></tr>
+<tr class="separator:a8c0877b2b8cf3f119be5d6dee318e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1a7ce3623188391709b0e8b27f26c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Enum_8h.html#a7b1a7ce3623188391709b0e8b27f26c0">FO_DEF_ENUM_ITERATE_VALUE</a>(r,  data,  elem)&#160;&#160;&#160;{data::BOOST_PP_TUPLE_ELEM(0, elem), BOOST_PP_STRINGIZE(BOOST_PP_TUPLE_ELEM(0, elem)) },</td></tr>
+<tr class="memdesc:a7b1a7ce3623188391709b0e8b27f26c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation detail for FO_ENUM.  <a href="#a7b1a7ce3623188391709b0e8b27f26c0">More...</a><br /></td></tr>
+<tr class="separator:a7b1a7ce3623188391709b0e8b27f26c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30ee58e4557a213611b041471575479e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Enum_8h.html#a30ee58e4557a213611b041471575479e">FO_DEF_ENUM_OSTREAM</a>(typeName,  values)</td></tr>
 <tr class="memdesc:a30ee58e4557a213611b041471575479e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation detail for FO_ENUM.  <a href="#a30ee58e4557a213611b041471575479e">More...</a><br /></td></tr>
 <tr class="separator:a30ee58e4557a213611b041471575479e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,7 +145,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(0, typeName)) \</div><div class="line">: int { \</div><div class="line">    BOOST_PP_SEQ_FOR_EACH(<a class="code" href="Enum_8h.html#a877d790ea2488c7a9c42f994a8409cd0">FO_DEF_ENUM_VALUE</a>, _, values) \</div><div class="line">};</div><div class="ttc" id="Enum_8h_html_a877d790ea2488c7a9c42f994a8409cd0"><div class="ttname"><a href="Enum_8h.html#a877d790ea2488c7a9c42f994a8409cd0">FO_DEF_ENUM_VALUE</a></div><div class="ttdeci">#define FO_DEF_ENUM_VALUE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:17</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">enum class</span> \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(0, typeName)) \</div><div class="line">: int { \</div><div class="line">    BOOST_PP_SEQ_FOR_EACH(<a class="code" href="Enum_8h.html#a877d790ea2488c7a9c42f994a8409cd0">FO_DEF_ENUM_VALUE</a>, _, values) \</div><div class="line">};</div><div class="ttc" id="Enum_8h_html_a877d790ea2488c7a9c42f994a8409cd0"><div class="ttname"><a href="Enum_8h.html#a877d790ea2488c7a9c42f994a8409cd0">FO_DEF_ENUM_VALUE</a></div><div class="ttdeci">#define FO_DEF_ENUM_VALUE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:18</div></div>
 </div><!-- fragment -->
 <p>Implementation detail for FO_ENUM. </p>
 
@@ -199,7 +212,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">inline \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">        <span class="keyword">friend</span>, \</div><div class="line">        BOOST_PP_EMPTY()) \</div><div class="line">std::istream&amp; <a class="code" href="Logger_8cpp.html#a79818d61fa76fa2924c62d7d8cf4e90e">operator &gt;&gt;</a>(std::istream&amp; stream, \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(0, typeName))&amp; value) \</div><div class="line">{ \</div><div class="line">    std::string token; \</div><div class="line"> \</div><div class="line">    stream &gt;&gt; token; <a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">\</a></div><div class="line"><a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb"> \</a></div><div class="line"><a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">    if</a>(<span class="keyword">false</span>) \</div><div class="line">        ; \</div><div class="line">    BOOST_PP_SEQ_FOR_EACH(<a class="code" href="Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28">FO_DEF_ENUM_ISTREAM_CASE</a>, \</div><div class="line">        BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">            BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">            BOOST_PP_TUPLE_ELEM(0, typeName)), values) \</div><div class="line">    else \</div><div class="line">        stream.setstate(std::ios::failbit); \</div><div class="line"> \</div><div class="line">    return stream; \</div><div class="line">}</div><div class="ttc" id="Enum_8h_html_a17936396f2859a62e64ac8a993b4ef28"><div class="ttname"><a href="Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28">FO_DEF_ENUM_ISTREAM_CASE</a></div><div class="ttdeci">#define FO_DEF_ENUM_ISTREAM_CASE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:64</div></div>
+<b>Value:</b><div class="fragment"><div class="line">inline \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">        <span class="keyword">friend</span>, \</div><div class="line">        BOOST_PP_EMPTY()) \</div><div class="line">std::istream&amp; <a class="code" href="Logger_8cpp.html#a79818d61fa76fa2924c62d7d8cf4e90e">operator &gt;&gt;</a>(std::istream&amp; stream, \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(0, typeName))&amp; value) \</div><div class="line">{ \</div><div class="line">    std::string token; \</div><div class="line"> \</div><div class="line">    stream &gt;&gt; token; <a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">\</a></div><div class="line"><a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb"> \</a></div><div class="line"><a class="code" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">    if</a>(<span class="keyword">false</span>) \</div><div class="line">        ; \</div><div class="line">    BOOST_PP_SEQ_FOR_EACH(<a class="code" href="Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28">FO_DEF_ENUM_ISTREAM_CASE</a>, \</div><div class="line">        BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">            BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">            BOOST_PP_TUPLE_ELEM(0, typeName)), values) \</div><div class="line">    else \</div><div class="line">        stream.setstate(std::ios::failbit); \</div><div class="line"> \</div><div class="line">    return stream; \</div><div class="line">}</div><div class="ttc" id="Enum_8h_html_a17936396f2859a62e64ac8a993b4ef28"><div class="ttname"><a href="Enum_8h.html#a17936396f2859a62e64ac8a993b4ef28">FO_DEF_ENUM_ISTREAM_CASE</a></div><div class="ttdeci">#define FO_DEF_ENUM_ISTREAM_CASE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:65</div></div>
 <div class="ttc" id="Logger_8cpp_html_a79818d61fa76fa2924c62d7d8cf4e90e"><div class="ttname"><a href="Logger_8cpp.html#a79818d61fa76fa2924c62d7d8cf4e90e">operator&gt;&gt;</a></div><div class="ttdeci">std::basic_istream&lt; CharT, TraitsT &gt; &amp; operator&gt;&gt;(std::basic_istream&lt; CharT, TraitsT &gt; &amp;is, LogLevel &amp;level)</div><div class="ttdef"><b>Definition:</b> Logger.cpp:120</div></div>
 <div class="ttc" id="chmain_8cpp_html_aef06acd7e483780d42de3703daad82cb"><div class="ttname"><a href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">if</a></div><div class="ttdeci">if(help_arg !=&quot;NOOP&quot;)</div><div class="ttdef"><b>Definition:</b> chmain.cpp:90</div></div>
 </div><!-- fragment -->
@@ -243,6 +256,72 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a8c0877b2b8cf3f119be5d6dee318e914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0877b2b8cf3f119be5d6dee318e914">&#9670;&nbsp;</a></span>FO_DEF_ENUM_ITERATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FO_DEF_ENUM_ITERATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">typeName, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">values&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementation detail for FO_ENUM. </p>
+
+</div>
+</div>
+<a id="a7b1a7ce3623188391709b0e8b27f26c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b1a7ce3623188391709b0e8b27f26c0">&#9670;&nbsp;</a></span>FO_DEF_ENUM_ITERATE_VALUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FO_DEF_ENUM_ITERATE_VALUE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">r, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">data, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">elem&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{data::BOOST_PP_TUPLE_ELEM(0, elem), BOOST_PP_STRINGIZE(BOOST_PP_TUPLE_ELEM(0, elem)) },</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementation detail for FO_ENUM. </p>
+
+</div>
+</div>
 <a id="a30ee58e4557a213611b041471575479e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30ee58e4557a213611b041471575479e">&#9670;&nbsp;</a></span>FO_DEF_ENUM_OSTREAM</h2>
 
@@ -269,7 +348,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">inline \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">        <span class="keyword">friend</span>, \</div><div class="line">        BOOST_PP_EMPTY()) \</div><div class="line">std::ostream&amp; <a class="code" href="Message_8cpp.html#a208e9161020ccc1d6cb45618f28a1a52">operator &lt;&lt;</a>(std::ostream&amp; stream, \</div><div class="line">BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">    BOOST_PP_TUPLE_ELEM(0, typeName)) value) \</div><div class="line">{ \</div><div class="line">    switch(value) \</div><div class="line">    { \</div><div class="line">        BOOST_PP_SEQ_FOR_EACH(<a class="code" href="Enum_8h.html#af5501e15baa8b887b0546386bc366d4d">FO_DEF_ENUM_OSTREAM_CASE</a>, \</div><div class="line">            BOOST_PP_IF(BOOST_PP_EQUAL(BOOST_PP_TUPLE_SIZE(typeName), 2), \</div><div class="line">                BOOST_PP_TUPLE_ELEM(1, typeName), \</div><div class="line">                BOOST_PP_TUPLE_ELEM(0, typeName)), values) \</div><div class="line">        default: \</div><div class="line">            stream.setstate(std::ios::failbit); \</div><div class="line">            break; \</div><div class="line">    } \</div><div class="line"> \</div><div class="line">    return stream; \</div><div class="line">}</div><div class="ttc" id="Message_8cpp_html_a208e9161020ccc1d6cb45618f28a1a52"><div class="ttname"><a href="Message_8cpp.html#a208e9161020ccc1d6cb45618f28a1a52">operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const Message &amp;msg)</div><div class="ttdoc">Writes msg to os. </div><div class="ttdef"><b>Definition:</b> Message.cpp:45</div></div>
-<div class="ttc" id="Enum_8h_html_af5501e15baa8b887b0546386bc366d4d"><div class="ttname"><a href="Enum_8h.html#af5501e15baa8b887b0546386bc366d4d">FO_DEF_ENUM_OSTREAM_CASE</a></div><div class="ttdeci">#define FO_DEF_ENUM_OSTREAM_CASE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:33</div></div>
+<div class="ttc" id="Enum_8h_html_af5501e15baa8b887b0546386bc366d4d"><div class="ttname"><a href="Enum_8h.html#af5501e15baa8b887b0546386bc366d4d">FO_DEF_ENUM_OSTREAM_CASE</a></div><div class="ttdeci">#define FO_DEF_ENUM_OSTREAM_CASE(r, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:34</div></div>
 </div><!-- fragment -->
 <p>Implementation detail for FO_ENUM. </p>
 
@@ -372,8 +451,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="Enum_8h.html#aa93e817066045f5e668fa4db3a8ce427">FO_DEF_ENUM</a>(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values)) \</div><div class="line">    FO_DEF_ENUM_OSTREAM(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values)) \</div><div class="line">    FO_DEF_ENUM_ISTREAM(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values))</div><div class="ttc" id="Enum_8h_html_a7d3808c8384c38850caf45b0d7ee6daa"><div class="ttname"><a href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a></div><div class="ttdeci">#define FO_DEF_ENUM_ADD_STRING_REPR(s, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:97</div></div>
-<div class="ttc" id="Enum_8h_html_aa93e817066045f5e668fa4db3a8ce427"><div class="ttname"><a href="Enum_8h.html#aa93e817066045f5e668fa4db3a8ce427">FO_DEF_ENUM</a></div><div class="ttdeci">#define FO_DEF_ENUM(typeName, values)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:23</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="Enum_8h.html#aa93e817066045f5e668fa4db3a8ce427">FO_DEF_ENUM</a>(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values)) \</div><div class="line">    FO_DEF_ENUM_OSTREAM(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values)) \</div><div class="line">    FO_DEF_ENUM_ISTREAM(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values)) \</div><div class="line">    FO_DEF_ENUM_ITERATE(typeName, BOOST_PP_SEQ_TRANSFORM(<a class="code" href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a>, _, values))</div><div class="ttc" id="Enum_8h_html_a7d3808c8384c38850caf45b0d7ee6daa"><div class="ttname"><a href="Enum_8h.html#a7d3808c8384c38850caf45b0d7ee6daa">FO_DEF_ENUM_ADD_STRING_REPR</a></div><div class="ttdeci">#define FO_DEF_ENUM_ADD_STRING_REPR(s, data, elem)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:149</div></div>
+<div class="ttc" id="Enum_8h_html_aa93e817066045f5e668fa4db3a8ce427"><div class="ttname"><a href="Enum_8h.html#aa93e817066045f5e668fa4db3a8ce427">FO_DEF_ENUM</a></div><div class="ttdeci">#define FO_DEF_ENUM(typeName, values)</div><div class="ttdoc">Implementation detail for FO_ENUM. </div><div class="ttdef"><b>Definition:</b> Enum.h:24</div></div>
 </div><!-- fragment -->
 <p>Define an enumeration. </p>
 <p>Defines an enumeration named <code>typeName</code> with the enumeration <code>values</code> in the namespace where this macro is used. Also defines &lt;&lt; and &gt;&gt; operators for iostream usage.</p>
@@ -382,7 +461,7 @@ Macros</h2></td></tr>
 <p>When using the &lt;&lt; operator the string representation of the enumeration is written to the ostream.</p>
 <p>When using the &gt;&gt; operator and one string representation matches the input value the output will be set to the associated enum value. If the input value doesn't match any string representation the istream failbit will be set.</p>
 <p>Examples:</p>
-<p>Free enumeration: </p><div class="fragment"><div class="line"><a class="code" href="Enum_8h.html#a04a51098156ca4d86855006b66c5e72f">FO_ENUM</a>(</div><div class="line">    (Animal),</div><div class="line">    ((CAT))</div><div class="line">    ((DOG))</div><div class="line">    ((COW, 5))</div><div class="line">)</div></div><!-- fragment --><p>Class member enumeration: </p><div class="fragment"><div class="line"><span class="keyword">class </span>AutomaticGearBox</div><div class="line">{</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <a class="code" href="Enum_8h.html#a04a51098156ca4d86855006b66c5e72f">FO_ENUM</a>(</div><div class="line">        (AutomaticGearBox, Gear),</div><div class="line">        ((PARK,    -5))</div><div class="line">        ((REVERSE, -1))</div><div class="line">        ((NEUTRAL, 0))</div><div class="line">        ((LOW))</div><div class="line">        ((DRIVE))</div><div class="line">        ((SPRINT))</div><div class="line">    )</div><div class="line">}</div></div><!-- fragment --> 
+<p>Free enumeration: </p><div class="fragment"><div class="line"><a class="code" href="Enum_8h.html#a04a51098156ca4d86855006b66c5e72f">FO_ENUM</a>(</div><div class="line">    (Animal),</div><div class="line">    ((CAT))</div><div class="line">    ((DOG))</div><div class="line">    ((COW, 5))</div><div class="line">)</div></div><!-- fragment --><p>Iterate over values: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; p : IterateEnum(<a class="code" href="structEnumIterator.html">EnumIterator&lt;Animal&gt;</a>{})) {</div><div class="line">   ...</div><div class="line">}</div></div><!-- fragment --><p>Class member enumeration: </p><div class="fragment"><div class="line"><span class="keyword">class </span>AutomaticGearBox</div><div class="line">{</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <a class="code" href="Enum_8h.html#a04a51098156ca4d86855006b66c5e72f">FO_ENUM</a>(</div><div class="line">        (AutomaticGearBox, Gear),</div><div class="line">        ((PARK,    -5))</div><div class="line">        ((REVERSE, -1))</div><div class="line">        ((NEUTRAL, 0))</div><div class="line">        ((LOW))</div><div class="line">        ((DRIVE))</div><div class="line">        ((SPRINT))</div><div class="line">    )</div><div class="line">}</div></div><!-- fragment --><p>Iterate over values: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; p : AutomaticGearBox::IterateEnum(<a class="code" href="structEnumIterator.html">EnumIterator&lt;AutomaticGearBox::Animal&gt;</a>{})) {</div><div class="line">   ...</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->

@@ -34,6 +34,7 @@ var searchData=
   ['enum_5fvalue_5fref_5frules_3c_20startype_20_3e',['enum_value_ref_rules&lt; StarType &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
   ['enum_5fvalue_5fref_5frules_3c_20universeobjecttype_20_3e',['enum_value_ref_rules&lt; UniverseObjectType &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
   ['enum_5fvalue_5fref_5frules_3c_20visibility_20_3e',['enum_value_ref_rules&lt; Visibility &gt;',['../structparse_1_1detail_1_1enum__value__ref__rules.html',1,'parse::detail']]],
+  ['enumiterator',['EnumIterator',['../structEnumIterator.html',1,'']]],
   ['establishedplayer',['EstablishedPlayer',['../structServerNetworking_1_1EstablishedPlayer.html',1,'ServerNetworking']]],
   ['exclusions_5fgrammar',['exclusions_grammar',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1exclusions__grammar.html',1,'anonymous_namespace{PoliciesParser.cpp}']]],
   ['exploredbyempire',['ExploredByEmpire',['../structCondition_1_1ExploredByEmpire.html',1,'Condition']]],
