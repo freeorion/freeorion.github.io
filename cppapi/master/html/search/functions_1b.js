@@ -68,6 +68,7 @@ var searchData=
   ['_7eplayingturn',['~PlayingTurn',['../structPlayingTurn.html#ad88475a72eddebd5ef1b909d06ea814a',1,'PlayingTurn']]],
   ['_7epolicymanager',['~PolicyManager',['../classPolicyManager.html#a1b8c2a8edf3f08babffe8d7859a5abd2',1,'PolicyManager']]],
   ['_7epopcenter',['~PopCenter',['../classPopCenter.html#a50b80da633585b01c508ae328f32fca7',1,'PopCenter']]],
+  ['_7epopulatedownedvisitor',['~PopulatedOwnedVisitor',['../structanonymous__namespace_02ServerApp_8cpp_03_1_1PopulatedOwnedVisitor.html#a97de918b73a807a4043215dcabb6dd36',1,'anonymous_namespace{ServerApp.cpp}::PopulatedOwnedVisitor']]],
   ['_7epopulationpanel',['~PopulationPanel',['../classPopulationPanel.html#a483165f76a6c2163427a381350542cdb',1,'PopulationPanel']]],
   ['_7eprocessingturn',['~ProcessingTurn',['../structProcessingTurn.html#a470fbfcaae88a3e442046732aa0c6a26',1,'ProcessingTurn']]],
   ['_7eproductionwnd',['~ProductionWnd',['../classProductionWnd.html#ade4603efae8ca2297f122a258d460bb4',1,'ProductionWnd']]],
