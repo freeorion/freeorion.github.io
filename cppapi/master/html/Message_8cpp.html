@@ -120,6 +120,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aee4e2397bcb46690ddf48a08c03627ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#aee4e2397bcb46690ddf48a08c03627ce">AuthResponseMessage</a> (const std::string &amp;player_name, const std::string &amp;auth)</td></tr>
 <tr class="memdesc:aee4e2397bcb46690ddf48a08c03627ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a AUTH_RESPONSE message containing <em>player_name</em> to login and <em>auth</em> credentials.  <a href="#aee4e2397bcb46690ddf48a08c03627ce">More...</a><br /></td></tr>
 <tr class="separator:aee4e2397bcb46690ddf48a08c03627ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73469c72ad4cd53cda5e5a0c44d1ae9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMessage.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a73469c72ad4cd53cda5e5a0c44d1ae9c">AutoTurnMessage</a> (int turns_count)</td></tr>
+<tr class="memdesc:a73469c72ad4cd53cda5e5a0c44d1ae9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a AUTO_TURN message to set empire in auto-turn state for <em>turns_count</em> turns, inifinity turns if -1 or set empire to playing state if 0.  <a href="#a73469c72ad4cd53cda5e5a0c44d1ae9c">More...</a><br /></td></tr>
+<tr class="separator:a73469c72ad4cd53cda5e5a0c44d1ae9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d5e81679978f3ba2cb51d1cf9e5e7eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Message_8cpp.html#a5d5e81679978f3ba2cb51d1cf9e5e7eb">BufferToHeader</a> (const <a class="el" href="classMessage.html#a8c70d718bffea6d801633a54e34217b0">Message::HeaderBuffer</a> &amp;buffer, <a class="el" href="classMessage.html">Message</a> &amp;message)</td></tr>
 <tr class="memdesc:a5d5e81679978f3ba2cb51d1cf9e5e7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills in the relevant portions of <em>message</em> with the values in the buffer <em>buffer</em>.  <a href="#a5d5e81679978f3ba2cb51d1cf9e5e7eb">More...</a><br /></td></tr>
 <tr class="separator:a5d5e81679978f3ba2cb51d1cf9e5e7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -421,6 +424,28 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message::Message()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPasswordEnterWnd.html#ade86ff7ac5cf68a9db7f57a767fcabcc">PasswordEnterWnd::OkClicked()</a>.</p>
+
+</div>
+</div>
+<a id="a73469c72ad4cd53cda5e5a0c44d1ae9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73469c72ad4cd53cda5e5a0c44d1ae9c">&#9670;&nbsp;</a></span>AutoTurnMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMessage.html">Message</a> AutoTurnMessage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>turns_count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates a AUTO_TURN message to set empire in auto-turn state for <em>turns_count</em> turns, inifinity turns if -1 or set empire to playing state if 0. </p>
+
+<p class="reference">References <a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message::Message()</a>, and <a class="el" href="Logger_8cpp.html#afa8203b8d6993d42ecc502143e512d94">to_string()</a>.</p>
 
 </div>
 </div>
@@ -1373,7 +1398,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="classMessage.html#a842676e419ca0ac754aec07c1ddd1639">Message::Text()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structMPLobby.html#a8fe5325e80da0bc5f8cbdae3a6d59f7b">MPLobby::react()</a>, and <a class="el" href="structPlayingGame.html#a94ee75b73ce8b461e21a02b5d8dd9c88">PlayingGame::react()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structMPLobby.html#a8fe5325e80da0bc5f8cbdae3a6d59f7b">MPLobby::react()</a>, and <a class="el" href="structPlayingGame.html#af500f405bde0edd72a5b6556522e4f90">PlayingGame::react()</a>.</p>
 
 </div>
 </div>
@@ -2863,7 +2888,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classMessage.html#afaa92f6c9528152a81d992ef88f42852">Message::Message()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">ServerApp::EliminatePlayer()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, and <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">ServerApp::EliminatePlayer()</a>, <a class="el" href="structPlayingGame.html#af500f405bde0edd72a5b6556522e4f90">PlayingGame::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#ad58e613a5a4ec7f7680109bc48f62136">WaitingForTurnEnd::react()</a>, and <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>.</p>
 
 </div>
 </div>

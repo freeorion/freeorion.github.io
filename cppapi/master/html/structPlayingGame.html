@@ -90,8 +90,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a80ae9b22d50fbd1d053ba8d8a8793fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1a6b5d4577c67e09ed9f12ba5b5a6b2"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; HostID &gt;, boost::statechart::custom_reaction&lt; PlayerChat &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a> &gt;, boost::statechart::custom_reaction&lt; PlayerStatus &gt;, boost::statechart::custom_reaction&lt; Diplomacy &gt;, boost::statechart::custom_reaction&lt; DiplomaticStatusUpdate &gt;, boost::statechart::custom_reaction&lt; EndGame &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structStartQuittingGame.html">StartQuittingGame</a> &gt;, boost::statechart::custom_reaction&lt; Error &gt;, boost::statechart::custom_reaction&lt; TurnProgress &gt;, boost::statechart::custom_reaction&lt; TurnPartialUpdate &gt;, boost::statechart::custom_reaction&lt; LobbyUpdate &gt;, boost::statechart::custom_reaction&lt; TurnTimeout &gt;, boost::statechart::custom_reaction&lt; PlayerInfoMsg &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#ae1a6b5d4577c67e09ed9f12ba5b5a6b2">reactions</a></td></tr>
 <tr class="separator:ae1a6b5d4577c67e09ed9f12ba5b5a6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc888ca29cf010c3ebd25c40930cc4d"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::in_state_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a>, <a class="el" href="structServerFSM.html">ServerFSM</a>, &amp;<a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection</a> &gt;, sc::custom_reaction&lt; PlayerChat &gt;, sc::custom_reaction&lt; Diplomacy &gt;, sc::custom_reaction&lt; ModeratorAct &gt;, sc::custom_reaction&lt; RequestCombatLogs &gt;, sc::custom_reaction&lt; <a class="el" href="structShutdownServer.html">ShutdownServer</a> &gt;, sc::custom_reaction&lt; <a class="el" href="structHostless.html">Hostless</a> &gt;, sc::custom_reaction&lt; JoinGame &gt;, sc::custom_reaction&lt; AuthResponse &gt;, sc::custom_reaction&lt; EliminateSelf &gt;, sc::custom_reaction&lt; Error &gt;, sc::custom_reaction&lt; LobbyUpdate &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#a9bc888ca29cf010c3ebd25c40930cc4d">reactions</a></td></tr>
-<tr class="separator:a9bc888ca29cf010c3ebd25c40930cc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f742d777a14259ad8c293d6c3b08e68"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; sc::in_state_reaction&lt; <a class="el" href="structDisconnection.html">Disconnection</a>, <a class="el" href="structServerFSM.html">ServerFSM</a>, &amp;<a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection</a> &gt;, sc::custom_reaction&lt; PlayerChat &gt;, sc::custom_reaction&lt; Diplomacy &gt;, sc::custom_reaction&lt; ModeratorAct &gt;, sc::custom_reaction&lt; RequestCombatLogs &gt;, sc::custom_reaction&lt; <a class="el" href="structShutdownServer.html">ShutdownServer</a> &gt;, sc::custom_reaction&lt; <a class="el" href="structHostless.html">Hostless</a> &gt;, sc::custom_reaction&lt; JoinGame &gt;, sc::custom_reaction&lt; AuthResponse &gt;, sc::custom_reaction&lt; EliminateSelf &gt;, sc::custom_reaction&lt; AutoTurn &gt;, sc::custom_reaction&lt; Error &gt;, sc::custom_reaction&lt; LobbyUpdate &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#a3f742d777a14259ad8c293d6c3b08e68">reactions</a></td></tr>
+<tr class="separator:a3f742d777a14259ad8c293d6c3b08e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3af9d7b2a7c22b9e81ec239555c80de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ee75b73ce8b461e21a02b5d8dd9c88"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#a94ee75b73ce8b461e21a02b5d8dd9c88">react</a> (const EliminateSelf &amp;msg)</td></tr>
 <tr class="separator:a94ee75b73ce8b461e21a02b5d8dd9c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af500f405bde0edd72a5b6556522e4f90"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#af500f405bde0edd72a5b6556522e4f90">react</a> (const AutoTurn &amp;msg)</td></tr>
+<tr class="separator:af500f405bde0edd72a5b6556522e4f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfcd1b8202b9f5d0f3c9a52dc43c879"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#a5cfcd1b8202b9f5d0f3c9a52dc43c879">react</a> (const Error &amp;msg)</td></tr>
 <tr class="separator:a5cfcd1b8202b9f5d0f3c9a52dc43c879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5576ba6596ce0956916cac70c95eb135"><td class="memItemLeft" align="right" valign="top">sc::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPlayingGame.html#a5576ba6596ce0956916cac70c95eb135">react</a> (const LobbyUpdate &amp;msg)</td></tr>
@@ -197,14 +199,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9bc888ca29cf010c3ebd25c40930cc4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc888ca29cf010c3ebd25c40930cc4d">&#9670;&nbsp;</a></span>reactions <span class="overload">[2/2]</span></h2>
+<a id="a3f742d777a14259ad8c293d6c3b08e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f742d777a14259ad8c293d6c3b08e68">&#9670;&nbsp;</a></span>reactions <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; sc::in_state_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>, <a class="el" href="structServerFSM.html">ServerFSM</a>, &amp;<a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection</a>&gt;, sc::custom_reaction&lt;PlayerChat&gt;, sc::custom_reaction&lt;Diplomacy&gt;, sc::custom_reaction&lt;ModeratorAct&gt;, sc::custom_reaction&lt;RequestCombatLogs&gt;, sc::custom_reaction&lt;<a class="el" href="structShutdownServer.html">ShutdownServer</a>&gt;, sc::custom_reaction&lt;<a class="el" href="structHostless.html">Hostless</a>&gt;, sc::custom_reaction&lt;JoinGame&gt;, sc::custom_reaction&lt;AuthResponse&gt;, sc::custom_reaction&lt;EliminateSelf&gt;, sc::custom_reaction&lt;Error&gt;, sc::custom_reaction&lt;LobbyUpdate&gt; &gt; <a class="el" href="structPlayingGame.html#ae1a6b5d4577c67e09ed9f12ba5b5a6b2">PlayingGame::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; sc::in_state_reaction&lt;<a class="el" href="structDisconnection.html">Disconnection</a>, <a class="el" href="structServerFSM.html">ServerFSM</a>, &amp;<a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection</a>&gt;, sc::custom_reaction&lt;PlayerChat&gt;, sc::custom_reaction&lt;Diplomacy&gt;, sc::custom_reaction&lt;ModeratorAct&gt;, sc::custom_reaction&lt;RequestCombatLogs&gt;, sc::custom_reaction&lt;<a class="el" href="structShutdownServer.html">ShutdownServer</a>&gt;, sc::custom_reaction&lt;<a class="el" href="structHostless.html">Hostless</a>&gt;, sc::custom_reaction&lt;JoinGame&gt;, sc::custom_reaction&lt;AuthResponse&gt;, sc::custom_reaction&lt;EliminateSelf&gt;, sc::custom_reaction&lt;AutoTurn&gt;, sc::custom_reaction&lt;Error&gt;, sc::custom_reaction&lt;LobbyUpdate&gt; &gt; <a class="el" href="structPlayingGame.html#ae1a6b5d4577c67e09ed9f12ba5b5a6b2">PlayingGame::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -340,7 +342,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a480412219abc6fbb9a13925ba408bf1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a480412219abc6fbb9a13925ba408bf1b">&#9670;&nbsp;</a></span>react() <span class="overload">[1/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a480412219abc6fbb9a13925ba408bf1b">&#9670;&nbsp;</a></span>react() <span class="overload">[1/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,12 +359,12 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="namespaceNetworking.html#ae837bc7c7ca45be9f32e47ad5717f5cb">Networking::INVALID_PLAYER_ID</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>, and <a class="el" href="structPlayingGame.html#a94ee75b73ce8b461e21a02b5d8dd9c88">react()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>, and <a class="el" href="structPlayingGame.html#af500f405bde0edd72a5b6556522e4f90">react()</a>.</p>
 
 </div>
 </div>
 <a id="abda611cdd1f5146eac1e996465e6e507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abda611cdd1f5146eac1e996465e6e507">&#9670;&nbsp;</a></span>react() <span class="overload">[2/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abda611cdd1f5146eac1e996465e6e507">&#9670;&nbsp;</a></span>react() <span class="overload">[2/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,7 +384,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="add841a469d26e243a275dc9deb06d799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add841a469d26e243a275dc9deb06d799">&#9670;&nbsp;</a></span>react() <span class="overload">[3/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add841a469d26e243a275dc9deb06d799">&#9670;&nbsp;</a></span>react() <span class="overload">[3/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +404,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a90779b4ef7b01059b1cc3da2ab7077fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90779b4ef7b01059b1cc3da2ab7077fe">&#9670;&nbsp;</a></span>react() <span class="overload">[4/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a90779b4ef7b01059b1cc3da2ab7077fe">&#9670;&nbsp;</a></span>react() <span class="overload">[4/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +424,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a20efc394b41230af0eb42289ea15edb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20efc394b41230af0eb42289ea15edb6">&#9670;&nbsp;</a></span>react() <span class="overload">[5/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20efc394b41230af0eb42289ea15edb6">&#9670;&nbsp;</a></span>react() <span class="overload">[5/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +444,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ab1b1c3f6ed707dd796677e6d71d44dd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b1c3f6ed707dd796677e6d71d44dd0">&#9670;&nbsp;</a></span>react() <span class="overload">[6/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b1c3f6ed707dd796677e6d71d44dd0">&#9670;&nbsp;</a></span>react() <span class="overload">[6/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,7 +464,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a42c8fd3722809e8e4d6295bfa8993ac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c8fd3722809e8e4d6295bfa8993ac1">&#9670;&nbsp;</a></span>react() <span class="overload">[7/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c8fd3722809e8e4d6295bfa8993ac1">&#9670;&nbsp;</a></span>react() <span class="overload">[7/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,7 +484,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a1fd0a7c6563b5a0fc6d7fe60a89d1515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fd0a7c6563b5a0fc6d7fe60a89d1515">&#9670;&nbsp;</a></span>react() <span class="overload">[8/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd0a7c6563b5a0fc6d7fe60a89d1515">&#9670;&nbsp;</a></span>react() <span class="overload">[8/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,7 +504,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5cfcd1b8202b9f5d0f3c9a52dc43c879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cfcd1b8202b9f5d0f3c9a52dc43c879">&#9670;&nbsp;</a></span>react() <span class="overload">[9/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfcd1b8202b9f5d0f3c9a52dc43c879">&#9670;&nbsp;</a></span>react() <span class="overload">[9/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,7 +524,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a647879810cd753d964b14a9d29388ef2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a647879810cd753d964b14a9d29388ef2">&#9670;&nbsp;</a></span>react() <span class="overload">[10/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a647879810cd753d964b14a9d29388ef2">&#9670;&nbsp;</a></span>react() <span class="overload">[10/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +544,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6f4c3ad66c4301b775ed86489eb19bdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4c3ad66c4301b775ed86489eb19bdb">&#9670;&nbsp;</a></span>react() <span class="overload">[11/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f4c3ad66c4301b775ed86489eb19bdb">&#9670;&nbsp;</a></span>react() <span class="overload">[11/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,7 +564,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5576ba6596ce0956916cac70c95eb135"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5576ba6596ce0956916cac70c95eb135">&#9670;&nbsp;</a></span>react() <span class="overload">[12/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5576ba6596ce0956916cac70c95eb135">&#9670;&nbsp;</a></span>react() <span class="overload">[12/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,7 +584,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af5fa934f680255e575d1d1604794a059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5fa934f680255e575d1d1604794a059">&#9670;&nbsp;</a></span>react() <span class="overload">[13/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5fa934f680255e575d1d1604794a059">&#9670;&nbsp;</a></span>react() <span class="overload">[13/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +604,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a3bfcf6227d3ed8d53dd05bc2d95d57aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bfcf6227d3ed8d53dd05bc2d95d57aa">&#9670;&nbsp;</a></span>react() <span class="overload">[14/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bfcf6227d3ed8d53dd05bc2d95d57aa">&#9670;&nbsp;</a></span>react() <span class="overload">[14/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,7 +624,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abda611cdd1f5146eac1e996465e6e507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abda611cdd1f5146eac1e996465e6e507">&#9670;&nbsp;</a></span>react() <span class="overload">[15/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abda611cdd1f5146eac1e996465e6e507">&#9670;&nbsp;</a></span>react() <span class="overload">[15/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,7 +642,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8e21e9b742299b1c79a81df18e43124a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e21e9b742299b1c79a81df18e43124a">&#9670;&nbsp;</a></span>react() <span class="overload">[16/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e21e9b742299b1c79a81df18e43124a">&#9670;&nbsp;</a></span>react() <span class="overload">[16/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,7 +660,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aebc95935fb160bf39cc26546a736a808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebc95935fb160bf39cc26546a736a808">&#9670;&nbsp;</a></span>react() <span class="overload">[17/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc95935fb160bf39cc26546a736a808">&#9670;&nbsp;</a></span>react() <span class="overload">[17/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -678,7 +680,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a3d94a763b8c0671ac4071f11e9effbd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d94a763b8c0671ac4071f11e9effbd0">&#9670;&nbsp;</a></span>react() <span class="overload">[18/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d94a763b8c0671ac4071f11e9effbd0">&#9670;&nbsp;</a></span>react() <span class="overload">[18/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -698,7 +700,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a350cee5aae316e51d58fd7a4aa1c1e29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a350cee5aae316e51d58fd7a4aa1c1e29">&#9670;&nbsp;</a></span>react() <span class="overload">[19/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a350cee5aae316e51d58fd7a4aa1c1e29">&#9670;&nbsp;</a></span>react() <span class="overload">[19/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,7 +720,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a267baff885aba897596a52bdf6398ff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a267baff885aba897596a52bdf6398ff4">&#9670;&nbsp;</a></span>react() <span class="overload">[20/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a267baff885aba897596a52bdf6398ff4">&#9670;&nbsp;</a></span>react() <span class="overload">[20/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -738,7 +740,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a69921ac10928668faadd206f65303fa8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69921ac10928668faadd206f65303fa8">&#9670;&nbsp;</a></span>react() <span class="overload">[21/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69921ac10928668faadd206f65303fa8">&#9670;&nbsp;</a></span>react() <span class="overload">[21/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -758,7 +760,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a3af9d7b2a7c22b9e81ec239555c80de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3af9d7b2a7c22b9e81ec239555c80de4">&#9670;&nbsp;</a></span>react() <span class="overload">[22/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af9d7b2a7c22b9e81ec239555c80de4">&#9670;&nbsp;</a></span>react() <span class="overload">[22/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -778,7 +780,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a94ee75b73ce8b461e21a02b5d8dd9c88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94ee75b73ce8b461e21a02b5d8dd9c88">&#9670;&nbsp;</a></span>react() <span class="overload">[23/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ee75b73ce8b461e21a02b5d8dd9c88">&#9670;&nbsp;</a></span>react() <span class="overload">[23/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -793,12 +795,32 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba1b7256a45caf58e31146b426886dba1d">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba735968f1f29add9c71d2cd496ab686e9">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">ServerNetworking::Disconnect()</a>, <a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">ServerApp::EliminatePlayer()</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="Message_8cpp.html#aa75969281868304c5a74825f91efeb28">ExtractLobbyUpdateMessageData()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#ae29a7254d5843cdef6d981e85a396304">anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage()</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">ServerApp::Networking()</a>, <a class="el" href="structMultiplayerLobbyData.html#a9b0919a3e0f87fd6328aab3514532008">MultiplayerLobbyData::players</a>, <a class="el" href="structPlayingGame.html#a480412219abc6fbb9a13925ba408bf1b">react()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, <a class="el" href="Government_8cpp.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
+<p class="reference">References <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba1b7256a45caf58e31146b426886dba1d">Networking::CLIENT_TYPE_AI_PLAYER</a>, <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba735968f1f29add9c71d2cd496ab686e9">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">ServerNetworking::Disconnect()</a>, <a class="el" href="classServerApp.html#a89fa6f53a6953a76f6aca919e7aab37e">ServerApp::EliminatePlayer()</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">ServerApp::Networking()</a>, <a class="el" href="Government_8cpp.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
+
+</div>
+</div>
+<a id="af500f405bde0edd72a5b6556522e4f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af500f405bde0edd72a5b6556522e4f90">&#9670;&nbsp;</a></span>react() <span class="overload">[24/26]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sc::result PlayingGame::react </td>
+          <td>(</td>
+          <td class="paramtype">const AutoTurn &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="namespaceNetworking.html#a1ba4b7d2cfd11d6ebe90e7c920b2a78ba735968f1f29add9c71d2cd496ab686e9">Networking::CLIENT_TYPE_HUMAN_PLAYER</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classServerNetworking.html#a5d42d2640bf6640e8cf7fc91005d6e5b">ServerNetworking::Disconnect()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Message_8cpp.html#a87eec385bd1b65bbefa3324cd1359541">ErrorMessage()</a>, <a class="el" href="classServerNetworking.html#aee18b3c6f45c84a0146448d6c330ee10">ServerNetworking::established_begin()</a>, <a class="el" href="classServerNetworking.html#ae1c16ec3099fde8c29c12f98adb83be9">ServerNetworking::established_end()</a>, <a class="el" href="Message_8cpp.html#aa75969281868304c5a74825f91efeb28">ExtractLobbyUpdateMessageData()</a>, <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#ae29a7254d5843cdef6d981e85a396304">anonymous_namespace{ServerFSM.cpp}::HandleErrorMessage()</a>, <a class="el" href="classServerApp.html#a03ff58c5851b6b479198e7d8b31fab45">ServerApp::m_networking</a>, <a class="el" href="classServerApp.html#ab04207b95b5346c2a254f10c89e7eda2">ServerApp::Networking()</a>, <a class="el" href="classServerApp.html#afe155bd0003a1c25777afe792bb7201f">ServerApp::PlayerEmpireID()</a>, <a class="el" href="structMultiplayerLobbyData.html#a9b0919a3e0f87fd6328aab3514532008">MultiplayerLobbyData::players</a>, <a class="el" href="Message_8cpp.html#abf582fc9c505a51832d31e2ed3a31c2a">PlayerStatusMessage()</a>, <a class="el" href="structPlayingGame.html#a480412219abc6fbb9a13925ba408bf1b">react()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="Government_8cpp.html#aec7f04b496c0f18f8842e66f794c4e77">UserStringNop</a>.</p>
 
 </div>
 </div>
 <a id="a5cfcd1b8202b9f5d0f3c9a52dc43c879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cfcd1b8202b9f5d0f3c9a52dc43c879">&#9670;&nbsp;</a></span>react() <span class="overload">[24/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfcd1b8202b9f5d0f3c9a52dc43c879">&#9670;&nbsp;</a></span>react() <span class="overload">[25/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +838,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5576ba6596ce0956916cac70c95eb135"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5576ba6596ce0956916cac70c95eb135">&#9670;&nbsp;</a></span>react() <span class="overload">[25/25]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5576ba6596ce0956916cac70c95eb135">&#9670;&nbsp;</a></span>react() <span class="overload">[26/26]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
