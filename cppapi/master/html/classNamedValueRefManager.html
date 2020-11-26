@@ -103,6 +103,8 @@ Public Types</h2></td></tr>
 <tr class="separator:aeb51e286bf3ec67975931f213fe5bd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa021c413fa4f40e49ddace6ce4351614"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#aa021c413fa4f40e49ddace6ce4351614">key_type</a> = const std::string</td></tr>
 <tr class="separator:aa021c413fa4f40e49ddace6ce4351614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006b965556c42c63398774a6aa4fec88"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefParseMap</a> = std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt; &gt;</td></tr>
+<tr class="separator:a006b965556c42c63398774a6aa4fec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f67f82674b11e2cad5b361814e7d72d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a5f67f82674b11e2cad5b361814e7d72d">value_type</a> = std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> &gt;</td></tr>
 <tr class="separator:a5f67f82674b11e2cad5b361814e7d72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,19 +120,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a646cf17ee97ee9f1ea9923065a54d8af"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems</a> () const -&gt; <a class="el" href="classNamedValueRefManager.html#a1052b3b7a2c91a95e5d616f59b337953">any_container_type</a></td></tr>
 <tr class="memdesc:a646cf17ee97ee9f1ea9923065a54d8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a map with all named value refs  <a href="#a646cf17ee97ee9f1ea9923065a54d8af">More...</a><br /></td></tr>
 <tr class="separator:a646cf17ee97ee9f1ea9923065a54d8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2542685704b50dff379add826903c9d7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2542685704b50dff379add826903c9d7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a2542685704b50dff379add826903c9d7">GetValueRef</a> (const std::string &amp;name) -&gt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td></tr>
-<tr class="memdesc:a2542685704b50dff379add826903c9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> with the name <code>name</code> or nullptr if there is nov <a class="el" href="namespaceValueRef.html">ValueRef</a> with such a name or of the wrong type use the free function GetValueRef(...) instead, mainly to save some typing.  <a href="#a2542685704b50dff379add826903c9d7">More...</a><br /></td></tr>
-<tr class="separator:a2542685704b50dff379add826903c9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30259d672c55cc4430bd3d3b91d7d989"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a30259d672c55cc4430bd3d3b91d7d989"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a30259d672c55cc4430bd3d3b91d7d989">GetValueRef</a> (const std::string &amp;name)</td></tr>
-<tr class="separator:a30259d672c55cc4430bd3d3b91d7d989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a845ec313ca84058e86ddf35dfb0301"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a4a845ec313ca84058e86ddf35dfb0301"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; int &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a4a845ec313ca84058e86ddf35dfb0301">GetValueRef</a> (const std::string &amp;name)</td></tr>
-<tr class="separator:a4a845ec313ca84058e86ddf35dfb0301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ac6c8aebed2327b8080a76d1705aad"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ac9ac6c8aebed2327b8080a76d1705aad"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#ac9ac6c8aebed2327b8080a76d1705aad">GetValueRef</a> (const std::string &amp;name)</td></tr>
-<tr class="separator:ac9ac6c8aebed2327b8080a76d1705aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3d85f411faf217e3781067b8684685"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7a3d85f411faf217e3781067b8684685"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a7a3d85f411faf217e3781067b8684685">GetValueRef</a> (const std::string &amp;name, const bool wait_for_named_value_focs_txt_parse=false) -&gt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td></tr>
+<tr class="memdesc:a7a3d85f411faf217e3781067b8684685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> with the name <code>name</code> or nullptr if there is nov <a class="el" href="namespaceValueRef.html">ValueRef</a> with such a name or of the wrong type use the free function GetValueRef(...) instead, mainly to save some typing.  <a href="#a7a3d85f411faf217e3781067b8684685">More...</a><br /></td></tr>
+<tr class="separator:a7a3d85f411faf217e3781067b8684685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f38c2b008695b4a47974c67df60133f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2f38c2b008695b4a47974c67df60133f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a2f38c2b008695b4a47974c67df60133f">GetValueRef</a> (const std::string &amp;name, const bool wait_for_named_value_focs_txt_parse)</td></tr>
+<tr class="separator:a2f38c2b008695b4a47974c67df60133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd33a8dcf3f514cfae0b06a4e45f71c"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a3bd33a8dcf3f514cfae0b06a4e45f71c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; int &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a3bd33a8dcf3f514cfae0b06a4e45f71c">GetValueRef</a> (const std::string &amp;name, const bool wait_for_named_value_focs_txt_parse)</td></tr>
+<tr class="separator:a3bd33a8dcf3f514cfae0b06a4e45f71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13844a546bfedb4b350dd20fc1170e64"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a13844a546bfedb4b350dd20fc1170e64"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt; *const&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a13844a546bfedb4b350dd20fc1170e64">GetValueRef</a> (const std::string &amp;name, const bool wait_for_named_value_focs_txt_parse)</td></tr>
+<tr class="separator:a13844a546bfedb4b350dd20fc1170e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43a43e64aab5806bd766f2bfb2eb282a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a43a43e64aab5806bd766f2bfb2eb282a">GetValueRefBase</a> (const std::string &amp;name) const -&gt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> *const</td></tr>
 <tr class="memdesc:a43a43e64aab5806bd766f2bfb2eb282a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> with the name <code>name</code>; you should use the free function GetValueRef(...) instead, mainly to save some typing.  <a href="#a43a43e64aab5806bd766f2bfb2eb282a">More...</a><br /></td></tr>
 <tr class="separator:a43a43e64aab5806bd766f2bfb2eb282a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adadb8e0473728d33a309fd9f8831cb05"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:adadb8e0473728d33a309fd9f8831cb05"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#adadb8e0473728d33a309fd9f8831cb05">RegisterValueRef</a> (std::string &amp;&amp;valueref_name, std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; double &gt;&gt; &amp;&amp;vref)</td></tr>
 <tr class="separator:adadb8e0473728d33a309fd9f8831cb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3d816aa8730bc108c5b71507252bab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a5e3d816aa8730bc108c5b71507252bab">SetNamedValueRefParse</a> (<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefParseMap</a> &gt; &amp;&amp;future)</td></tr>
+<tr class="memdesc:a5e3d816aa8730bc108c5b71507252bab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This sets the asynchronous parse, so we can block on that when a function needs to access a registry.  <a href="#a5e3d816aa8730bc108c5b71507252bab">More...</a><br /></td></tr>
+<tr class="separator:a5e3d816aa8730bc108c5b71507252bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -157,9 +162,14 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:af7a47d37d0ae5f906fd99b2b99349afd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#af7a47d37d0ae5f906fd99b2b99349afd">NamedValueRefManager</a> ()</td></tr>
 <tr class="separator:af7a47d37d0ae5f906fd99b2b99349afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ecac4dfc4c6c34d918d208bc6ee1bb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs</a> () const</td></tr>
+<tr class="memdesc:a1ecac4dfc4c6c34d918d208bc6ee1bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for parsing of named_value_refs.focs.txt to finish.  <a href="#a1ecac4dfc4c6c34d918d208bc6ee1bb5">More...</a><br /></td></tr>
+<tr class="separator:a1ecac4dfc4c6c34d918d208bc6ee1bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a8ac22e8bd6e5ec761021fcfb732fc779"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefParseMap</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a8ac22e8bd6e5ec761021fcfb732fc779">m_pending_named_value_refs_focs_txt</a> = boost::none</td></tr>
+<tr class="separator:a8ac22e8bd6e5ec761021fcfb732fc779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af75b6a83c737f4df2a38117e79585dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueRefManager.html#af0a4eeb94a5c751418e71581df762bb9">container_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a></td></tr>
 <tr class="separator:af75b6a83c737f4df2a38117e79585dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e72be79634a3426491523a77ac43bf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueRefManager.html#a936599e9e42985e1e95ccceb331dce53">double_container_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a></td></tr>
@@ -350,6 +360,20 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a006b965556c42c63398774a6aa4fec88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006b965556c42c63398774a6aa4fec88">&#9670;&nbsp;</a></span>NamedValueRefParseMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefManager::NamedValueRefParseMap</a> =  std::map&lt;std::string, std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a>&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5f67f82674b11e2cad5b361814e7d72d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f67f82674b11e2cad5b361814e7d72d">&#9670;&nbsp;</a></span>value_type</h2>
 
@@ -444,6 +468,37 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1ecac4dfc4c6c34d918d208bc6ee1bb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ecac4dfc4c6c34d918d208bc6ee1bb5">&#9670;&nbsp;</a></span>CheckPendingNamedValueRefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NamedValueRefManager::CheckPendingNamedValueRefs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Waits for parsing of named_value_refs.focs.txt to finish. </p>
+
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a8ac22e8bd6e5ec761021fcfb732fc779">m_pending_named_value_refs_focs_txt</a>, and <a class="el" href="namespacePending.html#a4dbf2b69312cbb0b0de7abd732c080c4">Pending::WaitForPending()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a2f38c2b008695b4a47974c67df60133f">GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#a43a43e64aab5806bd766f2bfb2eb282a">GetValueRefBase()</a>.</p>
+
+</div>
+</div>
 <a id="af46d53795c7507c60b35bd611f5b578e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af46d53795c7507c60b35bd611f5b578e">&#9670;&nbsp;</a></span>GetCheckSum()</h2>
 
@@ -462,7 +517,7 @@ Static Private Attributes</h2></td></tr>
 <p>Returns a number, calculated from the contained data, which should be different for different contained data, and must be the same for the same contained data, and must be the same on different platforms and executions of the program and the function. </p>
 <p>Useful to verify that the parsed content is consistent without sending it all between clients and server. </p>
 
-<p class="reference">References <a class="el" href="namespaceCheckSums.html#aa80d319e50e1916d71140143b2c04513">CheckSums::CheckSumCombine()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>, <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, <a class="el" href="namespaceCheckSums.html#aa80d319e50e1916d71140143b2c04513">CheckSums::CheckSumCombine()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>, <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Universe_8h.html#a78c5c4b22fff73c5dd7d33e942ec31d1">CheckSumContent()</a>.</p>
 
@@ -485,7 +540,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>returns a map with all named value refs </p>
 
-<p class="reference">References <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>, <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>, <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
 
 </div>
 </div>
@@ -516,12 +571,12 @@ Static Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="NamedValueRefManager_8h.html#a062c1d5b27450aa4869f3de6217019c6">GetNamedValueRefManager()</a>, <a class="el" href="NamedValueRefManager_8h.html#a1b35334b8e5ca8b5bfbc0598f31bdb83">GetValueRef()</a>, <a class="el" href="VarText_8cpp.html#aa1db7458d0fcb6c2ef3897a263f7ce9f">GetValueRefBase()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a9581cdfc758a58ebdcc44dd0e7d978a9">RegisterValueRef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="NamedValueRefManager_8h.html#a062c1d5b27450aa4869f3de6217019c6">GetNamedValueRefManager()</a>, <a class="el" href="NamedValueRefManager_8h.html#a87f2f598c01acd3977c1d72f475a53b5">GetValueRef()</a>, <a class="el" href="VarText_8cpp.html#aa1db7458d0fcb6c2ef3897a263f7ce9f">GetValueRefBase()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a9581cdfc758a58ebdcc44dd0e7d978a9">RegisterValueRef()</a>.</p>
 
 </div>
 </div>
-<a id="a2542685704b50dff379add826903c9d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2542685704b50dff379add826903c9d7">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[1/4]</span></h2>
+<a id="a7a3d85f411faf217e3781067b8684685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3d85f411faf217e3781067b8684685">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,20 +587,30 @@ template&lt;typename T &gt; </div>
           <td class="memname">auto NamedValueRefManager::GetValueRef </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>wait_for_named_value_focs_txt_parse</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> with the name <code>name</code> or nullptr if there is nov <a class="el" href="namespaceValueRef.html">ValueRef</a> with such a name or of the wrong type use the free function GetValueRef(...) instead, mainly to save some typing. </p>
 
-<p class="reference">Referenced by <a class="el" href="NamedValueRefManager_8h.html#a1b35334b8e5ca8b5bfbc0598f31bdb83">GetValueRef()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a9581cdfc758a58ebdcc44dd0e7d978a9">RegisterValueRef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="NamedValueRefManager_8h.html#a87f2f598c01acd3977c1d72f475a53b5">GetValueRef()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a9581cdfc758a58ebdcc44dd0e7d978a9">RegisterValueRef()</a>.</p>
 
 </div>
 </div>
-<a id="a30259d672c55cc4430bd3d3b91d7d989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30259d672c55cc4430bd3d3b91d7d989">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[2/4]</span></h2>
+<a id="a2f38c2b008695b4a47974c67df60133f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f38c2b008695b4a47974c67df60133f">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -556,18 +621,28 @@ template&lt;typename T &gt; </div>
           <td class="memname"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt;T&gt;* const NamedValueRefManager::GetValueRef </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>wait_for_named_value_focs_txt_parse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>.</p>
 
 </div>
 </div>
-<a id="a4a845ec313ca84058e86ddf35dfb0301"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a845ec313ca84058e86ddf35dfb0301">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[3/4]</span></h2>
+<a id="a3bd33a8dcf3f514cfae0b06a4e45f71c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd33a8dcf3f514cfae0b06a4e45f71c">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,18 +653,28 @@ template&lt;&gt; </div>
           <td class="memname"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt;int&gt;* const NamedValueRefManager::GetValueRef </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>wait_for_named_value_focs_txt_parse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#a84bfe4a428302b5678d08fbf98ff7840">m_value_refs_int</a>.</p>
 
 </div>
 </div>
-<a id="ac9ac6c8aebed2327b8080a76d1705aad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9ac6c8aebed2327b8080a76d1705aad">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[4/4]</span></h2>
+<a id="a13844a546bfedb4b350dd20fc1170e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13844a546bfedb4b350dd20fc1170e64">&#9670;&nbsp;</a></span>GetValueRef() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -600,13 +685,23 @@ template&lt;&gt; </div>
           <td class="memname"><a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt;double&gt;* const NamedValueRefManager::GetValueRef </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>wait_for_named_value_focs_txt_parse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, <a class="el" href="namespaceanonymous__namespace_02NamedValueRefManager_8cpp_03.html#acf2c3049c7765cba0c55097f07980831">anonymous_namespace{NamedValueRefManager.cpp}::GetValueRefImpl()</a>, and <a class="el" href="classNamedValueRefManager.html#a5e72be79634a3426491523a77ac43bf8">m_value_refs_double</a>.</p>
 
 </div>
 </div>
@@ -628,7 +723,7 @@ template&lt;&gt; </div>
 
 <p>Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> with the name <code>name</code>; you should use the free function GetValueRef(...) instead, mainly to save some typing. </p>
 
-<p class="reference">References <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, and <a class="el" href="classNamedValueRefManager.html#af75b6a83c737f4df2a38117e79585dca">m_value_refs</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="VarText_8cpp.html#aa1db7458d0fcb6c2ef3897a263f7ce9f">GetValueRefBase()</a>.</p>
 
@@ -760,7 +855,55 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a5e3d816aa8730bc108c5b71507252bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e3d816aa8730bc108c5b71507252bab">&#9670;&nbsp;</a></span>SetNamedValueRefParse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NamedValueRefManager::SetNamedValueRefParse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt; <a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefParseMap</a> &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>future</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This sets the asynchronous parse, so we can block on that when a function needs to access a registry. </p>
+
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a8ac22e8bd6e5ec761021fcfb732fc779">m_pending_named_value_refs_focs_txt</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8ac22e8bd6e5ec761021fcfb732fc779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac22e8bd6e5ec761021fcfb732fc779">&#9670;&nbsp;</a></span>m_pending_named_value_refs_focs_txt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt;<a class="el" href="structPending_1_1Pending.html">Pending::Pending</a>&lt;<a class="el" href="classNamedValueRefManager.html#a006b965556c42c63398774a6aa4fec88">NamedValueRefParseMap</a>&gt; &gt; NamedValueRefManager::m_pending_named_value_refs_focs_txt = boost::none</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#a1ecac4dfc4c6c34d918d208bc6ee1bb5">CheckPendingNamedValueRefs()</a>, and <a class="el" href="classNamedValueRefManager.html#a5e3d816aa8730bc108c5b71507252bab">SetNamedValueRefParse()</a>.</p>
+
+</div>
+</div>
 <a id="af75b6a83c737f4df2a38117e79585dca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75b6a83c737f4df2a38117e79585dca">&#9670;&nbsp;</a></span>m_value_refs</h2>
 
@@ -781,7 +924,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a30259d672c55cc4430bd3d3b91d7d989">GetValueRef()</a>, <a class="el" href="classNamedValueRefManager.html#a43a43e64aab5806bd766f2bfb2eb282a">GetValueRefBase()</a>, and <a class="el" href="classNamedValueRefManager.html#a95a7716d43a5e02bd1100af1aa3ae629">RegisterValueRef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a2f38c2b008695b4a47974c67df60133f">GetValueRef()</a>, <a class="el" href="classNamedValueRefManager.html#a43a43e64aab5806bd766f2bfb2eb282a">GetValueRefBase()</a>, and <a class="el" href="classNamedValueRefManager.html#a95a7716d43a5e02bd1100af1aa3ae629">RegisterValueRef()</a>.</p>
 
 </div>
 </div>
@@ -807,7 +950,7 @@ template&lt;&gt; </div>
 
 <p>Map of <a class="el" href="namespaceValueRef.html">ValueRef</a>s identified by a name and mutexes for those to allow asynchronous registration. </p>
 
-<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#ac9ac6c8aebed2327b8080a76d1705aad">GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#adadb8e0473728d33a309fd9f8831cb05">RegisterValueRef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a13844a546bfedb4b350dd20fc1170e64">GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#adadb8e0473728d33a309fd9f8831cb05">RegisterValueRef()</a>.</p>
 
 </div>
 </div>
@@ -855,7 +998,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a4a845ec313ca84058e86ddf35dfb0301">GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#a6b49af63f054cdfbcd0467a10d00c464">RegisterValueRef()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#af46d53795c7507c60b35bd611f5b578e">GetCheckSum()</a>, <a class="el" href="classNamedValueRefManager.html#a646cf17ee97ee9f1ea9923065a54d8af">GetItems()</a>, <a class="el" href="classNamedValueRefManager.html#a3bd33a8dcf3f514cfae0b06a4e45f71c">GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#a6b49af63f054cdfbcd0467a10d00c464">RegisterValueRef()</a>.</p>
 
 </div>
 </div>

@@ -35,7 +35,6 @@ var searchData=
   ['fleets_5fexploring',['fleets_exploring',['../structSaveGameUIData.html#a62b95262a2d22a4fc43a5e42e014b4eb',1,'SaveGameUIData']]],
   ['flexible_5fint',['flexible_int',['../structparse_1_1castable__as__int__parser__rules.html#a3d756b7832f440bacc7e1501ef6e64e2',1,'parse::castable_as_int_parser_rules']]],
   ['foci',['foci',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a20eed86fa24495e39d489c0043b63260',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff::foci()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#aa907317a1e257004f15e6fe4f2bcf23b',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::foci()']]],
-  ['focs_5fvalue_5fsearch',['FOCS_VALUE_SEARCH',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a571c86e66f5e4f34a8426bd999cd4c98',1,'anonymous_namespace{LinkText.cpp}']]],
   ['focs_5fvalue_5ftag',['FOCS_VALUE_TAG',['../classVarText.html#a76788e5f4b5372de8f0726edc27342a1',1,'VarText']]],
   ['focus_5ftype',['focus_type',['../structparse_1_1detail_1_1condition__parser__rules__6.html#a992cc53fbfa73f688381864c44efdf65',1,'parse::detail::condition_parser_rules_6::focus_type()'],['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1grammar.html#a1a6877381f234978f6324fef0dd89cdc',1,'anonymous_namespace{SpeciesParser.cpp}::grammar::focus_type()']]],
   ['focuschangedsignal',['FocusChangedSignal',['../classSidePanel_1_1PlanetPanel.html#a9147d1ed6dc5f698cd6cec882169b818',1,'SidePanel::PlanetPanel']]],

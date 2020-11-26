@@ -71,7 +71,8 @@ $(function() {
 <div class="title">NamedValueRefManager.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ValueRef_8h.html">ValueRef.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &quot;<a class="el" href="ValueRef_8h.html">ValueRef.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -92,10 +93,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a062c1d5b27450aa4869f3de6217019c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NamedValueRefManager_8h.html#a062c1d5b27450aa4869f3de6217019c6">GetNamedValueRefManager</a> () -&gt; <a class="el" href="classNamedValueRefManager.html">NamedValueRefManager</a> &amp;</td></tr>
 <tr class="memdesc:a062c1d5b27450aa4869f3de6217019c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the singleton manager for named value refs.  <a href="#a062c1d5b27450aa4869f3de6217019c6">More...</a><br /></td></tr>
 <tr class="separator:a062c1d5b27450aa4869f3de6217019c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b35334b8e5ca8b5bfbc0598f31bdb83"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1b35334b8e5ca8b5bfbc0598f31bdb83"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="NamedValueRefManager_8h.html#a1b35334b8e5ca8b5bfbc0598f31bdb83">GetValueRef</a> (const std::string &amp;name) -&gt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td></tr>
-<tr class="memdesc:a1b35334b8e5ca8b5bfbc0598f31bdb83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> object registered with the given <code>name</code> in the registry matching the given type T.  <a href="#a1b35334b8e5ca8b5bfbc0598f31bdb83">More...</a><br /></td></tr>
-<tr class="separator:a1b35334b8e5ca8b5bfbc0598f31bdb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f2f598c01acd3977c1d72f475a53b5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a87f2f598c01acd3977c1d72f475a53b5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="NamedValueRefManager_8h.html#a87f2f598c01acd3977c1d72f475a53b5">GetValueRef</a> (const std::string &amp;name, const bool wait_for_named_value_focs_txt_parse=false) -&gt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td></tr>
+<tr class="memdesc:a87f2f598c01acd3977c1d72f475a53b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> object registered with the given <code>name</code> in the registry matching the given type T.  <a href="#a87f2f598c01acd3977c1d72f475a53b5">More...</a><br /></td></tr>
+<tr class="separator:a87f2f598c01acd3977c1d72f475a53b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a35daf229b6e18d6742e9a6218723e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NamedValueRefManager_8h.html#a99a35daf229b6e18d6742e9a6218723e">GetValueRefBase</a> (const std::string &amp;name) -&gt; <a class="el" href="structValueRef_1_1ValueRefBase.html">ValueRef::ValueRefBase</a> *const</td></tr>
 <tr class="memdesc:a99a35daf229b6e18d6742e9a6218723e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> object registered with the given <code>name</code>.  <a href="#a99a35daf229b6e18d6742e9a6218723e">More...</a><br /></td></tr>
 <tr class="separator:a99a35daf229b6e18d6742e9a6218723e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,12 +125,12 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classNamedValueRefManager.html#a805132329f5044590002a07f601e3faa">NamedValueRefManager::GetNamedValueRefManager()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Universe_8h.html#a78c5c4b22fff73c5dd7d33e942ec31d1">CheckSumContent()</a>, and <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Universe_8h.html#a78c5c4b22fff73c5dd7d33e942ec31d1">CheckSumContent()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ab5c311a405f1074c7603ebb57e11671d">anonymous_namespace{EncyclopediaDetailPanel.cpp}::GetSortedPediaDirEntires()</a>, and <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
 
 </div>
 </div>
-<a id="a1b35334b8e5ca8b5bfbc0598f31bdb83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b35334b8e5ca8b5bfbc0598f31bdb83">&#9670;&nbsp;</a></span>GetValueRef()</h2>
+<a id="a87f2f598c01acd3977c1d72f475a53b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f2f598c01acd3977c1d72f475a53b5">&#9670;&nbsp;</a></span>GetValueRef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,8 +141,18 @@ template&lt;typename T &gt; </div>
           <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto GetValueRef </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>wait_for_named_value_focs_txt_parse</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef::ValueRef</a>&lt; T &gt; *const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -149,7 +160,7 @@ template&lt;typename T &gt; </div>
 <p>Returns the <a class="el" href="namespaceValueRef.html">ValueRef</a> object registered with the given <code>name</code> in the registry matching the given type T. </p>
 <p>If no such <a class="el" href="namespaceValueRef.html">ValueRef</a> exists, nullptr is returned instead. </p>
 
-<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a805132329f5044590002a07f601e3faa">NamedValueRefManager::GetNamedValueRefManager()</a>, and <a class="el" href="classNamedValueRefManager.html#a2542685704b50dff379add826903c9d7">NamedValueRefManager::GetValueRef()</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a805132329f5044590002a07f601e3faa">NamedValueRefManager::GetNamedValueRefManager()</a>, and <a class="el" href="classNamedValueRefManager.html#a7a3d85f411faf217e3781067b8684685">NamedValueRefManager::GetValueRef()</a>.</p>
 
 </div>
 </div>
@@ -204,7 +215,7 @@ template&lt;typename T &gt; </div>
 
 <p>Register and take possesion of the <a class="el" href="namespaceValueRef.html">ValueRef</a> object <code>vref</code> under the given <code>name</code>. </p>
 
-<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a805132329f5044590002a07f601e3faa">NamedValueRefManager::GetNamedValueRefManager()</a>, <a class="el" href="classNamedValueRefManager.html#a2542685704b50dff379add826903c9d7">NamedValueRefManager::GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#a95a7716d43a5e02bd1100af1aa3ae629">NamedValueRefManager::RegisterValueRef()</a>.</p>
+<p class="reference">References <a class="el" href="classNamedValueRefManager.html#a805132329f5044590002a07f601e3faa">NamedValueRefManager::GetNamedValueRefManager()</a>, <a class="el" href="classNamedValueRefManager.html#a7a3d85f411faf217e3781067b8684685">NamedValueRefManager::GetValueRef()</a>, and <a class="el" href="classNamedValueRefManager.html#a95a7716d43a5e02bd1100af1aa3ae629">NamedValueRefManager::RegisterValueRef()</a>.</p>
 
 </div>
 </div>
