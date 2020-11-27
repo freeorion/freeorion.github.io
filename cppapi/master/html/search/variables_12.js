@@ -187,7 +187,6 @@ var searchData=
   ['system_5fid_5ftag',['SYSTEM_ID_TAG',['../classVarText.html#a1903f851e6b56625a44006cb1bc1d252',1,'VarText']]],
   ['system_5forbits',['SYSTEM_ORBITS',['../namespaceanonymous__namespace_02System_8h_03.html#a8a1783bf222144c076418909e3e1bb87',1,'anonymous_namespace{System.h}']]],
   ['system_5fpred_5fgraph_5fviews',['system_pred_graph_views',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a6ec7c962dcccbc47cf23bcc75a59708e',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
-  ['system_5fpredicates',['system_predicates',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#af69d2defdae9e2ed18d28b804c03c9c6',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['systembrowsedsignal',['SystemBrowsedSignal',['../classMapWnd.html#a6aabf9e1aaf3bbaec1888f9299257236',1,'MapWnd']]],
   ['systemleftclickedsignal',['SystemLeftClickedSignal',['../classMapWnd.html#a5cfd28df1f727bc9a1c1593bc6a55176',1,'MapWnd']]],
   ['systemrightclickedsignal',['SystemRightClickedSignal',['../classMapWnd.html#a3792b96eeab08c76ab125cce4612a0fb',1,'MapWnd']]],
