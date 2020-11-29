@@ -96,48 +96,50 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53a4591b98edcb09b061c2061118e6d5"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; double, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors</a> (int system_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
 <tr class="memdesc:a53a4591b98edcb09b061c2061118e6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the systems that are one starlane hop away from system <em>system</em>.  <a href="#a53a4591b98edcb09b061c2061118e6d5">More...</a><br /></td></tr>
 <tr class="separator:a53a4591b98edcb09b061c2061118e6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca75a36d1284ff2dd35871683445c026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aca75a36d1284ff2dd35871683445c026">InitializeSystemGraph</a> (const std::vector&lt; int &gt; &amp;system_ids, int for_empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="memdesc:aca75a36d1284ff2dd35871683445c026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills pathfinding data structure and determines least jumps distances between systems for the empire with id <em>for_empire_id</em> or uses the main / true / visible objects if <em>for_empire_id</em> is ALL_EMPIRES.  <a href="#aca75a36d1284ff2dd35871683445c026">More...</a><br /></td></tr>
-<tr class="separator:aca75a36d1284ff2dd35871683445c026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43552c78d93547b7a2601c0af538f41d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a43552c78d93547b7a2601c0af538f41d">JumpDistanceBetweenObjects</a> (int object1_id, int object2_id) const</td></tr>
-<tr class="memdesc:a43552c78d93547b7a2601c0af538f41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of starlane jumps between any two objects, accounting for cases where one or the other are fleets / ships on starlanes between systems.  <a href="#a43552c78d93547b7a2601c0af538f41d">More...</a><br /></td></tr>
-<tr class="separator:a43552c78d93547b7a2601c0af538f41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad56fb3fc11f7ac3ecc68c31c8e05c3fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#ad56fb3fc11f7ac3ecc68c31c8e05c3fb">InitializeSystemGraph</a> (const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires)</td></tr>
+<tr class="memdesc:ad56fb3fc11f7ac3ecc68c31c8e05c3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills pathfinding data structure and determines least jumps distances between systems.  <a href="#ad56fb3fc11f7ac3ecc68c31c8e05c3fb">More...</a><br /></td></tr>
+<tr class="separator:ad56fb3fc11f7ac3ecc68c31c8e05c3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184ad9bb6c67ce5be43302592eda6fd4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a184ad9bb6c67ce5be43302592eda6fd4">JumpDistanceBetweenObjects</a> (int object1_id, int object2_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:a184ad9bb6c67ce5be43302592eda6fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of starlane jumps between any two objects, accounting for cases where one or the other are fleets / ships on starlanes between systems.  <a href="#a184ad9bb6c67ce5be43302592eda6fd4">More...</a><br /></td></tr>
+<tr class="separator:a184ad9bb6c67ce5be43302592eda6fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fd6ad829c4331d64b28fe5a98ce1a16"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a2fd6ad829c4331d64b28fe5a98ce1a16">JumpDistanceBetweenSystems</a> (int system1_id, int system2_id) const</td></tr>
 <tr class="memdesc:a2fd6ad829c4331d64b28fe5a98ce1a16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of starlane jumps between the systems with the given IDs.  <a href="#a2fd6ad829c4331d64b28fe5a98ce1a16">More...</a><br /></td></tr>
 <tr class="separator:a2fd6ad829c4331d64b28fe5a98ce1a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20c13279a69ea414d135f13e1ed3805d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d">LeastJumpsPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, int max_jumps=INT_MAX) const</td></tr>
 <tr class="memdesc:a20c13279a69ea414d135f13e1ed3805d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of systems, including <em>system1</em> and <em>system2</em>, that defines the path with the fewest jumps from <em>system1</em> to <em>system2</em>, and the number of jumps to get there.  <a href="#a20c13279a69ea414d135f13e1ed3805d">More...</a><br /></td></tr>
 <tr class="separator:a20c13279a69ea414d135f13e1ed3805d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a712070a3b5772d6065228fd7c15ec2f1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a712070a3b5772d6065228fd7c15ec2f1">LinearDistance</a> (int object1_id, int object2_id) const</td></tr>
-<tr class="memdesc:a712070a3b5772d6065228fd7c15ec2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between the objects with the given IDs.  <a href="#a712070a3b5772d6065228fd7c15ec2f1">More...</a><br /></td></tr>
-<tr class="separator:a712070a3b5772d6065228fd7c15ec2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a357b34906dad66e9b6e0442141def6c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a357b34906dad66e9b6e0442141def6c1">NearestSystemTo</a> (double x, double y) const</td></tr>
-<tr class="memdesc:a357b34906dad66e9b6e0442141def6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the System object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance.  <a href="#a357b34906dad66e9b6e0442141def6c1">More...</a><br /></td></tr>
-<tr class="separator:a357b34906dad66e9b6e0442141def6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ba9eb0254724412b8932f0ae3e5e607"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a1ba9eb0254724412b8932f0ae3e5e607">ShortestPath</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
-<tr class="memdesc:a1ba9eb0254724412b8932f0ae3e5e607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of systems, including <em>system1_id</em> and <em>system2_id</em>, that defines the shortest path from <em>system1</em> to <em>system2</em>, and the distance travelled to get there.  <a href="#a1ba9eb0254724412b8932f0ae3e5e607">More...</a><br /></td></tr>
-<tr class="separator:a1ba9eb0254724412b8932f0ae3e5e607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c4180dad6a8c208408adb4bde8b5cbc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a8c4180dad6a8c208408adb4bde8b5cbc">ShortestPath</a> (int system1_id, int system2_id, int empire_id, const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a> &amp;system_predicate) const</td></tr>
-<tr class="memdesc:a8c4180dad6a8c208408adb4bde8b5cbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortest path known to an empire between two systems, excluding routes for systems containing objects for <code>system_predicate</code>.  <a href="#a8c4180dad6a8c208408adb4bde8b5cbc">More...</a><br /></td></tr>
-<tr class="separator:a8c4180dad6a8c208408adb4bde8b5cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a942220bea837760f90a89c2c445b1368"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a942220bea837760f90a89c2c445b1368">ShortestPathDistance</a> (int object1_id, int object2_id) const</td></tr>
-<tr class="memdesc:a942220bea837760f90a89c2c445b1368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shortest starlane path distance between any two objects, accounting for cases where one or the other are fleets / ships on starlanes between systems.  <a href="#a942220bea837760f90a89c2c445b1368">More...</a><br /></td></tr>
-<tr class="separator:a942220bea837760f90a89c2c445b1368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a431a724f969fe237fb76fb3895fca291"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a431a724f969fe237fb76fb3895fca291">SystemHasVisibleStarlanes</a> (int system_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
-<tr class="memdesc:a431a724f969fe237fb76fb3895fca291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <em>system</em> is reachable from another system (i.e.  <a href="#a431a724f969fe237fb76fb3895fca291">More...</a><br /></td></tr>
-<tr class="separator:a431a724f969fe237fb76fb3895fca291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7b3fd36f88a9747d6f1a4e7267a790"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a1d7b3fd36f88a9747d6f1a4e7267a790">LinearDistance</a> (int object1_id, int object2_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:a1d7b3fd36f88a9747d6f1a4e7267a790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the straight-line distance between the objects with the given IDs.  <a href="#a1d7b3fd36f88a9747d6f1a4e7267a790">More...</a><br /></td></tr>
+<tr class="separator:a1d7b3fd36f88a9747d6f1a4e7267a790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177e226c08b5a3fe2b9f42cd1edf4f01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a177e226c08b5a3fe2b9f42cd1edf4f01">NearestSystemTo</a> (double x, double y, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:a177e226c08b5a3fe2b9f42cd1edf4f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the System object that is closest to the specified (<em>x</em>, <em>y</em>) location on the map, by direct-line distance.  <a href="#a177e226c08b5a3fe2b9f42cd1edf4f01">More...</a><br /></td></tr>
+<tr class="separator:a177e226c08b5a3fe2b9f42cd1edf4f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692e6bf414e770310bc9e5fbcddba2da"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a692e6bf414e770310bc9e5fbcddba2da">ShortestPath</a> (int system1_id, int system2_id, int empire_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:a692e6bf414e770310bc9e5fbcddba2da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of systems, including <em>system1_id</em> and <em>system2_id</em>, that defines the shortest path from <em>system1</em> to <em>system2</em>, and the distance travelled to get there.  <a href="#a692e6bf414e770310bc9e5fbcddba2da">More...</a><br /></td></tr>
+<tr class="separator:a692e6bf414e770310bc9e5fbcddba2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46527dbb617df6b7f1c2634da6a2a640"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::list&lt; int &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a46527dbb617df6b7f1c2634da6a2a640">ShortestPath</a> (int system1_id, int system2_id, int empire_id, const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a> &amp;system_predicate, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:a46527dbb617df6b7f1c2634da6a2a640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortest path known to an empire between two systems, excluding routes for systems containing objects for <code>system_predicate</code>.  <a href="#a46527dbb617df6b7f1c2634da6a2a640">More...</a><br /></td></tr>
+<tr class="separator:a46527dbb617df6b7f1c2634da6a2a640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3db1aa480a5930cd7812ef15f2b2661"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#ab3db1aa480a5930cd7812ef15f2b2661">ShortestPathDistance</a> (int object1_id, int object2_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:ab3db1aa480a5930cd7812ef15f2b2661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shortest starlane path distance between any two objects, accounting for cases where one or the other are fleets / ships on starlanes between systems.  <a href="#ab3db1aa480a5930cd7812ef15f2b2661">More...</a><br /></td></tr>
+<tr class="separator:ab3db1aa480a5930cd7812ef15f2b2661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8fa8f29aee3097da8245e396513868"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aef8fa8f29aee3097da8245e396513868">SystemHasVisibleStarlanes</a> (int system_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const</td></tr>
+<tr class="memdesc:aef8fa8f29aee3097da8245e396513868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <em>system</em> is reachable from another system (i.e.  <a href="#aef8fa8f29aee3097da8245e396513868">More...</a><br /></td></tr>
+<tr class="separator:aef8fa8f29aee3097da8245e396513868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de4497d96c7433971002308ef3cd87b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a0de4497d96c7433971002308ef3cd87b">SystemsConnected</a> (int system1_id, int system2_id, int empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>) const</td></tr>
 <tr class="memdesc:a0de4497d96c7433971002308ef3cd87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether there is a path known to empire <em>empire_id</em> between system <em>system1</em> and system <em>system2</em>.  <a href="#a0de4497d96c7433971002308ef3cd87b">More...</a><br /></td></tr>
 <tr class="separator:a0de4497d96c7433971002308ef3cd87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc255822d2587ec94022230d380f1cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#acc255822d2587ec94022230d380f1cc2">UpdateEmpireVisibilityFilteredSystemGraphs</a> (int for_empire_id=<a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>)</td></tr>
-<tr class="memdesc:acc255822d2587ec94022230d380f1cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regenerates per-empire system view graphs by filtering the complete system graph based on empire visibility.  <a href="#acc255822d2587ec94022230d380f1cc2">More...</a><br /></td></tr>
-<tr class="separator:acc255822d2587ec94022230d380f1cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4046c2adcc2ad34d624090ca27b061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aec4046c2adcc2ad34d624090ca27b061">UpdateEmpireVisibilityFilteredSystemGraphs</a> (const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects)</td></tr>
+<tr class="memdesc:aec4046c2adcc2ad34d624090ca27b061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regenerates per-empire system view graphs by filtering the complete system graph based on empire visibilities.  <a href="#aec4046c2adcc2ad34d624090ca27b061">More...</a><br /></td></tr>
+<tr class="separator:aec4046c2adcc2ad34d624090ca27b061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c771ea52e744dbd82a79b1fb2c33c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#ae8c771ea52e744dbd82a79b1fb2c33c6">UpdateEmpireVisibilityFilteredSystemGraphs</a> (const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, const std::map&lt; int, <a class="el" href="classObjectMap.html">ObjectMap</a> &gt; &amp;empire_object_maps)</td></tr>
+<tr class="separator:ae8c771ea52e744dbd82a79b1fb2c33c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53e8cff0ec9561ae3978aec420918e90"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a53e8cff0ec9561ae3978aec420918e90">WithinJumps</a> (size_t jumps, const std::vector&lt; int &gt; &amp;candidates) const</td></tr>
 <tr class="memdesc:a53e8cff0ec9561ae3978aec420918e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the system ids of systems that are within <code>jumps</code> of the <code>candidates</code> system ids.  <a href="#a53e8cff0ec9561ae3978aec420918e90">More...</a><br /></td></tr>
 <tr class="separator:a53e8cff0ec9561ae3978aec420918e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54e20d679084e28b8bfb4e9c2c0e2853"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt; &gt;, std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#a54e20d679084e28b8bfb4e9c2c0e2853">WithinJumpsOfOthers</a> (int jumps, const std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt;&gt; &amp;candidates, const std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt;&gt; &amp;stationary) const</td></tr>
-<tr class="memdesc:a54e20d679084e28b8bfb4e9c2c0e2853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the partition (near, far) of the <code>candidate</code> objects into two sets, those that are within <code>jumps</code> of the <code>stationary</code> objects and that are not.  <a href="#a54e20d679084e28b8bfb4e9c2c0e2853">More...</a><br /></td></tr>
-<tr class="separator:a54e20d679084e28b8bfb4e9c2c0e2853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee0cc69a73c03f164c6cbf836ae7a40"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt; &gt;, std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathfinder.html#aeee0cc69a73c03f164c6cbf836ae7a40">WithinJumpsOfOthers</a> (int jumps, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects, const std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt;&gt; &amp;candidates, const std::vector&lt; std::shared_ptr&lt; const UniverseObject &gt;&gt; &amp;stationary) const</td></tr>
+<tr class="memdesc:aeee0cc69a73c03f164c6cbf836ae7a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the partition (near, far) of the <code>candidate</code> objects into two sets, those that are within <code>jumps</code> of the <code>stationary</code> objects and that are not.  <a href="#aeee0cc69a73c03f164c6cbf836ae7a40">More...</a><br /></td></tr>
+<tr class="separator:aeee0cc69a73c03f164c6cbf836ae7a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -257,8 +259,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca75a36d1284ff2dd35871683445c026"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca75a36d1284ff2dd35871683445c026">&#9670;&nbsp;</a></span>InitializeSystemGraph()</h2>
+<a id="ad56fb3fc11f7ac3ecc68c31c8e05c3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad56fb3fc11f7ac3ecc68c31c8e05c3fb">&#9670;&nbsp;</a></span>InitializeSystemGraph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,14 +268,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Pathfinder::InitializeSystemGraph </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>system_ids</em>, </td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>for_empire_id</em> = <code><a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -283,14 +285,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Fills pathfinding data structure and determines least jumps distances between systems for the empire with id <em>for_empire_id</em> or uses the main / true / visible objects if <em>for_empire_id</em> is ALL_EMPIRES. </p>
+<p>Fills pathfinding data structure and determines least jumps distances between systems. </p>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
 </div>
 </div>
-<a id="a43552c78d93547b7a2601c0af538f41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43552c78d93547b7a2601c0af538f41d">&#9670;&nbsp;</a></span>JumpDistanceBetweenObjects()</h2>
+<a id="a184ad9bb6c67ce5be43302592eda6fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184ad9bb6c67ce5be43302592eda6fd4">&#9670;&nbsp;</a></span>JumpDistanceBetweenObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,7 +307,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>object2_id</em>&#160;</td>
+          <td class="paramname"><em>object2_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -412,8 +420,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a712070a3b5772d6065228fd7c15ec2f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a712070a3b5772d6065228fd7c15ec2f1">&#9670;&nbsp;</a></span>LinearDistance()</h2>
+<a id="a1d7b3fd36f88a9747d6f1a4e7267a790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7b3fd36f88a9747d6f1a4e7267a790">&#9670;&nbsp;</a></span>LinearDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,7 +436,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>object2_id</em>&#160;</td>
+          <td class="paramname"><em>object2_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -448,12 +462,12 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aff691d9a630fcd81bb009e53985554aa">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a8fce4681bd9d291579184e8212f10307">Pathfinder::PathfinderImpl::ShortestPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#a32a96f7b591c8da29766acaf1ed0c5cb">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>, and <a class="el" href="classPathfinder_1_1PathfinderImpl.html#ad4b2ecce03760bc222b1da3c171e54e6">Pathfinder::PathfinderImpl::ShortestPath()</a>.</p>
 
 </div>
 </div>
-<a id="a357b34906dad66e9b6e0442141def6c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a357b34906dad66e9b6e0442141def6c1">&#9670;&nbsp;</a></span>NearestSystemTo()</h2>
+<a id="a177e226c08b5a3fe2b9f42cd1edf4f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177e226c08b5a3fe2b9f42cd1edf4f01">&#9670;&nbsp;</a></span>NearestSystemTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +482,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -484,8 +504,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ba9eb0254724412b8932f0ae3e5e607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ba9eb0254724412b8932f0ae3e5e607">&#9670;&nbsp;</a></span>ShortestPath() <span class="overload">[1/2]</span></h2>
+<a id="a692e6bf414e770310bc9e5fbcddba2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692e6bf414e770310bc9e5fbcddba2da">&#9670;&nbsp;</a></span>ShortestPath() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -506,7 +526,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em> = <code><a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></code>&#160;</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -526,12 +552,12 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#af10bdd11fdb114ec7dffb5f0e44595fd">Pathfinder::PathfinderImpl::ShortestPathDistance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aedb8b3e510da796bd769c502060d4934">Pathfinder::PathfinderImpl::ShortestPathDistance()</a>.</p>
 
 </div>
 </div>
-<a id="a8c4180dad6a8c208408adb4bde8b5cbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c4180dad6a8c208408adb4bde8b5cbc">&#9670;&nbsp;</a></span>ShortestPath() <span class="overload">[2/2]</span></h2>
+<a id="a46527dbb617df6b7f1c2634da6a2a640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46527dbb617df6b7f1c2634da6a2a640">&#9670;&nbsp;</a></span>ShortestPath() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,7 +584,19 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classPathfinder.html#a42e5a8db838d0e320371a2e696fd0932">SystemExclusionPredicateType</a> &amp;&#160;</td>
-          <td class="paramname"><em>system_predicate</em>&#160;</td>
+          <td class="paramname"><em>system_predicate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -584,8 +622,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a942220bea837760f90a89c2c445b1368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a942220bea837760f90a89c2c445b1368">&#9670;&nbsp;</a></span>ShortestPathDistance()</h2>
+<a id="ab3db1aa480a5930cd7812ef15f2b2661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3db1aa480a5930cd7812ef15f2b2661">&#9670;&nbsp;</a></span>ShortestPathDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -600,7 +638,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>object2_id</em>&#160;</td>
+          <td class="paramname"><em>object2_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -617,8 +661,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a431a724f969fe237fb76fb3895fca291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a431a724f969fe237fb76fb3895fca291">&#9670;&nbsp;</a></span>SystemHasVisibleStarlanes()</h2>
+<a id="aef8fa8f29aee3097da8245e396513868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8fa8f29aee3097da8245e396513868">&#9670;&nbsp;</a></span>SystemHasVisibleStarlanes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -632,8 +676,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em> = <code><a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -694,8 +738,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acc255822d2587ec94022230d380f1cc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc255822d2587ec94022230d380f1cc2">&#9670;&nbsp;</a></span>UpdateEmpireVisibilityFilteredSystemGraphs()</h2>
+<a id="aec4046c2adcc2ad34d624090ca27b061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4046c2adcc2ad34d624090ca27b061">&#9670;&nbsp;</a></span>UpdateEmpireVisibilityFilteredSystemGraphs() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -703,19 +747,57 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Pathfinder::UpdateEmpireVisibilityFilteredSystemGraphs </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>for_empire_id</em> = <code><a class="el" href="MultiplayerCommon_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a></code></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Regenerates per-empire system view graphs by filtering the complete system graph based on empire visibility. </p>
+<p>Regenerates per-empire system view graphs by filtering the complete system graph based on empire visibilities. </p>
 <p>Does not regenerate the base graph to account for actual system-starlane connectivity changes. </p>
 
 <p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder_1_1PathfinderImpl.html#aff691d9a630fcd81bb009e53985554aa">Pathfinder::PathfinderImpl::InitializeSystemGraph()</a>.</p>
+</div>
+</div>
+<a id="ae8c771ea52e744dbd82a79b1fb2c33c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c771ea52e744dbd82a79b1fb2c33c6">&#9670;&nbsp;</a></span>UpdateEmpireVisibilityFilteredSystemGraphs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Pathfinder::UpdateEmpireVisibilityFilteredSystemGraphs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; int, <a class="el" href="classObjectMap.html">ObjectMap</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>empire_object_maps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classPathfinder.html#acb8c1c346a34d68bf2d5bf836cf6aa0e">pimpl</a>.</p>
 
 </div>
 </div>
@@ -751,8 +833,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a54e20d679084e28b8bfb4e9c2c0e2853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54e20d679084e28b8bfb4e9c2c0e2853">&#9670;&nbsp;</a></span>WithinJumpsOfOthers()</h2>
+<a id="aeee0cc69a73c03f164c6cbf836ae7a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeee0cc69a73c03f164c6cbf836ae7a40">&#9670;&nbsp;</a></span>WithinJumpsOfOthers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -762,6 +844,12 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>jumps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -810,7 +898,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors()</a>, <a class="el" href="classPathfinder.html#aca75a36d1284ff2dd35871683445c026">InitializeSystemGraph()</a>, <a class="el" href="classPathfinder.html#a43552c78d93547b7a2601c0af538f41d">JumpDistanceBetweenObjects()</a>, <a class="el" href="classPathfinder.html#a2fd6ad829c4331d64b28fe5a98ce1a16">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d">LeastJumpsPath()</a>, <a class="el" href="classPathfinder.html#a712070a3b5772d6065228fd7c15ec2f1">LinearDistance()</a>, <a class="el" href="classPathfinder.html#a357b34906dad66e9b6e0442141def6c1">NearestSystemTo()</a>, <a class="el" href="classPathfinder.html#a1ba9eb0254724412b8932f0ae3e5e607">ShortestPath()</a>, <a class="el" href="classPathfinder.html#a942220bea837760f90a89c2c445b1368">ShortestPathDistance()</a>, <a class="el" href="classPathfinder.html#a431a724f969fe237fb76fb3895fca291">SystemHasVisibleStarlanes()</a>, <a class="el" href="classPathfinder.html#a0de4497d96c7433971002308ef3cd87b">SystemsConnected()</a>, <a class="el" href="classPathfinder.html#acc255822d2587ec94022230d380f1cc2">UpdateEmpireVisibilityFilteredSystemGraphs()</a>, <a class="el" href="classPathfinder.html#a53e8cff0ec9561ae3978aec420918e90">WithinJumps()</a>, and <a class="el" href="classPathfinder.html#a54e20d679084e28b8bfb4e9c2c0e2853">WithinJumpsOfOthers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5">ImmediateNeighbors()</a>, <a class="el" href="classPathfinder.html#ad56fb3fc11f7ac3ecc68c31c8e05c3fb">InitializeSystemGraph()</a>, <a class="el" href="classPathfinder.html#a184ad9bb6c67ce5be43302592eda6fd4">JumpDistanceBetweenObjects()</a>, <a class="el" href="classPathfinder.html#a2fd6ad829c4331d64b28fe5a98ce1a16">JumpDistanceBetweenSystems()</a>, <a class="el" href="classPathfinder.html#a20c13279a69ea414d135f13e1ed3805d">LeastJumpsPath()</a>, <a class="el" href="classPathfinder.html#a1d7b3fd36f88a9747d6f1a4e7267a790">LinearDistance()</a>, <a class="el" href="classPathfinder.html#a177e226c08b5a3fe2b9f42cd1edf4f01">NearestSystemTo()</a>, <a class="el" href="classPathfinder.html#a692e6bf414e770310bc9e5fbcddba2da">ShortestPath()</a>, <a class="el" href="classPathfinder.html#ab3db1aa480a5930cd7812ef15f2b2661">ShortestPathDistance()</a>, <a class="el" href="classPathfinder.html#aef8fa8f29aee3097da8245e396513868">SystemHasVisibleStarlanes()</a>, <a class="el" href="classPathfinder.html#a0de4497d96c7433971002308ef3cd87b">SystemsConnected()</a>, <a class="el" href="classPathfinder.html#aec4046c2adcc2ad34d624090ca27b061">UpdateEmpireVisibilityFilteredSystemGraphs()</a>, <a class="el" href="classPathfinder.html#a53e8cff0ec9561ae3978aec420918e90">WithinJumps()</a>, and <a class="el" href="classPathfinder.html#aeee0cc69a73c03f164c6cbf836ae7a40">WithinJumpsOfOthers()</a>.</p>
 
 </div>
 </div>

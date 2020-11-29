@@ -62,7 +62,7 @@ var searchData=
   ['likes_5frule_5ftype',['likes_rule_type',['../namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a302cebd2fae0efc2d2423a6de6247d2c',1,'anonymous_namespace{SpeciesParser.cpp}']]],
   ['line_5fcell_5fheight',['LINE_CELL_HEIGHT',['../namespaceanonymous__namespace_02TechTreeLayout_8cpp_03.html#acf9c6910eed9b40f4c8197691dc24270',1,'anonymous_namespace{TechTreeLayout.cpp}']]],
   ['line_5fstart_5fand_5fline_5fnumber',['line_start_and_line_number',['../structparse_1_1report__error__.html#af9bb6e00b97907903f70c81f6c3c5b43',1,'parse::report_error_']]],
-  ['lineardistance',['LinearDistance',['../classPathfinder_1_1PathfinderImpl.html#ac70ed1ade042e36819580c7c678d5403',1,'Pathfinder::PathfinderImpl::LinearDistance()'],['../classPathfinder.html#a712070a3b5772d6065228fd7c15ec2f1',1,'Pathfinder::LinearDistance()']]],
+  ['lineardistance',['LinearDistance',['../classPathfinder_1_1PathfinderImpl.html#a77d48003e9487ecef28cfd0b53a76297',1,'Pathfinder::PathfinderImpl::LinearDistance()'],['../classPathfinder.html#a1d7b3fd36f88a9747d6f1a4e7267a790',1,'Pathfinder::LinearDistance()']]],
   ['linestarts',['LineStarts',['../namespaceanonymous__namespace_02ReportParseError_8cpp_03.html#af65edb16e51156316552a9e1b2316d72',1,'anonymous_namespace{ReportParseError.cpp}']]],
   ['link',['Link',['../structTextLinker_1_1Link.html',1,'TextLinker']]],
   ['link_5fformat_5fclose',['LINK_FORMAT_CLOSE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a25ab80e2899503320a6afe6afc294d56',1,'anonymous_namespace{LinkText.cpp}']]],
