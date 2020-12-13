@@ -96,5 +96,5 @@ var searchData=
   ['curr',['curr',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#aecf1201d16ddb342f96317b8081f0d80',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['current_5fhealth',['current_health',['../structCombatParticipantState.html#ad659e128e585b66a5b0cb6a93a585017',1,'CombatParticipantState::current_health()'],['../structParticipantSummary.html#a2a00a4665208406ee8fa78ea01e2d61f',1,'ParticipantSummary::current_health()']]],
   ['current_5fturn',['current_turn',['../structWaitingForTurnData_1_1TurnDataUnpackedNotification_1_1UnpackedData.html#a20c6feba95ac8f09b70924e1ddf48346',1,'WaitingForTurnData::TurnDataUnpackedNotification::UnpackedData::current_turn()'],['../structServerSaveGameData.html#ac96afa12e83a06fe247570af2ec19237',1,'ServerSaveGameData::current_turn()'],['../structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d',1,'SaveGamePreviewData::current_turn()']]],
-  ['current_5fvalue',['current_value',['../structScriptingContext.html#a32befe8da9ef0718c943db401b3b3021',1,'ScriptingContext']]]
+  ['current_5fvalue',['current_value',['../structScriptingContext.html#ab82df75651cab780403dc2fffb3095b3',1,'ScriptingContext']]]
 ];
