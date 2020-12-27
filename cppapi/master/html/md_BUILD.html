@@ -154,7 +154,15 @@ $(function() {
 <p>Execute <code>cmake</code> to generate Makefiles:</p>
 <div class="fragment"><div class="line">cmake ../freeorion</div></div><!-- fragment --><p>After successfully creating the Makefiles build the whole project by calling:</p>
 <div class="fragment"><div class="line">make</div></div><!-- fragment --><p>In case you want to utilize multiple CPU cores by running parallel compile jobs check out the the [make jobs](<code>--jobs</code>) parameter of <code>make</code>.</p>
-<p>After the build finished successfully the binaries can be found within the <code>freeorion-project/build</code> directory. </p>
+<p>After the build finished successfully the binaries can be found within the <code>freeorion-project/build</code> directory.</p>
+<h3>Android</h3>
+<p>Install Android NDK.</p>
+<p>Build <a href="https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/262">Python-For-Android</a>.</p>
+<p>Build <a href="https://github.com/moritz-wundke/Boost-for-Android">Boost-For-Android</a> with iconv support for boost_locale library</p>
+<div class="fragment"><div class="line">./build-android.sh --with-iconv --arch=arm64-v8a --with-python=`readlink -f ../python-install` --layout=system $ANDROID_NDK</div></div><!-- fragment --><p>Ensure you got <code>libboost_python&lt;version&gt;.a</code> and <code>libboost_locale.a</code> libraries.</p>
+<p>Create a <code>build</code> directory aside the <em>source_directory</em> and change into this directory. It will contain all compile FreeOrion build artifacs.</p>
+<div class="fragment"><div class="line">&lt;android&gt;/cmake/3.10.2.4988404/bin/cmake -DANDROID_ABI=armeabi-v7a -DANDROID_PLATFORM=21 -DANDROID_NDK=&lt;android&gt;/ndk-bundle/ -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=&lt;android&gt;/ndk-bundle/build/cmake/android.toolchain.cmake -DCMAKE_CXX_FLAGS=-std=c++14 -DANDROID_ALLOW_UNDEFINED_SYMBOLS=Off -DBUILD_SERVER=OFF -DBUILD_AI=OFF -DBUILD_CLIENT_GG=OFF -DBoost_INCLUDE_DIR=&lt;Boost-for-Android&gt;/build/out/armeabi-v7a/include/ -DBoost_USE_STATIC_LIBS=On -DBoost_LIBRARY_DIR=&lt;Boost-for-Android&gt;/build/out/armeabi-v7a/lib/ -DBUILD_CLIENT_GODOT=On -DICUI18N_LIBRARY=&lt;Boost-for-Android&gt;/libiconv-libicu-android/armeabi-v7a/lib/libicui18n.a -DICUUC_LIBRARY=&lt;Boost-for-Android&gt;/libiconv-libicu-android/armeabi-v7a/lib/libicuuc.a -DICUDATA_LIBRARY=&lt;Boost-for-Android&gt;/libiconv-libicu-android/armeabi-v7a/lib/libicudata.a -DICONV_LIBRARY=&lt;Boost-for-Android&gt;/libiconv-libicu-android/armeabi-v7a/lib/libiconv.so ../freeorion</div></div><!-- fragment --><p>After successfully creating the Makefiles build the whole project by calling:</p>
+<div class="fragment"><div class="line">&lt;android&gt;/cmake/3.10.2.4988404/bin/cmake --build . -- -j2 VERBOSE=1</div></div><!-- fragment --><p>After the build finished successfully the godot libraries can be found within the <code>freeorion-project/build</code> directory. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
