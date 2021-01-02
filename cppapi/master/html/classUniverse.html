@@ -189,6 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad22b9d9f52e2fa66c8531ce43fc4365b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceEffect.html#a65ca7aae4a86cf76e0d8c5666beac861">Effect::AccountingMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#ad22b9d9f52e2fa66c8531ce43fc4365b">GetEffectAccountingMap</a> () const</td></tr>
 <tr class="memdesc:ad22b9d9f52e2fa66c8531ce43fc4365b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns map, indexed by object id, to map, indexed by MeterType, to vector of EffectAccountInfo for the meter, in order effects were applied to the meter.  <a href="#ad22b9d9f52e2fa66c8531ce43fc4365b">More...</a><br /></td></tr>
 <tr class="separator:ad22b9d9f52e2fa66c8531ce43fc4365b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25130b0e79c6c9b52f110b15df734d67"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6">EmpireObjectVisibilityTurnMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a25130b0e79c6c9b52f110b15df734d67">GetEmpireObjectVisibilityTurnMap</a> () const</td></tr>
+<tr class="separator:a25130b0e79c6c9b52f110b15df734d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c7ccb223ef3548572e29547039b69ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classShipDesign.html">ShipDesign</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a3c7ccb223ef3548572e29547039b69ba">GetGenericShipDesign</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a3c7ccb223ef3548572e29547039b69ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3476c35ef12d95c802f5f69dec8c2ace"><td class="memItemLeft" align="right" valign="top">Visibility&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniverse.html#a3476c35ef12d95c802f5f69dec8c2ace">GetObjectVisibilityByEmpire</a> (int object_id, int empire_id) const</td></tr>
@@ -1969,8 +1971,29 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a25130b0e79c6c9b52f110b15df734d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25130b0e79c6c9b52f110b15df734d67">&#9670;&nbsp;</a></span>GetEmpireObjectVisibilityTurnMap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6">Universe::EmpireObjectVisibilityTurnMap</a> &amp; Universe::GetEmpireObjectVisibilityTurnMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
+
+</div>
+</div>
 <a id="a83a430c2b76f4407050776a128102431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a430c2b76f4407050776a128102431">&#9670;&nbsp;</a></span>GetEmpireObjectVisibilityTurnMap()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a430c2b76f4407050776a128102431">&#9670;&nbsp;</a></span>GetEmpireObjectVisibilityTurnMap() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2004,8 +2027,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classUniverse.html#a0f340392aea82a615f2756ee1c820140">m_empire_object_visibility_turns</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>.</p>
 
 </div>
 </div>
@@ -4106,7 +4127,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>map from empire id to (map from object id to (map from Visibility rating to turn number on which the empire last saw the object at the indicated Visibility rating or higher) </p>
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a83a430c2b76f4407050776a128102431">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#aebb23f24e2408c7abb00d8eac1184373">GetObjectVisibilityTurnMapByEmpire()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#a6a89fc4b3d5798b75a5cb49c7d9820ac">Clear()</a>, <a class="el" href="classUniverse.html#a25130b0e79c6c9b52f110b15df734d67">GetEmpireObjectVisibilityTurnMap()</a>, <a class="el" href="classUniverse.html#aebb23f24e2408c7abb00d8eac1184373">GetObjectVisibilityTurnMapByEmpire()</a>, <a class="el" href="classUniverse.html#ae2bbf3751c473225866d946dbb5cb7b0">operator=()</a>, <a class="el" href="SerializeUniverse_8cpp.html#a4d2bbf1916ea65b2fe1047f3d773fc39">serialize()</a>, and <a class="el" href="classUniverse.html#a9df9e2f5d1134b601655e549ef961af2">UpdateEmpireLatestKnownObjectsAndVisibilityTurns()</a>.</p>
 
 </div>
 </div>
