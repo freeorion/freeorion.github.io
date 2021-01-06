@@ -4,6 +4,7 @@ var searchData=
   ['design_5frule',['design_rule',['../structanonymous__namespace_02ShipDesignsParser_8cpp_03_1_1grammar.html#aec02e6f4805142adc34b83dc9c58db87',1,'anonymous_namespace{ShipDesignsParser.cpp}::grammar']]],
   ['difference_5ftype',['difference_type',['../classOrderSet.html#a286ffce15efac513b38ab7ede8540993',1,'OrderSet']]],
   ['diplosignaltype',['DiploSignalType',['../classEmpireManager.html#ae58c4ffc873a1890ce67bf156bbf0879',1,'EmpireManager']]],
+  ['diplostatusmap',['DiploStatusMap',['../classEmpireManager.html#ac76cc22af9cb92945a23553a292062a2',1,'EmpireManager']]],
   ['discrepancymap',['DiscrepancyMap',['../classUniverse.html#ab59b3fddb2dafaa11b4ad277a523782e',1,'Universe']]],
   ['displayedavailabilies',['DisplayedAvailabilies',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1AvailabilityManager.html#ab63e9b27704f2f7547fd52e4de240d9c',1,'anonymous_namespace{DesignWnd.cpp}::AvailabilityManager::DisplayedAvailabilies()'],['../classanonymous__namespace_02GovernmentWnd_8cpp_03_1_1AvailabilityManager.html#af73fff3fd6c5322f0fea50fe0efc5ef7',1,'anonymous_namespace{GovernmentWnd.cpp}::AvailabilityManager::DisplayedAvailabilies()']]],
   ['double_5fcontainer_5ftype',['double_container_type',['../classNamedValueRefManager.html#a936599e9e42985e1e95ccceb331dce53',1,'NamedValueRefManager']]],
