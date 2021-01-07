@@ -487,6 +487,7 @@ var searchData=
   ['content_5ftype',['content_type',['../structparse_1_1detail_1_1condition__parser__rules__7.html#a9c0030f399e6aa1b9b50d6888ff8b94e',1,'parse::detail::condition_parser_rules_7']]],
   ['contentchecksummessage',['ContentCheckSumMessage',['../Message_8cpp.html#a48f7c98ff0d9de0426d11f9473a3d192',1,'ContentCheckSumMessage():&#160;Message.cpp'],['../Message_8h.html#af74aee69d72a628e6098a161cb80363e',1,'ContentCheckSumMessage():&#160;Message.cpp']]],
   ['contenttype',['ContentType',['../namespaceCondition.html#a15367b87f451012a5411e6e74f0f83c8',1,'Condition']]],
+  ['contextdiplostatus',['ContextDiploStatus',['../structScriptingContext.html#aaa23253620ec818c6d44ac9b4c5df85e',1,'ScriptingContext']]],
   ['contextobjects',['ContextObjects',['../structScriptingContext.html#a886fb7dba80270f856d02dd87fae67d7',1,'ScriptingContext::ContextObjects() const'],['../structScriptingContext.html#acfe730390ae2f95b4fb8c328eda45665',1,'ScriptingContext::ContextObjects()']]],
   ['continuesingleplayergame',['ContinueSinglePlayerGame',['../classHumanClientApp.html#a4e301bceb784a3825ab17210782c8850',1,'HumanClientApp']]],
   ['contributing_2emd',['CONTRIBUTING.md',['../CONTRIBUTING_8md.html',1,'']]],

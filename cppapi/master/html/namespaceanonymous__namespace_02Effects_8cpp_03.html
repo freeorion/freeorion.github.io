@@ -76,9 +76,9 @@ Functions</h2></td></tr>
 <tr class="separator:aad3836e3a87c1415e43ea61de94724fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4aa0b115f06ad613e01cc1b42805a20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#ae4aa0b115f06ad613e01cc1b42805a20">DeclareThreadSafeLogger</a> (effects)</td></tr>
 <tr class="separator:ae4aa0b115f06ad613e01cc1b42805a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72365263c37c1ed21652fd99ffe3c2c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#a72365263c37c1ed21652fd99ffe3c2c4">ExploreSystem</a> (int system_id, std::shared_ptr&lt; const UniverseObject &gt; target_object)</td></tr>
-<tr class="memdesc:a72365263c37c1ed21652fd99ffe3c2c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explores the system with the specified <em>system_id</em> for the owner of the specified <em>target_object</em>.  <a href="#a72365263c37c1ed21652fd99ffe3c2c4">More...</a><br /></td></tr>
-<tr class="separator:a72365263c37c1ed21652fd99ffe3c2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351217d27cc5e0c8e26102a7bc26eafb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#a351217d27cc5e0c8e26102a7bc26eafb">ExploreSystem</a> (int system_id, const std::shared_ptr&lt; const UniverseObject &gt; &amp;target_object, <a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a351217d27cc5e0c8e26102a7bc26eafb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explores the system with the specified <em>system_id</em> for the owner of the specified <em>target_object</em>.  <a href="#a351217d27cc5e0c8e26102a7bc26eafb">More...</a><br /></td></tr>
+<tr class="separator:a351217d27cc5e0c8e26102a7bc26eafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0151048dd80dd1dcab8d8e3613d50277"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#a0151048dd80dd1dcab8d8e3613d50277">GenerateSystemName</a> (const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects)</td></tr>
 <tr class="separator:a0151048dd80dd1dcab8d8e3613d50277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accd840872ca7a2352f2bce695d8a722f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#accd840872ca7a2352f2bce695d8a722f">UpdateFleetRoute</a> (const std::shared_ptr&lt; Fleet &gt; &amp;fleet, int new_next_system, int new_previous_system, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects)</td></tr>
@@ -196,8 +196,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a72365263c37c1ed21652fd99ffe3c2c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72365263c37c1ed21652fd99ffe3c2c4">&#9670;&nbsp;</a></span>ExploreSystem()</h2>
+<a id="a351217d27cc5e0c8e26102a7bc26eafb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a351217d27cc5e0c8e26102a7bc26eafb">&#9670;&nbsp;</a></span>ExploreSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,8 +211,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; const UniverseObject &gt;&#160;</td>
-          <td class="paramname"><em>target_object</em>&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; const UniverseObject &gt; &amp;&#160;</td>
+          <td class="paramname"><em>target_object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structScriptingContext.html">ScriptingContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -225,7 +231,7 @@ Functions</h2></td></tr>
 <p>Explores the system with the specified <em>system_id</em> for the owner of the specified <em>target_object</em>. </p>
 <p>Used when moving objects into a system with the MoveTo effect, as otherwise the system wouldn't get explored, and objects being moved into unexplored systems might disappear for players or confuse the AI. </p>
 
-<p class="reference">References <a class="el" href="AppInterface_8h.html#acca929fdf0f6b2f6ba565be9f45f0a47">GetEmpire()</a>.</p>
+<p class="reference">References <a class="el" href="structScriptingContext.html#a56d95f59c9bb4a7891a61b095e8d558b">ScriptingContext::GetEmpire()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classEffect_1_1MoveTo.html#a3a560828f57933726ecfeab3e3d57d53">Effect::MoveTo::Execute()</a>.</p>
 

@@ -103,10 +103,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a792fd377f35b0544effb5611d1165cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fd594d60899d918bb9dddca433d704e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#a5fd594d60899d918bb9dddca433d704e">ScriptingContext</a> (std::shared_ptr&lt; const UniverseObject &gt; source_, std::shared_ptr&lt; UniverseObject &gt; target_, const <a class="el" href="structScriptingContext.html#a6255ab244c66b50064aecaae42d6acb8">CurrentValueVariant</a> &amp;current_value_, std::shared_ptr&lt; const UniverseObject &gt; condition_root_candidate_=nullptr, std::shared_ptr&lt; const UniverseObject &gt; condition_local_candidate_=nullptr, <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects_=<a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects</a>(), const <a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">Universe::EmpireObjectVisibilityMap</a> &amp;empire_object_vis_=<a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse</a>().GetEmpireObjectVisibility(), const <a class="el" href="classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6">Universe::EmpireObjectVisibilityTurnMap</a> &amp;empire_object_vis_turns_=<a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse</a>().GetEmpireObjectVisibilityTurnMap(), const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">EmpireManager::container_type</a> &amp;empires_=<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>().GetEmpires(), <a class="el" href="classEmpireManager.html#ac76cc22af9cb92945a23553a292062a2">EmpireManager::DiploStatusMap</a> diplo_statuses_=<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>().GetDiplomaticStatuses())</td></tr>
 <tr class="separator:a5fd594d60899d918bb9dddca433d704e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa23253620ec818c6d44ac9b4c5df85e"><td class="memItemLeft" align="right" valign="top">DiplomaticStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#aaa23253620ec818c6d44ac9b4c5df85e">ContextDiploStatus</a> (int empire1, int empire2) const</td></tr>
+<tr class="separator:aaa23253620ec818c6d44ac9b4c5df85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886fb7dba80270f856d02dd87fae67d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#a886fb7dba80270f856d02dd87fae67d7">ContextObjects</a> () const</td></tr>
 <tr class="separator:a886fb7dba80270f856d02dd87fae67d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe730390ae2f95b4fb8c328eda45665"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#acfe730390ae2f95b4fb8c328eda45665">ContextObjects</a> ()</td></tr>
 <tr class="separator:acfe730390ae2f95b4fb8c328eda45665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d95f59c9bb4a7891a61b095e8d558b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Empire &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#a56d95f59c9bb4a7891a61b095e8d558b">GetEmpire</a> (int id)</td></tr>
+<tr class="separator:a56d95f59c9bb4a7891a61b095e8d558b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0a34ccaeb08bc2682ec1cc3d79efdb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const Empire &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structScriptingContext.html#a1a0a34ccaeb08bc2682ec1cc3d79efdb">GetEmpire</a> (int id) const</td></tr>
+<tr class="separator:a1a0a34ccaeb08bc2682ec1cc3d79efdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -770,6 +776,46 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaa23253620ec818c6d44ac9b4c5df85e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa23253620ec818c6d44ac9b4c5df85e">&#9670;&nbsp;</a></span>ContextDiploStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DiplomaticStatus ScriptingContext::ContextDiploStatus </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>empire2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classEffect_1_1GenerateSitRepMessage.html#ad04c39449b2976ef487266e4989ed07e">Effect::GenerateSitRepMessage::Execute()</a>, and <a class="el" href="classEffect_1_1SetVisibility.html#ab8c07ab29b145965d0f30458154eba96">Effect::SetVisibility::Execute()</a>.</p>
+
+</div>
+</div>
 <a id="a886fb7dba80270f856d02dd87fae67d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a886fb7dba80270f856d02dd87fae67d7">&#9670;&nbsp;</a></span>ContextObjects() <span class="overload">[1/2]</span></h2>
 
@@ -847,6 +893,60 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a56d95f59c9bb4a7891a61b095e8d558b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d95f59c9bb4a7891a61b095e8d558b">&#9670;&nbsp;</a></span>GetEmpire() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;Empire&gt; ScriptingContext::GetEmpire </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1ComplexVariable.html#afbfbfc14636dc073672accdab84c2f05">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1SetEmpireMeter.html#a435dd8dd85a41b8b8ba508a92e37f94a">Effect::SetEmpireMeter::Execute()</a>, <a class="el" href="classEffect_1_1SetEmpireStockpile.html#a8395416ccf5f77cf70ff63e1c8190043">Effect::SetEmpireStockpile::Execute()</a>, <a class="el" href="classEffect_1_1SetEmpireCapital.html#aeb0031bb6ca1b5a0ffec5c71f773d93c">Effect::SetEmpireCapital::Execute()</a>, <a class="el" href="classEffect_1_1CreateShip.html#a0930987b37e89736aaf80d11634a6987">Effect::CreateShip::Execute()</a>, <a class="el" href="classEffect_1_1Victory.html#a4ff775466c3e95cc7e9287edd4a04ad0">Effect::Victory::Execute()</a>, <a class="el" href="classEffect_1_1SetEmpireTechProgress.html#a2550982b392a1697b7a7b77fb6c08ce5">Effect::SetEmpireTechProgress::Execute()</a>, <a class="el" href="classEffect_1_1GiveEmpireTech.html#ad93efa99fdf34b6af7766b1f31374162">Effect::GiveEmpireTech::Execute()</a>, <a class="el" href="classEffect_1_1GenerateSitRepMessage.html#ad04c39449b2976ef487266e4989ed07e">Effect::GenerateSitRepMessage::Execute()</a>, <a class="el" href="classEffect_1_1SetVisibility.html#ab8c07ab29b145965d0f30458154eba96">Effect::SetVisibility::Execute()</a>, <a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#a351217d27cc5e0c8e26102a7bc26eafb">anonymous_namespace{Effects.cpp}::ExploreSystem()</a>, <a class="el" href="structCondition_1_1EmpireMeterValue.html#aded1c8f5588dbefd8b7282b4efd98e76">Condition::EmpireMeterValue::Match()</a>, <a class="el" href="structCondition_1_1EmpireStockpileValue.html#a1bd9fd790cd7ff9b770cb9095b4f2066">Condition::EmpireStockpileValue::Match()</a>, and <a class="el" href="structCondition_1_1EmpireHasAdoptedPolicy.html#a08910f645f8f0a3b623f15a81b414df6">Condition::EmpireHasAdoptedPolicy::Match()</a>.</p>
+
+</div>
+</div>
+<a id="a1a0a34ccaeb08bc2682ec1cc3d79efdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0a34ccaeb08bc2682ec1cc3d79efdb">&#9670;&nbsp;</a></span>GetEmpire() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const Empire&gt; ScriptingContext::GetEmpire </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2662f70a417023be0ebc7c373be15989"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2662f70a417023be0ebc7c373be15989">&#9670;&nbsp;</a></span>combat_info</h2>
@@ -860,7 +960,7 @@ Static Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Variable.html#a897d43c56cc0add124ecc62d23dd3d15">ValueRef::Variable&lt; ToType &gt;::Eval()</a>, <a class="el" href="structCondition_1_1VisibleToEmpire.html#a130eaedd777df8f8cbf62abf7ecd96af">Condition::VisibleToEmpire::Eval()</a>, and <a class="el" href="structCondition_1_1VisibleToEmpire.html#a44a7fb037d531c58f600eea21218fe50">Condition::VisibleToEmpire::Match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1Variable.html#a897d43c56cc0add124ecc62d23dd3d15">ValueRef::Variable&lt; ToType &gt;::Eval()</a>.</p>
 
 </div>
 </div>
@@ -995,6 +1095,8 @@ Static Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structValueRef_1_1ComplexVariable.html#afbfbfc14636dc073672accdab84c2f05">ValueRef::ComplexVariable&lt; T &gt;::Eval()</a>, <a class="el" href="classEffect_1_1GenerateSitRepMessage.html#ad04c39449b2976ef487266e4989ed07e">Effect::GenerateSitRepMessage::Execute()</a>, <a class="el" href="classEffect_1_1SetVisibility.html#ab8c07ab29b145965d0f30458154eba96">Effect::SetVisibility::Execute()</a>, and <a class="el" href="structCondition_1_1Capital.html#a9f92a8ae6b4bbc3507c6f457bbe550ff">Condition::Capital::Match()</a>.</p>
 
 </div>
 </div>
