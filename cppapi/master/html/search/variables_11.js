@@ -14,7 +14,7 @@ var searchData=
   ['render_5fdebugging_5flink_5frects',['RENDER_DEBUGGING_LINK_RECTS',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a3866a3587e308629a5dfa6daf6b145ed',1,'anonymous_namespace{LinkText.cpp}']]],
   ['repeated_5fstring',['repeated_string',['../structparse_1_1detail_1_1common__params__rules.html#aa5ded4abf25414ad0ec61d866444d32e',1,'parse::detail::common_params_rules']]],
   ['report_5ferror',['report_error',['../namespaceparse.html#a198d1ae12a3cb166e961d364eea5b4f9',1,'parse']]],
-  ['repositionwindowssignal',['RepositionWindowsSignal',['../classHumanClientApp.html#a9653e1e62e3ab6c23a5d31f2bbed8772',1,'HumanClientApp']]],
+  ['repositionwindowssignal',['RepositionWindowsSignal',['../classGGHumanClientApp.html#ae735c749e911d2b27ee1a34839ef2e8a',1,'GGHumanClientApp']]],
   ['requestbuilditemsignal',['RequestBuildItemSignal',['../classBuildDesignatorWnd_1_1BuildSelector.html#a335e26a205d42fc3371898d9e5dde95d',1,'BuildDesignatorWnd::BuildSelector']]],
   ['res_5fcontrols_5fwnd_5fname',['RES_CONTROLS_WND_NAME',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a63076db33589c5897c364a92e2d4dd28',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['res_5fdir',['res_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#ae8fd43475f23d2ed10e243eddf9d3ada',1,'anonymous_namespace{Directories.cpp}']]],

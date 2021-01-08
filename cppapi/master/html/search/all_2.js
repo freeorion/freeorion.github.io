@@ -102,7 +102,7 @@ var searchData=
   ['browse_5fbtn_5fwidth',['BROWSE_BTN_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae22c527a3b027cf3d741d5637af50288',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['browse_5fpath_5ftag',['BROWSE_PATH_TAG',['../classTextLinker.html#a9c31c8532c140cbf8b9cfb77a60bee50',1,'TextLinker']]],
   ['browseforpathbuttonfunctor',['BrowseForPathButtonFunctor',['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor'],['../structanonymous__namespace_02OptionsWnd_8cpp_03_1_1BrowseForPathButtonFunctor.html#a52a59c08d08617cc1ffaa0ff3beab76f',1,'anonymous_namespace{OptionsWnd.cpp}::BrowseForPathButtonFunctor::BrowseForPathButtonFunctor()']]],
-  ['browsepath',['BrowsePath',['../classHumanClientApp.html#a945accf773977c060d69ce99b0f81965',1,'HumanClientApp']]],
+  ['browsepath',['BrowsePath',['../classGGHumanClientApp.html#a9f99f0aacffaaeb47aaf7195dd378fd1',1,'GGHumanClientApp']]],
   ['browsepath_5fsearch',['BROWSEPATH_SEARCH',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a8d14cbe65d07f18231aa35292ac1aa06',1,'anonymous_namespace{LinkText.cpp}']]],
   ['browsepath_5ftag_5fclose',['BROWSEPATH_TAG_CLOSE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#adc150fc709ec44d021fb8ea0d0354516',1,'anonymous_namespace{LinkText.cpp}']]],
   ['browsepath_5ftag_5fopen_5fpre',['BROWSEPATH_TAG_OPEN_PRE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a160360e5bb1ce4fdaa10d742c5f7ffe4',1,'anonymous_namespace{LinkText.cpp}']]],

@@ -13,7 +13,7 @@ var searchData=
   ['loadgameempirerow',['LoadGameEmpireRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGameEmpireRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['loadgameplayerrow',['LoadGamePlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['loadsavefilefailed',['LoadSaveFileFailed',['../structLoadSaveFileFailed.html',1,'']]],
-  ['localserveralreadyrunningexception',['LocalServerAlreadyRunningException',['../classanonymous__namespace_02HumanClientApp_8cpp_03_1_1LocalServerAlreadyRunningException.html',1,'anonymous_namespace{HumanClientApp.cpp}']]],
+  ['localserveralreadyrunningexception',['LocalServerAlreadyRunningException',['../classanonymous__namespace_02GGHumanClientApp_8cpp_03_1_1LocalServerAlreadyRunningException.html',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['location',['Location',['../structCondition_1_1Location.html',1,'Condition']]],
   ['loggerstosinkfrontends',['LoggersToSinkFrontEnds',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggersToSinkFrontEnds.html',1,'anonymous_namespace{Logger.cpp}']]],
   ['loggerthresholdsetter',['LoggerThresholdSetter',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggerThresholdSetter.html',1,'anonymous_namespace{Logger.cpp}']]]

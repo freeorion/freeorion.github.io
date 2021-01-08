@@ -7,6 +7,7 @@ var searchData=
   ['gameruleslist',['GameRulesList',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1GameRulesList.html',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['gamerulespanel',['GameRulesPanel',['../classGameRulesPanel.html',1,'']]],
   ['generatesitrepmessage',['GenerateSitRepMessage',['../classEffect_1_1GenerateSitRepMessage.html',1,'Effect']]],
+  ['gghumanclientapp',['GGHumanClientApp',['../classGGHumanClientApp.html',1,'']]],
   ['giveempiretech',['GiveEmpireTech',['../classEffect_1_1GiveEmpireTech.html',1,'Effect']]],
   ['giveobjecttoempireorder',['GiveObjectToEmpireOrder',['../classGiveObjectToEmpireOrder.html',1,'']]],
   ['governmentwnd',['GovernmentWnd',['../classGovernmentWnd.html',1,'']]],

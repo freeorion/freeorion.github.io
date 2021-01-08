@@ -158,7 +158,7 @@ var searchData=
   ['free',['Free',['../classProcess_1_1Impl.html#a66e80965ab4b4eaadc0ce128883f5864',1,'Process::Impl::Free()'],['../classProcess.html#add80a1596ceaa9ebc524514159dc9e98',1,'Process::Free()']]],
   ['freeallsounds',['FreeAllSounds',['../classSound_1_1Impl.html#a561d190fed40403216db99101e4894b5',1,'Sound::Impl::FreeAllSounds()'],['../classSound.html#ac3c48a8974635c21e8f685e78e34fe45',1,'Sound::FreeAllSounds()']]],
   ['freeorionversionstring',['FreeOrionVersionString',['../Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
-  ['freeserver',['FreeServer',['../classHumanClientApp.html#aba1ee2191d3e1d08f65a21fc279fe999',1,'HumanClientApp']]],
+  ['freeserver',['FreeServer',['../classGGHumanClientApp.html#a064f7cea01d48ff6a48dea2925ecd4ef',1,'GGHumanClientApp']]],
   ['freesound',['FreeSound',['../classSound_1_1Impl.html#a76152186d17d50451288a85bdbe2cac0',1,'Sound::Impl::FreeSound()'],['../classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],
   ['fuel',['Fuel',['../classShipDesign.html#abcbdbf3c47d3e1900899849f8e9d79a5',1,'ShipDesign']]],
   ['fullscreen',['Fullscreen',['../classSDLGUI.html#acc56de6bd77a11951a0c4f8d840f79b9',1,'SDLGUI']]]

@@ -316,7 +316,7 @@ var searchData=
   ['post',['post',['../namespaceboost_1_1asio.html#ab9e9c782637427293949d9c5b8a51f6c',1,'boost::asio']]],
   ['post_5fblockade',['post_blockade',['../structMovePathNode.html#a46c7ed91bc0f0b5f48651523ab4bd1e1',1,'MovePathNode']]],
   ['postcombatprocessturns',['PostCombatProcessTurns',['../classServerApp.html#ad7c64940da984600f09a6628ab40cb8f',1,'ServerApp']]],
-  ['postdeferredevent',['PostDeferredEvent',['../classHumanClientApp.html#a804eca1ccfe0baa746e125c334e8b3b1',1,'HumanClientApp']]],
+  ['postdeferredevent',['PostDeferredEvent',['../classGGHumanClientApp.html#aa4a2493593e7f31f0aac973da85fee3a',1,'GGHumanClientApp']]],
   ['power',['power',['../structWeaponFireEvent.html#a5c958e25390ab202c1d2558b277ab504',1,'WeaponFireEvent']]],
   ['precombatprocessturns',['PreCombatProcessTurns',['../classServerApp.html#aad8e14179d548168080fb8744abaccf7',1,'ServerApp']]],
   ['predefined_5fdesign',['predefined_design',['../structparse_1_1detail_1_1condition__parser__rules__5.html#a825cf04ed52225b1dd1553388c5726be',1,'parse::detail::condition_parser_rules_5']]],

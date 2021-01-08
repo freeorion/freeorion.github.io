@@ -13,5 +13,5 @@ var searchData=
   ['freeorion_5fbin_5foarchive',['freeorion_bin_oarchive',['../Serialize_8h.html#a4fcd50ac1b62186eef9567e79fd87cf2',1,'Serialize.h']]],
   ['freeorion_5fxml_5fiarchive',['freeorion_xml_iarchive',['../Serialize_8h.html#a7a647b1f26001983ffc17d140a6e7283',1,'Serialize.h']]],
   ['freeorion_5fxml_5foarchive',['freeorion_xml_oarchive',['../Serialize_8h.html#a9bad4be02884109c8d1ab9d7be5863cd',1,'Serialize.h']]],
-  ['fullscreenswitchsignaltype',['FullscreenSwitchSignalType',['../classHumanClientApp.html#a90d7bd32aa44b3879694676eb3b0484a',1,'HumanClientApp']]]
+  ['fullscreenswitchsignaltype',['FullscreenSwitchSignalType',['../classGGHumanClientApp.html#ae1babe3d833892cd54b7967460a0c606',1,'GGHumanClientApp']]]
 ];

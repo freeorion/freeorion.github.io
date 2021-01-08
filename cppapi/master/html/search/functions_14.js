@@ -75,7 +75,7 @@ var searchData=
   ['toggledesign',['ToggleDesign',['../classMapWnd.html#a2157fe3d11f743ae7ee45c4071387349',1,'MapWnd']]],
   ['toggleempires',['ToggleEmpires',['../classMapWnd.html#af902a19648f583beb66cce877cbaa4cf',1,'MapWnd']]],
   ['toggleexpansion',['ToggleExpansion',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#a0d6717aae5bc858e876654b83e24b723',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::ToggleExpansion()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#afed3dfd7ede265d46de77ead35c1c4f0',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::ToggleExpansion()']]],
-  ['togglefullscreen',['ToggleFullscreen',['../classHumanClientApp.html#a904e265541e4e08e80eef0748d8e5415',1,'HumanClientApp']]],
+  ['togglefullscreen',['ToggleFullscreen',['../classGGHumanClientApp.html#a60567f540d2cf8246b928ca86f73a58c',1,'GGHumanClientApp']]],
   ['togglegovernment',['ToggleGovernment',['../classMapWnd.html#a6437e05bbe731df2cc712f3fc862846c',1,'MapWnd']]],
   ['togglemessages',['ToggleMessages',['../classMapWnd.html#aed596bdc550e501e4a085fa51ec443a8',1,'MapWnd']]],
   ['toggleminimized',['ToggleMinimized',['../classCUIWnd.html#a60fd987b3f997ee796baca171bbb7de4',1,'CUIWnd']]],

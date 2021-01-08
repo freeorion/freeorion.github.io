@@ -208,7 +208,7 @@ var searchData=
   ['positionsystemname',['PositionSystemName',['../classSystemIcon.html#aafc4103f53d6962864549a9fa8b8e24b',1,'SystemIcon']]],
   ['post',['post',['../namespaceboost_1_1asio.html#ab9e9c782637427293949d9c5b8a51f6c',1,'boost::asio']]],
   ['postcombatprocessturns',['PostCombatProcessTurns',['../classServerApp.html#ad7c64940da984600f09a6628ab40cb8f',1,'ServerApp']]],
-  ['postdeferredevent',['PostDeferredEvent',['../classHumanClientApp.html#a804eca1ccfe0baa746e125c334e8b3b1',1,'HumanClientApp']]],
+  ['postdeferredevent',['PostDeferredEvent',['../classGGHumanClientApp.html#aa4a2493593e7f31f0aac973da85fee3a',1,'GGHumanClientApp']]],
   ['precombatprocessturns',['PreCombatProcessTurns',['../classServerApp.html#aad8e14179d548168080fb8744abaccf7',1,'ServerApp']]],
   ['predefinedshipdesign',['PredefinedShipDesign',['../structCondition_1_1PredefinedShipDesign.html#a3e197e9eaca88a04b3f4712398bc613e',1,'Condition::PredefinedShipDesign']]],
   ['predefinedshipdesignmanager',['PredefinedShipDesignManager',['../classPredefinedShipDesignManager.html#a34ffcb92537e46938d8b8bc3cbcebcae',1,'PredefinedShipDesignManager']]],

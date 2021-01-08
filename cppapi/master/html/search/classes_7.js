@@ -15,6 +15,5 @@ var searchData=
   ['hotkeymanager',['HotkeyManager',['../classHotkeyManager.html',1,'']]],
   ['hullandnamepanel',['HullAndNamePanel',['../classBasesListBox_1_1HullAndNamePanel.html',1,'BasesListBox']]],
   ['hullandpartslistboxrow',['HullAndPartsListBoxRow',['../classBasesListBox_1_1HullAndPartsListBoxRow.html',1,'BasesListBox']]],
-  ['humanclientapp',['HumanClientApp',['../classHumanClientApp.html',1,'']]],
   ['humanclientfsm',['HumanClientFSM',['../structHumanClientFSM.html',1,'']]]
 ];
