@@ -138,9 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a829ade0e4c39d9a70d30922a6049f1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827f0ce1f88df2c7fdb835e1441db1ca"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">container_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpireManager.html#a827f0ce1f88df2c7fdb835e1441db1ca">GetEmpires</a> ()</td></tr>
 <tr class="separator:a827f0ce1f88df2c7fdb835e1441db1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab87424ef2d2cc40d73d9ba62a011af09"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const UniverseObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpireManager.html#ab87424ef2d2cc40d73d9ba62a011af09">GetSource</a> (int id) const</td></tr>
-<tr class="memdesc:ab87424ef2d2cc40d73d9ba62a011af09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire source or nullptr if the empire or source doesn't exist.  <a href="#ab87424ef2d2cc40d73d9ba62a011af09">More...</a><br /></td></tr>
-<tr class="separator:ab87424ef2d2cc40d73d9ba62a011af09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654b44cb5f5120d968102337e8212660"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const UniverseObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpireManager.html#a654b44cb5f5120d968102337e8212660">GetSource</a> (int id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects=<a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects</a>()) const</td></tr>
+<tr class="memdesc:a654b44cb5f5120d968102337e8212660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the empire source or nullptr if the empire or source doesn't exist.  <a href="#a654b44cb5f5120d968102337e8212660">More...</a><br /></td></tr>
+<tr class="separator:a654b44cb5f5120d968102337e8212660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf172e9d72a64375add24b68d1c96a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpireManager.html#accf172e9d72a64375add24b68d1c96a4">HandleDiplomaticMessage</a> (const DiplomaticMessage &amp;message)</td></tr>
 <tr class="separator:accf172e9d72a64375add24b68d1c96a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0d4a87878fa0854be0286b71d7d0e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEmpireManager.html#a9f0d4a87878fa0854be0286b71d7d0e9">NumEliminatedEmpires</a> () const</td></tr>
@@ -796,7 +796,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">Universe::ApplyEffectDerivedVisibilities()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5750aa99bc37af294a7a235466c1f729">anonymous_namespace{Universe.cpp}::DispatchEffectsGroupScopeEvaluations()</a>, and <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classUniverse.html#ae2efd3dda133681c91e7502609c11de0">Universe::ApplyEffectDerivedVisibilities()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ae6f283c380cd9b4924143b8091edcab9">anonymous_namespace{ServerApp.cpp}::AssembleSystemCombatInfo()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5750aa99bc37af294a7a235466c1f729">anonymous_namespace{Universe.cpp}::DispatchEffectsGroupScopeEvaluations()</a>, and <a class="el" href="classUniverse.html#a2ececcaf1c4bebe1d6f6a624033ccc3e">Universe::ExecuteEffects()</a>.</p>
 
 </div>
 </div>
@@ -817,8 +817,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab87424ef2d2cc40d73d9ba62a011af09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87424ef2d2cc40d73d9ba62a011af09">&#9670;&nbsp;</a></span>GetSource()</h2>
+<a id="a654b44cb5f5120d968102337e8212660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654b44cb5f5120d968102337e8212660">&#9670;&nbsp;</a></span>GetSource()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -827,8 +827,18 @@ Friends</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; const UniverseObject &gt; EmpireManager::GetSource </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em> = <code><a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects</a>()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

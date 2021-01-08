@@ -152,7 +152,7 @@ var searchData=
   ['difference_5ftype',['difference_type',['../classOrderSet.html#a286ffce15efac513b38ab7ede8540993',1,'OrderSet']]],
   ['digit',['Digit',['../namespaceanonymous__namespace_02XMLDoc_8cpp_03.html#ab6c438f52fa1737139ecabbaef6a09e2',1,'anonymous_namespace{XMLDoc.cpp}']]],
   ['diplo_5fstatus',['diplo_status',['../structDiplomaticStatusUpdateInfo.html#afd06d278f1b3dd18dc2cdce8f8771c20',1,'DiplomaticStatusUpdateInfo']]],
-  ['diplo_5fstatuses',['diplo_statuses',['../structScriptingContext.html#a05656a3f3d47cd70cdc74de7ff8aadf2',1,'ScriptingContext']]],
+  ['diplo_5fstatuses',['diplo_statuses',['../structCombatInfo.html#afcb859a734ed4c24d5d09c0acbcf020a',1,'CombatInfo::diplo_statuses()'],['../structScriptingContext.html#a05656a3f3d47cd70cdc74de7ff8aadf2',1,'ScriptingContext::diplo_statuses()']]],
   ['diplokey',['DiploKey',['../namespaceanonymous__namespace_02EmpireManager_8cpp_03.html#a51f44746575e4231759daf066285dd20',1,'anonymous_namespace{EmpireManager.cpp}::DiploKey()'],['../namespaceanonymous__namespace_02SerializeEmpire_8cpp_03.html#a22b04e358dbf7abe50bc0c8c6ab388da',1,'anonymous_namespace{SerializeEmpire.cpp}::DiploKey()']]],
   ['diplomacy_2ecpp',['Diplomacy.cpp',['../Diplomacy_8cpp.html',1,'']]],
   ['diplomacy_2eh',['Diplomacy.h',['../Diplomacy_8h.html',1,'']]],
