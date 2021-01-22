@@ -99,10 +99,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1340d29b125ea16a7075bc156942d7aa"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#a1340d29b125ea16a7075bc156942d7aa">freeorion_version</a></td></tr>
 <tr class="memdesc:a1340d29b125ea16a7075bc156942d7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bit of text explaining what this file contains as human-readable text.  <a href="#a1340d29b125ea16a7075bc156942d7aa">More...</a><br /></td></tr>
 <tr class="separator:a1340d29b125ea16a7075bc156942d7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8663572e3868a589239a9e01c7be308"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#ac8663572e3868a589239a9e01c7be308">magic_number</a></td></tr>
+<tr class="memitem:ac8663572e3868a589239a9e01c7be308"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#ac8663572e3868a589239a9e01c7be308">magic_number</a> = <a class="el" href="structSaveGamePreviewData.html#a49f0ce850afcaf3a389b5430dd7215e0">PREVIEW_PRESENT_MARKER</a></td></tr>
 <tr class="memdesc:ac8663572e3868a589239a9e01c7be308"><td class="mdescLeft">&#160;</td><td class="mdescRight">A marker for the presence of the header.  <a href="#ac8663572e3868a589239a9e01c7be308">More...</a><br /></td></tr>
 <tr class="separator:ac8663572e3868a589239a9e01c7be308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6df57c5d0f9c6f2d87e400cba0f4a13"><td class="memItemLeft" align="right" valign="top">std::array&lt; unsigned char, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#ad6df57c5d0f9c6f2d87e400cba0f4a13">main_player_empire_colour</a></td></tr>
+<tr class="memitem:ad6df57c5d0f9c6f2d87e400cba0f4a13"><td class="memItemLeft" align="right" valign="top">std::array&lt; unsigned char, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#ad6df57c5d0f9c6f2d87e400cba0f4a13">main_player_empire_colour</a> = {{192, 192, 255, 255}}</td></tr>
 <tr class="memdesc:ad6df57c5d0f9c6f2d87e400cba0f4a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the empire of the main player.  <a href="#ad6df57c5d0f9c6f2d87e400cba0f4a13">More...</a><br /></td></tr>
 <tr class="separator:ad6df57c5d0f9c6f2d87e400cba0f4a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e564dfbd9617c362d01112acd1c18b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#a38e564dfbd9617c362d01112acd1c18b">main_player_empire_name</a></td></tr>
@@ -129,9 +129,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5e68d762c73aab82bfb2eb63b0ef61bc"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#a5e68d762c73aab82bfb2eb63b0ef61bc">PREVIEW_PRESENT_MARKER</a> = 0xDA</td></tr>
-<tr class="memdesc:a5e68d762c73aab82bfb2eb63b0ef61bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the description string appropriate for a binary or XML save file header.  <a href="#a5e68d762c73aab82bfb2eb63b0ef61bc">More...</a><br /></td></tr>
-<tr class="separator:a5e68d762c73aab82bfb2eb63b0ef61bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f0ce850afcaf3a389b5430dd7215e0"><td class="memItemLeft" align="right" valign="top">static constexpr short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSaveGamePreviewData.html#a49f0ce850afcaf3a389b5430dd7215e0">PREVIEW_PRESENT_MARKER</a> = 0xDA</td></tr>
+<tr class="memdesc:a49f0ce850afcaf3a389b5430dd7215e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the description string appropriate for a binary or XML save file header.  <a href="#a49f0ce850afcaf3a389b5430dd7215e0">More...</a><br /></td></tr>
+<tr class="separator:a49f0ce850afcaf3a389b5430dd7215e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains preview information about a savegame. </p>
@@ -196,7 +196,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Initialize with unknown markers. </p>
 
-<p class="reference">References <a class="el" href="structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d">current_turn</a>, <a class="el" href="structSaveGamePreviewData.html#ac8663572e3868a589239a9e01c7be308">magic_number</a>, and <a class="el" href="structSaveGamePreviewData.html#a5e68d762c73aab82bfb2eb63b0ef61bc">PREVIEW_PRESENT_MARKER</a>.</p>
+<p class="reference">References <a class="el" href="structSaveGamePreviewData.html#aeca1edc552eea6da82fb5b5e030e709d">current_turn</a>, <a class="el" href="structSaveGamePreviewData.html#ac8663572e3868a589239a9e01c7be308">magic_number</a>, and <a class="el" href="structSaveGamePreviewData.html#a49f0ce850afcaf3a389b5430dd7215e0">PREVIEW_PRESENT_MARKER</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#ae9d0c7301b19363d6b21b362f6e1bbfe">anonymous_namespace{SaveGamePreviewUtils.cpp}::LoadSaveGamePreviewData()</a>.</p>
 
@@ -282,7 +282,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">short SaveGamePreviewData::magic_number</td>
+          <td class="memname">short SaveGamePreviewData::magic_number = <a class="el" href="structSaveGamePreviewData.html#a49f0ce850afcaf3a389b5430dd7215e0">PREVIEW_PRESENT_MARKER</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -300,7 +300,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;unsigned char, 4&gt; SaveGamePreviewData::main_player_empire_colour</td>
+          <td class="memname">std::array&lt;unsigned char, 4&gt; SaveGamePreviewData::main_player_empire_colour = {{192, 192, 255, 255}}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -383,8 +383,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e68d762c73aab82bfb2eb63b0ef61bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e68d762c73aab82bfb2eb63b0ef61bc">&#9670;&nbsp;</a></span>PREVIEW_PRESENT_MARKER</h2>
+<a id="a49f0ce850afcaf3a389b5430dd7215e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f0ce850afcaf3a389b5430dd7215e0">&#9670;&nbsp;</a></span>PREVIEW_PRESENT_MARKER</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,7 +393,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const short SaveGamePreviewData::PREVIEW_PRESENT_MARKER = 0xDA</td>
+          <td class="memname">constexpr short SaveGamePreviewData::PREVIEW_PRESENT_MARKER = 0xDA</td>
         </tr>
       </table>
   </td>

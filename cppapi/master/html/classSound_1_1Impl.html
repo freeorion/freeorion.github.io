@@ -135,13 +135,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a501decd0c97809485617a4b863b57a9e"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, ALuint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a501decd0c97809485617a4b863b57a9e">m_buffers</a></td></tr>
 <tr class="memdesc:a501decd0c97809485617a4b863b57a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the currently-cached (and possibly playing) sounds, if any; keyed on filename  <a href="#a501decd0c97809485617a4b863b57a9e">More...</a><br /></td></tr>
 <tr class="separator:a501decd0c97809485617a4b863b57a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc0de53990ccc04ed37da03363564126"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a></td></tr>
+<tr class="memitem:afc0de53990ccc04ed37da03363564126"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a> = false</td></tr>
 <tr class="memdesc:afc0de53990ccc04ed37da03363564126"><td class="mdescLeft">&#160;</td><td class="mdescRight">m_initialized indicates if the sound system has been initialized.  <a href="#afc0de53990ccc04ed37da03363564126">More...</a><br /></td></tr>
 <tr class="separator:afc0de53990ccc04ed37da03363564126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9c32768309d21ff3ac2cd1f6940f309"><td class="memItemLeft" align="right" valign="top">ALuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a> [<a class="el" href="classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992">NUM_MUSIC_BUFFERS</a>]</td></tr>
+<tr class="memitem:af9c32768309d21ff3ac2cd1f6940f309"><td class="memItemLeft" align="right" valign="top">ALuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a> [<a class="el" href="classSound_1_1Impl.html#ae535f9eda06fb81ca6094c2b4e0bd773">NUM_MUSIC_BUFFERS</a>]</td></tr>
 <tr class="memdesc:af9c32768309d21ff3ac2cd1f6940f309"><td class="mdescLeft">&#160;</td><td class="mdescRight">two additional buffers for music. statically defined as they'll be changed many times.  <a href="#af9c32768309d21ff3ac2cd1f6940f309">More...</a><br /></td></tr>
 <tr class="separator:af9c32768309d21ff3ac2cd1f6940f309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa447b075bdbfcf4f2d6f49bf63383cf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a></td></tr>
+<tr class="memitem:aa447b075bdbfcf4f2d6f49bf63383cf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a> = 0</td></tr>
 <tr class="memdesc:aa447b075bdbfcf4f2d6f49bf63383cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of loops of the current music to play (&lt; 0 for loop forever)  <a href="#aa447b075bdbfcf4f2d6f49bf63383cf0">More...</a><br /></td></tr>
 <tr class="separator:aa447b075bdbfcf4f2d6f49bf63383cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820f5822f2109dc9d37cda050c88c77a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a820f5822f2109dc9d37cda050c88c77a">m_music_name</a></td></tr>
@@ -156,19 +156,19 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5d667816420b4e74590233e4b533c652"><td class="memItemLeft" align="right" valign="top">ALsizei&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a5d667816420b4e74590233e4b533c652">m_ogg_freq</a></td></tr>
 <tr class="memdesc:a5d667816420b4e74590233e4b533c652"><td class="mdescLeft">&#160;</td><td class="mdescRight">sampling frequency  <a href="#a5d667816420b4e74590233e4b533c652">More...</a><br /></td></tr>
 <tr class="separator:a5d667816420b4e74590233e4b533c652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5305d6eb9eec75f2150dda897f1b6c8f"><td class="memItemLeft" align="right" valign="top">ALuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a> [<a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>]</td></tr>
+<tr class="memitem:a5305d6eb9eec75f2150dda897f1b6c8f"><td class="memItemLeft" align="right" valign="top">ALuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a> [<a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>]</td></tr>
 <tr class="memdesc:a5305d6eb9eec75f2150dda897f1b6c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenAL sound sources. The first one is used for music.  <a href="#a5305d6eb9eec75f2150dda897f1b6c8f">More...</a><br /></td></tr>
 <tr class="separator:a5305d6eb9eec75f2150dda897f1b6c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0b51e641a8d40a5787119fffbe4d970"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#aa0b51e641a8d40a5787119fffbe4d970">m_temporary_disable_count</a></td></tr>
+<tr class="memitem:aa0b51e641a8d40a5787119fffbe4d970"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#aa0b51e641a8d40a5787119fffbe4d970">m_temporary_disable_count</a> = 0</td></tr>
 <tr class="memdesc:aa0b51e641a8d40a5787119fffbe4d970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count of the number of times sound was disabled. <a class="el" href="classSound.html">Sound</a> is enabled when this is zero.  <a href="#aa0b51e641a8d40a5787119fffbe4d970">More...</a><br /></td></tr>
 <tr class="separator:aa0b51e641a8d40a5787119fffbe4d970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a4ac3e96908d71cca7e40358b94694992"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992">NUM_MUSIC_BUFFERS</a> = 2</td></tr>
-<tr class="separator:a4ac3e96908d71cca7e40358b94694992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8b2eb1e89076d8f1e3d980d9039e3fb"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a> = 16</td></tr>
-<tr class="separator:ad8b2eb1e89076d8f1e3d980d9039e3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae535f9eda06fb81ca6094c2b4e0bd773"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#ae535f9eda06fb81ca6094c2b4e0bd773">NUM_MUSIC_BUFFERS</a> = 2</td></tr>
+<tr class="separator:ae535f9eda06fb81ca6094c2b4e0bd773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e428adb1f161dca334ec4826b14e842"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a> = 16</td></tr>
+<tr class="separator:a1e428adb1f161dca334ec4826b14e842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94522ad2834102219b1144d951019390"></a>
@@ -273,7 +273,7 @@ Static Private Attributes</h2></td></tr>
 <p>this happens if RefillBuffer returns 1, meaning it encountered EOF and the file shouldn't be repeated</p>
 <p>this may happen if the source plays all its buffers before we manage to refill them </p>
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736">anonymous_namespace{Sound.cpp}::BUFFER_SIZE</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a>, <a class="el" href="classSound_1_1Impl.html#a820f5822f2109dc9d37cda050c88c77a">m_music_name</a>, <a class="el" href="classSound_1_1Impl.html#a849132985675991e750598cea31ae6ae">m_ogg_file</a>, <a class="el" href="classSound_1_1Impl.html#ad23e2c62bb572497db7bc0f407d8327f">m_ogg_format</a>, <a class="el" href="classSound_1_1Impl.html#a5d667816420b4e74590233e4b533c652">m_ogg_freq</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, and <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#a0cfced649c5d8c3688991e22ef41440e">anonymous_namespace{Sound.cpp}::BUFFER_SIZE</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a>, <a class="el" href="classSound_1_1Impl.html#a820f5822f2109dc9d37cda050c88c77a">m_music_name</a>, <a class="el" href="classSound_1_1Impl.html#a849132985675991e750598cea31ae6ae">m_ogg_file</a>, <a class="el" href="classSound_1_1Impl.html#ad23e2c62bb572497db7bc0f407d8327f">m_ogg_format</a>, <a class="el" href="classSound_1_1Impl.html#a5d667816420b4e74590233e4b533c652">m_ogg_freq</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, and <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>.</p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Static Private Attributes</h2></td></tr>
 <p>Initialize OpenAL. </p>
 <p>Initialize OpenAl and return true on success. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992">NUM_MUSIC_BUFFERS</a>, and <a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#ae535f9eda06fb81ca6094c2b4e0bd773">NUM_MUSIC_BUFFERS</a>, and <a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classSound_1_1Impl.html#acbbec5f39fefeb296cf6f1ede5481252">Enable()</a>.</p>
 
@@ -439,7 +439,7 @@ Static Private Attributes</h2></td></tr>
 <p>Plays a music file. </p>
 <p>The file will be played in an infinitve loop if <em>loop</em> is &lt; 0, and it will be played <em>loops</em> + 1 times otherwise. </p>
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#a749a3b5e9ab30491df8fce4a3e4df736">anonymous_namespace{Sound.cpp}::BUFFER_SIZE</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a>, <a class="el" href="classSound_1_1Impl.html#a820f5822f2109dc9d37cda050c88c77a">m_music_name</a>, <a class="el" href="classSound_1_1Impl.html#a849132985675991e750598cea31ae6ae">m_ogg_file</a>, <a class="el" href="classSound_1_1Impl.html#ad23e2c62bb572497db7bc0f407d8327f">m_ogg_format</a>, <a class="el" href="classSound_1_1Impl.html#a5d667816420b4e74590233e4b533c652">m_ogg_freq</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>, <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>, and <a class="el" href="classSound_1_1Impl.html#a72214e610a889b32fbe8ddab2ead599d">StopMusic()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#a0cfced649c5d8c3688991e22ef41440e">anonymous_namespace{Sound.cpp}::BUFFER_SIZE</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#aa447b075bdbfcf4f2d6f49bf63383cf0">m_music_loops</a>, <a class="el" href="classSound_1_1Impl.html#a820f5822f2109dc9d37cda050c88c77a">m_music_name</a>, <a class="el" href="classSound_1_1Impl.html#a849132985675991e750598cea31ae6ae">m_ogg_file</a>, <a class="el" href="classSound_1_1Impl.html#ad23e2c62bb572497db7bc0f407d8327f">m_ogg_format</a>, <a class="el" href="classSound_1_1Impl.html#a5d667816420b4e74590233e4b533c652">m_ogg_freq</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>, <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>, and <a class="el" href="classSound_1_1Impl.html#a72214e610a889b32fbe8ddab2ead599d">StopMusic()</a>.</p>
 
 </div>
 </div>
@@ -471,7 +471,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Plays a sound file. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSound_1_1Impl.html#a501decd0c97809485617a4b863b57a9e">m_buffers</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>, <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>, <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>, and <a class="el" href="classSound_1_1Impl.html#a8ec98fb89f845e2495e2de0144f9db6b">UISoundsTemporarilyDisabled()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSound_1_1Impl.html#a501decd0c97809485617a4b863b57a9e">m_buffers</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>, <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>, <a class="el" href="namespaceanonymous__namespace_02Sound_8cpp_03.html#acdd06c0606f218d7d2956c352f579be8">anonymous_namespace{Sound.cpp}::RefillBuffer()</a>, and <a class="el" href="classSound_1_1Impl.html#a8ec98fb89f845e2495e2de0144f9db6b">UISoundsTemporarilyDisabled()</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Sets the UI sounds volume from 0 (muted) to 255 (full volume); <em>vol</em> is range-adjusted. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="OptionsDB_8cpp.html#a2a301938847de915538079d57d7edb9a">GetOptionsDB()</a>, <a class="el" href="classSound_1_1Impl.html#afc0de53990ccc04ed37da03363564126">m_initialized</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>, and <a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">OptionsDB::Set()</a>.</p>
 
 </div>
 </div>
@@ -557,7 +557,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Shutdown OpenAL. </p>
 
-<p class="reference">References <a class="el" href="classSound_1_1Impl.html#a501decd0c97809485617a4b863b57a9e">m_buffers</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992">NUM_MUSIC_BUFFERS</a>, and <a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>.</p>
+<p class="reference">References <a class="el" href="classSound_1_1Impl.html#a501decd0c97809485617a4b863b57a9e">m_buffers</a>, <a class="el" href="classSound_1_1Impl.html#af9c32768309d21ff3ac2cd1f6940f309">m_music_buffers</a>, <a class="el" href="classSound_1_1Impl.html#a5305d6eb9eec75f2150dda897f1b6c8f">m_sources</a>, <a class="el" href="classSound_1_1Impl.html#ae535f9eda06fb81ca6094c2b4e0bd773">NUM_MUSIC_BUFFERS</a>, and <a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classSound_1_1Impl.html#a961a16fe24d8656c0404ceac95494101">Disable()</a>.</p>
 
@@ -644,7 +644,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Sound::Impl::m_initialized</td>
+          <td class="memname">bool Sound::Impl::m_initialized = false</td>
         </tr>
       </table>
   </td>
@@ -671,7 +671,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ALuint Sound::Impl::m_music_buffers[<a class="el" href="classSound_1_1Impl.html#a4ac3e96908d71cca7e40358b94694992">NUM_MUSIC_BUFFERS</a>]</td>
+          <td class="memname">ALuint Sound::Impl::m_music_buffers[<a class="el" href="classSound_1_1Impl.html#ae535f9eda06fb81ca6094c2b4e0bd773">NUM_MUSIC_BUFFERS</a>]</td>
         </tr>
       </table>
   </td>
@@ -697,7 +697,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Sound::Impl::m_music_loops</td>
+          <td class="memname">int Sound::Impl::m_music_loops = 0</td>
         </tr>
       </table>
   </td>
@@ -827,7 +827,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ALuint Sound::Impl::m_sources[<a class="el" href="classSound_1_1Impl.html#ad8b2eb1e89076d8f1e3d980d9039e3fb">NUM_SOURCES</a>]</td>
+          <td class="memname">ALuint Sound::Impl::m_sources[<a class="el" href="classSound_1_1Impl.html#a1e428adb1f161dca334ec4826b14e842">NUM_SOURCES</a>]</td>
         </tr>
       </table>
   </td>
@@ -853,7 +853,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int Sound::Impl::m_temporary_disable_count</td>
+          <td class="memname">unsigned int Sound::Impl::m_temporary_disable_count = 0</td>
         </tr>
       </table>
   </td>
@@ -869,8 +869,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ac3e96908d71cca7e40358b94694992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ac3e96908d71cca7e40358b94694992">&#9670;&nbsp;</a></span>NUM_MUSIC_BUFFERS</h2>
+<a id="ae535f9eda06fb81ca6094c2b4e0bd773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae535f9eda06fb81ca6094c2b4e0bd773">&#9670;&nbsp;</a></span>NUM_MUSIC_BUFFERS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -879,7 +879,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int Sound::Impl::NUM_MUSIC_BUFFERS = 2</td>
+          <td class="memname">constexpr int Sound::Impl::NUM_MUSIC_BUFFERS = 2</td>
         </tr>
       </table>
   </td>
@@ -893,8 +893,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8b2eb1e89076d8f1e3d980d9039e3fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8b2eb1e89076d8f1e3d980d9039e3fb">&#9670;&nbsp;</a></span>NUM_SOURCES</h2>
+<a id="a1e428adb1f161dca334ec4826b14e842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e428adb1f161dca334ec4826b14e842">&#9670;&nbsp;</a></span>NUM_SOURCES</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -903,7 +903,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int Sound::Impl::NUM_SOURCES = 16</td>
+          <td class="memname">constexpr int Sound::Impl::NUM_SOURCES = 16</td>
         </tr>
       </table>
   </td>

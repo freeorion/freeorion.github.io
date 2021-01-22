@@ -1398,7 +1398,7 @@ var searchData=
   ['max_5fproduction_5fturns',['MAX_PRODUCTION_TURNS',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#afe0e97ff0d5fc5f35b214ac304ac78f5',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['max_5fscale',['MAX_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a24667ca11fd62554ba4204df683264b4',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
-  ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#af21a52550d46e817b1ae7e7b7be24a36',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4b3fffb3f8a7ab6caf82cccc8d28978b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['max_5ftries',['MAX_TRIES',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a23aa622edcdfa9210eaeb864559ffc43',1,'anonymous_namespace{SystemIcon.cpp}']]],
   ['maxhealth',['MaxHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#a428d8636f888dc555ceb996d78ae2074',1,'anonymous_namespace{CombatLogManager.cpp}']]],
   ['maximum',['MAXIMUM',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefa115f17a28532bbd6f0f5ec83ed20692a',1,'ValueRef']]],

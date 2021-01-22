@@ -1370,7 +1370,7 @@ var searchData=
   ['max_5fproduction_5fturns',['MAX_PRODUCTION_TURNS',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#afe0e97ff0d5fc5f35b214ac304ac78f5',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['max_5fscale',['MAX_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a24667ca11fd62554ba4204df683264b4',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
-  ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#af21a52550d46e817b1ae7e7b7be24a36',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
+  ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4b3fffb3f8a7ab6caf82cccc8d28978b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['max_5ftries',['MAX_TRIES',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a23aa622edcdfa9210eaeb864559ffc43',1,'anonymous_namespace{SystemIcon.cpp}']]],
   ['menu_5ficon_5fsize',['MENU_ICON_SIZE',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a7a28ee11477f07f69f07dd11f9a408b6',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['message_5fwnd_5fname',['MESSAGE_WND_NAME',['../namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a0703fe7fe0511f3d2cee7b478de371cb',1,'anonymous_namespace{ClientUI.cpp}']]],

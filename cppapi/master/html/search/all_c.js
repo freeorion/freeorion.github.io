@@ -20,7 +20,7 @@ var searchData=
   ['language',['Language',['../classStringTable.html#ac119cc2e2cd553787b8e28ab930d7cd4',1,'StringTable::Language()'],['../i18n_8cpp.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp'],['../i18n_8h.html#aa7bd8515290be609261d3403cac957b1',1,'Language():&#160;i18n.cpp']]],
   ['large',['LARGE',['../classFleetButton.html#af56f9e04acf8987ddd97c3676f9fff68a71726adf0ff60cd03eaf3c515883eeb8',1,'FleetButton']]],
   ['large_5fui_5fdisplay_5fvalue',['LARGE_UI_DISPLAY_VALUE',['../namespaceanonymous__namespace_02i18n_8cpp_03.html#abf0d762a7f865730e155bdf09bceb012',1,'anonymous_namespace{i18n.cpp}']]],
-  ['large_5fvalue',['LARGE_VALUE',['../classMeter.html#ad432ea4da9115c778a3d07d0c755a7ae',1,'Meter']]],
+  ['large_5fvalue',['LARGE_VALUE',['../classMeter.html#a3315f5926ba2d75dc0d89b2ddc0f3fd6',1,'Meter']]],
   ['lastclicked',['LastClicked',['../classSitRepPanel.html#a893639a33cd269e44e365c949b194c4a',1,'SitRepPanel']]],
   ['lastresuppliedonturn',['LastResuppliedOnTurn',['../classShip.html#ae3a27e69d1358721719b4a657cfb1f94',1,'Ship']]],
   ['lastturnactiveincombat',['LastTurnActiveInCombat',['../classShip.html#a81ca5bfcbb1d441d466427caf4e72a2b',1,'Ship']]],
