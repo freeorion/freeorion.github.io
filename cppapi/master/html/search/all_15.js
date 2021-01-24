@@ -77,7 +77,7 @@ var searchData=
   ['updateempireinvasioninfo',['UpdateEmpireInvasionInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#aef237fc4714386a82eb805345a19550c',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['updateempirelatestknownobjectsandvisibilityturns',['UpdateEmpireLatestKnownObjectsAndVisibilityTurns',['../classUniverse.html#a9df9e2f5d1134b601655e549ef961af2',1,'Universe']]],
   ['updateempireobjectvisibilities',['UpdateEmpireObjectVisibilities',['../classUniverse.html#ac08d2ed24582334abb63e3bef365d100',1,'Universe']]],
-  ['updateempirepolicies',['UpdateEmpirePolicies',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a34748053f95d989c12a81b8ad582e761',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['updateempirepolicies',['UpdateEmpirePolicies',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a915f4084091282f422e25e45cd8c448d',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['updateempireresourcepools',['UpdateEmpireResourcePools',['../classMapWnd.html#abed0219d3262a22704cb4b533c804543',1,'MapWnd']]],
   ['updateempirestaleobjectknowledge',['UpdateEmpireStaleObjectKnowledge',['../classUniverse.html#ae52a471a8bfad6021c48a87964d55601',1,'Universe']]],
   ['updateempiresupply',['UpdateEmpireSupply',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#adcec24ae8de2618f149d4eb48dbd93b2',1,'anonymous_namespace{ServerApp.cpp}']]],

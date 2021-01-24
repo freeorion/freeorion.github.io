@@ -266,7 +266,7 @@ var searchData=
   ['getrandomtexture',['GetRandomTexture',['../classClientUI.html#a25fc94252605a231582e19275e7e3227',1,'ClientUI']]],
   ['getreadytexture',['GetReadyTexture',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a2bde1eb9206351013c5f8992124aa1f5',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['getreferencetype',['GetReferenceType',['../structValueRef_1_1Variable.html#a1687533ff822bb64f45dcb074e95189b',1,'ValueRef::Variable']]],
-  ['getrefreshdetailpanelinfo',['GetRefreshDetailPanelInfo',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a2a593c1098d56dc0e85d38967e1f176f',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['getrefreshdetailpanelinfo',['GetRefreshDetailPanelInfo',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#acaad0601114e070211c3a74f6d1b61b4',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['getreplaceddesignid',['GetReplacedDesignID',['../classDesignWnd_1_1MainPanel.html#a780ebc47afcd42c7dab10e5fb32a5e72',1,'DesignWnd::MainPanel']]],
   ['getresourcedir',['GetResourceDir',['../Directories_8cpp.html#a81f6224c5d4d41743f756a6116a2b7ab',1,'GetResourceDir() -&gt; fs::path const:&#160;Directories.cpp'],['../Directories_8h.html#aaaddc221610d7934d6147e29546c72d6',1,'GetResourceDir() -&gt; boost::filesystem::path const:&#160;Directories.cpp']]],
   ['getrespoollaneinfo',['GetResPoolLaneInfo',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ae02640824237a81b6058dff12dc8fcad',1,'anonymous_namespace{MapWnd.cpp}']]],
