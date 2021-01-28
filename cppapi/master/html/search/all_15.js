@@ -15,7 +15,7 @@ var searchData=
   ['unique_5fcount',['UNIQUE_COUNT',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2a840a6f471020760a75ca6216f5fbbd8f',1,'ValueRef']]],
   ['unit_5fsummaries',['unit_summaries',['../structCombatSummary.html#a2e9cb9d6e9ecb3987db27c5ecd964a8d',1,'CombatSummary']]],
   ['unitsummaries',['UnitSummaries',['../structCombatSummary.html#a649dd94f990aa11b06811114edbece11',1,'CombatSummary']]],
-  ['universe',['Universe',['../classUniverse.html',1,'Universe'],['../structWaitingForTurnData_1_1TurnDataUnpackedNotification_1_1UnpackedData.html#afb1f878216fef8e8a3356c39bcc1d90c',1,'WaitingForTurnData::TurnDataUnpackedNotification::UnpackedData::universe()'],['../classShip.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Ship::Universe()'],['../classUniverse.html#a4d137a146dd3c2514dfb692dfbab6984',1,'Universe::Universe()']]],
+  ['universe',['Universe',['../classUniverse.html',1,'Universe'],['../classShip.html#ac4da8dd404a2eaf5a0bd84aeb8de1197',1,'Ship::Universe()'],['../classUniverse.html#a4d137a146dd3c2514dfb692dfbab6984',1,'Universe::Universe()'],['../structWaitingForTurnData_1_1TurnDataUnpackedNotification_1_1UnpackedData.html#afb1f878216fef8e8a3356c39bcc1d90c',1,'WaitingForTurnData::TurnDataUnpackedNotification::UnpackedData::universe()']]],
   ['universe_2ecpp',['Universe.cpp',['../Universe_8cpp.html',1,'']]],
   ['universe_2eh',['Universe.h',['../Universe_8h.html',1,'']]],
   ['universe_5fobject',['UNIVERSE_OBJECT',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#ae44864ad88710f794ad55c198ee2fad8',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],

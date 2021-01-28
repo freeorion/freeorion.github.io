@@ -9,6 +9,7 @@ var searchData=
   ['gainingfocussignal',['GainingFocusSignal',['../classCUIEdit.html#a24d0a00ecb3afe043e5fb04dae2835fb',1,'CUIEdit']]],
   ['gal_5fsetup_5fpanel_5fht',['GAL_SETUP_PANEL_HT',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#ab8872a3f71a7102e38f0581ed567ffb2',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['galaxy',['galaxy',['../structFullPreview.html#aa6a3b150aaba57e163a800e50b01da5f',1,'FullPreview']]],
+  ['galaxy_5fsetup_5fdata',['galaxy_setup_data',['../structScriptingContext.html#ac1a3e7fc652634fded1a122969c7b039',1,'ScriptingContext']]],
   ['galaxy_5fsetup_5fpanel_5fheight',['GALAXY_SETUP_PANEL_HEIGHT',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ad10643c164ff1d35ae1ca5cfb31cb0b3',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['galaxy_5fsetup_5fpanel_5fmargin',['GALAXY_SETUP_PANEL_MARGIN',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#a6093e99e0af0ef3aa5ed17ed4601b7aa',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['galaxy_5fsetup_5fpanel_5fwidth',['GALAXY_SETUP_PANEL_WIDTH',['../namespaceanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03.html#ae842fe9ad7713f1dc446b7b77a7ac1d7',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],

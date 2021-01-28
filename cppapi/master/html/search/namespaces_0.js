@@ -15,7 +15,6 @@ var searchData=
   ['anonymous_5fnamespace_7bcombatevents_2ecpp_7d',['anonymous_namespace{CombatEvents.cpp}',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatlogmanager_2ecpp_7d',['anonymous_namespace{CombatLogManager.cpp}',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatlogwnd_2ecpp_7d',['anonymous_namespace{CombatLogWnd.cpp}',['../namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bcombatreportdata_2ecpp_7d',['anonymous_namespace{CombatReportData.cpp}',['../namespaceanonymous__namespace_02CombatReportData_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcombatsystem_2ecpp_7d',['anonymous_namespace{CombatSystem.cpp}',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bconditions_2ecpp_7d',['anonymous_namespace{Conditions.cpp}',['../namespaceanonymous__namespace_02Conditions_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bcuicontrols_2ecpp_7d',['anonymous_namespace{CUIControls.cpp}',['../namespaceanonymous__namespace_02CUIControls_8cpp_03.html',1,'']]],
