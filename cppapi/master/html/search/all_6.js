@@ -28,7 +28,7 @@ var searchData=
   ['fighter_2eh',['Fighter.h',['../Fighter_8h.html',1,'']]],
   ['fighter_5fdamage',['fighter_damage',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#abd15d47d234727eedde3f8d74749320d',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
   ['fighter_5fowner_5fempire_5fid',['fighter_owner_empire_id',['../structFighterLaunchEvent.html#a192ad340a7cf371d891bfff767475fd1',1,'FighterLaunchEvent']]],
-  ['fighter_5ftype_5fname',['fighter_type_name',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#aded4818bd29704ed7d4e08fd18c959ce',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
+  ['fighter_5ftype_5fname',['fighter_type_name',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1PartAttackInfo.html#ad16db30c6d5ea4f4319e5bb846f16662',1,'anonymous_namespace{CombatSystem.cpp}::PartAttackInfo']]],
   ['fighterboutinfo',['FighterBoutInfo',['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo.html',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['fighterbrowselabelwidth',['FighterBrowseLabelWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#a7ded8b30e0b84d37181505ea1a5ed393',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
   ['fighterbrowselistwidth',['FighterBrowseListWidth',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#ad7211dd64e6715b9ad3b006e3eae42ba',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],

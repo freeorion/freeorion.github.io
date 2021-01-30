@@ -34,7 +34,6 @@ var searchData=
   ['anonymous_5fnamespace_7benumparser_2ecpp_7d',['anonymous_namespace{EnumParser.cpp}',['../namespaceanonymous__namespace_02EnumParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfieldsparser_2ecpp_7d',['anonymous_namespace{FieldsParser.cpp}',['../namespaceanonymous__namespace_02FieldsParser_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfieldtype_2ecpp_7d',['anonymous_namespace{FieldType.cpp}',['../namespaceanonymous__namespace_02FieldType_8cpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bfighter_2ecpp_7d',['anonymous_namespace{Fighter.cpp}',['../namespaceanonymous__namespace_02Fighter_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfleet_2ecpp_7d',['anonymous_namespace{Fleet.cpp}',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfleetbutton_2ecpp_7d',['anonymous_namespace{FleetButton.cpp}',['../namespaceanonymous__namespace_02FleetButton_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bfleetplansparser_2ecpp_7d',['anonymous_namespace{FleetPlansParser.cpp}',['../namespaceanonymous__namespace_02FleetPlansParser_8cpp_03.html',1,'']]],
