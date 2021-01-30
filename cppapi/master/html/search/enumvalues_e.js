@@ -7,7 +7,6 @@ var searchData=
   ['restricted',['Restricted',['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baecdee5de15af6876cfab0801bb36f445',1,'Availability::Restricted()'],['../structAvailability.html#afd47ae5fa5363a9160b6c6321e3c3e8baecdee5de15af6876cfab0801bb36f445',1,'Availability::Restricted()']]],
   ['resume_5fproduction',['RESUME_PRODUCTION',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a8dd4ccdee06338a1727f4017c79bc0c3',1,'ProductionQueueOrder']]],
   ['right',['RIGHT',['../CUIDrawUtil_8h.html#a2274d0af3da12d213fab974ca60167b9a21507b40c80068eda19865706fdc2403',1,'CUIDrawUtil.h']]],
-  ['rms',['RMS',['../namespaceValueRef.html#a578308526ffef263e0f4582f3fc819b2addf2b6c43f8dfa91dd776b7be36ccf1f',1,'ValueRef']]],
   ['role_5fclient_5ftype_5fmoderator',['ROLE_CLIENT_TYPE_MODERATOR',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaab39f623d390826dc751d6a58c2eaf2c2',1,'Networking']]],
   ['role_5fclient_5ftype_5fobserver',['ROLE_CLIENT_TYPE_OBSERVER',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaa0534353fae42585fccf56e93a712b07f',1,'Networking']]],
   ['role_5fclient_5ftype_5fplayer',['ROLE_CLIENT_TYPE_PLAYER',['../namespaceNetworking.html#a71dd6f3c0e4ca76a17ac7db7c9fcefeaa36b841b9289185ae823eb030acf7e096',1,'Networking']]],
