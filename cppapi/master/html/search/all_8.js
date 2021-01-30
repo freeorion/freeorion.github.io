@@ -9,7 +9,7 @@ var searchData=
   ['handlebuttonchanged',['HandleButtonChanged',['../classGraphicalSummaryWnd.html#a3cb0c571ab43684f0301428da41a16b0',1,'GraphicalSummaryWnd']]],
   ['handlecachemiss',['HandleCacheMiss',['../classPathfinder_1_1PathfinderImpl.html#aca363776e78c7ad43e13e7d92ab9d169',1,'Pathfinder::PathfinderImpl']]],
   ['handlechatmessage',['HandleChatMessage',['../classPythonAI.html#adf4920eb19168a9e61c63c53b092a6fd',1,'PythonAI']]],
-  ['handlecolonization',['HandleColonization',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#af356e69c04e0e99ba6b7e5fb3626d1cb',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['handlecolonization',['HandleColonization',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0dcf403495c0e3780d5b6d557801367d',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handleconnection',['HandleConnection',['../classClientNetworking_1_1Impl.html#a3168865b9a9e2be0898a561ca5e7bb91',1,'ClientNetworking::Impl']]],
   ['handlediplomaticmessage',['HandleDiplomaticMessage',['../classPythonAI.html#aa0b4bf54ef8fb8b09dc7332ce5cdc6b6',1,'PythonAI::HandleDiplomaticMessage()'],['../classEmpireManager.html#accf172e9d72a64375add24b68d1c96a4',1,'EmpireManager::HandleDiplomaticMessage()']]],
   ['handlediplomaticmessagechange',['HandleDiplomaticMessageChange',['../classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda',1,'ServerApp::HandleDiplomaticMessageChange()'],['../classPlayerListWnd.html#aaba99e43e4a04340ed3d1eb5d4089291',1,'PlayerListWnd::HandleDiplomaticMessageChange()']]],

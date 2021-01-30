@@ -8,7 +8,7 @@ var searchData=
   ['_7eclientnetworking',['~ClientNetworking',['../classClientNetworking.html#a7991eef52f70736431cacee9ac10fd7e',1,'ClientNetworking']]],
   ['_7eclientui',['~ClientUI',['../classClientUI.html#ad2fe5ef1a59fc2446794b87b00c46b63',1,'ClientUI']]],
   ['_7ecolorselector',['~ColorSelector',['../classColorSelector.html#a8c5de1d7bf1515c11ba0157e2b11aff4',1,'ColorSelector']]],
-  ['_7ecombatevent',['~CombatEvent',['../structCombatEvent.html#a227587f1d7e1b64406acab8133a22b0e',1,'CombatEvent']]],
+  ['_7ecombatevent',['~CombatEvent',['../structCombatEvent.html#a82fd6fdf6f75ef70cae88fe6b7003d53',1,'CombatEvent']]],
   ['_7ecombatlogaccordionpanel',['~CombatLogAccordionPanel',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#af4c5eb06d5bc93368cd9706cc83e550c',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel']]],
   ['_7ecombatlogwnd',['~CombatLogWnd',['../classCombatLogWnd.html#a67641b6d8f5d609a93c81039f539a3bb',1,'CombatLogWnd']]],
   ['_7ecombatreportwnd',['~CombatReportWnd',['../classCombatReportWnd.html#a48614bb61636efd1ebba8fc75c488519',1,'CombatReportWnd']]],
