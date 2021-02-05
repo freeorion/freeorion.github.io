@@ -287,7 +287,7 @@ var searchData=
   ['combatlogwnd',['CombatLogWnd',['../classCombatLogWnd.html',1,'CombatLogWnd'],['../classCombatLogWnd.html#af00d2c96cbd6de2d9892762bb2aefe5e',1,'CombatLogWnd::CombatLogWnd()']]],
   ['combatlogwnd_2ecpp',['CombatLogWnd.cpp',['../CombatLogWnd_8cpp.html',1,'']]],
   ['combatlogwnd_2eh',['CombatLogWnd.h',['../CombatLogWnd_8h.html',1,'']]],
-  ['combatparticipantstate',['CombatParticipantState',['../structCombatParticipantState.html',1,'CombatParticipantState'],['../structCombatParticipantState.html#a8f15f962a82eab60372a8de2ca5891f3',1,'CombatParticipantState::CombatParticipantState()'],['../structCombatParticipantState.html#a21b23f8c8bf7b632a53c4d30827fab6f',1,'CombatParticipantState::CombatParticipantState(const UniverseObject &amp;object)']]],
+  ['combatparticipantstate',['CombatParticipantState',['../structCombatParticipantState.html',1,'CombatParticipantState'],['../structCombatParticipantState.html#a3b993bf81977c29a94ceb19c26e0421b',1,'CombatParticipantState::CombatParticipantState()=default'],['../structCombatParticipantState.html#a21b23f8c8bf7b632a53c4d30827fab6f',1,'CombatParticipantState::CombatParticipantState(const UniverseObject &amp;object)']]],
   ['combatreportdata_2ecpp',['CombatReportData.cpp',['../CombatReportData_8cpp.html',1,'']]],
   ['combatreportdata_2eh',['CombatReportData.h',['../CombatReportData_8h.html',1,'']]],
   ['combatreportwnd',['CombatReportWnd',['../classCombatReportWnd.html',1,'CombatReportWnd'],['../classCombatReportWnd.html#aba80ccd07fda53494e607603f2238400',1,'CombatReportWnd::CombatReportWnd()']]],

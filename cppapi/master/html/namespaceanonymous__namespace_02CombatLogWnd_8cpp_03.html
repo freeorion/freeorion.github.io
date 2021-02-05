@@ -97,10 +97,10 @@ Functions</h2></td></tr>
 <tr class="separator:a395b8eea57386e0e5f4531b395d181de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81347d82b7be9fb8e3121ecd489e8757"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a81347d82b7be9fb8e3121ecd489e8757">ForcesToText</a> (int viewing_empire_id, const std::vector&lt; std::vector&lt; std::shared_ptr&lt; UniverseObject &gt;&gt;&gt; &amp;forces, const std::string &amp;delimiter=&quot;, &quot;, const std::string &amp;category_delimiter=&quot;\\)</td></tr>
 <tr class="separator:a81347d82b7be9fb8e3121ecd489e8757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68e5c74c7255e54e7b037374070c773f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a68e5c74c7255e54e7b037374070c773f">HasPopulation</a> (std::shared_ptr&lt; UniverseObject &gt; object)</td></tr>
-<tr class="separator:a68e5c74c7255e54e7b037374070c773f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde00a7a59ac232758aa3ea8f310e4c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#abde00a7a59ac232758aa3ea8f310e4c5">IsShip</a> (std::shared_ptr&lt; UniverseObject &gt; object)</td></tr>
-<tr class="separator:abde00a7a59ac232758aa3ea8f310e4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3004736be1f98ccce0371bd38325759"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#aa3004736be1f98ccce0371bd38325759">HasPopulation</a> (const std::shared_ptr&lt; UniverseObject &gt; &amp;object)</td></tr>
+<tr class="separator:aa3004736be1f98ccce0371bd38325759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba5bef4484be1caf132bdd7defc755d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#aba5bef4484be1caf132bdd7defc755d7">IsShip</a> (const std::shared_ptr&lt; UniverseObject &gt; &amp;object)</td></tr>
+<tr class="separator:aba5bef4484be1caf132bdd7defc755d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d62a00a79753169a13c4484ab5bd18"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a34d62a00a79753169a13c4484ab5bd18">LinkTag</a> (UniverseObjectType obj_type)</td></tr>
 <tr class="separator:a34d62a00a79753169a13c4484ab5bd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c2e8faa3336a79edf69bd1092160494"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; std::vector&lt; std::shared_ptr&lt; UniverseObject &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02CombatLogWnd_8cpp_03.html#a8c2e8faa3336a79edf69bd1092160494">SegregateForces</a> (const std::set&lt; int &gt; &amp;owners, const std::set&lt; int &gt; &amp;objects, std::vector&lt; std::function&lt; bool(std::shared_ptr&lt; UniverseObject &gt;)&gt;&gt; categories, std::function&lt; bool(std::shared_ptr&lt; UniverseObject &gt;, std::shared_ptr&lt; UniverseObject &gt;)&gt; order)</td></tr>
@@ -254,8 +254,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a68e5c74c7255e54e7b037374070c773f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e5c74c7255e54e7b037374070c773f">&#9670;&nbsp;</a></span>HasPopulation()</h2>
+<a id="aa3004736be1f98ccce0371bd38325759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3004736be1f98ccce0371bd38325759">&#9670;&nbsp;</a></span>HasPopulation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +263,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool anonymous_namespace{CombatLogWnd.cpp}::HasPopulation </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; UniverseObject &gt;&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; UniverseObject &gt; &amp;&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
@@ -272,8 +272,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="abde00a7a59ac232758aa3ea8f310e4c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde00a7a59ac232758aa3ea8f310e4c5">&#9670;&nbsp;</a></span>IsShip()</h2>
+<a id="aba5bef4484be1caf132bdd7defc755d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba5bef4484be1caf132bdd7defc755d7">&#9670;&nbsp;</a></span>IsShip()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +281,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool anonymous_namespace{CombatLogWnd.cpp}::IsShip </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; UniverseObject &gt;&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; UniverseObject &gt; &amp;&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
