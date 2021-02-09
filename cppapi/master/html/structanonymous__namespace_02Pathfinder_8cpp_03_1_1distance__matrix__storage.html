@@ -103,12 +103,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad16a135e17a761d6833ee17a411c29e7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ad16a135e17a761d6833ee17a411c29e7">m_data</a></td></tr>
 <tr class="memdesc:ad16a135e17a761d6833ee17a411c29e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">N x N table of hop distances in row column form.  <a href="#ad16a135e17a761d6833ee17a411c29e7">More...</a><br /></td></tr>
 <tr class="separator:ad16a135e17a761d6833ee17a411c29e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f603f616a0487b3d625c1f47a83a47f"><td class="memItemLeft" align="right" valign="top">boost::shared_mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a8f603f616a0487b3d625c1f47a83a47f">m_mutex</a></td></tr>
-<tr class="memdesc:a8f603f616a0487b3d625c1f47a83a47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table mutex.  <a href="#a8f603f616a0487b3d625c1f47a83a47f">More...</a><br /></td></tr>
-<tr class="separator:a8f603f616a0487b3d625c1f47a83a47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2840cd1faccc226be8a163c083c39fde"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; boost::shared_mutex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a2840cd1faccc226be8a163c083c39fde">m_row_mutexes</a></td></tr>
-<tr class="memdesc:a2840cd1faccc226be8a163c083c39fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per row mutexes.  <a href="#a2840cd1faccc226be8a163c083c39fde">More...</a><br /></td></tr>
-<tr class="separator:a2840cd1faccc226be8a163c083c39fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1893f461b72cbb5e6d7f38bbe2b7c8a"><td class="memItemLeft" align="right" valign="top">std::shared_mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#ad1893f461b72cbb5e6d7f38bbe2b7c8a">m_mutex</a></td></tr>
+<tr class="memdesc:ad1893f461b72cbb5e6d7f38bbe2b7c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table mutex.  <a href="#ad1893f461b72cbb5e6d7f38bbe2b7c8a">More...</a><br /></td></tr>
+<tr class="separator:ad1893f461b72cbb5e6d7f38bbe2b7c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e16e1d9406a73e0e8a5ed0b91ed6aa5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; std::shared_mutex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html#a5e16e1d9406a73e0e8a5ed0b91ed6aa5">m_row_mutexes</a></td></tr>
+<tr class="memdesc:a5e16e1d9406a73e0e8a5ed0b91ed6aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per row mutexes.  <a href="#a5e16e1d9406a73e0e8a5ed0b91ed6aa5">More...</a><br /></td></tr>
+<tr class="separator:a5e16e1d9406a73e0e8a5ed0b91ed6aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -295,8 +295,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a8f603f616a0487b3d625c1f47a83a47f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f603f616a0487b3d625c1f47a83a47f">&#9670;&nbsp;</a></span>m_mutex</h2>
+<a id="ad1893f461b72cbb5e6d7f38bbe2b7c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1893f461b72cbb5e6d7f38bbe2b7c8a">&#9670;&nbsp;</a></span>m_mutex</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,7 +304,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">boost::shared_mutex anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a>&lt; T &gt;::m_mutex</td>
+          <td class="memname">std::shared_mutex anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a>&lt; T &gt;::m_mutex</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -313,8 +313,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a2840cd1faccc226be8a163c083c39fde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2840cd1faccc226be8a163c083c39fde">&#9670;&nbsp;</a></span>m_row_mutexes</h2>
+<a id="a5e16e1d9406a73e0e8a5ed0b91ed6aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e16e1d9406a73e0e8a5ed0b91ed6aa5">&#9670;&nbsp;</a></span>m_row_mutexes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +322,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::shared_ptr&lt;boost::shared_mutex&gt; &gt; anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a>&lt; T &gt;::m_row_mutexes</td>
+          <td class="memname">std::vector&lt; std::shared_ptr&lt;std::shared_mutex&gt; &gt; anonymous_namespace{Pathfinder.cpp}::<a class="el" href="structanonymous__namespace_02Pathfinder_8cpp_03_1_1distance__matrix__storage.html">distance_matrix_storage</a>&lt; T &gt;::m_row_mutexes</td>
         </tr>
       </table>
 </div><div class="memdoc">

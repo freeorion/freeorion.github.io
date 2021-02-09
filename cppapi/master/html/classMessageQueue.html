@@ -75,8 +75,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a44611ce4de9bb09554fd4d0da32a9907"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a44611ce4de9bb09554fd4d0da32a9907">MessageQueue</a> (boost::mutex &amp;monitor)</td></tr>
-<tr class="separator:a44611ce4de9bb09554fd4d0da32a9907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fed2fbcb50851ec5bc90be80413f2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a27fed2fbcb50851ec5bc90be80413f2c">MessageQueue</a> (std::mutex &amp;monitor)</td></tr>
+<tr class="separator:a27fed2fbcb50851ec5bc90be80413f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a2edfa57df79deb3922ff0f815c0d50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a6a2edfa57df79deb3922ff0f815c0d50">Clear</a> ()</td></tr>
 <tr class="memdesc:a6a2edfa57df79deb3922ff0f815c0d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empties the queue.  <a href="#a6a2edfa57df79deb3922ff0f815c0d50">More...</a><br /></td></tr>
 <tr class="separator:a6a2edfa57df79deb3922ff0f815c0d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,8 +95,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4c1174246e7ec6cf17f189a1e1ecbadc"><td class="memItemLeft" align="right" valign="top">boost::mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a></td></tr>
-<tr class="separator:a4c1174246e7ec6cf17f189a1e1ecbadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86935f01fb5476cbf666a1f72d978d62"><td class="memItemLeft" align="right" valign="top">std::mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a></td></tr>
+<tr class="separator:a86935f01fb5476cbf666a1f72d978d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a186f92f3bd0405886b6aebafed181736"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="classMessage.html">Message</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a></td></tr>
 <tr class="separator:a186f92f3bd0405886b6aebafed181736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -104,8 +104,8 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>A thread-safe message queue. </p>
 <p>The entire public interface is guarded with mutex locks. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a44611ce4de9bb09554fd4d0da32a9907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44611ce4de9bb09554fd4d0da32a9907">&#9670;&nbsp;</a></span>MessageQueue()</h2>
+<a id="a27fed2fbcb50851ec5bc90be80413f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fed2fbcb50851ec5bc90be80413f2c">&#9670;&nbsp;</a></span>MessageQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -113,7 +113,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">MessageQueue::MessageQueue </td>
           <td>(</td>
-          <td class="paramtype">boost::mutex &amp;&#160;</td>
+          <td class="paramtype">std::mutex &amp;&#160;</td>
           <td class="paramname"><em>monitor</em></td><td>)</td>
           <td></td>
         </tr>
@@ -140,7 +140,7 @@ Private Attributes</h2></td></tr>
 
 <p>Empties the queue. </p>
 
-<p class="reference">References <a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
 
 </div>
 </div>
@@ -161,7 +161,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns true iff the queue is empty. </p>
 
-<p class="reference">References <a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
 
 </div>
 </div>
@@ -182,7 +182,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return and remove the first message in the queue. </p>
 
-<p class="reference">References <a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a>, <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>, and <a class="el" href="Message_8cpp.html#a4cae3d1006e525c5ba3b4de105912283">swap()</a>.</p>
+<p class="reference">References <a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a>, <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>, and <a class="el" href="Message_8cpp.html#a4cae3d1006e525c5ba3b4de105912283">swap()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#a0bebf8f2db672c2a4a38396305f258f5">ClientNetworking::Impl::GetMessage()</a>.</p>
 
@@ -206,7 +206,7 @@ Private Attributes</h2></td></tr>
 
 <p>Adds <em>message</em> to the end of the queue. </p>
 
-<p class="reference">References <a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classClientNetworking_1_1Impl.html#ad87e6028f94e41d38549b2636df93bf6">ClientNetworking::Impl::HandleMessageBodyRead()</a>, and <a class="el" href="classClientNetworking_1_1Impl.html#a75ccd0e0bc8bd158389aab276224326c">ClientNetworking::Impl::SendSelfMessage()</a>.</p>
 
@@ -229,13 +229,13 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the number of messages in the queue. </p>
 
-<p class="reference">References <a class="el" href="classMessageQueue.html#a4c1174246e7ec6cf17f189a1e1ecbadc">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="classMessageQueue.html#a86935f01fb5476cbf666a1f72d978d62">m_monitor</a>, and <a class="el" href="classMessageQueue.html#a186f92f3bd0405886b6aebafed181736">m_queue</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4c1174246e7ec6cf17f189a1e1ecbadc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c1174246e7ec6cf17f189a1e1ecbadc">&#9670;&nbsp;</a></span>m_monitor</h2>
+<a id="a86935f01fb5476cbf666a1f72d978d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86935f01fb5476cbf666a1f72d978d62">&#9670;&nbsp;</a></span>m_monitor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +244,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boost::mutex&amp; MessageQueue::m_monitor</td>
+          <td class="memname">std::mutex&amp; MessageQueue::m_monitor</td>
         </tr>
       </table>
   </td>

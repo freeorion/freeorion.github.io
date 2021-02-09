@@ -129,7 +129,6 @@ var searchData=
   ['locationconditiondescription',['LocationConditionDescription',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#acc4e531bce0941e7e32a3027cc0db9c9',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['locations',['Locations',['../classanonymous__namespace_02ServerWrapper_8cpp_03_1_1MonsterFleetPlanWrapper.html#ac5b83e4f5b42bca9442e8406410473da',1,'anonymous_namespace{ServerWrapper.cpp}::MonsterFleetPlanWrapper']]],
   ['locationxempiretofleetsmap',['LocationXEmpireToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab9a74205dd74af090bf435e45973eeb7',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['lock_5fguard',['lock_guard',['../Random_8cpp.html#a35ba3251eeb5d4705554f998d2d45f01',1,'Random.cpp']]],
   ['log',['log',['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1CombatLogAccordionPanel.html#abb296ab3a2fe44ba7a66bd6e1d8490a7',1,'anonymous_namespace{CombatLogWnd.cpp}::CombatLogAccordionPanel::log()'],['../classanonymous__namespace_02CombatLogWnd_8cpp_03_1_1EmpireForcesAccordionPanel.html#a352ca3c849e58a8c1ff33c600ad73cb4',1,'anonymous_namespace{CombatLogWnd.cpp}::EmpireForcesAccordionPanel::log()']]],
   ['log_5flevel_5fnames',['log_level_names',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a3d2f11c522f6b090a88d621d7d675ec6',1,'anonymous_namespace{Logger.cpp}']]],
   ['log_5funknown_5fvariable_5fproperty_5ftrace',['LOG_UNKNOWN_VARIABLE_PROPERTY_TRACE',['../ValueRefs_8cpp.html#a4208abb49cbc70b633f930d211fc9a27',1,'ValueRefs.cpp']]],

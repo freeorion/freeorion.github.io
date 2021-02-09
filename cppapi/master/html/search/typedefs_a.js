@@ -7,7 +7,6 @@ var searchData=
   ['likes_5frule_5ftype',['likes_rule_type',['../namespaceanonymous__namespace_02SpeciesParser_8cpp_03.html#a302cebd2fae0efc2d2423a6de6247d2c',1,'anonymous_namespace{SpeciesParser.cpp}']]],
   ['linkdecoratorptr',['LinkDecoratorPtr',['../LinkText_8h.html#a6d7b62bdc124f2cc061dd65baf6e8ad2',1,'LinkText.h']]],
   ['locationxempiretofleetsmap',['LocationXEmpireToFleetsMap',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab9a74205dd74af090bf435e45973eeb7',1,'anonymous_namespace{MapWnd.cpp}']]],
-  ['lock_5fguard',['lock_guard',['../Random_8cpp.html#a35ba3251eeb5d4705554f998d2d45f01',1,'Random.cpp']]],
   ['loggercreatedsignaltype',['LoggerCreatedSignalType',['../Logger_8h.html#ac79687968d227e42758b01ffde4f566d',1,'Logger.h']]],
   ['loggerfilesinkfrontendconfigurer',['LoggerFileSinkFrontEndConfigurer',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a5471ff4378d588667b0efef027354076',1,'anonymous_namespace{Logger.cpp}']]],
   ['loggertextfilesinkfrontend',['LoggerTextFileSinkFrontend',['../namespaceanonymous__namespace_02Logger_8cpp_03.html#a8f7df95170534f04febe5085dd159d6f',1,'anonymous_namespace{Logger.cpp}']]]
