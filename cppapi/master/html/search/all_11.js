@@ -31,7 +31,7 @@ var searchData=
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel'],['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::QueueTechPanel()']]],
   ['queuetype',['QueueType',['../structInfluenceQueue.html#a94a153c50917b90e9f7c9d64b06968a0',1,'InfluenceQueue::QueueType()'],['../structResearchQueue.html#aee3a5747de917c41072562a2508c158a',1,'ResearchQueue::QueueType()']]],
   ['quitsignal',['QuitSignal',['../structanonymous__namespace_02SDLGUI_8cpp_03_1_1QuitSignal.html',1,'anonymous_namespace{SDLGUI.cpp}::QuitSignal'],['../structanonymous__namespace_02SDLGUI_8cpp_03_1_1QuitSignal.html#a7eab0c82b3684a5a63913c7fad13fc1e',1,'anonymous_namespace{SDLGUI.cpp}::QuitSignal::QuitSignal()']]],
-  ['quitting_5fpolling_5finterval',['QUITTING_POLLING_INTERVAL',['../HumanClientFSM_8cpp.html#a7884c3995b8c8e539a09893924d855c5',1,'HumanClientFSM.cpp']]],
-  ['quitting_5ftimeout',['QUITTING_TIMEOUT',['../HumanClientFSM_8cpp.html#a53607606cff6c405f16b20a6c7d130c8',1,'HumanClientFSM.cpp']]],
+  ['quitting_5fpolling_5finterval',['QUITTING_POLLING_INTERVAL',['../HumanClientFSM_8cpp.html#ac3651bfa2e2ea959d92dbd369abbc652',1,'HumanClientFSM.cpp']]],
+  ['quitting_5ftimeout',['QUITTING_TIMEOUT',['../HumanClientFSM_8cpp.html#aa98ae1fe62d204b740821197f881b54b',1,'HumanClientFSM.cpp']]],
   ['quittinggame',['QuittingGame',['../structQuittingGame.html',1,'QuittingGame'],['../structQuittingGame.html#a46907cba60c808bf52be11c7baa20341',1,'QuittingGame::QuittingGame()']]]
 ];

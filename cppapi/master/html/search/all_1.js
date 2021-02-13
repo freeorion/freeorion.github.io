@@ -341,7 +341,7 @@ var searchData=
   ['articlemap',['ArticleMap',['../classEncyclopedia.html#a4a7c6d83570c31ef5f0592a96d5bfca3',1,'Encyclopedia::ArticleMap()'],['../namespaceanonymous__namespace_02EncyclopediaParser_8cpp_03.html#a18ec9920dd60838e25df6b19e1bfe3a5',1,'anonymous_namespace{EncyclopediaParser.cpp}::ArticleMap()']]],
   ['articles',['Articles',['../classEncyclopedia.html#a91589495bada41c165be779ead51d3a9',1,'Encyclopedia']]],
   ['askdelete',['AskDelete',['../classSaveFileDialog.html#a2a5079243ecdec76b423f3d03227fdae',1,'SaveFileDialog']]],
-  ['assemblesystemcombatinfo',['AssembleSystemCombatInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a9d96444ba1c82b6f2004772f3e7a7a3e',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['assemblesystemcombatinfo',['AssembleSystemCombatInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a2f42a9b1c24d011e9ea3b1c91294da7e',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['assigningempireforid',['AssigningEmpireForID',['../classIDAllocator.html#afc3de973b0d3d00e318f8866c761b901',1,'IDAllocator']]],
   ['associatedmetertype',['AssociatedMeterType',['../Enums_8cpp.html#a262e030d1b4b9aa5a88ae59ef8923d05',1,'AssociatedMeterType(MeterType meter_type):&#160;Enums.cpp'],['../Enums_8h.html#ae10a6efc9744ef33ed6c6bb6a8ee069e',1,'AssociatedMeterType(MeterType meter_type):&#160;Enums.h']]],
   ['associatedmetertypes',['AssociatedMeterTypes',['../Enums_8cpp.html#aabd5e00ce2c80341aee0011f2e7a8e95',1,'Enums.cpp']]],

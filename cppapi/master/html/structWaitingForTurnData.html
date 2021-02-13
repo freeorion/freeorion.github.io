@@ -88,13 +88,15 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData_1_1UnpackFailedNotification.html">UnpackFailedNotification</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:afd96b310940fc27595129fbb62d2658d"><td class="memItemLeft" align="right" valign="top">typedef boost::statechart::state&lt; <a class="el" href="structWaitingForTurnData.html">WaitingForTurnData</a>, <a class="el" href="structPlayingGame.html">PlayingGame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#afd96b310940fc27595129fbb62d2658d">Base</a></td></tr>
 <tr class="separator:afd96b310940fc27595129fbb62d2658d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af167c2a338fcf8d13edb6c742c9a5701"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; SaveGameComplete &gt;, boost::statechart::custom_reaction&lt; TurnUpdate &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a> &gt;, boost::statechart::custom_reaction&lt; TurnRevoked &gt;, boost::statechart::custom_reaction&lt; DispatchCombatLogs &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#af167c2a338fcf8d13edb6c742c9a5701">reactions</a></td></tr>
-<tr class="separator:af167c2a338fcf8d13edb6c742c9a5701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca6f3ea0ec4bc40680f9c0893245c4e3"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; SaveGameComplete &gt;, boost::statechart::custom_reaction&lt; TurnUpdate &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structWaitingForTurnData_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &gt;, boost::statechart::custom_reaction&lt; TurnRevoked &gt;, boost::statechart::custom_reaction&lt; DispatchCombatLogs &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#aca6f3ea0ec4bc40680f9c0893245c4e3">reactions</a></td></tr>
+<tr class="separator:aca6f3ea0ec4bc40680f9c0893245c4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -108,6 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac367b8df5a629f6c64e1147a9ccda38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f59c6426fe4db0fc28f1ebe2320255"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#aa7f59c6426fe4db0fc28f1ebe2320255">react</a> (const <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a> &amp;data)</td></tr>
 <tr class="separator:aa7f59c6426fe4db0fc28f1ebe2320255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9967dbd35ddff79ed09824875cb22c"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#a3c9967dbd35ddff79ed09824875cb22c">react</a> (const <a class="el" href="structWaitingForTurnData_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &amp;)</td></tr>
+<tr class="separator:a3c9967dbd35ddff79ed09824875cb22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8631a69a11596e3561a96e0b21475b45"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#a8631a69a11596e3561a96e0b21475b45">react</a> (const TurnRevoked &amp;msg)</td></tr>
 <tr class="separator:a8631a69a11596e3561a96e0b21475b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d16093fb6679d8f708710f41f27dec3"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForTurnData.html#a1d16093fb6679d8f708710f41f27dec3">react</a> (const DispatchCombatLogs &amp;msg)</td></tr>
@@ -130,14 +134,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af167c2a338fcf8d13edb6c742c9a5701"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af167c2a338fcf8d13edb6c742c9a5701">&#9670;&nbsp;</a></span>reactions</h2>
+<a id="aca6f3ea0ec4bc40680f9c0893245c4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca6f3ea0ec4bc40680f9c0893245c4e3">&#9670;&nbsp;</a></span>reactions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;SaveGameComplete&gt;, boost::statechart::custom_reaction&lt;TurnUpdate&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a>&gt;, boost::statechart::custom_reaction&lt;TurnRevoked&gt;, boost::statechart::custom_reaction&lt;DispatchCombatLogs&gt; &gt; <a class="el" href="structWaitingForTurnData.html#af167c2a338fcf8d13edb6c742c9a5701">WaitingForTurnData::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;SaveGameComplete&gt;, boost::statechart::custom_reaction&lt;TurnUpdate&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html">TurnDataUnpackedNotification</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structWaitingForTurnData_1_1UnpackFailedNotification.html">UnpackFailedNotification</a>&gt;, boost::statechart::custom_reaction&lt;TurnRevoked&gt;, boost::statechart::custom_reaction&lt;DispatchCombatLogs&gt; &gt; <a class="el" href="structWaitingForTurnData.html#aca6f3ea0ec4bc40680f9c0893245c4e3">WaitingForTurnData::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186,7 +190,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2616f06691976b9f3ba63445bd8d3f47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2616f06691976b9f3ba63445bd8d3f47">&#9670;&nbsp;</a></span>react() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2616f06691976b9f3ba63445bd8d3f47">&#9670;&nbsp;</a></span>react() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +210,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac367b8df5a629f6c64e1147a9ccda38d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac367b8df5a629f6c64e1147a9ccda38d">&#9670;&nbsp;</a></span>react() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac367b8df5a629f6c64e1147a9ccda38d">&#9670;&nbsp;</a></span>react() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,12 +225,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Message_8cpp.html#a105ef003e89cd41434d4c51073b28026">ExtractTurnUpdateMessageData()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html#ad59f8c7d156d36831e987c93f87e0f5e">WaitingForTurnData::TurnDataUnpackedNotification::TurnDataUnpackedNotification()</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
 
 </div>
 </div>
 <a id="aa7f59c6426fe4db0fc28f1ebe2320255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7f59c6426fe4db0fc28f1ebe2320255">&#9670;&nbsp;</a></span>react() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f59c6426fe4db0fc28f1ebe2320255">&#9670;&nbsp;</a></span>react() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,12 +245,30 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="HumanClientFSM_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html#a905c10796170ff1da8d9ce2617445a6b">WaitingForTurnData::TurnDataUnpackedNotification::unpacked</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="HumanClientFSM_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, and <a class="el" href="structWaitingForTurnData_1_1TurnDataUnpackedNotification.html#a905c10796170ff1da8d9ce2617445a6b">WaitingForTurnData::TurnDataUnpackedNotification::unpacked</a>.</p>
+
+</div>
+</div>
+<a id="a3c9967dbd35ddff79ed09824875cb22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9967dbd35ddff79ed09824875cb22c">&#9670;&nbsp;</a></span>react() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForTurnData::react </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structWaitingForTurnData_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a8631a69a11596e3561a96e0b21475b45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8631a69a11596e3561a96e0b21475b45">&#9670;&nbsp;</a></span>react() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8631a69a11596e3561a96e0b21475b45">&#9670;&nbsp;</a></span>react() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +288,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1d16093fb6679d8f708710f41f27dec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d16093fb6679d8f708710f41f27dec3">&#9670;&nbsp;</a></span>react() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d16093fb6679d8f708710f41f27dec3">&#9670;&nbsp;</a></span>react() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

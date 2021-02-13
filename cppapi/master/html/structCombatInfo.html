@@ -79,8 +79,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abf99eae065a83fb8d558dc1fc7826a50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#abf99eae065a83fb8d558dc1fc7826a50">CombatInfo</a> ()=default</td></tr>
 <tr class="separator:abf99eae065a83fb8d558dc1fc7826a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836f3453073be49cc6e1b4ee73130f74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a836f3453073be49cc6e1b4ee73130f74">CombatInfo</a> (int system_id_, int turn_, const <a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">Universe::EmpireObjectVisibilityMap</a> &amp;vis_, <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects_, const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">EmpireManager::container_type</a> &amp;empires_, const <a class="el" href="classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6">Universe::EmpireObjectVisibilityTurnMap</a> &amp;empire_object_vis_turns_, const <a class="el" href="classEmpireManager.html#ac76cc22af9cb92945a23553a292062a2">EmpireManager::DiploStatusMap</a> &amp;diplo_statuses_)</td></tr>
-<tr class="separator:a836f3453073be49cc6e1b4ee73130f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9dd807819b62e9ef85423197b1eee8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#ae9dd807819b62e9ef85423197b1eee8b">CombatInfo</a> (int system_id_, int turn_, <a class="el" href="classUniverse.html">Universe</a> &amp;universe_, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires_, const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;galaxy_setup_data_, const <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;species_, const <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;supply_)</td></tr>
+<tr class="separator:ae9dd807819b62e9ef85423197b1eee8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6e4ca9a4d3d8bcc8fc8c7ae7edf56bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#ab6e4ca9a4d3d8bcc8fc8c7ae7edf56bd">GetMonsterDetection</a> () const</td></tr>
 <tr class="separator:ab6e4ca9a4d3d8bcc8fc8c7ae7edf56bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa7a34b4b6a9bc173edefd6ceca0707c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const System &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">GetSystem</a> () const</td></tr>
@@ -117,17 +117,25 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a817255e81fcac4b61b9ab3ed008a248d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">Universe::EmpireObjectVisibilityMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a></td></tr>
 <tr class="memdesc:a817255e81fcac4b61b9ab3ed008a248d"><td class="mdescLeft">&#160;</td><td class="mdescRight">indexed by empire id and object id, the visibility level the empire has of each object. may be increased during battle  <a href="#a817255e81fcac4b61b9ab3ed008a248d">More...</a><br /></td></tr>
 <tr class="separator:a817255e81fcac4b61b9ab3ed008a248d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60993b9fc84d54a3adb18572e638c983"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">EmpireManager::container_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a60993b9fc84d54a3adb18572e638c983">empires</a> {<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>().GetEmpires()}</td></tr>
-<tr class="separator:a60993b9fc84d54a3adb18572e638c983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a987bd4800cfa124198d9006848835fc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObjectMap.html">ObjectMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a></td></tr>
-<tr class="memdesc:a987bd4800cfa124198d9006848835fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">actual state of objects relevant to combat, filtered and copied for system where combat occurs  <a href="#a987bd4800cfa124198d9006848835fc3">More...</a><br /></td></tr>
-<tr class="separator:a987bd4800cfa124198d9006848835fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9559134cca7b73a0da9b04651e07dcfc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEmpireManager.html#a557b588dd3245ce5dc4a53c384dc3990">EmpireManager::const_container_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a9559134cca7b73a0da9b04651e07dcfc">empires</a> {const_cast&lt;const <a class="el" href="classEmpireManager.html">EmpireManager</a>&amp;&gt;(::<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>()).GetEmpires()}</td></tr>
+<tr class="separator:a9559134cca7b73a0da9b04651e07dcfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eedcb8b3088d5644b0e728016b4c583"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a4eedcb8b3088d5644b0e728016b4c583">galaxy_setup_data</a> {<a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData</a>()}</td></tr>
+<tr class="separator:a4eedcb8b3088d5644b0e728016b4c583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492fc0d4cc2d360f4b24514db4647948"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classObjectMap.html">ObjectMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a></td></tr>
+<tr class="memdesc:a492fc0d4cc2d360f4b24514db4647948"><td class="mdescLeft">&#160;</td><td class="mdescRight">actual state of objects relevant to combat, filtered and copied for system where combat occurs, not necessarily consistent with contents of universe's <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a>  <a href="#a492fc0d4cc2d360f4b24514db4647948">More...</a><br /></td></tr>
+<tr class="separator:a492fc0d4cc2d360f4b24514db4647948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac244f58e5be1dafaa2b76d22239bfc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#aac244f58e5be1dafaa2b76d22239bfc5">species</a> {<a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager</a>()}</td></tr>
+<tr class="separator:aac244f58e5be1dafaa2b76d22239bfc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9f76c46ab03d23d7da55a8ae03cf95"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#aee9f76c46ab03d23d7da55a8ae03cf95">supply</a> {<a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager</a>()}</td></tr>
+<tr class="separator:aee9f76c46ab03d23d7da55a8ae03cf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d73b444523994dd696bd57a01e261e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a> = <a class="el" href="ModeratorAction_8h.html#a05ea65e76829ebdc0f42b2490b1777c8">INVALID_OBJECT_ID</a></td></tr>
 <tr class="memdesc:ae6d73b444523994dd696bd57a01e261e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID of system where combat is occurring (could be INVALID_OBJECT_ID ?)  <a href="#ae6d73b444523994dd696bd57a01e261e">More...</a><br /></td></tr>
 <tr class="separator:ae6d73b444523994dd696bd57a01e261e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bf9fca81403b1a21017e2786ad19576"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#a3bf9fca81403b1a21017e2786ad19576">turn</a> = <a class="el" href="MultiplayerCommon_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a></td></tr>
 <tr class="memdesc:a3bf9fca81403b1a21017e2786ad19576"><td class="mdescLeft">&#160;</td><td class="mdescRight">main game turn  <a href="#a3bf9fca81403b1a21017e2786ad19576">More...</a><br /></td></tr>
 <tr class="separator:a3bf9fca81403b1a21017e2786ad19576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac819bdf872e2afaa08589ce9b4a71d15"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCombatInfo.html#ac819bdf872e2afaa08589ce9b4a71d15">universe</a> {<a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse</a>()}</td></tr>
+<tr class="separator:ac819bdf872e2afaa08589ce9b4a71d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -182,8 +190,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a836f3453073be49cc6e1b4ee73130f74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a836f3453073be49cc6e1b4ee73130f74">&#9670;&nbsp;</a></span>CombatInfo() <span class="overload">[2/2]</span></h2>
+<a id="ae9dd807819b62e9ef85423197b1eee8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9dd807819b62e9ef85423197b1eee8b">&#9670;&nbsp;</a></span>CombatInfo() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,32 +211,32 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classUniverse.html#a23949d8e3af38bbd1610c535c8814b6d">Universe::EmpireObjectVisibilityMap</a> &amp;&#160;</td>
-          <td class="paramname"><em>vis_</em>, </td>
+          <td class="paramtype"><a class="el" href="classUniverse.html">Universe</a> &amp;&#160;</td>
+          <td class="paramname"><em>universe_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
-          <td class="paramname"><em>objects_</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">EmpireManager::container_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
           <td class="paramname"><em>empires_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classUniverse.html#aa921f4dbf71e490366b46f3771aba1c6">Universe::EmpireObjectVisibilityTurnMap</a> &amp;&#160;</td>
-          <td class="paramname"><em>empire_object_vis_turns_</em>, </td>
+          <td class="paramtype">const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a> &amp;&#160;</td>
+          <td class="paramname"><em>galaxy_setup_data_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classEmpireManager.html#ac76cc22af9cb92945a23553a292062a2">EmpireManager::DiploStatusMap</a> &amp;&#160;</td>
-          <td class="paramname"><em>diplo_statuses_</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSpeciesManager.html">SpeciesManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>species_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSupplyManager.html">SupplyManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>supply_</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -238,7 +246,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#ae7502326ac46f75c9e8c7efa8fb8159c">ObjectMap::find()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="classObjectMap.html#a5c867a7ad5853b9ba8b3f97577b74836">ObjectMap::insert()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
+<p class="reference">References <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classObjectMap.html#ae7502326ac46f75c9e8c7efa8fb8159c">ObjectMap::find()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>, <a class="el" href="classUniverse.html#a50b1585be4559b46af2d0b92bfc7031e">Universe::Objects()</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 
 </div>
 </div>
@@ -279,7 +287,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structCombatInfo.html#aedd730d4d48f16f3d27d2c13b3d4b9e5">combat_events</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -319,7 +327,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="structCombatInfo.html#a8e1a7b73200fc5147321cd2128da30fe">damaged_object_ids</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -359,7 +367,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="structCombatInfo.html#a664a8b629e2155c0d5a84dc6fcc38582">destroyed_object_knowers</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -399,7 +407,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="structCombatInfo.html#a4a61473d5ce1e9a686a03df7d2f9c9fa">destroyed_object_ids</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -439,7 +447,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -479,7 +487,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -498,7 +506,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classObjectMap.html#aeea5defa4f9b05c6b42bcaddffa862c5">ObjectMap::all()</a>, and <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>.</p>
+<p class="reference">References <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a82c92770d114c3fcad9b32dfdc0c1bd1">anonymous_namespace{CombatSystem.cpp}::GetEmpiresDetectionStrengths()</a>.</p>
 
@@ -538,9 +546,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="classObjectMap.html#a8e268c18684e18157032cd1a475fede8">ObjectMap::clear()</a>, and <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>.</p>
+<p class="reference">References <a class="el" href="classObjectMap.html#a8e268c18684e18157032cd1a475fede8">ObjectMap::clear()</a>, <a class="el" href="classObjectMap.html#a7ce9d281c7ef340b5993be6f9274e0bf">ObjectMap::Copy()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>, and <a class="el" href="classObjectMap.html#aecbafdf9682d9ef0760caa67d82a9a18">ObjectMap::size()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -561,7 +569,7 @@ Friends</h2></td></tr>
 
 <p>Returns System object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id. </p>
 
-<p class="reference">References <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
+<p class="reference">References <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 
 </div>
 </div>
@@ -582,7 +590,7 @@ Friends</h2></td></tr>
 
 <p>Returns System object in this <a class="el" href="structCombatInfo.html" title="Contains information about the state of a combat before or after the combat occurs. ">CombatInfo</a>'s objects if one exists with id system_id. </p>
 
-<p class="reference">References <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
+<p class="reference">References <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>, and <a class="el" href="structCombatInfo.html#ae6d73b444523994dd696bd57a01e261e">system_id</a>.</p>
 
 </div>
 </div>
@@ -609,9 +617,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classObjectMap.html#aeea5defa4f9b05c6b42bcaddffa862c5">ObjectMap::all()</a>, <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>, <a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a82c92770d114c3fcad9b32dfdc0c1bd1">anonymous_namespace{CombatSystem.cpp}::GetEmpiresDetectionStrengths()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aeaa690e2547b56751bb13567b6b5958b">anonymous_namespace{CombatSystem.cpp}::GetObjectVisibilityByEmpire()</a>, <a class="el" href="structCombatInfo.html#a987bd4800cfa124198d9006848835fc3">objects</a>, and <a class="el" href="UniverseObject_8h.html#a89eff36c9b6f73b57b9e005f1ad09f63">VIS_NO_VISIBILITY()</a>.</p>
+<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="structCombatInfo.html#ab76e27683927a0191969197b4065f844">empire_ids</a>, <a class="el" href="structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d">empire_object_visibility</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a82c92770d114c3fcad9b32dfdc0c1bd1">anonymous_namespace{CombatSystem.cpp}::GetEmpiresDetectionStrengths()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aeaa690e2547b56751bb13567b6b5958b">anonymous_namespace{CombatSystem.cpp}::GetObjectVisibilityByEmpire()</a>, <a class="el" href="structCombatInfo.html#a492fc0d4cc2d360f4b24514db4647948">objects</a>, and <a class="el" href="UniverseObject_8h.html#a89eff36c9b6f73b57b9e005f1ad09f63">VIS_NO_VISIBILITY()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="structCombatInfo.html#a836f3453073be49cc6e1b4ee73130f74">CombatInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structCombatInfo.html#ae9dd807819b62e9ef85423197b1eee8b">CombatInfo()</a>.</p>
 
 </div>
 </div>
@@ -637,7 +645,7 @@ template&lt;typename Archive &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structCombatInfo.html">CombatInfo</a> &amp;&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
+          <td class="paramname"><em>info</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -675,7 +683,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>current combat bout, used with CombatBout <a class="el" href="namespaceValueRef.html">ValueRef</a> for implementing bout dependent targeting. First combat bout is 1 </p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a49c5aadc322f0769a8c263626886bfe8">anonymous_namespace{CombatSystem.cpp}::AttackFighterPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a70276781e06b34003a220af0745b3b5d">anonymous_namespace{CombatSystem.cpp}::AttackFighterShip()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CullTheDead()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae2b89d27d6eb398db67d4a63ef38e726">anonymous_namespace{CombatSystem.cpp}::LaunchFighters()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae2b89d27d6eb398db67d4a63ef38e726">anonymous_namespace{CombatSystem.cpp}::LaunchFighters()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
 
 </div>
 </div>
@@ -693,7 +701,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>list of combat attack events that occur in combat </p>
 
-<p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#a10a7c74443ed4cebfaa5a7890b2b3752">GetCombatEventsToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#a10a7c74443ed4cebfaa5a7890b2b3752">GetCombatEventsToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -711,7 +719,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>ids of objects damaged during this battle </p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a49c5aadc322f0769a8c263626886bfe8">anonymous_namespace{CombatSystem.cpp}::AttackFighterPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a70276781e06b34003a220af0745b3b5d">anonymous_namespace{CombatSystem.cpp}::AttackFighterShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aacabe4ae2a79786d6088de68b13e4ef0">anonymous_namespace{CombatSystem.cpp}::AttackPlanetPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a998ef09b41ef28ad5ec74aee5754322b">anonymous_namespace{CombatSystem.cpp}::AttackPlanetShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ad0fa699cb6ec81ad60aada5c04375e2d">anonymous_namespace{CombatSystem.cpp}::AttackShipPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae25066d21373a99cb59d1afbe86d92ee">anonymous_namespace{CombatSystem.cpp}::AttackShipShip()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#a365381061e57ece8713bb81de7d38ec0">GetDamagedObjectsToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a49c5aadc322f0769a8c263626886bfe8">anonymous_namespace{CombatSystem.cpp}::AttackFighterPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a70276781e06b34003a220af0745b3b5d">anonymous_namespace{CombatSystem.cpp}::AttackFighterShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aacabe4ae2a79786d6088de68b13e4ef0">anonymous_namespace{CombatSystem.cpp}::AttackPlanetPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a998ef09b41ef28ad5ec74aee5754322b">anonymous_namespace{CombatSystem.cpp}::AttackPlanetShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ad0fa699cb6ec81ad60aada5c04375e2d">anonymous_namespace{CombatSystem.cpp}::AttackShipPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae25066d21373a99cb59d1afbe86d92ee">anonymous_namespace{CombatSystem.cpp}::AttackShipShip()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#a365381061e57ece8713bb81de7d38ec0">GetDamagedObjectsToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -729,7 +737,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>ids of objects destroyed during this battle </p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatLog.html#a1af067bb23ebba7681a53c767ae35045">CombatLog::CombatLog()</a>, <a class="el" href="structCombatInfo.html#aa7e3873413bb4c7da1d2326b9b3d2039">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#af320aa98d8a48bd6c61316bd8fc093b0">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatLog.html#a1af067bb23ebba7681a53c767ae35045">CombatLog::CombatLog()</a>, <a class="el" href="structCombatInfo.html#aa7e3873413bb4c7da1d2326b9b3d2039">GetDestroyedObjectsToSerialize()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#af320aa98d8a48bd6c61316bd8fc093b0">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -747,7 +755,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>indexed by empire ID, the set of ids of objects the empire knows were destroyed during the combat </p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#ab98e334c9930309633eb60c3b6674f5e">GetDestroyedObjectKnowersToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#ab98e334c9930309633eb60c3b6674f5e">GetDestroyedObjectKnowersToSerialize()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -762,8 +770,6 @@ template&lt;typename Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
 
 </div>
 </div>
@@ -781,7 +787,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>IDs of empires involved in combat. </p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#a836f3453073be49cc6e1b4ee73130f74">CombatInfo()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#a4c910748d422d44d84ed7e2f60059ffb">GetEmpireIdsToSerialize()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a82c92770d114c3fcad9b32dfdc0c1bd1">anonymous_namespace{CombatSystem.cpp}::GetEmpiresDetectionStrengths()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structCombatInfo.html#ae9dd807819b62e9ef85423197b1eee8b">CombatInfo()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#a4c910748d422d44d84ed7e2f60059ffb">GetEmpireIdsToSerialize()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a82c92770d114c3fcad9b32dfdc0c1bd1">anonymous_namespace{CombatSystem.cpp}::GetEmpiresDetectionStrengths()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -796,8 +802,6 @@ template&lt;typename Archive &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
 
 </div>
 </div>
@@ -815,41 +819,83 @@ template&lt;typename Archive &gt; </div>
 
 <p>indexed by empire id and object id, the visibility level the empire has of each object. may be increased during battle </p>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#afafe3ece09a05e9c64b7a6d1e43615ea">GetEmpireObjectVisibilityToSerialize()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aeaa690e2547b56751bb13567b6b5958b">anonymous_namespace{CombatSystem.cpp}::GetObjectVisibilityByEmpire()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structCombatInfo.html#afafe3ece09a05e9c64b7a6d1e43615ea">GetEmpireObjectVisibilityToSerialize()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#aeaa690e2547b56751bb13567b6b5958b">anonymous_namespace{CombatSystem.cpp}::GetObjectVisibilityByEmpire()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
-<a id="a60993b9fc84d54a3adb18572e638c983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60993b9fc84d54a3adb18572e638c983">&#9670;&nbsp;</a></span>empires</h2>
+<a id="a9559134cca7b73a0da9b04651e07dcfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9559134cca7b73a0da9b04651e07dcfc">&#9670;&nbsp;</a></span>empires</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classEmpireManager.html#ad711cf7206f4f60474a11e5b6ea5ac0d">EmpireManager::container_type</a>&amp; CombatInfo::empires {<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>().GetEmpires()}</td>
+          <td class="memname">const <a class="el" href="classEmpireManager.html#a557b588dd3245ce5dc4a53c384dc3990">EmpireManager::const_container_type</a>&amp; CombatInfo::empires {const_cast&lt;const <a class="el" href="classEmpireManager.html">EmpireManager</a>&amp;&gt;(::<a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires</a>()).GetEmpires()}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a058daf99fb785a9799ddbae4f20b3af0">anonymous_namespace{CombatSystem.cpp}::GetEmpire()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a058daf99fb785a9799ddbae4f20b3af0">anonymous_namespace{CombatSystem.cpp}::GetEmpire()</a>.</p>
 
 </div>
 </div>
-<a id="a987bd4800cfa124198d9006848835fc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a987bd4800cfa124198d9006848835fc3">&#9670;&nbsp;</a></span>objects</h2>
+<a id="a4eedcb8b3088d5644b0e728016b4c583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eedcb8b3088d5644b0e728016b4c583">&#9670;&nbsp;</a></span>galaxy_setup_data</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classObjectMap.html">ObjectMap</a> CombatInfo::objects</td>
+          <td class="memname">const <a class="el" href="structGalaxySetupData.html">GalaxySetupData</a>&amp; CombatInfo::galaxy_setup_data {<a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData</a>()}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>actual state of objects relevant to combat, filtered and copied for system where combat occurs </p>
+</div>
+</div>
+<a id="a492fc0d4cc2d360f4b24514db4647948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a492fc0d4cc2d360f4b24514db4647948">&#9670;&nbsp;</a></span>objects</h2>
 
-<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8886135120ec2f44d042e19f5bb75ce3">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CleanEmpires()</a>, <a class="el" href="structCombatInfo.html#a836f3453073be49cc6e1b4ee73130f74">CombatInfo()</a>, <a class="el" href="structCombatLog.html#a1af067bb23ebba7681a53c767ae35045">CombatLog::CombatLog()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CullTheDead()</a>, <a class="el" href="structCombatInfo.html#ab6e4ca9a4d3d8bcc8fc8c7ae7edf56bd">GetMonsterDetection()</a>, <a class="el" href="structCombatInfo.html#a933cf1e7cee931f7f39010d0dc699412">GetObjectsToSerialize()</a>, <a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">GetSystem()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#af320aa98d8a48bd6c61316bd8fc093b0">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a6f4b23f3cc3ba93edae64d705ce4163a">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::PopulateAttackers()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classObjectMap.html">ObjectMap</a>&gt; CombatInfo::objects</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>actual state of objects relevant to combat, filtered and copied for system where combat occurs, not necessarily consistent with contents of universe's <a class="el" href="classObjectMap.html" title="Contains a set of objects that make up a (known or complete) Universe. ">ObjectMap</a> </p>
+
+<p class="reference">Referenced by <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a195bc074f7f8881ed6186e8261788b24">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::AddFighters()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8fcf211fbc116476d966da192e7b79af">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CheckDestruction()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a8886135120ec2f44d042e19f5bb75ce3">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CleanEmpires()</a>, <a class="el" href="structCombatInfo.html#ae9dd807819b62e9ef85423197b1eee8b">CombatInfo()</a>, <a class="el" href="structCombatLog.html#a1af067bb23ebba7681a53c767ae35045">CombatLog::CombatLog()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9325e2f03a16fab843d6072c3d528fa5">anonymous_namespace{CombatSystem.cpp}::CombatRound()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a77fc7705aee401fafab022be71b95ff4">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::CullTheDead()</a>, <a class="el" href="structCombatInfo.html#ab6e4ca9a4d3d8bcc8fc8c7ae7edf56bd">GetMonsterDetection()</a>, <a class="el" href="structCombatInfo.html#a933cf1e7cee931f7f39010d0dc699412">GetObjectsToSerialize()</a>, <a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">GetSystem()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1EmpireCombatInfo.html#af320aa98d8a48bd6c61316bd8fc093b0">anonymous_namespace{CombatSystem.cpp}::EmpireCombatInfo::HasUnlauchedArmedFighters()</a>, <a class="el" href="structCombatInfo.html#afec35bd66a212e46496d9f577f6b8ab8">InitializeObjectVisibility()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a6f4b23f3cc3ba93edae64d705ce4163a">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::PopulateAttackers()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae079d178321db0937ee1cb8f4896ac7e">anonymous_namespace{CombatSystem.cpp}::RecoverFighters()</a>, <a class="el" href="structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a44a265e0f1cce6f8f749ae416bccff0c">anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo::ReportInvisibleObjects()</a>, <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>, and <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a9abbef0c2e7a56febd159b97d57508c9">anonymous_namespace{CombatSystem.cpp}::ShootAllWeapons()</a>.</p>
+
+</div>
+</div>
+<a id="aac244f58e5be1dafaa2b76d22239bfc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac244f58e5be1dafaa2b76d22239bfc5">&#9670;&nbsp;</a></span>species</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classSpeciesManager.html">SpeciesManager</a>&amp; CombatInfo::species {<a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager</a>()}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee9f76c46ab03d23d7da55a8ae03cf95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee9f76c46ab03d23d7da55a8ae03cf95">&#9670;&nbsp;</a></span>supply</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classSupplyManager.html">SupplyManager</a>&amp; CombatInfo::supply {<a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager</a>()}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -867,7 +913,7 @@ template&lt;typename Archive &gt; </div>
 
 <p>ID of system where combat is occurring (could be INVALID_OBJECT_ID ?) </p>
 
-<p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="structCombatInfo.html#a836f3453073be49cc6e1b4ee73130f74">CombatInfo()</a>, <a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">GetSystem()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="structCombatInfo.html#ae9dd807819b62e9ef85423197b1eee8b">CombatInfo()</a>, <a class="el" href="structCombatInfo.html#aaa7a34b4b6a9bc173edefd6ceca0707c">GetSystem()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -885,7 +931,21 @@ template&lt;typename Archive &gt; </div>
 
 <p>main game turn </p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a49c5aadc322f0769a8c263626886bfe8">anonymous_namespace{CombatSystem.cpp}::AttackFighterPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a70276781e06b34003a220af0745b3b5d">anonymous_namespace{CombatSystem.cpp}::AttackFighterShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a998ef09b41ef28ad5ec74aee5754322b">anonymous_namespace{CombatSystem.cpp}::AttackPlanetShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a587a8b9e95a5d625c50758e6bc7fe50a">anonymous_namespace{CombatSystem.cpp}::AttackShipFighter()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ad0fa699cb6ec81ad60aada5c04375e2d">anonymous_namespace{CombatSystem.cpp}::AttackShipPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae25066d21373a99cb59d1afbe86d92ee">anonymous_namespace{CombatSystem.cpp}::AttackShipShip()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae2b89d27d6eb398db67d4a63ef38e726">anonymous_namespace{CombatSystem.cpp}::LaunchFighters()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a68c6ef0d6938c4cf818cd1f249c2e1d1">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a49c5aadc322f0769a8c263626886bfe8">anonymous_namespace{CombatSystem.cpp}::AttackFighterPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a70276781e06b34003a220af0745b3b5d">anonymous_namespace{CombatSystem.cpp}::AttackFighterShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a998ef09b41ef28ad5ec74aee5754322b">anonymous_namespace{CombatSystem.cpp}::AttackPlanetShip()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a587a8b9e95a5d625c50758e6bc7fe50a">anonymous_namespace{CombatSystem.cpp}::AttackShipFighter()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ad0fa699cb6ec81ad60aada5c04375e2d">anonymous_namespace{CombatSystem.cpp}::AttackShipPlanet()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae25066d21373a99cb59d1afbe86d92ee">anonymous_namespace{CombatSystem.cpp}::AttackShipShip()</a>, <a class="el" href="CombatSystem_8h.html#a7f27420ecf67037df6ef23d9da050864">AutoResolveCombat()</a>, <a class="el" href="namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#ae2b89d27d6eb398db67d4a63ef38e726">anonymous_namespace{CombatSystem.cpp}::LaunchFighters()</a>, and <a class="el" href="SerializeCombat_8cpp.html#a58325a7e510033bbea520ef48d526f5b">serialize()</a>.</p>
+
+</div>
+</div>
+<a id="ac819bdf872e2afaa08589ce9b4a71d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac819bdf872e2afaa08589ce9b4a71d15">&#9670;&nbsp;</a></span>universe</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classUniverse.html">Universe</a>&amp; CombatInfo::universe {<a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse</a>()}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

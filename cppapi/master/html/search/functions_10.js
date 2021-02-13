@@ -271,7 +271,7 @@ var searchData=
   ['propagatevisibilitytosystemsalongstarlanes',['PropagateVisibilityToSystemsAlongStarlanes',['../namespaceanonymous__namespace_02Universe_8cpp_03.html#aaee28bbbdd88521616f9770c64b2f315',1,'anonymous_namespace{Universe.cpp}']]],
   ['propertyname',['PropertyName',['../structValueRef_1_1Variable.html#a43e5d21546b267965a585b03808fb61c',1,'ValueRef::Variable']]],
   ['pts',['Pts',['../classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b',1,'ClientUI']]],
-  ['publicname',['PublicName',['../classField.html#ab3725902b81e899be95a8435e18e3e0c',1,'Field::PublicName()'],['../classShip.html#a33a77cbd2851565fa9e91a7da5ddecca',1,'Ship::PublicName()']]],
+  ['publicname',['PublicName',['../classField.html#adb68e988ad6da0c94a12d02d104f6ac6',1,'Field::PublicName()'],['../classShip.html#ab4e20cddb45f1373b7b8f6ea46a911e8',1,'Ship::PublicName()']]],
   ['publicnamelink',['PublicNameLink',['../namespaceanonymous__namespace_02CombatEvents_8cpp_03.html#a5dec61ce4c57eaf3b2e6ba7a7ac43018',1,'anonymous_namespace{CombatEvents.cpp}']]],
   ['push_5fback',['push_back',['../structInfluenceQueue.html#a927c615894a51e982ce17a1c1751f3ac',1,'InfluenceQueue::push_back()'],['../structResearchQueue.html#a73bcf56bcb6fbc440e0a3c1f1d1db3f1',1,'ResearchQueue::push_back()']]],
   ['pushback',['PushBack',['../classMessageQueue.html#a609adad07d51f30c9d047fabf205934a',1,'MessageQueue']]],

@@ -60,6 +60,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structWaitingForGameStart-members.html">List of all members</a>  </div>
@@ -83,12 +84,19 @@ $(function() {
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html">GameStartDataUnpackedNotification</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart_1_1UnpackFailedNotification.html">UnpackFailedNotification</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ae1251b1e70c48a7a4ce02051acfb8d3b"><td class="memItemLeft" align="right" valign="top">typedef boost::statechart::state&lt; <a class="el" href="structWaitingForGameStart.html">WaitingForGameStart</a>, <a class="el" href="structPlayingGame.html">PlayingGame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#ae1251b1e70c48a7a4ce02051acfb8d3b">Base</a></td></tr>
 <tr class="separator:ae1251b1e70c48a7a4ce02051acfb8d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a949f3aa209b497ff6bfd3f11debab7"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; GameStart &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#a8a949f3aa209b497ff6bfd3f11debab7">reactions</a></td></tr>
-<tr class="separator:a8a949f3aa209b497ff6bfd3f11debab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073a3a75af0f031cfc157c4b60dedf4b"><td class="memItemLeft" align="right" valign="top">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt; GameStart &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html">GameStartDataUnpackedNotification</a> &gt;, boost::statechart::custom_reaction&lt; <a class="el" href="structWaitingForGameStart_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#a073a3a75af0f031cfc157c4b60dedf4b">reactions</a></td></tr>
+<tr class="separator:a073a3a75af0f031cfc157c4b60dedf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -98,6 +106,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a91e4c684e9110cd623f40027a8655112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f5d59f0259fe99c6eec37068b57a37e"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#a2f5d59f0259fe99c6eec37068b57a37e">react</a> (const GameStart &amp;msg)</td></tr>
 <tr class="separator:a2f5d59f0259fe99c6eec37068b57a37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643d3903ff35c6a60ce3e711d83653dd"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#a643d3903ff35c6a60ce3e711d83653dd">react</a> (const <a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html">GameStartDataUnpackedNotification</a> &amp;data)</td></tr>
+<tr class="separator:a643d3903ff35c6a60ce3e711d83653dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4308e6a318e0166f4856dfce6e457b78"><td class="memItemLeft" align="right" valign="top">boost::statechart::result&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWaitingForGameStart.html#a4308e6a318e0166f4856dfce6e457b78">react</a> (const <a class="el" href="structWaitingForGameStart_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &amp;)</td></tr>
+<tr class="separator:a4308e6a318e0166f4856dfce6e457b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The human client state in which a game has been started but the start of game message hasn't been received yet from the server. </p>
@@ -116,14 +128,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a949f3aa209b497ff6bfd3f11debab7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a949f3aa209b497ff6bfd3f11debab7">&#9670;&nbsp;</a></span>reactions</h2>
+<a id="a073a3a75af0f031cfc157c4b60dedf4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073a3a75af0f031cfc157c4b60dedf4b">&#9670;&nbsp;</a></span>reactions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;GameStart&gt; &gt; <a class="el" href="structWaitingForGameStart.html#a8a949f3aa209b497ff6bfd3f11debab7">WaitingForGameStart::reactions</a></td>
+          <td class="memname">typedef boost::mpl::list&lt; boost::statechart::custom_reaction&lt;GameStart&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html">GameStartDataUnpackedNotification</a>&gt;, boost::statechart::custom_reaction&lt;<a class="el" href="structWaitingForGameStart_1_1UnpackFailedNotification.html">UnpackFailedNotification</a>&gt; &gt; <a class="el" href="structWaitingForGameStart.html#a073a3a75af0f031cfc157c4b60dedf4b">WaitingForGameStart::reactions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,7 +184,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2f5d59f0259fe99c6eec37068b57a37e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f5d59f0259fe99c6eec37068b57a37e">&#9670;&nbsp;</a></span>react()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5d59f0259fe99c6eec37068b57a37e">&#9670;&nbsp;</a></span>react() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +199,45 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Message_8cpp.html#a4e41d5a7a223b2ef985ee68fadee7395">ExtractGameStartMessageData()</a>, <a class="el" href="HumanClientFSM_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="Empire_8h.html#a73d0faa69877b5ace7b067cdf32dfbcf">INVALID_GAME_TURN</a>, <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4b062f31d1dfbba25ef19d57929385d4">anonymous_namespace{AIWrapper.cpp}::PlayerIsHost()</a>, <a class="el" href="classGameRules.html#a5931f3278b6ef393668f7ad68b10bac6">GameRules::SetFromStrings()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="i18n_8cpp.html#abe5a3421a4ab2f0085f7aeede0ff8d38">UserString()</a>.</p>
+
+</div>
+</div>
+<a id="a643d3903ff35c6a60ce3e711d83653dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643d3903ff35c6a60ce3e711d83653dd">&#9670;&nbsp;</a></span>react() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForGameStart::react </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html">GameStartDataUnpackedNotification</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="HumanClientFSM_8cpp.html#a46136fbd48b783c2f48c90473dcdb234">GetCombatLogManager()</a>, <a class="el" href="AppInterface_8h.html#af57aa8158ce86cb5d6fb67d32490d932">GetGalaxySetupData()</a>, <a class="el" href="GameRules_8cpp.html#a596d14b3b4a5f93dca44041d7df32117">GetGameRules()</a>, <a class="el" href="AppInterface_8h.html#a6017338e769f18797435331183e6eb86">GetSpeciesManager()</a>, <a class="el" href="AppInterface_8h.html#a9616e3d8f6009cde30d9ce5910f9568b">GetSupplyManager()</a>, <a class="el" href="AppInterface_8h.html#a19babcfc0de6e82cce14bc08e660faf4">GetUniverse()</a>, <a class="el" href="namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a4b062f31d1dfbba25ef19d57929385d4">anonymous_namespace{AIWrapper.cpp}::PlayerIsHost()</a>, <a class="el" href="classGameRules.html#a5931f3278b6ef393668f7ad68b10bac6">GameRules::SetFromStrings()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="structWaitingForGameStart_1_1GameStartDataUnpackedNotification.html#ad5f01318d9be36d320417da17de67a59">WaitingForGameStart::GameStartDataUnpackedNotification::unpacked</a>.</p>
+
+</div>
+</div>
+<a id="a4308e6a318e0166f4856dfce6e457b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4308e6a318e0166f4856dfce6e457b78">&#9670;&nbsp;</a></span>react() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::statechart::result WaitingForGameStart::react </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structWaitingForGameStart_1_1UnpackFailedNotification.html">UnpackFailedNotification</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

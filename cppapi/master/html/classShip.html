@@ -171,8 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaa86ff250a33c3660c95aaedd787b307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed23fb1cbc7e549eff95c0b58a2f6daf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#aed23fb1cbc7e549eff95c0b58a2f6daf">HasTroops</a> () const</td></tr>
 <tr class="separator:aed23fb1cbc7e549eff95c0b58a2f6daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a384357fee210b8bb556daff096265f93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a384357fee210b8bb556daff096265f93">HostileToEmpire</a> (int empire_id) const override</td></tr>
-<tr class="separator:a384357fee210b8bb556daff096265f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8d3d6a99a52bc271d31541fe960081"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#abf8d3d6a99a52bc271d31541fe960081">HostileToEmpire</a> (int empire_id, const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires) const override</td></tr>
+<tr class="separator:abf8d3d6a99a52bc271d31541fe960081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9047f5ddf9239968adb61906f8111cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#ae9047f5ddf9239968adb61906f8111cb">InitialPartMeterValue</a> (MeterType type, const std::string &amp;part_name) const</td></tr>
 <tr class="memdesc:ae9047f5ddf9239968adb61906f8111cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns this turn's initial value for the specified part meter <em>type</em> for the specified part name  <a href="#ae9047f5ddf9239968adb61906f8111cb">More...</a><br /></td></tr>
 <tr class="separator:ae9047f5ddf9239968adb61906f8111cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,8 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29a50b73211ff0bdee1c9d0da499030f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a29a50b73211ff0bdee1c9d0da499030f">ProducedByEmpireID</a> () const</td></tr>
 <tr class="memdesc:a29a50b73211ff0bdee1c9d0da499030f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the empire ID of the empire that produced this ship  <a href="#a29a50b73211ff0bdee1c9d0da499030f">More...</a><br /></td></tr>
 <tr class="separator:a29a50b73211ff0bdee1c9d0da499030f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a77cbd2851565fa9e91a7da5ddecca"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a33a77cbd2851565fa9e91a7da5ddecca">PublicName</a> (int empire_id) const override</td></tr>
-<tr class="separator:a33a77cbd2851565fa9e91a7da5ddecca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e20cddb45f1373b7b8f6ea46a911e8"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#ab4e20cddb45f1373b7b8f6ea46a911e8">PublicName</a> (int empire_id, const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects) const override</td></tr>
+<tr class="separator:ab4e20cddb45f1373b7b8f6ea46a911e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a782041ceed7e81fba8159155fefc80b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a782041ceed7e81fba8159155fefc80b4">ResetPairedActiveMeters</a> () override</td></tr>
 <tr class="separator:a782041ceed7e81fba8159155fefc80b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402566e50f79ea6101ed6d313dd9de17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classShip.html#a402566e50f79ea6101ed6d313dd9de17">ResetTargetMaxUnpairedMeters</a> () override</td></tr>
@@ -910,7 +910,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="ShipDesign_8cpp.html#aec9623ca982c6e5ef8b3a0d03052d7b3">GetShipDesign()</a>, and <a class="el" href="classShip.html#aad8ae990288b2bc98a63e24d6e25e9a1">m_design_id</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classShip.html#a20d1dbc289f2e4784b7753eb2f7442b1">CanBombard()</a>, <a class="el" href="classShip.html#a32684878df38f60356937d5b40425d30">CanColonize()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a0b75f15f305235cc4f99c181942d5960">anonymous_namespace{SidePanel.cpp}::CanColonizePlanetType()</a>, <a class="el" href="classShip.html#ab1edbf9fe7fe6ee4f273703a6e0f40b7">CanHaveTroops()</a>, <a class="el" href="classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d">ColonyCapacity()</a>, <a class="el" href="classShip.html#a08f3239592f2bd8d06ad82bde79a4dfc">HasFighters()</a>, <a class="el" href="classShip.html#ae71f30b4e538388370bbef38a8e793f3">IsMonster()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1DesignHasPartSimpleMatch.html#a8c8b0ebc9c7a6d5f1a715411661377af">Condition::anonymous_namespace{Conditions.cpp}::DesignHasPartSimpleMatch::operator()()</a>, <a class="el" href="classShip.html#a33a77cbd2851565fa9e91a7da5ddecca">PublicName()</a>, <a class="el" href="classShip.html#a035261b1ac55bed6297ea554ec2b25d3">Ship()</a>, <a class="el" href="classShip.html#ae345ec96f512755ac33208c93efc2fae">TroopCapacity()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classShip.html#a20d1dbc289f2e4784b7753eb2f7442b1">CanBombard()</a>, <a class="el" href="classShip.html#a32684878df38f60356937d5b40425d30">CanColonize()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a0b75f15f305235cc4f99c181942d5960">anonymous_namespace{SidePanel.cpp}::CanColonizePlanetType()</a>, <a class="el" href="classShip.html#ab1edbf9fe7fe6ee4f273703a6e0f40b7">CanHaveTroops()</a>, <a class="el" href="classShip.html#a80788f8ec866bd4ecb2373edfdc6d61d">ColonyCapacity()</a>, <a class="el" href="classShip.html#a08f3239592f2bd8d06ad82bde79a4dfc">HasFighters()</a>, <a class="el" href="classShip.html#ae71f30b4e538388370bbef38a8e793f3">IsMonster()</a>, <a class="el" href="structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1DesignHasPartSimpleMatch.html#a8c8b0ebc9c7a6d5f1a715411661377af">Condition::anonymous_namespace{Conditions.cpp}::DesignHasPartSimpleMatch::operator()()</a>, <a class="el" href="classShip.html#ab4e20cddb45f1373b7b8f6ea46a911e8">PublicName()</a>, <a class="el" href="classShip.html#a035261b1ac55bed6297ea554ec2b25d3">Ship()</a>, <a class="el" href="classShip.html#ae345ec96f512755ac33208c93efc2fae">TroopCapacity()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1174,8 +1174,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a384357fee210b8bb556daff096265f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a384357fee210b8bb556daff096265f93">&#9670;&nbsp;</a></span>HostileToEmpire()</h2>
+<a id="abf8d3d6a99a52bc271d31541fe960081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8d3d6a99a52bc271d31541fe960081">&#9670;&nbsp;</a></span>HostileToEmpire()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1187,8 +1187,18 @@ Friends</h2></td></tr>
           <td class="memname">bool Ship::HostileToEmpire </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1198,7 +1208,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, <a class="el" href="AppInterface_8h.html#a6ecd08380f60b7cfe1875ccf98f284c5">Empires()</a>, and <a class="el" href="classEmpireManager.html#a85642da4e8e83bcd76e1101846034686">EmpireManager::GetDiplomaticStatus()</a>.</p>
+<p class="reference">References <a class="el" href="CombatEvents_8h.html#adf0949728524f517fbcb598686053a86">ALL_EMPIRES</a>, and <a class="el" href="classEmpireManager.html#a85642da4e8e83bcd76e1101846034686">EmpireManager::GetDiplomaticStatus()</a>.</p>
 
 </div>
 </div>
@@ -1274,7 +1284,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classShip.html#a1b48ba52ab062f85b747098b94a1cfd2">Design()</a>, and <a class="el" href="classShipDesign.html#a02a6390ad9c0a11fec2b6679f836d20e">ShipDesign::IsMonster()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classShip.html#a33a77cbd2851565fa9e91a7da5ddecca">PublicName()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classShip.html#ab4e20cddb45f1373b7b8f6ea46a911e8">PublicName()</a>, and <a class="el" href="namespaceFreeOrionPython.html#a278d00bbaf218d831d80b1fbc4747faf">FreeOrionPython::WrapUniverseClasses()</a>.</p>
 
 </div>
 </div>
@@ -1535,8 +1545,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a33a77cbd2851565fa9e91a7da5ddecca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33a77cbd2851565fa9e91a7da5ddecca">&#9670;&nbsp;</a></span>PublicName()</h2>
+<a id="ab4e20cddb45f1373b7b8f6ea46a911e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e20cddb45f1373b7b8f6ea46a911e8">&#9670;&nbsp;</a></span>PublicName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1548,8 +1558,18 @@ Friends</h2></td></tr>
           <td class="memname">const std::string &amp; Ship::PublicName </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>empire_id</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>empire_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1634,7 +1654,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classMeter.html#a43d2b75c50c697e5032de4a2631440d8">Meter::BackPropagate()</a>, <a class="el" href="classMeter.html#a7822151dd16feefd66025548f773b030">Meter::Current()</a>, <a class="el" href="AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4">CurrentTurn()</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classShip.html#af9e90e87a22989b71e0ca79ffc1bb30d">m_last_resupplied_on_turn</a>, <a class="el" href="classShip.html#ad06153907d017e7aee0cb7c7a6b9afd0">m_part_meters</a>, and <a class="el" href="classMeter.html#a01d841437963f588224b452d4360914d">Meter::SetCurrent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#ac7aa24fefbec306bd8ebfe5a878b187f">anonymous_namespace{Fleet.cpp}::HasXShips()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02Fleet_8cpp_03.html#a46731a73273af5c58b8554b6e8e55a1a">anonymous_namespace{Fleet.cpp}::HasXShips()</a>.</p>
 
 </div>
 </div>
