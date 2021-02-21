@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structboost_1_1asio_1_1thread__pool-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">boost::asio::thread_pool Struct Reference</div>  </div>
@@ -73,14 +74,23 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af8fe50bcc52c9494641089f22a91d9aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#af8fe50bcc52c9494641089f22a91d9aa">thread_pool</a> (int)</td></tr>
-<tr class="separator:af8fe50bcc52c9494641089f22a91d9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e09bf2c3bfe6477db77d64b07d4c81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#a62e09bf2c3bfe6477db77d64b07d4c81">thread_pool</a> (int num_threads)</td></tr>
+<tr class="separator:a62e09bf2c3bfe6477db77d64b07d4c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ff497d62f3e595cced239fc6982df1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#ad5ff497d62f3e595cced239fc6982df1">join</a> ()</td></tr>
 <tr class="separator:ad5ff497d62f3e595cced239fc6982df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a5f87847275923eb5a92112cd3942a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#a35a5f87847275923eb5a92112cd3942a">post</a> (std::function&lt; void()&gt; func)</td></tr>
+<tr class="separator:a35a5f87847275923eb5a92112cd3942a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2112c314efe31a53d4fa8781353ab9ef"><td class="memItemLeft" align="right" valign="top">boost::asio::io_service&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#a2112c314efe31a53d4fa8781353ab9ef">m_io_service</a></td></tr>
+<tr class="separator:a2112c314efe31a53d4fa8781353ab9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc844bb3da0cd7c02043520d871ff17b"><td class="memItemLeft" align="right" valign="top">boost::thread_group&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1asio_1_1thread__pool.html#afc844bb3da0cd7c02043520d871ff17b">m_thread_pool</a></td></tr>
+<tr class="separator:afc844bb3da0cd7c02043520d871ff17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af8fe50bcc52c9494641089f22a91d9aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8fe50bcc52c9494641089f22a91d9aa">&#9670;&nbsp;</a></span>thread_pool()</h2>
+<a id="a62e09bf2c3bfe6477db77d64b07d4c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e09bf2c3bfe6477db77d64b07d4c81">&#9670;&nbsp;</a></span>thread_pool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -92,7 +102,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">boost::asio::thread_pool::thread_pool </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>num_threads</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -102,6 +112,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structboost_1_1asio_1_1thread__pool.html#a2112c314efe31a53d4fa8781353ab9ef">m_io_service</a>, and <a class="el" href="structboost_1_1asio_1_1thread__pool.html#afc844bb3da0cd7c02043520d871ff17b">m_thread_pool</a>.</p>
 
 </div>
 </div>
@@ -129,7 +141,88 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="structboost_1_1asio_1_1thread__pool.html#afc844bb3da0cd7c02043520d871ff17b">m_thread_pool</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="classUniverse.html#ae6a66c07f90fea0911c7de383a55c75d">Universe::GetEffectsAndTargets()</a>.</p>
+
+</div>
+</div>
+<a id="a35a5f87847275923eb5a92112cd3942a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a5f87847275923eb5a92112cd3942a">&#9670;&nbsp;</a></span>post()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void boost::asio::thread_pool::post </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="structboost_1_1asio_1_1thread__pool.html#a2112c314efe31a53d4fa8781353ab9ef">m_io_service</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceboost_1_1asio.html#a8e344b2987bd1d920514d3f7175c7d84">boost::asio::post()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2112c314efe31a53d4fa8781353ab9ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2112c314efe31a53d4fa8781353ab9ef">&#9670;&nbsp;</a></span>m_io_service</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::asio::io_service boost::asio::thread_pool::m_io_service</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structboost_1_1asio_1_1thread__pool.html#a35a5f87847275923eb5a92112cd3942a">post()</a>, and <a class="el" href="structboost_1_1asio_1_1thread__pool.html#a62e09bf2c3bfe6477db77d64b07d4c81">thread_pool()</a>.</p>
+
+</div>
+</div>
+<a id="afc844bb3da0cd7c02043520d871ff17b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc844bb3da0cd7c02043520d871ff17b">&#9670;&nbsp;</a></span>m_thread_pool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::thread_group boost::asio::thread_pool::m_thread_pool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structboost_1_1asio_1_1thread__pool.html#ad5ff497d62f3e595cced239fc6982df1">join()</a>, and <a class="el" href="structboost_1_1asio_1_1thread__pool.html#a62e09bf2c3bfe6477db77d64b07d4c81">thread_pool()</a>.</p>
 
 </div>
 </div>
