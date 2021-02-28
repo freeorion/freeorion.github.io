@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Special.cpp File Reference</div>  </div>
@@ -82,6 +83,11 @@ $(function() {
 <code>#include &quot;<a class="el" href="ScopedTimer_8h.html">../util/ScopedTimer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="i18n_8h.html">../util/i18n.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acf188e2e78b1077b1acea105654d9e1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Special_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>(m_ptr)</td></tr>
+<tr class="separator:acf188e2e78b1077b1acea105654d9e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0f2dbf950b1bef4d620495a4d101e1a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSpecial.html">Special</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Special_8cpp.html#a0f2dbf950b1bef4d620495a4d101e1a6">GetSpecial</a> (const std::string &amp;name)</td></tr>
@@ -93,6 +99,27 @@ Functions</h2></td></tr>
 <tr class="memdesc:a24ddb30cf847a66169863f61e19e7184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of all specials.  <a href="#a24ddb30cf847a66169863f61e19e7184">More...</a><br /></td></tr>
 <tr class="separator:a24ddb30cf847a66169863f61e19e7184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="acf188e2e78b1077b1acea105654d9e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf188e2e78b1077b1acea105654d9e1b">&#9670;&nbsp;</a></span>CHECK_COND_VREF_MEMBER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHECK_COND_VREF_MEMBER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m_ptr</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ <span class="keywordflow">if</span> (m_ptr == rhs.m_ptr) {           \</div><div class="line">                                            <span class="comment">/* check next member */</span>         \</div><div class="line">                                        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!m_ptr || !rhs.m_ptr) {  \</div><div class="line">                                            return <span class="keyword">false</span>;                   \</div><div class="line">                                        } <span class="keywordflow">else</span> {                            \</div><div class="line">                                            if (*m_ptr != *(rhs.m_ptr))     \</div><div class="line">                                                return <span class="keyword">false</span>;               \</div><div class="line">                                        }   }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="classSpecial.html#a8832e1c53b7b1061199068fe6073d93b">Special::operator==()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a0f2dbf950b1bef4d620495a4d101e1a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f2dbf950b1bef4d620495a4d101e1a6">&#9670;&nbsp;</a></span>GetSpecial()</h2>
