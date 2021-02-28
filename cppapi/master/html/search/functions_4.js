@@ -67,7 +67,7 @@ var searchData=
   ['destination',['Destination',['../classClientNetworking_1_1Impl.html#aa0f27baa538590f6f1ecf0a05e176688',1,'ClientNetworking::Impl::Destination()'],['../classClientNetworking.html#a4a4037b00301bfeab1027c0b33ef7086',1,'ClientNetworking::Destination()']]],
   ['destinationfleet',['DestinationFleet',['../classFleetTransferOrder.html#a37d3e5ff78d30c45c0e48571bfae4e25',1,'FleetTransferOrder']]],
   ['destinationsystemid',['DestinationSystemID',['../classFleetMoveOrder.html#a5a0e3f40dd813d3da31758a8fd70a1d9',1,'FleetMoveOrder']]],
-  ['destroy',['Destroy',['../classEffect_1_1Destroy.html#a6d1033968c2b9baef3e433a704a1b369',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()']]],
+  ['destroy',['Destroy',['../classEffect_1_1Destroy.html#a08d0a9370581543ca9308add1f350fac',1,'Effect::Destroy::Destroy()'],['../classUniverse.html#a451971b0e8ae45dd94e38f5aa0fed040',1,'Universe::Destroy()']]],
   ['destroyed',['Destroyed',['../classFighter.html#a1f3faea6079d72c67053de6c38cc8a0f',1,'Fighter']]],
   ['destroyedobjectids',['DestroyedObjectIds',['../classUniverse.html#a8e107e3700efd08394f4a0d03546ebb7',1,'Universe']]],
   ['destroyedunits',['DestroyedUnits',['../structCombatSummary.html#a6638e3efb0f00092c7681b04f050be13',1,'CombatSummary']]],

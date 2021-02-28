@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -105,6 +106,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceEffect"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEffect.html">Effect</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acf188e2e78b1077b1acea105654d9e1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Effects_8cpp.html#acf188e2e78b1077b1acea105654d9e1b">CHECK_COND_VREF_MEMBER</a>(m_ptr)</td></tr>
+<tr class="separator:acf188e2e78b1077b1acea105654d9e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:adb81b840d6b414bab06cd568ddd7cd4c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Fleet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02Effects_8cpp_03.html#adb81b840d6b414bab06cd568ddd7cd4c">anonymous_namespace{Effects.cpp}::CreateNewFleet</a> (double x, double y, std::shared_ptr&lt; <a class="el" href="classShip.html">Ship</a> &gt; ship, FleetAggression aggression=FleetAggression::INVALID_FLEET_AGGRESSION)</td></tr>
@@ -131,6 +137,27 @@ Variables</h2></td></tr>
 <tr class="memitem:a725aac69cb80e8eba376811265b27c4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Effects_8cpp.html#a725aac69cb80e8eba376811265b27c4e">INVALID_DESIGN_ID</a></td></tr>
 <tr class="separator:a725aac69cb80e8eba376811265b27c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="acf188e2e78b1077b1acea105654d9e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf188e2e78b1077b1acea105654d9e1b">&#9670;&nbsp;</a></span>CHECK_COND_VREF_MEMBER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHECK_COND_VREF_MEMBER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m_ptr</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ <span class="keywordflow">if</span> (m_ptr == rhs_.m_ptr) {              \</div><div class="line">                                            <span class="comment">/* check next member */</span>             \</div><div class="line">                                        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!m_ptr || !rhs_.m_ptr) {     \</div><div class="line">                                            return <span class="keyword">false</span>;                       \</div><div class="line">                                        } <span class="keywordflow">else</span> {                                \</div><div class="line">                                            if (*m_ptr != *(rhs_.m_ptr))        \</div><div class="line">                                                return <span class="keyword">false</span>;                   \</div><div class="line">                                        }   }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="classEffect_1_1SetMeter.html#a4fd8adbefdf585ae0edf074f3f678256">Effect::SetMeter::operator==()</a>, <a class="el" href="classEffect_1_1SetShipPartMeter.html#ad80ae77f6c8462e5c4996ac01f85c941">Effect::SetShipPartMeter::operator==()</a>, <a class="el" href="classEffect_1_1SetEmpireMeter.html#a81be61fa8bf47247d0b012ecf50b54da">Effect::SetEmpireMeter::operator==()</a>, <a class="el" href="classEffect_1_1SetEmpireStockpile.html#aff18d2dc07575a1402fa01b146b261dd">Effect::SetEmpireStockpile::operator==()</a>, and <a class="el" href="classEffect_1_1SetEmpireCapital.html#a08d44a399ffb7bc2af8c7809275976b8">Effect::SetEmpireCapital::operator==()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a725aac69cb80e8eba376811265b27c4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a725aac69cb80e8eba376811265b27c4e">&#9670;&nbsp;</a></span>INVALID_DESIGN_ID</h2>
