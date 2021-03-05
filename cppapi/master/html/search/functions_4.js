@@ -153,7 +153,6 @@ var searchData=
   ['draw',['Draw',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a426a1b48e4c552d6595d9669e0f241ca',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel::Draw()'],['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a93eb3c38608362c5395572ab1d2a622a',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel::Draw()']]],
   ['drawarrow',['DrawArrow',['../classSideBar.html#a1d31f3a7669827de6a758eb7f803a40a',1,'SideBar']]],
   ['drawcredits',['DrawCredits',['../classCreditsWnd.html#aca3a19f61eb2d1650d295d92d27f53ee',1,'CreditsWnd']]],
-  ['drop_5fwidth',['DROP_WIDTH',['../namespaceanonymous__namespace_02ModeratorActionsWnd_8cpp_03.html#a7543a4928df625d0ff16ecc800b1d65e',1,'anonymous_namespace{ModeratorActionsWnd.cpp}']]],
   ['dropdownlistarrowcolor',['DropDownListArrowColor',['../classClientUI.html#a68bcf8f36cafb3db93b65c63b62b84eb',1,'ClientUI']]],
   ['droplistdropheight',['DropListDropHeight',['../classConditionWidget.html#a4bdf5867249cc5cc6a5d4bcf0625c068',1,'ConditionWidget']]],
   ['droplistheight',['DropListHeight',['../classConditionWidget.html#a6d785317335cb81ac07db116505b786b',1,'ConditionWidget']]],

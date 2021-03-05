@@ -44,7 +44,7 @@ var searchData=
   ['origin',['origin',['../structGetPathsThroughSupplyLanes_1_1PrevCurrInfo.html#a4b3049694b077329100740c1cc55344d',1,'GetPathsThroughSupplyLanes::PrevCurrInfo']]],
   ['original_5fobj',['original_obj',['../classparse_1_1detail_1_1MovableEnvelope.html#a91fa4be29103413825f582eaf27f0df6',1,'parse::detail::MovableEnvelope']]],
   ['others',['others',['../structWithinJumpsOfOthersObjectVisitor.html#ace9e325bb735f9c3bda2edb5ff148649',1,'WithinJumpsOfOthersObjectVisitor']]],
-  ['outer_5fedge_5fangle_5foffset',['OUTER_EDGE_ANGLE_OFFSET',['../classCUIWnd.html#a266942f29f9e767cbada15764a939708',1,'CUIWnd']]],
+  ['outer_5fedge_5fangle_5foffset',['OUTER_EDGE_ANGLE_OFFSET',['../classCUIWnd.html#a988bbf2266ac5e945dbeaa69ae2f3fd7',1,'CUIWnd']]],
   ['outer_5fline_5fthickness',['OUTER_LINE_THICKNESS',['../namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#af9b6ac2136674dacbcaf74d3a3e7acfd',1,'anonymous_namespace{ProductionWnd.cpp}::OUTER_LINE_THICKNESS()'],['../namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#af12a4e35c9d202cd24a46e4c904c721a',1,'anonymous_namespace{ResearchWnd.cpp}::OUTER_LINE_THICKNESS()']]],
   ['outgoing_5fedges',['outgoing_edges',['../classTechTreeLayout_1_1Node.html#a916f28799a76cd54edfbb152de88a92a',1,'TechTreeLayout::Node']]],
   ['outposts_5fowned',['outposts_owned',['../structparse_1_1int__complex__parser__grammar.html#a58d86ccf34e26e24e44818a3aafd1628',1,'parse::int_complex_parser_grammar']]],

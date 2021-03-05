@@ -89,7 +89,6 @@ var searchData=
   ['togglesuperfluous',['ToggleSuperfluous',['../classDesignWnd_1_1PartPalette.html#a754ecd4ed1d70909594829ee27c0d722',1,'DesignWnd::PartPalette']]],
   ['toggletype',['ToggleType',['../classBuildDesignatorWnd.html#a2b821f686b1b96733e469de4ab567693',1,'BuildDesignatorWnd']]],
   ['toggleviewtype',['ToggleViewType',['../classTechTreeWnd.html#a0b55b982bde3f02ff886b929a9b1ad5d',1,'TechTreeWnd']]],
-  ['toolbar_5fheight',['TOOLBAR_HEIGHT',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a3163554538f228899e3ca071019284d0',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['topborder',['TopBorder',['../classCUIWnd.html#afff6ca75f8f3f6e7f8e2d56cd2c361d4',1,'CUIWnd']]],
   ['tostring',['ToString',['../classHotkey.html#a9feca73b30f44121bea75f3f0a5abc80',1,'Hotkey']]],
   ['totalavailable',['TotalAvailable',['../classResourcePool.html#aed31a5ea4d27eda4e54a535fc7866fc0',1,'ResourcePool']]],

@@ -3,8 +3,8 @@ var searchData=
   ['damage',['damage',['../structWeaponFireEvent.html#a46f93c8cd5cad77225bbcc73e323164d',1,'WeaponFireEvent::damage()'],['../structanonymous__namespace_02MeterBrowseWnd_8cpp_03_1_1FighterBoutInfo.html#af623f83bd1dc5bb72ef76bed3bdd3b72',1,'anonymous_namespace{MeterBrowseWnd.cpp}::FighterBoutInfo::damage()']]],
   ['damaged_5fobject_5fids',['damaged_object_ids',['../structCombatLog.html#aeeb8fdbc31517a2db2087044d07a7bd1',1,'CombatLog::damaged_object_ids()'],['../structCombatInfo.html#a8e1a7b73200fc5147321cd2128da30fe',1,'CombatInfo::damaged_object_ids()']]],
   ['data',['data',['../structTextLinker_1_1Link.html#a249551c48190603fc5cb9af9d893fcf7',1,'TextLinker::Link']]],
-  ['data_5fpanel_5fborder',['DATA_PANEL_BORDER',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a531a98b8cc530a34d08e656ebf6179f3',1,'anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae9cdd5155d2d6499892fb5b83d49e73a',1,'anonymous_namespace{ObjectListWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a58d737422e793f1559583ccd59a6e9d1',1,'anonymous_namespace{PlayerListWnd.cpp}::DATA_PANEL_BORDER()']]],
-  ['data_5fpanel_5ftext_5fpad',['DATA_PANEL_TEXT_PAD',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ad6beea5a11eedddae67690f71a8821d2',1,'anonymous_namespace{FleetWnd.cpp}']]],
+  ['data_5fpanel_5fborder',['DATA_PANEL_BORDER',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#aa0d861a2e66dacd51dddc59f999f3e3a',1,'anonymous_namespace{FleetWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ae9cdd5155d2d6499892fb5b83d49e73a',1,'anonymous_namespace{ObjectListWnd.cpp}::DATA_PANEL_BORDER()'],['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a1f7da63c5569a90167dda8ce8bc6e920',1,'anonymous_namespace{PlayerListWnd.cpp}::DATA_PANEL_BORDER()']]],
+  ['data_5fpanel_5ftext_5fpad',['DATA_PANEL_TEXT_PAD',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a561206a2a0d7f481505d0f6cc278be77',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['datachangedsignal',['DataChangedSignal',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1PlayerRow.html#a104113fa6051b4f18a3f866dc34363f6',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::PlayerRow']]],
   ['default',['default',['../namespacetag__parser.html#a486501c3ceec9ee59d2ff19228193f2f',1,'tag_parser']]],
   ['default_5fdecorator',['DEFAULT_DECORATOR',['../classTextLinker.html#a76d3304fbc1402830c2f4afe891568dd',1,'TextLinker']]],
@@ -14,7 +14,7 @@ var searchData=
   ['default_5fheight',['DEFAULT_HEIGHT',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#ac7e2ebc1fb8dbd9aec21b7a6e7e65580',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['default_5fleft',['DEFAULT_LEFT',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a5c7972649583cffeadc1b1b334eeb62f',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['default_5flog_5flevel_5fthreshold',['default_log_level_threshold',['../Logger_8h.html#a5b570a064704e27839d00bbe995a1023',1,'Logger.h']]],
-  ['default_5frow_5fheight',['DEFAULT_ROW_HEIGHT',['../structCUISimpleDropDownListRow.html#a4547ab06040cf1b91a1e02e6effda16b',1,'CUISimpleDropDownListRow']]],
+  ['default_5frow_5fheight',['DEFAULT_ROW_HEIGHT',['../structCUISimpleDropDownListRow.html#a789103ed790696a5570b67821e91116e',1,'CUISimpleDropDownListRow']]],
   ['default_5fsink_5flevel',['default_sink_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#aacf4f216045f5d85f81303b29c9eb16e',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['default_5fsource_5flevel',['default_source_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ae901e210a18b41f5bf144f08b90be1d9',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['default_5fspeed_5feffects',['default_speed_effects',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#a10615870a37f1b18707b8db3175fe5d0',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
@@ -83,6 +83,7 @@ var searchData=
   ['doubleclickedsignal',['DoubleClickedSignal',['../classPartControl.html#a5fd4dc33ea4a0917052957d0bd84b92d',1,'PartControl::DoubleClickedSignal()'],['../classPolicyControl.html#a743168bba2a7ea25fa92db7713e02c60',1,'PolicyControl::DoubleClickedSignal()']]],
   ['downpressedsignal',['DownPressedSignal',['../classMessageWndEdit.html#ab9f022adc3498aaf50a6e154ffa3281d',1,'MessageWndEdit']]],
   ['draggedsignal',['DraggedSignal',['../classTechTreeWnd_1_1LayoutPanel_1_1LayoutSurface.html#a539794ded3fb8e2e1a2c484e4621f9ca',1,'TechTreeWnd::LayoutPanel::LayoutSurface']]],
+  ['drop_5fwidth',['DROP_WIDTH',['../namespaceanonymous__namespace_02ModeratorActionsWnd_8cpp_03.html#a0f88f013fb401272802f609e8c7f22b8',1,'anonymous_namespace{ModeratorActionsWnd.cpp}']]],
   ['dummy',['dummy',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a6a06482707e7fd792cfc6529494b8f44',1,'anonymous_namespace{CUIWnd.cpp}::dummy()'],['../namespaceanonymous__namespace_02ValueRefs_8cpp_03.html#adb3fa43e4287246d932fbf1799590e75',1,'anonymous_namespace{ValueRefs.cpp}::dummy()']]],
   ['dummy_5fempty_5fmessage',['DUMMY_EMPTY_MESSAGE',['../namespaceanonymous__namespace_02Message_8cpp_03.html#a31ce869a27e6f4f35a6fe5d7e2fcee74',1,'anonymous_namespace{Message.cpp}']]]
 ];

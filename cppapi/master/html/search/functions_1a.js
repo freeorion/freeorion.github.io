@@ -1,7 +1,6 @@
 var searchData=
 [
   ['zoom',['Zoom',['../classMapWnd.html#a2847afb3a89e767302f05eb9ec674883',1,'MapWnd::Zoom(int delta)'],['../classMapWnd.html#af5e41426d48842b450ffdc8676f2f2b4',1,'MapWnd::Zoom(int delta, const GG::Pt &amp;position)']]],
-  ['zoom_5fslider_5fheight',['ZOOM_SLIDER_HEIGHT',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#acae90218680c9738873cb2a2c4ae73fc',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['zoomfactor',['ZoomFactor',['../classMapWnd.html#ab9c2bc383fe1a5f743c82abb4f502f49',1,'MapWnd']]],
   ['zoomscalefactor',['ZoomScaleFactor',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#abc9c6c3a8d43784d3038b55ebe66b0c8',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['zoomtobuilding',['ZoomToBuilding',['../classClientUI.html#a9977d22a02dd663294b8c27fc5e6df96',1,'ClientUI']]],
