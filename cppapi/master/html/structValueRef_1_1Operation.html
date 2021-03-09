@@ -100,6 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4ef61e9fef5457881889b9e2c3372cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4afd01fa37e553b1c9bb30f9aa23c838"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a4afd01fa37e553b1c9bb30f9aa23c838">Operation</a> (<a class="el" href="namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfef">OpType</a> op_type, std::vector&lt; std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt; T &gt;&gt;&gt; &amp;&amp;operands)</td></tr>
 <tr class="separator:a4afd01fa37e553b1c9bb30f9aa23c838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6585ab0db95947bd1dfbe2a81e33adc2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a6585ab0db95947bd1dfbe2a81e33adc2">Clone</a> () const override</td></tr>
+<tr class="memdesc:a6585ab0db95947bd1dfbe2a81e33adc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer.  <a href="#a6585ab0db95947bd1dfbe2a81e33adc2">More...</a><br /></td></tr>
+<tr class="separator:a6585ab0db95947bd1dfbe2a81e33adc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94182ca556f6351ee7b3294cbb4d6601"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a94182ca556f6351ee7b3294cbb4d6601">ConstantExpr</a> () const override</td></tr>
 <tr class="separator:a94182ca556f6351ee7b3294cbb4d6601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63baa1033e16f97a508c33d1b5b74eec"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Operation.html#a63baa1033e16f97a508c33d1b5b74eec">Description</a> () const override</td></tr>
@@ -356,6 +359,40 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a6585ab0db95947bd1dfbe2a81e33adc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6585ab0db95947bd1dfbe2a81e33adc2">&#9670;&nbsp;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt;T&gt; &gt; <a class="el" href="structValueRef_1_1Operation.html">ValueRef::Operation</a>&lt; T &gt;::Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer. </p>
+<p>Required for Boost.Python, which doesn't supports move semantics for returned values. </p>
+
+<p>Implements <a class="el" href="structValueRef_1_1ValueRef.html#a18c31f06cdadcb676681243283ccf4d0">ValueRef::ValueRef&lt; T &gt;</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceValueRef.html#afd2aed27c32fd510a4e2365d82789ec8">ValueRef::CloneUnique()</a>, and <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#ab8123b471eadbb64f9fd463413124cd0">anonymous_namespace{Conditions.cpp}::EvalImpl()</a>.</p>
+
+</div>
+</div>
 <a id="a94182ca556f6351ee7b3294cbb4d6601"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94182ca556f6351ee7b3294cbb4d6601">&#9670;&nbsp;</a></span>ConstantExpr()</h2>
 
@@ -383,7 +420,7 @@ template&lt;typename T&gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#af4852910fd61751bc60d3a5c066a217b">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>, and <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#ab8123b471eadbb64f9fd463413124cd0">anonymous_namespace{Conditions.cpp}::EvalImpl()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceEffect.html#ae22def3ac6ee99867c41c866e9f26724">Effect::Dump()</a>.</p>
 
 </div>
 </div>

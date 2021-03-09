@@ -94,6 +94,9 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abf2703ebe736ea9a8a77b940a87281a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#abf2703ebe736ea9a8a77b940a87281a0">NamedRef</a> (std::string value_ref_name, bool is_only_lookup=false)</td></tr>
 <tr class="separator:abf2703ebe736ea9a8a77b940a87281a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d0f4d9b65bddaa356f6b17590b98086"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a4d0f4d9b65bddaa356f6b17590b98086">Clone</a> () const override</td></tr>
+<tr class="memdesc:a4d0f4d9b65bddaa356f6b17590b98086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer.  <a href="#a4d0f4d9b65bddaa356f6b17590b98086">More...</a><br /></td></tr>
+<tr class="separator:a4d0f4d9b65bddaa356f6b17590b98086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ab264a5eb1e93e539c20986c51d6976"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a4ab264a5eb1e93e539c20986c51d6976">ConstantExpr</a> () const override</td></tr>
 <tr class="separator:a4ab264a5eb1e93e539c20986c51d6976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18b7e3e26dc27bf85a9acfd22c2aafd4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a18b7e3e26dc27bf85a9acfd22c2aafd4">Description</a> () const override</td></tr>
@@ -221,6 +224,38 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4d0f4d9b65bddaa356f6b17590b98086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0f4d9b65bddaa356f6b17590b98086">&#9670;&nbsp;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt;T&gt; &gt; <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer. </p>
+<p>Required for Boost.Python, which doesn't supports move semantics for returned values. </p>
+
+<p>Implements <a class="el" href="structValueRef_1_1ValueRef.html#a18c31f06cdadcb676681243283ccf4d0">ValueRef::ValueRef&lt; T &gt;</a>.</p>
+
+</div>
+</div>
 <a id="a4ab264a5eb1e93e539c20986c51d6976"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ab264a5eb1e93e539c20986c51d6976">&#9670;&nbsp;</a></span>ConstantExpr()</h2>
 

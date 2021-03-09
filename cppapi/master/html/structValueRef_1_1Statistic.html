@@ -95,6 +95,9 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a62be737c746aaaf4efd04e5a92d82e8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Statistic.html#a62be737c746aaaf4efd04e5a92d82e8f">Statistic</a> (std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt; V &gt;&gt; &amp;&amp;value_ref, StatisticType stat_type, std::unique_ptr&lt; <a class="el" href="structCondition_1_1Condition.html">Condition::Condition</a> &gt; &amp;&amp;sampling_condition)</td></tr>
 <tr class="separator:a62be737c746aaaf4efd04e5a92d82e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a051eadcb34bc845c273a3eace027c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Statistic.html#ab8a051eadcb34bc845c273a3eace027c">Clone</a> () const override</td></tr>
+<tr class="memdesc:ab8a051eadcb34bc845c273a3eace027c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer.  <a href="#ab8a051eadcb34bc845c273a3eace027c">More...</a><br /></td></tr>
+<tr class="separator:ab8a051eadcb34bc845c273a3eace027c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6f79738b25f6ed27bca7729c1c62e63"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Statistic.html#ad6f79738b25f6ed27bca7729c1c62e63">Description</a> () const override</td></tr>
 <tr class="separator:ad6f79738b25f6ed27bca7729c1c62e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b56dcb98cead5018074931e185dc65f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1Statistic.html#a5b56dcb98cead5018074931e185dc65f">Dump</a> (unsigned short ntabs=0) const override</td></tr>
@@ -264,6 +267,40 @@ template&lt;typename T , typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab8a051eadcb34bc845c273a3eace027c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a051eadcb34bc845c273a3eace027c">&#9670;&nbsp;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename V = T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structValueRef_1_1ValueRef.html">ValueRef</a>&lt;T&gt; &gt; <a class="el" href="structValueRef_1_1Statistic.html">ValueRef::Statistic</a>&lt; T, V &gt;::Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes a clone of this <a class="el" href="structValueRef_1_1ValueRef.html" title="The base class for all ValueRef classes returning type T. ">ValueRef</a> in a new owning pointer. </p>
+<p>Required for Boost.Python, which doesn't supports move semantics for returned values. </p>
+
+<p>Reimplemented from <a class="el" href="structValueRef_1_1Variable.html#aedc15cfa3cca69310202e5c33be851eb">ValueRef::Variable&lt; T &gt;</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceValueRef.html#afd2aed27c32fd510a4e2365d82789ec8">ValueRef::CloneUnique()</a>.</p>
+
+</div>
+</div>
 <a id="ad6f79738b25f6ed27bca7729c1c62e63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6f79738b25f6ed27bca7729c1c62e63">&#9670;&nbsp;</a></span>Description()</h2>
 
