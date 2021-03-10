@@ -135,6 +135,7 @@ Variables</h2></td></tr>
 <p>Combination of an EffectsGroup and the id of a source object.</p>
 <p>Map from (effects group and source object) to target set of for that effects group with that source object. A multimap is used so that a single source object can have multiple instances of the same effectsgroup. This is useful when a <a class="el" href="classShip.html" title="a class representing a single FreeOrion ship ">Ship</a> has multiple copies of the same effects group due to having multiple copies of the same ship part in its design.</p>
 <p>The base class for all Effects. When an Effect is executed, the source object (the object to which the Effect or its containing EffectGroup is attached) and the target object are both required. Note that this means that ValueRefs contained within Effects can refer to values in either the source or target objects.</p>
+<p>Makes a clone of this Effect in a new owning pointer. Required for Boost.Python, which doesn't supports move semantics for returned values.</p>
 <p>Accounting information about what the causes are and changes produced by effects groups acting on meters of objects.</p>
 <p>&lt; source object of effect</p>
 <p>&lt; net change on meter due to this effect, as best known by client's empire</p>
