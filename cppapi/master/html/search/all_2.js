@@ -108,7 +108,7 @@ var searchData=
   ['browsepath_5ftag_5fopen_5fpre',['BROWSEPATH_TAG_OPEN_PRE',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a160360e5bb1ce4fdaa10d742c5f7ffe4',1,'anonymous_namespace{LinkText.cpp}']]],
   ['browsepathlinktext',['BrowsePathLinkText',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a63451f5bb40b283f4a6cb2e583c72c33',1,'anonymous_namespace{LinkText.cpp}']]],
   ['browsetextwidth',['BrowseTextWidth',['../namespaceanonymous__namespace_02CensusBrowseWnd_8cpp_03.html#a6732637a66e9601466bfaaecc1d8fb25',1,'anonymous_namespace{CensusBrowseWnd.cpp}::BrowseTextWidth()'],['../namespaceanonymous__namespace_02ResourceBrowseWnd_8cpp_03.html#a0abfa657fa47bd51195e6e892924276f',1,'anonymous_namespace{ResourceBrowseWnd.cpp}::BrowseTextWidth()']]],
-  ['btn_5fwidth',['BTN_WIDTH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a57cd484c575c0fef11a178c6aab48355',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
+  ['btn_5fwidth',['BTN_WIDTH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a30102335c4020058446e62e84e3ab474',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['buffer_5f',['buffer_',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a3b3a92bbfac04477c5e866336b009110',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['buffer_5fcapacity',['BUFFER_CAPACITY',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab1689bf4672c3138d630bdb96f10c088',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a0cfced649c5d8c3688991e22ef41440e',1,'anonymous_namespace{Sound.cpp}']]],

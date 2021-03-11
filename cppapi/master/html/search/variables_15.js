@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valid_5fattacker_5fobject_5fids',['valid_attacker_object_ids',['../structanonymous__namespace_02CombatSystem_8cpp_03_1_1AutoresolveInfo.html#a29bc89debde7f2d30c132f6db9733287',1,'anonymous_namespace{CombatSystem.cpp}::AutoresolveInfo']]],
-  ['valid_5fpreview_5fcolumn_5fcount',['VALID_PREVIEW_COLUMN_COUNT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#acfffda1e3f21de6e1eb0a323385c88bf',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
+  ['valid_5fpreview_5fcolumn_5fcount',['VALID_PREVIEW_COLUMN_COUNT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a529b4242b15bffb8c22b294a0f0817e5',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['valid_5fpreview_5fcolumns',['VALID_PREVIEW_COLUMNS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a5813f4a46bfd542e8152e96c89fbefb7',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['validator',['validator',['../structOptionsDB_1_1Option.html#a7fb36d7ca47b52c8f2e36974c453c658',1,'OptionsDB::Option']]],
   ['value',['value',['../structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243',1,'OptionsDB::Option']]],

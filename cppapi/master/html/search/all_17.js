@@ -28,7 +28,7 @@ var searchData=
   ['weaponsplatformeventptr',['WeaponsPlatformEventPtr',['../structWeaponsPlatformEvent.html#aa18ba2e85c79e339ef92028905e6a6cd',1,'WeaponsPlatformEvent']]],
   ['weight',['weight',['../classTechTreeLayout_1_1Node.html#ad520424ada57bf30bf83056dc64a60e1',1,'TechTreeLayout::Node']]],
   ['what',['what',['../classanonymous__namespace_02SDLGUI_8cpp_03_1_1FramebufferFailedException.html#aa7ca5eacc6354a932a0fe84c7cb5fb8b',1,'anonymous_namespace{SDLGUI.cpp}::FramebufferFailedException']]],
-  ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab4b8c9451aafcce6dc17f4f2dd88f68e',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
+  ['wheel_5fincrement',['WHEEL_INCREMENT',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ab6b64540ef098d4f846937c2a92804e8',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['wide_5fas',['WIDE_AS',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a7afeefb0abdcc7eb39cc0aa106b3793a',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['win32_5flean_5fand_5fmean',['WIN32_LEAN_AND_MEAN',['../ClientNetworking_8cpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'ClientNetworking.cpp']]],
   ['window_5fheight',['WINDOW_HEIGHT',['../namespaceanonymous__namespace_02PasswordEnterWnd_8cpp_03.html#a8da724a53187ce25ce3e38903058e3c4',1,'anonymous_namespace{PasswordEnterWnd.cpp}::WINDOW_HEIGHT()'],['../namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a002d03e95f5af3b6ed0a3bfb46899850',1,'anonymous_namespace{ServerConnectWnd.cpp}::WINDOW_HEIGHT()']]],

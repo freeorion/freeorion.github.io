@@ -87,7 +87,7 @@ var searchData=
   ['nextuiobsoleteevent',['NextUIObsoleteEvent',['../classanonymous__namespace_02DesignWnd_8cpp_03_1_1DisplayedShipDesignManager.html#a598e82b12a8a3a5e5c7c3d406826036b',1,'anonymous_namespace{DesignWnd.cpp}::DisplayedShipDesignManager']]],
   ['no_5fteam_5fid',['NO_TEAM_ID',['../namespaceNetworking.html#aa61c666415d3b8ea945c084d950e0b5a',1,'Networking']]],
   ['node',['Node',['../classTechTreeLayout_1_1Node.html',1,'TechTreeLayout::Node'],['../classTechTreeLayout_1_1Node.html#a632ca24d4a34ff93f50691a98e7f5e16',1,'TechTreeLayout::Node::Node(std::string const &amp;tech, GG::X width, GG::Y height)'],['../classTechTreeLayout_1_1Node.html#ad12ebe2f5ecd05569384fdce140b5330',1,'TechTreeLayout::Node::Node(Node *parent, Node *child, std::vector&lt; Node *&gt; &amp;nodes)']]],
-  ['node_5fcell_5fheight',['NODE_CELL_HEIGHT',['../namespaceanonymous__namespace_02TechTreeLayout_8cpp_03.html#a7a5435f21738e7a823940cc84d0128fd',1,'anonymous_namespace{TechTreeLayout.cpp}']]],
+  ['node_5fcell_5fheight',['NODE_CELL_HEIGHT',['../namespaceanonymous__namespace_02TechTreeLayout_8cpp_03.html#ab05927260a4498c39ec90564f55cb7bc',1,'anonymous_namespace{TechTreeLayout.cpp}']]],
   ['nominmax',['NOMINMAX',['../ClientNetworking_8cpp.html#a9f918755b601cf4bffca775992e6fb90',1,'ClientNetworking.cpp']]],
   ['nomodalwndsopencondition',['NoModalWndsOpenCondition',['../Hotkeys_8h.html#a35686e857a16ae50815b2396380554d2',1,'Hotkeys.h']]],
   ['non_5fmatches',['NON_MATCHES',['../namespaceCondition.html#a343f92adffa506f35b6c4b4f25e0b457add9e7bd065323df5065c0d440035b9da',1,'Condition']]],
