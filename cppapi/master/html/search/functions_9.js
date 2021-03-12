@@ -13,7 +13,6 @@ var searchData=
   ['id',['ID',['../classShipDesign.html#a88498ee974b29791e2518fde54c0149c',1,'ShipDesign']]],
   ['idallocator',['IDAllocator',['../classIDAllocator.html#a76292467268eb19fa3654fc88365cf2d',1,'IDAllocator']]],
   ['idle',['Idle',['../structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle']]],
-  ['idstring',['IDString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#aafcfbfafefe29c50b0b2cd9ca031099c',1,'anonymous_namespace{VarText.cpp}']]],
   ['if',['if',['../chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb',1,'if(help_arg !=&quot;NOOP&quot;):&#160;chmain.cpp'],['../chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#a58ac16cabc43f11bb67d8ebf47f3161f',1,'if(mainSetupAndRun() !=0):&#160;chmain.cpp']]],
   ['ignoresitrep',['IgnoreSitRep',['../classSitRepPanel.html#adcc16377904d26c60e77276a63664764',1,'SitRepPanel']]],
   ['immediateneighbors',['ImmediateNeighbors',['../classPathfinder_1_1PathfinderImpl.html#ac630eb8a020d7846bd2980b0a21e96aa',1,'Pathfinder::PathfinderImpl::ImmediateNeighbors()'],['../classPathfinder.html#a53a4591b98edcb09b061c2061118e6d5',1,'Pathfinder::ImmediateNeighbors()'],['../namespaceanonymous__namespace_02UniverseWrapper_8cpp_03.html#af95f682c81c03e6068b71f7ccba1af20',1,'anonymous_namespace{UniverseWrapper.cpp}::ImmediateNeighbors()']]],

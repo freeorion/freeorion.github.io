@@ -28,7 +28,6 @@ var searchData=
   ['idallocator_2ecpp',['IDAllocator.cpp',['../IDAllocator_8cpp.html',1,'']]],
   ['idallocator_2eh',['IDAllocator.h',['../IDAllocator_8h.html',1,'']]],
   ['idle',['Idle',['../structIdle.html',1,'Idle'],['../classServerApp.html#a381f211de22c597319a6787cf5eef5da',1,'ServerApp::Idle()'],['../structIdle.html#a8b9017dfa10c4484de1b11838e3f9317',1,'Idle::Idle()']]],
-  ['idstring',['IDString',['../namespaceanonymous__namespace_02VarText_8cpp_03.html#aafcfbfafefe29c50b0b2cd9ca031099c',1,'anonymous_namespace{VarText.cpp}']]],
   ['if',['if',['../chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb',1,'if(help_arg !=&quot;NOOP&quot;):&#160;chmain.cpp'],['../chmain_8cpp.html#a76e6eab1b83f037471cf2dc76af50c69',1,'if(GetOptionsDB().Get&lt; bool &gt;(&quot;version&quot;)):&#160;chmain.cpp'],['../chmain_8cpp.html#a58ac16cabc43f11bb67d8ebf47f3161f',1,'if(mainSetupAndRun() !=0):&#160;chmain.cpp']]],
   ['if_5fcurrent_5fvalue',['IF_CURRENT_VALUE',['../ValueRefs_8cpp.html#a8e9b608335306cb503712ee3ae366a09',1,'ValueRefs.cpp']]],
   ['if_5fsource_5fis_5fplanet_5fthen_5fships_5felse_5fall',['if_source_is_planet_then_ships_else_all',['../namespaceanonymous__namespace_02CombatSystem_8cpp_03.html#a535dedff40b077a8ee7110b4017ac9ed',1,'anonymous_namespace{CombatSystem.cpp}']]],

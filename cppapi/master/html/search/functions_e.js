@@ -68,7 +68,7 @@ var searchData=
   ['not',['Not',['../structCondition_1_1Not.html#ae7ced82273c8e01f575424a5fa322ef9',1,'Condition::Not']]],
   ['notcoveredmapwndcondition',['NotCoveredMapWndCondition',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1NotCoveredMapWndCondition.html#acf616add6557268f0ce8efd0d5553469',1,'anonymous_namespace{MapWnd.cpp}::NotCoveredMapWndCondition']]],
   ['nthfleetbuttonupperleft',['NthFleetButtonUpperLeft',['../classSystemIcon.html#af5e53f60a4aea2810f2119e9a8c8d6d7',1,'SystemIcon']]],
-  ['num_5fcolumns',['NUM_COLUMNS',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#af2f426b8a0e4cf1fed09ed8a582b411c',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
+  ['num_5fcolumns',['NUM_COLUMNS',['../namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#ab616a094d7e2da24d7121af203d0e7a7',1,'anonymous_namespace{ObjectListWnd.cpp}']]],
   ['number',['Number',['../structCondition_1_1Number.html#a232ed98b4138f34f83dbf473852958a0',1,'Condition::Number']]],
   ['numberais',['NumberAIs',['../classGalaxySetupWnd.html#a0f686c3b69410e30c937c7f2f29dfab1',1,'GalaxySetupWnd']]],
   ['numberedshipdesign',['NumberedShipDesign',['../structCondition_1_1NumberedShipDesign.html#af3c1516ab7738417f7b08574a61af49a',1,'Condition::NumberedShipDesign']]],
