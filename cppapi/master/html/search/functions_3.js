@@ -377,7 +377,7 @@ var searchData=
   ['current',['Current',['../classMeter.html#a7822151dd16feefd66025548f773b030',1,'Meter']]],
   ['currentcolor',['CurrentColor',['../classEmpireColorSelector.html#a7fca9c34822d2454ee0796d7d6d027b1',1,'EmpireColorSelector']]],
   ['currentdesignisregistered',['CurrentDesignIsRegistered',['../classDesignWnd_1_1MainPanel.html#ad3d2a5590a27c57e4056ea40ccc27b9c',1,'DesignWnd::MainPanel']]],
-  ['currenthealth',['CurrentHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#ad5ca9dd1c7d834a07f4c0234cc2f90ce',1,'anonymous_namespace{CombatLogManager.cpp}']]],
+  ['currenthealth',['CurrentHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#a3f3d0a2b9c5945b790c8e1b39cd5ffbc',1,'anonymous_namespace{CombatLogManager.cpp}']]],
   ['currentpartmetervalue',['CurrentPartMeterValue',['../classShip.html#a72119bca1d64ec7859a8efad8bf90e14',1,'Ship']]],
   ['currentspeciesname',['CurrentSpeciesName',['../classSpeciesSelector.html#a71e95c388eef158999f7b332759e4034',1,'SpeciesSelector']]],
   ['currentturn',['CurrentTurn',['../classClientApp.html#a802b8b6851c05279c2c07def9ce443d8',1,'ClientApp::CurrentTurn()'],['../classServerApp.html#a3c48b7f3eb97d7008d4d4eecc839eac2',1,'ServerApp::CurrentTurn()'],['../classIApp.html#ab62973eb4ed089ec38b6a058bd0c74ed',1,'IApp::CurrentTurn()'],['../AppInterface_8h.html#a447d2db92b3b67fd0bb3848513da40d4',1,'CurrentTurn():&#160;AppInterface.h']]]

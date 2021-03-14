@@ -1400,7 +1400,7 @@ var searchData=
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4b3fffb3f8a7ab6caf82cccc8d28978b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
   ['max_5ftries',['MAX_TRIES',['../namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a9aaaec732ecb6f102579baa1710ce966',1,'anonymous_namespace{SystemIcon.cpp}']]],
-  ['maxhealth',['MaxHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#a428d8636f888dc555ceb996d78ae2074',1,'anonymous_namespace{CombatLogManager.cpp}']]],
+  ['maxhealth',['MaxHealth',['../namespaceanonymous__namespace_02CombatLogManager_8cpp_03.html#a3a337854811db33b9999b4604ef82aa0',1,'anonymous_namespace{CombatLogManager.cpp}']]],
   ['maximum',['MAXIMUM',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefa115f17a28532bbd6f0f5ec83ed20692a',1,'ValueRef']]],
   ['maximumpossibledimension',['MaximumPossibleDimension',['../classSDLGUI.html#a6d98c8131b28f90c085abb32eb17b1ec',1,'SDLGUI']]],
   ['maximumpossibleheight',['MaximumPossibleHeight',['../classSDLGUI.html#aecf99abaee1e895bd74b824b7c18a170',1,'SDLGUI']]],
