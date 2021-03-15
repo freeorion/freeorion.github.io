@@ -338,6 +338,7 @@ var searchData=
   ['getsize',['GetSize',['../structGalaxySetupData.html#a0a68732e207d5d0e03e1bf8d90ba3fde',1,'GalaxySetupData']]],
   ['getsortedpediadirentires',['GetSortedPediaDirEntires',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a408dcdc29e9f5639556ad3c5e525b7cf',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['getsound',['GetSound',['../classSound.html#a9e7eee9941e572b5d0eb59b5aff0d806',1,'Sound']]],
+  ['getsoundbuffer',['GetSoundBuffer',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#a105d501d114fb64ad23a66ab3e681223',1,'anonymous_namespace{Sound.cpp}']]],
   ['getsource',['GetSource',['../classEmpireManager.html#a654b44cb5f5120d968102337e8212660',1,'EmpireManager']]],
   ['getsourceobjectforempire',['GetSourceObjectForEmpire',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a1004867d68976145fc0a8da0348cad39',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['getspecial',['GetSpecial',['../classSpecialsManager.html#a396488632e5d39db1823594080c8f29b',1,'SpecialsManager::GetSpecial()'],['../Special_8cpp.html#a0f2dbf950b1bef4d620495a4d101e1a6',1,'GetSpecial(const std::string &amp;name):&#160;Special.cpp'],['../Special_8h.html#a771d2822edd89fe4221bee3a4b8edf15',1,'GetSpecial(const std::string &amp;name):&#160;Special.cpp'],['../VarText_8cpp.html#a0f2dbf950b1bef4d620495a4d101e1a6',1,'GetSpecial(const std::string &amp;name):&#160;Special.cpp']]],

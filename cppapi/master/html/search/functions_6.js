@@ -23,6 +23,7 @@ var searchData=
   ['fightersicon',['FightersIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a81a3a35767bc422db088af517830ab8a',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527',1,'parse']]],
   ['filedlg',['FileDlg',['../classFileDlg.html#ad63242ab2d6bb7f33a2ecdd1031cf719',1,'FileDlg']]],
+  ['fileisbad',['FileIsBad',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#ab376314063f656ade46c999414c8d26c',1,'anonymous_namespace{Sound.cpp}']]],
   ['filename',['Filename',['../classSaveFileRow.html#a91091f2f52039c59d21b71501066ad12',1,'SaveFileRow::Filename()'],['../classStringTable.html#a01be260ed73097373c39804865e50814',1,'StringTable::Filename()']]],
   ['filenameedited',['FileNameEdited',['../classSaveFileDialog.html#a991e3c32d2ac3dd854200e74128e8dd6',1,'SaveFileDialog']]],
   ['filenametimestamp',['FilenameTimestamp',['../Directories_8cpp.html#a392b2c57aef9260a0dd1fe200a93509b',1,'FilenameTimestamp() -&gt; std::string:&#160;Directories.cpp'],['../Directories_8h.html#a85e0553e92a0e82de164e5a35cd7945d',1,'FilenameTimestamp() -&gt; std::string:&#160;Directories.cpp']]],
