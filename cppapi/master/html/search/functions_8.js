@@ -134,7 +134,7 @@ var searchData=
   ['hotkeyfromstring',['HotkeyFromString',['../classHotkey.html#a16b38f00a98295a58f0f191a98ea324c',1,'Hotkey']]],
   ['hotkeymanager',['HotkeyManager',['../classHotkeyManager.html#a4070b74bf1ea8d8659043c6b535fb83b',1,'HotkeyManager']]],
   ['hotkeyoption',['HotkeyOption',['../classOptionsWnd.html#aec89b0df0e337009b5f5cca6eaf8736b',1,'OptionsWnd']]],
-  ['hotkeysbysection',['HotkeysBySection',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#abd468579ffa6f84d38fec33848154e3d',1,'anonymous_namespace{OptionsWnd.cpp}']]],
+  ['hotkeysbysection',['HotkeysBySection',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a792710ae60e0fb4d77e480973d2e989a',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['hotkeyspage',['HotkeysPage',['../classOptionsWnd.html#a2cdab3ed65e4ef8d24f2acfb20e7e02a',1,'OptionsWnd']]],
   ['hotkeytostring',['HotkeyToString',['../classHotkey.html#a8f79d2c948a800a7c0d3324329c83a9e',1,'Hotkey']]],
   ['hull',['Hull',['../classBasesListBox_1_1HullAndPartsListBoxRow.html#a511ac8bfd23422f18c10e20864a10821',1,'BasesListBox::HullAndPartsListBoxRow::Hull()'],['../classDesignWnd_1_1MainPanel.html#a3d0677298cdfb5efffa95e5f0e396d97',1,'DesignWnd::MainPanel::Hull()'],['../classShipDesign.html#a8911bb633dc9f541b83be71250d298a7',1,'ShipDesign::Hull()']]],

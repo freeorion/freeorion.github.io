@@ -11,6 +11,7 @@ var searchData=
   ['high_5ftilt_5fthereshold',['HIGH_TILT_THERESHOLD',['../namespaceanonymous__namespace_02Planet_8cpp_03.html#a630618be25825a66dab8c21751728bfa',1,'anonymous_namespace{Planet.cpp}']]],
   ['homeworld',['homeworld',['../structparse_1_1detail_1_1condition__parser__rules__6.html#a8a8543478702eeaaea09cebe87ffa263',1,'parse::detail::condition_parser_rules_6']]],
   ['host',['host',['../structPlayerInfo.html#ab43cfc02255c503231835827dee05eac',1,'PlayerInfo']]],
+  ['hotkeys',['hotkeys',['../namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131',1,'anonymous_namespace{Hotkeys.cpp}']]],
   ['hull',['hull',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#a7b55864037e675ba300ed82dd1f11c76',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],
   ['hull_5fparts_5frow_5fdrop_5ftype_5fstring',['HULL_PARTS_ROW_DROP_TYPE_STRING',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a43f29423b1631b2291e2c4fcc279a706',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['hull_5fstats',['hull_stats',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1grammar.html#aa9ec033f4f638357d754131d39288415',1,'anonymous_namespace{ShipHullsParser.cpp}::grammar']]],

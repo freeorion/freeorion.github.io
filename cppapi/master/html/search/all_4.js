@@ -59,7 +59,7 @@ var searchData=
   ['defense',['Defense',['../classShipDesign.html#a2b17d79c971dedbe77ef93032c4e6326',1,'ShipDesign']]],
   ['deferredrefreshfleetbuttons',['DeferredRefreshFleetButtons',['../classMapWnd.html#a8a90d6528ea6df32cce5c7e9ab26601b',1,'MapWnd']]],
   ['define_5ftoken',['DEFINE_TOKEN',['../Lexer_8cpp.html#ab6828cf115f0ced4e408ddffad567d42',1,'Lexer.cpp']]],
-  ['definedhotkeys',['DefinedHotkeys',['../classHotkey.html#a75d9e3b71a6da85897020c8841b30899',1,'Hotkey']]],
+  ['definedhotkeys',['DefinedHotkeys',['../classHotkey.html#a25a589447baab3aa913089138e6ab68a',1,'Hotkey']]],
   ['delauney',['Delauney',['../namespaceDelauney.html',1,'']]],
   ['delauneytriangulate',['DelauneyTriangulate',['../namespaceDelauney.html#a31d6a3198db6f9673cf46c2ba25e588f',1,'Delauney']]],
   ['delete',['Delete',['../classUniverse.html#ab339e9449235c1d51c8e6bf3f6c52db1',1,'Universe']]],

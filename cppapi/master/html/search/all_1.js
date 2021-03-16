@@ -204,6 +204,7 @@ var searchData=
   ['anonymous_5fnamespace_7bgovernment_2ecpp_7d',['anonymous_namespace{Government.cpp}',['../namespaceanonymous__namespace_02Government_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgovernmentwnd_2ecpp_7d',['anonymous_namespace{GovernmentWnd.cpp}',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgraphicalsummary_2ecpp_7d',['anonymous_namespace{GraphicalSummary.cpp}',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bhotkeys_2ecpp_7d',['anonymous_namespace{Hotkeys.cpp}',['../namespaceanonymous__namespace_02Hotkeys_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bhumanclientfsm_2ecpp_7d',['anonymous_namespace{HumanClientFSM.cpp}',['../namespaceanonymous__namespace_02HumanClientFSM_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bi18n_2ecpp_7d',['anonymous_namespace{i18n.cpp}',['../namespaceanonymous__namespace_02i18n_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bicontextbrowsewnd_2ecpp_7d',['anonymous_namespace{IconTextBrowseWnd.cpp}',['../namespaceanonymous__namespace_02IconTextBrowseWnd_8cpp_03.html',1,'']]],

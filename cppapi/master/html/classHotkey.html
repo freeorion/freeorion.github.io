@@ -65,7 +65,6 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classHotkey-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Hotkey Class Reference</div>  </div>
@@ -105,9 +104,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a892efd3d4a445f37e740b124d1e67feb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#a892efd3d4a445f37e740b124d1e67feb">ClearHotkey</a> (const <a class="el" href="classHotkey.html">Hotkey</a> &amp;hotkey)</td></tr>
 <tr class="memdesc:a892efd3d4a445f37e740b124d1e67feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the given named hotkey to no key.  <a href="#a892efd3d4a445f37e740b124d1e67feb">More...</a><br /></td></tr>
 <tr class="separator:a892efd3d4a445f37e740b124d1e67feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75d9e3b71a6da85897020c8841b30899"><td class="memItemLeft" align="right" valign="top">static std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#a75d9e3b71a6da85897020c8841b30899">DefinedHotkeys</a> ()</td></tr>
-<tr class="memdesc:a75d9e3b71a6da85897020c8841b30899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of all defined hotkeys.  <a href="#a75d9e3b71a6da85897020c8841b30899">More...</a><br /></td></tr>
-<tr class="separator:a75d9e3b71a6da85897020c8841b30899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a589447baab3aa913089138e6ab68a"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#a25a589447baab3aa913089138e6ab68a">DefinedHotkeys</a> ()</td></tr>
+<tr class="memdesc:a25a589447baab3aa913089138e6ab68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of all defined hotkeys.  <a href="#a25a589447baab3aa913089138e6ab68a">More...</a><br /></td></tr>
+<tr class="separator:a25a589447baab3aa913089138e6ab68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b38f00a98295a58f0f191a98ea324c"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; GG::Key, GG::Flags&lt; GG::ModKey &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#a16b38f00a98295a58f0f191a98ea324c">HotkeyFromString</a> (const std::string &amp;str)</td></tr>
 <tr class="memdesc:a16b38f00a98295a58f0f191a98ea324c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string back to the pair key/modifier.  <a href="#a16b38f00a98295a58f0f191a98ea324c">More...</a><br /></td></tr>
 <tr class="separator:a16b38f00a98295a58f0f191a98ea324c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,12 +159,6 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a5ee2d151753a15848c1a229fa75cbcd2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classHotkey.html">Hotkey</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#a5ee2d151753a15848c1a229fa75cbcd2">PrivateNamedHotkey</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a5ee2d151753a15848c1a229fa75cbcd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a modifiable version of the hotkey.  <a href="#a5ee2d151753a15848c1a229fa75cbcd2">More...</a><br /></td></tr>
 <tr class="separator:a5ee2d151753a15848c1a229fa75cbcd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ac8c98bf21ffe7eac236775d4793c5c6d"><td class="memItemLeft" align="right" valign="top">static std::map&lt; std::string, <a class="el" href="classHotkey.html">Hotkey</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHotkey.html#ac8c98bf21ffe7eac236775d4793c5c6d">s_hotkeys</a> = nullptr</td></tr>
-<tr class="memdesc:ac8c98bf21ffe7eac236775d4793c5c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global hotkey storage.  <a href="#ac8c98bf21ffe7eac236775d4793c5c6d">More...</a><br /></td></tr>
-<tr class="separator:ac8c98bf21ffe7eac236775d4793c5c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A single hotkey, ie just a combination key+modifier that has been given a certain name. </p>
@@ -267,7 +260,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Registers a hotkey name (ie the one used for storing in the database) along with a description and a default value. </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aef21827786ba80fdde860574a92a5e42">InfoLogger</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131">anonymous_namespace{Hotkeys.cpp}::hotkeys</a>, and <a class="el" href="Logger_8h.html#aef21827786ba80fdde860574a92a5e42">InfoLogger</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02CUIControls_8cpp_03.html#a78866f9c15c2cc76ddfebb81ed5ec11d">anonymous_namespace{CUIControls.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a885d8bb9469c1f3106c7cdd685527c90">anonymous_namespace{GGHumanClientApp.cpp}::AddOptions()</a>, and <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af81ffd4803ec5f10197d08bc44929e8c">anonymous_namespace{MapWnd.cpp}::AddOptions()</a>.</p>
 
@@ -300,7 +293,7 @@ Static Private Attributes</h2></td></tr>
 <p>Adds hotkey-related options to the options data base. </p>
 <p>This function must be called after the initialization of all the hotkey lists, which is probably why it should be called from <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, or something like that. </p>
 
-<p class="reference">References <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5">OptionsDB::Add()</a>, <a class="el" href="classHotkey.html#a3b041ef1cb7a41a2972cd8b1cd0328a0">GetDescription()</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">m_name</a>, and <a class="el" href="classHotkey.html#a9feca73b30f44121bea75f3f0a5abc80">ToString()</a>.</p>
+<p class="reference">References <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5">OptionsDB::Add()</a>, <a class="el" href="classHotkey.html#a3b041ef1cb7a41a2972cd8b1cd0328a0">GetDescription()</a>, <a class="el" href="namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131">anonymous_namespace{Hotkeys.cpp}::hotkeys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">m_name</a>, and <a class="el" href="classHotkey.html#a9feca73b30f44121bea75f3f0a5abc80">ToString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
@@ -338,8 +331,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a75d9e3b71a6da85897020c8841b30899"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75d9e3b71a6da85897020c8841b30899">&#9670;&nbsp;</a></span>DefinedHotkeys()</h2>
+<a id="a25a589447baab3aa913089138e6ab68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a589447baab3aa913089138e6ab68a">&#9670;&nbsp;</a></span>DefinedHotkeys()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,7 +341,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt; std::string &gt; Hotkey::DefinedHotkeys </td>
+          <td class="memname">std::vector&lt; std::string &gt; Hotkey::DefinedHotkeys </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -363,7 +356,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns the name of all defined hotkeys. </p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#abd468579ffa6f84d38fec33848154e3d">anonymous_namespace{OptionsWnd.cpp}::HotkeysBySection()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131">anonymous_namespace{Hotkeys.cpp}::hotkeys</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a792710ae60e0fb4d77e480973d2e989a">anonymous_namespace{OptionsWnd.cpp}::HotkeysBySection()</a>.</p>
 
 </div>
 </div>
@@ -659,7 +654,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Returns a modifiable version of the hotkey. </p>
 
-<p class="reference">References <a class="el" href="classHotkey.html#ac8c98bf21ffe7eac236775d4793c5c6d">s_hotkeys</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131">anonymous_namespace{Hotkeys.cpp}::hotkeys</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2">NamedHotkey()</a>, <a class="el" href="classHotkey.html#a989a4a6983cd71dc0df6edb08321e3c4">ResetHotkey()</a>, and <a class="el" href="classHotkey.html#a7f375186a3378304e46dae98ce0b8846">SetHotkey()</a>.</p>
 
@@ -689,7 +684,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="classHotkey.html#a516393e69769a51b9f81ebe72e6d8edf">m_key</a>, <a class="el" href="classHotkey.html#a6ef0a3dde9b52792c514868d45c06a9f">m_mod_keys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">m_name</a>, <a class="el" href="classOptionsDB.html#ad32ff3de82b3e224eae6313a3800e4bb">OptionsDB::OptionExists()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174">OptionsDB::Get()</a>, <a class="el" href="namespaceanonymous__namespace_02Hotkeys_8cpp_03.html#aa2943dcff0af6b54ddf333e9dcad6131">anonymous_namespace{Hotkeys.cpp}::hotkeys</a>, <a class="el" href="classHotkey.html#a516393e69769a51b9f81ebe72e6d8edf">m_key</a>, <a class="el" href="classHotkey.html#a6ef0a3dde9b52792c514868d45c06a9f">m_mod_keys</a>, <a class="el" href="classHotkey.html#af3b8eec5ba4375eeeddcedc579764740">m_name</a>, <a class="el" href="classOptionsDB.html#ad32ff3de82b3e224eae6313a3800e4bb">OptionsDB::OptionExists()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classClientUI.html#a73bc0b7837a1ca8a49a5ccb77713843a">ClientUI::ClientUI()</a>.</p>
 
@@ -912,32 +907,6 @@ Static Private Attributes</h2></td></tr>
 <p>Internal name (code-like). </p>
 
 <p class="reference">Referenced by <a class="el" href="classHotkey.html#a564c1698dc7cd9265b84be48fb9a83d0">AddOptions()</a>, <a class="el" href="classHotkey.html#afa243af2d43cf66afda7652887b2a3f7">ReadFromOptions()</a>, <a class="el" href="classHotkeyManager.html#a3ef2bd61cdcfbbc07aa2f2dec2c09f9e">HotkeyManager::RebuildShortcuts()</a>, <a class="el" href="classHotkey.html#a989a4a6983cd71dc0df6edb08321e3c4">ResetHotkey()</a>, and <a class="el" href="classHotkey.html#a7f375186a3378304e46dae98ce0b8846">SetHotkey()</a>.</p>
-
-</div>
-</div>
-<a id="ac8c98bf21ffe7eac236775d4793c5c6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8c98bf21ffe7eac236775d4793c5c6d">&#9670;&nbsp;</a></span>s_hotkeys</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt; std::string, <a class="el" href="classHotkey.html">Hotkey</a> &gt; * Hotkey::s_hotkeys = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The global hotkey storage. </p>
-
-<p class="reference">Referenced by <a class="el" href="classHotkey.html#a5ee2d151753a15848c1a229fa75cbcd2">PrivateNamedHotkey()</a>.</p>
 
 </div>
 </div>
