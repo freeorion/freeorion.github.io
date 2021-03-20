@@ -7,7 +7,6 @@ var searchData=
   ['named_5flookup_5fexpr',['named_lookup_expr',['../structparse_1_1detail_1_1enum__value__ref__rules.html#ac57544c25bf6e25292adb57825eacf6f',1,'parse::detail::enum_value_ref_rules::named_lookup_expr()'],['../structparse_1_1detail_1_1arithmetic__rules.html#aaf94be6ee06df9036aa15f4681c6b7f9',1,'parse::detail::arithmetic_rules::named_lookup_expr()']]],
   ['named_5freal_5fvalueref',['named_real_valueref',['../structparse_1_1double__parser__rules.html#a6f4dd114b30d22b27f4724c088ea65ed',1,'parse::double_parser_rules']]],
   ['named_5fref',['named_ref',['../structparse_1_1grammar.html#a7837c50c9c5019424a6049c81b9fc2e5',1,'parse::grammar']]],
-  ['named_5fref_5flexer',['named_ref_lexer',['../namespaceparse.html#aa1359161a5a0d90141e96f7c4ea4b896',1,'parse']]],
   ['nargs',['nargs',['../namespacetag__parser.html#afadebd9e3e2ab18ddd5f95bf78d1cdbe',1,'tag_parser']]],
   ['native',['native',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesParamsAndStuff.html#a454782c579878a8fb21fb907fd8c2cd4',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesParamsAndStuff']]],
   ['native_5ffreq',['native_freq',['../structGalaxySetupData.html#ae5200a0759f9f45fede437fef7f85edc',1,'GalaxySetupData']]],

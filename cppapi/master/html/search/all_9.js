@@ -310,7 +310,6 @@ var searchData=
   ['istxconnected',['IsTxConnected',['../classClientNetworking_1_1Impl.html#a04257090c80b68c93a8c357bca594161',1,'ClientNetworking::Impl::IsTxConnected()'],['../classClientNetworking.html#acb0dbd762d1ccf68ff1e94959db200e2',1,'ClientNetworking::IsTxConnected()']]],
   ['istypingsafe',['IsTypingSafe',['../classHotkey.html#abce71c6a014ad68a4e49c5e37c8a09ec',1,'Hotkey::IsTypingSafe(GG::Key key, GG::Flags&lt; GG::ModKey &gt; mod)'],['../classHotkey.html#ab683e684837aab5c255483d006b5d7e6',1,'Hotkey::IsTypingSafe() const']]],
   ['item',['Item',['../classanonymous__namespace_02BuildDesignatorWnd_8cpp_03_1_1ProductionItemRow.html#a89b18054e86b6fe78465bb1ffcb82e12',1,'anonymous_namespace{BuildDesignatorWnd.cpp}::ProductionItemRow']]],
-  ['item_5fbuilding_5flexer',['item_building_lexer',['../namespaceparse.html#a4de15a6211084b6ca36a2f875d2081bd',1,'parse']]],
   ['itemblocksizechanged',['ItemBlocksizeChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af67e66065d4c37cc3a21f3bec63bc73d',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemquantitychanged',['ItemQuantityChanged',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#af596281e2ccdad61623b1dd0043b9548',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['itemrightclicked',['ItemRightClicked',['../classQueueListBox.html#a66645ad462b6806073a05fa302333849',1,'QueueListBox']]],
