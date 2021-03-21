@@ -125,6 +125,7 @@ var searchData=
   ['fleetbutton_2eh',['FleetButton.h',['../FleetButton_8h.html',1,'']]],
   ['fleetbuttonleftclicked',['FleetButtonLeftClicked',['../classMapWnd.html#a6d3d6ad00d3feb7e410f67232bb342f7',1,'MapWnd']]],
   ['fleetbuttonrightclicked',['FleetButtonRightClicked',['../classMapWnd.html#a82c5bc539fc027b3cc39b7590748c4f4',1,'MapWnd']]],
+  ['fleetbuttonscaling',['FleetButtonScaling',['../namespaceanonymous__namespace_02FleetButton_8cpp_03.html#acc85b2d28f8407cd3a3e43fd9074ebb2',1,'anonymous_namespace{FleetButton.cpp}']]],
   ['fleetbuttonsizetype',['FleetButtonSizeType',['../classMapWnd.html#ae7d31949ddf2efba74bd787dd742fa20',1,'MapWnd']]],
   ['fleetcounticon',['FleetCountIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a2c9ef1d12c6f6315796bac268bb4dae5',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['fleetdatapanel',['FleetDataPanel',['../classFleetDataPanel.html',1,'FleetDataPanel'],['../classFleetDataPanel.html#a102b57cdedbdf2b9aaf43ac048c15c30',1,'FleetDataPanel::FleetDataPanel(GG::X w, GG::Y h, int fleet_id)'],['../classFleetDataPanel.html#ae0d8e00bb2f9f5e5ffc8886f151770a9',1,'FleetDataPanel::FleetDataPanel(GG::X w, GG::Y h, int system_id, bool new_fleet_drop_target)']]],

@@ -177,7 +177,7 @@ var searchData=
   ['orderissuingenabled',['OrderIssuingEnabled',['../classQueueListBox.html#aca9ef819917652f845a872a7f7bc768a',1,'QueueListBox']]],
   ['ordermap',['OrderMap',['../classOrderSet.html#a0f89d4c4abbc834309c1d959c4d1cce5',1,'OrderSet']]],
   ['orderptr',['OrderPtr',['../OrderSet_8h.html#ab997ff2c737caa27e3d5efd20aaec215',1,'OrderSet.h']]],
-  ['orders',['orders',['../structWaitingForGameStart_1_1GameStartDataUnpackedNotification_1_1UnpackedData.html#aceb2ef0f573c313d60f1714e458a97ca',1,'WaitingForGameStart::GameStartDataUnpackedNotification::UnpackedData::orders()'],['../structPlayerSaveGameData.html#aec81c83c48c7bad319ce74fb9d13984c',1,'PlayerSaveGameData::orders()'],['../classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df',1,'ClientApp::Orders()'],['../classClientApp.html#a18e3e6fedd04216fb63c6537080f41c7',1,'ClientApp::Orders() const']]],
+  ['orders',['Orders',['../classClientApp.html#afc290ebc99a5d8bb8294d61af1c104df',1,'ClientApp::Orders()'],['../classClientApp.html#a18e3e6fedd04216fb63c6537080f41c7',1,'ClientApp::Orders() const'],['../structWaitingForGameStart_1_1GameStartDataUnpackedNotification_1_1UnpackedData.html#aceb2ef0f573c313d60f1714e458a97ca',1,'WaitingForGameStart::GameStartDataUnpackedNotification::UnpackedData::orders()'],['../structPlayerSaveGameData.html#aec81c83c48c7bad319ce74fb9d13984c',1,'PlayerSaveGameData::orders()']]],
   ['orderset',['OrderSet',['../classOrderSet.html',1,'']]],
   ['orderset_2ecpp',['OrderSet.cpp',['../OrderSet_8cpp.html',1,'']]],
   ['orderset_2eh',['OrderSet.h',['../OrderSet_8h.html',1,'']]],

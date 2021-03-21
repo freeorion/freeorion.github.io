@@ -33,6 +33,7 @@ var searchData=
   ['bevel_5fmargin_5fx',['BEVEL_MARGIN_X',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#af0ca14585a68845681b7b378d631a6df',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['bevel_5fmargin_5fy',['BEVEL_MARGIN_Y',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a9fd489ec0bd5adcab79be0979bb76d76',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['bfsvisitorimpl',['BFSVisitorImpl',['../classSystemPathing_1_1BFSVisitorImpl.html',1,'SystemPathing::BFSVisitorImpl&lt; Graph, Edge, Vertex &gt;'],['../classSystemPathing_1_1BFSVisitorImpl.html#a56d67b41e643acf56ec6d55b49fc6abf',1,'SystemPathing::BFSVisitorImpl::BFSVisitorImpl()']]],
+  ['bigfleetbuttonzoomthreshold',['BigFleetButtonZoomThreshold',['../classClientUI.html#aa996d56c276ce1b85324034f3b78f62e',1,'ClientUI']]],
   ['bin_5fdir',['bin_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0',1,'anonymous_namespace{Directories.cpp}']]],
   ['bin_5fsave_5ffile_5fdescription',['BIN_SAVE_FILE_DESCRIPTION',['../namespaceanonymous__namespace_02SaveGamePreviewUtils_8cpp_03.html#a158b883415207b42e57721b1673c3bc3',1,'anonymous_namespace{SaveGamePreviewUtils.cpp}']]],
   ['binary_5fmarker',['BINARY_MARKER',['../namespaceanonymous__namespace_02SaveLoad_8cpp_03.html#a9c73b211fdc9f72188fe290b2d92e30f',1,'anonymous_namespace{SaveLoad.cpp}']]],
