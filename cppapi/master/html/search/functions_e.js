@@ -4,7 +4,7 @@ var searchData=
   ['named_5fvalue_5frefs',['named_value_refs',['../namespaceparse.html#a88159da7ebebf91011487ade375d6992',1,'parse']]],
   ['namedhotkey',['NamedHotkey',['../classHotkey.html#a4cda9291bf6a54bbbdb2c5696f23e0c2',1,'Hotkey']]],
   ['namedref',['NamedRef',['../structValueRef_1_1NamedRef.html#abf2703ebe736ea9a8a77b940a87281a0',1,'ValueRef::NamedRef']]],
-  ['namedrefinitinvariants',['NamedRefInitInvariants',['../structValueRef_1_1NamedRef.html#ae0d5ca5e6860dbc4978cb514931f7ca2',1,'ValueRef::NamedRef']]],
+  ['namedrefinitinvariants',['NamedRefInitInvariants',['../structValueRef_1_1NamedRef.html#a9a24d2902e9c53d7734f5924591e5f1b',1,'ValueRef::NamedRef']]],
   ['namedsignal',['NamedSignal',['../classHotkeyManager.html#ae740b29742b8ab56116511b8403a5f5d',1,'HotkeyManager']]],
   ['namedvaluerefmanager',['NamedValueRefManager',['../classNamedValueRefManager.html#a12f7fadb3c6ea7e08a73ec9624aa7fe5',1,'NamedValueRefManager::NamedValueRefManager(NamedValueRefManager const &amp;)=delete'],['../classNamedValueRefManager.html#af7a47d37d0ae5f906fd99b2b99349afd',1,'NamedValueRefManager::NamedValueRefManager()']]],
   ['namelookup',['NameLookup',['../structValueRef_1_1NameLookup.html#a717c44d51e02c96b00d64375d1416c21',1,'ValueRef::NameLookup']]],

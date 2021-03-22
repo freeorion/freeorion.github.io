@@ -227,6 +227,7 @@ var menudata={children:[
 {text:"s",url:"functions_rela.html#index_s"},
 {text:"t",url:"functions_rela.html#index_t"},
 {text:"u",url:"functions_rela.html#index_u"},
+{text:"v",url:"functions_rela.html#index_v"},
 {text:"w",url:"functions_rela.html#index_w"},
 {text:"x",url:"functions_rela.html#index_x"}]}]}]},
 {text:"Files",url:"files.html",children:[

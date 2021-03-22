@@ -149,18 +149,28 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae0d5ca5e6860dbc4978cb514931f7ca2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#ae0d5ca5e6860dbc4978cb514931f7ca2">NamedRefInitInvariants</a> ()</td></tr>
-<tr class="memdesc:ae0d5ca5e6860dbc4978cb514931f7ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialises invariants from registered valueref, waits a bit for registration, use on first access  <a href="#ae0d5ca5e6860dbc4978cb514931f7ca2">More...</a><br /></td></tr>
-<tr class="separator:ae0d5ca5e6860dbc4978cb514931f7ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a24d2902e9c53d7734f5924591e5f1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a9a24d2902e9c53d7734f5924591e5f1b">NamedRefInitInvariants</a> () const</td></tr>
+<tr class="memdesc:a9a24d2902e9c53d7734f5924591e5f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ensures invariants are initialized from registered valueref  <a href="#a9a24d2902e9c53d7734f5924591e5f1b">More...</a><br /></td></tr>
+<tr class="separator:a9a24d2902e9c53d7734f5924591e5f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ac4ad9e6561133f57119294930261d87a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#ac4ad9e6561133f57119294930261d87a">m_invariants_initialized</a> = false</td></tr>
 <tr class="memdesc:ac4ad9e6561133f57119294930261d87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">registered name of value ref  <a href="#ac4ad9e6561133f57119294930261d87a">More...</a><br /></td></tr>
 <tr class="separator:ac4ad9e6561133f57119294930261d87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe552a8251515ee9eb05328e4ba4aa4"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a0fe552a8251515ee9eb05328e4ba4aa4">m_invariants_mutex</a></td></tr>
+<tr class="separator:a0fe552a8251515ee9eb05328e4ba4aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11455d59fbe36166a0d1fdb7bfc36eec"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a11455d59fbe36166a0d1fdb7bfc36eec">m_is_lookup_only</a></td></tr>
-<tr class="memdesc:a11455d59fbe36166a0d1fdb7bfc36eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the invariants were initialized from the referenced vale ref  <a href="#a11455d59fbe36166a0d1fdb7bfc36eec">More...</a><br /></td></tr>
 <tr class="separator:a11455d59fbe36166a0d1fdb7bfc36eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42cfc8e8b83cc1e33ce4ab9b9cfb4ffc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a42cfc8e8b83cc1e33ce4ab9b9cfb4ffc">m_local_candidate_invariant_local</a> = false</td></tr>
+<tr class="separator:a42cfc8e8b83cc1e33ce4ab9b9cfb4ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a96d7e39d91c342c827422f69f0dc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a86a96d7e39d91c342c827422f69f0dc9">m_root_candidate_invariant_local</a> = false</td></tr>
+<tr class="memdesc:a86a96d7e39d91c342c827422f69f0dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the invariants were initialized from the referenced vale ref  <a href="#a86a96d7e39d91c342c827422f69f0dc9">More...</a><br /></td></tr>
+<tr class="separator:a86a96d7e39d91c342c827422f69f0dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac038d43febe50e304daa7516d86c9425"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#ac038d43febe50e304daa7516d86c9425">m_source_invariant_local</a> = false</td></tr>
+<tr class="separator:ac038d43febe50e304daa7516d86c9425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4907df31c473c47c32c18c27b6cc6bf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a4907df31c473c47c32c18c27b6cc6bf6">m_target_invariant_local</a> = false</td></tr>
+<tr class="separator:a4907df31c473c47c32c18c27b6cc6bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29844f639285df0ab7651e31d71c03b0"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueRef_1_1NamedRef.html#a29844f639285df0ab7651e31d71c03b0">m_value_ref_name</a></td></tr>
 <tr class="separator:a29844f639285df0ab7651e31d71c03b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -283,7 +293,7 @@ template&lt;typename T&gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#af4852910fd61751bc60d3a5c066a217b">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>.</p>
+<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>.</p>
 
 </div>
 </div>
@@ -314,7 +324,7 @@ template&lt;typename T&gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRefBase.html#ada31b3ad0c0691cf45a0a4ed9c627ff6">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a00cd1c862739b9c139b983fc28f689a7">UserString()</a>.</p>
+<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>, and <a class="el" href="NamedValueRefManager_8h.html#a00cd1c862739b9c139b983fc28f689a7">UserString()</a>.</p>
 
 </div>
 </div>
@@ -348,7 +358,7 @@ template&lt;typename T&gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRefBase.html#a00b0c8afa7320bcd6c8e780e7e113787">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>.</p>
+<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>.</p>
 
 </div>
 </div>
@@ -382,7 +392,7 @@ template&lt;typename T&gt; </div>
 
 <p>Implements <a class="el" href="structValueRef_1_1ValueRef.html#a09f6f182e7f9e40ce350dee693123b74">ValueRef::ValueRef&lt; T &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
 
 </div>
 </div>
@@ -475,8 +485,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ae0d5ca5e6860dbc4978cb514931f7ca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0d5ca5e6860dbc4978cb514931f7ca2">&#9670;&nbsp;</a></span>NamedRefInitInvariants()</h2>
+<a id="a9a24d2902e9c53d7734f5924591e5f1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a24d2902e9c53d7734f5924591e5f1b">&#9670;&nbsp;</a></span>NamedRefInitInvariants()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +500,7 @@ template&lt;typename T&gt; </div>
           <td class="memname">bool <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::NamedRefInitInvariants </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -500,9 +510,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>initialises invariants from registered valueref, waits a bit for registration, use on first access </p>
+<p>ensures invariants are initialized from registered valueref </p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>, <a class="el" href="namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a9aaaec732ecb6f102579baa1710ce966">anonymous_namespace{SystemIcon.cpp}::MAX_TRIES</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
 
 </div>
 </div>
@@ -588,7 +598,7 @@ template&lt;typename T&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -597,7 +607,7 @@ template&lt;typename T&gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#a28d0b2bad97313762c3d8d20e9730336">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>, and <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classNamedValueRefManager.html#acabe8353a8e5793ea89f492171053ef1">NamedValueRefManager::SetNamedValueRefParse()</a>.</p>
 
 </div>
 </div>
@@ -628,7 +638,7 @@ template&lt;typename T&gt; </div>
 
 <p>Reimplemented from <a class="el" href="structValueRef_1_1ValueRefBase.html#aacb873bf5be6c2510d6ad228f56c1bfa">ValueRef::ValueRefBase</a>.</p>
 
-<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a0b7c70bd2cd144924116cd8f705f0fe5">GetValueRef()</a>.</p>
+<p class="reference">References <a class="el" href="NamedValueRefManager_8h.html#a4ed4c46b6fcd8131feb2735ba65348f8">GetValueRef()</a>.</p>
 
 </div>
 </div>
@@ -708,12 +718,36 @@ template&lt;typename T&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>registered name of value ref </p>
+
+</div>
+</div>
+<a id="a0fe552a8251515ee9eb05328e4ba4aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe552a8251515ee9eb05328e4ba4aa4">&#9670;&nbsp;</a></span>m_invariants_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::m_invariants_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -739,7 +773,103 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a42cfc8e8b83cc1e33ce4ab9b9cfb4ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42cfc8e8b83cc1e33ce4ab9b9cfb4ffc">&#9670;&nbsp;</a></span>m_local_candidate_invariant_local</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::m_local_candidate_invariant_local = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86a96d7e39d91c342c827422f69f0dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a96d7e39d91c342c827422f69f0dc9">&#9670;&nbsp;</a></span>m_root_candidate_invariant_local</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::m_root_candidate_invariant_local = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>true if the invariants were initialized from the referenced vale ref </p>
+
+</div>
+</div>
+<a id="ac038d43febe50e304daa7516d86c9425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac038d43febe50e304daa7516d86c9425">&#9670;&nbsp;</a></span>m_source_invariant_local</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::m_source_invariant_local = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4907df31c473c47c32c18c27b6cc6bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4907df31c473c47c32c18c27b6cc6bf6">&#9670;&nbsp;</a></span>m_target_invariant_local</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structValueRef_1_1NamedRef.html">ValueRef::NamedRef</a>&lt; T &gt;::m_target_invariant_local = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
