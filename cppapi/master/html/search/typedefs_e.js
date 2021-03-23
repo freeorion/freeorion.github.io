@@ -10,5 +10,5 @@ var searchData=
   ['playerconnections',['PlayerConnections',['../classServerNetworking.html#a8fdb6cb5810043dc44bfbe4e2c1426a8',1,'ServerNetworking']]],
   ['policiestypemap',['PoliciesTypeMap',['../classPolicyManager.html#a658c3b88b78298a7b0b1be3a4924f709',1,'PolicyManager']]],
   ['policy_5frule',['policy_rule',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1grammar.html#a95654826144f2eb35507f85290c57216',1,'anonymous_namespace{PoliciesParser.cpp}::grammar']]],
-  ['prerequisites_5frule',['prerequisites_rule',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1grammar.html#a93ddc2fe57dca73d7e50494bca05c826',1,'anonymous_namespace{TechsParser.cpp}::grammar']]]
+  ['policy_5fstrings_5frule',['policy_strings_rule',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1grammar.html#a36973f32ac6b122816040fc5246a8c35',1,'anonymous_namespace{PoliciesParser.cpp}::grammar']]]
 ];

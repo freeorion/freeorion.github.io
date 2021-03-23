@@ -52,6 +52,7 @@ var searchData=
   ['policyorder',['PolicyOrder',['../classPolicyOrder.html',1,'']]],
   ['policypalette',['PolicyPalette',['../classGovernmentWnd_1_1PolicyPalette.html',1,'GovernmentWnd']]],
   ['policyslotcontrol',['PolicySlotControl',['../classPolicySlotControl.html',1,'']]],
+  ['policystrings',['PolicyStrings',['../structanonymous__namespace_02PoliciesParser_8cpp_03_1_1PolicyStrings.html',1,'anonymous_namespace{PoliciesParser.cpp}']]],
   ['popcenter',['PopCenter',['../classPopCenter.html',1,'']]],
   ['populatedownedvisitor',['PopulatedOwnedVisitor',['../structanonymous__namespace_02ServerApp_8cpp_03_1_1PopulatedOwnedVisitor.html',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['populationpanel',['PopulationPanel',['../classPopulationPanel.html',1,'']]],

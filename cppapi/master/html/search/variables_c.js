@@ -1269,7 +1269,7 @@ var searchData=
   ['m_5funlock_5ficons',['m_unlock_icons',['../classTechTreeWnd_1_1LayoutPanel_1_1TechPanel.html#affd3bb25414b0abd66bfa420529401d8',1,'TechTreeWnd::LayoutPanel::TechPanel']]],
   ['m_5funlocked_5fbuildings',['m_unlocked_buildings',['../classUniverse.html#ae4546906e2ef8a24b08104a1c8c92d0a',1,'Universe']]],
   ['m_5funlocked_5ffleet_5fplans',['m_unlocked_fleet_plans',['../classUniverse.html#aba577938e148c5b7d2eb5fde1f1b0f7e',1,'Universe']]],
-  ['m_5funlocked_5fitems',['m_unlocked_items',['../classTech.html#af85d717d5154447806c3e9bf9329475e',1,'Tech::m_unlocked_items()'],['../classUniverse.html#a60f22318ad61fb6bd617144f645be3bb',1,'Universe::m_unlocked_items()']]],
+  ['m_5funlocked_5fitems',['m_unlocked_items',['../classPolicy.html#a488179852e16c22d8d02e9d036f66285',1,'Policy::m_unlocked_items()'],['../classTech.html#af85d717d5154447806c3e9bf9329475e',1,'Tech::m_unlocked_items()'],['../classUniverse.html#a60f22318ad61fb6bd617144f645be3bb',1,'Universe::m_unlocked_items()']]],
   ['m_5funlocked_5ftechs',['m_unlocked_techs',['../classTech.html#a0b3e467ca1076fb53168a6ee4e1def94',1,'Tech']]],
   ['m_5fupdate_5fname_5for_5fdescription',['m_update_name_or_description',['../classShipDesignOrder.html#acfbd523955b9a7bdee2632f50ab05359',1,'ShipDesignOrder']]],
   ['m_5fused',['m_used',['../classWastedStockpiledResourceBrowseWnd.html#aeec733f1f55ea50f698b5f94c1e42f70',1,'WastedStockpiledResourceBrowseWnd']]],

@@ -18,7 +18,7 @@ var searchData=
   ['unknownicon',['UnknownIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a22d862e1cb6553257162a5a89039cb27',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
   ['unlockable_5fitem_5fenum_5fgrammar',['unlockable_item_enum_grammar',['../structparse_1_1unlockable__item__enum__grammar.html#a11d2695dbd744750544645fed2b99e98',1,'parse::unlockable_item_enum_grammar']]],
   ['unlockable_5fitem_5fgrammar',['unlockable_item_grammar',['../structparse_1_1detail_1_1unlockable__item__grammar.html#a98ce49a8f64228e81aae4b61984e719c',1,'parse::detail::unlockable_item_grammar']]],
-  ['unlockeditems',['UnlockedItems',['../classTech.html#a73b278c848d018cb0153e1b484dc6f83',1,'Tech']]],
+  ['unlockeditems',['UnlockedItems',['../classPolicy.html#a9b09dde5ea9a9da05da2bca60feb9aef',1,'Policy::UnlockedItems()'],['../classTech.html#a73b278c848d018cb0153e1b484dc6f83',1,'Tech::UnlockedItems()']]],
   ['unlockedtechs',['UnlockedTechs',['../classTech.html#ab2bb87b22997bd21e7018a952bc18911',1,'Tech']]],
   ['unpackeddata',['UnpackedData',['../structWaitingForGameStart_1_1GameStartDataUnpackedNotification_1_1UnpackedData.html#afa46cdc0c010a2f1396875ce8fa0070e',1,'WaitingForGameStart::GameStartDataUnpackedNotification::UnpackedData::UnpackedData()'],['../structWaitingForTurnData_1_1TurnDataUnpackedNotification_1_1UnpackedData.html#a8b4bd2987a048a8d8c22d65d60e5a770',1,'WaitingForTurnData::TurnDataUnpackedNotification::UnpackedData::UnpackedData()']]],
   ['unreadymessage',['UnreadyMessage',['../Message_8cpp.html#a6381f9376afb9ec97338fda9679c06c0',1,'UnreadyMessage():&#160;Message.cpp'],['../Message_8h.html#a4dbb2c6810b37dd9b46eb16264422031',1,'UnreadyMessage():&#160;Message.cpp']]],
