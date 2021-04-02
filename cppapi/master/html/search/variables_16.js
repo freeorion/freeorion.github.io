@@ -8,5 +8,5 @@ var searchData=
   ['within_5fstarlane_5fjumps',['within_starlane_jumps',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a7e46376985170ad0bfc4dc79bad493d3',1,'parse::detail::condition_parser_rules_3']]],
   ['wndchangedsignal',['WndChangedSignal',['../classCombatLogWnd.html#adf11c783afac806ca7102c90d5506de1',1,'CombatLogWnd']]],
   ['won',['won',['../structSaveGameEmpireData.html#a2381af316a69c9f2def0b04573b2c747',1,'SaveGameEmpireData']]],
-  ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a3ce75dc4ec2d63efab23f60a79ba051e',1,'anonymous_namespace{Pathfinder.cpp}']]]
+  ['wormhole_5ftravel_5fdistance',['WORMHOLE_TRAVEL_DISTANCE',['../namespaceanonymous__namespace_02Pathfinder_8cpp_03.html#a9384efb227b0ac8ad64d1d53cd730801',1,'anonymous_namespace{Pathfinder.cpp}']]]
 ];

@@ -157,7 +157,7 @@ var searchData=
   ['buildselector',['BuildSelector',['../classBuildDesignatorWnd_1_1BuildSelector.html',1,'BuildDesignatorWnd::BuildSelector'],['../classBuildDesignatorWnd_1_1BuildSelector.html#a18babffc0a1e53a82db1198f1b2156b4',1,'BuildDesignatorWnd::BuildSelector::BuildSelector()']]],
   ['buildstatcaches',['BuildStatCaches',['../classShipDesign.html#ad6b1ae007830fc297543790880198683',1,'ShipDesign']]],
   ['button',['button',['../structOptionsBar_1_1ToggleData.html#aee23b6b3fec1d8d985bbe6658306ec70',1,'OptionsBar::ToggleData']]],
-  ['button_5fdimming_5fscale_5ffactor',['BUTTON_DIMMING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a45a9d70db3c01b6b34c6d0cb0bc5e156',1,'anonymous_namespace{CUIWnd.cpp}']]],
+  ['button_5fdimming_5fscale_5ffactor',['BUTTON_DIMMING_SCALE_FACTOR',['../namespaceanonymous__namespace_02CUIWnd_8cpp_03.html#a8681c8e458dd743e4c228b91925752f4',1,'anonymous_namespace{CUIWnd.cpp}']]],
   ['button_5fseparation',['BUTTON_SEPARATION',['../classTechTreeWnd_1_1TechTreeControls.html#adea02ff3bbdaec7684e1120ba6f1d91f',1,'TechTreeWnd::TechTreeControls']]],
   ['button_5ftop_5foffset',['BUTTON_TOP_OFFSET',['../classCUIWnd.html#a68673c2d9efaa20805f0ead6e7634f4a',1,'CUIWnd']]],
   ['button_5fwidth',['BUTTON_WIDTH',['../classCUIEditWnd.html#af260549130ca4c83abcedd51b6e70e36',1,'CUIEditWnd']]],

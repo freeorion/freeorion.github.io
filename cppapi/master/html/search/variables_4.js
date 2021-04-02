@@ -19,7 +19,7 @@ var searchData=
   ['default_5fsource_5flevel',['default_source_level',['../namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ae901e210a18b41f5bf144f08b90be1d9',1,'anonymous_namespace{LoggerWithOptionsDB.cpp}']]],
   ['default_5fspeed_5feffects',['default_speed_effects',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#a10615870a37f1b18707b8db3175fe5d0',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
   ['default_5fstealth_5feffects',['default_stealth_effects',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#a52853c6013af0c375d62a9290c33522a',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
-  ['default_5fstretch',['DEFAULT_STRETCH',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#a33998cac1ef596469f5ad04fc61dc9f7',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
+  ['default_5fstretch',['DEFAULT_STRETCH',['../namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#aeb3b729eabd758cb44258cf135efc6f3',1,'anonymous_namespace{SaveFileDialog.cpp}']]],
   ['default_5fstructure_5feffects',['default_structure_effects',['../structanonymous__namespace_02ShipHullsParser_8cpp_03_1_1ShipHullStats.html#a2beb43a91f6ebb2f1f57890374d96b65',1,'anonymous_namespace{ShipHullsParser.cpp}::ShipHullStats']]],
   ['default_5ftop',['DEFAULT_TOP',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#aae494a009292b9e5fd57eda2787e39da',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['default_5fvalue',['default_value',['../structOptionsDB_1_1Option.html#a66f20d3a0bbe1c2523f33dd347c8c65b',1,'OptionsDB::Option::default_value()'],['../classMeter.html#a0610b70f89a80a6c64f5ebe9c96051ad',1,'Meter::DEFAULT_VALUE()']]],
