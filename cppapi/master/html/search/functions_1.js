@@ -187,6 +187,6 @@ var searchData=
   ['availabletocolonize',['AvailableToColonize',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#acf50dfe5f813abe5f1d89d643dada507',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['availabletoinvade',['AvailableToInvade',['../namespaceanonymous__namespace_02SidePanel_8cpp_03.html#abf3ede4080832572283744fbcd3785ec',1,'anonymous_namespace{SidePanel.cpp}']]],
   ['awaitplayer',['AwaitPlayer',['../classPlayerConnection.html#a8d2464ecb7bcc2b1d19953ee8246f100',1,'PlayerConnection']]],
-  ['axis_5fheight',['AXIS_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ab100f21eca477f93626bd263d2c7dd78',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
-  ['axis_5fwidth',['AXIS_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a9822cd321f022a86da026c2cbd21fc57',1,'anonymous_namespace{GraphicalSummary.cpp}']]]
+  ['axis_5fheight',['AXIS_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a797222ebbb5105999e558da6fb6e22e3',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
+  ['axis_5fwidth',['AXIS_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#aee402d0da048c10181e820865b47bd0e',1,'anonymous_namespace{GraphicalSummary.cpp}']]]
 ];

@@ -122,7 +122,7 @@ var searchData=
   ['hidesuperfluousparts',['HideSuperfluousParts',['../classPartsListBox.html#af100a68beba1670234e3abf694e7396e',1,'PartsListBox']]],
   ['hidesystemnames',['HideSystemNames',['../classMapWnd.html#ad8fb854b6c6a43ab234b7e5a300d09c0',1,'MapWnd']]],
   ['hidetype',['HideType',['../classBuildDesignatorWnd_1_1BuildSelector.html#ad70a59a94aa666c768a6f0dc5563fbe5',1,'BuildDesignatorWnd::BuildSelector::HideType()'],['../classBuildDesignatorWnd.html#a44911961886bbb367a9605f1885bbddb',1,'BuildDesignatorWnd::HideType()']]],
-  ['high_5ftilt_5fthereshold',['HIGH_TILT_THERESHOLD',['../namespaceanonymous__namespace_02Planet_8cpp_03.html#a630618be25825a66dab8c21751728bfa',1,'anonymous_namespace{Planet.cpp}']]],
+  ['high_5ftilt_5fthereshold',['HIGH_TILT_THERESHOLD',['../namespaceanonymous__namespace_02Planet_8cpp_03.html#aab84712645cb01cf4c3c546fe81ce5ac',1,'anonymous_namespace{Planet.cpp}']]],
   ['highestdestroyedobjectid',['HighestDestroyedObjectID',['../classUniverse.html#a4cba796a9fb2920bd3ce5051d4e57a10',1,'Universe']]],
   ['highestobjectid',['HighestObjectID',['../classObjectMap.html#a063117df1b3453cdbbb3807cccd30657',1,'ObjectMap']]],
   ['highlight',['Highlight',['../classSlotControl.html#ad3b502d6a01d382346d149684191a9e0',1,'SlotControl::Highlight()'],['../classPolicySlotControl.html#ab1487aff7d83581e9a61e492d44d7232',1,'PolicySlotControl::Highlight()']]],

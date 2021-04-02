@@ -1374,7 +1374,7 @@ var searchData=
   ['max_5fhealth',['max_health',['../structCombatParticipantState.html#ab98773dc4e7a408c47ab5c05330c1233',1,'CombatParticipantState::max_health()'],['../structParticipantSummary.html#ac165bc735d48f809942572094f345e23',1,'ParticipantSummary::max_health()']]],
   ['max_5fmax_5fhealth',['max_max_health',['../structCombatSummary.html#abb7a14bcee3c58985327d69ed270bcd7',1,'CombatSummary']]],
   ['max_5fprod_5fqueue_5fsize',['MAX_PROD_QUEUE_SIZE',['../Empire_8cpp.html#a08b16335726a60d853d08732f1bff67f',1,'Empire.cpp']]],
-  ['max_5fproduction_5fturns',['MAX_PRODUCTION_TURNS',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#afe0e97ff0d5fc5f35b214ac304ac78f5',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
+  ['max_5fproduction_5fturns',['MAX_PRODUCTION_TURNS',['../namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#a4ec182618b9fbc1e6917014c528506dd',1,'anonymous_namespace{BuildDesignatorWnd.cpp}']]],
   ['max_5fscale',['MAX_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a1bf99d50f83a1e21bc293f64b8de02b4',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
   ['max_5fship_5fspeed',['MAX_SHIP_SPEED',['../namespaceanonymous__namespace_02Fleet_8cpp_03.html#add376d219be433ed5645dd35fbe4114f',1,'anonymous_namespace{Fleet.cpp}']]],
   ['max_5fsingle_5fchunk_5ftext_5fsize',['MAX_SINGLE_CHUNK_TEXT_SIZE',['../namespaceanonymous__namespace_02LoggingWrapper_8cpp_03.html#a4b3fffb3f8a7ab6caf82cccc8d28978b',1,'anonymous_namespace{LoggingWrapper.cpp}']]],
@@ -1388,8 +1388,8 @@ var searchData=
   ['min_5fheight',['MIN_HEIGHT',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#ad2170afdede8eaae4126145d83617f75',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['min_5fparticipant_5fbar_5fheight',['MIN_PARTICIPANT_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#abdc682b349cfdd98a12d28e2e356f2e7',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['min_5fscale',['MIN_SCALE',['../namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a720614066c48786c811d813d7c301e3e',1,'anonymous_namespace{TechTreeWnd.cpp}']]],
-  ['min_5fside_5fbar_5fheight',['MIN_SIDE_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#aaa4ff6448c16e12d453f473566341a8b',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
-  ['min_5fside_5fbar_5fwidth',['MIN_SIDE_BAR_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a49a4733ea8ec449ad973f45c5b42f594',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
+  ['min_5fside_5fbar_5fheight',['MIN_SIDE_BAR_HEIGHT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a2c1c11ddd206debd8a2201890535f5de',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
+  ['min_5fside_5fbar_5fwidth',['MIN_SIDE_BAR_WIDTH',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#aa873db616672e5b2bb97bb69e6a8eec8',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['min_5fsystem_5fname_5fsize',['MIN_SYSTEM_NAME_SIZE',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a130405fef054ef405bb1f0f165b3df99',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['min_5fwidth',['MIN_WIDTH',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#af796d2eb4d3f84c7e453741c13276c81',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
   ['minimizable',['MINIMIZABLE',['../CUIWnd_8h.html#ac52f7a22e40be9670b1f1db306c8a8a2',1,'CUIWnd.h']]],
@@ -1409,7 +1409,7 @@ var searchData=
   ['move_5fto',['move_to',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a88072931298c5214b3cba064cab05ebb',1,'parse::detail::effect_parser_rules_3']]],
   ['move_5ftowards',['move_towards',['../structparse_1_1detail_1_1effect__parser__rules__3.html#a60a68c620f4196b325340d096e9a177e',1,'parse::detail::effect_parser_rules_3']]],
   ['mp_5fsave_5ffile_5fextension',['MP_SAVE_FILE_EXTENSION',['../MultiplayerCommon_8cpp.html#a032d8ffd274039c6c1a3616d0c1eb75a',1,'MP_SAVE_FILE_EXTENSION():&#160;MultiplayerCommon.cpp'],['../MultiplayerCommon_8h.html#a5eb0aa6e480036932104739fdea35269',1,'MP_SAVE_FILE_EXTENSION():&#160;MultiplayerCommon.cpp']]],
-  ['multi_5fmeter_5fstatus_5fbar_5fdisplayed_5fmeter_5frange_5fincrement',['MULTI_METER_STATUS_BAR_DISPLAYED_METER_RANGE_INCREMENT',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a08cd2b2f914b278de910134178a24fa3',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
+  ['multi_5fmeter_5fstatus_5fbar_5fdisplayed_5fmeter_5frange_5fincrement',['MULTI_METER_STATUS_BAR_DISPLAYED_METER_RANGE_INCREMENT',['../namespaceanonymous__namespace_02MultiMeterStatusBar_8cpp_03.html#a6808946c82379f02436e7b9776cefc83',1,'anonymous_namespace{MultiMeterStatusBar.cpp}']]],
   ['multiplicative_5fexpr',['multiplicative_expr',['../structparse_1_1detail_1_1arithmetic__rules.html#afc942cb6e7cf66e78787909bf28209b6',1,'parse::detail::arithmetic_rules']]],
   ['music_5ffile_5fsuffix',['MUSIC_FILE_SUFFIX',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a4d3ba627e574863e6efa378344600469',1,'anonymous_namespace{OptionsWnd.cpp}']]]
 ];
