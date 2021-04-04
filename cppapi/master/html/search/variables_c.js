@@ -56,7 +56,7 @@ var searchData=
   ['m_5fback_5fbutton',['m_back_button',['../classEncyclopediaDetailPanel.html#a21dc9ae41a469d0ec835c847536e8f6f',1,'EncyclopediaDetailPanel']]],
   ['m_5fbackground',['m_background',['../classPartControl.html#a4ac48291c7b767d730c9db572da13ded',1,'PartControl::m_background()'],['../classSlotControl.html#a5a7447a59a6faa24dba63f7dac43b9da',1,'SlotControl::m_background()'],['../classPolicyControl.html#aed5f07df89497e4c58bae211f1fd6efb',1,'PolicyControl::m_background()'],['../classPolicySlotControl.html#a25a083db9dd5217f11ac9b575fbb6aad',1,'PolicySlotControl::m_background()']]],
   ['m_5fbackground_5fcolor',['m_background_color',['../classTechTreeWnd_1_1TechListBox_1_1TechRow.html#afddb29b6d690fa6dc6eaed3784c0962f',1,'TechTreeWnd::TechListBox::TechRow']]],
-  ['m_5fbackground_5fimage',['m_background_image',['../classDesignWnd_1_1MainPanel.html#a30246ec498f914adb2e2fe69435cb27c',1,'DesignWnd::MainPanel::m_background_image()'],['../classGovernmentWnd_1_1MainPanel.html#ab2bdcdf0c38a19b7c736cbd34d5a8f06',1,'GovernmentWnd::MainPanel::m_background_image()']]],
+  ['m_5fbackground_5fimage',['m_background_image',['../classDesignWnd_1_1MainPanel.html#a30246ec498f914adb2e2fe69435cb27c',1,'DesignWnd::MainPanel']]],
   ['m_5fbar_5fcolours',['m_bar_colours',['../classMultiMeterStatusBar.html#a89c7f8432ba4ed93847b819eb0538daa',1,'MultiMeterStatusBar']]],
   ['m_5fbar_5fshading_5ftexture',['m_bar_shading_texture',['../classMultiMeterStatusBar.html#a4fe850f4e6e8fdcb71d9ced98d9fb3d2',1,'MultiMeterStatusBar']]],
   ['m_5fbase_5fselector',['m_base_selector',['../classDesignWnd.html#ad4a49c31c06bc8b6e67291e37a5f9c59',1,'DesignWnd']]],
