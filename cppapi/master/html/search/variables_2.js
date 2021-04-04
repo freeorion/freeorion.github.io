@@ -4,7 +4,7 @@ var searchData=
   ['bases_5flist_5fbox_5fdrop_5ftype',['BASES_LIST_BOX_DROP_TYPE',['../classBasesListBox.html#a23b2d468e4ee4b88caafb1c344707e07',1,'BasesListBox']]],
   ['bases_5flist_5fbox_5frow_5fheight',['BASES_LIST_BOX_ROW_HEIGHT',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac26b961c120be96a5b3d68ee9cd2d571',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['bases_5fmin_5fsize',['BASES_MIN_SIZE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a55261f8d489524262bb64f4416eab152',1,'anonymous_namespace{DesignWnd.cpp}']]],
-  ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../Ship_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8cpp.html#aa07800d2f03871f54fa374f1c0212442',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp'],['../AppInterface_8h.html#ad1545860e730fa15fa02dd91bc42c832',1,'BEFORE_FIRST_TURN():&#160;AppInterface.cpp']]],
+  ['before_5ffirst_5fturn',['BEFORE_FIRST_TURN',['../ConstantsFwd_8h.html#a5a7fbceadefa4b976c144c74a8da3d0b',1,'ConstantsFwd.h']]],
   ['bin_5fdir',['bin_dir',['../namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0',1,'anonymous_namespace{Directories.cpp}']]],
   ['block_5fsize_5f',['block_size_',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a7862bab5ec62a1fbd0469625709a7d9c',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['blocker',['blocker',['../structHotkeyManager_1_1ConditionalConnection.html#a6fa4968cbbeb3ec2fad7fe24a0e576c6',1,'HotkeyManager::ConditionalConnection']]],
