@@ -21,7 +21,7 @@ var searchData=
   ['fightersattackfightersevent',['FightersAttackFightersEvent',['../structFightersAttackFightersEvent.html#aa178cc77b656870200cee1c7f3c3ea0c',1,'FightersAttackFightersEvent::FightersAttackFightersEvent()=default'],['../structFightersAttackFightersEvent.html#ac5b21622a27ce9a82b4e3200e9658bb1',1,'FightersAttackFightersEvent::FightersAttackFightersEvent(int bout)']]],
   ['fightersdestroyedevent',['FightersDestroyedEvent',['../structFightersDestroyedEvent.html#a938fb3bfbd42059de99986e7476cbacf',1,'FightersDestroyedEvent::FightersDestroyedEvent()=default'],['../structFightersDestroyedEvent.html#a488753f0a9b9b9d705f3536dab19425b',1,'FightersDestroyedEvent::FightersDestroyedEvent(int bout)']]],
   ['fightersicon',['FightersIcon',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a81a3a35767bc422db088af517830ab8a',1,'anonymous_namespace{FleetWnd.cpp}']]],
-  ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#a5f0a605c00b8565bc9916cd1f430e527',1,'parse']]],
+  ['file_5fsubstitution',['file_substitution',['../namespaceparse.html#ac57dc598e505fa86970c9a842d6cc8cb',1,'parse']]],
   ['filedlg',['FileDlg',['../classFileDlg.html#ad63242ab2d6bb7f33a2ecdd1031cf719',1,'FileDlg']]],
   ['fileisbad',['FileIsBad',['../namespaceanonymous__namespace_02Sound_8cpp_03.html#ab376314063f656ade46c999414c8d26c',1,'anonymous_namespace{Sound.cpp}']]],
   ['filename',['Filename',['../classSaveFileRow.html#a91091f2f52039c59d21b71501066ad12',1,'SaveFileRow::Filename()'],['../classStringTable.html#a01be260ed73097373c39804865e50814',1,'StringTable::Filename()']]],

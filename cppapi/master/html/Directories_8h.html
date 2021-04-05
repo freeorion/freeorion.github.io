@@ -124,6 +124,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7e44819b73b3e89290e25063bcc7efb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a7e44819b73b3e89290e25063bcc7efb6">InitDirs</a> (std::string const &amp;argv0)</td></tr>
 <tr class="memdesc:a7e44819b73b3e89290e25063bcc7efb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the directories used by FreeOrion.  <a href="#a7e44819b73b3e89290e25063bcc7efb6">More...</a><br /></td></tr>
 <tr class="separator:a7e44819b73b3e89290e25063bcc7efb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24265471195799034e8dd1984fb0dc9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a24265471195799034e8dd1984fb0dc9a">IsExistingDir</a> (boost::filesystem::path const &amp;path) -&gt; bool</td></tr>
+<tr class="memdesc:a24265471195799034e8dd1984fb0dc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff path exists and is a directory.  <a href="#a24265471195799034e8dd1984fb0dc9a">More...</a><br /></td></tr>
+<tr class="separator:a24265471195799034e8dd1984fb0dc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Directories_8h.html#a8a5f3f251e1028f4cc1a373e237ffa8a">IsExistingFile</a> (boost::filesystem::path const &amp;path) -&gt; bool</td></tr>
 <tr class="memdesc:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff path exists and is a regular file.  <a href="#a8a5f3f251e1028f4cc1a373e237ffa8a">More...</a><br /></td></tr>
 <tr class="separator:a8a5f3f251e1028f4cc1a373e237ffa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,7 +276,7 @@ Functions</h2></td></tr>
 </li>
 </ul>
 
-<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0">anonymous_namespace{Directories.cpp}::bin_dir</a>, <a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#abe2ac1975c6872476bddcf04853874cc">GetBinDir()</a>, <a class="el" href="Directories_8cpp.html#a597eb2b812acad57a81623ee780c43f4">InitDirs()</a>, and <a class="el" href="binreloc_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>.</p>
+<p class="reference">References <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#a4da5c99e719921aec7cce446d8659ee0">anonymous_namespace{Directories.cpp}::bin_dir</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#abe2ac1975c6872476bddcf04853874cc">GetBinDir()</a>, and <a class="el" href="Directories_8cpp.html#a597eb2b812acad57a81623ee780c43f4">InitDirs()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad9dee4fe7851cbde13f44a55e4d0368b">anonymous_namespace{ServerApp.cpp}::AIClientExe()</a>, <a class="el" href="Directories_8h.html#a53ea4d8a53fdac8f4ad4fe8318a45036">GetBinDir()</a>, <a class="el" href="Directories_8h.html#ad22f73ddfb118bc17b7455050b132955">GetPath()</a>, and <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#ac7ed18b8aef8831e2fa9b62392f17d0f">anonymous_namespace{GGHumanClientApp.cpp}::ServerClientExe()</a>.</p>
 
@@ -568,9 +571,33 @@ Functions</h2></td></tr>
 <p>Initializes the directories used by FreeOrion. </p>
 <dl class="section note"><dt>Note</dt><dd>This function completes the migration of directories to the XDG specified location by updating the save.path option to the new location after the option is loaded from XML files. It only updates the option if it is set to the old default option. </dd></dl>
 
-<p class="reference">References <a class="el" href="binreloc_8h.html#a9cd5a54cc367311f5d5e7bc734dfde21">br_init</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#a9f7e5266b87091cfe57dfac485a70c7d">GetSaveDir()</a>, <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>, <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>, and <a class="el" href="Directories_8cpp.html#ae34d6e35600976c2ca4d0dae35c5dd4e">InitBinDir()</a>.</p>
+<p class="reference">References <a class="el" href="binreloc_8h.html#a9cd5a54cc367311f5d5e7bc734dfde21">br_init</a>, <a class="el" href="namespaceanonymous__namespace_02Directories_8cpp_03.html#acd691a4df632e48e851215f32c7ce429">anonymous_namespace{Directories.cpp}::g_initialized</a>, <a class="el" href="Directories_8cpp.html#a9f7e5266b87091cfe57dfac485a70c7d">GetSaveDir()</a>, <a class="el" href="Directories_8cpp.html#a9e4d6f3804b15967e4aa5abd9e7ce689">GetUserConfigDir()</a>, <a class="el" href="Directories_8cpp.html#a40bba6210d4bc542786e3e46367e7300">GetUserDataDir()</a>, <a class="el" href="Directories_8cpp.html#ae34d6e35600976c2ca4d0dae35c5dd4e">InitBinDir()</a>, and <a class="el" href="binreloc_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Directories_8h.html#a53ea4d8a53fdac8f4ad4fe8318a45036">GetBinDir()</a>, <a class="el" href="Directories_8h.html#a2fe5432cbdd6e2dca4cbf43ae2e3349f">GetRootDataDir()</a>, <a class="el" href="Directories_8h.html#a7a7aa9d303072dc4a1e8bec239cfa000">GetUserDataDir()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
+
+</div>
+</div>
+<a id="a24265471195799034e8dd1984fb0dc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24265471195799034e8dd1984fb0dc9a">&#9670;&nbsp;</a></span>IsExistingDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Export_8h.html#a29444d64721c1ceddc12dab3edbd1ef6">FO_COMMON_API</a> auto IsExistingDir </td>
+          <td>(</td>
+          <td class="paramtype">boost::filesystem::path const &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff path exists and is a directory. </p>
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, and <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>.</p>
 
 </div>
 </div>
@@ -745,6 +772,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads text file content from <code>path</code> and returs true if success. </p>
+
+<p class="reference">References <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, and <a class="el" href="Directories_8cpp.html#a3408eb007eedb90f7201fa6430434112">PathToString()</a>.</p>
 
 </div>
 </div>
