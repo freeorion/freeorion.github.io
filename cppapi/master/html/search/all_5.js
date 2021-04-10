@@ -95,6 +95,7 @@ var searchData=
   ['empire_5fobject_5fvisibility',['empire_object_visibility',['../structCombatInfo.html#a817255e81fcac4b61b9ab3ed008a248d',1,'CombatInfo::empire_object_visibility()'],['../structparse_1_1detail_1_1visibility__complex__parser__grammar.html#a8e160c7579372fe2fad733825d8b8f33',1,'parse::detail::visibility_complex_parser_grammar::empire_object_visibility()']]],
   ['empire_5fref',['empire_ref',['../structparse_1_1detail_1_1string__complex__parser__grammar.html#a56e0ffe601d46fcc5bbb1c51212893b1',1,'parse::detail::string_complex_parser_grammar']]],
   ['empire_5fships_5fdestroyed',['empire_ships_destroyed',['../structparse_1_1int__complex__parser__grammar.html#a12ae0d2cb32a6a1e3dc23167e5c957c8',1,'parse::int_complex_parser_grammar']]],
+  ['empire_5fstockpile',['empire_stockpile',['../structparse_1_1double__complex__parser__grammar.html#a6eba6c1c6a23da591dd09a0152bebce5',1,'parse::double_complex_parser_grammar']]],
   ['empire_5fsystem_5fgraph_5fviews',['empire_system_graph_views',['../structanonymous__namespace_02Pathfinder_8cpp_03_1_1GraphImpl.html#a6b6deee41180b92fa682fddf138f7f1a',1,'anonymous_namespace{Pathfinder.cpp}::GraphImpl']]],
   ['empire_5fto_5fobject_5fvisibility',['empire_to_object_visibility',['../structInitialStealthEvent.html#a0e038cd4fd9f64d741b41be4d97dafbd',1,'InitialStealthEvent']]],
   ['empireaddshipdesign',['EmpireAddShipDesign',['../namespaceanonymous__namespace_02ServerWrapper_8cpp_03.html#a2645076633dffda53c78ee034c3541db',1,'anonymous_namespace{ServerWrapper.cpp}']]],
