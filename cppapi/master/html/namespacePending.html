@@ -72,16 +72,27 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPending_1_1Parsing.html">Parsing</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct for use with std::async.  <a href="structPending_1_1Parsing.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPending_1_1Pending.html">Pending</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structPending_1_1Pending.html" title="Pending holds the std::future results of a T. ">Pending</a> holds the std::future results of a T.  <a href="structPending_1_1Pending.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aed966a0f348709091542e0cffaafe8ec"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
-<tr class="memitem:aed966a0f348709091542e0cffaafe8ec"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#aed966a0f348709091542e0cffaafe8ec">StartParsing</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt; decltype(parser(path))&gt;</td></tr>
-<tr class="memdesc:aed966a0f348709091542e0cffaafe8ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code>.  <a href="#aed966a0f348709091542e0cffaafe8ec">More...</a><br /></td></tr>
-<tr class="separator:aed966a0f348709091542e0cffaafe8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c33b1198747b05c00de86809a180548"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a7c33b1198747b05c00de86809a180548"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a7c33b1198747b05c00de86809a180548">ParseSynchronously</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a7c33b1198747b05c00de86809a180548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> which executes the parser in the calling thread and stores the result before returning.  <a href="#a7c33b1198747b05c00de86809a180548">More...</a><br /></td></tr>
+<tr class="separator:a7c33b1198747b05c00de86809a180548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a62fff3dfb814d3b801453f493b8eb"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a78a62fff3dfb814d3b801453f493b8eb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a78a62fff3dfb814d3b801453f493b8eb">StartAsyncParsing</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a78a62fff3dfb814d3b801453f493b8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code>.  <a href="#a78a62fff3dfb814d3b801453f493b8eb">More...</a><br /></td></tr>
+<tr class="separator:a78a62fff3dfb814d3b801453f493b8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a842e6f6f9a925db8e6b1292f1bd5f6e2">StartAsyncParsing</a> (Func parser, const boost::filesystem::path &amp;path, std::promise&lt; void &gt; &amp;&amp;barrier) -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> and notify <code>barrier</code>.  <a href="#a842e6f6f9a925db8e6b1292f1bd5f6e2">More...</a><br /></td></tr>
+<tr class="separator:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eab0503d0cdd83518fde980a9aa09d8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0eab0503d0cdd83518fde980a9aa09d8"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">SwapPending</a> (boost::optional&lt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt; T &gt;&gt; &amp;pending, T &amp;stored)</td></tr>
 <tr class="memdesc:a0eab0503d0cdd83518fde980a9aa09d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If there is a pending parse, wait for it and swap it with the stored value.  <a href="#a0eab0503d0cdd83518fde980a9aa09d8">More...</a><br /></td></tr>
@@ -97,8 +108,8 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>namespace <a class="el" href="namespacePending.html" title="namespace Pending collection classes and functions used for asynchronously parsing universe types...">Pending</a> collection classes and functions used for asynchronously parsing universe types, statistics etc. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="aed966a0f348709091542e0cffaafe8ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed966a0f348709091542e0cffaafe8ec">&#9670;&nbsp;</a></span>StartParsing()</h2>
+<a id="a7c33b1198747b05c00de86809a180548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c33b1198747b05c00de86809a180548">&#9670;&nbsp;</a></span>ParseSynchronously()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -106,7 +117,42 @@ Functions</h2></td></tr>
 template&lt;typename Func &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto Pending::StartParsing </td>
+          <td class="memname">auto Pending::ParseSynchronously </td>
+          <td>(</td>
+          <td class="paramtype">const Func &amp;&#160;</td>
+          <td class="paramname"><em>parser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt;decltype(parser(path))&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> which executes the parser in the calling thread and stores the result before returning. </p>
+
+<p class="reference">Referenced by <a class="el" href="classIApp.html#a6a1c9cdde8c74ae7cb5550082e5d5c71">IApp::StartBackgroundParsing()</a>.</p>
+
+</div>
+</div>
+<a id="a78a62fff3dfb814d3b801453f493b8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a62fff3dfb814d3b801453f493b8eb">&#9670;&nbsp;</a></span>StartAsyncParsing() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Pending::StartAsyncParsing </td>
           <td>(</td>
           <td class="paramtype">const Func &amp;&#160;</td>
           <td class="paramname"><em>parser</em>, </td>
@@ -128,7 +174,46 @@ template&lt;typename Func &gt; </div>
 
 <p>Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code>. </p>
 
-<p class="reference">Referenced by <a class="el" href="classIApp.html#ab41a2230241035bccaa4e61fb1daf351">IApp::StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#add44f1d465c80297b5a3426b81d559a2">ServerApp::StartBackgroundParsing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIApp.html#a6a1c9cdde8c74ae7cb5550082e5d5c71">IApp::StartBackgroundParsing()</a>, and <a class="el" href="classServerApp.html#a58d745a0c3a828fa72392b6507598a54">ServerApp::StartBackgroundParsing()</a>.</p>
+
+</div>
+</div>
+<a id="a842e6f6f9a925db8e6b1292f1bd5f6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842e6f6f9a925db8e6b1292f1bd5f6e2">&#9670;&nbsp;</a></span>StartAsyncParsing() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Pending::StartAsyncParsing </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>parser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::promise&lt; void &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>barrier</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="structPending_1_1Pending.html">Pending</a>&lt;decltype(parser(path))&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> and notify <code>barrier</code>. </p>
 
 </div>
 </div>

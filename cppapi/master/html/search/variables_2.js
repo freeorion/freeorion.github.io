@@ -1,6 +1,7 @@
 var searchData=
 [
   ['b',['b',['../structCompatColor.html#a580d3e8b139584e854fa6a2f07ce3fc2',1,'CompatColor']]],
+  ['barrier',['barrier',['../structPending_1_1Parsing.html#a8653b3c4d2d48f26cff5858610782917',1,'Pending::Parsing']]],
   ['bases_5flist_5fbox_5fdrop_5ftype',['BASES_LIST_BOX_DROP_TYPE',['../classBasesListBox.html#a23b2d468e4ee4b88caafb1c344707e07',1,'BasesListBox']]],
   ['bases_5flist_5fbox_5frow_5fheight',['BASES_LIST_BOX_ROW_HEIGHT',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#ac26b961c120be96a5b3d68ee9cd2d571',1,'anonymous_namespace{DesignWnd.cpp}']]],
   ['bases_5fmin_5fsize',['BASES_MIN_SIZE',['../namespaceanonymous__namespace_02DesignWnd_8cpp_03.html#a55261f8d489524262bb64f4416eab152',1,'anonymous_namespace{DesignWnd.cpp}']]],

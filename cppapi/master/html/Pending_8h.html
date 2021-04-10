@@ -81,6 +81,9 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPending_1_1Parsing.html">Pending::Parsing&lt; Func &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct for use with std::async.  <a href="structPending_1_1Parsing.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPending_1_1Pending.html">Pending::Pending&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structPending_1_1Pending.html" title="Pending holds the std::future results of a T. ">Pending</a> holds the std::future results of a T.  <a href="structPending_1_1Pending.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,10 +96,18 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aed966a0f348709091542e0cffaafe8ec"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
-<tr class="memitem:aed966a0f348709091542e0cffaafe8ec"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#aed966a0f348709091542e0cffaafe8ec">Pending::StartParsing</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; Pending&lt; decltype(parser(path))&gt;</td></tr>
-<tr class="memdesc:aed966a0f348709091542e0cffaafe8ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code>.  <a href="namespacePending.html#aed966a0f348709091542e0cffaafe8ec">More...</a><br /></td></tr>
-<tr class="separator:aed966a0f348709091542e0cffaafe8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c33b1198747b05c00de86809a180548"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a7c33b1198747b05c00de86809a180548"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a7c33b1198747b05c00de86809a180548">Pending::ParseSynchronously</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; Pending&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a7c33b1198747b05c00de86809a180548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> which executes the parser in the calling thread and stores the result before returning.  <a href="namespacePending.html#a7c33b1198747b05c00de86809a180548">More...</a><br /></td></tr>
+<tr class="separator:a7c33b1198747b05c00de86809a180548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a62fff3dfb814d3b801453f493b8eb"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a78a62fff3dfb814d3b801453f493b8eb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a78a62fff3dfb814d3b801453f493b8eb">Pending::StartAsyncParsing</a> (const Func &amp;parser, const boost::filesystem::path &amp;path) -&gt; Pending&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a78a62fff3dfb814d3b801453f493b8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code>.  <a href="namespacePending.html#a78a62fff3dfb814d3b801453f493b8eb">More...</a><br /></td></tr>
+<tr class="separator:a78a62fff3dfb814d3b801453f493b8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a842e6f6f9a925db8e6b1292f1bd5f6e2">Pending::StartAsyncParsing</a> (Func parser, const boost::filesystem::path &amp;path, std::promise&lt; void &gt; &amp;&amp;barrier) -&gt; Pending&lt; decltype(parser(path))&gt;</td></tr>
+<tr class="memdesc:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a Pending&lt;T&gt; constructed with <code>parser</code> and <code>path</code> and notify <code>barrier</code>.  <a href="namespacePending.html#a842e6f6f9a925db8e6b1292f1bd5f6e2">More...</a><br /></td></tr>
+<tr class="separator:a842e6f6f9a925db8e6b1292f1bd5f6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eab0503d0cdd83518fde980a9aa09d8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0eab0503d0cdd83518fde980a9aa09d8"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">Pending::SwapPending</a> (boost::optional&lt; Pending&lt; T &gt;&gt; &amp;pending, T &amp;stored)</td></tr>
 <tr class="memdesc:a0eab0503d0cdd83518fde980a9aa09d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If there is a pending parse, wait for it and swap it with the stored value.  <a href="namespacePending.html#a0eab0503d0cdd83518fde980a9aa09d8">More...</a><br /></td></tr>
