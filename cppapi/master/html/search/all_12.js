@@ -230,7 +230,7 @@ var searchData=
   ['resizepanelsforvscroll',['ResizePanelsForVScroll',['../classSidePanel_1_1PlanetPanelContainer.html#a9d375d2046feebeda88a2b10a437b1db',1,'SidePanel::PlanetPanelContainer']]],
   ['resolutionoption',['ResolutionOption',['../classOptionsWnd.html#a4ec8628cd986393ab14ec53989cd9f85',1,'OptionsWnd']]],
   ['resolvefighterbouts',['ResolveFighterBouts',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adfe386f7211c8b1557bdb8ab7285adf8',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
-  ['resolvegroundcombat',['ResolveGroundCombat',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad541247e4952efc6226f2c8dec458f02',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['resolvegroundcombat',['ResolveGroundCombat',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a4e8c808468e04d39ae783807162f21c3',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['resolvenestedpathtypes',['ResolveNestedPathTypes',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597',1,'anonymous_namespace{LinkText.cpp}']]],
   ['resource_5fsupply_5fconnected',['resource_supply_connected',['../structparse_1_1detail_1_1condition__parser__rules__3.html#a79d1d6c80f5dd916f3f37f9f6a2fd521',1,'parse::detail::condition_parser_rules_3']]],
   ['resource_5ftype_5fenum',['resource_type_enum',['../structparse_1_1detail_1_1condition__parser__rules__3.html#aca5758ac6551f602cab2354175cbcde7',1,'parse::detail::condition_parser_rules_3::resource_type_enum()'],['../structparse_1_1detail_1_1effect__parser__rules__2.html#aa5c1bfe9a1c1e33122ae0ac69cb7f36e',1,'parse::detail::effect_parser_rules_2::resource_type_enum()']]],

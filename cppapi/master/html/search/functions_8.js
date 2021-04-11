@@ -23,7 +23,7 @@ var searchData=
   ['handlegifting',['HandleGifting',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad2ac9277fcc0cd84949db37be555acd5',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlehotkeyexitapp',['HandleHotkeyExitApp',['../classGGHumanClientApp.html#a7147d87846f65f3540b0bc72654e9768',1,'GGHumanClientApp']]],
   ['handlehotkeyresetgame',['HandleHotkeyResetGame',['../classGGHumanClientApp.html#aeff7fc91241e5c672bc6a22ac3db0724',1,'GGHumanClientApp']]],
-  ['handleinvasion',['HandleInvasion',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a965f23e2b3a7c4585a2bc8cb19f41490',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['handleinvasion',['HandleInvasion',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6571c2b74cfdc8672caf5c30915c58d9',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlelinkclick',['HandleLinkClick',['../classCombatReportWnd_1_1Impl.html#ae28314556844c6a27945155634e22d4f',1,'CombatReportWnd::Impl::HandleLinkClick()'],['../classEncyclopediaDetailPanel.html#a6fc0b1ee16aab6cfeae30d6cc698626e',1,'EncyclopediaDetailPanel::HandleLinkClick()'],['../namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a715fd94bb37e9c0d48614b244bcacf9c',1,'anonymous_namespace{SitRepPanel.cpp}::HandleLinkClick()']]],
   ['handlelinkdoubleclick',['HandleLinkDoubleClick',['../classCombatReportWnd_1_1Impl.html#a6b86d379b21f7f8942515e1adfcb6f3d',1,'CombatReportWnd::Impl::HandleLinkDoubleClick()'],['../classEncyclopediaDetailPanel.html#ac9102a246804f212ebf0f00662cbf56a',1,'EncyclopediaDetailPanel::HandleLinkDoubleClick()']]],
   ['handleloggerconfig',['HandleLoggerConfig',['../classServerApp.html#a8f5ac1ee4c8aa895687af91baec22dc7',1,'ServerApp']]],
