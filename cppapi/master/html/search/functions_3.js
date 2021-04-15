@@ -39,6 +39,7 @@ var searchData=
   ['category',['Category',['../classPolicy.html#a15db6a16d79db9c35765e5bb4d1a095e',1,'Policy::Category()'],['../classTech.html#adfd4ef7a430b2720741bacf69d257c16',1,'Tech::Category()']]],
   ['category_5fbegin',['category_begin',['../classTechManager.html#a04df9d4bdb867b1e656c9b7b62928894',1,'TechManager']]],
   ['category_5fend',['category_end',['../classTechManager.html#a09bfd01e48d7fcbda4f37f0e216573ed',1,'TechManager']]],
+  ['categorybuttoncheckedslot',['CategoryButtonCheckedSlot',['../classTechTreeWnd_1_1TechTreeControls.html#a2f44aed436a3e3f5b49d6dca9cd70a21',1,'TechTreeWnd::TechTreeControls']]],
   ['categorycolor',['CategoryColor',['../classClientUI.html#a760c401d9d88c2bdbaa636598a745fab',1,'ClientUI']]],
   ['categoryicon',['CategoryIcon',['../classClientUI.html#a47ae8940e958b7dd62bdd50c5a762817',1,'ClientUI']]],
   ['categoryindex',['CategoryIndex',['../classPolicySlotControl.html#a4c39e09c935d39b16a1f281b6d41a687',1,'PolicySlotControl']]],
