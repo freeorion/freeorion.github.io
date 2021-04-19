@@ -186,7 +186,6 @@ var searchData=
   ['resizepanelsforvscroll',['ResizePanelsForVScroll',['../classSidePanel_1_1PlanetPanelContainer.html#a9d375d2046feebeda88a2b10a437b1db',1,'SidePanel::PlanetPanelContainer']]],
   ['resolutionoption',['ResolutionOption',['../classOptionsWnd.html#a4ec8628cd986393ab14ec53989cd9f85',1,'OptionsWnd']]],
   ['resolvefighterbouts',['ResolveFighterBouts',['../namespaceanonymous__namespace_02MeterBrowseWnd_8cpp_03.html#adfe386f7211c8b1557bdb8ab7285adf8',1,'anonymous_namespace{MeterBrowseWnd.cpp}']]],
-  ['resolvegroundcombat',['ResolveGroundCombat',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a4e8c808468e04d39ae783807162f21c3',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['resolvenestedpathtypes',['ResolveNestedPathTypes',['../namespaceanonymous__namespace_02LinkText_8cpp_03.html#a49875fc4b4afc35ae49eaf3de7784597',1,'anonymous_namespace{LinkText.cpp}']]],
   ['resource_5ftype_5fgrammar',['resource_type_grammar',['../structparse_1_1resource__type__grammar.html#a8c8882f901239534ed9acb00f38d30b7',1,'parse::resource_type_grammar']]],
   ['resourcebrowsewnd',['ResourceBrowseWnd',['../classResourceBrowseWnd.html#ac98e2f92c71847a618d8a4a52dfb4105',1,'ResourceBrowseWnd']]],
