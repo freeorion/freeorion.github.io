@@ -9,6 +9,7 @@ var searchData=
   ['validatestyles',['ValidateStyles',['../classMultiTextureStaticGraphic.html#af3cbc86d53104968dd138782f3f9745c',1,'MultiTextureStaticGraphic']]],
   ['validdesign',['ValidDesign',['../classShipDesign.html#affe0ae243b8bf0bbd4105d17ef169980',1,'ShipDesign']]],
   ['validdirectory',['ValidDirectory',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a562f5a354d344a6a2ae9d821a60128ae',1,'anonymous_namespace{OptionsWnd.cpp}']]],
+  ['validexecutablebinary',['ValidExecutableBinary',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a24efb20796a15dae25398ddbb5773608',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validfleetmerge',['ValidFleetMerge',['../namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a1efb91e21bed9d75793983b2d5089195',1,'anonymous_namespace{FleetWnd.cpp}']]],
   ['validfontfile',['ValidFontFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#aaf8abb7bbb646082e0cb6757effae09c',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validmusicfile',['ValidMusicFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a20271029667765e3fadce5fa66d0293c',1,'anonymous_namespace{OptionsWnd.cpp}']]],
