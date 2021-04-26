@@ -53,6 +53,8 @@ var searchData=
   ['sitreppanel_2eh',['SitRepPanel.h',['../SitRepPanel_8h.html',1,'']]],
   ['sound_2ecpp',['Sound.cpp',['../Sound_8cpp.html',1,'']]],
   ['sound_2eh',['Sound.h',['../Sound_8h.html',1,'']]],
+  ['sourcepythonparser_2ecpp',['SourcePythonParser.cpp',['../SourcePythonParser_8cpp.html',1,'']]],
+  ['sourcepythonparser_2eh',['SourcePythonParser.h',['../SourcePythonParser_8h.html',1,'']]],
   ['special_2ecpp',['Special.cpp',['../Special_8cpp.html',1,'']]],
   ['special_2eh',['Special.h',['../Special_8h.html',1,'']]],
   ['specialspanel_2ecpp',['SpecialsPanel.cpp',['../SpecialsPanel_8cpp.html',1,'']]],

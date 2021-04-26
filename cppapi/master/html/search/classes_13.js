@@ -2,6 +2,7 @@ var searchData=
 [
   ['tags_5fgrammar',['tags_grammar',['../structparse_1_1detail_1_1tags__grammar.html',1,'parse::detail']]],
   ['target',['Target',['../structCondition_1_1Target.html',1,'Condition']]],
+  ['target_5fwrapper',['target_wrapper',['../structtarget__wrapper.html',1,'']]],
   ['tech',['Tech',['../classTech.html',1,'']]],
   ['techcategory',['TechCategory',['../structTechCategory.html',1,'']]],
   ['techinfo',['TechInfo',['../structTech_1_1TechInfo.html',1,'Tech']]],

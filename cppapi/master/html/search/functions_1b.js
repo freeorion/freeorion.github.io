@@ -71,6 +71,8 @@ var searchData=
   ['_7eprocessingturn',['~ProcessingTurn',['../structProcessingTurn.html#a470fbfcaae88a3e442046732aa0c6a26',1,'ProcessingTurn']]],
   ['_7eproductionwnd',['~ProductionWnd',['../classProductionWnd.html#ade4603efae8ca2297f122a258d460bb4',1,'ProductionWnd']]],
   ['_7epythonbase',['~PythonBase',['../classPythonBase.html#af1de30c16916b888e201a20f6c8c819e',1,'PythonBase']]],
+  ['_7epythoncommon',['~PythonCommon',['../classPythonCommon.html#aa671e93cac0777b10b6e2a61fc72e49d',1,'PythonCommon']]],
+  ['_7epythonparser',['~PythonParser',['../classPythonParser.html#affc0c0539efc71da40f06ff8da4ee07f',1,'PythonParser']]],
   ['_7equittinggame',['~QuittingGame',['../structQuittingGame.html#a732859634be6a2db2d3381abeb556cba',1,'QuittingGame']]],
   ['_7eresearchwnd',['~ResearchWnd',['../classResearchWnd.html#a02144e141ea3fc6d3ebcd845805265c0',1,'ResearchWnd']]],
   ['_7eresourcecenter',['~ResourceCenter',['../classResourceCenter.html#a6a9b342a31dbf686ded26acc819f8cf6',1,'ResourceCenter']]],

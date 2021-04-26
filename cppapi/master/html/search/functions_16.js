@@ -22,6 +22,7 @@ var searchData=
   ['validsoundfile',['ValidSoundFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a1ce2c2754b578df72cef4efd51db1969',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['validstringtablefile',['ValidStringtableFile',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a98afb343bf84d4cad2c001a0d0677359',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['value',['Value',['../structValueRef_1_1Constant.html#a54e5a49dcfac4b898a7b4b006ee09ae7',1,'ValueRef::Constant']]],
+  ['value_5fref_5fwrapper',['value_ref_wrapper',['../structvalue__ref__wrapper.html#aae2649460868268857860a3360eeac7e',1,'value_ref_wrapper::value_ref_wrapper(std::shared_ptr&lt; ValueRef::ValueRef&lt; T &gt;&gt; &amp;&amp;ref)'],['../structvalue__ref__wrapper.html#aea8eb74ec9f2d4cc72f0ae665336f89d',1,'value_ref_wrapper::value_ref_wrapper(const std::shared_ptr&lt; ValueRef::ValueRef&lt; T &gt;&gt; &amp;ref)']]],
   ['valueisdefault',['ValueIsDefault',['../structOptionsDB_1_1Option.html#a96b72396fcd284de9017dde942d3074d',1,'OptionsDB::Option']]],
   ['valueref',['ValueRef',['../structValueRef_1_1ValueRef.html#a3df07a3c23fe9b5c281266097de9482d',1,'ValueRef::ValueRef']]],
   ['valuerefbase',['ValueRefBase',['../structValueRef_1_1ValueRefBase.html#ad2cbb927bfbd2dd5cf3238d7ee2cfdc6',1,'ValueRef::ValueRefBase']]],

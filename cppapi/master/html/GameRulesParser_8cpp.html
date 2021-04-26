@@ -66,68 +66,85 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">GameRulesParser.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="Parse_8h.html">Parse.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="ParseImpl_8h.html">ParseImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="GameRules_8h.html">../util/GameRules.h</a>&quot;</code><br />
-<code>#include &lt;boost/spirit/include/phoenix.hpp&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="GameRules_8h.html">../util/GameRules.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="PythonParserImpl_8h.html">PythonParserImpl.h</a>&quot;</code><br />
+<code>#include &lt;boost/python/args.hpp&gt;</code><br />
+<code>#include &lt;boost/python/extract.hpp&gt;</code><br />
+<code>#include &lt;boost/python/object_core.hpp&gt;</code><br />
+<code>#include &lt;boost/python/raw_function.hpp&gt;</code><br />
+<code>#include &lt;boost/python/object_fwd.hpp&gt;</code><br />
+<code>#include &lt;boost/python/str.hpp&gt;</code><br />
+<code>#include &lt;boost/python/exec.hpp&gt;</code><br />
+<code>#include &lt;boost/python/import.hpp&gt;</code><br />
+<code>#include &lt;boost/python/stl_iterator.hpp&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02GameRulesParser_8cpp_03_1_1grammar.html">anonymous_namespace{GameRulesParser.cpp}::grammar</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02GameRulesParser_8cpp_03_1_1insert__rule__.html">anonymous_namespace{GameRulesParser.cpp}::insert_rule_</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgrammar.html">grammar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceanonymous__namespace_02GameRulesParser_8cpp_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html">anonymous_namespace{GameRulesParser.cpp}</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceparse"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html">parse</a></td></tr>
 <tr class="memdesc:namespaceparse"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace that encloses the script file lexer and parser. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aa9e2eaded9be950e065ceb1e7829a1f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GameRulesParser_8cpp.html#aa9e2eaded9be950e065ceb1e7829a1f0">DEBUG_PARSERS</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:aa9e2eaded9be950e065ceb1e7829a1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aa3293e412b9d4283cd0dc6974bf4ff50"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html#aa3293e412b9d4283cd0dc6974bf4ff50">anonymous_namespace{GameRulesParser.cpp}::start_rule_payload</a> = <a class="el" href="classGameRules.html">GameRules</a></td></tr>
-<tr class="separator:aa3293e412b9d4283cd0dc6974bf4ff50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b35b841eabd823df607e51b45eeac1a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html#a4b35b841eabd823df607e51b45eeac1a">anonymous_namespace{GameRulesParser.cpp}::start_rule_signature</a> = void(start_rule_payload &amp;)</td></tr>
-<tr class="separator:a4b35b841eabd823df607e51b45eeac1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad057eac26ac25ccd7d00f1cbc83274bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGameRules.html">GameRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#ad057eac26ac25ccd7d00f1cbc83274bc">parse::game_rules</a> (const boost::filesystem::path &amp;path)</td></tr>
-<tr class="separator:ad057eac26ac25ccd7d00f1cbc83274bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2c9cd6e9e0981159d520dd549800d48d"><td class="memItemLeft" align="right" valign="top">const boost::phoenix::function&lt; insert_rule_ &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02GameRulesParser_8cpp_03.html#a2c9cd6e9e0981159d520dd549800d48d">anonymous_namespace{GameRulesParser.cpp}::add_rule</a></td></tr>
-<tr class="separator:a2c9cd6e9e0981159d520dd549800d48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f92be05ff9afa05accb6037cb5d465b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGameRules.html">GameRules</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparse.html#a9f92be05ff9afa05accb6037cb5d465b">parse::game_rules</a> (const <a class="el" href="classPythonParser.html">PythonParser</a> &amp;parser, const boost::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a9f92be05ff9afa05accb6037cb5d465b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586471d25ec2225da4cfc57888283832"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GameRulesParser_8cpp.html#a586471d25ec2225da4cfc57888283832">insert_rule_</a> (const <a class="el" href="structgrammar.html">grammar</a> &amp;g, <a class="el" href="classGameRules.html">GameRules</a> &amp;game_rules, const tuple &amp;args, const dict &amp;kw)</td></tr>
+<tr class="separator:a586471d25ec2225da4cfc57888283832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa9e2eaded9be950e065ceb1e7829a1f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9e2eaded9be950e065ceb1e7829a1f0">&#9670;&nbsp;</a></span>DEBUG_PARSERS</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a586471d25ec2225da4cfc57888283832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586471d25ec2225da4cfc57888283832">&#9670;&nbsp;</a></span>insert_rule_()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DEBUG_PARSERS&#160;&#160;&#160;0</td>
+          <td class="memname">object insert_rule_ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgrammar.html">grammar</a> &amp;&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classGameRules.html">GameRules</a> &amp;&#160;</td>
+          <td class="paramname"><em>game_rules</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const tuple &amp;&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dict &amp;&#160;</td>
+          <td class="paramname"><em>kw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="Logger_8h.html#aa49be7066ef4e7199c82d0e8af752bc8">DebugLogger</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="namespaceparse.html#a9f92be05ff9afa05accb6037cb5d465b">parse::game_rules()</a>, <a class="el" href="Logger_8h.html#a9cf4d2a890c8688e0fe1bc38fa88de94a2ffe4e77325d9a7152f7086ea7aa5114">max</a>, and <a class="el" href="Logger_8h.html#a9cf4d2a890c8688e0fe1bc38fa88de94ad8bd79cc131920d5de426f914d17405a">min</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="structgrammar.html#aac99d83381977fefab3bfd67ef5268e5">grammar::operator()()</a>.</p>
 
 </div>
 </div>

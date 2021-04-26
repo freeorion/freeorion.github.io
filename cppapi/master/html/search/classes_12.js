@@ -109,6 +109,7 @@ var searchData=
   ['sound',['Sound',['../classSound.html',1,'']]],
   ['soundoptionsfeedback',['SoundOptionsFeedback',['../classOptionsWnd_1_1SoundOptionsFeedback.html',1,'OptionsWnd']]],
   ['source',['Source',['../structCondition_1_1Source.html',1,'Condition']]],
+  ['source_5fwrapper',['source_wrapper',['../structsource__wrapper.html',1,'']]],
   ['spacer',['Spacer',['../classanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1TypeSelector_1_1Spacer.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}::TypeSelector']]],
   ['special',['Special',['../classSpecial.html',1,'']]],
   ['special_5fdata',['special_data',['../structanonymous__namespace_02SpecialsParser_8cpp_03_1_1special__data.html',1,'anonymous_namespace{SpecialsParser.cpp}']]],

@@ -3,6 +3,7 @@ var searchData=
   ['validator',['Validator',['../structValidator.html',1,'']]],
   ['validator_3c_20std_3a_3avector_3c_20std_3a_3astring_20_3e_20_3e',['Validator&lt; std::vector&lt; std::string &gt; &gt;',['../structValidator_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html',1,'']]],
   ['validatorbase',['ValidatorBase',['../structValidatorBase.html',1,'']]],
+  ['value_5fref_5fwrapper',['value_ref_wrapper',['../structvalue__ref__wrapper.html',1,'']]],
   ['valueref',['ValueRef',['../structValueRef_1_1ValueRef.html',1,'ValueRef']]],
   ['valueref_3c_20std_3a_3astring_20_3e',['ValueRef&lt; std::string &gt;',['../structValueRef_1_1ValueRef.html',1,'ValueRef']]],
   ['valueref_3c_20totype_20_3e',['ValueRef&lt; ToType &gt;',['../structValueRef_1_1ValueRef.html',1,'ValueRef']]],

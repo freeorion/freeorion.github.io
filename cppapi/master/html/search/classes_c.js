@@ -17,6 +17,7 @@ var searchData=
   ['metervaluesimplematch',['MeterValueSimpleMatch',['../structCondition_1_1anonymous__namespace_02Conditions_8cpp_03_1_1MeterValueSimpleMatch.html',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['militarypanel',['MilitaryPanel',['../classMilitaryPanel.html',1,'']]],
   ['moderatoraction',['ModeratorAction',['../classModerator_1_1ModeratorAction.html',1,'Moderator']]],
+  ['module_5fspec',['module_spec',['../structmodule__spec.html',1,'']]],
   ['monster',['Monster',['../structCondition_1_1Monster.html',1,'Condition']]],
   ['monsterfleetplan',['MonsterFleetPlan',['../classMonsterFleetPlan.html',1,'']]],
   ['monsterfleetplanwrapper',['MonsterFleetPlanWrapper',['../classanonymous__namespace_02ServerWrapper_8cpp_03_1_1MonsterFleetPlanWrapper.html',1,'anonymous_namespace{ServerWrapper.cpp}']]],

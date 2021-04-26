@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['habitable_5fsize',['habitable_size',['../structtarget__wrapper.html#af8f7316da1b8d4b1c16c93f3228588f0',1,'target_wrapper']]],
   ['hairspaceextent',['HairSpaceExtent',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#aa45d39e034136c2281e5ba9a9aa748f9',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
   ['halostartypefileprefixes',['HaloStarTypeFilePrefixes',['../classClientUI.html#aac8b94c6d36abb7aecb85a2a2db1d966',1,'ClientUI']]],
   ['halotexture',['HaloTexture',['../classSystemIcon.html#a82adf3e15602baa01883d0bc75690d25',1,'SystemIcon']]],
@@ -14,7 +15,7 @@ var searchData=
   ['handlediplomaticmessagechange',['HandleDiplomaticMessageChange',['../classServerApp.html#acbb8cb9ed1aea617a8bb09d18bf88cda',1,'ServerApp::HandleDiplomaticMessageChange()'],['../classPlayerListWnd.html#aaba99e43e4a04340ed3d1eb5d4089291',1,'PlayerListWnd::HandleDiplomaticMessageChange()']]],
   ['handlediplomaticstatuschange',['HandleDiplomaticStatusChange',['../classServerApp.html#a4eb80d1107f7dede1629d8d46cbe46eb',1,'ServerApp::HandleDiplomaticStatusChange()'],['../classMessageWnd.html#afdb7afac91d7eb94331aa33981b289f9',1,'MessageWnd::HandleDiplomaticStatusChange()']]],
   ['handlediplomaticstatusupdate',['HandleDiplomaticStatusUpdate',['../classPythonAI.html#aef933c165080afb3e2fa4d33f7803f0f',1,'PythonAI']]],
-  ['handleerroralreadyset',['HandleErrorAlreadySet',['../classPythonBase.html#a92992f6414692dca51785fd91bd4c019',1,'PythonBase']]],
+  ['handleerroralreadyset',['HandleErrorAlreadySet',['../classPythonCommon.html#a38cb6ca65e0d9298168add314648d1a1',1,'PythonCommon']]],
   ['handleerrormessage',['HandleErrorMessage',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#ae29a7254d5843cdef6d981e85a396304',1,'anonymous_namespace{ServerFSM.cpp}']]],
   ['handleexception',['HandleException',['../classClientNetworking_1_1Impl.html#ac75803c5806ece1f50537793be552d54',1,'ClientNetworking::Impl']]],
   ['handlefocuschange',['HandleFocusChange',['../classGGHumanClientApp.html#aae061df1e27a8fbaab22af5517388624',1,'GGHumanClientApp']]],
