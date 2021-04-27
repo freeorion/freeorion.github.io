@@ -29,6 +29,7 @@ var searchData=
   ['_7efleetdatapanel',['~FleetDataPanel',['../classFleetDataPanel.html#a4a1974232fb491766837d95a43ae46d0',1,'FleetDataPanel']]],
   ['_7efleetwnd',['~FleetWnd',['../classFleetWnd.html#a6dd6a1166c3d9c1dd212b4ea309edf5f',1,'FleetWnd']]],
   ['_7eframebuffer',['~Framebuffer',['../classFramebuffer.html#a037bf3e17455354d5d907ceea00313dd',1,'Framebuffer']]],
+  ['_7efreeorionnode',['~FreeOrionNode',['../classFreeOrionNode.html#aa239eb5d4f0de0797ddff4af48bbd52d',1,'FreeOrionNode']]],
   ['_7egghumanclientapp',['~GGHumanClientApp',['../classGGHumanClientApp.html#aabed83e81e5b80f36a44e52f2362c893',1,'GGHumanClientApp']]],
   ['_7egraphicalsummarywnd',['~GraphicalSummaryWnd',['../classGraphicalSummaryWnd.html#a780756a123a1a5ee2289c5dcbc0327d0',1,'GraphicalSummaryWnd']]],
   ['_7ehostilevisitor',['~HostileVisitor',['../structHostileVisitor.html#a10a5794f37205722a5f70ebbc4b4e9c7',1,'HostileVisitor']]],

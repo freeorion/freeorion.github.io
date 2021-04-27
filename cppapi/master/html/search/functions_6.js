@@ -161,6 +161,7 @@ var searchData=
   ['framebuffersavailable',['FramebuffersAvailable',['../classSDLGUI.html#a4301354318232fbe7ff87ca7f17aaf95',1,'SDLGUI']]],
   ['free',['Free',['../classProcess_1_1Impl.html#a66e80965ab4b4eaadc0ce128883f5864',1,'Process::Impl::Free()'],['../classProcess.html#add80a1596ceaa9ebc524514159dc9e98',1,'Process::Free()']]],
   ['freeallsounds',['FreeAllSounds',['../classSound_1_1Impl.html#a561d190fed40403216db99101e4894b5',1,'Sound::Impl::FreeAllSounds()'],['../classSound.html#ac3c48a8974635c21e8f685e78e34fe45',1,'Sound::FreeAllSounds()']]],
+  ['freeorionnode',['FreeOrionNode',['../classFreeOrionNode.html#a65c38f30b60fe36b2dbce5f424a8d8ba',1,'FreeOrionNode']]],
   ['freeorionversionstring',['FreeOrionVersionString',['../Version_8h.html#ab0ee9d1027f465cddc2286ac00e57801',1,'Version.h']]],
   ['freeserver',['FreeServer',['../classGGHumanClientApp.html#a064f7cea01d48ff6a48dea2925ecd4ef',1,'GGHumanClientApp']]],
   ['freesound',['FreeSound',['../classSound_1_1Impl.html#a76152186d17d50451288a85bdbe2cac0',1,'Sound::Impl::FreeSound()'],['../classSound.html#a4fa66c3790a00a39612682bc1dfe83e6',1,'Sound::FreeSound()']]],

@@ -3,6 +3,7 @@ var searchData=
   ['camain_2ecpp',['camain.cpp',['../camain_8cpp.html',1,'']]],
   ['censusbrowsewnd_2ecpp',['CensusBrowseWnd.cpp',['../CensusBrowseWnd_8cpp.html',1,'']]],
   ['censusbrowsewnd_2eh',['CensusBrowseWnd.h',['../CensusBrowseWnd_8h.html',1,'']]],
+  ['cgmain_2ecpp',['cgmain.cpp',['../cgmain_8cpp.html',1,'']]],
   ['changelog_2emd',['ChangeLog.md',['../ChangeLog_8md.html',1,'']]],
   ['chatwnd_2ecpp',['ChatWnd.cpp',['../ChatWnd_8cpp.html',1,'']]],
   ['chatwnd_2eh',['ChatWnd.h',['../ChatWnd_8h.html',1,'']]],
