@@ -136,14 +136,13 @@ $(function() {
 <h3>Windows (Visual Studio)</h3>
 <p>To build FreeOrion open the <code>FreeOrion.sln</code> project solution within <code>_source directory_\msvc2017</code> or <code>_source directory_\msvc2019</code> with Visual Studio. Now compile the whole project by selecting the <code>Build</code> -&gt; <code>Build Solution</code> menu entry.</p>
 <p>After the build finished successfully the binaries can be found within the <code>freeorion-project/FreeOrion</code> directory.</p>
-<h3>Windows (CMake; work in progress)</h3>
-<p>Create a <code>build</code> directory inside the <em>source_directory</em> and change into this directory. It will contain all compile FreeOrion build artifacs.</p>
-<p>Execute cmake to generate a Visual Studio solution:</p>
-<div class="fragment"><div class="line">cmake .. -G &quot;Visual Studio 15 2017&quot;</div></div><!-- fragment --><p>After successfully creating the Makefiles build the whole project by calling:</p>
-<div class="fragment"><div class="line">MSBuild.exe -p:Configuration=Release FreeOrion.sln</div></div><!-- fragment --><p>In case you want to utilize multiple CPU cores by running parallel compile jobs, you can add the <code>-m</code> option to the command.</p>
-<p>Alternatively, you can build FreeOrion by opening the <code>FreeOrion.sln</code> project solution with Visual Studio. Now compile the whole project by selecting the <code>Build</code> -&gt; <code>Build Solution</code> menu entry. This will leave you with a build of FreeOrion executables.</p>
-<p>After the build finished successfully the binaries can be found within the <code>freeorion-project/Freeorion/build/Release</code> directory.</p>
-<p>To run the executable without creating the symbolic link, you can first change the directory to <code>freeorion-project/Freeorion</code>, then run <code>./build/Release/FreeOrion.exe</code>.</p>
+<h3>Windows (CMake)</h3>
+<p>After preparing the SDK as above, open a Visual Studio x86 Native Tools command prompt (from the start menu Visual Studio folder), and change to the <em>source_directory</em>.</p>
+<p>Create a <code>build</code> directory inside the <em>source_directory</em> and change into this directory. It will contain all compile FreeOrion build artifacs:</p>
+<div class="fragment"><div class="line">mkdir build</div><div class="line">cd build</div></div><!-- fragment --><p>Execute cmake to generate a Visual Studio solution, eg:</p>
+<div class="fragment"><div class="line">cmake .. -G &quot;Visual Studio 16 2019&quot; -T v141 -A Win32 -DBUILD_TESTING=On -DCMAKE_C_FLAGS=/MP -DCMAKE_CXX_FLAGS=/MP</div></div><!-- fragment --><p>Then run the build:</p>
+<div class="fragment"><div class="line">cmake --build . --config &quot;Release&quot; -- /maxcpucount</div></div><!-- fragment --><p>Alternatively, you can build FreeOrion by opening the cmake-generated <code>FreeOrion.sln</code> project solution with Visual Studio. Now compile the whole project by selecting the <code>Build</code> -&gt; <code>Build Solution</code> menu entry.</p>
+<p>After the build finished successfully, the executable binaries can be found within the <code>freeorion-project/Freeorion/build/Release</code> directory. That directory will also contain a symbolic link to the default resources directory, <code>freeorion-project/Freeorion/default</code>, allowing the FreeOrion client to be run from that location.</p>
 <h3>Mac OS X</h3>
 <p>Create a <code>build</code> directory aside the <em>source_directory</em> and change into this directory. It will contain all compile FreeOrion build artifacs.</p>
 <p>Execute <code>cmake</code> to generate a Xcode project file:</p>
