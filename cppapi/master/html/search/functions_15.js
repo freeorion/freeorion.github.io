@@ -74,7 +74,6 @@ var searchData=
   ['updateresourcecenterfocushistoryinfo',['UpdateResourceCenterFocusHistoryInfo',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad234f19d034e2eb80b0891795b536caf',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['updateresourcepools',['UpdateResourcePools',['../namespaceanonymous__namespace_02AIWrapper_8cpp_03.html#a49efce7eb54fb600b692ec6db25675c5',1,'anonymous_namespace{AIWrapper.cpp}']]],
   ['updatesavepreviews',['UpdateSavePreviews',['../classServerApp.html#a4f27b7992c853c39483653abe86db8a4',1,'ServerApp']]],
-  ['updatesidepanelsystemobjectmetersandresourcepools',['UpdateSidePanelSystemObjectMetersAndResourcePools',['../classMapWnd.html#ace4f1bb583c9c391668759b3bec25119',1,'MapWnd']]],
   ['updatestatebuttonsfromvisfilters',['UpdateStateButtonsFromVisFilters',['../classFilterDialog.html#af0a3563bfabca499626af30200dcd59f',1,'FilterDialog']]],
   ['updatestatrecords',['UpdateStatRecords',['../classUniverse.html#a95f7eecb4693358ed2bbc39ec5dac2b4',1,'Universe']]],
   ['updatesummary',['UpdateSummary',['../classMeterBrowseWnd.html#a3bd3621955d450d3b5cc062346f3a14a',1,'MeterBrowseWnd::UpdateSummary()'],['../classShipDamageBrowseWnd.html#a59f87957c3b87f82ad2be766ce50c1e2',1,'ShipDamageBrowseWnd::UpdateSummary()'],['../classShipFightersBrowseWnd.html#adaf0a4aa09540b4c076ebf114b82c3ad',1,'ShipFightersBrowseWnd::UpdateSummary()']]],
