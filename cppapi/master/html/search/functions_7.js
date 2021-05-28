@@ -11,7 +11,6 @@ var searchData=
   ['galsetupwndwidth',['GalSetupWndWidth',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a1d45aee348c9855f4ca52fbb3389a453',1,'anonymous_namespace{GalaxySetupWnd.cpp}']]],
   ['game_5frules',['game_rules',['../namespaceparse.html#a9f92be05ff9afa05accb6037cb5d465b',1,'parse']]],
   ['gameplaydescription',['GameplayDescription',['../classSpecies.html#af0905ec61991eb67813301d3f82dba51',1,'Species']]],
-  ['gamerules',['GameRules',['../classGameRules.html#a63e41162d1d61165f32f6f98e2367724',1,'GameRules']]],
   ['gameruleslist',['GameRulesList',['../classanonymous__namespace_02GalaxySetupWnd_8cpp_03_1_1GameRulesList.html#aaf543bf13c3689c3c0f9552ff419b758',1,'anonymous_namespace{GalaxySetupWnd.cpp}::GameRulesList']]],
   ['gamerulespanel',['GameRulesPanel',['../classGameRulesPanel.html#a0f39c8586e7c54780073d9884280caa2',1,'GameRulesPanel']]],
   ['gamerulesregistry',['GameRulesRegistry',['../namespaceanonymous__namespace_02GameRules_8cpp_03.html#ad59b3f60242107cdf814a82ec6b34a40',1,'anonymous_namespace{GameRules.cpp}']]],

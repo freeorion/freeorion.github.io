@@ -26,7 +26,7 @@ var searchData=
   ['game_5fuid',['game_uid',['../structGalaxySetupData.html#a056cdf9bef7d4c667f1d3df8dbe19758',1,'GalaxySetupData']]],
   ['gameplay_5fdesc',['gameplay_desc',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStrings.html#a7300d78aae1498c96ff2c499651463a6',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesStrings']]],
   ['gameplaydescription',['GameplayDescription',['../classSpecies.html#af0905ec61991eb67813301d3f82dba51',1,'Species']]],
-  ['gamerules',['GameRules',['../classGameRules.html',1,'GameRules'],['../classGameRules.html#a63e41162d1d61165f32f6f98e2367724',1,'GameRules::GameRules()']]],
+  ['gamerules',['GameRules',['../classGameRules.html',1,'']]],
   ['gamerules_2ecpp',['GameRules.cpp',['../GameRules_8cpp.html',1,'']]],
   ['gamerules_2eh',['GameRules.h',['../GameRules_8h.html',1,'']]],
   ['gamerulesfn',['GameRulesFn',['../GameRules_8h.html#ad998a3d848607a9af0256385c425d2d8',1,'GameRules.h']]],
