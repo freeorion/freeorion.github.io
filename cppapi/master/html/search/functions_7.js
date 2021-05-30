@@ -22,6 +22,7 @@ var searchData=
   ['generatecookie',['GenerateCookie',['../classServerNetworking.html#ad62157237471449e0935e6897dd9e96f',1,'ServerNetworking']]],
   ['generatedesignid',['GenerateDesignID',['../classUniverse.html#aadf53884305456c05b6950bdbd3e97a4',1,'Universe']]],
   ['generateempirename',['GenerateEmpireName',['../namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a846fe22c382e2d5eeb795943bd98d53a',1,'anonymous_namespace{ServerFSM.cpp}']]],
+  ['generatefleetname',['GenerateFleetName',['../classFleet.html#aa64c7be1341b1efeb87f94d6f1be7289',1,'Fleet']]],
   ['generategraph',['GenerateGraph',['../classGraphicalSummaryWnd.html#a5814f2c7a2478e079369ee04b1de8ba9',1,'GraphicalSummaryWnd']]],
   ['generateobjectid',['GenerateObjectID',['../classUniverse.html#a7dae921872daf2d372abef0f01a4ba21',1,'Universe']]],
   ['generateorders',['GenerateOrders',['../classPythonAI.html#a54ee3ebb40c2051653303ff40b116770',1,'PythonAI']]],

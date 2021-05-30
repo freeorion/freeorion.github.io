@@ -16,6 +16,7 @@ var searchData=
   ['universepositionfromscreencoords',['UniversePositionFromScreenCoords',['../classMapWnd.html#a753ad20addc155c491d73f1475cbd35c',1,'MapWnd']]],
   ['universewidth',['UniverseWidth',['../classUniverse.html#acfbd482b9717883e9c624d6b44143c5e',1,'Universe']]],
   ['unknownicon',['UnknownIcon',['../namespaceanonymous__namespace_02PlayerListWnd_8cpp_03.html#a22d862e1cb6553257162a5a89039cb27',1,'anonymous_namespace{PlayerListWnd.cpp}']]],
+  ['unknownroute',['UnknownRoute',['../classFleet.html#a75d7f0b4683a8889ac36d4af04a1bbd5',1,'Fleet']]],
   ['unlockable_5fitem_5fenum_5fgrammar',['unlockable_item_enum_grammar',['../structparse_1_1unlockable__item__enum__grammar.html#a11d2695dbd744750544645fed2b99e98',1,'parse::unlockable_item_enum_grammar']]],
   ['unlockable_5fitem_5fgrammar',['unlockable_item_grammar',['../structparse_1_1detail_1_1unlockable__item__grammar.html#a98ce49a8f64228e81aae4b61984e719c',1,'parse::detail::unlockable_item_grammar']]],
   ['unlockable_5fitem_5fwrapper',['unlockable_item_wrapper',['../structunlockable__item__wrapper.html#ada6d607c3de1b2b0f3398d05c1028f00',1,'unlockable_item_wrapper::unlockable_item_wrapper(UnlockableItem &amp;&amp;item_)'],['../structunlockable__item__wrapper.html#ad7d6784e3b12f41f3688b3a06adb35b6',1,'unlockable_item_wrapper::unlockable_item_wrapper(const UnlockableItem &amp;item_)']]],

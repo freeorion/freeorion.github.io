@@ -46,6 +46,8 @@ var searchData=
   ['black_5ftarget',['black_target',['../classSystemPathing_1_1BFSVisitorImpl.html#a0e975e7a05d612126fd37427431c2a4d',1,'SystemPathing::BFSVisitorImpl']]],
   ['block_5fsize',['block_size',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#ac8e4ce68645aa1f91f54b6fbc20cded4',1,'boost::iostreams::arbitrary_positional_facade']]],
   ['block_5fsize_5f',['block_size_',['../classboost_1_1iostreams_1_1arbitrary__positional__facade.html#a7862bab5ec62a1fbd0469625709a7d9c',1,'boost::iostreams::arbitrary_positional_facade']]],
+  ['blockaded',['Blockaded',['../classFleet.html#a460246d9faa74b3f2a6738aafbb536ce',1,'Fleet']]],
+  ['blockadedatsystem',['BlockadedAtSystem',['../classFleet.html#aa82c08e575f97c41877ab7783d1c27c7',1,'Fleet']]],
   ['blocker',['blocker',['../structHotkeyManager_1_1ConditionalConnection.html#a6fa4968cbbeb3ec2fad7fe24a0e576c6',1,'HotkeyManager::ConditionalConnection']]],
   ['blocking_5fcombiner',['blocking_combiner',['../structblocking__combiner.html',1,'blocking_combiner&lt; inner_combiner &gt;'],['../structblocking__combiner.html#afdac49c5d473abd522ec847464533195',1,'blocking_combiner::blocking_combiner()']]],
   ['blocking_5fcombiner_2eh',['blocking_combiner.h',['../blocking__combiner_8h.html',1,'']]],
@@ -174,5 +176,5 @@ var searchData=
   ['serialization',['serialization',['../namespaceboost_1_1serialization.html',1,'boost']]],
   ['spirit',['spirit',['../namespaceboost_1_1spirit.html',1,'boost']]],
   ['traits',['traits',['../namespaceboost_1_1spirit_1_1traits.html',1,'boost::spirit']]],
-  ['value_5fdestroyer',['value_destroyer',['../classBuilding.html#a9d93de3057fec4a751843298ac72b37b',1,'Building::value_destroyer()'],['../classField.html#a9d93de3057fec4a751843298ac72b37b',1,'Field::value_destroyer()'],['../classShip.html#a9d93de3057fec4a751843298ac72b37b',1,'Ship::value_destroyer()']]]
+  ['value_5fdestroyer',['value_destroyer',['../classBuilding.html#a9d93de3057fec4a751843298ac72b37b',1,'Building::value_destroyer()'],['../classField.html#a9d93de3057fec4a751843298ac72b37b',1,'Field::value_destroyer()'],['../classFleet.html#a9d93de3057fec4a751843298ac72b37b',1,'Fleet::value_destroyer()'],['../classShip.html#a9d93de3057fec4a751843298ac72b37b',1,'Ship::value_destroyer()']]]
 ];

@@ -13,6 +13,7 @@ var searchData=
   ['filedlg',['FileDlg',['../classFileDlg.html',1,'']]],
   ['filter_5foperations',['filter_operations',['../structboost_1_1iostreams_1_1core__access_1_1filter__operations.html',1,'boost::iostreams::core_access']]],
   ['filterdialog',['FilterDialog',['../classFilterDialog.html',1,'']]],
+  ['fleet',['Fleet',['../classFleet.html',1,'']]],
   ['fleetbutton',['FleetButton',['../classFleetButton.html',1,'']]],
   ['fleetdatapanel',['FleetDataPanel',['../classFleetDataPanel.html',1,'']]],
   ['fleetdetailbrowsewnd',['FleetDetailBrowseWnd',['../classanonymous__namespace_02MapWnd_8cpp_03_1_1FleetDetailBrowseWnd.html',1,'anonymous_namespace{MapWnd.cpp}']]],

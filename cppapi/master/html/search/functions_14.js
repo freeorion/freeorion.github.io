@@ -101,6 +101,7 @@ var searchData=
   ['transferrandomobjects',['TransferRandomObjects',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a92f1e27dcd3b63268002932eeb2fd889',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['transfersortedobjects',['TransferSortedObjects',['../namespaceCondition_1_1anonymous__namespace_02Conditions_8cpp_03.html#a8bffad4983f963126d066fb63eec2b48',1,'Condition::anonymous_namespace{Conditions.cpp}']]],
   ['translate',['Translate',['../classCUIStyle.html#a58e04699a25a0af1ebe73d10262adecc',1,'CUIStyle::Translate()'],['../namespaceanonymous__namespace_02PythonParser_8cpp_03.html#a654faee264b93b080c2bb7bf96650d68',1,'anonymous_namespace{PythonParser.cpp}::translate()']]],
+  ['travelroute',['TravelRoute',['../classFleet.html#acacaed919bddd3d8df3c096732559655',1,'Fleet']]],
   ['tree_5fedge',['tree_edge',['../classSystemPathing_1_1BFSVisitorImpl.html#acb9b23c48ba1c5c88f4274e68c1e3444',1,'SystemPathing::BFSVisitorImpl']]],
   ['treedragbegin',['TreeDragBegin',['../classTechTreeWnd_1_1LayoutPanel.html#a548a19e3272d59071dba14b8ec30ecc1',1,'TechTreeWnd::LayoutPanel']]],
   ['treedragend',['TreeDragEnd',['../classTechTreeWnd_1_1LayoutPanel.html#ab29e3e4614e344dfd8c73c9866ca1d3f',1,'TechTreeWnd::LayoutPanel']]],
