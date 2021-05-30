@@ -22,7 +22,7 @@ var searchData=
   ['handlefocuschange',['HandleFocusChange',['../classGGHumanClientApp.html#aae061df1e27a8fbaab22af5517388624',1,'GGHumanClientApp']]],
   ['handlefullscreenswitch',['HandleFullscreenSwitch',['../classClientUI.html#aaf50a3aba9f3a038eca80318b6faf221',1,'ClientUI']]],
   ['handlegamestatusupdate',['HandleGameStatusUpdate',['../classMessageWnd.html#a01c9a2e92fdcc3ba6da943c98aee01f4',1,'MessageWnd']]],
-  ['handlegifting',['HandleGifting',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad2ac9277fcc0cd84949db37be555acd5',1,'anonymous_namespace{ServerApp.cpp}']]],
+  ['handlegifting',['HandleGifting',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a497db76d6e79f22100f537fb28954b60',1,'anonymous_namespace{ServerApp.cpp}']]],
   ['handlehotkeyexitapp',['HandleHotkeyExitApp',['../classGGHumanClientApp.html#a7147d87846f65f3540b0bc72654e9768',1,'GGHumanClientApp']]],
   ['handlehotkeyresetgame',['HandleHotkeyResetGame',['../classGGHumanClientApp.html#aeff7fc91241e5c672bc6a22ac3db0724',1,'GGHumanClientApp']]],
   ['handleinvasion',['HandleInvasion',['../namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6571c2b74cfdc8672caf5c30915c58d9',1,'anonymous_namespace{ServerApp.cpp}']]],

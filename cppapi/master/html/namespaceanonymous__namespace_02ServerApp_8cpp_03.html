@@ -129,9 +129,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0dcf403495c0e3780d5b6d557801367d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a0dcf403495c0e3780d5b6d557801367d">HandleColonization</a> (<a class="el" href="classUniverse.html">Universe</a> &amp;universe, <a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires)</td></tr>
 <tr class="memdesc:a0dcf403495c0e3780d5b6d557801367d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which ships ordered to colonize planet succeed, does appropriate colonization, and cleans up after colonization orders.  <a href="#a0dcf403495c0e3780d5b6d557801367d">More...</a><br /></td></tr>
 <tr class="separator:a0dcf403495c0e3780d5b6d557801367d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ac9277fcc0cd84949db37be555acd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#ad2ac9277fcc0cd84949db37be555acd5">HandleGifting</a> ()</td></tr>
-<tr class="memdesc:ad2ac9277fcc0cd84949db37be555acd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which fleets or planets ordered given to other empires, and sets their new ownership.  <a href="#ad2ac9277fcc0cd84949db37be555acd5">More...</a><br /></td></tr>
-<tr class="separator:ad2ac9277fcc0cd84949db37be555acd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497db76d6e79f22100f537fb28954b60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a497db76d6e79f22100f537fb28954b60">HandleGifting</a> (<a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, <a class="el" href="classObjectMap.html">ObjectMap</a> &amp;objects)</td></tr>
+<tr class="memdesc:a497db76d6e79f22100f537fb28954b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which fleets or planets ordered given to other empires, and sets their new ownership.  <a href="#a497db76d6e79f22100f537fb28954b60">More...</a><br /></td></tr>
+<tr class="separator:a497db76d6e79f22100f537fb28954b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6571c2b74cfdc8672caf5c30915c58d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceanonymous__namespace_02ServerApp_8cpp_03.html#a6571c2b74cfdc8672caf5c30915c58d9">HandleInvasion</a> (<a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;empires, <a class="el" href="classUniverse.html">Universe</a> &amp;universe)</td></tr>
 <tr class="memdesc:a6571c2b74cfdc8672caf5c30915c58d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which ships ordered to invade planets, does invasion and ground combat resolution.  <a href="#a6571c2b74cfdc8672caf5c30915c58d9">More...</a><br /></td></tr>
 <tr class="separator:a6571c2b74cfdc8672caf5c30915c58d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -882,8 +882,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2ac9277fcc0cd84949db37be555acd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2ac9277fcc0cd84949db37be555acd5">&#9670;&nbsp;</a></span>HandleGifting()</h2>
+<a id="a497db76d6e79f22100f537fb28954b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497db76d6e79f22100f537fb28954b60">&#9670;&nbsp;</a></span>HandleGifting()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -891,15 +891,26 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void anonymous_namespace{ServerApp.cpp}::HandleGifting </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classEmpireManager.html">EmpireManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>empires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classObjectMap.html">ObjectMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Determines which fleets or planets ordered given to other empires, and sets their new ownership. </p>
 
-<p class="reference">References <a class="el" href="ConstantsFwd_8h.html#a50929610639ebc07ecd1aed23111ffbe">ALL_EMPIRES</a>, <a class="el" href="SitRepEntry_8cpp.html#a9e64aa45dab79ee4d0dee3f844d316d5">CreateFleetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#ae5b615a13ad149f77468dd8e85be70ba">CreatePlanetGiftedSitRep()</a>, <a class="el" href="classObjectMap.html#ae7502326ac46f75c9e8c7efa8fb8159c">ObjectMap::find()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="classServerApp.html#a96f7fae51d622bb9db38146508f06ca8">ServerApp::GetEmpire()</a>, <a class="el" href="classServerApp.html#adbc788372ec24760b687eff03802302e">ServerApp::GetUniverse()</a>, <a class="el" href="ConstantsFwd_8h.html#a18b13ae2faf886ef86ffebfacb506530">INVALID_OBJECT_ID</a>, and <a class="el" href="AppInterface_8h.html#a361b98af8009b5a3b1dcaa1d9b87936c">Objects()</a>.</p>
+<p class="reference">References <a class="el" href="classObjectMap.html#aeea5defa4f9b05c6b42bcaddffa862c5">ObjectMap::all()</a>, <a class="el" href="ConstantsFwd_8h.html#a50929610639ebc07ecd1aed23111ffbe">ALL_EMPIRES</a>, <a class="el" href="SitRepEntry_8cpp.html#a9e64aa45dab79ee4d0dee3f844d316d5">CreateFleetGiftedSitRep()</a>, <a class="el" href="SitRepEntry_8cpp.html#ae5b615a13ad149f77468dd8e85be70ba">CreatePlanetGiftedSitRep()</a>, <a class="el" href="classObjectMap.html#ae7502326ac46f75c9e8c7efa8fb8159c">ObjectMap::find()</a>, <a class="el" href="classObjectMap.html#a600760a8afc10b9a4e975498bbce7e94">ObjectMap::get()</a>, <a class="el" href="classEmpireManager.html#acdee919e2cfc653bef6e35690827e783">EmpireManager::GetEmpire()</a>, and <a class="el" href="ConstantsFwd_8h.html#a18b13ae2faf886ef86ffebfacb506530">INVALID_OBJECT_ID</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classServerApp.html#aad8e14179d548168080fb8744abaccf7">ServerApp::PreCombatProcessTurns()</a>.</p>
 
