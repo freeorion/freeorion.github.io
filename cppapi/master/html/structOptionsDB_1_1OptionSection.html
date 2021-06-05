@@ -76,8 +76,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acf32879df48a0dd4dabd804136d81d4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1OptionSection.html#acf32879df48a0dd4dabd804136d81d4c">OptionSection</a> ()</td></tr>
-<tr class="separator:acf32879df48a0dd4dabd804136d81d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85d84f4384c17b5afe5da22f5dab56c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1OptionSection.html#a85d84f4384c17b5afe5da22f5dab56c4">OptionSection</a> (const std::string &amp;name_, const std::string &amp;description_, std::function&lt; bool(const std::string &amp;)&gt; option_predicate_)</td></tr>
 <tr class="separator:a85d84f4384c17b5afe5da22f5dab56c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -87,39 +85,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7d332f7bf1db86ba7c01d56f9534d41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab199bcd857bd536876cf9e4066ad6faf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1OptionSection.html#ab199bcd857bd536876cf9e4066ad6faf">name</a></td></tr>
 <tr class="separator:ab199bcd857bd536876cf9e4066ad6faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78deca56cd70a3bdd8b61aada5846270"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270">option_predicate</a> = nullptr</td></tr>
+<tr class="memitem:a78deca56cd70a3bdd8b61aada5846270"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270">option_predicate</a></td></tr>
 <tr class="separator:a78deca56cd70a3bdd8b61aada5846270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acf32879df48a0dd4dabd804136d81d4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf32879df48a0dd4dabd804136d81d4c">&#9670;&nbsp;</a></span>OptionSection() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">OptionsDB::OptionSection::OptionSection </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="structOptionsDB_1_1Option.html#a96b72396fcd284de9017dde942d3074d">OptionsDB::Option::ValueIsDefault()</a>.</p>
-
-</div>
-</div>
 <a id="a85d84f4384c17b5afe5da22f5dab56c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85d84f4384c17b5afe5da22f5dab56c4">&#9670;&nbsp;</a></span>OptionSection() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85d84f4384c17b5afe5da22f5dab56c4">&#9670;&nbsp;</a></span>OptionSection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,7 +121,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classOptionsDB.html#ac85c1ce2277c9d0d00b9681aeee44d8d">OptionsDB::s_options_db</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a79643d8e5c56b27eb89e37cbbf63b8fc">OptionsDB::AddSection()</a>.</p>
 
 </div>
 </div>
@@ -181,6 +152,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">OptionsDB::GetXML()</a>.</p>
+
 </div>
 </div>
 <a id="a78deca56cd70a3bdd8b61aada5846270"></a>
@@ -190,10 +163,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool (const std::string&amp;)&gt; OptionsDB::OptionSection::option_predicate = nullptr</td>
+          <td class="memname">std::function&lt;bool (const std::string&amp;)&gt; OptionsDB::OptionSection::option_predicate</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a79643d8e5c56b27eb89e37cbbf63b8fc">OptionsDB::AddSection()</a>.</p>
 
 </div>
 </div>

@@ -32,6 +32,7 @@ var searchData=
   ['option_5fpredicate',['option_predicate',['../structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270',1,'OptionsDB::OptionSection']]],
   ['optionaddedsignal',['OptionAddedSignal',['../classOptionsDB.html#ab7a6ec2d9a61f88d9d37cce2a0046dc3',1,'OptionsDB']]],
   ['optionremovedsignal',['OptionRemovedSignal',['../classOptionsDB.html#aede5bb12b315bf9574543a5f8e99a194',1,'OptionsDB']]],
+  ['options_5fdb',['options_db',['../namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a7bf720d11f4895cee5d06a74d0434e1c',1,'anonymous_namespace{OptionsDB.cpp}']]],
   ['options_5froot',['OPTIONS_ROOT',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#ad87f96f6c2fe0e8844981ed9fcc47644',1,'anonymous_namespace{GraphicalSummary.cpp}']]],
   ['options_5fwnd_5fname',['OPTIONS_WND_NAME',['../namespaceanonymous__namespace_02OptionsWnd_8cpp_03.html#a5ff3d803f844965ead6a5c6171dab1d8',1,'anonymous_namespace{OptionsWnd.cpp}']]],
   ['or_5f',['or_',['../structparse_1_1detail_1_1condition__parser__rules__1.html#a16b5c9835d62c5cb4c919c5afbfbdce9',1,'parse::detail::condition_parser_rules_1']]],

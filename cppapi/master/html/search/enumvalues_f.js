@@ -20,6 +20,6 @@ var searchData=
   ['sort_5frandom',['SORT_RANDOM',['../namespaceCondition.html#ada31339ef39b0db3266023c89152af70a955bffecc810282b0eb86bd167e8264d',1,'Condition']]],
   ['source_5freference',['SOURCE_REFERENCE',['../namespaceValueRef.html#a1695bf14ae25db3dd8c35207a6b3da57a331cf07add2d6fdc1ac5eb3f3ea5d056',1,'ValueRef']]],
   ['split_5fincomplete',['SPLIT_INCOMPLETE',['../classProductionQueueOrder.html#ad8f94d37133f6c52be137369d4c70661a777c82d5fc56c3bff0b231d40dbb7a2a',1,'ProductionQueueOrder']]],
-  ['string',['STRING',['../classGameRules.html#a61340c37002deaa2c0ae847f90419a29a63b588d5559f64f89a416e656880b949',1,'GameRules']]],
+  ['string',['STRING',['../structGameRule.html#a161771e82b3aa63cc47c458a861b4390a63b588d5559f64f89a416e656880b949',1,'GameRule']]],
   ['substitution',['SUBSTITUTION',['../namespaceValueRef.html#abff0c403d6b1b3de88f4dda30beedfefae637679b66688b9f8c9441147fceb023',1,'ValueRef']]]
 ];

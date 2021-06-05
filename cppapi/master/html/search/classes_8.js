@@ -23,5 +23,7 @@ var searchData=
   ['introscreen',['IntroScreen',['../classIntroScreen.html',1,'']]],
   ['invadeorder',['InvadeOrder',['../classInvadeOrder.html',1,'']]],
   ['invisiblewindowcondition',['InvisibleWindowCondition',['../classInvisibleWindowCondition.html',1,'']]],
-  ['is_5funique',['is_unique',['../structparse_1_1detail_1_1is__unique.html',1,'parse::detail']]]
+  ['is_5funique',['is_unique',['../structparse_1_1detail_1_1is__unique.html',1,'parse::detail']]],
+  ['is_5funique_5fptr',['is_unique_ptr',['../structis__unique__ptr.html',1,'']]],
+  ['is_5funique_5fptr_3c_20std_3a_3aunique_5fptr_3c_20t_20_3e_20_3e',['is_unique_ptr&lt; std::unique_ptr&lt; T &gt; &gt;',['../structis__unique__ptr_3_01std_1_1unique__ptr_3_01T_01_4_01_4.html',1,'']]]
 ];

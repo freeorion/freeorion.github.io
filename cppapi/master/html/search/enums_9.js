@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type',['Type',['../classGameRules.html#a61340c37002deaa2c0ae847f90419a29',1,'GameRules']]]
+  ['type',['Type',['../structGameRule.html#a161771e82b3aa63cc47c458a861b4390',1,'GameRule']]]
 ];

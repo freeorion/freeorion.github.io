@@ -66,7 +66,6 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classOptionsDB-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -100,20 +99,26 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5031dd1a440b9380bf9ecf15f53069b5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5031dd1a440b9380bf9ecf15f53069b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5">Add</a> (const std::string &amp;name, const std::string &amp;description, T default_value, const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &amp;validator=<a class="el" href="structValidator.html">Validator</a>&lt; T &gt;(), bool storable=true, const std::string &amp;section=std::string())</td></tr>
-<tr class="memdesc:a5031dd1a440b9380bf9ecf15f53069b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a>, optionally with a custom validator  <a href="#a5031dd1a440b9380bf9ecf15f53069b5">More...</a><br /></td></tr>
-<tr class="separator:a5031dd1a440b9380bf9ecf15f53069b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac9400d3bacde8ff2eddbb0dd54817da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aac9400d3bacde8ff2eddbb0dd54817da"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#aac9400d3bacde8ff2eddbb0dd54817da">Add</a> (char short_name, const std::string &amp;name, const std::string &amp;description, T default_value, const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &amp;validator=<a class="el" href="structValidator.html">Validator</a>&lt; T &gt;(), bool storable=true, const std::string &amp;section=std::string())</td></tr>
-<tr class="memdesc:aac9400d3bacde8ff2eddbb0dd54817da"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a> with an alternative one-character shortened name, optionally with a custom validator  <a href="#aac9400d3bacde8ff2eddbb0dd54817da">More...</a><br /></td></tr>
-<tr class="separator:aac9400d3bacde8ff2eddbb0dd54817da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8adf55e5f82193ef96bae2b7492999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a7e8adf55e5f82193ef96bae2b7492999">AddFlag</a> (const std::string &amp;name, const std::string &amp;description, bool storable=true, const std::string &amp;section=std::string())</td></tr>
-<tr class="memdesc:a7e8adf55e5f82193ef96bae2b7492999"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a flag <a class="el" href="structOptionsDB_1_1Option.html">Option</a>, which is treated as a boolean value with a default of false.  <a href="#a7e8adf55e5f82193ef96bae2b7492999">More...</a><br /></td></tr>
-<tr class="separator:a7e8adf55e5f82193ef96bae2b7492999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b4a53ea6e748de8c6fca9352dbc0de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a9b4a53ea6e748de8c6fca9352dbc0de2">AddFlag</a> (char short_name, const std::string &amp;name, const std::string &amp;description, bool storable=true, const std::string &amp;section=std::string())</td></tr>
-<tr class="memdesc:a9b4a53ea6e748de8c6fca9352dbc0de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a> with an alternative one-character shortened name, which is treated as a boolean value with a default of false.  <a href="#a9b4a53ea6e748de8c6fca9352dbc0de2">More...</a><br /></td></tr>
-<tr class="separator:a9b4a53ea6e748de8c6fca9352dbc0de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b354a1a16c72f1f00643497af1b11ce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0b354a1a16c72f1f00643497af1b11ce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a0b354a1a16c72f1f00643497af1b11ce">Add</a> (std::string name, std::string description, T default_value, std::unique_ptr&lt; <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt; validator=nullptr, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="memdesc:a0b354a1a16c72f1f00643497af1b11ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a>, optionally with a custom validator  <a href="#a0b354a1a16c72f1f00643497af1b11ce">More...</a><br /></td></tr>
+<tr class="separator:a0b354a1a16c72f1f00643497af1b11ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cf84a51d8b0c2076407e2f8875f357"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename std::enable_if_t&lt;!is_unique_ptr_v&lt; V &gt;&gt; *  = nullptr, typename std::enable_if_t&lt;!std::is_null_pointer_v&lt; V &gt;&gt; *  = nullptr&gt; </td></tr>
+<tr class="memitem:a20cf84a51d8b0c2076407e2f8875f357"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a20cf84a51d8b0c2076407e2f8875f357">Add</a> (std::string name, std::string description, T default_value, V &amp;&amp;validator, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="separator:a20cf84a51d8b0c2076407e2f8875f357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab096632a71e06ee5c0ada81e0e86d239"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab096632a71e06ee5c0ada81e0e86d239"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ab096632a71e06ee5c0ada81e0e86d239">Add</a> (char short_name, std::string name, std::string description, T default_value, std::unique_ptr&lt; <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt; validator=nullptr, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="memdesc:ab096632a71e06ee5c0ada81e0e86d239"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a> with an alternative one-character shortened name, optionally with a custom validator  <a href="#ab096632a71e06ee5c0ada81e0e86d239">More...</a><br /></td></tr>
+<tr class="separator:ab096632a71e06ee5c0ada81e0e86d239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c5f13f261e4db65e405dbc19682282"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V , typename std::enable_if_t&lt;!is_unique_ptr_v&lt; V &gt;&gt; *  = nullptr, typename std::enable_if_t&lt;!std::is_null_pointer_v&lt; V &gt;&gt; *  = nullptr&gt; </td></tr>
+<tr class="memitem:ad4c5f13f261e4db65e405dbc19682282"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ad4c5f13f261e4db65e405dbc19682282">Add</a> (char short_name, std::string name, std::string description, T default_value, V &amp;&amp;validator, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="separator:ad4c5f13f261e4db65e405dbc19682282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab87c9449de33030a9bf5d1fcd1f87628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ab87c9449de33030a9bf5d1fcd1f87628">AddFlag</a> (std::string name, std::string description, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="memdesc:ab87c9449de33030a9bf5d1fcd1f87628"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a flag <a class="el" href="structOptionsDB_1_1Option.html">Option</a>, which is treated as a boolean value with a default of false.  <a href="#ab87c9449de33030a9bf5d1fcd1f87628">More...</a><br /></td></tr>
+<tr class="separator:ab87c9449de33030a9bf5d1fcd1f87628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc01be0644210faeae2a5890bec32b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a2fc01be0644210faeae2a5890bec32b2">AddFlag</a> (char short_name, std::string name, std::string description, bool storable=true, std::string section=std::string())</td></tr>
+<tr class="memdesc:a2fc01be0644210faeae2a5890bec32b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an <a class="el" href="structOptionsDB_1_1Option.html">Option</a> with an alternative one-character shortened name, which is treated as a boolean value with a default of false.  <a href="#a2fc01be0644210faeae2a5890bec32b2">More...</a><br /></td></tr>
+<tr class="separator:a2fc01be0644210faeae2a5890bec32b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a79643d8e5c56b27eb89e37cbbf63b8fc">AddSection</a> (const std::string &amp;name, const std::string &amp;description, std::function&lt; bool(const std::string &amp;)&gt; option_predicate=nullptr)</td></tr>
 <tr class="memdesc:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an option section with a description and optionally a option predicate.  <a href="#a79643d8e5c56b27eb89e37cbbf63b8fc">More...</a><br /></td></tr>
 <tr class="separator:a79643d8e5c56b27eb89e37cbbf63b8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fa9fdfd6623b0ce6c11225a062d8f56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56">GetUsage</a> (std::ostream &amp;os, const std::string &amp;command_line=&quot;&quot;, bool allow_unrecognized=false) const</td></tr>
 <tr class="memdesc:a9fa9fdfd6623b0ce6c11225a062d8f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a usage message to <em>os</em>  <a href="#a9fa9fdfd6623b0ce6c11225a062d8f56">More...</a><br /></td></tr>
 <tr class="separator:a9fa9fdfd6623b0ce6c11225a062d8f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97d203f4fb46181380aea6d91daac94e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a97d203f4fb46181380aea6d91daac94e">GetValidator</a> (const std::string &amp;option_name) const</td></tr>
-<tr class="memdesc:a97d203f4fb46181380aea6d91daac94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the validator for option <em>option_name</em>, or throws std::runtime_error if no such <a class="el" href="structOptionsDB_1_1Option.html">Option</a> exists.  <a href="#a97d203f4fb46181380aea6d91daac94e">More...</a><br /></td></tr>
-<tr class="separator:a97d203f4fb46181380aea6d91daac94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddb7cb410028b39bf17e6f252056d84"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structValidatorBase.html">ValidatorBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#adddb7cb410028b39bf17e6f252056d84">GetValidator</a> (const std::string &amp;option_name) const</td></tr>
+<tr class="memdesc:adddb7cb410028b39bf17e6f252056d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the validator for option <em>option_name</em>, or throws std::runtime_error if no such <a class="el" href="structOptionsDB_1_1Option.html">Option</a> exists.  <a href="#adddb7cb410028b39bf17e6f252056d84">More...</a><br /></td></tr>
+<tr class="separator:adddb7cb410028b39bf17e6f252056d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1eaf39180511a85d886df1412a602ea"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString</a> (const std::string &amp;option_name) const</td></tr>
 <tr class="memdesc:ad1eaf39180511a85d886df1412a602ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the string representation of the value of the option <em>name</em>.  <a href="#ad1eaf39180511a85d886df1412a602ea">More...</a><br /></td></tr>
 <tr class="separator:ad1eaf39180511a85d886df1412a602ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,10 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2eb6a0f41742afd8d82261f2b047d52d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a2eb6a0f41742afd8d82261f2b047d52d">Set</a> (const std::string &amp;name, const T &amp;value)</td></tr>
 <tr class="memdesc:a2eb6a0f41742afd8d82261f2b047d52d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the value of option <em>name</em> to <em>value</em>  <a href="#a2eb6a0f41742afd8d82261f2b047d52d">More...</a><br /></td></tr>
 <tr class="separator:a2eb6a0f41742afd8d82261f2b047d52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad49fc3590017c6041457c27cec43063b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad49fc3590017c6041457c27cec43063b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ad49fc3590017c6041457c27cec43063b">SetDefault</a> (const std::string &amp;name, const T &amp;value)</td></tr>
-<tr class="memdesc:ad49fc3590017c6041457c27cec43063b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value of option <code>name</code> to <code>value</code>.  <a href="#ad49fc3590017c6041457c27cec43063b">More...</a><br /></td></tr>
-<tr class="separator:ad49fc3590017c6041457c27cec43063b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8f9f139ed66fca750b48c6b4328cd8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9c8f9f139ed66fca750b48c6b4328cd8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a9c8f9f139ed66fca750b48c6b4328cd8">SetDefault</a> (const std::string &amp;name, T value)</td></tr>
+<tr class="memdesc:a9c8f9f139ed66fca750b48c6b4328cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value of option <code>name</code> to <code>value</code>.  <a href="#a9c8f9f139ed66fca750b48c6b4328cd8">More...</a><br /></td></tr>
+<tr class="separator:a9c8f9f139ed66fca750b48c6b4328cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32deca7693ffe60f5d65d19d40211d1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine</a> (const std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="memdesc:a32deca7693ffe60f5d65d19d40211d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills some or all of the options of the DB from values passed in from the command line  <a href="#a32deca7693ffe60f5d65d19d40211d1e">More...</a><br /></td></tr>
 <tr class="separator:a32deca7693ffe60f5d65d19d40211d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,8 +203,6 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a9de23daa2c098d162828395cf32b6767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a9de23daa2c098d162828395cf32b6767">OptionsDB</a> ()</td></tr>
-<tr class="separator:a9de23daa2c098d162828395cf32b6767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14e3fcb7c3afdbb312992a61ecc05443"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a14e3fcb7c3afdbb312992a61ecc05443">IsDefaultValue</a> (std::map&lt; std::string, <a class="el" href="structOptionsDB_1_1Option.html">Option</a> &gt;::const_iterator it) const</td></tr>
 <tr class="memdesc:a14e3fcb7c3afdbb312992a61ecc05443"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether the current value of the option references by <em>is</em> the default value for that option  <a href="#a14e3fcb7c3afdbb312992a61ecc05443">More...</a><br /></td></tr>
 <tr class="separator:a14e3fcb7c3afdbb312992a61ecc05443"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,17 +217,12 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab150eaae0955b620d137c5d5f383718c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a></td></tr>
+<tr class="memitem:ab150eaae0955b620d137c5d5f383718c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a> = false</td></tr>
 <tr class="separator:ab150eaae0955b620d137c5d5f383718c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503b7e8a9fd8036a07409607a6fd7847"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="structOptionsDB_1_1Option.html">Option</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a></td></tr>
 <tr class="separator:a503b7e8a9fd8036a07409607a6fd7847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1ec4c779ad3307b25b4c9af255677b0"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="structOptionsDB_1_1OptionSection.html">OptionSection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#af1ec4c779ad3307b25b4c9af255677b0">m_sections</a></td></tr>
 <tr class="separator:af1ec4c779ad3307b25b4c9af255677b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ac85c1ce2277c9d0d00b9681aeee44d8d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classOptionsDB.html">OptionsDB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionsDB.html#ac85c1ce2277c9d0d00b9681aeee44d8d">s_options_db</a> = nullptr</td></tr>
-<tr class="separator:ac85c1ce2277c9d0d00b9681aeee44d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -236,7 +234,7 @@ Friends</h2></td></tr>
 <div class="textblock"><p>a database of values of arbitrarily mixed types that can be initialized from an XML config file and/or the command line. </p>
 <p><a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> should be used for initializing global settings for an application that should be specified from the command line or from config files. Such options might be the resolution to use when running the program, the color depth, number of players, etc. The entire DB can be written out to config file, to later be reloaded. This allows runtime settings to be preserved from one execution to the next, and still allows overrides of these settings from the command line. <br />
 <br />
-<a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> must have its options and their types specified before any values are assigned to those options. This is because setting an option in the DB requires the type of the option to be known in advance. To specify the options, you may either use static initialization time or normal runtime calls to <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5" title="adds an Option, optionally with a custom validator ">Add()</a> and <a class="el" href="classOptionsDB.html#a7e8adf55e5f82193ef96bae2b7492999" title="adds a flag Option, which is treated as a boolean value with a default of false. ">AddFlag()</a>. Note that the exact type of added item must be specified with Add*(), so that subsequent calls to <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> do not throw. For instance, if you want to add an unsigned value accessible as "foo", you should call:</p><pre class="fragment">      Add("foo", "The number of foos.", 1u);</pre><p> Making the same call as above with "1" instead of "1u" will cause a later call to Get&lt;unsigned int&gt;("foo") to throw, since "foo" would be an int, not an unsigned int. To guard against this, you may wish to call <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5" title="adds an Option, optionally with a custom validator ">Add()</a> with an explicit template parameterization, such as Add&lt;unsigned int&gt;(...). <br />
+<a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a> must have its options and their types specified before any values are assigned to those options. This is because setting an option in the DB requires the type of the option to be known in advance. To specify the options, you may either use static initialization time or normal runtime calls to <a class="el" href="classOptionsDB.html#a0b354a1a16c72f1f00643497af1b11ce" title="adds an Option, optionally with a custom validator ">Add()</a> and <a class="el" href="classOptionsDB.html#ab87c9449de33030a9bf5d1fcd1f87628" title="adds a flag Option, which is treated as a boolean value with a default of false. ">AddFlag()</a>. Note that the exact type of added item must be specified with Add*(), so that subsequent calls to <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> do not throw. For instance, if you want to add an unsigned value accessible as "foo", you should call:</p><pre class="fragment">      Add("foo", "The number of foos.", 1u);</pre><p> Making the same call as above with "1" instead of "1u" will cause a later call to Get&lt;unsigned int&gt;("foo") to throw, since "foo" would be an int, not an unsigned int. To guard against this, you may wish to call <a class="el" href="classOptionsDB.html#a0b354a1a16c72f1f00643497af1b11ce" title="adds an Option, optionally with a custom validator ">Add()</a> with an explicit template parameterization, such as Add&lt;unsigned int&gt;(...). <br />
 <br />
 Flag options are just boolean values that are false by default. Their values may be read and set normally, the same as any other boolean option. For exapmple, reading a flag's value form the DB can be done using using:</p><pre class="fragment">      Get&lt;bool&gt;(flag_name);endverbatim
 * &lt;br&gt;&lt;br&gt;Adding options at static initialization time means that the options
@@ -251,11 +249,11 @@ Flag options are just boolean values that are false by default. Their values may
           &lt;bar2&gt;y&lt;/bar&gt;
       &lt;/foo&gt;</pre><p> This allows options to be grouped in ways that are sensible for the application. This is only done as a convenience to the user. It does not change the way the options are treated in any way. Note that is is perfectly legal also to have an option "foo" containing a value "z" in the example above. <br />
 <br />
-A few things should be said about the command-line version of options. All flag command-line options (specified with <a class="el" href="classOptionsDB.html#a7e8adf55e5f82193ef96bae2b7492999" title="adds a flag Option, which is treated as a boolean value with a default of false. ">AddFlag()</a>) are assumed to have false as their default value. This means that their mere presence on the command line means that they indicate a value of true; they need no argument. For example, specifying "--version" on the command line sets the option "version" in the DB to true, and leaving it out sets the option to false. <br />
+A few things should be said about the command-line version of options. All flag command-line options (specified with <a class="el" href="classOptionsDB.html#ab87c9449de33030a9bf5d1fcd1f87628" title="adds a flag Option, which is treated as a boolean value with a default of false. ">AddFlag()</a>) are assumed to have false as their default value. This means that their mere presence on the command line means that they indicate a value of true; they need no argument. For example, specifying "--version" on the command line sets the option "version" in the DB to true, and leaving it out sets the option to false. <br />
 <br />
 Long-form names should be preceded with "--", and the single-character version should be preceded with "-". An exception to this is that multiple single-character (boolean) options may be run together (e.g. "-cxvf"). Also, the last option in such a group may take an argument, which must immediately follow the group, separated by a space as (usual. <br />
 <br />
-Finally, note that std::runtime_error exceptions will be thrown any time a problem occurs with an option (calling <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> for one that doesn't exist, <a class="el" href="classOptionsDB.html#a5031dd1a440b9380bf9ecf15f53069b5" title="adds an Option, optionally with a custom validator ">Add()</a>ing one twice, etc.), and boost::bad_any_cast exceptions will be thrown in situations in which an invalid type-conversion occurs, including string-to-type, type-to-string or type-to-type as in the case of <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> calls with the wrong tempate parameter. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="OptionsDB_8h.html#aebc5fdb4c86f4e04209bbc10276cd92f" title="adds function to a vector of pointers to functions that add Options to the OptionsDB. ">RegisterOptions</a> (for static-time options specification) </dd></dl>
+Finally, note that std::runtime_error exceptions will be thrown any time a problem occurs with an option (calling <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> for one that doesn't exist, <a class="el" href="classOptionsDB.html#a0b354a1a16c72f1f00643497af1b11ce" title="adds an Option, optionally with a custom validator ">Add()</a>ing one twice, etc.), and boost::bad_any_cast exceptions will be thrown in situations in which an invalid type-conversion occurs, including string-to-type, type-to-string or type-to-type as in the case of <a class="el" href="classOptionsDB.html#ac4614490e8eab45f3da6e5effb207174" title="returns the value of option name. ">Get()</a> calls with the wrong tempate parameter. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="OptionsDB_8h.html#aebc5fdb4c86f4e04209bbc10276cd92f" title="adds function to a vector of pointers to functions that add Options to the OptionsDB. ">RegisterOptions</a> (for static-time options specification) </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="adeb66dcb46f91602b46a9241b646099e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adeb66dcb46f91602b46a9241b646099e">&#9670;&nbsp;</a></span>OptionAddedSignalType</h2>
@@ -305,37 +303,9 @@ Finally, note that std::runtime_error exceptions will be thrown any time a probl
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9de23daa2c098d162828395cf32b6767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9de23daa2c098d162828395cf32b6767">&#9670;&nbsp;</a></span>OptionsDB()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">OptionsDB::OptionsDB </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="classOptionsDB.html#ac85c1ce2277c9d0d00b9681aeee44d8d">s_options_db</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5031dd1a440b9380bf9ecf15f53069b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5031dd1a440b9380bf9ecf15f53069b5">&#9670;&nbsp;</a></span>Add() <span class="overload">[1/2]</span></h2>
+<a id="a0b354a1a16c72f1f00643497af1b11ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b354a1a16c72f1f00643497af1b11ce">&#9670;&nbsp;</a></span>Add() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,13 +318,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void OptionsDB::Add </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>description</em>, </td>
         </tr>
         <tr>
@@ -366,8 +336,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &amp;&#160;</td>
-          <td class="paramname"><em>validator</em> = <code><a class="el" href="structValidator.html">Validator</a>&lt;T&gt;()</code>, </td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt;&#160;</td>
+          <td class="paramname"><em>validator</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -378,7 +348,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
@@ -398,12 +368,74 @@ template&lt;typename T &gt; </div>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ab43b04aa603e2ab0fbb785b2eb10bb32">anonymous_namespace{LoggerWithOptionsDB.cpp}::AddLoggerToOptionsDB()</a>, <a class="el" href="namespaceanonymous__namespace_02Networking_8cpp_03.html#aa2ef088e9ee7795ac9c12c10a4d63fc0">anonymous_namespace{Networking.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#a63d7cc7103a4d8d63bca28ac847445f7">anonymous_namespace{ResearchWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#afcad2a5fc2e36eb0ea4db40886a7621b">anonymous_namespace{SitRepPanel.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#ab58e7993489dd28df22952b3110da7e6">anonymous_namespace{ProductionWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a2edb07ecee351247638f02a951ff0e0d">anonymous_namespace{ServerConnectWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a891ef1d2f30463a6df20e2e84012faf1">anonymous_namespace{TechTreeWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ab07d097a951b86bffd39a18573c2a0af">anonymous_namespace{BuildDesignatorWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#a1d9655cc858116359885dbdba6f7dceb">anonymous_namespace{Conditions.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aea655c2ee6b9f7c3bceb064d13c83547">anonymous_namespace{ObjectListWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetButton_8cpp_03.html#a3e49bee42548338795410eee174b5857">anonymous_namespace{FleetButton.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5b982a7a46282d61fd2410d1c1a14a6b">anonymous_namespace{Universe.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a468a3922b867231395ae4c540c8475a3">anonymous_namespace{GraphicalSummary.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac3564dad5e0d1bc201974364fb5359fb">anonymous_namespace{SaveFileDialog.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a7fa4e89751eb063a386d7394b40b610c">anonymous_namespace{EncyclopediaDetailPanel.cpp}::AddOptions()</a>, <a class="el" href="classHotkey.html#a564c1698dc7cd9265b84be48fb9a83d0">Hotkey::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a885d8bb9469c1f3106c7cdd685527c90">anonymous_namespace{GGHumanClientApp.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af81ffd4803ec5f10197d08bc44929e8c">anonymous_namespace{MapWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a5c97803b6d44b97c786eaf55600d90aa">anonymous_namespace{GalaxySetupWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a63bc86fe6890b843d7cd21cee6d6d966">anonymous_namespace{FleetWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac135d34350ca3ec29410603e3a86317f">anonymous_namespace{SidePanel.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a944adcc343e0706e177517428f023d71">anonymous_namespace{ClientUI.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02AIClientApp_8cpp_03.html#a687da3967183a555d80389eb0c59efda">anonymous_namespace{AIClientApp.cpp}::AddTraitBypassOption()</a>, <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classGGHumanClientApp.html#a2fc908277c3958024bb1d50fe663a5dc">GGHumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#aa9d4e1b4b659f180d43122d77f33ee6b">anonymous_namespace{IntroScreen.cpp}::Options()</a>, <a class="el" href="classServerConnectWnd.html#a70f2e108e590b63582ea643402ce042b">ServerConnectWnd::PopulateServerList()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a67f7ff813ebf251a81b99404c46df171">WaitingForMPJoinAck::react()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classGameRules.html#a956c16da9a286bd5cbaf60892b27c038">GameRules::Add()</a>, <a class="el" href="namespaceanonymous__namespace_02LoggerWithOptionsDB_8cpp_03.html#ab43b04aa603e2ab0fbb785b2eb10bb32">anonymous_namespace{LoggerWithOptionsDB.cpp}::AddLoggerToOptionsDB()</a>, <a class="el" href="namespaceanonymous__namespace_02Networking_8cpp_03.html#aa2ef088e9ee7795ac9c12c10a4d63fc0">anonymous_namespace{Networking.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02MultiplayerCommon_8cpp_03.html#a33160fc978c67f29aad58eb8b2460049">anonymous_namespace{MultiplayerCommon.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#a63d7cc7103a4d8d63bca28ac847445f7">anonymous_namespace{ResearchWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#afcad2a5fc2e36eb0ea4db40886a7621b">anonymous_namespace{SitRepPanel.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#ab58e7993489dd28df22952b3110da7e6">anonymous_namespace{ProductionWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerConnectWnd_8cpp_03.html#a2edb07ecee351247638f02a951ff0e0d">anonymous_namespace{ServerConnectWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02TechTreeWnd_8cpp_03.html#a891ef1d2f30463a6df20e2e84012faf1">anonymous_namespace{TechTreeWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02BuildDesignatorWnd_8cpp_03.html#ab07d097a951b86bffd39a18573c2a0af">anonymous_namespace{BuildDesignatorWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02Conditions_8cpp_03.html#a1d9655cc858116359885dbdba6f7dceb">anonymous_namespace{Conditions.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#aea655c2ee6b9f7c3bceb064d13c83547">anonymous_namespace{ObjectListWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetButton_8cpp_03.html#a3e49bee42548338795410eee174b5857">anonymous_namespace{FleetButton.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02Universe_8cpp_03.html#a5b982a7a46282d61fd2410d1c1a14a6b">anonymous_namespace{Universe.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html#a468a3922b867231395ae4c540c8475a3">anonymous_namespace{GraphicalSummary.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SaveFileDialog_8cpp_03.html#ac3564dad5e0d1bc201974364fb5359fb">anonymous_namespace{SaveFileDialog.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a7fa4e89751eb063a386d7394b40b610c">anonymous_namespace{EncyclopediaDetailPanel.cpp}::AddOptions()</a>, <a class="el" href="classHotkey.html#a564c1698dc7cd9265b84be48fb9a83d0">Hotkey::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a885d8bb9469c1f3106c7cdd685527c90">anonymous_namespace{GGHumanClientApp.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#af81ffd4803ec5f10197d08bc44929e8c">anonymous_namespace{MapWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html#a5c97803b6d44b97c786eaf55600d90aa">anonymous_namespace{GalaxySetupWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a63bc86fe6890b843d7cd21cee6d6d966">anonymous_namespace{FleetWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#ac135d34350ca3ec29410603e3a86317f">anonymous_namespace{SidePanel.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a944adcc343e0706e177517428f023d71">anonymous_namespace{ClientUI.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02AIClientApp_8cpp_03.html#a58cc73cab8a1bbeb637eaca246c5288f">anonymous_namespace{AIClientApp.cpp}::AddTraitBypassOption()</a>, <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classGGHumanClientApp.html#a2fc908277c3958024bb1d50fe663a5dc">GGHumanClientApp::AddWindowSizeOptionsAfterMainStart()</a>, <a class="el" href="namespaceanonymous__namespace_02GameRules_8cpp_03.html#a97e608f595ff9912924fff95e630f7ac">anonymous_namespace{GameRules.cpp}::CheckValidatorAndAddRuleOption()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="namespaceanonymous__namespace_02IntroScreen_8cpp_03.html#aa9d4e1b4b659f180d43122d77f33ee6b">anonymous_namespace{IntroScreen.cpp}::Options()</a>, <a class="el" href="classServerConnectWnd.html#a70f2e108e590b63582ea643402ce042b">ServerConnectWnd::PopulateServerList()</a>, and <a class="el" href="structWaitingForMPJoinAck.html#a67f7ff813ebf251a81b99404c46df171">WaitingForMPJoinAck::react()</a>.</p>
 
 </div>
 </div>
-<a id="aac9400d3bacde8ff2eddbb0dd54817da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac9400d3bacde8ff2eddbb0dd54817da">&#9670;&nbsp;</a></span>Add() <span class="overload">[2/2]</span></h2>
+<a id="a20cf84a51d8b0c2076407e2f8875f357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20cf84a51d8b0c2076407e2f8875f357">&#9670;&nbsp;</a></span>Add() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename V , typename std::enable_if_t&lt;!is_unique_ptr_v&lt; V &gt;&gt; *  = nullptr, typename std::enable_if_t&lt;!std::is_null_pointer_v&lt; V &gt;&gt; *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OptionsDB::Add </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>default_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V &amp;&amp;&#160;</td>
+          <td class="paramname"><em>validator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>storable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab096632a71e06ee5c0ada81e0e86d239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab096632a71e06ee5c0ada81e0e86d239">&#9670;&nbsp;</a></span>Add() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,13 +454,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>description</em>, </td>
         </tr>
         <tr>
@@ -440,8 +472,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &amp;&#160;</td>
-          <td class="paramname"><em>validator</em> = <code><a class="el" href="structValidator.html">Validator</a>&lt;T&gt;()</code>, </td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt;&#160;</td>
+          <td class="paramname"><em>validator</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -452,7 +484,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
@@ -474,8 +506,76 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a7e8adf55e5f82193ef96bae2b7492999"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8adf55e5f82193ef96bae2b7492999">&#9670;&nbsp;</a></span>AddFlag() <span class="overload">[1/2]</span></h2>
+<a id="ad4c5f13f261e4db65e405dbc19682282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4c5f13f261e4db65e405dbc19682282">&#9670;&nbsp;</a></span>Add() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename V , typename std::enable_if_t&lt;!is_unique_ptr_v&lt; V &gt;&gt; *  = nullptr, typename std::enable_if_t&lt;!std::is_null_pointer_v&lt; V &gt;&gt; *  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OptionsDB::Add </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>short_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>default_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V &amp;&amp;&#160;</td>
+          <td class="paramname"><em>validator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>storable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab87c9449de33030a9bf5d1fcd1f87628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab87c9449de33030a9bf5d1fcd1f87628">&#9670;&nbsp;</a></span>AddFlag() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,13 +586,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void OptionsDB::AddFlag </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>description</em>, </td>
         </tr>
         <tr>
@@ -504,7 +604,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
@@ -529,8 +629,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a9b4a53ea6e748de8c6fca9352dbc0de2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b4a53ea6e748de8c6fca9352dbc0de2">&#9670;&nbsp;</a></span>AddFlag() <span class="overload">[2/2]</span></h2>
+<a id="a2fc01be0644210faeae2a5890bec32b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc01be0644210faeae2a5890bec32b2">&#9670;&nbsp;</a></span>AddFlag() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,13 +647,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>description</em>, </td>
         </tr>
         <tr>
@@ -565,7 +665,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>section</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
@@ -630,7 +730,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">if()</a>, and <a class="el" href="classOptionsDB.html#af1ec4c779ad3307b25b4c9af255677b0">m_sections</a>.</p>
+<p class="reference">References <a class="el" href="chmain_8cpp.html#aef06acd7e483780d42de3703daad82cb">if()</a>, <a class="el" href="classOptionsDB.html#af1ec4c779ad3307b25b4c9af255677b0">m_sections</a>, <a class="el" href="structOptionsDB_1_1OptionSection.html#a78deca56cd70a3bdd8b61aada5846270">OptionsDB::OptionSection::option_predicate</a>, and <a class="el" href="structOptionsDB_1_1OptionSection.html#a85d84f4384c17b5afe5da22f5dab56c4">OptionsDB::OptionSection::OptionSection()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
@@ -764,7 +864,7 @@ template&lt;typename T &gt; </div>
 
 <p class="reference">References <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="classAIClientApp.html#af149baae2b80b6be44a4f9baee60fffa">AIClientApp::AIClientApp()</a>, <a class="el" href="classUniverse.html#a2bcbfc4208c8f62cb95aa80429ec1e9e">Universe::ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#a10481f3ca27e42d005860041fad65e87">Universe::ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classGGHumanClientApp.html#ab1c3f706a8e7c7bf6337d49d712ab4d0">GGHumanClientApp::Autosave()</a>, <a class="el" href="classCompletedDesignsListBox.html#a50bee3f6ed26aafe7861be7af5fc077f">CompletedDesignsListBox::BaseRightClicked()</a>, <a class="el" href="classSavedDesignsListBox.html#a85045dac9c623194e6f8aa2a056871ea">SavedDesignsListBox::BaseRightClicked()</a>, <a class="el" href="classClientUI.html#aa996d56c276ce1b85324034f3b78f62e">ClientUI::BigFleetButtonZoomThreshold()</a>, <a class="el" href="classOptionsWnd.html#a51e5c75a10320873d9f6f7924226d8bb">OptionsWnd::ColorOption()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classServerConnectWnd.html#a2a4b5f0b7e8946efa12f3d3be4891e88">ServerConnectWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupPanel.html#ae9f725445f1fa6f3e7fbac5ecddd7f1e">GalaxySetupPanel::CompleteConstruction()</a>, <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9d23017fac4d563c19b199a09630878a">anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9">CompleteXDGMigration()</a>, <a class="el" href="classServerApp.html#ad70ebd8709b1c055f549d6d944319687">ServerApp::CreateAIClients()</a>, <a class="el" href="classClientUI.html#a28998eba3b85389eedf0b1fd00a84408">ClientUI::CtrlBorderColor()</a>, <a class="el" href="classClientUI.html#aab5133a4d504c0d1536124969e05a8e7">ClientUI::CtrlColor()</a>, <a class="el" href="classClientUI.html#a7598ede279fab4960b5b65a041028faf">ClientUI::DefaultLinkColor()</a>, <a class="el" href="classClientUI.html#a6bd995b41670b33f447e09439107974f">ClientUI::DefaultTooltipColor()</a>, <a class="el" href="namespaceNetworking.html#abec6e02066f90038170c559706bc7e1d">Networking::DiscoveryPort()</a>, <a class="el" href="classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">MapWnd::DispatchFleetsExploring()</a>, <a class="el" href="classClientUI.html#a0b49c6f531a01763f402e2c4c4ee6739">ClientUI::DisplayTimestamp()</a>, <a class="el" href="classOptionsWnd.html#aa0c7255a902a05f9f6e1b078c68ab06b">OptionsWnd::DoubleOption()</a>, <a class="el" href="classClientUI.html#a68bcf8f36cafb3db93b65c63b62b84eb">ClientUI::DropDownListArrowColor()</a>, <a class="el" href="classClientUI.html#ad5c0195c0f0d99773e615c5b3457ffce">ClientUI::EditHiliteColor()</a>, <a class="el" href="classAIClientApp.html#a5bb4177bd3ed548e1dec915e0f1a61e9">AIClientApp::EffectsProcessingThreads()</a>, <a class="el" href="classGGHumanClientApp.html#a6947807c58d4dd70b58f54adb0c75aff">GGHumanClientApp::EffectsProcessingThreads()</a>, <a class="el" href="classServerApp.html#aa0d9df8cdd6d45ecc9df785a190cce29">ServerApp::EffectsProcessingThreads()</a>, <a class="el" href="classSystemIcon.html#a0f909838909691c2daca688ca39217a8">SystemIcon::EnclosingCircleDiameter()</a>, <a class="el" href="classOptionsWnd.html#ab77d7e58c8cb4c90cdebefee89b773f0">OptionsWnd::FileOptionImpl()</a>, <a class="el" href="classSaveFileListBox.html#a25ae888aaff28664796f4ff1bc69b948">SaveFileListBox::FilterColumns()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetButton_8cpp_03.html#acc85b2d28f8407cd3a3e43fd9074ebb2">anonymous_namespace{FleetButton.cpp}::FleetButtonScaling()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a821ed63584fbba936ba62f02394c94d5">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="classBarSizer.html#abd6100f3f92ae4686848ede11c692373">BarSizer::Get()</a>, <a class="el" href="classSaveFileColumn.html#a7099e0353f306c17f12060004eb62217">SaveFileColumn::GetColumn()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a0e0be49f2d1441ce6916fa555dabdf02">anonymous_namespace{ObjectListWnd.cpp}::GetColumnName()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a41025ad03ef236073c5796a7355d45b4">anonymous_namespace{ObjectListWnd.cpp}::GetColumnValueRef()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a59504dbb1ce8bf62fb1a6c00ee71b48e">anonymous_namespace{ObjectListWnd.cpp}::GetColumnWidth()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aac5cc9348c14fef0e40b9bbedd429c1b">anonymous_namespace{SitRepPanel.cpp}::GetIconSize()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a504d670fbafc0b25d4e31d6211abb689">anonymous_namespace{MapWnd.cpp}::GetOrderedFleetRoute()</a>, <a class="el" href="Directories_8h.html#a5b567c6a18e0d02d67f39906fd0deccb">GetSaveDir()</a>, <a class="el" href="Directories_8h.html#a80e7e674574b51ce31503a17e2759a9a">GetServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab451b504f1960ae1e1098071b1245657">anonymous_namespace{MapWnd.cpp}::GetShortestRoute()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#a4b6014f92305305df48329632d8c7c1b">anonymous_namespace{i18n.cpp}::GetStringTableFileName()</a>, <a class="el" href="classGGHumanClientApp.html#a6c7504b0dd595043773dee1153398c25">GGHumanClientApp::GetWindowLeftTop()</a>, <a class="el" href="classGGHumanClientApp.html#a71547677ea5a1a8b5e872bbc79a473a7">GGHumanClientApp::GetWindowWidthHeight()</a>, <a class="el" href="classGGHumanClientApp.html#acaf4794cd8b44774bbadbfe5616efbaf">GGHumanClientApp::GGHumanClientApp()</a>, <a class="el" href="classGGHumanClientApp.html#aae061df1e27a8fbaab22af5517388624">GGHumanClientApp::HandleFocusChange()</a>, <a class="el" href="classClientUI.html#aaf50a3aba9f3a038eca80318b6faf221">ClientUI::HandleFullscreenSwitch()</a>, <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#abe1ca9109c73732a6c9bdb509c08d495">EncyclopediaDetailPanel::HandleSearchTextEntered()</a>, <a class="el" href="classClientUI.html#afa3c6fd93f611a8729ec825773eb8032">ClientUI::HandleSizeChange()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6be4af1fc53fc494b308c101cb882db0">anonymous_namespace{SitRepPanel.cpp}::HiddenSitRepTemplateStringsFromOptions()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#aa66a12a941192a2bc16044bf434afa68">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::Init()</a>, <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">CUIWnd::InitSizeMove()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aefe5528dc226f9a9ab90d7a68ba78aaa">anonymous_namespace{i18n.cpp}::InitStringtableFileName()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, <a class="el" href="classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">MapWnd::InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="classOptionsWnd.html#a55c9735d6146f1f28403bf3c8bf960b1">OptionsWnd::IntOption()</a>, <a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">CUIWnd::InvalidateWindowOptions()</a>, <a class="el" href="classPlayerConnection.html#a006782ad54292dda57c09a862272d8ac">PlayerConnection::IsBinarySerializationUsed()</a>, <a class="el" href="classServerApp.html#a3ca4516607ab95dc923e5e39395ec630">ServerApp::IsHostless()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, <a class="el" href="classSitRepPanel.html#aa97cd44556d4815c8ff49a75b649f588">SitRepPanel::IsSitRepInvalid()</a>, <a class="el" href="classClientUI.html#a77fe3c4cbbbd945cbb7d355d13b6489e">ClientUI::KnownTechFillColor()</a>, <a class="el" href="classClientUI.html#ad5b3ebd494729d2ec30caa84f32d9ae6">ClientUI::KnownTechTextAndBorderColor()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#ae49d80d6e41e662cbe5a79c56b457039">TechTreeWnd::LayoutPanel::Layout()</a>, <a class="el" href="classFleetButton.html#a91562783b397700e207a46df1d594da0">FleetButton::LayoutIcons()</a>, <a class="el" href="classMapWnd.html#a8efd57a2d313785f12636fbaa10b2b5e">MapWnd::LClick()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">CUIWnd::LoadOptions()</a>, <a class="el" href="classSaveFileListBox.html#a5d0902e65c91a7897711da5cf178032a">SaveFileListBox::LoadSaveGamePreviews()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, <a class="el" href="chmain_8h.html#ae70f051fd41b552c641f7752ca7021bd">mainSetupAndRun()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a54d7c6efe8659684861a5d88c21222f5">anonymous_namespace{SidePanel.cpp}::MaxPlanetDiameter()</a>, <a class="el" href="classClientUI.html#a833c2485fb4da8e057ec65afc627051b">ClientUI::MediumFleetButtonZoomThreshold()</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classSystemIcon.html#abc2e551f6ea03bd938673f187035a911">SystemIcon::MouseEnter()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ae940ba654096814dafe73ef29d243e04">anonymous_namespace{FleetWnd.cpp}::NewFleetsAggressiveOptionSetting()</a>, <a class="el" href="classGGHumanClientApp.html#aebd9248a9855d895c2812583ab907ac5">GGHumanClientApp::NewSinglePlayerGame()</a>, <a class="el" href="structdetail_1_1PlayValueChangedSound.html#ad7a8e40330f02cab172f525ffccb1ff2">detail::PlayValueChangedSound::operator()()</a>, <a class="el" href="classParticipantBar.html#a099e91a4a9b1cd0f58e4238a4754aa85">ParticipantBar::ParticipantBar()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a6b673e39083627f4f28a9a5018cc69e7">anonymous_namespace{SidePanel.cpp}::PlanetDiameter()</a>, <a class="el" href="namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a9c0843e0db4c761870df29301d607c55">anonymous_namespace{SystemIcon.cpp}::PlaySounds()</a>, <a class="el" href="classServerConnectWnd.html#a70f2e108e590b63582ea643402ce042b">ServerConnectWnd::PopulateServerList()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0fdd37c4dc54f290045ffcee35c47d6b">anonymous_namespace{MapWnd.cpp}::PrepFullLanesToRender()</a>, <a class="el" href="classIntroScreen.html#a6620f893afefc387b4628e4a7a12fc25">IntroScreen::PreRender()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classMapWnd.html#a28ba4caca21761534615a2bf5516a8af">MapWnd::RClick()</a>, <a class="el" href="structIdle.html#a49993ba019716411fc49789cc5091818">Idle::react()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structPlayingGame.html#a3d94a763b8c0671ac4071f11e9effbd0">PlayingGame::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#a19e5a90039e95b907a29478661416f66">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classHotkey.html#afa243af2d43cf66afda7652887b2a3f7">Hotkey::ReadFromOptions()</a>, <a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">BuildingIndicator::Refresh()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#a81f953f10503db7a1172a47617bc8fef">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::Refresh()</a>, <a class="el" href="classFleetDataPanel.html#a00efb19ae26b1c751af8da8ff62e3702">FleetDataPanel::Refresh()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#afa851812bb25e94ab8777f7a9cb4d59d">TechTreeWnd::TechTreeControls::RefreshCategoryButtons()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#abaf51637e6b6fa10648011cc414c7da4">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelSpeciesTag()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#a65424d3050e1ba48c880b07eea7e30a1">SidePanel::PlanetPanel::RefreshPlanetGraphic()</a>, <a class="el" href="classGGHumanClientApp.html#a4041321a3bcb47719fff87fc187e7a42">GGHumanClientApp::Reinitialize()</a>, <a class="el" href="classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">MapWnd::RenderFields()</a>, <a class="el" href="classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">MapWnd::RenderFleetMovementLines()</a>, <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>, <a class="el" href="classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">MapWnd::RenderStarlanes()</a>, <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">MapWnd::RenderSystems()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a321e0cc8cb9d0bcd26afe5890adaa088">anonymous_namespace{ClientUI.cpp}::RequiredCharsets()</a>, <a class="el" href="classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda">ClientUI::ResearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#acd4877f62014b16c307ab7b13628d736">ClientUI::ResearchableTechTextAndBorderColor()</a>, <a class="el" href="classGGHumanClientApp.html#a27a911a2a12fb1f46e24aba67fee8423">GGHumanClientApp::ResetOrExitApp()</a>, <a class="el" href="classOptionsWnd.html#a4ec8628cd986393ab14ec53989cd9f85">OptionsWnd::ResolutionOption()</a>, <a class="el" href="classClientUI.html#a040225832e0f5f94835d39a6ec808a66">ClientUI::RolloverLinkColor()</a>, <a class="el" href="classClientUI.html#a31230ea942e26584035af38228e9a0c0">ClientUI::RolloverTooltipColor()</a>, <a class="el" href="classCUIWnd.html#ae7ed9bc0dbae9ae049d48fe220b32716">CUIWnd::SaveDefaultedOptions()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">CUIWnd::SaveOptions()</a>, <a class="el" href="classClientUI.html#a157847247ee589f061dc40bfe4e0aeb5">ClientUI::ScrollWidth()</a>, <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp::ServerApp()</a>, <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a3ba144f3d0a1d41628bca8992863e7a3">anonymous_namespace{GGHumanClientApp.cpp}::SetEmptyStringDefaultOption()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#ae6d5192eb4fe25d70d8206353e8f4b1a">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::SetShipIcon()</a>, <a class="el" href="classSystemIcon.html#a3d670a80a74e8103e279436cb20e0d7d">SystemIcon::SizeMove()</a>, <a class="el" href="classClientUI.html#a32a0642c287afc27239379fd48c75d82">ClientUI::SmallFleetButtonZoomThreshold()</a>, <a class="el" href="classGGHumanClientApp.html#a46b31add07090136f69f5bc1e496bee8">GGHumanClientApp::StartServer()</a>, <a class="el" href="classGGHumanClientApp.html#a4bd7107d8c29064d3283543b622d3ad2">GGHumanClientApp::StartTurn()</a>, <a class="el" href="classScanlineRenderer_1_1Impl.html#a3c50fb4219200f36c69d50a7dacaff4a">ScanlineRenderer::Impl::StartUsing()</a>, <a class="el" href="classClientUI.html#a585c742b9d9e0a0dc68b2dbc736163a3">ClientUI::StatDecrColor()</a>, <a class="el" href="classClientUI.html#a3ff9556ff8124d99582f5236fa00e342">ClientUI::StateButtonColor()</a>, <a class="el" href="classClientUI.html#a3af9ea4f8b59633fbc82148f0a72c794">ClientUI::StatIncrColor()</a>, <a class="el" href="classClientUI.html#ac5943654275ee76f385aafec22782306">ClientUI::SystemCircleSize()</a>, <a class="el" href="classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="classClientUI.html#a883aa65db83dbbf5da16b87ba69285d0">ClientUI::SystemNameTextColor()</a>, <a class="el" href="classClientUI.html#aa1c01e87bcae18402e4a595774bef72c">ClientUI::SystemSelectionIndicatorRPM()</a>, <a class="el" href="classClientUI.html#a8adc3ca942af7b8493fa85222dca33bd">ClientUI::SystemSelectionIndicatorSize()</a>, <a class="el" href="classClientUI.html#a2bedc5bc0a181c1723de8151feea76d3">ClientUI::SystemTinyIconSizeThreshold()</a>, <a class="el" href="classClientUI.html#a806b590ec414fbc7b139ca4113d24af3">ClientUI::TechWndProgressBarBackgroundColor()</a>, <a class="el" href="classClientUI.html#ad540121c8faa0289b44368e4f7584403">ClientUI::TechWndProgressBarColor()</a>, <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="classClientUI.html#a33e8ea276caf1f1a3219e0d3239201fb">ClientUI::TinyFleetButtonZoomThreshold()</a>, <a class="el" href="classClientUI.html#a582e0ce3e1632f8ee42d7d6adfb2e913">ClientUI::TitlePts()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8630a49cc821a2bdf1dfdc04e447566e">anonymous_namespace{MapWnd.cpp}::ToggleBoolOption()</a>, <a class="el" href="classGGHumanClientApp.html#a60567f540d2cf8246b928ca86f73a58c">GGHumanClientApp::ToggleFullscreen()</a>, <a class="el" href="classClientUI.html#a0afab5005ed265c7a4730ee217b85cd4">ClientUI::UnresearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#a5f4ed22bae90aa5645567bda2907502a">ClientUI::UnresearchableTechTextAndBorderColor()</a>, <a class="el" href="classFleetDataPanel.html#a54ccfa7a1b9aee1490c2341b57299c2a">FleetDataPanel::UpdateAggressionToggle()</a>, <a class="el" href="classFPSIndicator.html#a699e2044f5d4ff8fbfb020c6fb93e2bd">FPSIndicator::UpdateEnabled()</a>, <a class="el" href="classMapWnd_1_1MapScaleLine.html#a7d1ed27dc720a9c303c5707b8fd243e6">MapWnd::MapScaleLine::UpdateEnabled()</a>, <a class="el" href="classGGHumanClientApp.html#a7917d89efe1af83fc397e95ab7dd2c4d">GGHumanClientApp::UpdateFPSLimit()</a>, <a class="el" href="classUniverse.html#acc97437600d0a01ca4719324a9cfeb81">Universe::UpdateMeterEstimates()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, <a class="el" href="structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af">WaitingForTurnEnd::WaitingForTurnEnd()</a>, <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, <a class="el" href="classClientUI.html#a9c2151fccb3b80760b836fc15d7e947b">ClientUI::WndInnerBorderColor()</a>, and <a class="el" href="classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classGameRules.html#a4e8769d8edcb01126c61313fa8798738">GameRules::Add()</a>, <a class="el" href="classServerApp.html#a75943e7f54b3b14e6cbed96997f150b7">ServerApp::AddPlayerIntoGame()</a>, <a class="el" href="classAIClientApp.html#af149baae2b80b6be44a4f9baee60fffa">AIClientApp::AIClientApp()</a>, <a class="el" href="classUniverse.html#a2bcbfc4208c8f62cb95aa80429ec1e9e">Universe::ApplyAllEffectsAndUpdateMeters()</a>, <a class="el" href="classUniverse.html#a10481f3ca27e42d005860041fad65e87">Universe::ApplyMeterEffectsAndUpdateMeters()</a>, <a class="el" href="classGGHumanClientApp.html#ab1c3f706a8e7c7bf6337d49d712ab4d0">GGHumanClientApp::Autosave()</a>, <a class="el" href="classCompletedDesignsListBox.html#a50bee3f6ed26aafe7861be7af5fc077f">CompletedDesignsListBox::BaseRightClicked()</a>, <a class="el" href="classSavedDesignsListBox.html#a85045dac9c623194e6f8aa2a056871ea">SavedDesignsListBox::BaseRightClicked()</a>, <a class="el" href="classClientUI.html#aa996d56c276ce1b85324034f3b78f62e">ClientUI::BigFleetButtonZoomThreshold()</a>, <a class="el" href="classOptionsWnd.html#a51e5c75a10320873d9f6f7924226d8bb">OptionsWnd::ColorOption()</a>, <a class="el" href="classOptionsWnd.html#abfc80e61f1bc72ffa85b1723935c84b0">OptionsWnd::CompleteConstruction()</a>, <a class="el" href="classServerConnectWnd.html#a2a4b5f0b7e8946efa12f3d3be4891e88">ServerConnectWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupPanel.html#ae9f725445f1fa6f3e7fbac5ecddd7f1e">GalaxySetupPanel::CompleteConstruction()</a>, <a class="el" href="classFleetWnd.html#a6da578b70d9127bd6335a319a2f8b7cd">FleetWnd::CompleteConstruction()</a>, <a class="el" href="classGalaxySetupWnd.html#a5f8cda18a7fb82bd57b4fe74b1e30d03">GalaxySetupWnd::CompleteConstruction()</a>, <a class="el" href="classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9d23017fac4d563c19b199a09630878a">anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel::CompleteConstruction()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#a16cc9a9746cb9682adf13b990e7e24c1">TechTreeWnd::TechTreeControls::CompleteConstruction()</a>, <a class="el" href="Directories_8h.html#a0103769c4b31bdb9699d96756259fdd9">CompleteXDGMigration()</a>, <a class="el" href="classServerApp.html#ad70ebd8709b1c055f549d6d944319687">ServerApp::CreateAIClients()</a>, <a class="el" href="classClientUI.html#a28998eba3b85389eedf0b1fd00a84408">ClientUI::CtrlBorderColor()</a>, <a class="el" href="classClientUI.html#aab5133a4d504c0d1536124969e05a8e7">ClientUI::CtrlColor()</a>, <a class="el" href="classClientUI.html#a7598ede279fab4960b5b65a041028faf">ClientUI::DefaultLinkColor()</a>, <a class="el" href="classClientUI.html#a6bd995b41670b33f447e09439107974f">ClientUI::DefaultTooltipColor()</a>, <a class="el" href="namespaceNetworking.html#abec6e02066f90038170c559706bc7e1d">Networking::DiscoveryPort()</a>, <a class="el" href="classMapWnd.html#ace97150b42c6e9193013d9f06339bac0">MapWnd::DispatchFleetsExploring()</a>, <a class="el" href="classClientUI.html#a0b49c6f531a01763f402e2c4c4ee6739">ClientUI::DisplayTimestamp()</a>, <a class="el" href="classOptionsWnd.html#aa0c7255a902a05f9f6e1b078c68ab06b">OptionsWnd::DoubleOption()</a>, <a class="el" href="classClientUI.html#a68bcf8f36cafb3db93b65c63b62b84eb">ClientUI::DropDownListArrowColor()</a>, <a class="el" href="classClientUI.html#ad5c0195c0f0d99773e615c5b3457ffce">ClientUI::EditHiliteColor()</a>, <a class="el" href="classAIClientApp.html#a5bb4177bd3ed548e1dec915e0f1a61e9">AIClientApp::EffectsProcessingThreads()</a>, <a class="el" href="classGGHumanClientApp.html#a6947807c58d4dd70b58f54adb0c75aff">GGHumanClientApp::EffectsProcessingThreads()</a>, <a class="el" href="classServerApp.html#aa0d9df8cdd6d45ecc9df785a190cce29">ServerApp::EffectsProcessingThreads()</a>, <a class="el" href="classSystemIcon.html#a0f909838909691c2daca688ca39217a8">SystemIcon::EnclosingCircleDiameter()</a>, <a class="el" href="classOptionsWnd.html#ab77d7e58c8cb4c90cdebefee89b773f0">OptionsWnd::FileOptionImpl()</a>, <a class="el" href="classSaveFileListBox.html#a25ae888aaff28664796f4ff1bc69b948">SaveFileListBox::FilterColumns()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetButton_8cpp_03.html#acc85b2d28f8407cd3a3e43fd9074ebb2">anonymous_namespace{FleetButton.cpp}::FleetButtonScaling()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#a821ed63584fbba936ba62f02394c94d5">anonymous_namespace{FleetWnd.cpp}::FleetDestinationText()</a>, <a class="el" href="classBarSizer.html#abd6100f3f92ae4686848ede11c692373">BarSizer::Get()</a>, <a class="el" href="classSaveFileColumn.html#a7099e0353f306c17f12060004eb62217">SaveFileColumn::GetColumn()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a0e0be49f2d1441ce6916fa555dabdf02">anonymous_namespace{ObjectListWnd.cpp}::GetColumnName()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a41025ad03ef236073c5796a7355d45b4">anonymous_namespace{ObjectListWnd.cpp}::GetColumnValueRef()</a>, <a class="el" href="namespaceanonymous__namespace_02ObjectListWnd_8cpp_03.html#a59504dbb1ce8bf62fb1a6c00ee71b48e">anonymous_namespace{ObjectListWnd.cpp}::GetColumnWidth()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#aac5cc9348c14fef0e40b9bbedd429c1b">anonymous_namespace{SitRepPanel.cpp}::GetIconSize()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a504d670fbafc0b25d4e31d6211abb689">anonymous_namespace{MapWnd.cpp}::GetOrderedFleetRoute()</a>, <a class="el" href="Directories_8h.html#a5b567c6a18e0d02d67f39906fd0deccb">GetSaveDir()</a>, <a class="el" href="Directories_8h.html#a80e7e674574b51ce31503a17e2759a9a">GetServerSaveDir()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#ab451b504f1960ae1e1098071b1245657">anonymous_namespace{MapWnd.cpp}::GetShortestRoute()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#a4b6014f92305305df48329632d8c7c1b">anonymous_namespace{i18n.cpp}::GetStringTableFileName()</a>, <a class="el" href="classGGHumanClientApp.html#a6c7504b0dd595043773dee1153398c25">GGHumanClientApp::GetWindowLeftTop()</a>, <a class="el" href="classGGHumanClientApp.html#a71547677ea5a1a8b5e872bbc79a473a7">GGHumanClientApp::GetWindowWidthHeight()</a>, <a class="el" href="classGGHumanClientApp.html#acaf4794cd8b44774bbadbfe5616efbaf">GGHumanClientApp::GGHumanClientApp()</a>, <a class="el" href="classGGHumanClientApp.html#aae061df1e27a8fbaab22af5517388624">GGHumanClientApp::HandleFocusChange()</a>, <a class="el" href="classClientUI.html#aaf50a3aba9f3a038eca80318b6faf221">ClientUI::HandleFullscreenSwitch()</a>, <a class="el" href="structServerFSM.html#ace41861612f87d88fcb23398aea903a7">ServerFSM::HandleNonLobbyDisconnection()</a>, <a class="el" href="classEncyclopediaDetailPanel.html#abe1ca9109c73732a6c9bdb509c08d495">EncyclopediaDetailPanel::HandleSearchTextEntered()</a>, <a class="el" href="classClientUI.html#afa3c6fd93f611a8729ec825773eb8032">ClientUI::HandleSizeChange()</a>, <a class="el" href="namespaceanonymous__namespace_02SitRepPanel_8cpp_03.html#a6be4af1fc53fc494b308c101cb882db0">anonymous_namespace{SitRepPanel.cpp}::HiddenSitRepTemplateStringsFromOptions()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#aa66a12a941192a2bc16044bf434afa68">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::Init()</a>, <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">CUIWnd::InitSizeMove()</a>, <a class="el" href="namespaceanonymous__namespace_02i18n_8cpp_03.html#aefe5528dc226f9a9ab90d7a68ba78aaa">anonymous_namespace{i18n.cpp}::InitStringtableFileName()</a>, <a class="el" href="classMapWnd.html#ab94274c277727155c865f82e35c7a7df">MapWnd::InitTurn()</a>, <a class="el" href="classMapWnd.html#a11908f06ae0d7acd51b3dd84ce88d397">MapWnd::InitVisibilityRadiiRenderingBuffers()</a>, <a class="el" href="classOptionsWnd.html#a55c9735d6146f1f28403bf3c8bf960b1">OptionsWnd::IntOption()</a>, <a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">CUIWnd::InvalidateWindowOptions()</a>, <a class="el" href="classPlayerConnection.html#a006782ad54292dda57c09a862272d8ac">PlayerConnection::IsBinarySerializationUsed()</a>, <a class="el" href="classServerApp.html#a3ca4516607ab95dc923e5e39395ec630">ServerApp::IsHostless()</a>, <a class="el" href="namespaceanonymous__namespace_02ServerFSM_8cpp_03.html#a3bb2a6f063c9cf45491ef4ccb2022a69">anonymous_namespace{ServerFSM.cpp}::IsPlayerChanged()</a>, <a class="el" href="classSitRepPanel.html#aa97cd44556d4815c8ff49a75b649f588">SitRepPanel::IsSitRepInvalid()</a>, <a class="el" href="classClientUI.html#a77fe3c4cbbbd945cbb7d355d13b6489e">ClientUI::KnownTechFillColor()</a>, <a class="el" href="classClientUI.html#ad5b3ebd494729d2ec30caa84f32d9ae6">ClientUI::KnownTechTextAndBorderColor()</a>, <a class="el" href="classTechTreeWnd_1_1LayoutPanel.html#ae49d80d6e41e662cbe5a79c56b457039">TechTreeWnd::LayoutPanel::Layout()</a>, <a class="el" href="classFleetButton.html#a91562783b397700e207a46df1d594da0">FleetButton::LayoutIcons()</a>, <a class="el" href="classMapWnd.html#a8efd57a2d313785f12636fbaa10b2b5e">MapWnd::LClick()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">CUIWnd::LoadOptions()</a>, <a class="el" href="classSaveFileListBox.html#a5d0902e65c91a7897711da5cf178032a">SaveFileListBox::LoadSaveGamePreviews()</a>, <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, <a class="el" href="chmain_8h.html#ae70f051fd41b552c641f7752ca7021bd">mainSetupAndRun()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a54d7c6efe8659684861a5d88c21222f5">anonymous_namespace{SidePanel.cpp}::MaxPlanetDiameter()</a>, <a class="el" href="classClientUI.html#a833c2485fb4da8e057ec65afc627051b">ClientUI::MediumFleetButtonZoomThreshold()</a>, <a class="el" href="namespaceNetworking.html#a08f38832474e36960a9208bf09fa7bf5">Networking::MessagePort()</a>, <a class="el" href="classSystemIcon.html#abc2e551f6ea03bd938673f187035a911">SystemIcon::MouseEnter()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="namespaceanonymous__namespace_02FleetWnd_8cpp_03.html#ae940ba654096814dafe73ef29d243e04">anonymous_namespace{FleetWnd.cpp}::NewFleetsAggressiveOptionSetting()</a>, <a class="el" href="classGGHumanClientApp.html#aebd9248a9855d895c2812583ab907ac5">GGHumanClientApp::NewSinglePlayerGame()</a>, <a class="el" href="structdetail_1_1PlayValueChangedSound.html#ad7a8e40330f02cab172f525ffccb1ff2">detail::PlayValueChangedSound::operator()()</a>, <a class="el" href="classParticipantBar.html#a099e91a4a9b1cd0f58e4238a4754aa85">ParticipantBar::ParticipantBar()</a>, <a class="el" href="namespaceanonymous__namespace_02SidePanel_8cpp_03.html#a6b673e39083627f4f28a9a5018cc69e7">anonymous_namespace{SidePanel.cpp}::PlanetDiameter()</a>, <a class="el" href="namespaceanonymous__namespace_02SystemIcon_8cpp_03.html#a9c0843e0db4c761870df29301d607c55">anonymous_namespace{SystemIcon.cpp}::PlaySounds()</a>, <a class="el" href="classServerConnectWnd.html#a70f2e108e590b63582ea643402ce042b">ServerConnectWnd::PopulateServerList()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a0fdd37c4dc54f290045ffcee35c47d6b">anonymous_namespace{MapWnd.cpp}::PrepFullLanesToRender()</a>, <a class="el" href="classIntroScreen.html#a6620f893afefc387b4628e4a7a12fc25">IntroScreen::PreRender()</a>, <a class="el" href="classClientUI.html#a53ba7f786758f8a3bc59e82ae032f16b">ClientUI::Pts()</a>, <a class="el" href="classMapWnd.html#a28ba4caca21761534615a2bf5516a8af">MapWnd::RClick()</a>, <a class="el" href="structIdle.html#a49993ba019716411fc49789cc5091818">Idle::react()</a>, <a class="el" href="structMPLobby.html#a5130e55a27885defff51b1d7632ce7a2">MPLobby::react()</a>, <a class="el" href="structWaitingForMPGameJoiners.html#a8fa9ad66926ca2a4e73a9e6a450526c2">WaitingForMPGameJoiners::react()</a>, <a class="el" href="structPlayingGame.html#a3d94a763b8c0671ac4071f11e9effbd0">PlayingGame::react()</a>, <a class="el" href="structWaitingForTurnEnd.html#a19e5a90039e95b907a29478661416f66">WaitingForTurnEnd::react()</a>, <a class="el" href="structProcessingTurn.html#a899549733717b66870762ef55f44da7d">ProcessingTurn::react()</a>, <a class="el" href="classHotkey.html#afa243af2d43cf66afda7652887b2a3f7">Hotkey::ReadFromOptions()</a>, <a class="el" href="classBuildingIndicator.html#a2b1f88644905c2117927aee3ec2334c7">BuildingIndicator::Refresh()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#afc347660bfb9cd1cbd05cbad1ee16509">SidePanel::PlanetPanel::Refresh()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#a81f953f10503db7a1172a47617bc8fef">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::Refresh()</a>, <a class="el" href="classFleetDataPanel.html#a00efb19ae26b1c751af8da8ff62e3702">FleetDataPanel::Refresh()</a>, <a class="el" href="classTechTreeWnd_1_1TechTreeControls.html#afa851812bb25e94ab8777f7a9cb4d59d">TechTreeWnd::TechTreeControls::RefreshCategoryButtons()</a>, <a class="el" href="namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#abaf51637e6b6fa10648011cc414c7da4">anonymous_namespace{EncyclopediaDetailPanel.cpp}::RefreshDetailPanelSpeciesTag()</a>, <a class="el" href="classSidePanel_1_1PlanetPanel.html#a65424d3050e1ba48c880b07eea7e30a1">SidePanel::PlanetPanel::RefreshPlanetGraphic()</a>, <a class="el" href="classGGHumanClientApp.html#a4041321a3bcb47719fff87fc187e7a42">GGHumanClientApp::Reinitialize()</a>, <a class="el" href="classMapWnd.html#a2e27a873c72e7dfbca031f2ef2fa0875">MapWnd::RenderFields()</a>, <a class="el" href="classMapWnd.html#a07bf580209e7c943d3ec3d531968e0c5">MapWnd::RenderFleetMovementLines()</a>, <a class="el" href="classMapWnd.html#a3281fa2fb777d918eab2ec9c0e902cf0">MapWnd::RenderStarfields()</a>, <a class="el" href="classMapWnd.html#a05d645ad18beeb67168ff336cf7b1a2c">MapWnd::RenderStarlanes()</a>, <a class="el" href="classMapWnd.html#a7caa8c35ce647fffd2832777ef3562d8">MapWnd::RenderSystems()</a>, <a class="el" href="namespaceanonymous__namespace_02ClientUI_8cpp_03.html#a321e0cc8cb9d0bcd26afe5890adaa088">anonymous_namespace{ClientUI.cpp}::RequiredCharsets()</a>, <a class="el" href="classClientUI.html#a33ca9a8ebfd3cf4a29f490e52f0dfeda">ClientUI::ResearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#acd4877f62014b16c307ab7b13628d736">ClientUI::ResearchableTechTextAndBorderColor()</a>, <a class="el" href="classGGHumanClientApp.html#a27a911a2a12fb1f46e24aba67fee8423">GGHumanClientApp::ResetOrExitApp()</a>, <a class="el" href="classOptionsWnd.html#a4ec8628cd986393ab14ec53989cd9f85">OptionsWnd::ResolutionOption()</a>, <a class="el" href="classClientUI.html#a040225832e0f5f94835d39a6ec808a66">ClientUI::RolloverLinkColor()</a>, <a class="el" href="classClientUI.html#a31230ea942e26584035af38228e9a0c0">ClientUI::RolloverTooltipColor()</a>, <a class="el" href="classCUIWnd.html#ae7ed9bc0dbae9ae049d48fe220b32716">CUIWnd::SaveDefaultedOptions()</a>, <a class="el" href="SaveLoad_8h.html#ac66fc69c37a3fc15a9fe22884abd62c0">SaveGame()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">CUIWnd::SaveOptions()</a>, <a class="el" href="classClientUI.html#a157847247ee589f061dc40bfe4e0aeb5">ClientUI::ScrollWidth()</a>, <a class="el" href="classServerApp.html#a47e4d249b0100076dfb862665888935f">ServerApp::ServerApp()</a>, <a class="el" href="namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a3ba144f3d0a1d41628bca8992863e7a3">anonymous_namespace{GGHumanClientApp.cpp}::SetEmptyStringDefaultOption()</a>, <a class="el" href="classanonymous__namespace_02FleetWnd_8cpp_03_1_1ShipDataPanel.html#ae6d5192eb4fe25d70d8206353e8f4b1a">anonymous_namespace{FleetWnd.cpp}::ShipDataPanel::SetShipIcon()</a>, <a class="el" href="classSystemIcon.html#a3d670a80a74e8103e279436cb20e0d7d">SystemIcon::SizeMove()</a>, <a class="el" href="classClientUI.html#a32a0642c287afc27239379fd48c75d82">ClientUI::SmallFleetButtonZoomThreshold()</a>, <a class="el" href="classGGHumanClientApp.html#a46b31add07090136f69f5bc1e496bee8">GGHumanClientApp::StartServer()</a>, <a class="el" href="classGGHumanClientApp.html#a4bd7107d8c29064d3283543b622d3ad2">GGHumanClientApp::StartTurn()</a>, <a class="el" href="classScanlineRenderer_1_1Impl.html#a3c50fb4219200f36c69d50a7dacaff4a">ScanlineRenderer::Impl::StartUsing()</a>, <a class="el" href="classClientUI.html#a585c742b9d9e0a0dc68b2dbc736163a3">ClientUI::StatDecrColor()</a>, <a class="el" href="classClientUI.html#a3ff9556ff8124d99582f5236fa00e342">ClientUI::StateButtonColor()</a>, <a class="el" href="classClientUI.html#a3af9ea4f8b59633fbc82148f0a72c794">ClientUI::StatIncrColor()</a>, <a class="el" href="classClientUI.html#ac5943654275ee76f385aafec22782306">ClientUI::SystemCircleSize()</a>, <a class="el" href="classClientUI.html#a1b4f5da16af8f18ce4f90df5f08f051d">ClientUI::SystemIconSize()</a>, <a class="el" href="classClientUI.html#a883aa65db83dbbf5da16b87ba69285d0">ClientUI::SystemNameTextColor()</a>, <a class="el" href="classClientUI.html#aa1c01e87bcae18402e4a595774bef72c">ClientUI::SystemSelectionIndicatorRPM()</a>, <a class="el" href="classClientUI.html#a8adc3ca942af7b8493fa85222dca33bd">ClientUI::SystemSelectionIndicatorSize()</a>, <a class="el" href="classClientUI.html#a2bedc5bc0a181c1723de8151feea76d3">ClientUI::SystemTinyIconSizeThreshold()</a>, <a class="el" href="classClientUI.html#a806b590ec414fbc7b139ca4113d24af3">ClientUI::TechWndProgressBarBackgroundColor()</a>, <a class="el" href="classClientUI.html#ad540121c8faa0289b44368e4f7584403">ClientUI::TechWndProgressBarColor()</a>, <a class="el" href="classClientUI.html#a5fd6866d2265b0334a51bcaa7908a5fd">ClientUI::TextColor()</a>, <a class="el" href="classClientUI.html#a33e8ea276caf1f1a3219e0d3239201fb">ClientUI::TinyFleetButtonZoomThreshold()</a>, <a class="el" href="classClientUI.html#a582e0ce3e1632f8ee42d7d6adfb2e913">ClientUI::TitlePts()</a>, <a class="el" href="namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a8630a49cc821a2bdf1dfdc04e447566e">anonymous_namespace{MapWnd.cpp}::ToggleBoolOption()</a>, <a class="el" href="classGGHumanClientApp.html#a60567f540d2cf8246b928ca86f73a58c">GGHumanClientApp::ToggleFullscreen()</a>, <a class="el" href="classClientUI.html#a0afab5005ed265c7a4730ee217b85cd4">ClientUI::UnresearchableTechFillColor()</a>, <a class="el" href="classClientUI.html#a5f4ed22bae90aa5645567bda2907502a">ClientUI::UnresearchableTechTextAndBorderColor()</a>, <a class="el" href="classFleetDataPanel.html#a54ccfa7a1b9aee1490c2341b57299c2a">FleetDataPanel::UpdateAggressionToggle()</a>, <a class="el" href="classFPSIndicator.html#a699e2044f5d4ff8fbfb020c6fb93e2bd">FPSIndicator::UpdateEnabled()</a>, <a class="el" href="classMapWnd_1_1MapScaleLine.html#a7d1ed27dc720a9c303c5707b8fd243e6">MapWnd::MapScaleLine::UpdateEnabled()</a>, <a class="el" href="classGGHumanClientApp.html#a7917d89efe1af83fc397e95ab7dd2c4d">GGHumanClientApp::UpdateFPSLimit()</a>, <a class="el" href="classUniverse.html#acc97437600d0a01ca4719324a9cfeb81">Universe::UpdateMeterEstimates()</a>, <a class="el" href="structMPLobby.html#a69952e5cbd12428a9ea2a47255255be3">MPLobby::ValidateClientLimits()</a>, <a class="el" href="structWaitingForTurnEnd.html#adc37e0a4ecf9e977f40b12a3c7e570af">WaitingForTurnEnd::WaitingForTurnEnd()</a>, <a class="el" href="classClientUI.html#a9fe97154fa9a79e477f98a70fe29b6e8">ClientUI::WndColor()</a>, <a class="el" href="classClientUI.html#a9c2151fccb3b80760b836fc15d7e947b">ClientUI::WndInnerBorderColor()</a>, and <a class="el" href="classClientUI.html#a9dfbfadb9de7aa348078cc25e3ae324f">ClientUI::WndOuterBorderColor()</a>.</p>
 
 </div>
 </div>
@@ -887,14 +987,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a97d203f4fb46181380aea6d91daac94e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d203f4fb46181380aea6d91daac94e">&#9670;&nbsp;</a></span>GetValidator()</h2>
+<a id="adddb7cb410028b39bf17e6f252056d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddb7cb410028b39bf17e6f252056d84">&#9670;&nbsp;</a></span>GetValidator()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; const <a class="el" href="structValidatorBase.html">ValidatorBase</a> &gt; OptionsDB::GetValidator </td>
+          <td class="memname">const <a class="el" href="structValidatorBase.html">ValidatorBase</a> * OptionsDB::GetValidator </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>option_name</em></td><td>)</td>
@@ -976,7 +1076,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="classOptionsDB.html#a16f9200db38cb9c51374b30e3242b52b">IsDefaultValue()</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#abba7a4e4a27e00fed04889cea2ba5aea">anonymous_namespace{OptionsDB.cpp}::PreviousSectionName()</a>, <a class="el" href="classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a">XMLDoc::root_node</a>, <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>, and <a class="el" href="classXMLElement.html#a15b7650bc1d2198ae1b86a78bff705ed">XMLElement::Tag()</a>.</p>
+<p class="reference">References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="classOptionsDB.html#a16f9200db38cb9c51374b30e3242b52b">IsDefaultValue()</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1OptionSection.html#ab199bcd857bd536876cf9e4066ad6faf">OptionsDB::OptionSection::name</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#abba7a4e4a27e00fed04889cea2ba5aea">anonymous_namespace{OptionsDB.cpp}::PreviousSectionName()</a>, <a class="el" href="classXMLDoc.html#a9235bd81c28d5523f1369651a28fba8a">XMLDoc::root_node</a>, <a class="el" href="classXMLElement.html#a04784b6df7afbca6062f322698af8362">XMLElement::SetText()</a>, and <a class="el" href="classXMLElement.html#a15b7650bc1d2198ae1b86a78bff705ed">XMLElement::Tag()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a22746f6d5751225f473532f35694aadf">Commit()</a>, and <a class="el" href="classOptionsDB.html#ac4f1f772194e1c0a5631586ad0c4e816">CommitPersistent()</a>.</p>
 
@@ -1088,7 +1188,7 @@ template&lt;typename T &gt; </div>
 
 <p>indicates whether an option with name <em>name</em> has been added to this <a class="el" href="classOptionsDB.html" title="a database of values of arbitrarily mixed types that can be initialized from an XML config file and/o...">OptionsDB</a>. </p>
 
-<p class="reference">Referenced by <a class="el" href="classGameRules.html#a8acfac105251136ee962863e1791c9e7">GameRules::Add()</a>, <a class="el" href="namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#a63d7cc7103a4d8d63bca28ac847445f7">anonymous_namespace{ResearchWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#ab58e7993489dd28df22952b3110da7e6">anonymous_namespace{ProductionWnd.cpp}::AddOptions()</a>, <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classSaveFileColumn.html#a7099e0353f306c17f12060004eb62217">SaveFileColumn::GetColumn()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#a97d203f4fb46181380aea6d91daac94e">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">CUIWnd::InitSizeMove()</a>, <a class="el" href="classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0">CUIWnd::InvalidateUnusedOptions()</a>, <a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">CUIWnd::InvalidateWindowOptions()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">CUIWnd::LoadOptions()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classHotkey.html#afa243af2d43cf66afda7652887b2a3f7">Hotkey::ReadFromOptions()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">CUIWnd::SaveOptions()</a>, <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>, <a class="el" href="namespaceFreeOrionPython.html#a81aba7428767ee8b6c652bcaf427bb43">FreeOrionPython::WrapConfig()</a>, and <a class="el" href="classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa">CUIWnd::~CUIWnd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classGameRules.html#a956c16da9a286bd5cbaf60892b27c038">GameRules::Add()</a>, <a class="el" href="namespaceanonymous__namespace_02ResearchWnd_8cpp_03.html#a63d7cc7103a4d8d63bca28ac847445f7">anonymous_namespace{ResearchWnd.cpp}::AddOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02ProductionWnd_8cpp_03.html#ab58e7993489dd28df22952b3110da7e6">anonymous_namespace{ProductionWnd.cpp}::AddOptions()</a>, <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="namespaceanonymous__namespace_02GameRules_8cpp_03.html#a97e608f595ff9912924fff95e630f7ac">anonymous_namespace{GameRules.cpp}::CheckValidatorAndAddRuleOption()</a>, <a class="el" href="classSaveFileColumn.html#a7099e0353f306c17f12060004eb62217">SaveFileColumn::GetColumn()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#adddb7cb410028b39bf17e6f252056d84">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classCUIWnd.html#a2ab710d8d994a81d2de58d03dcefe6e3">CUIWnd::InitSizeMove()</a>, <a class="el" href="classCUIWnd.html#ac1c5a29d178d397a7312442f62e8a6d0">CUIWnd::InvalidateUnusedOptions()</a>, <a class="el" href="classCUIWnd.html#a204c13a13a8bf7ec9649e124e8cf4472">CUIWnd::InvalidateWindowOptions()</a>, <a class="el" href="classCUIWnd.html#a85066bd3343824c57dae6cf9e446808b">CUIWnd::LoadOptions()</a>, <a class="el" href="classGGHumanClientApp.html#a6c6c4852424289566d139b5b86bd4dda">GGHumanClientApp::MultiPlayerGame()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classHotkey.html#afa243af2d43cf66afda7652887b2a3f7">Hotkey::ReadFromOptions()</a>, <a class="el" href="classCUIWnd.html#a0d3463aea8c746001b80965dc554fe22">CUIWnd::SaveOptions()</a>, <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>, <a class="el" href="namespaceFreeOrionPython.html#a81aba7428767ee8b6c652bcaf427bb43">FreeOrionPython::WrapConfig()</a>, and <a class="el" href="classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa">CUIWnd::~CUIWnd()</a>.</p>
 
 </div>
 </div>
@@ -1171,7 +1271,7 @@ template&lt;typename T &gt; </div>
 
 <p>removes an <a class="el" href="structOptionsDB_1_1Option.html">Option</a> </p>
 
-<p class="reference">References <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="classOptionsDB.html#aede5bb12b315bf9574543a5f8e99a194">OptionRemovedSignal</a>, and <a class="el" href="structOptionsDB_1_1Option.html#a73e32d755b980c2137f0cc26277c25c5">OptionsDB::Option::short_names</a>.</p>
+<p class="reference">References <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="classOptionsDB.html#aede5bb12b315bf9574543a5f8e99a194">OptionRemovedSignal</a>, and <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a2b63121a1940266bd9d14bd5724057c7">anonymous_namespace{OptionsDB.cpp}::short_names</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classCUIWnd.html#a05f1a8703a9baf49fe4a14934f01cff9">CUIWnd::AddWindowOptions()</a>, <a class="el" href="classOptionsDB.html#aeb64ee8f4feb263360bb1bcbaa22cb1e">RemoveUnrecognized()</a>, and <a class="el" href="classCUIWnd.html#ab121e6a1dd526f7a272e69a1d56198aa">CUIWnd::~CUIWnd()</a>.</p>
 
@@ -1244,8 +1344,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad49fc3590017c6041457c27cec43063b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad49fc3590017c6041457c27cec43063b">&#9670;&nbsp;</a></span>SetDefault()</h2>
+<a id="a9c8f9f139ed66fca750b48c6b4328cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c8f9f139ed66fca750b48c6b4328cd8">&#9670;&nbsp;</a></span>SetDefault()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1264,7 +1364,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -1306,7 +1406,7 @@ template&lt;typename T &gt; </div>
 
 <p>fills some or all of the options of the DB from values passed in from the command line </p>
 
-<p class="reference">References <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">OptionsDB::Option::flag</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1Option.html#a6ab634ceb5aeeee49bfd9966314cfb88">OptionsDB::Option::name</a>, <a class="el" href="structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664">OptionsDB::Option::SetFromString()</a>, <a class="el" href="structOptionsDB_1_1Option.html#a73e32d755b980c2137f0cc26277c25c5">OptionsDB::Option::short_names</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a8be4512b2ce05c15e981bf854339ba84">anonymous_namespace{OptionsDB.cpp}::StripQuotation()</a>, <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">OptionsDB::Option::value</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
+<p class="reference">References <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">OptionsDB::Option::flag</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1Option.html#a6ab634ceb5aeeee49bfd9966314cfb88">OptionsDB::Option::name</a>, <a class="el" href="structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664">OptionsDB::Option::SetFromString()</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a2b63121a1940266bd9d14bd5724057c7">anonymous_namespace{OptionsDB.cpp}::short_names</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a8be4512b2ce05c15e981bf854339ba84">anonymous_namespace{OptionsDB.cpp}::StripQuotation()</a>, <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">OptionsDB::Option::value</a>, and <a class="el" href="Logger_8h.html#a5ff6d4299bf2eda8d5065557123620b4">WarnLogger</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="camain_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>, and <a class="el" href="chmain_8h.html#a0fb9337762aca900c573d49e7b167b7c">mainConfigOptionsSetup()</a>.</p>
 
@@ -1404,7 +1504,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">OptionsDB::Option::flag</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664">OptionsDB::Option::SetFromString()</a>, <a class="el" href="classXMLElement.html#a15b7650bc1d2198ae1b86a78bff705ed">XMLElement::Tag()</a>, <a class="el" href="classXMLElement.html#a72775ca171ff7e6fb24d374473c03437">XMLElement::Text()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">OptionsDB::Option::value</a>.</p>
+<p class="reference">References <a class="el" href="classXMLElement.html#ab6f0f8e9eb519f99bcadbf72b3ee4372">XMLElement::children</a>, <a class="el" href="Logger_8h.html#a1293239c0258ce9ee08d7237af934e0d">ErrorLogger</a>, <a class="el" href="structOptionsDB_1_1Option.html#a78825634806d423e7e4d5c0592efbee3">OptionsDB::Option::flag</a>, <a class="el" href="namespaceanonymous__namespace_02OptionsDB_8cpp_03.html#a266bb66327939c4ccaa1b23bae8605a7">anonymous_namespace{OptionsDB.cpp}::lexical_true_str</a>, <a class="el" href="classOptionsDB.html#ab150eaae0955b620d137c5d5f383718c">m_dirty</a>, <a class="el" href="classOptionsDB.html#a503b7e8a9fd8036a07409607a6fd7847">m_options</a>, <a class="el" href="structOptionsDB_1_1Option.html#aded29ff40cc22fdb7db2f653fbfaf664">OptionsDB::Option::SetFromString()</a>, <a class="el" href="classXMLElement.html#a15b7650bc1d2198ae1b86a78bff705ed">XMLElement::Tag()</a>, <a class="el" href="classXMLElement.html#a72775ca171ff7e6fb24d374473c03437">XMLElement::Text()</a>, <a class="el" href="Logger_8h.html#a9dfae4005251f6117445ab67e631b6c8">TraceLogger</a>, and <a class="el" href="structOptionsDB_1_1Option.html#aece14cdac8bc2d05887bfab15edc6243">OptionsDB::Option::value</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a1597deae00990e4071bd2d1ddfbcab7d">SetFromXML()</a>.</p>
 
@@ -1484,7 +1584,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool OptionsDB::m_dirty</td>
+          <td class="memname">bool OptionsDB::m_dirty = false</td>
         </tr>
       </table>
   </td>
@@ -1518,7 +1618,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a05e58b5e64f35d94b94f7d90b8618ad6">FindOptions()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56">GetUsage()</a>, <a class="el" href="classOptionsDB.html#a97d203f4fb46181380aea6d91daac94e">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, <a class="el" href="classOptionsDB.html#aaf2ac0d453b333fdd15bdd6e368231c5">OptionChangedSignal()</a>, <a class="el" href="classOptionsDB.html#ad8b5bcdda86742bc8885e3a29febcb03">OptionsBySection()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#aeb64ee8f4feb263360bb1bcbaa22cb1e">RemoveUnrecognized()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>, and <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a05e58b5e64f35d94b94f7d90b8618ad6">FindOptions()</a>, <a class="el" href="classOptionsDB.html#aefc7a8e3d36001ea5adc6e871f9d4878">GetDefaultValueString()</a>, <a class="el" href="classOptionsDB.html#a647d5bb2b4121d7711b80167ae5e8c26">GetDescription()</a>, <a class="el" href="classOptionsDB.html#a9fa9fdfd6623b0ce6c11225a062d8f56">GetUsage()</a>, <a class="el" href="classOptionsDB.html#adddb7cb410028b39bf17e6f252056d84">GetValidator()</a>, <a class="el" href="classOptionsDB.html#ad1eaf39180511a85d886df1412a602ea">GetValueString()</a>, <a class="el" href="classOptionsDB.html#ad4d1bee4f973ce8ac6a1e88464766b4d">GetXML()</a>, <a class="el" href="classOptionsDB.html#aaf2ac0d453b333fdd15bdd6e368231c5">OptionChangedSignal()</a>, <a class="el" href="classOptionsDB.html#ad8b5bcdda86742bc8885e3a29febcb03">OptionsBySection()</a>, <a class="el" href="OptionsDB_8h.html#abeb109b8c0a88073d3ff479dec3f5edb">OptionsDB::Get&lt; std::vector&lt; std::string &gt; &gt;()</a>, <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>, <a class="el" href="classOptionsDB.html#aeb64ee8f4feb263360bb1bcbaa22cb1e">RemoveUnrecognized()</a>, <a class="el" href="classOptionsDB.html#a32deca7693ffe60f5d65d19d40211d1e">SetFromCommandLine()</a>, <a class="el" href="classOptionsDB.html#a2adae38049a4aea3f14588976bb07ddf">SetFromXMLRecursive()</a>, and <a class="el" href="classOptionsDB.html#acabcd2d6bf518b8d602ad8820f1cdc5a">Validate()</a>.</p>
 
 </div>
 </div>
@@ -1593,30 +1693,6 @@ template&lt;typename T &gt; </div>
 <p>the change removed signal object for this DB </p>
 
 <p class="reference">Referenced by <a class="el" href="classOptionsDB.html#aee20678a1e7b3459eb2dc39cc9ae06e5">Remove()</a>.</p>
-
-</div>
-</div>
-<a id="ac85c1ce2277c9d0d00b9681aeee44d8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac85c1ce2277c9d0d00b9681aeee44d8d">&#9670;&nbsp;</a></span>s_options_db</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classOptionsDB.html">OptionsDB</a> * OptionsDB::s_options_db = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classOptionsDB.html#a9de23daa2c098d162828395cf32b6767">OptionsDB()</a>, and <a class="el" href="structOptionsDB_1_1OptionSection.html#a85d84f4384c17b5afe5da22f5dab56c4">OptionsDB::OptionSection::OptionSection()</a>.</p>
 
 </div>
 </div>
