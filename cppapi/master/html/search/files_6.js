@@ -7,6 +7,8 @@ var searchData=
   ['gamerulesparser_2ecpp',['GameRulesParser.cpp',['../GameRulesParser_8cpp.html',1,'']]],
   ['gghumanclientapp_2ecpp',['GGHumanClientApp.cpp',['../GGHumanClientApp_8cpp.html',1,'']]],
   ['gghumanclientapp_2eh',['GGHumanClientApp.h',['../GGHumanClientApp_8h.html',1,'']]],
+  ['godotclientapp_2ecpp',['GodotClientApp.cpp',['../GodotClientApp_8cpp.html',1,'']]],
+  ['godotclientapp_2eh',['GodotClientApp.h',['../GodotClientApp_8h.html',1,'']]],
   ['government_2ecpp',['Government.cpp',['../Government_8cpp.html',1,'']]],
   ['government_2eh',['Government.h',['../Government_8h.html',1,'']]],
   ['governmentwnd_2ecpp',['GovernmentWnd.cpp',['../GovernmentWnd_8cpp.html',1,'']]],

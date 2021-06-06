@@ -14,7 +14,7 @@ var searchData=
   ['loadgameplayerrow',['LoadGamePlayerRow',['../structanonymous__namespace_02MultiplayerLobbyWnd_8cpp_03_1_1LoadGamePlayerRow.html',1,'anonymous_namespace{MultiplayerLobbyWnd.cpp}']]],
   ['loadsavefilefailed',['LoadSaveFileFailed',['../structLoadSaveFileFailed.html',1,'']]],
   ['local_5fcandidate_5fwrapper',['local_candidate_wrapper',['../structlocal__candidate__wrapper.html',1,'']]],
-  ['localserveralreadyrunningexception',['LocalServerAlreadyRunningException',['../classanonymous__namespace_02GGHumanClientApp_8cpp_03_1_1LocalServerAlreadyRunningException.html',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
+  ['localserveralreadyrunningexception',['LocalServerAlreadyRunningException',['../classanonymous__namespace_02GGHumanClientApp_8cpp_03_1_1LocalServerAlreadyRunningException.html',1,'anonymous_namespace{GGHumanClientApp.cpp}::LocalServerAlreadyRunningException'],['../classanonymous__namespace_02GodotClientApp_8cpp_03_1_1LocalServerAlreadyRunningException.html',1,'anonymous_namespace{GodotClientApp.cpp}::LocalServerAlreadyRunningException']]],
   ['location',['Location',['../structCondition_1_1Location.html',1,'Condition']]],
   ['loggerstosinkfrontends',['LoggersToSinkFrontEnds',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggersToSinkFrontEnds.html',1,'anonymous_namespace{Logger.cpp}']]],
   ['loggerthresholdsetter',['LoggerThresholdSetter',['../classanonymous__namespace_02Logger_8cpp_03_1_1LoggerThresholdSetter.html',1,'anonymous_namespace{Logger.cpp}']]]

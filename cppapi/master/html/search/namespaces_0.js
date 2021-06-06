@@ -42,6 +42,7 @@ var searchData=
   ['anonymous_5fnamespace_7bgalaxysetupwnd_2ecpp_7d',['anonymous_namespace{GalaxySetupWnd.cpp}',['../namespaceanonymous__namespace_02GalaxySetupWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgamerules_2ecpp_7d',['anonymous_namespace{GameRules.cpp}',['../namespaceanonymous__namespace_02GameRules_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgghumanclientapp_2ecpp_7d',['anonymous_namespace{GGHumanClientApp.cpp}',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html',1,'']]],
+  ['anonymous_5fnamespace_7bgodotclientapp_2ecpp_7d',['anonymous_namespace{GodotClientApp.cpp}',['../namespaceanonymous__namespace_02GodotClientApp_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgovernment_2ecpp_7d',['anonymous_namespace{Government.cpp}',['../namespaceanonymous__namespace_02Government_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgovernmentwnd_2ecpp_7d',['anonymous_namespace{GovernmentWnd.cpp}',['../namespaceanonymous__namespace_02GovernmentWnd_8cpp_03.html',1,'']]],
   ['anonymous_5fnamespace_7bgraphicalsummary_2ecpp_7d',['anonymous_namespace{GraphicalSummary.cpp}',['../namespaceanonymous__namespace_02GraphicalSummary_8cpp_03.html',1,'']]],

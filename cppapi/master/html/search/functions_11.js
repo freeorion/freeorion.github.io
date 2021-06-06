@@ -16,6 +16,7 @@ var searchData=
   ['queueproductionitempanel',['QueueProductionItemPanel',['../classanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueProductionItemPanel.html#a9e22b0db58dccc49cb54139277efe439',1,'anonymous_namespace{ProductionWnd.cpp}::QueueProductionItemPanel']]],
   ['queuerow',['QueueRow',['../structanonymous__namespace_02ProductionWnd_8cpp_03_1_1QueueRow.html#a9dcc39c415e2075a686a8a40e0d0471b',1,'anonymous_namespace{ProductionWnd.cpp}::QueueRow::QueueRow()'],['../structanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueRow.html#a8dd5657e7188c6d0a9b90dc107581aa9',1,'anonymous_namespace{ResearchWnd.cpp}::QueueRow::QueueRow()']]],
   ['queuetechpanel',['QueueTechPanel',['../classanonymous__namespace_02ResearchWnd_8cpp_03_1_1QueueTechPanel.html#a578670b85185ceb080ee69650674a6b0',1,'anonymous_namespace{ResearchWnd.cpp}::QueueTechPanel']]],
+  ['quit',['quit',['../FreeOrionNode_8cpp.html#a400f7b7aa9581a40132df0884b620330',1,'FreeOrionNode.cpp']]],
   ['quitsignal',['QuitSignal',['../structanonymous__namespace_02SDLGUI_8cpp_03_1_1QuitSignal.html#a7eab0c82b3684a5a63913c7fad13fc1e',1,'anonymous_namespace{SDLGUI.cpp}::QuitSignal']]],
   ['quittinggame',['QuittingGame',['../structQuittingGame.html#a46907cba60c808bf52be11c7baa20341',1,'QuittingGame']]]
 ];

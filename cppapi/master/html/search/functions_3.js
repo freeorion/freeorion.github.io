@@ -131,7 +131,7 @@ var searchData=
   ['clearparts',['ClearParts',['../classDesignWnd_1_1MainPanel.html#a46e7164d685cb9e7bf38da3f54032438',1,'DesignWnd::MainPanel']]],
   ['clearpolicies',['ClearPolicies',['../classGovernmentWnd_1_1MainPanel.html#a899218b3afef5bf93644dd1e5a0b9836',1,'GovernmentWnd::MainPanel']]],
   ['clearpolicy',['ClearPolicy',['../classGovernmentWnd_1_1MainPanel.html#ab870133ebdf008da1e53bcb5731affd5',1,'GovernmentWnd::MainPanel']]],
-  ['clearpreviouspendingsaves',['ClearPreviousPendingSaves',['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a3fd1037028f2091e79c24f2fc85de1ff',1,'anonymous_namespace{GGHumanClientApp.cpp}']]],
+  ['clearpreviouspendingsaves',['ClearPreviousPendingSaves',['../namespaceanonymous__namespace_02GodotClientApp_8cpp_03.html#a463e9fdb7b70cf9a98926caab1f3d516',1,'anonymous_namespace{GodotClientApp.cpp}::ClearPreviousPendingSaves()'],['../namespaceanonymous__namespace_02GGHumanClientApp_8cpp_03.html#a3fd1037028f2091e79c24f2fc85de1ff',1,'anonymous_namespace{GGHumanClientApp.cpp}::ClearPreviousPendingSaves()']]],
   ['clearprojectedfleetmovementlines',['ClearProjectedFleetMovementLines',['../classMapWnd.html#a8667d5ed6ac2648f52a5b6a4ad78c669',1,'MapWnd']]],
   ['clearscalecirclerenderingbuffer',['ClearScaleCircleRenderingBuffer',['../classMapWnd.html#aebd849991f0a3c442916cd3f97a71487',1,'MapWnd']]],
   ['clearselected',['ClearSelected',['../classCensoredCUIEdit.html#aee3de6b6570d685f26d058b45cab0065',1,'CensoredCUIEdit']]],
