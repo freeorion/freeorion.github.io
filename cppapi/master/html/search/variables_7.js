@@ -16,7 +16,7 @@ var searchData=
   ['gameplay_5fdesc',['gameplay_desc',['../structanonymous__namespace_02SpeciesParser_8cpp_03_1_1SpeciesStrings.html#a7300d78aae1498c96ff2c499651463a6',1,'anonymous_namespace{SpeciesParser.cpp}::SpeciesStrings']]],
   ['gen',['gen',['../namespaceanonymous__namespace_02Random_8cpp_03.html#addd3cf38900687f196f83118c03bf31b',1,'anonymous_namespace{Random.cpp}']]],
   ['generate_5fsitrep_5fmessage',['generate_sitrep_message',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a2e6d15c3ae7b9152d820e67a8d6f9286',1,'parse::detail::effect_parser_rules_1']]],
-  ['give_5fempire_5ftech',['give_empire_tech',['../structparse_1_1detail_1_1effect__parser__rules__1.html#a043088b099dfb7b997015972f33efb3c',1,'parse::detail::effect_parser_rules_1']]],
+  ['give_5fempire_5fcontent',['give_empire_content',['../structparse_1_1detail_1_1effect__parser__rules__1.html#acfae9df56f706b29e75702390fcb90bc',1,'parse::detail::effect_parser_rules_1']]],
   ['globals',['globals',['../structanonymous__namespace_02TechsParser_8cpp_03_1_1py__grammar__techs.html#a8f4c49aa5a516fb65a6461d6960235da',1,'anonymous_namespace{TechsParser.cpp}::py_grammar_techs']]],
   ['government_5fwnd_5fname',['GOVERNMENT_WND_NAME',['../namespaceanonymous__namespace_02MapWnd_8cpp_03.html#a53a5ce12d8b486ccce6af525f22f1fb1',1,'anonymous_namespace{MapWnd.cpp}']]],
   ['graph',['GRAPH',['../namespaceanonymous__namespace_02EncyclopediaDetailPanel_8cpp_03.html#a3e94f3d1c43497e2bcafa6b3e651991c',1,'anonymous_namespace{EncyclopediaDetailPanel.cpp}']]],
